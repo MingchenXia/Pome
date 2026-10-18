@@ -1317,6 +1317,93 @@
     "tag": "7C49056207BE"
   },
   {
+    "route": "sections/separate-harmonicity-and-subharmonicity",
+    "title": "3.6 Separate harmonicity and subharmonicity",
+    "chapter": "classical-potentials",
+    "section": "separate-harmonicity-and-subharmonicity"
+  },
+  {
+    "route": "tag/58AAF98CC15E",
+    "title": "Theorem 3.6.1",
+    "chapter": "classical-potentials",
+    "section": "separate-harmonicity-and-subharmonicity",
+    "tag": "58AAF98CC15E"
+  },
+  {
+    "route": "tag/95AFE3B73B3D",
+    "title": "Theorem 3.6.2",
+    "chapter": "classical-potentials",
+    "section": "separate-harmonicity-and-subharmonicity",
+    "tag": "95AFE3B73B3D"
+  },
+  {
+    "route": "sections/polynomial-approximation-and-a-separate-subharmonic-example",
+    "title": "3.7 Polynomial approximation and a separate-subharmonic example",
+    "chapter": "classical-potentials",
+    "section": "polynomial-approximation-and-a-separate-subharmonic-example"
+  },
+  {
+    "route": "tag/6D285B395FD0",
+    "title": "Proposition 3.7.1",
+    "chapter": "classical-potentials",
+    "section": "polynomial-approximation-and-a-separate-subharmonic-example",
+    "tag": "6D285B395FD0"
+  },
+  {
+    "route": "sections/planar-green-functions-and-conformal-maps",
+    "title": "3.8 Planar Green functions and conformal maps",
+    "chapter": "classical-potentials",
+    "section": "planar-green-functions-and-conformal-maps"
+  },
+  {
+    "route": "tag/E2B11E803D94",
+    "title": "Theorem 3.8.1",
+    "chapter": "classical-potentials",
+    "section": "planar-green-functions-and-conformal-maps",
+    "tag": "E2B11E803D94"
+  },
+  {
+    "route": "tag/3F05222ECC9E",
+    "title": "Proposition 3.8.2",
+    "chapter": "classical-potentials",
+    "section": "planar-green-functions-and-conformal-maps",
+    "tag": "3F05222ECC9E"
+  },
+  {
+    "route": "tag/FADCC209A003",
+    "title": "Example 3.8.3",
+    "chapter": "classical-potentials",
+    "section": "planar-green-functions-and-conformal-maps",
+    "tag": "FADCC209A003"
+  },
+  {
+    "route": "sections/planar-boundary-distance-and-convexity",
+    "title": "3.9 Planar boundary distance and convexity",
+    "chapter": "classical-potentials",
+    "section": "planar-boundary-distance-and-convexity"
+  },
+  {
+    "route": "tag/964B6728E795",
+    "title": "Proposition 3.9.1",
+    "chapter": "classical-potentials",
+    "section": "planar-boundary-distance-and-convexity",
+    "tag": "964B6728E795"
+  },
+  {
+    "route": "tag/59D258340230",
+    "title": "Proposition 3.9.2",
+    "chapter": "classical-potentials",
+    "section": "planar-boundary-distance-and-convexity",
+    "tag": "59D258340230"
+  },
+  {
+    "route": "tag/BBEB233BF8A4",
+    "title": "Proposition 3.9.3",
+    "chapter": "classical-potentials",
+    "section": "planar-boundary-distance-and-convexity",
+    "tag": "BBEB233BF8A4"
+  },
+  {
     "route": "chapters/capacity-fine-topology",
     "title": "4 Energy, capacity, and fine topology",
     "chapter": "capacity-fine-topology"
@@ -5804,6 +5891,107 @@
     "tag": "D6E89A0A4867"
   },
   {
+    "route": "sections/stokes-formula-and-homotopies",
+    "title": "5.48 Stokes' formula and homotopies",
+    "chapter": "psh-positive-currents",
+    "section": "stokes-formula-and-homotopies"
+  },
+  {
+    "route": "tag/8F5E6DB87531",
+    "title": "Theorem 5.48.1",
+    "chapter": "psh-positive-currents",
+    "section": "stokes-formula-and-homotopies",
+    "tag": "8F5E6DB87531"
+  },
+  {
+    "route": "tag/5FF0038BBA5C",
+    "title": "Theorem 5.48.2",
+    "chapter": "psh-positive-currents",
+    "section": "stokes-formula-and-homotopies",
+    "tag": "5FF0038BBA5C"
+  },
+  {
+    "route": "sections/complex-homotopy-operators-and-hartogs-extension",
+    "title": "5.49 Complex homotopy operators and Hartogs extension",
+    "chapter": "psh-positive-currents",
+    "section": "complex-homotopy-operators-and-hartogs-extension"
+  },
+  {
+    "route": "tag/7ACDC1AF162C",
+    "title": "Proposition 5.49.1",
+    "chapter": "psh-positive-currents",
+    "section": "complex-homotopy-operators-and-hartogs-extension",
+    "tag": "7ACDC1AF162C"
+  },
+  {
+    "route": "tag/65D5B333E685",
+    "title": "Proposition 5.49.2",
+    "chapter": "psh-positive-currents",
+    "section": "complex-homotopy-operators-and-hartogs-extension",
+    "tag": "65D5B333E685"
+  },
+  {
+    "route": "tag/72B026809F75",
+    "title": "Theorem 5.49.3",
+    "chapter": "psh-positive-currents",
+    "section": "complex-homotopy-operators-and-hartogs-extension",
+    "tag": "72B026809F75"
+  },
+  {
+    "route": "tag/4DB91EC236EA",
+    "title": "Theorem 5.49.4",
+    "chapter": "psh-positive-currents",
+    "section": "complex-homotopy-operators-and-hartogs-extension",
+    "tag": "4DB91EC236EA"
+  },
+  {
+    "route": "tag/5617D4B2FDA2",
+    "title": "Theorem 5.49.5 (Hartogs extension)",
+    "chapter": "psh-positive-currents",
+    "section": "complex-homotopy-operators-and-hartogs-extension",
+    "tag": "5617D4B2FDA2"
+  },
+  {
+    "route": "sections/plurithin-annuli-and-plurifine-limits",
+    "title": "5.50 Plurithin annuli and plurifine limits",
+    "chapter": "psh-positive-currents",
+    "section": "plurithin-annuli-and-plurifine-limits"
+  },
+  {
+    "route": "tag/0313727814DD",
+    "title": "Theorem 5.50.1",
+    "chapter": "psh-positive-currents",
+    "section": "plurithin-annuli-and-plurifine-limits",
+    "tag": "0313727814DD"
+  },
+  {
+    "route": "tag/8289C8DFE8FE",
+    "title": "Theorem 5.50.2",
+    "chapter": "psh-positive-currents",
+    "section": "plurithin-annuli-and-plurifine-limits",
+    "tag": "8289C8DFE8FE"
+  },
+  {
+    "route": "tag/E34D223CA44D",
+    "title": "Theorem 5.50.3",
+    "chapter": "psh-positive-currents",
+    "section": "plurithin-annuli-and-plurifine-limits",
+    "tag": "E34D223CA44D"
+  },
+  {
+    "route": "sections/smooth-curves-which-are-not-pluripolar",
+    "title": "5.51 Smooth curves which are not pluripolar",
+    "chapter": "psh-positive-currents",
+    "section": "smooth-curves-which-are-not-pluripolar"
+  },
+  {
+    "route": "tag/283A0A00F1E4",
+    "title": "Theorem 5.51.1",
+    "chapter": "psh-positive-currents",
+    "section": "smooth-curves-which-are-not-pluripolar",
+    "tag": "283A0A00F1E4"
+  },
+  {
     "route": "chapters/singularities-regularization",
     "title": "6 Lelong numbers, multiplier ideals, and regularization",
     "chapter": "singularities-regularization"
@@ -6812,6 +7000,58 @@
     "tag": "BA0E41A3C821"
   },
   {
+    "route": "sections/an-obstruction-to-global-decreasing-approximation",
+    "title": "6.20 An obstruction to global decreasing approximation",
+    "chapter": "singularities-regularization",
+    "section": "an-obstruction-to-global-decreasing-approximation"
+  },
+  {
+    "route": "tag/4BA55C74028C",
+    "title": "Example 6.20.1",
+    "chapter": "singularities-regularization",
+    "section": "an-obstruction-to-global-decreasing-approximation",
+    "tag": "4BA55C74028C"
+  },
+  {
+    "route": "sections/discrete-interpolation-from-weighted-estimates",
+    "title": "6.21 Discrete interpolation from weighted estimates",
+    "chapter": "singularities-regularization",
+    "section": "discrete-interpolation-from-weighted-estimates"
+  },
+  {
+    "route": "tag/E7EBBDB6A293",
+    "title": "Proposition 6.21.1",
+    "chapter": "singularities-regularization",
+    "section": "discrete-interpolation-from-weighted-estimates",
+    "tag": "E7EBBDB6A293"
+  },
+  {
+    "route": "sections/relative-smoothing-with-a-variable-strict-lower-bound",
+    "title": "6.22 Relative smoothing with a variable strict lower bound",
+    "chapter": "singularities-regularization",
+    "section": "relative-smoothing-with-a-variable-strict-lower-bound"
+  },
+  {
+    "route": "tag/857A88CAB3FA",
+    "title": "Theorem 6.22.1 (Relative Richberg smoothing)",
+    "chapter": "singularities-regularization",
+    "section": "relative-smoothing-with-a-variable-strict-lower-bound",
+    "tag": "857A88CAB3FA"
+  },
+  {
+    "route": "sections/global-decreasing-smooth-approximation",
+    "title": "6.23 Global decreasing smooth approximation",
+    "chapter": "singularities-regularization",
+    "section": "global-decreasing-smooth-approximation"
+  },
+  {
+    "route": "tag/49314269C188",
+    "title": "Theorem 6.23.1",
+    "chapter": "singularities-regularization",
+    "section": "global-decreasing-smooth-approximation",
+    "tag": "49314269C188"
+  },
+  {
     "route": "chapters/local-monge-ampere",
     "title": "7 Local Monge–Ampère theory and capacity",
     "chapter": "local-monge-ampere"
@@ -7669,6 +7909,392 @@
     "chapter": "local-monge-ampere",
     "section": "bedford-taylor-products-and-local-capacity--gradients-against-positive-currents",
     "tag": "14D420FC6F06"
+  },
+  {
+    "route": "sections/integral-leaves-of-constant-rank-null-distributions",
+    "title": "7.15 Integral leaves of constant-rank null distributions",
+    "chapter": "local-monge-ampere",
+    "section": "integral-leaves-of-constant-rank-null-distributions"
+  },
+  {
+    "route": "tag/0E3D24D5541E",
+    "title": "Proposition 7.15.1 (Frobenius)",
+    "chapter": "local-monge-ampere",
+    "section": "integral-leaves-of-constant-rank-null-distributions",
+    "tag": "0E3D24D5541E"
+  },
+  {
+    "route": "tag/C2EBFD69CEA4",
+    "title": "Proposition 7.15.2",
+    "chapter": "local-monge-ampere",
+    "section": "integral-leaves-of-constant-rank-null-distributions",
+    "tag": "C2EBFD69CEA4"
+  },
+  {
+    "route": "tag/8FE75D79B9CA",
+    "title": "Theorem 7.15.3",
+    "chapter": "local-monge-ampere",
+    "section": "integral-leaves-of-constant-rank-null-distributions",
+    "tag": "8FE75D79B9CA"
+  },
+  {
+    "route": "tag/992E9692EF3B",
+    "title": "Proposition 7.15.4",
+    "chapter": "local-monge-ampere",
+    "section": "integral-leaves-of-constant-rank-null-distributions",
+    "tag": "992E9692EF3B"
+  },
+  {
+    "route": "tag/849194DD5398",
+    "title": "Example 7.15.5",
+    "chapter": "local-monge-ampere",
+    "section": "integral-leaves-of-constant-rank-null-distributions",
+    "tag": "849194DD5398"
+  },
+  {
+    "route": "sections/relative-extremals-on-bounded-hyperconvex-domains",
+    "title": "7.16 Relative extremals on bounded hyperconvex domains",
+    "chapter": "local-monge-ampere",
+    "section": "relative-extremals-on-bounded-hyperconvex-domains"
+  },
+  {
+    "route": "tag/11F76749E371",
+    "title": "Proposition 7.16.1",
+    "chapter": "local-monge-ampere",
+    "section": "relative-extremals-on-bounded-hyperconvex-domains",
+    "tag": "11F76749E371"
+  },
+  {
+    "route": "tag/0667BDD8ADC8",
+    "title": "Proposition 7.16.2",
+    "chapter": "local-monge-ampere",
+    "section": "relative-extremals-on-bounded-hyperconvex-domains",
+    "tag": "0667BDD8ADC8"
+  },
+  {
+    "route": "tag/86AFECC63967",
+    "title": "Proposition 7.16.3",
+    "chapter": "local-monge-ampere",
+    "section": "relative-extremals-on-bounded-hyperconvex-domains",
+    "tag": "86AFECC63967"
+  },
+  {
+    "route": "tag/CF1B00103D5B",
+    "title": "Proposition 7.16.4",
+    "chapter": "local-monge-ampere",
+    "section": "relative-extremals-on-bounded-hyperconvex-domains",
+    "tag": "CF1B00103D5B"
+  },
+  {
+    "route": "tag/08DA18E923C1",
+    "title": "Theorem 7.16.5",
+    "chapter": "local-monge-ampere",
+    "section": "relative-extremals-on-bounded-hyperconvex-domains",
+    "tag": "08DA18E923C1"
+  },
+  {
+    "route": "sections/isolated-pole-green-envelopes-and-continuity",
+    "title": "7.17 Isolated-pole Green envelopes and continuity",
+    "chapter": "local-monge-ampere",
+    "section": "isolated-pole-green-envelopes-and-continuity"
+  },
+  {
+    "route": "tag/3360BE3E2E50",
+    "title": "Proposition 7.17.1",
+    "chapter": "local-monge-ampere",
+    "section": "isolated-pole-green-envelopes-and-continuity",
+    "tag": "3360BE3E2E50"
+  },
+  {
+    "route": "tag/7B9EA3C07531",
+    "title": "Proposition 7.17.2",
+    "chapter": "local-monge-ampere",
+    "section": "isolated-pole-green-envelopes-and-continuity",
+    "tag": "7B9EA3C07531"
+  },
+  {
+    "route": "tag/2CC830293978",
+    "title": "Proposition 7.17.3",
+    "chapter": "local-monge-ampere",
+    "section": "isolated-pole-green-envelopes-and-continuity",
+    "tag": "2CC830293978"
+  },
+  {
+    "route": "tag/5A3A24549BAA",
+    "title": "Proposition 7.17.4",
+    "chapter": "local-monge-ampere",
+    "section": "isolated-pole-green-envelopes-and-continuity",
+    "tag": "5A3A24549BAA"
+  },
+  {
+    "route": "tag/518349DA23E4",
+    "title": "Proposition 7.17.5",
+    "chapter": "local-monge-ampere",
+    "section": "isolated-pole-green-envelopes-and-continuity",
+    "tag": "518349DA23E4"
+  },
+  {
+    "route": "tag/B016253F39B4",
+    "title": "Proposition 7.17.6",
+    "chapter": "local-monge-ampere",
+    "section": "isolated-pole-green-envelopes-and-continuity",
+    "tag": "B016253F39B4"
+  },
+  {
+    "route": "tag/465EA6ED94FB",
+    "title": "Proposition 7.17.7",
+    "chapter": "local-monge-ampere",
+    "section": "isolated-pole-green-envelopes-and-continuity",
+    "tag": "465EA6ED94FB"
+  },
+  {
+    "route": "tag/34EFBF9EA39F",
+    "title": "Example 7.17.8",
+    "chapter": "local-monge-ampere",
+    "section": "isolated-pole-green-envelopes-and-continuity",
+    "tag": "34EFBF9EA39F"
+  },
+  {
+    "route": "sections/classical-monge-ampere-measures-at-one-exceptional-point",
+    "title": "7.18 Classical Monge–Ampere measures at one exceptional point",
+    "chapter": "local-monge-ampere",
+    "section": "classical-monge-ampere-measures-at-one-exceptional-point"
+  },
+  {
+    "route": "tag/00C5CD9B3208",
+    "title": "Proposition 7.18.1",
+    "chapter": "local-monge-ampere",
+    "section": "classical-monge-ampere-measures-at-one-exceptional-point",
+    "tag": "00C5CD9B3208"
+  },
+  {
+    "route": "tag/AD17D2D77F97",
+    "title": "Proposition 7.18.2",
+    "chapter": "local-monge-ampere",
+    "section": "classical-monge-ampere-measures-at-one-exceptional-point",
+    "tag": "AD17D2D77F97"
+  },
+  {
+    "route": "sections/symmetric-envelopes-and-finite-collections-of-poles",
+    "title": "7.19 Symmetric envelopes and finite collections of poles",
+    "chapter": "local-monge-ampere",
+    "section": "symmetric-envelopes-and-finite-collections-of-poles"
+  },
+  {
+    "route": "tag/9261026A57C2",
+    "title": "Proposition 7.19.1",
+    "chapter": "local-monge-ampere",
+    "section": "symmetric-envelopes-and-finite-collections-of-poles",
+    "tag": "9261026A57C2"
+  },
+  {
+    "route": "tag/ABA8792055E8",
+    "title": "Proposition 7.19.2",
+    "chapter": "local-monge-ampere",
+    "section": "symmetric-envelopes-and-finite-collections-of-poles",
+    "tag": "ABA8792055E8"
+  },
+  {
+    "route": "tag/557F24B2F2DD",
+    "title": "Proposition 7.19.3",
+    "chapter": "local-monge-ampere",
+    "section": "symmetric-envelopes-and-finite-collections-of-poles",
+    "tag": "557F24B2F2DD"
+  },
+  {
+    "route": "tag/0FDD375AF53F",
+    "title": "Proposition 7.19.4",
+    "chapter": "local-monge-ampere",
+    "section": "symmetric-envelopes-and-finite-collections-of-poles",
+    "tag": "0FDD375AF53F"
+  },
+  {
+    "route": "tag/A3DBF2B9E6B2",
+    "title": "Proposition 7.19.5",
+    "chapter": "local-monge-ampere",
+    "section": "symmetric-envelopes-and-finite-collections-of-poles",
+    "tag": "A3DBF2B9E6B2"
+  },
+  {
+    "route": "sections/green-level-measures-and-boundary-representation",
+    "title": "7.20 Green level measures and boundary representation",
+    "chapter": "local-monge-ampere",
+    "section": "green-level-measures-and-boundary-representation"
+  },
+  {
+    "route": "tag/1359A4B6C1D8",
+    "title": "Proposition 7.20.1",
+    "chapter": "local-monge-ampere",
+    "section": "green-level-measures-and-boundary-representation",
+    "tag": "1359A4B6C1D8"
+  },
+  {
+    "route": "tag/351C8FCB17FF",
+    "title": "Proposition 7.20.2",
+    "chapter": "local-monge-ampere",
+    "section": "green-level-measures-and-boundary-representation",
+    "tag": "351C8FCB17FF"
+  },
+  {
+    "route": "tag/EC62871F80C4",
+    "title": "Proposition 7.20.3",
+    "chapter": "local-monge-ampere",
+    "section": "green-level-measures-and-boundary-representation",
+    "tag": "EC62871F80C4"
+  },
+  {
+    "route": "tag/438C4583CB39",
+    "title": "Proposition 7.20.4",
+    "chapter": "local-monge-ampere",
+    "section": "green-level-measures-and-boundary-representation",
+    "tag": "438C4583CB39"
+  },
+  {
+    "route": "sections/boundary-peaks-and-the-symmetric-envelope-mass-criterion",
+    "title": "7.21 Boundary peaks and the symmetric-envelope mass criterion",
+    "chapter": "local-monge-ampere",
+    "section": "boundary-peaks-and-the-symmetric-envelope-mass-criterion"
+  },
+  {
+    "route": "tag/DBAB6E03ACC7",
+    "title": "Proposition 7.21.1",
+    "chapter": "local-monge-ampere",
+    "section": "boundary-peaks-and-the-symmetric-envelope-mass-criterion",
+    "tag": "DBAB6E03ACC7"
+  },
+  {
+    "route": "tag/FAE7CB808668",
+    "title": "Proposition 7.21.2",
+    "chapter": "local-monge-ampere",
+    "section": "boundary-peaks-and-the-symmetric-envelope-mass-criterion",
+    "tag": "FAE7CB808668"
+  },
+  {
+    "route": "sections/a-smooth-strictly-pseudoconvex-domain-with-asymmetric-green-function",
+    "title": "7.22 A smooth strictly pseudoconvex domain with asymmetric Green function",
+    "chapter": "local-monge-ampere",
+    "section": "a-smooth-strictly-pseudoconvex-domain-with-asymmetric-green-function"
+  },
+  {
+    "route": "tag/8B924AA3ED4A",
+    "title": "Proposition 7.22.1",
+    "chapter": "local-monge-ampere",
+    "section": "a-smooth-strictly-pseudoconvex-domain-with-asymmetric-green-function",
+    "tag": "8B924AA3ED4A"
+  },
+  {
+    "route": "sections/unbounded-potentials-and-dependence-on-regularization",
+    "title": "7.23 Unbounded potentials and dependence on regularization",
+    "chapter": "local-monge-ampere",
+    "section": "unbounded-potentials-and-dependence-on-regularization"
+  },
+  {
+    "route": "tag/20D8C7C9B243",
+    "title": "Example 7.23.1",
+    "chapter": "local-monge-ampere",
+    "section": "unbounded-potentials-and-dependence-on-regularization",
+    "tag": "20D8C7C9B243"
+  },
+  {
+    "route": "tag/EC436652E435",
+    "title": "Proposition 7.23.2",
+    "chapter": "local-monge-ampere",
+    "section": "unbounded-potentials-and-dependence-on-regularization",
+    "tag": "EC436652E435"
+  },
+  {
+    "route": "tag/C89C030AFB89",
+    "title": "Example 7.23.3",
+    "chapter": "local-monge-ampere",
+    "section": "unbounded-potentials-and-dependence-on-regularization",
+    "tag": "C89C030AFB89"
+  },
+  {
+    "route": "sections/degenerate-densities-and-interior-second-derivatives",
+    "title": "7.24 Degenerate densities and interior second derivatives",
+    "chapter": "local-monge-ampere",
+    "section": "degenerate-densities-and-interior-second-derivatives"
+  },
+  {
+    "route": "tag/D0960BD969B2",
+    "title": "Proposition 7.24.1",
+    "chapter": "local-monge-ampere",
+    "section": "degenerate-densities-and-interior-second-derivatives",
+    "tag": "D0960BD969B2"
+  },
+  {
+    "route": "sections/boundary-zero-green-functions-and-hyperconvexity",
+    "title": "7.25 Boundary-zero Green functions and hyperconvexity",
+    "chapter": "local-monge-ampere",
+    "section": "boundary-zero-green-functions-and-hyperconvexity"
+  },
+  {
+    "route": "tag/B63D9FDC459B",
+    "title": "Proposition 7.25.1",
+    "chapter": "local-monge-ampere",
+    "section": "boundary-zero-green-functions-and-hyperconvexity",
+    "tag": "B63D9FDC459B"
+  },
+  {
+    "route": "tag/033C98D473B9",
+    "title": "Theorem 7.25.2",
+    "chapter": "local-monge-ampere",
+    "section": "boundary-zero-green-functions-and-hyperconvexity",
+    "tag": "033C98D473B9"
+  },
+  {
+    "route": "sections/generalized-products-and-their-associated-bounded-products",
+    "title": "7.26 Generalized products and their associated bounded products",
+    "chapter": "local-monge-ampere",
+    "section": "generalized-products-and-their-associated-bounded-products"
+  },
+  {
+    "route": "tag/EFE2F92EE4F9",
+    "title": "Proposition 7.26.1",
+    "chapter": "local-monge-ampere",
+    "section": "generalized-products-and-their-associated-bounded-products",
+    "tag": "EFE2F92EE4F9"
+  },
+  {
+    "route": "tag/8DF858D7EC52",
+    "title": "Lemma 7.26.2",
+    "chapter": "local-monge-ampere",
+    "section": "generalized-products-and-their-associated-bounded-products",
+    "tag": "8DF858D7EC52"
+  },
+  {
+    "route": "tag/5C50A7C32E5B",
+    "title": "Theorem 7.26.3",
+    "chapter": "local-monge-ampere",
+    "section": "generalized-products-and-their-associated-bounded-products",
+    "tag": "5C50A7C32E5B"
+  },
+  {
+    "route": "sections/symmetric-green-envelopes-on-unbounded-domains",
+    "title": "7.27 Symmetric Green envelopes on unbounded domains",
+    "chapter": "local-monge-ampere",
+    "section": "symmetric-green-envelopes-on-unbounded-domains"
+  },
+  {
+    "route": "tag/A2711B944A6D",
+    "title": "Proposition 7.27.1",
+    "chapter": "local-monge-ampere",
+    "section": "symmetric-green-envelopes-on-unbounded-domains",
+    "tag": "A2711B944A6D"
+  },
+  {
+    "route": "tag/28AAE4E86F18",
+    "title": "Proposition 7.27.2",
+    "chapter": "local-monge-ampere",
+    "section": "symmetric-green-envelopes-on-unbounded-domains",
+    "tag": "28AAE4E86F18"
+  },
+  {
+    "route": "tag/7F276A63690B",
+    "title": "Example 7.27.3",
+    "chapter": "local-monge-ampere",
+    "section": "symmetric-green-envelopes-on-unbounded-domains",
+    "tag": "7F276A63690B"
   },
   {
     "route": "chapters/complex-hessian-equations",
@@ -9587,6 +10213,336 @@
     "chapter": "complex-spaces",
     "section": "potentials-and-equations-on-unibranch-spaces",
     "tag": "5F7DB1E779E6"
+  },
+  {
+    "route": "sections/separate-holomorphy",
+    "title": "9.12 Separate holomorphy",
+    "chapter": "complex-spaces",
+    "section": "separate-holomorphy"
+  },
+  {
+    "route": "tag/362351A63FB6",
+    "title": "Theorem 9.12.1",
+    "chapter": "complex-spaces",
+    "section": "separate-holomorphy",
+    "tag": "362351A63FB6"
+  },
+  {
+    "route": "sections/holomorphic-hulls-and-domains-of-holomorphy",
+    "title": "9.13 Holomorphic hulls and domains of holomorphy",
+    "chapter": "complex-spaces",
+    "section": "holomorphic-hulls-and-domains-of-holomorphy"
+  },
+  {
+    "route": "tag/36B688C7F361",
+    "title": "Proposition 9.13.1",
+    "chapter": "complex-spaces",
+    "section": "holomorphic-hulls-and-domains-of-holomorphy",
+    "tag": "36B688C7F361"
+  },
+  {
+    "route": "tag/8FBCDB96A2E2",
+    "title": "Theorem 9.13.2",
+    "chapter": "complex-spaces",
+    "section": "holomorphic-hulls-and-domains-of-holomorphy",
+    "tag": "8FBCDB96A2E2"
+  },
+  {
+    "route": "sections/plurisubharmonic-hulls-and-general-boundary-distances",
+    "title": "9.14 Plurisubharmonic hulls and general boundary distances",
+    "chapter": "complex-spaces",
+    "section": "plurisubharmonic-hulls-and-general-boundary-distances"
+  },
+  {
+    "route": "tag/D1E020BB8CEA",
+    "title": "Proposition 9.14.1",
+    "chapter": "complex-spaces",
+    "section": "plurisubharmonic-hulls-and-general-boundary-distances",
+    "tag": "D1E020BB8CEA"
+  },
+  {
+    "route": "tag/CE8195E08F54",
+    "title": "Proposition 9.14.2",
+    "chapter": "complex-spaces",
+    "section": "plurisubharmonic-hulls-and-general-boundary-distances",
+    "tag": "CE8195E08F54"
+  },
+  {
+    "route": "sections/complete-hartogs-domains-and-taylor-coefficients",
+    "title": "9.15 Complete Hartogs domains and Taylor coefficients",
+    "chapter": "complex-spaces",
+    "section": "complete-hartogs-domains-and-taylor-coefficients"
+  },
+  {
+    "route": "tag/202C805DC8A2",
+    "title": "Proposition 9.15.1",
+    "chapter": "complex-spaces",
+    "section": "complete-hartogs-domains-and-taylor-coefficients",
+    "tag": "202C805DC8A2"
+  },
+  {
+    "route": "sections/local-convexity-and-defining-functions",
+    "title": "9.16 Local convexity and defining functions",
+    "chapter": "complex-spaces",
+    "section": "local-convexity-and-defining-functions"
+  },
+  {
+    "route": "tag/3269D913190D",
+    "title": "Proposition 9.16.1",
+    "chapter": "complex-spaces",
+    "section": "local-convexity-and-defining-functions",
+    "tag": "3269D913190D"
+  },
+  {
+    "route": "tag/2822D619E8BC",
+    "title": "Proposition 9.16.2",
+    "chapter": "complex-spaces",
+    "section": "local-convexity-and-defining-functions",
+    "tag": "2822D619E8BC"
+  },
+  {
+    "route": "tag/623CAE0176D7",
+    "title": "Proposition 9.16.3",
+    "chapter": "complex-spaces",
+    "section": "local-convexity-and-defining-functions",
+    "tag": "623CAE0176D7"
+  },
+  {
+    "route": "sections/schwarz-estimates-and-invariant-distances",
+    "title": "9.17 Schwarz estimates and invariant distances",
+    "chapter": "complex-spaces",
+    "section": "schwarz-estimates-and-invariant-distances"
+  },
+  {
+    "route": "tag/10AFB6AB7732",
+    "title": "Proposition 9.17.1",
+    "chapter": "complex-spaces",
+    "section": "schwarz-estimates-and-invariant-distances",
+    "tag": "10AFB6AB7732"
+  },
+  {
+    "route": "tag/6BCDD3D7DD27",
+    "title": "Proposition 9.17.2",
+    "chapter": "complex-spaces",
+    "section": "schwarz-estimates-and-invariant-distances",
+    "tag": "6BCDD3D7DD27"
+  },
+  {
+    "route": "tag/75C57846C83D",
+    "title": "Proposition 9.17.3",
+    "chapter": "complex-spaces",
+    "section": "schwarz-estimates-and-invariant-distances",
+    "tag": "75C57846C83D"
+  },
+  {
+    "route": "tag/F0CC92394671",
+    "title": "Proposition 9.17.4",
+    "chapter": "complex-spaces",
+    "section": "schwarz-estimates-and-invariant-distances",
+    "tag": "F0CC92394671"
+  },
+  {
+    "route": "tag/32C365095F79",
+    "title": "Proposition 9.17.5",
+    "chapter": "complex-spaces",
+    "section": "schwarz-estimates-and-invariant-distances",
+    "tag": "32C365095F79"
+  },
+  {
+    "route": "sections/disc-interpolation-on-convex-domains",
+    "title": "9.18 Disc interpolation on convex domains",
+    "chapter": "complex-spaces",
+    "section": "disc-interpolation-on-convex-domains"
+  },
+  {
+    "route": "tag/7F33F823B79C",
+    "title": "Theorem 9.18.1",
+    "chapter": "complex-spaces",
+    "section": "disc-interpolation-on-convex-domains",
+    "tag": "7F33F823B79C"
+  },
+  {
+    "route": "tag/0A57323E9BD0",
+    "title": "Proposition 9.18.2",
+    "chapter": "complex-spaces",
+    "section": "disc-interpolation-on-convex-domains",
+    "tag": "0A57323E9BD0"
+  },
+  {
+    "route": "sections/boundary-distance-counterexamples-in-higher-dimension",
+    "title": "9.19 Boundary-distance counterexamples in higher dimension",
+    "chapter": "complex-spaces",
+    "section": "boundary-distance-counterexamples-in-higher-dimension"
+  },
+  {
+    "route": "tag/EF227A55DB12",
+    "title": "Proposition 9.19.1",
+    "chapter": "complex-spaces",
+    "section": "boundary-distance-counterexamples-in-higher-dimension",
+    "tag": "EF227A55DB12"
+  },
+  {
+    "route": "sections/complex-geodesics-on-bounded-convex-domains",
+    "title": "9.20 Complex geodesics on bounded convex domains",
+    "chapter": "complex-spaces",
+    "section": "complex-geodesics-on-bounded-convex-domains"
+  },
+  {
+    "route": "tag/659A580EE96C",
+    "title": "Proposition 9.20.1",
+    "chapter": "complex-spaces",
+    "section": "complex-geodesics-on-bounded-convex-domains",
+    "tag": "659A580EE96C"
+  },
+  {
+    "route": "tag/415609592B60",
+    "title": "Proposition 9.20.2",
+    "chapter": "complex-spaces",
+    "section": "complex-geodesics-on-bounded-convex-domains",
+    "tag": "415609592B60"
+  },
+  {
+    "route": "tag/5DE7AB27F999",
+    "title": "Proposition 9.20.3",
+    "chapter": "complex-spaces",
+    "section": "complex-geodesics-on-bounded-convex-domains",
+    "tag": "5DE7AB27F999"
+  },
+  {
+    "route": "tag/E378BBBF406D",
+    "title": "Proposition 9.20.4",
+    "chapter": "complex-spaces",
+    "section": "complex-geodesics-on-bounded-convex-domains",
+    "tag": "E378BBBF406D"
+  },
+  {
+    "route": "tag/7264782B9A80",
+    "title": "Theorem 9.20.5",
+    "chapter": "complex-spaces",
+    "section": "complex-geodesics-on-bounded-convex-domains",
+    "tag": "7264782B9A80"
+  },
+  {
+    "route": "tag/8E0727128F9C",
+    "title": "Example 9.20.6",
+    "chapter": "complex-spaces",
+    "section": "complex-geodesics-on-bounded-convex-domains",
+    "tag": "8E0727128F9C"
+  },
+  {
+    "route": "sections/hyperconvexity-and-the-space-of-holomorphic-functions",
+    "title": "9.21 Hyperconvexity and the space of holomorphic functions",
+    "chapter": "complex-spaces",
+    "section": "hyperconvexity-and-the-space-of-holomorphic-functions"
+  },
+  {
+    "route": "tag/EA48C877147E",
+    "title": "Lemma 9.21.1",
+    "chapter": "complex-spaces",
+    "section": "hyperconvexity-and-the-space-of-holomorphic-functions",
+    "tag": "EA48C877147E"
+  },
+  {
+    "route": "tag/8BD46FA4016F",
+    "title": "Lemma 9.21.2",
+    "chapter": "complex-spaces",
+    "section": "hyperconvexity-and-the-space-of-holomorphic-functions",
+    "tag": "8BD46FA4016F"
+  },
+  {
+    "route": "tag/35087713FD64",
+    "title": "Proposition 9.21.3",
+    "chapter": "complex-spaces",
+    "section": "hyperconvexity-and-the-space-of-holomorphic-functions",
+    "tag": "35087713FD64"
+  },
+  {
+    "route": "tag/9028D1B15EA2",
+    "title": "Proposition 9.21.4",
+    "chapter": "complex-spaces",
+    "section": "hyperconvexity-and-the-space-of-holomorphic-functions",
+    "tag": "9028D1B15EA2"
+  },
+  {
+    "route": "tag/EA836E82DAC5",
+    "title": "Theorem 9.21.5",
+    "chapter": "complex-spaces",
+    "section": "hyperconvexity-and-the-space-of-holomorphic-functions",
+    "tag": "EA836E82DAC5"
+  },
+  {
+    "route": "sections/a-smooth-boundary-for-a-proper-biholomorphic-image",
+    "title": "9.22 A smooth boundary for a proper biholomorphic image",
+    "chapter": "complex-spaces",
+    "section": "a-smooth-boundary-for-a-proper-biholomorphic-image"
+  },
+  {
+    "route": "tag/9D4AAB621920",
+    "title": "Lemma 9.22.1",
+    "chapter": "complex-spaces",
+    "section": "a-smooth-boundary-for-a-proper-biholomorphic-image",
+    "tag": "9D4AAB621920"
+  },
+  {
+    "route": "tag/CE10A564601F",
+    "title": "Theorem 9.22.2",
+    "chapter": "complex-spaces",
+    "section": "a-smooth-boundary-for-a-proper-biholomorphic-image",
+    "tag": "CE10A564601F"
+  },
+  {
+    "route": "sections/smooth-positive-matrix-factorization-on-the-circle",
+    "title": "9.23 Smooth positive matrix factorization on the circle",
+    "chapter": "complex-spaces",
+    "section": "smooth-positive-matrix-factorization-on-the-circle"
+  },
+  {
+    "route": "tag/35AF621E1787",
+    "title": "Theorem 9.23.1",
+    "chapter": "complex-spaces",
+    "section": "smooth-positive-matrix-factorization-on-the-circle",
+    "tag": "35AF621E1787"
+  },
+  {
+    "route": "sections/smooth-green-functions-on-strongly-convex-domains",
+    "title": "9.24 Smooth Green functions on strongly convex domains",
+    "chapter": "complex-spaces",
+    "section": "smooth-green-functions-on-strongly-convex-domains"
+  },
+  {
+    "route": "tag/EEFBD40AC261",
+    "title": "Lemma 9.24.1",
+    "chapter": "complex-spaces",
+    "section": "smooth-green-functions-on-strongly-convex-domains",
+    "tag": "EEFBD40AC261"
+  },
+  {
+    "route": "tag/CB9F3D62BE1C",
+    "title": "Lemma 9.24.2",
+    "chapter": "complex-spaces",
+    "section": "smooth-green-functions-on-strongly-convex-domains",
+    "tag": "CB9F3D62BE1C"
+  },
+  {
+    "route": "tag/106A14BC1AFE",
+    "title": "Lemma 9.24.3",
+    "chapter": "complex-spaces",
+    "section": "smooth-green-functions-on-strongly-convex-domains",
+    "tag": "106A14BC1AFE"
+  },
+  {
+    "route": "tag/495B56CEC1A8",
+    "title": "Proposition 9.24.4",
+    "chapter": "complex-spaces",
+    "section": "smooth-green-functions-on-strongly-convex-domains",
+    "tag": "495B56CEC1A8"
+  },
+  {
+    "route": "tag/A2E9734AB1F5",
+    "title": "Theorem 9.24.5",
+    "chapter": "complex-spaces",
+    "section": "smooth-green-functions-on-strongly-convex-domains",
+    "tag": "A2E9734AB1F5"
   },
   {
     "route": "chapters/positivity-cohomology",
@@ -27522,6 +28478,482 @@
     "tag": "E5CE4F64BF58"
   },
   {
+    "route": "sections/polynomial-descriptions-of-logarithmic-envelopes",
+    "title": "16.30 Polynomial descriptions of logarithmic envelopes",
+    "chapter": "envelopes-models",
+    "section": "polynomial-descriptions-of-logarithmic-envelopes"
+  },
+  {
+    "route": "tag/F5C5050EEDEB",
+    "title": "Proposition 16.30.1",
+    "chapter": "envelopes-models",
+    "section": "polynomial-descriptions-of-logarithmic-envelopes",
+    "tag": "F5C5050EEDEB"
+  },
+  {
+    "route": "tag/F983146D5FCD",
+    "title": "Proposition 16.30.2",
+    "chapter": "envelopes-models",
+    "section": "polynomial-descriptions-of-logarithmic-envelopes",
+    "tag": "F983146D5FCD"
+  },
+  {
+    "route": "tag/19CBC18237E5",
+    "title": "Theorem 16.30.3",
+    "chapter": "envelopes-models",
+    "section": "polynomial-descriptions-of-logarithmic-envelopes",
+    "tag": "19CBC18237E5"
+  },
+  {
+    "route": "tag/FBAB51FD36FB",
+    "title": "Theorem 16.30.4",
+    "chapter": "envelopes-models",
+    "section": "polynomial-descriptions-of-logarithmic-envelopes",
+    "tag": "FBAB51FD36FB"
+  },
+  {
+    "route": "tag/E171A0405847",
+    "title": "Theorem 16.30.5",
+    "chapter": "envelopes-models",
+    "section": "polynomial-descriptions-of-logarithmic-envelopes",
+    "tag": "E171A0405847"
+  },
+  {
+    "route": "tag/F453BE749AEC",
+    "title": "Proposition 16.30.6",
+    "chapter": "envelopes-models",
+    "section": "polynomial-descriptions-of-logarithmic-envelopes",
+    "tag": "F453BE749AEC"
+  },
+  {
+    "route": "sections/logarithmic-families-and-a-fixed-ball-capacity",
+    "title": "16.31 Logarithmic families and a fixed-ball capacity",
+    "chapter": "envelopes-models",
+    "section": "logarithmic-families-and-a-fixed-ball-capacity"
+  },
+  {
+    "route": "tag/62CEBBF93786",
+    "title": "Theorem 16.31.1",
+    "chapter": "envelopes-models",
+    "section": "logarithmic-families-and-a-fixed-ball-capacity",
+    "tag": "62CEBBF93786"
+  },
+  {
+    "route": "tag/A76B9D558430",
+    "title": "Proposition 16.31.2",
+    "chapter": "envelopes-models",
+    "section": "logarithmic-families-and-a-fixed-ball-capacity",
+    "tag": "A76B9D558430"
+  },
+  {
+    "route": "tag/E215D05E52EC",
+    "title": "Theorem 16.31.3",
+    "chapter": "envelopes-models",
+    "section": "logarithmic-families-and-a-fixed-ball-capacity",
+    "tag": "E215D05E52EC"
+  },
+  {
+    "route": "tag/4146861A3795",
+    "title": "Proposition 16.31.4",
+    "chapter": "envelopes-models",
+    "section": "logarithmic-families-and-a-fixed-ball-capacity",
+    "tag": "4146861A3795"
+  },
+  {
+    "route": "sections/maps-and-regularity-of-global-extremals",
+    "title": "16.32 Maps and regularity of global extremals",
+    "chapter": "envelopes-models",
+    "section": "maps-and-regularity-of-global-extremals"
+  },
+  {
+    "route": "tag/68FB8247AB5A",
+    "title": "Theorem 16.32.1",
+    "chapter": "envelopes-models",
+    "section": "maps-and-regularity-of-global-extremals",
+    "tag": "68FB8247AB5A"
+  },
+  {
+    "route": "tag/94014DB9102B",
+    "title": "Proposition 16.32.2",
+    "chapter": "envelopes-models",
+    "section": "maps-and-regularity-of-global-extremals",
+    "tag": "94014DB9102B"
+  },
+  {
+    "route": "tag/D63431730901",
+    "title": "Proposition 16.32.3",
+    "chapter": "envelopes-models",
+    "section": "maps-and-regularity-of-global-extremals",
+    "tag": "D63431730901"
+  },
+  {
+    "route": "tag/59F7B1095E20",
+    "title": "Proposition 16.32.4",
+    "chapter": "envelopes-models",
+    "section": "maps-and-regularity-of-global-extremals",
+    "tag": "59F7B1095E20"
+  },
+  {
+    "route": "tag/15FA5C21941D",
+    "title": "Theorem 16.32.5",
+    "chapter": "envelopes-models",
+    "section": "maps-and-regularity-of-global-extremals",
+    "tag": "15FA5C21941D"
+  },
+  {
+    "route": "tag/446A0A9CF0BF",
+    "title": "Example 16.32.6",
+    "chapter": "envelopes-models",
+    "section": "maps-and-regularity-of-global-extremals",
+    "tag": "446A0A9CF0BF"
+  },
+  {
+    "route": "tag/5886156A306E",
+    "title": "Proposition 16.32.7",
+    "chapter": "envelopes-models",
+    "section": "maps-and-regularity-of-global-extremals",
+    "tag": "5886156A306E"
+  },
+  {
+    "route": "tag/7C8B2A4D660E",
+    "title": "Proposition 16.32.8",
+    "chapter": "envelopes-models",
+    "section": "maps-and-regularity-of-global-extremals",
+    "tag": "7C8B2A4D660E"
+  },
+  {
+    "route": "sections/real-compact-sets-and-explicit-extremal-formulas",
+    "title": "16.33 Real compact sets and explicit extremal formulas",
+    "chapter": "envelopes-models",
+    "section": "real-compact-sets-and-explicit-extremal-formulas"
+  },
+  {
+    "route": "tag/C39B105D9256",
+    "title": "Proposition 16.33.1",
+    "chapter": "envelopes-models",
+    "section": "real-compact-sets-and-explicit-extremal-formulas",
+    "tag": "C39B105D9256"
+  },
+  {
+    "route": "tag/2B1312D361AC",
+    "title": "Example 16.33.2",
+    "chapter": "envelopes-models",
+    "section": "real-compact-sets-and-explicit-extremal-formulas",
+    "tag": "2B1312D361AC"
+  },
+  {
+    "route": "tag/227A1367C31C",
+    "title": "Proposition 16.33.3",
+    "chapter": "envelopes-models",
+    "section": "real-compact-sets-and-explicit-extremal-formulas",
+    "tag": "227A1367C31C"
+  },
+  {
+    "route": "tag/D47F294B7F7D",
+    "title": "Proposition 16.33.4",
+    "chapter": "envelopes-models",
+    "section": "real-compact-sets-and-explicit-extremal-formulas",
+    "tag": "D47F294B7F7D"
+  },
+  {
+    "route": "tag/F36E879B8976",
+    "title": "Proposition 16.33.5",
+    "chapter": "envelopes-models",
+    "section": "real-compact-sets-and-explicit-extremal-formulas",
+    "tag": "F36E879B8976"
+  },
+  {
+    "route": "tag/A1B73D6E87D0",
+    "title": "Theorem 16.33.6",
+    "chapter": "envelopes-models",
+    "section": "real-compact-sets-and-explicit-extremal-formulas",
+    "tag": "A1B73D6E87D0"
+  },
+  {
+    "route": "tag/E41A4DC7736D",
+    "title": "Proposition 16.33.7",
+    "chapter": "envelopes-models",
+    "section": "real-compact-sets-and-explicit-extremal-formulas",
+    "tag": "E41A4DC7736D"
+  },
+  {
+    "route": "sections/logarithmic-total-mass-and-bounded-obstacle-support",
+    "title": "16.34 Logarithmic total mass and bounded-obstacle support",
+    "chapter": "envelopes-models",
+    "section": "logarithmic-total-mass-and-bounded-obstacle-support"
+  },
+  {
+    "route": "tag/B5EE2E185F5F",
+    "title": "Proposition 16.34.1",
+    "chapter": "envelopes-models",
+    "section": "logarithmic-total-mass-and-bounded-obstacle-support",
+    "tag": "B5EE2E185F5F"
+  },
+  {
+    "route": "tag/01D4425BEF42",
+    "title": "Proposition 16.34.2",
+    "chapter": "envelopes-models",
+    "section": "logarithmic-total-mass-and-bounded-obstacle-support",
+    "tag": "01D4425BEF42"
+  },
+  {
+    "route": "sections/polynomial-families-and-equilibrium-null-obstacles",
+    "title": "16.35 Polynomial families and equilibrium-null obstacles",
+    "chapter": "envelopes-models",
+    "section": "polynomial-families-and-equilibrium-null-obstacles"
+  },
+  {
+    "route": "tag/B76C0AE2777D",
+    "title": "Proposition 16.35.1",
+    "chapter": "envelopes-models",
+    "section": "polynomial-families-and-equilibrium-null-obstacles",
+    "tag": "B76C0AE2777D"
+  },
+  {
+    "route": "tag/884332AF4253",
+    "title": "Proposition 16.35.2",
+    "chapter": "envelopes-models",
+    "section": "polynomial-families-and-equilibrium-null-obstacles",
+    "tag": "884332AF4253"
+  },
+  {
+    "route": "tag/6E38A7B6271A",
+    "title": "Proposition 16.35.3",
+    "chapter": "envelopes-models",
+    "section": "polynomial-families-and-equilibrium-null-obstacles",
+    "tag": "6E38A7B6271A"
+  },
+  {
+    "route": "tag/1C591D5634BA",
+    "title": "Proposition 16.35.4",
+    "chapter": "envelopes-models",
+    "section": "polynomial-families-and-equilibrium-null-obstacles",
+    "tag": "1C591D5634BA"
+  },
+  {
+    "route": "tag/6F70A6B34439",
+    "title": "Proposition 16.35.5",
+    "chapter": "envelopes-models",
+    "section": "polynomial-families-and-equilibrium-null-obstacles",
+    "tag": "6F70A6B34439"
+  },
+  {
+    "route": "sections/the-real-cube-equilibrium-density",
+    "title": "16.36 The real cube equilibrium density",
+    "chapter": "envelopes-models",
+    "section": "the-real-cube-equilibrium-density"
+  },
+  {
+    "route": "tag/6BA3C254E28C",
+    "title": "Proposition 16.36.1",
+    "chapter": "envelopes-models",
+    "section": "the-real-cube-equilibrium-density",
+    "tag": "6BA3C254E28C"
+  },
+  {
+    "route": "sections/robin-capacity-and-its-quantitative-comparison",
+    "title": "16.37 Robin capacity and its quantitative comparison",
+    "chapter": "envelopes-models",
+    "section": "robin-capacity-and-its-quantitative-comparison"
+  },
+  {
+    "route": "tag/5CD6FC21D2D4",
+    "title": "Proposition 16.37.1",
+    "chapter": "envelopes-models",
+    "section": "robin-capacity-and-its-quantitative-comparison",
+    "tag": "5CD6FC21D2D4"
+  },
+  {
+    "route": "tag/13360BBA8D19",
+    "title": "Proposition 16.37.2",
+    "chapter": "envelopes-models",
+    "section": "robin-capacity-and-its-quantitative-comparison",
+    "tag": "13360BBA8D19"
+  },
+  {
+    "route": "tag/27353237EC80",
+    "title": "Theorem 16.37.3",
+    "chapter": "envelopes-models",
+    "section": "robin-capacity-and-its-quantitative-comparison",
+    "tag": "27353237EC80"
+  },
+  {
+    "route": "tag/786CD8A5F7AA",
+    "title": "Proposition 16.37.4",
+    "chapter": "envelopes-models",
+    "section": "robin-capacity-and-its-quantitative-comparison",
+    "tag": "786CD8A5F7AA"
+  },
+  {
+    "route": "tag/65A744B77195",
+    "title": "Theorem 16.37.5",
+    "chapter": "envelopes-models",
+    "section": "robin-capacity-and-its-quantitative-comparison",
+    "tag": "65A744B77195"
+  },
+  {
+    "route": "tag/58579BCF3224",
+    "title": "Equation 16.37.6",
+    "chapter": "envelopes-models",
+    "section": "robin-capacity-and-its-quantitative-comparison",
+    "tag": "58579BCF3224"
+  },
+  {
+    "route": "tag/9FC6F4FC67E2",
+    "title": "Equation 16.37.7",
+    "chapter": "envelopes-models",
+    "section": "robin-capacity-and-its-quantitative-comparison",
+    "tag": "9FC6F4FC67E2"
+  },
+  {
+    "route": "tag/30AAD778A456",
+    "title": "Proposition 16.37.8",
+    "chapter": "envelopes-models",
+    "section": "robin-capacity-and-its-quantitative-comparison",
+    "tag": "30AAD778A456"
+  },
+  {
+    "route": "sections/geometric-polynomial-approximation-and-local-uniqueness",
+    "title": "16.38 Geometric polynomial approximation and local uniqueness",
+    "chapter": "envelopes-models",
+    "section": "geometric-polynomial-approximation-and-local-uniqueness"
+  },
+  {
+    "route": "tag/DE0691E14C0E",
+    "title": "Theorem 16.38.1",
+    "chapter": "envelopes-models",
+    "section": "geometric-polynomial-approximation-and-local-uniqueness",
+    "tag": "DE0691E14C0E"
+  },
+  {
+    "route": "tag/C6B88322442F",
+    "title": "Example 16.38.2",
+    "chapter": "envelopes-models",
+    "section": "geometric-polynomial-approximation-and-local-uniqueness",
+    "tag": "C6B88322442F"
+  },
+  {
+    "route": "tag/61CD9F3FD5EA",
+    "title": "Example 16.38.3",
+    "chapter": "envelopes-models",
+    "section": "geometric-polynomial-approximation-and-local-uniqueness",
+    "tag": "61CD9F3FD5EA"
+  },
+  {
+    "route": "sections/a-continuous-foliation-by-extremal-ellipses",
+    "title": "16.39 A continuous foliation by extremal ellipses",
+    "chapter": "envelopes-models",
+    "section": "a-continuous-foliation-by-extremal-ellipses"
+  },
+  {
+    "route": "tag/DCB9565E6FDC",
+    "title": "Theorem 16.39.1",
+    "chapter": "envelopes-models",
+    "section": "a-continuous-foliation-by-extremal-ellipses",
+    "tag": "DCB9565E6FDC"
+  },
+  {
+    "route": "sections/local-regularity-of-analytic-polyhedra",
+    "title": "16.40 Local regularity of analytic polyhedra",
+    "chapter": "envelopes-models",
+    "section": "local-regularity-of-analytic-polyhedra"
+  },
+  {
+    "route": "tag/DD2047D70ACD",
+    "title": "Lemma 16.40.1",
+    "chapter": "envelopes-models",
+    "section": "local-regularity-of-analytic-polyhedra",
+    "tag": "DD2047D70ACD"
+  },
+  {
+    "route": "tag/8ED77FB38EC4",
+    "title": "Theorem 16.40.2",
+    "chapter": "envelopes-models",
+    "section": "local-regularity-of-analytic-polyhedra",
+    "tag": "8ED77FB38EC4"
+  },
+  {
+    "route": "sections/normalized-characterization-of-compact-extremals",
+    "title": "16.41 Normalized characterization of compact extremals",
+    "chapter": "envelopes-models",
+    "section": "normalized-characterization-of-compact-extremals"
+  },
+  {
+    "route": "tag/1129B1616DEE",
+    "title": "Proposition 16.41.1",
+    "chapter": "envelopes-models",
+    "section": "normalized-characterization-of-compact-extremals",
+    "tag": "1129B1616DEE"
+  },
+  {
+    "route": "sections/equilibrium-densities-and-boundaries-of-real-convex-bodies",
+    "title": "16.42 Equilibrium densities and boundaries of real convex bodies",
+    "chapter": "envelopes-models",
+    "section": "equilibrium-densities-and-boundaries-of-real-convex-bodies"
+  },
+  {
+    "route": "tag/CBCC93967447",
+    "title": "Lemma 16.42.1",
+    "chapter": "envelopes-models",
+    "section": "equilibrium-densities-and-boundaries-of-real-convex-bodies",
+    "tag": "CBCC93967447"
+  },
+  {
+    "route": "tag/B7B8F93CC817",
+    "title": "Proposition 16.42.2",
+    "chapter": "envelopes-models",
+    "section": "equilibrium-densities-and-boundaries-of-real-convex-bodies",
+    "tag": "B7B8F93CC817"
+  },
+  {
+    "route": "tag/86440B2CBCE4",
+    "title": "Proposition 16.42.3",
+    "chapter": "envelopes-models",
+    "section": "equilibrium-densities-and-boundaries-of-real-convex-bodies",
+    "tag": "86440B2CBCE4"
+  },
+  {
+    "route": "tag/16C56B7B3FDA",
+    "title": "Lemma 16.42.4",
+    "chapter": "envelopes-models",
+    "section": "equilibrium-densities-and-boundaries-of-real-convex-bodies",
+    "tag": "16C56B7B3FDA"
+  },
+  {
+    "route": "tag/1E10E926515B",
+    "title": "Theorem 16.42.5",
+    "chapter": "envelopes-models",
+    "section": "equilibrium-densities-and-boundaries-of-real-convex-bodies",
+    "tag": "1E10E926515B"
+  },
+  {
+    "route": "tag/69C6DC7FA336",
+    "title": "Theorem 16.42.6",
+    "chapter": "envelopes-models",
+    "section": "equilibrium-densities-and-boundaries-of-real-convex-bodies",
+    "tag": "69C6DC7FA336"
+  },
+  {
+    "route": "sections/boundary-flux-and-nonproper-mass-comparison",
+    "title": "16.43 Boundary flux and nonproper mass comparison",
+    "chapter": "envelopes-models",
+    "section": "boundary-flux-and-nonproper-mass-comparison"
+  },
+  {
+    "route": "tag/A9104D666EA7",
+    "title": "Proposition 16.43.1",
+    "chapter": "envelopes-models",
+    "section": "boundary-flux-and-nonproper-mass-comparison",
+    "tag": "A9104D666EA7"
+  },
+  {
+    "route": "tag/BD99C3A4D1ED",
+    "title": "Corollary 16.43.2",
+    "chapter": "envelopes-models",
+    "section": "boundary-flux-and-nonproper-mass-comparison",
+    "tag": "BD99C3A4D1ED"
+  },
+  {
     "route": "chapters/energy-geodesics",
     "title": "17 Energy, geodesics, rays, and test curves",
     "chapter": "energy-geodesics"
@@ -41099,6 +42531,10 @@
   {
     "route": "sources/classical-potential-theory",
     "title": "Classical potential theory: supplements after Helms"
+  },
+  {
+    "route": "sources/klimek-pluripotential-theory",
+    "title": "Local and global pluripotential theory: supplements after Klimek"
   },
   {
     "route": "search",

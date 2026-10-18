@@ -25,14 +25,14 @@ The chapter also proves the real Monge–Ampère formula for toric metrics, the 
 <p>Convexity has its usual analytic meaning: $\mathbb R\ni x\mapsto x^2$ is convex. Support functions use the maximum convention.</p>
 </div></section><section class="reading-chunk" id="entry-DD9C13434AA7" data-section-entries="338B3FB48871 4214559F0471 987E79283076 DD9C13434AA7 EA1385DD984D"><div class="source-variant" data-gerby-book="sgpt"><h2><a href="../../tag/DD9C13434AA7/">21.12.1 Toric setup</a><code class="tag-id">DD9C13434AA7</code></h2><span data-gerby-tag="2FF2CFF2"></span>
 <p>
- Let $T$ be a complex torus of dimension $n$<sup class="footnote-reference" id="sgpt-fnref-a0000043088"><a aria-label="Footnote 1" href="#sgpt-a0000043088" role="doc-noteref">1</a></sup> and let $T_ c\subseteq T(\mathbb {C})$ denote the corresponding compact torus. 
-</p><aside class="source-footnote" id="sgpt-a0000043088" role="doc-footnote"><a aria-label="Back to reference 1" class="footnote-backlink" href="#sgpt-fnref-a0000043088" role="doc-backlink">1. ↩</a>  Namely, an algebraic group defined over $\mathbb {C}$, which is isomorphic to $\mathbb {G}_{\mathrm{m}}^ n$.</aside>
+ Let $T$ be a complex torus of dimension $n$<sup class="footnote-reference" id="sgpt-fnref-a0000043076"><a aria-label="Footnote 1" href="#sgpt-a0000043076" role="doc-noteref">1</a></sup> and let $T_ c\subseteq T(\mathbb {C})$ denote the corresponding compact torus. 
+</p><aside class="source-footnote" id="sgpt-a0000043076" role="doc-footnote"><a aria-label="Back to reference 1" class="footnote-backlink" href="#sgpt-fnref-a0000043076" role="doc-backlink">1. ↩</a>  Namely, an algebraic group defined over $\mathbb {C}$, which is isomorphic to $\mathbb {G}_{\mathrm{m}}^ n$.</aside>
 <p>
 Write $M$ for the character lattice of $T$, which is a free Abelian group of rank $n$. Similarly, let $N$ be the cocharacter lattice of $T$, which is the dual lattice of $M$. Given $m\in M$, the corresponding character of $T$ is denoted by $\chi ^ m$. Write $M_{\mathbb {R}}=M\otimes _{\mathbb {Z}} \mathbb {R}$ and $N_{\mathbb {R}}=N\otimes _{\mathbb {Z}}\mathbb {R}$. The pairing between $M_{\mathbb {R}}$ and $N_{\mathbb {R}}$ is denoted by $\langle \bullet ,\bullet \rangle $. 
 </p>
 <p>
-Let $P\subseteq M_{\mathbb {R}}$ be a full-dimensional <em>smooth</em><sup class="footnote-reference" id="sgpt-fnref-a0000043156"><a aria-label="Footnote 2" href="#sgpt-a0000043156" role="doc-noteref">2</a></sup> lattice polytope<sup class="footnote-reference" id="sgpt-fnref-a0000043176"><a aria-label="Footnote 3" href="#sgpt-a0000043176" role="doc-noteref">3</a></sup>. 
-</p><aside class="source-footnote" id="sgpt-a0000043156" role="doc-footnote"><a aria-label="Back to reference 2" class="footnote-backlink" href="#sgpt-fnref-a0000043156" role="doc-backlink">2. ↩</a>  Recall that <em>smooth</em> means that for every vertex $v\in P$, if $w_ E$ denotes the first lattice point after $v$ as one traverses each edge $E$ of $P$ containing $v$, then $\{ w_ E-v\} _ E$ forms a basis of $M$. We also say $P$ is a <em>Delzant polytope</em> in this case.</aside><aside class="source-footnote" id="sgpt-a0000043176" role="doc-footnote"><a aria-label="Back to reference 3" class="footnote-backlink" href="#sgpt-fnref-a0000043176" role="doc-backlink">3. ↩</a>  A <em>lattice polytope</em> in $M_{\mathbb {R}}$ is the convex hull of finitely many points in $M$.</aside>
+Let $P\subseteq M_{\mathbb {R}}$ be a full-dimensional <em>smooth</em><sup class="footnote-reference" id="sgpt-fnref-a0000043144"><a aria-label="Footnote 2" href="#sgpt-a0000043144" role="doc-noteref">2</a></sup> lattice polytope<sup class="footnote-reference" id="sgpt-fnref-a0000043164"><a aria-label="Footnote 3" href="#sgpt-a0000043164" role="doc-noteref">3</a></sup>. 
+</p><aside class="source-footnote" id="sgpt-a0000043144" role="doc-footnote"><a aria-label="Back to reference 2" class="footnote-backlink" href="#sgpt-fnref-a0000043144" role="doc-backlink">2. ↩</a>  Recall that <em>smooth</em> means that for every vertex $v\in P$, if $w_ E$ denotes the first lattice point after $v$ as one traverses each edge $E$ of $P$ containing $v$, then $\{ w_ E-v\} _ E$ forms a basis of $M$. We also say $P$ is a <em>Delzant polytope</em> in this case.</aside><aside class="source-footnote" id="sgpt-a0000043164" role="doc-footnote"><a aria-label="Back to reference 3" class="footnote-backlink" href="#sgpt-fnref-a0000043164" role="doc-backlink">3. ↩</a>  A <em>lattice polytope</em> in $M_{\mathbb {R}}$ is the convex hull of finitely many points in $M$.</aside>
 <p>
 Given any (closed) facet $F$ of $P$, let $u_ F\in N$ denote the unique ray generator (the first non-zero integral element) of the inward normal ray of $F$. Then $P$ can be represented as 
 </p>
@@ -97,8 +97,8 @@ We will choose the base $\mathrm{e}$ for the logarithm map
 </p>
 <div class="equation numbered-equation" id="sgpt-4AC25346"><span data-gerby-tag="4AC25346"><code class="tag-id">EA1385DD984D</code></span>
 <span class="equation-label"><a data-tag="4AC25346" href="../../tag/EA1385DD984D/">21.12.3</a></span>
-<div><span class="math-footnote-reference" id="sgpt-fnref-a0000043430" tabindex="-1"></span>\begin{equation}  \mathbb {C}^*\rightarrow \mathbb {R},\quad z\mapsto \log |z|^2.{}^{\href{#sgpt-a0000043430}{4}}\end{equation}</div>
-</div><aside class="source-footnote" id="sgpt-a0000043430" role="doc-footnote"><a aria-label="Back to reference 4" class="footnote-backlink" href="#sgpt-fnref-a0000043430" role="doc-backlink">4. ↩</a>  Be careful when you compare with other references, some people prefer $\log |z|$, $-\log |z|$ or $-\log |z|^2$ instead.</aside>
+<div><span class="math-footnote-reference" id="sgpt-fnref-a0000043418" tabindex="-1"></span>\begin{equation}  \mathbb {C}^*\rightarrow \mathbb {R},\quad z\mapsto \log |z|^2.{}^{\href{#sgpt-a0000043418}{4}}\end{equation}</div>
+</div><aside class="source-footnote" id="sgpt-a0000043418" role="doc-footnote"><a aria-label="Back to reference 4" class="footnote-backlink" href="#sgpt-fnref-a0000043418" role="doc-backlink">4. ↩</a>  Be careful when you compare with other references, some people prefer $\log |z|$, $-\log |z|$ or $-\log |z|^2$ instead.</aside>
 <p>
  This choice is fixed throughout these constructions. We have a canonical identification 
 </p>
@@ -183,8 +183,8 @@ Let $G_0\colon M_{\mathbb {R}}\rightarrow (-\infty ,\infty ]$ be defined as
 </p>
 <div class="equation numbered-equation" id="sgpt-50EC1BC2"><span data-gerby-tag="50EC1BC2"><code class="tag-id">CC04BEE427C7</code></span>
 <span class="equation-label"><a data-tag="50EC1BC2" href="../../tag/CC04BEE427C7/">21.12.9</a></span>
-<div><span class="math-footnote-reference" id="sgpt-fnref-a0000043827" tabindex="-1"></span>\begin{equation}  G_0(m)\coloneqq \begin{cases}  \sum \limits _{\rho \in \Sigma (1)} \left(\langle m, u_{\rho }\rangle +a_{\rho }\right)\log \left(\langle m, u_{\rho }\rangle +a_{\rho }\right){}^{\href{#sgpt-a0000043827}{5}},&amp; \textup{if }m\in P,\\  \infty ,&amp;  \textup{otherwise}. \end{cases} \end{equation}</div>
-</div><aside class="source-footnote" id="sgpt-a0000043827" role="doc-footnote"><a aria-label="Back to reference 5" class="footnote-backlink" href="#sgpt-fnref-a0000043827" role="doc-backlink">5. ↩</a>  We understand that $0\log 0=0$ in this expression.</aside>
+<div><span class="math-footnote-reference" id="sgpt-fnref-a0000043815" tabindex="-1"></span>\begin{equation}  G_0(m)\coloneqq \begin{cases}  \sum \limits _{\rho \in \Sigma (1)} \left(\langle m, u_{\rho }\rangle +a_{\rho }\right)\log \left(\langle m, u_{\rho }\rangle +a_{\rho }\right){}^{\href{#sgpt-a0000043815}{5}},&amp; \textup{if }m\in P,\\  \infty ,&amp;  \textup{otherwise}. \end{cases} \end{equation}</div>
+</div><aside class="source-footnote" id="sgpt-a0000043815" role="doc-footnote"><a aria-label="Back to reference 5" class="footnote-backlink" href="#sgpt-fnref-a0000043815" role="doc-backlink">5. ↩</a>  We understand that $0\log 0=0$ in this expression.</aside>
 <p>
 </p>
 <p>
@@ -477,8 +477,8 @@ The complex Monge–Ampère operator is closely related to the real one: <articl
 <div class="equation">
   \[  \int _ X \omega ^ n=n!\operatorname{vol}P.  \]
 </div>
-</article> Here the real Monge–Ampère operator is defined in definition <a data-tag="AA859A41" href="../../tag/FF5885207F9E/">21.11.50</a>. The normalization of the Lebesgue measure $\operatorname{vol}$ on $M_{\mathbb {R}}$ is such that the fundamental lattice cube has measure $1$.<sup class="footnote-reference" id="sgpt-fnref-a0000045172"><a aria-label="Footnote 6" href="#sgpt-a0000045172" role="doc-noteref">6</a></sup>
-<aside class="source-footnote" id="sgpt-a0000045172" role="doc-footnote"><a aria-label="Back to reference 6" class="footnote-backlink" href="#sgpt-fnref-a0000045172" role="doc-backlink">6. ↩</a>  In some references like <span class="cite">[<a href="../../references/#R9EF220339211">GKZ08</a>]</span>, the normalization is so that the fundamental lattice cube has measure $n!$. Be careful when making comparisons with these references.</aside>
+</article> Here the real Monge–Ampère operator is defined in definition <a data-tag="AA859A41" href="../../tag/FF5885207F9E/">21.11.50</a>. The normalization of the Lebesgue measure $\operatorname{vol}$ on $M_{\mathbb {R}}$ is such that the fundamental lattice cube has measure $1$.<sup class="footnote-reference" id="sgpt-fnref-a0000045160"><a aria-label="Footnote 6" href="#sgpt-a0000045160" role="doc-noteref">6</a></sup>
+<aside class="source-footnote" id="sgpt-a0000045160" role="doc-footnote"><a aria-label="Back to reference 6" class="footnote-backlink" href="#sgpt-fnref-a0000045160" role="doc-backlink">6. ↩</a>  In some references like <span class="cite">[<a href="../../references/#R9EF220339211">GKZ08</a>]</span>, the normalization is so that the fundamental lattice cube has measure $n!$. Be careful when making comparisons with these references.</aside>
 <article class="env-proof">
 <p>
 <strong>Proof.</strong>

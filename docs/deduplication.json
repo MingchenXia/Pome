@@ -15,7 +15,7 @@
           "book": "sgpt",
           "tag": "8C5B3349",
           "label": "def:psh",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
         }
       ]
     },
@@ -34,7 +34,7 @@
           "book": "sgpt",
           "tag": "D913BC74",
           "label": "def:pluripolarsets",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
         }
       ]
     },
@@ -53,13 +53,13 @@
           "book": "sgpt",
           "tag": "B73BD95E",
           "label": "def:pftopologydomain",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
         },
         {
           "book": "sgpt",
           "tag": "B02DEC51",
           "label": "def:pftopologygeneral",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
         }
       ]
     },
@@ -78,7 +78,7 @@
           "book": "sgpt",
           "tag": "EEA5FA9D",
           "label": "def:pshfunctions:L1122",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
         },
         {
           "book": "non-kahler-pluripotential-theory",
@@ -103,7 +103,7 @@
           "book": "sgpt",
           "tag": "12245B78",
           "label": "def:neatanasing",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
         }
       ]
     },
@@ -122,7 +122,26 @@
           "book": "sgpt",
           "tag": "4C7BF32B",
           "label": "def:quasiequsing",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
+        }
+      ]
+    },
+    {
+      "tag": "06A36B9354A5",
+      "title": "Bounded global cohomological mass",
+      "note": "The logarithmic-growth full-mass statement is the affine-chart consequence of the bounded global cohomological mass formula, with the normalization and no mass at the hyperplane at infinity checked in the affine chart. Its source variant retains the radial and proper-comparison proof.",
+      "sources": [
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "4EE18BE1",
+          "label": "prop:bounded-global-cohomological-mass",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "klimek-pluripotential-theory",
+          "tag": "187A0EF4",
+          "label": "prop:logarithmic-full-mass",
+          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
         }
       ]
     },
@@ -141,7 +160,7 @@
           "book": "sgpt",
           "tag": "A430B5F7",
           "label": "def:rooftop",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
         }
       ]
     },
@@ -154,7 +173,7 @@
           "book": "sgpt",
           "tag": "410CBDE6",
           "label": "def:parorder",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
         },
         {
           "book": "non-kahler-pluripotential-theory",
@@ -173,13 +192,13 @@
           "book": "sgpt",
           "tag": "C5989909",
           "label": "def:almostsg:L284",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
         },
         {
           "book": "sgpt",
           "tag": "33283DB1",
           "label": "def:Okounkov:L69",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
         }
       ]
     },
@@ -192,13 +211,13 @@
           "book": "sgpt",
           "tag": "D2CDA8AC",
           "label": "thm:HausOkounapp",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
         },
         {
           "book": "sgpt",
           "tag": "289292E3",
           "label": "thm:HausOkoun",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
         }
       ]
     },
@@ -211,13 +230,13 @@
           "book": "sgpt",
           "tag": "2715D784",
           "label": "eq:volWvolDelta",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
         },
         {
           "book": "sgpt",
           "tag": "87D575E8",
           "label": "eq:volWvolDeltaapp",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
         }
       ]
     },
@@ -230,13 +249,13 @@
           "book": "sgpt",
           "tag": "8877D026",
           "label": "eq:HausconvDeltaGLS",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
         },
         {
           "book": "sgpt",
           "tag": "26220118",
           "label": "eq:HausconvDeltaGLSapp",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
         }
       ]
     },
@@ -249,13 +268,13 @@
           "book": "sgpt",
           "tag": "6A0E7DEB",
           "label": "cor:distapp",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
         },
         {
           "book": "sgpt",
           "tag": "CFA8D66F",
           "label": "cor:dist",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
         }
       ]
     },
@@ -268,13 +287,13 @@
           "book": "sgpt",
           "tag": "A2E8430D",
           "label": "cor:Okocompapp",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
         },
         {
           "book": "sgpt",
           "tag": "EF7FDE10",
           "label": "cor:Okocomp",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
         }
       ]
     },
@@ -287,19 +306,57 @@
           "book": "sgpt",
           "tag": "58D6F61D",
           "label": "eq:Deltacontain",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
         },
         {
           "book": "sgpt",
           "tag": "05411EE8",
           "label": "eq:Deltacontainapp",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+          "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
+        }
+      ]
+    },
+    {
+      "tag": "1BBBF8109419",
+      "title": "Small pole local products",
+      "note": "The Klimek variant proves only the isolated-point self-product and its continuity by an annular bounded-product argument. The preferred theorem also covers mixed products, weighted products and Hausdorff-zero pole sets. The special-case proof does not verify those broader conclusions.",
+      "sources": [
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "2291BBE0",
+          "label": "thm:small-pole-local-products",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        },
+        {
+          "book": "klimek-pluripotential-theory",
+          "tag": "C38D699A",
+          "label": "prop:isolated-point-ma-extension",
+          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+        }
+      ]
+    },
+    {
+      "tag": "F7D352207205",
+      "title": "Small pole residual invariance",
+      "note": "The Klimek variant establishes the single-point residual comparison and the ratio case by positive rescaling. It uses the isolated-point product construction. Preserve the preferred result and its broader scope; do not infer the full small-pole theorem from this special-case proof.",
+      "sources": [
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "7F7BF53B",
+          "label": "lem:small-pole-residual-invariance",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        },
+        {
+          "book": "klimek-pluripotential-theory",
+          "tag": "849438A9",
+          "label": "prop:isolated-residual-comparison-reduction",
+          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
         }
       ]
     }
   ],
-  "duplicate_entries_unified": 17,
+  "duplicate_entries_unified": 20,
   "numbered_clauses_in_parent_statements": 405,
-  "source_tags": 6426,
-  "canonical_entries": 5916
+  "source_tags": 6642,
+  "canonical_entries": 6129
 }
