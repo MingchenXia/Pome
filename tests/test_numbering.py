@@ -54,6 +54,8 @@ class NumberingTests(unittest.TestCase):
         self.assertEqual(equation['topic'], parent['topic'])
         self.assertEqual(equation['number'].rsplit('.', 1)[0], parent['number'].rsplit('.', 1)[0])
         self.assertEqual(numbers['second', '00000004']['number'], equation['number'])
+        order = list(self.entries)
+        self.assertEqual(order.index(equation['tag']), order.index(parent['tag']) + 1)
 
     def test_logical_clauses_keep_tags_but_share_the_statement_badge(self):
         clause = {"source": "first", "tag": "00000009", "label": "item:condition", "number": "1"}

@@ -498,7 +498,7 @@ def build_collection(books, destination, configuration):
         else:
             write("tag/" + tag, content, display_title(entry), root)
         component_aliases = [value for v in entry["components"] for value in (v["tag"], v["label"])]
-        search_record = {"tag": tag, "title": display_title(entry), "search_title": entry["title"], "kind": entry["kind"], "topic": chapter["title"], "section": reader.sections[entry["topic"]]["number"] + " " + topics[entry["topic"]]["title"], "text": " ".join(texts), "aliases": [v["tag"] for v in variants] + [v["label"] for v in variants] + component_aliases}
+        search_record = {"tag": tag, "title": display_title(entry), "search_title": entry["title"], "kind": entry["kind"], "topic": chapter["title"], "section": reader.sections[entry["topic"]]["number"] + " " + topics[entry["topic"]]["title"], "text": " ".join(texts), "aliases": [v["tag"] for v in variants] + [v["label"] for v in variants] + component_aliases + ([global_tag(v["source"], v["label"]) for v in entry["variants"]] if entry.get("historical") else [])}
         if entry["section_intro"] and entry["topic"] in section_search:
             previous = section_search[entry["topic"]]
             previous["aliases"] += [tag, *search_record["aliases"]]

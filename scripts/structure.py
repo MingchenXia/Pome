@@ -80,8 +80,23 @@ def arrange_sections(entries, topics, configuration):
 
     for tag in entries:
         place(tag)
+    # Keep embedded formulas next to their canonical parent in reading order,
+    # even when the preferred statement precedes the other source's export.
+    children = {}
+    for tag, parent in parents.items():
+        children.setdefault(parent, []).append(tag)
+    ordered = {}
+
+    def append_family(tag):
+        ordered[tag] = entries[tag]
+        for child in children.get(tag, []):
+            append_family(child)
+
+    for tag in entries:
+        if tag not in parents:
+            append_family(tag)
     entries.clear()
-    entries.update(placed)
+    entries.update(ordered)
     for entry in entries.values():
         variant = entry["variants"][0]
         entry["section_intro"] = bool(variant.get("section") and (entry["tag"] in promoted or title_key(variant["caption"]) == title_key(topics[entry["topic"]]["title"])))
