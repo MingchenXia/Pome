@@ -680,7 +680,8 @@
         "problems-in-hermitian-pluripotential-theory--topologies-on-singularity-types",
         "problems-in-hermitian-pluripotential-theory--trace-realization-and-recovery",
         "problems-in-hermitian-pluripotential-theory--sections-kernels-and-the-dimension-of-growth",
-        "problems-in-hermitian-pluripotential-theory--equations-on-singular-spaces"
+        "problems-in-hermitian-pluripotential-theory--equations-on-singular-spaces",
+        "questions-from-global-pluripotential-theory"
       ],
       "number": 24,
       "tag": "F03E578EF455"
@@ -688,31 +689,18 @@
     {
       "slug": "historical-notes",
       "title": "Historical and bibliographical notes",
-      "description": "",
+      "description": "From classical potentials and capacity to nonlinear measures, complex geometry, singularity models, and algebraic asymptotics. These notes follow the mathematical development across Pome and distinguish historical attribution from the hypotheses and proofs of individual results.",
       "topics": [
-        "historical-and-bibliographical-notes",
-        "historical-notes",
-        "historical-notes--plurisubharmonic-functions-and-regularization",
-        "historical-notes--mass-and-energy",
-        "historical-notes--gauduchon-metrics-and-positivity",
-        "historical-notes--bounded-products-and-extended-measures",
-        "historical-notes--envelopes-and-comparison",
-        "historical-notes--smooth-and-continuous-equations",
-        "historical-notes--uniqueness-and-selection",
-        "historical-notes--complex-hessian-equations",
-        "historical-notes--volumes-under-mass-bounds",
-        "historical-notes--equations-with-prescribed-singularities",
-        "historical-notes--normalization-and-adjoint-measures",
-        "historical-notes--perron-geometry-on-hopf-manifolds",
-        "historical-notes--singularity-classes-and-traces",
-        "historical-notes--section-growth-and-partial-kernels",
-        "historical-notes--gauduchon-variational-volume",
-        "historical-notes--closed-classes-and-singular-loci",
-        "historical-notes--closed-classes-and-metric-completeness",
-        "historical-notes--locally-conformally-kahler-geometry",
-        "historical-notes--regularity-and-singular-spaces",
-        "historical-notes--geometric-problems",
-        "comments"
+        "history--classical-potential-theory",
+        "history--plurisubharmonicity-and-singularities",
+        "history--nonlinear-products-and-mass",
+        "history--positivity-and-hermitian-volume",
+        "history--monge-ampere-and-hessian-equations",
+        "history--envelopes-and-singularity-types",
+        "history--energy-and-geodesics",
+        "history--sections-convexity-and-non-archimedean-geometry",
+        "history--singular-spaces-and-locally-conformal-geometry",
+        "history--perspectives-and-reading"
       ],
       "number": 25,
       "tag": "3168511224C4"
@@ -874,13 +862,6 @@
       "tag": "B64C7FEAE2E7"
     },
     {
-      "slug": "historical-and-bibliographical-notes",
-      "title": "Historical and bibliographical notes",
-      "description": "",
-      "number": "25.1",
-      "tag": "65E16F3944C7"
-    },
-    {
       "slug": "the-envelope-operators",
       "title": "The envelope operators",
       "description": "",
@@ -949,13 +930,6 @@
       "description": "",
       "number": "18.28",
       "tag": "065B04510A8A"
-    },
-    {
-      "slug": "comments",
-      "title": "Comments",
-      "description": "",
-      "number": "25.23",
-      "tag": "F8F49090AB94"
     },
     {
       "slug": "convex-functions-and-convex-bodies",
@@ -1208,13 +1182,6 @@
       "description": "",
       "number": "24.1",
       "tag": "9226B45701D5"
-    },
-    {
-      "slug": "historical-notes",
-      "title": "Historical notes",
-      "description": "",
-      "number": "25.2",
-      "tag": "4D6830B53C70"
     },
     {
       "slug": "potentials-and-equations-on-unibranch-spaces",
@@ -3625,146 +3592,6 @@
       "tag": "C6BAF3541DDF"
     },
     {
-      "slug": "historical-notes--plurisubharmonic-functions-and-regularization",
-      "title": "Plurisubharmonic functions and regularization",
-      "description": "",
-      "number": "25.3",
-      "tag": "9D79D5D188C6"
-    },
-    {
-      "slug": "historical-notes--mass-and-energy",
-      "title": "Mass and energy",
-      "description": "",
-      "number": "25.4",
-      "tag": "BB36F353AA0C"
-    },
-    {
-      "slug": "historical-notes--gauduchon-metrics-and-positivity",
-      "title": "Gauduchon metrics and positivity",
-      "description": "",
-      "number": "25.5",
-      "tag": "3C68E80772A5"
-    },
-    {
-      "slug": "historical-notes--bounded-products-and-extended-measures",
-      "title": "Bounded products and extended measures",
-      "description": "",
-      "number": "25.6",
-      "tag": "9E2E80C382FD"
-    },
-    {
-      "slug": "historical-notes--envelopes-and-comparison",
-      "title": "Envelopes and comparison",
-      "description": "",
-      "number": "25.7",
-      "tag": "CA53357795CC"
-    },
-    {
-      "slug": "historical-notes--smooth-and-continuous-equations",
-      "title": "Smooth and continuous equations",
-      "description": "",
-      "number": "25.8",
-      "tag": "E1BC130DDD5C"
-    },
-    {
-      "slug": "historical-notes--uniqueness-and-selection",
-      "title": "Uniqueness and selection",
-      "description": "",
-      "number": "25.9",
-      "tag": "AFDCC356D816"
-    },
-    {
-      "slug": "historical-notes--complex-hessian-equations",
-      "title": "Complex Hessian equations",
-      "description": "",
-      "number": "25.10",
-      "tag": "67A66AB9757E"
-    },
-    {
-      "slug": "historical-notes--volumes-under-mass-bounds",
-      "title": "Volumes under mass bounds",
-      "description": "",
-      "number": "25.11",
-      "tag": "D116D93B0EBE"
-    },
-    {
-      "slug": "historical-notes--equations-with-prescribed-singularities",
-      "title": "Equations with prescribed singularities",
-      "description": "",
-      "number": "25.12",
-      "tag": "EFAA097B03EC"
-    },
-    {
-      "slug": "historical-notes--normalization-and-adjoint-measures",
-      "title": "Normalization and adjoint measures",
-      "description": "",
-      "number": "25.13",
-      "tag": "7B9538DE7653"
-    },
-    {
-      "slug": "historical-notes--perron-geometry-on-hopf-manifolds",
-      "title": "Perron geometry on Hopf manifolds",
-      "description": "",
-      "number": "25.14",
-      "tag": "94E3F780653C"
-    },
-    {
-      "slug": "historical-notes--singularity-classes-and-traces",
-      "title": "Singularity classes and traces",
-      "description": "",
-      "number": "25.15",
-      "tag": "81F92F228A7E"
-    },
-    {
-      "slug": "historical-notes--section-growth-and-partial-kernels",
-      "title": "Section growth and partial kernels",
-      "description": "",
-      "number": "25.16",
-      "tag": "CAFE5EFFA7C8"
-    },
-    {
-      "slug": "historical-notes--gauduchon-variational-volume",
-      "title": "Gauduchon variational volume",
-      "description": "",
-      "number": "25.17",
-      "tag": "3747CBC0FB2D"
-    },
-    {
-      "slug": "historical-notes--closed-classes-and-singular-loci",
-      "title": "Closed classes and singular loci",
-      "description": "",
-      "number": "25.18",
-      "tag": "C873148DF75D"
-    },
-    {
-      "slug": "historical-notes--closed-classes-and-metric-completeness",
-      "title": "Closed classes and metric completeness",
-      "description": "",
-      "number": "25.19",
-      "tag": "6DFCF19530CA"
-    },
-    {
-      "slug": "historical-notes--locally-conformally-kahler-geometry",
-      "title": "Locally conformally Kähler geometry",
-      "description": "",
-      "number": "25.20",
-      "tag": "2C3E73AAD887"
-    },
-    {
-      "slug": "historical-notes--regularity-and-singular-spaces",
-      "title": "Regularity and singular spaces",
-      "description": "",
-      "number": "25.21",
-      "tag": "2200D43D6A26"
-    },
-    {
-      "slug": "historical-notes--geometric-problems",
-      "title": "Geometric problems",
-      "description": "",
-      "number": "25.22",
-      "tag": "BCAE26692B2F"
-    },
-    {
       "slug": "multiplier-ideal-envelopes-and-goodness--a-topology-on-ordinary-singularity-types--analytic-closure",
       "title": "Analytic closure",
       "description": "",
@@ -4155,6 +3982,83 @@
       "description": "",
       "number": "16.9",
       "tag": "45BED73AEFE3"
+    },
+    {
+      "slug": "questions-from-global-pluripotential-theory",
+      "title": "Questions from global pluripotential theory",
+      "description": "",
+      "number": "24.12",
+      "tag": "8B52D455AC39"
+    },
+    {
+      "slug": "history--classical-potential-theory",
+      "title": "Classical potentials, boundary problems, and capacity",
+      "description": "",
+      "number": "25.1",
+      "tag": "65E16F3944C7"
+    },
+    {
+      "slug": "history--plurisubharmonicity-and-singularities",
+      "title": "Plurisubharmonicity, currents, and singularities",
+      "description": "",
+      "number": "25.2",
+      "tag": "E49C1A0D4682"
+    },
+    {
+      "slug": "history--nonlinear-products-and-mass",
+      "title": "Nonlinear products, capacity, and mass",
+      "description": "",
+      "number": "25.3",
+      "tag": "E66D40EC5904"
+    },
+    {
+      "slug": "history--positivity-and-hermitian-volume",
+      "title": "Positivity, Hermitian geometry, and volume",
+      "description": "",
+      "number": "25.4",
+      "tag": "F9B38BEB0BCF"
+    },
+    {
+      "slug": "history--monge-ampere-and-hessian-equations",
+      "title": "Monge–Ampère and complex Hessian equations",
+      "description": "",
+      "number": "25.5",
+      "tag": "E1BC130DDD5C"
+    },
+    {
+      "slug": "history--envelopes-and-singularity-types",
+      "title": "Envelopes, singularity types, and prescribed data",
+      "description": "",
+      "number": "25.6",
+      "tag": "3F57C7AFD15C"
+    },
+    {
+      "slug": "history--energy-and-geodesics",
+      "title": "Energy, geodesics, rays, and metric geometry",
+      "description": "",
+      "number": "25.7",
+      "tag": "889877FC2044"
+    },
+    {
+      "slug": "history--sections-convexity-and-non-archimedean-geometry",
+      "title": "Sections, convex bodies, and non-Archimedean geometry",
+      "description": "",
+      "number": "25.8",
+      "tag": "482A6169B3A6"
+    },
+    {
+      "slug": "history--singular-spaces-and-locally-conformal-geometry",
+      "title": "Singular spaces, traces, and locally conformally Kähler geometry",
+      "description": "",
+      "number": "25.9",
+      "tag": "F14EBE94C297"
+    },
+    {
+      "slug": "history--perspectives-and-reading",
+      "title": "Perspectives and further reading",
+      "description": "",
+      "number": "25.10",
+      "tag": "BCAE26692B2F"
     }
   ],
   "entries": [
@@ -13793,10 +13697,28 @@
       "components": []
     },
     {
-      "tag": "7110958B611B",
+      "tag": "90744C0CCE8E",
       "number": "6.14.7",
       "section_intro": false,
-      "title": "Lemma 6.14.7",
+      "title": "Equation 6.14.7",
+      "kind": "equation",
+      "chapter": "singularities-regularization",
+      "topic": "analytic-singularities-and-demailly-approximation--smooth-backgrounds-and-analytic-singularities",
+      "sources": [
+        {
+          "book": "sgpt",
+          "tag": "A68BB3CE",
+          "label": "eq:anasinglocal",
+          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "7110958B611B",
+      "number": "6.14.8",
+      "section_intro": false,
+      "title": "Lemma 6.14.8",
       "kind": "lemma",
       "chapter": "singularities-regularization",
       "topic": "analytic-singularities-and-demailly-approximation--smooth-backgrounds-and-analytic-singularities",
@@ -13812,9 +13734,9 @@
     },
     {
       "tag": "AFD530210C3A",
-      "number": "6.14.8",
+      "number": "6.14.9",
       "section_intro": false,
-      "title": "Proposition 6.14.8",
+      "title": "Proposition 6.14.9",
       "kind": "proposition",
       "chapter": "singularities-regularization",
       "topic": "analytic-singularities-and-demailly-approximation--smooth-backgrounds-and-analytic-singularities",
@@ -13830,9 +13752,9 @@
     },
     {
       "tag": "D022961325A2",
-      "number": "6.14.9",
+      "number": "6.14.10",
       "section_intro": false,
-      "title": "Definition 6.14.9",
+      "title": "Definition 6.14.10",
       "kind": "definition",
       "chapter": "singularities-regularization",
       "topic": "analytic-singularities-and-demailly-approximation--smooth-backgrounds-and-analytic-singularities",
@@ -13848,9 +13770,9 @@
     },
     {
       "tag": "1088A4C2B5CA",
-      "number": "6.14.10",
+      "number": "6.14.11",
       "section_intro": false,
-      "title": "Lemma 6.14.10",
+      "title": "Lemma 6.14.11",
       "kind": "lemma",
       "chapter": "singularities-regularization",
       "topic": "analytic-singularities-and-demailly-approximation--smooth-backgrounds-and-analytic-singularities",
@@ -13866,9 +13788,9 @@
     },
     {
       "tag": "1A99E612D41C",
-      "number": "6.14.11",
+      "number": "6.14.12",
       "section_intro": false,
-      "title": "Proposition 6.14.11",
+      "title": "Proposition 6.14.12",
       "kind": "proposition",
       "chapter": "singularities-regularization",
       "topic": "analytic-singularities-and-demailly-approximation--smooth-backgrounds-and-analytic-singularities",
@@ -13884,9 +13806,9 @@
     },
     {
       "tag": "4E814A4EB7D1",
-      "number": "6.14.12",
+      "number": "6.14.13",
       "section_intro": false,
-      "title": "Definition 6.14.12",
+      "title": "Definition 6.14.13",
       "kind": "definition",
       "chapter": "singularities-regularization",
       "topic": "analytic-singularities-and-demailly-approximation--smooth-backgrounds-and-analytic-singularities",
@@ -14252,10 +14174,28 @@
       ]
     },
     {
-      "tag": "080EF8C715CF",
+      "tag": "EF5655B5F536",
       "number": "6.17.6",
       "section_intro": false,
-      "title": "Theorem 6.17.6",
+      "title": "Equation 6.17.6",
+      "kind": "equation",
+      "chapter": "singularities-regularization",
+      "topic": "analytic-singularities-and-demailly-approximation--smooth-cutoff-sums-and-decreasing-approximation",
+      "sources": [
+        {
+          "book": "sgpt",
+          "tag": "CE89C52A",
+          "label": "eq:quasi_eq_prop",
+          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "080EF8C715CF",
+      "number": "6.17.7",
+      "section_intro": false,
+      "title": "Theorem 6.17.7",
       "kind": "theorem",
       "chapter": "singularities-regularization",
       "topic": "analytic-singularities-and-demailly-approximation--smooth-cutoff-sums-and-decreasing-approximation",
@@ -18074,10 +18014,28 @@
       "components": []
     },
     {
-      "tag": "046401771DAB",
+      "tag": "6AE4825E4C6F",
       "number": "16.11.6",
       "section_intro": false,
-      "title": "Proposition 16.11.6",
+      "title": "Equation 16.11.6",
+      "kind": "equation",
+      "chapter": "envelopes-models",
+      "topic": "envelopes-and-model-potentials--obstacles-and-rooftops",
+      "sources": [
+        {
+          "book": "sgpt",
+          "tag": "0337BA47",
+          "label": "eq:rooftopdef1",
+          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "046401771DAB",
+      "number": "16.11.7",
+      "section_intro": false,
+      "title": "Proposition 16.11.7",
       "kind": "proposition",
       "chapter": "envelopes-models",
       "topic": "envelopes-and-model-potentials--obstacles-and-rooftops",
@@ -18093,9 +18051,9 @@
     },
     {
       "tag": "908479CB91B3",
-      "number": "16.11.7",
+      "number": "16.11.8",
       "section_intro": false,
-      "title": "Example 16.11.7",
+      "title": "Example 16.11.8",
       "kind": "example",
       "chapter": "envelopes-models",
       "topic": "envelopes-and-model-potentials--obstacles-and-rooftops",
@@ -25112,402 +25070,6 @@
       "components": []
     },
     {
-      "tag": "65E16F3944C7",
-      "number": "25.1",
-      "section_intro": true,
-      "title": "25.1 Historical and bibliographical notes",
-      "kind": "chapter",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "24F0E134",
-          "label": "chap:h01",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "E6CD9442A846",
-      "number": "25.1.1",
-      "section_intro": false,
-      "title": "25.1.1 Measures and distributions",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "61626672",
-          "label": "sec:history-measures",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "16FFFBC63146",
-      "number": "25.1.2",
-      "section_intro": false,
-      "title": "25.1.2 Harmonic functions and boundary values",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "80F1F39E",
-          "label": "sec:history-harmonic",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "7A117C94C896",
-      "number": "25.1.3",
-      "section_intro": false,
-      "title": "25.1.3 Subharmonic functions and polar sets",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "F4F3BD91",
-          "label": "sec:history-subharmonic",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "F2A7FD4CCC54",
-      "number": "25.1.4",
-      "section_intro": false,
-      "title": "25.1.4 Energy, capacity and exceptional sets",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "C885BA41",
-          "label": "sec:history-capacity",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "3BA364E0394C",
-      "number": "25.1.5",
-      "section_intro": false,
-      "title": "25.1.5 Fine topology and balayage",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "19974AAA",
-          "label": "sec:history-fine",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "342F8D0FF9AE",
-      "number": "25.1.6",
-      "section_intro": false,
-      "title": "25.1.6 Fourier analysis and complex-line incidence",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "323108E4",
-          "label": "sec:history-fourier-incidence",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "CE9C93DDA94A",
-      "number": "25.1.7",
-      "section_intro": false,
-      "title": "25.1.7 Differential forms, currents and holomorphic divisors",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "089CED6E",
-          "label": "sec:history-complex-currents",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "E49C1A0D4682",
-      "number": "25.1.8",
-      "section_intro": false,
-      "title": "25.1.8 Plurisubharmonic functions and invariant minima",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "F545FFB3",
-          "label": "sec:history-plurisubharmonic",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "E66D40EC5904",
-      "number": "25.1.9",
-      "section_intro": false,
-      "title": "25.1.9 Bounded products and nonlinear capacity",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "C31C70B4",
-          "label": "sec:history-bounded-products",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "1AFE6A788B80",
-      "number": "25.1.10",
-      "section_intro": false,
-      "title": "25.1.10 Pluripolar sets and the plurifine topology",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "3A01CCBF",
-          "label": "sec:history-pluripolar",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "E796BF553819",
-      "number": "25.1.11",
-      "section_intro": false,
-      "title": "25.1.11 Weighted estimates and local extension",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "C124DC99",
-          "label": "sec:history-weighted-extension",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "2BFBF0A17586",
-      "number": "25.1.12",
-      "section_intro": false,
-      "title": "25.1.12 Lelong numbers and multiplier ideals",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "E08F04D5",
-          "label": "sec:history-lelong-multiplier",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "C1D97719C08E",
-      "number": "25.1.13",
-      "section_intro": false,
-      "title": "25.1.13 Analytic singularities and regularization",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "C0BE92F4",
-          "label": "sec:history-analytic-regularization",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "F9B38BEB0BCF",
-      "number": "25.1.14",
-      "section_intro": false,
-      "title": "25.1.14 Global potentials and positivity loci",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "5A374453",
-          "label": "sec:history-global-potentials",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "0948B3754F28",
-      "number": "25.1.15",
-      "section_intro": false,
-      "title": "25.1.15 Non-pluripolar products",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "8500760D",
-          "label": "sec:history-nonpluripolar",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "3F57C7AFD15C",
-      "number": "25.1.16",
-      "section_intro": false,
-      "title": "25.1.16 Envelopes and model potentials",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "A0DF087B",
-          "label": "sec:history-envelopes",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "889877FC2044",
-      "number": "25.1.17",
-      "section_intro": false,
-      "title": "25.1.17 Relative energy and integration by parts",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "CB1A48A2",
-          "label": "sec:history-energy",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "4C762779903D",
-      "number": "25.1.18",
-      "section_intro": false,
-      "title": "25.1.18 Weak geodesics",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "E369FE91",
-          "label": "sec:history-weak-geodesics",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "3EBE4FDCA90E",
-      "number": "25.1.19",
-      "section_intro": false,
-      "title": "25.1.19 Extremal slopes and singularity cutoffs",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "B0785475",
-          "label": "sec:history-geodesic-rays",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "482A6169B3A6",
-      "number": "25.1.20",
-      "section_intro": false,
-      "title": "25.1.20 Convex duality and real Monge–Ampère measures",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "5CFAA9E4",
-          "label": "sec:history-convex-measures",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "F14EBE94C297",
-      "number": "25.1.21",
-      "section_intro": false,
-      "title": "25.1.21 Analytic spaces and modifications",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-and-bibliographical-notes",
-      "sources": [
-        {
-          "book": "foundations-of-pluripotential-theory",
-          "tag": "323DF277",
-          "label": "sec:history-analytic-spaces",
-          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
-        }
-      ],
-      "components": []
-    },
-    {
       "tag": "C8D7837B3AED",
       "number": "1.1",
       "section_intro": true,
@@ -27611,28 +27173,10 @@
       "components": []
     },
     {
-      "tag": "90744C0CCE8E",
+      "tag": "AB08C5138082",
       "number": "5.18.1",
       "section_intro": false,
-      "title": "Equation 5.18.1",
-      "kind": "equation",
-      "chapter": "psh-positive-currents",
-      "topic": "plurisubharmonic-functions--analytic-singularities",
-      "sources": [
-        {
-          "book": "sgpt",
-          "tag": "A68BB3CE",
-          "label": "eq:anasinglocal",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "AB08C5138082",
-      "number": "5.18.2",
-      "section_intro": false,
-      "title": "Proposition 5.18.2",
+      "title": "Proposition 5.18.1",
       "kind": "proposition",
       "chapter": "psh-positive-currents",
       "topic": "plurisubharmonic-functions--analytic-singularities",
@@ -27648,9 +27192,9 @@
     },
     {
       "tag": "670832106E8E",
-      "number": "5.18.3",
+      "number": "5.18.2",
       "section_intro": false,
-      "title": "Definition 5.18.3",
+      "title": "Definition 5.18.2",
       "kind": "definition",
       "chapter": "psh-positive-currents",
       "topic": "plurisubharmonic-functions--analytic-singularities",
@@ -27677,9 +27221,9 @@
     },
     {
       "tag": "C6AC1C84A3B3",
-      "number": "5.18.4",
+      "number": "5.18.3",
       "section_intro": false,
-      "title": "Equation 5.18.4",
+      "title": "Equation 5.18.3",
       "kind": "equation",
       "chapter": "psh-positive-currents",
       "topic": "plurisubharmonic-functions--analytic-singularities",
@@ -27695,9 +27239,9 @@
     },
     {
       "tag": "3B54149D4222",
-      "number": "5.18.5",
+      "number": "5.18.4",
       "section_intro": false,
-      "title": "Lemma 5.18.5",
+      "title": "Lemma 5.18.4",
       "kind": "lemma",
       "chapter": "psh-positive-currents",
       "topic": "plurisubharmonic-functions--analytic-singularities",
@@ -27713,9 +27257,9 @@
     },
     {
       "tag": "4A902295BB8C",
-      "number": "5.18.6",
+      "number": "5.18.5",
       "section_intro": false,
-      "title": "Proposition 5.18.6",
+      "title": "Proposition 5.18.5",
       "kind": "proposition",
       "chapter": "psh-positive-currents",
       "topic": "plurisubharmonic-functions--analytic-singularities",
@@ -27731,9 +27275,9 @@
     },
     {
       "tag": "239591DA9F90",
-      "number": "5.18.7",
+      "number": "5.18.6",
       "section_intro": false,
-      "title": "Definition 5.18.7",
+      "title": "Definition 5.18.6",
       "kind": "definition",
       "chapter": "psh-positive-currents",
       "topic": "plurisubharmonic-functions--analytic-singularities",
@@ -27749,9 +27293,9 @@
     },
     {
       "tag": "D6BDA051B7C1",
-      "number": "5.18.8",
+      "number": "5.18.7",
       "section_intro": false,
-      "title": "Theorem 5.18.8",
+      "title": "Theorem 5.18.7",
       "kind": "theorem",
       "chapter": "psh-positive-currents",
       "topic": "plurisubharmonic-functions--analytic-singularities",
@@ -27766,28 +27310,10 @@
       "components": []
     },
     {
-      "tag": "EF5655B5F536",
-      "number": "5.18.9",
-      "section_intro": false,
-      "title": "Equation 5.18.9",
-      "kind": "equation",
-      "chapter": "psh-positive-currents",
-      "topic": "plurisubharmonic-functions--analytic-singularities",
-      "sources": [
-        {
-          "book": "sgpt",
-          "tag": "CE89C52A",
-          "label": "eq:quasi_eq_prop",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
-        }
-      ],
-      "components": []
-    },
-    {
       "tag": "FFAA7E68EEC1",
-      "number": "5.18.10",
+      "number": "5.18.8",
       "section_intro": false,
-      "title": "Definition 5.18.10",
+      "title": "Definition 5.18.8",
       "kind": "definition",
       "chapter": "psh-positive-currents",
       "topic": "plurisubharmonic-functions--analytic-singularities",
@@ -27819,9 +27345,9 @@
     },
     {
       "tag": "9348BF57481B",
-      "number": "5.18.11",
+      "number": "5.18.9",
       "section_intro": false,
-      "title": "Theorem 5.18.11",
+      "title": "Theorem 5.18.9",
       "kind": "theorem",
       "chapter": "psh-positive-currents",
       "topic": "plurisubharmonic-functions--analytic-singularities",
@@ -27837,9 +27363,9 @@
     },
     {
       "tag": "36EC36A38FAB",
-      "number": "5.18.12",
+      "number": "5.18.10",
       "section_intro": false,
-      "title": "Proposition 5.18.12",
+      "title": "Proposition 5.18.10",
       "kind": "proposition",
       "chapter": "psh-positive-currents",
       "topic": "plurisubharmonic-functions--analytic-singularities",
@@ -27855,9 +27381,9 @@
     },
     {
       "tag": "99446B95B55B",
-      "number": "5.18.13",
+      "number": "5.18.11",
       "section_intro": false,
-      "title": "Definition 5.18.13",
+      "title": "Definition 5.18.11",
       "kind": "definition",
       "chapter": "psh-positive-currents",
       "topic": "plurisubharmonic-functions--analytic-singularities",
@@ -27873,9 +27399,9 @@
     },
     {
       "tag": "D9F25876A735",
-      "number": "5.18.14",
+      "number": "5.18.12",
       "section_intro": false,
-      "title": "Lemma 5.18.14",
+      "title": "Lemma 5.18.12",
       "kind": "lemma",
       "chapter": "psh-positive-currents",
       "topic": "plurisubharmonic-functions--analytic-singularities",
@@ -27891,9 +27417,9 @@
     },
     {
       "tag": "2E0432C779A0",
-      "number": "5.18.15",
+      "number": "5.18.13",
       "section_intro": false,
-      "title": "Lemma 5.18.15",
+      "title": "Lemma 5.18.13",
       "kind": "lemma",
       "chapter": "psh-positive-currents",
       "topic": "plurisubharmonic-functions--analytic-singularities",
@@ -27909,9 +27435,9 @@
     },
     {
       "tag": "35E0DBB664F7",
-      "number": "5.18.16",
+      "number": "5.18.14",
       "section_intro": false,
-      "title": "Equation 5.18.16",
+      "title": "Equation 5.18.14",
       "kind": "equation",
       "chapter": "psh-positive-currents",
       "topic": "plurisubharmonic-functions--analytic-singularities",
@@ -27927,9 +27453,9 @@
     },
     {
       "tag": "D1A302A4CDD6",
-      "number": "5.18.17",
+      "number": "5.18.15",
       "section_intro": false,
-      "title": "Equation 5.18.17",
+      "title": "Equation 5.18.15",
       "kind": "equation",
       "chapter": "psh-positive-currents",
       "topic": "plurisubharmonic-functions--analytic-singularities",
@@ -27945,9 +27471,9 @@
     },
     {
       "tag": "2D610C4DD6AD",
-      "number": "5.18.18",
+      "number": "5.18.16",
       "section_intro": false,
-      "title": "Theorem 5.18.18",
+      "title": "Theorem 5.18.16",
       "kind": "theorem",
       "chapter": "psh-positive-currents",
       "topic": "plurisubharmonic-functions--analytic-singularities",
@@ -30722,28 +30248,10 @@
       "components": []
     },
     {
-      "tag": "6AE4825E4C6F",
+      "tag": "C1971A5F3DFD",
       "number": "16.3.1",
       "section_intro": false,
-      "title": "Equation 16.3.1",
-      "kind": "equation",
-      "chapter": "envelopes-models",
-      "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
-      "sources": [
-        {
-          "book": "sgpt",
-          "tag": "0337BA47",
-          "label": "eq:rooftopdef1",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "C1971A5F3DFD",
-      "number": "16.3.2",
-      "section_intro": false,
-      "title": "Proposition 16.3.2",
+      "title": "Proposition 16.3.1",
       "kind": "proposition",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -30759,9 +30267,9 @@
     },
     {
       "tag": "4CF7246E6E5A",
-      "number": "16.3.3",
+      "number": "16.3.2",
       "section_intro": false,
-      "title": "Lemma 16.3.3",
+      "title": "Lemma 16.3.2",
       "kind": "lemma",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -30777,9 +30285,9 @@
     },
     {
       "tag": "E08D87E98114",
-      "number": "16.3.4",
+      "number": "16.3.3",
       "section_intro": false,
-      "title": "Equation 16.3.4",
+      "title": "Equation 16.3.3",
       "kind": "equation",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -30795,9 +30303,9 @@
     },
     {
       "tag": "395DB7860949",
-      "number": "16.3.5",
+      "number": "16.3.4",
       "section_intro": false,
-      "title": "Definition 16.3.5",
+      "title": "Definition 16.3.4",
       "kind": "definition",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -30813,9 +30321,9 @@
     },
     {
       "tag": "7E001B03F24A",
-      "number": "16.3.6",
+      "number": "16.3.5",
       "section_intro": false,
-      "title": "Equation 16.3.6",
+      "title": "Equation 16.3.5",
       "kind": "equation",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -30831,9 +30339,9 @@
     },
     {
       "tag": "FA68BB354359",
-      "number": "16.3.7",
+      "number": "16.3.6",
       "section_intro": false,
-      "title": "Equation 16.3.7",
+      "title": "Equation 16.3.6",
       "kind": "equation",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -30849,9 +30357,9 @@
     },
     {
       "tag": "268F8CAEF7E2",
-      "number": "16.3.8",
+      "number": "16.3.7",
       "section_intro": false,
-      "title": "Equation 16.3.8",
+      "title": "Equation 16.3.7",
       "kind": "equation",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -30867,9 +30375,9 @@
     },
     {
       "tag": "EF5AC4B19C4D",
-      "number": "16.3.9",
+      "number": "16.3.8",
       "section_intro": false,
-      "title": "Proposition 16.3.9",
+      "title": "Proposition 16.3.8",
       "kind": "proposition",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -30885,9 +30393,9 @@
     },
     {
       "tag": "E58386609911",
-      "number": "16.3.10",
+      "number": "16.3.9",
       "section_intro": false,
-      "title": "Proposition 16.3.10",
+      "title": "Proposition 16.3.9",
       "kind": "proposition",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -30903,9 +30411,9 @@
     },
     {
       "tag": "0F7C5A9FEE2D",
-      "number": "16.3.11",
+      "number": "16.3.10",
       "section_intro": false,
-      "title": "Equation 16.3.11",
+      "title": "Equation 16.3.10",
       "kind": "equation",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -30921,9 +30429,9 @@
     },
     {
       "tag": "553335F185CE",
-      "number": "16.3.12",
+      "number": "16.3.11",
       "section_intro": false,
-      "title": "Theorem 16.3.12",
+      "title": "Theorem 16.3.11",
       "kind": "theorem",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -30939,9 +30447,9 @@
     },
     {
       "tag": "5CEAE61A4277",
-      "number": "16.3.13",
+      "number": "16.3.12",
       "section_intro": false,
-      "title": "Equation 16.3.13",
+      "title": "Equation 16.3.12",
       "kind": "equation",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -30957,9 +30465,9 @@
     },
     {
       "tag": "B6EF8456606F",
-      "number": "16.3.14",
+      "number": "16.3.13",
       "section_intro": false,
-      "title": "Corollary 16.3.14",
+      "title": "Corollary 16.3.13",
       "kind": "corollary",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -30975,9 +30483,9 @@
     },
     {
       "tag": "7ADF30509E4E",
-      "number": "16.3.15",
+      "number": "16.3.14",
       "section_intro": false,
-      "title": "Theorem 16.3.15",
+      "title": "Theorem 16.3.14",
       "kind": "theorem",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -30993,9 +30501,9 @@
     },
     {
       "tag": "2B585EFD6781",
-      "number": "16.3.16",
+      "number": "16.3.15",
       "section_intro": false,
-      "title": "Equation 16.3.16",
+      "title": "Equation 16.3.15",
       "kind": "equation",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31011,9 +30519,9 @@
     },
     {
       "tag": "A43EDA3894B0",
-      "number": "16.3.17",
+      "number": "16.3.16",
       "section_intro": false,
-      "title": "Equation 16.3.17",
+      "title": "Equation 16.3.16",
       "kind": "equation",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31029,9 +30537,9 @@
     },
     {
       "tag": "6623E38E5FC2",
-      "number": "16.3.18",
+      "number": "16.3.17",
       "section_intro": false,
-      "title": "Definition 16.3.18",
+      "title": "Definition 16.3.17",
       "kind": "definition",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31047,9 +30555,9 @@
     },
     {
       "tag": "ED7781211B7B",
-      "number": "16.3.19",
+      "number": "16.3.18",
       "section_intro": false,
-      "title": "Remark 16.3.19",
+      "title": "Remark 16.3.18",
       "kind": "remark",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31065,9 +30573,9 @@
     },
     {
       "tag": "E10CA97A11EF",
-      "number": "16.3.20",
+      "number": "16.3.19",
       "section_intro": false,
-      "title": "Corollary 16.3.20",
+      "title": "Corollary 16.3.19",
       "kind": "corollary",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31083,9 +30591,9 @@
     },
     {
       "tag": "4C5C62135747",
-      "number": "16.3.21",
+      "number": "16.3.20",
       "section_intro": false,
-      "title": "Proposition 16.3.21",
+      "title": "Proposition 16.3.20",
       "kind": "proposition",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31101,9 +30609,9 @@
     },
     {
       "tag": "E548BFB3BF04",
-      "number": "16.3.22",
+      "number": "16.3.21",
       "section_intro": false,
-      "title": "Example 16.3.22",
+      "title": "Example 16.3.21",
       "kind": "example",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31119,9 +30627,9 @@
     },
     {
       "tag": "B2DFFDD6A0F3",
-      "number": "16.3.23",
+      "number": "16.3.22",
       "section_intro": false,
-      "title": "Equation 16.3.23",
+      "title": "Equation 16.3.22",
       "kind": "equation",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31137,9 +30645,9 @@
     },
     {
       "tag": "C825DA5CEC8C",
-      "number": "16.3.24",
+      "number": "16.3.23",
       "section_intro": false,
-      "title": "Equation 16.3.24",
+      "title": "Equation 16.3.23",
       "kind": "equation",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31155,9 +30663,9 @@
     },
     {
       "tag": "F7C0BACE770D",
-      "number": "16.3.25",
+      "number": "16.3.24",
       "section_intro": false,
-      "title": "Proposition 16.3.25",
+      "title": "Proposition 16.3.24",
       "kind": "proposition",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31173,9 +30681,9 @@
     },
     {
       "tag": "E6B68D406648",
-      "number": "16.3.26",
+      "number": "16.3.25",
       "section_intro": false,
-      "title": "Equation 16.3.26",
+      "title": "Equation 16.3.25",
       "kind": "equation",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31191,9 +30699,9 @@
     },
     {
       "tag": "E47535691487",
-      "number": "16.3.27",
+      "number": "16.3.26",
       "section_intro": false,
-      "title": "Equation 16.3.27",
+      "title": "Equation 16.3.26",
       "kind": "equation",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31209,9 +30717,9 @@
     },
     {
       "tag": "74C044AB05CB",
-      "number": "16.3.28",
+      "number": "16.3.27",
       "section_intro": false,
-      "title": "Equation 16.3.28",
+      "title": "Equation 16.3.27",
       "kind": "equation",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31227,9 +30735,9 @@
     },
     {
       "tag": "B9461C380E5C",
-      "number": "16.3.29",
+      "number": "16.3.28",
       "section_intro": false,
-      "title": "Proposition 16.3.29",
+      "title": "Proposition 16.3.28",
       "kind": "proposition",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31245,9 +30753,9 @@
     },
     {
       "tag": "8997CB842099",
-      "number": "16.3.30",
+      "number": "16.3.29",
       "section_intro": false,
-      "title": "Equation 16.3.30",
+      "title": "Equation 16.3.29",
       "kind": "equation",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31263,9 +30771,9 @@
     },
     {
       "tag": "7E981960ACBC",
-      "number": "16.3.31",
+      "number": "16.3.30",
       "section_intro": false,
-      "title": "Equation 16.3.31",
+      "title": "Equation 16.3.30",
       "kind": "equation",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31281,9 +30789,9 @@
     },
     {
       "tag": "BCC1B8FD1BED",
-      "number": "16.3.32",
+      "number": "16.3.31",
       "section_intro": false,
-      "title": "Lemma 16.3.32",
+      "title": "Lemma 16.3.31",
       "kind": "lemma",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31299,9 +30807,9 @@
     },
     {
       "tag": "725175FB4F3C",
-      "number": "16.3.33",
+      "number": "16.3.32",
       "section_intro": false,
-      "title": "Equation 16.3.33",
+      "title": "Equation 16.3.32",
       "kind": "equation",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31317,9 +30825,9 @@
     },
     {
       "tag": "500FC88C1939",
-      "number": "16.3.34",
+      "number": "16.3.33",
       "section_intro": false,
-      "title": "Equation 16.3.34",
+      "title": "Equation 16.3.33",
       "kind": "equation",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31335,9 +30843,9 @@
     },
     {
       "tag": "5B751E9DFBC1",
-      "number": "16.3.35",
+      "number": "16.3.34",
       "section_intro": false,
-      "title": "Theorem 16.3.35",
+      "title": "Theorem 16.3.34",
       "kind": "theorem",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31353,9 +30861,9 @@
     },
     {
       "tag": "020126C445C3",
-      "number": "16.3.36",
+      "number": "16.3.35",
       "section_intro": false,
-      "title": "Equation 16.3.36",
+      "title": "Equation 16.3.35",
       "kind": "equation",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31371,9 +30879,9 @@
     },
     {
       "tag": "35F5A4FBAC68",
-      "number": "16.3.37",
+      "number": "16.3.36",
       "section_intro": false,
-      "title": "Equation 16.3.37",
+      "title": "Equation 16.3.36",
       "kind": "equation",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31389,9 +30897,9 @@
     },
     {
       "tag": "BCB4335E3D6E",
-      "number": "16.3.38",
+      "number": "16.3.37",
       "section_intro": false,
-      "title": "Equation 16.3.38",
+      "title": "Equation 16.3.37",
       "kind": "equation",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31407,9 +30915,9 @@
     },
     {
       "tag": "B791A3D8205D",
-      "number": "16.3.39",
+      "number": "16.3.38",
       "section_intro": false,
-      "title": "Definition 16.3.39",
+      "title": "Definition 16.3.38",
       "kind": "definition",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31425,9 +30933,9 @@
     },
     {
       "tag": "17FC69E7E25E",
-      "number": "16.3.40",
+      "number": "16.3.39",
       "section_intro": false,
-      "title": "Example 16.3.40",
+      "title": "Example 16.3.39",
       "kind": "example",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31443,9 +30951,9 @@
     },
     {
       "tag": "BE692352C556",
-      "number": "16.3.41",
+      "number": "16.3.40",
       "section_intro": false,
-      "title": "Proposition 16.3.41",
+      "title": "Proposition 16.3.40",
       "kind": "proposition",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -31461,9 +30969,9 @@
     },
     {
       "tag": "1F5A8A58FB4D",
-      "number": "16.3.42",
+      "number": "16.3.41",
       "section_intro": false,
-      "title": "Proposition 16.3.42",
+      "title": "Proposition 16.3.41",
       "kind": "proposition",
       "chapter": "envelopes-models",
       "topic": "the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope",
@@ -52726,49 +52234,13 @@
       "components": []
     },
     {
-      "tag": "F8F49090AB94",
-      "number": "25.23",
-      "section_intro": true,
-      "title": "25.23 Comments",
-      "kind": "chapter",
-      "chapter": "historical-notes",
-      "topic": "comments",
-      "sources": [
-        {
-          "book": "sgpt",
-          "tag": "690913DB",
-          "label": "chap:history",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "C7AB6352651B",
-      "number": "25.23.1",
-      "section_intro": false,
-      "title": "25.23.1 A brief history",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "comments",
-      "sources": [
-        {
-          "book": "sgpt",
-          "tag": "47049D49",
-          "label": "heading:a-brief-history",
-          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
-        }
-      ],
-      "components": []
-    },
-    {
       "tag": "8B52D455AC39",
-      "number": "25.23.2",
-      "section_intro": false,
-      "title": "25.23.2 Open problems",
+      "number": "24.12",
+      "section_intro": true,
+      "title": "24.12 Questions from global pluripotential theory",
       "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "comments",
+      "chapter": "problems-history",
+      "topic": "questions-from-global-pluripotential-theory",
       "sources": [
         {
           "book": "sgpt",
@@ -52781,12 +52253,12 @@
     },
     {
       "tag": "F96A00F2C17A",
-      "number": "25.23.3",
+      "number": "24.12.1",
       "section_intro": false,
-      "title": "Conjecture 25.23.3",
+      "title": "Conjecture 24.12.1",
       "kind": "conjecture",
-      "chapter": "historical-notes",
-      "topic": "comments",
+      "chapter": "problems-history",
+      "topic": "questions-from-global-pluripotential-theory",
       "sources": [
         {
           "book": "sgpt",
@@ -52799,12 +52271,12 @@
     },
     {
       "tag": "6DBA7A1F707B",
-      "number": "25.23.4",
+      "number": "24.12.2",
       "section_intro": false,
-      "title": "Problem 25.23.4",
+      "title": "Problem 24.12.2",
       "kind": "problem",
-      "chapter": "historical-notes",
-      "topic": "comments",
+      "chapter": "problems-history",
+      "topic": "questions-from-global-pluripotential-theory",
       "sources": [
         {
           "book": "sgpt",
@@ -52817,12 +52289,12 @@
     },
     {
       "tag": "6BD8E77C1AAF",
-      "number": "25.23.5",
+      "number": "24.12.3",
       "section_intro": false,
-      "title": "Problem 25.23.5",
+      "title": "Problem 24.12.3",
       "kind": "problem",
-      "chapter": "historical-notes",
-      "topic": "comments",
+      "chapter": "problems-history",
+      "topic": "questions-from-global-pluripotential-theory",
       "sources": [
         {
           "book": "sgpt",
@@ -52835,12 +52307,12 @@
     },
     {
       "tag": "0C91C5C2794A",
-      "number": "25.23.6",
+      "number": "24.12.4",
       "section_intro": false,
-      "title": "Problem 25.23.6",
+      "title": "Problem 24.12.4",
       "kind": "problem",
-      "chapter": "historical-notes",
-      "topic": "comments",
+      "chapter": "problems-history",
+      "topic": "questions-from-global-pluripotential-theory",
       "sources": [
         {
           "book": "sgpt",
@@ -52853,12 +52325,12 @@
     },
     {
       "tag": "7FAD0FAF17B7",
-      "number": "25.23.7",
+      "number": "24.12.5",
       "section_intro": false,
-      "title": "Problem 25.23.7",
+      "title": "Problem 24.12.5",
       "kind": "problem",
-      "chapter": "historical-notes",
-      "topic": "comments",
+      "chapter": "problems-history",
+      "topic": "questions-from-global-pluripotential-theory",
       "sources": [
         {
           "book": "sgpt",
@@ -52871,12 +52343,12 @@
     },
     {
       "tag": "856DCCA91F34",
-      "number": "25.23.8",
+      "number": "24.12.6",
       "section_intro": false,
-      "title": "Problem 25.23.8",
+      "title": "Problem 24.12.6",
       "kind": "problem",
-      "chapter": "historical-notes",
-      "topic": "comments",
+      "chapter": "problems-history",
+      "topic": "questions-from-global-pluripotential-theory",
       "sources": [
         {
           "book": "sgpt",
@@ -52889,12 +52361,12 @@
     },
     {
       "tag": "18561C2CB4F4",
-      "number": "25.23.9",
+      "number": "24.12.7",
       "section_intro": false,
-      "title": "Problem 25.23.9",
+      "title": "Problem 24.12.7",
       "kind": "problem",
-      "chapter": "historical-notes",
-      "topic": "comments",
+      "chapter": "problems-history",
+      "topic": "questions-from-global-pluripotential-theory",
       "sources": [
         {
           "book": "sgpt",
@@ -110136,492 +109608,6 @@
       "components": []
     },
     {
-      "tag": "4D6830B53C70",
-      "number": "25.2",
-      "section_intro": true,
-      "title": "25.2 Historical notes",
-      "kind": "chapter",
-      "chapter": "historical-notes",
-      "topic": "historical-notes",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "690913DB",
-          "label": "chap:history",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "9D79D5D188C6",
-      "number": "25.3",
-      "section_intro": true,
-      "title": "25.3 Plurisubharmonic functions and regularization",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--plurisubharmonic-functions-and-regularization",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "887A4ECB",
-          "label": "sec:history-psh",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "BB36F353AA0C",
-      "number": "25.4",
-      "section_intro": true,
-      "title": "25.4 Mass and energy",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--mass-and-energy",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "D93A83E4",
-          "label": "sec:history-mass-energy",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "3C68E80772A5",
-      "number": "25.5",
-      "section_intro": true,
-      "title": "25.5 Gauduchon metrics and positivity",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--gauduchon-metrics-and-positivity",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "F84D8621",
-          "label": "sec:history-gauduchon",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "9E2E80C382FD",
-      "number": "25.6",
-      "section_intro": true,
-      "title": "25.6 Bounded products and extended measures",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--bounded-products-and-extended-measures",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "D9F327C4",
-          "label": "sec:history-products",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "CA53357795CC",
-      "number": "25.7",
-      "section_intro": true,
-      "title": "25.7 Envelopes and comparison",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--envelopes-and-comparison",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "A0DF087B",
-          "label": "sec:history-envelopes",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "E1BC130DDD5C",
-      "number": "25.8",
-      "section_intro": true,
-      "title": "25.8 Smooth and continuous equations",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--smooth-and-continuous-equations",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "03AFF04F",
-          "label": "sec:history-smooth-equations",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "AFDCC356D816",
-      "number": "25.9",
-      "section_intro": true,
-      "title": "25.9 Uniqueness and selection",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--uniqueness-and-selection",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "E824C961",
-          "label": "sec:history-uniqueness",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "67A66AB9757E",
-      "number": "25.10",
-      "section_intro": true,
-      "title": "25.10 Complex Hessian equations",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--complex-hessian-equations",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "4B86F8A9",
-          "label": "sec:history-hessian-equations",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "D116D93B0EBE",
-      "number": "25.11",
-      "section_intro": true,
-      "title": "25.11 Volumes under mass bounds",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--volumes-under-mass-bounds",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "AAFCC303",
-          "label": "sec:history-volumes",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "FFA645E73814",
-      "number": "25.11.1",
-      "section_intro": false,
-      "title": "25.11.1 Singularity volumes and relative classes",
-      "kind": "subsection",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--volumes-under-mass-bounds",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "C54EAEC2",
-          "label": "unlabelled:subsection:e0001849d706bc13",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "572621232871",
-      "number": "25.11.2",
-      "section_intro": false,
-      "title": "25.11.2 Model topology and analytic approximation",
-      "kind": "subsection",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--volumes-under-mass-bounds",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "0920A1EE",
-          "label": "unlabelled:subsection:a6e18f98fd0d530f",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "9AB6A1306853",
-      "number": "25.11.3",
-      "section_intro": false,
-      "title": "25.11.3 Curves and zero-volume limits",
-      "kind": "subsection",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--volumes-under-mass-bounds",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "66E9D3C5",
-          "label": "unlabelled:subsection:1ac415c4db080e07",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "EFAA097B03EC",
-      "number": "25.12",
-      "section_intro": true,
-      "title": "25.12 Equations with prescribed singularities",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--equations-with-prescribed-singularities",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "0E467752",
-          "label": "sec:history-prescribed",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "7C4DEB2F0F6B",
-      "number": "25.12.1",
-      "section_intro": false,
-      "title": "25.12.1 Equations of prescribed ordinary type",
-      "kind": "subsection",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--equations-with-prescribed-singularities",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "DA3E9F99",
-          "label": "unlabelled:subsection:c1bd6109c31cb976",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "4D81B44E0A9B",
-      "number": "25.12.2",
-      "section_intro": false,
-      "title": "25.12.2 General measures in semipositive backgrounds",
-      "kind": "subsection",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--equations-with-prescribed-singularities",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "3B162FF7",
-          "label": "unlabelled:subsection:50213fb5910084cb",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "BCD8D94DC861",
-      "number": "25.12.3",
-      "section_intro": false,
-      "title": "25.12.3 Big backgrounds under mass bounds",
-      "kind": "subsection",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--equations-with-prescribed-singularities",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "DA9F83DD",
-          "label": "unlabelled:subsection:520a391e22ae82a2",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "7B9538DE7653",
-      "number": "25.13",
-      "section_intro": true,
-      "title": "25.13 Normalization and adjoint measures",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--normalization-and-adjoint-measures",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "ADEEB81C",
-          "label": "sec:history-normalization",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "94E3F780653C",
-      "number": "25.14",
-      "section_intro": true,
-      "title": "25.14 Perron geometry on Hopf manifolds",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--perron-geometry-on-hopf-manifolds",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "8BEDD23E",
-          "label": "history:hopf-basic-perron",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "81F92F228A7E",
-      "number": "25.15",
-      "section_intro": true,
-      "title": "25.15 Singularity classes and traces",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--singularity-classes-and-traces",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "2D2FF42A",
-          "label": "sec:history-singularities",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "CAFE5EFFA7C8",
-      "number": "25.16",
-      "section_intro": true,
-      "title": "25.16 Section growth and partial kernels",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--section-growth-and-partial-kernels",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "50EFE828",
-          "label": "sec:history-sections",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "3747CBC0FB2D",
-      "number": "25.17",
-      "section_intro": true,
-      "title": "25.17 Gauduchon variational volume",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--gauduchon-variational-volume",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "1D7A4D91",
-          "label": "sec:history-gaud-volume",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "C873148DF75D",
-      "number": "25.18",
-      "section_intro": true,
-      "title": "25.18 Closed classes and singular loci",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--closed-classes-and-singular-loci",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "41553E5B",
-          "label": "sec:history-closed-loci",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "6DFCF19530CA",
-      "number": "25.19",
-      "section_intro": true,
-      "title": "25.19 Closed classes and metric completeness",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--closed-classes-and-metric-completeness",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "1E8DA512",
-          "label": "sec:history-completeness",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "2C3E73AAD887",
-      "number": "25.20",
-      "section_intro": true,
-      "title": "25.20 Locally conformally Kähler geometry",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--locally-conformally-kahler-geometry",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "5BD69742",
-          "label": "sec:history-lck",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "2200D43D6A26",
-      "number": "25.21",
-      "section_intro": true,
-      "title": "25.21 Regularity and singular spaces",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--regularity-and-singular-spaces",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "1F937B17",
-          "label": "sec:history-regularity",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
-      "tag": "BCAE26692B2F",
-      "number": "25.22",
-      "section_intro": true,
-      "title": "25.22 Geometric problems",
-      "kind": "section",
-      "chapter": "historical-notes",
-      "topic": "historical-notes--geometric-problems",
-      "sources": [
-        {
-          "book": "non-kahler-pluripotential-theory",
-          "tag": "5403807C",
-          "label": "sec:history-geometry",
-          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
-        }
-      ],
-      "components": []
-    },
-    {
       "tag": "77EFAFB55325",
       "number": "9.11",
       "section_intro": true,
@@ -113659,6 +112645,432 @@
           "tag": "854603A2",
           "label": "thm:martin-boundary-dirichlet",
           "revision": "1043435a7d8bf8e506523535ad7931145ee33923"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "65E16F3944C7",
+      "number": "25.1",
+      "section_intro": true,
+      "title": "25.1 Classical potentials, boundary problems, and capacity",
+      "kind": "chapter",
+      "chapter": "historical-notes",
+      "topic": "history--classical-potential-theory",
+      "sources": [
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "24F0E134",
+          "label": "chap:h01",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "61626672",
+          "label": "sec:history-measures",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "80F1F39E",
+          "label": "sec:history-harmonic",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "F4F3BD91",
+          "label": "sec:history-subharmonic",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "C885BA41",
+          "label": "sec:history-capacity",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "19974AAA",
+          "label": "sec:history-fine",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "323108E4",
+          "label": "sec:history-fourier-incidence",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "sgpt",
+          "tag": "690913DB",
+          "label": "chap:history",
+          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "690913DB",
+          "label": "chap:history",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "E49C1A0D4682",
+      "number": "25.2",
+      "section_intro": true,
+      "title": "25.2 Plurisubharmonicity, currents, and singularities",
+      "kind": "section",
+      "chapter": "historical-notes",
+      "topic": "history--plurisubharmonicity-and-singularities",
+      "sources": [
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "F545FFB3",
+          "label": "sec:history-plurisubharmonic",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "089CED6E",
+          "label": "sec:history-complex-currents",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "3A01CCBF",
+          "label": "sec:history-pluripolar",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "C124DC99",
+          "label": "sec:history-weighted-extension",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "E08F04D5",
+          "label": "sec:history-lelong-multiplier",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "C0BE92F4",
+          "label": "sec:history-analytic-regularization",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "887A4ECB",
+          "label": "sec:history-psh",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "E66D40EC5904",
+      "number": "25.3",
+      "section_intro": true,
+      "title": "25.3 Nonlinear products, capacity, and mass",
+      "kind": "section",
+      "chapter": "historical-notes",
+      "topic": "history--nonlinear-products-and-mass",
+      "sources": [
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "C31C70B4",
+          "label": "sec:history-bounded-products",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "8500760D",
+          "label": "sec:history-nonpluripolar",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "D93A83E4",
+          "label": "sec:history-mass-energy",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "D9F327C4",
+          "label": "sec:history-products",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "F9B38BEB0BCF",
+      "number": "25.4",
+      "section_intro": true,
+      "title": "25.4 Positivity, Hermitian geometry, and volume",
+      "kind": "section",
+      "chapter": "historical-notes",
+      "topic": "history--positivity-and-hermitian-volume",
+      "sources": [
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "5A374453",
+          "label": "sec:history-global-potentials",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "F84D8621",
+          "label": "sec:history-gauduchon",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "AAFCC303",
+          "label": "sec:history-volumes",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "C54EAEC2",
+          "label": "unlabelled:subsection:e0001849d706bc13",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "0920A1EE",
+          "label": "unlabelled:subsection:a6e18f98fd0d530f",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "66E9D3C5",
+          "label": "unlabelled:subsection:1ac415c4db080e07",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "1D7A4D91",
+          "label": "sec:history-gaud-volume",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "41553E5B",
+          "label": "sec:history-closed-loci",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "E1BC130DDD5C",
+      "number": "25.5",
+      "section_intro": true,
+      "title": "25.5 Monge–Ampère and complex Hessian equations",
+      "kind": "section",
+      "chapter": "historical-notes",
+      "topic": "history--monge-ampere-and-hessian-equations",
+      "sources": [
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "03AFF04F",
+          "label": "sec:history-smooth-equations",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "E824C961",
+          "label": "sec:history-uniqueness",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "4B86F8A9",
+          "label": "sec:history-hessian-equations",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "0E467752",
+          "label": "sec:history-prescribed",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "DA3E9F99",
+          "label": "unlabelled:subsection:c1bd6109c31cb976",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "3B162FF7",
+          "label": "unlabelled:subsection:50213fb5910084cb",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "DA9F83DD",
+          "label": "unlabelled:subsection:520a391e22ae82a2",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "ADEEB81C",
+          "label": "sec:history-normalization",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "3F57C7AFD15C",
+      "number": "25.6",
+      "section_intro": true,
+      "title": "25.6 Envelopes, singularity types, and prescribed data",
+      "kind": "section",
+      "chapter": "historical-notes",
+      "topic": "history--envelopes-and-singularity-types",
+      "sources": [
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "A0DF087B",
+          "label": "sec:history-envelopes",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "A0DF087B",
+          "label": "sec:history-envelopes",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "889877FC2044",
+      "number": "25.7",
+      "section_intro": true,
+      "title": "25.7 Energy, geodesics, rays, and metric geometry",
+      "kind": "section",
+      "chapter": "historical-notes",
+      "topic": "history--energy-and-geodesics",
+      "sources": [
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "CB1A48A2",
+          "label": "sec:history-energy",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "E369FE91",
+          "label": "sec:history-weak-geodesics",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "B0785475",
+          "label": "sec:history-geodesic-rays",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "1E8DA512",
+          "label": "sec:history-completeness",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "482A6169B3A6",
+      "number": "25.8",
+      "section_intro": true,
+      "title": "25.8 Sections, convex bodies, and non-Archimedean geometry",
+      "kind": "section",
+      "chapter": "historical-notes",
+      "topic": "history--sections-convexity-and-non-archimedean-geometry",
+      "sources": [
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "5CFAA9E4",
+          "label": "sec:history-convex-measures",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "50EFE828",
+          "label": "sec:history-sections",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        },
+        {
+          "book": "sgpt",
+          "tag": "47049D49",
+          "label": "heading:a-brief-history",
+          "revision": "8d91069847dd7aa76034e6a97dddc7dba191437a"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "F14EBE94C297",
+      "number": "25.9",
+      "section_intro": true,
+      "title": "25.9 Singular spaces, traces, and locally conformally Kähler geometry",
+      "kind": "section",
+      "chapter": "historical-notes",
+      "topic": "history--singular-spaces-and-locally-conformal-geometry",
+      "sources": [
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "323DF277",
+          "label": "sec:history-analytic-spaces",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "8BEDD23E",
+          "label": "history:hopf-basic-perron",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "5BD69742",
+          "label": "sec:history-lck",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "1F937B17",
+          "label": "sec:history-regularity",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        },
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "2D2FF42A",
+          "label": "sec:history-singularities",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "BCAE26692B2F",
+      "number": "25.10",
+      "section_intro": true,
+      "title": "25.10 Perspectives and further reading",
+      "kind": "section",
+      "chapter": "historical-notes",
+      "topic": "history--perspectives-and-reading",
+      "sources": [
+        {
+          "book": "non-kahler-pluripotential-theory",
+          "tag": "5403807C",
+          "label": "sec:history-geometry",
+          "revision": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
         }
       ],
       "components": []

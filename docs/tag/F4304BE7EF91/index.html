@@ -21,7 +21,7 @@ Now we state a more natural version of the monotonicity theorem theorem <a data-
   \[  P_{\theta _ i+\epsilon \omega }[\varphi _ i]\leq P_{\theta _ i+\epsilon \omega }[\psi _ i]  \]
 </div>
 <p>
-       for all $\epsilon &gt;0$. Therefore, by proposition <a data-tag="9640EC28" href="../../tag/E58386609911/">16.3.10</a> and our previous monotonicity theorem theorem <a data-tag="00CC32E0" href="../../tag/0E5F6133B048/">13.13.11</a>, we have 
+       for all $\epsilon &gt;0$. Therefore, by proposition <a data-tag="9640EC28" href="../../tag/E58386609911/">16.3.9</a> and our previous monotonicity theorem theorem <a data-tag="00CC32E0" href="../../tag/0E5F6133B048/">13.13.11</a>, we have 
     
 <div class="equation">
   \[  \int _ X (\theta _1+\epsilon \omega )_{\varphi _1}\wedge \cdots \wedge (\theta _ n+\epsilon \omega )_{\varphi _ n}\leq \int _ X (\theta _1+\epsilon \omega )_{\psi _1}\wedge \cdots \wedge (\theta _ n+\epsilon \omega )_{\psi _ n}.  \]
@@ -53,7 +53,7 @@ The $P$-preorder allows us to derive a natural generalization of <a data-tag="85
 <article class="env-proof">
 <p>
 <strong>Proof.</strong>
-      By our assumption and (<a data-tag="DBCD5710" href="../../tag/268F8CAEF7E2/">16.3.8</a>), we have $\varphi \preceq P_{\theta }[\varphi ]\leq P_{\theta }[\psi ]$. Due to proposition <a data-tag="9640EC28" href="../../tag/E58386609911/">16.3.10</a>, the interval (<a data-tag="277736A1" href="../../tag/3BF94E656512/">16.8.24</a>) remains unchanged after replacing $\psi $ by $P_{\theta }[\psi ]$. Fix $a$ in this interval. So by <a data-tag="8560C5E9" href="../../tag/1CC7CDBE65A9/">13.13.30</a> and the discussions afterwards, 
+      By our assumption and (<a data-tag="DBCD5710" href="../../tag/268F8CAEF7E2/">16.3.7</a>), we have $\varphi \preceq P_{\theta }[\varphi ]\leq P_{\theta }[\psi ]$. Due to proposition <a data-tag="9640EC28" href="../../tag/E58386609911/">16.3.9</a>, the interval (<a data-tag="277736A1" href="../../tag/3BF94E656512/">16.8.24</a>) remains unchanged after replacing $\psi $ by $P_{\theta }[\psi ]$. Fix $a$ in this interval. So by <a data-tag="8560C5E9" href="../../tag/1CC7CDBE65A9/">13.13.30</a> and the discussions afterwards, 
     
 <div class="equation">
   \[  \eta '\coloneqq P_{\theta }\Bigl (a\varphi +(1-a)P_{\theta }[\psi ]\Bigr )\in \mathrm{PSH}(X,\theta )_{&gt;0}.  \]
@@ -89,7 +89,7 @@ The $P$-preorder allows us to derive a natural generalization of <a data-tag="85
 <p>
        quasi-everywhere and hence everywhere by proposition <a data-tag="019E88AA" href="../../tag/FA3AF40B9A0A/">5.14.6</a>. It follows that $P_{\theta }[\eta ]\leq P_{\theta }[\varphi ]$, namely $\eta \preceq _ P\varphi $. 
     <p>
-      Finally assume that $\varphi \sim _ P\psi $. Then $\int _ X\theta _{P_{\theta }[\psi ]}^ n=\int _ X\theta _{\varphi }^ n$ by proposition <a data-tag="9640EC28" href="../../tag/E58386609911/">16.3.10</a>. Applying corollary <a data-tag="43DC5A4B" href="../../tag/992A84CBAC5D/">13.13.42</a> gives 
+      Finally assume that $\varphi \sim _ P\psi $. Then $\int _ X\theta _{P_{\theta }[\psi ]}^ n=\int _ X\theta _{\varphi }^ n$ by proposition <a data-tag="9640EC28" href="../../tag/E58386609911/">16.3.9</a>. Applying corollary <a data-tag="43DC5A4B" href="../../tag/992A84CBAC5D/">13.13.42</a> gives 
     
 <div class="equation">
   \[  \int _ X\theta _{\eta '}^ n=\int _ X\theta _{\varphi }^ n.  \]
@@ -166,7 +166,7 @@ Next we show that the $P$ and $\mathcal{I}$-preorders are preserved by some natu
   \[  \begin{aligned} &amp; \int _ X \Bigl (2\omega +\mathrm{dd}^{\mathrm{c}}P_{\omega }[\varphi ]+\mathrm{dd}^{\mathrm{c}}P_{\omega }[\varphi ']\Bigr )^ n\\  =&amp;  \sum _{j=0}^ n \binom {n}{j} \int _ X \Bigl (\omega +\mathrm{dd}^{\mathrm{c}}P_{\omega }[\varphi ]\Bigr )^ j\wedge \Bigl (\omega +\mathrm{dd}^{\mathrm{c}}P_{\omega }[\varphi ']\Bigr )^{n-j}\\  =&amp;  \sum _{j=0}^ n \binom {n}{j} \int _ X \omega _{\varphi }^ j\wedge \omega _{\varphi '}^{n-j}\\  =&amp;  \int _ X \left(2\omega +\mathrm{dd}^{\mathrm{c}}\varphi +\mathrm{dd}^{\mathrm{c}}\varphi '\right)^ n, \end{aligned}  \]
 </div>
 <p>
-       where we applied proposition <a data-tag="9640EC28" href="../../tag/E58386609911/">16.3.10</a> to the mixed products on the third line. 
+       where we applied proposition <a data-tag="9640EC28" href="../../tag/E58386609911/">16.3.9</a> to the mixed products on the third line. 
     <p>
 <strong>Step 2</strong>. By Step 1, we may assume that $\varphi ,\psi ,\varphi ',\psi '$ are all model potentials, after replacing them by their $P_{\omega }$-envelopes. So $\varphi \leq \psi $ and $\varphi '\leq \psi '$. Our assertion follows. 
       <span class="qed">$\square$</span>
@@ -215,7 +215,7 @@ Next we show that the $P$ and $\mathcal{I}$-preorders are preserved by some natu
 </p>
 </p></p></p></p></p></p></p></article>
 
-We now refine <a data-tag="6AF33F49" href="../../tag/BCC1B8FD1BED/">16.3.32</a> using the $P$-equivalence relation. <article class="env-proposition" id="sgpt-BD95B46E">
+We now refine <a data-tag="6AF33F49" href="../../tag/BCC1B8FD1BED/">16.3.31</a> using the $P$-equivalence relation. <article class="env-proposition" id="sgpt-BD95B46E">
 <p><a class="environment-identifier" href="../../tag/8C181599D520/">Proposition <span data-tag="BD95B46E">16.8.29</span>.</a><span data-gerby-tag="BD95B46E"><code class="tag-id">8C181599D520</code></span> Let $\varphi ,\psi ,\varphi ',\psi '\in \mathrm{PSH}(X,\theta )$ for some closed smooth real $(1,1)$-form $\theta $ on $X$. Assume that </p>
 <div class="equation">
   \[  \varphi \sim _ P \varphi ',\quad \psi \sim _ P\psi ',\quad \varphi '\land \psi '\in \mathrm{PSH}(X,\theta )_{&gt;0}.  \]
@@ -235,19 +235,19 @@ We now refine <a data-tag="6AF33F49" href="../../tag/BCC1B8FD1BED/">16.3.32</a> 
   \[  \phi \coloneqq P_{\theta }[\varphi ]=P_{\theta }[\varphi '],\quad \gamma =P_{\theta }[\psi ]=P_{\theta }[\psi '].  \]
 </div>
 <p>
-       Since $\varphi '\preceq \phi $ and $\psi '\preceq \gamma $, after adding a common constant to $\varphi '$ and $\psi '$, we may assume that $\varphi '\leq \phi $ and $\psi '\leq \gamma $. Then $\varphi '\land \psi '\leq \phi \land \gamma $, so the assumption $\varphi '\land \psi '\in \mathrm{PSH}(X,\theta )_{&gt;0}$ implies $\phi \land \gamma \in \mathrm{PSH}(X,\theta )_{&gt;0}$ by monotonicity. It follows from <a data-tag="6AF33F49" href="../../tag/BCC1B8FD1BED/">16.3.32</a> that 
+       Since $\varphi '\preceq \phi $ and $\psi '\preceq \gamma $, after adding a common constant to $\varphi '$ and $\psi '$, we may assume that $\varphi '\leq \phi $ and $\psi '\leq \gamma $. Then $\varphi '\land \psi '\leq \phi \land \gamma $, so the assumption $\varphi '\land \psi '\in \mathrm{PSH}(X,\theta )_{&gt;0}$ implies $\phi \land \gamma \in \mathrm{PSH}(X,\theta )_{&gt;0}$ by monotonicity. It follows from <a data-tag="6AF33F49" href="../../tag/BCC1B8FD1BED/">16.3.31</a> that 
     
 <div class="equation">
   \[  \int _ X \theta _{\varphi '\land \psi '}^ n=\int _ X \theta _{\phi \land \gamma }^ n.  \]
 </div>
 <p>
-       Next, we apply <a data-tag="6AF33F49" href="../../tag/BCC1B8FD1BED/">16.3.32</a> again to conclude that $\varphi \land \psi \in \mathrm{PSH}(X,\theta )$ and 
+       Next, we apply <a data-tag="6AF33F49" href="../../tag/BCC1B8FD1BED/">16.3.31</a> again to conclude that $\varphi \land \psi \in \mathrm{PSH}(X,\theta )$ and 
     
 <div class="equation">
   \[  \int _ X \theta _{\varphi \land \psi }^ n=\int _ X \theta _{\phi \land \gamma }^ n=\int _ X \theta _{\varphi '\land \psi '}^ n&gt;0.  \]
 </div>
 <p>
-       Since $\varphi \land \psi \preceq \phi \land \gamma $ and the two potentials have the same positive mass, theorem <a data-tag="36606B5B" href="../../tag/7ADF30509E4E/">16.3.15</a> gives $P_{\theta }[\varphi \land \psi ]=\phi \land \gamma $. The same argument gives $P_{\theta }[\varphi '\land \psi ']=\phi \land \gamma $, hence $\varphi \land \psi \sim _ P\varphi '\land \psi '$. 
+       Since $\varphi \land \psi \preceq \phi \land \gamma $ and the two potentials have the same positive mass, theorem <a data-tag="36606B5B" href="../../tag/7ADF30509E4E/">16.3.14</a> gives $P_{\theta }[\varphi \land \psi ]=\phi \land \gamma $. The same argument gives $P_{\theta }[\varphi '\land \psi ']=\phi \land \gamma $, hence $\varphi \land \psi \sim _ P\varphi '\land \psi '$. 
       <span class="qed">$\square$</span>
 </p>
 </p></p></p></article>
@@ -258,7 +258,7 @@ We can formulate a generalization of proposition <a data-tag="A836F73B" href="..
 <span class="equation-label"><a data-tag="2EF655CA" href="../../tag/42D232E5CD85/">16.8.31</a></span>
 <div>\begin{equation}  P_{\theta }[\varphi ](\psi )=\operatorname *{sup}_{C&gt;0}{}\! {}^{*} \psi \land (\varphi +C)=\psi . \end{equation}</div>
 </div>
-</article> We refer to definition <a data-tag="E47EF727" href="../../tag/B791A3D8205D/">16.3.39</a> for the definition of $P_{\theta }[\varphi ](\psi )$. 
+</article> We refer to definition <a data-tag="E47EF727" href="../../tag/B791A3D8205D/">16.3.38</a> for the definition of $P_{\theta }[\varphi ](\psi )$. 
 
 <article class="env-proof">
 <p>
@@ -277,7 +277,7 @@ We can formulate a generalization of proposition <a data-tag="A836F73B" href="..
   \[  \eta \coloneqq \operatorname *{sup}_{C&gt;0}{}\! {}^{*}\psi \land (\varphi +C).  \]
 </div>
 <p>
-       Then $\eta \sim _ P \psi $. By corollary <a data-tag="496CCBFB" href="../../tag/B6EF8456606F/">16.3.14</a>, we have 
+       Then $\eta \sim _ P \psi $. By corollary <a data-tag="496CCBFB" href="../../tag/B6EF8456606F/">16.3.13</a>, we have 
     
 <div class="equation">
   \[  \theta _\eta ^ n\leq \mathds {1}_{\{ \eta =\psi \} }\, \theta _\psi ^ n.  \]
