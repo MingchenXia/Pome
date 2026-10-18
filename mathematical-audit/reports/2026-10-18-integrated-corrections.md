@@ -72,12 +72,12 @@ All 51 former prose headings are accounted for by reviewed aliases, with source
 HTML fingerprints requiring renewed review if the original notes change.
 Original notes and bibliography remain under Sources. The seven formal
 conjectures/problems and their heading move intact to a section of the problems
-chapter. Former section/topic routes remain redirects. Prose aggregation is
+chapter. Former section/topic routes remain redirects, including fragment-specific routes into the reorganized sections. Prose aggregation is
 excluded from the count of mathematical duplicate statements.
 
 ## Verification boundary
 
-The Python suite passes 78 tests; the JavaScript suite passes 3 tests. New
+The Python suite passes 78 tests; the JavaScript suite passes 4 tests. New
 regressions cover a moved equation inside an absorbed clause, historical alias
 numbering, preservation of formal questions, changed-source rejection, and
 incomplete historical coverage. The raw-export integration check verifies all

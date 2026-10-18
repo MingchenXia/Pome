@@ -384,7 +384,7 @@ def redirect(path, target, destination, fragments=None, anchor="", fragment_rout
         relative = relative.removesuffix("index.html") or "./"
     relative += anchor
     assets = Path(os.path.relpath(destination / "assets", path.parent)).as_posix() + "/"
-    fragment_anchors = "".join(f'<span hidden id="{escape(identifier, quote=True)}"></span>' for identifier in (fragments or {}))
+    fragment_anchors = "".join(f'<span hidden id="{escape(identifier, quote=True)}"></span>' for identifier in dict.fromkeys([*(fragments or {}), *(fragment_routes or {})]))
     path.write_text(f'''<!doctype html><html lang="en" data-redirect="{escape(relative, quote=True)}" data-fragments='{escape(json.dumps(fragments or {}), quote=True)}' data-fragment-routes='{escape(json.dumps(fragment_routes or {}), quote=True)}'><head><meta charset="utf-8"><title>Continue to Pome</title><link rel="canonical" href="{escape(relative, quote=True)}"><script defer src="{assets}redirect.js"></script></head><body>{fragment_anchors}<p>This content is part of the shared Pome reference. <a href="{escape(relative, quote=True)}">Continue to the shared entry</a>.</p></body></html>''')
 
 
