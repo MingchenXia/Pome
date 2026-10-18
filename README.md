@@ -8,7 +8,7 @@ A shared mathematical reference combining definitions, theorems, and proofs from
 
 ## Content and organization
 
-The collection integrates four sources, tracking their `main` branches:
+The collection integrates five sources, tracking their `main` branches:
 
 - [Foundations of pluripotential theory](https://github.com/MingchenXia/foundations-of-pluripotential-theory).
 - [Singularities in global pluripotential theory (SGPT)](https://github.com/MingchenXia/SGPT).
@@ -16,9 +16,11 @@ The collection integrates four sources, tracking their `main` branches:
 
 - **Classical potential theory: supplements after Helms**, from `Gerby-Literature/main`, including the merged `codex/helms-whole-book` work. The supplement follows the recorded complete-book review and includes harmonic boundary limits, Green functions, polar sets, sweeping, Perron theory, the Wiener criterion, energy and Martin boundaries, with reconstructed proofs and attribution. The retained scan and research records stay private.
 
+- **Local and global pluripotential theory: supplements after Klimek**, from `Gerby-Literature/main`. The reviewed supplement adds explicit proofs and supporting mathematics across the existing subjects, with 216 source tags and three reviewed canonical merges. The book scans and private research records stay private.
+
 Only each manuscript's active input graph is included. Excluded drafts and private research material are not exported.
 
-The collection has **25 shared chapters**, ordered by mathematical subject across the books, with 479 sections inside them. Chapter 1 contains only conventions; manuscript prefaces, acknowledgments, introductions, and part overviews are omitted. Reader numbering follows the current Pome chapters and sections; source metadata and exact revisions are collected under Sources rather than repeated beside every statement. The chapter structure is curated independently of the original tables of contents. The historical chapter follows the development across the collection in ten connected sections; original source notes remain under Sources, and formally stated questions belong to the problems chapter. Existing book and topic URLs continue to resolve.
+The collection has **25 shared chapters**, ordered by mathematical subject across the books, with 531 sections inside them. Chapter 1 contains only conventions; manuscript prefaces, acknowledgments, introductions, and part overviews are omitted. Reader numbering follows the current Pome chapters and sections; source metadata and exact revisions are collected under Sources rather than repeated beside every statement. The chapter structure is curated independently of the original tables of contents. The historical chapter follows the development across the collection in ten connected sections; original source notes remain under Sources, and formally stated questions belong to the problems chapter. Existing book and topic URLs continue to resolve.
 
 Reviewed duplicates have one canonical entry and one search result. Alternative source wording, proofs, and formalization badges remain accessible within that entry. Numbered clauses stay inside their parent statements, retaining their own tags and anchors; formalization status belongs to the complete parent statement. `collection.json` records each reviewed statement fingerprint: a changed statement requires a new review before it can be merged again. Results with different hypotheses remain separate.
 

@@ -57,6 +57,276 @@
       "slug": "the-theory-of-okounkov-bodies",
       "title": "The theory of Okounkov bodies",
       "description": "Definitions, results, and proofs on this subject."
+    },
+    {
+      "slug": "stokes-formula-and-homotopies",
+      "title": "Stokes' formula and homotopies",
+      "description": ""
+    },
+    {
+      "slug": "complex-homotopy-operators-and-hartogs-extension",
+      "title": "Complex homotopy operators and Hartogs extension",
+      "description": ""
+    },
+    {
+      "slug": "separate-holomorphy",
+      "title": "Separate holomorphy",
+      "description": ""
+    },
+    {
+      "slug": "an-obstruction-to-global-decreasing-approximation",
+      "title": "An obstruction to global decreasing approximation",
+      "description": ""
+    },
+    {
+      "slug": "holomorphic-hulls-and-domains-of-holomorphy",
+      "title": "Holomorphic hulls and domains of holomorphy",
+      "description": ""
+    },
+    {
+      "slug": "discrete-interpolation-from-weighted-estimates",
+      "title": "Discrete interpolation from weighted estimates",
+      "description": ""
+    },
+    {
+      "slug": "plurisubharmonic-hulls-and-general-boundary-distances",
+      "title": "Plurisubharmonic hulls and general boundary distances",
+      "description": ""
+    },
+    {
+      "slug": "complete-hartogs-domains-and-taylor-coefficients",
+      "title": "Complete Hartogs domains and Taylor coefficients",
+      "description": ""
+    },
+    {
+      "slug": "local-convexity-and-defining-functions",
+      "title": "Local convexity and defining functions",
+      "description": ""
+    },
+    {
+      "slug": "relative-smoothing-with-a-variable-strict-lower-bound",
+      "title": "Relative smoothing with a variable strict lower bound",
+      "description": ""
+    },
+    {
+      "slug": "integral-leaves-of-constant-rank-null-distributions",
+      "title": "Integral leaves of constant-rank null distributions",
+      "description": ""
+    },
+    {
+      "slug": "relative-extremals-on-bounded-hyperconvex-domains",
+      "title": "Relative extremals on bounded hyperconvex domains",
+      "description": ""
+    },
+    {
+      "slug": "plurithin-annuli-and-plurifine-limits",
+      "title": "Plurithin annuli and plurifine limits",
+      "description": ""
+    },
+    {
+      "slug": "polynomial-descriptions-of-logarithmic-envelopes",
+      "title": "Polynomial descriptions of logarithmic envelopes",
+      "description": ""
+    },
+    {
+      "slug": "logarithmic-families-and-a-fixed-ball-capacity",
+      "title": "Logarithmic families and a fixed-ball capacity",
+      "description": ""
+    },
+    {
+      "slug": "maps-and-regularity-of-global-extremals",
+      "title": "Maps and regularity of global extremals",
+      "description": ""
+    },
+    {
+      "slug": "real-compact-sets-and-explicit-extremal-formulas",
+      "title": "Real compact sets and explicit extremal formulas",
+      "description": ""
+    },
+    {
+      "slug": "logarithmic-total-mass-and-bounded-obstacle-support",
+      "title": "Logarithmic total mass and bounded-obstacle support",
+      "description": ""
+    },
+    {
+      "slug": "polynomial-families-and-equilibrium-null-obstacles",
+      "title": "Polynomial families and equilibrium-null obstacles",
+      "description": ""
+    },
+    {
+      "slug": "isolated-pole-green-envelopes-and-continuity",
+      "title": "Isolated-pole Green envelopes and continuity",
+      "description": ""
+    },
+    {
+      "slug": "classical-monge-ampere-measures-at-one-exceptional-point",
+      "title": "Classical Monge–Ampere measures at one exceptional point",
+      "description": ""
+    },
+    {
+      "slug": "symmetric-envelopes-and-finite-collections-of-poles",
+      "title": "Symmetric envelopes and finite collections of poles",
+      "description": ""
+    },
+    {
+      "slug": "schwarz-estimates-and-invariant-distances",
+      "title": "Schwarz estimates and invariant distances",
+      "description": ""
+    },
+    {
+      "slug": "green-level-measures-and-boundary-representation",
+      "title": "Green level measures and boundary representation",
+      "description": ""
+    },
+    {
+      "slug": "the-real-cube-equilibrium-density",
+      "title": "The real cube equilibrium density",
+      "description": ""
+    },
+    {
+      "slug": "boundary-peaks-and-the-symmetric-envelope-mass-criterion",
+      "title": "Boundary peaks and the symmetric-envelope mass criterion",
+      "description": ""
+    },
+    {
+      "slug": "a-smooth-strictly-pseudoconvex-domain-with-asymmetric-green-function",
+      "title": "A smooth strictly pseudoconvex domain with asymmetric Green function",
+      "description": ""
+    },
+    {
+      "slug": "disc-interpolation-on-convex-domains",
+      "title": "Disc interpolation on convex domains",
+      "description": ""
+    },
+    {
+      "slug": "separate-harmonicity-and-subharmonicity",
+      "title": "Separate harmonicity and subharmonicity",
+      "description": ""
+    },
+    {
+      "slug": "polynomial-approximation-and-a-separate-subharmonic-example",
+      "title": "Polynomial approximation and a separate-subharmonic example",
+      "description": ""
+    },
+    {
+      "slug": "boundary-distance-counterexamples-in-higher-dimension",
+      "title": "Boundary-distance counterexamples in higher dimension",
+      "description": ""
+    },
+    {
+      "slug": "robin-capacity-and-its-quantitative-comparison",
+      "title": "Robin capacity and its quantitative comparison",
+      "description": ""
+    },
+    {
+      "slug": "planar-green-functions-and-conformal-maps",
+      "title": "Planar Green functions and conformal maps",
+      "description": ""
+    },
+    {
+      "slug": "complex-geodesics-on-bounded-convex-domains",
+      "title": "Complex geodesics on bounded convex domains",
+      "description": ""
+    },
+    {
+      "slug": "global-decreasing-smooth-approximation",
+      "title": "Global decreasing smooth approximation",
+      "description": ""
+    },
+    {
+      "slug": "unbounded-potentials-and-dependence-on-regularization",
+      "title": "Unbounded potentials and dependence on regularization",
+      "description": ""
+    },
+    {
+      "slug": "degenerate-densities-and-interior-second-derivatives",
+      "title": "Degenerate densities and interior second derivatives",
+      "description": ""
+    },
+    {
+      "slug": "planar-boundary-distance-and-convexity",
+      "title": "Planar boundary distance and convexity",
+      "description": ""
+    },
+    {
+      "slug": "geometric-polynomial-approximation-and-local-uniqueness",
+      "title": "Geometric polynomial approximation and local uniqueness",
+      "description": ""
+    },
+    {
+      "slug": "a-continuous-foliation-by-extremal-ellipses",
+      "title": "A continuous foliation by extremal ellipses",
+      "description": ""
+    },
+    {
+      "slug": "boundary-zero-green-functions-and-hyperconvexity",
+      "title": "Boundary-zero Green functions and hyperconvexity",
+      "description": ""
+    },
+    {
+      "slug": "local-regularity-of-analytic-polyhedra",
+      "title": "Local regularity of analytic polyhedra",
+      "description": ""
+    },
+    {
+      "slug": "normalized-characterization-of-compact-extremals",
+      "title": "Normalized characterization of compact extremals",
+      "description": ""
+    },
+    {
+      "slug": "generalized-products-and-their-associated-bounded-products",
+      "title": "Generalized products and their associated bounded products",
+      "description": ""
+    },
+    {
+      "slug": "smooth-curves-which-are-not-pluripolar",
+      "title": "Smooth curves which are not pluripolar",
+      "description": ""
+    },
+    {
+      "slug": "equilibrium-densities-and-boundaries-of-real-convex-bodies",
+      "title": "Equilibrium densities and boundaries of real convex bodies",
+      "description": ""
+    },
+    {
+      "slug": "hyperconvexity-and-the-space-of-holomorphic-functions",
+      "title": "Hyperconvexity and the space of holomorphic functions",
+      "description": ""
+    },
+    {
+      "slug": "a-smooth-boundary-for-a-proper-biholomorphic-image",
+      "title": "A smooth boundary for a proper biholomorphic image",
+      "description": ""
+    },
+    {
+      "slug": "boundary-flux-and-nonproper-mass-comparison",
+      "title": "Boundary flux and nonproper mass comparison",
+      "description": ""
+    },
+    {
+      "slug": "symmetric-green-envelopes-on-unbounded-domains",
+      "title": "Symmetric Green envelopes on unbounded domains",
+      "description": ""
+    },
+    {
+      "slug": "non-pluripolar-products",
+      "title": "Non-pluripolar products",
+      "description": ""
+    },
+    {
+      "slug": "plurisubharmonic-functions-and-singularities",
+      "title": "Plurisubharmonic functions and singularities",
+      "description": ""
+    },
+    {
+      "slug": "smooth-positive-matrix-factorization-on-the-circle",
+      "title": "Smooth positive matrix factorization on the circle",
+      "description": ""
+    },
+    {
+      "slug": "smooth-green-functions-on-strongly-convex-domains",
+      "title": "Smooth Green functions on strongly convex domains",
+      "description": ""
     }
   ],
   "entries": [
@@ -387,6 +657,72 @@
         "source": "sgpt",
         "label": "cor:Okocompapp"
       }
+    },
+    {
+      "tag": "06A36B9354A5",
+      "title": "Bounded global cohomological mass",
+      "topic": "non-pluripolar-products",
+      "merge_note": "The logarithmic-growth full-mass statement is the affine-chart consequence of the bounded global cohomological mass formula, with the normalization and no mass at the hyperplane at infinity checked in the affine chart. Its source variant retains the radial and proper-comparison proof.",
+      "preferred": {
+        "source": "foundations-of-pluripotential-theory",
+        "label": "prop:bounded-global-cohomological-mass"
+      },
+      "members": [
+        {
+          "source": "foundations-of-pluripotential-theory",
+          "label": "prop:bounded-global-cohomological-mass",
+          "statement_sha256": "1de7043309146148588daab89b9c44a477f8d61a5b864ece6a527a917e813c98"
+        },
+        {
+          "source": "klimek-pluripotential-theory",
+          "label": "prop:logarithmic-full-mass",
+          "statement_sha256": "b8e4b18d4ba08a271cc311ca96f0de568b16a5071534901694b3208506cf8b0c"
+        }
+      ]
+    },
+    {
+      "tag": "1BBBF8109419",
+      "title": "Small pole local products",
+      "topic": "plurisubharmonic-functions-and-singularities",
+      "merge_note": "The Klimek variant proves only the isolated-point self-product and its continuity by an annular bounded-product argument. The preferred theorem also covers mixed products, weighted products and Hausdorff-zero pole sets. The special-case proof does not verify those broader conclusions.",
+      "preferred": {
+        "source": "non-kahler-pluripotential-theory",
+        "label": "thm:small-pole-local-products"
+      },
+      "members": [
+        {
+          "source": "non-kahler-pluripotential-theory",
+          "label": "thm:small-pole-local-products",
+          "statement_sha256": "16a8c0f0c2fa2bf147dee09a4f4cee16f2f11d6cb00a7e79fbd62597bd24acf5"
+        },
+        {
+          "source": "klimek-pluripotential-theory",
+          "label": "prop:isolated-point-ma-extension",
+          "statement_sha256": "935f12a25fb3bce7b76a1477e8fc09ae5ea7e719a6600a761f40e4829fa1295a"
+        }
+      ]
+    },
+    {
+      "tag": "F7D352207205",
+      "title": "Small pole residual invariance",
+      "topic": "plurisubharmonic-functions-and-singularities",
+      "merge_note": "The Klimek variant establishes the single-point residual comparison and the ratio case by positive rescaling. It uses the isolated-point product construction. Preserve the preferred result and its broader scope; do not infer the full small-pole theorem from this special-case proof.",
+      "preferred": {
+        "source": "non-kahler-pluripotential-theory",
+        "label": "lem:small-pole-residual-invariance"
+      },
+      "members": [
+        {
+          "source": "non-kahler-pluripotential-theory",
+          "label": "lem:small-pole-residual-invariance",
+          "statement_sha256": "4280f155a88cadc3b52436f8c1e2222d40001e606fc36c4cdc5a69b6d1342d86"
+        },
+        {
+          "source": "klimek-pluripotential-theory",
+          "label": "prop:isolated-residual-comparison-reduction",
+          "statement_sha256": "274de73b3768f9a58597a558e9467a6c4d5e6ae8d75bdc7f79204de213d560c8"
+        }
+      ]
     }
   ],
   "excluded_topics": [
@@ -425,7 +761,11 @@
         "kelvin-transforms-and-half-space-potentials",
         "classical-harmonic-analysis",
         "subharmonic-functions",
-        "green-functions-and-potentials"
+        "green-functions-and-potentials",
+        "separate-harmonicity-and-subharmonicity",
+        "polynomial-approximation-and-a-separate-subharmonic-example",
+        "planar-green-functions-and-conformal-maps",
+        "planar-boundary-distance-and-convexity"
       ]
     },
     {
@@ -448,7 +788,11 @@
         "complex-differential-forms-and-positive-currents",
         "plurisubharmonic-functions",
         "plurisubharmonic-functions-and-singularities",
-        "pluripolar-sets-and-the-plurifine-topology"
+        "pluripolar-sets-and-the-plurifine-topology",
+        "stokes-formula-and-homotopies",
+        "complex-homotopy-operators-and-hartogs-extension",
+        "plurithin-annuli-and-plurifine-limits",
+        "smooth-curves-which-are-not-pluripolar"
       ]
     },
     {
@@ -458,7 +802,11 @@
       "topics": [
         "weighted-l2-estimates-and-holomorphic-extension",
         "lelong-numbers-and-multiplier-ideals",
-        "analytic-singularities-and-demailly-approximation"
+        "analytic-singularities-and-demailly-approximation",
+        "an-obstruction-to-global-decreasing-approximation",
+        "discrete-interpolation-from-weighted-estimates",
+        "relative-smoothing-with-a-variable-strict-lower-bound",
+        "global-decreasing-smooth-approximation"
       ]
     },
     {
@@ -466,7 +814,20 @@
       "title": "Local Monge–Ampère theory and capacity",
       "description": "Bedford–Taylor products, local capacity, and complex Hessian equations.",
       "topics": [
-        "bedford-taylor-products-and-local-capacity"
+        "bedford-taylor-products-and-local-capacity",
+        "integral-leaves-of-constant-rank-null-distributions",
+        "relative-extremals-on-bounded-hyperconvex-domains",
+        "isolated-pole-green-envelopes-and-continuity",
+        "classical-monge-ampere-measures-at-one-exceptional-point",
+        "symmetric-envelopes-and-finite-collections-of-poles",
+        "green-level-measures-and-boundary-representation",
+        "boundary-peaks-and-the-symmetric-envelope-mass-criterion",
+        "a-smooth-strictly-pseudoconvex-domain-with-asymmetric-green-function",
+        "unbounded-potentials-and-dependence-on-regularization",
+        "degenerate-densities-and-interior-second-derivatives",
+        "boundary-zero-green-functions-and-hyperconvexity",
+        "generalized-products-and-their-associated-bounded-products",
+        "symmetric-green-envelopes-on-unbounded-domains"
       ]
     },
     {
@@ -484,7 +845,20 @@
       "topics": [
         "complex-spaces-and-modifications",
         "pluripotential-theory-on-unibranch-spaces",
-        "potentials-and-equations-on-unibranch-spaces"
+        "potentials-and-equations-on-unibranch-spaces",
+        "separate-holomorphy",
+        "holomorphic-hulls-and-domains-of-holomorphy",
+        "plurisubharmonic-hulls-and-general-boundary-distances",
+        "complete-hartogs-domains-and-taylor-coefficients",
+        "local-convexity-and-defining-functions",
+        "schwarz-estimates-and-invariant-distances",
+        "disc-interpolation-on-convex-domains",
+        "boundary-distance-counterexamples-in-higher-dimension",
+        "complex-geodesics-on-bounded-convex-domains",
+        "hyperconvexity-and-the-space-of-holomorphic-functions",
+        "a-smooth-boundary-for-a-proper-biholomorphic-image",
+        "smooth-positive-matrix-factorization-on-the-circle",
+        "smooth-green-functions-on-strongly-convex-domains"
       ]
     },
     {
@@ -557,7 +931,21 @@
         "comparison-of-singularities",
         "envelopes-and-model-potentials",
         "envelopes-and-volumes-of-singularities",
-        "envelope-systems-over-hermitian-perturbations"
+        "envelope-systems-over-hermitian-perturbations",
+        "polynomial-descriptions-of-logarithmic-envelopes",
+        "logarithmic-families-and-a-fixed-ball-capacity",
+        "maps-and-regularity-of-global-extremals",
+        "real-compact-sets-and-explicit-extremal-formulas",
+        "logarithmic-total-mass-and-bounded-obstacle-support",
+        "polynomial-families-and-equilibrium-null-obstacles",
+        "the-real-cube-equilibrium-density",
+        "robin-capacity-and-its-quantitative-comparison",
+        "geometric-polynomial-approximation-and-local-uniqueness",
+        "a-continuous-foliation-by-extremal-ellipses",
+        "local-regularity-of-analytic-polyhedra",
+        "normalized-characterization-of-compact-extremals",
+        "equilibrium-densities-and-boundaries-of-real-convex-bodies",
+        "boundary-flux-and-nonproper-mass-comparison"
       ]
     },
     {

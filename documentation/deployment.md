@@ -100,3 +100,40 @@ revisions are checked before integration. Tests cover the full input graph,
 source-coordinate export, reader numbering, topic coverage and old prerequisite tag. The complete build
 checks every local link; browser checks cover mathematical rendering, badges
 and layout. Formalization remains Not recorded. Updates remain on request.
+
+## Klimek supplement
+
+The `klimek-pluripotential-theory` source tracks `Gerby-Literature/main`
+after its separate completed Klimek merge. Its entry point is
+`contributions/klimek-pluripotential-theory.tex`. The adapter validates the
+manifest and permits only the46 reviewed proof groups, bibliography and
+required mathematical support files. Unexpected, repeated, reordered,
+nested or escaping inputs are rejected. Original PDFs, OCR, private
+findings and research records are outside the export boundary.
+
+The216 source tags are arranged in53 subjects within the existing chapters.
+Three fingerprinted merges reuse the existing bounded cohomological mass,
+small-pole local products and residual-invariance statements; source
+variants retain their narrower hypotheses and alternative arguments.
+Existing canonical tags, source tags and permalinks remain available.
+
+Supporting proofs include the stationary-disc boundary and deformation
+arguments for the smooth strongly real convex Green function, smooth
+positive matrix factorization, the bounded hyperconvex Frechet
+characterization, the smooth-boundary Fatou–Bieberbach construction and
+the counterexample to unrestricted nonproper mass comparison. Real
+convex-body density arguments distinguish smooth square-root estimates
+from general symmetric rough boundaries. The latter boundary-mass result
+uses the existing bounded energy cocycle and a projective dilation.
+Supporting references reuse canonical results or include the needed proof;
+real analytic principalization remains the explicitly permitted Hironaka
+input. Stronger unselected source variants are not assumed premises.
+
+The425-item review concerns all supplied Klimek material except printed
+129–132 and232–233, excluded by the owner. Every inventoried item has a
+recorded disposition. Proof review means two complete reads by the same
+agent with separately scoped source-image inspection; it does not claim
+independent or formal certification. Bibliographical attribution remains
+under Sources. The shared bibliography renderer also turns an existing
+TeX-href author link into a clickable HTML link without changing its
+bibliographic identity.
