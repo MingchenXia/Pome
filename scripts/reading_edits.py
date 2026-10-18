@@ -125,6 +125,8 @@ def apply_reading_edits(entries, topic_chapters, registry_path):
             if v.get('section'):
                 locators['caption', v['caption'].casefold()] = entry
     notes, counts = {}, {'reviewed_edits': 0, 'internal_references': 0, 'source_notes': 0}
+    proof_commentary = {(r['source'], r['proof_id']): r['text_sha256'] for r in registry.get('superseded_proof_commentary', [])}
+    found_commentary = set()
 
     def retain(source, node, entry, variant):
         key = context_key(source, node)
@@ -139,6 +141,22 @@ def apply_reading_edits(entries, topic_chapters, registry_path):
             source = variant['source']
             soup = BeautifulSoup(variant['html'], 'html.parser')
             caption_attributions = set()
+            # Some source books put citation-only proof directions after the
+            # statement rather than in a proof environment. Once a reviewed
+            # internal proof is supplied, retain those directions under Sources.
+            for proof in soup.select('article[data-proof-expansion]'):
+                key = source, proof['data-proof-expansion']
+                if key not in proof_commentary or proof.parent.name != 'p':
+                    continue
+                trailing = list(proof.next_siblings)
+                commentary = BeautifulSoup('<p>' + ''.join(str(n) for n in trailing) + '</p>', 'html.parser')
+                digest = sha256(normalized_text(commentary).encode()).hexdigest()
+                if digest != proof_commentary[key]:
+                    raise ValueError('Review changed proof commentary: ' + key[1])
+                retain(source, commentary, entry, variant)
+                for node in trailing:
+                    node.extract()
+                found_commentary.add(key)
             # A motto is the original author's front matter, not an assumption.
             for node in list(soup.select('.motto')):
                 retain(source, node, entry, variant)
@@ -219,5 +237,7 @@ def apply_reading_edits(entries, topic_chapters, registry_path):
                         variant['caption'] = re.sub(r'\[[^\[\]]*\]', '', caption).strip(' ,;')
                     elif caption.startswith('[') and identifier.select_one('.named') is None:
                         variant['caption'] = ''
+    if proof_commentary.keys() - found_commentary:
+        raise ValueError('Missing reviewed proof commentary')
     counts['source_notes'] = len(notes)
     return list(notes.values()), counts

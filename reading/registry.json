@@ -939,5 +939,17 @@
       "text_sha256": "1cbc524371bbb71ed553300ec6be5a7ca7289a90282d2def0873f8d4696cf76b",
       "replacement_html": "<p> <aside class=\"source-footnote\" data-footnote-mark=\"a0000011930\" id=\"a0000011932\"><span class=\"footnote-label\">Note.</span> It is very tempting to write $\\lim _{i\\in I} \\operatorname{Cap}_{\\theta }\\left( \\{ |f_ i-f|&gt;\\delta \\}  \\right)=0$, as in <span class=\"cite\">[<span class=\"postnote\">Definition 4.23</span>, <a href=\"/bibliography/GZ17\">GZ17</a>]</span> for example. But the set where $f_ i-f$ is not defined is not a pluripolar set in general. Hence this abuse of notation is not acceptable.</aside> We sometimes write $f_ i\\xrightarrow {\\mathrm{C}} f$. </p><p>We say the net converges <em>locally in capacity on $U$</em> if, for every compact $K\\Subset U$ and every $\\delta&gt;0$, both $\\operatorname{Cap}_\\theta(K\\cap\\{f_i&gt;f+\\delta\\})$ and $\\operatorname{Cap}_\\theta(K\\cap\\{f_i&lt;f-\\delta\\})$ tend to zero. These are separate order inequalities, so no subtraction of equal infinities is needed. On $U=X$, compactness makes local convergence equivalent to convergence in capacity on $X$.</p>"
     }
+  ],
+  "superseded_proof_commentary": [
+    {
+      "source": "sgpt",
+      "proof_id": "sgpt:prop:mono_psh_cap",
+      "text_sha256": "c7fa951dba5b390c91e1f652d8c5aae835633d614ed00b75825010d3cd7ec052"
+    },
+    {
+      "source": "sgpt",
+      "proof_id": "sgpt:thm:loc_conv_cap",
+      "text_sha256": "38df3edc5720c565dfb20a9e25abac977b50945855d43344d56ba848efdadbb9"
+    }
   ]
 }

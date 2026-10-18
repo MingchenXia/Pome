@@ -15,10 +15,10 @@ class ReadingEditsTests(unittest.TestCase):
     def entry(self, tag, html, **extra):
         return {'tag': tag, 'topic': 'body', 'reader_title': 'Theorem 1.2.3', 'variants': [{'source': 'sgpt', 'label': tag, 'tag': tag, 'html': html, 'title': 'Theorem 3.4.1', 'statement_tex': 'Original mathematical source.', 'caption': '', 'number': '3.4.1', 'kind': 'theorem', **extra}]}
 
-    def apply(self, entries, paragraphs=(), historical=False):
+    def apply(self, entries, paragraphs=(), historical=False, proof_commentary=()):
         with tempfile.TemporaryDirectory() as folder:
             path = Path(folder) / 'registry.json'
-            path.write_text(json.dumps({'version': 1, 'paragraphs': list(paragraphs)}))
+            path.write_text(json.dumps({'version': 1, 'paragraphs': list(paragraphs), 'superseded_proof_commentary': list(proof_commentary)}))
             return apply_reading_edits(entries, {'body': 'historical-notes' if historical else 'analysis'}, path)
 
     def test_reviewed_intro_moves_attribution_and_preserves_mathematical_source(self):
@@ -31,6 +31,21 @@ class ReadingEditsTests(unittest.TestCase):
         self.assertIn('Book', notes[0]['html'])
         self.assertEqual(entries['A']['variants'][0]['statement_tex'], 'Original mathematical source.')
         self.assertEqual(counts['source_notes'], 1)
+
+    def test_supplied_proof_replaces_guarded_citation_only_directions(self):
+        html = '<p><article id="A">Statement.</article><article data-proof-expansion="sgpt:A"><p>Internal proof.</p></article> See <span class="cite">Book</span>.</p>'
+        review = {'source': 'sgpt', 'proof_id': 'sgpt:A', 'text_sha256': sha256(b'See Book .').hexdigest()}
+        entries = {'A': self.entry('A', html)}
+        notes, _ = self.apply(entries, proof_commentary=[review])
+        self.assertNotIn('Book', entries['A']['variants'][0]['html'])
+        self.assertIn('Internal proof.', entries['A']['variants'][0]['html'])
+        self.assertIn('Book', notes[0]['html'])
+
+    def test_changed_citation_only_directions_require_review(self):
+        html = '<p><article data-proof-expansion="sgpt:A">Internal proof.</article> Changed source direction.</p>'
+        review = {'source': 'sgpt', 'proof_id': 'sgpt:A', 'text_sha256': sha256(b'Old direction.').hexdigest()}
+        with self.assertRaisesRegex(ValueError, 'Review changed proof commentary'):
+            self.apply({'A': self.entry('A', html)}, proof_commentary=[review])
 
     def test_history_and_necessary_external_proof_inputs_remain_explicit(self):
         html = '<article class="env-proof"><p>Use <span class="cite"><a href="/bibliography/External">External</a></span>.</p></article>'

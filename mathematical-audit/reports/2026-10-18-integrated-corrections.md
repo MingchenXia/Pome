@@ -41,7 +41,7 @@ The projective-line boundary-annulus counterexample is included, with admissible
 circle-mass potentials proving exceptional capacity exactly one. Uniform
 boundedness or replacing nets with sequences would not repair the former claim.
 
-The adjacent weighted theorem is unchanged in strength. Its proof explains why
+The superseded citation-only proof directions are fingerprinted and moved to Sources, preserving attribution. The adjacent weighted theorem is unchanged in strength. Its proof explains why
 only local capacity convergence is needed for compactly supported current tests,
 obtains a bounded quasi-continuous representative of the limit weight, and uses
 a smooth local correction and expansion of mixed products. There is no appeal
@@ -77,7 +77,7 @@ excluded from the count of mathematical duplicate statements.
 
 ## Verification boundary
 
-The Python suite passes 78 tests; the JavaScript suite passes 4 tests. New
+The Python suite passes 80 tests; the JavaScript suite passes 4 tests. New
 regressions cover a moved equation inside an absorbed clause, historical alias
 numbering, preservation of formal questions, changed-source rejection, and
 incomplete historical coverage. The raw-export integration check verifies all
