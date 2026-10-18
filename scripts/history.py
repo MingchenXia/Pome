@@ -22,7 +22,16 @@ def curate_history(entries, topics, source_tags, configuration, registry_path):
     topics[question_topic] = {'slug': question_topic, 'title': registry['questions']['title'], 'description': ''}
     questions = next(c for c in configuration['chapters'] if c['slug'] == registry['questions']['chapter'])
     questions['topics'].append(question_topic)
+    fragment_routes = {}
+
+    def remember_routes(entry, target):
+        routes = fragment_routes.setdefault(entry['topic'], {})
+        routes['entry-' + entry['tag']] = target
+        for variant in entry['variants']:
+            routes[variant['source'] + '-' + variant['tag']] = target
+
     for tag in question_tags:
+        remember_routes(historical[tag], 'tag/' + tag + '/')
         historical[tag]['topic'] = question_topic
     heading = historical[registry['questions']['heading']]
     heading['section_intro'] = True
@@ -37,6 +46,7 @@ def curate_history(entries, topics, source_tags, configuration, registry_path):
         for tag in members:
             if tag not in prose:
                 raise ValueError(f'Missing historical source heading: {tag}')
+            remember_routes(prose[tag], 'sections/' + section['slug'] + '/#entry-' + section['tag'])
             for original in prose[tag]['variants']:
                 key = original['source'] + '/' + original['label']
                 if sha256(original['html'].encode()).hexdigest() != registry['source_sha256'].get(key):
@@ -61,4 +71,5 @@ def curate_history(entries, topics, source_tags, configuration, registry_path):
     chapter['topics'] = [s['slug'] for s in registry['sections']]
     for topic in old_topics:
         topics.pop(topic)
+    configuration['historical_fragment_routes'] = fragment_routes
     return configuration, retained

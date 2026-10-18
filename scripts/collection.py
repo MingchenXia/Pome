@@ -377,7 +377,7 @@ def continuous_section(relevant, entries, roots, sources, source_tags, reference
     return '<div class="section-reading">' + "".join(chunks) + '</div>'
 
 
-def redirect(path, target, destination, fragments=None, anchor=""):
+def redirect(path, target, destination, fragments=None, anchor="", fragment_routes=None):
     path.parent.mkdir(parents=True, exist_ok=True)
     relative = Path(os.path.relpath(target, path.parent)).as_posix()
     if target.name == "index.html":
@@ -385,7 +385,7 @@ def redirect(path, target, destination, fragments=None, anchor=""):
     relative += anchor
     assets = Path(os.path.relpath(destination / "assets", path.parent)).as_posix() + "/"
     fragment_anchors = "".join(f'<span hidden id="{escape(identifier, quote=True)}"></span>' for identifier in (fragments or {}))
-    path.write_text(f'''<!doctype html><html lang="en" data-redirect="{escape(relative, quote=True)}" data-fragments='{escape(json.dumps(fragments or {}), quote=True)}'><head><meta charset="utf-8"><title>Continue to Pome</title><link rel="canonical" href="{escape(relative, quote=True)}"><script defer src="{assets}redirect.js"></script></head><body>{fragment_anchors}<p>This content is part of the shared Pome reference. <a href="{escape(relative, quote=True)}">Continue to the shared entry</a>.</p></body></html>''')
+    path.write_text(f'''<!doctype html><html lang="en" data-redirect="{escape(relative, quote=True)}" data-fragments='{escape(json.dumps(fragments or {}), quote=True)}' data-fragment-routes='{escape(json.dumps(fragment_routes or {}), quote=True)}'><head><meta charset="utf-8"><title>Continue to Pome</title><link rel="canonical" href="{escape(relative, quote=True)}"><script defer src="{assets}redirect.js"></script></head><body>{fragment_anchors}<p>This content is part of the shared Pome reference. <a href="{escape(relative, quote=True)}">Continue to the shared entry</a>.</p></body></html>''')
 
 
 def build_collection(books, destination, configuration):
@@ -458,7 +458,8 @@ def build_collection(books, destination, configuration):
     contents = destination / "chapters" / "index.html"
     for old, target in configuration.get('historical_routes', {}).items():
         for route in ('topics', 'sections'):
-            redirect(destination / route / old / 'index.html', destination / target / 'index.html', destination)
+            fragment_routes = {key: '../../' + value for key, value in configuration.get('historical_fragment_routes', {}).get(old, {}).items()}
+            redirect(destination / route / old / 'index.html', destination / target / 'index.html', destination, fragment_routes=fragment_routes)
     for topic in configuration.get("excluded_topics", []):
         for route in ("topics", "sections"):
             redirect(destination / route / topic / "index.html", contents, destination)

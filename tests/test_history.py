@@ -39,6 +39,8 @@ class HistoryTests(unittest.TestCase):
         self.assertEqual(self.links['second','B'],'A')
         self.assertEqual(config['chapters'][1]['topics'],['new-history'])
         self.assertEqual(config['chapters'][0]['topics'],['questions'])
+        self.assertEqual(config['historical_fragment_routes']['old-history']['entry-B'], 'sections/new-history/#entry-A')
+        self.assertEqual(config['historical_fragment_routes']['old-history']['second-P'], 'tag/P/')
         self.assertEqual(self.entries['P']['variants'],question['variants'])
         self.assertEqual(len(notes),2)
         self.assertTrue(all('id=' not in note['html'] for note in notes))
