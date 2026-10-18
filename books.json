@@ -42,6 +42,17 @@
       "checkout_env": "LITERATURE_SOURCE_DIR",
       "visibility": "private",
       "status": "published"
+    },
+    {
+      "slug": "klimek-pluripotential-theory",
+      "title": "Local and global pluripotential theory: supplements after Klimek",
+      "author": "Gerby Literature preparation after Maciej Klimek",
+      "repository": "https://github.com/MingchenXia/Gerby-Literature",
+      "ref": "main",
+      "entrypoint": "contributions/klimek-pluripotential-theory.tex",
+      "checkout_env": "KLIMEK_SOURCE_DIR",
+      "visibility": "private",
+      "status": "published"
     }
   ]
 }

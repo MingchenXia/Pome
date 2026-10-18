@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import collections
 import collections.abc
+from copy import deepcopy
 from hashlib import sha256
 from html import escape
 import importlib
@@ -43,6 +44,18 @@ def stable_tag(label):
 
 def uncomment(text):
     return re.sub(r"(?<!\\)%[^\n]*", "", text)
+
+
+def bibliography_entry_for_html(entry):
+    """Keep a TeX-only publication link usable in the HTML bibliography."""
+    link = re.fullmatch(r"\s*\\href\{(https?://[^{}]+)\}\{([^{}]+)\}\s*",
+                        entry.fields.get("howpublished", ""))
+    if link is None:
+        return entry
+    result = deepcopy(entry)
+    result.fields["howpublished"] = link[2]
+    result.fields.setdefault("url", link[1])
+    return result
 
 
 def active_text(source, name="book.tex", stack=()):
@@ -475,7 +488,8 @@ def export(source, output, prepare=None, transform=None):
     for key in citations:
         if key not in database.entries:
             raise ValueError(f"Missing bibliography entry: {key}")
-        formatted = next(iter(style.format_entries([database.entries[key]])))
+        formatted = next(iter(style.format_entries([
+            bibliography_entry_for_html(database.entries[key])])))
         formatted_html = formatted.text.render(backend)
         bibliography += f'<div class="bibliography-entry" id="{escape(key)}"><strong>[{escape(key)}]</strong> {formatted_html}</div>'
         fields = database.entries[key].fields
