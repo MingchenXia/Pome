@@ -448,6 +448,22 @@
       "original_proof_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "file": "thm-brunnmin.html",
       "kind": "proof"
+    },
+    {
+      "source": "sgpt",
+      "label": "prop:mono_psh_cap",
+      "statement_sha256": "efda7de25692c69c0017b00ef8d5a8b9531b796c024154e4f08a91f52e580687",
+      "original_proof_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "file": "prop-mono-psh-cap.html",
+      "kind": "proof"
+    },
+    {
+      "source": "sgpt",
+      "label": "thm:loc_conv_cap",
+      "statement_sha256": "3ab582cbe3fa3cb5fdde05c58cc94b73b3be9432e80a79275340164a6377c712",
+      "original_proof_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "file": "thm-loc-conv-cap.html",
+      "kind": "proof"
     }
   ]
 }

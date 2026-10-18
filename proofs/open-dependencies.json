@@ -67,22 +67,6 @@
       "status": "needs_source_and_dependency_review"
     },
     {
-      "tag": "D56D6D4A5E94",
-      "title": "Proposition 2.3.7",
-      "source": "sgpt",
-      "label": "prop:mono_psh_cap",
-      "topic": "non-pluripolar-products",
-      "status": "needs_source_and_dependency_review"
-    },
-    {
-      "tag": "272876B00528",
-      "title": "Theorem 2.3.8",
-      "source": "sgpt",
-      "label": "thm:loc_conv_cap",
-      "topic": "non-pluripolar-products",
-      "status": "needs_source_and_dependency_review"
-    },
-    {
       "tag": "C0B519026258",
       "title": "Proposition 2.4.2",
       "source": "sgpt",
@@ -116,7 +100,7 @@
     },
     {
       "tag": "FE0721C3DE01",
-      "title": "Theorem 2.4.21 (Tosatti, Chu–Zhou)",
+      "title": "Theorem 2.4.21 (Tosatti, Chu\u2013Zhou)",
       "source": "sgpt",
       "label": "thm:Tos_C11",
       "topic": "non-pluripolar-products",
@@ -124,7 +108,7 @@
     },
     {
       "tag": "4BEA034735FD",
-      "title": "Proposition 2.4.22 (Darvas–Rubinstein)",
+      "title": "Proposition 2.4.22 (Darvas\u2013Rubinstein)",
       "source": "sgpt",
       "label": "prop:DR16_C11bar",
       "topic": "non-pluripolar-products",
@@ -132,7 +116,7 @@
     },
     {
       "tag": "700E44C7083B",
-      "title": "Theorem 2.4.26 (Di Nezza–Trapani)",
+      "title": "Theorem 2.4.26 (Di Nezza\u2013Trapani)",
       "source": "sgpt",
       "label": "thm:DNT23_C11bar",
       "topic": "non-pluripolar-products",
@@ -332,7 +316,7 @@
     },
     {
       "tag": "48473380B913",
-      "title": "Theorem B.2.2 (Fornaess–Narasimhan)",
+      "title": "Theorem B.2.2 (Fornaess\u2013Narasimhan)",
       "source": "sgpt",
       "label": "thm:FN",
       "topic": "pluripotential-theory-on-unibranch-spaces",
@@ -340,7 +324,7 @@
     },
     {
       "tag": "85641516C8CA",
-      "title": "Theorem C.2.3 (Kaveh–Khovanskii)",
+      "title": "Theorem C.2.3 (Kaveh\u2013Khovanskii)",
       "source": "sgpt",
       "label": "thm:KK12growth",
       "topic": "almost-semigroups",
@@ -348,7 +332,7 @@
     },
     {
       "tag": "8B1218AE4FDC",
-      "title": "Theorem 1.6.1 (Bedford–Taylor)",
+      "title": "Theorem 1.6.1 (Bedford\u2013Taylor)",
       "source": "non-kahler-pluripotential-theory",
       "label": "thm:bt-input",
       "topic": "plurisubharmonic-functions-and-singularities",
@@ -356,7 +340,7 @@
     },
     {
       "tag": "DBC85A3C1608",
-      "title": "Theorem 1.6.4 (Mixed Monge–Ampère inequality)",
+      "title": "Theorem 1.6.4 (Mixed Monge\u2013Amp\u00e8re inequality)",
       "source": "non-kahler-pluripotential-theory",
       "label": "thm:local-mixed-input",
       "topic": "plurisubharmonic-functions-and-singularities",
@@ -430,7 +414,7 @@
     },
     {
       "tag": "B1493CF698A6",
-      "title": "Theorem A.6.1 (Remmert–Stein)",
+      "title": "Theorem A.6.1 (Remmert\u2013Stein)",
       "source": "foundations-of-pluripotential-theory",
       "label": "thm:remmert-stein-extension",
       "topic": "complex-spaces-and-modifications",
@@ -475,6 +459,22 @@
       "label": "thm:res",
       "topic": "pluripotential-theory-on-unibranch-spaces",
       "status": "hironaka_exempt"
+    },
+    {
+      "tag": "D56D6D4A5E94",
+      "title": "Proposition 2.3.7",
+      "source": "sgpt",
+      "label": "prop:mono_psh_cap",
+      "topic": "non-pluripolar-products",
+      "status": "corrected_local_statement_with_internal_proof"
+    },
+    {
+      "tag": "272876B00528",
+      "title": "Theorem 2.3.8",
+      "source": "sgpt",
+      "label": "thm:loc_conv_cap",
+      "topic": "non-pluripolar-products",
+      "status": "existing_internal_weighted_capacity_proof"
     }
   ]
 }

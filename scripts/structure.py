@@ -44,6 +44,44 @@ def arrange_sections(entries, topics, configuration):
             if original in chapter["topics"]:
                 position = chapter["topics"].index(original) + 1
                 chapter["topics"][position:position] = [item["slug"] for item in promotions]
+    # A canonical statement can move across source sections. Its embedded
+    # descendants (including equations inside absorbed clauses) move with it.
+    owners = {}
+    for entry in entries.values():
+        for variant in entry['variants'] + entry.get('components', []):
+            for label in [variant['label'], *variant.get('aliases', [])]:
+                owners[variant['source'], label] = entry['tag']
+    parents = {}
+    for tag, entry in entries.items():
+        if entry['variants'][0].get('section'):
+            continue
+        candidates = set()
+        for variant in entry['variants']:
+            parent = owners.get((variant['source'], variant.get('parent_label')))
+            if parent and parent != tag and not entries[parent]['variants'][0].get('section'):
+                candidates.add(parent)
+        if len(candidates) > 1:
+            raise ValueError(f'Conflicting canonical parents: {tag}')
+        if candidates:
+            parents[tag] = candidates.pop()
+    placed, active = {}, set()
+
+    def place(tag):
+        if tag in active:
+            raise ValueError(f'Circular canonical parent: {tag}')
+        if tag in placed:
+            return
+        active.add(tag)
+        if tag in parents:
+            place(parents[tag])
+            entries[tag]['topic'] = entries[parents[tag]]['topic']
+        active.remove(tag)
+        placed[tag] = entries[tag]
+
+    for tag in entries:
+        place(tag)
+    entries.clear()
+    entries.update(placed)
     for entry in entries.values():
         variant = entry["variants"][0]
         entry["section_intro"] = bool(variant.get("section") and (entry["tag"] in promoted or title_key(variant["caption"]) == title_key(topics[entry["topic"]]["title"])))

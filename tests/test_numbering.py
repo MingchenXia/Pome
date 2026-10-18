@@ -43,6 +43,18 @@ class NumberingTests(unittest.TestCase):
         _, numbers = self.arrange()
         self.assertEqual(numbers["second", variant["tag"]]["number"], "3.2.1")
 
+    def test_descendant_of_a_merged_clause_follows_its_canonical_statement(self):
+        parent = self.entries['00000003']
+        parent['components'] = [{'source': 'second', 'label': 'condition', 'tag': '000000AA', 'number': 'i'}]
+        equation = self.entries['00000004']
+        equation['topic'] = 'old-source-section'
+        equation['variants'][0].update(source='second', parent_label='condition')
+        self.topics['old-source-section'] = {'title': 'Old source section'}
+        _, numbers = self.arrange()
+        self.assertEqual(equation['topic'], parent['topic'])
+        self.assertEqual(equation['number'].rsplit('.', 1)[0], parent['number'].rsplit('.', 1)[0])
+        self.assertEqual(numbers['second', '00000004']['number'], equation['number'])
+
     def test_logical_clauses_keep_tags_but_share_the_statement_badge(self):
         clause = {"source": "first", "tag": "00000009", "label": "item:condition", "number": "1"}
         self.entries["00000003"]["components"] = [clause]

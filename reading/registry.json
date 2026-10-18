@@ -924,6 +924,20 @@
       "text_sha256": "b0971d8f328b91d9d6371b1a72f7d25e72b0aec20a34df367d1e9c1633ac60dd",
       "replacement_html": "<p>\nWe use three facts about unibranch spaces. Resolutions and common smooth refinements of two resolutions exist, and a proper bimeromorphic map to a unibranch space has connected fibers <a data-reading-entry=\"8F66FA207B82\">result</a>, <a data-reading-entry=\"3CD8BF9158DD\">result</a>, <a data-reading-entry=\"E707851D5DBA\">result</a>. The Fornaess–Narasimhan criterion identifies plurisubharmonic functions on $X$ as the upper semicontinuous functions that are subharmonic on holomorphic disks <a data-reading-entry=\"48473380B913\">result</a>. The ramified disk lift used below is the argument in the proof of <a data-reading-entry=\"C69D2F0ABA4F\">result</a>. \n</p>",
       "reason": "Use the actual resolution, connected-fiber, disk-criterion, and ramified-lift arguments, whose source numbers changed."
+    },
+    {
+      "source": "sgpt",
+      "context": "Then $(\\varphi _ i)_{i\\in I}$ converges to $\\varphi $ in capacity.",
+      "reason": "POME-CAP-001: monotone convergence on a proper open set is only local in capacity.",
+      "text_sha256": "6dcfeb9b19795262193cdeeb9f6e4efd2c18fea14cf7e8e83633b96f01a3dcd9",
+      "replacement_html": "<p>Then $(\\varphi_i)_{i\\in I}$ converges to $\\varphi$ <em>locally in capacity on $U$</em>. If $U=X$, the convergence holds in capacity on all of $X$.</p>"
+    },
+    {
+      "source": "sgpt",
+      "context": "Note. It is very tempting to write $\\lim _{i\\in I} \\operatorname{Cap}_{\\theta }\\left( \\{ |f_ i-f|>\\delta \\} \\right)=0$, as in [ Definition 4.23 , GZ17 ] for example. But the set where $f_ i-f$ is not defined is not a pluripolar set in general. Hence this abuse of notation is not acceptable. We sometimes write $f_ i\\xrightarrow {\\mathrm{C}} f$.",
+      "reason": "Define local capacity convergence without changing the existing global definition.",
+      "text_sha256": "1cbc524371bbb71ed553300ec6be5a7ca7289a90282d2def0873f8d4696cf76b",
+      "replacement_html": "<p> <aside class=\"source-footnote\" data-footnote-mark=\"a0000011930\" id=\"a0000011932\"><span class=\"footnote-label\">Note.</span> It is very tempting to write $\\lim _{i\\in I} \\operatorname{Cap}_{\\theta }\\left( \\{ |f_ i-f|&gt;\\delta \\}  \\right)=0$, as in <span class=\"cite\">[<span class=\"postnote\">Definition 4.23</span>, <a href=\"/bibliography/GZ17\">GZ17</a>]</span> for example. But the set where $f_ i-f$ is not defined is not a pluripolar set in general. Hence this abuse of notation is not acceptable.</aside> We sometimes write $f_ i\\xrightarrow {\\mathrm{C}} f$. </p><p>We say the net converges <em>locally in capacity on $U$</em> if, for every compact $K\\Subset U$ and every $\\delta&gt;0$, both $\\operatorname{Cap}_\\theta(K\\cap\\{f_i&gt;f+\\delta\\})$ and $\\operatorname{Cap}_\\theta(K\\cap\\{f_i&lt;f-\\delta\\})$ tend to zero. These are separate order inequalities, so no subtraction of equal infinities is needed. On $U=X$, compactness makes local convergence equivalent to convergence in capacity on $X$.</p>"
     }
   ]
 }

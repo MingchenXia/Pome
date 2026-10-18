@@ -32,7 +32,7 @@ Footnotes use numbered links at their original positions in text or formulas. No
 
 The mathematical body should read as Pome, independently of its source books. Rewrite source-specific introductions and preserve assumptions and conventions. Outside historical sections, use internal statements instead of external references whenever the required result is available. Keep necessary external inputs explicit; moving a citation must not disguise an unproved dependency. Bibliographical attribution, source commentary, and further-reading recommendations belong under Sources.
 
-`reading/registry.json` records reviewed prose replacements with fingerprints of the original paragraphs. Check these against the raw exports before applying proof expansions; changed source prose requires another review. Reading edits change HTML and displayed captions, preserving source TeX, permanent tags, and proof guards. Exact SGPT locators resolve to current Pome entries; do not infer an internal reference merely from a similar theorem name, or replace a proof dependency by a link to the same statement. Sources pages retain the original attribution and commentary. Historical sections retain their original exposition.
+`reading/registry.json` records reviewed prose replacements with fingerprints of the original paragraphs. Check these against the raw exports before applying proof expansions; changed source prose requires another review. Reading edits change HTML and displayed captions, preserving source TeX, permanent tags, and proof guards. Exact SGPT locators resolve to current Pome entries; do not infer an internal reference merely from a similar theorem name, or replace a proof dependency by a link to the same statement. Sources pages retain the original attribution and commentary. Historical source exposition is retained under Sources. The shared historical chapter is rewritten by subject through `reading/history/registry.json`; its source fingerprints require review when upstream notes change. Former heading tags are aliases of the corresponding new section. Formal conjectures and problems retain their statements and tags in the problems chapter.
 
 Before publication, run:
 
@@ -43,3 +43,11 @@ node --test tests/*.test.mjs
 ```
 
 The build checks every structured visible source locator against the current collection numbers, along with all internal links and fragments. Regression tests cover subsection listings, section splits, numbering resets, merged variants, HTML/TeX references, equation rows, and stale-number rejection. Browser checks must cover the reported Kelvin-transform and Bedford–Taylor examples, section/chapter tag visibility, equation alignment on desktop and mobile, and representative pages from all sources.
+
+## Audit corrections and historical synthesis (18 October 2026)
+
+Embedded descendants of canonical statements follow the canonical parent after section promotion and before numbering. Parent lookup includes absorbed logical clauses, so an equation inside a merged alternative cannot retain its old source section. The regression covers a moved equation whose immediate parent is such a clause.
+
+The historical chapter has ten sustained sections following Pome's analytic and geometric development. `scripts/history.py` checks coverage and source-prose hashes, preserves original notes under Sources, and maps old heading tags to the new reading sections. The original mathematical questions move intact to the problems chapter. Former topic and section routes remain redirects. Historical aggregation is prose editing, not a claim that its source statements are mathematical duplicates.
+
+Capacity convergence on an entire open set retains its existing definition. A separate local definition tests every compact subset. The corrected monotone-net proposition asserts local convergence, and gives global convergence when the domain is the whole compact manifold. Guarded proof additions establish the net version, give the boundary-annulus counterexample, and derive weighted current convergence from the existing local bounded-product theorem.

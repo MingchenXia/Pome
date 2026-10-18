@@ -9,3 +9,4 @@ vendor/node_modules/
 _publish/
 _update/
 _render_cache/
+work/

@@ -1,7 +1,7 @@
 """Reviewed prose edits and internal references for the Pome reading edition.
 
 Mathematical source strings and proof guards are left intact. Original attribution
-is retained on Sources pages; historical sections retain the original exposition.
+is retained on Sources pages; the curated historical exposition is applied separately.
 """
 from hashlib import sha256
 import json

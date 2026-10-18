@@ -645,7 +645,7 @@
     {
       "slug": "historical-notes",
       "title": "Historical and bibliographical notes",
-      "description": "",
+      "description": "From classical potentials and capacity to nonlinear measures, complex geometry, singularity models, and algebraic asymptotics. These notes follow the mathematical development across Pome and distinguish historical attribution from the hypotheses and proofs of individual results.",
       "topics": [
         "historical-and-bibliographical-notes",
         "historical-notes",
@@ -2795,5 +2795,31 @@
         "title": "The $d_ S$-pseudometric"
       }
     ]
+  },
+  "historical_exposition": "reading/history/registry.json",
+  "historical_routes": {
+    "historical-and-bibliographical-notes": "sections/history--classical-potential-theory",
+    "historical-notes": "sections/history--classical-potential-theory",
+    "historical-notes--plurisubharmonic-functions-and-regularization": "sections/history--plurisubharmonicity-and-singularities",
+    "historical-notes--mass-and-energy": "sections/history--nonlinear-products-and-mass",
+    "historical-notes--gauduchon-metrics-and-positivity": "sections/history--positivity-and-hermitian-volume",
+    "historical-notes--bounded-products-and-extended-measures": "sections/history--nonlinear-products-and-mass",
+    "historical-notes--envelopes-and-comparison": "sections/history--envelopes-and-singularity-types",
+    "historical-notes--smooth-and-continuous-equations": "sections/history--monge-ampere-and-hessian-equations",
+    "historical-notes--uniqueness-and-selection": "sections/history--monge-ampere-and-hessian-equations",
+    "historical-notes--complex-hessian-equations": "sections/history--monge-ampere-and-hessian-equations",
+    "historical-notes--volumes-under-mass-bounds": "sections/history--positivity-and-hermitian-volume",
+    "historical-notes--equations-with-prescribed-singularities": "sections/history--monge-ampere-and-hessian-equations",
+    "historical-notes--normalization-and-adjoint-measures": "sections/history--monge-ampere-and-hessian-equations",
+    "historical-notes--perron-geometry-on-hopf-manifolds": "sections/history--singular-spaces-and-locally-conformal-geometry",
+    "historical-notes--singularity-classes-and-traces": "sections/history--singular-spaces-and-locally-conformal-geometry",
+    "historical-notes--section-growth-and-partial-kernels": "sections/history--sections-convexity-and-non-archimedean-geometry",
+    "historical-notes--gauduchon-variational-volume": "sections/history--positivity-and-hermitian-volume",
+    "historical-notes--closed-classes-and-singular-loci": "sections/history--positivity-and-hermitian-volume",
+    "historical-notes--closed-classes-and-metric-completeness": "sections/history--energy-and-geodesics",
+    "historical-notes--locally-conformally-kahler-geometry": "sections/history--singular-spaces-and-locally-conformal-geometry",
+    "historical-notes--regularity-and-singular-spaces": "sections/history--singular-spaces-and-locally-conformal-geometry",
+    "historical-notes--geometric-problems": "sections/history--perspectives-and-reading",
+    "comments": "chapters/historical-notes"
   }
 }

@@ -20,6 +20,7 @@ from footnotes import collect_notes, number_notes, relocate_notes
 from proof_expansions import apply_expansions, check_dependencies
 from reading_edits import apply_reading_edits, validate_reading_edits
 from numbering import assign_numbers
+from history import curate_history
 from search_index import write_search_index
 
 
@@ -408,9 +409,13 @@ def build_collection(books, destination, configuration):
     entries, topics, source_tags = organize(exports, configuration)
     check_dependencies(entries, dependencies)
     configuration = arrange_sections(entries, topics, configuration)
+    historical_notes = []
+    if configuration.get('historical_exposition'):
+        configuration, historical_notes = curate_history(entries, topics, source_tags, configuration, Path(__file__).resolve().parents[1] / configuration['historical_exposition'])
     chapters, topic_chapters = chapter_structure(topics, configuration)
     assign_numbers(chapters, entries)
     reading_notes, reading_audit = apply_reading_edits(entries, topic_chapters, reading_registry) if reading_registry else ([], {})
+    reading_notes.extend(historical_notes)
     comments = json.loads((Path(__file__).resolve().parents[1] / "comments.json").read_text())
     reader = Reader(chapters, topics, entries, sources, comments)
     anchors = {(v["source"], v["tag"]): "#" + v["source"] + "-" + v["tag"] for entry in entries.values() for v in entry["components"]}
@@ -451,6 +456,9 @@ def build_collection(books, destination, configuration):
     # Removed front matter leaves the reading edition, while old permalinks
     # continue to reach the collection rather than a missing page.
     contents = destination / "chapters" / "index.html"
+    for old, target in configuration.get('historical_routes', {}).items():
+        for route in ('topics', 'sections'):
+            redirect(destination / route / old / 'index.html', destination / target / 'index.html', destination)
     for topic in configuration.get("excluded_topics", []):
         for route in ("topics", "sections"):
             redirect(destination / route / topic / "index.html", contents, destination)
@@ -470,7 +478,7 @@ def build_collection(books, destination, configuration):
         chapter_key = topic_chapters[entry["topic"]]
         chapter = chapters[chapter_key]
         content = f'<h1>{escape(display_title(entry))}<code class="tag-id">{tag}</code></h1>'
-        if len(entry["variants"]) > 1:
+        if len(entry["variants"]) > 1 and not entry.get('historical'):
             note = entry["merge_note"] or "Repeated statement: one entry retains the original source versions and proofs."
             content += f'<p class="merge-note">{escape(note)}</p>'
         variants, texts = [], []
@@ -501,7 +509,7 @@ def build_collection(books, destination, configuration):
                 search_record["kind"] = "section"
                 section_search[entry["topic"]] = search_record
         public_entries.append({"tag": tag, "number": entry["number"], "section_intro": entry["section_intro"], "title": display_title(entry), "kind": entry["kind"], "chapter": chapter_key, "topic": entry["topic"], "sources": variants, "components": [{"book": v["source"], "tag": v["tag"], "label": v["label"]} for v in entry["components"]]})
-        if len(variants) > 1:
+        if len(variants) > 1 and not entry.get('historical'):
             merges.append({"tag": tag, "title": entry["title"], "note": entry["merge_note"], "sources": variants})
         for variant in entry["variants"] + entry["components"]:
             old = global_tag(variant["source"], variant["label"])
@@ -554,7 +562,7 @@ def build_collection(books, destination, configuration):
     public_topics = [{**topic, "number": reader.sections[key]["number"], "tag": reader.sections[key]["tag"]} for key, topic in topics.items()]
     (destination / "collection.json").write_text(json.dumps({"version": 1, "chapters": list(chapters.values()), "topics": public_topics, "entries": public_entries}, ensure_ascii=False, indent=2) + "\n")
     (destination / "navigation.json").write_text(json.dumps([reader.pages[route] for route in reader.order], ensure_ascii=False, indent=2) + "\n")
-    audit = {"groups": merges, "duplicate_entries_unified": sum(len(e["variants"]) - 1 for e in entries.values()), "numbered_clauses_in_parent_statements": len(anchors), "source_tags": sum(len(records) for records in inventories.values()), "canonical_entries": len(entries)}
+    audit = {"groups": merges, "duplicate_entries_unified": sum(len(e["variants"]) - 1 for e in entries.values() if not e.get("historical")), "numbered_clauses_in_parent_statements": len(anchors), "source_tags": sum(len(records) for records in inventories.values()), "canonical_entries": len(entries)}
     (destination / "deduplication.json").write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n")
     (destination / 'reading-edition.json').write_text(json.dumps(reading_audit, indent=2) + '\n')
     return {"entries": len(entries), "topics": len(topics), "chapters": len(chapters), "sources": len(sources)}
