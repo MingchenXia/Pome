@@ -17560,7 +17560,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "187A0EF4",
           "label": "prop:logarithmic-full-mass",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -55976,7 +55976,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "C38D699A",
           "label": "prop:isolated-point-ma-extension",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -56000,7 +56000,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "849438A9",
           "label": "prop:isolated-residual-comparison-reduction",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111368,7 +111368,7 @@
           "book": "classical-potential-theory",
           "tag": "59016F1B",
           "label": "sec:helms-prerequisites",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111386,7 +111386,7 @@
           "book": "classical-potential-theory",
           "tag": "60EC85F1",
           "label": "sec:helms-parameter-integrals",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111404,7 +111404,7 @@
           "book": "classical-potential-theory",
           "tag": "A90A4045",
           "label": "lem:helms-parameter-integral",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111422,7 +111422,7 @@
           "book": "classical-potential-theory",
           "tag": "E67B733E",
           "label": "sec:helms-ball-averages",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111440,7 +111440,7 @@
           "book": "classical-potential-theory",
           "tag": "3425B8A6",
           "label": "thm:helms-ball-average-regularity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111458,7 +111458,7 @@
           "book": "classical-potential-theory",
           "tag": "4E47B4BE",
           "label": "eq:helms-average-derivative",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111476,7 +111476,7 @@
           "book": "classical-potential-theory",
           "tag": "5530DACB",
           "label": "sec:helms-compact-metric-measures",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111494,7 +111494,7 @@
           "book": "classical-potential-theory",
           "tag": "09EDA5A6",
           "label": "thm:helms-compact-measure-selection",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111512,7 +111512,7 @@
           "book": "classical-potential-theory",
           "tag": "F836687A",
           "label": "sec:helms-kelvin",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111530,7 +111530,7 @@
           "book": "classical-potential-theory",
           "tag": "B1AA5815",
           "label": "thm:helms-kelvin",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111548,7 +111548,7 @@
           "book": "classical-potential-theory",
           "tag": "074F2D29",
           "label": "eq:helms-kelvin-laplacian",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111566,7 +111566,7 @@
           "book": "classical-potential-theory",
           "tag": "92B43D8F",
           "label": "sec:helms-halfspace",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111584,7 +111584,7 @@
           "book": "classical-potential-theory",
           "tag": "2C60ADF3",
           "label": "eq:helms-halfspace-kernel",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111602,7 +111602,7 @@
           "book": "classical-potential-theory",
           "tag": "1C8A330A",
           "label": "thm:helms-halfspace",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111620,7 +111620,7 @@
           "book": "classical-potential-theory",
           "tag": "C0A46F1A",
           "label": "eq:helms-halfspace-representation",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111638,7 +111638,7 @@
           "book": "classical-potential-theory",
           "tag": "358F89A3",
           "label": "eq:helms-halfspace-weight",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111656,7 +111656,7 @@
           "book": "classical-potential-theory",
           "tag": "8DE08FAD",
           "label": "eq:helms-positive-ball",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111674,7 +111674,7 @@
           "book": "classical-potential-theory",
           "tag": "BA5E751A",
           "label": "eq:helms-inversion-geometry",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111692,7 +111692,7 @@
           "book": "classical-potential-theory",
           "tag": "924C0649",
           "label": "sec:helms-bounded-data",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111710,7 +111710,7 @@
           "book": "classical-potential-theory",
           "tag": "BB6DAC3F",
           "label": "thm:helms-bounded-data",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111728,7 +111728,7 @@
           "book": "classical-potential-theory",
           "tag": "E7E82020",
           "label": "eq:helms-halfspace-normalization",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111746,7 +111746,7 @@
           "book": "classical-potential-theory",
           "tag": "701CD5D6",
           "label": "sec:helms-r0008",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111764,7 +111764,7 @@
           "book": "classical-potential-theory",
           "tag": "4ADDEE1E",
           "label": "thm:radial-density",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111782,7 +111782,7 @@
           "book": "classical-potential-theory",
           "tag": "C8C14DB4",
           "label": "sec:helms-r0009",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111800,7 +111800,7 @@
           "book": "classical-potential-theory",
           "tag": "2DE88E06",
           "label": "lem:compact-vitali-cover",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111818,7 +111818,7 @@
           "book": "classical-potential-theory",
           "tag": "4AD4672F",
           "label": "thm:spherical-measure-differentiation",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111836,7 +111836,7 @@
           "book": "classical-potential-theory",
           "tag": "D7CB083D",
           "label": "sec:helms-r0010",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111854,7 +111854,7 @@
           "book": "classical-potential-theory",
           "tag": "7C0C933C",
           "label": "thm:ball-fatou",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111872,7 +111872,7 @@
           "book": "classical-potential-theory",
           "tag": "840CE062",
           "label": "sec:helms-r0011",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111890,7 +111890,7 @@
           "book": "classical-potential-theory",
           "tag": "6C6775C3",
           "label": "lem:bocher-interface",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111908,7 +111908,7 @@
           "book": "classical-potential-theory",
           "tag": "2BBE313C",
           "label": "thm:spherical-reflection",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111926,7 +111926,7 @@
           "book": "classical-potential-theory",
           "tag": "C4871086",
           "label": "sec:helms-r0013",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111944,7 +111944,7 @@
           "book": "classical-potential-theory",
           "tag": "96A4D4C8",
           "label": "lem:saturated-family",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111962,7 +111962,7 @@
           "book": "classical-potential-theory",
           "tag": "C3FD3CE0",
           "label": "thm:greatest-harmonic-minorant",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111980,7 +111980,7 @@
           "book": "classical-potential-theory",
           "tag": "D6A0F97E",
           "label": "sec:helms-r0012",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -111998,7 +111998,7 @@
           "book": "classical-potential-theory",
           "tag": "772DDE67",
           "label": "thm:minimal-green-existence",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112016,7 +112016,7 @@
           "book": "classical-potential-theory",
           "tag": "093A6B54",
           "label": "thm:green-order-and-symmetry",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112034,7 +112034,7 @@
           "book": "classical-potential-theory",
           "tag": "D60EF605",
           "label": "sec:helms-r0014",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112052,7 +112052,7 @@
           "book": "classical-potential-theory",
           "tag": "1CC53DC8",
           "label": "thm:green-potentials-riesz",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112070,7 +112070,7 @@
           "book": "classical-potential-theory",
           "tag": "7D92FC91",
           "label": "thm:global-riesz",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112088,7 +112088,7 @@
           "book": "classical-potential-theory",
           "tag": "FFB6C391",
           "label": "sec:helms-r0015",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112106,7 +112106,7 @@
           "book": "classical-potential-theory",
           "tag": "A8E456D8",
           "label": "thm:potential-support-continuity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112124,7 +112124,7 @@
           "book": "classical-potential-theory",
           "tag": "1DF5E8AD",
           "label": "thm:bounded-density-continuity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112142,7 +112142,7 @@
           "book": "classical-potential-theory",
           "tag": "D44FD249",
           "label": "sec:helms-r0016",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112160,7 +112160,7 @@
           "book": "classical-potential-theory",
           "tag": "20EFF2F0",
           "label": "thm:generalized-poisson",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112178,7 +112178,7 @@
           "book": "classical-potential-theory",
           "tag": "022B2F4D",
           "label": "sec:helms-r0018",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112196,7 +112196,7 @@
           "book": "classical-potential-theory",
           "tag": "E7138943",
           "label": "thm:global-polar-prescribed-point",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112214,7 +112214,7 @@
           "book": "classical-potential-theory",
           "tag": "2A0285B2",
           "label": "sec:helms-r0019",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112232,7 +112232,7 @@
           "book": "classical-potential-theory",
           "tag": "B6612815",
           "label": "thm:polar-boundary-minimum",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112250,7 +112250,7 @@
           "book": "classical-potential-theory",
           "tag": "69E963A0",
           "label": "sec:helms-r0017",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112268,7 +112268,7 @@
           "book": "classical-potential-theory",
           "tag": "F84A686D",
           "label": "thm:general-reduction",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112286,7 +112286,7 @@
           "book": "classical-potential-theory",
           "tag": "5388371B",
           "label": "thm:general-capacity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112304,7 +112304,7 @@
           "book": "classical-potential-theory",
           "tag": "7748F1C2",
           "label": "sec:helms-r0020",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112322,7 +112322,7 @@
           "book": "classical-potential-theory",
           "tag": "26E5895E",
           "label": "lem:compact-local-extension",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112340,7 +112340,7 @@
           "book": "classical-potential-theory",
           "tag": "2876D8A7",
           "label": "sec:helms-r0021",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112358,7 +112358,7 @@
           "book": "classical-potential-theory",
           "tag": "410B64F2",
           "label": "thm:perron-brelot",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112376,7 +112376,7 @@
           "book": "classical-potential-theory",
           "tag": "65DB36A3",
           "label": "lem:perron-polar-and-restriction",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112394,7 +112394,7 @@
           "book": "classical-potential-theory",
           "tag": "7AE1A183",
           "label": "sec:helms-r0022",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112412,7 +112412,7 @@
           "book": "classical-potential-theory",
           "tag": "7A2F4581",
           "label": "thm:weak-barrier-criterion",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112430,7 +112430,7 @@
           "book": "classical-potential-theory",
           "tag": "2E88760E",
           "label": "thm:cone-and-exhaustion",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112448,7 +112448,7 @@
           "book": "classical-potential-theory",
           "tag": "4F495BF8",
           "label": "sec:helms-r0023",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112466,7 +112466,7 @@
           "book": "classical-potential-theory",
           "tag": "332E208E",
           "label": "thm:green-boundary-kellogg",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112484,7 +112484,7 @@
           "book": "classical-potential-theory",
           "tag": "06756FAF",
           "label": "thm:myrberg",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112502,7 +112502,7 @@
           "book": "classical-potential-theory",
           "tag": "FB8ABC38",
           "label": "sec:helms-r0024",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112520,7 +112520,7 @@
           "book": "classical-potential-theory",
           "tag": "1D4FC015",
           "label": "thm:green-polar-sweeping",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112538,7 +112538,7 @@
           "book": "classical-potential-theory",
           "tag": "FA6C8523",
           "label": "thm:maria-frostman",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112556,7 +112556,7 @@
           "book": "classical-potential-theory",
           "tag": "C3703477",
           "label": "sec:helms-r0026",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112574,7 +112574,7 @@
           "book": "classical-potential-theory",
           "tag": "07EA9CB6",
           "label": "thm:exterior-poisson",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112592,7 +112592,7 @@
           "book": "classical-potential-theory",
           "tag": "7E1C8CAC",
           "label": "thm:compactified-elementary-theory",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112610,7 +112610,7 @@
           "book": "classical-potential-theory",
           "tag": "C1B6A087",
           "label": "lem:normalized-kelvin-infinity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112628,7 +112628,7 @@
           "book": "classical-potential-theory",
           "tag": "215EC9F4",
           "label": "sec:helms-r0027",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112646,7 +112646,7 @@
           "book": "classical-potential-theory",
           "tag": "EFC4C537",
           "label": "lem:compactified-nondense-theory",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112664,7 +112664,7 @@
           "book": "classical-potential-theory",
           "tag": "0B575946",
           "label": "lem:dense-domain-polar-patching",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112682,7 +112682,7 @@
           "book": "classical-potential-theory",
           "tag": "2870669A",
           "label": "thm:compactified-perron",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112700,7 +112700,7 @@
           "book": "classical-potential-theory",
           "tag": "8D17E1C1",
           "label": "thm:general-closed-sweeping",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112718,7 +112718,7 @@
           "book": "classical-potential-theory",
           "tag": "74A8FB51",
           "label": "sec:helms-r0028",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112736,7 +112736,7 @@
           "book": "classical-potential-theory",
           "tag": "16C19F3A",
           "label": "lem:amplified-thinness",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112754,7 +112754,7 @@
           "book": "classical-potential-theory",
           "tag": "011EE8DF",
           "label": "thm:finite-peak-thinness",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112772,7 +112772,7 @@
           "book": "classical-potential-theory",
           "tag": "A2D0D838",
           "label": "thm:thinness-boundary-regularity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112790,7 +112790,7 @@
           "book": "classical-potential-theory",
           "tag": "74F98C5E",
           "label": "thm:cartan-fine-selection",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112808,7 +112808,7 @@
           "book": "classical-potential-theory",
           "tag": "CA3AC376",
           "label": "sec:helms-r0025",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112826,7 +112826,7 @@
           "book": "classical-potential-theory",
           "tag": "2DD9E98C",
           "label": "thm:planar-continuum-regularity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112844,7 +112844,7 @@
           "book": "classical-potential-theory",
           "tag": "BE9DEDF9",
           "label": "thm:wiener-criterion",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112862,7 +112862,7 @@
           "book": "classical-potential-theory",
           "tag": "5FDF1F52",
           "label": "sec:helms-r0029",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112880,7 +112880,7 @@
           "book": "classical-potential-theory",
           "tag": "AEA69819",
           "label": "thm:green-energy-principle",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112898,7 +112898,7 @@
           "book": "classical-potential-theory",
           "tag": "41A1703B",
           "label": "thm:cartan-energy-domination",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112916,7 +112916,7 @@
           "book": "classical-potential-theory",
           "tag": "5FB19CB2",
           "label": "thm:energy-convergence-completeness",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112934,7 +112934,7 @@
           "book": "classical-potential-theory",
           "tag": "898691BF",
           "label": "ex:energy-poles-and-incompleteness",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112952,7 +112952,7 @@
           "book": "classical-potential-theory",
           "tag": "9D70EB64",
           "label": "thm:energy-projections",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112970,7 +112970,7 @@
           "book": "classical-potential-theory",
           "tag": "2B103BCD",
           "label": "sec:helms-r0030",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -112988,7 +112988,7 @@
           "book": "classical-potential-theory",
           "tag": "AB110663",
           "label": "lem:function-compactification",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113006,7 +113006,7 @@
           "book": "classical-potential-theory",
           "tag": "1677A9F0",
           "label": "thm:martin-kernel-compactification",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113024,7 +113024,7 @@
           "book": "classical-potential-theory",
           "tag": "F432655F",
           "label": "lem:martin-sweeping-representation",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113042,7 +113042,7 @@
           "book": "classical-potential-theory",
           "tag": "20921377",
           "label": "lem:sweeping-integrals",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113060,7 +113060,7 @@
           "book": "classical-potential-theory",
           "tag": "57D18B4C",
           "label": "thm:martin-minimal-representation",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113078,7 +113078,7 @@
           "book": "classical-potential-theory",
           "tag": "854603A2",
           "label": "thm:martin-boundary-dirichlet",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113096,7 +113096,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "046DC432",
           "label": "sec:klimek-conventions",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113114,7 +113114,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "E3D0E2E3",
           "label": "sec:stokes-homotopies",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113132,7 +113132,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "3D6DA517",
           "label": "thm:stokes-corners",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113150,7 +113150,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "6D21AD1E",
           "label": "thm:de-rham-homotopy",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113168,7 +113168,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "C613974C",
           "label": "sec:complex-homotopy-operators",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113186,7 +113186,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "4FD27637",
           "label": "prop:complex-compact-homotopy",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113204,7 +113204,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "357960EE",
           "label": "prop:coefficient-koppelman",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113222,7 +113222,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "DD0E6E8E",
           "label": "thm:local-complex-exactness",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113240,7 +113240,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "411BC839",
           "label": "thm:compact-complex-degree-one",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113258,7 +113258,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "8068BB5B",
           "label": "thm:compact-hole-hartogs",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113276,7 +113276,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "DACB76D2",
           "label": "sec:separate-holomorphy",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113294,7 +113294,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "120C7FB1",
           "label": "thm:separate-holomorphy",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113312,7 +113312,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "BAA0C38E",
           "label": "sec:global-psh-approximation-obstruction",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113330,7 +113330,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "5E6AACCE",
           "label": "ex:global-psh-approximation-obstruction",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113348,7 +113348,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "8995D8F0",
           "label": "sec:holomorphic-hulls-domains",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113366,7 +113366,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "5FBBEDD6",
           "label": "prop:holomorphic-hull-exhaustion",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113384,7 +113384,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "18A483AD",
           "label": "thm:cartan-thullen-interfaces",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113402,7 +113402,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "58C9F76C",
           "label": "sec:weighted-discrete-interpolation",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113420,7 +113420,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "CA47640B",
           "label": "prop:pseudoconvex-discrete-interpolation",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113438,7 +113438,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "08127722",
           "label": "sec:psh-hulls-general-distances",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113456,7 +113456,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "DAAFC667",
           "label": "prop:psh-hull-distance-equivalences",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113474,7 +113474,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "ADFB854F",
           "label": "prop:psh-sublevel-pseudoconvex",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113492,7 +113492,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "1253F321",
           "label": "sec:complete-hartogs-domains",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113510,7 +113510,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "7CA9E7D7",
           "label": "prop:complete-hartogs-domain",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113528,7 +113528,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "1639AC41",
           "label": "sec:local-convexity-defining-functions",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113546,7 +113546,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "BAA922F2",
           "label": "prop:closed-local-convexity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113564,7 +113564,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "C7D4500D",
           "label": "prop:positive-second-form-convexity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113582,7 +113582,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "1E9F70D8",
           "label": "prop:strict-psh-local-convexification",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113600,7 +113600,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "3307E2E6",
           "label": "sec:relative-richberg-smoothing",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113618,7 +113618,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "A673DF83",
           "label": "thm:relative-richberg-smoothing",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113636,7 +113636,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "AB3F2174",
           "label": "sec:constant-rank-null-leaves",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113654,7 +113654,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "8305DF08",
           "label": "prop:local-frobenius",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113672,7 +113672,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "D96E34E4",
           "label": "prop:complex-tangent-submanifold",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113690,7 +113690,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "FB2152E8",
           "label": "thm:constant-rank-null-foliation",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113708,7 +113708,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "3B18B0CF",
           "label": "prop:semipositive-wedge-null-rank",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113726,7 +113726,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "D21B8572",
           "label": "ex:indefinite-wedge-nullity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113744,7 +113744,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "DD534F13",
           "label": "sec:hyperconvex-relative-extremals",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113762,7 +113762,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "7B045988",
           "label": "prop:relative-extremal-domain-interfaces",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113780,7 +113780,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "7E30303F",
           "label": "prop:relative-extremal-exhaustion",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113798,7 +113798,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "31397B6C",
           "label": "prop:zero-extremals-bounded-domains",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113816,7 +113816,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "2CB6C014",
           "label": "prop:relative-extremal-holomorphic-maps",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113834,7 +113834,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "68BF935A",
           "label": "thm:hyperconvex-extremal-capacity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113852,7 +113852,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "C5FD2320",
           "label": "sec:klimek-r0042-1",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113870,7 +113870,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "AB70059D",
           "label": "thm:plurithin-annular-series",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113888,7 +113888,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "CA3986B2",
           "label": "thm:plurifine-limit-selection",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113906,7 +113906,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "9B3C5618",
           "label": "thm:plurifine-limit-across-thin-closed-set",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113924,7 +113924,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "A736DE1D",
           "label": "sec:klimek-r0043-1",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113942,7 +113942,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "CFCF2648",
           "label": "prop:global-norm-extremal",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113960,7 +113960,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "74A6D9D0",
           "label": "prop:global-compact-envelope-limits",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113978,7 +113978,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "B4B13D6B",
           "label": "thm:homogeneous-polynomial-envelope",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -113996,7 +113996,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "2D5105CF",
           "label": "thm:lelong-polynomial-sequences",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114014,7 +114014,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "485FC789",
           "label": "thm:siciak-polynomial-identity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114032,7 +114032,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "EEAAD555",
           "label": "prop:bernstein-walsh-neighborhood-criterion",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114050,7 +114050,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "3D37BAEA",
           "label": "sec:klimek-r0044-1",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114068,7 +114068,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "49B78DFD",
           "label": "thm:logarithmic-family-bounds",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114086,7 +114086,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "A0CCE53C",
           "label": "prop:bounded-global-extremal-order",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114104,7 +114104,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "A80EBCDF",
           "label": "thm:fixed-ball-logarithmic-capacity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114122,7 +114122,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "1AB9C13A",
           "label": "prop:robin-growth-monotonicity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114140,7 +114140,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "DA05CAA4",
           "label": "sec:klimek-r0045-1",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114158,7 +114158,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "B04DEE23",
           "label": "thm:polynomial-growth-extremal-maps",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114176,7 +114176,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "4F9058E3",
           "label": "prop:weighted-polynomial-polyhedron",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114194,7 +114194,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "8CB8B04E",
           "label": "prop:global-relative-extremal-comparison",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114212,7 +114212,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "04BAF7E0",
           "label": "prop:polynomial-psh-hull-neighborhood",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114230,7 +114230,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "159C639B",
           "label": "thm:local-map-extremal-regularity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114248,7 +114248,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "1A3B973B",
           "label": "ex:global-extremal-map-hypotheses",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114266,7 +114266,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "BC2EEB85",
           "label": "prop:analytic-accessibility-global-extremal",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114284,7 +114284,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "4FCB31A8",
           "label": "prop:smooth-compact-neighborhoods",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114302,7 +114302,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "576DD3F5",
           "label": "sec:klimek-r0046-1",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114320,7 +114320,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "EB6B897D",
           "label": "prop:real-compact-polynomial-hull",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114338,7 +114338,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "8E57A34F",
           "label": "ex:global-not-local-regularity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114356,7 +114356,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "34ABCA35",
           "label": "prop:joukowski-auxiliaries",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114374,7 +114374,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "C6AA5D39",
           "label": "prop:joukowski-characterization",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114392,7 +114392,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "70F45A24",
           "label": "prop:bounded-baran-disc",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114410,7 +114410,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "545185F6",
           "label": "thm:baran-real-body-formula",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114428,7 +114428,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "30B62354",
           "label": "prop:real-ball-simplex-cross-formulas",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114446,7 +114446,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "102D914E",
           "label": "sec:klimek-r0047-1",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114464,7 +114464,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "7D93BBF9",
           "label": "prop:proper-global-mass-comparison",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114482,7 +114482,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "63C4C42B",
           "label": "prop:bounded-global-equilibrium-support",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114500,7 +114500,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "D6882125",
           "label": "sec:klimek-r0048-1",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114518,7 +114518,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "AA01BD7A",
           "label": "prop:polynomial-family-local-bound",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114536,7 +114536,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "40886378",
           "label": "prop:relative-equilibrium-null-deletion",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114554,7 +114554,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "3F26C3AC",
           "label": "prop:equilibrium-measure-comparisons",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114572,7 +114572,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "D3B7E44F",
           "label": "prop:equilibrium-polynomial-lstar",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114590,7 +114590,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "5DEAA8D5",
           "label": "prop:positive-oriented-boundary-current",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114608,7 +114608,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "1D93B371",
           "label": "sec:klimek-r0049-1",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114626,7 +114626,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "02864DC1",
           "label": "prop:green-envelope-basic",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114644,7 +114644,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "75CBD17E",
           "label": "prop:balanced-pole-green",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114662,7 +114662,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "FBA066A7",
           "label": "prop:proper-pole-green-covariance",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114680,7 +114680,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "22AD0A66",
           "label": "prop:green-hyperconvex-continuity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114698,7 +114698,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "7F6C5856",
           "label": "prop:green-domain-exhaustion",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114716,7 +114716,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "1AE05FF9",
           "label": "prop:planar-pole-green-identification",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114734,7 +114734,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "9D810CA9",
           "label": "prop:green-zero-boundary-uniqueness",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114752,7 +114752,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "F8CB52AB",
           "label": "ex:strictly-convex-green-smoothness",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114770,7 +114770,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "15E1CA3E",
           "label": "sec:klimek-r0050-1",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114788,7 +114788,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "E69DEC85",
           "label": "prop:isolated-total-mass-comparison",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114806,7 +114806,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "E1312773",
           "label": "prop:logarithmic-green-dirac",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114824,7 +114824,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "FAB8124F",
           "label": "sec:klimek-r0051-1",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114842,7 +114842,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "02CB50B8",
           "label": "prop:bounded-green-joint-upper-semicontinuity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114860,7 +114860,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "33CE7712",
           "label": "prop:green-symmetry-separate-psh",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114878,7 +114878,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "5793A4E7",
           "label": "prop:symmetric-separate-green-envelope",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114896,7 +114896,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "79AD1807",
           "label": "prop:herve-scalar-green-comparison",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114914,7 +114914,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "00AC0DAE",
           "label": "prop:finite-pole-green-extension",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114932,7 +114932,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "80561DC0",
           "label": "sec:klimek-r0052-1",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114950,7 +114950,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "9FEF0D81",
           "label": "prop:green-schwarz-jet",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114968,7 +114968,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "700AB06F",
           "label": "prop:poincare-schwarz-pick",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -114986,7 +114986,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "E8C3569E",
           "label": "prop:one-disc-joins-domain-points",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115004,7 +115004,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "17EB5D84",
           "label": "prop:invariant-distance-green-bounds",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115022,7 +115022,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "B51FDB0F",
           "label": "prop:green-chain-distance",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115040,7 +115040,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "C2C8B726",
           "label": "sec:klimek-r0053-1",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115058,7 +115058,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "1821D4AD",
           "label": "prop:maximal-regular-level-flux",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115076,7 +115076,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "1F1C8FD9",
           "label": "prop:green-lelong-jensen-point",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115094,7 +115094,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "62713F04",
           "label": "prop:green-boundary-representation",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115112,7 +115112,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "D0489F01",
           "label": "prop:ball-polydisc-green-boundary-kernels",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115130,7 +115130,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "77229345",
           "label": "sec:klimek-r0053-2",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115148,7 +115148,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "1EE8289D",
           "label": "prop:real-cube-equilibrium-density",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115166,7 +115166,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "982F5431",
           "label": "sec:klimek-r0054-1",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115184,7 +115184,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "94ACE789",
           "label": "prop:strict-pseudoconvex-global-peak",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115202,7 +115202,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "8CCD4ED5",
           "label": "prop:strict-pseudoconvex-symmetric-mass",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115220,7 +115220,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "A888384C",
           "label": "sec:klimek-r0054-2",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115238,7 +115238,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "98AA2433",
           "label": "prop:asymmetric-smooth-green-domain",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115256,7 +115256,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "B5FDE664",
           "label": "sec:klimek-r0055-1",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115274,7 +115274,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "9F2D2DA4",
           "label": "thm:convex-disc-distance-triangle",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115292,7 +115292,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "B5E61683",
           "label": "prop:stationary-disc-left-inverse",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115310,7 +115310,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "261EB53D",
           "label": "sec:klimek-r0056-1",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115328,7 +115328,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "F1182878",
           "label": "thm:separate-sh-integrable-majorant",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115346,7 +115346,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "BDD09117",
           "label": "thm:separately-harmonic-joint",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115364,7 +115364,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "23777C0B",
           "label": "sec:klimek-r0056-2",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115382,7 +115382,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "01560C0B",
           "label": "prop:planar-runge-connected-complement",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115400,7 +115400,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "E9EAE97F",
           "label": "sec:klimek-r0057-1",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115418,7 +115418,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "7EB9EC12",
           "label": "prop:torus-boundary-distance",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115436,7 +115436,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "10B7E63C",
           "label": "sec:klimek-r0058-1",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115454,7 +115454,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "54317780",
           "label": "prop:scalar-smooth-critical-values",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115472,7 +115472,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "418B75DA",
           "label": "prop:logarithmic-boundary-energy",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115490,7 +115490,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "DAE157DD",
           "label": "thm:robin-fixed-ball-comparison",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115508,7 +115508,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "7A60DEB3",
           "label": "prop:robin-sphere-density",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115526,7 +115526,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "9DF058A1",
           "label": "thm:robin-decreasing-compact-continuity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115544,7 +115544,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "E737B4E6",
           "label": "eq:robin-vanishing-equilibrium-energy",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115562,7 +115562,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "59700D7F",
           "label": "eq:robin-small-boundary-flux",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115580,7 +115580,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "E85DE744",
           "label": "prop:robin-exponent-obstruction",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115598,7 +115598,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "4C8038B4",
           "label": "sec:klimek-r0059-1",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115616,7 +115616,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "B1C110E2",
           "label": "thm:green-construction-riemann-map",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115634,7 +115634,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "886FBC1A",
           "label": "prop:planar-infinity-green-extremal",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115652,7 +115652,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "02455EF4",
           "label": "ex:generalized-green-boundary-minimality",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115670,7 +115670,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "CA6A2B97",
           "label": "sec:klimek-r0060-1",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115688,7 +115688,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "0D2877F2",
           "label": "prop:analytic-measure-boundary",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115706,7 +115706,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "A18B79C9",
           "label": "prop:weak-convex-dual-disc",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115724,7 +115724,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "0555BBFB",
           "label": "prop:strong-convex-disc-holder",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115742,7 +115742,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "D47F53B8",
           "label": "prop:weak-dual-stationary-upgrade",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115760,7 +115760,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "5E98FA95",
           "label": "thm:convex-lempert-retraction",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115778,7 +115778,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "CE4E1BD6",
           "label": "ex:smooth-convex-irregular-geodesic",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115796,7 +115796,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "5C95005B",
           "label": "sec:klimek-r0061-1",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115814,7 +115814,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "D9395C59",
           "label": "thm:pseudoconvex-global-decreasing-smoothing",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115832,7 +115832,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "91597462",
           "label": "sec:klimek-r0062-1",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115850,7 +115850,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "6E737739",
           "label": "ex:unbounded-ma-distinct-smooth-limits",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115868,7 +115868,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "80EFAB5F",
           "label": "prop:no-universal-positive-multilinear-ma",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115886,7 +115886,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "8EC23CC0",
           "label": "ex:classical-nonpluripolar-logarithmic-mass",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115904,7 +115904,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "70ED5ED8",
           "label": "sec:kl-degenerate-density-obstruction",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115922,7 +115922,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "5F0EDAF7",
           "label": "prop:kl-c2-density-obstruction",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115940,7 +115940,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "0573F7A2",
           "label": "sec:kl-planar-positive-distance",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115958,7 +115958,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "79D31B13",
           "label": "prop:kl-planar-negative-distance",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115976,7 +115976,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "219D9DEC",
           "label": "prop:kl-planar-subharmonic-distance",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -115994,7 +115994,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "366D2F88",
           "label": "prop:kl-distance-collar-qualification",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116012,7 +116012,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "7DDB8599",
           "label": "sec:kl-geometric-polynomial-approximation",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116030,7 +116030,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "F97596C6",
           "label": "thm:kl-geometric-extension-characterization",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116048,7 +116048,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "D0F11BDE",
           "label": "ex:kl-global-uniqueness-not-local",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116066,7 +116066,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "4ED1578E",
           "label": "ex:kl-regularized-continuity-not-extension",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116084,7 +116084,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "40A63661",
           "label": "sec:kl-real-body-foliation",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116102,7 +116102,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "B7A370FF",
           "label": "thm:kl-real-symmetric-body-foliation",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116120,7 +116120,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "357E293D",
           "label": "sec:green-boundary-hyperconvexity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116138,7 +116138,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "22DDEF74",
           "label": "prop:continuous-negative-exhaustion",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116156,7 +116156,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "10813A3E",
           "label": "thm:green-boundary-hyperconvexity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116174,7 +116174,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "23B8865F",
           "label": "sec:semianalytic-local-regularity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116192,7 +116192,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "6CA8DF2C",
           "label": "lem:open-semianalytic-arc",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116210,7 +116210,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "D3099F01",
           "label": "thm:semianalytic-closure-local-regularity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116228,7 +116228,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "0EBE99DD",
           "label": "sec:normalized-global-extremal-characterization",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116246,7 +116246,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "8E661DED",
           "label": "prop:normalized-global-extremal-uniqueness",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116264,7 +116264,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "DF149947",
           "label": "sec:colombeau-bounded-association",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116282,7 +116282,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "2D7D9C7C",
           "label": "prop:elementary-full-distribution-embedding",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116300,7 +116300,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "8C5E7ECD",
           "label": "lem:positive-convolution-capacity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116318,7 +116318,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "77522B43",
           "label": "thm:colombeau-monge-ampere-association",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116336,7 +116336,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "A2CCC454",
           "label": "sec:smooth-nonpluripolar-curves",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116354,7 +116354,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "F3192D90",
           "label": "thm:smooth-nonpluripolar-curve",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116372,7 +116372,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "9A17703F",
           "label": "sec:real-body-equilibrium-density",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116390,7 +116390,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "68D40FF9",
           "label": "lem:support-function-tube-mass",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116408,7 +116408,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "3C4B5998",
           "label": "prop:real-compact-interior-density",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116426,7 +116426,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "D5322D11",
           "label": "prop:symmetric-body-interior-volume-density",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116444,7 +116444,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "58266096",
           "label": "lem:analytic-convex-body-approximation",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116462,7 +116462,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "010CEA22",
           "label": "thm:smooth-real-convex-equilibrium-boundary",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116480,7 +116480,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "F1D83716",
           "label": "thm:rough-symmetric-convex-equilibrium-boundary",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116498,7 +116498,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "899A9090",
           "label": "sec:hyperconvex-frechet-space",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116516,7 +116516,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "80530C67",
           "label": "lem:hyperconvex-holomorphic-splitting",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116534,7 +116534,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "24C2182A",
           "label": "lem:bergman-restriction-singular-values",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116552,7 +116552,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "D88A160C",
           "label": "prop:hyperconvex-bergman-sequence-space",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116570,7 +116570,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "1F6199C3",
           "label": "prop:frechet-isomorphism-negative-exhaustion",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116588,7 +116588,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "91BD4D28",
           "label": "thm:hyperconvex-frechet-characterization",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116606,7 +116606,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "7794FCC3",
           "label": "sec:smooth-fatou-bieberbach-domain",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116624,7 +116624,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "D16FE002",
           "label": "lem:shear-cylinder-boundary-perturbation",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116642,7 +116642,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "BDF5266C",
           "label": "thm:smooth-fatou-bieberbach-domain",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116660,7 +116660,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "75C424BB",
           "label": "sec:boundary-flux-nonproper-mass",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116678,7 +116678,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "ED092E5C",
           "label": "prop:conditional-nonproper-mass-counterexample",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116696,7 +116696,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "C328B16E",
           "label": "cor:nonproper-global-mass-comparison-fails",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116714,7 +116714,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "B475921B",
           "label": "sec:general-symmetric-green-envelope",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116732,7 +116732,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "71A15571",
           "label": "prop:general-green-joint-usc",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116750,7 +116750,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "DC0D60AB",
           "label": "prop:general-symmetric-envelope",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116768,7 +116768,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "E575F65F",
           "label": "ex:unbounded-strict-domain-nonisolated-pole",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116786,7 +116786,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "99FE4C54",
           "label": "sec:smooth-positive-matrix-factorization",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116804,7 +116804,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "02D391FB",
           "label": "thm:smooth-positive-matrix-factorization",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116822,7 +116822,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "90BAB568",
           "label": "sec:smooth-strong-convex-green",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116840,7 +116840,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "90B5DCBD",
           "label": "lem:smooth-attached-disc-boundary",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116858,7 +116858,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "2D8E2E2A",
           "label": "lem:smooth-stationary-disc-lift",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116876,7 +116876,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "8C00762F",
           "label": "lem:positive-projected-form-regularity",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116894,7 +116894,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "791F5048",
           "label": "prop:stationary-disc-smooth-parameters",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
@@ -116912,7 +116912,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "176EB905",
           "label": "thm:smooth-strong-convex-green",
-          "revision": "3e40e55bd840bc6c301fb2950f930ffebff5a2a2"
+          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
         }
       ],
       "components": []
