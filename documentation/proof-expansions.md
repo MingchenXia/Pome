@@ -2,6 +2,8 @@
 
 The shared reading edition adds proofs where a source statement previously referred the reader elsewhere. An earlier proof already present in Pome can be used as an internal dependency; the additional argument identifies its hypotheses and the change of notation. Short independent arguments are written out at the statement. Named results, bibliographic references, and the original source records remain available. Book titles are not repeated beside every theorem or reading chunk.
 
+Source attribution does not need a separate block for each entry. At the owner's request of 19 October 2026, major results are attributed in the subject-based history at the end of the project, with bibliography links. Detailed original notes and exact revisions remain accessible through Sources. The Klimek reading edition applies this rule to its 47 section-level attribution paragraphs; mathematical statements, proofs, permanent tags, and necessary external proof inputs retain their meaning.
+
 The first increment contains 53 proofs and three qualifications. It covers distributional representatives, holomorphic pullbacks, local integrability, envelopes, multiplier ideals, Lelong numbers, approximation, Bedford–Taylor products, non-pluripolar products, capacity comparison, convex duality, and convex bodies. The proofs of Blaschke selection, Hausdorff convergence, Minkowski-sum continuity, and the multiplicative Brunn–Minkowski inequality are included directly. Longer analytic results use earlier fully stated results within the collection rather than another citation to an external book.
 
 Three qualifications are necessary:

@@ -167,7 +167,7 @@ def apply_reading_edits(entries, topic_chapters, registry_path):
                 edit = edits.get(context_key(source, node))
                 if edit is None or 'replacement_html' not in edit:
                     continue
-                if node.select('.cite, aside.source-footnote'):
+                if edit.get('retain_attribution') or node.select('.cite, aside.source-footnote'):
                     retain(source, node, entry, variant)
                 node.replace_with(replacement_fragment(node, edit['replacement_html']))
                 counts['reviewed_edits'] += 1

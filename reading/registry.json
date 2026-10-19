@@ -938,6 +938,389 @@
       "reason": "Define local capacity convergence without changing the existing global definition.",
       "text_sha256": "1cbc524371bbb71ed553300ec6be5a7ca7289a90282d2def0873f8d4696cf76b",
       "replacement_html": "<p> <aside class=\"source-footnote\" data-footnote-mark=\"a0000011930\" id=\"a0000011932\"><span class=\"footnote-label\">Note.</span> It is very tempting to write $\\lim _{i\\in I} \\operatorname{Cap}_{\\theta }\\left( \\{ |f_ i-f|&gt;\\delta \\}  \\right)=0$, as in <span class=\"cite\">[<span class=\"postnote\">Definition 4.23</span>, <a href=\"/bibliography/GZ17\">GZ17</a>]</span> for example. But the set where $f_ i-f$ is not defined is not a pluripolar set in general. Hence this abuse of notation is not acceptable.</aside> We sometimes write $f_ i\\xrightarrow {\\mathrm{C}} f$. </p><p>We say the net converges <em>locally in capacity on $U$</em> if, for every compact $K\\Subset U$ and every $\\delta&gt;0$, both $\\operatorname{Cap}_\\theta(K\\cap\\{f_i&gt;f+\\delta\\})$ and $\\operatorname{Cap}_\\theta(K\\cap\\{f_i&lt;f-\\delta\\})$ tend to zero. These are separate order inequalities, so no subtraction of equal infinities is needed. On $U=X$, compactness makes local convergence equivalent to convergence in capacity on $X$.</p>"
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. The primary source is Klimek's Pluripotential Theory [ Klimek1991 ] . The homotopy and relative smoothing arguments also use Demailly's exposition [ Demailly2012 ] . The attribution and precise roles of supporting references accompany the corresponding arguments below.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "05d18ca162e2370183df954de85f3c3d86c50fa2fee2d35de63788ffa676164c",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Demailly [ Demailly2012 ] , Chapter I, Sections 1.C–D, formulas (1.18)–(1.21). The outward corner-face convention and smooth homotopy argument are proved above; canonical exterior calculus is reused.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "a07866d93855756c9051b3bbfcab1c931aaa953c6f1cbcfc2f6589a3722a7a59",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Demailly [ Demailly2012 ] , Chapter I, Sections 3.2–3.4 and formulas 3.24–3.30; Klimek [ Klimek1991 ] , Theorem 2.10.1. The all-degree current homotopy and compact degree-one support conditions are stated explicitly, including the one-dimensional moment obstruction.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "48c7464031f7c09210b99fe5dbbb9bf923f89d59abb64c0d82cb76f3d0596384",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek [ Klimek1991 ] , Theorem 2.8.10. The full separate-holomorphy argument uses the canonical Hartogs bound and normal convergence.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "147d3469f995f39470505a2098dc4297e09464cd3e79e7a8fd86628859eec6bd",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek [ Klimek1991 ] , Example 2.9.4. The obstruction concerns approximation on a fixed domain; the positive pseudoconvex-domain approximation theorem is proved separately.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "5e69589a8661683600d3fd0382cbeb3cfd80fbc02eda323c873d50d91ffe40b7",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Demailly [ Demailly2012 ] , Chapter I, Sections 6.5–6.14 and Chapter VIII, Section 9.11; Klimek [ Klimek1991 ] , Sections 2.10.3–2.10.4 and Exercise 12. The local-component nonextension condition and all interpolation steps are made explicit.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "2c2a6af8a1b41fa704d993ec7d4e187981c1b5188c6a3cb6dd726db192ad6d57",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Demailly [ Demailly2012 ] , Exercise I.8.8; Klimek [ Klimek1991 ] , Chapter 2, Exercises 9,14,15. The global convexity and local holomorphic convexification arguments retain their respective connectedness and strictness hypotheses.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "c6f697c78e73917182a3d8edb4631cb51793c0485de91329eed30ea7bb51fa85",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Demailly [ Demailly2012 ] , Chapter I, Sections 5.17–5.21. This relative version preserves the complement and allows a variable tensor lower bound, using the existing Euclidean smoothing argument.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "6f0f1d5cdf7a08e4087e98b7c9b5305752fd0edae335ef1a03c10e3c039f03fa",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek [ Klimek1991 ] , Sections 3.1.10–3.1.20 and Appendix A.1–A.2. The real Frobenius proof, complex plaques and semipositive rank condition are supplied explicitly; local plaques are distinguished from global leaves.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "d6cf671e5d04449d0f46ce6ad5e4dca78d3fa1eb6876a7482c96cfa43ddc5fa8",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek [ Klimek1991 ] , Sections 4.5–4.7. The additional relative extremal and capacity assertions use the existing bounded-product, comparison, maximality and pluripolar-deletion theorems.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "3794c696ca68698ade817db0c8f5963f014fb096f6e963fa5615681277a95284",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek, Pluripotential Theory , Theorems 4.8.6, 4.8.11 and 4.8.12, with the vanishing-radius/domain hypotheses and the neighborhood argument made explicit. The checked internal Bedford–Taylor amplification supplies the common-ball witnesses. The final two arguments have the same pattern as the existing classical Cartan–Brelot fine-limit proofs, but use PSH witnesses and the plurifine topology.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "4db992f3763c4a88c35653e822e4e023feffa9ea5f0319fc138897530e1277e8",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek, Pluripotential Theory , Section 5.1 (Siciak–Zaharjuta polynomial descriptions and Siciak's product theorem). The homogeneous sequence statement uses matching degrees, correcting the source's degree-at-most condition. The pointwise homogeneous supremum is proved using the checked discrete interpolation theorem; the growth definition and projective formulation retain their existing canonical entries.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "c58adfa3a4b0a623ed957ec286e76d48028bdf14a09cb032cd770a8a86d10ffe",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek, Pluripotential Theory , Section5.2 and the L-regularity remark in Section5.1. The fixed test set is restricted to a positive-radius ball: the source's arbitrary compact test set need not give a capacity. The pole perturbation is divided by $1+\\epsilon $ to preserve the growth class. Existing logarithmic poles, pluripolar unions and upper-envelope discrepancy theorems are reused rather than restated as new results.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "f60c4ced3d4866a4bf7e417865362190137c268a884cc0622030322923b83f20",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek, Pluripotential Theory , Section5.3. Reuse canonical finite proper-map maxima, relative pullback, logarithmic classes and polynomial identities. The lower comparison uses a compact-closure barrier, and the regularized sublevel formula uses the checked normalized polar perturbation.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "c62f6ac569e7458f6ccd01fa1e6fded89556730e382e196a6d387f9280603dea",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek, Pluripotential Theory , Section5.4 and the preceding local regularity remark; Cegrell's real-local criterion and Baran/Lundin/Sadullaev/ Siciak formulas are attributed there. The exterior maximum argument, degree-two real separators and the corrected nonconstant characterization supply complete supporting proofs. Existing polynomial covariance, Cartesian products and pole/discrepancy interfaces are reused.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "c0721408dc6564e7cf88bb56bde9166444a8feb5e5da63e33353d400cd6f18ad",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek, Pluripotential Theory , Section5.5; the proper comparison is the proved restricted variant of the argument attributed to Taylor [ Taylor1983 ] . The unrestricted nonproper comparison is not asserted here. Reuse Pome's bounded comparison, smooth determinant, Fubini–Study, cohomological mass, affine/projective, pole/discrepancy and bounded-maximality results. Klimek's $dd^ c$ is $4\\pi $ times Pome's, so his mass $(2\\pi )^ n$ equals $(4\\pi )^ n2^{-n}$ in the displayed convention.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "68555cb65c29051b163be87307eb1d7a6902de90cc773440a7852f2e0c4dbd58",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek, Pluripotential Theory , Section5.6: Leja/Cegrell/Klimek polynomial conditions, Nguyen Thanh Van–Zeriahi null-deletion and family bounds, Chirka's oriented-boundary observation and Levenberg's equilibrium comparisons. Reuse the canonical bounded ordered-contact theorem instead of the signed-error smoothing proof; reuse previously reconstructed bounded/global envelopes and their exact polar and hull hypotheses.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "ed6f58dac2b131722119658f2e7613743fae59a0708da81dc02c8c9a1d4c5d71",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek, Pluripotential Theory , Sections6.1–6.2. Reuse the canonical PSH envelope/removal, line maximum, finite-map, ball-automorphism, bounded maximality and hyperconvex relative-extremal inputs. The two-sided small-ball relative-envelope approximation replaces the defective source continuity patch; proper covariance retains its missing alpha factor. The deeper Lempert smoothness and Frechet-space characterization survey assertions are separate obligations, not premises of these proofs.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "e3708042d3f78d697345ff0fd4a9d58c22a729ced691299e63908d83ba672725",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek, Pluripotential Theory , available Section6.3. The point case is a bounded-BT proof expansion for the existing small-pole product and residual-invariance results, whose broader versions cite Demailly. Reuse the canonical bounded spherical formula and comparison/maximality inputs; add the Green Dirac/uniqueness consequence beside the isolated-pole envelope. Klimek's $(2\\pi )^ n$ is $(4\\pi )^ n2^{-n}$ in Pome's convention.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "75098aa83aa62b49f98a9420f69d53ba86f3ad04f054160e591fee288896c72e",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. The available Section6.4 continuation of Klimek, Pluripotential Theory : symmetry criterion, Cegrell's envelope, Herve's scalar-image kernel and Lelong's finite-pole setting. All selected basic assertions are proved from the existing envelope/compactness/planar Green inputs and R0049–R0050. The stronger boundary/support properties of Cegrell's envelope and Poletsky's variational theory are separate reference scopes, not premises here.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "4204acf026ee25a999f2dfaaebbc22764b4989a14441eea1b04ad80be2a1b2a8",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek, Pluripotential Theory , Section6.5 through the invariant-distance discussion. The complete elementary arguments use the canonical PSH/SH envelopes, removal and maximum principles, the checked quadratic-jet consequence, and the isolated Green and disc formulas. The general convex complex-geodesic existence theorem of Lempert is a separate supporting-reference obligation; it is not assumed in these proved estimates or in the explicitly conditional retract consequence.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "2a8e8b7ff5d6b10dc2c20ed4f6f973af54104020c105a3478546c855558162ce",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek, Pluripotential Theory ,6.5.5–6.5.11 and the ball/polydisc examples; Demailly's single-pole Lelong–Jensen representation [ Demailly1987 ] , as cited there. All selected point-case mixed-limit/integrability and boundary steps are proved from bounded Bedford–Taylor calculus and the classical isolated-point construction. This does not assert the full general-current exhaustion theorem. The cube computation uses the already checked real extremal formulas and logarithmic mass, and corrects the unqualified corner-density claim in Klimek's final5.6 paragraph.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "09aaf4ee7b08e6b42ff27b4e27f49dc70a4234d9870daf86fc0517ce8ff15629",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. The symmetric-envelope criterion is Cegrell's Theorem 1 [ Cegrell1995 ] , with its boundary-exhaustion assertion supplied here by global holomorphic peaks and the canonical Hörmander theorem. The counterexample is Bedford–Demailly Proposition 2 [ BedfordDemailly1988 ] , reconstructed from its original journal pages with the logarithmic branch, circle lower bound and pole location corrected. Its smooth exhaustion and elementary Green identification are proved explicitly. No unavailable Klimek pages are proof inputs.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "eb453fea9bd9259420a04204298d565ecab5e69f2700b0c0389ce7a17d509326",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. The interpolation coefficient and degenerating example come from Lempert, La metrique de Kobayashi et la representation des domaines sur la boule [ Lempert1981 ] , Section2,430–431. The boundary lift is his stationary-disc definition in Section4,434; the argument-principle construction explicitly proves its left-inverse consequence. Reuse the internal disc Schwarz–Pick, Montel, supporting-hyperplane, argument-principle and holomorphic contraction statements. The deeper existence of stationary discs is a separate supporting obligation, with its exact source scope recorded in the dependency review.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "ec9646473b00ab54c5221b1dcff9be771ece52e7538c244dff195ba7613ab529",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek, Pluripotential Theory ,58–59 attributes the majorant result to Arsove1966, separate harmonicity to Lelong/Avanissian, and the example to Wiegerinck1988. The harmonic coefficient/complexification strategy is Avanissian, Sur l'harmonicite des fonctions separement harmoniques [ Avanissian1967 ] ,1967,3–17. Here the real-trace step is proved using the internal pluripolar discrepancy, relative deletion and real-cube extremal results. The Runge prerequisite is proved from Cauchy's formula and geometric series, rather than left as an unread input.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "f23e211a5d8b238994d2374a07bf33695b3471548bf8a4fe097d756dd61e3200",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek, Pluripotential Theory ,80, surveys higher-dimensional failures of the planar negative/positive boundary-distance rigidity theorems of Armitage–Kuran1985 and Parker1988. The explicit tubular example and all its distance/Laplacian/connectivity checks above give the needed counterexamples directly. The distinct planar rigidity proofs are not assumed or claimed proved here. Reuse the canonical smooth Laplacian criterion and decreasing-limit theorem.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "de5aafd184b41e8340e70ccf5a48a0830bcb934f92867f8fc516c315bb1b17fa",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Kołodziej, The logarithmic capacity in $\\mathbb C^ n$ , Annales Polonici Mathematici48(1988),253–267 [ Kolodziej1988 ] , especially Sections3–4; Klimek, Pluripotential Theory , Example5.2.8 and the following comparison paragraph. The boundary-energy inequality attributed to Taylor [ Taylor1983 ] is proved here using bounded projective integration by parts and smooth logarithmic cutoffs. The convergence arguments use the canonical locally bounded capacity/increasing continuity theorems. The sharpness extremal includes its necessary zero branch.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "1efc5c072875be305e3965b287801d87141a97537210f06a694afeb9ab06f590",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek, Pluripotential Theory , the introductions to Chapters5 and6,182 and220. The Riemann-map construction uses the canonical Green/Dirichlet and planar-continuum regularity theorems, with the harmonic conjugate and degree argument supplied here. The extremal identification is restricted to the unbounded complementary component; the bounded components have zero extremal. Minimality distinguishes the canonical generalized Green function from additional positive harmonic terms supported at polar boundary exceptional sets.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "08d23dd0c7f107dbd78bfaa9c66aa8d3319ab4ac9b05eb45e58dd8fb46075aed",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. The convex geodesic theorem is due to Lempert [ Lempert1981 ] . The dual extremal construction follows Royden, Wong and Krantz [ RoydenWongKrantz2011 ] , with the argument carried out in the disc algebra and then passed to bounded holomorphic extremals. The analytic-measure boundary theorem and its factorization proof are the classical F. and M. Riesz and Hardy space arguments. The tangent-ball estimates and stationary-lift method are due to Lempert. The smooth weakly convex counterexample explains the need for the curvature hypotheses in the boundary regularity statement.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "3885d67698f5fa764b366d9f27c16b7b32660b222b9278be955f0f218465378a",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. The global approximation assertion is attributed by Klimek to Fornæss and Narasimhan. The construction here uses the existing Oka boundary-distance/Richberg exhaustion and the smooth case of Kiselman's minimum principle, together with local radial regularization.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "3b411d5f6f0eb0b914bee6ea8e990434be00dd7e38ba7f5b84b729bf59e182a9",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. The two regularizations are attributed to Cegrell by Błocki, The domain of definition of the complex Monge–Ampère operator [ Blocki2006 ] , p. 520. The existence and limitations of extensions for unbounded potentials are discussed by Klimek, p. 114, who attributes the positive multilinear obstruction to Shiffman and Taylor through Siu. The proof above uses the canonical Kiselman-type infinite-mass potential and an explicit bounded cone decomposition. The classical isolated-point extension is the already established local product; the non-pluripolar product uses its canonical strict-level truncations.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "c40e80a0ac11b091c80a4fbd3d9a3bd3b92f015eae454483269deee7c9b59294",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. The correct density-root regularity theorem is due to Bedford–Taylor [ BedfordTaylor1976 ] . The counterexample construction is after Pliś [ Plis2005 ] , with the parameter and regularity qualifications discussed by Dinew–Pliś–Zhang [ DinewPlisZhang2019 ] . The density extension and every contact/anisotropic estimate needed for the stated complex Monge–Ampère counterexample are proved above.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "be0382c92ac4471e48c641c7fb2da5ef070dedef36e332bae9030f9b27bc5a5f",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek [ Klimek1991 ] , p. 80, attributes the planar negative-distance criterion to Armitage–Kuran and the positive-distance criterion to Parker. Kuznetsov [ Kuznetsov2024 ] , Theorem 1.3, recalls the former. The planar geometry, local Hessian argument and connected-neighborhood qualification used here are proved directly, without an unread geometric lemma or the separate modified-Helmholtz theorem.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "325d6d01df642c495d5c38bcbdaefb7dbe83e9ce7625d6862f90d3c18b7753f8",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek [ Klimek1991 ] , Section 5.1, geometric polynomial approximation. The raw-extremal and local-determination hypotheses are retained; the Banach-space converse and the two distinctions are proved above.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "30247a83a3212e2cab7de579d7d29ba985d921fd30472c2bea78e067f7e5283e",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek [ Klimek1991 ] , p. 209, attributes the real symmetric-body foliation to Lundin and Baran. The continuous global inverse and complex leaf coordinates are constructed above for arbitrary symmetric convex bodies; no transverse smoothness theorem is assumed.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "e44d9442cc907df6f640cf9c9d0898ec99f8e611108896816ae611e66f5d77d4",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek, Pluripotential Theory , the discussion following Lemma 6.2.1, printed p. 225. The relative-extremal argument above proves the geometric equivalence directly. It does not assert the separate characterization by an isomorphism of spaces of holomorphic functions.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "7a84a5b7c960fef8ae7c74d8863a275f02e5d406dbfd5f04e72f856cca842c5f",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek, Pluripotential Theory , printed p. 200, attributing the local regularity to Pleśniak; his later survey states the stronger subanalytic formulation on p. 40 [ Plesniak2003 ] . The argument here proves the stated open semianalytic case. The sole external geometric input is analytic principalization: Bierstone–Milman, Inventiones mathematicae 128 (1997) [ BierstoneMilman1997 ] , Theorem 2.4, p. 229, with the real analytic category in (0.1)(2), p. 208, and its modification construction in Theorem 1.10. No subanalytic projection theorem or unproved curve-selection theorem is a premise of the remaining argument.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "b6229e9787d3fb281bc6f7760f47e2e53ee60bf19c47db6b4a0abaac8c43e1f8",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. The normalized statement corrects the upper-growth uniqueness formulation in Pleśniak, Siciak's extremal function in complex and real analysis [ Plesniak2003 ] , pp. 37–38. Its proof uses the existing local domination principle, polar deletion and compact-extremal maximality. No general nonproper total-mass comparison is needed.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "248df2048f4b22c4f0c03b0da47eb476cab4c9ed35373d1ffcd1790d113978a1",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Klimek, Pluripotential Theory , printed p. 114, credits the generalized-function construction to Kiselman and the bounded-input compatibility to Oberguggenberger. The explicit elementary full definitions used here are the traditional ones recalled in Nigsch, Colombeau algebras without asymptotics [ Nigsch2019 ] , Section 5.3, p. 153, with real kernels and the reflected convolution convention stated above. All required algebra estimates and the compatibility argument are proved here; no identification with every historical variant of the algebra is assumed. Existing local quasi-continuity and bounded capacity continuity supply the analytic inputs.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "dcef6a31abefe338bcac1bd7d94c94f667971d7d35e189436398962906a75e33",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Diederich–Fornæss, A smooth curve in $\\mathbb C^2$ which is not a pluripolar set [ DiederichFornaess1982 ] (1982), pp. 931–936; Klimek, Pluripotential Theory , p. 174. The digit encoding above carries out the construction in every $\\mathbb C^ n$, rather than embedding the two-dimensional example in a complex hyperplane. The only potential-theoretic inputs are the existing planar finite-energy criterion and Josefson theorem.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "50ecf93a7cb7a97f194b0e8ae2be09a30d22bd564b690d691411528863a2761c",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Bedford–Taylor, The complex equilibrium measure of a symmetric convex set in $\\mathbb R^ n$ [ BedfordTaylor1986 ] , Theorems 1.1–1.3 and 3.2; Klimek, Pluripotential Theory , p. 219. The canonical ordered-contact theorem replaces the cited Levenberg input. Real Monge–Ampère construction/continuity and convex-volume continuity are reused. The approximation is proved for arbitrary smooth convex bodies. Source-normalized equilibrium measures are divided by $(4\\pi )^ n$. The rough symmetric-body boundary assertion is proved here by the canonical bounded energy cocycle and a projective dilation, independently of a rolling-ball approximation or an unverified limit of densities.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "70e9af1a13517f804e7896cf3b6c88987e72b02fcbc6c80d2ba2b7c1326231c8",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Aytuna, On Stein manifolds $M$ for which $\\mathcal O(M)$ is isomorphic to $\\mathcal O(\\Delta ^ n)$ as Fréchet spaces [ Aytuna1988 ] (1988), Theorems 2 and 9; Vogt, Eine Charakterisierung der Potenzreihenräume von endlichem Typ und ihre Folgerungen [ Vogt1982 ] (1982), the Hilbert-scale argument of Theorem 1.1 and Proposition 7.5; Klimek, p. 225. The bounded-domain proof above supplies the spectral and Taylor-size arguments directly, and uses the existing weighted $L^2$ and Levi theorems. No general classification of nuclear Fréchet spaces is assumed. The general Stein-manifold classification is not asserted here.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "60b6d905b7716104ebccafcd5034bdbe8f08a927d25c11ebc0ba43e9fee88c5d",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Stensønes, Fatou–Bieberbach domains with $C^\\infty $-smooth boundary [ Stensones1997 ] (1997), Theorem 1.1 and the alternating-shear construction. The local boundary perturbation is implemented here by explicit defining functions and flows. An additional diagonal control of the inverse maps proves surjectivity directly. All parameter choices depend only on previously fixed polynomials and finitely many current compact estimates. The cited dynamics of autonomous basins is not an input.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "dcd1faa37a5d21a06bd730f56bc534eb54b7fcf8145804831e2279aeb8c72d44",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. The local construction uses Stokes, the checked oriented-boundary positivity calculation and the logarithmic mass normalization. Applying it to the nonproper assertion in Klimek's total-mass comparison requires the smooth-boundary Fatou–Bieberbach construction after Stensønes (1997), now proved above. The positivity-at-infinity and relative asymptotic equality in that comparison therefore do not suffice. The proper-exhaustion comparison remains the earlier proved statement.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "ccec875d7f5cb07acd52f14c2246a9687114b1db168e42bbf1044b6f296ef1bc",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. Cegrell's symmetric-envelope construction, reported in Klimek, Pluripotential Theory , pp. 234–235. The extended convention and unbounded-domain argument are supplied above; the counterexample explains the boundedness in the earlier isolated-mass results. The bounded strongly pseudoconvex mass criterion and its strict-mass counterexample remain the earlier proved statements. The original Capacities in Complex Analysis [ Cegrell1988 ] (1988), DOI 10.1007/978-3-663-14203-4 , has not been read here and is not an unproved premise.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "0d74fce4ad15194d1cf93c33114e7fa5fa27f676eb4e7d9a279a4fa4a56ead03",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. The smooth-data case of the matrix factorization used in Lempert, La métrique de Kobayashi et la représentation des domaines sur la boule [ Lempert1981 ] (1981), Section6 Theorem B and Appendix Theorem B, is reconstructed here by weighted Hilbert minimization and Fourier regularity. This proof does not establish the full finite Hölder version or the nonlinear stationary-disc deformation theorem.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "cd53bdd85fd5396c47e2e66903a4e6ba767747ed01a75fb0083326e03d212b8a",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "Sources. The smooth strongly convex case of Lempert's Green construction is reconstructed from the already proved convex disc/retraction theorem. The original source is Lempert, La métrique de Kobayashi et la représentation des domaines sur la boule [ Lempert1981 ] (1981), Theorem3 and Sections5–8. The boundary proof uses finite Taylor extensions explicitly, and the deformation proof uses a coercive linearized boundary problem. Neither an unproved general reflection theorem nor full-Hölder rational matrix density is assumed. The finite-$C^ k$ loss and smooth boundary extension of the entire radial representation are separate stronger statements.",
+      "reason": "Owner instruction, 19 October 2026: consolidate major attribution in the project-wide subject history; archive the detailed original note under Sources.",
+      "text_sha256": "372bc67012b89b2e7e14fb0a0c3c8f1e68de6d038269d537b53b1c55c39e04eb",
+      "replacement_html": "",
+      "retain_attribution": true
+    },
+    {
+      "source": "klimek-pluripotential-theory",
+      "context": "We use the analytic principalization input in its real analytic category: for a nonzero real analytic function $F$ on a real analytic manifold $M$, there is a proper surjective analytic modification $\\pi :\\widetilde M\\to M$ such that $F\\circ \\pi $ is locally a monomial times a nonvanishing analytic function. The spaces have the same dimension. This is the principal-ideal case of the permitted resolution input; its algorithmic proof is external. The exact real category and properness are important here.",
+      "reason": "Keep the exact external principalization theorem at its point of use when moving historical attribution to the project-wide history.",
+      "text_sha256": "ebe6f6d3c1217724d2aa232fb5f8a1dae4c8a95860ca508ba7d938673318c486",
+      "replacement_html": "<p>\nWe use the analytic principalization input in its real analytic category: for a nonzero real analytic function $F$ on a real analytic manifold $M$, there is a proper surjective analytic modification $\\pi :\\widetilde M\\to M$ such that $F\\circ \\pi $ is locally a monomial times a nonvanishing analytic function. The spaces have the same dimension. This is the principal-ideal case of the permitted resolution input; its algorithmic proof is external (<span class=\"cite\"><a href=\"/bibliography/BierstoneMilman1997\">Bierstone–Milman</a>, Theorem 2.4, with the real analytic category in (0.1)(2) and Theorem 1.10</span>). The exact real category and properness are important here. \n</p>"
     }
   ],
   "superseded_proof_commentary": [
