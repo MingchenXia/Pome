@@ -41,6 +41,19 @@ class ReadingEditsTests(unittest.TestCase):
         self.assertIn('Internal proof.', entries['A']['variants'][0]['html'])
         self.assertIn('Book', notes[0]['html'])
 
+    def test_reviewed_citation_free_attribution_is_archived_without_changing_proof(self):
+        proof = '<article class="env-proof"><p>Apply <span class="cite">External theorem</span> with $n=2$.</p></article>'
+        note = '<p><strong>Sources.</strong> A historical attribution without a citation element.</p>'
+        context = normalized_text(BeautifulSoup(note, 'html.parser'))
+        edit = {'source': 'sgpt', 'context': context, 'text_sha256': sha256(context.encode()).hexdigest(),
+                'replacement_html': '', 'retain_attribution': True}
+        entries = {'A': self.entry('A', proof + note)}
+        notes, counts = self.apply(entries, [edit])
+        self.assertEqual(entries['A']['variants'][0]['html'], proof)
+        self.assertEqual(entries['A']['variants'][0]['statement_tex'], 'Original mathematical source.')
+        self.assertIn('historical attribution', notes[0]['html'])
+        self.assertEqual(counts['source_notes'], 1)
+
     def test_changed_citation_only_directions_require_review(self):
         html = '<p><article data-proof-expansion="sgpt:A">Internal proof.</article> Changed source direction.</p>'
         review = {'source': 'sgpt', 'proof_id': 'sgpt:A', 'text_sha256': sha256(b'Old direction.').hexdigest()}
