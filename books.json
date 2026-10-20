@@ -53,6 +53,17 @@
       "checkout_env": "KLIMEK_SOURCE_DIR",
       "visibility": "private",
       "status": "published"
+    },
+    {
+      "slug": "demailly-complex-geometry",
+      "title": "Complex analysis, cohomology and differential geometry",
+      "author": "Gerby Literature",
+      "repository": "https://github.com/MingchenXia/Gerby-Literature",
+      "ref": "main",
+      "entrypoint": "contributions/demailly-complex-geometry.tex",
+      "checkout_env": "DEMAILLY_SOURCE_DIR",
+      "visibility": "private",
+      "status": "published"
     }
   ]
 }

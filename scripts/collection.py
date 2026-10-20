@@ -107,6 +107,7 @@ def organize(exports, configuration):
             preferred = configured.get("preferred")
             if preferred:
                 entries[configured["tag"]]["variants"].sort(key=lambda v: (v["source"], v["label"]) != (preferred["source"], preferred["label"]))
+                entries[configured["tag"]]["kind"] = entries[configured["tag"]]["variants"][0]["kind"]
 
     # Numbered clauses remain in their full statement, with their own badge and
     # anchor; they need no second search/index entry repeating the same clause.

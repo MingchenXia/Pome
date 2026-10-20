@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "scope": "First audit of citation-deferred or absent result proofs in the existing reading edition; candidates are not claims of invalidity.",
+  "scope": "First audit of citation-deferred or absent result proofs in the existing reading edition; candidates are not claims of invalidity. Also records the explicitly quoted source-side elimination existence input used by the Demailly supplement; inclusion in this audit does not claim its proof reconstructed or integrated.",
   "outstanding": [
     {
       "tag": "0ED3DB1BD7C2",
@@ -385,6 +385,43 @@
       "label": "thm:li-general-measure",
       "topic": "big-backgrounds-under-bounded-mass",
       "status": "needs_source_and_dependency_review"
+    },
+    {
+      "tag": "9CA80A318258",
+      "title": "Elimination for a Kähler bimeromorphic source; external input",
+      "source": "demailly-complex-geometry",
+      "label": "thm:kahler-bimeromorphic-elimination-input",
+      "topic": "projective-models-and-kahler-modifications",
+      "status": "explicitly_quoted_external_existence_input",
+      "proof_status": "not_reconstructed_or_integrated",
+      "statement_sha256": "5f3ea4ddd53e1ce815c3d557d80919365d12621aefb4ec60583250f020c1ff70",
+      "assumptions": [
+        "X and Y are compact connected complex manifolds.",
+        "Y is Kähler.",
+        "The meromorphic map f: Y ⇢ X is bimeromorphic."
+      ],
+      "conclusion": "There is a finite sequence σ: Ỹ → Y of blowups with closed smooth centers such that f ∘ σ extends to a holomorphic modification μ: Ỹ → X.",
+      "reference": {
+        "key": "DemAnalyticOnline",
+        "identity": "title:analyticmethodsinalgebraicgeometry:2011:demailly",
+        "reference_tag": "R29DD6F304848",
+        "author": "Jean-Pierre Demailly",
+        "title": "Analytic Methods in Algebraic Geometry",
+        "version": "Author-hosted July 2011 online manuscript; retained PDF creation metadata 12 December 2014.",
+        "locator": "Proof of Theorem 14.17, first paragraph, p. 144.",
+        "url": "https://www-fourier.univ-grenoble-alpes.fr/~demailly/manuscripts/analmeth_book.pdf",
+        "source_sha256": "6f4682f322d6ae0c0ce3feae4964792c473a3d9051fe01288ef9017ca341d009"
+      },
+      "disposition": "The existence statement is explicitly quoted as an external mathematical input. Its statement and citation were checked; its full existence proof is not claimed reconstructed or integrated.",
+      "reason": "The analytic elimination/Chow existence step is a deep additional geometric input. The cited paragraph invokes Hironaka for this step; the narrower existing resolution and principalization inputs do not by themselves provide the required source-side elimination proof.",
+      "next_action": "Obtain and read an analytic elimination proof, verify its exact hypotheses and prerequisites, and integrate a complete proof as far as practicable. Retain this external disposition until that proof has been reconstructed and reviewed.",
+      "used_by": [
+        {
+          "source": "demailly-complex-geometry",
+          "label": "thm:full-rank-system-kahler-modification",
+          "tag": "1D3242230662"
+        }
+      ]
     }
   ],
   "already_accounted_for": [

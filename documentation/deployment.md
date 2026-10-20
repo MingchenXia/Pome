@@ -12,11 +12,11 @@ GitHub performs [native Pages delivery](https://docs.github.com/en/pages/getting
 
 The author requests updates manually; no regular checks or automation remain. On request, run `scripts/update.py`. It fast-forwards a clean `main`, compares every tracked source and formalization revision against the published receipt, and rebuilds only when the project or an upstream revision changes. Dependencies are reinstalled only when their pinned manifests change. Publication occurs only after a successful export and complete local-link check. Failed builds leave the deployed edition intact. Network/authentication failures are reported to the author; unchanged state stays quiet. These checks run locally when requested.
 
-The published `upstream.json` contains the build time, the project commit used to build the edition, and the exact source commits. The later commit that stores the generated site may have a different hash. Freshness checks compare project files against the recorded build commit while excluding generated `docs/`; a publication commit alone therefore does not cause an endless rebuild cycle. `/sources/` retains attribution and revision information for readers. A GitHub Actions run is not required to supply formal proof evidence: a committed verification report is also accepted.
+The published `upstream.json` contains the build time, the project commit used to build the edition, and the exact source commits. The later commit that stores the generated site may have a different hash. Freshness checks compare project files against the recorded build commit while excluding generated `docs/`; a publication commit alone therefore does not cause an endless rebuild cycle. Major results are attributed in the subject-based history at the end of Pome; `/sources/` retains detailed original notes and exact revisions. A GitHub Actions run is not required to supply formal proof evidence: a committed verification report is also accepted.
 
 ## Shared collection
 
-Sources are registered in `books.json`; their status becomes `published` when an adapter is ready. The current sources track the main branches of Foundations, SGPT, the private Hermitian book, and the complete classical-potential-theory supplement in Gerby-Literature/main after the whole-book branch merge. Public sources use HTTPS; the private source uses the local authenticated Git credential helper. No credentials or private research files are exported.
+Sources are registered in `books.json`; their status becomes `published` when an adapter is ready. The six registered sources are Foundations, SGPT, the private Hermitian book, and the Helms, Klimek and Demailly supplements from Gerby-Literature. Each registration selects a main branch and an explicit manuscript entry point. Public sources use HTTPS; private sources use the local authenticated Git credential helper. No credentials or private research files are exported. Registering a source does not by itself publish an edition.
 
 Each adapter receives `SOURCE_DIRECTORY OUTPUT_DIRECTORY` and exports:
 
@@ -27,7 +27,7 @@ Each adapter receives `SOURCE_DIRECTORY OUTPUT_DIRECTORY` and exports:
 - `assets/`: illustrations referenced by the active manuscript, including locally rendered vector diagrams;
 - temporary reading/tag pages used to validate complete source tag and badge coverage.
 
-`scripts/collection.py` combines exports into `/chapters/`, `/sections/`, `/entries/`, `/tag/TAG/`, `/references/`, `/comments/`, `/search/`, and `/sources/`. Every included source subject must be explicitly assigned to one shared chapter. The current 25-chapter order follows mathematical dependencies across the books, with 491 independently addressable sections. Chapter pages contain section and subsection links. `/topics/` permalinks redirect to the corresponding sections. Source-specific pages become redirects, preserving old permalinks. Source records are internal provenance, not separate reading collections. Search includes every retained contribution's text and aliases; visible headings retain mathematical names and use numbers generated from the current Pome section. See [the integration layout contract](integration-layout.md).
+`scripts/collection.py` combines exports into `/chapters/`, `/sections/`, `/entries/`, `/tag/TAG/`, `/references/`, `/comments/`, `/search/`, and `/sources/`. Every included source subject must be explicitly assigned to one shared chapter. Chapter order follows mathematical dependencies across the sources; reviewed heading boundaries determine the independently addressable sections. Chapter pages contain section and subsection links. `/topics/` permalinks redirect to the corresponding sections. Source-specific pages become redirects, preserving old permalinks. Source records are internal provenance, not separate reading collections. Search includes every retained contribution's text and aliases; visible headings retain mathematical names and use numbers generated from the current Pome section. See [the integration layout contract](integration-layout.md).
 
 `scripts/reader.py` defines one reading sequence, including each chapter, its sections, and every canonical entry exactly once. Each page has reciprocal Previous/Next links at both ends, contextual breadcrumbs, a permalink, a BibTeX citation, and a comment panel. `navigation.json` records this order. Tags remain stable and are hidden in reader lists until requested. Serialized TeX label commands are stripped from presentation formulas after cross-references have been resolved.
 
@@ -45,11 +45,11 @@ Reviewed duplicate members carry a SHA-256 fingerprint of their mathematical sta
 
 ## Manuscript adapters
 
-The adapters follow only the input graph activated by `book.tex`. They use the pinned official Gerby renderer, with a web preamble preserving mathematical macros and the shared section theorem counter. They support clever references, optional label types, underscores in labels, labelled equation rows, source-label aliases, equation citations, footnotes, tables, and figures. The two added books use the same shared section theorem counter. The private Hermitian source is read from its `book/` subtree and exports only its active reading content; its working research draft is attributed as such. Math source is HTML-escaped before parsing, preserving inequalities and preventing malformed markup.
+The adapters follow only the active input graph or strict selected-file manifest for the registered manuscript entry point. They use the pinned official Gerby renderer, with a web preamble preserving mathematical macros and the shared section theorem counter. They support clever references, optional label types, underscores in labels, labelled equation rows, source-label aliases, equation citations, footnotes, tables, and figures. The private Hermitian source is read from its `book/` subtree and exports only its active reading content; its working research draft is attributed as such. Math source is HTML-escaped before parsing, preserving inequalities and preventing malformed markup.
 
 Unknown commands, missing fragments, missing badge markers, tag collisions and broken local links fail the build. Foundations requires explicit labels on numbered headings and theorems. The added sources retain their existing labels; unlabelled headings/results receive a source-content identifier without editing the manuscript. Bibliography exports contain only entries cited by the active manuscript, deduplicated by DOI or normalized title/year/author identity. TikZ diagrams are compiled locally with shell escape disabled and exported as SVG; no full book PDF rebuild is involved. References inside formulas are resolved against the source label inventory before being mapped to canonical entry links. Unresolved references and internal parser object names fail publication. Shared assets carry content revisions so returning readers load updated rendering code. Source image paths must stay inside the manuscript directory. Internal image links are checked along with page links and fragments. Mathematics renders with self-hosted MathJax.
 
-For a local preview, `FOUNDATIONS_SOURCE_DIR`, `SGPT_SOURCE_DIR`, `NON_KAHLER_SOURCE_DIR`, and `LITERATURE_SOURCE_DIR` can select existing checkouts. Its repository identity and exact commit are checked. The on-request updater explicitly removes preview overrides before fetching sources, so a stale preview checkout cannot silently become a deployment.
+For a local preview, `FOUNDATIONS_SOURCE_DIR`, `SGPT_SOURCE_DIR`, `NON_KAHLER_SOURCE_DIR`, `LITERATURE_SOURCE_DIR`, `KLIMEK_SOURCE_DIR`, and `DEMAILLY_SOURCE_DIR` can select existing checkouts. Their repository identities and exact commits are checked. The on-request updater explicitly removes preview overrides before fetching sources, so a stale preview checkout cannot silently become a deployment.
 
 ## Formalization status
 
@@ -133,7 +133,34 @@ The425-item review concerns all supplied Klimek material except printed
 129–132 and232–233, excluded by the owner. Every inventoried item has a
 recorded disposition. Proof review means two complete reads by the same
 agent with separately scoped source-image inspection; it does not claim
-independent or formal certification. Bibliographical attribution remains
-under Sources. The shared bibliography renderer also turns an existing
+independent or formal certification. Major results are attributed in the
+project-wide final history; exact revisions and detailed original notes
+remain under Sources. The shared bibliography renderer also turns an existing
 TeX-href author link into a clickable HTML link without changing its
 bibliographic identity.
+
+## Demailly supplement
+
+The sixth registered source, `demailly-complex-geometry`, uses
+`contributions/demailly-complex-geometry.tex` in Gerby-Literature. Its
+reviewed manifest hashes exactly 103 selected files: 98 proof fragments,
+the manuscript entry point, bibliography, subject layout, canonical
+reference bridges and project-history text. The manifest is control
+metadata for this allowlist. Changed hashes, missing or additional
+selected files, escaping paths, nested inputs and repeated or reordered
+manuscript inputs stop the adapter. Source scans, OCR and research
+dossiers are outside the export boundary.
+
+The supplement joins existing mathematical subjects through reviewed
+canonical references and section boundaries. Reader numbering is
+generated after placement and deduplication. Its six historical strands
+join the project-wide subject history, including the section on
+cohomology, compact curves and complex tori. Raw historical headings
+and prose remain fingerprinted for review; attribution does not require
+a source block beside each entry. Necessary external proof inputs keep
+their stated hypotheses and usable references.
+
+Publication still requires a complete validated build from the exact
+source revision, local-link checks and desktop/mobile rendering checks.
+Adapter registration and preparation do not establish a source merge
+or public deployment.

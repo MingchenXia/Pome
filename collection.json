@@ -327,6 +327,291 @@
       "slug": "smooth-green-functions-on-strongly-convex-domains",
       "title": "Smooth Green functions on strongly convex domains",
       "description": ""
+    },
+    {
+      "slug": "real-currents-submersions-and-homotopies",
+      "title": "Real currents, submersions and homotopies",
+      "description": ""
+    },
+    {
+      "slug": "separation-strict-exhaustions-and-coverings",
+      "title": "Separation, strict exhaustions and coverings",
+      "description": ""
+    },
+    {
+      "slug": "boundary-levi-geometry-and-holomorphic-extension",
+      "title": "Boundary Levi geometry and holomorphic extension",
+      "description": ""
+    },
+    {
+      "slug": "test-form-topology-and-compactness-of-currents",
+      "title": "Test-form topology and compactness of currents",
+      "description": ""
+    },
+    {
+      "slug": "vector-bundles-connections-and-extensions",
+      "title": "Vector bundles, connections and extensions",
+      "description": ""
+    },
+    {
+      "slug": "jets-integral-curvature-and-projective-embeddings",
+      "title": "Jets, integral curvature and projective embeddings",
+      "description": ""
+    },
+    {
+      "slug": "normal-spaces-and-tube-continuation",
+      "title": "Normal spaces and tube continuation",
+      "description": ""
+    },
+    {
+      "slug": "sheaf-cohomology-and-acyclic-resolutions",
+      "title": "Sheaf cohomology and acyclic resolutions",
+      "description": ""
+    },
+    {
+      "slug": "complete-metric-estimates-and-holomorphic-division",
+      "title": "Complete-metric estimates and holomorphic division",
+      "description": ""
+    },
+    {
+      "slug": "hodge-theory-curvature-and-compact-vanishing",
+      "title": "Hodge theory, curvature and compact vanishing",
+      "description": ""
+    },
+    {
+      "slug": "positive-current-extension-and-analytic-integration",
+      "title": "Positive-current extension and analytic integration",
+      "description": ""
+    },
+    {
+      "slug": "open-maps-nuclear-spaces-and-inverse-limits",
+      "title": "Open maps, nuclear spaces and inverse limits",
+      "description": ""
+    },
+    {
+      "slug": "lelong-densities-generalized-masses-and-multiplicity",
+      "title": "Lelong densities, generalized masses and multiplicity",
+      "description": ""
+    },
+    {
+      "slug": "classical-products-with-controlled-unbounded-loci",
+      "title": "Classical products with controlled unbounded loci",
+      "description": ""
+    },
+    {
+      "slug": "hermitian-torsion-and-the-bochner-identity",
+      "title": "Hermitian torsion and the Bochner identity",
+      "description": ""
+    },
+    {
+      "slug": "spectral-sequences-support-and-cup-products",
+      "title": "Spectral sequences, support and cup products",
+      "description": ""
+    },
+    {
+      "slug": "analytic-tensor-products-and-proper-direct-images",
+      "title": "Analytic tensor products and proper direct images",
+      "description": ""
+    },
+    {
+      "slug": "compact-curves-periods-and-complex-tori",
+      "title": "Compact curves, periods and complex tori",
+      "description": ""
+    },
+    {
+      "slug": "convex-neighborhoods-and-coherent-vanishing",
+      "title": "Convex neighborhoods and coherent vanishing",
+      "description": ""
+    },
+    {
+      "slug": "divisors-and-logarithmic-limits-on-analytic-cycles",
+      "title": "Divisors and logarithmic limits on analytic cycles",
+      "description": ""
+    },
+    {
+      "slug": "formal-integrability-and-smooth-complex-coordinates",
+      "title": "Formal integrability and smooth complex coordinates",
+      "description": ""
+    },
+    {
+      "slug": "symbols-exterior-algebra-and-bundle-adjoints",
+      "title": "Symbols, exterior algebra and bundle adjoints",
+      "description": ""
+    },
+    {
+      "slug": "general-complex-cohomology-and-modifications",
+      "title": "General complex cohomology and modifications",
+      "description": ""
+    },
+    {
+      "slug": "entire-function-growth-and-algebraic-zero-sets",
+      "title": "Entire-function growth and algebraic zero sets",
+      "description": ""
+    },
+    {
+      "slug": "finite-type-algebraic-models-and-analytic-structure-sheaves",
+      "title": "Finite-type algebraic models and analytic structure sheaves",
+      "description": ""
+    },
+    {
+      "slug": "local-sheaf-interfaces-and-regular-function-coherence",
+      "title": "Local sheaf interfaces and regular-function coherence",
+      "description": ""
+    },
+    {
+      "slug": "differential-operators-and-elliptic-regularity",
+      "title": "Differential operators and elliptic regularity",
+      "description": ""
+    },
+    {
+      "slug": "hermitian-volume-and-complex-calibration",
+      "title": "Hermitian volume and complex calibration",
+      "description": ""
+    },
+    {
+      "slug": "normal-currents-on-cr-submanifolds",
+      "title": "Normal currents on CR submanifolds",
+      "description": ""
+    },
+    {
+      "slug": "affine-algebraicity-and-linear-growth",
+      "title": "Affine algebraicity and linear growth",
+      "description": ""
+    },
+    {
+      "slug": "analytic-cycles-and-cartier-cycles",
+      "title": "Analytic cycles and Cartier cycles",
+      "description": ""
+    },
+    {
+      "slug": "reinhardt-domains-and-logarithmic-convexity",
+      "title": "Reinhardt domains and logarithmic convexity",
+      "description": ""
+    },
+    {
+      "slug": "levi-foliations-and-boundary-regularity",
+      "title": "Levi foliations and boundary regularity",
+      "description": ""
+    },
+    {
+      "slug": "ringed-spaces-and-reductions",
+      "title": "Ringed spaces and reductions",
+      "description": ""
+    },
+    {
+      "slug": "positive-current-coefficient-bounds-and-support-maxima",
+      "title": "Positive-current coefficient bounds and support maxima",
+      "description": ""
+    },
+    {
+      "slug": "quantitative-chern-levine-nirenberg-bounds",
+      "title": "Quantitative Chern--Levine--Nirenberg bounds",
+      "description": ""
+    },
+    {
+      "slug": "projective-models-and-kahler-modifications",
+      "title": "Projective models and Kahler modifications",
+      "description": ""
+    },
+    {
+      "slug": "one-point-curvature-positivity-and-vanishing",
+      "title": "One-point curvature positivity and vanishing",
+      "description": ""
+    },
+    {
+      "slug": "section-growth-and-kahler-modifications",
+      "title": "Section growth and Kahler modifications",
+      "description": ""
+    },
+    {
+      "slug": "vector-bundles-and-jets",
+      "title": "Vector bundles and jets",
+      "description": ""
+    },
+    {
+      "slug": "meromorphic-maps-and-analytic-graphs",
+      "title": "Meromorphic maps and analytic graphs",
+      "description": ""
+    },
+    {
+      "slug": "concrete-completed-tensor-products",
+      "title": "Concrete completed tensor products",
+      "description": ""
+    },
+    {
+      "slug": "relative-nuclear-maps-and-composition",
+      "title": "Relative nuclear maps and composition",
+      "description": ""
+    },
+    {
+      "slug": "elliptic-systems-and-unique-continuation",
+      "title": "Elliptic systems and unique continuation",
+      "description": ""
+    },
+    {
+      "slug": "contracting-hopf-quotients",
+      "title": "Contracting Hopf quotients",
+      "description": ""
+    },
+    {
+      "slug": "kahler-normal-coordinate-jets",
+      "title": "Kahler normal-coordinate jets",
+      "description": ""
+    },
+    {
+      "slug": "projective-vanishing-degree-configurations",
+      "title": "Projective vanishing-degree configurations",
+      "description": ""
+    },
+    {
+      "slug": "complete-metric-laplacians-and-reduced-cohomology",
+      "title": "Complete-metric Laplacians and reduced cohomology",
+      "description": ""
+    },
+    {
+      "slug": "complete-hermitian-laplacians-and-dual-energy",
+      "title": "Complete Hermitian Laplacians and dual energy",
+      "description": ""
+    },
+    {
+      "slug": "metric-completeness-and-compact-balls",
+      "title": "Metric completeness and compact balls",
+      "description": ""
+    },
+    {
+      "slug": "completions-and-locally-convex-quotients",
+      "title": "Completions and locally convex quotients",
+      "description": ""
+    },
+    {
+      "slug": "magnetic-models-and-spectral-localization",
+      "title": "Magnetic models and spectral localization",
+      "description": ""
+    },
+    {
+      "slug": "meromorphic-sections-and-divisor-classes",
+      "title": "Meromorphic sections and divisor classes",
+      "description": ""
+    },
+    {
+      "slug": "arithmetic-values-of-meromorphic-functions",
+      "title": "Arithmetic values of meromorphic functions",
+      "description": ""
+    },
+    {
+      "slug": "dolbeault-spectral-asymptotics",
+      "title": "Dolbeault spectral asymptotics",
+      "description": ""
+    },
+    {
+      "slug": "holomorphic-morse-inequalities",
+      "title": "Holomorphic Morse inequalities",
+      "description": ""
+    },
+    {
+      "slug": "section-growth-of-semipositive-line-bundles",
+      "title": "Section growth of semipositive line bundles",
+      "description": ""
     }
   ],
   "entries": [
@@ -682,12 +967,12 @@
     },
     {
       "tag": "1BBBF8109419",
-      "title": "Small pole local products",
-      "topic": "plurisubharmonic-functions-and-singularities",
-      "merge_note": "The Klimek variant proves only the isolated-point self-product and its continuity by an annular bounded-product argument. The preferred theorem also covers mixed products, weighted products and Hausdorff-zero pole sets. The special-case proof does not verify those broader conclusions.",
+      "title": "Classical products with controlled unbounded loci",
+      "topic": "classical-products-with-controlled-unbounded-loci",
+      "merge_note": "The general statement permits a positive closed base current and Hausdorff-small intersections of unbounded loci. The other variants assume a common small pole set or an isolated pole, with their narrower hypotheses retained. These classical products may retain mass at poles.",
       "preferred": {
-        "source": "non-kahler-pluripotential-theory",
-        "label": "thm:small-pole-local-products"
+        "source": "demailly-complex-geometry",
+        "label": "thm:classical-hausdorff-intersection-products"
       },
       "members": [
         {
@@ -699,6 +984,16 @@
           "source": "klimek-pluripotential-theory",
           "label": "prop:isolated-point-ma-extension",
           "statement_sha256": "935f12a25fb3bce7b76a1477e8fc09ae5ea7e719a6600a761f40e4829fa1295a"
+        },
+        {
+          "source": "demailly-complex-geometry",
+          "label": "cor:classical-products-hausdorff-one-null",
+          "statement_sha256": "36b57b7ff265a5040c5ab30f48105e518dd4e40c6eb9d4b624388b27f434fb41"
+        },
+        {
+          "source": "demailly-complex-geometry",
+          "label": "thm:classical-hausdorff-intersection-products",
+          "statement_sha256": "5e060232b9816ea9fe418365aa3282a25f6545af904d2f72890ca19632c1f643"
         }
       ]
     },
@@ -721,6 +1016,94 @@
           "source": "klimek-pluripotential-theory",
           "label": "prop:isolated-residual-comparison-reduction",
           "statement_sha256": "274de73b3768f9a58597a558e9467a6c4d5e6ae8d75bdc7f79204de213d560c8"
+        }
+      ]
+    },
+    {
+      "tag": "5AFFEC4D76E3",
+      "title": "Principal symbols and formal adjoints",
+      "topic": "differential-operators-and-elliptic-regularity",
+      "merge_note": "These variants describe intrinsic principal symbols and formal adjoints. The general statement also gives the polynomial obtained by conjugation with an exponential.",
+      "preferred": {
+        "source": "demailly-complex-geometry",
+        "label": "prop:general-differential-symbol-adjoint"
+      },
+      "members": [
+        {
+          "source": "demailly-complex-geometry",
+          "label": "prop:intrinsic-symbol-adjoint-calculus",
+          "statement_sha256": "670c980a001beb5b71d036551a575f26e6f69e5dcb19a1f5e11bb53227ae1072"
+        },
+        {
+          "source": "demailly-complex-geometry",
+          "label": "prop:general-differential-symbol-adjoint",
+          "statement_sha256": "748b3973bd1bd35237a6a47a272a1d2ba19aa4567728398454ccc1c258b8f70e"
+        }
+      ]
+    },
+    {
+      "tag": "24324B70E319",
+      "title": "Vector bundles and locally free function-sheaf modules",
+      "topic": "vector-bundles-and-jets",
+      "merge_note": "The function-sheaf statement includes smooth and holomorphic vector bundles as special cases.",
+      "preferred": {
+        "source": "demailly-complex-geometry",
+        "label": "prop:function-sheaf-bundle-equivalence"
+      },
+      "members": [
+        {
+          "source": "demailly-complex-geometry",
+          "label": "prop:bundles-locally-free-modules",
+          "statement_sha256": "863e6969ac5b47a7a077ff8b2ac9d36a445b77d2881d5e92900fd94fe95cabde"
+        },
+        {
+          "source": "demailly-complex-geometry",
+          "label": "prop:function-sheaf-bundle-equivalence",
+          "statement_sha256": "151ba5e5dd2c4b60b2f2b1a1305e62ce349a775046c7578643cc016f34f601b2"
+        }
+      ]
+    },
+    {
+      "tag": "2CCDF84C1B3C",
+      "title": "Partial-rank semipositive line-bundle vanishing",
+      "topic": "hodge-theory-curvature-and-compact-vanishing",
+      "merge_note": "The curvature-rank statement includes line bundles that are definite at one point as the case s=1.",
+      "preferred": {
+        "source": "demailly-complex-geometry",
+        "label": "thm:semipositive-partial-top-degree-vanishing"
+      },
+      "members": [
+        {
+          "source": "demailly-complex-geometry",
+          "label": "cor:one-point-line-kodaira-vanishing",
+          "statement_sha256": "f70e4dbbeb8ea66e46755b06ee15c4184cc4909a76ac64d5d99a71f3d4d4be97"
+        },
+        {
+          "source": "demailly-complex-geometry",
+          "label": "thm:semipositive-partial-top-degree-vanishing",
+          "statement_sha256": "87bb5a62d04dfc495817fbdfa8d7c9fc90fdd375ab35f2cb5cc6a6911bf6d2c5"
+        }
+      ]
+    },
+    {
+      "tag": "D73EBFFE10D2",
+      "title": "Closed order-zero currents on analytic support",
+      "topic": "normal-currents-on-cr-submanifolds",
+      "merge_note": "The general statement classifies closed complex order-zero currents on analytic support of the appropriate dimension, including the real (1,1) case.",
+      "preferred": {
+        "source": "demailly-complex-geometry",
+        "label": "cor:complex-analytic-supported-cycle-current"
+      },
+      "members": [
+        {
+          "source": "foundations-of-pluripotential-theory",
+          "label": "thm:analytic-order-zero-support",
+          "statement_sha256": "a98255712e0c43ccfad72d61c7fd0e93f1e07fa50ccba42fd04f867b6bb6c95f"
+        },
+        {
+          "source": "demailly-complex-geometry",
+          "label": "cor:complex-analytic-supported-cycle-current",
+          "statement_sha256": "5446e57ac90b465a3d813b4d88e98c0130d37ef5e88d3c987c412a82690f6acd"
         }
       ]
     }
@@ -749,7 +1132,16 @@
       "description": "Measures, weak derivatives, Fourier analysis, and convergence.",
       "topics": [
         "measures-and-distributions",
-        "fourier-analysis-and-incidence-of-complex-lines"
+        "fourier-analysis-and-incidence-of-complex-lines",
+        "test-form-topology-and-compactness-of-currents",
+        "open-maps-nuclear-spaces-and-inverse-limits",
+        "differential-operators-and-elliptic-regularity",
+        "concrete-completed-tensor-products",
+        "elliptic-systems-and-unique-continuation",
+        "complete-metric-laplacians-and-reduced-cohomology",
+        "metric-completeness-and-compact-balls",
+        "completions-and-locally-convex-quotients",
+        "magnetic-models-and-spectral-localization"
       ]
     },
     {
@@ -792,7 +1184,11 @@
         "stokes-formula-and-homotopies",
         "complex-homotopy-operators-and-hartogs-extension",
         "plurithin-annuli-and-plurifine-limits",
-        "smooth-curves-which-are-not-pluripolar"
+        "smooth-curves-which-are-not-pluripolar",
+        "real-currents-submersions-and-homotopies",
+        "positive-current-extension-and-analytic-integration",
+        "normal-currents-on-cr-submanifolds",
+        "positive-current-coefficient-bounds-and-support-maxima"
       ]
     },
     {
@@ -806,7 +1202,9 @@
         "an-obstruction-to-global-decreasing-approximation",
         "discrete-interpolation-from-weighted-estimates",
         "relative-smoothing-with-a-variable-strict-lower-bound",
-        "global-decreasing-smooth-approximation"
+        "global-decreasing-smooth-approximation",
+        "complete-metric-estimates-and-holomorphic-division",
+        "lelong-densities-generalized-masses-and-multiplicity"
       ]
     },
     {
@@ -827,7 +1225,9 @@
         "degenerate-densities-and-interior-second-derivatives",
         "boundary-zero-green-functions-and-hyperconvexity",
         "generalized-products-and-their-associated-bounded-products",
-        "symmetric-green-envelopes-on-unbounded-domains"
+        "symmetric-green-envelopes-on-unbounded-domains",
+        "classical-products-with-controlled-unbounded-loci",
+        "quantitative-chern-levine-nirenberg-bounds"
       ]
     },
     {
@@ -858,7 +1258,25 @@
         "hyperconvexity-and-the-space-of-holomorphic-functions",
         "a-smooth-boundary-for-a-proper-biholomorphic-image",
         "smooth-positive-matrix-factorization-on-the-circle",
-        "smooth-green-functions-on-strongly-convex-domains"
+        "smooth-green-functions-on-strongly-convex-domains",
+        "separation-strict-exhaustions-and-coverings",
+        "boundary-levi-geometry-and-holomorphic-extension",
+        "normal-spaces-and-tube-continuation",
+        "analytic-tensor-products-and-proper-direct-images",
+        "convex-neighborhoods-and-coherent-vanishing",
+        "formal-integrability-and-smooth-complex-coordinates",
+        "entire-function-growth-and-algebraic-zero-sets",
+        "finite-type-algebraic-models-and-analytic-structure-sheaves",
+        "affine-algebraicity-and-linear-growth",
+        "reinhardt-domains-and-logarithmic-convexity",
+        "levi-foliations-and-boundary-regularity",
+        "ringed-spaces-and-reductions",
+        "projective-models-and-kahler-modifications",
+        "section-growth-and-kahler-modifications",
+        "meromorphic-maps-and-analytic-graphs",
+        "relative-nuclear-maps-and-composition",
+        "projective-vanishing-degree-configurations",
+        "arithmetic-values-of-meromorphic-functions"
       ]
     },
     {
@@ -869,7 +1287,22 @@
         "global-potentials-and-positive-cohomology-classes",
         "bott-chern-classes-and-singular-loci",
         "classes-with-a-nonclosed-background",
-        "big-backgrounds-under-bounded-mass"
+        "big-backgrounds-under-bounded-mass",
+        "vector-bundles-connections-and-extensions",
+        "jets-integral-curvature-and-projective-embeddings",
+        "sheaf-cohomology-and-acyclic-resolutions",
+        "hodge-theory-curvature-and-compact-vanishing",
+        "spectral-sequences-support-and-cup-products",
+        "compact-curves-periods-and-complex-tori",
+        "symbols-exterior-algebra-and-bundle-adjoints",
+        "general-complex-cohomology-and-modifications",
+        "local-sheaf-interfaces-and-regular-function-coherence",
+        "hermitian-volume-and-complex-calibration",
+        "one-point-curvature-positivity-and-vanishing",
+        "vector-bundles-and-jets",
+        "kahler-normal-coordinate-jets",
+        "dolbeault-spectral-asymptotics",
+        "holomorphic-morse-inequalities"
       ]
     },
     {
@@ -881,7 +1314,9 @@
         "monge-ampere-energy-and-torsion",
         "gauduchon-metrics-and-linear-mass",
         "gauduchon-traces-and-the-topology-of-potentials",
-        "normalization-and-weak-adjoint-measures"
+        "normalization-and-weak-adjoint-measures",
+        "hermitian-torsion-and-the-bochner-identity",
+        "complete-hermitian-laplacians-and-dual-energy"
       ]
     },
     {
@@ -979,7 +1414,8 @@
         "the-theory-of-okounkov-bodies",
         "almost-semigroups",
         "holomorphic-sections-and-hermitian-mass",
-        "flags-convex-bodies-and-section-growth"
+        "flags-convex-bodies-and-section-growth",
+        "section-growth-of-semipositive-line-bundles"
       ]
     },
     {
@@ -990,7 +1426,10 @@
         "the-theory-of-b-divisors",
         "the-trace-operator",
         "restriction-and-intrinsic-trace-data",
-        "divisorial-currents-on-compact-modifications"
+        "divisorial-currents-on-compact-modifications",
+        "divisors-and-logarithmic-limits-on-analytic-cycles",
+        "analytic-cycles-and-cartier-cycles",
+        "meromorphic-sections-and-divisor-classes"
       ]
     },
     {
@@ -1019,7 +1458,8 @@
       "description": "Nonclosed backgrounds, explicit examples, and mass phenomena.",
       "topics": [
         "unbounded-mass-on-hopf-manifolds",
-        "locally-conformally-kahler-geometry"
+        "locally-conformally-kahler-geometry",
+        "contracting-hopf-quotients"
       ]
     },
     {
@@ -3181,6 +3621,640 @@
         "start": "45BED73AEFE3",
         "slug": "comparison-of-singularities--the-d-s-pseudometric",
         "title": "The $d_ S$-pseudometric"
+      }
+    ],
+    "real-currents-submersions-and-homotopies": [
+      {
+        "start": "A76ED2C3D96E",
+        "slug": "real-currents-submersions-and-homotopies--currents-on-real-manifolds-and-fiber-signs",
+        "title": "Currents on real manifolds and fiber signs"
+      },
+      {
+        "start": "502B11A7062D",
+        "slug": "real-currents-submersions-and-homotopies--global-smoothing-and-the-poincare-lemma-for-currents",
+        "title": "Global smoothing and the Poincaré lemma for currents"
+      },
+      {
+        "start": "22A12C309D37",
+        "slug": "real-currents-submersions-and-homotopies--integration-over-real-submanifolds",
+        "title": "Integration over real submanifolds"
+      },
+      {
+        "start": "B747E431041D",
+        "slug": "real-currents-submersions-and-homotopies--normal-currents-supported-on-a-differentiable-submanifold",
+        "title": "Normal currents supported on a differentiable submanifold"
+      },
+      {
+        "start": "0301E293E240",
+        "slug": "real-currents-submersions-and-homotopies--averaging-complex-planes",
+        "title": "Averaging complex planes"
+      },
+      {
+        "start": "F07D34B4B294",
+        "slug": "real-currents-submersions-and-homotopies--radial-positive-currents",
+        "title": "Radial positive currents"
+      }
+    ],
+    "separation-strict-exhaustions-and-coverings": [
+      {
+        "start": "B52903F03BA2",
+        "slug": "separation-strict-exhaustions-and-coverings--local-holomorphic-separation-and-strict-exhaustion",
+        "title": "Local holomorphic separation and strict exhaustion"
+      },
+      {
+        "start": "E65337AF838D",
+        "slug": "separation-strict-exhaustions-and-coverings--an-increasing-union-of-affine-stein-surfaces",
+        "title": "An increasing union of affine Stein surfaces"
+      },
+      {
+        "start": "5FA7A48903C4",
+        "slug": "separation-strict-exhaustions-and-coverings--strictly-plurisubharmonic-exhaustions-on-coverings",
+        "title": "Strictly plurisubharmonic exhaustions on coverings"
+      },
+      {
+        "start": "A7FC777E11A2",
+        "slug": "separation-strict-exhaustions-and-coverings--discrete-holomorphic-jets-and-the-stein-criterion",
+        "title": "Discrete holomorphic jets and the Stein criterion"
+      },
+      {
+        "start": "4CC893698BCD",
+        "slug": "separation-strict-exhaustions-and-coverings--local-separation-without-global-separation",
+        "title": "Local separation without global separation"
+      },
+      {
+        "start": "34A39DF5C65F",
+        "slug": "separation-strict-exhaustions-and-coverings--complete-kahler-metrics-on-regular-open-sets",
+        "title": "Complete Kähler metrics on regular open sets"
+      },
+      {
+        "start": "23E942B93E3B",
+        "slug": "separation-strict-exhaustions-and-coverings--convexity-and-stein-spaces",
+        "title": "Convexity and Stein spaces"
+      }
+    ],
+    "boundary-levi-geometry-and-holomorphic-extension": [
+      {
+        "start": "E8FB727B5227",
+        "slug": "boundary-levi-geometry-and-holomorphic-extension--boundary-levi-geometry",
+        "title": "Boundary Levi geometry"
+      },
+      {
+        "start": "D61A1CDB918C",
+        "slug": "boundary-levi-geometry-and-holomorphic-extension--bounded-power-exhaustions-at-a-smooth-pseudoconvex-boundary",
+        "title": "Bounded power exhaustions at a smooth pseudoconvex boundary"
+      },
+      {
+        "start": "22E639AE1209",
+        "slug": "boundary-levi-geometry-and-holomorphic-extension--holomorphic-extension-of-tangential-cr-data",
+        "title": "Holomorphic extension of tangential CR data"
+      }
+    ],
+    "vector-bundles-connections-and-extensions": [
+      {
+        "start": "D55631DC3838",
+        "slug": "vector-bundles-connections-and-extensions--vector-bundle-curvature-and-compact-dolbeault-estimates",
+        "title": "Vector-bundle curvature and compact Dolbeault estimates"
+      },
+      {
+        "start": "D41C64EC594F",
+        "slug": "vector-bundles-connections-and-extensions--tensor-curvature-and-determinant-twists",
+        "title": "Tensor curvature and determinant twists"
+      },
+      {
+        "start": "B7996859E455",
+        "slug": "vector-bundles-connections-and-extensions--grassmannians-and-finite-generating-spaces",
+        "title": "Grassmannians and finite generating spaces"
+      },
+      {
+        "start": "684270C4A4BA",
+        "slug": "vector-bundles-connections-and-extensions--smooth-bundles-connections-and-holomorphic-extensions",
+        "title": "Smooth bundles, connections and holomorphic extensions"
+      },
+      {
+        "start": "6D2772AA0B40",
+        "slug": "vector-bundles-connections-and-extensions--relative-tautological-lines",
+        "title": "Relative tautological lines"
+      }
+    ],
+    "jets-integral-curvature-and-projective-embeddings": [
+      {
+        "start": "D03BEF2B9AF7",
+        "slug": "jets-integral-curvature-and-projective-embeddings--compact-jet-interpolation-and-positive-line-bundles",
+        "title": "Compact jet interpolation and positive line bundles"
+      },
+      {
+        "start": "8B611D824BF4",
+        "slug": "jets-integral-curvature-and-projective-embeddings--line-bundles-and-integral-curvature",
+        "title": "Line bundles and integral curvature"
+      },
+      {
+        "start": "2D3BF1C66A60",
+        "slug": "jets-integral-curvature-and-projective-embeddings--blowup-vanishing-and-small-projective-embeddings",
+        "title": "Blowup vanishing and small projective embeddings"
+      }
+    ],
+    "normal-spaces-and-tube-continuation": [
+      {
+        "start": "48351356D0F9",
+        "slug": "normal-spaces-and-tube-continuation--continuation-on-normal-complex-spaces",
+        "title": "Continuation on normal complex spaces"
+      },
+      {
+        "start": "DD3391B92728",
+        "slug": "normal-spaces-and-tube-continuation--holomorphic-extension-from-a-connected-tube",
+        "title": "Holomorphic extension from a connected tube"
+      }
+    ],
+    "sheaf-cohomology-and-acyclic-resolutions": [
+      {
+        "start": "1F8A57819EE7",
+        "slug": "sheaf-cohomology-and-acyclic-resolutions--sheaves-resolutions-and-cohomology",
+        "title": "Sheaves, resolutions and cohomology"
+      },
+      {
+        "start": "DF8C0003C01A",
+        "slug": "sheaf-cohomology-and-acyclic-resolutions--soft-sheaves-and-paracompact-comparison",
+        "title": "Soft sheaves and paracompact comparison"
+      }
+    ],
+    "complete-metric-estimates-and-holomorphic-division": [
+      {
+        "start": "013675E8D6BD",
+        "slug": "complete-metric-estimates-and-holomorphic-division--weighted-estimates-in-higher-antiholomorphic-degree",
+        "title": "Weighted estimates in higher antiholomorphic degree"
+      },
+      {
+        "start": "7957A1D91471",
+        "slug": "complete-metric-estimates-and-holomorphic-division--complete-kahler-estimates-and-discrete-interpolation",
+        "title": "Complete Kähler estimates and discrete interpolation"
+      },
+      {
+        "start": "89E648091250",
+        "slug": "complete-metric-estimates-and-holomorphic-division--estimates-for-an-original-kahler-metric",
+        "title": "Estimates for an original Kähler metric"
+      },
+      {
+        "start": "21F1C844A564",
+        "slug": "complete-metric-estimates-and-holomorphic-division--holomorphic-lifting-and-division-estimates",
+        "title": "Holomorphic lifting and division estimates"
+      },
+      {
+        "start": "ADBD6CEEE8D1",
+        "slug": "complete-metric-estimates-and-holomorphic-division--singular-weight-division-on-complete-kahler-domains",
+        "title": "Singular-weight division on complete Kähler domains"
+      },
+      {
+        "start": "98636F849B94",
+        "slug": "complete-metric-estimates-and-holomorphic-division--division-and-integral-dependence-of-analytic-germs",
+        "title": "Division and integral dependence of analytic germs"
+      },
+      {
+        "start": "4C1048330D21",
+        "slug": "complete-metric-estimates-and-holomorphic-division--weighted-extension-from-neighborhood-data",
+        "title": "Weighted extension from neighborhood data"
+      }
+    ],
+    "hodge-theory-curvature-and-compact-vanishing": [
+      {
+        "start": "4400A2793459",
+        "slug": "hodge-theory-curvature-and-compact-vanishing--compact-hodge-theory-and-analytic-duality",
+        "title": "Compact Hodge theory and analytic duality"
+      },
+      {
+        "start": "94831210CFF0",
+        "slug": "hodge-theory-curvature-and-compact-vanishing--hodge-structure-and-lefschetz-decomposition",
+        "title": "Hodge structure and Lefschetz decomposition"
+      },
+      {
+        "start": "AEC388EBA361",
+        "slug": "hodge-theory-curvature-and-compact-vanishing--one-point-curvature-vanishing",
+        "title": "One-point curvature vanishing"
+      },
+      {
+        "start": "3B7EBA26CB27",
+        "slug": "hodge-theory-curvature-and-compact-vanishing--partial-curvature-positivity-and-vanishing",
+        "title": "Partial curvature positivity and vanishing"
+      },
+      {
+        "start": "16DB10AEA8D5",
+        "slug": "hodge-theory-curvature-and-compact-vanishing--the-cohomology-of-spheres-and-projective-space",
+        "title": "The cohomology of spheres and projective space"
+      },
+      {
+        "start": "9BF76029379C",
+        "slug": "hodge-theory-curvature-and-compact-vanishing--twisted-differential-forms-on-projective-space",
+        "title": "Twisted differential forms on projective space"
+      },
+      {
+        "start": "D6A8ACD1845D",
+        "slug": "hodge-theory-curvature-and-compact-vanishing--semipositive-line-bundle-vanishing-on-weak-exhaustions",
+        "title": "Semipositive line-bundle vanishing on weak exhaustions"
+      }
+    ],
+    "positive-current-extension-and-analytic-integration": [
+      {
+        "start": "A3B5D3EF17A8",
+        "slug": "positive-current-extension-and-analytic-integration--extension-of-positive-currents-across-complete-pluripolar-sets",
+        "title": "Extension of positive currents across complete pluripolar sets"
+      },
+      {
+        "start": "0EF958A1F50B",
+        "slug": "positive-current-extension-and-analytic-integration--integration-over-analytic-sets",
+        "title": "Integration over analytic sets"
+      }
+    ],
+    "open-maps-nuclear-spaces-and-inverse-limits": [
+      {
+        "start": "AB0CD215F15E",
+        "slug": "open-maps-nuclear-spaces-and-inverse-limits--open-maps-compact-perturbations-and-finite-cohomology",
+        "title": "Open maps, compact perturbations and finite cohomology"
+      },
+      {
+        "start": "54CD186EFBFD",
+        "slug": "open-maps-nuclear-spaces-and-inverse-limits--nuclear-spaces-and-completed-tensor-products",
+        "title": "Nuclear spaces and completed tensor products"
+      },
+      {
+        "start": "0A983B5FB454",
+        "slug": "open-maps-nuclear-spaces-and-inverse-limits--cohomology-of-countable-inverse-limits",
+        "title": "Cohomology of countable inverse limits"
+      }
+    ],
+    "lelong-densities-generalized-masses-and-multiplicity": [
+      {
+        "start": "38F79B8D878B",
+        "slug": "lelong-densities-generalized-masses-and-multiplicity--lelong-densities-of-positive-currents",
+        "title": "Lelong densities of positive currents"
+      },
+      {
+        "start": "5A44A01C3550",
+        "slug": "lelong-densities-generalized-masses-and-multiplicity--weights-and-generalized-lelong-masses",
+        "title": "Weights and generalized Lelong masses"
+      },
+      {
+        "start": "551B3E18C92F",
+        "slug": "lelong-densities-generalized-masses-and-multiplicity--holomorphic-maps-and-weights",
+        "title": "Holomorphic maps and weights"
+      },
+      {
+        "start": "0EBB82914BD2",
+        "slug": "lelong-densities-generalized-masses-and-multiplicity--boundary-measures-and-the-weighted-jensen-formula",
+        "title": "Boundary measures and the weighted Jensen formula"
+      },
+      {
+        "start": "BE54D4D87C32",
+        "slug": "lelong-densities-generalized-masses-and-multiplicity--directional-boundary-measures-and-growth",
+        "title": "Directional boundary measures and growth"
+      },
+      {
+        "start": "AE6671C2B953",
+        "slug": "lelong-densities-generalized-masses-and-multiplicity--analytic-multiplicity-and-ordinary-density",
+        "title": "Analytic multiplicity and ordinary density"
+      },
+      {
+        "start": "5CB28C702CB8",
+        "slug": "lelong-densities-generalized-masses-and-multiplicity--parameter-weights-and-analytic-lelong-level-sets",
+        "title": "Parameter weights and analytic Lelong level sets"
+      },
+      {
+        "start": "925CA39B0F3A",
+        "slug": "lelong-densities-generalized-masses-and-multiplicity--siu-decomposition-in-arbitrary-bidimension",
+        "title": "Siu decomposition in arbitrary bidimension"
+      },
+      {
+        "start": "CF85D1D144CA",
+        "slug": "lelong-densities-generalized-masses-and-multiplicity--concurrent-slices-of-positive-currents",
+        "title": "Concurrent slices of positive currents"
+      },
+      {
+        "start": "1A00687E6A1B",
+        "slug": "lelong-densities-generalized-masses-and-multiplicity--multiplicities-and-lelong-numbers-under-holomorphic-maps",
+        "title": "Multiplicities and Lelong numbers under holomorphic maps"
+      },
+      {
+        "start": "D5CCC19A2482",
+        "slug": "lelong-densities-generalized-masses-and-multiplicity--finite-germs-and-their-actual-integer-degree",
+        "title": "Finite germs and their actual integer degree"
+      },
+      {
+        "start": "291F473B33E3",
+        "slug": "lelong-densities-generalized-masses-and-multiplicity--a-weighted-plane-average-with-an-integrable-logarithm",
+        "title": "A weighted plane average with an integrable logarithm"
+      },
+      {
+        "start": "3D873162C3DA",
+        "slug": "lelong-densities-generalized-masses-and-multiplicity--rotation-of-an-arbitrary-isolated-continuous-weight",
+        "title": "Rotation of an arbitrary isolated continuous weight"
+      },
+      {
+        "start": "973C654BC3E0",
+        "slug": "lelong-densities-generalized-masses-and-multiplicity--proper-direct-images-and-finite-map-upper-bounds",
+        "title": "Proper direct images and finite-map upper bounds"
+      },
+      {
+        "start": "366FA06CDDFD",
+        "slug": "lelong-densities-generalized-masses-and-multiplicity--monomial-maps-and-the-sharp-directional-comparison",
+        "title": "Monomial maps and the sharp directional comparison"
+      },
+      {
+        "start": "1FB71B23FEC5",
+        "slug": "lelong-densities-generalized-masses-and-multiplicity--normal-fiber-masses-and-integral-logarithmic-coefficients",
+        "title": "Normal-fiber masses and integral logarithmic coefficients"
+      }
+    ],
+    "classical-products-with-controlled-unbounded-loci": [
+      {
+        "start": "4BDD61F32BF5",
+        "slug": "classical-products-with-controlled-unbounded-loci--classical-products-with-compact-unbounded-loci",
+        "title": "Classical products with compact unbounded loci"
+      },
+      {
+        "start": "835411DBC290",
+        "slug": "classical-products-with-controlled-unbounded-loci--classical-products-under-hausdorff-intersection-conditions",
+        "title": "Classical products under Hausdorff intersection conditions"
+      },
+      {
+        "start": "02B93EEDEB97",
+        "slug": "classical-products-with-controlled-unbounded-loci--collars-relative-to-the-support-of-the-base-current",
+        "title": "Collars relative to the support of the base current"
+      }
+    ],
+    "differential-operators-and-elliptic-regularity": [
+      {
+        "start": "23277156BA87",
+        "slug": "differential-operators-and-elliptic-regularity--unique-continuation-for-scalar-principal-elliptic-systems",
+        "title": "Unique continuation for scalar-principal elliptic systems"
+      },
+      {
+        "start": "8E43CB0B2921",
+        "slug": "differential-operators-and-elliptic-regularity--maximal-domains-and-formal-adjoints",
+        "title": "Maximal domains and formal adjoints"
+      },
+      {
+        "start": "36FFBD062A7E",
+        "slug": "differential-operators-and-elliptic-regularity--elliptic-operators-of-arbitrary-order",
+        "title": "Elliptic operators of arbitrary order"
+      }
+    ],
+    "spectral-sequences-support-and-cup-products": [
+      {
+        "start": "7B5C64883AEA",
+        "slug": "spectral-sequences-support-and-cup-products--filtered-complexes-and-spectral-sequences",
+        "title": "Filtered complexes and spectral sequences"
+      },
+      {
+        "start": "05C05EF1C41B",
+        "slug": "spectral-sequences-support-and-cup-products--hypercohomology-and-direct-image-spectral-sequences",
+        "title": "Hypercohomology and direct-image spectral sequences"
+      },
+      {
+        "start": "3F59A99D55BB",
+        "slug": "spectral-sequences-support-and-cup-products--sheaf-cohomology-with-prescribed-supports",
+        "title": "Sheaf cohomology with prescribed supports"
+      },
+      {
+        "start": "DEAB31C492E7",
+        "slug": "spectral-sequences-support-and-cup-products--compact-supported-forms-currents-and-compact-duality",
+        "title": "Compact-supported forms, currents and compact duality"
+      },
+      {
+        "start": "1EFD287D87F1",
+        "slug": "spectral-sequences-support-and-cup-products--cup-products-and-differential-resolution-comparisons",
+        "title": "Cup products and differential-resolution comparisons"
+      },
+      {
+        "start": "0B60B933D013",
+        "slug": "spectral-sequences-support-and-cup-products--integration-contraction-and-precise-duality-scope",
+        "title": "Integration, contraction and precise duality scope"
+      },
+      {
+        "start": "86EF8ADD9D68",
+        "slug": "spectral-sequences-support-and-cup-products--neighborhood-continuity-for-a-strongly-paracompact-subspace",
+        "title": "Neighborhood continuity for a strongly paracompact subspace"
+      },
+      {
+        "start": "156395457A96",
+        "slug": "spectral-sequences-support-and-cup-products--fibers-closed-maps-and-sheaf-cohomological-dimension",
+        "title": "Fibers, closed maps and sheaf cohomological dimension"
+      },
+      {
+        "start": "E808D9985DCD",
+        "slug": "spectral-sequences-support-and-cup-products--metric-spaces-products-and-euclidean-bounds",
+        "title": "Metric spaces, products and Euclidean bounds"
+      },
+      {
+        "start": "08B84973A241",
+        "slug": "spectral-sequences-support-and-cup-products--constant-coefficients-and-integral-cohomology-lattices",
+        "title": "Constant coefficients and integral cohomology lattices"
+      },
+      {
+        "start": "57053CB31D45",
+        "slug": "spectral-sequences-support-and-cup-products--a-finite-integer-complex-and-coefficient-comparison",
+        "title": "A finite integer complex and coefficient comparison"
+      },
+      {
+        "start": "CCE9AE7648FB",
+        "slug": "spectral-sequences-support-and-cup-products--integral-two-periods-on-a-real-torus",
+        "title": "Integral two-periods on a real torus"
+      },
+      {
+        "start": "528A1FAFCD84",
+        "slug": "spectral-sequences-support-and-cup-products--the-sphere-calculation",
+        "title": "The sphere calculation"
+      },
+      {
+        "start": "BC4B9432012E",
+        "slug": "spectral-sequences-support-and-cup-products--algebraic-tensor-products-and-universal-coefficients",
+        "title": "Algebraic tensor products and universal coefficients"
+      },
+      {
+        "start": "117364357B1B",
+        "slug": "spectral-sequences-support-and-cup-products--injective-modules-and-extension-modules",
+        "title": "Injective modules and extension modules"
+      },
+      {
+        "start": "5CEBC1462E62",
+        "slug": "spectral-sequences-support-and-cup-products--relative-cohomology-external-products-and-integral-duality",
+        "title": "Relative cohomology, external products and integral duality"
+      },
+      {
+        "start": "0F3379F6C320",
+        "slug": "spectral-sequences-support-and-cup-products--local-systems-and-a-singular-comparison-with-supports",
+        "title": "Local systems and a singular comparison with supports"
+      },
+      {
+        "start": "205D9425B46C",
+        "slug": "spectral-sequences-support-and-cup-products--orientation-classes-and-cap-duality",
+        "title": "Orientation classes and cap duality"
+      },
+      {
+        "start": "89386B6A23D6",
+        "slug": "spectral-sequences-support-and-cup-products--the-dualizing-complex-and-cohomological-duality",
+        "title": "The dualizing complex and cohomological duality"
+      },
+      {
+        "start": "C9086F24EDAD",
+        "slug": "spectral-sequences-support-and-cup-products--the-trace-in-de-rham-cohomology",
+        "title": "The trace in de Rham cohomology"
+      },
+      {
+        "start": "1020452BCA35",
+        "slug": "spectral-sequences-support-and-cup-products--integral-degree-one-homology-and-integration-currents",
+        "title": "Integral degree-one homology and integration currents"
+      },
+      {
+        "start": "D599A476FAC0",
+        "slug": "spectral-sequences-support-and-cup-products--the-integer-cohomology-ring-of-projective-space",
+        "title": "The integer cohomology ring of projective space"
+      }
+    ],
+    "analytic-tensor-products-and-proper-direct-images": [
+      {
+        "start": "C6005F04267B",
+        "slug": "analytic-tensor-products-and-proper-direct-images--completed-tensors-gluing-and-cohomology",
+        "title": "Completed tensors, gluing and cohomology"
+      },
+      {
+        "start": "34BD178F719E",
+        "slug": "analytic-tensor-products-and-proper-direct-images--coherent-analytic-applications-and-their-analytic-inputs",
+        "title": "Coherent analytic applications and their analytic inputs"
+      },
+      {
+        "start": "72A4BFFD2DAC",
+        "slug": "analytic-tensor-products-and-proper-direct-images--coherent-products-and-nuclear-analytic-modules",
+        "title": "Coherent products and nuclear analytic modules"
+      },
+      {
+        "start": "A61B987ED9F3",
+        "slug": "analytic-tensor-products-and-proper-direct-images--balanced-tensors-and-the-standard-resolution",
+        "title": "Balanced tensors and the standard resolution"
+      },
+      {
+        "start": "3048745A32F1",
+        "slug": "analytic-tensor-products-and-proper-direct-images--transversality-and-analytic-restriction",
+        "title": "Transversality and analytic restriction"
+      },
+      {
+        "start": "3E8D1F9F84EF",
+        "slug": "analytic-tensor-products-and-proper-direct-images--relative-nuclearity-and-perturbation",
+        "title": "Relative nuclearity and perturbation"
+      },
+      {
+        "start": "0D3949EEEF52",
+        "slug": "analytic-tensor-products-and-proper-direct-images--coherence-of-proper-analytic-direct-images",
+        "title": "Coherence of proper analytic direct images"
+      }
+    ],
+    "compact-curves-periods-and-complex-tori": [
+      {
+        "start": "A57213CB70A9",
+        "slug": "compact-curves-periods-and-complex-tori--complex-coordinates-and-uniformization-of-surfaces",
+        "title": "Complex coordinates and uniformization of surfaces"
+      },
+      {
+        "start": "6ED81B775A7E",
+        "slug": "compact-curves-periods-and-complex-tori--divisors-and-riemann-roch-on-a-compact-curve",
+        "title": "Divisors and Riemann–Roch on a compact curve"
+      },
+      {
+        "start": "6209C395C4D3",
+        "slug": "compact-curves-periods-and-complex-tori--integral-periods-picard-tori-and-albanese-maps",
+        "title": "Integral periods, Picard tori and Albanese maps"
+      },
+      {
+        "start": "A5F99454FF7E",
+        "slug": "compact-curves-periods-and-complex-tori--projectivity-and-integral-periods",
+        "title": "Projectivity and integral periods"
+      },
+      {
+        "start": "31E1B8232622",
+        "slug": "compact-curves-periods-and-complex-tori--complex-lattice-quotients",
+        "title": "Complex lattice quotients"
+      }
+    ],
+    "convex-neighborhoods-and-coherent-vanishing": [
+      {
+        "start": "00D84C9FEF45",
+        "slug": "convex-neighborhoods-and-coherent-vanishing--convex-functions-near-analytic-subspaces",
+        "title": "Convex functions near analytic subspaces"
+      },
+      {
+        "start": "A981C1EBB07E",
+        "slug": "convex-neighborhoods-and-coherent-vanishing--bundle-cohomology-on-strongly-convex-exhaustions",
+        "title": "Bundle cohomology on strongly convex exhaustions"
+      },
+      {
+        "start": "A318DD508717",
+        "slug": "convex-neighborhoods-and-coherent-vanishing--coherent-sections-and-stein-vanishing",
+        "title": "Coherent sections and Stein vanishing"
+      },
+      {
+        "start": "C1F06AA2AAF1",
+        "slug": "convex-neighborhoods-and-coherent-vanishing--convexity-and-cohomology-in-the-top-degrees",
+        "title": "Convexity and cohomology in the top degrees"
+      }
+    ],
+    "general-complex-cohomology-and-modifications": [
+      {
+        "start": "0281546C3134",
+        "slug": "general-complex-cohomology-and-modifications--the-frolicher-filtration",
+        "title": "The Frölicher filtration"
+      },
+      {
+        "start": "D67404A61D22",
+        "slug": "general-complex-cohomology-and-modifications--bott-chern-and-aeppli-comparison",
+        "title": "Bott–Chern and Aeppli comparison"
+      },
+      {
+        "start": "0D9A7613ACD3",
+        "slug": "general-complex-cohomology-and-modifications--finite-sheaf-complexes-for-bott-chern-cohomology",
+        "title": "Finite sheaf complexes for Bott–Chern cohomology"
+      },
+      {
+        "start": "F7E8105E90D3",
+        "slug": "general-complex-cohomology-and-modifications--strong-hodge-structure-under-modifications",
+        "title": "Strong Hodge structure under modifications"
+      }
+    ],
+    "entire-function-growth-and-algebraic-zero-sets": [
+      {
+        "start": "440C923E494B",
+        "slug": "entire-function-growth-and-algebraic-zero-sets--entire-function-growth-and-arithmetic-zero-sets",
+        "title": "Entire-function growth and arithmetic zero sets"
+      },
+      {
+        "start": "8C202BD7724D",
+        "slug": "entire-function-growth-and-algebraic-zero-sets--refined-bounds-for-simultaneous-vanishing-orders",
+        "title": "Refined bounds for simultaneous vanishing orders"
+      }
+    ],
+    "finite-type-algebraic-models-and-analytic-structure-sheaves": [
+      {
+        "start": "22B397F45AFE",
+        "slug": "finite-type-algebraic-models-and-analytic-structure-sheaves--finite-type-models-and-nilpotent-structure",
+        "title": "Finite-type models and nilpotent structure"
+      },
+      {
+        "start": "232528C54E90",
+        "slug": "finite-type-algebraic-models-and-analytic-structure-sheaves--products-closed-subspaces-and-projective-charts",
+        "title": "Products, closed subspaces and projective charts"
+      },
+      {
+        "start": "A214FD1ECBF3",
+        "slug": "finite-type-algebraic-models-and-analytic-structure-sheaves--analytic-local-models-and-infinitesimal-information",
+        "title": "Analytic local models and infinitesimal information"
+      }
+    ],
+    "one-point-curvature-positivity-and-vanishing": [
+      {
+        "start": "8DB2E1472501",
+        "slug": "one-point-curvature-positivity-and-vanishing--one-point-positivity-and-modification-descent",
+        "title": "One-point positivity and modification descent"
+      },
+      {
+        "start": "AF24E347DE89",
+        "slug": "one-point-curvature-positivity-and-vanishing--one-point-vanishing-on-compact-complex-manifolds",
+        "title": "One-point vanishing on compact complex manifolds"
       }
     ]
   },

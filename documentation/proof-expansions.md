@@ -12,7 +12,7 @@ Three qualifications are necessary:
 - The analytic clause of SGPT Theorem 1.4.15 must test the total pole divisor on a log resolution, including nonexceptional components. The identity resolution of `log |z|²` gives a counterexample to an exceptional-divisors-only test. The addition supplies the change-of-variables proof of the corrected finite test and specifies the local scope of the general germ criterion.
 - SGPT Theorem A.4.4 gives convergence against compactly supported continuous functions. The addition explains the distinction from convergence against all bounded continuous functions and exhibits mass escaping to infinity.
 
-These additions do not assert that every external dependency has been eliminated. `proofs/open-dependencies.json` records the outstanding candidates from the first audit, including results that require additional source reading. A citation occurring in a proof is a review candidate, not by itself proof that the argument is incomplete. The jointly proved Remmert–Stein and proper-image results and duplicate source versions with an existing canonical proof are distinguished from unresolved cases. Resolution and principalization remain the permitted Hironaka inputs.
+These additions do not assert that every external dependency has been eliminated. `proofs/open-dependencies.json` records the outstanding candidates from the first audit, including results that require additional source reading. A citation occurring in a proof is a review candidate, not by itself proof that the argument is incomplete. The jointly proved Remmert–Stein and proper-image results and duplicate source versions with an existing canonical proof are distinguished from unresolved cases. Resolution and principalization remain declared Hironaka inputs. The Demailly supplement separately states its quoted bimeromorphic elimination premise; it is not inferred from those earlier conventions.
 
 ## Editing and verification
 
@@ -25,3 +25,27 @@ Further changes go through pull requests. Completed increments are merged into `
 ## Capacity correction (18 October 2026)
 
 SGPT `prop:mono_psh_cap` is corrected in the reading edition to local capacity convergence on an open set; global convergence follows for `U=X`. `prop-mono-psh-cap.html` proves both monotone-net cases and gives a uniformly bounded smooth projective-line counterexample to the former global claim on a proper open set. The global definition is preserved and the local quantifiers are stated separately. `thm-loc-conv-cap.html` replaces the adjacent citation-only proof by the existing bounded weighted capacity-continuity theorem and local/global comparison; compactly supported current tests require only local convergence. No other source statement directly cites the corrected proposition at the reviewed source revisions. Demailly approximation is outside this correction.
+
+## Demailly selected proofs and history
+
+The Demailly source supplies selected proof fragments through its strict
+103-file manifest. Exact file hashes, reviewed portable transformations,
+canonical reference bridges and subject boundaries guard the export.
+Existing canonical results are reused as dependencies; source numbering
+does not determine a replacement. The selected arguments include current
+calculus, coherent and integral cohomology, compact curves, Hermitian
+operators, vanishing and section growth.
+
+Major attribution joins the subject-based history at the end of Pome,
+with original historical prose fingerprinted in the history registry.
+Detailed source notes and revisions remain under Sources. No per-entry
+source block is required, and this history editing does not change a
+mathematical statement, proof guard or permanent tag.
+
+Elimination of a bimeromorphic map from a compact Kähler manifold by
+smooth-center blowups of its source remains an explicitly quoted
+existence input. The surrounding projective-model, metric and
+coefficient-descent arguments do not claim to prove that deep theorem.
+Its precise statement and reference remain in the mathematical text.
+An informal proof review or successful export does not constitute formal
+verification, a completed merge or publication.
