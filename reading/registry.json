@@ -1335,6 +1335,24 @@
       "reason": "Replace private packet coordinates by the checked internal Green-continuity and zero-boundary uniqueness propositions; remove source-page workflow narration while preserving all mathematical content.",
       "text_sha256": "60c877baaec8f306b1521c49b729ddfe60a0e890350cd32323cf4167710632a0",
       "replacement_html": "<p>\n      The Green ball bounds give $g_ D-\\log |z-a|=O(1)$ near $a$. The proved residual invariance identifies its atom as $2^{-n}$. Off $a$ its local boundedness and maximality give zero bounded MA measure, so no other part remains. The continuity and zero boundary limit follow from <a data-reading-entry=\"5A3A24549BAA\">result</a>. Conversely the prescribed measure makes any proposed solution maximal off $a$. Its zero boundary limit and logarithmic pole make it negative by the maximum principle. The zero-boundary uniqueness in <a data-reading-entry=\"465EA6ED94FB\">result</a> then identifies it with $g_ D$. \n      <span class=\"qed\">$\\square$</span>\n</p>"
+    },
+    {
+      "source": "non-kahler-pluripotential-theory",
+      "context": "In the closed Kähler theory, subtracting a nef class has a controlled cost in volume. For closed nef classes $\\alpha ,\\beta $ on a compact Kähler manifold, the transcendental Morse inequality states that",
+      "text_sha256": "b104f56815473c1305cc07a89402a9a2e29be0692623952ecaf6d461a40f6c4c",
+      "replacement_html": "<p>In the closed Kähler theory, <a href=\"/tag/DE32EEA596CD/\" data-reading-entry=\"DE32EEA596CD\">the sharp transcendental Morse inequality</a> bounds the volume lost by subtracting a nef class. To formulate an analogue on an arbitrary compact complex manifold, one must first choose the volume to be estimated.</p>",
+      "retain_attribution": true,
+      "reason": "Replace the contextual repetition by the fully proved sharp-Morse theorem, preserving all following Hermitian discussion.",
+      "review_evidence": "Gerby-Literature sources/S0058/comparison/root-semantic-core.md and export-plan/existing-morse-context-edit.proposed.json"
+    },
+    {
+      "source": "non-kahler-pluripotential-theory",
+      "context": "where $\\operatorname {Vol}$ is the usual volume of a class. Its source, and the differentiability of the volume and the duality of cones that follow from it, are recalled in section 34.20 . To formulate an analogue on an arbitrary compact complex manifold, one must first choose the volume to be estimated.",
+      "text_sha256": "a8f021bdb41bb0a00b552e48fb29007c9d8f9c401635f90ef853f4dabb6a77c3",
+      "replacement_html": "",
+      "retain_attribution": true,
+      "reason": "Replace the contextual repetition by the fully proved sharp-Morse theorem, preserving all following Hermitian discussion.",
+      "review_evidence": "Gerby-Literature sources/S0058/comparison/root-semantic-core.md and export-plan/existing-morse-context-edit.proposed.json"
     }
   ],
   "superseded_proof_commentary": [
@@ -1347,6 +1365,17 @@
       "source": "sgpt",
       "proof_id": "sgpt:thm:loc_conv_cap",
       "text_sha256": "38df3edc5720c565dfb20a9e25abac977b50945855d43344d56ba848efdadbb9"
+    }
+  ],
+  "unlabelled_displays": [
+    {
+      "source": "non-kahler-pluripotential-theory",
+      "context": "\\[ \\operatorname {Vol}(\\alpha -\\beta ) \\geq \\int _ X\\alpha ^ n-n\\int _ X\\alpha ^{n-1}\\wedge \\beta , \\]",
+      "text_sha256": "441b97bf408ecaaf0b714e4cbe034b0ab66d697b9033bb23f6d1b048c1f8aff6",
+      "replacement_html": "",
+      "canonical_tag": "DE32EEA596CD",
+      "reason": "Remove only the repeated unlabelled sharp-Morse display after replacing its surrounding prose by an internal theorem link; archive the original under Sources.",
+      "review_evidence": "Gerby-Literature sources/S0058/export-plan/existing-morse-context-edit.proposed.json"
     }
   ]
 }

@@ -19,12 +19,34 @@ def context_key(source, node):
     return source, sha256(normalized_text(node).encode()).hexdigest()
 
 
+def reviewed_display_edits(registry):
+    """Allow removal of explicitly reviewed, unlabelled contextual displays."""
+    edits = {}
+    for item in registry.get('unlabelled_displays', []):
+        if (sha256(item['context'].encode()).hexdigest() != item['text_sha256']
+                or item.get('replacement_html') != ''
+                or not item.get('reason') or not item.get('canonical_tag')):
+            raise ValueError('Invalid reviewed unlabelled display removal')
+        key = item['source'], item['text_sha256']
+        if key in edits:
+            raise ValueError('Repeated reviewed unlabelled display')
+        edits[key] = item
+    return edits
+
+
+def require_unlabelled_display(node):
+    if (node.has_attr('id') or node.has_attr('data-gerby-tag')
+            or node.select_one('[id], [data-gerby-tag]')):
+        raise ValueError('A reading edit cannot remove an addressable equation')
+
+
 def validate_reading_edits(exports, registry_path):
     registry = json.loads(registry_path.read_text())
     expected = {(r['source'], r['text_sha256']) for r in registry['paragraphs'] if 'replacement_html' in r}
-    found = set()
+    displays = reviewed_display_edits(registry)
+    found, found_displays = set(), set()
     for source, records in exports.items():
-        if not any(key[0] == source for key in expected):
+        if not any(key[0] == source for key in expected | set(displays)):
             continue
         for variant in records:
             soup = BeautifulSoup(variant['html'], 'html.parser')
@@ -32,8 +54,15 @@ def validate_reading_edits(exports, registry_path):
                 key = context_key(source, node)
                 if key in expected:
                     found.add(key)
+            for node in soup.select('div.equation'):
+                key = context_key(source, node)
+                if key in displays:
+                    require_unlabelled_display(node)
+                    found_displays.add(key)
     if missing := expected - found:
         raise ValueError(f'Review changed source prose before publishing: {sorted(missing)}')
+    if missing := displays.keys() - found_displays:
+        raise ValueError(f'Review changed contextual display before publishing: {sorted(missing)}')
 
 
 def attribution_markup(node):
@@ -114,6 +143,9 @@ def apply_reading_edits(entries, topic_chapters, registry_path):
         if digest != item['text_sha256']:
             raise ValueError('Reading context fingerprint does not match its text')
         edits[item['source'], digest] = item
+    displays = reviewed_display_edits(registry)
+    if any(item['canonical_tag'] not in entries for item in displays.values()):
+        raise ValueError('Missing canonical replacement for a contextual display')
     locators = {}
     for entry in entries.values():
         for v in entry['variants']:
@@ -161,6 +193,16 @@ def apply_reading_edits(entries, topic_chapters, registry_path):
             for node in list(soup.select('.motto')):
                 retain(source, node, entry, variant)
                 node.decompose()
+            # Only unlabelled contextual displays may be removed. The complete
+            # original remains under Sources; statement TeX and proof guards
+            # remain untouched, and the replacement theorem must exist.
+            for node in list(soup.select('div.equation')):
+                if context_key(source, node) not in displays:
+                    continue
+                require_unlabelled_display(node)
+                retain(source, node, entry, variant)
+                node.decompose()
+                counts['reviewed_edits'] += 1
             for node in list(soup.find_all(['p', 'aside'])):
                 if node.parent is None or not any(parent is soup for parent in node.parents) or node.find('p'):
                     continue
