@@ -196,6 +196,15 @@ def prepare_fragment(variant, source_tags, references, root, component_anchors=N
         if target.get("math_row") and not (variant.get("math_row") and target.get("tag") == variant["tag"]):
             return r"\tag{" + target["number"] + "}"
         return ""
+    # Display arrays own their row numbers, including a first label which
+    # the source parser may attach to the whole environment rather than a row.
+    def display_array(match):
+        def row_label(label):
+            target = (numbering or {}).get((source, label[1]), {})
+            return r"\tag{" + target["number"] + "}" if target.get("number") else ""
+        return re.sub(r"\\label(?:\[[^]]*\])?\s*\{([^{}]*)\}", row_label, match[0])
+    fragment = re.sub(r"\\begin\{(align\*?|gather\*?|eqnarray\*?)\}.*?\\end\{\1\}",
+                      display_array, fragment, flags=re.S)
     fragment = re.sub(r"\\label(?:\[[^]]*\])?\s*\{([^{}]*)\}", math_label, fragment)
     image = r"\\gerbyimage\{([^}]+)\}\{([^}]+)\}"
     def illustration(match):
@@ -221,6 +230,15 @@ def prepare_fragment(variant, source_tags, references, root, component_anchors=N
     soup = BeautifulSoup(fragment, "html.parser")
     if numbering is not None:
         renumber_markup(soup, source, numbering)
+    for equation in soup.select(".equation"):
+        label = equation.find(class_="equation-label", recursive=False)
+        body = equation.find("div", recursive=False)
+        marker = label.find(attrs={"data-tag": True}) if label else None
+        if (body and marker and re.search(r"\\begin\{(?:align\*?|gather\*?|eqnarray\*?)\}", body.get_text())
+                and r"\tag{" + marker.get_text(strip=True) + "}" in body.get_text()):
+            # The array displays this number on its actual row. The wrapper
+            # and its permanent tag remain; later badge insertion sees its ID.
+            label.decompose()
     for anchor in soup.select("a[data-proof-entry]"):
         anchor["href"] = root + "tag/" + anchor["data-proof-entry"] + "/"
     for paragraph in list(soup.find_all("p")):

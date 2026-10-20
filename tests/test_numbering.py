@@ -131,6 +131,51 @@ class NumberingTests(unittest.TestCase):
         variant["html"] = r'\begin{align}x=2\label{row}\end{align}'
         self.assertIn(r"\tag{3.2.2}", prepare_fragment(variant, {}, {}, "../../", numbering=numbers))
 
+    def test_multirow_equations_number_the_first_row_without_an_external_duplicate(self):
+        template = self.entries["00000004"]["variants"][0]
+        rows = {}
+        for tag, label, is_row in (("00000004", "eq:first", False), ("00000008", "eq:second", True), ("00000009", "eq:third", True)):
+            variant = {**template, "tag": tag, "label": label, "math_row": is_row}
+            rows[tag] = {"tag": tag, "topic": "analysis", "kind": "equation", "variants": [variant], "components": []}
+        numbers = assign_numbers({"analysis": {"number": 3, "topics": ["analysis"]}}, rows)
+        links = {("first", tag): tag for tag in rows}
+        for environment in ("align", "align*", "gather", "gather*", "eqnarray", "eqnarray*"):
+            with self.subTest(environment=environment):
+                separator = "=" if environment.startswith("gather") else "&=&" if environment.startswith("eqnarray") else "&="
+                equations = [variable + separator + str(index) + r"\label{" + label + "}"
+                             for index, (variable, label) in enumerate(zip(("x", "y", "z"), ("eq:first", "eq:second", "eq:third")), 1)]
+                body = r"\begin{" + environment + "}" + r"\\".join(equations) + r"\end{" + environment + "}"
+                variant = {**rows["00000004"]["variants"][0], "html": '<div class="equation" id="00000004"><span class="equation-label"><a href="/tag/00000004" data-tag="00000004">2</a></span><div>' + body + '</div></div>'}
+                rendered = prepare_fragment(variant, links, {}, "../../", numbering=numbers)
+                soup = BeautifulSoup(rendered, "html.parser")
+                wrapper = soup.find(id="first-00000004")
+                self.assertIsNotNone(wrapper)
+                self.assertFalse(soup.select(".equation-label"))
+                self.assertEqual(len(wrapper.select('[data-gerby-tag="00000004"]')), 1)
+                self.assertEqual(wrapper.select_one('[data-gerby-tag="00000004"] .tag-id').get_text(), "00000004")
+                for tag in rows:
+                    self.assertEqual(rendered.count(r"\tag{" + numbers["first", tag]["number"] + "}"), 1)
+                self.assertNotIn(r"\label{", rendered)
+                for index, variable in enumerate(("x", "y", "z"), 1):
+                    self.assertIn(variable + separator + str(index), soup.get_text())
+
+    def test_standalone_array_row_keeps_its_html_label_and_permanent_marker(self):
+        self.entries["00000004"]["variants"][0]["math_row"] = True
+        _, numbers = self.arrange()
+        variant = {**self.entries["00000004"]["variants"][0], "html": '<div class="equation" id="00000004"><span class="equation-label"><a href="/tag/00000004" data-tag="00000004">2</a></span><div>' + r'\[\begin{aligned}x&=2\label{label:00000004}\end{aligned}\]' + '</div></div>'}
+        rendered = prepare_fragment(variant, {("first", "00000004"): "00000004"}, {}, "../../", numbering=numbers)
+        soup = BeautifulSoup(rendered, "html.parser")
+        wrapper = soup.find(id="first-00000004")
+        self.assertIsNotNone(wrapper)
+        self.assertEqual(len(wrapper.select(".equation-label")), 1)
+        label = wrapper.select_one('.equation-label a[data-tag="00000004"]')
+        self.assertEqual(label.get_text(), numbers["first", "00000004"]["number"])
+        self.assertEqual(label["href"], "../../tag/00000004/")
+        self.assertEqual(len(wrapper.select('[data-gerby-tag="00000004"]')), 1)
+        self.assertIn(r"\begin{aligned}x&=2\end{aligned}", soup.get_text())
+        self.assertNotIn(r"\tag{", rendered)
+        self.assertNotIn(r"\label{", rendered)
+
 
 if __name__ == "__main__":
     unittest.main()
