@@ -50,7 +50,8 @@
         "BB36F353AA0C",
         "9E2E80C382FD",
         "D265EADD4F31",
-        "891BCFE010BE"
+        "891BCFE010BE",
+        "B8C7286DB6D1"
       ],
       "file": "nonlinear-products-and-mass.html"
     },
@@ -222,6 +223,7 @@
     "demailly-complex-geometry/sec:demailly-history-hermitian": "fc3e09835f2f3adccd8a989fb24a50c8c4eeafac53dcbd293d2ee07cac5a2ee4",
     "demailly-complex-geometry/sec:demailly-history-growth": "4459ce6d6d2be46f3a51ef1fd322d0f42ff0e0b05c941ef77a8f300fc0b21f3a",
     "transcendental-positive-cones/sec:positive-cones-history-mass": "b433b9f2e9efb67176f015c5066a340e7663e21244d5e7ca40cd95d901b22580",
-    "transcendental-positive-cones/sec:positive-cones-history-cones": "1e2de496ceb8b14b105b81573292ee5fa065ba6338e029d2d578bbcc62e7ed14"
+    "transcendental-positive-cones/sec:positive-cones-history-cones": "1e2de496ceb8b14b105b81573292ee5fa065ba6338e029d2d578bbcc62e7ed14",
+    "isolated-plurisubharmonic-singularities/sec:isolated-psh-history-mass": "ce75bc3c103a5a66fef77f6b671e72360ab182cbbb8b41e8904c05b37496b03d"
   }
 }
