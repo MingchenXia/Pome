@@ -49,7 +49,8 @@
         "0948B3754F28",
         "BB36F353AA0C",
         "9E2E80C382FD",
-        "D265EADD4F31"
+        "D265EADD4F31",
+        "891BCFE010BE"
       ],
       "file": "nonlinear-products-and-mass.html"
     },
@@ -66,7 +67,8 @@
         "9AB6A1306853",
         "3747CBC0FB2D",
         "C873148DF75D",
-        "93C3DD08144F"
+        "93C3DD08144F",
+        "BA07D4DDD45A"
       ],
       "file": "positivity-and-hermitian-volume.html"
     },
@@ -218,6 +220,8 @@
     "demailly-complex-geometry/sec:demailly-history-spaces": "45d39bf1e6f8e41dc88cf4261de6bf1c1fd5b75f18a501c56b62a7d8791c405e",
     "demailly-complex-geometry/sec:demailly-history-cohomology": "da7630becb5630c5051aa45140a617f924e14cf992a3988d97ee9487b596a9ad",
     "demailly-complex-geometry/sec:demailly-history-hermitian": "fc3e09835f2f3adccd8a989fb24a50c8c4eeafac53dcbd293d2ee07cac5a2ee4",
-    "demailly-complex-geometry/sec:demailly-history-growth": "4459ce6d6d2be46f3a51ef1fd322d0f42ff0e0b05c941ef77a8f300fc0b21f3a"
+    "demailly-complex-geometry/sec:demailly-history-growth": "4459ce6d6d2be46f3a51ef1fd322d0f42ff0e0b05c941ef77a8f300fc0b21f3a",
+    "transcendental-positive-cones/sec:positive-cones-history-mass": "b433b9f2e9efb67176f015c5066a340e7663e21244d5e7ca40cd95d901b22580",
+    "transcendental-positive-cones/sec:positive-cones-history-cones": "1e2de496ceb8b14b105b81573292ee5fa065ba6338e029d2d578bbcc62e7ed14"
   }
 }

@@ -612,6 +612,76 @@
       "slug": "section-growth-of-semipositive-line-bundles",
       "title": "Section growth of semipositive line bundles",
       "description": ""
+    },
+    {
+      "slug": "null-supported-kahler-currents",
+      "title": "Null-supported Kähler currents",
+      "description": ""
+    },
+    {
+      "slug": "determinant-bounds-and-gauduchon-separation",
+      "title": "Determinant bounds and Gauduchon separation",
+      "description": ""
+    },
+    {
+      "slug": "transcendental-morse-inequalities",
+      "title": "Transcendental Morse inequalities",
+      "description": ""
+    },
+    {
+      "slug": "absolutely-continuous-and-non-pluripolar-mass",
+      "title": "Absolutely continuous and non-pluripolar mass",
+      "description": ""
+    },
+    {
+      "slug": "numerical-positive-products",
+      "title": "Numerical positive products",
+      "description": ""
+    },
+    {
+      "slug": "variations-of-the-volume",
+      "title": "Variations of the volume",
+      "description": ""
+    },
+    {
+      "slug": "dual-positive-cones",
+      "title": "Dual positive cones",
+      "description": ""
+    },
+    {
+      "slug": "heat-kernels-on-compact-manifolds",
+      "title": "Heat kernels on compact manifolds",
+      "description": ""
+    },
+    {
+      "slug": "local-mass-bounds-for-pluriharmonic-currents",
+      "title": "Local mass bounds for pluriharmonic currents",
+      "description": ""
+    },
+    {
+      "slug": "heat-regularization-and-pluriharmonic-lifts",
+      "title": "Heat regularization and pluriharmonic lifts",
+      "description": ""
+    },
+    {
+      "slug": "pointwise-estimates-for-obstacle-envelopes",
+      "title": "Pointwise estimates for obstacle envelopes",
+      "description": ""
+    },
+    {
+      "slug": "partial-legendre-transforms-and-monge-ampere-mass",
+      "title": "Partial Legendre transforms and Monge–Ampère mass",
+      "description": ""
+    },
+    {
+      "slug": "divisorial-restricted-volumes",
+      "title": "Divisorial restricted volumes",
+      "description": ""
+    },
+    {
+      "slug": "balanced-forms-and-movable-classes",
+      "title": "Balanced forms and movable classes",
+      "description": ""
     }
   ],
   "entries": [
@@ -1157,7 +1227,8 @@
         "separate-harmonicity-and-subharmonicity",
         "polynomial-approximation-and-a-separate-subharmonic-example",
         "planar-green-functions-and-conformal-maps",
-        "planar-boundary-distance-and-convexity"
+        "planar-boundary-distance-and-convexity",
+        "heat-kernels-on-compact-manifolds"
       ]
     },
     {
@@ -1188,7 +1259,10 @@
         "real-currents-submersions-and-homotopies",
         "positive-current-extension-and-analytic-integration",
         "normal-currents-on-cr-submanifolds",
-        "positive-current-coefficient-bounds-and-support-maxima"
+        "positive-current-coefficient-bounds-and-support-maxima",
+        "null-supported-kahler-currents",
+        "local-mass-bounds-for-pluriharmonic-currents",
+        "heat-regularization-and-pluriharmonic-lifts"
       ]
     },
     {
@@ -1302,7 +1376,12 @@
         "vector-bundles-and-jets",
         "kahler-normal-coordinate-jets",
         "dolbeault-spectral-asymptotics",
-        "holomorphic-morse-inequalities"
+        "holomorphic-morse-inequalities",
+        "determinant-bounds-and-gauduchon-separation",
+        "transcendental-morse-inequalities",
+        "variations-of-the-volume",
+        "dual-positive-cones",
+        "balanced-forms-and-movable-classes"
       ]
     },
     {
@@ -1335,7 +1414,9 @@
         "non-pluripolar-products",
         "non-pluripolar-monge-ampere-measures",
         "weighted-monge-ampere-measures",
-        "volumes-under-bounded-mass"
+        "volumes-under-bounded-mass",
+        "absolutely-continuous-and-non-pluripolar-mass",
+        "numerical-positive-products"
       ]
     },
     {
@@ -1380,7 +1461,8 @@
         "local-regularity-of-analytic-polyhedra",
         "normalized-characterization-of-compact-extremals",
         "equilibrium-densities-and-boundaries-of-real-convex-bodies",
-        "boundary-flux-and-nonproper-mass-comparison"
+        "boundary-flux-and-nonproper-mass-comparison",
+        "pointwise-estimates-for-obstacle-envelopes"
       ]
     },
     {
@@ -1392,7 +1474,8 @@
         "geodesic-rays-in-the-space-of-potentials",
         "test-curves",
         "perron-interpolation-and-the-geodesic-equation",
-        "test-curves-and-legendre-duality"
+        "test-curves-and-legendre-duality",
+        "partial-legendre-transforms-and-monge-ampere-mass"
       ]
     },
     {
@@ -1429,7 +1512,8 @@
         "divisorial-currents-on-compact-modifications",
         "divisors-and-logarithmic-limits-on-analytic-cycles",
         "analytic-cycles-and-cartier-cycles",
-        "meromorphic-sections-and-divisor-classes"
+        "meromorphic-sections-and-divisor-classes",
+        "divisorial-restricted-volumes"
       ]
     },
     {

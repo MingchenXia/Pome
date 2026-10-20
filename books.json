@@ -64,6 +64,17 @@
       "checkout_env": "DEMAILLY_SOURCE_DIR",
       "visibility": "private",
       "status": "published"
+    },
+    {
+      "slug": "transcendental-positive-cones",
+      "title": "Transcendental positive cones",
+      "author": "Gerby Literature",
+      "repository": "https://github.com/MingchenXia/Gerby-Literature",
+      "ref": "main",
+      "entrypoint": "contributions/transcendental-positive-cones.tex",
+      "checkout_env": "POSITIVE_CONES_SOURCE_DIR",
+      "visibility": "private",
+      "status": "published"
     }
   ]
 }

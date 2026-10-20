@@ -15,11 +15,47 @@ class ReadingEditsTests(unittest.TestCase):
     def entry(self, tag, html, **extra):
         return {'tag': tag, 'topic': 'body', 'reader_title': 'Theorem 1.2.3', 'variants': [{'source': 'sgpt', 'label': tag, 'tag': tag, 'html': html, 'title': 'Theorem 3.4.1', 'statement_tex': 'Original mathematical source.', 'caption': '', 'number': '3.4.1', 'kind': 'theorem', **extra}]}
 
-    def apply(self, entries, paragraphs=(), historical=False, proof_commentary=()):
+    def apply(self, entries, paragraphs=(), historical=False, proof_commentary=(), displays=()):
         with tempfile.TemporaryDirectory() as folder:
             path = Path(folder) / 'registry.json'
-            path.write_text(json.dumps({'version': 1, 'paragraphs': list(paragraphs), 'superseded_proof_commentary': list(proof_commentary)}))
+            path.write_text(json.dumps({'version': 1, 'paragraphs': list(paragraphs), 'superseded_proof_commentary': list(proof_commentary), 'unlabelled_displays': list(displays)}))
             return apply_reading_edits(entries, {'body': 'historical-notes' if historical else 'analysis'}, path)
+
+    def display_edit(self, html):
+        context = normalized_text(BeautifulSoup(html, 'html.parser'))
+        return {'source': 'sgpt', 'context': context,
+                'text_sha256': sha256(context.encode()).hexdigest(),
+                'replacement_html': '', 'canonical_tag': 'B',
+                'reason': 'Replace a repeated contextual formula by its canonical theorem.'}
+
+    def test_guarded_context_display_moves_to_sources_and_keeps_equation_identity(self):
+        display = '<div class="equation">\\[x=1\\]</div>'
+        retained = '<div class="equation" id="kept-equation">\\[y=2\\]</div>'
+        entries = {'A': self.entry('A', '<p>Background.</p>'+display+retained),
+                   'B': self.entry('B', '<article>A canonical theorem.</article>')}
+        notes, counts = self.apply(entries, displays=[self.display_edit(display)])
+        variant = entries['A']['variants'][0]
+        self.assertNotIn('x=1', variant['html'])
+        self.assertIn(retained, variant['html'])
+        self.assertEqual(variant['statement_tex'], 'Original mathematical source.')
+        self.assertIn('x=1', notes[0]['html'])
+        self.assertEqual(counts['reviewed_edits'], 1)
+
+    def test_context_display_rejects_stale_source_and_addressable_equations(self):
+        edit = self.display_edit('<div class="equation">\\[x=1\\]</div>')
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / 'registry.json'
+            path.write_text(json.dumps({'version': 1, 'paragraphs': [], 'unlabelled_displays': [edit]}))
+            with self.assertRaisesRegex(ValueError, 'Review changed contextual display'):
+                validate_reading_edits({'sgpt': [{'html': '<div class="equation">\\[x=2\\]</div>'}]}, path)
+            labelled = '<div class="equation" id="equation-tag">\\[x=1\\]</div>'
+            with self.assertRaisesRegex(ValueError, 'addressable equation'):
+                validate_reading_edits({'sgpt': [{'html': labelled}]}, path)
+            entries = {'A': self.entry('A', labelled), 'B': self.entry('B', '<p>Theorem.</p>')}
+            with self.assertRaisesRegex(ValueError, 'addressable equation'):
+                self.apply(entries, displays=[edit])
+        with self.assertRaisesRegex(ValueError, 'Missing canonical replacement'):
+            self.apply({'A': self.entry('A', '<p>Background.</p>')}, displays=[edit])
 
     def test_reviewed_intro_moves_attribution_and_preserves_mathematical_source(self):
         html = '<p>Our presentation follows <span class="cite"><a href="/bibliography/Book">Book</a></span>.</p>'
