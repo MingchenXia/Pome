@@ -51,6 +51,27 @@ class ReaderTests(unittest.TestCase):
             self.assertTrue(entry.select('[data-gerby-book="source"] [data-gerby-tag]'))
             check_links(root)
 
+    def test_promoted_subject_with_no_remaining_prose_keeps_an_overview(self):
+        heading = {"tag": "00000010", "label": "sec:first-part", "title": "1 First part",
+                   "caption": "First part", "number": "1", "kind": "section", "section": True,
+                   "topic": "Alpha", "html": '<h2 id="sec:first-part">1 First part</h2>'}
+        self.records.insert(0, heading)
+        self.config["section_promotions"] = {"alpha": [{
+            "start": global_tag("source", heading["label"]),
+            "slug": "alpha-first-part", "title": "First part"}]}
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            self.build(root)
+            overview = BeautifulSoup((root / "sections/alpha/index.html").read_text(), "html.parser")
+            child = BeautifulSoup((root / "sections/alpha-first-part/index.html").read_text(), "html.parser")
+            link = overview.select_one('nav[aria-label="Sections in this subject"] a')
+            self.assertEqual(link["href"], "../alpha-first-part/")
+            self.assertEqual(link.get_text(), "1.2 First part")
+            self.assertFalse(overview.select(".env-definition"))
+            self.assertEqual(len(child.select(".env-definition")), 2)
+            self.assertTrue((root / "tag" / global_tag("source", heading["label"]) / "index.html").is_file())
+            check_links(root)
+
     def test_nested_statements_and_proofs_are_readable_once(self):
         for record in self.records[:2]:
             record['html'] = record['html'].replace('<article ', f'<article id="{record["tag"]}" ')
