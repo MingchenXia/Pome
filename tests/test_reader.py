@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from collection import build_collection, check_links, continuous_section, source_roots
+from collection import build_collection, check_links, continuous_section, global_tag, source_roots
 from reader import Reader, bibtex
 
 
@@ -46,7 +46,7 @@ class ReaderTests(unittest.TestCase):
             self.assertIn('A statement.', section.select_one('main').get_text())
             self.assertFalse(section.select('.source-attribution'))
             self.assertNotIn('From Test source', section.select_one('main').get_text())
-            entry = BeautifulSoup(next((root / 'tag').glob('*/index.html')).read_text(), 'html.parser')
+            entry = BeautifulSoup((root / 'tag' / global_tag('source', self.records[0]['label']) / 'index.html').read_text(), 'html.parser')
             self.assertFalse(entry.select('.source-attribution'))
             self.assertTrue(entry.select('[data-gerby-book="source"] [data-gerby-tag]'))
             check_links(root)

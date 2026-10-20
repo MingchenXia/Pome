@@ -35,7 +35,8 @@
         "E796BF553819",
         "2BFBF0A17586",
         "C1D97719C08E",
-        "9D79D5D188C6"
+        "9D79D5D188C6",
+        "732E078CE196"
       ],
       "file": "plurisubharmonicity-and-singularities.html"
     },
@@ -47,7 +48,8 @@
         "E66D40EC5904",
         "0948B3754F28",
         "BB36F353AA0C",
-        "9E2E80C382FD"
+        "9E2E80C382FD",
+        "D265EADD4F31"
       ],
       "file": "nonlinear-products-and-mass.html"
     },
@@ -63,9 +65,19 @@
         "572621232871",
         "9AB6A1306853",
         "3747CBC0FB2D",
-        "C873148DF75D"
+        "C873148DF75D",
+        "93C3DD08144F"
       ],
       "file": "positivity-and-hermitian-volume.html"
+    },
+    {
+      "tag": "62EE456A4F3B",
+      "slug": "history--cohomology-curves-and-complex-geometry",
+      "title": "Cohomology, compact curves, and complex tori",
+      "members": [
+        "62EE456A4F3B"
+      ],
+      "file": "cohomology-curves-and-complex-geometry.html"
     },
     {
       "tag": "E1BC130DDD5C",
@@ -112,7 +124,8 @@
       "members": [
         "482A6169B3A6",
         "CAFE5EFFA7C8",
-        "C7AB6352651B"
+        "C7AB6352651B",
+        "7D0841794B32"
       ],
       "file": "sections-convexity-and-non-archimedean-geometry.html"
     },
@@ -125,7 +138,8 @@
         "94E3F780653C",
         "2C3E73AAD887",
         "2200D43D6A26",
-        "81F92F228A7E"
+        "81F92F228A7E",
+        "98E66B8FDCD6"
       ],
       "file": "singular-spaces-and-locally-conformal-geometry.html"
     },
@@ -198,6 +212,12 @@
     "non-kahler-pluripotential-theory/sec:history-completeness": "77b849cfbbc46e8a0809dd7135cc45854d898c49ec26a8082829e4566d48597a",
     "non-kahler-pluripotential-theory/sec:history-lck": "a91b4f1536ff2287c58e8b664b24d76cc52572f6d86ab148b22a9855a4b0933f",
     "non-kahler-pluripotential-theory/sec:history-regularity": "d513b071962bd9fd3d75f8ab1577ae9652d56765ba6192f2cc7a251e999d2138",
-    "non-kahler-pluripotential-theory/sec:history-geometry": "ef0157c6451434cda738ef8c8041a85eb6376287cef3d2b39781130d52c5437c"
+    "non-kahler-pluripotential-theory/sec:history-geometry": "ef0157c6451434cda738ef8c8041a85eb6376287cef3d2b39781130d52c5437c",
+    "demailly-complex-geometry/sec:demailly-history-currents": "1b7703454c006be0174d721d9fcd35114de3c5f7c89d839c3df32ea15d0581fe",
+    "demailly-complex-geometry/sec:demailly-history-products": "ee78d8a5af7356e14d9a4dc32a202e1445b6c25109ea4c99947b1025823d7de1",
+    "demailly-complex-geometry/sec:demailly-history-spaces": "45d39bf1e6f8e41dc88cf4261de6bf1c1fd5b75f18a501c56b62a7d8791c405e",
+    "demailly-complex-geometry/sec:demailly-history-cohomology": "da7630becb5630c5051aa45140a617f924e14cf992a3988d97ee9487b596a9ad",
+    "demailly-complex-geometry/sec:demailly-history-hermitian": "fc3e09835f2f3adccd8a989fb24a50c8c4eeafac53dcbd293d2ee07cac5a2ee4",
+    "demailly-complex-geometry/sec:demailly-history-growth": "4459ce6d6d2be46f3a51ef1fd322d0f42ff0e0b05c941ef77a8f300fc0b21f3a"
   }
 }

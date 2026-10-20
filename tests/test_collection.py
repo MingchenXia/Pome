@@ -34,6 +34,19 @@ class CollectionTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             organize({"first": [record]}, self.config)
 
+    def test_canonical_kind_follows_the_preferred_statement(self):
+        self.config["topics"] = [{"slug": "potential-theory", "title": "Potential theory"}]
+        self.config["entries"] = [{"tag": "ABCD1234", "title": "A general result",
+            "topic": "potential-theory", "preferred": {"source": "general", "label": "thm:shared"},
+            "members": [{"source": s, "label": "thm:shared"} for s in ("special", "general")]}]
+        entries, _, links = organize({"special": [{**self.record, "kind": "corollary"}],
+                                    "general": [self.record]}, self.config)
+        canonical = entries["ABCD1234"]
+        self.assertEqual(canonical["kind"], "theorem")
+        self.assertEqual(canonical["variants"][0]["source"], "general")
+        self.assertEqual(canonical["variants"][1]["kind"], "corollary")
+        self.assertEqual(set(links.values()), {"ABCD1234"})
+
     def test_cross_references_use_global_routes_and_keep_source_status(self):
         variant = {**self.record, "source": "first", "html": '<h2><a href="/tag/1234ABCD"><span data-tag="1234ABCD">1.1</span></a></h2><p>$x&lt;y$ <a href="/bibliography/Author">citation</a></p>'}
         result = prepare_fragment(variant, {("first", "1234ABCD"): "ABCD1234"}, {("first", "Author"): "R0001"}, "../../")
