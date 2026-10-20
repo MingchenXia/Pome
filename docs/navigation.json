@@ -9677,6 +9677,213 @@
     "tag": "DBE978B1362A"
   },
   {
+    "route": "sections/polynomial-iterates-and-residual-mass",
+    "title": "6.49 Polynomial iterates and residual mass",
+    "chapter": "singularities-regularization",
+    "section": "polynomial-iterates-and-residual-mass"
+  },
+  {
+    "route": "tag/CE621FA6CE58",
+    "title": "Proposition 6.49.1",
+    "chapter": "singularities-regularization",
+    "section": "polynomial-iterates-and-residual-mass",
+    "tag": "CE621FA6CE58"
+  },
+  {
+    "route": "tag/A9F7692E230F",
+    "title": "Corollary 6.49.2",
+    "chapter": "singularities-regularization",
+    "section": "polynomial-iterates-and-residual-mass",
+    "tag": "A9F7692E230F"
+  },
+  {
+    "route": "tag/54F98147B130",
+    "title": "Definition 6.49.3",
+    "chapter": "singularities-regularization",
+    "section": "polynomial-iterates-and-residual-mass",
+    "tag": "54F98147B130"
+  },
+  {
+    "route": "tag/DDF1EA12A4BF",
+    "title": "Proposition 6.49.4",
+    "chapter": "singularities-regularization",
+    "section": "polynomial-iterates-and-residual-mass",
+    "tag": "DDF1EA12A4BF"
+  },
+  {
+    "route": "sections/isolated-singularities-with-zero-lelong-number",
+    "title": "6.50 Isolated singularities with zero Lelong number",
+    "chapter": "singularities-regularization",
+    "section": "isolated-singularities-with-zero-lelong-number"
+  },
+  {
+    "route": "tag/E147430C1211",
+    "title": "Equation 6.50.1",
+    "chapter": "singularities-regularization",
+    "section": "isolated-singularities-with-zero-lelong-number",
+    "tag": "E147430C1211"
+  },
+  {
+    "route": "tag/9D91DC8AF289",
+    "title": "Lemma 6.50.2",
+    "chapter": "singularities-regularization",
+    "section": "isolated-singularities-with-zero-lelong-number",
+    "tag": "9D91DC8AF289"
+  },
+  {
+    "route": "tag/2BCC4F872AFE",
+    "title": "Equation 6.50.3",
+    "chapter": "singularities-regularization",
+    "section": "isolated-singularities-with-zero-lelong-number",
+    "tag": "2BCC4F872AFE"
+  },
+  {
+    "route": "tag/E8FFA55A2EB8",
+    "title": "Equation 6.50.4",
+    "chapter": "singularities-regularization",
+    "section": "isolated-singularities-with-zero-lelong-number",
+    "tag": "E8FFA55A2EB8"
+  },
+  {
+    "route": "tag/EA0EF7A5BB47",
+    "title": "Lemma 6.50.5",
+    "chapter": "singularities-regularization",
+    "section": "isolated-singularities-with-zero-lelong-number",
+    "tag": "EA0EF7A5BB47"
+  },
+  {
+    "route": "tag/E3DD353DBBC8",
+    "title": "Equation 6.50.6",
+    "chapter": "singularities-regularization",
+    "section": "isolated-singularities-with-zero-lelong-number",
+    "tag": "E3DD353DBBC8"
+  },
+  {
+    "route": "tag/0394B9F53F55",
+    "title": "Equation 6.50.7",
+    "chapter": "singularities-regularization",
+    "section": "isolated-singularities-with-zero-lelong-number",
+    "tag": "0394B9F53F55"
+  },
+  {
+    "route": "tag/4058F9C6D2AC",
+    "title": "Proposition 6.50.8",
+    "chapter": "singularities-regularization",
+    "section": "isolated-singularities-with-zero-lelong-number",
+    "tag": "4058F9C6D2AC"
+  },
+  {
+    "route": "tag/1D1AC8862EEA",
+    "title": "Lemma 6.50.9",
+    "chapter": "singularities-regularization",
+    "section": "isolated-singularities-with-zero-lelong-number",
+    "tag": "1D1AC8862EEA"
+  },
+  {
+    "route": "tag/EA1C01079C02",
+    "title": "Equation 6.50.10",
+    "chapter": "singularities-regularization",
+    "section": "isolated-singularities-with-zero-lelong-number",
+    "tag": "EA1C01079C02"
+  },
+  {
+    "route": "tag/367D36FB36A0",
+    "title": "Theorem 6.50.11",
+    "chapter": "singularities-regularization",
+    "section": "isolated-singularities-with-zero-lelong-number",
+    "tag": "367D36FB36A0"
+  },
+  {
+    "route": "tag/FC2BE4EE5D1B",
+    "title": "Equation 6.50.12",
+    "chapter": "singularities-regularization",
+    "section": "isolated-singularities-with-zero-lelong-number",
+    "tag": "FC2BE4EE5D1B"
+  },
+  {
+    "route": "tag/B8EC48BF7AB0",
+    "title": "6.50.13 Isolated poles in higher dimension",
+    "chapter": "singularities-regularization",
+    "section": "isolated-singularities-with-zero-lelong-number",
+    "tag": "B8EC48BF7AB0"
+  },
+  {
+    "route": "tag/ECF3A574075A",
+    "title": "Corollary 6.50.14",
+    "chapter": "singularities-regularization",
+    "section": "isolated-singularities-with-zero-lelong-number",
+    "tag": "ECF3A574075A"
+  },
+  {
+    "route": "sections/radial-growth-and-residual-mass",
+    "title": "6.51 Radial growth and residual mass",
+    "chapter": "singularities-regularization",
+    "section": "radial-growth-and-residual-mass"
+  },
+  {
+    "route": "tag/BE4AE95DA940",
+    "title": "Lemma 6.51.1",
+    "chapter": "singularities-regularization",
+    "section": "radial-growth-and-residual-mass",
+    "tag": "BE4AE95DA940"
+  },
+  {
+    "route": "tag/BE95E4FF4E8F",
+    "title": "Equation 6.51.2",
+    "chapter": "singularities-regularization",
+    "section": "radial-growth-and-residual-mass",
+    "tag": "BE95E4FF4E8F"
+  },
+  {
+    "route": "tag/F85BD40ACE22",
+    "title": "Definition 6.51.3",
+    "chapter": "singularities-regularization",
+    "section": "radial-growth-and-residual-mass",
+    "tag": "F85BD40ACE22"
+  },
+  {
+    "route": "tag/30125A1CC71C",
+    "title": "Lemma 6.51.4",
+    "chapter": "singularities-regularization",
+    "section": "radial-growth-and-residual-mass",
+    "tag": "30125A1CC71C"
+  },
+  {
+    "route": "tag/47C2B29CFB70",
+    "title": "Equation 6.51.5",
+    "chapter": "singularities-regularization",
+    "section": "radial-growth-and-residual-mass",
+    "tag": "47C2B29CFB70"
+  },
+  {
+    "route": "tag/E8283D7F161B",
+    "title": "Theorem 6.51.6",
+    "chapter": "singularities-regularization",
+    "section": "radial-growth-and-residual-mass",
+    "tag": "E8283D7F161B"
+  },
+  {
+    "route": "tag/A7C29032BBE0",
+    "title": "Proposition 6.51.7",
+    "chapter": "singularities-regularization",
+    "section": "radial-growth-and-residual-mass",
+    "tag": "A7C29032BBE0"
+  },
+  {
+    "route": "tag/9815D2DE80DF",
+    "title": "6.51.8 Asymmetry of an isolated pole",
+    "chapter": "singularities-regularization",
+    "section": "radial-growth-and-residual-mass",
+    "tag": "9815D2DE80DF"
+  },
+  {
+    "route": "tag/2B4173DC2F80",
+    "title": "Corollary 6.51.9",
+    "chapter": "singularities-regularization",
+    "section": "radial-growth-and-residual-mass",
+    "tag": "2B4173DC2F80"
+  },
+  {
     "route": "chapters/local-monge-ampere",
     "title": "7 Local Monge–Ampère theory and capacity",
     "chapter": "local-monge-ampere"
@@ -11104,6 +11311,47 @@
     "chapter": "local-monge-ampere",
     "section": "quantitative-chern-levine-nirenberg-bounds",
     "tag": "EAB247B80433"
+  },
+  {
+    "route": "sections/separated-maximum-monge-ampere-products",
+    "title": "7.33 Separated maximum Monge–Ampère products",
+    "chapter": "local-monge-ampere",
+    "section": "separated-maximum-monge-ampere-products"
+  },
+  {
+    "route": "tag/11B8D65C2D19",
+    "title": "Lemma 7.33.1",
+    "chapter": "local-monge-ampere",
+    "section": "separated-maximum-monge-ampere-products",
+    "tag": "11B8D65C2D19"
+  },
+  {
+    "route": "tag/32CB78FC0E95",
+    "title": "Equation 7.33.2",
+    "chapter": "local-monge-ampere",
+    "section": "separated-maximum-monge-ampere-products",
+    "tag": "32CB78FC0E95"
+  },
+  {
+    "route": "tag/F8604F30C7C6",
+    "title": "Theorem 7.33.3",
+    "chapter": "local-monge-ampere",
+    "section": "separated-maximum-monge-ampere-products",
+    "tag": "F8604F30C7C6"
+  },
+  {
+    "route": "tag/BD9883DFED0B",
+    "title": "Equation 7.33.4",
+    "chapter": "local-monge-ampere",
+    "section": "separated-maximum-monge-ampere-products",
+    "tag": "BD9883DFED0B"
+  },
+  {
+    "route": "tag/5E25FA94CA28",
+    "title": "Equation 7.33.5",
+    "chapter": "local-monge-ampere",
+    "section": "separated-maximum-monge-ampere-products",
+    "tag": "5E25FA94CA28"
   },
   {
     "route": "chapters/complex-hessian-equations",
@@ -51019,6 +51267,10 @@
   {
     "route": "sources/transcendental-positive-cones",
     "title": "Transcendental positive cones"
+  },
+  {
+    "route": "sources/isolated-plurisubharmonic-singularities",
+    "title": "Isolated plurisubharmonic singularities"
   },
   {
     "route": "search",
