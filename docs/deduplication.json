@@ -141,7 +141,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "187A0EF4",
           "label": "prop:logarithmic-full-mass",
-          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
+          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
         }
       ]
     },
@@ -161,6 +161,25 @@
           "tag": "A430B5F7",
           "label": "def:rooftop",
           "revision": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
+        }
+      ]
+    },
+    {
+      "tag": "D73EBFFE10D2",
+      "title": "Closed order-zero currents on analytic support",
+      "note": "The general statement classifies closed complex order-zero currents on analytic support of the appropriate dimension, including the real (1,1) case.",
+      "sources": [
+        {
+          "book": "demailly-complex-geometry",
+          "tag": "F8F9292A",
+          "label": "cor:complex-analytic-supported-cycle-current",
+          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
+        },
+        {
+          "book": "foundations-of-pluripotential-theory",
+          "tag": "1267E89C",
+          "label": "thm:analytic-order-zero-support",
+          "revision": "da2be417c7b38b386d0b688251cf4978df94d682"
         }
       ]
     },
@@ -318,9 +337,15 @@
     },
     {
       "tag": "1BBBF8109419",
-      "title": "Small pole local products",
-      "note": "The Klimek variant proves only the isolated-point self-product and its continuity by an annular bounded-product argument. The preferred theorem also covers mixed products, weighted products and Hausdorff-zero pole sets. The special-case proof does not verify those broader conclusions.",
+      "title": "Classical products with controlled unbounded loci",
+      "note": "The general statement permits a positive closed base current and Hausdorff-small intersections of unbounded loci. The other variants assume a common small pole set or an isolated pole, with their narrower hypotheses retained. These classical products may retain mass at poles.",
       "sources": [
+        {
+          "book": "demailly-complex-geometry",
+          "tag": "F96C3380",
+          "label": "thm:classical-hausdorff-intersection-products",
+          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
+        },
         {
           "book": "non-kahler-pluripotential-theory",
           "tag": "2291BBE0",
@@ -331,7 +356,13 @@
           "book": "klimek-pluripotential-theory",
           "tag": "C38D699A",
           "label": "prop:isolated-point-ma-extension",
-          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
+          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
+        },
+        {
+          "book": "demailly-complex-geometry",
+          "tag": "BC66C1B2",
+          "label": "cor:classical-products-hausdorff-one-null",
+          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
         }
       ]
     },
@@ -350,13 +381,70 @@
           "book": "klimek-pluripotential-theory",
           "tag": "849438A9",
           "label": "prop:isolated-residual-comparison-reduction",
-          "revision": "837a40e855a63c742ac1cdcb35270c1abeef804d"
+          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
+        }
+      ]
+    },
+    {
+      "tag": "2CCDF84C1B3C",
+      "title": "Partial-rank semipositive line-bundle vanishing",
+      "note": "The curvature-rank statement includes line bundles that are definite at one point as the case s=1.",
+      "sources": [
+        {
+          "book": "demailly-complex-geometry",
+          "tag": "77A7269F",
+          "label": "thm:semipositive-partial-top-degree-vanishing",
+          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
+        },
+        {
+          "book": "demailly-complex-geometry",
+          "tag": "40277D24",
+          "label": "cor:one-point-line-kodaira-vanishing",
+          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
+        }
+      ]
+    },
+    {
+      "tag": "24324B70E319",
+      "title": "Vector bundles and locally free function-sheaf modules",
+      "note": "The function-sheaf statement includes smooth and holomorphic vector bundles as special cases.",
+      "sources": [
+        {
+          "book": "demailly-complex-geometry",
+          "tag": "FFBD8F68",
+          "label": "prop:function-sheaf-bundle-equivalence",
+          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
+        },
+        {
+          "book": "demailly-complex-geometry",
+          "tag": "B7731948",
+          "label": "prop:bundles-locally-free-modules",
+          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
+        }
+      ]
+    },
+    {
+      "tag": "5AFFEC4D76E3",
+      "title": "Principal symbols and formal adjoints",
+      "note": "These variants describe intrinsic principal symbols and formal adjoints. The general statement also gives the polynomial obtained by conjugation with an exponential.",
+      "sources": [
+        {
+          "book": "demailly-complex-geometry",
+          "tag": "66782E9F",
+          "label": "prop:general-differential-symbol-adjoint",
+          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
+        },
+        {
+          "book": "demailly-complex-geometry",
+          "tag": "FD3C4290",
+          "label": "prop:intrinsic-symbol-adjoint-calculus",
+          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
         }
       ]
     }
   ],
-  "duplicate_entries_unified": 20,
+  "duplicate_entries_unified": 26,
   "numbered_clauses_in_parent_statements": 405,
-  "source_tags": 6642,
-  "canonical_entries": 6129
+  "source_tags": 7755,
+  "canonical_entries": 7231
 }

@@ -1,11 +1,11 @@
 {
-  "built_at": "2026-10-19T00:45:30.943765+00:00",
-  "publishing_commit": "471c1c8e78ec965baebc731cca5964c7ec46e3d8",
+  "built_at": "2026-10-20T10:21:16.017400+00:00",
+  "publishing_commit": "ff1229a25c078d977dd70ad2e6b7e9d8837bc5b1",
   "sources": [
     {
       "repository": "https://github.com/MingchenXia/Gerby-Literature",
       "ref": "main",
-      "commit": "837a40e855a63c742ac1cdcb35270c1abeef804d"
+      "commit": "d60103e0a8952e33e5a029f32c1811ab4907a628"
     },
     {
       "repository": "https://github.com/MingchenXia/SGPT",
