@@ -22,9 +22,11 @@ The collection integrates the following sources, tracking their `main` branches:
 
 - **Transcendental positive cones**, the reviewed supplement after Tosatti with BDPP foundations, volume variation, divisorial restricted volumes and balanced-cone duality. The arguments and prerequisites join the existing subjects, with major attribution in the project history.
 
+- **Isolated plurisubharmonic singularities**, the reviewed supplement after Li–Xia on isolated poles with zero Lelong number and positive residual Monge–Ampère mass. Explicit polynomial iterates, separated maximum products and finite logarithmic thresholds join the existing subjects; major attribution belongs in the project history.
+
 Only each manuscript's active input graph is included. Excluded drafts and private research material are not exported.
 
-The collection has **25 shared chapters**, ordered by mathematical subject across the sources. Chapter 1 contains only conventions; manuscript prefaces, acknowledgments, introductions, and part overviews are omitted. Reader numbering follows the current Pome chapters and sections; source metadata and exact revisions are collected under Sources rather than repeated beside every statement. The chapter structure is curated independently of the original tables of contents. The historical chapter follows the development across the collection in ten connected sections; original source notes remain under Sources, and formally stated questions belong to the problems chapter. Existing book and topic URLs continue to resolve.
+The collection has **25 shared chapters**, ordered by mathematical subject across the sources. Chapter 1 contains only conventions; manuscript prefaces, acknowledgments, introductions, and part overviews are omitted. Reader numbering follows the current Pome chapters and sections; source metadata and exact revisions are collected under Sources rather than repeated beside every statement. The chapter structure is curated independently of the original tables of contents. The historical chapter follows the development across the collection in connected subject sections; original source notes remain under Sources, and formally stated questions belong to the problems chapter. Existing book and topic URLs continue to resolve.
 
 Reviewed duplicates have one canonical entry and one search result. Alternative source wording, proofs, and formalization badges remain accessible within that entry. Numbered clauses stay inside their parent statements, retaining their own tags and anchors; formalization status belongs to the complete parent statement. `collection.json` records each reviewed statement fingerprint: a changed statement requires a new review before it can be merged again. Results with different hypotheses remain separate.
 
@@ -96,7 +98,7 @@ Open `http://localhost:8000`. With authorized push access to `MingchenXia/Pome`,
 .venv/bin/python scripts/update.py
 ```
 
-The on-request updater requires a clean `main` checkout and uses a fast-forward pull. It never overwrites uncommitted edits. To preview an existing source checkout, set `FOUNDATIONS_SOURCE_DIR`, `SGPT_SOURCE_DIR`, `NON_KAHLER_SOURCE_DIR`, or `LITERATURE_SOURCE_DIR` to its absolute path before building; requested update checks ignore preview overrides and fetch the tracked sources afresh.
+The on-request updater requires a clean `main` checkout and uses a fast-forward pull. It never overwrites uncommitted edits. To preview an existing source checkout, set its `checkout_env` from `books.json` to the absolute path before building. The isolated-pole supplement uses `ISOLATED_PSH_SOURCE_DIR`; all five Gerby-Literature contributions can point to the same clean source checkout. Requested update checks ignore preview overrides and fetch the tracked sources afresh.
 
 ## Pome on GitHub Pages
 

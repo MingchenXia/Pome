@@ -75,6 +75,17 @@
       "checkout_env": "POSITIVE_CONES_SOURCE_DIR",
       "visibility": "private",
       "status": "published"
+    },
+    {
+      "slug": "isolated-plurisubharmonic-singularities",
+      "title": "Isolated plurisubharmonic singularities",
+      "author": "Gerby Literature",
+      "repository": "https://github.com/MingchenXia/Gerby-Literature",
+      "ref": "main",
+      "entrypoint": "contributions/isolated-plurisubharmonic-singularities.tex",
+      "checkout_env": "ISOLATED_PSH_SOURCE_DIR",
+      "visibility": "private",
+      "status": "published"
     }
   ]
 }

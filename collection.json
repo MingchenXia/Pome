@@ -682,6 +682,26 @@
       "slug": "balanced-forms-and-movable-classes",
       "title": "Balanced forms and movable classes",
       "description": ""
+    },
+    {
+      "slug": "polynomial-iterates-and-residual-mass",
+      "title": "Polynomial iterates and residual mass",
+      "description": ""
+    },
+    {
+      "slug": "isolated-singularities-with-zero-lelong-number",
+      "title": "Isolated singularities with zero Lelong number",
+      "description": ""
+    },
+    {
+      "slug": "separated-maximum-monge-ampere-products",
+      "title": "Separated maximum Monge–Ampère products",
+      "description": ""
+    },
+    {
+      "slug": "radial-growth-and-residual-mass",
+      "title": "Radial growth and residual mass",
+      "description": ""
     }
   ],
   "entries": [
@@ -1278,7 +1298,10 @@
         "relative-smoothing-with-a-variable-strict-lower-bound",
         "global-decreasing-smooth-approximation",
         "complete-metric-estimates-and-holomorphic-division",
-        "lelong-densities-generalized-masses-and-multiplicity"
+        "lelong-densities-generalized-masses-and-multiplicity",
+        "polynomial-iterates-and-residual-mass",
+        "isolated-singularities-with-zero-lelong-number",
+        "radial-growth-and-residual-mass"
       ]
     },
     {
@@ -1301,7 +1324,8 @@
         "generalized-products-and-their-associated-bounded-products",
         "symmetric-green-envelopes-on-unbounded-domains",
         "classical-products-with-controlled-unbounded-loci",
-        "quantitative-chern-levine-nirenberg-bounds"
+        "quantitative-chern-levine-nirenberg-bounds",
+        "separated-maximum-monge-ampere-products"
       ]
     },
     {
