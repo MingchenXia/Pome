@@ -447,7 +447,15 @@ def build_collection(books, destination, configuration):
     footnotes = number_notes(note_candidates)
     for topic, section in reader.sections.items():
         content = f'<h1>{section["number"]} {escape(section["title"])}{tag_code(section["tag"])}</h1>'
-        content += continuous_section(section["entries"], entries, roots, sources, source_tags, reference_map, "../../", anchors, reader.numbering, footnotes)
+        if section["entries"]:
+            content += continuous_section(section["entries"], entries, roots, sources, source_tags, reference_map, "../../", anchors, reader.numbering, footnotes)
+        subdivisions = configuration.get("section_promotions", {}).get(topic, [])
+        if subdivisions:
+            rows = []
+            for subdivision in subdivisions:
+                child = reader.sections[subdivision["slug"]]
+                rows.append(f'<li><a href="../{subdivision["slug"]}/">{child["number"]} {escape(child["title"])}</a>{tag_code(child["tag"])}</li>')
+            content += '<nav aria-label="Sections in this subject"><ol class="section-list">' + "".join(rows) + '</ol></nav>'
         write("sections/" + topic, content, section["title"], "../../")
         if section["tag"] not in entries:
             redirect(destination / "tag" / section["tag"] / "index.html", destination / "sections" / topic / "index.html", destination)
