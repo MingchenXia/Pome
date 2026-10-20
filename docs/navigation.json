@@ -2033,6 +2033,47 @@
     "tag": "BBEB233BF8A4"
   },
   {
+    "route": "sections/heat-kernels-on-compact-manifolds",
+    "title": "3.10 Heat kernels on compact manifolds",
+    "chapter": "classical-potentials",
+    "section": "heat-kernels-on-compact-manifolds"
+  },
+  {
+    "route": "tag/126365F8EBD6",
+    "title": "Lemma 3.10.1",
+    "chapter": "classical-potentials",
+    "section": "heat-kernels-on-compact-manifolds",
+    "tag": "126365F8EBD6"
+  },
+  {
+    "route": "tag/73DAD6727BB9",
+    "title": "Equation 3.10.2",
+    "chapter": "classical-potentials",
+    "section": "heat-kernels-on-compact-manifolds",
+    "tag": "73DAD6727BB9"
+  },
+  {
+    "route": "tag/A5D366E25358",
+    "title": "Equation 3.10.3",
+    "chapter": "classical-potentials",
+    "section": "heat-kernels-on-compact-manifolds",
+    "tag": "A5D366E25358"
+  },
+  {
+    "route": "tag/3E18288F9091",
+    "title": "Equation 3.10.4",
+    "chapter": "classical-potentials",
+    "section": "heat-kernels-on-compact-manifolds",
+    "tag": "3E18288F9091"
+  },
+  {
+    "route": "tag/56A174D59425",
+    "title": "Lemma 3.10.5",
+    "chapter": "classical-potentials",
+    "section": "heat-kernels-on-compact-manifolds",
+    "tag": "56A174D59425"
+  },
+  {
     "route": "chapters/capacity-fine-topology",
     "title": "4 Energy, capacity, and fine topology",
     "chapter": "capacity-fine-topology"
@@ -7048,6 +7089,94 @@
     "chapter": "psh-positive-currents",
     "section": "positive-current-coefficient-bounds-and-support-maxima",
     "tag": "949B825CA873"
+  },
+  {
+    "route": "sections/null-supported-kahler-currents",
+    "title": "5.64 Null-supported Kähler currents",
+    "chapter": "psh-positive-currents",
+    "section": "null-supported-kahler-currents"
+  },
+  {
+    "route": "tag/0B34D9269CEA",
+    "title": "Lemma 5.64.1",
+    "chapter": "psh-positive-currents",
+    "section": "null-supported-kahler-currents",
+    "tag": "0B34D9269CEA"
+  },
+  {
+    "route": "tag/E682ACE02BAF",
+    "title": "Theorem 5.64.2",
+    "chapter": "psh-positive-currents",
+    "section": "null-supported-kahler-currents",
+    "tag": "E682ACE02BAF"
+  },
+  {
+    "route": "tag/7D6EE0FC8776",
+    "title": "Lemma 5.64.3",
+    "chapter": "psh-positive-currents",
+    "section": "null-supported-kahler-currents",
+    "tag": "7D6EE0FC8776"
+  },
+  {
+    "route": "tag/3149285306C2",
+    "title": "Corollary 5.64.4",
+    "chapter": "psh-positive-currents",
+    "section": "null-supported-kahler-currents",
+    "tag": "3149285306C2"
+  },
+  {
+    "route": "sections/local-mass-bounds-for-pluriharmonic-currents",
+    "title": "5.65 Local mass bounds for pluriharmonic currents",
+    "chapter": "psh-positive-currents",
+    "section": "local-mass-bounds-for-pluriharmonic-currents"
+  },
+  {
+    "route": "tag/64884C4CF78E",
+    "title": "Lemma 5.65.1 (Radial Jensen identity)",
+    "chapter": "psh-positive-currents",
+    "section": "local-mass-bounds-for-pluriharmonic-currents",
+    "tag": "64884C4CF78E"
+  },
+  {
+    "route": "tag/63CAD58A60D1",
+    "title": "Corollary 5.65.2 (Uniform local trace growth)",
+    "chapter": "psh-positive-currents",
+    "section": "local-mass-bounds-for-pluriharmonic-currents",
+    "tag": "63CAD58A60D1"
+  },
+  {
+    "route": "sections/heat-regularization-and-pluriharmonic-lifts",
+    "title": "5.66 Heat regularization and pluriharmonic lifts",
+    "chapter": "psh-positive-currents",
+    "section": "heat-regularization-and-pluriharmonic-lifts"
+  },
+  {
+    "route": "tag/6C160747A76B",
+    "title": "Lemma 5.66.1",
+    "chapter": "psh-positive-currents",
+    "section": "heat-regularization-and-pluriharmonic-lifts",
+    "tag": "6C160747A76B"
+  },
+  {
+    "route": "tag/157D8E84FB8C",
+    "title": "Theorem 5.66.2",
+    "chapter": "psh-positive-currents",
+    "section": "heat-regularization-and-pluriharmonic-lifts",
+    "tag": "157D8E84FB8C"
+  },
+  {
+    "route": "tag/8DC581C42A65",
+    "title": "Equation 5.66.3",
+    "chapter": "psh-positive-currents",
+    "section": "heat-regularization-and-pluriharmonic-lifts",
+    "tag": "8DC581C42A65"
+  },
+  {
+    "route": "tag/A7A07F9B6BA6",
+    "title": "Equation 5.66.4",
+    "chapter": "psh-positive-currents",
+    "section": "heat-regularization-and-pluriharmonic-lifts",
+    "tag": "A7A07F9B6BA6"
   },
   {
     "route": "chapters/singularities-regularization",
@@ -20480,6 +20609,267 @@
     "tag": "8AE70D2D36EE"
   },
   {
+    "route": "sections/determinant-bounds-and-gauduchon-separation",
+    "title": "10.97 Determinant bounds and Gauduchon separation",
+    "chapter": "positivity-cohomology",
+    "section": "determinant-bounds-and-gauduchon-separation"
+  },
+  {
+    "route": "tag/EFEC3AC4D264",
+    "title": "Lemma 10.97.1",
+    "chapter": "positivity-cohomology",
+    "section": "determinant-bounds-and-gauduchon-separation",
+    "tag": "EFEC3AC4D264"
+  },
+  {
+    "route": "tag/D539CFA0975E",
+    "title": "Equation 10.97.2",
+    "chapter": "positivity-cohomology",
+    "section": "determinant-bounds-and-gauduchon-separation",
+    "tag": "D539CFA0975E"
+  },
+  {
+    "route": "tag/A0C0255FB9BF",
+    "title": "Equation 10.97.3",
+    "chapter": "positivity-cohomology",
+    "section": "determinant-bounds-and-gauduchon-separation",
+    "tag": "A0C0255FB9BF"
+  },
+  {
+    "route": "tag/970E2C8817B1",
+    "title": "Proposition 10.97.4",
+    "chapter": "positivity-cohomology",
+    "section": "determinant-bounds-and-gauduchon-separation",
+    "tag": "970E2C8817B1"
+  },
+  {
+    "route": "tag/F1F6EF454245",
+    "title": "Equation 10.97.5",
+    "chapter": "positivity-cohomology",
+    "section": "determinant-bounds-and-gauduchon-separation",
+    "tag": "F1F6EF454245"
+  },
+  {
+    "route": "tag/BDB8ECE5CC82",
+    "title": "Equation 10.97.6",
+    "chapter": "positivity-cohomology",
+    "section": "determinant-bounds-and-gauduchon-separation",
+    "tag": "BDB8ECE5CC82"
+  },
+  {
+    "route": "tag/891A615E98CC",
+    "title": "Equation 10.97.7",
+    "chapter": "positivity-cohomology",
+    "section": "determinant-bounds-and-gauduchon-separation",
+    "tag": "891A615E98CC"
+  },
+  {
+    "route": "tag/AF202F866E29",
+    "title": "Equation 10.97.8",
+    "chapter": "positivity-cohomology",
+    "section": "determinant-bounds-and-gauduchon-separation",
+    "tag": "AF202F866E29"
+  },
+  {
+    "route": "tag/D0CFC4418A8D",
+    "title": "Remark 10.97.9",
+    "chapter": "positivity-cohomology",
+    "section": "determinant-bounds-and-gauduchon-separation",
+    "tag": "D0CFC4418A8D"
+  },
+  {
+    "route": "sections/transcendental-morse-inequalities",
+    "title": "10.98 Transcendental Morse inequalities",
+    "chapter": "positivity-cohomology",
+    "section": "transcendental-morse-inequalities"
+  },
+  {
+    "route": "tag/60E6DED87465",
+    "title": "Equation 10.98.1",
+    "chapter": "positivity-cohomology",
+    "section": "transcendental-morse-inequalities",
+    "tag": "60E6DED87465"
+  },
+  {
+    "route": "tag/DE32EEA596CD",
+    "title": "Theorem 10.98.2",
+    "chapter": "positivity-cohomology",
+    "section": "transcendental-morse-inequalities",
+    "tag": "DE32EEA596CD"
+  },
+  {
+    "route": "tag/74CB0E2B99CA",
+    "title": "Equation 10.98.3",
+    "chapter": "positivity-cohomology",
+    "section": "transcendental-morse-inequalities",
+    "tag": "74CB0E2B99CA"
+  },
+  {
+    "route": "tag/FE1FC41D41AE",
+    "title": "Equation 10.98.4",
+    "chapter": "positivity-cohomology",
+    "section": "transcendental-morse-inequalities",
+    "tag": "FE1FC41D41AE"
+  },
+  {
+    "route": "tag/BE76273E23F2",
+    "title": "Equation 10.98.5",
+    "chapter": "positivity-cohomology",
+    "section": "transcendental-morse-inequalities",
+    "tag": "BE76273E23F2"
+  },
+  {
+    "route": "tag/08054B9DCC9E",
+    "title": "Equation 10.98.6",
+    "chapter": "positivity-cohomology",
+    "section": "transcendental-morse-inequalities",
+    "tag": "08054B9DCC9E"
+  },
+  {
+    "route": "tag/58B9EC1F5AF1",
+    "title": "Equation 10.98.7",
+    "chapter": "positivity-cohomology",
+    "section": "transcendental-morse-inequalities",
+    "tag": "58B9EC1F5AF1"
+  },
+  {
+    "route": "tag/1BAC4BA78448",
+    "title": "Equation 10.98.8",
+    "chapter": "positivity-cohomology",
+    "section": "transcendental-morse-inequalities",
+    "tag": "1BAC4BA78448"
+  },
+  {
+    "route": "tag/CBD8309C9C77",
+    "title": "Equation 10.98.9",
+    "chapter": "positivity-cohomology",
+    "section": "transcendental-morse-inequalities",
+    "tag": "CBD8309C9C77"
+  },
+  {
+    "route": "sections/variations-of-the-volume",
+    "title": "10.99 Variations of the volume",
+    "chapter": "positivity-cohomology",
+    "section": "variations-of-the-volume"
+  },
+  {
+    "route": "tag/B05D26A510EC",
+    "title": "Corollary 10.99.1 (Volume concavity and mixed nef bounds)",
+    "chapter": "positivity-cohomology",
+    "section": "variations-of-the-volume",
+    "tag": "B05D26A510EC"
+  },
+  {
+    "route": "tag/653F016945FF",
+    "title": "Equation 10.99.2",
+    "chapter": "positivity-cohomology",
+    "section": "variations-of-the-volume",
+    "tag": "653F016945FF"
+  },
+  {
+    "route": "tag/1990C9505835",
+    "title": "Equation 10.99.3",
+    "chapter": "positivity-cohomology",
+    "section": "variations-of-the-volume",
+    "tag": "1990C9505835"
+  },
+  {
+    "route": "tag/318ABE32B25C",
+    "title": "Lemma 10.99.4 (A cone estimate)",
+    "chapter": "positivity-cohomology",
+    "section": "variations-of-the-volume",
+    "tag": "318ABE32B25C"
+  },
+  {
+    "route": "tag/D91511968417",
+    "title": "Lemma 10.99.5",
+    "chapter": "positivity-cohomology",
+    "section": "variations-of-the-volume",
+    "tag": "D91511968417"
+  },
+  {
+    "route": "tag/64857FC6958D",
+    "title": "Lemma 10.99.6 (Uniform lower variation)",
+    "chapter": "positivity-cohomology",
+    "section": "variations-of-the-volume",
+    "tag": "64857FC6958D"
+  },
+  {
+    "route": "tag/082AC53CCDEB",
+    "title": "Equation 10.99.7",
+    "chapter": "positivity-cohomology",
+    "section": "variations-of-the-volume",
+    "tag": "082AC53CCDEB"
+  },
+  {
+    "route": "tag/BF3A71BBF47B",
+    "title": "Theorem 10.99.8 (Differentiability and local regularity of volume)",
+    "chapter": "positivity-cohomology",
+    "section": "variations-of-the-volume",
+    "tag": "BF3A71BBF47B"
+  },
+  {
+    "route": "tag/0F43ABDC6E3C",
+    "title": "Equation 10.99.9",
+    "chapter": "positivity-cohomology",
+    "section": "variations-of-the-volume",
+    "tag": "0F43ABDC6E3C"
+  },
+  {
+    "route": "tag/1C86B2A1F465",
+    "title": "Corollary 10.99.10 (Local Lipschitz continuity on the whole class space)",
+    "chapter": "positivity-cohomology",
+    "section": "variations-of-the-volume",
+    "tag": "1C86B2A1F465"
+  },
+  {
+    "route": "tag/A4F489BD4673",
+    "title": "Theorem 10.99.11 (Orthogonality)",
+    "chapter": "positivity-cohomology",
+    "section": "variations-of-the-volume",
+    "tag": "A4F489BD4673"
+  },
+  {
+    "route": "tag/2CF5B19E1843",
+    "title": "Equation 10.99.12",
+    "chapter": "positivity-cohomology",
+    "section": "variations-of-the-volume",
+    "tag": "2CF5B19E1843"
+  },
+  {
+    "route": "sections/dual-positive-cones",
+    "title": "10.100 Dual positive cones",
+    "chapter": "positivity-cohomology",
+    "section": "dual-positive-cones"
+  },
+  {
+    "route": "tag/DF6FA97EF816",
+    "title": "Theorem 10.100.1 (Duality and single-power witnesses)",
+    "chapter": "positivity-cohomology",
+    "section": "dual-positive-cones",
+    "tag": "DF6FA97EF816"
+  },
+  {
+    "route": "sections/balanced-forms-and-movable-classes",
+    "title": "10.101 Balanced forms and movable classes",
+    "chapter": "positivity-cohomology",
+    "section": "balanced-forms-and-movable-classes"
+  },
+  {
+    "route": "tag/255F6B93CCE9",
+    "title": "Lemma 10.101.1",
+    "chapter": "positivity-cohomology",
+    "section": "balanced-forms-and-movable-classes",
+    "tag": "255F6B93CCE9"
+  },
+  {
+    "route": "tag/8DC16DCAD850",
+    "title": "Proposition 10.101.2",
+    "chapter": "positivity-cohomology",
+    "section": "balanced-forms-and-movable-classes",
+    "tag": "8DC16DCAD850"
+  },
+  {
     "route": "chapters/hermitian-torsion",
     "title": "11 Hermitian geometry, torsion, and Gauduchon duality",
     "chapter": "hermitian-torsion"
@@ -28344,6 +28734,88 @@
     "chapter": "non-pluripolar-mass",
     "section": "volumes-under-bounded-mass--a-complete-space-over-varying-curve-backgrounds",
     "tag": "8918C681057E"
+  },
+  {
+    "route": "sections/absolutely-continuous-and-non-pluripolar-mass",
+    "title": "13.31 Absolutely continuous and non-pluripolar mass",
+    "chapter": "non-pluripolar-mass",
+    "section": "absolutely-continuous-and-non-pluripolar-mass"
+  },
+  {
+    "route": "tag/C7894CAD8593",
+    "title": "Lemma 13.31.1 (Absolutely continuous mass and non-pluripolar mass)",
+    "chapter": "non-pluripolar-mass",
+    "section": "absolutely-continuous-and-non-pluripolar-mass",
+    "tag": "C7894CAD8593"
+  },
+  {
+    "route": "tag/58A08DA1A586",
+    "title": "Equation 13.31.2",
+    "chapter": "non-pluripolar-mass",
+    "section": "absolutely-continuous-and-non-pluripolar-mass",
+    "tag": "58A08DA1A586"
+  },
+  {
+    "route": "tag/1E1CF458220D",
+    "title": "Corollary 13.31.3 (The lower determinant-volume comparison)",
+    "chapter": "non-pluripolar-mass",
+    "section": "absolutely-continuous-and-non-pluripolar-mass",
+    "tag": "1E1CF458220D"
+  },
+  {
+    "route": "tag/04768594F11F",
+    "title": "Corollary 13.31.4",
+    "chapter": "non-pluripolar-mass",
+    "section": "absolutely-continuous-and-non-pluripolar-mass",
+    "tag": "04768594F11F"
+  },
+  {
+    "route": "sections/numerical-positive-products",
+    "title": "13.32 Numerical positive products",
+    "chapter": "non-pluripolar-mass",
+    "section": "numerical-positive-products"
+  },
+  {
+    "route": "tag/B89CF500D374",
+    "title": "Lemma 13.32.1 (Strict gentle approximation of a minimal potential)",
+    "chapter": "non-pluripolar-mass",
+    "section": "numerical-positive-products",
+    "tag": "B89CF500D374"
+  },
+  {
+    "route": "tag/85B840A3A734",
+    "title": "Lemma 13.32.2 (Simultaneous exceptional correction)",
+    "chapter": "non-pluripolar-mass",
+    "section": "numerical-positive-products",
+    "tag": "85B840A3A734"
+  },
+  {
+    "route": "tag/AD36F0CA2A0B",
+    "title": "Theorem 13.32.3 (Same-class simultaneous approximation with finite tests)",
+    "chapter": "non-pluripolar-mass",
+    "section": "numerical-positive-products",
+    "tag": "AD36F0CA2A0B"
+  },
+  {
+    "route": "tag/9CAC26397732",
+    "title": "Definition 13.32.4 (The movable class in bidimension one)",
+    "chapter": "non-pluripolar-mass",
+    "section": "numerical-positive-products",
+    "tag": "9CAC26397732"
+  },
+  {
+    "route": "tag/37818757E0D6",
+    "title": "Proposition 13.32.5 (Numerical cofinality and movability)",
+    "chapter": "non-pluripolar-mass",
+    "section": "numerical-positive-products",
+    "tag": "37818757E0D6"
+  },
+  {
+    "route": "tag/B28D656FB542",
+    "title": "Proposition 13.32.6 (Order and boundary limits)",
+    "chapter": "non-pluripolar-mass",
+    "section": "numerical-positive-products",
+    "tag": "B28D656FB542"
   },
   {
     "route": "chapters/monge-ampere-equations",
@@ -36603,6 +37075,19 @@
     "tag": "BD99C3A4D1ED"
   },
   {
+    "route": "sections/pointwise-estimates-for-obstacle-envelopes",
+    "title": "16.44 Pointwise estimates for obstacle envelopes",
+    "chapter": "envelopes-models",
+    "section": "pointwise-estimates-for-obstacle-envelopes"
+  },
+  {
+    "route": "tag/8281BE55D0D3",
+    "title": "Lemma 16.44.1",
+    "chapter": "envelopes-models",
+    "section": "pointwise-estimates-for-obstacle-envelopes",
+    "tag": "8281BE55D0D3"
+  },
+  {
     "route": "chapters/energy-geodesics",
     "title": "17 Energy, geodesics, rays, and test curves",
     "chapter": "energy-geodesics"
@@ -39249,6 +39734,19 @@
     "chapter": "energy-geodesics",
     "section": "test-curves-and-legendre-duality",
     "tag": "FFC4E521CBE1"
+  },
+  {
+    "route": "sections/partial-legendre-transforms-and-monge-ampere-mass",
+    "title": "17.18 Partial Legendre transforms and Monge–Ampère mass",
+    "chapter": "energy-geodesics",
+    "section": "partial-legendre-transforms-and-monge-ampere-mass"
+  },
+  {
+    "route": "tag/C12669D1EC3D",
+    "title": "Lemma 17.18.1",
+    "chapter": "energy-geodesics",
+    "section": "partial-legendre-transforms-and-monge-ampere-mass",
+    "tag": "C12669D1EC3D"
   },
   {
     "route": "chapters/ideal-goodness",
@@ -46097,6 +46595,124 @@
     "tag": "ACC6D09EDDD9"
   },
   {
+    "route": "sections/divisorial-restricted-volumes",
+    "title": "20.8 Divisorial restricted volumes",
+    "chapter": "divisors-restriction",
+    "section": "divisorial-restricted-volumes"
+  },
+  {
+    "route": "tag/7E82D2724E2F",
+    "title": "Lemma 20.8.1",
+    "chapter": "divisors-restriction",
+    "section": "divisorial-restricted-volumes",
+    "tag": "7E82D2724E2F"
+  },
+  {
+    "route": "tag/D201C3DEDDE1",
+    "title": "Lemma 20.8.2",
+    "chapter": "divisors-restriction",
+    "section": "divisorial-restricted-volumes",
+    "tag": "D201C3DEDDE1"
+  },
+  {
+    "route": "tag/8DC7DAC31FB7",
+    "title": "Theorem 20.8.3",
+    "chapter": "divisors-restriction",
+    "section": "divisorial-restricted-volumes",
+    "tag": "8DC7DAC31FB7"
+  },
+  {
+    "route": "tag/419BFB5D9AD7",
+    "title": "Equation 20.8.4",
+    "chapter": "divisors-restriction",
+    "section": "divisorial-restricted-volumes",
+    "tag": "419BFB5D9AD7"
+  },
+  {
+    "route": "tag/9788B3886ACF",
+    "title": "Equation 20.8.5",
+    "chapter": "divisors-restriction",
+    "section": "divisorial-restricted-volumes",
+    "tag": "9788B3886ACF"
+  },
+  {
+    "route": "tag/8B17E6C92508",
+    "title": "Equation 20.8.6",
+    "chapter": "divisors-restriction",
+    "section": "divisorial-restricted-volumes",
+    "tag": "8B17E6C92508"
+  },
+  {
+    "route": "tag/6394FCEF80E1",
+    "title": "Equation 20.8.7",
+    "chapter": "divisors-restriction",
+    "section": "divisorial-restricted-volumes",
+    "tag": "6394FCEF80E1"
+  },
+  {
+    "route": "tag/93C6922E83B2",
+    "title": "Equation 20.8.8",
+    "chapter": "divisors-restriction",
+    "section": "divisorial-restricted-volumes",
+    "tag": "93C6922E83B2"
+  },
+  {
+    "route": "tag/F734890E8936",
+    "title": "Equation 20.8.9",
+    "chapter": "divisors-restriction",
+    "section": "divisorial-restricted-volumes",
+    "tag": "F734890E8936"
+  },
+  {
+    "route": "tag/A63B068E0942",
+    "title": "Equation 20.8.10",
+    "chapter": "divisors-restriction",
+    "section": "divisorial-restricted-volumes",
+    "tag": "A63B068E0942"
+  },
+  {
+    "route": "tag/90BA432FB977",
+    "title": "Lemma 20.8.11",
+    "chapter": "divisors-restriction",
+    "section": "divisorial-restricted-volumes",
+    "tag": "90BA432FB977"
+  },
+  {
+    "route": "tag/EB71078BBAFF",
+    "title": "Equation 20.8.12",
+    "chapter": "divisors-restriction",
+    "section": "divisorial-restricted-volumes",
+    "tag": "EB71078BBAFF"
+  },
+  {
+    "route": "tag/DA69AEE4E88A",
+    "title": "Lemma 20.8.13",
+    "chapter": "divisors-restriction",
+    "section": "divisorial-restricted-volumes",
+    "tag": "DA69AEE4E88A"
+  },
+  {
+    "route": "tag/B50F0B700160",
+    "title": "Lemma 20.8.14",
+    "chapter": "divisors-restriction",
+    "section": "divisorial-restricted-volumes",
+    "tag": "B50F0B700160"
+  },
+  {
+    "route": "tag/41D346BEA9CE",
+    "title": "Lemma 20.8.15",
+    "chapter": "divisors-restriction",
+    "section": "divisorial-restricted-volumes",
+    "tag": "41D346BEA9CE"
+  },
+  {
+    "route": "tag/7ED04B77FCC6",
+    "title": "Proposition 20.8.16",
+    "chapter": "divisors-restriction",
+    "section": "divisorial-restricted-volumes",
+    "tag": "7ED04B77FCC6"
+  },
+  {
     "route": "chapters/toric-convex",
     "title": "21 Toric and convex geometry",
     "chapter": "toric-convex"
@@ -50399,6 +51015,10 @@
   {
     "route": "sources/demailly-complex-geometry",
     "title": "Complex analysis, cohomology and differential geometry"
+  },
+  {
+    "route": "sources/transcendental-positive-cones",
+    "title": "Transcendental positive cones"
   },
   {
     "route": "search",

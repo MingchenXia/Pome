@@ -141,7 +141,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "187A0EF4",
           "label": "prop:logarithmic-full-mass",
-          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
+          "revision": "928f61f75af7faff10d4e59fc6e8daa23d8c87d5"
         }
       ]
     },
@@ -173,7 +173,7 @@
           "book": "demailly-complex-geometry",
           "tag": "F8F9292A",
           "label": "cor:complex-analytic-supported-cycle-current",
-          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
+          "revision": "928f61f75af7faff10d4e59fc6e8daa23d8c87d5"
         },
         {
           "book": "foundations-of-pluripotential-theory",
@@ -344,7 +344,7 @@
           "book": "demailly-complex-geometry",
           "tag": "F96C3380",
           "label": "thm:classical-hausdorff-intersection-products",
-          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
+          "revision": "928f61f75af7faff10d4e59fc6e8daa23d8c87d5"
         },
         {
           "book": "non-kahler-pluripotential-theory",
@@ -356,13 +356,13 @@
           "book": "klimek-pluripotential-theory",
           "tag": "C38D699A",
           "label": "prop:isolated-point-ma-extension",
-          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
+          "revision": "928f61f75af7faff10d4e59fc6e8daa23d8c87d5"
         },
         {
           "book": "demailly-complex-geometry",
           "tag": "BC66C1B2",
           "label": "cor:classical-products-hausdorff-one-null",
-          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
+          "revision": "928f61f75af7faff10d4e59fc6e8daa23d8c87d5"
         }
       ]
     },
@@ -381,7 +381,7 @@
           "book": "klimek-pluripotential-theory",
           "tag": "849438A9",
           "label": "prop:isolated-residual-comparison-reduction",
-          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
+          "revision": "928f61f75af7faff10d4e59fc6e8daa23d8c87d5"
         }
       ]
     },
@@ -394,13 +394,13 @@
           "book": "demailly-complex-geometry",
           "tag": "77A7269F",
           "label": "thm:semipositive-partial-top-degree-vanishing",
-          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
+          "revision": "928f61f75af7faff10d4e59fc6e8daa23d8c87d5"
         },
         {
           "book": "demailly-complex-geometry",
           "tag": "40277D24",
           "label": "cor:one-point-line-kodaira-vanishing",
-          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
+          "revision": "928f61f75af7faff10d4e59fc6e8daa23d8c87d5"
         }
       ]
     },
@@ -413,13 +413,13 @@
           "book": "demailly-complex-geometry",
           "tag": "FFBD8F68",
           "label": "prop:function-sheaf-bundle-equivalence",
-          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
+          "revision": "928f61f75af7faff10d4e59fc6e8daa23d8c87d5"
         },
         {
           "book": "demailly-complex-geometry",
           "tag": "B7731948",
           "label": "prop:bundles-locally-free-modules",
-          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
+          "revision": "928f61f75af7faff10d4e59fc6e8daa23d8c87d5"
         }
       ]
     },
@@ -432,19 +432,19 @@
           "book": "demailly-complex-geometry",
           "tag": "66782E9F",
           "label": "prop:general-differential-symbol-adjoint",
-          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
+          "revision": "928f61f75af7faff10d4e59fc6e8daa23d8c87d5"
         },
         {
           "book": "demailly-complex-geometry",
           "tag": "FD3C4290",
           "label": "prop:intrinsic-symbol-adjoint-calculus",
-          "revision": "d60103e0a8952e33e5a029f32c1811ab4907a628"
+          "revision": "928f61f75af7faff10d4e59fc6e8daa23d8c87d5"
         }
       ]
     }
   ],
   "duplicate_entries_unified": 26,
   "numbered_clauses_in_parent_statements": 405,
-  "source_tags": 7755,
-  "canonical_entries": 7231
+  "source_tags": 7851,
+  "canonical_entries": 7325
 }
