@@ -213,6 +213,71 @@ class AnalyticMethodsTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'context target map'):
             adapter.apply_reader_context(manifest,layout,texts,rows)
 
+    def chained_context_fixture(self):
+        global_prefix=r'\section{Conventions}\label{sec:global}'+'\nThe base is compact.\n'
+        local_prefix=r'\subsection{Local notation}\label{sec:local}'+'\nLet $A$ denote its curvature.\n'
+        text=global_prefix+local_prefix+r'\begin{theorem}\label{thm:local}The integral is finite.\end{theorem}'
+        global_markup='<p>The base is compact.</p>'
+        local_markup='<p>Let $A$ denote its curvature.</p>'
+        statement='<article class="env-theorem" id="LOCAL"><p>The integral is finite.</p></article>'
+        proof='<article class="env-proof"><p>Integrate the bound.</p></article>'
+        rows=[dict(label='sec:global',kind='section',section=True,statement_html='<h2>Conventions</h2>'+global_markup,html=global_markup),
+              dict(label='sec:local',kind='subsection',section=True,statement_html='<h3>Local notation</h3>'+local_markup+statement,html=local_markup+statement+proof),
+              dict(label='thm:local',kind='theorem',section=False,statement_html=statement,html=statement+proof,proof_html=proof)]
+        chain=[dict(label=label,native_prefix_sha256=hashlib.sha256(native.encode()).hexdigest(),
+                    rendered_prefix_sha256=hashlib.sha256(markup.encode()).hexdigest())
+               for label,native,markup in [('sec:global',global_prefix,global_markup),('sec:local',local_prefix,local_markup)]]
+        layout={'sec:global':dict(result_id='R0375'),
+                'sec:local':dict(result_id='R0375',reader_context=dict(prefix_chain=chain,targets=['thm:local'],reason='Retain packet conventions and local notation in that order.'))}
+        return {'results':['R0375']},layout,{'R0375':text},rows
+
+    def test_chained_context_preserves_ancestor_and_local_order_without_changing_proofs(self):
+        manifest,layout,texts,rows=self.chained_context_fixture()
+        before=copy.deepcopy(rows)
+        adapter.apply_reader_context(manifest,layout,texts,rows)
+        rendered=rows[2]['statement_html']
+        self.assertLess(rendered.index('base is compact'),rendered.index('denote its curvature'))
+        self.assertLess(rendered.index('denote its curvature'),rendered.index('integral is finite'))
+        self.assertEqual(rendered.count('class="reader-context"'),1)
+        self.assertEqual(rows[:2],before[:2])
+        self.assertEqual(rows[2]['proof_html'],before[2]['proof_html'])
+
+    def test_each_chained_native_and_rendered_prefix_is_hash_checked(self):
+        for position in (0,1):
+            for field in ('native','rendered'):
+                with self.subTest(position=position,field=field):
+                    manifest,layout,texts,rows=self.chained_context_fixture()
+                    if field=='native':
+                        word='compact' if position==0 else 'curvature'
+                        texts['R0375']=texts['R0375'].replace(word,'changed')
+                    else:
+                        rows[position]['statement_html']+='<p>Changed context.</p>' if position==0 else ''
+                        if position==1:
+                            rows[position]['statement_html']=rows[position]['statement_html'].replace('curvature','changed')
+                    with self.assertRaisesRegex(ValueError,'context boundary changed'):
+                        adapter.apply_reader_context(manifest,layout,texts,rows)
+
+    def test_chained_prefix_order_packet_scope_and_target_order_are_guarded(self):
+        for mutation in ('reverse','repeat','cross-packet','preceding-target','ambiguous-legacy'):
+            with self.subTest(mutation=mutation):
+                manifest,layout,texts,rows=self.chained_context_fixture()
+                binding=layout['sec:local']['reader_context']
+                if mutation=='reverse':binding['prefix_chain'].reverse()
+                elif mutation=='repeat':binding['prefix_chain'][1]=copy.deepcopy(binding['prefix_chain'][0])
+                elif mutation=='cross-packet':layout['sec:global']['result_id']='R0376'
+                elif mutation=='preceding-target':binding['targets']=['sec:global']
+                else:binding['native_scope']='packet'
+                with self.assertRaises(ValueError):
+                    adapter.apply_reader_context(manifest,layout,texts,rows)
+
+    def test_new_context_schema_does_not_allow_a_pending_selection(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root=Path(temporary);manifest=self.fixture(root)
+            manifest['selection_review']['status']='pending'
+            (root/adapter.MANIFEST).write_text(json.dumps(manifest))
+            with self.assertRaisesRegex(ValueError,'explicit final review receipt'):
+                adapter.prepare_article(root)
+
 
 if __name__ == "__main__":
     unittest.main()

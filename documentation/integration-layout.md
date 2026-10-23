@@ -57,3 +57,7 @@ Capacity convergence on an entire open set retains its existing definition. A se
 ## Repeated contextual displays
 
 A reviewed `unlabelled_displays` record in `reading/registry.json` may remove an exact unlabelled `div.equation` when the surrounding prose links to the fully proved canonical theorem. The source, normalized display hash and replacement theorem are checked before publication. Equations with an ID or tag are rejected. The original display and surrounding edited attribution remain under Sources; mathematical source strings, permanent tags and proof guards are unchanged. This mechanism removes a repeated contextual display, rather than changing its formula.
+
+## Composed statement introductions
+
+The Analytic Methods source layout can provide an explicit `reader_context.prefix_chain` when an isolated statement needs both packet conventions and local subsection notation. Each prefix names a heading in the same selected packet and binds the exact native and rendered introduction with SHA-256. Native prefixes stop before the first formal statement or next heading. The chain must follow source order, end at its reviewed placement, and precede every listed target. Reversed, repeated, changed, or cross-packet prefixes fail the export. Copied introductions retain links but remove duplicate formula and tag ownership; mathematical statements and proofs remain unchanged. Existing single-prefix context bindings retain their earlier behavior, and neither form replaces the required final selection acceptance.

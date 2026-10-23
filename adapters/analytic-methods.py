@@ -14,10 +14,13 @@ from common import configure, export, uncomment
 SLUG = 'analytic-methods'
 RESULTS = ('R0302', 'R0301', 'R0300', 'R0308', 'R0304', 'R0303', 'R0305', 'R0307',
            'R0309', 'R0310', 'R0311', 'R0312', 'R0313', 'R0314', 'R0315', 'R0316',
-           'R0317', 'R0322', 'R0321', 'R0323', 'R0324', 'R0325', 'R0326',
-           'R0327', 'R0329', 'R0328', 'R0330', 'R0331', 'R0332', 'R0318',
-           'R0319', 'R0320', 'R0333', 'R0334', 'R0335', 'R0336', 'R0337',
-           'R0338', 'R0339', 'R0340', 'R0343', 'R0341', 'R0342', 'R0344', 'R0345', 'R0346', 'R0347')
+           'R0317', 'R0322', 'R0321', 'R0323', 'R0324', 'R0325', 'R0326', 'R0327',
+           'R0329', 'R0328', 'R0330', 'R0331', 'R0332', 'R0318', 'R0319', 'R0320',
+           'R0333', 'R0334', 'R0335', 'R0336', 'R0337', 'R0338', 'R0339', 'R0340',
+           'R0343', 'R0341', 'R0342', 'R0344', 'R0345', 'R0346', 'R0347', 'R0360',
+           'R0361', 'R0365', 'R0366', 'R0369', 'R0370', 'R0373', 'R0374', 'R0375',
+           'R0378', 'R0379', 'R0362', 'R0371', 'R0376', 'R0377', 'R0380', 'R0363',
+           'R0368', 'R0372', 'R0381', 'R0364', 'R0367')
 ENTRYPOINT = 'contributions/analytic-methods-public.tex'
 BIBLIOGRAPHY = 'contributions/analytic-methods-public.bib'
 MANIFEST = 'integrations/S0050/source-manifest.json'
@@ -363,6 +366,56 @@ def copy_context(markup):
     return str(soup)
 
 
+def chained_reader_context(result,label,binding,layout,text,by_label):
+    """Compose explicitly reviewed ancestor/local introductions in source order.
+
+    Each prefix ends before its first formal statement or next heading. This
+    permits a packet's conventions and a subsection's notation to accompany
+    one isolated statement without changing the mathematical source prose.
+    """
+    chain=binding.get('prefix_chain')
+    if (not isinstance(chain,list) or len(chain)<2
+            or not isinstance(binding.get('targets'),list)
+            or any(key in binding for key in ('native_scope','native_prefix_sha256','rendered_prefix_sha256'))):
+        raise ValueError('Invalid analytic-methods context prefix chain')
+    headings=list(HEAD.finditer(text))
+    positions={}
+    for heading in headings:
+        end=close_group(text,heading.end())
+        following=re.match(r'\s*\\label\s*\{([^}]+)\}',text[end:])
+        if following:
+            positions[following[1]]=heading.start()
+    previous=-1
+    pieces=[]
+    for prefix in chain:
+        if not isinstance(prefix,dict):
+            raise ValueError('Invalid analytic-methods context prefix')
+        source_label=prefix.get('label')
+        if (source_label not in positions or source_label not in by_label
+                or layout.get(source_label,{}).get('result_id')!=result):
+            raise ValueError('Reader context prefix crosses a subject packet')
+        start=positions[source_label]
+        if start<=previous:
+            raise ValueError('Reader context prefix order changed')
+        previous=start
+        stop=next((h.start() for h in headings if h.start()>start),len(text))
+        first=FORMAL.search(text,start,stop)
+        if first is not None:
+            stop=first.start()
+        if sha256(text[start:stop].encode()).hexdigest()!=prefix.get('native_prefix_sha256'):
+            raise ValueError('Native reader context boundary changed: '+source_label)
+        markup=introductory_markup(by_label[source_label])
+        if not markup.strip() or sha256(markup.encode()).hexdigest()!=prefix.get('rendered_prefix_sha256'):
+            raise ValueError('Rendered reader context boundary changed: '+source_label)
+        pieces.append(copy_context(markup))
+    if chain[-1]['label']!=label:
+        raise ValueError('Reader context chain must end at its reviewed placement')
+    label_positions={m[1]:m.start() for m in re.finditer(r'\\label\s*\{([^}]+)\}',text)}
+    if any(label_positions.get(target,-1)<stop for target in binding.get('targets',[])):
+        raise ValueError('Reader context prefix follows its target')
+    return '\n'.join(pieces),set(label_positions)
+
+
 def apply_reader_context(manifest,layout,texts,records):
     """Supply exact reviewed native introductions to isolated formal entries.
 
@@ -380,6 +433,22 @@ def apply_reader_context(manifest,layout,texts,records):
         if result not in manifest['results'] or label not in by_label:
             raise ValueError('Missing analytic-methods reader context source')
         text=texts[result]
+        if 'prefix_chain' in binding:
+            markup,local=chained_reader_context(result,label,binding,layout,text,by_label)
+            targets=binding.get('targets')
+            if (not isinstance(targets,list) or not targets or len(set(targets))!=len(targets)
+                    or label in targets or not set(targets)<=local or not binding.get('reason')):
+                raise ValueError('Invalid analytic-methods context target map')
+            context='<div class="reader-context" data-context-position="before">'+markup+'</div>\n'
+            for target in targets:
+                record=by_label.get(target)
+                if (record is None or target in planned
+                        or record['kind'] not in {'theorem','proposition','lemma','corollary','definition','example','remark','section','subsection','subsubsection'}):
+                    raise ValueError('Missing or invalid reader context target: '+target)
+                if record['section'] and (target not in layout or layout[target].get('result_id')!=result):
+                    raise ValueError('Reader context crosses a subject packet')
+                planned[target]=context
+            continue
         scope=binding.get('native_scope','packet')
         if scope not in {'packet','section'}:
             raise ValueError('Invalid analytic-methods native context scope')
