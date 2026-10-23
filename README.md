@@ -8,7 +8,7 @@ A shared mathematical reference combining definitions, theorems, and proofs from
 
 ## Content and organization
 
-The collection integrates the following sources, tracking their `main` branches:
+The collection integrates the following sources at the revisions registered in `books.json`:
 
 - [Foundations of pluripotential theory](https://github.com/MingchenXia/foundations-of-pluripotential-theory).
 - [Singularities in global pluripotential theory (SGPT)](https://github.com/MingchenXia/SGPT).
@@ -23,6 +23,8 @@ The collection integrates the following sources, tracking their `main` branches:
 - **Transcendental positive cones**, the reviewed supplement after Tosatti with BDPP foundations, volume variation, divisorial restricted volumes and balanced-cone duality. The arguments and prerequisites join the existing subjects, with major attribution in the project history.
 
 - **Isolated plurisubharmonic singularities**, the reviewed supplement after Li–Xia on isolated poles with zero Lelong number and positive residual Monge–Ampère mass. Explicit polynomial iterates, separated maximum products and finite logarithmic thresholds join the existing subjects; major attribution belongs in the project history.
+
+- **Singular metrics, generation and canonical systems**, the selected supplement after Demailly's *Analytic Methods in Algebraic Geometry*. Singular estimates, generation and jets, nef dimensions and vanishing, coherent Euler polynomials, integral-normalized envelopes, division and three geometric or spectral counterexamples join the existing subjects. The bounded export selects nineteen reviewed proof packets; complete-book and recursive dependency closure remain separate research tasks. Existing compact Nadel and diagonal monomial statements are reused canonically. See [scope and source controls](documentation/analytic-methods-integration.md).
 
 Only each manuscript's active input graph is included. Excluded drafts and private research material are not exported.
 
@@ -98,7 +100,7 @@ Open `http://localhost:8000`. With authorized push access to `MingchenXia/Pome`,
 .venv/bin/python scripts/update.py
 ```
 
-The on-request updater requires a clean `main` checkout and uses a fast-forward pull. It never overwrites uncommitted edits. To preview an existing source checkout, set its `checkout_env` from `books.json` to the absolute path before building. The isolated-pole supplement uses `ISOLATED_PSH_SOURCE_DIR`; all five Gerby-Literature contributions can point to the same clean source checkout. Requested update checks ignore preview overrides and fetch the tracked sources afresh.
+The on-request updater requires a clean `main` checkout and uses a fast-forward pull. It never overwrites uncommitted edits. To preview an existing source checkout, set its `checkout_env` from `books.json` to the absolute path before building. The five Gerby-Literature contributions tracking `main` can point to the same clean checkout. The analytic-methods selection uses `ANALYTIC_METHODS_SOURCE_DIR` and its separately registered revision. Requested update checks ignore preview overrides and fetch the tracked sources afresh.
 
 ## Pome on GitHub Pages
 

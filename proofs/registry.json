@@ -464,6 +464,14 @@
       "original_proof_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "file": "thm-loc-conv-cap.html",
       "kind": "proof"
+    },
+    {
+      "source": "sgpt",
+      "label": "lma:varphian",
+      "statement_sha256": "e8dcb51deba8f523c158c6404132f0cb6356e8ac410292cb8dd0424769a96449",
+      "original_proof_sha256": "d63a13dbe51300e1538397c872e5f7ea23316370512f18841eea5c8872875069",
+      "file": "lma-varphian.html",
+      "kind": "proof"
     }
   ]
 }

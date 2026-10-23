@@ -812,6 +812,51 @@
       "slug": "questions-on-relative-canonical-classes-and-cotangent-tensors",
       "title": "Questions on relative canonical classes and cotangent tensors",
       "description": ""
+    },
+    {
+      "slug": "nef-line-bundles-and-section-growth",
+      "title": "Nef line bundles and section growth",
+      "description": ""
+    },
+    {
+      "slug": "canonical-rings-and-minimal-singularities",
+      "title": "Canonical rings and minimal singularities",
+      "description": ""
+    },
+    {
+      "slug": "adjoint-generation-and-multiplier-ideals",
+      "title": "Adjoint generation and multiplier ideals",
+      "description": ""
+    },
+    {
+      "slug": "exceptional-divisors-and-curvature",
+      "title": "Exceptional divisors and curvature",
+      "description": ""
+    },
+    {
+      "slug": "envelopes-with-integral-normalization",
+      "title": "Envelopes with integral normalization",
+      "description": ""
+    },
+    {
+      "slug": "numerical-polynomials-and-section-growth",
+      "title": "Numerical polynomials and section growth",
+      "description": ""
+    },
+    {
+      "slug": "divisorial-projections-and-first-mobile-traces",
+      "title": "Divisorial projections and first mobile traces",
+      "description": ""
+    },
+    {
+      "slug": "section-maps-and-numerical-dimension",
+      "title": "Section maps and numerical dimension",
+      "description": ""
+    },
+    {
+      "slug": "historical-and-bibliographical-notes",
+      "title": "Historical and bibliographical notes",
+      "description": ""
     }
   ],
   "entries": [
@@ -1306,6 +1351,52 @@
           "statement_sha256": "5446e57ac90b465a3d813b4d88e98c0130d37ef5e88d3c987c412a82690f6acd"
         }
       ]
+    },
+    {
+      "tag": "4F4355678C85",
+      "title": "Compact singular-metric Nadel vanishing",
+      "topic": "strictly-positive-singular-metrics",
+      "merge_note": "Both statements give the same compact Kähler singular-metric vanishing for a fixed positive curvature lower bound and the full quadratic multiplier ideal. Preserve the current theorem and its proof as preferred; retain the independent weighted-resolution proof as a source variant. The analytic-methods local resolution and sharper L2 estimate remain distinct entries.",
+      "reviewed_at": "2026-10-23",
+      "preferred": {
+        "source": "cao-paun-foliations",
+        "label": "thm:compact-nadel-vanishing"
+      },
+      "members": [
+        {
+          "source": "cao-paun-foliations",
+          "label": "thm:compact-nadel-vanishing",
+          "statement_sha256": "a86f086eb698c4b5fa23e1ad1c45dcb1d367edf34268282557ac0ed9de18fb45"
+        },
+        {
+          "source": "analytic-methods",
+          "label": "analmeth-compact-nadel-vanishing",
+          "statement_sha256": "6914f9e9c677dfa031ccb9c20f78d247111ebf6b441c472a0170614ade93ab6f"
+        }
+      ]
+    },
+    {
+      "tag": "9CCB2D58E4BE",
+      "title": "Strictly positive singular metrics",
+      "topic": "strictly-positive-singular-metrics",
+      "merge_note": "Consolidate the two headings for the same compact Nadel conclusion after canonical statement deduplication. Their source introductions, proof variants and stable labels remain available; avoid an empty duplicate reading section.",
+      "reviewed_at": "2026-10-23",
+      "preferred": {
+        "source": "cao-paun-foliations",
+        "label": "sec:nadel-singular-metric-vanishing"
+      },
+      "members": [
+        {
+          "source": "cao-paun-foliations",
+          "label": "sec:nadel-singular-metric-vanishing",
+          "statement_sha256": "e8f83ac1391f764134fb207fa2a759e583d261fc35ebfeb5fb6f4206bf779028"
+        },
+        {
+          "source": "analytic-methods",
+          "label": "sec:analmeth-nadel-vanishing",
+          "statement_sha256": "e1e43ccad91f7f6ecf1936c20731bdf6f269c0677edd3a6ee4b3fedd299265d3"
+        }
+      ]
     }
   ],
   "excluded_topics": [
@@ -1512,6 +1603,7 @@
         "jets-integral-curvature-and-projective-embeddings",
         "sheaf-cohomology-and-acyclic-resolutions",
         "hodge-theory-curvature-and-compact-vanishing",
+        "adjoint-generation-and-multiplier-ideals",
         "spectral-sequences-support-and-cup-products",
         "compact-curves-periods-and-complex-tori",
         "symbols-exterior-algebra-and-bundle-adjoints",
@@ -1526,6 +1618,7 @@
         "determinant-bounds-and-gauduchon-separation",
         "transcendental-morse-inequalities",
         "variations-of-the-volume",
+        "exceptional-divisors-and-curvature",
         "dual-positive-cones",
         "balanced-forms-and-movable-classes",
         "strictly-positive-singular-metrics",
@@ -1535,7 +1628,8 @@
         "degrees-and-maximal-slopes",
         "tensor-products-and-involutivity",
         "tautological-metrics-and-maximal-slopes",
-        "numerical-dimension-and-cotangent-quotients"
+        "numerical-dimension-and-cotangent-quotients",
+        "divisorial-projections-and-first-mobile-traces"
       ]
     },
     {
@@ -1616,7 +1710,8 @@
         "normalized-characterization-of-compact-extremals",
         "equilibrium-densities-and-boundaries-of-real-convex-bodies",
         "boundary-flux-and-nonproper-mass-comparison",
-        "pointwise-estimates-for-obstacle-envelopes"
+        "pointwise-estimates-for-obstacle-envelopes",
+        "envelopes-with-integral-normalization"
       ]
     },
     {
@@ -1653,7 +1748,11 @@
         "holomorphic-sections-and-hermitian-mass",
         "flags-convex-bodies-and-section-growth",
         "section-growth-of-semipositive-line-bundles",
-        "flat-twists-of-adjoint-section-envelopes"
+        "flat-twists-of-adjoint-section-envelopes",
+        "numerical-polynomials-and-section-growth",
+        "nef-line-bundles-and-section-growth",
+        "canonical-rings-and-minimal-singularities",
+        "section-maps-and-numerical-dimension"
       ]
     },
     {
@@ -1860,6 +1959,11 @@
         "start": "3951ADFEE2AB",
         "slug": "analytic-singularities-and-demailly-approximation--bounded-growth-ideals",
         "title": "Bounded growth ideals"
+      },
+      {
+        "start": "DBA15E1E5C10",
+        "slug": "analytic-singularities-and-demailly-approximation--regularization-on-a-relatively-compact-neighborhood",
+        "title": "Regularization on a relatively compact neighborhood"
       }
     ],
     "envelopes-and-model-potentials": [
@@ -1939,6 +2043,11 @@
         "start": "BC64CE221556",
         "slug": "lelong-numbers-and-multiplier-ideals--birational-change-of-variables-and-logarithmic-thresholds",
         "title": "Birational change of variables and logarithmic thresholds"
+      },
+      {
+        "start": "4A1288155241",
+        "slug": "lelong-numbers-and-multiplier-ideals--multiplier-ideals-under-smooth-blowups",
+        "title": "Multiplier ideals under smooth blowups"
       }
     ],
     "the-theory-of-okounkov-bodies": [
@@ -4015,6 +4124,11 @@
         "start": "DF8C0003C01A",
         "slug": "sheaf-cohomology-and-acyclic-resolutions--soft-sheaves-and-paracompact-comparison",
         "title": "Soft sheaves and paracompact comparison"
+      },
+      {
+        "start": "9151CF1DDBDB",
+        "slug": "sheaf-cohomology-and-acyclic-resolutions--a-cohomological-criterion-for-generation",
+        "title": "A cohomological criterion for generation"
       }
     ],
     "complete-metric-estimates-and-holomorphic-division": [
@@ -4052,6 +4166,26 @@
         "start": "4C1048330D21",
         "slug": "complete-metric-estimates-and-holomorphic-division--weighted-extension-from-neighborhood-data",
         "title": "Weighted extension from neighborhood data"
+      },
+      {
+        "start": "ACB3BABB71B6",
+        "slug": "complete-metric-estimates-and-holomorphic-division--singular-metrics-and-square-integrable-resolutions",
+        "title": "Singular metrics and square-integrable resolutions"
+      },
+      {
+        "start": "32FDFA14D37C",
+        "slug": "complete-metric-estimates-and-holomorphic-division--griffiths-curvature-and-division",
+        "title": "Griffiths curvature and division"
+      },
+      {
+        "start": "426338BB8AD6",
+        "slug": "complete-metric-estimates-and-holomorphic-division--projective-division-with-singular-metrics",
+        "title": "Projective division with singular metrics"
+      },
+      {
+        "start": "759B901EC277",
+        "slug": "complete-metric-estimates-and-holomorphic-division--singular-estimates-and-vanishing-along-an-exhaustion",
+        "title": "Singular estimates and vanishing along an exhaustion"
       }
     ],
     "hodge-theory-curvature-and-compact-vanishing": [
@@ -4089,6 +4223,16 @@
         "start": "D6A8ACD1845D",
         "slug": "hodge-theory-curvature-and-compact-vanishing--semipositive-line-bundle-vanishing-on-weak-exhaustions",
         "title": "Semipositive line-bundle vanishing on weak exhaustions"
+      },
+      {
+        "start": "7CD0149FAF37",
+        "slug": "hodge-theory-curvature-and-compact-vanishing--nef-numerical-dimension-and-divisor-metrics",
+        "title": "Nef numerical dimension and divisor metrics"
+      },
+      {
+        "start": "E45411A97AEE",
+        "slug": "hodge-theory-curvature-and-compact-vanishing--vanishing-for-a-nef-line-bundle-with-an-effective-divisor",
+        "title": "Vanishing for a nef line bundle with an effective divisor"
       }
     ],
     "positive-current-extension-and-analytic-integration": [
@@ -4454,6 +4598,11 @@
         "start": "F7E8105E90D3",
         "slug": "general-complex-cohomology-and-modifications--strong-hodge-structure-under-modifications",
         "title": "Strong Hodge structure under modifications"
+      },
+      {
+        "start": "0ED33BDFAEEB",
+        "slug": "general-complex-cohomology-and-modifications--topology-of-bott-chern-cohomology",
+        "title": "Topology of Bott–Chern cohomology"
       }
     ],
     "entire-function-growth-and-algebraic-zero-sets": [
@@ -4495,6 +4644,73 @@
         "start": "AF24E347DE89",
         "slug": "one-point-curvature-positivity-and-vanishing--one-point-vanishing-on-compact-complex-manifolds",
         "title": "One-point vanishing on compact complex manifolds"
+      }
+    ],
+    "dolbeault-spectral-asymptotics": [
+      {
+        "start": "AA5808540D2C",
+        "slug": "dolbeault-spectral-asymptotics--joint-limits-for-unitary-connections",
+        "title": "Joint limits for unitary connections"
+      }
+    ],
+    "holomorphic-morse-inequalities": [
+      {
+        "start": "3F74EFBD64E1",
+        "slug": "holomorphic-morse-inequalities--uniform-index-integral-errors-along-ample-decompositions",
+        "title": "Uniform index-integral errors along ample decompositions"
+      }
+    ],
+    "adjoint-generation-and-multiplier-ideals": [
+      {
+        "start": "8132FF295BA5",
+        "slug": "adjoint-generation-and-multiplier-ideals--adjoint-jets-from-one-power-of-a-line-bundle",
+        "title": "Adjoint jets from one power of a line bundle"
+      }
+    ],
+    "envelopes-with-integral-normalization": [
+      {
+        "start": "37234553F7FD",
+        "slug": "envelopes-with-integral-normalization--integral-normalized-envelopes-in-a-rational-big-class",
+        "title": "Integral-normalized envelopes in a rational big class"
+      },
+      {
+        "start": "39D0A0C6E45D",
+        "slug": "envelopes-with-integral-normalization--section-approximation-of-integral-normalized-envelopes",
+        "title": "Section approximation of integral-normalized envelopes"
+      },
+      {
+        "start": "0A332ED2955C",
+        "slug": "envelopes-with-integral-normalization--intrinsic-densities-and-tensor-roots",
+        "title": "Intrinsic densities and tensor roots"
+      }
+    ],
+    "numerical-polynomials-and-section-growth": [
+      {
+        "start": "497089FF3E35",
+        "slug": "numerical-polynomials-and-section-growth--large-values-of-numerical-polynomials",
+        "title": "Large values of numerical polynomials"
+      },
+      {
+        "start": "ACD59B4AADB6",
+        "slug": "numerical-polynomials-and-section-growth--regular-sections-and-generic-multiplicities",
+        "title": "Regular sections and generic multiplicities"
+      },
+      {
+        "start": "A3A80493CAFE",
+        "slug": "numerical-polynomials-and-section-growth--euler-polynomials-of-coherent-analytic-sheaves",
+        "title": "Euler polynomials of coherent analytic sheaves"
+      }
+    ],
+    "nef-line-bundles-and-section-growth": [
+      {
+        "start": "027EA59783CE",
+        "slug": "nef-line-bundles-and-section-growth--kodaira-and-numerical-dimensions",
+        "title": "Kodaira and numerical dimensions"
+      },
+      {
+        "start": "4D83336612F9",
+        "slug": "nef-line-bundles-and-section-growth--cohomology-growth-of-nef-line-bundles",
+        "title": "Cohomology growth of nef line bundles"
       }
     ]
   },

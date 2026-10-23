@@ -97,6 +97,17 @@
       "checkout_env": "CAO_PAUN_SOURCE_DIR",
       "visibility": "private",
       "status": "published"
+    },
+    {
+      "slug": "analytic-methods",
+      "title": "Singular metrics, generation and canonical systems",
+      "author": "Gerby Literature",
+      "repository": "https://github.com/MingchenXia/Gerby-Literature",
+      "ref": "392d68b7998206c324edb34a217dff98944e624c",
+      "entrypoint": "contributions/analytic-methods-public.tex",
+      "checkout_env": "ANALYTIC_METHODS_SOURCE_DIR",
+      "visibility": "private",
+      "status": "published"
     }
   ]
 }

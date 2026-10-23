@@ -15,3 +15,12 @@ from Gerby-Literature/main after the `codex/helms-whole-book` merge. An explicit
 allowlist excludes the private scan and research records. Preparation and
 record-transformation callbacks preserve article numbering, assign every label
 to a shared subject, and retain the original Kelvin and prerequisite tags.
+
+`analytic-methods.py` exports nineteen reviewed proof packets through the exact
+S0050 manifest. Its allowlist contains the portable article, bibliography,
+nineteen proof fragments, subject layout, canonical-reference map and project
+history. Every selected byte is hash checked before rendering. Unlisted inputs,
+escaping paths, changed proof bindings and unreviewed canonical links fail the
+export. The adapter assigns all labels, including equation aliases, to shared
+subjects and leaves private scans and research records outside the graph.
+See [the selection and placement record](../documentation/analytic-methods-integration.md).
