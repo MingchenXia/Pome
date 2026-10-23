@@ -1,3 +1,15 @@
+# 2026-10-24 — divisorial Jacobian order and complex-space model checks
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Full new proof, stable labels, blobs, physical lines and dependency limits:** [dated report](reports/2026-10-24-divisorial-jacobian-codimension-bound-and-model-audit.md). Actual first selected proof-level coverage §§9.6–9.9 only (no complete section certified).
+
+| Stable finding | Severity / status | Exact source and permanent anchor | Mathematical content, correction and affected dependents |
+| --- | --- | --- | --- |
+| **POME-DIV-JAC-CODIM-001** | **low / verified conditional deduction**; original theorem correct | §9.8.6, `docs/sections/complex-spaces-and-modifications--connected-fibers-and-resolution-models/index.html`, blob `6ad8bec31c3089b7eab91f199f5a1eb355a12c40`, source `foundations-of-pluripotential-theory-B4101D74`, permanent tag `373CA5388E72`, lines 119–171 (especially 132–168); §9.8.7 source `foundations-of-pluripotential-theory-9442059A`, tag `D52CB808B809`; §9.6.3 blowup Jacobian, blob `f452f4b1abe5cdfe348ae11fcd934febcfdd570b`, source `foundations-of-pluripotential-theory-2959F02B`, tag `865FE5EC97E6`, lines 49–69 | For a dominant holomorphic map between smooth n-folds with generic nonzero Jacobian and a prime divisor E mapping to codimension-r analytic center, `ord_E J_f >= Σ_{i=1}^r ord_E(z_i∘f)−1 >= r−1` in target coordinates adapted generically to the center. Proof: every pullback normal coordinate has a t-factor, and at most one differentiated factor contributes dt in the wedge. Smooth-center blowup realizes equality. In §9.8.6 Step 3 the decrement sharpened from ≥1 to ≥r−1, conditional on its **allowed quoted Hironaka principalization**. Proposed optional quantitative remark only; affects divisorial valuation extraction, Chapter 20 b-divisor models. No false theorem, global extraction certification or source mutation. |
+
+**Additional selected checks:** §9.6.2 reduced blowup graph and universal property (the reduced-space convention is explicit in §9.4 line 10); §9.7.5 two-stage relative principalization and restrictions; §9.8.1–2 connected fibers/normality boundary; §9.9.4 finite-projection psh upper bound via normalized curves. No new incorrect theorem or confirmed gap from these checks. All user-deferred Demailly approximation/regularization, dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss records retain `deferred-by-user`. No numeric grids, full build/test, CI, publication, formalization, issue/PR, merge or main/body/registry/permanent tag update.
+
+---
+
 # 2026-10-24 — directed regular Green exhaustions and weak stability of fundamental potentials
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Full proofs, source blobs and affected internal dependents:** [dated English report](reports/2026-10-24-green-directed-exhaustions-and-weak-kernel-potentials.md). These are newly selected proof inspections of previously inventory-only §§3.1 and 3.4, not whole-section certification.
