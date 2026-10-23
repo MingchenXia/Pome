@@ -1,3 +1,21 @@
+# Pome mathematical-audit checkpoint — 2026-10-23 19:07 Asia/Shanghai
+
+**Current main read:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **review branch preserved** (starting SHA 408d3e0816e2b72756c8bf27a5ae3eae54ecc51c). Freshly read main AGENTS.md, documentation/proof-expansions.md, the 25-chapter/747-section actual ToC, and review-branch README.md and this LATEST.md. Section counts remain inventory, not mathematical certification. The new Markdown report, one exact script, three changed section-matrix rows and three new ledger IDs are on the audit branch, subject to independent final remote verification.
+
+**New, actually selected proof/model review:** §19.1 (graded partial Okounkov series), §10.105.1 (intrinsic/extrinsic submean proof), and the metric-extension boundary of §10.108.2. Precise source labels, permanent tags, physical HTML line anchors, hypotheses, complete proofs/diagnostic and proposed changes: [dated report](reports/2026-10-23-divisorial-okounkov-floor-and-minimal-submanifold-defect.md). §§19.2 and 19.4 were consulted solely to align definitions; §§9.77 and 10.103–104 were already covered and were only rechecked, **not counted as new coverage**.
+
+- **POME-OKO-DIV-FLOOR-SERIES-001** — low, **verified conditional deduction**, not a false theorem: exact P¹ Hilbert/valuation floors, iff-integral literal semigroup closure, pseudometric-zero equivalent ceiling semigroup, partial body [c,d] and non-pluripolar mass d−c for 0≤c<d.
+- **POME-REL-MINIMAL-SUBMEAN-DEFECT-001** — low, **verified conditional deduction**, not an error: exact nonnegative monotonicity defect and equality rigidity for nonnegative subharmonic functions on complex submanifolds of Euclidean space, plus curved graph sharpness.
+- **POME-TAUT-MODEL-METRIC-EXT-001** — medium **candidate**, not a confirmed theorem error: §10.108.2 passes from an open-locus curvature-bound metric to a compact-resolution multiplier ideal without an explicit controlled extension lemma. The punctured-disc diagnostic shows lower curvature alone is insufficient, but does not refute existence of a better choice of metric.
+
+**De-duplication:** The Fujiki deformation input encountered again in §9.77 was **already logged** as POME-CAOPAUN-FUJIKI-DEFORMATION-INPUT-001 in the prior 2026-10-23 compact-center/cohomology-jumps report. It is not entered anew. The previously checked §§10.103–104 likewise remain historical rechecks.
+
+**Actually executed:** checks/check_divisorial_okounkov_and_submean.py: 266,539 exact rational Hilbert/carry cases, 2,184 nonintegral carry witnesses, seven flat symbolic radial identities and one curved-graph derivative identity passed. These are sanity checks, not formal proofs or a project-wide validation. No whole section certified, no full build, CI, website publication, main/source/permanent-tag changes, new PR, merge, force push or deletion.
+
+**Hard exclusion unchanged:** Demailly approximation/regularization and the dedicated Bergman, L², Ohsawa–Takegoshi, multiscale-atlas and positivity-loss proof-completion programme remain **deferred-by-user**, without any reinspection or resolution. Separate L²/relative Bergman inputs in §§10.105/10.108 were explicitly not followed. Historical audit ledgers are preserved below and in LEDGER.md.
+
+---
+
 # Pome mathematical audit checkpoint — 2026-10-23 18:05 Asia/Shanghai
 
 **Freshly confirmed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. Existing audit branch before writes: 05da6df6c5968380c550de3cadd22dca975a7fd8. Read current main AGENTS.md, documentation/proof-expansions.md, main ToC, audit-branch README.md and audit-branch mathematical-audit/LATEST.md; actual inventory is 25 chapters / 747 numbered sections (**inventory, not mathematical certification**).
