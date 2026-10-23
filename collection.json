@@ -857,6 +857,21 @@
       "slug": "historical-and-bibliographical-notes",
       "title": "Historical and bibliographical notes",
       "description": ""
+    },
+    {
+      "slug": "moving-intersection-classes",
+      "title": "Moving intersection classes",
+      "description": ""
+    },
+    {
+      "slug": "numerical-kahler-and-nef-criteria",
+      "title": "Numerical Kähler and nef criteria",
+      "description": ""
+    },
+    {
+      "slug": "surface-positivity-and-numerical-jets",
+      "title": "Surface positivity and numerical jets",
+      "description": ""
     }
   ],
   "entries": [
@@ -1629,7 +1644,10 @@
         "tensor-products-and-involutivity",
         "tautological-metrics-and-maximal-slopes",
         "numerical-dimension-and-cotangent-quotients",
-        "divisorial-projections-and-first-mobile-traces"
+        "divisorial-projections-and-first-mobile-traces",
+        "moving-intersection-classes",
+        "numerical-kahler-and-nef-criteria",
+        "surface-positivity-and-numerical-jets"
       ]
     },
     {
@@ -4603,6 +4621,11 @@
         "start": "0ED33BDFAEEB",
         "slug": "general-complex-cohomology-and-modifications--topology-of-bott-chern-cohomology",
         "title": "Topology of Bott–Chern cohomology"
+      },
+      {
+        "start": "FBEE092DAF1F",
+        "slug": "general-complex-cohomology-and-modifications--coherent-euler-polynomials-for-arbitrary-twists",
+        "title": "Coherent Euler polynomials for arbitrary twists"
       }
     ],
     "entire-function-growth-and-algebraic-zero-sets": [
@@ -4651,6 +4674,16 @@
         "start": "AA5808540D2C",
         "slug": "dolbeault-spectral-asymptotics--joint-limits-for-unitary-connections",
         "title": "Joint limits for unitary connections"
+      },
+      {
+        "start": "98A00E2CE60A",
+        "slug": "dolbeault-spectral-asymptotics--spectral-gaps-for-unitary-connections",
+        "title": "Spectral gaps for unitary connections"
+      },
+      {
+        "start": "DC3A4C66FFF8",
+        "slug": "dolbeault-spectral-asymptotics--a-cumulative-spectral-counterexample",
+        "title": "A cumulative spectral counterexample"
       }
     ],
     "holomorphic-morse-inequalities": [
@@ -4665,6 +4698,16 @@
         "start": "8132FF295BA5",
         "slug": "adjoint-generation-and-multiplier-ideals--adjoint-jets-from-one-power-of-a-line-bundle",
         "title": "Adjoint jets from one power of a line bundle"
+      },
+      {
+        "start": "FB46C2A18D1D",
+        "slug": "adjoint-generation-and-multiplier-ideals--boundary-adjoint-coefficients-and-numerical-jet-bounds",
+        "title": "Boundary adjoint coefficients and numerical jet bounds"
+      },
+      {
+        "start": "F96903E36E32",
+        "slug": "adjoint-generation-and-multiplier-ideals--numerical-jets-for-the-two-canonical-adjoint",
+        "title": "Numerical jets for the two-canonical adjoint"
       }
     ],
     "envelopes-with-integral-normalization": [
@@ -4711,6 +4754,66 @@
         "start": "4D83336612F9",
         "slug": "nef-line-bundles-and-section-growth--cohomology-growth-of-nef-line-bundles",
         "title": "Cohomology growth of nef line bundles"
+      }
+    ],
+    "moving-intersection-classes": [
+      {
+        "start": "183397033009",
+        "slug": "moving-intersection-classes--moving-intersection-classes-in-every-degree",
+        "title": "Moving intersection classes in every degree"
+      },
+      {
+        "start": "CA377CD71E3C",
+        "slug": "moving-intersection-classes--scalar-traces-and-numerical-dimensions",
+        "title": "Scalar traces and numerical dimensions"
+      }
+    ],
+    "dual-positive-cones": [
+      {
+        "start": "F6D459E3D059",
+        "slug": "dual-positive-cones--positive-pairings-with-moving-cycles",
+        "title": "Positive pairings with moving cycles"
+      },
+      {
+        "start": "DFC394B91874",
+        "slug": "dual-positive-cones--quantitative-and-boundary-orthogonality",
+        "title": "Quantitative and boundary orthogonality"
+      }
+    ],
+    "divisors-and-logarithmic-limits-on-analytic-cycles": [
+      {
+        "start": "56566B4CC312",
+        "slug": "divisors-and-logarithmic-limits-on-analytic-cycles--smoothing-all-powers-of-a-divisor-current",
+        "title": "Smoothing all powers of a divisor current"
+      }
+    ],
+    "numerical-kahler-and-nef-criteria": [
+      {
+        "start": "C65187558CA1",
+        "slug": "numerical-kahler-and-nef-criteria--ambient-positivity-near-analytic-subsets",
+        "title": "Ambient positivity near analytic subsets"
+      },
+      {
+        "start": "A1A1DB6F1FE1",
+        "slug": "numerical-kahler-and-nef-criteria--numerical-tests-for-kahler-and-nef-cones",
+        "title": "Numerical tests for Kähler and nef cones"
+      }
+    ],
+    "surface-positivity-and-numerical-jets": [
+      {
+        "start": "190B6039566D",
+        "slug": "surface-positivity-and-numerical-jets--direct-curve-tests-for-smooth-surface-metrics",
+        "title": "Direct curve tests for smooth surface metrics"
+      },
+      {
+        "start": "D83171942405",
+        "slug": "surface-positivity-and-numerical-jets--finite-nef-decompositions-on-surfaces",
+        "title": "Finite nef decompositions on surfaces"
+      },
+      {
+        "start": "6A09D093F8AF",
+        "slug": "surface-positivity-and-numerical-jets--simultaneous-jets-from-surface-intersections",
+        "title": "Simultaneous jets from surface intersections"
       }
     ]
   },
