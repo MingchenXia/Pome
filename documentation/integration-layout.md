@@ -44,7 +44,7 @@ node --test tests/*.test.mjs
 .venv/bin/python scripts/build.py --fetch
 ```
 
-The build checks every structured visible source locator against the current collection numbers, along with all internal links and fragments. Regression tests cover subsection listings, section splits, numbering resets, merged variants, HTML/TeX references, equation rows, and stale-number rejection. Browser checks must cover the reported Kelvin-transform and Bedford–Taylor examples, section/chapter tag visibility, equation alignment on desktop and mobile, and representative pages from all sources.
+The build checks every structured visible source locator against the current collection numbers, along with all internal links and fragments. Regression tests cover subsection listings, section splits, numbering resets, merged variants, HTML/TeX references, equation rows, and stale-number rejection. Under the owner instruction of 23 October 2026, desktop/mobile browser checks are not required for every review, checkpoint, commit or publication. Run targeted browser checks for rendering, layout, navigation or interaction changes, or a concrete display defect; mathematics-only text, citation, metadata, record and fingerprint changes may reuse earlier relevant browser evidence with its exact scope and revision recorded. For shared rendering changes, select affected examples such as Kelvin transforms, Bedford–Taylor products, tag visibility, equation alignment and representative affected sources. Keep the applicable build, numbering and link checks.
 
 ## Audit corrections and historical synthesis (18 October 2026)
 

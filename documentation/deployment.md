@@ -161,6 +161,9 @@ a source block beside each entry. Necessary external proof inputs keep
 their stated hypotheses and usable references.
 
 Publication still requires a complete validated build from the exact
-source revision, local-link checks and desktop/mobile rendering checks.
+source revision and local-link checks. Desktop/mobile checks follow the
+selective policy in `AGENTS.md`: use them for changed rendering, layout,
+navigation or interaction, or a concrete display defect, not as a fixed gate
+for each mathematical-text or record update.
 Adapter registration and preparation do not establish a source merge
 or public deployment.
