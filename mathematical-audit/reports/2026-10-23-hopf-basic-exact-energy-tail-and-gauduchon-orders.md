@@ -13,68 +13,68 @@
 ### Statement: an exact distribution law, not merely an E² threshold
 
 Let `n≥3`, `d=n−1`, `Y=ℙ^d` with `∫_Y κ^d=1`, and `o=[1:0:…:0]`. For `0<a<1` let
-[
+\[
 \psi=\log\frac{\sum_{j=1}^d|z_j|^2}{\sum_{j=0}^d|z_j|^2},
 \qquad v_a=1-(1-\psi)^a.
-]
+\]
 Write `μ_a=MA_κ(v_a)` for its **non-pluripolar** Monge–Ampère probability measure. For every real `R≥0`, put `\tau_R=(1+R)^{1/a}`. Then the **exact**, not asymptotic, sublevel-mass formula is
-[
+\[
 \boxed{\displaystyle
 \mu_a\{v_a<-R\}=
 \left[e^{1-\tau_R}
 +a(1-e^{1-\tau_R})\tau_R^{a-1}\right]^d.}
 \tag{1}
-]
+\]
 Consequently, with `β=d(1−a)/a>0`,
-[
+\[
 \boxed{\lim_{R\to\infty}R^\beta\mu_a\{-v_a>R\}=a^d.}\tag{2}
-]
+\]
 For **every** `q>0` (not only `q=2`),
-[
+\[
 \boxed{\int_Y(-v_a)^q\,d\mu_a<\infty
 \quad\Longleftrightarrow\quad
 q<\beta
 \quad\Longleftrightarrow\quad
 a<\frac d{d+q}.}\tag{3}
-]
+\]
 At `q=β` the divergence is logarithmic. More precisely, `-v_a` belongs to the sharp weak Lebesgue space `L^{β,∞}(\mu_a)` but not to strong `L^β(\mu_a)`.
 
 For the basic pullback to the Hopf manifold `X=H_n`, Proposition 17.16.16 gives exactly
-[
+\[
 \boxed{\operatorname{MA}^{\mathrm{ext}}_\omega(\pi^*v_a)
 \{\pi^*v_a<-R\}=2n\,\mu_a\{v_a<-R\}.}\tag{4}
-]
+\]
 Therefore (2) and (3) hold for the pullback with tail coefficient `2na^d`. In the usual full-mass definition of the finite `q`-energy class, formula (3) characterizes this family's `\mathcal E^q` membership. This extends the printed `q=2` threshold; it does **not** assert a general equivalence between the nonclosed Hopf energy theories and all Kähler energy classes.
 
 ### Self-contained radial calculation
 
 Use the same affine chart and symbols as the integrated proof:
-[
+\[
 s=\log|z'|^2,\quad L=\log(1+e^s),\quad
 P=\frac{e^s}{1+e^s},\quad
 T=1+L-s.
-]
+\]
 As `s` runs from `−∞` to `+∞`, `T` decreases strictly from `+∞` to `1`. Crucially, not just asymptotically,
-[
+\[
 \boxed{P=\exp(1-T).}\tag{5}
-]
+\]
 Indeed, `T−1=\log(1+e^s)−s=−\log P`.
 
 The local radial potential of `κ+dd^cv_a` has derivative
-[
+\[
 A(s)=P+a(1-P)T^{a-1}>0.
-]
+\]
 The radial Stokes calculation, using the unit normalization `\int d^c\log|z'|^2=1` on linking spheres, gives
-[
+\[
 \int_{\{s<s_0\}}\operatorname{MA}_\kappa(v_a)
 =A(s_0)^d-\lim_{s\to-\infty}A(s)^d=A(s_0)^d,
-]
+\]
 since `A(−∞)=0`; there is **no** extra Dirac mass at `o` in the non-pluripolar product. The level condition `v_a<-R` is `T>\tau_R`, equivalently `s<s_R` with `T(s_R)=\tau_R`. Substituting (5) into `A(s_R)^d` proves (1). The hypersurface at infinity has zero mass because the measure is smooth there; thus no boundary contribution is omitted.
 
 As `R→∞`, the term `e^{1-\tau_R}` decays super-polynomially and `1-e^{1-\tau_R}→1`. Hence the bracket in (1) is asymptotic to `a\tau_R^{a-1}=a(1+R)^{-(1-a)/a}`, proving (2). Since `v_a≤0`, layer cake yields
-[
+\[
 \int(-v_a)^q d\mu_a=q\int_0^\infty R^{q-1}\mu_a\{-v_a>R\}\,dR.
-]
+\]
 The asymptotic tail is `a^dR^{-β}`, so the integral at infinity is comparable to `\int^\infty R^{q-β-1}dR`; it converges precisely for `q<β`, and at `q=β` diverges like `q a^d\log R`. This proves (3) and weak-`L^β` sharpness. Formula (4) follows from the precise fiber identity of Equation 17.16.18, with `F=1_{\{v_a<-R\}}`, using nonnegative Borel tests.
 
 **Dependency boundary:** The local radial positivity and non-pluripolar full-mass property are proved in the selected integrated Proposition 17.16.30, and the fiber identity in 17.16.16. The complete Kähler `d_2` completion/CAT(0) theorem quoted earlier in §17.16 is already tracked under historical ID `POME-GEO-EXT-CAT-001`; it is NOT newly reclassified here. Neither that external input nor the excluded Demailly/Bergman/L²/OT programme is invoked to prove (1)–(3).
