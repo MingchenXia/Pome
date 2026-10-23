@@ -1,3 +1,15 @@
+# Pome audit — 2026-10-23 22:48 Asia/Shanghai: radial currents and a Lelong-number jump
+
+**Fresh verified main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **review head at start:** `083c6e784a6a2ece5131f3710fc4c9b08d8726e9` (preserved, never reset). Freshly read `main/AGENTS.md`, `main/documentation/proof-expansions.md`, `main/docs/chapters/index.html`, `review/mathematical-audit/README.md` and this review-branch `LATEST.md` before mathematical review. Actual current ToC: 25 chapters and 747 section entries — **inventory only**, not whole-section/proof certification.
+
+**New first selected nonexcluded proof-level inspection:** §5.58 `docs/sections/real-currents-submersions-and-homotopies--radial-positive-currents/index.html` (blob `994a47ced79c1995630dd32b0d9703faddf9c173`), Thm 5.58.3 (`FB41A7CE1CEE`), Cor 5.58.9 (`4F0954956743`), radial eigenvalue and BV flux formulas; supporting only the density normalization of §6.33.1 (`7ACCEC6E0526`). Did **not** certify complete §§5.58/6.33, independently reprove §5.60 Skoda–El Mir, or audit any excluded approximation programme.
+
+- **`POME-RADIAL-LELONG-DENSITY-JUMP-001` — low / verified conditional deduction.** For an invariant closed positive current `T` of bidegree `(p,p)`, `1<=p<n`, coefficient `u(t)` from §5.58 and `m=n-p`, its zero extension has exact centered open-ball trace `R^{2m}u(2log R-)` and Lelong number `u(-infinity)`. The decreasing bounded psh truncations `max(log|z|²,-j)` have p-th powers tending **weakly on all C^n** to the radial limit of Lelong 1, while every approximant has Lelong 0. Shell `|z|=exp(-j/2)` has trace mass `exp(-mj)`. This is not a counterexample to the printed theorems; only a warning that weak convergence does not imply Lelong-number continuity. [Complete new English proof, exact source labels and line anchors](reports/2026-10-23-radial-current-shell-density-and-lelong-jump.md).
+- **Verified small check:** `checks/check_radial_shell_lelong_density.py`; **546** exact rational shell/open/closed mass algebra cases ran locally. Not a substitute for analytic proof. The 747-row matrix and cumulative ledger were updated without dropping old records or changing historical statuses.
+- **Excluded unchanged:** All user-deferred Demailly regularization/approximation, dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss programme remain `deferred-by-user` and were not reopened. No project-wide test/build, CI, site publication, formalization, source/body/registry/permanent-tag or main-branch changes. No automatic merge, PR or issue operations.
+
+---
+
 # Pome audit — 2026-10-23: the fixed-ample hyperelliptic test succeeds first at m=1
 
 **Reviewed main** b6933b772f41b45918f7e25ed1afbbb1fd892272; **start-of-session audit head** 7f664ec1776df5c0ebb80d9a13b21b80f5b5cf53, preserved (no reset). Freshly read AGENTS.md, documentation/proof-expansions.md, the current main table of contents (25 chapters / 747 section inventory), and README.md and LATEST.md on review/mathematical-audit. No whole section or project is certified.
