@@ -1,18 +1,18 @@
 # Mathematical audit: classical complete-intersection pole mass and sharp CLN collar loss
 
-**Checkpoint:** 2026-10-23, Asia/Shanghai. **Verified current main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Initial audit branch:** \`e54b793736c6e9e926e1e2acdfc5c2580ffa5ba2\`, preserved without reset. Freshly fetched main \`AGENTS.md\` (blob \`eda69505b93b4782290d9cfac07c8651dedd17c5\`), \`documentation/proof-expansions.md\` (\`8b37e218c74d5a93637e0f092cf5f29cc338a94d\`), \`docs/chapters/index.html\` (\`c0c07abf4d8f7575b54cff2ec694fcf987f51cf8\`), and review-branch \`README.md\` (\`7967ffabeccea69fd80a5ec5d364e0a8e6bca137\`) and \`mathematical-audit/LATEST.md\` (\`cd2352c7a3226f4f8fd841a6da39efff6cd35282\`), plus cumulative matrix/ledger. The current **25 chapters / 747 sections** are an inventory, NOT a count of verified sections.
+**Checkpoint:** 2026-10-23, Asia/Shanghai. **Verified current main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Initial audit branch:** `e54b793736c6e9e926e1e2acdfc5c2580ffa5ba2`, preserved without reset. Freshly fetched main `AGENTS.md` (blob `eda69505b93b4782290d9cfac07c8651dedd17c5`), `documentation/proof-expansions.md` (`8b37e218c74d5a93637e0f092cf5f29cc338a94d`), `docs/chapters/index.html` (`c0c07abf4d8f7575b54cff2ec694fcf987f51cf8`), and review-branch `README.md` (`7967ffabeccea69fd80a5ec5d364e0a8e6bca137`) and `mathematical-audit/LATEST.md` (`cd2352c7a3226f4f8fd841a6da39efff6cd35282`), plus cumulative matrix/ledger. The current **25 chapters / 747 sections** are an inventory, NOT a count of verified sections.
 
 ## Integrated proof anchors actually checked
 
-* **7.28:** \`docs/sections/classical-products-with-controlled-unbounded-loci/index.html\`, blob \`21dc39a9b02a4c1820f081a0c3a82e9f8ffca727\`, Theorem **7.28.1**, stable source \`demailly-complex-geometry:F96C3380\`, permanent tag \`1BBBF8109419\`, statement physical HTML lines **6–10**, integrability/construction steps **13–22**. For every nonempty subfamily \(I\) of cardinality \(m\), it assumes \(\mathcal H^{2p-2m+1}(\bigcap_{j\in I}L(u_j)\cap\operatorname{Supp}T)=0\).
-* **7.30:** \`docs/sections/classical-products-with-controlled-unbounded-loci--classical-products-under-hausdorff-intersection-conditions/index.html\`, blob \`9cde5bfdeb2e3c0457216278945df46eb230e42b\`, Proposition **7.30.3**, source \`demailly-complex-geometry:A5207F44\`, tag \`1AC7DC75B159\`, its hypothesis Eq. **7.30.4**, source \`demailly-complex-geometry:3115851B\`, tag \`E561BB270A1B\`, physical line **32**, with selected bounds/cylinder proof lines **34–89**.
-* **7.32:** \`docs/sections/quantitative-chern-levine-nirenberg-bounds/index.html\`, blob \`efb37e29f386268fefb8c17bfd31ab2ef123dc4d\`, Corollary **7.32.2**, source \`demailly-complex-geometry:07A49BA9\`, tag \`EAB247B80433\`, claim physical lines **8–16**, selected proof at **21 onward**. The factor is \(C/\delta\), \(C=4\delta_0+8\|\psi\|_\infty\).
+* **7.28:** `docs/sections/classical-products-with-controlled-unbounded-loci/index.html`, blob `21dc39a9b02a4c1820f081a0c3a82e9f8ffca727`, Theorem **7.28.1**, stable source `demailly-complex-geometry:F96C3380`, permanent tag `1BBBF8109419`, statement physical HTML lines **6–10**, integrability/construction steps **13–22**. For every nonempty subfamily \(I\) of cardinality \(m\), it assumes \(\mathcal H^{2p-2m+1}(\bigcap_{j\in I}L(u_j)\cap\operatorname{Supp}T)=0\).
+* **7.30:** `docs/sections/classical-products-with-controlled-unbounded-loci--classical-products-under-hausdorff-intersection-conditions/index.html`, blob `9cde5bfdeb2e3c0457216278945df46eb230e42b`, Proposition **7.30.3**, source `demailly-complex-geometry:A5207F44`, tag `1AC7DC75B159`, its hypothesis Eq. **7.30.4**, source `demailly-complex-geometry:3115851B`, tag `E561BB270A1B`, physical line **32**, with selected bounds/cylinder proof lines **34–89**.
+* **7.32:** `docs/sections/quantitative-chern-levine-nirenberg-bounds/index.html`, blob `efb37e29f386268fefb8c17bfd31ab2ef123dc4d`, Corollary **7.32.2**, source `demailly-complex-geometry:07A49BA9`, tag `EAB247B80433`, claim physical lines **8–16**, selected proof at **21 onward**. The factor is \(C/\delta\), \(C=4\delta_0+8\|\psi\|_\infty\).
 
 No whole-section verification is claimed. The full continuity induction of 7.28 and cutoff geometry of 7.30 were **not** independently certified.
 
 ## POME-BT-HAUSDORFF-SUBFAMILY-SHARP-001
 
-**Status:** \`verified conditional deduction\`; **severity:** low; the printed theorem is **not** false. **Sources:** 7.28.1 and 7.30.3/7.30.4 above.
+**Status:** `verified conditional deduction`; **severity:** low; the printed theorem is **not** false. **Sources:** 7.28.1 and 7.30.3/7.30.4 above.
 
 **Normal crossings.** Take \(p\ge2\), \(2\le q\le p\), \(X=\Delta^p\), \(T=1\) (closed positive of bidimension \((p,p)\)), and \(u_j=\log|z_j|^2\) for \(j=1,\dots,q\). For each \(m\)-element subfamily \(I\), the common unbounded locus is a coordinate subspace of complex codimension \(m\), real dimension \(2(p-m)\). Its \(\mathcal H^{2p-2m+1}\) measure vanishes, so **all** the assumptions hold. With the current convention \(dd^c=(i/(2\pi))\partial\bar\partial\), Poincaré–Lelong and recursive coefficient integrability yield
 
@@ -31,7 +31,7 @@ Yet the **non-pluripolar** product is zero: on the strict truncation locus \(O_k
 
 ## POME-CLN-COLLAR-INVDELTA-OPT-001
 
-**Status:** \`verified conditional deduction\`, **severity:** low; exponent-sharpness consequence of correct Corollary 7.32.2, not a claim that its numerical constant is optimal. Source/tag/anchors above.
+**Status:** `verified conditional deduction`, **severity:** low; exponent-sharpness consequence of correct Corollary 7.32.2, not a claim that its numerical constant is optimal. Source/tag/anchors above.
 
 Let \(\Omega=\Delta\subset\mathbb C\), \(\psi=|z|^2-1\), \(\omega=dd^c\psi=dA/\pi\), \(T=1\) (bidimension \((1,1)\)), and \(u=\log|z|^2\). Fix \(0<\delta_0<1\). For any \(0<\delta\le\delta_0\), the unique unbounded point \(0\) belongs to \(\Omega_\delta=\{\psi<-\delta\}\). The exact collar supremum and current masses are
 
@@ -61,6 +61,6 @@ If the \(\delta^{-1}\) factor were replaced by \(\delta^{-\gamma}\), \(\gamma<1\
 
 ## Verification and exclusions
 
-A small exact rational script \`checks/check_bt_subfamilies_collar.py\` checks **352 finite codimension identities** and **500,500 finite rational inequalities**; the two proofs above are mathematical and do not rest on the finite tests. Only selected passages of §§7.28,7.30,7.32 were read, with §7.31 as a **dependency boundary**. No full project build/test, CI, browser, site publication, formal proof certification, main/source/registry edit, branch reset, or PR manipulation was performed.
+A small exact rational script `checks/check_bt_subfamilies_collar.py` checks **352 finite codimension identities** and **500,500 finite rational inequalities**; the two proofs above are mathematical and do not rest on the finite tests. Only selected passages of §§7.28,7.30,7.32 were read, with §7.31 as a **dependency boundary**. No full project build/test, CI, browser, site publication, formal proof certification, main/source/registry edit, branch reset, or PR manipulation was performed.
 
-**Strict user deferral:** Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss proof-completion remain **\`deferred-by-user\`**, neither solved nor certified. The general smoothing construction in §7.31.1 was not reaudited. All previous statuses and reports are preserved.
+**Strict user deferral:** Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss proof-completion remain **`deferred-by-user`**, neither solved nor certified. The general smoothing construction in §7.31.1 was not reaudited. All previous statuses and reports are preserved.
