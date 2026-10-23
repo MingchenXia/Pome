@@ -19,8 +19,11 @@ for m in range(1, 8):  # m = n - p >= 1
             assert ball_mass == (x**m if x > a else 0)
             normalized = ball_mass / (x**m)
             assert normalized == (1 if x > a else 0)
-            # At the radius x=a, the CLOSED ball contains the shell.
-            assert a**m == a**m
+            # The closed ball includes its boundary shell; only x=a changes.
+            closed_mass = ball_mass + (a**m if x == a else 0)
+            assert closed_mass == (x**m if x >= a else 0)
+            if x == a:
+                assert closed_mass - ball_mass == a**m
             count += 1
 
 print(f"PASS {count} exact rational radial shell / open-ball flux cases")
