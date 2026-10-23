@@ -1,3 +1,18 @@
+# Pome mathematical audit checkpoint — 2026-10-23 17:37 Asia/Shanghai
+
+**Freshly confirmed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; existing review branch before writes: `f3435da74f5eb748d1d15529b04f3f600ceec4f8`. Re-read main `AGENTS.md`, `documentation/proof-expansions.md`, current main and 25-chapter / **747-section** ToC, and review branch `README.md` / `mathematical-audit/LATEST.md`. The 747 sections are inventory, **not mathematical certification**.
+
+**Actual new inspection:** first selected integrated proof review of §§13.14–13.15; contextual checks of Lemma 5.26.2 and Eq. 5.27.9 only. The `§13.15.2` regularization citation is **deferred-by-user**, not followed. Full assumptions, exact tags, HTML anchors, complete arguments and limitations are in [the dated English report](reports/2026-10-23-root-integrable-weights-and-lr-mass-concentration.md).
+
+- `POME-NPP-WEIGHT-ROOTCAP-001`, **verified conditional deduction / low**: root-integrable weight composition yields *linear* capacity domination; for polynomial weights `(1-u)^(-q)`, `q>n`, this improves the existing sublinear power capacity bound, retaining its broader `q>n-2` range. Conditional upon internal Bedford–Taylor/chain-rule inputs; no source result refuted.
+- `POME-HERM-EXP-LR-001`, **verified conditional deduction / low**: the smooth prescribed-mass family has quantitative `O(epsilon_j)` convergence in every fixed finite `L^r` for potentials and `exp(-p w_j)-1`; an unbounded infinite-mass family enjoys analogous `L^r` convergence. This does not imply control of MA mass.
+
+**GitHub synchronization:** verified English report commit `7ac66a8c5d3a6b9617850296f30528a4c0b942c1`, small check script commit `145a407364103b86b51e9b385d835bdfd1005bae`, cumulative 747-row `SECTION_MATRIX.md` update `537b648750eb2e63ab3e0af61aa7fb904eb0751c` (preserving previous entries), cumulative `LEDGER.md` update `1aa7e87cbf80c3c44e925fec3c3de2fdf7cecdbe` (historical statuses preserved). **175 exact scalar SymPy consistency cases passed** (not a formal proof). Remote file/head verification is recorded after this checkpoint. No complete project build, CI, publication, main, source, permanent tag or registry change.
+
+**Strict user exclusion:** dedicated Demailly approximation/regularization, Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss proof-completion remains `deferred-by-user`, not reopened, resolved or certified. Many sections remain inventory-only or partially reviewed; keep rotating.
+
+---
+
 # Pome mathematical audit checkpoint — 2026-10-23 16:57 Asia/Shanghai
 
 **Fresh main** `b6933b772f41b45918f7e25ed1afbbb1fd892272` and current 25-chapter / **747-section** table of contents (inventory, **not** certification). Freshly read `AGENTS.md`, `documentation/proof-expansions.md`, current `main`, and `README.md` / `mathematical-audit/LATEST.md` on this review branch. Actual new selected proof review: §§6.56, 9.74, 9.77, 10.103, 10.104, with upstream §9.72 and §9.76 **dependency-only** checks. No entire section or external theorem independently certified.
