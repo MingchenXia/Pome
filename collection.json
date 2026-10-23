@@ -872,6 +872,11 @@
       "slug": "surface-positivity-and-numerical-jets",
       "title": "Surface positivity and numerical jets",
       "description": ""
+    },
+    {
+      "slug": "positive-effective-powers",
+      "title": "Positive effective powers",
+      "description": ""
     }
   ],
   "entries": [
@@ -1770,7 +1775,8 @@
         "numerical-polynomials-and-section-growth",
         "nef-line-bundles-and-section-growth",
         "canonical-rings-and-minimal-singularities",
-        "section-maps-and-numerical-dimension"
+        "section-maps-and-numerical-dimension",
+        "positive-effective-powers"
       ]
     },
     {
@@ -4708,6 +4714,11 @@
         "start": "F96903E36E32",
         "slug": "adjoint-generation-and-multiplier-ideals--numerical-jets-for-the-two-canonical-adjoint",
         "title": "Numerical jets for the two-canonical adjoint"
+      },
+      {
+        "start": "FD8AC4F41EDA",
+        "slug": "adjoint-generation-and-multiplier-ideals--effective-smooth-nonvanishing",
+        "title": "Effective smooth nonvanishing"
       }
     ],
     "envelopes-with-integral-normalization": [
@@ -4797,6 +4808,11 @@
         "start": "A1A1DB6F1FE1",
         "slug": "numerical-kahler-and-nef-criteria--numerical-tests-for-kahler-and-nef-cones",
         "title": "Numerical tests for Kähler and nef cones"
+      },
+      {
+        "start": "6B715732AEDD",
+        "slug": "numerical-kahler-and-nef-criteria--projective-numerical-and-metric-nefness",
+        "title": "Projective numerical and metric nefness"
       }
     ],
     "surface-positivity-and-numerical-jets": [
@@ -4814,6 +4830,18 @@
         "start": "6A09D093F8AF",
         "slug": "surface-positivity-and-numerical-jets--simultaneous-jets-from-surface-intersections",
         "title": "Simultaneous jets from surface intersections"
+      }
+    ],
+    "positive-effective-powers": [
+      {
+        "start": "5F5823AA7267",
+        "slug": "positive-effective-powers--first-positive-effective-powers-on-products-of-curves",
+        "title": "First positive effective powers on products of curves"
+      },
+      {
+        "start": "721E30A2826E",
+        "slug": "positive-effective-powers--coefficient-tests-for-positive-effective-powers",
+        "title": "Coefficient tests for positive effective powers"
       }
     ]
   },

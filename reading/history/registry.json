@@ -94,7 +94,8 @@
         "7DDCF7B4B098",
         "236AE54290E1",
         "B7CB9B7B89F0",
-        "957F79A49EC4"
+        "957F79A49EC4",
+        "5CF55559A553"
       ],
       "file": "cohomology-curves-and-complex-geometry.html"
     },
@@ -149,7 +150,8 @@
         "7D0841794B32",
         "A18DDA7E6A3D",
         "83E07A81BA8A",
-        "71C5E8BA4A33"
+        "71C5E8BA4A33",
+        "C3EBADA5BA47"
       ],
       "file": "sections-convexity-and-non-archimedean-geometry.html"
     },
@@ -247,25 +249,27 @@
     "transcendental-positive-cones/sec:positive-cones-history-cones": "1e2de496ceb8b14b105b81573292ee5fa065ba6338e029d2d578bbcc62e7ed14",
     "isolated-plurisubharmonic-singularities/sec:isolated-psh-history-mass": "ce75bc3c103a5a66fef77f6b671e72360ab182cbbb8b41e8904c05b37496b03d",
     "cao-paun-foliations/sec:history-relative-canonical-foliations": "f23e5dc274ede4155b3849e950bcacea7d6800efca624af88008d3193a5867a0",
-    "analytic-methods/sec:analmeth-history-l2": "c870e176c5f8cce1ea0ca893383dde1aae8d9a124cd511c2748e13a20986bba3",
-    "analytic-methods/sec:analmeth-history-generation": "f4b10c971c5926872444304e188257ff284dcca93f5b78a70605855cf2bc879b",
-    "analytic-methods/sec:analmeth-history-curvature": "e75fdd511430993521261b16d2c4ba44f57102d336ead8f588804b5a82538daf",
-    "analytic-methods/sec:analmeth-history-singularities": "5066643dd4c13ac488ac7a6f55e0bf481fa4135d15419ecd047f6dfb055f6a30",
-    "analytic-methods/sec:analmeth-history-envelopes": "17e5f8ead1a7a69a3ee609d6904f18785bb1ae7c45ee19f697f3e4132128988e",
-    "analytic-methods/sec:analmeth-history-cohomology": "f4aa72c8701730896400889ae23d8a41fade8de50e8d86af2ced54dd2ad52ac7",
-    "analytic-methods/sec:analmeth-history-current-restriction": "e4cfb0b0432b164b95ea2346f5b15c045a6e146ccb5b61edc6c80d69e1931fe4",
-    "analytic-methods/sec:analmeth-history-vector-estimates": "5a96e627d449e1786ca42e1f12e931e106165c9d5ae419e0cd01d8043999634a",
-    "analytic-methods/sec:analmeth-history-effective-jets": "829222e4b816316809ceccb0a6c5997918ce81404e56a2f49431795a7add77a0",
-    "analytic-methods/sec:analmeth-history-mobile-volume": "15ac44a6dc5d7f33d90b3e78ffcb1e41a01170b10acfd1d36ff1638ee9244ae1",
-    "analytic-methods/sec:analmeth-history-finite-symmetry": "dfb882a67304251b06fc32e8d913521fd171eed321658567065f259c2ae83581",
-    "analytic-methods/sec:analmeth-history-explicit-integral-envelopes": "b3c2a56bf21e841e784d4e84070c35f1eb7624c583c4940ce8daf2cee21534e1",
-    "analytic-methods/sec:analmeth-history-generic-divisor-approximation": "4ff1ef58c38af08119f21e519c6ec0dd209e6f7da38fb32bd6320748863531c1",
-    "analytic-methods/sec:analmeth-history-coherent-growth": "f699cf1f675b8828066a2d44b358aec138c9852d70f686fe8a44b314201447ca",
-    "analytic-methods/sec:analmeth-history-scalar-section-dimension": "8e4bed1ce71a4e561e21df6066cd611f53f5700671b3033298992c66c948c843",
-    "analytic-methods/sec:analmeth-history-truncated-morse": "d3212f41477b0377bc4926b04c3eddc32ba619c478c6708948a63227bd1eddb3",
-    "analytic-methods/sec:analmeth-history-arbitrary-coherent-twists": "717da1b2af68c85474fd3c9b005311e366e52db3fa0ebeeac3daecf218f55599",
-    "analytic-methods/sec:analmeth-history-all-degree-moving-classes": "407e382f78e3dd287191b2785ff0865b12b209e2bec0358c2f71a49b63c298fc",
-    "analytic-methods/sec:analmeth-history-numerical-cones-surfaces": "049747c51a6f717e52194527495dd5231550f3c57c4bc344b73b974440610c8c",
-    "analytic-methods/sec:analmeth-history-cumulative-spectral-counts": "a230de69f938feae9769eb341716319fdad15b8b65ed0b2214d2a22505469188"
+    "analytic-methods/sec:analmeth-history-l2": "300aafcba111790540d43a7dea69b12c8de01a98380f1276f8e8954806d065f2",
+    "analytic-methods/sec:analmeth-history-generation": "9fad6d5a00d5efb5391c7b1ffb74f8e6b0863734c57840ee1de07657cd0ada65",
+    "analytic-methods/sec:analmeth-history-curvature": "d56e491656b9035ca8be375121dacbb5abdd7a3d336b1bbfaa64c8dc5dc118aa",
+    "analytic-methods/sec:analmeth-history-singularities": "99a6130764f218cb213dc4e1294916b4f676247f5cc93822a0983421540bfacf",
+    "analytic-methods/sec:analmeth-history-envelopes": "364ee998cbf971feaa98187a5fd74d8d164fc62137f91a7241500cd1bbb71446",
+    "analytic-methods/sec:analmeth-history-cohomology": "88ce422679310d03c85ac6c5b0eba945031b301d6edb7c9e65e47827496b240a",
+    "analytic-methods/sec:analmeth-history-current-restriction": "04f1293d084205db5afd788686a4b54c501aa9f78bc80b91417ea9a91042996a",
+    "analytic-methods/sec:analmeth-history-vector-estimates": "e25ec7a9c4bc17391bd4fdd18553d9c40bd4c90505513e30087e95346af25f25",
+    "analytic-methods/sec:analmeth-history-effective-jets": "39dfbf033e079c46d3ebe70b1c656e0a16dcd37f4f051240f5f99b6bbe7167b0",
+    "analytic-methods/sec:analmeth-history-mobile-volume": "f1152a329fa68bf2a8d2d6a0e62eef506a2e540608e56954dc0e0383e60f3f19",
+    "analytic-methods/sec:analmeth-history-finite-symmetry": "a08f708ed24d1f09319feccf75ac2f2c789baf0ad31705c0a879bdbdf069d171",
+    "analytic-methods/sec:analmeth-history-explicit-integral-envelopes": "a53e37b45375d037d5474edc75a8e6eb50e232414214684599d5d72e89cc625f",
+    "analytic-methods/sec:analmeth-history-generic-divisor-approximation": "4468f717c067d8ed8fd00957bb5510de97f972c1b9ac36e58688c83db98f9ce6",
+    "analytic-methods/sec:analmeth-history-coherent-growth": "2e91fe7fbb0a5db01509300b0d5cc548bdabc53ca8f6bf35e33994d408a35bd3",
+    "analytic-methods/sec:analmeth-history-scalar-section-dimension": "8c41f17b5fb9ae8a0ab2c51c840a8eb122798ba76c75519feac1cfbefae6f7de",
+    "analytic-methods/sec:analmeth-history-truncated-morse": "b0a295e4789465105352c9ed0703bd86dc28165389f3babfae4ed37d7ab4b02b",
+    "analytic-methods/sec:analmeth-history-arbitrary-coherent-twists": "b2676de80f2c41c61113497f20312d1680b1126cad218a9d6cd92c39bc62e960",
+    "analytic-methods/sec:analmeth-history-all-degree-moving-classes": "9b84e23fdb5afb95ce346fb2fb9e02202c99c52be018d2ac8ed2dfd492c0d57c",
+    "analytic-methods/sec:analmeth-history-numerical-cones-surfaces": "8443ec0f9eb83dd7aff8a7042be4d87b7d7e08e2bd40d9bb1c364bbc734c3c0d",
+    "analytic-methods/sec:analmeth-history-cumulative-spectral-counts": "22ca5c1f76a4bcd1f2f412c2b1bc737609f8f2e6b12d87bb6ddea2f83fd45c50",
+    "analytic-methods/sec:analmeth-history-effective-nonvanishing": "0172a6b64cf83c5a03067ecf0ef14ed8724b308b989a581219d1765b00c8ef88",
+    "analytic-methods/sec:analmeth-history-positive-effective-powers": "88ecea30be616d827b62d8ca4fcd04b2e743a1a97a3c3b8c2cf29e617c9d07b1"
   }
 }
