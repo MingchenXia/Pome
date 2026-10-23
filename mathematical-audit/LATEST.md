@@ -1,3 +1,13 @@
+# Pome audit — 2026-10-23: exact Hopf-basic Monge–Ampère tails and Gauduchon orders
+
+**Fresh main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **start audit head:** `47001d69d14580fe34a55faf5a6474defad9213c`, preserved without reset. Read `main/AGENTS.md`, `main/documentation/proof-expansions.md`, the current main `README.md` and ToC (25 chapters / 747 **inventory** sections), plus `review/mathematical-audit/README.md` and the earlier `LATEST.md`. Actual first selected proof-level inspections: §§17.16.16, 17.16.30; separately only §§12.19.20, 12.20.1. No entire section or upstream theorem corpus is certified.
+
+- **`POME-HOPF-BASIC-ENERGY-EXACT-TAIL-001` — low / verified conditional deduction, NOT a false theorem or missing proof.** For the canonical `v_a=1-(1-ψ)^a` on `ℙ^d`, `0<a<1`, `τ=(1+R)^{1/a}`: `MA_κ(v_a)({v_a<-R})=[e^{1-τ}+a(1-e^{1-τ})τ^{a-1}]^d` **exactly** for R≥0. Thus tails are asymptotic to `a^dR^{-d(1-a)/a}`; all finite moments satisfy `∫(-v_a)^q MA<∞ iff a<d/(d+q)`, with logarithmic divergence at equality. The Hopf pullback has precisely `2n` times the tail. The radial Stokes and layer-cake proof and source blobs/labels/permanent tags are in [the dated report](reports/2026-10-23-hopf-basic-exact-energy-tail-and-gauduchon-orders.md). This extends the printed `q=2` example without changing it.
+- §12.19.20 periodic derivative constraint `p'≥−1`, `|p|≤1` and `Lr²/4−r³/6` sharp bound rechecked in its selected one-dimensional proof only; §12.20.1 log-order sign reversal/rescaling verified conditional on the stated variational monotonicity/homogeneity. Not a certification of either full section, the threefold construction or analytic equation.
+- Prior Kähler `E²` completion/CAT(0) external dependency `POME-GEO-EXT-CAT-001` unchanged. The entire dedicated Demailly approximation/regularization, Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss programme remains **`deferred-by-user`**, not reopened or certified. No new arithmetic script, full project tests/build, CI, website publication, source/body/registry/permanent-tag/main changes, merge or PR operation.
+
+---
+
 # Pome audit — 2026-10-23 22:48 Asia/Shanghai: radial currents and a Lelong-number jump
 
 **Fresh verified main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **review head at start:** `083c6e784a6a2ece5131f3710fc4c9b08d8726e9` (preserved, never reset). Freshly read `main/AGENTS.md`, `main/documentation/proof-expansions.md`, `main/docs/chapters/index.html`, `review/mathematical-audit/README.md` and this review-branch `LATEST.md` before mathematical review. Actual current ToC: 25 chapters and 747 section entries — **inventory only**, not whole-section/proof certification.
