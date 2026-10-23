@@ -1,3 +1,18 @@
+# Pome mathematical audit checkpoint — 2026-10-23 18:05 Asia/Shanghai
+
+**Freshly confirmed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. Existing audit branch before writes: 05da6df6c5968380c550de3cadd22dca975a7fd8. Read current main AGENTS.md, documentation/proof-expansions.md, main ToC, audit-branch README.md and audit-branch mathematical-audit/LATEST.md; actual inventory is 25 chapters / 747 numbered sections (**inventory, not mathematical certification**).
+
+**Substantive selected new proof review:** §22.1.54–60 (DH moments, finite-energy tails, monotone volume convergence) and §20.4.19–24 (Gauduchon-normalized positive-current decomposition and net topology). Dependencies §19.5.26(1), §19.6.18–19, §11.31.3 directly crosschecked, not fully certified. Stable tags, current-main blobs, exact integrated line anchors and full proofs: [dated English report](reports/2026-10-23-dh-volume-profile-wasserstein-and-gauduchon-net-continuity.md).
+
+- **POME-NA-DH-W1-PROFILE-001**, low / **verified conditional deduction**: in the common positive-mass left-end model and finite-first-moment setting, W1 of normalized DH measures equals L1 difference of their cumulative level-volume profiles divided by mass. Ordered curves specialize to first-moment difference / mass. Exact terminal-atom formula included. Distinct from prior nonquantitative stochastic-order finding.
+- **POME-BC-GAUD-NET-L1-001**, low / **verified repair**: validates the weak-current-to-L1-potential continuity claim in Lemma 20.4.20 for arbitrary directed nets by uniform qpsh L1 compactness and uniqueness of all subnet limits; original statement not shown false.
+
+**Independent arithmetic check:** 22,251 exact rational finite-atom W1/survival-profile cases passed, not a proof of NA analytic facts. New check script: [checks/check_dh_w1_profile.py](checks/check_dh_w1_profile.py). Updated 747-row [SECTION_MATRIX.md](SECTION_MATRIX.md) and historic [LEDGER.md](LEDGER.md) without resetting prior findings. The existing §19.6.16 false statement and §22.1.88 concave-envelope issue remain unresolved; neither reclassified nor repeated as new progress.
+
+**Scope:** Demailly approximation/regularization and the dedicated Bergman, L2, Ohsawa–Takegoshi, multiscale and positivity-loss proof-completion programme remain entirely **deferred-by-user**, not reexamined, resolved or certified. No source/body/canonicalization/permanent-tag change, main write, website publication, GitHub Actions CI, PR/issue creation, merge, full-project tests/build, or formal verification was performed. Remote commit outcome should be verified separately after this checkpoint update.
+
+---
+
 # Pome mathematical audit checkpoint — 2026-10-23 17:37 Asia/Shanghai
 
 **Freshly confirmed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; existing review branch before writes: `f3435da74f5eb748d1d15529b04f3f600ceec4f8`. Re-read main `AGENTS.md`, `documentation/proof-expansions.md`, current main and 25-chapter / **747-section** ToC, and review branch `README.md` / `mathematical-audit/LATEST.md`. The 747 sections are inventory, **not mathematical certification**.
