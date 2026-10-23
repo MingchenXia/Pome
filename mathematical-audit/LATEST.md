@@ -1,3 +1,18 @@
+# Pome mathematical audit — 2026-10-23: anisotropic MA limits and pluripolar Haar nullity
+
+**Precisely reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **existing audit branch preserved** from 102b599aeb30be2eef2d3ecc9df5a350eae489e0 (never reset). Fresh required main AGENTS.md, documentation/proof-expansions.md, current 25-chapter/747-section HTML ToC, and review-branch README.md and LATEST.md were read. The section count is **inventory only**, not mathematical certification.
+
+**Direct first-time nonexcluded proof review:** Lemma 6.55.1 and smooth fixed-m part of Proposition 6.55.2 (only lines 31–70); independent Lemma 6.45.1 on Haar-null intersection of pluripolar sets and totally-real slices. The detailed source blob SHAs, source labels, permanent tags, paragraph/line anchors, hypotheses, complete derivations, and affected dependents are in [dated report](reports/2026-10-23-anisotropic-restricted-ma-noncommuting-limits.md). Previously reviewed §6.56 and §9.74 appeared solely as de-duplication crosschecks; prior findings are **not** presented again as new coverage.
+
+- **POME-CAOPAUN-MA-ANISOTROPIC-ITERLIMIT-001** — low, **verified conditional deduction**, **not** a source theorem error. Exact Cauchy-powered-coordinate tail epsilon/(epsilon+r^(2m)); complete family of nontrivial torus weak limits as m→∞, epsilon_m↓0; the two iterated m/epsilon measure limits do **not** commute. Original §6.55.2 takes epsilon↓0 with m fixed, hence remains unrefuted.
+- **POME-TOTALLY-REAL-PLURIPOLAR-NULL-001** — low, **verified conditional deduction**, **not** a source theorem error. Maximal real-analytic totally-real submanifolds are locally pluripolar-null in smooth induced volume by holomorphic complexification and real-cube Riesz/Fubini. This properly generalizes the U(n) lemma under exact hypotheses.
+
+**Actual checks:** executed checks/check_anisotropic_ma_limit_order.py in the local Python runtime: **630 exact rational finite identities and bounds PASSED**. This is not a formal proof or a validation of the limiting argument. **Not run:** full project tests or build, CI, browser rendering, website publication, mathematical formal verification. No source/body/registry/canonical-tag/main changes or PR manipulation. The new report, small reproducible checker, matrix and ledger changes were committed on the audit branch; final remote-commit verification follows separately, and successful commit SHAs must not be guessed.
+
+**Strict exclusion remains:** Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss proof completion **deferred-by-user** (neither reopened, resolved nor certified). In particular §6.55.2 from line 72 and §6.45.2's smoothing/current-product programme were not audited. All historical finding statuses remain intact.
+
+---
+
 # Pome mathematical-audit checkpoint — 2026-10-23 19:07 Asia/Shanghai
 
 **Current main read:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **review branch preserved** (starting SHA 408d3e0816e2b72756c8bf27a5ae3eae54ecc51c). Freshly read main AGENTS.md, documentation/proof-expansions.md, the 25-chapter/747-section actual ToC, and review-branch README.md and this LATEST.md. Section counts remain inventory, not mathematical certification. The new Markdown report, one exact script, three changed section-matrix rows and three new ledger IDs are on the audit branch, subject to independent final remote verification.
