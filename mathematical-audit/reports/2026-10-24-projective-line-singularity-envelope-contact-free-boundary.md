@@ -34,7 +34,7 @@ The two branches agree with equal first radial derivatives at $|z|^2=R_a^2$, so 
 
 ### Direct proof of the envelope assertion
 
-Write $x=\log|z|^2$, $F(x)=\log(1+e^x)$, (x_a=\log(a/(1-a))). Then $F'(x_a)=a$, and the supporting affine function $L(x)=ax+h(a)$ is tangent to $F$ at $x_a$; convexity gives $L\le F$. Thus $w_a=L-F\le0$ for $x\le x_a$ and $w_a=0$ for $x\ge x_a$. The function $H=w_a+F$ is affine on $(-∞,x_a]) and equal to (F) on ([x_a,∞)$. Its derivative is nondecreasing: it is $a$ to the left and $F'(x)\ge a$ to the right. Therefore $\omega+dd^cw_a\ge0$, including across the matching circle. Since $w_a-u_a$ is bounded on the compact sphere (the logarithmic terms cancel at 0), $w_a\preceq u_a$; hence $w_a$ is an admissible competitor for $P_\omega[u_a]$.
+Write $x=\log|z|^2$, $F(x)=\log(1+e^x)$, and $x_a=\log(a/(1-a))$. Then $F'(x_a)=a$, and the supporting affine function $L(x)=ax+h(a)$ is tangent to $F$ at $x_a$; convexity gives $L\le F$. Thus $w_a=L-F\le0$ for $x\le x_a$ and $w_a=0$ for $x\ge x_a$. The function $H=w_a+F$ is affine on $(-\infty,x_a]$ and equal to $F$ on $[x_a,\infty)$. Its derivative is nondecreasing: it is $a$ to the left and $F'(x)\ge a$ to the right. Therefore $\omega+dd^cw_a\ge0$, including across the matching circle. Since $w_a-u_a$ is bounded on the compact sphere (the logarithmic terms cancel at 0), $w_a\preceq u_a$; hence $w_a$ is an admissible competitor for $P_\omega[u_a]$.
 
 Conversely let $v\in\mathrm{PSH}(X,\omega)$ satisfy $v\le0$ and $v\preceq u_a$. On the punctured disc $0<|z|<R_a$ the function
 \[
@@ -53,7 +53,7 @@ Distributionally,
 \omega+dd^cu_a=(1-a)\omega+a[0],\qquad
 \omega+dd^cw_a=a[0]+\mathbf1_{\{|z|\ge R_a\}}\omega .
 \]
-Here ([0]) is the unit Dirac mass, by the Poincaré–Lelong normalization; the equality for $w_a$ has **no measure supported on the matching circle**, since both value and first radial derivative match. Non-pluripolar products in complex dimension one discard the Dirac mass at a logarithmic pole, yielding
+Here $[0]$ is the unit Dirac mass, by the Poincaré–Lelong normalization; the equality for $w_a$ has **no measure supported on the matching circle**, since both value and first radial derivative match. Non-pluripolar products in complex dimension one discard the Dirac mass at a logarithmic pole, yielding
 \[
 \boxed{\mu_{u_a}=(1-a)\omega,\qquad
 \mu_{w_a}=\mathbf1_{\{|z|\ge R_a\}}\omega.}
@@ -62,11 +62,11 @@ The normalized Fubini–Study radial mass is
 \[
 \int_{\{|z|\le R\}}\omega=\frac{R^2}{1+R^2}.
 \]
-Consequently $int_{|z|\le R_a}\omega=a$ and $int_{|z|\ge R_a}\omega=1-a$, so
+Consequently $\int_{\{|z|\le R_a\}}\omega=a$ and $\int_{\{|z|\ge R_a\}}\omega=1-a$, so
 \[
 \int_X\mu_{u_a}=\int_X\mu_{w_a}=1-a.
 \]
-Moreover $V_\omega=0$, the contact set ${w_a=V_\omega}={|z|\ge R_a}$, and therefore
+Moreover $V_\omega=0$, the contact set $\{w_a=V_\omega\}=\{|z|\ge R_a\}$, and therefore
 \[
 \boxed{\mu_{w_a}=\mathbf1_{\{w_a=V_\omega\}}\mu_{V_\omega}},
 \]
@@ -75,14 +75,14 @@ Moreover $V_\omega=0$, the contact set ${w_a=V_\omega}={|z|\ge R_a}$, and theref
 \boxed{\|\mu_{w_a}-\mu_{u_a}\|_{\rm TV}
 =(1-a)\,a+a\,(1-a)=2a(1-a).}
 \]
-The total-variation convention here is the mass of the absolute signed measure, without an additional factor (1/2); it reaches (1/2) at $a=1/2$. This explicitly separates preservation of **total** non-pluripolar mass from preservation of the **measure**. It does not contradict Proposition 16.21.2(3), which asserts only the former.
+The total-variation convention here is the mass of the absolute signed measure, without an additional factor $1/2$; it reaches $1/2$ at $a=1/2$. This explicitly separates preservation of **total** non-pluripolar mass from preservation of the **measure**. It does not contradict Proposition 16.21.2(3), which asserts only the former.
 
 ### Verification of the relevant printed steps and boundaries
 
 - Proposition 16.21.2(2): each rooftop approximant is bounded above by $V_\theta$ and has the original singularity type by Proposition 16.11.7; the two competitor families have the same supremum. The special example has a *strictly larger* normalized envelope $w_a\ge u_a$ and confirms why taking the supremum matters.
 - Proposition 16.21.2(3): the mixed-mass passage explicitly uses Corollaries 13.8.8–9. The concrete one-dimensional mass identity above is **independent** of certifying those general mixed-mass continuity theorems.
-- Proposition 16.21.3: ${u+k\le V_\theta}\downarrow\{u=-\infty}$ and the non-pluripolar measure of (u) does not charge that pole set. The printed limit to a fixed dominating measure is compatible with the model, where equality holds.
-- Theorem 16.20.2, Step 4 (main HTML physical line 104): for $lambda_j>0$ and $E=\cap_j{u_j=f_j}$, the scalar restricted identity is a measure-valued homogeneous polynomial in the $lambda_j$, and the $lambda_1\cdots\lambda_n$ coefficient is (n!) times the desired mixed wedge. Step 5 (line 106) uses the fact that weak Hessians of $W^{2,p}$ functions agreeing on a measurable set agree there a.e.; it is conditional on the established regular-envelope theorem and weak-Hessian locality. **No new gap or false theorem has been established by these selected checks.**
+- Proposition 16.21.3: $\{u+k\le V_\theta\}\downarrow\{u=-\infty\}$ and the non-pluripolar measure of $u$ does not charge that pole set. The printed limit to a fixed dominating measure is compatible with the model, where equality holds.
+- Theorem 16.20.2, Step 4 (main HTML physical line 104): for $\lambda_j>0$ and $E=\bigcap_j\{u_j=f_j\}$, the scalar restricted identity is a measure-valued homogeneous polynomial in the $\lambda_j$, and the $\lambda_1\cdots\lambda_n$ coefficient is $n!$ times the desired mixed wedge. Step 5 (line 106) uses the fact that weak Hessians of $W^{2,p}$ functions agreeing on a measurable set agree there a.e.; it is conditional on the established regular-envelope theorem and weak-Hessian locality. **No new gap or false theorem has been established by these selected checks.**
 
 **Affected dependents / proposed action:** Proposition 16.21.2(3), Proposition 16.21.3, the mass/contact discussion in §§16.20–16.22, and toric intuition in §21.1. The proposed amendment is an **optional explanatory example**, not a correction of the source theorem, proof registry, reading text, or tags. Do not conflate equal total mass with equal distributions. No existing canonical duplicate or permanent-tag conflict was found in these passages.
 
