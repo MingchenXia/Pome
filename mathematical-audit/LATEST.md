@@ -1,3 +1,18 @@
+# Pome mathematical audit — 2026-10-23: subfamily singularity intersections and sharp CLN collar loss
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`, with fresh required AGENTS.md, documentation/proof-expansions.md, current integrated ToC (25 chapters / **747 inventory-only sections**), audit branch README.md and prior LATEST.md; initial review-branch head `e54b793736c6e9e926e1e2acdfc5c2580ffa5ba2` preserved, never reset.
+
+**New substantive, specifically limited proof inspection:** §7.28 Theorem 7.28.1 (all-subfamily pole-locus Hausdorff condition, weighted product integrability), §7.30 Proposition 7.30.3 / Eq. 7.30.4 (intersection-dimension bounds, selected cutoff estimates), §7.32 Corollary 7.32.2 (collar-depth mass estimate). §§7.29/7.31 consulted **only as contextual dependencies**. Theorem 7.28.1's full continuity induction, cutoff intricacies and nonexcluded external dependencies remain unverified; no entire section is certified. All precise paths, source labels, permanent tags and physical line anchors: [complete dated English proof](reports/2026-10-23-complete-intersection-pole-mass-and-sharp-cln-collar.md).
+
+- **POME-BT-HAUSDORFF-SUBFAMILY-SHARP-001:** low / `verified conditional deduction`, **not an original-theorem error**. Normal-crossing coordinate logarithms satisfy every Hausdorff subfamily test and have unit classical intersection mass, but NPP product zero; repeated coordinate divisor satisfies singleton tests yet makes the weighted product nonintegrable, demonstrating the importance of the higher-intersection tests.
+- **POME-CLN-COLLAR-INVDELTA-OPT-001:** low / `verified conditional deduction`, **not an original-theorem error**. On the unit disc, `u=log|z|²`, `ψ=|z|²−1` gives `||uT||=||T||=1`, collar `Mδ=−log(1−δ)`, hence `δ/Mδ→1`. Therefore Corollary 7.32.2's `δ^{-1}` **exponent** is optimal; the printed numerical constant is not claimed sharp.
+
+**Actual finite software validation:** `checks/check_bt_subfamilies_collar.py` executed **352 integer codimension identities and 500,500 exact rational collar inequalities**, all passed. This is **not** a proof of psh theory. No full project tests or build, GitHub Actions CI, website publication, formal verification, source/body/registry/permanent-tag edits, merge, force push or PR change. The new report, small check, selected section rows of SECTION_MATRIX.md and two finding rows of LEDGER.md were submitted to **review/mathematical-audit only**, with the audit branch unchanged except for normal forward commits; complete remote verification must be checked separately.
+
+**Excluded as requested:** all Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss work remains **`deferred-by-user`**, not reexamined, resolved or certified. In particular §7.31.1's general smoothing is a dependency boundary, not an audit task. Historical records and unchanged findings remain intact.
+
+---
+
 # Pome mathematical audit — 2026-10-23: anisotropic MA limits and pluripolar Haar nullity
 
 **Precisely reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **existing audit branch preserved** from 102b599aeb30be2eef2d3ecc9df5a350eae489e0 (never reset). Fresh required main AGENTS.md, documentation/proof-expansions.md, current 25-chapter/747-section HTML ToC, and review-branch README.md and LATEST.md were read. The section count is **inventory only**, not mathematical certification.
