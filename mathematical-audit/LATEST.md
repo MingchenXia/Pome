@@ -1,3 +1,16 @@
+# Pome audit — 2026-10-23: the fixed-ample hyperelliptic test succeeds first at m=1
+
+**Reviewed main** b6933b772f41b45918f7e25ed1afbbb1fd892272; **start-of-session audit head** 7f664ec1776df5c0ebb80d9a13b21b80f5b5cf53, preserved (no reset). Freshly read AGENTS.md, documentation/proof-expansions.md, the current main table of contents (25 chapters / 747 section inventory), and README.md and LATEST.md on review/mathematical-audit. No whole section or project is certified.
+
+**Actually new selected proof coverage:** §§11.29–11.30, specifically strict Levi/Griffiths equivalence, finite-section first jets and coefficient matrices, C² density and convex alternatives (selected proof passages only), the hyperelliptic cover section splitting, the root-weight ramification obstruction, and the fixed-A level-zero test. §11.28 was only context; a previously logged torus result was not repeated. [Complete English report with source-label, permanent-tag, file-blob and physical-line anchors, as well as full new proof](reports/2026-10-23-hyperelliptic-first-ample-twist-is-one.md).
+
+- **POME-HYPERELLIPTIC-FIXED-TWIST-ONE-001** — **low / verified conditional deduction**, NOT an original theorem error. For the exact §11.30 hyperelliptic family with any q>=2 and any fixed FS basis of A=L^q, the first successful twist in Theorem 11.29.9 is exactly **m=1**. The already-printed first *root-weight* level j=q−1 is a different test family: j=qm for the fixed-A family. An explicit nonnegative quadratic combination of products of sections and branch-coordinate sections produces a strictly psh fiber-quadratic function at m=1; m=0 fails by ramification. The proof treats the arbitrary-basis metric, checks positivity on the null line at each branch point, and closes the argument by a compact uniform Schur complement. No general effective m bound is asserted.
+- **Verification:** direct symbolic/analytic derivation checked, without a numerical grid or claimed formal verification. No Pome build, full tests, CI, automatic website publication, source/body/registry/permanent tag/main modifications or PR operations. Remote branch commits and blob verification are to be independently checked after writing.
+
+**Strict exclusion:** Demailly approximation/regularization and the dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss proof completion programme remain **deferred-by-user**, not examined or certified. Historical ledger and matrix entries are preserved. All 747 ToC sections remain an inventory, not a whole-project review count.
+
+---
+
 # Pome mathematical audit — 2026-10-23: subfamily singularity intersections and sharp CLN collar loss
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`, with fresh required AGENTS.md, documentation/proof-expansions.md, current integrated ToC (25 chapters / **747 inventory-only sections**), audit branch README.md and prior LATEST.md; initial review-branch head `e54b793736c6e9e926e1e2acdfc5c2580ffa5ba2` preserved, never reset.
