@@ -103,7 +103,7 @@
       "title": "Singular metrics, generation and canonical systems",
       "author": "Gerby Literature",
       "repository": "https://github.com/MingchenXia/Gerby-Literature",
-      "ref": "cdb7ea3160e0da0002eb8caa8b562f4b23ce4d2b",
+      "ref": "56729581777abe57187e604de707baffa805f370",
       "entrypoint": "contributions/analytic-methods-public.tex",
       "checkout_env": "ANALYTIC_METHODS_SOURCE_DIR",
       "visibility": "private",

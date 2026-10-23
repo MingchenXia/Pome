@@ -4632,6 +4632,11 @@
         "start": "FBEE092DAF1F",
         "slug": "general-complex-cohomology-and-modifications--coherent-euler-polynomials-for-arbitrary-twists",
         "title": "Coherent Euler polynomials for arbitrary twists"
+      },
+      {
+        "start": "2A934EB4646D",
+        "slug": "general-complex-cohomology-and-modifications--surface-euler-identities",
+        "title": "Surface Euler identities"
       }
     ],
     "entire-function-growth-and-algebraic-zero-sets": [
@@ -4830,6 +4835,21 @@
         "start": "6A09D093F8AF",
         "slug": "surface-positivity-and-numerical-jets--simultaneous-jets-from-surface-intersections",
         "title": "Simultaneous jets from surface intersections"
+      },
+      {
+        "start": "5952C5FD2906",
+        "slug": "surface-positivity-and-numerical-jets--moving-divisors-and-effective-surface-jets",
+        "title": "Moving divisors and effective surface jets"
+      },
+      {
+        "start": "8E4601922408",
+        "slug": "surface-positivity-and-numerical-jets--surface-bounds-at-the-numerical-endpoint",
+        "title": "Surface bounds at the numerical endpoint"
+      },
+      {
+        "start": "A612DC0E115C",
+        "slug": "surface-positivity-and-numerical-jets--double-covers-and-the-growth-of-very-ample-powers",
+        "title": "Double covers and the growth of very ample powers"
       }
     ],
     "positive-effective-powers": [
