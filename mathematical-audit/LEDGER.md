@@ -1,3 +1,14 @@
+# New nonexcluded findings — 2026-10-23, selected §§6.55.1 and 6.45.1 (main b6933b77)
+
+| Stable ID | Status, severity, precise source anchors | Complete conclusion and verification boundary | Correction / dependents |
+| --- | --- | --- | --- |
+| **POME-CAOPAUN-MA-ANISOTROPIC-ITERLIMIT-001** | **verified conditional deduction**, low; source cao-paun-foliations:A77E2EB0, tag 279034C7A935, docs/sections/concentrating-restricted-singularities/index.html:9–25 (blob 3167593400ca0dd405a850fbafd634d0f0b97e48); selected Proposition 6.55.2 comparison lines 31–70 only | Exact coordinate tails P(|z_j|>r)=epsilon/(epsilon+r^(2m)), j>=2. As m→∞ and epsilon_m↓0 with epsilon_m^(1/(2m))→R, normalized smooth Monge–Ampère measures converge narrowly to delta_0 times (n−1)-fold circle Haar at radius R. Iterated m/epsilon limits **do not commute** (delta_0 versus delta_0 times unit-radius torus Haar). Complete elementary density, covering map and coupling proof in [report](reports/2026-10-23-anisotropic-restricted-ma-noncommuting-limits.md). This refutes an **unasserted** uniform-concentration heuristic, **not** the printed lemma or proposition. | Optional exact example immediately after Lemma 6.55.1; maintain the fixed-m-before-epsilon order in §6.55.2. Dedicated gentle approximation/multiplier-ideal/positivity-loss proof lines 72–93 **deferred-by-user**, not certified. |
+| **POME-TOTALLY-REAL-PLURIPOLAR-NULL-001** | **verified conditional deduction**, low; source demailly-complex-geometry:F7E1037D, tag D72B7AE5B407, docs/sections/lelong-densities-generalized-masses-and-multiplicity--rotation-of-an-arbitrary-isolated-continuous-weight/index.html:8–31, blob 9175f1ac475bf4a9f9d9a1749037ae86beb675e8 | The locally pluripolar intersection of a maximal-dimensional real-analytic totally-real submanifold of a complex N-manifold has zero smooth N-dimensional measure. Complete local holomorphic-complexification, inverse-function and real-cube Fubini induction proof in [report](reports/2026-10-23-anisotropic-restricted-ma-noncommuting-limits.md). Retains maximal total reality and real-analyticity; **not** asserted for arbitrary smooth/lower-dimensional real submanifolds. | Optional general lemma before the specific U(n) case. Theorem 6.45.2 and its smoothing/current-product dependencies were **not audited**. Original Haar-null lemma correct. |
+
+Existing §§6.56 and 9.74 findings are historical, already registered; neither reintroduced nor counted as new. The prohibited Demailly approximation/regularization, Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme remains **deferred-by-user**, not resolved. Only 630 **finite exact rational** diagnostic checks were executed; no project build, CI, website publication or formal verification.
+
+---
+
 # New nonexcluded findings — 2026-10-23 19:07 Asia/Shanghai (main b6933b77)
 
 | Stable ID | Status, severity, and precise source | Complete conclusion / boundary | Action and dependents |
