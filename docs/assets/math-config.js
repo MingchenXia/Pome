@@ -5,6 +5,7 @@ window.MathJax = {
     inlineMath: [['$', '$'], ['\\(', '\\)']], processEscapes: true,
     macros: {
       mathds: ['\\mathbb{#1}', 1],
+      dasharrow: '\\dashrightarrow',
       xlongrightarrow: ['\\xrightarrow{#1}', 1],
       adjustlimits: '',
       index: ['', 1],

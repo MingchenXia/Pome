@@ -9884,6 +9884,134 @@
     "tag": "2B4173DC2F80"
   },
   {
+    "route": "sections/blowups-and-restricted-lelong-numbers",
+    "title": "6.52 Blowups and restricted Lelong numbers",
+    "chapter": "singularities-regularization",
+    "section": "blowups-and-restricted-lelong-numbers"
+  },
+  {
+    "route": "tag/3948CB675433",
+    "title": "Proposition 6.52.1",
+    "chapter": "singularities-regularization",
+    "section": "blowups-and-restricted-lelong-numbers",
+    "tag": "3948CB675433"
+  },
+  {
+    "route": "tag/3C256C55C09B",
+    "title": "Lemma 6.52.2",
+    "chapter": "singularities-regularization",
+    "section": "blowups-and-restricted-lelong-numbers",
+    "tag": "3C256C55C09B"
+  },
+  {
+    "route": "sections/projective-bundle-integration",
+    "title": "6.53 Projective-bundle integration",
+    "chapter": "singularities-regularization",
+    "section": "projective-bundle-integration"
+  },
+  {
+    "route": "tag/9F447047F3B1",
+    "title": "Lemma 6.53.1",
+    "chapter": "singularities-regularization",
+    "section": "projective-bundle-integration",
+    "tag": "9F447047F3B1"
+  },
+  {
+    "route": "tag/3B59FC78B4DD",
+    "title": "Corollary 6.53.2",
+    "chapter": "singularities-regularization",
+    "section": "projective-bundle-integration",
+    "tag": "3B59FC78B4DD"
+  },
+  {
+    "route": "tag/1544E8213A91",
+    "title": "Proposition 6.53.3",
+    "chapter": "singularities-regularization",
+    "section": "projective-bundle-integration",
+    "tag": "1544E8213A91"
+  },
+  {
+    "route": "sections/diagonal-logarithmic-weights",
+    "title": "6.54 Diagonal logarithmic weights",
+    "chapter": "singularities-regularization",
+    "section": "diagonal-logarithmic-weights"
+  },
+  {
+    "route": "tag/F8F1C7EFDAD8",
+    "title": "Lemma 6.54.1",
+    "chapter": "singularities-regularization",
+    "section": "diagonal-logarithmic-weights",
+    "tag": "F8F1C7EFDAD8"
+  },
+  {
+    "route": "tag/E7DD351F1AE3",
+    "title": "Equation 6.54.2",
+    "chapter": "singularities-regularization",
+    "section": "diagonal-logarithmic-weights",
+    "tag": "E7DD351F1AE3"
+  },
+  {
+    "route": "sections/concentrating-restricted-singularities",
+    "title": "6.55 Concentrating restricted singularities",
+    "chapter": "singularities-regularization",
+    "section": "concentrating-restricted-singularities"
+  },
+  {
+    "route": "tag/279034C7A935",
+    "title": "Lemma 6.55.1",
+    "chapter": "singularities-regularization",
+    "section": "concentrating-restricted-singularities",
+    "tag": "279034C7A935"
+  },
+  {
+    "route": "tag/F6E99CEFC668",
+    "title": "Proposition 6.55.2",
+    "chapter": "singularities-regularization",
+    "section": "concentrating-restricted-singularities",
+    "tag": "F6E99CEFC668"
+  },
+  {
+    "route": "tag/6DD9160CD03C",
+    "title": "Equation 6.55.3",
+    "chapter": "singularities-regularization",
+    "section": "concentrating-restricted-singularities",
+    "tag": "6DD9160CD03C"
+  },
+  {
+    "route": "tag/8472787D115A",
+    "title": "Equation 6.55.4",
+    "chapter": "singularities-regularization",
+    "section": "concentrating-restricted-singularities",
+    "tag": "8472787D115A"
+  },
+  {
+    "route": "tag/D504A38C6AFE",
+    "title": "Equation 6.55.5",
+    "chapter": "singularities-regularization",
+    "section": "concentrating-restricted-singularities",
+    "tag": "D504A38C6AFE"
+  },
+  {
+    "route": "sections/singularities-along-a-compact-center",
+    "title": "6.56 Singularities along a compact center",
+    "chapter": "singularities-regularization",
+    "section": "singularities-along-a-compact-center"
+  },
+  {
+    "route": "tag/4E92E37E64AC",
+    "title": "Proposition 6.56.1",
+    "chapter": "singularities-regularization",
+    "section": "singularities-along-a-compact-center",
+    "tag": "4E92E37E64AC"
+  },
+  {
+    "route": "tag/3683A52A8C25",
+    "title": "Equation 6.56.2",
+    "chapter": "singularities-regularization",
+    "section": "singularities-along-a-compact-center",
+    "tag": "3683A52A8C25"
+  },
+  {
     "route": "chapters/local-monge-ampere",
     "title": "7 Local Monge–Ampère theory and capacity",
     "chapter": "local-monge-ampere"
@@ -15465,6 +15593,118 @@
     "chapter": "complex-spaces",
     "section": "arithmetic-values-of-meromorphic-functions",
     "tag": "56F7B016989C"
+  },
+  {
+    "route": "sections/local-projectivity-from-relative-positivity",
+    "title": "9.71 Local projectivity from relative positivity",
+    "chapter": "complex-spaces",
+    "section": "local-projectivity-from-relative-positivity"
+  },
+  {
+    "route": "tag/A53CEC220C70",
+    "title": "Lemma 9.71.1",
+    "chapter": "complex-spaces",
+    "section": "local-projectivity-from-relative-positivity",
+    "tag": "A53CEC220C70"
+  },
+  {
+    "route": "sections/projective-hartogs-extension",
+    "title": "9.72 Projective Hartogs extension",
+    "chapter": "complex-spaces",
+    "section": "projective-hartogs-extension"
+  },
+  {
+    "route": "tag/0A2146B324EB",
+    "title": "Lemma 9.72.1",
+    "chapter": "complex-spaces",
+    "section": "projective-hartogs-extension",
+    "tag": "0A2146B324EB"
+  },
+  {
+    "route": "sections/conormal-positivity-of-an-analytic-germ",
+    "title": "9.73 Conormal positivity of an analytic germ",
+    "chapter": "complex-spaces",
+    "section": "conormal-positivity-of-an-analytic-germ"
+  },
+  {
+    "route": "tag/E76BA49374E5",
+    "title": "Theorem 9.73.1",
+    "chapter": "complex-spaces",
+    "section": "conormal-positivity-of-an-analytic-germ",
+    "tag": "E76BA49374E5"
+  },
+  {
+    "route": "sections/from-local-leaves-to-a-meromorphic-fibration",
+    "title": "9.74 From local leaves to a meromorphic fibration",
+    "chapter": "complex-spaces",
+    "section": "from-local-leaves-to-a-meromorphic-fibration"
+  },
+  {
+    "route": "sections/holomorphic-forms-and-positive-foliations",
+    "title": "9.75 Holomorphic forms and positive foliations",
+    "chapter": "complex-spaces",
+    "section": "holomorphic-forms-and-positive-foliations"
+  },
+  {
+    "route": "tag/597700D273A6",
+    "title": "Lemma 9.75.1",
+    "chapter": "complex-spaces",
+    "section": "holomorphic-forms-and-positive-foliations",
+    "tag": "597700D273A6"
+  },
+  {
+    "route": "tag/B52F345AB247",
+    "title": "Lemma 9.75.2",
+    "chapter": "complex-spaces",
+    "section": "holomorphic-forms-and-positive-foliations",
+    "tag": "B52F345AB247"
+  },
+  {
+    "route": "tag/CDF6A16B105C",
+    "title": "Theorem 9.75.3",
+    "chapter": "complex-spaces",
+    "section": "holomorphic-forms-and-positive-foliations",
+    "tag": "CDF6A16B105C"
+  },
+  {
+    "route": "tag/745947D9E1A8",
+    "title": "Corollary 9.75.4",
+    "chapter": "complex-spaces",
+    "section": "holomorphic-forms-and-positive-foliations",
+    "tag": "745947D9E1A8"
+  },
+  {
+    "route": "sections/tangent-slopes-and-covering-rational-curves",
+    "title": "9.76 Tangent slopes and covering rational curves",
+    "chapter": "complex-spaces",
+    "section": "tangent-slopes-and-covering-rational-curves"
+  },
+  {
+    "route": "tag/4F2E71913C12",
+    "title": "Lemma 9.76.1",
+    "chapter": "complex-spaces",
+    "section": "tangent-slopes-and-covering-rational-curves",
+    "tag": "4F2E71913C12"
+  },
+  {
+    "route": "tag/8876081BAAEC",
+    "title": "Corollary 9.76.2",
+    "chapter": "complex-spaces",
+    "section": "tangent-slopes-and-covering-rational-curves",
+    "tag": "8876081BAAEC"
+  },
+  {
+    "route": "sections/deformation-of-the-canonical-pseudo-effective-cone",
+    "title": "9.77 Deformation of the canonical pseudo-effective cone",
+    "chapter": "complex-spaces",
+    "section": "deformation-of-the-canonical-pseudo-effective-cone"
+  },
+  {
+    "route": "tag/11B2C808741A",
+    "title": "Corollary 9.77.1",
+    "chapter": "complex-spaces",
+    "section": "deformation-of-the-canonical-pseudo-effective-cone",
+    "tag": "11B2C808741A"
   },
   {
     "route": "chapters/positivity-cohomology",
@@ -21116,6 +21356,152 @@
     "chapter": "positivity-cohomology",
     "section": "balanced-forms-and-movable-classes",
     "tag": "8DC16DCAD850"
+  },
+  {
+    "route": "sections/strictly-positive-singular-metrics",
+    "title": "10.102 Strictly positive singular metrics",
+    "chapter": "positivity-cohomology",
+    "section": "strictly-positive-singular-metrics"
+  },
+  {
+    "route": "tag/4F4355678C85",
+    "title": "Theorem 10.102.1",
+    "chapter": "positivity-cohomology",
+    "section": "strictly-positive-singular-metrics",
+    "tag": "4F4355678C85"
+  },
+  {
+    "route": "sections/euler-characteristics-under-flat-twists",
+    "title": "10.103 Euler characteristics under flat twists",
+    "chapter": "positivity-cohomology",
+    "section": "euler-characteristics-under-flat-twists"
+  },
+  {
+    "route": "tag/E897B72A71BA",
+    "title": "Lemma 10.103.1",
+    "chapter": "positivity-cohomology",
+    "section": "euler-characteristics-under-flat-twists",
+    "tag": "E897B72A71BA"
+  },
+  {
+    "route": "sections/determinants-of-singular-bundle-metrics",
+    "title": "10.104 Determinants of singular bundle metrics",
+    "chapter": "positivity-cohomology",
+    "section": "determinants-of-singular-bundle-metrics"
+  },
+  {
+    "route": "tag/EC118288B440",
+    "title": "Lemma 10.104.1",
+    "chapter": "positivity-cohomology",
+    "section": "determinants-of-singular-bundle-metrics",
+    "tag": "EC118288B440"
+  },
+  {
+    "route": "sections/relative-canonical-positivity",
+    "title": "10.105 Relative canonical positivity",
+    "chapter": "positivity-cohomology",
+    "section": "relative-canonical-positivity"
+  },
+  {
+    "route": "tag/7D9646B80F78",
+    "title": "Lemma 10.105.1",
+    "chapter": "positivity-cohomology",
+    "section": "relative-canonical-positivity",
+    "tag": "7D9646B80F78"
+  },
+  {
+    "route": "tag/81245ECD3476",
+    "title": "Theorem 10.105.2",
+    "chapter": "positivity-cohomology",
+    "section": "relative-canonical-positivity",
+    "tag": "81245ECD3476"
+  },
+  {
+    "route": "sections/degrees-and-maximal-slopes",
+    "title": "10.106 Degrees and maximal slopes",
+    "chapter": "positivity-cohomology",
+    "section": "degrees-and-maximal-slopes"
+  },
+  {
+    "route": "tag/21D47D6E39D1",
+    "title": "Lemma 10.106.1",
+    "chapter": "positivity-cohomology",
+    "section": "degrees-and-maximal-slopes",
+    "tag": "21D47D6E39D1"
+  },
+  {
+    "route": "tag/469F76790780",
+    "title": "Theorem 10.106.2",
+    "chapter": "positivity-cohomology",
+    "section": "degrees-and-maximal-slopes",
+    "tag": "469F76790780"
+  },
+  {
+    "route": "tag/B72C1D61D638",
+    "title": "Lemma 10.106.3",
+    "chapter": "positivity-cohomology",
+    "section": "degrees-and-maximal-slopes",
+    "tag": "B72C1D61D638"
+  },
+  {
+    "route": "sections/tensor-products-and-involutivity",
+    "title": "10.107 Tensor products and involutivity",
+    "chapter": "positivity-cohomology",
+    "section": "tensor-products-and-involutivity"
+  },
+  {
+    "route": "tag/BB9ADDF87BD1",
+    "title": "Proposition 10.107.1",
+    "chapter": "positivity-cohomology",
+    "section": "tensor-products-and-involutivity",
+    "tag": "BB9ADDF87BD1"
+  },
+  {
+    "route": "tag/1BF160484066",
+    "title": "Corollary 10.107.2",
+    "chapter": "positivity-cohomology",
+    "section": "tensor-products-and-involutivity",
+    "tag": "1BF160484066"
+  },
+  {
+    "route": "sections/tautological-metrics-and-maximal-slopes",
+    "title": "10.108 Tautological metrics and maximal slopes",
+    "chapter": "positivity-cohomology",
+    "section": "tautological-metrics-and-maximal-slopes"
+  },
+  {
+    "route": "tag/C0B465266C15",
+    "title": "Lemma 10.108.1",
+    "chapter": "positivity-cohomology",
+    "section": "tautological-metrics-and-maximal-slopes",
+    "tag": "C0B465266C15"
+  },
+  {
+    "route": "tag/9CD904E0945C",
+    "title": "Theorem 10.108.2",
+    "chapter": "positivity-cohomology",
+    "section": "tautological-metrics-and-maximal-slopes",
+    "tag": "9CD904E0945C"
+  },
+  {
+    "route": "sections/numerical-dimension-and-cotangent-quotients",
+    "title": "10.109 Numerical dimension and cotangent quotients",
+    "chapter": "positivity-cohomology",
+    "section": "numerical-dimension-and-cotangent-quotients"
+  },
+  {
+    "route": "tag/636609E49628",
+    "title": "Lemma 10.109.1",
+    "chapter": "positivity-cohomology",
+    "section": "numerical-dimension-and-cotangent-quotients",
+    "tag": "636609E49628"
+  },
+  {
+    "route": "tag/7E716F90C084",
+    "title": "Theorem 10.109.2",
+    "chapter": "positivity-cohomology",
+    "section": "numerical-dimension-and-cotangent-quotients",
+    "tag": "7E716F90C084"
   },
   {
     "route": "chapters/hermitian-torsion",
@@ -45172,6 +45558,26 @@
     "tag": "2B3916324C79"
   },
   {
+    "route": "sections/flat-twists-of-adjoint-section-envelopes",
+    "title": "19.11 Flat twists of adjoint section envelopes",
+    "chapter": "sections-okounkov",
+    "section": "flat-twists-of-adjoint-section-envelopes"
+  },
+  {
+    "route": "tag/1D4EB7891AC1",
+    "title": "Theorem 19.11.1",
+    "chapter": "sections-okounkov",
+    "section": "flat-twists-of-adjoint-section-envelopes",
+    "tag": "1D4EB7891AC1"
+  },
+  {
+    "route": "tag/354F33395764",
+    "title": "Equation 19.11.2",
+    "chapter": "sections-okounkov",
+    "section": "flat-twists-of-adjoint-section-envelopes",
+    "tag": "354F33395764"
+  },
+  {
     "route": "chapters/divisors-restriction",
     "title": "20 B-divisors and restriction",
     "chapter": "divisors-restriction"
@@ -51103,56 +51509,76 @@
     "tag": "A63319B4B931"
   },
   {
+    "route": "sections/questions-on-relative-canonical-classes-and-cotangent-tensors",
+    "title": "24.12 Questions on relative canonical classes and cotangent tensors",
+    "chapter": "problems-history",
+    "section": "questions-on-relative-canonical-classes-and-cotangent-tensors"
+  },
+  {
+    "route": "tag/3E0B91E5DF69",
+    "title": "Conjecture 24.12.1",
+    "chapter": "problems-history",
+    "section": "questions-on-relative-canonical-classes-and-cotangent-tensors",
+    "tag": "3E0B91E5DF69"
+  },
+  {
+    "route": "tag/2C2AE81C4020",
+    "title": "Question 24.12.2",
+    "chapter": "problems-history",
+    "section": "questions-on-relative-canonical-classes-and-cotangent-tensors",
+    "tag": "2C2AE81C4020"
+  },
+  {
     "route": "sections/questions-from-global-pluripotential-theory",
-    "title": "24.12 Questions from global pluripotential theory",
+    "title": "24.13 Questions from global pluripotential theory",
     "chapter": "problems-history",
     "section": "questions-from-global-pluripotential-theory"
   },
   {
     "route": "tag/F96A00F2C17A",
-    "title": "Conjecture 24.12.1",
+    "title": "Conjecture 24.13.1",
     "chapter": "problems-history",
     "section": "questions-from-global-pluripotential-theory",
     "tag": "F96A00F2C17A"
   },
   {
     "route": "tag/6DBA7A1F707B",
-    "title": "Problem 24.12.2",
+    "title": "Problem 24.13.2",
     "chapter": "problems-history",
     "section": "questions-from-global-pluripotential-theory",
     "tag": "6DBA7A1F707B"
   },
   {
     "route": "tag/6BD8E77C1AAF",
-    "title": "Problem 24.12.3",
+    "title": "Problem 24.13.3",
     "chapter": "problems-history",
     "section": "questions-from-global-pluripotential-theory",
     "tag": "6BD8E77C1AAF"
   },
   {
     "route": "tag/0C91C5C2794A",
-    "title": "Problem 24.12.4",
+    "title": "Problem 24.13.4",
     "chapter": "problems-history",
     "section": "questions-from-global-pluripotential-theory",
     "tag": "0C91C5C2794A"
   },
   {
     "route": "tag/7FAD0FAF17B7",
-    "title": "Problem 24.12.5",
+    "title": "Problem 24.13.5",
     "chapter": "problems-history",
     "section": "questions-from-global-pluripotential-theory",
     "tag": "7FAD0FAF17B7"
   },
   {
     "route": "tag/856DCCA91F34",
-    "title": "Problem 24.12.6",
+    "title": "Problem 24.13.6",
     "chapter": "problems-history",
     "section": "questions-from-global-pluripotential-theory",
     "tag": "856DCCA91F34"
   },
   {
     "route": "tag/18561C2CB4F4",
-    "title": "Problem 24.12.7",
+    "title": "Problem 24.13.7",
     "chapter": "problems-history",
     "section": "questions-from-global-pluripotential-theory",
     "tag": "18561C2CB4F4"
@@ -51271,6 +51697,10 @@
   {
     "route": "sources/isolated-plurisubharmonic-singularities",
     "title": "Isolated plurisubharmonic singularities"
+  },
+  {
+    "route": "sources/cao-paun-foliations",
+    "title": "Relative canonical bundles and positive foliations"
   },
   {
     "route": "search",
