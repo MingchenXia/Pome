@@ -1,3 +1,14 @@
+# 2026-10-24 — upper-semicontinuous varying-measure inequality along arbitrary nets
+
+**Fresh main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **starting review head:** \`c3ee48024045c9e23ac92f32acbc72ad235b6ab5\`. First new selected nonexcluded proof-level review of §§**5.61–5.63** and **10.101** (formerly inventory-only), with source blobs and stable tags in [the complete report](reports/2026-10-24-usc-weak-measure-nets-and-analytic-cycle-audit.md).
+
+- **POME-USC-WEAK-NET-001**, **low / verified conditional deduction**: the sequential upper weak inequality of Lemma 5.63.3 extends to **arbitrary directed nets** of decreasing upper-semicontinuous weights and vaguely converging positive Radon measures, with any vaguely convergent subnet of signed products. Full proof uses compact-set portmanteau via finite layer sums and genuine net continuity from above for compact superlevel sets; there is **no sequence-subnet shortcut**. It proves \`f ∈ L1_loc(mu)\` and \`nu <= f mu\` under the precise original integrability and cluster hypotheses. The printed theorem is **not false** and has **not** been changed.
+- Additional restricted checks: Lemma 5.61.1 finite analytic projections and trace mass; Theorem 5.61.2 extension **dependency only**; Theorem 5.62.3 annihilator-rank step, Lemma 5.62.4 divergence decomposition, Theorem 5.62.5 connected-leaf gluing; Proposition 5.63.2 finite polarization coefficient bound; Lemma 10.101.1 Kähler Aeppli dual separation. Other large prerequisites NOT certified.
+- Theorem 5.63.4 nonsmooth extension via 7.31.1 and Proposition 10.101.2 pullback via 5.66.2 were explicitly **not reopened**: all excluded approximation/regularization work remains \`deferred-by-user\`.
+- No project tests/build/CI, formalization, publishing, source/registry/tag/main modifications, arithmetic scripts, duplicate issues or new PR. Current 25 chapters / 747 sections is a ToC **inventory**, not completion.
+
+---
+
 # Pome audit — 2026-10-24: sharp logarithmic density-cutoff rate; withdrawn polar false positive
 
 **Fresh main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; review branch preserved (starting head `442f4d9c2be5e37a9d79facc203c7257c86769f5`). Freshly read `main/AGENTS.md`, `main/documentation/proof-expansions.md`, current main 25-chapter/747-section ToC, branch `README.md`, `mathematical-audit/README.md`, this prior `LATEST.md`, matrix and ledger. [Complete new English derivations and source-blob/line anchors](reports/2026-10-24-product-density-truncation-and-polar-audit-correction.md).

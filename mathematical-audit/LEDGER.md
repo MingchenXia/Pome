@@ -1,3 +1,15 @@
+# 2026-10-24 — first selected §§5.61–5.63/10.101 review; genuinely nonsequential Radon upper-weak lemma
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; 25 chapters / 747 ToC sections are **inventory only**. [Complete English source-anchored report](reports/2026-10-24-usc-weak-measure-nets-and-analytic-cycle-audit.md).
+
+| Stable finding | Severity / status | Exact integrated source and anchors | Proof, correction boundary, affected dependents |
+| --- | --- | --- | --- |
+| **POME-USC-WEAK-NET-001** | **low / verified conditional deduction** (not a false theorem, proof gap, or proof assistant certification) | \`docs/sections/positive-current-coefficient-bounds-and-support-maxima/index.html\` blob \`cb4c3d4e9d653b216cff05eaf23aafb2a01425ec\`, Lemma 5.63.3 source \`demailly-complex-geometry:6F59E05A\`, permanent tag \`192CB50CA0EA\`, physical lines 45–79 | For locally compact Hausdorff X, arbitrary directed I, positive Radon \`mu_i -> mu\` vaguely, decreasing USC \`f_i: X -> [-infty,infty)\`, with each \`f_i mu_i\` locally finite signed Radon and some vaguely convergent subnet to \`nu\`, prove \`f=inf f_i ∈ L1_loc(mu)\` and \`nu <= f mu\`. Complete proof uses (a) compact-set net portmanteau and finite layer sums, (b) decreasing compact-superlevel nets and regularity, (c) truncation and directed tail/subnet argument. Optional net corollary, preserving the original sequential statement/label/tag. Useful for future varying-measure nonsequential arguments; implies no compactness of nets independently. |
+
+**New limited coverage:** 5.61.1 source \`demailly-complex-geometry:C265E60E\`, tag \`8C07385777E6\`, lines 7–39, finite proper analytic projection and finite mass; 5.62.3 source \`549E72A6\`, tag \`88C601DA5D62\`, lines 23–46, CR annihilator rank; 5.62.4 source \`3A316F60\`, tag \`403785A5B419\`, lines 49–84, box tensor-measure decomposition; 5.62.5 source \`526B65FE\`, tag \`2CCAC11D6524\`, lines 87–126, transverse-gluing transition; 5.63.2 source \`5612DDE6\`, tag \`7ECC0248E832\`, lines 11–43, polarization and weight bound; 10.101.1 source \`transcendental-positive-cones:F9131705\`, tag \`255F6B93CCE9\`, lines 20–50, Kähler Aeppli cone separation. All exact paths/blobs and conditional dependencies in report. Theorem 5.61.2, Theorem 5.63.4, Proposition 10.101.2 were **dependency/context only**, not certified. Demailly approximation/regularization, dedicated Bergman/L2/OT/multiscale/positivity loss remain **deferred-by-user**; specifically no §7.31.1 or §5.66.2 proof work. No full sections certified; no arithmetic tests, full project tests/build, CI or publication.
+
+---
+
 # 2026-10-24 — product-density scalar logarithmic rate and historical polar finding correction
 
 **Main reviewed:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; existing review branch preserved. These are specific selected proofs, not whole-section certification. [Complete source-anchored proof and historical blob comparison](reports/2026-10-24-product-density-truncation-and-polar-audit-correction.md).
