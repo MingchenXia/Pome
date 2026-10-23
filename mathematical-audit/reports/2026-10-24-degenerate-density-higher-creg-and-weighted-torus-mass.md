@@ -1,13 +1,13 @@
 # 2026-10-24 mathematical audit: higher-regularity degenerate densities and weighted torus mass
 
-**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-**Audit branch initial head:** \`aed8f3f3d33d96a52ddebee74c84ac18d0f76923\`.
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+**Audit branch initial head:** `aed8f3f3d33d96a52ddebee74c84ac18d0f76923`.
 **Scope:** Fresh direct inspection of the integrated proofs of §§7.24, 7.25, 7.33, and 9.12, together with the local convex/toric normalization of §21.12.24. These are selected theorem/proof checks, **not** whole-section or upstream certification. Demailly approximation/regularization and its dedicated Bergman/L²/OT/atlas/positivity-loss programme were deliberately not examined; historical findings remain **deferred-by-user**, not certified.
 
 ## POME-DEGEN-CREG-SCALE-001 — higher-order smooth right sides with non-\(C^{1,1}\) solutions
 
 **Status:** verified conditional deduction; **severity:** low (optional strengthening, no false original theorem).
-**Exact integrated anchor:** Proposition 7.24.1, permanent tag \`D0960BD969B2\`, source label \`klimek-pluripotential-theory-5F0EDAF7\`; \`docs/sections/degenerate-densities-and-interior-second-derivatives/index.html\`, blob \`fafeab3a344243fe04f24265022bd921f3a4d375\`, physical lines 11–35 (statement, source ansatz and density regularity), 37–67 (radial comparison/free-boundary sequence), 69–100 (scaling and contradiction).
+**Exact integrated anchor:** Proposition 7.24.1, permanent tag `D0960BD969B2`, source label `klimek-pluripotential-theory-5F0EDAF7`; `docs/sections/degenerate-densities-and-interior-second-derivatives/index.html`, blob `fafeab3a344243fe04f24265022bd921f3a4d375`, physical lines 11–35 (statement, source ansatz and density regularity), 37–67 (radial comparison/free-boundary sequence), 69–100 (scaling and contradiction).
 
 **Precise strengthening.** Fix an integer \(n\ge3\) and an integer
 \[
@@ -83,14 +83,14 @@ If \(u\) were \(C^{1,1}\) near zero, rotation invariance in \(w\) would imply \(
 
 **Sharpness for this method, not the general equation:** the two strict parameter inequalities require \(r<2(n-1)\). They cannot produce \(C^{2n-2}\) densities with this exact anisotropic rescaling; **no claim** is made that such densities always yield \(C^{1,1}\) solutions.
 
-**Dependencies and limitations:** The existence/uniqueness theorem for continuous-density complex MA Dirichlet, bounded Bedford–Taylor maximality/comparison, and the CLN bound are used **conditionally** from the existing integrated text. We checked the scaling determinant, regularity powers, and barrier argument but did not globally recertify these results. This is distinct from earlier \`POME-KLIM-PLIS-PARAM-001\`, which checked \(\alpha,\beta\) for \(C^2\) only.
+**Dependencies and limitations:** The existence/uniqueness theorem for continuous-density complex MA Dirichlet, bounded Bedford–Taylor maximality/comparison, and the CLN bound are used **conditionally** from the existing integrated text. We checked the scaling determinant, regularity powers, and barrier argument but did not globally recertify these results. This is distinct from earlier `POME-KLIM-PLIS-PARAM-001`, which checked \(\alpha,\beta\) for \(C^2\) only.
 
 **Proposed source change:** optional corollary/remark immediately after §7.24.1 giving \(3\le r\le2n-3\), with the strict inequalities and no endpoint assertion. Keep original attribution, theorem and permanent tag. Affected dependent discussion: Dirichlet regularity limits in §7.24 and later §15 smooth/degenerate equations; this does *not* replace their precise \(f^{1/n}\) hypotheses.
 
 ## POME-SEPMAX-WEIGHTED-TORUS-001 — exact polytorus mass, no multinomial
 
 **Status:** verified conditional deduction; **severity:** low; not a false §7.33.3 statement.
-**Exact anchors:** §7.33.3, permanent tag \`F8604F30C7C6\`, source \`isolated-plurisubharmonic-singularities-DE8582D3\`, \`docs/sections/separated-maximum-monge-ampere-products/index.html\`, blob \`a859ac5637379266fa191831656f214c51676ca1\`, lines 39–79; convex Alexandrov measure §21.5.1 \`409656CC47D4\`, and local toric Jacobian normalization §21.12.24 \`725063C1ED05\`, \`docs/sections/toric-pluripotential-theory-on-ample-line-bundles/index.html\` blob \`56a1a55dfc8185aee0e6d495a6a93d8a2313d76b\`, lines 466–529 (only local toric change of variables is used, not any multiplier-ideal result).
+**Exact anchors:** §7.33.3, permanent tag `F8604F30C7C6`, source `isolated-plurisubharmonic-singularities-DE8582D3`, `docs/sections/separated-maximum-monge-ampere-products/index.html`, blob `a859ac5637379266fa191831656f214c51676ca1`, lines 39–79; convex Alexandrov measure §21.5.1 `409656CC47D4`, and local toric Jacobian normalization §21.12.24 `725063C1ED05`, `docs/sections/toric-pluripotential-theory-on-ample-line-bundles/index.html` blob `56a1a55dfc8185aee0e6d495a6a93d8a2313d76b`, lines 466–529 (only local toric change of variables is used, not any multiplier-ideal result).
 
 Fix positive weights \(\lambda_i\) and radii \(R_i\) in \(\mathbb C^p\), and write
 \[
@@ -116,18 +116,18 @@ For analogous \(g(w)\) with \(q\) weights \(\mu_j\) and radii \(S_j\), put \(h(z
    =\Bigl(\prod_i\lambda_i\prod_j\mu_j\Bigr)
       m_R\otimes m_S.}
 \]
-There is **no** binomial/multinomial coefficient. As an independent normalization check, the convex function for \(h\) is the maximum of \(0\) and all \(p+q\) coordinate affine forms; its gradient simplex has volume \((\prod\lambda_i\prod\mu_j)/(p+q)!\), canceling the Alexandrov factorial. This is a concrete weighted model **distinct** from previously logged \`POME-BT-SEPMAX-MULTIBLOCK-001\` (the abstract induction to many blocks).
+There is **no** binomial/multinomial coefficient. As an independent normalization check, the convex function for \(h\) is the maximum of \(0\) and all \(p+q\) coordinate affine forms; its gradient simplex has volume \((\prod\lambda_i\prod\mu_j)/(p+q)!\), canceling the Alexandrov factorial. This is a concrete weighted model **distinct** from previously logged `POME-BT-SEPMAX-MULTIBLOCK-001` (the abstract induction to many blocks).
 
 **Proposed change:** optional explicit example after §7.33.3, documenting angular Haar measure and the factorial convention. Keep both original permanent tags. Affects cross-checks in §§7.33,21.5,21.12 and avoids normalization mistakes in separated maximum constructions. Conditional on the established real Alexandrov/BT monotone theory; no whole-chapter certification.
 
 ## Other genuinely inspected proof steps; no new IDs
 
-- **§7.25:** \`docs/sections/boundary-zero-green-functions-and-hyperconvexity/index.html\`, blob \`4680003b95a90211015a03b44bd634eb331fb426\`, §7.25.1 tag \`B63D9FDC459B\` lines 8–33 and §7.25.2 tag \`033C98D473B9\` lines 37–58. Checked use of compact-ball normalization \(q=-1\) on \(K\), the sign of the pasting inequalities \(q>-\varepsilon/2\ge H_t-\varepsilon\), and the lower-semicontinuity conclusion; reviewed Green boundary-limit implication. No defect established, and global Green continuity inputs are not newly certified.
-- **§9.12:** \`docs/sections/separate-holomorphy/index.html\`, blob \`2eafedb77d4a45f0133a5d92e27ad16b0be44ffd\`, Theorem 9.12.1 tag \`362351A63FB6\`, source \`klimek-pluripotential-theory-120C7FB1\`, lines 8–51. Checked the Baire closed-set cover, holomorphy in the lower-variable block by induction, and coefficient subharmonic Hartogs control. No theorem error found; the Hartogs lemma itself remains a pre-existing upstream input.
+- **§7.25:** `docs/sections/boundary-zero-green-functions-and-hyperconvexity/index.html`, blob `4680003b95a90211015a03b44bd634eb331fb426`, §7.25.1 tag `B63D9FDC459B` lines 8–33 and §7.25.2 tag `033C98D473B9` lines 37–58. Checked use of compact-ball normalization \(q=-1\) on \(K\), the sign of the pasting inequalities \(q>-\varepsilon/2\ge H_t-\varepsilon\), and the lower-semicontinuity conclusion; reviewed Green boundary-limit implication. No defect established, and global Green continuity inputs are not newly certified.
+- **§9.12:** `docs/sections/separate-holomorphy/index.html`, blob `2eafedb77d4a45f0133a5d92e27ad16b0be44ffd`, Theorem 9.12.1 tag `362351A63FB6`, source `klimek-pluripotential-theory-120C7FB1`, lines 8–51. Checked the Baire closed-set cover, holomorphy in the lower-variable block by induction, and coefficient subharmonic Hartogs control. No theorem error found; the Hartogs lemma itself remains a pre-existing upstream input.
 - **§7.33:** explicitly crosschecked that differentiating \((h-f)C^k=(h-f)B^k\) produces \(C^{k+1}-AC^k=CB^k-AB^k\) without a missing coefficient, and that only two \(C\)-terms survive in total degree \(p+q\). No new erroneous proof step.
 
 ## Reproducible finite arithmetic check
 
-The accompanying \`checks/check_deg_density_creg_parameters.py\` uses exact rational arithmetic for all integers \(3\le n\le12\), \(3\le r\le2n-3\). It verifies the strict derivative, gap and exponent inequalities in **100** cases, including the \((3,3,8,26,23/12)\) example. It cannot verify regularity, the PDE comparison argument or the Alexandrov measure theorem. This session did **not** run project builds, CI, published-site updates or formal proof verification.
+The accompanying `checks/check_deg_density_creg_parameters.py` uses exact rational arithmetic for all integers \(3\le n\le12\), \(3\le r\le2n-3\). It verifies the strict derivative, gap and exponent inequalities in **100** cases, including the \((3,3,8,26,23/12)\) example. It cannot verify regularity, the PDE comparison argument or the Alexandrov measure theorem. This session did **not** run project builds, CI, published-site updates or formal proof verification.
 
-**Audit classifications:** both numbered findings are \`verified conditional deduction\`, not \`confirmed error\`, \`proof gap\` or \`verified repair\`. Previously outstanding and user-deferred records stay unchanged.
+**Audit classifications:** both numbered findings are `verified conditional deduction`, not `confirmed error`, `proof gap` or `verified repair`. Previously outstanding and user-deferred records stay unchanged.
