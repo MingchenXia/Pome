@@ -702,6 +702,116 @@
       "slug": "radial-growth-and-residual-mass",
       "title": "Radial growth and residual mass",
       "description": ""
+    },
+    {
+      "slug": "blowups-and-restricted-lelong-numbers",
+      "title": "Blowups and restricted Lelong numbers",
+      "description": ""
+    },
+    {
+      "slug": "projective-bundle-integration",
+      "title": "Projective-bundle integration",
+      "description": ""
+    },
+    {
+      "slug": "strictly-positive-singular-metrics",
+      "title": "Strictly positive singular metrics",
+      "description": ""
+    },
+    {
+      "slug": "local-projectivity-from-relative-positivity",
+      "title": "Local projectivity from relative positivity",
+      "description": ""
+    },
+    {
+      "slug": "projective-hartogs-extension",
+      "title": "Projective Hartogs extension",
+      "description": ""
+    },
+    {
+      "slug": "euler-characteristics-under-flat-twists",
+      "title": "Euler characteristics under flat twists",
+      "description": ""
+    },
+    {
+      "slug": "determinants-of-singular-bundle-metrics",
+      "title": "Determinants of singular bundle metrics",
+      "description": ""
+    },
+    {
+      "slug": "flat-twists-of-adjoint-section-envelopes",
+      "title": "Flat twists of adjoint section envelopes",
+      "description": ""
+    },
+    {
+      "slug": "relative-canonical-positivity",
+      "title": "Relative canonical positivity",
+      "description": ""
+    },
+    {
+      "slug": "diagonal-logarithmic-weights",
+      "title": "Diagonal logarithmic weights",
+      "description": ""
+    },
+    {
+      "slug": "concentrating-restricted-singularities",
+      "title": "Concentrating restricted singularities",
+      "description": ""
+    },
+    {
+      "slug": "singularities-along-a-compact-center",
+      "title": "Singularities along a compact center",
+      "description": ""
+    },
+    {
+      "slug": "conormal-positivity-of-an-analytic-germ",
+      "title": "Conormal positivity of an analytic germ",
+      "description": ""
+    },
+    {
+      "slug": "from-local-leaves-to-a-meromorphic-fibration",
+      "title": "From local leaves to a meromorphic fibration",
+      "description": ""
+    },
+    {
+      "slug": "degrees-and-maximal-slopes",
+      "title": "Degrees and maximal slopes",
+      "description": ""
+    },
+    {
+      "slug": "tensor-products-and-involutivity",
+      "title": "Tensor products and involutivity",
+      "description": ""
+    },
+    {
+      "slug": "tautological-metrics-and-maximal-slopes",
+      "title": "Tautological metrics and maximal slopes",
+      "description": ""
+    },
+    {
+      "slug": "holomorphic-forms-and-positive-foliations",
+      "title": "Holomorphic forms and positive foliations",
+      "description": ""
+    },
+    {
+      "slug": "numerical-dimension-and-cotangent-quotients",
+      "title": "Numerical dimension and cotangent quotients",
+      "description": ""
+    },
+    {
+      "slug": "tangent-slopes-and-covering-rational-curves",
+      "title": "Tangent slopes and covering rational curves",
+      "description": ""
+    },
+    {
+      "slug": "deformation-of-the-canonical-pseudo-effective-cone",
+      "title": "Deformation of the canonical pseudo-effective cone",
+      "description": ""
+    },
+    {
+      "slug": "questions-on-relative-canonical-classes-and-cotangent-tensors",
+      "title": "Questions on relative canonical classes and cotangent tensors",
+      "description": ""
     }
   ],
   "entries": [
@@ -1301,7 +1411,12 @@
         "lelong-densities-generalized-masses-and-multiplicity",
         "polynomial-iterates-and-residual-mass",
         "isolated-singularities-with-zero-lelong-number",
-        "radial-growth-and-residual-mass"
+        "radial-growth-and-residual-mass",
+        "blowups-and-restricted-lelong-numbers",
+        "projective-bundle-integration",
+        "diagonal-logarithmic-weights",
+        "concentrating-restricted-singularities",
+        "singularities-along-a-compact-center"
       ]
     },
     {
@@ -1374,7 +1489,14 @@
         "meromorphic-maps-and-analytic-graphs",
         "relative-nuclear-maps-and-composition",
         "projective-vanishing-degree-configurations",
-        "arithmetic-values-of-meromorphic-functions"
+        "arithmetic-values-of-meromorphic-functions",
+        "local-projectivity-from-relative-positivity",
+        "projective-hartogs-extension",
+        "conormal-positivity-of-an-analytic-germ",
+        "from-local-leaves-to-a-meromorphic-fibration",
+        "holomorphic-forms-and-positive-foliations",
+        "tangent-slopes-and-covering-rational-curves",
+        "deformation-of-the-canonical-pseudo-effective-cone"
       ]
     },
     {
@@ -1405,7 +1527,15 @@
         "transcendental-morse-inequalities",
         "variations-of-the-volume",
         "dual-positive-cones",
-        "balanced-forms-and-movable-classes"
+        "balanced-forms-and-movable-classes",
+        "strictly-positive-singular-metrics",
+        "euler-characteristics-under-flat-twists",
+        "determinants-of-singular-bundle-metrics",
+        "relative-canonical-positivity",
+        "degrees-and-maximal-slopes",
+        "tensor-products-and-involutivity",
+        "tautological-metrics-and-maximal-slopes",
+        "numerical-dimension-and-cotangent-quotients"
       ]
     },
     {
@@ -1522,7 +1652,8 @@
         "almost-semigroups",
         "holomorphic-sections-and-hermitian-mass",
         "flags-convex-bodies-and-section-growth",
-        "section-growth-of-semipositive-line-bundles"
+        "section-growth-of-semipositive-line-bundles",
+        "flat-twists-of-adjoint-section-envelopes"
       ]
     },
     {
@@ -1575,7 +1706,8 @@
       "title": "Problems in pluripotential theory",
       "description": "Research questions, historical context, and bibliographical commentary.",
       "topics": [
-        "problems-in-hermitian-pluripotential-theory"
+        "problems-in-hermitian-pluripotential-theory",
+        "questions-on-relative-canonical-classes-and-cotangent-tensors"
       ]
     },
     {

@@ -86,6 +86,17 @@
       "checkout_env": "ISOLATED_PSH_SOURCE_DIR",
       "visibility": "private",
       "status": "published"
+    },
+    {
+      "slug": "cao-paun-foliations",
+      "title": "Relative canonical bundles and positive foliations",
+      "author": "Gerby Literature",
+      "repository": "https://github.com/MingchenXia/Gerby-Literature",
+      "ref": "a6e5b1149b8e20e8312bbc335156182b7a416697",
+      "entrypoint": "contributions/cao-paun-foliations.tex",
+      "checkout_env": "CAO_PAUN_SOURCE_DIR",
+      "visibility": "private",
+      "status": "published"
     }
   ]
 }

@@ -69,7 +69,8 @@
         "3747CBC0FB2D",
         "C873148DF75D",
         "93C3DD08144F",
-        "BA07D4DDD45A"
+        "BA07D4DDD45A",
+        "D1736FF4F9EE"
       ],
       "file": "positivity-and-hermitian-volume.html"
     },
@@ -224,6 +225,7 @@
     "demailly-complex-geometry/sec:demailly-history-growth": "4459ce6d6d2be46f3a51ef1fd322d0f42ff0e0b05c941ef77a8f300fc0b21f3a",
     "transcendental-positive-cones/sec:positive-cones-history-mass": "b433b9f2e9efb67176f015c5066a340e7663e21244d5e7ca40cd95d901b22580",
     "transcendental-positive-cones/sec:positive-cones-history-cones": "1e2de496ceb8b14b105b81573292ee5fa065ba6338e029d2d578bbcc62e7ed14",
-    "isolated-plurisubharmonic-singularities/sec:isolated-psh-history-mass": "ce75bc3c103a5a66fef77f6b671e72360ab182cbbb8b41e8904c05b37496b03d"
+    "isolated-plurisubharmonic-singularities/sec:isolated-psh-history-mass": "ce75bc3c103a5a66fef77f6b671e72360ab182cbbb8b41e8904c05b37496b03d",
+    "cao-paun-foliations/sec:history-relative-canonical-foliations": "f23e5dc274ede4155b3849e950bcacea7d6800efca624af88008d3193a5867a0"
   }
 }
