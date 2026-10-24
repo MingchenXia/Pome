@@ -7,7 +7,7 @@
 ## Exact integrated reading-edition location
 
 * Source file: docs/sections/test-curves--model-test-curves/index.html, main Git blob **e058100104283d27de55bc64b4ce784f66ace28b**.
-* Definition 17.14.8: source identifier **sgpt-...** as displayed on the integrated page; reader permanent tag **D6CC0BBA6D35**; physical lines **144–185** (left-continuous, multiplicative, linearly bounded filtration).
+* Definition 17.14.8: source identifier **sgpt-2BF3A902**; reader permanent tag **D6CC0BBA6D35**; physical lines **144–185** (left-continuous, multiplicative, linearly bounded filtration).
 * Example 17.14.10: source id **sgpt-780413CB**, permanent tag **20A8C7BFE0BB**, physical lines **191–272**.
 * Equation 17.14.11: source id **sgpt-8C49F56B**, permanent tag **79C9CAB675E4**, physical lines **200–209**. The line immediately before the displayed equation invokes Fekete's lemma to claim an **ordinary pointwise limit**.
 * Cross-checks: Proposition 17.14.6, permanent tag **BF40FB71C62C**, physical lines **91–131**; Remark 17.14.15, tag **497927DD4340**, lines **282–283**; the filtration comparison in §22.1 was consulted only for dependency orientation, not certified.
