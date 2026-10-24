@@ -1,3 +1,15 @@
+# 2026-10-24 — false pointwise Fekete limit in a filtration test curve
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. New targeted reading of the formerly inventory-only §17.14, including Definition .8 and Example .10; no complete section certified. [Exact proof, source anchors and correction](reports/2026-10-24-filtration-pointwise-fekete-obstruction.md).
+
+| Stable finding | Severity / status | Exact source, counterexample, repair, dependents |
+| --- | --- | --- |
+| **POME-FILT-FEKETE-LIM-001** | **medium / confirmed error in printed auxiliary pointwise formula; verified local repair** — **not** an error in the maximal-test-curve construction | Integrated docs/sections/test-curves--model-test-curves/index.html at reviewed blob e058100104283d27de55bc64b4ce784f66ace28b, Definition 17.14.8 source sgpt-2BF3A902 / permanent D6CC0BBA6D35, physical lines 144–185; Example 17.14.10 source sgpt-780413CB / permanent 20A8C7BFE0BB, lines 191–272; **Equation 17.14.11 source sgpt-8C49F56B / permanent 79C9CAB675E4, lines 200–209**. On the big line bundle L=O_X(1)⊗p*T over X=P_E(O_E⊕M), with E elliptic, deg M>0 and T nontrivial 2-torsion, the **trivial** allowed filtration gives τ(F)=0. On the quotient section S, every odd-degree section vanishes, whereas an even-degree section and all its powers do not: for every τ<0 the sequence k^(-1)Γ^{F,k}_τ(x) equals -∞ for odd k and remains uniformly bounded below along even k. Thus the displayed ordinary **pointwise limit fails**. Extended-valued superadditivity gives only **limsup_{k→∞} a_k/k = sup_k a_k/k**, proved by the multiples-subsequence argument, with no additional hypotheses. Propose replacing lim with limsup and adjusting the Fekete sentence, preserving all tags and attribution; **not integrated**. The immediately following Γ^F definition already uses the right-hand supremum, so its later concavity/full-mass argument and Remark 17.14.15 are **not** thereby disproved. Prior NA concave-tail defect §22.1.88 is distinct and retained. |
+
+**Exact scope:** actual integrated §17.14.1–.6 and .8–.15, selected proof steps; NA §§22.1.94–.98, .107–.113 checked only for dependency orientation, not certified, and none of their deep analytic inputs reopened. No source/registry/main change, build, CI, formalization or publication. Dedicated Demailly approximation/regularization, Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme remains **deferred-by-user**, untouched.
+
+---
+
 # 2026-10-24 — convex products: geodesics, invariant distances and Green maxima
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. First selected current integrated proof coverage of §§9.17, 9.18 and 9.20; none fully certified. [Full mathematical proof, source IDs and physical line anchors](reports/2026-10-24-convex-product-geodesics-and-green-max-formula.md).
