@@ -1,3 +1,13 @@
+# 2026-10-24 — new finite-curve retraction nearest-point threshold (§§18.19–18.21, 18.23–18.24)
+
+**Fresh reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting preserved branch:** c415400c20ea5b9147b81bedb59e4f1c5ec061fa. Fresh main AGENTS.md and documentation/proof-expansions.md, review-branch README.md and LATEST.md, current ledger/matrix and five actual integrated section sources checked. [Full dated source-anchored mathematical proof](reports/2026-10-24-finite-curve-polar-retraction-sharp-threshold.md).
+
+- **POME-CURVE-FINITE-RETRACT-SHARP-001 — verified conditional deduction / low; NOT a printed-theorem error.** The finite-map polar-measure retraction \(P=d^{-1}r^*r_*\) has the **sharp** real signed-measure TV complement norm \(\|I-P\|=2(1-1/d)\), including branch multiplicities. Its induced model retraction is nearest-point for **every** model if \(d\le2\); for every \(d\ge3\) and positive base area the exact factor is attained by an analytic point-pole model and R is **not** nearest. In degree two nearest models need not be unique. For base area zero both spaces are singletons. This extends §18.24.4's cubic example and §18.24.2 without contradicting them; conditional on the integrated finite-map and curve classification inputs.
+- **Actual new coverage:** selected §18.19 stretching and all-obstacle equivalence, §18.20 semipositive auxiliary factor / bigness / mass, §18.21 sixfold combinatorics, §18.23 branched trace scaling and sheet-loss, and §18.24 fiber maximum, polar measure retraction, volumes and cubic example. All five were previously inventory-only; no complete section, internal dependency or original theorem was certified. 747 is a ToC inventory.
+- **No** software script/full build/CI/publication/formal checker/main/source/tag/registry/PR/merge changes. Excluded Demailly approximation and dedicated Bergman/\(L^2\)/Ohsawa–Takegoshi/multiscale/positivity-loss proof programme remains **deferred-by-user**, untouched. Next run should rotate to another nonexcluded inventory-only section.
+
+---
+
 # 2026-10-24 — first selected §§12.34–12.36 audit: Gauduchon dual faces and a unique endpoint current
 
 **Fresh `main`:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. Starting review head `b655b89bf5a489b9916c038a407c344a80af4bf3`; branch preserved without reset. Freshly read `main/AGENTS.md`, `main/documentation/proof-expansions.md`, review-branch `README.md` and prior `LATEST.md`, cumulative matrix/ledger, and current published reading-edition source passages. [Complete English, source-anchored mathematical report](reports/2026-10-24-gauduchon-current-faces-and-endpoint-uniqueness.md).
