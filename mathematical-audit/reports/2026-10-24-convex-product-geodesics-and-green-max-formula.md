@@ -17,55 +17,55 @@
 
 **Precise claim.** Let `m>=1` and let `D_i` be nonempty bounded convex domains in `C^{n_i}` (with `n_i>=1`). Put `D=D_1 x ... x D_m`, and write `z=(z_i)`, `w=(w_i)`. With exactly the printed invariant-distance and logarithmic Green normalizations,
 
-```math
- c_D(z,w)=k_D(z,w)=delta_D(z,w)=sigma_D(z,w)
+$$
+c_D(z,w)=k_D(z,w)=delta_D(z,w)=sigma_D(z,w)
           = max_i c_{D_i}(z_i,w_i)
           = max_i delta_{D_i}(z_i,w_i),
-```
+$$
 
 and
 
-```math
- g_D(z,w)=max_i g_{D_i}(z_i,w_i).
-```
+$$
+g_D(z,w)=max_i g_{D_i}(z_i,w_i).
+$$
 
 In addition, **any** Schwarz–Pick pseudodistance system `s` as defined in §9.17.4 satisfies
-```math
- s_D(z,w)=max_i s_{D_i}(z_i,w_i).
-```
+$$
+s_D(z,w)=max_i s_{D_i}(z_i,w_i).
+$$
 All Green values at the pole are interpreted as `-infinity`; the formulas include coincident coordinates, and for `z=w` the distance is zero and `g_D(z,z)=-infinity`.
 
 **Proof.** Fix distinct `z,w`. For each factor set
-```math
- t_i=tanh(delta_{D_i}(z_i,w_i)), \qquad t=max_i t_i.
-```
+$$
+t_i=tanh(delta_{D_i}(z_i,w_i)), \qquad t=max_i t_i.
+$$
 By §9.20.5 and the normalization of `q`, `0<=t_i<1`; for `t_i>0`, there are holomorphic `f_i:Delta->D_i`, `P_i:D_i->Delta` with
-```math
- f_i(0)=z_i,\quad f_i(t_i)=w_i,\quad P_i\circ f_i=id_Delta.
-```
+$$
+f_i(0)=z_i,\quad f_i(t_i)=w_i,\quad P_i\circ f_i=id_Delta.
+$$
 When `t_i=0`, use the constant map `f_i(ζ)=z_i=w_i`. Since `z≠w`, `0<t<1`. Define
-```math
- F_i(ζ)=f_i((t_i/t)ζ)\ (t_i>0),\qquad F_i(ζ)=z_i\ (t_i=0);
+$$
+F_i(ζ)=f_i((t_i/t)ζ)\ (t_i>0),\qquad F_i(ζ)=z_i\ (t_i=0);
  \qquad F=(F_1,\ldots,F_m):Delta\longrightarrow D.
-```
+$$
 Then `F(0)=z`, `F(t)=w`. Choose any `i_0` attaining the maximum. Its factor is unscaled: `F_{i_0}=f_{i_0}`. Consequently
-```math
- P=P_{i_0}\circ pr_{i_0}:D\to Delta,\qquad P\circ F=id_Delta.
-```
+$$
+P=P_{i_0}\circ pr_{i_0}:D\to Delta,\qquad P\circ F=id_Delta.
+$$
 Thus the two holomorphic contractions give
-```math
- q(0,t)=c_D(z,w)=delta_D(z,w)=k_D(z,w)=sigma_D(z,w).
-```
+$$
+q(0,t)=c_D(z,w)=delta_D(z,w)=k_D(z,w)=sigma_D(z,w).
+$$
 Alternatively, the `delta` upper bound comes directly from `F`; the reverse lower bound follows by composing any joining disc with every coordinate projection. The other three equalities follow from `c<=sigma<=k<=delta` and the holomorphic left inverse. By §9.20.5 in the factors, `atanh(t_i)` is each factor's common distance, whence the maximum formula.
 
 For the Green function, holomorphic contraction (§9.17.4) under each projection gives
-```math
- \max_i g_{D_i}(w_i,z_i)\le g_D(w,z).
-```
+$$
+\max_i g_{D_i}(w_i,z_i)\le g_D(w,z).
+$$
 The same contraction under `F` gives
-```math
- g_D(w,z)=g_D(F(t),F(0))\le g_Delta(t,0)=\log t.
-```
+$$
+g_D(w,z)=g_D(F(t),F(0))\le g_Delta(t,0)=\log t.
+$$
 Since the factor retracts imply `g_{D_i}(w_i,z_i)=log(t_i)` when `t_i>0`, and the coincident-coordinate value is `-infinity`, the left hand side is `log t`. This proves equality (and relabeling `w,z` proves the displayed formula). For `z=w`, the stated diagonal conventions settle both identities. Finally, every Schwarz–Pick system is squeezed between `c` and `k` by Proposition 9.17.4, and these coincide for all bounded convex factors and for their product. Hence the universal-system assertion follows. No limit of currents, sequence/net compactness, or excluded approximation theorem is used in this deduction. QED.
 
 ### Flexibility and nonuniqueness of geodesic representatives
@@ -73,14 +73,14 @@ Since the factor retracts imply `g_{D_i}(w_i,z_i)=log(t_i)` when `t_i>0`, and th
 The constructed `F` has a left inverse and is extremal for **every** two distinct parameters, not just `0,t`. The product formula therefore gives an explicit constructive supplement to Lempert's existence theorem on products with corners.
 
 Suppose `m>=2` and some `t_j<t`. If `t_j>0`, replace the `j`th factor above by
-```math
- f_j(\varphi_\varepsilon(ζ)),\quad
+$$
+f_j(\varphi_\varepsilon(ζ)),\quad
  \varphi_\varepsilon(ζ)=(t_j/t)ζ+\varepsilon ζ(ζ-t).
-```
+$$
 For `|\varepsilon|<(1-t_j/t)/(1+t)`, this maps `Delta` into `Delta` and preserves values `0,t_j` at `0,t`. Different `\varepsilon` give different discs because `P_j\circ f_j=id` forces injectivity. If `t_j=0`, replace the constant coordinate by
-```math
- F_j(ζ)=z_j+\varepsilon v ζ(ζ-t)
-```
+$$
+F_j(ζ)=z_j+\varepsilon v ζ(ζ-t)
+$$
 for any nonzero `v in C^{n_j}` and all sufficiently small complex `\varepsilon`; the open ball about `z_j` contained in `D_j` controls its image. In either case, the dominant-factor left inverse `P` is unchanged. There are infinitely many pair-extremal retract discs.
 
 If at least two distinct factors attain `t>0`, **one and the same** constructed retract disc has at least two distinct holomorphic left inverses `P_i\circ pr_i`, as these depend nontrivially on different independent coordinates. These are statements about product-domain flexibility, not uniqueness of smooth strongly convex geodesics.
@@ -91,10 +91,10 @@ If at least two distinct factors attain `t>0`, **one and the same** constructed 
 2. **§9.18.1, lines 17–43:** in the triangle interpolation, for `0<A<B<1`, `L(0)=1`, `L(B)=0`, and `0<L|_T<1` because `x+x^{-1}` is decreasing on `(0,1)`. The pole at `A` cancels as `f(A)=g(A)`; the convex hull argument is properly made for a compact boundary image within `D`. The more global existence theorem is still a conditional internal input.
 3. **§9.18.2, lines 75–83:** the sign of the support inequality for `G/ζ` yields winding zero, so `G` has one zero, counted with multiplicity. This validates the local left-inverse step under the **stationary dual hypothesis**; that hypothesis must not be silently omitted.
 4. **§9.20.2, lines 61–79:** on the unit circle, the positive weight transforms the dual to
-```math
- \varphi h={ζ H(ζ)(1-tζ)\over
+$$
+\varphi h={ζ H(ζ)(1-tζ)\over
  (ζ-\lambda)(ζ-\eta)(1-\bar\lambda ζ)(1-\bar\eta ζ)}.
-```
+$$
 The poles at the new interpolation nodes disappear when multiplied by variations vanishing at those nodes, so the Cauchy integral is zero. This is a sign/pole check only, not full certification of the Hahn–Banach/`H^1` representation chain.
 5. **§9.20.3–5, lines 91–113, 147–167 and 185–205:** the rate from `atanh|ζ| <= C+(1/2)log(1/d(f(ζ)))` has the direction `d(f(ζ))<=C'(1-|ζ|)`; combining with the exterior tangent-ball derivative estimate yields `|f'(ζ)|<=C(1-|ζ|)^{-1/2}`. The stationary-lift positivity, exhaustion and diagonal normal-family steps were read but their complete analytic dependencies were not recertified. Example §9.20.6 legitimately rules out replacing strong real convexity by arbitrary smooth convex boundary for universal closed-disc continuity.
 
