@@ -1,3 +1,14 @@
+# 2026-10-25 — Hermitian affine scaling and new Bochner equation reading defects
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **UTC checkpoint:** 2026-10-24T22:00:23Z. [Complete source-anchored English report](reports/2026-10-25-hermitian-affine-background-scaling-and-bochner-equation-aliases.md). Newly selected proof-level review: §§11.37–11.40, 11.48 (not whole-section certifications); §11.42 context only.
+
+- **POME-HERM-BOCHNER-EQUATION-ALIASES-001 — medium / confirmed reading-edition integration error:** five new independent permanent tags for Eqs. 11.48.5/.11/.12/.17/.18 duplicate existing canonical grouped equations as invalid nested aligned/align displays at physical line 247, with full rows at lines 27, 101 and 162. Preserve all tags, retain the full original rows, and repair only their alias/standalone rendering; not a false mathematical identity.
+- **POME-HERM-BOCHNER-DOUBLEPRIME-001 — low / confirmed notation error:** the canonical 11.48.5 and 11.48.18 rows, as well as aliases, contain right-double-quote U+201D after delta/Delta instead of TeX double primes; main section blob 4656b430de6ec989ef121eca550afda0be407222, physical lines 27/162/247.
+- **POME-HERM-BACKGROUND-AFFINE-SCALING-001 — low / verified conditional deduction:** for beta'=c beta+dd^c h positive (c>0), exact B_beta'=B_beta+n log c for all bounded tests; hence H shifts by the same constant and support-probability sets are identical; v_±(beta')=c^n v_±(beta). Complete elementary pushforward proof in the report, sharpens endpoints of §11.40.2 and crosschecks §11.38.3 without assuming closedness.
+- **Limits:** selected entropy/type/background proof passages only, plus a finite n=2 torsion matrix calculation, not full torsion-Bochner verification. Actual 747-section ToC coverage retained. Demailly approximation/regularization and its dedicated Bergman/L2/OT/multiscale/positivity-loss proof-completion programme remains **deferred-by-user**, not opened or certified. Only audit Markdown updated on review/mathematical-audit; no main, source, registry, permanent tag or published-doc modification, CI or automatic publication.
+
+---
+
 # 2026-10-25 — normalization gluing does not imply global second countability; cusp pullback multiplicities
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting review head:** 640c02dd3371f29da4a372fac6fc0cec2a15d0fd. Fresh main AGENTS.md and documentation/proof-expansions.md; review README.md, prior LATEST.md, cumulative ledger and actual 747-row section matrix reread. [Complete English report with exact main HTML blobs, stable tags and line anchors](reports/2026-10-25-normalization-countability-and-cusp-current-pullback.md).
