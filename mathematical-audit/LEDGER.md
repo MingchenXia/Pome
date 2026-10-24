@@ -1,3 +1,16 @@
+# 2026-10-25 — weighted-capacity sharpness and the zero-volume model boundary
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete source-anchored report with proofs](reports/2026-10-25-capacity-weight-bound-and-zero-volume-boundary.md). Selected new proof-level coverage §§13.12, 13.27; dependency-only §18.4.8. No new false theorem or confirmed proof gap; other statuses unchanged.
+
+| Stable ID | Severity / status | Source, precise hypotheses, proved obstruction, proposal and dependents |
+| --- | --- | --- |
+| **POME-CAP-WEIGHT-UNIFORM-BOUND-SHARP-001** | low / **verified conditional deduction** (not a false printed theorem) | Theorem 13.12.8, source sgpt-B4CE255F, tag 272876B00528, docs/sections/non-pluripolar-products--quasi-continuous-functions/index.html:100–111, blob 110ec8727eca146a1304cfd43fdbeb4eebf96290. On normalized \(\mathbb P^1\), smooth nonnegative \(\chi_j\) supported on shrinking disks and normalized by \(\int\chi_j\theta=1\) satisfy \(\chi_j\to0\) in capacity (Riesz–Jensen gives \(\operatorname{Cap}_\theta(D_r)\lesssim1/\log(R/r)\)), yet \(\chi_j\theta\rightharpoonup\delta_p\neq0\). All other hypotheses with a fixed smooth \(p=1\) factor hold. **Proposed:** retain uniform \(L^\infty\) weight bound; optional sharpness remark. Dependents: weighted Bedford–Taylor convergence. |
+| **POME-MODEL-ZERO-VOLUME-BOUNDARY-001** | low / **verified conditional deduction** (not a false theorem) | Proposition 13.27.2 / Theorem 13.27.4, source non-kahler-pluripotential-theory-17A47BEB / -B2475A61, tags 44E1935166EC / 126E2D85CA62, docs/sections/volumes-under-bounded-mass--a-complete-metric-on-positive-volume-models/index.html:76–103,107–181, blob bf369ddac8a96939938efeca55db76faae3109c8. Analytic ordinary projections of \(a\log(|Z_0|^2/|Z|^2)\) for rational \(a<1\) (dependency Prop.18.4.8, tag EB95710FF4D7, docs/sections/multiplier-ideal-envelopes-and-goodness--ideal-projection/index.html:133–138, blob f1979b73c857f4874dd4a5cb10b93bcc047ebbdc) have \(L=U=1-a\), exact \(d(p_a,p_b)=|a-b|\). With \(a_j=1-1/j\), \(d\)-Cauchy but no positive-volume limit; reciprocals \(j\) not Cauchy. **Proposed:** retain reciprocal-lower-volume completion requirement; optional explicit example. Dependents: model uniformity and metric completion. |
+
+**Coverage/verification:** §13.12.1/2/4/6–8 and §13.27.1/2/4/9 selected passages, including directed-net finite-intersection and chain-entourage steps; neither section fully certified. 747 ToC sections remain an inventory. Dedicated Demailly/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss excluded as deferred-by-user. No build, tests, CI, formal verification, publication or source changes.
+
+---
+
 # 2026-10-24 — Gauduchon integrated equation tags and smooth adjoint normalization
 
 **Reviewed immutable main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Complete pinned proof, tags, physical HTML lines and repairs:** [Gauduchon multiline-tag and adjoint monotonicity report](reports/2026-10-24-gauduchon-multiline-tags-and-adjoint-monotonicity.md). **Actual selected coverage:** §§14.13–14.18, none fully certified; source/body/tag/registry/main untouched. Demailly approximation/regularization/Bergman/L²/OT/multiscale/positivity-loss **deferred-by-user**.

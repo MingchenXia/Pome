@@ -1,3 +1,14 @@
+# 2026-10-25 — capacity-weight uniform-bound necessity and zero-volume model boundary
+
+**Freshly reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **preserved starting review head:** 0d4c742dbf33e1a714b9426ebbacde9c3a5ff165. Freshly read main AGENTS.md and documentation/proof-expansions.md, review README.md, prior LATEST.md, ledger and the 747-section coverage matrix, then inspected current integrated §§13.12 and 13.27 with an exact §18.4.8 dependency check. [Full source-anchored English report](reports/2026-10-25-capacity-weight-bound-and-zero-volume-boundary.md).
+
+- **POME-CAP-WEIGHT-UNIFORM-BOUND-SHARP-001 — low / verified conditional deduction:** smooth nonnegative approximate identities on \(\mathbb P^1\) converge to zero in global big-class capacity while their weighted fixed smooth measures converge to a Dirac measure. Explicit Riesz–Jensen small-ball capacity bound. This confirms the **uniform boundedness of the weights** in Theorem 13.12.8 is genuinely necessary; it does not refute the theorem.
+- **POME-MODEL-ZERO-VOLUME-BOUNDARY-001 — low / verified conditional deduction:** rational one-pole analytic ordinary models \(p_a\) on \(\mathbb P^1\) satisfy \(L(p_a)=U(p_a)=1-a\) and \(d_\theta(p_a,p_b)=|a-b|\). The \(a_j=1-1/j\) family is \(d_\theta\)-Cauchy but has no limit in \(\mathcal M_+(\theta)\), clarifying the reciprocal-mass condition of Theorem 13.27.4; the printed theorem remains correct.
+- **Actual new coverage:** selected proofs and exact source anchors for previously inventory-only §§13.12 (capacity comparison, monotone directed nets, weighted continuity) and 13.27 (nonmetric triangle example, volume continuity, chain metric, completion). §18.4.8 only a prerequisite statement; no full section or upstream chain certified. No new confirmed errors or proof gaps.
+- **Writes/limits:** dated report plus additive cumulative ledger/matrix/checkpoint only, exclusively on review/mathematical-audit; no main/source/registry/tag edits, CI, publication, build or formalization. Dedicated Demailly approximation/regularization and Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss work remains deferred-by-user, never reopened or certified.
+
+---
+
 # 2026-10-24 — new Gauduchon integrated-math defects and adjoint gradient-map injectivity
 
 **Freshly reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **preserved initial review head:** `483af246c8dd314ccd5da749929aa4feab949363`. Freshly read main AGENTS.md and documentation/proof-expansions.md, review branch README.md, LATEST.md, cumulative ledger and exact current chapter 14 table of contents. [Dated complete mathematical audit with pinned integrated HTML tags/lines](reports/2026-10-24-gauduchon-multiline-tags-and-adjoint-monotonicity.md).
