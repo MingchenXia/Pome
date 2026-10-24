@@ -1,3 +1,16 @@
+# 2026-10-25 — toric softmax and moving convex-body lattice counts
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **UTC checkpoint:** 2026-10-24T20:00:00Z. [Full source-anchored mathematical report and complete proofs](reports/2026-10-25-toric-softmax-total-variation-and-moving-lattice-bodies.md).
+
+| Stable finding ID | Severity / status | Evidence, mathematical disposition and downstream impact |
+| --- | --- | --- |
+| **POME-TORIC-SOFTMAX-TV-001** | low / **verified conditional deduction** (printed theorem correct) | Integrated §21.5, blob 7089aa41ae2422b1bd6b5094e46668cbc8ed37be, lines 11–21, 44–94, 99–158; source labels foundations-of-pluripotential-theory-4A0FAEB3 / -6403CF44 / -EAD83A50, permanent tags 409656CC47D4 / F4072D9ED060 / 5D8A7A7D734E. Standard simplex softmax \(F_t=t\log(1+\sum_i e^{x_i/t})\) globally uniformly approaches \(h_P\), Hessian determinant \(t^{-n}p_0\prod p_i\), exact dual-gradient pushforward \(\mu_t\Rightarrow\delta_0\) of probability measures, but \(|\mu_t-\delta_0|(\mathbb R^n)=2\) for every t. Optional example after §21.5.3; do not strengthen §21.5.2 or §21.6.2 to total variation. No theorem false. |
+| **POME-LATTICE-MOVING-BODY-001** | low / **verified conditional deduction** (printed theorem correct) | Integrated §21.7, blob 5d209b7f4d2156c19bc3fb300303405df6321230, lines 28–54 and 58–90, source labels foundations-of-pluripotential-theory-5E9AEE47 / -364BCD30, tags EDD78BC61BD7 / 831AEEB7084F. For moving convex bodies \(K_k\to K\) in Hausdorff distance, translations \(a_k\) arbitrary, \(r_k=o(k)\), \(k^{-n}\sum_{(kK_k)^{r_k}\cap(M+a_k)}f(m/k)\to\int_K f\) uniformly in translations. Proof uses a quantitative inner/outer cell sandwich, including zero-volume K; optional corollary of §21.7.3. Does not solve semigroup-counting dependencies. |
+
+**Coverage/dependencies:** §§21.5/21.7 selected proofs rechecked; §§21.1/17.11 are overview-only newly inspected; §19.9 contextual only, previous Kaveh–Khovanskii repair remains unchanged. 747-section matrix retained. Dedicated Demailly/Bergman/L2/Ohsawa–Takegoshi/multiscale/positivity-loss work deferred-by-user; all previous ledger findings preserved. Finite exact algebra/grid checks executed locally; no build, CI, publication, formal verification or source changes.
+
+---
+
 # 2026-10-25 — classical collar equation alias, optimal incidence exponent and nonclosed L2 range
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Fresh new first selected proof review:** §§2.19, 2.21 and 7.29; §7.31 statement/dependency context only and its excluded regularization proof **not audited**. [Complete dated English source-anchored report](reports/2026-10-25-classical-product-equation-alias-sharp-incidence-and-l2-closed-range.md). No source, main, registry, tag or published-doc edits, CI, builds or formalization.

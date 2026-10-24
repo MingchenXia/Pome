@@ -1,3 +1,14 @@
+# 2026-10-25 — smooth full-mass toric limits fail total-variation convergence; moving convex-body lattice theorem
+
+**Pinned main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Session checkpoint:** 2026-10-24T20:00:00Z. **Report:** [Toric softmax and moving lattice bodies](reports/2026-10-25-toric-softmax-total-variation-and-moving-lattice-bodies.md).
+
+- **POME-TORIC-SOFTMAX-TV-001 — low / verified conditional deduction:** \(F_t=t\log(1+\sum_i e^{x_i/t})\) converges *globally uniformly* to the simplex support function \(h_P=\max(0,x_1,\ldots,x_n)\); all real Monge–Ampère measures have full mass 1 on the **same** simplex slope body. Explicit positive smooth densities converge narrowly to \(\delta_0\) but stay at signed total-variation norm 2 from it. Printed §§21.5.1–4 correct; this is a sharp limit on strengthening topology, not a new error.
+- **POME-LATTICE-MOVING-BODY-001 — low / verified conditional deduction:** exact lattice-cell sandwich \(K_{\delta_k+\sqrt n/k}\subset U_k\subset K^{\delta_k+(r_k+\sqrt n)/k}\) extends §21.7.3 uniformly in arbitrary translations to varying \(K_k\to K\) in Hausdorff distance, including lower-dimensional bodies. No unproved Okounkov or semigroup step is inferred.
+- **Coverage:** all displayed selected proofs in §§21.5 and 21.7 reread and explicit strengthened results proved; previously inventory-only §§21.1 and 17.11 inspected **as introductory/convention pages only**, not proof-certified. §19.9 contextual only. All 747 existing matrix rows retained. No complete section or dependency chain certified.
+- **Checks/writes:** local standard-library finite determinant checks n=1..8 and 1D lattice sanity checks k=100,400,1600 passed, *not* a project build/formal proof. Only an additive English report, arithmetic check, ledger/matrix/checkpoint on review/mathematical-audit; no main/source/registry/tag/CI/publication/merge. Demailly approximation/regularization and its dedicated Bergman/L2/OT/multiscale/positivity-loss programme remains **deferred-by-user**.
+
+---
+
 # 2026-10-25 — classical collar equation alias, sharp incidence threshold, nonclosed L2 range
 
 **Fresh main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **preserved starting audit head:** 54d1a2a3bfd77ad8e789fd5485a95f3e2e8d8118. **Actual UTC checkpoint:** 2026-10-24T19:03:59.946Z. Freshly read current main AGENTS.md and documentation/proof-expansions.md, review README.md and prior LATEST.md/ledger/matrix; reconstructed the relevant sections from the main 747-section table of contents. [Full mathematical report with exact source labels, permanent tags, main blob SHAs, line anchors and proofs](reports/2026-10-25-classical-product-equation-alias-sharp-incidence-and-l2-closed-range.md).
