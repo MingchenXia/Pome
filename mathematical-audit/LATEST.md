@@ -1,3 +1,14 @@
+# 2026-10-24 — selected §14.22–23 and §§15.29, 15.32 proof review (nonexcluded)
+
+**Fresh main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; starting branch \`64aa119a69c33891dc59b9b443f5f9a6fc89bb02\`, retained without reset. Read main AGENTS.md, documentation/proof-expansions.md, current integrated HTML, actual 25-chapter/747-section inventory and branch README.md / latest checkpoint. The existing PR #9 is already merged/closed; no new PR opened. [Detailed English report](reports/2026-10-24-root-net-dominated-convergence-and-determinant-squared-gap.md).
+
+- **POME-DEGEN-EQUALDET-SQUARE-GAP-001** — low, **verified conditional deduction**, not an error: exact square-sum and affine-invariant log-spectrum inequalities refine §14.23.3–4 for positive Hermitian A,B of equal determinant in complex dimensions 2 and 3.
+- **POME-SUBSOL-ROOT-NET-DOMCONV-001** — low, **verified conditional deduction**, not an error: the norm-closed bounded-root ideal in §15.32.9 has dominated convergence for **arbitrary nets converging in measure**. It does **not** have arbitrary pointwise-net dominated convergence: directed complements of finite subsets are pointwise decreasing to zero while all represent the constant L^n class 1. The printed sequence-in-measure statement remains correct.
+- **Actual coverage:** selected integrated proofs in §§14.22–23 and §§15.29, 15.32 only; 747 matrix entries are ToC inventory, not certification. The §14.22 real symbol/product rules and §14.23 Stokes/W^{2,n} approximations were checked only at specified lines, not transitive verification of all analytic inputs. No new confirmed false theorem or independently certified complete section.
+- **No** full build/tests/CI, website publication, PR/merge, formal verification, numerical scripts or main/source/body/registry/permanent-tag edits. Entire dedicated Demailly approximation/regularization, Bergman, L², Ohsawa–Takegoshi, multiscale-atlas, positivity-loss programme remains **deferred-by-user**; not reopened, resolved or certified.
+
+---
+
 # 2026-10-24 — new bounded Bedford–Taylor functional calculus and Ross–Witt Nyström pole-set proof correction
 
 **Fresh main SHA:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting audit-branch SHA:** `386f923cf4eabdeb753591ca90690cea03b2ae32`, preserved. Required current main `AGENTS.md`, `documentation/proof-expansions.md`, review-branch `README.md`, prior `LATEST.md`, all 747 matrix rows and the cumulative ledger were freshly read. **Complete English arguments, source revisions, physical anchors and proposed changes:** [2026-10-24 detailed report](reports/2026-10-24-bt-continuous-weights-and-rwn-pole-quantifier.md).
