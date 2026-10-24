@@ -1,3 +1,14 @@
+# 2026-10-24 — sharp high-dimensional tube radius and Loewner-concave circle spectral normalization
+
+**Fresh reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Preserved review head:** `159cdade25335ecd8ede3b353dd293261af4fb4f`. Read current main `AGENTS.md` and `documentation/proof-expansions.md`, review-branch `README.md`, existing `LATEST.md`, ledger and actual 747-row coverage matrix. [New complete, source-anchored English report](reports/2026-10-24-sharp-tube-radius-and-matrix-spectral-factor-order.md).
+
+- **POME-TUBE-RADIUS-SHARP-001 — low / verified conditional deduction, not a false theorem.** On the radius-`r` tube around a circle in `R^m` (`m≥3`), `s-r=-dist(·,∂T_r)` is subharmonic *throughout* the tube iff `r≤(m−2)R/(m−1)`. For its exterior complement the boundary distance is subharmonic on a **full interior collar iff the inequality is strict**. Direct cylindrical Laplacian and decreasing `s_epsilon` proof; §9.19.1's published sufficient condition remains correct.
+- **POME-CIRCLE-SPECTRAL-FACTOR-ORDER-001 — low / verified conditional deduction, not a false theorem.** For smooth positive matrix symbols `W` on `S¹`, the §9.23 Hardy minimizer's canonical matrix `A(W)=H(0)*H(0)` is Loewner-monotone and concave in `W`, satisfies `cI≤A(W)≤∫W` when `W≥cI`, and obeys the **exact** normalized determinant identity `log det A(W)=∫log det W`. Proof uses the printed closed-disc-invertible spectral factor and the harmonic mean-value property.
+- **Actual new coverage:** selected integrated §§9.19,9.21–9.24 including the inverse-shear Fatou–Bieberbach construction, Hardy restriction singular numbers, circle Toeplitz factorization and stationary-disc Green regularity. Conditional §9.20 and analytic prerequisites are **not** certified; no fully audited section. The unrelated dedicated Demailly/Bergman/L²/OT/multiscale/positivity-loss programme stays **deferred-by-user**, unopened.
+- **Scope and writes:** four audit Markdown files only; no modification of main/source/reader/registry/tags, tests, full build, GitHub Actions CI, automatic publication, PR or merge.
+
+---
+
 # 2026-10-24 — filtration test curves: an invalid pointwise Fekete limit, with exact limsup repair
 
 **Fresh reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Preserved starting review head:** 81bcb013b6d99e412145d5c113246bbcef767077. Reviewed current main AGENTS.md, documentation/proof-expansions.md, and audit-branch README.md/LATEST.md, cumulative ledger, current 747-row matrix, actual integrated §17.14 and narrowly selected §22.1 cross-references. [Dated complete counterexample, stable source labels, physical HTML lines and local correction](reports/2026-10-24-filtration-pointwise-fekete-obstruction.md).

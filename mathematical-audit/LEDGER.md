@@ -1,3 +1,16 @@
+# 2026-10-24 — sharp tubular subharmonicity and canonical matrix spectral factor
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. First selected nonexcluded review of §§9.19 and 9.21–9.24. [Complete evidence and mathematical proofs](reports/2026-10-24-sharp-tube-radius-and-matrix-spectral-factor-order.md).
+
+| Stable finding | Severity / status | Exact source, proof, proposed correction, dependent results |
+| --- | --- | --- |
+| **POME-TUBE-RADIUS-SHARP-001** | **low / verified conditional deduction**; no false printed theorem | §9.19.1 source `klimek-pluripotential-theory-7EB9EC12`, permanent `EF227A55DB12`, `docs/sections/boundary-distance-counterexamples-in-higher-dimension/index.html` blob `e078f8041dbae929c9d2076e62a72326622c158d`, lines **8–35**. For a circle of radius `R` in `R^m`, `0<r<R`, the tube's negative boundary distance is subharmonic **iff** `r≤(m−2)R/(m−1)`; the exterior full collar has subharmonic distance **iff** `r<(m−2)R/(m−1)`. Calculus: `Δs=(m−1−R/rho)/s`; near-core approximation preserves distributional positivity, inward radial points prove necessity. Propose an optional precise-radius corollary, leaving the original sufficient example and tags unchanged. Dependents: nonconvex boundary-distance models and dimensional thresholds. |
+| **POME-CIRCLE-SPECTRAL-FACTOR-ORDER-001** | **low / verified conditional deduction**; no false printed theorem | §9.23.1 source `klimek-pluripotential-theory-02D391FB`, permanent `35AF621E1787`, `docs/sections/smooth-positive-matrix-factorization-on-the-circle/index.html` blob `04780d065ee474f3bb3255db297ac435e00485a1`, lines **7–69**, especially minimizer 28–34 and factor 58–68. The normalized Hardy minimum matrix `A(W)` is order-preserving, Loewner-concave, bounded by `cI≤A(W)≤∫W`, and `log det A(W)=∫log det W`. Proved by pointwise energy comparison, infimum concavity, invertible `H`, and harmonic `log|det H|`; depends conditionally on §9.23 smooth factor construction. Proposed optional matrix normalization corollary; dependents: spectral-factor and boundary Riemann–Hilbert normalizations. |
+
+**Other selected proof passages, no newly certified error:** §9.21.2–4 (compact Hilbert restriction and convex hull), §9.22.1–2 (shear transport and inverse limit), §9.24.1–5 (reflection, positive stationary lifts, linearized coercivity, Green smoothness). Exact tags, source blobs and physical anchors appear in the report. No entire section or proof dependency graph certified. The §9.21.1 weighted `\bar\partial` input was **not** reopened; the dedicated Demailly programme remains **deferred-by-user**. No builds, CI, publication or body changes.
+
+---
+
 # 2026-10-24 — false pointwise Fekete limit in a filtration test curve
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. New targeted reading of the formerly inventory-only §17.14, including Definition .8 and Example .10; no complete section certified. [Exact proof, source anchors and correction](reports/2026-10-24-filtration-pointwise-fekete-obstruction.md).
