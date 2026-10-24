@@ -1,3 +1,15 @@
+# 2026-10-25 — Stein open unions have no psh exhaustion; homogeneous replacement dependency
+
+**Fresh main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **preserved starting audit head:** e48a94aa1a6fcde1518d433c1ab504904e687c5c. Freshly read main AGENTS.md and documentation/proof-expansions.md, review README.md, previous LATEST.md, ledger and actual current 747-section ToC matrix. [Detailed source-anchored mathematical report](reports/2026-10-25-stein-union-psh-obstruction-and-local-homogeneous-dependency.md).
+
+- **POME-STEIN-UNION-NO-PSH-EXHAUST-001 — low / verified conditional deduction:** Example 9.27.1's non-holomorphically-convex increasing Stein union admits **no psh exhaustion at all**, even without continuity or smoothness: the compact set K bounds every psh function along escaping holomorphic discs with boundary in K. This strengthens, not refutes, the example.
+- **POME-HOLOCONV-PSH-EXHAUST-BRIDGE-001 — low / verified repair proposed only:** exact acyclic elementary manifold proof for the smooth psh-exhaustion input used in Theorem 9.26.1; existing Prop. 9.32.8 is a broader, distinct internal theorem, not a duplicate for deletion.
+- **POME-HOM-DIRICHLET-SMOOTH-EXT-001 — medium / external dependency:** Lemma 15.7.1 uses smooth Guan–Li Dirichlet existence for a possibly nonclosed Hermitian background. Internal Thm 7.9.2 proves only a continuous / local C1,1 closed-background version; it is **not** a matching replacement. Remaining Steps of 15.7.2 were checked conditionally; no false theorem established.
+- **Actual new coverage:** first selected integrated proof reading of §§9.26–9.27 and §15.7; §9.32.8 matched as a dependency, §15.8.4–6 and the **post-continuity** half of §15.8.1 checked conditionally. §§15.5–6, §15.8.1's regularization-based continuity and all dedicated Demailly/Bergman/L²/OT/multiscale/positivity-loss work remain **deferred-by-user**, not solved/certified.
+- **Scope:** no source/body/registry/tag/main changes, no tests, builds, CI, publication, formalization or PR merge; sections not wholly certified.
+
+---
+
 # 2026-10-25 — capacity-weight uniform-bound necessity and zero-volume model boundary
 
 **Freshly reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **preserved starting review head:** 0d4c742dbf33e1a714b9426ebbacde9c3a5ff165. Freshly read main AGENTS.md and documentation/proof-expansions.md, review README.md, prior LATEST.md, ledger and the 747-section coverage matrix, then inspected current integrated §§13.12 and 13.27 with an exact §18.4.8 dependency check. [Full source-anchored English report](reports/2026-10-25-capacity-weight-bound-and-zero-volume-boundary.md).

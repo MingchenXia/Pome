@@ -1,3 +1,17 @@
+# 2026-10-25 — Stein union psh obstruction and smooth local Dirichlet dependency
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Full precise source labels/blobs/HTML lines and proofs:** [dated audit](reports/2026-10-25-stein-union-psh-obstruction-and-local-homogeneous-dependency.md). First selected proof review §§9.26–9.27 and 15.7; conditional §15.8 post-continuity/contact and §§15.8.4–6, dependency-only §9.32.8 and §7.9.2. No complete section certification.
+
+| Stable ID | Severity / exact status | Evidence, proposal and dependents |
+| --- | --- | --- |
+| **POME-STEIN-UNION-NO-PSH-EXHAUST-001** | low / **verified conditional deduction** (not false printed theorem) | Example 9.27.1, label demailly-complex-geometry-BBFF78A8, tag F00C66A8D202; integrated section lines 8–12, 32–46, blob 26b2e856fc24b04616b0840caec5c688cc045ffa. Compact K bounds any psh function by disc maximum principle on every disc d_nu(zeta)=(1/nu,zeta,0); x_nu=d_nu(1/nu) escapes all compact subsets since pi(x_nu)→(0,0) outside pi(X). Hence no upper-semicontinuous psh exhaustion whatsoever. Optional strengthening near the example; affects weak-pseudoconvexity interpretation in §9.26. |
+| **POME-HOLOCONV-PSH-EXHAUST-BRIDGE-001** | low / **verified repair (proposed only)** | Thm 9.26.1, label demailly-complex-geometry-57C45FF9, tag C1041DBBD4EC, §9.26 line 32, blob c04701d0358d43a3a3f1aed61e7cdd2a48305417. Existing Prop 9.32.8 label demailly-complex-geometry-4C2DB7E3 tag A13AE3DAF423, §9.32 lines 127–145, blob 169e9d3bc872e9fd89d5135e69204e33fccd3783, matches the precise input, and the dated report proves an elementary acyclic compact-hull/holomorphic-power version for manifolds. Preserve stronger nonreduced-complex-space version; optional explicit internal bridge. |
+| **POME-HOM-DIRICHLET-SMOOTH-EXT-001** | medium / **external dependency** (neither false theorem nor complete proof repair) | Lemma 15.7.1, label non-kahler-pluripotential-theory-6A868117, tag 5C54B7FA3A8B, §15.7 lines 14–28, blob a9db59d6db0717cd2da92f3c0120b494fa4f731e, quotes Guan–Li smooth Hermitian Dirichlet existence for arbitrary nonclosed theta. Internal Thm 7.9.2 tag A092925717E1, §7.9 line 41ff, blob ff1d5dfff1913156b45875eabf921f60af553b99, is weaker/different: continuous + local C1,1 for dd^c-background. Keep actual external input or provide a genuine nonclosed smooth Dirichlet replacement. Dependents: Thm 15.7.2 tag B0FDBEE3B071, §15.8 contact-support arguments, not the excluded continuity proof. |
+
+**Limits:** Demailly approximation/regularization plus Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme remains **deferred-by-user**, with historical findings neither resolved nor certified. No source/registry/canonicalization/main edits, tests, build, CI, publication or formalization.
+
+---
+
 # 2026-10-25 — weighted-capacity sharpness and the zero-volume model boundary
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete source-anchored report with proofs](reports/2026-10-25-capacity-weight-bound-and-zero-volume-boundary.md). Selected new proof-level coverage §§13.12, 13.27; dependency-only §18.4.8. No new false theorem or confirmed proof gap; other statuses unchanged.
