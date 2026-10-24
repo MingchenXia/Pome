@@ -1,3 +1,14 @@
+# 2026-10-24 — uniform L¹ density stability of adjoint supports; variation obstruction for Gauduchon traces
+
+**Fresh main SHA:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Preserved review head at session start:** `ef0dc853b6c104d0ee6b63393751253c3d5f58a7`. Reviewed integrated §§11.31, 11.33–11.36 in selected proof detail; §11.32 standing assumptions only. [New full English proof report](reports/2026-10-24-gauduchon-trace-tv-and-adjoint-support-nets.md).
+
+- **POME-GAUD-TRACE-TV-COUNTEREXAMPLE-001 — low / verified conditional deduction, no false printed theorem:** the elliptic-curve smooth positive sequence of Example 11.31.8 has \(\|u_k\|_\infty\to0\) but its signed Gauduchon trace difference has **exact total-variation norm \(1/\pi\)** for every \(k\). The original weak-homeomorphism theorem and sharp bounded-Lipschitz exponent stay valid; they cannot be promoted to TV.
+- **POME-ADJOINT-DUAL-UNIFORM-L1-001 — low / verified conditional deduction:** \(B_\varphi\) has an explicit *uniform* \(L^1\)-continuity modulus on the entire \(\|F\|_\infty\le M\) ball: \(|B(F)-B(G)|\le\sqrt t+2M\Psi_{B(0)+2M}(\sqrt t)\), \(t=\|F-G\|_1\le1\), where \(\Psi_L\to0\) is the uniform-concentration gauge of the compact \(H_\varphi\)-sublevel. No rate for \(\Psi_L\) is invented.
+- **POME-ADJOINT-SUPPORT-NET-STABILITY-001 — low / verified conditional deduction:** bounded logarithmic densities converging in measure along **any directed net**, with arbitrary supporting probabilities, have weak \(L^1\)-compact supporter values; every subnet limit supports the limiting density, and uniqueness there forces the *entire net* to converge weakly \(L^1\), without cofinal-sequence assumptions.
+- **Exact scope and exclusions:** initial integrated direct review of §§11.31,11.33–11.36, selected proofs only; no section, external PDE/elliptic chain or user-deferred smoothing programme certified. The cited §5.42.5 smooth approximation was not audited; §11.34 divisorial smoothing subsection was not reopened. The 747-row ToC matrix remains inventory. No build, CI, publication, merge or source edits.
+
+---
+
 # 2026-10-24 — circle monodromy, integral Čech torsion and broad sheaf-theoretic proof audit
 
 **Fresh reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Preserved starting review head:** 819f23618f6aaa89d7e4bae734e86636e118edb1. Freshly read main AGENTS.md and documentation/proof-expansions.md, review README.md and this LATEST.md, existing full ledger and the 747-row ToC coverage matrix. [Source-anchored English report](reports/2026-10-24-circle-local-system-monodromy-and-cech-comparison.md).
