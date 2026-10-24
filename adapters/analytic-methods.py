@@ -20,7 +20,8 @@ RESULTS = ('R0302', 'R0301', 'R0300', 'R0308', 'R0304', 'R0303', 'R0305', 'R0307
            'R0343', 'R0341', 'R0342', 'R0344', 'R0345', 'R0346', 'R0347', 'R0360',
            'R0361', 'R0365', 'R0366', 'R0369', 'R0370', 'R0373', 'R0374', 'R0375',
            'R0378', 'R0379', 'R0362', 'R0371', 'R0376', 'R0377', 'R0380', 'R0363',
-           'R0368', 'R0372', 'R0381', 'R0364', 'R0367')
+           'R0368', 'R0372', 'R0381', 'R0364', 'R0367', 'R0382', 'R0383', 'R0384',
+           'R0385', 'R0386', 'R0387', 'R0388', 'R0389', 'R0390', 'R0391', 'R0392')
 ENTRYPOINT = 'contributions/analytic-methods-public.tex'
 BIBLIOGRAPHY = 'contributions/analytic-methods-public.bib'
 MANIFEST = 'integrations/S0050/source-manifest.json'

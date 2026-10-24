@@ -2003,6 +2003,11 @@
         "start": "D55184290BBA",
         "slug": "analytic-singularities-and-demailly-approximation--bergman-regularization-on-a-compact-hermitian-manifold",
         "title": "Bergman regularization on a compact Hermitian manifold"
+      },
+      {
+        "start": "5732A2B4530D",
+        "slug": "analytic-singularities-and-demailly-approximation--compact-hermitian-bergman-kernels",
+        "title": "Compact Hermitian Bergman kernels"
       }
     ],
     "envelopes-and-model-potentials": [
@@ -2092,6 +2097,11 @@
         "start": "4A1288155241",
         "slug": "lelong-numbers-and-multiplier-ideals--multiplier-ideals-under-smooth-blowups",
         "title": "Multiplier ideals under smooth blowups"
+      },
+      {
+        "start": "3B472BF15485",
+        "slug": "lelong-numbers-and-multiplier-ideals--alpha-invariants-from-finite-linear-systems",
+        "title": "Alpha invariants from finite linear systems"
       }
     ],
     "the-theory-of-okounkov-bodies": [
@@ -2470,6 +2480,11 @@
         "start": "75F10F3C1577",
         "slug": "complex-spaces-and-modifications--plurisubharmonic-functions-on-reduced-spaces",
         "title": "Plurisubharmonic functions on reduced spaces"
+      },
+      {
+        "start": "F1C1C0183BEB",
+        "slug": "complex-spaces-and-modifications--surface-maps-and-complete-slice-rigidity",
+        "title": "Surface maps and complete-slice rigidity"
       }
     ],
     "the-envelope-operators": [
@@ -4132,6 +4147,11 @@
         "start": "5C9C4A1E5AAC",
         "slug": "vector-bundles-connections-and-extensions--extensions-associated-with-finite-subschemes-of-a-surface",
         "title": "Extensions associated with finite subschemes of a surface"
+      },
+      {
+        "start": "7F6BBD0F4F26",
+        "slug": "vector-bundles-connections-and-extensions--integral-approximation-of-real-curvature-forms",
+        "title": "Integral approximation of real curvature forms"
       }
     ],
     "jets-integral-curvature-and-projective-embeddings": [
@@ -4183,6 +4203,11 @@
         "start": "06E360D889B4",
         "slug": "sheaf-cohomology-and-acyclic-resolutions--projective-coherent-generation-and-algebraic-ideals",
         "title": "Projective coherent generation and algebraic ideals"
+      },
+      {
+        "start": "363F8B45F319",
+        "slug": "sheaf-cohomology-and-acyclic-resolutions--relative-vanishing-on-projective-bundles",
+        "title": "Relative vanishing on projective bundles"
       }
     ],
     "complete-metric-estimates-and-holomorphic-division": [
@@ -4250,6 +4275,16 @@
         "start": "A5681B2E9B95",
         "slug": "complete-metric-estimates-and-holomorphic-division--original-metric-twisted-estimates-under-tensor-positivity",
         "title": "Original-metric twisted estimates under tensor positivity"
+      },
+      {
+        "start": "6AF6236F9F54",
+        "slug": "complete-metric-estimates-and-holomorphic-division--original-metric-estimates-from-a-plurisubharmonic-exhaustion",
+        "title": "Original-metric estimates from a plurisubharmonic exhaustion"
+      },
+      {
+        "start": "81E858312EFF",
+        "slug": "complete-metric-estimates-and-holomorphic-division--twisted-solutions-in-the-original-kahler-metric",
+        "title": "Twisted solutions in the original Kähler metric"
       }
     ],
     "hodge-theory-curvature-and-compact-vanishing": [
@@ -4682,6 +4717,36 @@
         "start": "2A934EB4646D",
         "slug": "general-complex-cohomology-and-modifications--surface-euler-identities",
         "title": "Surface Euler identities"
+      },
+      {
+        "start": "9A0BB8900287",
+        "slug": "general-complex-cohomology-and-modifications--finite-divisor-comparisons-and-cohomology-envelopes",
+        "title": "Finite divisor comparisons and cohomology envelopes"
+      },
+      {
+        "start": "797B5DD22D2C",
+        "slug": "general-complex-cohomology-and-modifications--envelopes-under-varying-line-bundles",
+        "title": "Envelopes under varying line bundles"
+      },
+      {
+        "start": "6A88FA6B1477",
+        "slug": "general-complex-cohomology-and-modifications--uniform-cohomology-on-varying-projective-divisors",
+        "title": "Uniform cohomology on varying projective divisors"
+      },
+      {
+        "start": "FA75A8159D55",
+        "slug": "general-complex-cohomology-and-modifications--numerical-comparison-in-positive-cohomological-degrees",
+        "title": "Numerical comparison in positive cohomological degrees"
+      },
+      {
+        "start": "97E60EB8A3EE",
+        "slug": "general-complex-cohomology-and-modifications--fixed-powers-and-varying-projective-cohomology-classes",
+        "title": "Fixed powers and varying projective cohomology classes"
+      },
+      {
+        "start": "6B3F04B03F51",
+        "slug": "general-complex-cohomology-and-modifications--fixed-power-envelopes-through-a-projective-modification",
+        "title": "Fixed-power envelopes through a projective modification"
       }
     ],
     "entire-function-growth-and-algebraic-zero-sets": [
@@ -4750,6 +4815,31 @@
         "start": "DC3A4C66FFF8",
         "slug": "dolbeault-spectral-asymptotics--a-cumulative-spectral-counterexample",
         "title": "A cumulative spectral counterexample"
+      },
+      {
+        "start": "073C7DDBB4A8",
+        "slug": "dolbeault-spectral-asymptotics--varying-unitary-connections-and-the-order-of-spectral-limits",
+        "title": "Varying unitary connections and the order of spectral limits"
+      },
+      {
+        "start": "BCA3E82FD3F4",
+        "slug": "dolbeault-spectral-asymptotics--uniform-radial-freezing-of-unitary-connections",
+        "title": "Uniform radial freezing of unitary connections"
+      },
+      {
+        "start": "15E10A85A2D0",
+        "slug": "dolbeault-spectral-asymptotics--fixed-threshold-spectral-asymptotics",
+        "title": "Fixed-threshold spectral asymptotics"
+      },
+      {
+        "start": "3DBADD4600E3",
+        "slug": "dolbeault-spectral-asymptotics--iterated-and-joint-spectral-upper-limits",
+        "title": "Iterated and joint spectral upper limits"
+      },
+      {
+        "start": "07EAA7D1479C",
+        "slug": "dolbeault-spectral-asymptotics--a-base-metric-comparison-failure-for-a-nonintegrable-connection",
+        "title": "A base-metric comparison failure for a nonintegrable connection"
       }
     ],
     "holomorphic-morse-inequalities": [
@@ -4787,6 +4877,41 @@
         "start": "C56EE0ED6F8F",
         "slug": "holomorphic-morse-inequalities--isolated-singularities-and-ambient-jet-curvature-tails",
         "title": "Isolated singularities and ambient jet curvature tails"
+      },
+      {
+        "start": "19A8C649EEDD",
+        "slug": "holomorphic-morse-inequalities--transcendental-cohomology-envelopes",
+        "title": "Transcendental cohomology envelopes"
+      },
+      {
+        "start": "FF08BFF043C4",
+        "slug": "holomorphic-morse-inequalities--singular-jet-tails-above-the-dimension-of-the-singular-set",
+        "title": "Singular jet tails above the dimension of the singular set"
+      },
+      {
+        "start": "F78551602582",
+        "slug": "holomorphic-morse-inequalities--morse-estimates-for-singular-directed-jet-spaces",
+        "title": "Morse estimates for singular directed jet spaces"
+      },
+      {
+        "start": "587C7E9F7AE8",
+        "slug": "holomorphic-morse-inequalities--actual-negative-curvature-concentration-along-a-singular-curve",
+        "title": "Negative curvature concentration along a singular curve"
+      },
+      {
+        "start": "D67B6C1F9C5C",
+        "slug": "holomorphic-morse-inequalities--varying-class-euler-limits-and-compact-complex-surfaces",
+        "title": "Varying-class Euler limits and compact complex surfaces"
+      },
+      {
+        "start": "6C0D693A90F6",
+        "slug": "holomorphic-morse-inequalities--endpoint-cohomology-and-the-final-morse-sums",
+        "title": "Endpoint cohomology and the final Morse sums"
+      },
+      {
+        "start": "5A5B47F676C3",
+        "slug": "holomorphic-morse-inequalities--cohomology-of-the-ambient-bounded-jet-sheaf",
+        "title": "Cohomology of the ambient bounded-jet sheaf"
       }
     ],
     "adjoint-generation-and-multiplier-ideals": [
@@ -4895,6 +5020,16 @@
         "start": "580AF664D2F0",
         "slug": "nef-line-bundles-and-section-growth--nef-bigness-and-a-fixed-divisor-with-small-logarithmic-poles",
         "title": "Nef bigness and a fixed divisor with small logarithmic poles"
+      },
+      {
+        "start": "BFFE7DD63704",
+        "slug": "nef-line-bundles-and-section-growth--numerical-section-volume-on-a-projective-manifold",
+        "title": "Numerical section volume on a projective manifold"
+      },
+      {
+        "start": "B1414F585697",
+        "slug": "nef-line-bundles-and-section-growth--section-volume-on-an-arbitrary-compact-complex-manifold",
+        "title": "Section volume on an arbitrary compact complex manifold"
       }
     ],
     "moving-intersection-classes": [
@@ -4985,6 +5120,11 @@
         "start": "692A3F0BD1ED",
         "slug": "surface-positivity-and-numerical-jets--numerical-obstructions-to-adjoint-evaluation-on-surfaces",
         "title": "Numerical obstructions to adjoint evaluation on surfaces"
+      },
+      {
+        "start": "5B05B552751E",
+        "slug": "surface-positivity-and-numerical-jets--all-cohomological-degrees-on-compact-complex-surfaces",
+        "title": "All cohomological degrees on compact complex surfaces"
       }
     ],
     "positive-effective-powers": [
@@ -5004,6 +5144,16 @@
         "start": "C05FBC752114",
         "slug": "tangent-slopes-and-covering-rational-curves--numerical-reductions-for-smooth-fano-boundedness",
         "title": "Numerical reductions for smooth Fano boundedness"
+      },
+      {
+        "start": "FBFADD3A7F3D",
+        "slug": "tangent-slopes-and-covering-rational-curves--rational-curves-from-a-marked-family",
+        "title": "Rational curves from a marked family"
+      },
+      {
+        "start": "7B63044694E3",
+        "slug": "tangent-slopes-and-covering-rational-curves--degree-descent-in-a-proper-relative-fiber",
+        "title": "Degree descent in a proper relative fiber"
       }
     ],
     "vector-bundles-and-jets": [
@@ -5021,6 +5171,11 @@
         "start": "B1DB0DB48C48",
         "slug": "vector-bundles-and-jets--smooth-jet-fibrations-under-base-modification",
         "title": "Smooth jet fibrations under base modification"
+      },
+      {
+        "start": "3F652CFAEFA3",
+        "slug": "vector-bundles-and-jets--normalization-and-resolution-at-the-leading-cohomological-order",
+        "title": "Normalization and resolution at the leading cohomological order"
       }
     ],
     "hermitian-torsion-and-the-bochner-identity": [
@@ -5035,6 +5190,18 @@
         "start": "7FA8984101B3",
         "slug": "section-maps-and-numerical-dimension--strict-integral-currents-prescribe-linearly-growing-jets",
         "title": "Strict integral currents prescribe linearly growing jets"
+      },
+      {
+        "start": "168790006B38",
+        "slug": "section-maps-and-numerical-dimension--uniform-section-growth-in-the-algebraic-dimension",
+        "title": "Uniform section growth in the algebraic dimension"
+      }
+    ],
+    "strictly-positive-singular-metrics": [
+      {
+        "start": "82E814B6EAAC",
+        "slug": "strictly-positive-singular-metrics--projective-modifications-and-strict-singular-metrics",
+        "title": "Projective modifications and strict singular metrics"
       }
     ]
   },

@@ -24,7 +24,9 @@ The collection integrates the following sources at the revisions registered in `
 
 - **Isolated plurisubharmonic singularities**, the reviewed supplement after Li–Xia on isolated poles with zero Lelong number and positive residual Monge–Ampère mass. Explicit polynomial iterates, separated maximum products and finite logarithmic thresholds join the existing subjects; major attribution belongs in the project history.
 
-- **Singular metrics, generation and canonical systems**, the selected supplement after Demailly's *Analytic Methods in Algebraic Geometry*. Singular estimates, generation and jets, nef dimensions and vanishing, coherent Euler polynomials, integral-normalized envelopes, division and three geometric or spectral counterexamples join the existing subjects. The bounded export selects nineteen reviewed proof packets; complete-book and recursive dependency closure remain separate research tasks. Existing compact Nadel and diagonal monomial statements are reused canonically. See [scope and source controls](documentation/analytic-methods-integration.md).
+- **Relative canonical bundles and positive foliations**, the reviewed Cao–Păun supplement at its separately pinned source revision. Its relative canonical, singular metric and foliation results join the existing subjects. See [the selected mathematics and source controls](documentation/relative-canonical-positive-foliations.md).
+
+- **Singular metrics, generation and canonical systems**, the selected supplement after Demailly's *Analytic Methods in Algebraic Geometry*. The current candidate selects eighty reviewed proof packets across singular estimates, generation and jets, cohomology, curvature limits, canonical systems and geometric counterexamples. The earlier sixty-nine-packet selection has a successful ordinary full build and targeted desktop/mobile context checks; the eleven-packet extension requires its own final source pin and build. Complete-book and recursive dependency closure remain separate research tasks. Existing compact Nadel and diagonal monomial statements are reused canonically. See [scope, validation and source controls](documentation/analytic-methods-integration.md).
 
 Only each manuscript's active input graph is included. Excluded drafts and private research material are not exported.
 
@@ -81,7 +83,7 @@ Updates are **on request only**. There is no scheduled monitoring or publication
 
 ## Local build and publication
 
-Requires Python 3.11+, Git, Node.js, npm, XeLaTeX with the `standalone` and TikZ packages, and Poppler (`pdftocairo`); publication also uses the authenticated GitHub CLI (`gh`). The private Hermitian source requires authenticated read access; credentials stay outside the project.
+Requires Python 3.11+, Git, Node.js, npm, XeLaTeX with the `standalone`, TikZ and `doublestroke` (`dsfont.sty`) packages, and Poppler (`pdftocairo`); publication also uses the authenticated GitHub CLI (`gh`). The private Hermitian and Gerby-Literature sources require authenticated read access; credentials stay outside the project.
 
 ```sh
 python3 -m venv .venv
