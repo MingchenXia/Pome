@@ -1,3 +1,13 @@
+# 2026-10-24 — circle monodromy, integral Čech torsion and broad sheaf-theoretic proof audit
+
+**Fresh reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Preserved starting review head:** 819f23618f6aaa89d7e4bae734e86636e118edb1. Freshly read main AGENTS.md and documentation/proof-expansions.md, review README.md and this LATEST.md, existing full ledger and the 747-row ToC coverage matrix. [Source-anchored English report](reports/2026-10-24-circle-local-system-monodromy-and-cech-comparison.md).
+
+- **POME-CIRCLE-LOCAL-MONODROMY-001 — low / verified conditional deduction, not a false printed theorem.** For any commutative ring R and module L with invertible monodromy T, the local system on S¹ has H⁰=ker(T−I), H¹=coker(T−I), and no higher cohomology. Full integral two-arc alternating Čech calculation, including the GL₂(Z) unipotent example with H¹=Z⊕Z/m, and the cyclic-permutation monodromy verification of finite covering direct images; no unwarranted field coefficients or sequential limit assumptions.
+- **Actual first proof-level review** of previously inventory-only §§10.43,10.44,10.67,10.70: Godement/flabby and Čech double-complex arguments, soft sheaves and ordered-vs-alternating cochains, PID Tor and direct-sum Künneth normalization, local-system transport and the singular/sheaf comparison. Selected proof steps, not certification of whole sections or the entire transitive topology/analysis chain; no new error alleged. Earlier §§10.26–10.29 findings encountered in the ledger were **not repeated**.
+- **Writes and exclusions:** dated report and cumulative ledger, matrix and checkpoint only, on review/mathematical-audit. No main/source/reading-edition/tag/registry changes; no full build, script, CI, formalization, PR creation, merge or publication. Dedicated Demailly approximation/regularization, Bergman, L², Ohsawa–Takegoshi, multiscale and positivity-loss work remains **deferred-by-user**, not resolved or certified.
+
+---
+
 # 2026-10-24 — exact disc Green values on holomorphic retracts; sharp exponential-density ordering
 
 **Freshly reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Preserved starting audit head:** 020dd1227f1dfd2d093fe3fe676398554edadce3. Re-read current main AGENTS.md, documentation/proof-expansions.md, review-branch README.md and this LATEST.md, plus the existing ledger and all 747 ToC rows before working. [New source-anchored complete report](reports/2026-10-24-green-holomorphic-retract-and-exponential-density-order.md).
