@@ -1,3 +1,14 @@
+# 2026-10-24 — sharp global stability of real-convex logarithmic extremals
+
+**Freshly reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting review head:** `e543f66bdfa7475a80d56233c6d3c02584334469`. Freshly re-read main `AGENTS.md`, `documentation/proof-expansions.md`, review-branch `README.md` and prior `mathematical-audit/LATEST.md`, the existing ledger, 747-row ToC coverage matrix, and the actual integrated HTML sources. [Complete English source-anchored report](reports/2026-10-24-real-convex-extremals-sharp-hausdorff-stability.md).
+
+- **POME-REALCONVEX-SCALE-001 — low / verified conditional deduction, NOT a false theorem.** For compact symmetric real convex bodies \(E\) with \(0\) in the real interior, the exact **global** displacement \(\|V_{sE}-V_E\|_\infty=\operatorname{arcosh}(1/s)\) for \(0<s\le1\). Equality is attained at **every real boundary point of \(E\)**. The proof uses the slit-plane harmonic maximum/minimum principles for \(g=V_{[-1,1]}\) and the integrated real-polar extremal formula, without an approximation theorem.
+- **POME-REALCONVEX-HAUS-001 — low / verified conditional deduction, NOT a proof gap.** Centrally symmetric real convex \(E,F\) sharing a radius-\(r\) inball have \(\|V_E-V_F\|_\infty\le\operatorname{arcosh}(1+d_H(E,F)/r)\). Equality occurs for concentric balls of radii \(r\) and \(r+\varepsilon\), so the **half-Hölder exponent is optimal**. Consequent multiplicative control of the fixed-ball \(\alpha_B\) and exact Robin scaling \(c(sE)=s c(E)\) are distinguished from Bedford–Taylor capacity.
+- **New actual proof coverage:** first selected direct proof review of §§16.30, 16.31 and 16.33 with source labels, permanent tags, blob SHAs and physical HTML line anchors recorded in report and ledger. §7.10.1–2 were also crosschecked as **context only**; previous findings are unchanged. Not a certification of whole sections, entire upstream domain-of-holomorphy/regularity arguments, the whole 747-section collection, or any computer/formal build.
+- **Writes and limits:** only this report and the cumulative `LEDGER.md`, `SECTION_MATRIX.md` and `LATEST.md` on `review/mathematical-audit`. No changes to `main`, source mathematics, proof registry, canonicalization, tags, CI, website, PRs or merge. Dedicated Demailly approximation/regularization and Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss remain **deferred-by-user**, not resolved/certified and not reopened.
+
+---
+
 # 2026-10-24 — uniform L¹ density stability of adjoint supports; variation obstruction for Gauduchon traces
 
 **Fresh main SHA:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Preserved review head at session start:** `ef0dc853b6c104d0ee6b63393751253c3d5f58a7`. Reviewed integrated §§11.31, 11.33–11.36 in selected proof detail; §11.32 standing assumptions only. [New full English proof report](reports/2026-10-24-gauduchon-trace-tv-and-adjoint-support-nets.md).
