@@ -1,3 +1,15 @@
+# 2026-10-24 — convex products: geodesics, invariant distances and Green maxima
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. First selected current integrated proof coverage of §§9.17, 9.18 and 9.20; none fully certified. [Full mathematical proof, source IDs and physical line anchors](reports/2026-10-24-convex-product-geodesics-and-green-max-formula.md).
+
+| Stable finding | Severity / status | Exact source, hypotheses, proof and correction proposal |
+| --- | --- | --- |
+| **POME-CONVEX-PRODUCT-INVARIANT-MAX-001** | **low / verified conditional deduction**, not a false printed theorem | `docs/sections/schwarz-estimates-and-invariant-distances/index.html` blob `11789d8f51f81ec69de4fbb206c1186c73540b0e`, §9.17.4 source `klimek-pluripotential-theory-17EB5D84` / permanent `F0CC92394671`, physical lines **110–145**; `docs/sections/disc-interpolation-on-convex-domains/index.html` blob `c0f853924bef4d4b35d3580d5c330de6613b1407`, §9.18.1 source `klimek-pluripotential-theory-9F2D2DA4` / permanent `7F33F823B79C`, lines **10–56**; `docs/sections/complex-geodesics-on-bounded-convex-domains/index.html` blob `406faf6cf759c6aa6ed9b0cee3792ba6b5a85f65`, §9.20.5 source `klimek-pluripotential-theory-5E98FA95` / permanent `7264782B9A80`, lines **173–205**. For any finite product of **bounded convex** `D_i`, `c_D=k_D=delta_D=sigma_D=max_i delta_{D_i}`, `g_D=max_i g_{D_i}`; every Schwarz–Pick pseudodistance system agrees, including coincident coordinates. Direct proof uses one factor's left inverse of a common scaled extremal disc. A strict nondominant factor yields infinitely many extremal retract discs; tied maximal factors give distinct left inverses. Propose optional separately reviewable product corollary after §9.20.5; **do not** edit body/tags. Dependents: product invariant metrics and pluricomplex Green computations, complex geodesic nonuniqueness. Entire Lempert/H¹ analytic proof chain remains conditional. |
+
+**Selected proof checks only:** §9.17.4 contraction directions; §9.18.1 rational gluing function and convex boundary image; §9.18.2 support/winding sign; §9.20.2 dual-weight pole cancellation; §9.20.3–5 derivative exponent and stationary-dual/exhaustion hypotheses. Historical finite interpolation/stationary-winding findings are not repeated as new. No build/CI/scripts/publication/formalization. Strictly user-excluded Demailly approximation/Bergman/L²/OT/multiscale/positivity-loss findings remain **deferred-by-user**.
+
+---
+
 # 2026-10-24 — positive-current extension cones and finite pluripolar restriction
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. First selected proof-level inspection of §§5.44, 5.53, 5.60–5.61 (only specified passages, no entire section certified). [Full English mathematical proof with stable source tags and physical lines](reports/2026-10-24-elmir-extension-cone-and-polar-restriction-boolean-algebra.md).

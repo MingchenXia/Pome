@@ -1,3 +1,13 @@
+# 2026-10-24 — bounded convex products and the exact invariant-distance/Green maximum law
+
+**Fresh reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; preserved review head `67932751b0c12a0b1b9dc908a229afb6fa41e3b5`. [Source-anchored proof, stable labels and scope](reports/2026-10-24-convex-product-geodesics-and-green-max-formula.md).
+
+- **POME-CONVEX-PRODUCT-INVARIANT-MAX-001 — low / verified conditional deduction, NOT a false theorem.** For a finite product of nonempty bounded convex domains, all four invariant pseudodistances `c,k,delta,sigma` (and every Schwarz–Pick system) equal the maximum of the factor distances; the pluricomplex Green function equals the maximum of the factor Green functions. We construct a common extremal holomorphic disc and a left inverse from a factor achieving the largest distance. Whenever a second factor has a strictly smaller distance, that disc can be varied through infinitely many extremal retract discs; tied maximal factors give distinct left inverses.
+- **Actual new proof coverage:** §§9.17, 9.18 and 9.20, selected direct reading of integrated Schwarz–Pick contractions, convex-disc gluing, stationary-disc argument, `H^1` boundary functional, dual weight and smooth strong-convex exhaustion. Their complete external/internal analytic prerequisites were **not** certified. This result uses Theorem 9.20.5 conditionally and does not duplicate historical finite-disc or stationary-winding findings.
+- **No errors newly certified; no whole section certified.** Only audit Markdown is proposed; no source/body/tag/registry/main/CI/website changes. 747 remains the current table-of-contents inventory. Dedicated Demailly approximation/Bergman/L²/OT/multiscale/positivity-loss programme remains **deferred-by-user**, not reopened or marked resolved.
+
+---
+
 # 2026-10-24 — positive-current extension cones and finite pluripolar restriction
 
 **Fresh main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; review branch retained and advanced without resetting or merging. [Complete proof, source tags, blob SHAs and physical line anchors](reports/2026-10-24-elmir-extension-cone-and-polar-restriction-boolean-algebra.md).
