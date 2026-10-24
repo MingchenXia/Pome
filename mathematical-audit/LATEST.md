@@ -1,3 +1,14 @@
+# 2026-10-24 — positive-current extension cones and finite pluripolar restriction
+
+**Fresh main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; review branch retained and advanced without resetting or merging. [Complete proof, source tags, blob SHAs and physical line anchors](reports/2026-10-24-elmir-extension-cone-and-polar-restriction-boolean-algebra.md).
+
+- **POME-ELMIR-EXTENSION-CONE-001 — low / verified conditional deduction.** If $E$ is closed locally complete pluripolar and positive closed $T$ on $X\setminus E$ has locally finite mass up to $E$, **all** positive closed extensions are $T^0+R$, where $T^0$ is the Skoda–El Mir coefficientwise zero extension and $R$ is an arbitrary positive closed current supported on $E$. Unique zero-$E$-mass extension; without zero-mass, $c\delta_0$ gives nonuniqueness on a punctured complex curve. For finite $E,F$, their coefficient restrictions satisfy $P_EP_F=P_{E\cap F}$ and $P_E+P_F=P_{E\cup F}+P_{E\cap F}$. This uses the original 5.60.3 and 5.60.6 **conditionally**, does not certify their complete proofs and does not allege a false theorem.
+- **Actually inspected:** §5.60.3 p=1 boundary-energy argument and general-$p$ reduction, 5.60.6 restriction; §5.61.2 integration current extension and §5.61.1 finite-projection dependencies; §§5.53.1–2 current pushforward/submersion derivative signs; §5.44.7 **smooth** Hermitian torsion Leibniz signs. Prior §5.61.1 coverage retained rather than rewritten. The 747-section matrix is inventory and none of these whole sections was certified.
+- **Unresolved / conditional:** full Skoda–El Mir proof, relative Richberg input, finite analytic parametrization and nonsmooth Hermitian capacity passages remain upstream; no excluded Demailly regularization steps reopened. Proposed optional body corollary only, **no main/source/tag/registry/website changes**. No full project build, tests, CI, scripts, publication or formalization.
+- **Run outcome:** new English report, ledger entry, matrix refresh and this checkpoint are the only authorized review-branch document edits; link and remote commit should be checked below in the final audit report. No existing finding was deleted or recast as resolved. The historical Demailly approximation/Bergman/L²/OT/multiscale/positivity-loss backlog remains **deferred-by-user**.
+
+---
+
 # 2026-10-24 — selected topological foundations audit (§§2.10, 2.12, 2.23)
 
 **Fresh main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; retained review branch, no reset. [Complete proof and physical source anchors](reports/2026-10-24-test-form-escaping-nets-and-frechet-compactness.md).
