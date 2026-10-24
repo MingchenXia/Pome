@@ -1,3 +1,14 @@
+# 2026-10-24 — curve models: GH permutation couplings and trace-versus-\(L^1\) separation
+
+**Fresh main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. The review branch was retained without reset. New first selected nonexcluded proof coverage of §§18.17, 18.18, 18.22; context only §§18.16,13.28–29,5.43 and15.19. **[Complete source-anchored proofs](reports/2026-10-24-curve-model-permutation-gh-and-trace-l1-separation.md).**
+
+- **POME-CURVE-GH-PERMUTATION-001 — verified conditional deduction / low; not a printed-theorem error.** For biholomorphically matchable curve factors the GH upper bound on ordinary and ideal product-model spaces improves to the minimum, over allowable permutations \(\pi\), of \(\sum_i|a_i A_i-b_{\pi(i)}A_{\pi(i)}|\); general-background counterpart uses \(\sum_i|B_i-B'_{\pi(i)}|\). Two identical curve factors with coefficients \((t,0)\) and \((0,t)\) yield isometric abstract spaces, despite positive printed coordinatewise upper bound. Exact §18.17.5 and §18.18.3 references and proof given in report; no equality assertion for arbitrary incomparable vectors.
+- **POME-CURVE-TRACE-L1-NONCONVERSE-001 — verified conditional deduction / low; not a printed-theorem error.** On the connected-fiber compact complex fibration of §18.22 with \(A>0\), moving full polar point masses \(A\delta_{s_j}\rightharpoonup A\delta_s\) give normalized ordinary models \(U_j\to U\) in every smooth-volume \(L^1(X)\) and weakly convergent first traces, while polar-model distance is identically \(2A\) and trace TV distance is \(2\kappa_\gamma A\). This rules out only an *unstated converse* to §18.22.3's actual metric-to-\(L^1\) continuity, with critical fiber multiplicity retained.
+
+No entire section certified. No new false theorem found. No script/build/CI/publication/formalization/source/body/registry/tag change; only audit notes are to be committed. Excluded Demailly approximation and all dedicated Bergman/\(L^2\)/Ohsawa–Takegoshi/multiscale/positivity-loss work remain **deferred-by-user**, untouched. Rotate to another untouched chapter at the next checkpoint.
+
+---
+
 # 2026-10-24 — first selected §§11.20–11.21 product curvature and Hopf convexity audit
 
 **Fresh reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; starting audit head 98790582c8b79d2cecd0c0574ec0480e4616a528, preserved without reset. Current main AGENTS.md, documentation/proof-expansions.md, the existing review-branch README.md, previous LATEST.md, both audit ledgers, and actual published Hermitian reading-edition sections were freshly read. [Exact English report with proofs, source IDs/tags/blobs and physical line anchors](reports/2026-10-24-product-mean-curvature-uniform-gap-and-hopf-index.md).
