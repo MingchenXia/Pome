@@ -1,3 +1,14 @@
+# 2026-10-24 — first selected §§12.34–12.36 audit: Gauduchon dual faces and a unique endpoint current
+
+**Fresh \`main\`:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. Starting review head \`b655b89bf5a489b9916c038a407c344a80af4bf3\`; branch preserved without reset. Freshly read \`main/AGENTS.md\`, \`main/documentation/proof-expansions.md\`, review-branch \`README.md\` and prior \`LATEST.md\`, cumulative matrix/ledger, and current published reading-edition source passages. [Complete English, source-anchored mathematical report](reports/2026-10-24-gauduchon-current-faces-and-endpoint-uniqueness.md).
+
+- **POME-GAUD-FACE-DERIVATIVE-001 — low / verified conditional deduction, NOT an original theorem error.** Compact normalized Gauduchon current duality gives exact left/right directional derivatives of \(m_h(\theta)\) as max/min of \(\int\eta\wedge T\) over the minimizing face, plus an optimal 1-Lipschitz background bound and quantitative stability of the *fixed-reference affine* Chern–Ricci positivity threshold. Proof uses weak compactness of **nets**, not sequential compactness.
+- **POME-CRF-ENDPOINT-CURRENT-UNIQUE-001 — low / verified conditional deduction, NOT a printed proposition error.** In the explicit \(\mathbb P^m\times\mathbb P^1\) endpoint model of Proposition 12.34.12, the only normalized positive \(dd^c\)-closed annihilator is \([Z]/2\); its trace probability is precisely normalized Fubini–Study \(w|_Z\). This follows from the printed support/rank identities, \(dd^c\)-closedness and the scalar Poisson equation on the connected curve.
+- **POME-CRF-PARABOLIC-INPUT-001 — medium / external dependency, NOT an erroneous flow theorem.** Theorem 12.34.4's higher regularity/continuation at physical lines 173–175 uses the parabolic Evans–Krylov and Schauder package without establishing it internally in that step; short-time parabolic existence at line 112 likewise quoted. Keep this honest analytic proof dependency for later independent treatment.
+- **Actual coverage:** §§12.34–12.36, selected reading-edition separation, parabolic barrier/trace, divisor subtraction, Hopf threshold/volume and positive-current endpoint steps; §12.7 coefficient normalization only as a dependency check. 747 sections remain inventory, **not certification**. No build/scripts/CI/publication/formalization, no main/source/tag/registry change. User-excluded Demailly and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss material stays **deferred-by-user**, neither reopened nor resolved.
+
+---
+
 # 2026-10-24 — curve models: GH permutation couplings and trace-versus-\(L^1\) separation
 
 **Fresh main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. The review branch was retained without reset. New first selected nonexcluded proof coverage of §§18.17, 18.18, 18.22; context only §§18.16,13.28–29,5.43 and15.19. **[Complete source-anchored proofs](reports/2026-10-24-curve-model-permutation-gh-and-trace-l1-separation.md).**
