@@ -1,3 +1,14 @@
+# 2026-10-25 — normalization gluing does not imply global second countability; cusp pullback multiplicities
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting review head:** 640c02dd3371f29da4a372fac6fc0cec2a15d0fd. Fresh main AGENTS.md and documentation/proof-expansions.md; review README.md, prior LATEST.md, cumulative ledger and actual 747-row section matrix reread. [Complete English report with exact main HTML blobs, stable tags and line anchors](reports/2026-10-25-normalization-countability-and-cusp-current-pullback.md).
+
+- **POME-NORM-COUNTABLE-COVER-001 — medium / confirmed proof-step error, not a false theorem:** Theorem 9.4.6, physical HTML line 157, assumes X globally has a countable basis although reduced complex spaces are defined locally and §5.2 explicitly allows uncountably many components. The uncountable disjoint union of discs gives a paracompact reduced complex space with no countable basis; its normalization is the identity. Remove the unnecessary countability/subcover/paracompactness inference and use the local analytic atlas and Hausdorff gluing already established. No original statement or permanent tag changed.
+- **POME-PL-CUSP-RESTRICTION-001 — low / verified conditional deduction:** For cusp normalization \(\nu(t)=(t^2,t^3)\), Poincaré–Lelong and local-potential pullback give \(\nu^*[x=0]=2[0]\), \(\nu^*[y=0]=3[0]\); ambient holomorphic pullback orders belong to \(\langle2,3\rangle\), whereas weakly holomorphic t has order one. Pullback of the entire cusp divisor is inadmissible, as its potential becomes identically \(-\infty\). This checks the hypotheses and current normalization in §§5.5–5.6; earlier conductor findings unchanged.
+- **Actual new coverage:** first selected integrated proof reading of §§5.5–5.6; incremental gluing/countability check in previously partially reviewed §9.4 and parametric-curve check in §9.5; §5.2 definition only. **No full section or upstream theorem chain certified.** All 747 ToC rows preserved.
+- **Scope/writes:** only this audit report, cumulative ledger, selected section-matrix rows and LATEST on review/mathematical-audit; no main/source/registry/tag changes, tests, builds, CI, publication, formal proof or PR merge. User-deferred Demailly approximation/regularization, Bergman/L2/OT/multiscale/positivity-loss programme remains **deferred-by-user**, not reopened.
+
+---
+
 # 2026-10-25 — smooth full-mass toric limits fail total-variation convergence; moving convex-body lattice theorem
 
 **Pinned main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Session checkpoint:** 2026-10-24T20:00:00Z. **Report:** [Toric softmax and moving lattice bodies](reports/2026-10-25-toric-softmax-total-variation-and-moving-lattice-bodies.md).
