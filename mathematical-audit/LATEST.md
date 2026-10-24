@@ -1,3 +1,14 @@
+# 2026-10-24 — selected topological foundations audit (§§2.10, 2.12, 2.23)
+
+**Fresh main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; retained review branch, no reset. [Complete proof and physical source anchors](reports/2026-10-24-test-form-escaping-nets-and-frechet-compactness.md).
+
+- **POME-TESTFORM-ESCAPING-NET-001 — low / verified conditional deduction.** On a noncompact second-countable smooth manifold the LF test-form space has a convergent-to-zero net of nonzero forms whose supports eventually avoid every compact set; no tail is bounded. This illustrates precisely why §2.10.3 makes its common-support convergence claim only for **sequences**; the printed theorem is not false.
+- **POME-CURRENT-MOVING-ORDER-001 — low / verified conditional deduction.** The weakly compact family `{0,delta_n^(n):n>=1}` has neither common compact support nor a fixed global finite order, but has the `K`-dependent equicontinuity required by the **correct** §2.10.5. Explicit scaled-bump order obstruction proved.
+- **POME-FINEST-LCS-BOUNDED-SUPPORT-001 — low / verified conditional deduction.** In the finest locally convex topology on `C^(I)`, bounded sets have finite common basis support and bounded coordinates. Nonetheless a zero-convergent net can escape every finite basis span, reconciling the genuinely net-based completeness proof of §2.23.1.
+- **Actual additional checks:** §§2.10.2–5, 2.12.1/.3/.5, 2.23.1–5 selected printed proof steps; compactness uses subnets, and Cartan–Serre compact-perturbation hypotheses were traced. No false theorem or complete section certified. The 747-section matrix is inventory, not a count of certified sections. No script/build/CI/publication/formalization, no main/source/tag/registry change. **The dedicated Demailly approximation/Bergman/L²/OT/multiscale/positivity-loss programme remains deferred-by-user, not reopened or certified.**
+
+---
+
 # 2026-10-24 — new finite-curve retraction nearest-point threshold (§§18.19–18.21, 18.23–18.24)
 
 **Fresh reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting preserved branch:** c415400c20ea5b9147b81bedb59e4f1c5ec061fa. Fresh main AGENTS.md and documentation/proof-expansions.md, review-branch README.md and LATEST.md, current ledger/matrix and five actual integrated section sources checked. [Full dated source-anchored mathematical proof](reports/2026-10-24-finite-curve-polar-retraction-sharp-threshold.md).
