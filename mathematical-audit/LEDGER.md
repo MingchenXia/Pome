@@ -1,3 +1,15 @@
+# 2026-10-24 — positive-current extension cones and finite pluripolar restriction
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. First selected proof-level inspection of §§5.44, 5.53, 5.60–5.61 (only specified passages, no entire section certified). [Full English mathematical proof with stable source tags and physical lines](reports/2026-10-24-elmir-extension-cone-and-polar-restriction-boolean-algebra.md).
+
+| Stable finding | Severity / status | Source, justification, correction and dependents |
+| --- | --- | --- |
+| **POME-ELMIR-EXTENSION-CONE-001** | **low / verified conditional deduction**, not a false theorem or independently certified Skoda–El Mir proof | In §5.60.3, source `demailly-complex-geometry-21C67190`, permanent `BB0A0DD22A5E`, and Cor. §5.60.6, source `demailly-complex-geometry-3BEFC986`, permanent `53F93547F96E`: `docs/sections/positive-current-extension-and-analytic-integration--extension-of-positive-currents-across-complete-pluripolar-sets/index.html`, main blob `6b5be95436780409c8ab09f7f344899ac9047e7a`, physical lines **69–118**. For any positive closed $T$ on $X\setminus E$ with locally finite mass near closed locally complete pluripolar $E$, all positive closed extensions are **exactly** $T^0+R$ with $R\ge0$, $dR=0$, $\operatorname{supp}R\subset E$; $T^0$ uniquely has zero mass on $E$. Nonuniqueness without this condition is witnessed by $0$ and $c\delta_0$ across a puncture in $\mathbb C$ (bidimension zero). For finite $E,F$, coefficient restrictions form additive positive-cone idempotents $P_EP_F=P_{E\cap F}$ and $P_E+P_F=P_{E\cup F}+P_{E\cap F}$. Complete proofs in linked report. Propose **optional** new corollary after §5.60.6, with unchanged body/tags. Dependents: Siu positive-current support decomposition, divisorial trace, b-divisor restriction. |
+
+**Other exact inspected passages:** §5.61.1–2, permanent tags `8C07385777E6`, `B7EB7069B315`, main blob `4c8c14a1b438c49f4d43f63e9f54ed1756d09b4f`, physical lines 7–55 (finite projection, analytic discriminant, mass finiteness, zero-extension); §5.53.1–2 tags `CCE8A237C582`, `01AAD02BF915`, blob `188386272430128f7ae086f28d5e685ce45dec3c`, lines 10–76 (fiber/direct-image derivative signs); §5.44.7 tag `27CEBF2AA643`, blob `15c449ab02d6f8df98edfa07f5286af7ac8e72d1`, lines 92–185 (smooth torsion Leibniz formula only). Finite analytic parametrization and the full Skoda–El Mir theorem remain **conditional internal inputs**. No old findings repeated as new or changed; deferred Demailly approximation/Bergman/L²/OT/multiscale/positivity-loss programme **not touched**. No build, tests, CI, publishing or formalization was run.
+
+---
+
 # 2026-10-24 — test-form and finest locally convex net phenomena
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. First selected proof-level coverage of §§2.10, 2.12, 2.23; none certified in full. [Detailed source-anchored English report](reports/2026-10-24-test-form-escaping-nets-and-frechet-compactness.md).
