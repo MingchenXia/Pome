@@ -812,6 +812,71 @@
       "slug": "questions-on-relative-canonical-classes-and-cotangent-tensors",
       "title": "Questions on relative canonical classes and cotangent tensors",
       "description": ""
+    },
+    {
+      "slug": "nef-line-bundles-and-section-growth",
+      "title": "Nef line bundles and section growth",
+      "description": ""
+    },
+    {
+      "slug": "canonical-rings-and-minimal-singularities",
+      "title": "Canonical rings and minimal singularities",
+      "description": ""
+    },
+    {
+      "slug": "adjoint-generation-and-multiplier-ideals",
+      "title": "Adjoint generation and multiplier ideals",
+      "description": ""
+    },
+    {
+      "slug": "exceptional-divisors-and-curvature",
+      "title": "Exceptional divisors and curvature",
+      "description": ""
+    },
+    {
+      "slug": "envelopes-with-integral-normalization",
+      "title": "Envelopes with integral normalization",
+      "description": ""
+    },
+    {
+      "slug": "numerical-polynomials-and-section-growth",
+      "title": "Numerical polynomials and section growth",
+      "description": ""
+    },
+    {
+      "slug": "divisorial-projections-and-first-mobile-traces",
+      "title": "Divisorial projections and first mobile traces",
+      "description": ""
+    },
+    {
+      "slug": "section-maps-and-numerical-dimension",
+      "title": "Section maps and numerical dimension",
+      "description": ""
+    },
+    {
+      "slug": "historical-and-bibliographical-notes",
+      "title": "Historical and bibliographical notes",
+      "description": ""
+    },
+    {
+      "slug": "moving-intersection-classes",
+      "title": "Moving intersection classes",
+      "description": ""
+    },
+    {
+      "slug": "numerical-kahler-and-nef-criteria",
+      "title": "Numerical Kähler and nef criteria",
+      "description": ""
+    },
+    {
+      "slug": "surface-positivity-and-numerical-jets",
+      "title": "Surface positivity and numerical jets",
+      "description": ""
+    },
+    {
+      "slug": "positive-effective-powers",
+      "title": "Positive effective powers",
+      "description": ""
     }
   ],
   "entries": [
@@ -1306,6 +1371,52 @@
           "statement_sha256": "5446e57ac90b465a3d813b4d88e98c0130d37ef5e88d3c987c412a82690f6acd"
         }
       ]
+    },
+    {
+      "tag": "4F4355678C85",
+      "title": "Compact singular-metric Nadel vanishing",
+      "topic": "strictly-positive-singular-metrics",
+      "merge_note": "Both statements give the same compact Kähler singular-metric vanishing for a fixed positive curvature lower bound and the full quadratic multiplier ideal. Preserve the current theorem and its proof as preferred; retain the independent weighted-resolution proof as a source variant. The analytic-methods local resolution and sharper L2 estimate remain distinct entries.",
+      "reviewed_at": "2026-10-23",
+      "preferred": {
+        "source": "cao-paun-foliations",
+        "label": "thm:compact-nadel-vanishing"
+      },
+      "members": [
+        {
+          "source": "cao-paun-foliations",
+          "label": "thm:compact-nadel-vanishing",
+          "statement_sha256": "a86f086eb698c4b5fa23e1ad1c45dcb1d367edf34268282557ac0ed9de18fb45"
+        },
+        {
+          "source": "analytic-methods",
+          "label": "analmeth-compact-nadel-vanishing",
+          "statement_sha256": "6914f9e9c677dfa031ccb9c20f78d247111ebf6b441c472a0170614ade93ab6f"
+        }
+      ]
+    },
+    {
+      "tag": "9CCB2D58E4BE",
+      "title": "Strictly positive singular metrics",
+      "topic": "strictly-positive-singular-metrics",
+      "merge_note": "Consolidate the two headings for the same compact Nadel conclusion after canonical statement deduplication. Their source introductions, proof variants and stable labels remain available; avoid an empty duplicate reading section.",
+      "reviewed_at": "2026-10-23",
+      "preferred": {
+        "source": "cao-paun-foliations",
+        "label": "sec:nadel-singular-metric-vanishing"
+      },
+      "members": [
+        {
+          "source": "cao-paun-foliations",
+          "label": "sec:nadel-singular-metric-vanishing",
+          "statement_sha256": "e8f83ac1391f764134fb207fa2a759e583d261fc35ebfeb5fb6f4206bf779028"
+        },
+        {
+          "source": "analytic-methods",
+          "label": "sec:analmeth-nadel-vanishing",
+          "statement_sha256": "e1e43ccad91f7f6ecf1936c20731bdf6f269c0677edd3a6ee4b3fedd299265d3"
+        }
+      ]
     }
   ],
   "excluded_topics": [
@@ -1512,6 +1623,7 @@
         "jets-integral-curvature-and-projective-embeddings",
         "sheaf-cohomology-and-acyclic-resolutions",
         "hodge-theory-curvature-and-compact-vanishing",
+        "adjoint-generation-and-multiplier-ideals",
         "spectral-sequences-support-and-cup-products",
         "compact-curves-periods-and-complex-tori",
         "symbols-exterior-algebra-and-bundle-adjoints",
@@ -1526,6 +1638,7 @@
         "determinant-bounds-and-gauduchon-separation",
         "transcendental-morse-inequalities",
         "variations-of-the-volume",
+        "exceptional-divisors-and-curvature",
         "dual-positive-cones",
         "balanced-forms-and-movable-classes",
         "strictly-positive-singular-metrics",
@@ -1535,7 +1648,11 @@
         "degrees-and-maximal-slopes",
         "tensor-products-and-involutivity",
         "tautological-metrics-and-maximal-slopes",
-        "numerical-dimension-and-cotangent-quotients"
+        "numerical-dimension-and-cotangent-quotients",
+        "divisorial-projections-and-first-mobile-traces",
+        "moving-intersection-classes",
+        "numerical-kahler-and-nef-criteria",
+        "surface-positivity-and-numerical-jets"
       ]
     },
     {
@@ -1616,7 +1733,8 @@
         "normalized-characterization-of-compact-extremals",
         "equilibrium-densities-and-boundaries-of-real-convex-bodies",
         "boundary-flux-and-nonproper-mass-comparison",
-        "pointwise-estimates-for-obstacle-envelopes"
+        "pointwise-estimates-for-obstacle-envelopes",
+        "envelopes-with-integral-normalization"
       ]
     },
     {
@@ -1653,7 +1771,12 @@
         "holomorphic-sections-and-hermitian-mass",
         "flags-convex-bodies-and-section-growth",
         "section-growth-of-semipositive-line-bundles",
-        "flat-twists-of-adjoint-section-envelopes"
+        "flat-twists-of-adjoint-section-envelopes",
+        "numerical-polynomials-and-section-growth",
+        "nef-line-bundles-and-section-growth",
+        "canonical-rings-and-minimal-singularities",
+        "section-maps-and-numerical-dimension",
+        "positive-effective-powers"
       ]
     },
     {
@@ -1860,6 +1983,31 @@
         "start": "3951ADFEE2AB",
         "slug": "analytic-singularities-and-demailly-approximation--bounded-growth-ideals",
         "title": "Bounded growth ideals"
+      },
+      {
+        "start": "DBA15E1E5C10",
+        "slug": "analytic-singularities-and-demailly-approximation--regularization-on-a-relatively-compact-neighborhood",
+        "title": "Regularization on a relatively compact neighborhood"
+      },
+      {
+        "start": "47C2AF5C49DC",
+        "slug": "analytic-singularities-and-demailly-approximation--projective-ideals-and-rational-logarithmic-weights",
+        "title": "Projective ideals and rational logarithmic weights"
+      },
+      {
+        "start": "EDB7C15C1644",
+        "slug": "analytic-singularities-and-demailly-approximation--smoothing-with-a-continuous-lower-bound",
+        "title": "Smoothing with a continuous lower bound"
+      },
+      {
+        "start": "D55184290BBA",
+        "slug": "analytic-singularities-and-demailly-approximation--bergman-regularization-on-a-compact-hermitian-manifold",
+        "title": "Bergman regularization on a compact Hermitian manifold"
+      },
+      {
+        "start": "5732A2B4530D",
+        "slug": "analytic-singularities-and-demailly-approximation--compact-hermitian-bergman-kernels",
+        "title": "Compact Hermitian Bergman kernels"
       }
     ],
     "envelopes-and-model-potentials": [
@@ -1907,6 +2055,11 @@
         "start": "DE4415660D60",
         "slug": "envelopes-and-model-potentials--comparison-of-relative-capacities",
         "title": "Comparison of relative capacities"
+      },
+      {
+        "start": "E9849B6CF367",
+        "slug": "envelopes-and-model-potentials--minimal-metric-regularity-on-a-compact-complex-manifold",
+        "title": "Minimal-metric regularity on a compact complex manifold"
       }
     ],
     "lelong-numbers-and-multiplier-ideals": [
@@ -1939,6 +2092,16 @@
         "start": "BC64CE221556",
         "slug": "lelong-numbers-and-multiplier-ideals--birational-change-of-variables-and-logarithmic-thresholds",
         "title": "Birational change of variables and logarithmic thresholds"
+      },
+      {
+        "start": "4A1288155241",
+        "slug": "lelong-numbers-and-multiplier-ideals--multiplier-ideals-under-smooth-blowups",
+        "title": "Multiplier ideals under smooth blowups"
+      },
+      {
+        "start": "3B472BF15485",
+        "slug": "lelong-numbers-and-multiplier-ideals--alpha-invariants-from-finite-linear-systems",
+        "title": "Alpha invariants from finite linear systems"
       }
     ],
     "the-theory-of-okounkov-bodies": [
@@ -2317,6 +2480,11 @@
         "start": "75F10F3C1577",
         "slug": "complex-spaces-and-modifications--plurisubharmonic-functions-on-reduced-spaces",
         "title": "Plurisubharmonic functions on reduced spaces"
+      },
+      {
+        "start": "F1C1C0183BEB",
+        "slug": "complex-spaces-and-modifications--surface-maps-and-complete-slice-rigidity",
+        "title": "Surface maps and complete-slice rigidity"
       }
     ],
     "the-envelope-operators": [
@@ -3974,6 +4142,16 @@
         "start": "6D2772AA0B40",
         "slug": "vector-bundles-connections-and-extensions--relative-tautological-lines",
         "title": "Relative tautological lines"
+      },
+      {
+        "start": "5C9C4A1E5AAC",
+        "slug": "vector-bundles-connections-and-extensions--extensions-associated-with-finite-subschemes-of-a-surface",
+        "title": "Extensions associated with finite subschemes of a surface"
+      },
+      {
+        "start": "7F6BBD0F4F26",
+        "slug": "vector-bundles-connections-and-extensions--integral-approximation-of-real-curvature-forms",
+        "title": "Integral approximation of real curvature forms"
       }
     ],
     "jets-integral-curvature-and-projective-embeddings": [
@@ -4015,6 +4193,21 @@
         "start": "DF8C0003C01A",
         "slug": "sheaf-cohomology-and-acyclic-resolutions--soft-sheaves-and-paracompact-comparison",
         "title": "Soft sheaves and paracompact comparison"
+      },
+      {
+        "start": "9151CF1DDBDB",
+        "slug": "sheaf-cohomology-and-acyclic-resolutions--a-cohomological-criterion-for-generation",
+        "title": "A cohomological criterion for generation"
+      },
+      {
+        "start": "06E360D889B4",
+        "slug": "sheaf-cohomology-and-acyclic-resolutions--projective-coherent-generation-and-algebraic-ideals",
+        "title": "Projective coherent generation and algebraic ideals"
+      },
+      {
+        "start": "363F8B45F319",
+        "slug": "sheaf-cohomology-and-acyclic-resolutions--relative-vanishing-on-projective-bundles",
+        "title": "Relative vanishing on projective bundles"
       }
     ],
     "complete-metric-estimates-and-holomorphic-division": [
@@ -4052,6 +4245,46 @@
         "start": "4C1048330D21",
         "slug": "complete-metric-estimates-and-holomorphic-division--weighted-extension-from-neighborhood-data",
         "title": "Weighted extension from neighborhood data"
+      },
+      {
+        "start": "ACB3BABB71B6",
+        "slug": "complete-metric-estimates-and-holomorphic-division--singular-metrics-and-square-integrable-resolutions",
+        "title": "Singular metrics and square-integrable resolutions"
+      },
+      {
+        "start": "32FDFA14D37C",
+        "slug": "complete-metric-estimates-and-holomorphic-division--griffiths-curvature-and-division",
+        "title": "Griffiths curvature and division"
+      },
+      {
+        "start": "426338BB8AD6",
+        "slug": "complete-metric-estimates-and-holomorphic-division--projective-division-with-singular-metrics",
+        "title": "Projective division with singular metrics"
+      },
+      {
+        "start": "759B901EC277",
+        "slug": "complete-metric-estimates-and-holomorphic-division--singular-estimates-and-vanishing-along-an-exhaustion",
+        "title": "Singular estimates and vanishing along an exhaustion"
+      },
+      {
+        "start": "A8C5C0921FBD",
+        "slug": "complete-metric-estimates-and-holomorphic-division--weighted-canonical-vanishing-on-a-singular-kahler-space",
+        "title": "Weighted canonical vanishing on a singular Kähler space"
+      },
+      {
+        "start": "A5681B2E9B95",
+        "slug": "complete-metric-estimates-and-holomorphic-division--original-metric-twisted-estimates-under-tensor-positivity",
+        "title": "Original-metric twisted estimates under tensor positivity"
+      },
+      {
+        "start": "6AF6236F9F54",
+        "slug": "complete-metric-estimates-and-holomorphic-division--original-metric-estimates-from-a-plurisubharmonic-exhaustion",
+        "title": "Original-metric estimates from a plurisubharmonic exhaustion"
+      },
+      {
+        "start": "81E858312EFF",
+        "slug": "complete-metric-estimates-and-holomorphic-division--twisted-solutions-in-the-original-kahler-metric",
+        "title": "Twisted solutions in the original Kähler metric"
       }
     ],
     "hodge-theory-curvature-and-compact-vanishing": [
@@ -4089,6 +4322,21 @@
         "start": "D6A8ACD1845D",
         "slug": "hodge-theory-curvature-and-compact-vanishing--semipositive-line-bundle-vanishing-on-weak-exhaustions",
         "title": "Semipositive line-bundle vanishing on weak exhaustions"
+      },
+      {
+        "start": "7CD0149FAF37",
+        "slug": "hodge-theory-curvature-and-compact-vanishing--nef-numerical-dimension-and-divisor-metrics",
+        "title": "Nef numerical dimension and divisor metrics"
+      },
+      {
+        "start": "E45411A97AEE",
+        "slug": "hodge-theory-curvature-and-compact-vanishing--vanishing-for-a-nef-line-bundle-with-an-effective-divisor",
+        "title": "Vanishing for a nef line bundle with an effective divisor"
+      },
+      {
+        "start": "9322C5B88F7E",
+        "slug": "hodge-theory-curvature-and-compact-vanishing--sommese-vanishing-and-controlled-base-loci",
+        "title": "Sommese vanishing and controlled base loci"
       }
     ],
     "positive-current-extension-and-analytic-integration": [
@@ -4454,6 +4702,51 @@
         "start": "F7E8105E90D3",
         "slug": "general-complex-cohomology-and-modifications--strong-hodge-structure-under-modifications",
         "title": "Strong Hodge structure under modifications"
+      },
+      {
+        "start": "0ED33BDFAEEB",
+        "slug": "general-complex-cohomology-and-modifications--topology-of-bott-chern-cohomology",
+        "title": "Topology of Bott–Chern cohomology"
+      },
+      {
+        "start": "FBEE092DAF1F",
+        "slug": "general-complex-cohomology-and-modifications--coherent-euler-polynomials-for-arbitrary-twists",
+        "title": "Coherent Euler polynomials for arbitrary twists"
+      },
+      {
+        "start": "2A934EB4646D",
+        "slug": "general-complex-cohomology-and-modifications--surface-euler-identities",
+        "title": "Surface Euler identities"
+      },
+      {
+        "start": "9A0BB8900287",
+        "slug": "general-complex-cohomology-and-modifications--finite-divisor-comparisons-and-cohomology-envelopes",
+        "title": "Finite divisor comparisons and cohomology envelopes"
+      },
+      {
+        "start": "797B5DD22D2C",
+        "slug": "general-complex-cohomology-and-modifications--envelopes-under-varying-line-bundles",
+        "title": "Envelopes under varying line bundles"
+      },
+      {
+        "start": "6A88FA6B1477",
+        "slug": "general-complex-cohomology-and-modifications--uniform-cohomology-on-varying-projective-divisors",
+        "title": "Uniform cohomology on varying projective divisors"
+      },
+      {
+        "start": "FA75A8159D55",
+        "slug": "general-complex-cohomology-and-modifications--numerical-comparison-in-positive-cohomological-degrees",
+        "title": "Numerical comparison in positive cohomological degrees"
+      },
+      {
+        "start": "97E60EB8A3EE",
+        "slug": "general-complex-cohomology-and-modifications--fixed-powers-and-varying-projective-cohomology-classes",
+        "title": "Fixed powers and varying projective cohomology classes"
+      },
+      {
+        "start": "6B3F04B03F51",
+        "slug": "general-complex-cohomology-and-modifications--fixed-power-envelopes-through-a-projective-modification",
+        "title": "Fixed-power envelopes through a projective modification"
       }
     ],
     "entire-function-growth-and-algebraic-zero-sets": [
@@ -4466,6 +4759,11 @@
         "start": "8C202BD7724D",
         "slug": "entire-function-growth-and-algebraic-zero-sets--refined-bounds-for-simultaneous-vanishing-orders",
         "title": "Refined bounds for simultaneous vanishing orders"
+      },
+      {
+        "start": "928131F69312",
+        "slug": "entire-function-growth-and-algebraic-zero-sets--negatively-twisted-jet-differentials-on-entire-curves",
+        "title": "Negatively twisted jet differentials on entire curves"
       }
     ],
     "finite-type-algebraic-models-and-analytic-structure-sheaves": [
@@ -4483,6 +4781,11 @@
         "start": "A214FD1ECBF3",
         "slug": "finite-type-algebraic-models-and-analytic-structure-sheaves--analytic-local-models-and-infinitesimal-information",
         "title": "Analytic local models and infinitesimal information"
+      },
+      {
+        "start": "44C53AAFA702",
+        "slug": "finite-type-algebraic-models-and-analytic-structure-sheaves--algebraic-ideals-from-projective-coherent-generation",
+        "title": "Algebraic ideals from projective coherent generation"
       }
     ],
     "one-point-curvature-positivity-and-vanishing": [
@@ -4495,6 +4798,410 @@
         "start": "AF24E347DE89",
         "slug": "one-point-curvature-positivity-and-vanishing--one-point-vanishing-on-compact-complex-manifolds",
         "title": "One-point vanishing on compact complex manifolds"
+      }
+    ],
+    "dolbeault-spectral-asymptotics": [
+      {
+        "start": "AA5808540D2C",
+        "slug": "dolbeault-spectral-asymptotics--joint-limits-for-unitary-connections",
+        "title": "Joint limits for unitary connections"
+      },
+      {
+        "start": "98A00E2CE60A",
+        "slug": "dolbeault-spectral-asymptotics--spectral-gaps-for-unitary-connections",
+        "title": "Spectral gaps for unitary connections"
+      },
+      {
+        "start": "DC3A4C66FFF8",
+        "slug": "dolbeault-spectral-asymptotics--a-cumulative-spectral-counterexample",
+        "title": "A cumulative spectral counterexample"
+      },
+      {
+        "start": "073C7DDBB4A8",
+        "slug": "dolbeault-spectral-asymptotics--varying-unitary-connections-and-the-order-of-spectral-limits",
+        "title": "Varying unitary connections and the order of spectral limits"
+      },
+      {
+        "start": "BCA3E82FD3F4",
+        "slug": "dolbeault-spectral-asymptotics--uniform-radial-freezing-of-unitary-connections",
+        "title": "Uniform radial freezing of unitary connections"
+      },
+      {
+        "start": "15E10A85A2D0",
+        "slug": "dolbeault-spectral-asymptotics--fixed-threshold-spectral-asymptotics",
+        "title": "Fixed-threshold spectral asymptotics"
+      },
+      {
+        "start": "3DBADD4600E3",
+        "slug": "dolbeault-spectral-asymptotics--iterated-and-joint-spectral-upper-limits",
+        "title": "Iterated and joint spectral upper limits"
+      },
+      {
+        "start": "07EAA7D1479C",
+        "slug": "dolbeault-spectral-asymptotics--a-base-metric-comparison-failure-for-a-nonintegrable-connection",
+        "title": "A base-metric comparison failure for a nonintegrable connection"
+      }
+    ],
+    "holomorphic-morse-inequalities": [
+      {
+        "start": "3F74EFBD64E1",
+        "slug": "holomorphic-morse-inequalities--uniform-index-integral-errors-along-ample-decompositions",
+        "title": "Uniform index-integral errors along ample decompositions"
+      },
+      {
+        "start": "2DDE6119E363",
+        "slug": "holomorphic-morse-inequalities--weighted-fibre-measures-and-smooth-jet-metrics",
+        "title": "Weighted fibre measures and smooth jet metrics"
+      },
+      {
+        "start": "F67CE5FA43FC",
+        "slug": "holomorphic-morse-inequalities--morse-integrals-after-smooth-base-change",
+        "title": "Morse integrals after smooth base change"
+      },
+      {
+        "start": "63FD6C5AF3D4",
+        "slug": "holomorphic-morse-inequalities--bounded-sections-and-degree-zero-morse-estimates",
+        "title": "Bounded sections and degree-zero Morse estimates"
+      },
+      {
+        "start": "1BE878A65E24",
+        "slug": "holomorphic-morse-inequalities--divisible-ambient-bounded-jets",
+        "title": "Divisible ambient bounded jets"
+      },
+      {
+        "start": "55B0B99448BC",
+        "slug": "holomorphic-morse-inequalities--uniform-volume-errors-for-smooth-directed-jets",
+        "title": "Uniform volume errors for smooth directed jets"
+      },
+      {
+        "start": "C56EE0ED6F8F",
+        "slug": "holomorphic-morse-inequalities--isolated-singularities-and-ambient-jet-curvature-tails",
+        "title": "Isolated singularities and ambient jet curvature tails"
+      },
+      {
+        "start": "19A8C649EEDD",
+        "slug": "holomorphic-morse-inequalities--transcendental-cohomology-envelopes",
+        "title": "Transcendental cohomology envelopes"
+      },
+      {
+        "start": "FF08BFF043C4",
+        "slug": "holomorphic-morse-inequalities--singular-jet-tails-above-the-dimension-of-the-singular-set",
+        "title": "Singular jet tails above the dimension of the singular set"
+      },
+      {
+        "start": "F78551602582",
+        "slug": "holomorphic-morse-inequalities--morse-estimates-for-singular-directed-jet-spaces",
+        "title": "Morse estimates for singular directed jet spaces"
+      },
+      {
+        "start": "587C7E9F7AE8",
+        "slug": "holomorphic-morse-inequalities--actual-negative-curvature-concentration-along-a-singular-curve",
+        "title": "Negative curvature concentration along a singular curve"
+      },
+      {
+        "start": "D67B6C1F9C5C",
+        "slug": "holomorphic-morse-inequalities--varying-class-euler-limits-and-compact-complex-surfaces",
+        "title": "Varying-class Euler limits and compact complex surfaces"
+      },
+      {
+        "start": "6C0D693A90F6",
+        "slug": "holomorphic-morse-inequalities--endpoint-cohomology-and-the-final-morse-sums",
+        "title": "Endpoint cohomology and the final Morse sums"
+      },
+      {
+        "start": "5A5B47F676C3",
+        "slug": "holomorphic-morse-inequalities--cohomology-of-the-ambient-bounded-jet-sheaf",
+        "title": "Cohomology of the ambient bounded-jet sheaf"
+      }
+    ],
+    "adjoint-generation-and-multiplier-ideals": [
+      {
+        "start": "8132FF295BA5",
+        "slug": "adjoint-generation-and-multiplier-ideals--adjoint-jets-from-one-power-of-a-line-bundle",
+        "title": "Adjoint jets from one power of a line bundle"
+      },
+      {
+        "start": "FB46C2A18D1D",
+        "slug": "adjoint-generation-and-multiplier-ideals--boundary-adjoint-coefficients-and-numerical-jet-bounds",
+        "title": "Boundary adjoint coefficients and numerical jet bounds"
+      },
+      {
+        "start": "F96903E36E32",
+        "slug": "adjoint-generation-and-multiplier-ideals--numerical-jets-for-the-two-canonical-adjoint",
+        "title": "Numerical jets for the two-canonical adjoint"
+      },
+      {
+        "start": "FD8AC4F41EDA",
+        "slug": "adjoint-generation-and-multiplier-ideals--effective-smooth-nonvanishing",
+        "title": "Effective smooth nonvanishing"
+      },
+      {
+        "start": "3BA66CA8FB7A",
+        "slug": "adjoint-generation-and-multiplier-ideals--smooth-adjoint-nonvanishing-and-base-point-freeness",
+        "title": "Smooth adjoint nonvanishing and base point freeness"
+      },
+      {
+        "start": "D94B6AD41719",
+        "slug": "adjoint-generation-and-multiplier-ideals--nonvanishing-with-an-ample-adjoint-difference",
+        "title": "Nonvanishing with an ample adjoint difference"
+      },
+      {
+        "start": "02001407E019",
+        "slug": "adjoint-generation-and-multiplier-ideals--eliminating-the-stable-base-locus",
+        "title": "Eliminating the stable base locus"
+      },
+      {
+        "start": "537E73843A4F",
+        "slug": "adjoint-generation-and-multiplier-ideals--effective-sections-and-singular-canonical-adjunction",
+        "title": "Effective sections and singular canonical adjunction"
+      },
+      {
+        "start": "8E1B176A31F0",
+        "slug": "adjoint-generation-and-multiplier-ideals--effective-sections-on-a-reduced-projective-variety",
+        "title": "Effective sections on a reduced projective variety"
+      },
+      {
+        "start": "30AF51C22171",
+        "slug": "adjoint-generation-and-multiplier-ideals--canonical-adjunction-and-an-euler-quotient",
+        "title": "Canonical adjunction and an Euler quotient"
+      },
+      {
+        "start": "9CE9DE93A000",
+        "slug": "adjoint-generation-and-multiplier-ideals--an-effective-very-ampleness-bound-in-dimension-at-least-two",
+        "title": "An effective very-ampleness bound in dimension at least two"
+      }
+    ],
+    "envelopes-with-integral-normalization": [
+      {
+        "start": "37234553F7FD",
+        "slug": "envelopes-with-integral-normalization--integral-normalized-envelopes-in-a-rational-big-class",
+        "title": "Integral-normalized envelopes in a rational big class"
+      },
+      {
+        "start": "39D0A0C6E45D",
+        "slug": "envelopes-with-integral-normalization--section-approximation-of-integral-normalized-envelopes",
+        "title": "Section approximation of integral-normalized envelopes"
+      },
+      {
+        "start": "0A332ED2955C",
+        "slug": "envelopes-with-integral-normalization--intrinsic-densities-and-tensor-roots",
+        "title": "Intrinsic densities and tensor roots"
+      }
+    ],
+    "numerical-polynomials-and-section-growth": [
+      {
+        "start": "497089FF3E35",
+        "slug": "numerical-polynomials-and-section-growth--large-values-of-numerical-polynomials",
+        "title": "Large values of numerical polynomials"
+      },
+      {
+        "start": "ACD59B4AADB6",
+        "slug": "numerical-polynomials-and-section-growth--regular-sections-and-generic-multiplicities",
+        "title": "Regular sections and generic multiplicities"
+      },
+      {
+        "start": "A3A80493CAFE",
+        "slug": "numerical-polynomials-and-section-growth--euler-polynomials-of-coherent-analytic-sheaves",
+        "title": "Euler polynomials of coherent analytic sheaves"
+      }
+    ],
+    "nef-line-bundles-and-section-growth": [
+      {
+        "start": "027EA59783CE",
+        "slug": "nef-line-bundles-and-section-growth--kodaira-and-numerical-dimensions",
+        "title": "Kodaira and numerical dimensions"
+      },
+      {
+        "start": "4D83336612F9",
+        "slug": "nef-line-bundles-and-section-growth--cohomology-growth-of-nef-line-bundles",
+        "title": "Cohomology growth of nef line bundles"
+      },
+      {
+        "start": "580AF664D2F0",
+        "slug": "nef-line-bundles-and-section-growth--nef-bigness-and-a-fixed-divisor-with-small-logarithmic-poles",
+        "title": "Nef bigness and a fixed divisor with small logarithmic poles"
+      },
+      {
+        "start": "BFFE7DD63704",
+        "slug": "nef-line-bundles-and-section-growth--numerical-section-volume-on-a-projective-manifold",
+        "title": "Numerical section volume on a projective manifold"
+      },
+      {
+        "start": "B1414F585697",
+        "slug": "nef-line-bundles-and-section-growth--section-volume-on-an-arbitrary-compact-complex-manifold",
+        "title": "Section volume on an arbitrary compact complex manifold"
+      }
+    ],
+    "moving-intersection-classes": [
+      {
+        "start": "183397033009",
+        "slug": "moving-intersection-classes--moving-intersection-classes-in-every-degree",
+        "title": "Moving intersection classes in every degree"
+      },
+      {
+        "start": "CA377CD71E3C",
+        "slug": "moving-intersection-classes--scalar-traces-and-numerical-dimensions",
+        "title": "Scalar traces and numerical dimensions"
+      }
+    ],
+    "dual-positive-cones": [
+      {
+        "start": "F6D459E3D059",
+        "slug": "dual-positive-cones--positive-pairings-with-moving-cycles",
+        "title": "Positive pairings with moving cycles"
+      },
+      {
+        "start": "DFC394B91874",
+        "slug": "dual-positive-cones--quantitative-and-boundary-orthogonality",
+        "title": "Quantitative and boundary orthogonality"
+      }
+    ],
+    "divisors-and-logarithmic-limits-on-analytic-cycles": [
+      {
+        "start": "56566B4CC312",
+        "slug": "divisors-and-logarithmic-limits-on-analytic-cycles--smoothing-all-powers-of-a-divisor-current",
+        "title": "Smoothing all powers of a divisor current"
+      }
+    ],
+    "numerical-kahler-and-nef-criteria": [
+      {
+        "start": "C65187558CA1",
+        "slug": "numerical-kahler-and-nef-criteria--ambient-positivity-near-analytic-subsets",
+        "title": "Ambient positivity near analytic subsets"
+      },
+      {
+        "start": "A1A1DB6F1FE1",
+        "slug": "numerical-kahler-and-nef-criteria--numerical-tests-for-kahler-and-nef-cones",
+        "title": "Numerical tests for Kähler and nef cones"
+      },
+      {
+        "start": "6B715732AEDD",
+        "slug": "numerical-kahler-and-nef-criteria--projective-numerical-and-metric-nefness",
+        "title": "Projective numerical and metric nefness"
+      }
+    ],
+    "surface-positivity-and-numerical-jets": [
+      {
+        "start": "190B6039566D",
+        "slug": "surface-positivity-and-numerical-jets--direct-curve-tests-for-smooth-surface-metrics",
+        "title": "Direct curve tests for smooth surface metrics"
+      },
+      {
+        "start": "D83171942405",
+        "slug": "surface-positivity-and-numerical-jets--finite-nef-decompositions-on-surfaces",
+        "title": "Finite nef decompositions on surfaces"
+      },
+      {
+        "start": "6A09D093F8AF",
+        "slug": "surface-positivity-and-numerical-jets--simultaneous-jets-from-surface-intersections",
+        "title": "Simultaneous jets from surface intersections"
+      },
+      {
+        "start": "5952C5FD2906",
+        "slug": "surface-positivity-and-numerical-jets--moving-divisors-and-effective-surface-jets",
+        "title": "Moving divisors and effective surface jets"
+      },
+      {
+        "start": "8E4601922408",
+        "slug": "surface-positivity-and-numerical-jets--surface-bounds-at-the-numerical-endpoint",
+        "title": "Surface bounds at the numerical endpoint"
+      },
+      {
+        "start": "A612DC0E115C",
+        "slug": "surface-positivity-and-numerical-jets--double-covers-and-the-growth-of-very-ample-powers",
+        "title": "Double covers and the growth of very ample powers"
+      },
+      {
+        "start": "188F5CB8B9A0",
+        "slug": "surface-positivity-and-numerical-jets--surface-instability-from-vanishing",
+        "title": "Surface instability from vanishing"
+      },
+      {
+        "start": "692A3F0BD1ED",
+        "slug": "surface-positivity-and-numerical-jets--numerical-obstructions-to-adjoint-evaluation-on-surfaces",
+        "title": "Numerical obstructions to adjoint evaluation on surfaces"
+      },
+      {
+        "start": "5B05B552751E",
+        "slug": "surface-positivity-and-numerical-jets--all-cohomological-degrees-on-compact-complex-surfaces",
+        "title": "All cohomological degrees on compact complex surfaces"
+      }
+    ],
+    "positive-effective-powers": [
+      {
+        "start": "5F5823AA7267",
+        "slug": "positive-effective-powers--first-positive-effective-powers-on-products-of-curves",
+        "title": "First positive effective powers on products of curves"
+      },
+      {
+        "start": "721E30A2826E",
+        "slug": "positive-effective-powers--coefficient-tests-for-positive-effective-powers",
+        "title": "Coefficient tests for positive effective powers"
+      }
+    ],
+    "tangent-slopes-and-covering-rational-curves": [
+      {
+        "start": "C05FBC752114",
+        "slug": "tangent-slopes-and-covering-rational-curves--numerical-reductions-for-smooth-fano-boundedness",
+        "title": "Numerical reductions for smooth Fano boundedness"
+      },
+      {
+        "start": "FBFADD3A7F3D",
+        "slug": "tangent-slopes-and-covering-rational-curves--rational-curves-from-a-marked-family",
+        "title": "Rational curves from a marked family"
+      },
+      {
+        "start": "7B63044694E3",
+        "slug": "tangent-slopes-and-covering-rational-curves--degree-descent-in-a-proper-relative-fiber",
+        "title": "Degree descent in a proper relative fiber"
+      }
+    ],
+    "vector-bundles-and-jets": [
+      {
+        "start": "4D2FE418E53E",
+        "slug": "vector-bundles-and-jets--vanishing-of-negatively-twisted-jet-differentials",
+        "title": "Vanishing of negatively twisted jet differentials"
+      },
+      {
+        "start": "A59C739A52C8",
+        "slug": "vector-bundles-and-jets--induced-chern-boundedness-and-the-ambient-jet-compactification",
+        "title": "Induced Chern boundedness and the ambient jet compactification"
+      },
+      {
+        "start": "B1DB0DB48C48",
+        "slug": "vector-bundles-and-jets--smooth-jet-fibrations-under-base-modification",
+        "title": "Smooth jet fibrations under base modification"
+      },
+      {
+        "start": "3F652CFAEFA3",
+        "slug": "vector-bundles-and-jets--normalization-and-resolution-at-the-leading-cohomological-order",
+        "title": "Normalization and resolution at the leading cohomological order"
+      }
+    ],
+    "hermitian-torsion-and-the-bochner-identity": [
+      {
+        "start": "F5DC4688AF5F",
+        "slug": "hermitian-torsion-and-the-bochner-identity--strict-singular-metrics-on-compact-hermitian-manifolds",
+        "title": "Strict singular metrics on compact Hermitian manifolds"
+      }
+    ],
+    "section-maps-and-numerical-dimension": [
+      {
+        "start": "7FA8984101B3",
+        "slug": "section-maps-and-numerical-dimension--strict-integral-currents-prescribe-linearly-growing-jets",
+        "title": "Strict integral currents prescribe linearly growing jets"
+      },
+      {
+        "start": "168790006B38",
+        "slug": "section-maps-and-numerical-dimension--uniform-section-growth-in-the-algebraic-dimension",
+        "title": "Uniform section growth in the algebraic dimension"
+      }
+    ],
+    "strictly-positive-singular-metrics": [
+      {
+        "start": "82E814B6EAAC",
+        "slug": "strictly-positive-singular-metrics--projective-modifications-and-strict-singular-metrics",
+        "title": "Projective modifications and strict singular metrics"
       }
     ]
   },

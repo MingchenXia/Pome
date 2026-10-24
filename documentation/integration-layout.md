@@ -44,7 +44,7 @@ node --test tests/*.test.mjs
 .venv/bin/python scripts/build.py --fetch
 ```
 
-The build checks every structured visible source locator against the current collection numbers, along with all internal links and fragments. Regression tests cover subsection listings, section splits, numbering resets, merged variants, HTML/TeX references, equation rows, and stale-number rejection. Browser checks must cover the reported Kelvin-transform and Bedford–Taylor examples, section/chapter tag visibility, equation alignment on desktop and mobile, and representative pages from all sources.
+The build checks every structured visible source locator against the current collection numbers, along with all internal links and fragments. Regression tests cover subsection listings, section splits, numbering resets, merged variants, HTML/TeX references, equation rows, and stale-number rejection. Under the owner instruction of 23 October 2026, desktop/mobile browser checks are not required for every review, checkpoint, commit or publication. Run targeted browser checks for rendering, layout, navigation or interaction changes, or a concrete display defect; mathematics-only text, citation, metadata, record and fingerprint changes may reuse earlier relevant browser evidence with its exact scope and revision recorded. For shared rendering changes, select affected examples such as Kelvin transforms, Bedford–Taylor products, tag visibility, equation alignment and representative affected sources. Keep the applicable build, numbering and link checks.
 
 ## Audit corrections and historical synthesis (18 October 2026)
 
@@ -57,3 +57,7 @@ Capacity convergence on an entire open set retains its existing definition. A se
 ## Repeated contextual displays
 
 A reviewed `unlabelled_displays` record in `reading/registry.json` may remove an exact unlabelled `div.equation` when the surrounding prose links to the fully proved canonical theorem. The source, normalized display hash and replacement theorem are checked before publication. Equations with an ID or tag are rejected. The original display and surrounding edited attribution remain under Sources; mathematical source strings, permanent tags and proof guards are unchanged. This mechanism removes a repeated contextual display, rather than changing its formula.
+
+## Composed statement introductions
+
+The Analytic Methods source layout can provide an explicit `reader_context.prefix_chain` when an isolated statement needs both packet conventions and local subsection notation. Each prefix names a heading in the same selected packet and binds the exact native and rendered introduction with SHA-256. Native prefixes stop before the first formal statement or next heading. The chain must follow source order, end at its reviewed placement, and precede every listed target. Reversed, repeated, changed, or cross-packet prefixes fail the export. Copied introductions retain links but remove duplicate formula and tag ownership; mathematical statements and proofs remain unchanged. Existing single-prefix context bindings retain their earlier behavior, and neither form replaces the required final selection acceptance.

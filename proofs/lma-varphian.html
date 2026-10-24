@@ -1,0 +1,16 @@
+<p><em>Proof.</em> Positive integer scaling reduces the assertion to the case where $L$ is a line bundle. Indeed, the <a data-proof-entry="2CFF9C7C56DB">definition of analytification</a> gives $(d\varphi)^{\mathrm{An}}=d\varphi^{\mathrm{An}}$ for every positive integer $d$; dividing the Fubini–Study approximants by $d$ also divides their line-bundle classes by $d$.</p>
+
+<p>Choose a very ample line bundle $A$ and put $G=K_X\otimes A^{n+2}$. The <a data-proof-entry="7B2F98C12722">uniform generation theorem</a> and its <a data-proof-entry="A28E060C0E63">very ample twist corollary</a> show that $G$ is very ample and that</p>
+<div class="equation">\[
+ \mathcal O_X(G\otimes L^k)\otimes\mathcal I(k\varphi)
+ \quad\text{is globally generated for every integer }k\geq1.
+\]</div>
+<p>Here the singular metric on $L^k$ is $h^k e^{-k\varphi}$, whose curvature is $k(\theta+dd^c\varphi)\geq0$. The multiplier ideal is exactly $\mathcal I(k\varphi)$ because the smooth reference metric changes the local integrability weight by a smooth positive factor. This uses the quadratic-metric convention of the statement.</p>
+
+<p>Coherence and compactness give finitely many global generating sections $s_{k,j}$. The family is nonempty: the <a data-proof-entry="5AEABFD276A6">local weighted Bergman estimate</a>, applied to a local plurisubharmonic weight, supplies a nonzero holomorphic germ in the multiplier ideal. Using projective GAGA, regard these coherent analytic sheaves and their global sections as algebraic. In a local frame at the center of a semivaluation $v$, the coefficients of the $s_{k,j}$ generate that ideal. Thus the valuation convention for sections gives</p>
+<div class="equation">\[
+ v\bigl(\mathcal I(k\varphi)\bigr)=\min_j v(s_{k,j}),\qquad
+ \psi_k(v):=-\frac1k v\bigl(\mathcal I(k\varphi)\bigr)
+ =\frac1k\max_j\log|s_{k,j}|(v).
+\]</div>
+<p>Consequently $\psi_k$ belongs to $\mathcal H^{\mathrm{gf}}_{\mathbb Q}((L+k^{-1}G)^{\mathrm{An}})$. The <a data-proof-entry="DFFDD4E75B4D">dyadic multiplier-ideal formula</a> says that $\psi_{2^j}$ decreases pointwise to $\varphi^{\mathrm{An}}$. The classes $c_1(L+2^{-j}G)$ tend to $c_1(L)$, and these functions take the value zero at the trivial valuation, so their limit is not identically $-\infty$. The <a data-proof-entry="EEADED50AAC3">definition of a non-Archimedean plurisubharmonic metric</a> proves the conclusion.</p>
