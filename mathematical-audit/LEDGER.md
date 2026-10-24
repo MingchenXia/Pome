@@ -1,3 +1,16 @@
+# 2026-10-24 — real-convex Siciak extremals: sharp global Hausdorff half-Hölder modulus
+
+**Freshly reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Exact report and complete proofs:** [2026-10-24 real-convex extremal Hausdorff stability](reports/2026-10-24-real-convex-extremals-sharp-hausdorff-stability.md). **Actual scope:** new selected integrated proof review of §§16.30, 16.31, 16.33; §7.10.1–2 cross-context only. No section completely certified. Dedicated Demailly approximation/regularization, Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme remains **deferred-by-user**, never certified or reopened.
+
+| Stable finding ID | Severity and status | Exact anchors, assumptions, mathematical result, proposed change and dependents |
+| --- | --- | --- |
+| **POME-REALCONVEX-SCALE-001** | low / **verified conditional deduction**, not a false theorem | Theorem 16.33.6, source `klimek-pluripotential-theory-545185F6`, permanent tag `A1B73D6E87D0`, `docs/sections/real-compact-sets-and-explicit-extremal-formulas/index.html:101–126`, main blob `a5f8e9cd6aa60a22f344aadbdf8370422ce3220a`. For a centrally symmetric compact convex \(E\subset\mathbb R^n\) containing 0 in its real interior and \(0<s\le1\), exact \(\sup_{\mathbb C^n}(V_{sE}-V_E)=\operatorname{arcosh}(1/s)\), attained at **every** \(x\in\partial_{\mathbb R^n}E\). Scalar proof by harmonic slit-plane maximum/minimum principles and the integrated polar formula; no strengthened false claim about complex convex bodies. Proposed optional quantitative corollary; dependent convex-body extremals/capacity comparisons only. |
+| **POME-REALCONVEX-HAUS-001** | low / **verified conditional deduction**, no error in Pome theorem | Same source §16.33.6 with §16.31.3–4: source `klimek-pluripotential-theory-A80EBCDF` tag `E215D05E52EC` `docs/sections/logarithmic-families-and-a-fixed-ball-capacity/index.html:58–85` blob `98d00aa7b2db4f81163a56d6f448946fd0c75499`; Proposition 16.31.4 source `klimek-pluripotential-theory-1AB9C13A` tag `4146861A3795`, lines 86–109. If central-symmetric compact convex real bodies \(E,F\) share the inball \(rB_\mathbb R\) and \(\varepsilon=d_H(E,F)\), then **globally** \(\|V_E-V_F\|_\infty\le\operatorname{arcosh}(1+\varepsilon/r)\); exact equality for concentric Euclidean balls of radii \(r,r+\varepsilon\). Therefore the square-root Hausdorff modulus is optimal. Includes quantitative \(\alpha_B\) bounds, while Robin \(c(tE)=t c(E)\) scales differently. Proposed optional statement; dependents are quantitative obstacle changes, not a false or missing proof. |
+
+**Independent proof-path check and constraints:** §16.30.1–6, §16.31.1–4 and §16.33.1–7 selected paragraphs verified only, without certifying domain-of-holomorphy, interpolation and canonical-regularization prerequisites. §7.10.1–2 capacity and bounded Dirichlet statements crosschecked but not re-counted as new coverage. Existing §16.39 Baran-type and §7.10 entries are unchanged. No build, formal verification, publication or source/body/tag/registry/main changes.
+
+---
+
 # 2026-10-24 — circle-local-system monodromy and sheaf/Čech normalization
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete source-anchored calculation and narrowly delimited proof coverage](reports/2026-10-24-circle-local-system-monodromy-and-cech-comparison.md).
