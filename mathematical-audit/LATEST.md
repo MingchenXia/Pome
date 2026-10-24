@@ -1,3 +1,14 @@
+# 2026-10-25 — sharp support-family hypothesis and high-dimensional Kummer nonrigidity
+
+**Freshly reviewed integrated main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **UTC checkpoint:** 2026-10-24T23:03:27Z. **Audit starting head:** `8271f45fb6762fa2372d5c4e5d5cd072ee02bf60`. [Complete English report with proofs, source labels and exact line anchors](reports/2026-10-25-soft-support-sharpness-and-kummer-semipositive-families.md).
+
+- **POME-SUPPORT-ENLARGE-SHARP-001 — low / verified conditional deduction, not a false theorem.** For the soft continuous-function sheaf on the real line and supports confined to a singleton, nonenlargability permits `H^1_{\{0\}}` of dimension continuum; `1/x` obstructs supported lifting despite soft kernel. This demonstrates that Theorem 10.56.2's enlargability is essential. Compact-support applications remain valid under their locally compact hypotheses.
+- **POME-KUMMER-INFINITE-SEMIPOSITIVE-001 — low / verified conditional deduction, not a false proposition.** In §10.27.2 the single irrational nef, square-zero Bott–Chern class has smooth semipositive representatives varying over embedded affine balls of every finite dimension, all vanishing near the sixteen exceptional curves.
+- **Actual new selected proof coverage:** §§10.27, 10.54–10.56; rechecked selected §10.26 passages *without re-registering* older GH/rational-diameter deductions from 20 October. All 747 table-of-contents rows preserved. This is neither complete proof verification of these sections nor certification of the collection, complex-space input or hypercohomology comparison.
+- **Boundary:** Dedicated user-excluded Demailly approximation/regularization and associated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss proof programme remains **deferred-by-user**, not solved/certified or reopened. No tests, full build, CI, publication, source/tag/registry/main writes, PR, or merge.
+
+---
+
 # 2026-10-25 — Hermitian affine scaling and new Bochner equation reading defects
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **UTC checkpoint:** 2026-10-24T22:00:23Z. [Complete source-anchored English report](reports/2026-10-25-hermitian-affine-background-scaling-and-bochner-equation-aliases.md). Newly selected proof-level review: §§11.37–11.40, 11.48 (not whole-section certifications); §11.42 context only.

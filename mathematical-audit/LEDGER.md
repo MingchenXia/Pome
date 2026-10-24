@@ -1,3 +1,16 @@
+# 2026-10-25 — support-family enlargability sharpness and infinite Kummer semipositivity
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **UTC checkpoint:** 2026-10-24T23:03:27Z. [Full new source-anchored report](reports/2026-10-25-soft-support-sharpness-and-kummer-semipositive-families.md).
+
+| Stable finding ID | Severity and precise status | Source, conclusion, proposed correction, affected dependents |
+| --- | --- | --- |
+| **POME-SUPPORT-ENLARGE-SHARP-001** | **low / verified conditional deduction; printed theorem correct** | Theorem 10.56.2 source `demailly-complex-geometry-3F06E0BE`, permanent `DE3B76CEB62B`, `docs/sections/spectral-sequences-support-and-cup-products--sheaf-cohomology-with-prescribed-supports/index.html` blob `69cfb501098d00134ef6fe08d485e946af87fc76`, physical lines 7–20,41–57; and Theorem 10.56.1 tag `391CCB0E8947`, lines 26–38. For soft `C_R` on `R` and supports only at `{0}` (nonenlargable), `H^1_{\{0\}}=C(R\setminus\{0\})/C(R)|_{R\setminus\{0\}}` has real vector-space dimension continuum; all other supported cohomology degrees vanish. Explicit `1/x` shows a short exact sheaf sequence with soft kernel lacks a supported lift. Sharpness of *enlargable*, not refutation. Optional caution after 10.56.2; protects support/cohomological-duality applications against missing family hypotheses. |
+| **POME-KUMMER-INFINITE-SEMIPOSITIVE-001** | **low / verified conditional deduction; printed proposition correct** | Proposition 10.27.2 source `non-kahler-pluripotential-theory-FEDF8525`, permanent `6055AD1EB4F6`, `docs/sections/bott-chern-classes-and-singular-loci--nonrigid-classes-on-a-quotient-resolution/index.html` blob `9ad1ad9323c3c53e9c1faec36877f911ac5f8b76`, lines 54–75; Lemma 10.27.1 tag `22EA1C593ACD`, lines 14–49. A fixed irrational nef square-zero Kummer class admits affine balls of smooth semipositive forms of arbitrarily high finite dimension, with vanishing near exceptional curves. Use admissible even bump perturbations of integral zero. Optional strengthening of nonrigidity; no original error. |
+
+**New selected proof-level coverage:** §§10.27, 10.54, 10.55, 10.56; current-main recheck of §10.26, which previously had historical `POME-TOR-FLAT-GH-001` and `POME-TOR-RATIONAL-DIAM-001` (both **not repeated**). No fully certified section or spectral/duality chain. Existing 747-row coverage inventory, earlier unresolved/verified/resolved findings and user-deferred regularization-related notes are preserved. No script/tests/full build/CI/formalization/website publishing; main/source/body/registry/permanent tags/PRs untouched.
+
+---
+
 # 2026-10-25 — Hermitian affine-background scaling and Bochner equation aliases
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **UTC checkpoint:** 2026-10-24T22:00:23Z. [Full source-anchored mathematical report](reports/2026-10-25-hermitian-affine-background-scaling-and-bochner-equation-aliases.md).
