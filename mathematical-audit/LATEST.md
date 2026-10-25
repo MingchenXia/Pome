@@ -1,3 +1,12 @@
+# 2026-10-26 — sharp dimension of supports of continuous-potential Kähler currents
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** 30f42bcd426a34956ae7f291bc227ec7f821b56c. [Full mathematical report](reports/2026-10-26-null-kahler-current-sharp-support-dimension.md).
+
+- **POME-NULL-KAHLER-SUPPORT-HDIM-SHARP-001 — low / verified conditional deduction:** Corollary 5.65.2 forces \(\dim_{\rm H}\operatorname{Supp}T\geq2n-2\) for any nonzero positive \(dd^c\)-closed (1,1)-current on a compact Kähler \(n\)-fold. Equality holds in every dimension on \((\mathbf P^1)^n\) for a nonzero Kähler-class current with **continuous** global potential and **null** support: pull back a zero-dimensional digit Cantor measure with uniformly continuous logarithmic potential. No printed theorem is declared false. The previously audited Cantor capacity estimate is reused, not re-counted.
+- **Actual newly selected proof coverage:** §5.64.1–2 and §5.65.1–2, with exact integrated lines and tags in the report. §5.64.3 and the approximation-dependent part of §5.64.4 were **not** checked. Matrix preserves exactly 747 unique current ToC rows; no complete section or proof chain certified. Dedicated Demailly regularization/Bergman/\(L^2\)/Ohsawa–Takegoshi/multiscale/positivity-loss remains **deferred-by-user**, neither solved nor certified. No source/body/tag edits, CI, builds, publication or formal checks.
+
+---
+
 # 2026-10-26 — sharp hyperplane relative mass and envelope-system cross-reference
 
 **Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **pre-write audit head:** \`32d74a53c3a62797d733d8fdb4a75ba4da90e3ec\`. [Source-anchored complete English review](reports/2026-10-26-hyperplane-relative-mass-sharpness-and-envelope-system-crossref.md).

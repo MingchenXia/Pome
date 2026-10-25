@@ -1,3 +1,13 @@
+## 2026-10-26 — sharp support dimension for null Kähler currents with continuous potentials
+
+| Stable finding ID | Severity / status | Precise evidence and disposition |
+| --- | --- | --- |
+| **POME-NULL-KAHLER-SUPPORT-HDIM-SHARP-001** | low / **verified conditional deduction**; original theorems not false | main b6933b772f41b45918f7e25ed1afbbb1fd892272. Theorem 5.64.2 (transcendental-positive-cones, permanent tag E682ACE02BAF), docs/sections/null-supported-kahler-currents/index.html, blob 009f58a180936636f2e5927b9272f87f2c93aa29, lines 31–104 (construction/tie set); Lemma 5.65.1 (tag 64884C4CF78E, lines 8–43) and Corollary 5.65.2 (tag 63CAD58A60D1, lines 48–65), docs/sections/local-mass-bounds-for-pluriharmonic-currents/index.html, blob 4c2db22424afb29ff4ec2f972dc28cb50b8f0b82. Every nonzero positive dd^c-closed (1,1)-current on a compact Kähler n-fold has Hausdorff support dimension >=2n-2; equality is realized on (P¹)^n by T=sum_j pullback(mu), mu a zero-dimensional digit Cantor probability with a continuous logarithmic potential; T is in a Kähler class and has a continuous global potential, support is closed/null. Explicit uniform small-ball logarithmic tail proof and exact trace formula in [complete report](reports/2026-10-26-null-kahler-current-sharp-support-dimension.md). **Proposal:** optional sharpness remark after Corollary 5.65.2; related to 5.64.2 and codimension-two heat trace bounds. Reuses old POME-SMOOTH-NONPOLAR-CANTOR-CAPACITY-001 only as supporting context, no duplicate registration. |
+
+**Actual first selected coverage:** exactly §§5.64.1–2 and 5.65.1–2. §5.64.3 and the approximation-related part of §5.64.4 remain **deferred-by-user**, as do the dedicated Demailly/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss proof programme. None of these excluded assertions is certified. The 747 existing ToC section rows are preserved; no full-section or project certification. No tests, builds, CI, publishing, source/tag/registry edits.
+
+---
+
 ## 2026-10-26 — optimal relative-envelope mass factor; second instance of projection reference-kind typo
 
 | Stable finding ID | Severity / status | Pinned evidence, proof and disposition |
