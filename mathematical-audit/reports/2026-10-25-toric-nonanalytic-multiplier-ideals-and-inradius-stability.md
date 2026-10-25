@@ -82,8 +82,13 @@ The weight is coordinatewise rotation-invariant. For a holomorphic germ
 \(f=\sum_\alpha a_\alpha z^\alpha\), angular orthogonality and Tonelli
 give the necessity of the threshold for every nonzero coefficient.
 Conversely, the set of good exponents is upward-closed in
-\(\mathbb N^n\); by Dickson's finite-generation lemma its monomial ideal
-has finitely many generators. A holomorphic power series containing
+\(\mathbb N^n\) and has finitely many coordinatewise-minimal elements:
+otherwise an infinite list of distinct minimal tuples would contain
+two with one componentwise below the other (prove this elementary
+well-quasi-order property inductively on \(n\), choosing an infinite
+nondecreasing subsequence of the first coordinates and applying the
+induction to the remaining coordinates). Thus its monomial ideal has
+finitely many generators. A holomorphic power series containing
 only good exponents belongs to that monomial ideal (group coefficients
 by a finite minimal monomial divisor); the finitely many resulting
 holomorphic quotients are bounded on a smaller polydisc. Integrability
