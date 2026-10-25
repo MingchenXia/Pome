@@ -47,7 +47,7 @@ Third, translation compatibility of analytification was separately proved under 
 
 **Claim checked:** Corollary 19.10.1's leading $k^n$ growth formula is correct as used, but semipositivity and vanishing top curvature mass do **not** imply a second asymptotic coefficient of order $k^{n-1}$, or even an $o(k^{n-1})$ remainder.
 
-**Pinned integrated location:** docs/sections/section-growth-of-semipositive-line-bundles/index.html, blob 41526a319c45c861a8303776f155096d1f36614a, source demaillly-complex-geometry [sic: the actual source identifier is **demailly-complex-geometry**], Corollary 19.10.1, tag F31884F26A29 (source environment identifier 4B096A2D), lines 8–19; Equation 19.10.2, tag 2B3916324C79 (source equation identifier 15584614), lines 9–11. The cited weak/strong holomorphic Morse inequalities in the original proof were **not** independently audited in this run; no L2 or regularization proof was opened.
+**Pinned integrated location:** docs/sections/section-growth-of-semipositive-line-bundles/index.html, blob 41526a319c45c861a8303776f155096d1f36614a, source demailly-complex-geometry, Corollary 19.10.1, tag F31884F26A29 (source environment identifier 4B096A2D), lines 8–19; Equation 19.10.2, tag 2B3916324C79 (source equation identifier 15584614), lines 9–11. The cited weak/strong holomorphic Morse inequalities in the original proof were **not** independently audited in this run; no L2 or regularization proof was opened.
 
 **Explicit construction and complete proof.** Fix integers $n\ge1$ and $q\ge2$. Let
 \[
