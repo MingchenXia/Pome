@@ -1,3 +1,13 @@
+# 2026-10-25 — finite non-Archimedean joins and semipositive torsion oscillations
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** 5ef8820193c8afb40a85a2dc69513af720faff21. [Complete source-anchored proof report](reports/2026-10-25-nonarchimedean-finite-joins-and-torsion-semipositive-growth.md).
+
+- **POME-NA-FINITE-JOIN-ORDER-001 — low / verified conditional deduction:** order-reflecting comparison Theorem 22.1.111 and §17.15.17 prove analytification carries every nonempty finite join to pointwise maximum. The extended order distance is preserved and finite joins are sharp 1-Lipschitz. This supplies a precise **partial internal proof** of §22.1.112, distinct from old translation/scaling ID POME-NA-OPS-001; other [Xia23Operations] inputs remain unverified.
+- **POME-SEMIPOS-TORSION-OSCILLATION-001 — low / verified conditional deduction:** on $E\times\mathbb P^{n-1}$ a flat $q$-torsion factor tensored with $\mathcal O(1)$ yields a smooth semipositive line bundle with $\Omega_L^n=0$ but exact $h^0(L^k)=\mathbf1_{q\mid k}\binom{k+n-1}{n-1}$. Thus normalized order-$k^{n-1}$ growth oscillates; printed Corollary 19.10.1 is **correct**, but no general second coefficient exists.
+- **Actual selected coverage:** further §22.1.31/.73/.105/.111/.112 and §17.15.12–17, plus independent §19.10.1–2 sharpness test; earlier §22.1 and §19.10 records retained without repetition. No entire section, project comparison theorem, or Morse inputs certified. 747-row ToC inventory preserved. Excluded dedicated Demailly/regularization/Bergman/L²/OT/multiscale/positivity-loss work remains **deferred-by-user**. No tests/build/CI/publication/source/main/registry/tag changes.
+
+---
+
 # 2026-10-25 — uniform nuclear Fredholm presentations and sharp non-Hausdorff caveat
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `1cf916e662cd720ecc31f0ea084d4218d44312e0`. [Full source-anchored proof](reports/2026-10-25-nuclear-perturbation-uniform-presentations-and-nonhausdorff-cokernels.md).
