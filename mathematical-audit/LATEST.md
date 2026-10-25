@@ -1,3 +1,13 @@
+# 2026-10-26 — sharp weak endpoint on a blowup and genuinely new §§15.23–15.24 coverage
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `6fc009d70378c952fb5567bbf9420994453deeab`; **actual UTC checkpoint:** 2026-10-25T17:04:42.882Z. [Complete pinned report](reports/2026-10-26-blowup-endpoint-weak-lp-and-root-audit-crosscheck.md).
+
+- **POME-BLOWUP-WEAK-ENDPOINT-001 — low / verified conditional deduction; printed theorem correct.** For a single smooth-center blowup of complex codimension (rge2), (fin L^p(X,mu)), (1<p<infty), pushes to (Fin L^{s_*,infty}(Y,h^n)) with (s_*=rp/((r-1)p+1)) and norm bounded by (C|f|_p). The endpoint is *not* strong (L^{s_*}) in general; an explicit logarithmically corrected (L^p) datum proves strong-endpoint failure and sharpness even among weak exponents. This uses only the blowup Jacobian and tubular volume bounds, **not** the excluded approximation programme.
+- **Actual new proof coverage:** §§15.23.2/.5/.10 (selected passages); §15.24.1/.4 (first selected mathematical pass). §15.32.1/.4–.6/.9/.11 received limited new crosschecks, **but the existing 2026-10-24 net finding is retained, not re-counted**. No complete section or PDE existence theorem certified.
+- The prior **747 actual ToC rows** are preserved, with just the newly reviewed rows upgraded from inventory. Old unresolved findings remain unresolved; the author-deferred Demailly/regularization/dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme remains **deferred-by-user**, not reopened. No build, CI, source/body/registry/tag/main edits, publication or full mathematical verification.
+
+---
+
 # 2026-10-25 — distributional Hessian representatives and square-root gradient stability
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `129bd677b54aa15fd3c6c53bacaa696facc3f950`. [Complete source-anchored proof report](reports/2026-10-25-distributional-hessian-representatives-and-c0-to-c1-stability.md).

@@ -1,3 +1,14 @@
+## 2026-10-26 — single-blowup weak density endpoint, sharpness, and independent current checks
+
+| Stable ID | Severity / status | Precise current-source evidence and disposition |
+| --- | --- | --- |
+| **POME-BLOWUP-WEAK-ENDPOINT-001** | low / **verified conditional deduction**; printed Theorem 15.23.5 remains true | Main `b6933b772f41b45918f7e25ed1afbbb1fd892272`; `docs/sections/equations-with-prescribed-singularities--minimal-singularities-on-blowups/index.html`, blob `884c20eb0ab2b613129a84232e9b6688f3aba993`; Theorem **15.23.5**, source `non-kahler-pluripotential-theory-3D393512`, permanent tag `66FFA0C36433`, lines 60–90; exponent (15.23.7) tag `7E7FF8A6A54E` and Jacobian formula (15.23.8) tag `2BE1216FD9F5` (67–85). For one codim-(rge2) smooth-center blowup and (1<p<infty), (F=dpi_*(fmu)/d(h^n)) satisfies ( |F|_{L^{s_*,infty}}le C|f|_{L^p}), (s_*=rp/((r-1)p+1)). Direct weak-(L^{r/(r-1)}) Jacobian, rearrangement, Hölder and level-set proof; an (L^p) logarithmic singularity shows (F
+otin L^{s_*}) and no larger weak exponent follows. **No false printed theorem** and no claim of endpoint Hölder PDE theory. Proposed optional corollary only; multistage §15.23.10 not automatically covered. [Detailed proof](reports/2026-10-26-blowup-endpoint-weak-lp-and-root-audit-crosscheck.md). |
+
+**Actual selected coverage:** §15.23.2/.5/.10 newly inspected, §15.24.1/.4 first selected integrated proof checks (source blob `124c7650d904ff9617e90fe5e283c98e72261ea5`, tags `A46357C92C12`, `F9088D3DDEBB`; lines 10–129); §15.32.1/.4–.6/.9/.11 incremental crosschecks only (blob `903ae0ce7173604063a833295dd94e971b18fd72`). Earlier **POME-SUBSOL-ROOT-NET-DOMCONV-001** is **not** re-registered as new. Full PDE existence, current descent and extended-product dependencies not certified; dedicated Demailly/Bergman/L²/OT/multiscale/positivity-loss programme remains **deferred-by-user**.
+
+---
+
 ## 2026-10-25 — distributional Hessian representative and quantitative gradient stability
 
 | Stable ID | Severity / status | Pinned source and disposition |
