@@ -1,6 +1,6 @@
 # 2026-10-25 — Grassmannian slice density excess and monomial multiplicity intervals
 
-**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **starting review head:** \`c080a549e4e5208cf8e95daa8eef2bb238d38336\`. [Full English source-anchored report](reports/2026-10-25-grassmannian-slice-excess-and-monomial-multiplicity-intervals.md).
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting review head:** `c080a549e4e5208cf8e95daa8eef2bb238d38336`. [Full English source-anchored report](reports/2026-10-25-grassmannian-slice-excess-and-monomial-multiplicity-intervals.md).
 
 - **POME-GRASSMANN-SLICE-L1-EXCESS-001 — low / verified conditional deduction:** §6.41.9's exact averaged finite-radius density identity implies \(\int\nu(T_S,0)\,d\nu_q=\nu(T,0)\), and the exact **nonnegative \(L^1\) slice excess** \(\|D_{T_S}(a)-\nu(T_S,0)\|_{L^1(\nu_q)}=D_T(a)-\nu(T,0)\to0\). Also gives a Markov bound and convergence along arbitrary shrinking-radius nets. Printed theorem remains correct.
 - **POME-MONOMIAL-MULTIPLICITY-INTERVAL-001 — low / verified conditional deduction:** for diagonal finite monomial maps the attainable ratios \(\nu(F_*T,0)/\nu(T,0)\) realize **every real value** between the products of the smallest and largest \(p\) exponents. The same holds for directional generalized Lelong numbers with real positive weights, realized by positive combinations of two coordinate-plane integration currents. The printed §6.47 bounds are correct.

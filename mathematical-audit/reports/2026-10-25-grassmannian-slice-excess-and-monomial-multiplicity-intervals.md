@@ -2,18 +2,18 @@
 
 ## Version, scope, and audit boundaries
 
-- **Reviewed \`main\` commit:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-- **Starting audit branch head:** \`c080a549e4e5208cf8e95daa8eef2bb238d38336\`.
+- **Reviewed `main` commit:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+- **Starting audit branch head:** `c080a549e4e5208cf8e95daa8eef2bb238d38336`.
 - **Primary new selected proof-level coverage:** §6.41, specifically Lemma 6.41.1, Theorem 6.41.2, Lemma 6.41.4, Proposition 6.41.5, Lemma 6.41.7, and Proposition 6.41.9. Cross-checks in §6.33.1.
 - **Incremental direct checks:** §6.47.1–2 and their §6.46.1–2 finite-map inputs; §6.43.1–2 finite-germ degree inputs. The 22 October ledger already mentions selected checks in §§6.43–6.44 and 6.46–6.48; these are **not** falsely presented as first coverage. No entire section certified.
-- **Out of scope:** all dedicated Demailly regularization/approximation, Bergman, \`L²\`, Ohsawa–Takegoshi, multiscale-atlas, and positivity-loss proof-completion work. No inference of correctness of these deferred arguments.
+- **Out of scope:** all dedicated Demailly regularization/approximation, Bergman, `L²`, Ohsawa–Takegoshi, multiscale-atlas, and positivity-loss proof-completion work. No inference of correctness of these deferred arguments.
 - The source-reader proof passages were inspected; no software build, CI, formal verification or publication was performed. Neither source bodies nor permanent tags have been edited.
 
 ## POME-GRASSMANN-SLICE-L1-EXCESS-001
 
 **Severity:** low. **Status:** verified conditional deduction (the printed theorem is correct). **Nature:** a quantitatively useful, exact consequence of the already printed finite-radius averaging identity, stronger than its expressly stated Lelong-number inequality.
 
-**Source:** \`docs/sections/lelong-densities-generalized-masses-and-multiplicity--concurrent-slices-of-positive-currents/index.html\`, main blob \`a851fa12c59217cbf13efd381fd44524388fcfdc\`; Proposition 6.41.9, original source label \`demailly-complex-geometry-CE3E3EB2\`, permanent tag \`BAA80DBD5575\`, HTML lines 132–159; Equation 6.41.10, tag \`D71CDC8687A9\`, lines 134–137. The constructed slices depend on Proposition 6.41.5, tag \`F5E0CCA7AC78\`, lines 67–106, and almost-everywhere slicing Theorem 6.41.2, tag \`53506FB921EB\`, lines 32–58.
+**Source:** `docs/sections/lelong-densities-generalized-masses-and-multiplicity--concurrent-slices-of-positive-currents/index.html`, main blob `a851fa12c59217cbf13efd381fd44524388fcfdc`; Proposition 6.41.9, original source label `demailly-complex-geometry-CE3E3EB2`, permanent tag `BAA80DBD5575`, HTML lines 132–159; Equation 6.41.10, tag `D71CDC8687A9`, lines 134–137. The constructed slices depend on Proposition 6.41.5, tag `F5E0CCA7AC78`, lines 67–106, and almost-everywhere slicing Theorem 6.41.2, tag `53506FB921EB`, lines 32–58.
 
 Let \(T\) be a closed positive \((c,c)\)-current on the ball \(B(0,R)\subset\mathbb C^n\), and let \(c\leq q\leq n\). For almost every \(S\in G(q,n)\) the **specific concurrent slice constructed in §6.41.5** is a closed positive current \(T_S\) on \(S\) of bidimension \(d=q-c\). Let \(\nu_q\) be invariant probability on \(G(q,n)\), and write \(D_T(a)\) and \(D_{T_S}(a)\) for the normalized finite-radius Lelong densities used in §6.41.9. In particular, for \(a>0\),
 
@@ -80,9 +80,9 @@ The exact excess identity follows by subtraction from 6.41.10; nonnegativity mak
 **Severity:** low. **Status:** verified conditional deduction, strengthening sharpness to **attainment of every intermediate value**, not a counterexample to the printed inequalities.
 
 **Sources:**
-- \`docs/sections/lelong-densities-generalized-masses-and-multiplicity--monomial-maps-and-the-sharp-directional-comparison/index.html\`, main blob \`bad5cd9bb63a90871462700f5c1f7080c597ee99\`; Proposition 6.47.1, original \`demailly-complex-geometry-F608EF8B\`, tag \`0A17C5BE0625\`, lines 7–31, and Corollary 6.47.2, original \`demailly-complex-geometry-9E33C486\`, tag \`240191846A51\`, lines 33–47.
-- \`docs/sections/lelong-densities-generalized-masses-and-multiplicity--proper-direct-images-and-finite-map-upper-bounds/index.html\`, blob \`1f44c5feb546ecfe43ec1bc752d3fd0bff501613\`; Theorems 6.46.1–2, tags \`86EB492BC979\` and \`751F9003E019\`, lines 7–64.
-- \`docs/sections/lelong-densities-generalized-masses-and-multiplicity--finite-germs-and-their-actual-integer-degree/index.html\`, blob \`e2a86c5438c7770a8766f6bedf779e1879ead4c0\`; Proposition 6.43.1 tag \`AD7655D0958A\`, Lemma 6.43.2 tag \`B1AA1442D441\`, lines 7–55.
+- `docs/sections/lelong-densities-generalized-masses-and-multiplicity--monomial-maps-and-the-sharp-directional-comparison/index.html`, main blob `bad5cd9bb63a90871462700f5c1f7080c597ee99`; Proposition 6.47.1, original `demailly-complex-geometry-F608EF8B`, tag `0A17C5BE0625`, lines 7–31, and Corollary 6.47.2, original `demailly-complex-geometry-9E33C486`, tag `240191846A51`, lines 33–47.
+- `docs/sections/lelong-densities-generalized-masses-and-multiplicity--proper-direct-images-and-finite-map-upper-bounds/index.html`, blob `1f44c5feb546ecfe43ec1bc752d3fd0bff501613`; Theorems 6.46.1–2, tags `86EB492BC979` and `751F9003E019`, lines 7–64.
+- `docs/sections/lelong-densities-generalized-masses-and-multiplicity--finite-germs-and-their-actual-integer-degree/index.html`, blob `e2a86c5438c7770a8766f6bedf779e1879ead4c0`; Proposition 6.43.1 tag `AD7655D0958A`, Lemma 6.43.2 tag `B1AA1442D441`, lines 7–55.
 
 Let \(1\le p\le n\), \(1\le s_1\le\cdots\le s_n\) be integers and \(F(z)=(z_1^{s_1},\ldots,z_n^{s_n})\). Put \(A=\prod_{j=1}^{p}s_j\), \(B=\prod_{j=n-p+1}^{n}s_j\). Define the set of normalized pushforward ratios over local closed positive currents of bidimension \(p\) with \(\nu(T,0)>0\):
 
@@ -142,6 +142,6 @@ Linearity of the weighted generalized number in the positive current and the sam
 2. **§6.41.4–5:** the unitary/dilation invariant form classification, the punctured incidence-fiber integration, zero extension across the zero section and the optional \(\nu(T,0)[E]\) term for \(q=c\) have been read and their dimensional roles checked. Full Skoda–El Mir and dimension-principle prerequisites are left conditional.
 3. **§6.41.7, 6.41.9:** the identity \(\alpha^{p-d}\wedge\beta^d=d(\rho^d d^c\log\rho\wedge\alpha^{p-1})\) and endpoint \(d>0\) remove the inner boundary term, while \(d=0\) requires the explicitly added zero-section term. Equation 6.41.10 is used exactly as printed.
 4. **§§6.43, 6.46–6.47:** generic sheet multiplicities, the proper-image zero coefficient condition, the finite-map exponent \(\sigma\) and upper/lower bounds have been read in the *integrated edition*, not just matched by old source numbering. Their complete analytic proof chain, including generalized weight comparison and classical unbounded Bedford–Taylor product existence, has not been independently certified.
-5. **No new confirmed error or proof gap** was established in this bounded selection of claims. Prior 22 October normal-fiber atom jump \`POME-FIBER-ATOM-JUMP-001\` and all earlier findings are historical and **are not** re-entered as novel results. Demailly's dedicated approximation/regularization programme remains **deferred-by-user**, not repaired, not certified.
+5. **No new confirmed error or proof gap** was established in this bounded selection of claims. Prior 22 October normal-fiber atom jump `POME-FIBER-ATOM-JUMP-001` and all earlier findings are historical and **are not** re-entered as novel results. Demailly's dedicated approximation/regularization programme remains **deferred-by-user**, not repaired, not certified.
 
 This is evidence of **selected passages only**. The chapter coverage inventory counts 747 current sections but does not certify them.
