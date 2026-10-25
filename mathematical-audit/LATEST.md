@@ -1,3 +1,13 @@
+# 2026-10-26 — fixed-root Gauduchon determinant stability and critical/supercritical separation
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** cd37374044b1a4fb86c814bd39412f4c88ab91ae. [Complete English source-anchored report](reports/2026-10-26-gauduchon-fixed-root-lq-stability-and-concentration.md).
+
+- **POME-GAUD-FIXED-ROOT-STABILITY-001 — low / verified conditional deduction:** for the complete normalized positive-current family in Theorem 12.18.8, a **fixed strictly positive smooth root** r has attaining density k_r. Every current with deficit Delta=C||r||_n-int r k_T satisfies a quantitative critical-norm bound ||k_T-k_r||_q <= 2^((3-q)/2) sqrt[C Delta/((q-1)||r||_n)], q=n/(n-1), C=V^(-1/n); exponent 1/2 is optimal on smooth closed torus examples. Applies to arbitrary directed near-maximizing nets. Original theorem remains true, with mass/existence inputs conditional.
+- **POME-GAUD-CONCENTRATION-LQ-VS-LP-001 — low / verified conditional deduction:** the smooth concentrating family of Proposition 12.18.2 has ||k_S-C||_q <= C[2/log(1/epsilon)]^(1/q), and the associated currents converge in coefficientwise total variation at rate O(1/log), although L^p density norms diverge for **all p>q**, as the source proves. Distinct from 12.18.17's varying-root sequence; no false source theorem asserted.
+- **Actual first selected proof reading:** §12.18.1/.2/.6/.8/.13/.15/.17 (integrated proof lines 13–361); §12.18 upgraded from inventory only, all 747 ToC rows retained, no full section certified. Upstream smooth Monge–Ampère, mass invariance, duality and BT product chains not fully certified. Dedicated Demailly/regularization/Bergman/L2/Ohsawa–Takegoshi/multiscale/positivity-loss remains **deferred-by-user**. No tests/build/CI/website/source/main/registry/tag changes.
+
+---
+
 # 2026-10-26 — sharp weak endpoint for a smooth-center blowup; new §§15.23–15.24 coverage
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **pre-write audit head:** `6fc009d70378c952fb5567bbf9420994453deeab`. [Source-anchored complete mathematical report](reports/2026-10-26-blowup-endpoint-weak-lp-and-root-audit-crosscheck.md).
