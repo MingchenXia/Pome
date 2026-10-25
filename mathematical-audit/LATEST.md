@@ -1,3 +1,13 @@
+# 2026-10-25 — Grassmannian slice density excess and monomial multiplicity intervals
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **starting review head:** \`c080a549e4e5208cf8e95daa8eef2bb238d38336\`. [Full English source-anchored report](reports/2026-10-25-grassmannian-slice-excess-and-monomial-multiplicity-intervals.md).
+
+- **POME-GRASSMANN-SLICE-L1-EXCESS-001 — low / verified conditional deduction:** §6.41.9's exact averaged finite-radius density identity implies \(\int\nu(T_S,0)\,d\nu_q=\nu(T,0)\), and the exact **nonnegative \(L^1\) slice excess** \(\|D_{T_S}(a)-\nu(T_S,0)\|_{L^1(\nu_q)}=D_T(a)-\nu(T,0)\to0\). Also gives a Markov bound and convergence along arbitrary shrinking-radius nets. Printed theorem remains correct.
+- **POME-MONOMIAL-MULTIPLICITY-INTERVAL-001 — low / verified conditional deduction:** for diagonal finite monomial maps the attainable ratios \(\nu(F_*T,0)/\nu(T,0)\) realize **every real value** between the products of the smallest and largest \(p\) exponents. The same holds for directional generalized Lelong numbers with real positive weights, realized by positive combinations of two coordinate-plane integration currents. The printed §6.47 bounds are correct.
+- **Actual selected proof audit:** first targeted §6.41.1/.2/.4/.5/.7/.9; incremental §6.47.1–2 with §§6.43.1–2, 6.46.1–2 as internal dependency checks. The 22 October §§6.43–6.44/6.46–6.48 review is retained rather than falsely repeated as first coverage. No whole-section certification; all 747 rows preserved. All dedicated Demailly/Bergman/L²/OT/multiscale/positivity-loss work remains **deferred-by-user**. No project build, tests, CI, publication, source/main/tag/registry edits.
+
+---
+
 # 2026-10-25 — capacity-dominated exponential moduli and a logarithmically slow non-pluripolar measure
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting review head:** `e5cd7f073f0a34a5ceab7fd0e89c561a646d3145`. [Complete source-anchored English mathematics](reports/2026-10-25-nonpluripolar-exponential-moduli-and-slow-logarithmic-example.md).

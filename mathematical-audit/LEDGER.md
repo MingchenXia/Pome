@@ -1,3 +1,16 @@
+# 2026-10-25 — exact slice-density \(L^1\) defect and complete monomial ratio interval
+
+**Reviewed main** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **audit starting head** \`c080a549e4e5208cf8e95daa8eef2bb238d38336\`. [Detailed complete proofs and pinned anchors](reports/2026-10-25-grassmannian-slice-excess-and-monomial-multiplicity-intervals.md).
+
+| Stable ID | Severity / status | Anchored evidence, hypotheses, correction and dependents |
+| --- | --- | --- |
+| **POME-GRASSMANN-SLICE-L1-EXCESS-001** | low / **verified conditional deduction**, not a false printed theorem | Main \`docs/sections/lelong-densities-generalized-masses-and-multiplicity--concurrent-slices-of-positive-currents/index.html\`, blob \`a851fa12c59217cbf13efd381fd44524388fcfdc\`, Prop. 6.41.9 original \`demailly-complex-geometry-CE3E3EB2\` tag \`BAA80DBD5575\`, lines 132–159; Eq. 6.41.10 tag \`D71CDC8687A9\` lines 134–137. For the §6.41.5 slices \(T_S\) of a closed positive \((c,c)\)-current on a ball and \(q\ge c\), average of \(\nu(T_S,0)\) equals \(\nu(T,0)\), and **exactly** \(\|D_{T_S}(a)-\nu(T_S,0)\|_{L^1(\nu_q)}=D_T(a)-\nu(T,0)\to0\) along every shrinking-radius net; Markov tail bound. Proof from 6.41.10, Lelong–Jensen and dominated convergence. **Optional corollary**, no source/tag edit; depends on the existing slicing/averaging calculus. |
+| **POME-MONOMIAL-MULTIPLICITY-INTERVAL-001** | low / **verified conditional deduction**, printed sharp bounds correct | Main \`docs/sections/lelong-densities-generalized-masses-and-multiplicity--monomial-maps-and-the-sharp-directional-comparison/index.html\`, blob \`bad5cd9bb63a90871462700f5c1f7080c597ee99\`; Prop. 6.47.1 original \`demailly-complex-geometry-F608EF8B\` tag \`0A17C5BE0625\`, lines 7–31; Cor. 6.47.2 original \`demailly-complex-geometry-9E33C486\` tag \`240191846A51\`, lines 33–47; §6.46.1–2 tags \`86EB492BC979\`, \`751F9003E019\`. Every value between product of smallest and largest \(p\) diagonal exponents occurs as \(\nu(F_*T,0)/\nu(T,0)\), and every corresponding real directional-weight ratio occurs; take convex sums of first/last coordinate \(p\)-plane currents, use local sheet degrees/complete intersections and linearity. **Optional refinement**; finite-germ and weight-comparison inputs remain conditional. |
+
+**Actual coverage:** first targeted selected proof passages in §6.41 and incremental existing §§6.43,6.46–6.47; no entire section/chain certified. Prior \`POME-FIBER-ATOM-JUMP-001\` was checked and intentionally not re-registered. Entire user-deferred Demailly approximation/regularization, Bergman, \`L²\`, OT, multiscale and positivity-loss programme stays **deferred-by-user**. No local software tests, build, CI, publication or main/source/tag/registry modification.
+
+---
+
 # 2026-10-25 — sharp qualitative/quantitative boundary for non-pluripolar exponential damping
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit branch head:** `e5cd7f073f0a34a5ceab7fd0e89c561a646d3145`. [Proofs, hypotheses, current main blobs/line anchors, scope](reports/2026-10-25-nonpluripolar-exponential-moduli-and-slow-logarithmic-example.md).
