@@ -1,3 +1,16 @@
+# 2026-10-25 — full non-pluripolar mass with zero absolutely-continuous determinant, and sign-free strict barriers
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **UTC checkpoint:** 2026-10-25T04:01:46.191Z. [Complete pinned English proof and selected audit](reports/2026-10-25-singular-full-mass-and-nonpositive-strict-barriers.md).
+
+| Finding ID | Severity / status | Exact basis, result, proposed action and affected dependents |
+| --- | --- | --- |
+| **POME-FULLMASS-SINGULAR-AC-001** | **low / verified conditional deduction**, not a false theorem | §13.31.1 \`transcendental-positive-cones-6D2B462A\`, tag \`C7894CAD8593\`, main \`docs/sections/absolutely-continuous-and-non-pluripolar-mass/index.html\` blob \`bea17d8041a7af4a252913e0f700b44d77521f82\`, lines 7–97; §13.31.4 tag \`04768594F11F\`, lines 124–136; Green kernel §13.28 lines 10–16. For every n, flat \(E^n\) admits **bounded continuous** Kähler-class potential \(u\) with \(\underline{\rm vol}_\theta(u)=\int\langle T^n\rangle=\int\theta^n=n!\) but \(T_{\rm ac}=0\) and \(\int(T_{\rm ac})^n=0\); smooth Kähler \(T_t\to T\) under **uniform** potential convergence satisfy \(\int T_t^n=n!\), \(\|T_t^n-T^n\|_{\rm TV}=2n!\). Complete Cantor/Frostman–Green–heat-kernel proof in report. Optional caution/example; no false inequality. Dependents: interpreting §§13.20,13.28,13.31 a.c. mass versus ordinary singularity volume. |
+| **POME-STRICT-BARRIER-NONPOS-BG-001** | **low / verified conditional deduction**, not a false theorem | Cor. §13.20.3 tag \`D51B82B18D30\`, Prop. §13.20.4 source \`non-kahler-pluripotential-theory-DE77A39F\`, tag \`0729BE10D92E\`, \`docs/sections/volumes-under-bounded-mass--strict-barriers-and-background-variation/index.html\` blob \`2fb8697ad0f1e916245d9adafde27f40f97b46f3\`, lines 76–112. For arbitrary smooth real θ and positive lower-volume u, strict w≤u yields \(P_{(1-t)\theta}(u)\not\equiv-\infty\) for every \(0<t<\min(1,\delta/C)\) with θ≤Cω; \(\theta\ge0\) in the *one-way* printed proposition is unnecessary. Optional generalization; converse §16.28.69 not extended. |
+
+**Actual newly selected proof coverage:** §§13.20, 13.25–13.26 and 13.31; contextual §13.28 Green kernel only. No complete section certified. Analytic approximation inputs in §§13.25.5, 13.26.7 and 13.31.3 were not re-proved; dedicated Demailly regularization/Bergman/L²/OT/multiscale/positivity-loss remains **deferred-by-user**. All existing ToC rows retained, earlier findings untouched; no code tests/build/CI/formalization/publication or main/source/registry/tag change.
+
+---
+
 # 2026-10-25 — exact real-cube Robin capacity and unreviewed-section rotation
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Review branch at start:** `ce0d84a24630262859540f0d02f8f2586646f8bb`. [Source-anchored mathematical report](reports/2026-10-25-exact-robin-capacity-for-real-cubes.md).

@@ -1,3 +1,13 @@
+# 2026-10-25 — full-mass singular determinant obstruction and non-semipositive strict barriers
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **UTC checkpoint:** 2026-10-25T04:01:46.191Z. [Complete mathematical report, counterexample and source anchors](reports/2026-10-25-singular-full-mass-and-nonpositive-strict-barriers.md).
+
+- **POME-FULLMASS-SINGULAR-AC-001 — low / verified conditional deduction:** For every n, a flat Kähler torus \(E^n\) has a bounded continuous full-mass potential \(u\) with \(T_{\rm ac}=0\) even though \(\underline{\rm vol}_\theta(u)=\int\langle T^n\rangle=\int\theta^n=n!\). Smooth Kähler approximations have uniformly convergent potentials, unchanged mass \(n!\), but Monge–Ampère measures at signed-TV distance \(2n!\) from the limit. Detailed Frostman Cantor/Green/heat proof; printed Lemma 13.31.1 remains correct and can be strict maximally.
+- **POME-STRICT-BARRIER-NONPOS-BG-001 — low / verified conditional deduction:** The one-way smaller-background criterion of Proposition 13.20.4 holds without \(\theta\ge0\), for **every** sufficiently small positive reduction \(t\), using the strict barrier supplied by §13.20.3 and the universal smooth-form upper bound \(\theta\le C\omega\). The printed proposition is true; only optional hypothesis sharpening is proposed.
+- **Actual selected proof review:** §§13.20, 13.25–13.26, 13.31; dependency-only §13.28 Green kernel. No chapter/section certified. §13.31.3 modification approximation, §§13.25.5/13.26.7 analytic approximation, and all dedicated Demailly/Bergman/L²/OT/multiscale/positivity-loss work remain **deferred-by-user/unverified**, not reopened. Matrix 747 current ToC rows preserved. No local code checks, builds, CI, formalization, publishing, PR, source/main/tag/registry edits.
+
+---
+
 # 2026-10-25 — exact Robin and fixed-ball capacities of real cubes
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **audit starting head:** `ce0d84a24630262859540f0d02f8f2586646f8bb`. [Exact English source-anchored proof and selected proof checks](reports/2026-10-25-exact-robin-capacity-for-real-cubes.md).
