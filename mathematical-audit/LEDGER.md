@@ -1,3 +1,11 @@
+## 2026-10-25 — nuclear perturbation: uniform finite square presentation, and sharp non-Hausdorff example
+
+- **POME-RELNUC-BASECHANGE-FP-001** | low | **verified conditional deduction**, not a false theorem or independent §9.47 repair | Lemma 9.46.3 in `docs/sections/analytic-tensor-products-and-proper-direct-images--relative-nuclearity-and-perturbation/index.html`, main blob `0a17de6159b423086dcfd306ba0734df57ff3bf7`, source `demailly-complex-geometry-B3B1AC10`, permanent tag `5C1AB5BDC27C`, lines 57–92. The printed nuclear truncation `w=JΛ+w''`, `T=I-w''` gives the *single* base-change compatible matrix `K=I-ΛT^{-1}J` over `B^N`; direct cokernel isomorphisms before/after actual balanced quotient prove `coker(I-v_C) ≅ C^N/K_C C^N` with quotient topology, even non-Hausdorff. Optional strengthening of the existing lemma; do **not** infer finitely presented *quotients* in §9.46.5 without a kernel-finiteness argument. [Proof](reports/2026-10-25-nuclear-perturbation-uniform-presentations-and-nonhausdorff-cokernels.md).
+- **POME-RELNUC-NONHAUS-COKER-001** | low | **verified conditional deduction**, printed warning correct | Same pinned lemma/tag and lines 57–62. `B=C([0,1],ℂ)`, `S=B`, `v(f)=(1-t)f` is one-term `B`-nuclear. `(I-v)B=tB` is nonclosed because `√t∉tB` but `t√t/(t+ε)∈tB` converges uniformly, with error at most `√ε/2`. Hence finitely presented cokernel `B/tB` can be non-Hausdorff. Full estimate and dependency limits: [report](reports/2026-10-25-nuclear-perturbation-uniform-presentations-and-nonhausdorff-cokernels.md).
+- **Coverage:** first selected proofs in §§9.41–9.43,9.45; earlier §§9.44,9.46–9.47 incrementally checked without relabeling their historical findings as new; §9.40 introduction only. Hironaka permitted input untouched; Oka/coherent vanishing/strict nuclear tensor exactness remain conditional as logged. Preserve all prior resolved, unresolved and **deferred-by-user** items; no full-section certification.
+
+---
+
 # 2026-10-25 — convex tube bounds and strict current-volume separation
 
 **Main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** 7c0d4aeb97427357b864127978530f757d16fb2a. [Full pinned proof and coverage](reports/2026-10-25-convex-tube-log-majorant-and-strict-gauduchon-volume-gap.md).

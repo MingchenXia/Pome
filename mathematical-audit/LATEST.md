@@ -1,3 +1,13 @@
+# 2026-10-25 — uniform nuclear Fredholm presentations and sharp non-Hausdorff caveat
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `1cf916e662cd720ecc31f0ea084d4218d44312e0`. [Full source-anchored proof](reports/2026-10-25-nuclear-perturbation-uniform-presentations-and-nonhausdorff-cokernels.md).
+
+- **POME-RELNUC-BASECHANGE-FP-001 — low / verified conditional deduction:** Lemma 9.46.3's nuclear-factorization proof yields a single finite square matrix over the Banach algebra whose base changes present *every* actual cokernel, algebraically and topologically even in the non-Hausdorff category; this is stronger than finite generation, not a false theorem.
+- **POME-RELNUC-NONHAUS-COKER-001 — low / verified conditional deduction:** multiplication by the coordinate function in `C([0,1])` gives a one-term relative-nuclear map with nonclosed `(I-v)` image; non-Hausdorff disclaimer in §9.46.3 cannot be removed.
+- **Actual coverage:** first selected §§9.41–9.43,9.45; incremental §§9.44,9.46–9.47; §9.40 overview only. No full section or upstream Oka/nuclear exactness chain certified. All 747 ToC rows remain; excluded Demailly/regularization/Bergman/L²/OT/multiscale/positivity-loss research stays **deferred-by-user**. No tests, build, CI, site publication, source/registry/tag/main edits.
+
+---
+
 # 2026-10-25 — sharp convex-log tube bound and strict Gauduchon current-volume gap
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** 7c0d4aeb97427357b864127978530f757d16fb2a. [Complete English source-anchored report](reports/2026-10-25-convex-tube-log-majorant-and-strict-gauduchon-volume-gap.md).
