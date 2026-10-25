@@ -1,3 +1,13 @@
+# 2026-10-25 — coupled mollification of Radon nets and a compactly supported signed-net obstruction
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit head:** 17db5e9b50cd5d14568e717f95a199f8d5da1786. [Full English source-anchored proof](reports/2026-10-25-joint-mollification-positive-nets-and-signed-obstruction.md).
+
+- **POME-MEASURE-JOINT-MOLL-NET-001 — low / verified conditional deduction:** for an arbitrary directed vague-convergent net of **positive** Radon measures μ_i and any ε_i→0, the coupled smooth measures (μ_i*ρ_{ε_i})dx converge vaguely to μ, and their derivatives converge distributionally. A net of signed measures has the same conclusion under eventual locally uniform total-variation bounds. Proof uses one compact cutoff giving eventual local mass control, and locally uniform convergence of ordinary test-function convolution.
+- **POME-SIGNED-NET-NONUNIFORM-MOLL-001 — low / verified conditional deduction:** an explicit algebraic construction gives a net of finite signed atomic measures **supported in one fixed compact interval**, converging to zero against *every* C_c test, and ε_i→0, but a fixed smooth ψ tests all mollified measures to **1**. Infinite linear independence of ψ*ρ_ε follows from positive even moments and a Vandermonde argument. The hypothetical arbitrary-signed-net strengthening is false; the printed fixed-distribution Proposition 2.5.3(2) remains correct.
+- **Actual new selected proof coverage:** §§2.2–2.5, with incremental §§2.6.1–2.6.2. No complete section or dependency chain certified and no project build/test/CI/formalization/site publication. All 747 existing ToC rows preserved. Ordinary Euclidean convolution here does not reopen the **deferred-by-user** Demailly approximation/regularization/Bergman/L²/OT/multiscale/positivity-loss programme.
+
+---
+
 # 2026-10-25 — exact rational birational jumps and noncommuting Gauduchon cone limits
 
 **Fresh main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **UTC checkpoint:** 2026-10-25T01:00:02.981Z. **Starting review head:** `1efbbcaad782d1b0e58210ed2809d19a4fa4f9fc`. [Full English source-anchored report and proofs](reports/2026-10-25-gauduchon-rational-blowup-jumps-and-double-scaling.md).

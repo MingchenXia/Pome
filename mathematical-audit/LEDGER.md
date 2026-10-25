@@ -1,3 +1,16 @@
+# 2026-10-25 — positivity versus signed directed nets in joint mollification
+
+**Pinned main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full exact-source report and complete proofs](reports/2026-10-25-joint-mollification-positive-nets-and-signed-obstruction.md).
+
+| Stable finding ID | Severity / status | Evidence, mathematical disposition, proposed action and dependents |
+| --- | --- | --- |
+| **POME-MEASURE-JOINT-MOLL-NET-001** | **low / verified conditional deduction**, not a false theorem | Lemma §2.5.1 tag **3C40E6BD1222** and Proposition §2.5.3 source foundations-of-pluripotential-theory-D09EB34D, tag **0CB24AD25DC3**, main **docs/sections/measures-and-distributions--convolution-and-mollifiers/index.html** blob **50e1ba12fd379718b6be25a0b797e8014e1eaede**, physical lines **38–89,117–165**; §2.6.1 source foundations-of-pluripotential-theory-915FBB91, tag **4DFD880D9E4D**, **docs/sections/measures-and-distributions--weak-convergence-of-measures/index.html**, blob **45720b2399a645a1a9a8148873fdc01c634fc5d7**, lines **7–30**. Coupled *arbitrary directed* vague-positive μ_i and ε_i→0 have joint vague convergence of mollifications and distributional derivative convergence; signed nets work with an explicit eventual locally uniform variation condition. Detailed bound and no sequence/limit swapping in report. **Propose optional corollary;** downstream simultaneous positive current approximations must check their own measures. |
+| **POME-SIGNED-NET-NONUNIFORM-MOLL-001** | **low / verified conditional deduction** (counterexample to unclaimed strengthening, **not** a false Pome theorem) | Same §2.5.3(2) source/blobs/anchors and test topology Definition **2.4.1** permanent **55085BC2**, **docs/sections/measures-and-distributions--test-functions-and-distributions/index.html** blob **beb63e37cdc88e099c3e9a8314fca1219d18c0c4**, lines **10–43**. Indexed by finite C_c test sets F and integers N, choose ε_i<1/N, finite signed atomic ν_i supported in one K annihilating F but satisfying ∫(ψ*ρ_ε_i)dν_i=1. Fourier/moments/Vandermonde prove infinite-dimensionality of the mollified ψ family and finite-dimensional evaluation duality constructs ν_i. Thus ν_i→0 against every C_c test yet ν_i*ρ_ε_i fails even distributional convergence. **Propose warning** not to infer arbitrary signed-net joint continuity from the correct fixed-T statement; affects any unverified two-parameter weak-current passage. |
+
+**Actual new selected proof-level coverage:** §§2.2–2.5; supplemental §§2.6.1–2.6.2. No whole-section certification, false source theorem, or tests/build/formalization asserted. All existing ledger entries and deferred-by-user regularization notes preserved; no source/registry/tag/main/website/CI changes.
+
+---
+
 # 2026-10-25 — Gauduchon rational blowup jumps and double-scale transition
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **UTC checkpoint:** 2026-10-25T01:00:02.981Z. [Complete source-anchored proofs and precise hypotheses](reports/2026-10-25-gauduchon-rational-blowup-jumps-and-double-scaling.md).
