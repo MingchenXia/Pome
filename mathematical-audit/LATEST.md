@@ -1,3 +1,13 @@
+# 2026-10-25 — sharp convex-log tube bound and strict Gauduchon current-volume gap
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** 7c0d4aeb97427357b864127978530f757d16fb2a. [Complete English source-anchored report](reports/2026-10-25-convex-tube-log-majorant-and-strict-gauduchon-volume-gap.md).
+
+- **POME-TUBE-CONVEXLOG-MAJORANT-001 — low / verified conditional deduction:** sharp logarithmic barycentric majorant for any continuous positive real-base bound on holomorphic functions on a connected tube; Bochner extension is isometric in the H-infinity norm. Printed §9.39.7 true.
+- **POME-GAUD-STRICT-DOM-GAP-001 — low / verified conditional deduction:** positive current difference S>=tau h yields exact sharp root-volume gap tau lambda_mu(h) and volume gap ((epsilon+tau)^n-epsilon^n) V_mu(h); equality for theta=tau h, beta=0. Printed §12.24.1 true.
+- **New actual selected proof coverage:** §§9.38–9.39 and 12.24; §12.2 is defining-quotient crosscheck, §9.37 orientation. No complete section/dependency chain certified; 747 ToC rows retained. Dedicated Demailly approximation/regularization/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss remains **deferred-by-user**. No tests/build/CI/site/main/source/tag/registry writes.
+
+---
+
 # 2026-10-25 — ideal-obstacle concavity and projection-reference correction
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `1689f9475b9a125be4606f0b8ce46fa49aae6b27`. [Complete pinned English proof/audit](reports/2026-10-25-ideal-obstacle-concavity-and-projection-reference-kind.md).

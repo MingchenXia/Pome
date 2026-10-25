@@ -1,3 +1,16 @@
+# 2026-10-25 — convex tube bounds and strict current-volume separation
+
+**Main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** 7c0d4aeb97427357b864127978530f757d16fb2a. [Full pinned proof and coverage](reports/2026-10-25-convex-tube-log-majorant-and-strict-gauduchon-volume-gap.md).
+
+| Stable finding ID | Severity / status | Exact source anchors, hypothesis and mathematical conclusion |
+| --- | --- | --- |
+| **POME-TUBE-CONVEXLOG-MAJORANT-001** | low / **verified conditional deduction**, printed theorem correct | §9.39.2 tag 7D65E928B1FB lines 27–60 and §9.39.7 tag E5EB0154B387 lines 97–147, docs/sections/normal-spaces-and-tube-continuation--holomorphic-extension-from-a-connected-tube/index.html blob a94e3aa490fee004284dab37f4f6e35094bf2bfa. Continuous positive M(x) bounding f(x+iy) for all y gives log|F(x+iy)|<=inf_{x=sum t_j x_j} sum t_j log M(x_j). Jensen on explicit contracting Schwarz discs proves this; H-infinity extension is norm-isometric; real affine exponentials attain equality. Optional quantitative corollary; continuation/gluing is a conditional internal input. |
+| **POME-GAUD-STRICT-DOM-GAP-001** | low / **verified conditional deduction**, printed proposition correct | §12.24.1 tag 7CE9EDC18591 lines 10–34, docs/sections/a-gauduchon-variational-volume--orders-of-degeneration-at-the-nef-boundary--positive-current-subtraction-and-divisorial-residuals/index.html blob 8c1eb4eba5af6cc9331b103ed5156251091acce7; §12.2.1–3 tags 0C4AF7E2CEBB, 4AF37F3C8091, 2DB664A6EFDF, docs/sections/a-gauduchon-variational-volume--the-quotient-and-the-smooth-equation/index.html blob 9ec67161d46b3ba20afa1b1c9a0c84f29322763e lines 7–80. If S=(theta-beta)+dd^c phi>=tau h, Gauduchon Stokes and infimum superadditivity show lambda_mu(theta+epsilon h)-lambda_mu(beta+epsilon h)>=tau lambda_mu(h). Nef beta yields volume gap >=((epsilon+tau)^n-epsilon^n) V_mu(h). Both constants sharp by theta=tau h, beta=0. Optional quantitative strengthening only; do not claim a positive uniform gap from S>=0. |
+
+**New selected proof inspection:** §§9.38.1–5, 9.39.1–10, 12.24.1–5; §12.2.1–3 dependency-only, §9.37 heading-only. Deep Hartogs, coherent images, resolution, Remmert–Stein, analytic-disc continuation and §12.21/16.29 example inputs remain conditional; no whole sections certified. All excluded Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss matters **deferred-by-user**. No tests, build, CI, publication, main, source, tag or registry modifications.
+
+---
+
 # 2026-10-25 — ideal projection, obstacle stability, and curve-product checks
 
 **Main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`, audit branch previously `1689f9475b9a125be4606f0b8ce46fa49aae6b27`; [full report](reports/2026-10-25-ideal-obstacle-concavity-and-projection-reference-kind.md).
