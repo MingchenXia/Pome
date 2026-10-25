@@ -1,3 +1,13 @@
+# 2026-10-25 — distributional Hessian representatives and square-root gradient stability
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `129bd677b54aa15fd3c6c53bacaa696facc3f950`. [Complete source-anchored proof report](reports/2026-10-25-distributional-hessian-representatives-and-c0-to-c1-stability.md).
+
+- **POME-DISTRIBUTIONAL-HESSIAN-REP-001 — low / verified conditional deduction:** even an *arbitrary real distribution* with locally bounded measurable distributional Hessian has a unique canonical `C¹,¹_loc` representative; on convex sets the gradient Lipschitz constant equals the essential operator-norm Hessian bound, and the printed entrywise `dC` bound is optimal. The printed §2.8.5 remains correct, with an optional strengthened statement.
+- **POME-DISTRIBUTIONAL-C0C1-MODULUS-001 — low / verified conditional deduction:** common operator-norm Hessian bound `M` plus uniform `C⁰` error `δ` implies interior gradient error at most `inf_{0<t<r}(δ/t+Mt)`, hence `2√(Mδ)` in the small-error range. The Hölder-1/2 exponent is optimal, and arbitrary uniformly converging directed nets converge in compact-local `C¹` without selecting sequences.
+- **Actual first selected proof-level coverage:** §2.8.1–5; §2.9.2/.4–6/.10–12/.19/.22/.24/.26–28 separately crosschecked with **no new Fourier claim** (previous Fourier/incidence finding IDs retained). 747-section ToC matrix is preserved, no entire section certified. The user-excluded Demailly approximation/regularization/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme remains **deferred-by-user**. No project build, CI, formal verification, publication, source/main/tag/registry edit.
+
+---
+
 # 2026-10-25 — sharp Hölder Monge–Ampère ball masses and smooth density logarithmic cost
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** be465808e940d7f97ccc520bbfcfb4d114e5db6d. [Complete source-anchored mathematical report](reports/2026-10-25-sharp-holder-ball-mass-and-smooth-density-log-cost.md).
