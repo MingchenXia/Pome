@@ -1,3 +1,13 @@
+# 2026-10-25 — sharp Hermitian sublevel capacity and quantitative Bedford–Taylor mass decay
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting review head:** c241cc29a997b256a55271b032483c60a268e258. [Exact English mathematics, source tags and line anchors](reports/2026-10-25-sharp-logpole-hermitian-capacity-and-quantitative-bt-mass.md).
+
+- **POME-HERM-CAP-LOGPOLE-SHARP-001 — low / verified conditional deduction:** a fixed normalized logarithmic psh potential on P¹ has global sublevel capacities comparable to 1/t, with explicit circular test and local-to-global glued curvature. The printed 5.29.4 tail exponent is sharp, **not false**.
+- **POME-BT-HARMONIC-L1-QUANT-001 — low / verified conditional deduction:** quantitative mixed BT mass bound \(C M^{k-1}\|p-h\|_{L^1}\), with pluriharmonic h and common middle-ball sup bound; optimal homogeneous exponent and arbitrary directed-net convergence. The correct unbounded §5.27.30 examples do not violate it.
+- **Actual first selected proof coverage:** §§5.27–5.29; **incremental** existing selected §16.13 recheck, no complete section certified. 747 ToC rows retained, user-excluded regularization/Bergman/L²/OT/multiscale/positivity-loss programme **deferred-by-user**. No tests, build, CI, formal proof or source/registry/tag/main/site changes.
+
+---
+
 # 2026-10-25 — full-mass singular determinant obstruction and non-semipositive strict barriers
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **UTC checkpoint:** 2026-10-25T04:01:46.191Z. [Complete mathematical report, counterexample and source anchors](reports/2026-10-25-singular-full-mass-and-nonpositive-strict-barriers.md).

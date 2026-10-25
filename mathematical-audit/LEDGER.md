@@ -1,3 +1,16 @@
+# 2026-10-25 — capacity-tail sharpness and local BT mixed-mass review
+
+**Main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **prior audit head:** c241cc29a997b256a55271b032483c60a268e258. [Mathematical proofs and exact anchors](reports/2026-10-25-sharp-logpole-hermitian-capacity-and-quantitative-bt-mass.md).
+
+| Stable ID | Severity / status | Source, hypotheses, justification, proposed repair and affected dependents |
+| --- | --- | --- |
+| **POME-HERM-CAP-LOGPOLE-SHARP-001** | low / **verified conditional deduction**; printed bound correct | §5.29.2 source non-kahler-pluripotential-theory:96A183CE tag 5CEF121C5391, Eq.5.29.4 source non-kahler-pluripotential-theory:B2A1C46F tag 3EF8F920CDD3; docs/sections/plurisubharmonic-functions-and-singularities--hermitian-capacity/index.html blob 77a9098e9bb922425d11c5b04d8927a3997ad44e lines 35–78. On P¹, u_a=a log(|z|²/(1+|z|²)), 0<a<1, yields c_a/t≤Cap({u_a<−t})≤C_a/t. Explicit circular test and fixed capacity gluing. Optional sharpness example; dependents relying on sublevel capacity decay cannot assume faster universal tails. |
+| **POME-BT-HARMONIC-L1-QUANT-001** | low / **verified conditional deduction**; printed BT lemma correct | §5.27 Eq.5.27.3 source non-kahler-pluripotential-theory:0B0E74EF tag F138661713A9 lines 104–117; Lemma5.27.27 source non-kahler-pluripotential-theory:B41297A6 tag 55862640C106 lines 547–561; docs/sections/plurisubharmonic-functions-and-singularities--local-products-and-capacity/index.html blob ddb2ac8d9de27a22152872e07e5e787d138a790e. On nested balls, psh p and pluriharmonic h with |p−h|≤M give mixed mass ≤ C M^(k−1) ||p−h||L¹ for 1≤k≤n. Scalar cutoff proof, sharpness via p_t=t|z|², arbitrary directed-net corollary. Optional quantitative sharpening; contrast with genuine unbounded mass concentration §5.27.30. |
+
+**Covered:** first selected §§5.27–5.29 and incremental selected §16.13 (Lemmas .1/.3, Theorem .4). No entire section, transitive weighted BT capacity or local balayage chain certified. All excluded Demailly/Bergman/L²/OT/multiscale/positivity-loss work remains deferred-by-user. No build/test/CI/site/source/registry/tag/main write.
+
+---
+
 # 2026-10-25 — full non-pluripolar mass with zero absolutely-continuous determinant, and sign-free strict barriers
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **UTC checkpoint:** 2026-10-25T04:01:46.191Z. [Complete pinned English proof and selected audit](reports/2026-10-25-singular-full-mass-and-nonpositive-strict-barriers.md).
