@@ -1,3 +1,12 @@
+# 2026-10-26 — bounded Dirichlet root concavity; selected §§5.8 and 13.32
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** db2677f8d5620e138d2849d3f9c7111e1945b6d4. [Full English source-pinned review](reports/2026-10-26-bounded-dirichlet-root-concavity-and-numerical-product-review.md).
+
+- **POME-BT-DIRICHLET-JOINT-ROOT-CONCAVITY-001 — low / verified conditional deduction:** on a ball, the bounded-measurable-density Monge–Ampère Dirichlet operator is jointly pointwise concave in the nonnegative density root F=f^{1/n} and continuous boundary values. Proved by finite continuous-data subsolution mixtures (Lemma 7.9.1), L¹ data stability (Theorem 7.10.2), and canonical psh representatives. Constant-density quadratic solutions give equality. Neither theorem is alleged false; distinct previous mixed-current, sharp sup-norm, and capacity results are not re-counted.
+- **Actual inspected passages:** first selected proof-level Lemma 5.8.2 / Theorem 5.8.4 and the nonexcluded Lemma 13.32.2 / Propositions 13.32.5–6; incremental §§7.9–7.10. All 747 original ToC rows retained; no whole section certified. Approximating-sequence proof portions of §13.32.1/.3 and the author's entire Demailly/regularization/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme remain **deferred-by-user**, never resolved or certified. No tests/build/CI/site/publication/main/source/registry/tag edit.
+
+---
+
 # 2026-10-26 — fixed-root Gauduchon determinant stability and critical/supercritical separation
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** cd37374044b1a4fb86c814bd39412f4c88ab91ae. [Complete English source-anchored report](reports/2026-10-26-gauduchon-fixed-root-lq-stability-and-concentration.md).
