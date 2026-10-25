@@ -162,9 +162,25 @@ Since \(\Sigma\subset B(0,1)\), choosing
 \(p_*=c_0\) and \(0<\delta<\min\{R/2,1\}\) gives
 \(p_*+\delta\Sigma\subset K_i\cap K\) for all such \(i\).
 Thus the common-simplex hypothesis of the printed theorem holds
-automatically on this tail. Its remaining claims apply with no
-sequential compactness assumption; the estimates themselves are
-pointwise and hence valid for directed nets.
+automatically on this tail. Its pointwise PDE-solvability, mass and
+supporting-probability formulas are therefore valid for each tail index.
+To justify **net** convergence of the references (rather than silently
+replacing a net by a sequence), use the same common integrable logarithmic
+lower barrier \(\chi-C\le\Phi_{K_i},\Phi_K\le0\) as in Lemma 11.43.2,
+and a uniformly bounded range of positive \(r_i\). Given \(\epsilon>0\),
+choose an open neighborhood \(U\) of the coordinate hyperplanes (and
+their inverse images under the fixed blowup) with
+\(\int_U|\chi-C|\,dV<\epsilon\); absolute continuity of the
+Lebesgue integral permits this because the analytic set has zero
+volume. On the compact complement \(X\setminus U\), the explicit
+support-function bound
+\(|g_{K_i}(x)-g_K(x)|\le d_i|x|+\omega_\ell(d_i)\)
+gives uniform convergence, and \(r_i\to r\).
+The \(L^1\) norm of the difference is therefore bounded by a term
+\(O(\epsilon)\) plus a term tending to zero along the **whole net**.
+This proves the net statement without invoking dominated convergence
+for arbitrary nets. The scalar and total-variation estimates are
+pointwise in the index and require no sequential compactness.
 
 This does not address moving blowup centers, nonclosed Hermitian
 backgrounds or limits whose convex body loses interior. In particular,
