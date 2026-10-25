@@ -1,23 +1,23 @@
 # Sharp absolute-continuity failure for full-mass currents and sign-free strict barriers
 
-**Checkpoint (UTC):** 2026-10-25T04:01:46.191Z. **Integrated main reviewed:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-**Audit branch:** \`review/mathematical-audit\`. This is a **selected proof audit**, not a certification of any section, theorem dependency tree, or the entire collection.
+**Checkpoint (UTC):** 2026-10-25T04:01:46.191Z. **Integrated main reviewed:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+**Audit branch:** `review/mathematical-audit`. This is a **selected proof audit**, not a certification of any section, theorem dependency tree, or the entire collection.
 
 ## Exact integrated source anchors
 
 | Passage | Integrated main path; blob SHA; lines | Stable source label / permanent tag |
 | --- | --- | --- |
-| Lemma 13.31.1, determinant bound and truncated proof | \`docs/sections/absolutely-continuous-and-non-pluripolar-mass/index.html\`; \`bea17d8041a7af4a252913e0f700b44d77521f82\`; lines 7–16, 19–97 | \`transcendental-positive-cones-6D2B462A\` / \`C7894CAD8593\` |
-| Equation 13.31.2, differentiation of singular measures | Same file, lines 21–49 | \`transcendental-positive-cones-1C2CEE7B\` / \`58A08DA1A586\` |
-| Corollaries 13.31.3–4, supremum of a.c. determinant masses | Same file, lines 103–136 | \`transcendental-positive-cones-A2E98A80\` / \`1E1CF458220D\`; \`transcendental-positive-cones-AA4B08E5\` / \`04768594F11F\` |
-| Strict-subsolution construction, Cor. 13.20.3 and Prop. 13.20.4 | \`docs/sections/volumes-under-bounded-mass--strict-barriers-and-background-variation/index.html\`; \`2fb8697ad0f1e916245d9adafde27f40f97b46f3\`; lines 76–112 | \`non-kahler-pluripotential-theory-40A9BCB2\` / \`D51B82B18D30\`; \`non-kahler-pluripotential-theory-DE77A39F\` / \`0729BE10D92E\` |
-| Lemma 13.20.1 and upper-volume perturbation | Same file, lines 10–71 and 134–169 | \`non-kahler-pluripotential-theory-1DBB631B\` / \`EDD01F5B65E5\`; \`non-kahler-pluripotential-theory-95AB9149\` / \`F4C607C7C503\` |
-| One-sided and two-sided background comparison | \`docs/sections/volumes-under-bounded-mass--model-comparison-under-background-changes/index.html\`; \`9031cedd29e8ed20dc720a8119d326ff727a2113\`; lines 10–92, 105–164; and \`docs/sections/volumes-under-bounded-mass--two-sided-background-perturbations/index.html\`; \`45c385fe6dc2c7a8b877b27e3bf854da9c4ac463\`; lines 13–32, 36–91, 98–124 | §§13.25.1–3 (\`61209D2B61BD\`, \`F274299A5A71\`, \`1ED63BC3072B\`), §13.26.1 (\`D5C96B9222A4\`), §13.26.3 (\`218C2CE831D1\`) |
-| Green kernel on a compact curve, used only for independent model construction | \`docs/sections/volumes-under-bounded-mass--model-potentials-on-curves/index.html\`; \`4ec0e8d5c90ad5df4e84f17bbc03a2298415e29f\`; lines 10–16, 19–58 | §13.28.1 \`2422DD1AB3AB\`; Green kernel internal cross-reference §20.3.9 \`0A6FA0C6A351\` |
+| Lemma 13.31.1, determinant bound and truncated proof | `docs/sections/absolutely-continuous-and-non-pluripolar-mass/index.html`; `bea17d8041a7af4a252913e0f700b44d77521f82`; lines 7–16, 19–97 | `transcendental-positive-cones-6D2B462A` / `C7894CAD8593` |
+| Equation 13.31.2, differentiation of singular measures | Same file, lines 21–49 | `transcendental-positive-cones-1C2CEE7B` / `58A08DA1A586` |
+| Corollaries 13.31.3–4, supremum of a.c. determinant masses | Same file, lines 103–136 | `transcendental-positive-cones-A2E98A80` / `1E1CF458220D`; `transcendental-positive-cones-AA4B08E5` / `04768594F11F` |
+| Strict-subsolution construction, Cor. 13.20.3 and Prop. 13.20.4 | `docs/sections/volumes-under-bounded-mass--strict-barriers-and-background-variation/index.html`; `2fb8697ad0f1e916245d9adafde27f40f97b46f3`; lines 76–112 | `non-kahler-pluripotential-theory-40A9BCB2` / `D51B82B18D30`; `non-kahler-pluripotential-theory-DE77A39F` / `0729BE10D92E` |
+| Lemma 13.20.1 and upper-volume perturbation | Same file, lines 10–71 and 134–169 | `non-kahler-pluripotential-theory-1DBB631B` / `EDD01F5B65E5`; `non-kahler-pluripotential-theory-95AB9149` / `F4C607C7C503` |
+| One-sided and two-sided background comparison | `docs/sections/volumes-under-bounded-mass--model-comparison-under-background-changes/index.html`; `9031cedd29e8ed20dc720a8119d326ff727a2113`; lines 10–92, 105–164; and `docs/sections/volumes-under-bounded-mass--two-sided-background-perturbations/index.html`; `45c385fe6dc2c7a8b877b27e3bf854da9c4ac463`; lines 13–32, 36–91, 98–124 | §§13.25.1–3 (`61209D2B61BD`, `F274299A5A71`, `1ED63BC3072B`), §13.26.1 (`D5C96B9222A4`), §13.26.3 (`218C2CE831D1`) |
+| Green kernel on a compact curve, used only for independent model construction | `docs/sections/volumes-under-bounded-mass--model-potentials-on-curves/index.html`; `4ec0e8d5c90ad5df4e84f17bbc03a2298415e29f`; lines 10–16, 19–58 | §13.28.1 `2422DD1AB3AB`; Green kernel internal cross-reference §20.3.9 `0A6FA0C6A351` |
 
 ## POME-FULLMASS-SINGULAR-AC-001 — low / verified conditional deduction
 
-**Claim (new sharpness example, not a false printed theorem).** For every \`n >= 1\` there are a flat projective complex torus \`X=E^n\`, a flat Kähler form \`theta\`, and a **bounded continuous** \`theta\`-psh potential \`u\` with positive closed current \`T=theta+dd^c u\` such that
+**Claim (new sharpness example, not a false printed theorem).** For every `n >= 1` there are a flat projective complex torus `X=E^n`, a flat Kähler form `theta`, and a **bounded continuous** `theta`-psh potential `u` with positive closed current `T=theta+dd^c u` such that
 
 \[
  \underline{\operatorname{vol}}_\theta(u)
@@ -37,7 +37,7 @@ In particular, \(\int_X(T_{\rm ac})^n=0\). There are **smooth Kähler forms** \(
 
 Thus a positive lower singularity volume, even at full cohomological mass with bounded potentials, gives **no positive lower bound** on the pointwise absolutely-continuous determinant mass. Uniform potential convergence does **not** imply continuity of this determinant integral or total-variation convergence of the Monge–Ampère measures. This is compatible with, and sharpens the interpretation of, the **upper** inequality in Lemma 13.31.1.
 
-**Complete construction and proof.** Let \`E=C/(Z+iZ)\`, with normalized translation-invariant Kähler form \(\omega_E\) of mass \(1\). Identify a small real arc of the horizontal circle with \([0,1]\), place inside it a middle-thirds Cantor set, and let \(\nu\) be its standard nonatomic Cantor probability measure. Put \(\alpha=\log 2/\log 3>0\). At generation \(k\), basic intervals have lengths \(3^{-k}\), masses \(2^{-k}\), and pairwise disjoint interiors; an interval of length comparable to \(3^{-k}\) meets a uniformly bounded number of them. Thus a constant \(C\), independent of the center, satisfies
+**Complete construction and proof.** Let `E=C/(Z+iZ)`, with normalized translation-invariant Kähler form \(\omega_E\) of mass \(1\). Identify a small real arc of the horizontal circle with \([0,1]\), place inside it a middle-thirds Cantor set, and let \(\nu\) be its standard nonatomic Cantor probability measure. Put \(\alpha=\log 2/\log 3>0\). At generation \(k\), basic intervals have lengths \(3^{-k}\), masses \(2^{-k}\), and pairwise disjoint interiors; an interval of length comparable to \(3^{-k}\) meets a uniformly bounded number of them. Thus a constant \(C\), independent of the center, satisfies
 
 \[
  \nu(B(x,r))\le C r^\alpha\qquad(0<r<1/10).

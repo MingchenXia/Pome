@@ -1,6 +1,6 @@
 # 2026-10-25 — full-mass singular determinant obstruction and non-semipositive strict barriers
 
-**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **UTC checkpoint:** 2026-10-25T04:01:46.191Z. [Complete mathematical report, counterexample and source anchors](reports/2026-10-25-singular-full-mass-and-nonpositive-strict-barriers.md).
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **UTC checkpoint:** 2026-10-25T04:01:46.191Z. [Complete mathematical report, counterexample and source anchors](reports/2026-10-25-singular-full-mass-and-nonpositive-strict-barriers.md).
 
 - **POME-FULLMASS-SINGULAR-AC-001 — low / verified conditional deduction:** For every n, a flat Kähler torus \(E^n\) has a bounded continuous full-mass potential \(u\) with \(T_{\rm ac}=0\) even though \(\underline{\rm vol}_\theta(u)=\int\langle T^n\rangle=\int\theta^n=n!\). Smooth Kähler approximations have uniformly convergent potentials, unchanged mass \(n!\), but Monge–Ampère measures at signed-TV distance \(2n!\) from the limit. Detailed Frostman Cantor/Green/heat proof; printed Lemma 13.31.1 remains correct and can be strict maximally.
 - **POME-STRICT-BARRIER-NONPOS-BG-001 — low / verified conditional deduction:** The one-way smaller-background criterion of Proposition 13.20.4 holds without \(\theta\ge0\), for **every** sufficiently small positive reduction \(t\), using the strict barrier supplied by §13.20.3 and the universal smooth-form upper bound \(\theta\le C\omega\). The printed proposition is true; only optional hypothesis sharpening is proposed.
