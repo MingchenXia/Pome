@@ -21,7 +21,9 @@ At \(o=[1:0:\cdots:0]\), for every real \(c>0\) one has the **exact stalk**
  =\bigl(z^\alpha:\alpha\in\mathbb N^n,\
        (\sum_{i=1}^n\sqrt{\alpha_i+1})^2>ac\bigr).\quad}
 \]
-Thus the complex singularity exponent is
+Thus, **using the explicit Pome integrability convention**
+\(c_o(\phi):=\sup\{c>0:\mathrm e^{-c\phi}\in L^1_{\mathrm{loc}}\}\),
+the complex singularity exponent is
 \[
 \boxed{\quad c_o(\Phi_{P_a})=n^2/a.\quad}
 \]
