@@ -1,3 +1,14 @@
+# 2026-10-25 — changing-background curve models have no general midpoints and may have infinite path length
+
+**Fresh main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **UTC checkpoint:** 2026-10-25T00:03:40.568Z. **Starting audit head:** 6622b52999cc3ecac84707afcf359954a732382a. [Complete English report with proofs and exact source anchors](reports/2026-10-25-curve-joint-metric-intrinsic-and-boundary-completeness.md).
+
+- **POME-CURVE-JOINT-NONMIDPOINT-001 — low / verified conditional deduction:** The complete joint space of Theorem 13.30.3 need not be geodesic. Two positive scalar-multiple backgrounds with zero polar measure and C^0 separation above the clipping threshold admit **no metric midpoint**; the fixed-background geodesic statement is unchanged.
+- **POME-CURVE-JOINT-NONRECTIFIABLE-001 — low / verified conditional deduction:** Every D-continuous path has length bounded below by the **unclipped** weighted series of endpoint C^k distances. On a flat elliptic curve, two area-one positive backgrounds differing by a small sine density give a finite-D-distance, topologically connected pair with **no rectifiable connecting path** for standard derivative C^k norms.
+- **POME-PSH-BOUNDARY-COMPLETE-METRIC-001 — low / verified conditional deduction:** On a bounded C^\infty pseudoconvex domain, the explicit §9.35 power exhaustion gives the smooth complete Kähler potential Φ=−log(−u), with collar bound H_Φ≥(η/2)|∂δ|²/δ²+η|ξ|². No claim of C^\infty metric under merely C² boundary regularity.
+- **Actual newly selected proof coverage:** §§9.35, 10.60, 13.28–13.30, not whole sections or upstream dependency chains; §9.31 is comparison context only. No false theorem claimed, no tests/build/CI/publication/main/source/registry/tag edits. User-excluded Demailly regularization and its Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme stays **deferred-by-user**.
+
+---
+
 # 2026-10-25 — sharp support-family hypothesis and high-dimensional Kummer nonrigidity
 
 **Freshly reviewed integrated main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **UTC checkpoint:** 2026-10-24T23:03:27Z. **Audit starting head:** `8271f45fb6762fa2372d5c4e5d5cd072ee02bf60`. [Complete English report with proofs, source labels and exact line anchors](reports/2026-10-25-soft-support-sharpness-and-kummer-semipositive-families.md).
