@@ -1,3 +1,16 @@
+# 2026-10-25 — sharp qualitative/quantitative boundary for non-pluripolar exponential damping
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit branch head:** `e5cd7f073f0a34a5ceab7fd0e89c561a646d3145`. [Proofs, hypotheses, current main blobs/line anchors, scope](reports/2026-10-25-nonpluripolar-exponential-moduli-and-slow-logarithmic-example.md).
+
+| Stable finding ID | Severity / status | Source, hypotheses, complete argument, proposed addition and affected dependents |
+| --- | --- | --- |
+| **POME-CAP-DOM-EXP-MODULUS-001** | low / **verified conditional deduction**; no false printed theorem | §5.44.5 `D260E972F57C`, `docs/sections/plurisubharmonic-functions-and-singularities--integration-against-non-pluripolar-measures/index.html`, main blob `15c449ab02d6f8df98edfa07f5286af7ac8e72d1`, lines 48–86; §5.29.2 `5CEF121C5391`, Eq. `3EF8F920CDD3`, `docs/sections/plurisubharmonic-functions-and-singularities--hermitian-capacity/index.html`, blob `77a9098e9bb922425d11c5b04d8927a3997ad44e`, lines 36–77. Finite `mu(E)<=A Cap(E)^gamma` yields uniform `O(lambda^gamma)` for gamma<1, `O(lambda log(1/lambda))` at gamma=1 and `O(lambda)` for gamma>1 by Tonelli/tail integration. **Optional corollary** after §5.44.5; downstream damping needs quantitative capacity domination for this rate. |
+| **POME-NONPOLAR-SLOW-EXP-001** | low / **verified conditional deduction**; no false printed lemma | Same §5.44.5 `D260E972F57C`, main lines 48–86 and §5.26.2 `88C7A8DCE36E`, `docs/sections/plurisubharmonic-functions-and-singularities--uniform-exponential-integrability/index.html` blob `d961c0412577bb6abdb8455efc44e2f35760c55c`, lines 18–41. On P¹ let `v_a=a log(|z|^2/(1+|z|^2))`, `0<a<1`. Push forward `dt/[t(log t)^2] dtheta/(2pi)` from `z=e^{-t+i theta}`, t>=e. This is a fixed finite **absolutely continuous** non-pluripolar measure. Exact `lim_{lambda->0} log(1/lambda)*int(1-e^{lambda v_a})dmu=1` by splitting at t=1/lambda and tails t>=M/lambda. Hence *no* positive power rate from bare non-pluripolarity, even fixed v; **optional example**, dependent quantitative claims require new hypotheses. Printed §5.44.5 is true. |
+
+New selected §5.26.2; incremental §§5.25.1–3 and 5.44.2/.4/.5/.7/.10/.12; §5.29.2 as fixed input. Remaining classical Skoda integrability, Cegrell fixed-measure lemma and full bounded torsion-current calculus **not certified**. Entire user-excluded Demailly/Bergman/L²/OT/multiscale/positivity-loss programme remains **deferred-by-user**; no section or project certified; no build, test, CI, publication or mathematical body/source/tag/registry/main modifications.
+
+---
+
 # 2026-10-25 — internal birational multiplier-ideal transform and smooth-center threshold
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **baseline audit branch:** `737b1429ac8bb8c3e4b34b4e6c66d906862bc23e`. [Proof, exact anchored sources, assumptions and scope](reports/2026-10-25-multiplier-ideal-birational-jacobian-rule.md).

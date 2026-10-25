@@ -1,3 +1,13 @@
+# 2026-10-25 — capacity-dominated exponential moduli and a logarithmically slow non-pluripolar measure
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting review head:** `e5cd7f073f0a34a5ceab7fd0e89c561a646d3145`. [Complete source-anchored English mathematics](reports/2026-10-25-nonpluripolar-exponential-moduli-and-slow-logarithmic-example.md).
+
+- **POME-CAP-DOM-EXP-MODULUS-001 — low / verified conditional deduction:** a finite measure satisfying `mu(E)<=A Cap_omega(E)^gamma` admits a uniform exponential damping modulus `O(lambda^gamma)` if `0<gamma<1`, `O(lambda log(1/lambda))` if `gamma=1`, and `O(lambda)` if `gamma>1`; proof by the exact layer-cake identity and §5.29.4.
+- **POME-NONPOLAR-SLOW-EXP-001 — low / verified conditional deduction:** a **fixed** absolutely continuous non-pluripolar probability on P¹ and a **fixed** normalized logarithmic potential have exact damping `I(lambda)~1/log(1/lambda)`. Finite non-pluripolarity alone implies no universal positive power rate. §5.44.5 remains correct and is not claimed false.
+- **Actual selected coverage:** new §5.26.2, incrementally §§5.25.1–3, 5.44.2/.4/.5/.7/.10/.12, §5.29.2 and §5.22 standing setup as narrow dependencies; no whole-section or upstream Skoda/Cegrell certification. Existing 747 ToC rows preserved. Entire dedicated Demailly approximation/regularization, Bergman, L², OT, multiscale and positivity-loss programme stays **deferred-by-user**, not reopened. No build, tests, CI, publication, source/tag/registry/main edits.
+
+---
+
 # 2026-10-25 — birational multiplier-ideal projection formula: internal Jacobian repair
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `737b1429ac8bb8c3e4b34b4e6c66d906862bc23e`. [Pinned complete English proof and source anchors](reports/2026-10-25-multiplier-ideal-birational-jacobian-rule.md).
