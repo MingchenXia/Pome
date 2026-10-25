@@ -1,3 +1,14 @@
+## 2026-10-26 — optimal relative-envelope mass factor; second instance of projection reference-kind typo
+
+| Stable finding ID | Severity / status | Pinned evidence, proof and disposition |
+| --- | --- | --- |
+| **POME-REL-ENVELOPE-MASS-SHARP-001** | low / **verified conditional deduction**, printed Lemma 16.28.69 true | main \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; \`docs/sections/envelopes-and-volumes-of-singularities/index.html\` blob \`0bdddc04cbc0cefd05591fdffc0796f3405b2a69\` lines **1246–1267**, source \`non-kahler-pluripotential-theory-94A16878\`, tag \`18D2E34A9D42\`. On fixed \(X=\mathbb P^n\), \(\theta=\omega_{\rm FS}\), smooth hyperplane \(H\), \(u=a\log|s_H|_{\rm FS}^2\), \(0<a<1\): \(\theta+dd^cu=(1-a)\theta+a[H]\), \(a\theta+dd^cu=a[H]\). Thus \(P_{a\theta}(u)=u\); non-pluripolar locality and zero mass on \(H\) give \(\langle(\theta+dd^cu)^k\rangle\wedge\theta^{n-k}=(1-a)^k\theta^n\) for all \(1\le k\le n\). Since the Kähler bounded-potential lower mass is \(v_-(\theta)=\int_X\theta^n\), equality holds in the printed top-mass bound. **Proposal:** optional sharpness example following 16.28.69; relevant dependent 16.28.70; no false theorem. [Full proof](reports/2026-10-26-hyperplane-relative-mass-sharpness-and-envelope-system-crossref.md). |
+| **POME-IDEAL-PROJECTION-REFERENCE-KIND-001** (new affected location, historical ID retained) | low / **confirmed error, editorial only** | \`docs/sections/envelope-systems-over-hermitian-perturbations/index.html\` blob \`856e240bbc5c86058ff861873f11e87db021e1bd\`, line **65**, proof of Proposition 16.29.3, tag \`160B15BF08FE\`, source \`non-kahler-pluripotential-theory-C6135113\`: “by corollary 18.4.4” points to \`2506B7AD6F19\` = **Proposition** 18.4.4 (\`F9497834\`) in \`docs/sections/multiplier-ideal-envelopes-and-goodness--ideal-projection/index.html\`, blob \`f1979b73c857f4874dd4a5cb10b93bcc047ebbdc\`. Another occurrence at §18.4.5 is already in the ledger: this row tracks a **new location of the same discrepancy**, not a new ID. Replace only “corollary” with “proposition”. The ordinary-envelope argument itself remains valid. [Evidence](reports/2026-10-26-hyperplane-relative-mass-sharpness-and-envelope-system-crossref.md). |
+
+**First selected coverage:** exactly §§16.28–16.29 (detailed passages and upstream qualifications in report). No chapter or complete section certified. Existing 747 ToC section IDs remain; all user-excluded dedicated regularization topics stay **deferred-by-user**.
+
+---
+
 ## 2026-10-26 — root-concavity of the bounded Dirichlet operator; first §§5.8/13.32 selected checks
 
 | Stable ID | Severity / status | Pinned evidence and disposition |

@@ -1,3 +1,13 @@
+# 2026-10-26 — sharp hyperplane relative mass and envelope-system cross-reference
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **pre-write audit head:** \`32d74a53c3a62797d733d8fdb4a75ba4da90e3ec\`. [Source-anchored complete English review](reports/2026-10-26-hyperplane-relative-mass-sharpness-and-envelope-system-crossref.md).
+
+- **POME-REL-ENVELOPE-MASS-SHARP-001 — low / verified conditional deduction:** On fixed \(\mathbb P^n\), \(u=a\log|s_H|^2\) obeys \(P_{a\omega_{\rm FS}}(u)=u\) and has non-pluripolar top mass exactly \((1-a)^n v_-(\omega_{\rm FS})\); its entire mixed non-pluripolar profile is \((1-a)^k\omega_{\rm FS}^n\). Thus Lemma 16.28.69's constant is optimal, not wrong.
+- **POME-IDEAL-PROJECTION-REFERENCE-KIND-001 — additional confirmed editorial occurrence:** proof of §16.29.3, line 65, calls Proposition 18.4.4 a “corollary”, just as already reported elsewhere in §18.4.5. This is a **new affected location of the same existing ID**, not a new theorem error or duplicated finding.
+- **Actual first selected proof coverage:** §§16.28.68–70 and 16.29.3/.5/.9/.13/.16–18/.20–22. Old 747-section ToC matrix retained, exactly two previously inventory-only rows upgraded; none fully certified. Relevant BT/ideal/recovery dependencies stay conditional, dedicated Demailly regularization/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme remains **deferred-by-user**. No builds, tests, CI, publishing, main/source/registry/tag changes.
+
+---
+
 # 2026-10-26 — bounded Dirichlet root concavity; selected §§5.8 and 13.32
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** db2677f8d5620e138d2849d3f9c7111e1945b6d4. [Full English source-pinned review](reports/2026-10-26-bounded-dirichlet-root-concavity-and-numerical-product-review.md).
