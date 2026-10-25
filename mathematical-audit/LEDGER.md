@@ -1,3 +1,16 @@
+# 2026-10-25 — internal birational multiplier-ideal transform and smooth-center threshold
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **baseline audit branch:** \`737b1429ac8bb8c3e4b34b4e6c66d906862bc23e\`. [Proof, exact anchored sources, assumptions and scope](reports/2026-10-25-multiplier-ideal-birational-jacobian-rule.md).
+
+| Stable finding ID | Severity / status | Anchored evidence, hypotheses, correction and affected dependents |
+| --- | --- | --- |
+| **POME-MI-BIRATIONAL-JACOBIAN-001** | **medium / verified repair** of **external dependency**, not false theorem | Proposition 16.6.4 SGPT \`3CAA346A\`, tag \`BBF7977859F1\`, \`docs/sections/the-envelope-operators--multiplier-ideal-envelopes/index.html\` main blob \`e37e0c4f6273acf41ee2e6d46d99ee5018bf78d5\`, lines 82–109. The cited Dem12, Proposition 5.8 is replaced for implication (2)⇒(1) by sheaf transformation \(\mathcal I_X(\phi)=\pi_*(\mathcal O_Y(R)\otimes\mathcal I_Y(\phi\circ\pi))\) proved with \(R=\mathrm{div}\,J_\pi\), Hartogs extension and proper change of variables; \`5.16.18\` tag \`B2A67FDA22D2\` already checks local exponent, \`5.17.8\` tag \`AF2A3F35959C\` supplies downstream psh descent. **Propose source-only reviewable insertion**, retain Dem12 attribution. Dependents: Prop16.6.10 and ideal-model pullback. Remaining divisorial valuative inputs conditional. |
+| **POME-MI-SMOOTH-CENTER-FLOOR-001** | **low / verified conditional deduction**; naive *unprinted* omission false | Same §16.6.4 source and \`docs/sections/pluripotential-theory-on-unibranch-spaces/index.html\` main blob \`6edfa6b19fa7cdbaf0c2665389fa7b3ca338cdf4\`, Cor9.10.10 tag \`178E0605C99D\` lines 94–107. For smooth codimension \`r≥2\` center \`Z\` and \(\phi=c\log\|z'\|^2\), \(\mathcal I(\phi)=\mathfrak m_Z^{\max(0,\lfloor c\rfloor-r+1)}\) by strict radial integrability and blowup \(J_\pi=u^{r-1}\). With \`r=c=2\`, correct \(\mathfrak m_Z\) versus incorrect \(\mathfrak m_Z^2\) if Jacobian twist is omitted. **Propose optional normalization example**, no change of printed theorem. Affects any later formula dropping relative canonical factor. |
+
+**New selected integrated proofs:** §16.6.2–5/.9–11/.17–18/.27–30, plus narrow context §5.16.18/21, §5.17.8, §9.10.10. No whole section certified, no transitive verification of valuation theory. §16.6.22's Bergman-based proof and every dedicated Demailly regularization/Bergman/L²/OT/multiscale/positivity-loss question remain **deferred-by-user**, not resolved. No tests/build/CI/publication or main/source/tag/registry modification.
+
+---
+
 # 2026-10-25 — capacity-tail sharpness and local BT mixed-mass review
 
 **Main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **prior audit head:** c241cc29a997b256a55271b032483c60a268e258. [Mathematical proofs and exact anchors](reports/2026-10-25-sharp-logpole-hermitian-capacity-and-quantitative-bt-mass.md).

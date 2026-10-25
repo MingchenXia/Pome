@@ -1,3 +1,13 @@
+# 2026-10-25 — birational multiplier-ideal projection formula: internal Jacobian repair
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **starting audit head:** \`737b1429ac8bb8c3e4b34b4e6c66d906862bc23e\`. [Pinned complete English proof and source anchors](reports/2026-10-25-multiplier-ideal-birational-jacobian-rule.md).
+
+- **POME-MI-BIRATIONAL-JACOBIAN-001 — medium / verified repair of a genuine external dependency:** §16.6.4 cites Dem12 for the sheaf identity \(\mathcal I_X(\phi)=\pi_*(K_{Y/X}\otimes\mathcal I_Y(\phi\circ\pi))\). A direct proof by holomorphic Jacobians, Hartogs extension and change of variables supplies exactly the missing birational pushforward step; Proposition 16.6.10 still requires its separate internal psh descent theorem. The printed claim is not false.
+- **POME-MI-SMOOTH-CENTER-FLOOR-001 — low / verified conditional deduction:** exact smooth-center logarithmic multiplier ideal \(\mathfrak m_Z^{\max(0,\lfloor c\rfloor-\operatorname{codim}Z+1)}\), with a codimension-two counterexample to the *unprinted* formula omitting the relative Jacobian divisor.
+- **New selected proof-level coverage:** §16.6 (only enumerated claims); §§5.16, 5.17 and 9.10 narrowly crosschecked as dependencies. Neither a whole section nor the project certified. §16.6.22 Bergman approximation, and all dedicated user-excluded regularization/Bergman/L²/OT/multiscale/positivity-loss work, remain **deferred-by-user**.
+
+---
+
 # 2026-10-25 — sharp Hermitian sublevel capacity and quantitative Bedford–Taylor mass decay
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting review head:** c241cc29a997b256a55271b032483c60a268e258. [Exact English mathematics, source tags and line anchors](reports/2026-10-25-sharp-logpole-hermitian-capacity-and-quantitative-bt-mass.md).
