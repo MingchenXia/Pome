@@ -1,3 +1,14 @@
+# 2026-10-26 — sharp finite generators, Baire-generic evaluations, and the \(\mathbf P^1\) extension conic
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `da5a0c6dc72accab2f22e5059ff6a4423a360f72`. [Complete integrated-source-anchored mathematical proof](reports/2026-10-26-generation-sharp-baire-ext-conic.md).
+
+- **POME-GENSEC-GLOBAL-SHARP-001 — low / verified conditional deduction:** Theorem 10.35.3's \(n+r\) global-generator bound is best possible for every \(n,r\ge1\). On \(\mathbf P^n\), \(\mathcal O(1)\oplus\mathcal O^{r-1}\) requires exactly \(n+r\) generators; elementary proof by constant trivial-component projection and common zeros of linear forms.
+- **POME-EVAL-RESIDUAL-GENERIC-001 — low / verified conditional deduction:** Lemma 10.35.2's good \(p\)-tuples actually form a dense \(G_\delta\) for countably many admissible evaluation families, and an open dense set when finitely many parameter bases are compact. Proof extracts the topology and rank-stratum/Baire argument already present in the integrated lemma.
+- **POME-EXT-P1-CONIC-001 — low / verified conditional deduction:** For extensions \(0\to\mathcal O(-2)\to E\to\mathcal O(2)\to0\) on \(\mathbf P^1\), the explicit connecting matrix \(\bigl(\begin{smallmatrix}a&b\\b&c\end{smallmatrix}\bigr)\) stratifies all extension classes: zero gives \(E=\mathcal O(-2)\oplus\mathcal O(2)\); the smooth projective conic \(ac=b^2\) of nonzero classes gives \(\mathcal O(-1)\oplus\mathcal O(1)\); its complement gives \(\mathcal O^2\). The proof uses explicit Čech cohomology and elementary section arguments, not Birkhoff–Grothendieck. This refines 10.36.14's noninjective forgetful map without declaring it false.
+- **First selected proof-level coverage:** §§10.35 and 10.36, plus nonexcluded 10.30.2/.4/.5/.10; sources, current blobs, tags and physical line anchors are in the report. The 747-section ToC inventory remains an inventory only; **no complete section or chain certified**. Original 10.30.7–8 analytical regularization and the entire author's Demailly/Bergman/\(L^2\)/Ohsawa–Takegoshi/multiscale/positivity-loss programme remain **deferred-by-user**, not resolved or certified. No tests, builds, CI, publishing, source-body/registry/permanent-tag or main edit.
+
+---
+
 # 2026-10-26 — sharp dimension of supports of continuous-potential Kähler currents
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** 30f42bcd426a34956ae7f291bc227ec7f821b56c. [Full mathematical report](reports/2026-10-26-null-kahler-current-sharp-support-dimension.md).
