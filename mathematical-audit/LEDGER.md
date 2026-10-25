@@ -1,3 +1,16 @@
+# 2026-10-25 — Gauduchon rational blowup jumps and double-scale transition
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **UTC checkpoint:** 2026-10-25T01:00:02.981Z. [Complete source-anchored proofs and precise hypotheses](reports/2026-10-25-gauduchon-rational-blowup-jumps-and-double-scaling.md).
+
+| Stable finding ID | Severity / precise status | Integrated evidence, justification, proposed change and affected dependents |
+| --- | --- | --- |
+| **POME-GAUD-BLOWUP-RATIONAL-JUMPS-001** | **low / verified conditional deduction**, not a false printed theorem | Proposition 12.23.1 source `non-kahler-pluripotential-theory-F3889ABB`, tag `1E30136A67F6`, and Eqs 12.23.2/.4/.5/.6 tags `48EE58E16325`, `F24A79D3D80E`, `FE92C82454E6`, `85080CF9B131`, `docs/sections/a-gauduchon-variational-volume--orders-of-degeneration-at-the-nef-boundary--strict-changes-under-one-blowup/index.html`, main blob `44644097cffbe33a98a2984623353827b8298fcd`, physical lines **13–18,24–51,70–95**. If `m>=2,p,k>=1,kp>m`, the exact ratio `V_up/V_down ~ (2^m−1)Beta(m/k,p−m/k)/Beta(1/k,p−1/k) epsilon^((m−1)/k)`. Every positive rational `a/b` equals a single-blowup order jump with both fixed order endpoints positive, choosing `m=a+1,k=b,p>m/k`. Full measure-density/Beta proof in report. **Propose optional corollary only**, preserve historic tags; dependents §§12.22,12.25–12.26. The smooth PDE and quotient theorem remain conditional upstream. |
+| **POME-GAUD-CONE-DOUBLE-SCALE-001** | **low / verified conditional deduction**, not a fixed-background counterexample | Proposition 12.26.1 tag `94DF4FEA70D3`, Corollary 12.26.2 tag `87EBA7661A8A`; `docs/sections/a-gauduchon-variational-volume--orders-of-degeneration-at-the-nef-boundary--a-maximum-rank-comparison-criterion/index.html`, blob `ccce6cecc0a14fcf89c2c385e7d8f87ff10df2c8`, lines **10–55**; precursor Lemma 12.25.1 tag `DAA29135206D`, `...integer-orders-in-fixed-projective-cones/index.html`, blob `82790640609d3d58b131873295a827e8d7869d85`, lines **10–58**. For `X=P¹×P^q`, `theta_t=tB1+B2`, `Omega=B1+B2`, the **exact** closed volume is `(q+1)(t+epsilon)(1+epsilon)^q`. Each fixed `t>0` has order 0, `t=0` order 1, but moving `t=epsilon^s` has slope `min(s,1)` for all real `s>0`. Demonstrates parameter nonuniformity, not a false theorem. **Propose optional example** after 12.26.2; affects interpretations of uniform volume-asymptotic and smooth-family variation, not the printed birational fixed-order claim. |
+
+**New selected proof-level coverage:** §§12.21,12.22,12.23,12.25,12.26 (not whole-section certifications); §12.24 not rereviewed. No reclassification of any earlier ledger finding; dedicated Demailly approximation/regularization, Bergman/L²/OT/multiscale/positivity-loss programme remains **deferred-by-user**. Only audit Markdown proposed for review branch; no main/source/body/registry/tag/published site/CI alterations.
+
+---
+
 # 2026-10-25 — non-length metric geometry of curve models and complete boundary Kähler potential
 
 **Fresh main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **UTC checkpoint:** 2026-10-25T00:03:40.568Z. [Full proof report, integrated source tags and physical HTML anchors](reports/2026-10-25-curve-joint-metric-intrinsic-and-boundary-completeness.md).

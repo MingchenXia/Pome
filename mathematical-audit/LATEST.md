@@ -1,3 +1,13 @@
+# 2026-10-25 — exact rational birational jumps and noncommuting Gauduchon cone limits
+
+**Fresh main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **UTC checkpoint:** 2026-10-25T01:00:02.981Z. **Starting review head:** `1efbbcaad782d1b0e58210ed2809d19a4fa4f9fc`. [Full English source-anchored report and proofs](reports/2026-10-25-gauduchon-rational-blowup-jumps-and-double-scaling.md).
+
+- **POME-GAUD-BLOWUP-RATIONAL-JUMPS-001 — low / verified conditional deduction:** Strengthen Proposition 12.23.1: for a smooth nonclosed semipositive product background and one smooth-center blowup, the Gauduchon variational-volume **ratio** has an explicit positive Beta-function prefactor and exponent `(m-1)/k`. Choosing `m=a+1, k=b, p>(a+1)/b` realizes **every positive rational jump `a/b`** with *both* endpoint orders positive. The printed proposition and its integer cases are correct.
+- **POME-GAUD-CONE-DOUBLE-SCALE-001 — low / verified conditional deduction:** On `P¹×P^q`, `theta_t=t B1+B2`, `Omega=B1+B2`: exact `V_mu(theta_t+epsilon Omega)=(q+1)(t+epsilon)(1+epsilon)^q`. Fixed-background order is 0 at `t>0` and 1 at `t=0`, despite `C^infty` convergence; `t=epsilon^s` has double-scale slope `min(s,1)`. This does not contradict §§12.25–12.26's **fixed** parameter order results.
+- **Actual newly selected proof coverage:** §§12.21–12.23 and 12.25–12.26, including explicit elliptic determinant/Schur computations, birational Gauduchon test transport, the blowup model's Beta integral, singular divisor comparison and maximal-rank criterion. §12.24 context only; no complete section or PDE/Hironaka prerequisite certified. All 747 section rows preserved. No test/build/CI/formalization/publication/PR/main/tag/registry writes. User-excluded regularization programme remains **deferred-by-user**.
+
+---
+
 # 2026-10-25 — changing-background curve models have no general midpoints and may have infinite path length
 
 **Fresh main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **UTC checkpoint:** 2026-10-25T00:03:40.568Z. **Starting audit head:** 6622b52999cc3ecac84707afcf359954a732382a. [Complete English report with proofs and exact source anchors](reports/2026-10-25-curve-joint-metric-intrinsic-and-boundary-completeness.md).
