@@ -1,6 +1,6 @@
 # 2026-10-25 — birational multiplier-ideal projection formula: internal Jacobian repair
 
-**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **starting audit head:** \`737b1429ac8bb8c3e4b34b4e6c66d906862bc23e\`. [Pinned complete English proof and source anchors](reports/2026-10-25-multiplier-ideal-birational-jacobian-rule.md).
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `737b1429ac8bb8c3e4b34b4e6c66d906862bc23e`. [Pinned complete English proof and source anchors](reports/2026-10-25-multiplier-ideal-birational-jacobian-rule.md).
 
 - **POME-MI-BIRATIONAL-JACOBIAN-001 — medium / verified repair of a genuine external dependency:** §16.6.4 cites Dem12 for the sheaf identity \(\mathcal I_X(\phi)=\pi_*(K_{Y/X}\otimes\mathcal I_Y(\phi\circ\pi))\). A direct proof by holomorphic Jacobians, Hartogs extension and change of variables supplies exactly the missing birational pushforward step; Proposition 16.6.10 still requires its separate internal psh descent theorem. The printed claim is not false.
 - **POME-MI-SMOOTH-CENTER-FLOOR-001 — low / verified conditional deduction:** exact smooth-center logarithmic multiplier ideal \(\mathfrak m_Z^{\max(0,\lfloor c\rfloor-\operatorname{codim}Z+1)}\), with a codimension-two counterexample to the *unprinted* formula omitting the relative Jacobian divisor.
