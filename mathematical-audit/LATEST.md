@@ -1,3 +1,13 @@
+# 2026-10-25 — sharp Hölder Monge–Ampère ball masses and smooth density logarithmic cost
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** be465808e940d7f97ccc520bbfcfb4d114e5db6d. [Complete source-anchored mathematical report](reports/2026-10-25-sharp-holder-ball-mass-and-smooth-density-log-cost.md).
+
+- **POME-SMOOTH-MA-LOG-COST-001 — low / verified conditional deduction:** an explicit smooth positive family on fixed \(\mathbb P^1\times\mathbb P^{n-1}\) has \(\sup U=0\), \((\omega+dd^cU)^n\leq\Lambda\omega^n\) and \(\|U\|_\infty=\log\Lambda\). Thus the printed Theorem 14.3.5 remains correct, but its uniform constant necessarily grows at least logarithmically in \(\Lambda\).
+- **POME-HOLDER-BALL-MASS-EXPONENT-001 — low / verified conditional deduction:** on any Hermitian \(n\)-fold, a \(C^{0,\alpha}\) \(h\)-psh potential has \(\mathrm{MA}_h(u)(B_r)=O(r^{n\alpha})\); the bound is sharp for every \(0<\alpha\leq1\), with exact radial model \(\int_{B_r}(dd^c|z|^\alpha)^n=(\alpha/2)^nr^{n\alpha}\). For each \(0<\alpha<1\), the original spherical construction also admits a sharp singular-shell version. Earlier exponent-\(1/2\) records are *not* repeated.
+- **Actual coverage:** first selected proof passages §§14.3, 14.5 and 15.26; §5.27.25 incremental local normalization crosscheck only. Neither the entire sections nor downstream existence results certified. All 747 actual ToC inventory entries preserved. Entire dedicated Demailly/regularization/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme remains **deferred-by-user**. No complete project build, CI, formal verification, publication or main/source/tag/registry edits.
+
+---
+
 # 2026-10-25 — finite non-Archimedean joins and semipositive torsion oscillations
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** 5ef8820193c8afb40a85a2dc69513af720faff21. [Complete source-anchored proof report](reports/2026-10-25-nonarchimedean-finite-joins-and-torsion-semipositive-growth.md).
