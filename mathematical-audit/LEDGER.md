@@ -1,3 +1,15 @@
+# 2026-10-25 — exact real-cube Robin capacity and unreviewed-section rotation
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Review branch at start:** `ce0d84a24630262859540f0d02f8f2586646f8bb`. [Source-anchored mathematical report](reports/2026-10-25-exact-robin-capacity-for-real-cubes.md).
+
+| Stable finding ID | Severity / status | Exact source, hypotheses, result, correction proposal and affected dependents |
+| --- | --- | --- |
+| **POME-CUBE-ROBIN-EXACT-001** | **low / verified conditional deduction**; printed theorem correct | Proposition 16.36.1 tag `6BA3C254E28C`, source `klimek-pluripotential-theory-1EE8289D`, `docs/sections/the-real-cube-equilibrium-density/index.html:8–35`, main blob `712e936992d5ae12cca72b83b85561123e932b27`. Theorem 16.37.3 tag `27353237EC80`, source `klimek-pluripotential-theory-DAE157DD`, `docs/sections/robin-capacity-and-its-quantitative-comparison/index.html:80–114`, blob `525f388094d0efb6b9ef9f8701d8ac459fd22814`. For `n≥1,r>0,K_r=[−r,r]^n`: exact `gamma(K_r)=log(2/r)`, `c(K_r)=r/2`, `alpha(K_r)=r/(1+sqrt(1+r²))`. When `r√n≤1`, ratio `c/alpha→1` as `r↓0`, sharpening the **lower constant** in Theorem 16.37.3, not contradicting it. Proof by Joukowski radial supremum and product formula; normalized arcsine log moment as consistency check. Optional corollary only; dependents: exact fixed-ball versus Robin capacity normalization. |
+
+**Actual selected proof reading:** §§16.37.2–5, 16.37.8, 16.38.1–3 (tag `DE0691E14C0E`, blob `334d2453d12bdfeab3379fb0489bba3ddebf1ddb`, lines 11–114), 16.41.1 (tag `1129B1616DEE`, blob `fd5efa1edf755ed59b0c72f3dce7e28fdd1dc2aa`, lines 12–38), plus limited §16.36.1 source cross-check. No fully verified sections, no new false-theorem claim. Existing `POME-CUBE-LORENTZ-ENDPOINT-001` stays historical and is **not repeated**. Upstream comparison, bounded Bedford–Taylor products and Bernstein–Walsh are conditional. Dedicated Demailly/Bergman/L²/OT/multiscale/positivity-loss work remains **deferred-by-user**, untouched.
+
+---
+
 # 2026-10-25 — positivity versus signed directed nets in joint mollification
 
 **Pinned main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full exact-source report and complete proofs](reports/2026-10-25-joint-mollification-positive-nets-and-signed-obstruction.md).

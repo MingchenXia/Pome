@@ -1,3 +1,12 @@
+# 2026-10-25 — exact Robin and fixed-ball capacities of real cubes
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **audit starting head:** `ce0d84a24630262859540f0d02f8f2586646f8bb`. [Exact English source-anchored proof and selected proof checks](reports/2026-10-25-exact-robin-capacity-for-real-cubes.md).
+
+- **POME-CUBE-ROBIN-EXACT-001 — low / verified conditional deduction:** for `K_r=[-r,r]^n`, `c(K_r)=r/2`, `alpha(K_r)=r/(1+sqrt(1+r^2))`, and their ratio approaches one as `r→0`. This proves sharpness of the lower coefficient in §16.37.3; the printed theorem is correct. The one-variable Joukowski bound and §16.36 product-max formula give a complete elementary proof and an independent normalized arcsine-measure check.
+- **Actual selected proof review:** §§16.37, 16.38, 16.41; §16.36 current-source cross-check only. Earlier `POME-CUBE-LORENTZ-ENDPOINT-001` was located in the historic ledger and **not counted as new**. No whole section certified; all 747 existing ToC rows preserved. No builds, tests, CI, formalization, site publication or source/main/tag/registry writes. Dedicated Demailly regularization/Bergman/L²/OT/multiscale/positivity-loss research remains **deferred-by-user**.
+
+---
+
 # 2026-10-25 — coupled mollification of Radon nets and a compactly supported signed-net obstruction
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit head:** 17db5e9b50cd5d14568e717f95a199f8d5da1786. [Full English source-anchored proof](reports/2026-10-25-joint-mollification-positive-nets-and-signed-obstruction.md).
