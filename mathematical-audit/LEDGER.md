@@ -1,3 +1,16 @@
+# 2026-10-25 — ideal projection, obstacle stability, and curve-product checks
+
+**Main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`, audit branch previously `1689f9475b9a125be4606f0b8ce46fa49aae6b27`; [full report](reports/2026-10-25-ideal-obstacle-concavity-and-projection-reference-kind.md).
+
+| Stable ID | Severity/status | Evidence, justification, affected dependents and correction |
+| --- | --- | --- |
+| **POME-IDEAL-PROJECTION-REFERENCE-KIND-001** | low / **confirmed error** (editorial cross-reference only, **not** a false theorem) | §18.4.5 tag `B853F2E6C70B`, `docs/sections/multiplier-ideal-envelopes-and-goodness--ideal-projection/index.html` blob `f1979b73c857f4874dd4a5cb10b93bcc047ebbdc` lines 99–106 calls §18.4.4 “corollary”, whereas §18.4.4 is Proposition tag `2506B7AD6F19`, lines 69–91. Correct only “corollary” → “Proposition”; finite-mass theorem itself stays conditional on §16.28.7 and is **not** disproved. |
+| **POME-IDEAL-OBSTACLE-CONCAVITY-001** | low / **verified conditional deduction** | §18.12.2 tag `84E9AB1A05B4` blob `6bfe360706d85c21e83b0212de472de716d8c04c` lines 45–70, §5.37.3 valuations criterion, and §18.16.2 tag `9E5A9E7C5770`, Eq tag `F57341993FE4`, blob `93e080ea9c15c5ec03b28c2ec51eb469c769603b` lines 62–115. Convex combination of actual ideal competitors preserves all modification Lelong numbers, hence I-type, giving pointwise concavity; monotonicity + constant-shift invariance imply optimal (C^0) Lipschitz constant 1 and net continuity. Optional corollary to §18.12.2; separated factor estimates depend on the existing tensorization theorem. Does not repair external analytic prerequisites. |
+
+**Actual new first selected proof reading:** §§18.4.2–6/.8–9, 18.16.1–2/.5–6, 18.25.1; narrow §§18.12.2, 5.37.3–4, 5.43.18/.24. In the §18.16.2 proof the apparently problematic slice obstacle step *is* supplied by its partial supremum bound (ale e_m); no false positive recorded. The blowup/degree-one transfer in §18.25.1 was checked but §23.1.1 is an upstream conditional input. No full sections certified. Demailly approximation/regularization and its dedicated Bergman/L²/OT/multiscale/positivity-loss programme remain **deferred-by-user**. No tests/build/CI/site/source/main/tag/registry change.
+
+---
+
 # 2026-10-25 — toric exact multiplier-ideal threshold and inradius-controlled varying references
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **full exact anchors and proofs:** [English report](reports/2026-10-25-toric-nonanalytic-multiplier-ideals-and-inradius-stability.md).

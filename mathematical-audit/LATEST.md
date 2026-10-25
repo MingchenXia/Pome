@@ -1,3 +1,13 @@
+# 2026-10-25 — ideal-obstacle concavity and projection-reference correction
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `1689f9475b9a125be4606f0b8ce46fa49aae6b27`. [Complete pinned English proof/audit](reports/2026-10-25-ideal-obstacle-concavity-and-projection-reference-kind.md).
+
+- **POME-IDEAL-PROJECTION-REFERENCE-KIND-001 — low / confirmed error (editorial only):** Corollary 18.4.5 cites the last identity of nonexistent “corollary 18.4.4”; the actual source is Proposition 18.4.4. No mathematical claim is alleged false; propose a one-word reference-kind correction only.
+- **POME-IDEAL-OBSTACLE-CONCAVITY-001 — low / verified conditional deduction:** the ideal envelope is concave under convex interpolation of smooth obstacles, pointwise 1-Lipschitz in the obstacle sup norm with **sharp** constant, and uniformly continuous for arbitrary directed nets of uniformly convergent obstacles. Also yields a separated-product sum-of-errors bound via existing §18.16.2, whose other dependencies remain conditional.
+- **New selected coverage:** §§18.4, 18.16, 18.25; narrow original-source crosschecks in §§18.12.2, 5.37.3–4 and 5.43.18/.24. No full-section certification, 747 actual ToC rows retained. All user-excluded Demailly regularization/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss work remains **deferred-by-user**, not reopened. No builds, tests, CI, source/registry/tag/main modifications or publication.
+
+---
+
 # 2026-10-25 — exact ideals of a nonanalytic toric pole and inradius stability
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Report first committed:** 418657b8ce92f54026c4a5943bfc5197ed8ac93f; **subsequent net-proof clarification:** 11c779acd9ed7113782f5acb0fd593d5b937a55d. [Source-anchored full proofs](reports/2026-10-25-toric-nonanalytic-multiplier-ideals-and-inradius-stability.md).
