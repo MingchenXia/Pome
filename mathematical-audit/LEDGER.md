@@ -1,3 +1,14 @@
+## 2026-10-26 — fixed-root Gauduchon determinant stability and supercritical concentration
+
+| Stable ID | Severity / status | Pinned source, proof and disposition |
+| --- | --- | --- |
+| **POME-GAUD-FIXED-ROOT-STABILITY-001** | low / **verified conditional deduction**; printed Theorem 12.18.8 remains true | Main b6933b772f41b45918f7e25ed1afbbb1fd892272; docs/sections/a-gauduchon-variational-volume--geometric-bounds-and-determinant-concentration/index.html, blob 6316720e1ce9112dc6b9b2f62db91361cba7e0cc; Theorem 12.18.8 source 6957E040 / tag 3EA495FF9D1A lines 131–196; support identity (12.18.9) source 1F4A2E2C / tag 290803738499 lines 140–145. For fixed smooth positive root r, k_r=C r^(n−1)/||r||_n^(n−1), C=V^(−1/n), q=n/(n−1), every T satisfies ||k_T−k_r||_q ≤ 2^((3−q)/2) sqrt[C Δ_r(T)/((q−1)||r||_n)], where Δ_r= C||r||_n−int r k_T. Complete scalar Taylor-remainder/Hölder proof; optimal square-root exponent realized by smooth closed torus forms. Convergence holds for arbitrary directed near-maximizing nets. Proposed optional corollary, not a false theorem. [Complete proof](reports/2026-10-26-gauduchon-fixed-root-lq-stability-and-concentration.md). |
+| **POME-GAUD-CONCENTRATION-LQ-VS-LP-001** | low / **verified conditional deduction**; printed Proposition 12.18.2 remains true | Same pinned main/page; Proposition 12.18.2 source DB141F7B / tag 89AE8B534538 lines 34–96; Equation 12.18.4 source B7A807F6 / tag A89800F03DB4 lines 58–74. Its concentrating fixed-root maximizing family actually has strong L^q density convergence with ||k_S−C||_q ≤ C[2/log(1/epsilon)]^(1/q) and current coefficientwise total-variation convergence O(1/log), while every fixed higher L^p norm diverges. Follows from |a^(1/q)−b^(1/q)|^q≤|a−b| and the exact torus form expansion. Distinct from Theorem 12.18.17's varying exact maximizers; no duplicate finding. Optional explanatory addition, not a correction of false mathematics. [Full proof](reports/2026-10-26-gauduchon-fixed-root-lq-stability-and-concentration.md). |
+
+**First selected proof-level section coverage:** §12.18.1/.2/.6/.8/.13/.15/.17, integrated lines 13–361, with explicit determinant normalization and rank/measure distinctions inspected. Upper smooth equation 14.2.1, invariance 11.1.7, determinant duality §§12.7–12.9 and bounded-product inputs remain conditional/unverified here; **no full section certification**. All 747 actual ToC rows preserved; dedicated Demailly approximation/regularization/Bergman/L2/Ohsawa–Takegoshi/multiscale/positivity-loss remains **deferred-by-user**. No build, tests, CI, publication or main/source/tag/registry edits.
+
+---
+
 ## 2026-10-26 — sharp weak endpoint for blowup pushforwards; selected §15.24 checks
 
 | Stable ID | Severity / status | Pinned source, proof and disposition |
