@@ -1,3 +1,16 @@
+# 2026-10-25 — transverse OT measure simplex and exact projective tangent spectrum
+
+**Reviewed main:** 'b6933b772f41b45918f7e25ed1afbbb1fd892272', **prior review head:** 'e1d505fe5494bf2a2f056b0aabd1eb07f7e13166', **UTC checkpoint:** 2026-10-25T09:10:42.055Z. [Full English report, precise proof and anchors](reports/2026-10-25-ot-transverse-probability-simplex-and-projective-tangent-spectrum.md).
+
+| Stable ID | Severity / status | Evidence, hypotheses, correction and affected dependents |
+| --- | --- | --- |
+| **POME-OT-TRANSVERSE-PROBABILITY-SIMPLEX-001** | low / **verified conditional deduction**, printed theorem correct | §10.29.4 tag 244BCBFB750A, automorphy Eq.10.29.5 tag 8DB42C059FB9, §10.29.6 tag 98BD3A283B8E, current main 'docs/sections/bott-chern-classes-and-singular-loci--oeljeklaus-toma-manifolds/index.html' blob 8846df97111fa26289cd5e0cb4fd8f8a1fc5a035 lines 69–125. For type (1,1) and L=log(lambda)>0, continuous theta-psh functions modulo constants correspond affinely/homeomorphically (C0 vs weak-star) to probabilities rho on R/LZ by ds+(D²−D)h=Lrho; periodic Fourier inverse is uniformly convergent. Singular-continuous transverse currents and C0 compactness follow. Optional corollary; OT construction remains conditional. Not a repeat of older OT mass/trace findings. |
+| **POME-PROJTANGENT-TWIST-NAKANO-SPECTRUM-001** | low / **verified conditional deduction**, printed curvature identity correct | §10.34.10 tag 722E8364B69C and §10.34.6 tag E048AA8C1785; main 'docs/sections/vector-bundles-connections-and-extensions--tensor-curvature-and-determinant-twists/index.html' blob 602137fd659e52bbb7d2b1e459e92fb44709ed53 lines 100–114,209–223. For n>=2, the induced Nakano spectrum of T P^n tensor O(k) is exactly (k+2) on Sym² and k on wedge², giving sharp Griffiths/Nakano integer-twist thresholds; n=1 is separate. Optional projective tangent example refinement; upstream algebraic Chern formulas §10.33.6 tag DAA549FD5760 are conditionally used; no analytic L2 vanishing proof reopened. |
+
+**Coverage:** selected mathematical passages of §§10.28–10.29, §§10.33–10.34, with §10.32 orientation only. Previous 'POME-BLOW-SLICE-001', 'POME-OT-LATTICE-001', 'POME-OT-TRACE-001' and 'POME-OT-MASS-002' retained without relabeling. No full sections certified. All dedicated excluded regularization, Bergman, L2, OT, multiscale, positivity-loss findings remain **deferred-by-user**. No builds, tests, CI, website publication or main/source/tag/registry write.
+
+---
+
 # 2026-10-25 — exact slice-density \(L^1\) defect and complete monomial ratio interval
 
 **Reviewed main** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **audit starting head** `c080a549e4e5208cf8e95daa8eef2bb238d38336`. [Detailed complete proofs and pinned anchors](reports/2026-10-25-grassmannian-slice-excess-and-monomial-multiplicity-intervals.md).

@@ -1,3 +1,13 @@
+# 2026-10-25 — OT transverse probability simplex and exact Nakano twist spectrum
+
+**Main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Pre-write audit head:** e1d505fe5494bf2a2f056b0aabd1eb07f7e13166. **UTC checkpoint:** 2026-10-25T09:10:42.055Z. [Complete English proof and anchors](reports/2026-10-25-ot-transverse-probability-simplex-and-projective-tangent-spectrum.md).
+
+- **POME-OT-TRANSVERSE-PROBABILITY-SIMPLEX-001 — low / verified conditional deduction:** on an Inoue surface of type (1,1), normalized continuous theta-psh potentials are AFFINELY HOMEOMORPHIC, in the uniform topology, to Borel probability measures on the transverse log-circle in weak-star topology. Their transverse curvature is the measure mu=ds+(D²−D)h of mass log(lambda); every such measure occurs, including singular-continuous measures. The printed OT rigidity theorem and atomic example remain correct.
+- **POME-PROJTANGENT-TWIST-NAKANO-SPECTRUM-001 — low / verified conditional deduction:** for the induced metric on T P^n tensor O(k), n>=2, the exact Nakano eigenvalues are k and k+2, with skew/symmetric multiplicities n(n−1)/2 and n(n+1)/2. Griffiths strict positivity iff k>=0; Nakano strict positivity iff k>=1. The n=1 exception is explicitly retained. Original formulas correct.
+- **Actual selected coverage:** proof-level selected §10.29 and previously inventory-only §10.34 algebraic curvature; incremental §10.28 historical slicing; §10.33 algebraic curvature only; §10.32 context only. Old OT lattice/trace/mass and blowup findings not repeated. 747 current ToC rows retained, no complete-section certification. Dedicated Demailly approximation/regularization and Bergman/dedicated L2/OT/multiscale/positivity-loss programme remains **deferred-by-user**. No tests, build, CI, publication, source/registry/tag/main changes.
+
+---
+
 # 2026-10-25 — Grassmannian slice density excess and monomial multiplicity intervals
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting review head:** `c080a549e4e5208cf8e95daa8eef2bb238d38336`. [Full English source-anchored report](reports/2026-10-25-grassmannian-slice-excess-and-monomial-multiplicity-intervals.md).
