@@ -1,3 +1,14 @@
+# 2026-10-26 — canonical PSH representative bridge and compact scalar Hermitian rigidity
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** ae3e637b72cd32c394b906f6677b88a152b9b36e. [Source-anchored detailed proof](reports/2026-10-26-psh-representative-internal-bridge-and-hermitian-scalar-rigidity.md).
+
+- **POME-QPSH-DISTRIBUTIONAL-INTERNAL-BRIDGE-001 — low / verified repair:** §5.22.2 cites external DemCADG for the canonical distributional PSH representative, but the complete identical local input is **already proved** in §5.9.1 (tag 2A4F77263F48). Exact local quadratic-correction and overlap-gluing replacement given. Keep historical attribution; do not merge distinct relative/global and flat/local statements.
+- **POME-HERM-SCALAR-COMPACT-RIGIDITY-001 — low / verified conditional deduction:** on compact connected complex X of dimension n≥2, all real distributional pairs satisfying fixed θ+ddᶜu=aγ, γ Hermitian, have identical scalar a and differ in u only by a constant. The difference b solves db=−bCγ, hence has fixed strict sign unless zero, contradicted by extrema of the potential difference. Dimension one and noncompact sharp counterexamples included.
+- **Actual new selected proof-level:** §§5.22–5.24 (relative representatives, background changes, maximal/gluing/extension principles); §5.9.1 directly consulted as internal source. **Three inventory-only ToC rows upgraded; 747 unique rows retained**. No complete-section/earlier-PDE certification, no printed theorem refuted.
+- **Scope:** dedicated Demailly approximation/regularization/Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss activity remains **deferred-by-user** and untouched. Only audit Markdown; no tests, build, CI, formal verification, publication or main/source/registry/permanent-tag edits.
+
+---
+
 # 2026-10-26 — local essential floors for smooth tests; explicit logarithmic-obstacle cutoff
 
 **Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **starting audit head:** \`f3f9ec6a391336765c096b0a5c029b7b48762fdd\`. [Source-anchored proofs and complete hypotheses](reports/2026-10-26-individual-density-smooth-tests-and-log-pole-obstacle-cutoff.md).

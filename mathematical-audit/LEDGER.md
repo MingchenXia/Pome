@@ -1,3 +1,16 @@
+## 2026-10-26 — internal relative-PSH representative bridge and compact scalar Hermitian uniqueness
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** ae3e637b72cd32c394b906f6677b88a152b9b36e. [Exact source anchors and proofs](reports/2026-10-26-psh-representative-internal-bridge-and-hermitian-scalar-rigidity.md).
+
+| Stable finding ID | Severity / status | Source anchors, mathematical argument, proposed correction and dependents |
+| --- | --- | --- |
+| **POME-QPSH-DISTRIBUTIONAL-INTERNAL-BRIDGE-001** | low / **verified repair** of avoidable external mathematical input; original theorem correct | §5.22.2 tag 887F604607E9, docs/sections/plurisubharmonic-functions-and-singularities--plurisubharmonic-potentials/index.html, blob bf6e5ca74ac04a3d79565bb58bda8d968a68be68, lines 25–46 (DemCADG cite line 44). The identical required local distribution-to-PSH statement with uniqueness is internally §5.9.1 tag 2A4F77263F48, docs/sections/plurisubharmonic-functions--positive-hessians-and-holomorphic-maps/index.html, blob 6f73e47e8a1f91a54fc37761c07627b4724306ce, lines 10–26. Correct via T+A|z|² and unique overlap gluing. Propose proof-level internal citation, retaining historical external attribution. §5.23 and §5.24 canonical representative dependents; no change of conclusions or canonical variants. |
+| **POME-HERM-SCALAR-COMPACT-RIGIDITY-001** | low / **verified conditional deduction**; not false printed theorem | §5.22.4 tag 0DED015E67EF, same §5.22 file/blob, lines 78–102. On compact connected complex n≥2 for γ>0 Hermitian and fixed smooth real θ, two pairs (ui,ai) with θ+ddᶜui=aiγ have smooth differences w,b with ddᶜw=bγ and db=−bCγ from wedging d(bγ)=0 with γ^(n−2). First-order path ODE makes b zero or fixed-sign nowhere zero; max/min of w force b≤0 and b≥0 respectively, so b=0 and w constant. Sharp counterexamples: small smooth nonconstant perturbations on P¹ with positive scalars; Euclidean C^n noncompact with ui=0,|z|² and ai=1,2. Optional corollary after §5.22.4; upstream elliptic regularity conditional; useful for scalar Hermitian trace/curvature uniqueness, not matrix MA. |
+
+**Actual review:** §5.22.1–4, §5.23.1–2, §5.24.1–9 selected integrated proof reading, with internal §5.9.1 as an inspected dependency. Checks include frozen-background ±ε factor, Euclidean circular-mean normalization, real-period convexity and Hartogs extension. Three previously inventory-only sections upgraded, **747 distinct current ToC rows preserved**, no full-section certification. Demailly approximation/regularization and its dedicated Bergman, L², OT, multiscale and positivity-loss programme remain **deferred-by-user**. No tests, build, CI, formalization, publication, source/registry/tag/main writes.
+
+---
+
 ## 2026-10-26 — essential local floors in smooth density tests and an elementary obstacle cutoff
 
 **Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **starting audit head:** \`f3f9ec6a391336765c096b0a5c029b7b48762fdd\`. [Full exact-source proof report](reports/2026-10-26-individual-density-smooth-tests-and-log-pole-obstacle-cutoff.md).
