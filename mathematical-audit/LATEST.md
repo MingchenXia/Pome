@@ -1,3 +1,14 @@
+# 2026-10-27 — vanishing-density third-derivative jumps and dimension-sharp discontinuous constant-MA models
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **review branch starting head:** `73a3e3e094c607129b9d4d2329c9c6de99b13034`. [Full English proofs with physical anchors, blobs and permanent tags](reports/2026-10-27-vanishing-density-sobolev-jumps-and-higher-dimensional-constant-ma-discontinuities.md).
+
+- **POME-DEGENERATE-MA-THIRD-SOBOLEV-JUMP-001 — low / verified conditional deduction:** §15.20.8's symmetric projective positive-exponent solutions and selected limit are locally W^{2,∞} on the vanishing-density band but fail W^{3,1} across each transition hypersurface; the third transverse derivative contains a nonzero surface Dirac term of exact coefficient J=z₀(t*)−p′(t*)>0. The printed C^{1,1} but non-C² theorem is correct; model construction and radial flux remain conditional inputs.
+- **POME-CONSTANT-MA-DISCONTINUITY-DIMENSION-001 — low / verified conditional deduction:** §15.21.8's two-dimensional constant-MA potential has **exact** discontinuity locus {(0,w):w≠0}, not the entire polar set. Cartesian products lift its constant-density local counterexample and §15.21.12's compact flat-torus gluing to every complex dimension ≥2, retaining boundedness, minimal singularities and failure of every L^p (p>1); dimension one is excluded by the linear distributional Poisson equation. No printed theorem refuted and no additional global smooth-density regularity asserted.
+- **Actual newly selected proof-level coverage:** §§15.20.1/.4/.5/.8 and 15.21.2/.8/.12/.15 with exact passages in the report; two inventory-only ToC rows upgraded. **747 unique current section rows retained, no whole section certified**. Prior findings preserved.
+- **Scope:** dedicated Demailly approximation/regularization and Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss completion remain **deferred-by-user**, never reopened. Only review-branch audit Markdown, no math body/registry/source/permanent-tag/main/CI/build/formal proof/website updates.
+
+---
+
 # 2026-10-27 — projective twisted Euler polynomial and doubled-hyperplane automorphisms
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `e506fcdabac003a47bb5e3040f3989d9c03dcdf7`. [Full English proof report with exact blobs, source labels and physical anchors](reports/2026-10-27-projective-twisted-euler-and-double-hyperplane-automorphisms.md).
