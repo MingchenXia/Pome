@@ -1,3 +1,13 @@
+# 2026-10-26 — exact elliptic prolongation degeneracy and smooth-parameter normalization
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Detailed English proofs, precise source anchors and conditional boundaries](reports/2026-10-26-elliptic-prolongation-sharp-symbol-and-smooth-normalization-basechange.md).
+
+- **POME-ELLIPTIC-PROLONG-EXACT-DEGEN-001 — low / verified conditional deduction:** for the rank-three prolonged second-order operator of Proposition 2.20.11, the principal symbol is invertible **exactly when t²≠2**. The two singular t-levels and offending real covector slopes are computed explicitly; the printed |t|<1 restriction remains correct but is not sharp for *ellipticity alone*. A limited SymPy polynomial test confirmed the commutator identity, not the full proof.
+- **POME-NORMALIZATION-SMOOTH-BASE-001 — low / verified conditional deduction:** normalization commutes with product by an arbitrary smooth complex manifold. A self-contained Cauchy-coefficient argument establishes normality of the product; finite bimeromorphic uniqueness completes the claim **conditionally on Theorem 9.4.6**. Existing proof-gap **POME-NORM-COUNTABLE-COVER-001 remains unresolved**.
+- **Actual scope:** first selected proof-level §§2.20.1/.4/.11/.12 and §§9.11.2/.3/.5/.7; §9.4.3–6 only incremental crosscheck. The previous **POME-UNI-EXT-FN-001** Fornaess–Narasimhan external dependency remains open. 747-section ToC is an inventory, none certified wholesale. Entire dedicated Demailly approximation/regularization/Bergman/L²/OT/multiscale/positivity-loss programme remains **deferred-by-user**. No builds, CI, publishing, source, main, tag or registry changes.
+
+---
+
 # 2026-10-26 — exact Guillemin boundary Hessians; topologically trivial nonprincipal divisors
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **audit base:** 08addf9b957793fcd958f87f5e1bafb54e044da3. [Full English proofs, stable tags and precise integrated anchors](reports/2026-10-26-guillemin-stratum-hessian-and-nonprincipal-null-chern-divisors.md).

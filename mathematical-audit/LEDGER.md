@@ -1,3 +1,16 @@
+## 2026-10-26 — selected elliptic prolongation and smooth-base normality audit
+
+**Main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full proofs and precise reading-edition anchors](reports/2026-10-26-elliptic-prolongation-sharp-symbol-and-smooth-normalization-basechange.md).
+
+| Stable finding ID | Severity / status | Hypotheses, precise evidence, proposed correction and dependents |
+| --- | --- | --- |
+| **POME-ELLIPTIC-PROLONG-EXACT-DEGEN-001** | low / **verified conditional deduction**; printed proposition correct | §2.20 Proposition 2.20.11 source **demailly-complex-geometry-099B86A5**, tag **CE8EC0706B26**, main blob **7e1c07728654308341d90c33f05873112c53052c**, lines 178–259. For the stated second-order principal matrix diag(b,b,a) up to one off-diagonal term, det=b²a vanishes at nonzero real covectors **iff t²=2**: a=0 at tau/xi=1, b=0 at tau/xi=−1. Derivation in report. Propose optional sharp-locus remark, not modifying the original sufficient |t|<1 theorem or propagating its constructed solutions. |
+| **POME-NORMALIZATION-SMOOTH-BASE-001** | low / **verified conditional deduction**, depends on normalization theorem; not a repair of prior error | §9.4 Proposition 9.4.3 tag **36422A732754** lines 55–79 and Theorem 9.4.6 source **foundations-of-pluripotential-theory-7042BB57**, tag **12A47DB401E2**, main blob **06439f43d1ce8e83d2529682c9a630bffa3d9c22**, lines 141–160. For reduced X and smooth complex S, nu×id_S is the normalization of X×S; local weakly-holomorphic Cauchy coefficients prove the normality of Xtilde×S, and finite bimeromorphic uniqueness finishes. Related §9.11 Theorem 9.11.5 source **non-kahler-pluripotential-theory-1FFF5E71**, tag **F4C06D21AA94**, main blob **fa1475ba7cd3b71cf195e91c45b5719b517bb0ae**, lines 61–95. Propose optional conditional smooth-parameter lemma; old **POME-NORM-COUNTABLE-COVER-001** global proof gap remains **unresolved**. |
+
+**Precise coverage:** first selected §2.20.1/.4/.11/.12 and §9.11.2/.3/.5/.7 with source statements and integrated proof steps, §9.4.3–6 as incremental dependency reading; the external **POME-UNI-EXT-FN-001** from §9.10.13 stays open. Neither false-theorem allegation nor complete-section certification. No excluded Demailly programme, no source/main changes, no build or CI.
+
+---
+
 ## 2026-10-26 — exact toric boundary curvature and divisor-to-Pic versus Chern class
 
 **Main checked:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **audit baseline:** 08addf9b957793fcd958f87f5e1bafb54e044da3. [Detailed proof, precise anchors and limits](reports/2026-10-26-guillemin-stratum-hessian-and-nonprincipal-null-chern-divisors.md).
