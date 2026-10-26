@@ -1,3 +1,13 @@
+# 2026-10-26 — plurifine continuity proof-step counterexample and compact psh-metric rigidity
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** fa67cc496e98284a33f33b40027cc40aa4455255. [Complete English source-anchored report and proof](reports/2026-10-26-plurifine-qpsh-proof-step-and-curvature-metric-rigidity.md).
+
+- **POME-PLURIFINE-QPSH-OPEN-STEP-001 — low-to-medium / confirmed error in proof step; verified repair proposed, not integrated:** Proposition 5.15.18 remains **true**, but its proof at integrated line 343 falsely assumes the quasi-psh interval-level set is Euclidean-open near each point. The psh series with logarithmic poles accumulating at a finite-potential point disproves that step. A complete local plurifine-neighborhood argument, or simply continuity of psh weights plus smooth corrections in the defining topology, fixes the proof without external input. The downstream fine-open comparison and quasi-extrema corollaries are not disproved.
+- **POME-PSH-METRIC-CURVATURE-RIGIDITY-001 — low / verified conditional deduction:** on a compact connected Kähler manifold, two psh metrics on one holomorphic line bundle have identical Chern currents iff their fiber metrics differ by one global positive constant. The singular-fiber equality follows from canonical psh representatives; noncompact pluriharmonic rescaling shows compactness sharp for a constant ratio. The main sources are §§5.19–5.20, and local Weyl/current results remain conditional inputs.
+- **Actual newly selected:** §§5.15, 5.19 and the **nonexcluded part** of §5.20, with exact statement/proof tags and line anchors in the report. The 747-entry ToC coverage matrix remains unique; no complete section or transitive prerequisite chain certified. **§5.20.16–17 and the entire dedicated Demailly approximation/regularization/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme were skipped**, remaining **deferred-by-user**. No main/source/registry/tag modifications, tests, builds, CI, formalization or publication.
+
+---
+
 # 2026-10-26 — self-contained Choquet selection and trace-zero closed-current rigidity
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `b52b5ca74b1ce183425b1ec29dbb900af3ba56e7`. [Detailed source-anchored proofs, statuses and limitations](reports/2026-10-26-choquet-countable-basis-and-equal-trace-current-rigidity.md).
