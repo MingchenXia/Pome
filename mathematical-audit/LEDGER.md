@@ -1,3 +1,16 @@
+## 2026-10-26 — finite good-cover coefficients and Bott–Chern/Aeppli four-term sequence
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **UTC checkpoint:** 2026-10-26T10:02:42.102Z; [full proof, source tags, exact paths and physical lines](reports/2026-10-26-integral-coefficient-uct-and-bott-chern-aeppli-four-term-exactness.md).
+
+| Stable finding ID | Severity / status | Exact evidence, justification, correction proposal and dependents |
+| --- | --- | --- |
+| **POME-COEFF-UCT-FINITE-GOOD-COVER-001** | low / **verified conditional deduction**, not a false theorem | \`docs/sections/spectral-sequences-support-and-cup-products--a-finite-integer-complex-and-coefficient-comparison/index.html\`, blob \`5dfc94ab65a71cdd8cfe9d648552a9f014056fdf\`, Theorem 10.64.1 tag \`F04BCA811EFA\` lines 8–19; Lemma 10.64.2 tag \`7C6F99D51075\` lines 24–37 and Theorem 10.64.3 tag \`04921B659563\` lines 42–53. Good-cover input §10.63.5 tag \`2AA913B1559D\`, main blob \`468705ce2e2cbad662a2fc316b65e16311dae105\` lines 43–93. For compact smooth M and any abelian A, the natural UCT 0→H^q(M,Z)⊗A→H^q(M,A)→Tor(H^{q+1}(M,Z),A)→0 follows by splitting D^q=Z^q⊕B^{q+1} for the finite free Čech model; abstract splitting noncanonical. Degree-zero mod-2 cohomology of the two-term ×2 cochain detects the necessary Tor term. Propose optional new coefficient corollary after 10.64.3; relevant to torsion coefficients, period lattices and cup products. Source theorems correct; §10.63 and external sheaf comparisons not fully certified. |
+| **POME-BC-AEPPLI-FOUR-TERM-001** | low / **verified conditional deduction**, not a false theorem | \`docs/sections/general-complex-cohomology-and-modifications--finite-sheaf-complexes-for-bott-chern-cohomology/index.html\`, blob \`311feffd4a3e3869a0856744b35af77059fa7c1a\`, Theorem 10.86.3 tag \`69060D8AFA59\` lines 76–93, printed three-arrow relation 86–92; §10.85.2 tag \`72D73EDC0883\` blob \`d47c823a457ed5daa1b8b0a5cdfae06f65f86980\` lines 29–40; §10.84.1 tag \`F105D4917B45\` blob \`ca98ecdb53f2ec77b439fdeb826dfa1dc6c60bdc\` lines 8–43. Add canonical fourth map H_BC^{p,q+1}→H_{bar∂}^{p,q+1}; any BC class Dolbeault-exact is bar∂ of an Aeppli-closed representative, proving exactness at BC. Compact dimension bounds and current compatibility follow. Propose optional four-term insertion, affect BC/Aeppli comparison. Printed theorems correct, full local-resolution inputs not independently certified. |
+
+**Coverage:** First selected proof-level §§10.63, 10.64, 10.84, 10.85, 10.86; **five previously inventory-only rows**, 747 total/unique unchanged. No prior finding reclassified as resolved. The user-excluded Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss chain remains **deferred-by-user**. No builds, CI, mathematical-body changes or publication.
+
+---
+
 ## 2026-10-26 — selected §§16.16 and 16.19: one-sided Hessian and trace-to-real-Hessian limitations
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full proof report with main blobs, permanent tags and physical lines](reports/2026-10-26-kahler-envelope-one-sided-hessian-and-bounded-trace-limits.md).

@@ -1,3 +1,13 @@
+# 2026-10-26 — integral finite-coefficient UCT and four-term Bott–Chern/Aeppli exactness
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** 46967f87c66ee4279ca09f6e82ee8a7265ebe8ed; **UTC:** 2026-10-26T10:02:42.102Z. [Complete English proof report, precise integrated main SHA/blob/labels/lines](reports/2026-10-26-integral-coefficient-uct-and-bott-chern-aeppli-four-term-exactness.md).
+
+- **POME-COEFF-UCT-FINITE-GOOD-COVER-001 — low / verified conditional deduction:** Theorem 10.64.1's finite free integer cochain model gives the natural short exact universal coefficient sequence, with Tor(H^{q+1}(M,Z),A) and an abstract but noncanonical splitting for every abelian coefficient A. The 2-term multiplication-by-2 test shows why Theorem 10.64.3's rational/real comparison must not be extrapolated to finite coefficients. The printed theorems are correct.
+- **POME-BC-AEPPLI-FOUR-TERM-001 — low / verified conditional deduction:** §§10.85–10.86 yield exactness of H_{bar∂}^{p,q} → H_A^{p,q} → H_BC^{p,q+1} → H_{bar∂}^{p,q+1} at both middle terms, for all complex manifolds; only the first three arrows' exactness was already printed. The additional BC-kernel step is proved from definitions, with compact dimension consequences and current compatibility; no Kähler, L², or regularization input.
+- **Actual first selected theorem/proof-level coverage:** §§10.63, 10.64, 10.84, 10.85, 10.86, exact sources in report. All **747 section inventory rows** retained, none certified as an entire section; nonexamined §10.43/44/54/55 prerequisites remain conditional. No new confirmed error; no prior ledger item resolved. Dedicated Demailly approximation/regularization, Bergman, L², Ohsawa–Takegoshi, multiscale and positivity-loss programme remains **deferred-by-user**; not inspected. No build, CI, formal verification, publication, main/source/body/registry/permanent-tag changes.
+
+---
+
 # 2026-10-26 — Kähler envelope Hessian hypotheses and bounded complex-trace regularity limits
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; [precise integrated proofs, examples and status boundaries](reports/2026-10-26-kahler-envelope-one-sided-hessian-and-bounded-trace-limits.md).
