@@ -1,3 +1,13 @@
+# 2026-10-26 — Lelong strata: compact-uniform weak-net semicontinuity and optimal Hausdorff dimension
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `9f186281dfdc5eb8ce35b374496eddb273d5e747`. [Complete source-anchored proof](reports/2026-10-26-lelong-net-compact-strata-and-sharp-level-dimension.md).
+
+- **POME-LELONG-NET-COMPACT-STRATA-001 — low / verified conditional deduction:** weak convergence of arbitrary directed nets of positive closed fixed-bidimension currents implies `limsup_i sup_K ν(T_i,·) ≤ max_K ν(T,·)` for every compact `K`; consequently high-Lelong strata eventually avoid every compact set disjoint from the limit stratum. Proof uses the source's normalized monotonicity, good radii, upper vague-measure bounds on a fixed closed ball, and finite covers; no sequential compactness. Applies also to `L¹_loc`-convergent directed psh nets. Smooth `dd^c log(|z_1|²+ε)` converging to a divisor proves **no reverse** persistence.
+- **POME-LELONG-LEVEL-SHARP-DIM-001 — low / verified conditional deduction:** the `2p` Hausdorff dimension exponent of the high-Lelong strata in Theorem 6.33.13 is sharp for the integration current of a complex `p`-plane, including the `p=0` atom convention. No assertion about the optimal numerical `4^{2p}` covering constant.
+- **Actual first selected proof coverage:** §§6.7.1/.6/.9 and §§6.33.1/.5/.7–8/.10/.13, with exact integrated blobs, stable tags, physical anchors and conditional inputs in the report. Current 747-section ToC matrix remains an inventory, not a certification. Entire dedicated Demailly approximation/regularization/Bergman/L²/OT/multiscale/positivity-loss programme remains **deferred-by-user**. No builds, CI, publication, main/source/body/registry/permanent-tag changes.
+
+---
+
 # 2026-10-26 — sharp power-capacity exponent and higher-dimensional pluriharmonic descent
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `4c37fd3422f4292ff4f4e0262398882aff775aed`. [Complete current-source-anchored proofs](reports/2026-10-26-sharp-power-capacity-and-higher-dimensional-pluriharmonic-descent.md).

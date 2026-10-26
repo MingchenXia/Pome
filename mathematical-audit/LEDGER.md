@@ -1,3 +1,16 @@
+## 2026-10-26 — compact-uniform Lelong strata for directed nets
+
+**Main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit branch:** `9f186281dfdc5eb8ce35b374496eddb273d5e747`. [Complete proofs, assumptions and source anchors](reports/2026-10-26-lelong-net-compact-strata-and-sharp-level-dimension.md).
+
+| Stable finding ID | Severity / status | Exact source and verification boundary; proposed correction and dependents |
+| --- | --- | --- |
+| **POME-LELONG-NET-COMPACT-STRATA-001** | low / **verified conditional deduction**, original statements correct | §6.33 Theorem 6.33.13 tag `2B9769222A07`, `docs/sections/lelong-densities-generalized-masses-and-multiplicity--lelong-densities-of-positive-currents/index.html` blob `48bb9c525a826e4d1e337b755fac22aaa3016e66`, lines 209–240; monotonicity Thm 6.33.1 tag `7ACCEC6E0526` lines 25–78; Cor 6.33.5 tag `6FD01B620D33` lines 83–94. Also §6.7 Prop. 6.7.9 tag `43A1E607F822`, `docs/sections/lelong-numbers-and-multiplier-ideals--logarithmic-growth-and-the-jensen-formula/index.html` blob `230bcb3b776ea69fbadba9f3422ed3f356280dc8`, lines 155–183. For every directed weak-current net, `limsup_i sup_K ν(T_i)≤max_K ν(T)` on compact K; eventual avoidance of a positive-threshold level set follows. Proof is valid for `p=0` and `p>0`, via good radii, vague-measure outer bound for compact balls, then finite covers. `dd^c log(|z_1|²+ε)→[z_1=0]` demonstrates failure of any reverse assertion. **Propose** optional compact-uniform net corollary, not source change. Downstream: upper level-stratum stability without sequential extraction. |
+| **POME-LELONG-LEVEL-SHARP-DIM-001** | low / **verified conditional deduction**, original theorem correct | §6.33 Thm 6.33.13 tag `2B9769222A07` and Hausdorff equation 6.33.14 tag `F89B30DD3077`, same blob lines 197–240; normalization lines 7–19. For `0≤p<n`, the integration current of a complex `p`-plane has `ν=1` exactly on that plane and zero off it, giving `\dim_H E_1=2p`; hence the universal dimension exponent cannot be improved. `p=0` is counting measure. **Propose** optional sharpness example; do not claim best numerical prefactor. |
+
+**Actual selected proof-level coverage:** §6.7.1/.6/.9 and §6.33.1/.5/.7–8/.10/.13; inputs include basic positive-current measure theory and BT bounded products, neither fully certified. Entire Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss plan **deferred-by-user**, not solved. No full section certified, no build/test/CI/publication/main/source/tag/registry changes. Preserve all earlier findings and statuses.
+
+---
+
 ## 2026-10-26 — sharp capacity exponent and higher-dimensional current descent
 
 **Main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **pre-write audit branch:** `4c37fd3422f4292ff4f4e0262398882aff775aed`. [Complete proof and source anchors](reports/2026-10-26-sharp-power-capacity-and-higher-dimensional-pluriharmonic-descent.md).
