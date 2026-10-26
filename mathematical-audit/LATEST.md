@@ -1,3 +1,13 @@
+# 2026-10-26 — symmetric convex equilibrium measures: total variation under Hausdorff nets and sharp \(C^2\) boundary integrability
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** fda6c6f604017ac7acc8ceb90f2c743b632f7621; **UTC checkpoint:** 2026-10-26T01:06:06.774Z. [Detailed English proofs and actual integrated anchors](reports/2026-10-26-real-convex-equilibrium-tv-and-smooth-boundary-endpoint.md).
+
+- **POME-REAL-CONVEX-EQUILIBRIUM-TV-001 — low / verified conditional deduction:** for arbitrary directed Hausdorff-convergent nets of full-dimensional origin-symmetric real convex bodies, their equilibrium measures converge in **total variation**. Polar-volume density formulas give uniform convergence on every \(rK\), \(r<1\); the uniform \(O(\sqrt{1-r})\) Minkowski boundary-layer mass bound eliminates the remainder without sequential extraction.
+- **POME-SMOOTH-CONVEX-DENSITY-LORENTZ-001 — low / verified conditional deduction:** for any real convex \(C^2\) body (no symmetry or strictly positive curvature), the equilibrium density has exact distribution-tail order \(T^{-2}\); hence weak \(L^2\) but no finite Lorentz \(L^{2,q}\), \(L^p\) exactly when \(p<2\), and sharp square-density logarithmic threshold \(\beta>1\). The ball gives an explicit nonzero leading constant. Distinct from the older **nonsmooth cube** Lorentz finding; no double-counting.
+- **Actual selected proof-level coverage:** first §16.42.1–6 with full pinned current blobs/tags/physical lines; §16.34.2 support/mass, §16.36.1 normalization, §16.33.6 real-body formula were dependency checks, not full certifications. A prior §16.39.1 result is retained as historical. 747 existing ToC sections preserved, no complete section certified. Entire author-excluded Demailly approximation/regularization/Bergman/\(L^2\)/Ohsawa–Takegoshi/multiscale/positivity-loss program remains **deferred-by-user**. No tests, builds, CI, publication or main/source/registry/tag changes.
+
+---
+
 # 2026-10-26 — Lelong strata: compact-uniform weak-net semicontinuity and optimal Hausdorff dimension
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `9f186281dfdc5eb8ce35b374496eddb273d5e747`. [Complete source-anchored proof](reports/2026-10-26-lelong-net-compact-strata-and-sharp-level-dimension.md).

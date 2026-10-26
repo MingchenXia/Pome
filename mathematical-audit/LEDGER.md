@@ -1,3 +1,16 @@
+## 2026-10-26 — real convex equilibrium measures: strong continuity and the smooth-boundary endpoint
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** fda6c6f604017ac7acc8ceb90f2c743b632f7621; **UTC checkpoint:** 2026-10-26T01:06:06.774Z. [Complete English source-anchored proofs](reports/2026-10-26-real-convex-equilibrium-tv-and-smooth-boundary-endpoint.md).
+
+| Stable finding ID | Severity / status | Exact scope, proof, proposed correction and affected dependents |
+| --- | --- | --- |
+| **POME-REAL-CONVEX-EQUILIBRIUM-TV-001** | low / **verified conditional deduction** (printed theorems correct) | §16.42 Prop. 16.42.3 original **D5322D11**, permanent **86440B2CBCE4**, lines 53–105, and Thm. 16.42.6 original **F1D83716**, permanent **69C6DC7FA336**, lines 167–216; main **docs/sections/equilibrium-densities-and-boundaries-of-real-convex-bodies/index.html**, blob **431eebdd82ef03991a95d2f16bb77dfb084278a7**. Under origin-symmetric Hausdorff convergence with full-dimensional limit, polar bodies and images converge uniformly on interior cores, giving uniform density convergence; universal \(\Phi_n(r)\to0\) boundary-layer bound yields **total-variation convergence** along arbitrary directed nets. **Propose** optional corollary after 16.42.6, not source change; permits convergence against all bounded Borel functions, not only continuous compact tests. Conditional BT/energy and real convex inputs stated in report; no general nonsymmetric claim. |
+| **POME-SMOOTH-CONVEX-DENSITY-LORENTZ-001** | low / **verified conditional deduction** (printed theorem correct) | §16.42 Thm. 16.42.5 original **010CEA22**, permanent **1E10E926515B**, lines 123–163 and Lemma .4 **58266096** / **16C56B7B3FDA**, lines 109–119, same path/blob. The exact \(f_K\asymp d^{-1/2}\) and \(C^2\) tubular Jacobian yield \( |\{f_K>T\}|\asymp T^{-2}\), \(L^{2,\infty}\setminus\bigcup_{q<\infty}L^{2,q}\), \(L^p\iff p<2\), logarithmic \(L^2\) threshold \(\beta>1\). Ball formula (Prop. .3) supplies exact sharp tail coefficient. **Propose** optional endpoint corollary after 16.42.5. Downstream density-integrability assumptions should distinguish smooth bodies from the already-logged nonsmooth cube case **POME-CUBE-LORENTZ-ENDPOINT-001**; no duplicate. |
+
+**Verified scope:** selected §§16.42.1–6, dependency-only 16.34.2 blob **47387388cb62e2b99cf6f78370c914aa6f75909d** lines 47–66, 16.36.1 blob **712e936992d5ae12cca72b83b85561123e932b27** lines 7–34, 16.33.6 statement/formula context. No mathematical error in printed statements newly confirmed. Remaining BT products/energy cocycle/convex continuity inputs unverified as complete chains. §7.31 regularization chain **excluded**, not inspected as mathematical proof. Entire dedicated Demailly/Bergman/\(L^2\)/Ohsawa–Takegoshi/multiscale/positivity-loss plan **deferred-by-user**, never certified. No tests, builds, CI, publishing, source/body/registry/permanent-tag/main changes.
+
+---
+
 ## 2026-10-26 — compact-uniform Lelong strata for directed nets
 
 **Main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit branch:** `9f186281dfdc5eb8ce35b374496eddb273d5e747`. [Complete proofs, assumptions and source anchors](reports/2026-10-26-lelong-net-compact-strata-and-sharp-level-dimension.md).
