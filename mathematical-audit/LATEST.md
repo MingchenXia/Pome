@@ -1,3 +1,13 @@
+# 2026-10-26 — Kähler envelope Hessian hypotheses and bounded complex-trace regularity limits
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; [precise integrated proofs, examples and status boundaries](reports/2026-10-26-kahler-envelope-one-sided-hessian-and-bounded-trace-limits.md).
+
+- **POME-ENVELOPE-SOFTMIN-ONESIDED-SHARP-001 — low / verified conditional deduction:** two fixed smooth obstacles \(\pm\varphi\) on \(\mathbb P^1\) have smooth soft minima with uniform values/gradients and **upper** real Hessian, but real-Hessian lower bound of order \(-1/\delta\) at their crossing. Exact negative-variance calculation validates the one-sided input in Lemma 16.16.1 and Theorem 16.16.7; original printed results are **not false**.
+- **POME-TRACE-COMPLEX-HESSIAN-NOT-C11-001 — low / verified conditional deduction:** the explicit subharmonic \(2|z|^2+\operatorname{Re}(z^2)\log|z|\) has \(1\le u_{z\bar z}\le3\) almost everywhere but unbounded real Hessian. This checks the *logical limit* of §16.19.1's final bounded-complex-Hessian-to-\(C^{1,\gamma}\) reasoning, **not** a counterexample to the envelope theorem.
+- **Actual selected first proof review:** §16.16 Lemma .1 and Theorem .7; §16.19 Theorem .1 (specific normal-coordinate, soft-min variance, moving-radius algebra, Laplacian-to-Sobolev passages). The §6.17.1 gentle-analytic-singularity regularization dependency is expressly **deferred-by-user**, not reopened or certified. All 747 ToC rows retained; no whole section certified. No build, CI, formalization, site publishing, or main/source/registry/permanent-tag edits.
+
+---
+
 # 2026-10-26 — Ricci-flat RC-curvature spectral margin; quantitative HSC/Ricci pinching
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `62d2b5e0bb67c2f50fe96d46407d3e434820e474`. [English source-anchored report and proofs](reports/2026-10-26-rc-curvature-spectral-gap-and-quantitative-hsc-ricci-pinching.md).
