@@ -1,3 +1,13 @@
+# 2026-10-26 — maximal exponential solutions: log-density comparison; ambient GH convergence under nets
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; [source-anchored complete proof](reports/2026-10-26-maximal-exponential-density-ratios-and-ambient-gh-nets.md).
+
+- **POME-EXP-GREATEST-LOGRATIO-001 — low / verified conditional deduction:** For comparable nonzero integrable densities \(af\leq g\leq bf\), greatest exponential solutions satisfy \(u_f-\log b/\lambda\leq u_g\leq u_f-\log a/\lambda\); normalized solutions differ by at most \(\log(b/a)/\lambda\) on their common finite locus. Scaling \(g=tf\) leaves the normalized solution and its Monge–Ampère measure **exactly** unchanged. Printed Theorem 15.35.2 is correct; no new \(L^p\) premise.
+- **POME-GH-AMBIENT-NET-COLLAPSE-001 — low / verified conditional deduction:** §15.19.22's uniform distance/GH collapse works for an arbitrary **directed net** and with vanishing **ambient** (rather than intrinsic) neighborhood diameters. Direct complete core-excursion proof; §15.19.26's intrinsic sufficient bound remains valid.
+- **First selected proof-level §§15.19, 15.35, 15.36** only; original 747-row coverage matrix preserved, no full section certified. Previously recorded radial moment and product scalar findings not re-counted. All author-excluded Demailly approximation/regularization/Bergman/L²/OT/multiscale/positivity-loss work remains **deferred-by-user**. No source, main, registry, tag changes, project tests, builds, CI, formal verification or publishing.
+
+---
+
 # 2026-10-26 — plurifine continuity proof-step counterexample and compact psh-metric rigidity
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** fa67cc496e98284a33f33b40027cc40aa4455255. [Complete English source-anchored report and proof](reports/2026-10-26-plurifine-qpsh-proof-step-and-curvature-metric-rigidity.md).

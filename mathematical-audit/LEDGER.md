@@ -1,3 +1,16 @@
+## 2026-10-26 — greatest exponential solutions and ambient GH net collapse
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Complete proofs and precise integrated/source anchors](reports/2026-10-26-maximal-exponential-density-ratios-and-ambient-gh-nets.md).
+
+| Stable finding ID | Severity / status | Exact source, justification, proposal and dependents |
+| --- | --- | --- |
+| **POME-EXP-GREATEST-LOGRATIO-001** | low / **verified conditional deduction**, original theorem correct | \`docs/sections/equations-with-prescribed-singularities--exponential-equations-for-an-individual-density/index.html\`, blob \`b4c15fdf7211401ad53bdef78a1831caf3c3dc65\`: Thm 15.35.2 source \`40C9E96E\` tag \`9016C2906071\`, 17–47, Cor 15.35.3 source \`A854CD10\` tag \`B2672237F244\`, 52–95. Nonzero \(L^1\) densities with \(0<af\le g\le bf\), \(\lambda>0\): greatest solutions have \(u_f-\log(b)/\lambda\le u_g\le u_f-\log(a)/\lambda\). Exact \(u_{tf}=u_f-\log(t)/\lambda\), normalized equality, scalar \(1/t\) scaling. Proof: constant-shift bijection of subsolution posets and RHS order. Suggest optional ratio-stability corollary; depends on Thm 15.35.2, informs scalar checks in §§15.35–15.36. |
+| **POME-GH-AMBIENT-NET-COLLAPSE-001** | low / **verified conditional deduction**, original theorem correct | \`docs/sections/equations-with-prescribed-singularities--degenerating-semipositive-backgrounds/index.html\`, blob \`5ed2b285e8306f0a803df40712b93ed4054851a8\`: GH Lemma 15.19.20 source \`969D4BE0\` tag \`022849340F28\`, 400–424; completion Lemma 15.19.21 source \`D5E70029\` tag \`E3C9C96E314E\`, 428–455; Prop 15.19.22 source \`738853ED\` tag \`65049DB7855E\`, 459–522. Under the same topological completion and compact-core limits, replace \(\operatorname{diam}^{int}(U,g_j)\) by smaller **ambient** \(\operatorname{diam}_{d_i}(U)\) and allow full directed nets. Excursion replacement needs only global distances; finite coverage proves uniform error and GH convergence. Optional strengthened statement; §§15.19.24/.26 retain original intrinsic sufficient bounds. |
+
+First selected checks: §§15.19.20–22/.24/.26; 15.35.2–3/.5 (root estimates only); 15.36.2/.5 (radial identity and normalized limit, tag \`91B8E02B5759\` and \`AACA90B5B52B\`). No full section/upstream certification; prior \`POME-RADIAL-MOMENT-SPECTRUM-001\`, \`POME-PRODUCT-TRUNC-SCALAR-LOGRATE-001\` not re-logged. Excluded Demailly/Bergman/L²/OT/multiscale/positivity-loss research remains **deferred-by-user**, not resolved. No build/test/CI/publishing or main/source/registry/permanent-tag edits.
+
+---
+
 ## 2026-10-26 — plurifine qpsh proof step and global Chern-metric rigidity
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **audit base:** fa67cc496e98284a33f33b40027cc40aa4455255. [Full source-anchored proof report](reports/2026-10-26-plurifine-qpsh-proof-step-and-curvature-metric-rigidity.md).
