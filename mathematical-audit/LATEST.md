@@ -1,3 +1,14 @@
+# 2026-10-27 — sharp PSH sublevel capacity and exact Gauduchon Jensen deficit
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** 5db8b393779ea541959178060daba9668e14f1e0. [Full source-anchored English proof report](reports/2026-10-27-sharp-psh-sublevel-capacity-and-gauduchon-jensen-defect.md).
+
+- **POME-BT-PSH-SUBLEVEL-CAP-RATE-001 — low / verified conditional deduction:** §7.4.1 weighted CLN gives Cap_D(K∩{V<−t})≤C||V||_{L¹(L)}/t uniformly over bounded BT competitors. The exact disk model V=log|z| proves optimal t^(−1) order: for t>log 2, 1/[2(t+1)]≤Cap_Δ(Δ_{e^(−t)}). Correctly handles the *strict* sublevel by placing the test mass on a smaller circle. Printed estimates remain correct.
+- **POME-GAUD-JENSEN-DEFECT-001 — low / verified conditional deduction:** §12.4.1 second variation yields the exact integral affine-chord deficit of the Gauduchon root λ along any segment of positive backgrounds, with Green kernel min(t,s)−ts and squared traceless linearized form. Equality recovers existing §12.3.1 rigidity. This adds a quantitative identity, not a global uniform strict-concavity modulus.
+- **New actual selected proof-level coverage:** §18.1.2 **only** implication (2)↔(3) and §18.1.17/.19 finite maxima/Choquet nonempty-family passage, without touching excluded quasi-equisingular analytic-approximation proofs; §18.1 advances from inventory to selected. Incremental §§7.2–7.4 and 12.2–12.5 previously already selected; §§7.1,12.1,18.2–18.3 contextual introduction only. 747 unique ToC rows preserved, no full section certified, no confirmed false theorem.
+- **Scope boundary:** Dedicated Demailly approximation/regularization/Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss programme remains **deferred-by-user** and untouched. No main/source/registry/permanent-tag changes, build, tests, CI, formal proof or publication.
+
+---
+
 # 2026-10-26 — countable-divisor valuation tails and convex-body lattice discrepancy
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `1904c6a0c5c91594db14fb6c197ad48f51443640`. [Full report with fixed physical anchors](reports/2026-10-26-divisorial-tail-nonuniformity-and-convex-lattice-rate.md).
