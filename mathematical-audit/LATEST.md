@@ -1,3 +1,13 @@
+# 2026-10-26 — exact Guillemin boundary Hessians; topologically trivial nonprincipal divisors
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **audit base:** 08addf9b957793fcd958f87f5e1bafb54e044da3. [Full English proofs, stable tags and precise integrated anchors](reports/2026-10-26-guillemin-stratum-hessian-and-nonprincipal-null-chern-divisors.md).
+
+- **POME-GUILLEMIN-STRATUM-HESSIAN-001 — low / verified conditional deduction:** Theorem 21.10.1's boundary-stratum local inverse yields an **exact positive determinant formula** for the Guillemin curvature Hessian in every vertex coordinate chart, including all boundary orbits; at a torus-fixed point the diagonal entries are explicit exponentials of the *nonincident* facet constants. This is genuinely higher-dimensional and all-strata, distinct from the earlier one-dimensional segment example; the printed theorem is correct.
+- **POME-DIVISOR-CHERN-NONPRINCIPAL-001 — low / verified conditional deduction:** On a complex elliptic curve, the divisor [p]-[q] for p≠q has **zero integral Chern class but is not principal**; elementary doubly-periodic residue proof. This separates the valid principal-divisor kernel of the divisor-to-Pic map in §20.7.3 from the much larger kernel of c1. No converse printed in the source is alleged false.
+- **Actual first selected proof review:** integrated §21.10.1 (local inverse, Hessian and transition proof, lines 24–89) and §20.7.3 (Poincaré–Lelong/divisor class proof, lines 12–28); §§21.8–21.9 consulted only for dependencies. The **747-row** current ToC coverage matrix is preserved, no whole section certified; earlier toric and Cartier audit IDs unchanged. Excluded Demailly approximation/regularization/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss remains **deferred-by-user**. No project tests, builds, CI, publication, main/source/registry/permanent-tag changes.
+
+---
+
 # 2026-10-26 — symmetric convex equilibrium measures: total variation under Hausdorff nets and sharp \(C^2\) boundary integrability
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** fda6c6f604017ac7acc8ceb90f2c743b632f7621; **UTC checkpoint:** 2026-10-26T01:06:06.774Z. [Detailed English proofs and actual integrated anchors](reports/2026-10-26-real-convex-equilibrium-tv-and-smooth-boundary-endpoint.md).
