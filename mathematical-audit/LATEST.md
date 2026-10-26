@@ -1,3 +1,14 @@
+# 2026-10-26 — local essential floors for smooth tests; explicit logarithmic-obstacle cutoff
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **starting audit head:** \`f3f9ec6a391336765c096b0a5c029b7b48762fdd\`. [Source-anchored proofs and complete hypotheses](reports/2026-10-26-individual-density-smooth-tests-and-log-pole-obstacle-cutoff.md).
+
+- **POME-SMOOTH-TEST-LOCAL-FLOOR-001 — low / verified conditional deduction:** For any probability density \(f\in L^1\), bounded below by \(c>0\) and with local essential infimum \(c\) on every nonempty open set, the §15.28.8 smooth comparison threshold is exactly \(C_h^{\mathrm{sm}}(f)=c_h(1)/c\), *without requiring zero lower mass*. The existing §15.28.9 nonattainment example is a special case; its separation \(b_h(f)=0<C_h^{\mathrm{sm}}(f)\) remains valid. Scalar order/homogeneity inputs conditional.
+- **POME-OBSTACLE-SCALAR-CUTOFF-001 — low / verified repair:** §16.44.1's implicit truncation of a logarithmic-pole obstacle admits an explicit smooth one-variable convex cutoff \(F_R\), with \(\psi\le F_R(\psi)\le\max(\psi,-R)\), unchanged curvature lower bound, *identical envelope* and *identical obstacle infimum*. This supplies the missing displayed computation, without reopening the excluded Demailly programme. Upstream §16.15.7 penalized existence and convergence remain conditional.
+- **Actual newly inspected:** integrated §15.28 (threshold closure, maximal subsolutions, smooth-test construction) and entire single-lemma §16.44; supporting §§15.1, 15.27.1, 16.15.7 consulted only. Two previously inventory-only ToC rows upgraded; **747 unique rows retained**, no entire section certified and no false printed theorem reported.
+- **Scope:** Demailly approximation/regularization and dedicated Bergman/\(L^2\)/Ohsawa–Takegoshi/multiscale/positivity-loss programme remain **deferred-by-user** and untouched. Only audit Markdown on the review branch. No tests, build, CI, formal proof, publication, source/main/registry/tag edits.
+
+---
+
 # 2026-10-26 — finite polynomial equilibrium transport and gauge-independent PSH boundary distances
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** fb3f1a07c6791d6b269e32527f17fa490a82412a. [Complete source-anchored English report](reports/2026-10-26-proper-polynomial-equilibrium-transport-and-gauge-independent-boundary-psh.md).
