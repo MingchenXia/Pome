@@ -1,3 +1,13 @@
+# 2026-10-26 — quotient Griffiths curvature, flat ambiguity of integral Chern curvature, and Levi sign
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Detailed source-anchored report](reports/2026-10-26-griffiths-quotient-curvature-and-flat-curvature-fibers.md).
+
+- **POME-TAUT-GRIFFITHS-POSITIVITY-001 — low / verified conditional deduction:** for a fixed smooth Hermitian E, the induced quotient metric on O_E(1) over P(E*) is (strictly) Chern-positive iff E is (strictly) Griffiths-positive. Direct exact Chern-normal horizontal/vertical proof in §10.37.3, valid also at rank one. Printed proposition correct.
+- **POME-INTEGRAL-CURVATURE-UNITARY-FLAT-TORSOR-001 — low / verified conditional deduction:** given an integral smooth real closed (1,1) curvature form ω, metrized holomorphic lines realizing ω, modulo unitary holomorphic isometry, form an H1(X,U(1)_loc.const) torsor. Explicit C* flat metric example distinguishes isometry classes modulo integers; Theorems 10.40.2/.5/.6 correct, upstream classification conditional.
+- First selected proof-level §§9.34, 10.37, 10.40, including an independent **correct** Levi-bracket factor-four/sign check, selected boundary-normal-form and integral Chern sign checks. No entire section or underlying Oka/Hodge/projective prerequisites certified. Exactly 747 ToC matrix rows preserved. Demailly approximation/regularization and its dedicated Bergman/L2/OT/multiscale/positivity-loss programme **deferred-by-user**, untouched. No build, CI, formal verification, publication, main/source/registry/tag changes.
+
+---
+
 # 2026-10-26 — maximal exponential solutions: log-density comparison; ambient GH convergence under nets
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; [source-anchored complete proof](reports/2026-10-26-maximal-exponential-density-ratios-and-ambient-gh-nets.md).

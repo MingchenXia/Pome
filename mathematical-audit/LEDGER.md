@@ -1,3 +1,16 @@
+## 2026-10-26 — quotient Griffiths positivity and flat Chern-curvature fibers
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Exact integrated locations and complete proofs](reports/2026-10-26-griffiths-quotient-curvature-and-flat-curvature-fibers.md).
+
+| Stable finding ID | Severity / status | Exact source, hypothesis, justification, proposal, affected contexts |
+| --- | --- | --- |
+| **POME-TAUT-GRIFFITHS-POSITIVITY-001** | low / **verified conditional deduction**; no printed error | docs/sections/vector-bundles-connections-and-extensions--relative-tautological-lines/index.html, blob b14f16aa555573bc9df35897918f9241f6015ddd; Prop 10.37.3, source demailly-complex-geometry-73449F8A, tag CFED58EB29EF, lines 64–113; Prop .1 tag B8693F38C65B lines 11–35. For a smooth Hermitian E, the induced quotient O_E(1) metric has semipositive/positive curvature iff E is Griffiths-semipositive/positive, via the exact Chern-normal horizontal block and positive FS vertical block; rank one included. Proposed optional precise corollary; useful for tautological curvature §11.11, not an ampleness or L2 assertion. |
+| **POME-INTEGRAL-CURVATURE-UNITARY-FLAT-TORSOR-001** | low / **verified conditional deduction**; no printed error | docs/sections/jets-integral-curvature-and-projective-embeddings--line-bundles-and-integral-curvature/index.html, blob 281267b7fbf079fde2fbc5060294ff338bd11085; Theorems 10.40.2 tag EA66BB854401 lines 31–56, .5 tag F699EBC79AEB lines 59–115, .6 tag 3A11E04C8D5D lines 118–135. Metrized holomorphic line bundles with fixed integral smooth real (1,1) curvature ω, modulo unitary holomorphic isomorphism, are a torsor under H1(X,U(1)_loc.const): quotient has flat Chern connection; unit-length local parallel frames are holomorphic; converse constant cocycle glues a flat bundle. Example C*: h_c=|z|^{2c} gives distinct isometry classes modulo c−d∈Z. Optional clarification after Thm .6, supporting integral Chern / divisor distinctions §20.7. |
+
+First selected independent sign/proof check: §9.34 Proposition .1 tag 07D51E96DD30 (blob fe5ebfa26a59b083027a10b66fcc13bddad8acbc, lines 17–44) has correct +4 Im(L) bracket formula; Thm .2/.3 selected arguments only, upstream Oka-distance and local convexification **not certified**. §10.37 Theorem .2 fiber section input and §10.40 deeper Hodge/projective inputs remain conditional. No erroneous theorem confirmed; 747 rows retained; dedicated author-excluded Demailly approximation/regularization/Bergman/L2/OT/multiscale/positivity-loss research **deferred-by-user**. No builds/CI/site publishing or body/registry/tag edits.
+
+---
+
 ## 2026-10-26 — greatest exponential solutions and ambient GH net collapse
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete proofs and precise integrated/source anchors](reports/2026-10-26-maximal-exponential-density-ratios-and-ambient-gh-nets.md).
