@@ -1,3 +1,16 @@
+## 2026-10-26 — countable divisor valuation tails and general convex-body counting
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** 1904c6a0c5c91594db14fb6c197ad48f51443640. [Source-anchored derivations](reports/2026-10-26-divisorial-tail-nonuniformity-and-convex-lattice-rate.md).
+
+| Stable finding ID | Severity / status | Exact sources, proof, correction and dependents |
+| --- | --- | --- |
+| **POME-COUNTABLE-DIV-TAIL-NONUNIFORM-001** | low printed-theorem risk / **verified conditional deduction**, caution on false uniformity | §13.24.7 tag `487BF774470F`, `docs/sections/volumes-under-bounded-mass--volumes-of-multiplier-ideal-envelopes/index.html`, blob `0b4c115fa8ffbe1cdfa4fcac49875a76fa44fffc`, lines 176–225. For every N and j>N choose p on H_j off all other countably many H_m; r consecutive blowups at strict-H_j/new-exceptional crossings yield ord_Er(π*H_j)=r, others zero, so tail =r a_j and its supremum over all (π,E) is infinite. The printed convergence only fixes (π,E), with a nonuniform trace constant. Optional warning, no theorem correction; forbids unrestricted interchange of valuation supremum and tail limit. |
+| **POME-CONVEX-ALLBODIES-LATTICE-RATE-001** | low / **verified conditional deduction**; not an external KK12 repair | §19.7.20 tag `85641516C8CA`, `docs/sections/almost-semigroups/index.html`, blob `33898b2963ad0f8b7e30bf414276642f60925b74`, lines 299–319. For K with inball radius ρ, ε=√n/k<ρ, its lattice count / k^n lies between (1±ε/ρ)^n vol K via floor-cube bracketing and convex homothetic inner/outer sandwiches. General convex bodies O(1/k), optimal for [0,1]^n. Optional self-contained quantitative corollary; does not resolve the semigroup input nor duplicate the prior polytope note. |
+
+**Actual coverage:** first selected §13.24.6–10; first formula-only §14.20.1 tag `2EA7CA32AE91`, `docs/sections/uniqueness-for-degenerate-equations/index.html` lines 5–31 blob `0c1c033d7a1a76b9ccf9fbd5b4bfc8321a33f208`; incremental §19.7.2–7/20. Prior slice/KK12 external findings unchanged. No theorem refuted, no section fully certified. Excluded approximation proof and dedicated Demailly programme remain **deferred-by-user**. No tests, CI, builds, formal proof or publication.
+
+---
+
 ## 2026-10-26 — internal relative-PSH representative bridge and compact scalar Hermitian uniqueness
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** ae3e637b72cd32c394b906f6677b88a152b9b36e. [Exact source anchors and proofs](reports/2026-10-26-psh-representative-internal-bridge-and-hermitian-scalar-rigidity.md).

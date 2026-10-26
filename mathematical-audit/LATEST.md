@@ -1,3 +1,14 @@
+# 2026-10-26 — countable-divisor valuation tails and convex-body lattice discrepancy
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `1904c6a0c5c91594db14fb6c197ad48f51443640`. [Full report with fixed physical anchors](reports/2026-10-26-divisorial-tail-nonuniformity-and-convex-lattice-rate.md).
+
+- **POME-COUNTABLE-DIV-TAIL-NONUNIFORM-001 — low / verified conditional deduction:** In the §13.24.7 projective-plane countably many lines model, the order tail after *every fixed N* has unbounded supremum over all smooth modifications and prime divisors: infinitely-near exceptional divisors above a point of one tail line have order `r a_j`. This does not refute the printed pointwise convergence or its fixed-(π,E) trace bound; no uniform bound is available.
+- **POME-CONVEX-ALLBODIES-LATTICE-RATE-001 — low / verified conditional deduction:** The convex-body counting clause in §19.7.20 has an elementary quantitative `O_K(1/k)` inradius-bound valid for every full-dimensional compact convex body, with matching cube lower-order example; **not** a replacement for the general KK12 almost-semigroup theorem. Existing semigroup-count and slice-proof findings were checked for duplication and retained unchanged.
+- **Actual new scope:** §13.24.6–10 selected nonexcluded proof-level; §14.20.1 formula/normalization-only; incremental §19.7 convex-body counting. **Two** previous inventory-only ToC rows upgraded (one only formula-level), all 747 distinct rows retained. No full section certified and no new false printed theorem.
+- **Scope:** §13.24.1–5 analytic approximation proof and dedicated Demailly approximation/regularization/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme **deferred-by-user**, not reopened, resolved or certified. No main/source/registry/tag changes, tests/build/CI, or publication.
+
+---
+
 # 2026-10-26 — canonical PSH representative bridge and compact scalar Hermitian rigidity
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** ae3e637b72cd32c394b906f6677b88a152b9b36e. [Source-anchored detailed proof](reports/2026-10-26-psh-representative-internal-bridge-and-hermitian-scalar-rigidity.md).
