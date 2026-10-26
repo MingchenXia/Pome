@@ -1,3 +1,13 @@
+# 2026-10-27 — projective twisted Euler polynomial and doubled-hyperplane automorphisms
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `e506fcdabac003a47bb5e3040f3989d9c03dcdf7`. [Full English proof report with exact blobs, source labels and physical anchors](reports/2026-10-27-projective-twisted-euler-and-double-hyperplane-automorphisms.md).
+
+- **POME-PN-TWISTED-EULER-POLYNOMIAL-001 — low / verified conditional deduction:** Bott's §10.51.6 cohomology regimes give, for all integer k and 0≤p≤n (including n=0), χ(P^n,Ω^p(k))=binom(k−1,p)binom(k+n−p,n−p) with polynomial binomial convention. Complete case and Serre symmetry proofs; independently checked 1044 small integer tuples. The printed Bott theorem remains correct; Hodge/Nakano/Serre prerequisites are conditional.
+- **POME-DOUBLE-HYPERPLANE-AUTOMORPHISMS-001 — low / verified conditional deduction:** a doubled-hyperplane self-map (f,a,c) is invertible exactly when its reduced map f is biholomorphic and its nilpotent normal multiplier c never vanishes; explicit inverse and composition law. §9.60.1's older analytic-coherence external dependency remains open; no theorem falsity or certification claimed.
+- **Actual coverage:** new selected proof-level §§10.50.1–3 and 10.51.1–6; incremental §§9.58.2–3, 9.60.1. Exactly two previously inventory-only ToC rows upgraded, **747 distinct rows retained**, none entirely certified. Existing §9.60 external dependency and all other historical statuses preserved.
+- **Scope:** dedicated Demailly approximation/regularization, Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss programme **deferred-by-user**, untouched. Only audit Markdown; no source/main/body/registry/tags, CI, build, formal proof or publication.
+
+---
 # 2026-10-27 — sharp PSH sublevel capacity and exact Gauduchon Jensen deficit
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** 5db8b393779ea541959178060daba9668e14f1e0. [Full source-anchored English proof report](reports/2026-10-27-sharp-psh-sublevel-capacity-and-gauduchon-jensen-defect.md).
