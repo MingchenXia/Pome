@@ -1,3 +1,14 @@
+# 2026-10-27 — Compact ∂̄-primitive hole support and six genus-two Weierstrass branch points
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full exact-source-anchored English report](reports/2026-10-27-compact-dbar-hole-support-and-genus-two-weierstrass-branching.md).
+
+- **POME-DBAR-PRIMITIVE-HOLE-SUPPORT-001 — low / verified conditional deduction:** §5.49.1/.4, the canonical compact-support homotopy solution vanishes on the unbounded complementary component of the support of its closed (p,1) input. If the complement is connected, the primitive has support inside the input support; a radial cutoff on an annulus proves the bounded-hole obstruction is sharp. Printed Hartogs and compact-support theorems are correct.
+- **POME-GENUS2-WEIERSTRASS-BRANCH-001 — low / verified conditional deduction:** §10.78.14/.16/.17 and §10.79.13 simple-pole criterion imply exactly six distinct weight-one Weierstrass points in genus 2; a degree-two function centered at any one is simply ramified at exactly these six. The printed Wronskian and Riemann–Hurwitz results remain correct.
+- **POME-POINT-SHEAF-FINITE-CECH-ACYC-001 — low / verified conditional deduction:** §10.78.4's index-selection contracting homotopy applies to all positive Čech degrees on any finite open cover. No unverified higher-degree Čech/derived comparison is asserted.
+- **Coverage:** previously inventory-only §§5.49, 10.78, 10.79 upgraded at precisely recorded passages; 747 original section keys retained, zero whole sections certified. No new confirmed mathematical error. Dedicated Demailly approximation/regularization and Bergman/L²/OT/multiscale/positivity-loss **deferred-by-user** and untouched. No tests/build/CI/formalization/published docs/main/registry/permanent-tag mutations.
+
+---
+
 # 2026-10-27 — Quantitative calibration defect and fourth-order Kähler potential jet
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting review head:** `a619aa2756a221271ac24b1bf166d7e898532a87`. [Full precise English proof and anchors](reports/2026-10-27-calibration-defect-and-kahler-quartic-potential-jet.md).
