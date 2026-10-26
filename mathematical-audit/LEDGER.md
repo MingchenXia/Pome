@@ -1,3 +1,16 @@
+## 2026-10-26 — critical-support upper hemicontinuity and logarithmic model first variation
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [New exact-anchored proof report](reports/2026-10-26-critical-support-semicontinuity-and-logarithmic-linear-response.md). First selected inspection of **§§11.44–11.45**; no complete-section or upstream existence certification.
+
+| Stable finding ID | Severity / status | Exact integrated evidence, mathematical result, limitations and proposed correction |
+| --- | --- | --- |
+| **POME-CRITICAL-SUPPORT-UHC-001** | low / **verified conditional deduction**, no false printed theorem | `docs/sections/normalization-and-weak-adjoint-measures--selection-by-a-vanishing-exponential-parameter/index.html`, blob `aaa0a6363ade7e865aeea7ab43b7770748fedbaa`, §11.44.5 tag `91FDE4AB5C22` lines 49–80 and §11.44.9 tag `AD91D203DE64` lines 89–170; support transform Eq.11.44.1 tag `CC5ED4480663`. Given nonzero nonnegative `f_j→f` in L^q, with each in L^p and 1<q<p, `κ_fj→κ_f` uniformly on uniform-norm balls at explicit O(||f_j−f||_q^{1/n}) rate; all weak limits of selected probabilities from `P_fj` lie in `P_f`. For each f∈L^p, every P_f probability has density in L^r, 1/r=1−1/(nq)+1/(np), with explicit Hölder bound. No lower-hemicontinuity asserted. Optional proposition after 11.44.9; norm/dual existence upstream treated conditionally. |
+| **POME-LOGMODEL-FIRST-ORDER-001** | low / **verified conditional deduction**, no false printed theorem | `docs/sections/normalization-and-weak-adjoint-measures--selection-for-logarithmic-models-on-products/index.html`, blob `f0b92ec93b3184a6af1c804b07bd3454b957d6bc`, §11.45.9 tag `72A7418012F7` lines 108–218, contraction 152–170 and Eq.11.45.11 tag `9E6339686644` lines 172–185. For fixed product/logarithmic data and exponent σ↓0: define t=ψ+w_0, J=∫Ht/m, A_0=aH/m, w_1=G*[A_0(t−J)], K_1=∫Hw_1/m+∫Ht²/(2m)−J²/2; then `w_σ=w_0+σw_1+O_C0(σ²)`, `σ⁻¹log(Z_σ/m)=J+σK_1+O(σ²)`, and selected singular potential has same expansion after canceling common divisor pole. Sharp first scalar term c_σ/c_0=1+σ(S_0−J)+O(σ²). Optional fixed-data theorem addendum; no varying-parameter rate claimed; greatest-solution identification conditional on 11.45.4. |
+
+**Coverage:** exactly two previously inventory-only sections upgraded to selected proof-level. Existing **747** ToC rows and all old statuses preserved; no section certified. Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss completion programme remain **deferred-by-user**, not resolved. No build, CI, site publication, source-body/registry/permanent-tag changes.
+
+---
+
 ## 2026-10-26 — arithmetic interpolation bases and dominated MA weak-versus-TV sharpness
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **UTC:** 2026-10-26T10:57Z. [Complete proof, verified statuses, original tag/source and physical anchors](reports/2026-10-26-arithmetic-evaluation-bases-and-dominated-ma-tv-obstruction.md).
