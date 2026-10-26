@@ -1,6 +1,6 @@
 # 2026-10-26 — maximal exponential solutions: log-density comparison; ambient GH convergence under nets
 
-**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; [source-anchored complete proof](reports/2026-10-26-maximal-exponential-density-ratios-and-ambient-gh-nets.md).
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; [source-anchored complete proof](reports/2026-10-26-maximal-exponential-density-ratios-and-ambient-gh-nets.md).
 
 - **POME-EXP-GREATEST-LOGRATIO-001 — low / verified conditional deduction:** For comparable nonzero integrable densities \(af\leq g\leq bf\), greatest exponential solutions satisfy \(u_f-\log b/\lambda\leq u_g\leq u_f-\log a/\lambda\); normalized solutions differ by at most \(\log(b/a)/\lambda\) on their common finite locus. Scaling \(g=tf\) leaves the normalized solution and its Monge–Ampère measure **exactly** unchanged. Printed Theorem 15.35.2 is correct; no new \(L^p\) premise.
 - **POME-GH-AMBIENT-NET-COLLAPSE-001 — low / verified conditional deduction:** §15.19.22's uniform distance/GH collapse works for an arbitrary **directed net** and with vanishing **ambient** (rather than intrinsic) neighborhood diameters. Direct complete core-excursion proof; §15.19.26's intrinsic sufficient bound remains valid.
