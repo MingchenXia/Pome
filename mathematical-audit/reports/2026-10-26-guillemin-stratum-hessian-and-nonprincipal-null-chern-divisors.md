@@ -3,9 +3,9 @@
 **Date:** 2026-10-26 (one actual audit session; no intervening continuous work claimed).  
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272.  
 **Audit branch before work:** 08addf9b957793fcd958f87f5e1bafb54e044da3.  
-**Scope:** first new selected proof-level read of §21.10.1 and §20.7.3. Context crosschecks §21.8.2–3 and §21.9.2/.5 only. This does not certify entire chapters, nor the external/canonical dependencies used by the integrated proofs.
+**Scope:** new focused proof-level re-review of §21.10.1 and §20.7.3, both previously sampled without the deductions below. Context crosschecks §21.8.2–3 and §21.9.2/.5 only. This does not certify entire chapters, nor the external/canonical dependencies used by the integrated proofs.
 
-Both original propositions remain mathematically correct in the passages checked. These are *new deductions and a counterexample to an unprinted converse*, not repairs of false statements. Earlier findings POME-TOR-GUIL-001 (the one-dimensional segment), POME-TOR-CHART-XREF-CYCLE-001 (a forward-reference cycle), and the fixed-point jet finding are preserved unchanged and not counted as new work.
+Both original results remain mathematically correct in the passages checked. These are *new deductions and a counterexample to an unprinted converse*, not repairs of false statements. Earlier findings POME-TOR-GUIL-001 (the one-dimensional segment), POME-TOR-CHART-XREF-CYCLE-001 (a forward-reference cycle), and the fixed-point jet finding are preserved unchanged and not counted as new work.
 
 ## POME-GUILLEMIN-STRATUM-HESSIAN-001
 
