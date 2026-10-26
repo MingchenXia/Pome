@@ -1,3 +1,17 @@
+## 2026-10-27 — magnetic spectral Riesz means and nuclear Banach rigidity
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **review head before edit:** `1e130a81f5b539996317119059f22ff7839815c6`. [Full evidence and proofs](reports/2026-10-27-magnetic-riesz-rates-and-nuclear-banach-rigidity.md). Two previously inventory-only §§2.13 and 2.24 reviewed at specified passages; prior statuses unchanged.
+
+| Stable finding | Severity / status | Source anchors, mathematical result, correction and dependents |
+| --- | --- | --- |
+| **POME-LANDAU-RIESZ-MIDPOINT-001** | low / **verified conditional deduction**; printed theorem correct | §2.24.4–7, `docs/sections/magnetic-models-and-spectral-localization/index.html`, main blob `ee89de7d23cc96a8546c736ac7d068546b126f3a`, tags `6919A4A3FD8F`, `72E6618A3A3C`, `0F14CB3D46F3`, physical lines 31–71. For one pair, N=max(0,ceil(E/(2b)−1/2)), r₀−r_b=b²(N−E/(2b))²/(2π), universally ≤b²/(8π) and sharp; |ν_b−ν₀|≤b/(4π), sharp at odd Landau levels. Optional corollary; one-pair small-field spectral localization. Underlying constant-field model conditionally relied upon. |
+| **POME-MAGNETIC-DIRICHLET-RATE-001** | low / **verified conditional deduction**; strengthening not error | §2.24.8 tag `C554004EA447`, source `demailly-complex-geometry-7DBC83A8`, physical lines 75–110 and (2.24.10) tag `B6FBF3F18EA3`, lines 94–109; same integrated path/blob. Replacing R^(1/2) layer by fixed-width smooth face cutoff makes both missing volume and gradient-energy O(Vol/R), yielding 0≤r_b(E)−R_D(E)/Vol≤C(E_*^n+E_*^{n+1})/R uniformly all b≥0/shape-bounded boxes. Optional proof sharpening; affected finite-volume Riesz spectral asymptotics; operator spectral/variational prerequisites conditional. |
+| **POME-NUCLEAR-BANACH-FINITE-DIM-001** | low / **verified conditional deduction**; printed theorem correct | §2.13.1 source `demailly-complex-geometry-A13EE630`, tag `67761F6CDA64`, physical lines 17–47; nuclear Fréchet defining seminorms line 73; §2.13.3 tag `A46D09531259`, lines 77–104; `docs/sections/open-maps-nuclear-spaces-and-inverse-limits--nuclear-spaces-and-completed-tensor-products/index.html`, main blob `ecbf01a4ed81461ba32f1e0c88c6a550ebaa8135`. Banach nuclear Fréchet iff finite-dimensional: an equivalent p_J links the nuclear canonical map to compact identity; elementary Riesz separation gives finite-dimensionality. Optional corollary; distinguishes projective tensor/Fréchet inverse limits from Banach steps. §2.13.4 Bergman-space proof not inspected. |
+
+**Coverage:** §§2.24.2/.6/.8 and 2.13.1/.2/.3 as recorded; no complete section/chapter certification, no existing ledger status changed. 747 unique current ToC section rows. Dedicated Demailly regularization/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss matters remain **deferred-by-user** and unopened. No source/main/registry/permanent-tag/website/CI/build/formalization changes.
+
+---
+
 ## 2026-10-27 — vanishing-density Sobolev thresholds and discontinuities of constant-MA solutions
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full source-anchored proof report](reports/2026-10-27-vanishing-density-sobolev-jumps-and-higher-dimensional-constant-ma-discontinuities.md). Two previously inventory-only §§15.20–15.21 reviewed at selected proof-level; prior finding statuses unchanged.

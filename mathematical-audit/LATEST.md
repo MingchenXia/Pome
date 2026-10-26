@@ -1,3 +1,14 @@
+# 2026-10-27 — Landau midpoint defect, quantitative magnetic Dirichlet Riesz rate, and nuclear Banach rigidity
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting review head:** `1e130a81f5b539996317119059f22ff7839815c6`. [Exact-source anchored complete proofs](reports/2026-10-27-magnetic-riesz-rates-and-nuclear-banach-rigidity.md).
+
+- **POME-LANDAU-RIESZ-MIDPOINT-001 — low / verified conditional deduction:** in one magnetic pair, writing x=E/(2b) and N=max(0,ceil(x−1/2)), exact identity r₀(E)−r_b(E)=b²(N−x)²/(2π), hence sharp global error ≤b²/(8π) and counting error ≤b/(4π), both attained at odd Landau thresholds.
+- **POME-MAGNETIC-DIRICHLET-RATE-001 — low / verified conditional deduction:** the existing exact variational bound (2.24.10) with a *fixed-width* rather than sqrt(R)-width boundary cutoff yields uniform finite-volume Dirichlet Riesz error O((E_*^n+E_*^{n+1})/R), all b_j≥0 and bounded shapes. Printed o(1) statement remains true.
+- **POME-NUCLEAR-BANACH-FINITE-DIM-001 — low / verified conditional deduction:** a Banach space is nuclear as a Fréchet space iff finite-dimensional; compact nuclear canonical link forces compact identity, then elementary Riesz-lemma separation. The original nuclear-space theorems remain correct as read.
+- **New actual coverage:** selected proof-level §§2.24.2/.6/.8 and §§2.13.1–3, **two inventory-only rows upgraded**; exactly 747 section rows retained, none fully certified. No project tests/build/CI or website publish. Dedicated Demailly approximation/regularization and its Bergman/L²/OT/multiscale/positivity-loss programme remain **deferred-by-user**; no part reexamined.
+
+---
+
 # 2026-10-27 — vanishing-density third-derivative jumps and dimension-sharp discontinuous constant-MA models
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **review branch starting head:** `73a3e3e094c607129b9d4d2329c9c6de99b13034`. [Full English proofs with physical anchors, blobs and permanent tags](reports/2026-10-27-vanishing-density-sobolev-jumps-and-higher-dimensional-constant-ma-discontinuities.md).
