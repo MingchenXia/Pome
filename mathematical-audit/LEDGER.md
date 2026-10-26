@@ -1,3 +1,16 @@
+## 2026-10-26 — arithmetic interpolation bases and dominated MA weak-versus-TV sharpness
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **UTC:** 2026-10-26T10:57Z. [Complete proof, verified statuses, original tag/source and physical anchors](reports/2026-10-26-arithmetic-evaluation-bases-and-dominated-ma-tv-obstruction.md).
+
+| Stable finding ID | Severity / status | Exact evidence, correction proposal and dependents |
+| --- | --- | --- |
+| **POME-ARITH-EVAL-BASIS-ORDERS-001** | low / **verified conditional deduction**, printed theorem correct | `docs/sections/entire-function-growth-and-algebraic-zero-sets--entire-function-growth-and-arithmetic-zero-sets/index.html` blob `465572b3785941e02714482e9d69735fcbcdcc73`, §9.55.1 source `demailly-complex-geometry-F0566573` tag `2112DD801FC5` lines 11–21/26–79 and §9.55.8 source `demailly-complex-geometry-CE420F64` tag `16B6E15BB4A5` lines 85–109. Maximize the **sum of individual vanishing orders** over all linearly independent evaluation bases, yielding coefficient `δ^{1−n}max_BΣ ord_w f`; proof and sharp noncollinear three-point `xy` example in report. Proposed optional corollary after §9.55.8; relies conditionally on the printed weighted zero-fiber mass theorem and its §§6.34/6.35/6.44/6.46 prerequisites, none wholly certified. §9.55.12 onward excluded. |
+| **POME-MA-DOMINATED-WEAK-NOT-TV-001** | low / **verified conditional deduction**, not a false theorem | `docs/sections/relative-equations-under-positive-lower-mass/index.html` blob `75535cb099b754589883aa9f9fa4867fabd89d86`, §15.37.19 source `non-kahler-pluripotential-theory-4EA71F8C` tag `6FBF04A6D4DE` lines 394–419; earlier rooftop §15.37.13 `E5ED88B4042A` lines 271–337 and capacity §15.37.17 `D220D741C684` lines 344–386 checked selectively. Flat Kähler torus `u_j=a cos(2πjx_1)/(π²j²)` gives `C¹` convergence and `μ_j=(1−a cos)ω^n≤(1+a)ω^n`, but exact fixed `||μ_j−ω^n||_{TV}=2a vol(X)/π`. Optional caution after weak-convergence theorem; no proof-gap or false-statement claim, all transitive chain remains unverified. |
+
+Two previously inventory-only sections upgraded to **selected proof-level**; 747 unique ToC rows preserved and no whole section certified. All old findings/statuses retained. Demailly approximation/regularization and its dedicated Bergman/`L²`/OT/multiscale/positivity-loss programme remains **deferred-by-user**. Scratch symbolic arithmetic only; no project build, CI, publication, main/source/body/registry/permanent-tag edits.
+
+---
+
 ## 2026-10-26 — finite good-cover coefficients and Bott–Chern/Aeppli four-term sequence
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **UTC checkpoint:** 2026-10-26T10:02:42.102Z; [full proof, source tags, exact paths and physical lines](reports/2026-10-26-integral-coefficient-uct-and-bott-chern-aeppli-four-term-exactness.md).

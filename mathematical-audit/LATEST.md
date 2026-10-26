@@ -1,3 +1,13 @@
+# 2026-10-26 — arithmetic interpolation bases and the weak/TV boundary of dominated Monge–Ampère limits
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `4a799ff13c278b916617194425d86996aa9cf47c`; **UTC checkpoint:** 2026-10-26T10:57Z. [Exact integrated statement/proof anchors and complete English arguments](reports/2026-10-26-arithmetic-evaluation-bases-and-dominated-ma-tv-obstruction.md).
+
+- **POME-ARITH-EVAL-BASIS-ORDERS-001 — low / verified conditional deduction:** §9.55.1/.8's degree-`\delta` polynomial interpolation yields the stronger growth coefficient `\delta^{1-n}\max_B\sum_{w\in B}\operatorname{ord}_w f`, maximizing over independent evaluation bases `B` of `\mathbb C[z]_{<\delta}`. This strictly improves the printed minimum-order coefficient and is exactly sharp for `S=\{(0,0),(1,0),(0,1)\}, f=xy`. The original growth theorem and corollary remain correct.
+- **POME-MA-DOMINATED-WEAK-NOT-TV-001 — low / verified conditional deduction:** §15.37.19 cannot be strengthened to total-variation convergence: smooth `\omega`-psh cosine potentials on a flat complex torus converge to zero in `C^1`, and their Monge–Ampère densities are uniformly bounded above/below by positive constants and dominated by one fixed smooth non-pluripolar measure, but their TV distance to the limit is exactly `(2a/\pi)\int\omega^n` for every index. The printed *weak*-convergence theorem remains correct.
+- **Actual newly selected coverage:** §§9.55.1/.8/.11 and §§15.37.13/.17/.19 plus standing setup; no entire section or all prerequisites certified. Exactly 747 section rows retained. The dedicated Demailly approximation/regularization/Bergman/`L²`/Ohsawa–Takegoshi/multiscale/positivity-loss programme remains **deferred-by-user** (not inspected/resolved/certified); §9.55.12 onward explicitly skipped. No project build, CI, publishing or source/main/registry/tag changes.
+
+---
+
 # 2026-10-26 — integral finite-coefficient UCT and four-term Bott–Chern/Aeppli exactness
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** 46967f87c66ee4279ca09f6e82ee8a7265ebe8ed; **UTC:** 2026-10-26T10:02:42.102Z. [Complete English proof report, precise integrated main SHA/blob/labels/lines](reports/2026-10-26-integral-coefficient-uct-and-bott-chern-aeppli-four-term-exactness.md).
