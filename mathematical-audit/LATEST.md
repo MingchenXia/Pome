@@ -1,3 +1,14 @@
+# 2026-10-26 — supporting probability stability and first variation of logarithmic product selection
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `336e7987e04aacf0e430e060d50a641e7e20255f`. [Source-anchored English proofs](reports/2026-10-26-critical-support-semicontinuity-and-logarithmic-linear-response.md).
+
+- **POME-CRITICAL-SUPPORT-UHC-001 — low / verified conditional deduction.** First selected proof-level inspection §11.44, Proposition 11.44.5 (tag `91FDE4AB5C22`) and Proposition 11.44.9 (tag `AD91D203DE64`), main file `docs/sections/normalization-and-weak-adjoint-measures--selection-by-a-vanishing-exponential-parameter/index.html` blob `aaa0a6363ade7e865aeea7ab43b7770748fedbaa`, lines 49–170: supporting probabilities are uniformly L^r absolutely continuous for fixed L^p density, and their graph is closed under L^q density convergence and weak probability convergence, 1<q<p, with an explicit quantitative bound for the convex support function. This does **not** assert lower hemicontinuity.
+- **POME-LOGMODEL-FIRST-ORDER-001 — low / verified conditional deduction.** First selected proof-level inspection §11.45, Theorem 11.45.9 (tag `72A7418012F7`), main file `docs/sections/normalization-and-weak-adjoint-measures--selection-for-logarithmic-models-on-products/index.html` blob `f0b92ec93b3184a6af1c804b07bd3454b957d6bc`, lines 108–218: for fixed logarithmic product data, the Green residual has explicit first variation `w_1=G*[A_0(ψ+w_0−J)]` and O(σ²) uniform remainder; the centered scalar has the corresponding second-order expansion. It is not claimed for arbitrary varying data.
+- **Coverage:** §§11.44–11.45 newly upgraded from inventory to **selected proof-level**, with limited passages and conditional dependencies; 747 distinct actual-ToC rows preserved, **no whole section certified**. Neither result asserts a false printed theorem, nor resolves unrelated earlier audit findings.
+- **Scope and writes:** Author-excluded Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss proofs remain **deferred-by-user**, not resolved. Only audit Markdown updated on `review/mathematical-audit`; `main`, mathematical body, registry and permanent tags untouched. No tests, build, formal proof, CI or website publication performed.
+
+---
+
 # 2026-10-26 — arithmetic interpolation bases and the weak/TV boundary of dominated Monge–Ampère limits
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `4a799ff13c278b916617194425d86996aa9cf47c`; **UTC checkpoint:** 2026-10-26T10:57Z. [Exact integrated statement/proof anchors and complete English arguments](reports/2026-10-26-arithmetic-evaluation-bases-and-dominated-ma-tv-obstruction.md).
