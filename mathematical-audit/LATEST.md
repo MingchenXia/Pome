@@ -1,3 +1,14 @@
+# 2026-10-26 — finite polynomial equilibrium transport and gauge-independent PSH boundary distances
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** fb3f1a07c6791d6b269e32527f17fa490a82412a. [Complete source-anchored English report](reports/2026-10-26-proper-polynomial-equilibrium-transport-and-gauge-independent-boundary-psh.md).
+
+- **POME-PROPER-POLY-EQUILIBRIUM-PUSH-001 — low / verified conditional deduction.** Newly selected §16.32: under the regular leading homogeneous degree-d hypothesis, the starred extremal identity is exact, push-forward of the non-pluripolar compact/bounded-set equilibrium Monge–Ampère measure is exactly preserved, and L-regularity is equivalent at all points of inverse fibers, including ramification. Generic degree d^n is justified by projective homogenization. BT local covariance and pluripolar-zero properties remain explicit conditional inputs. No original theorem refuted.
+- **POME-BOUNDARY-GAUGE-BOUNDED-PSH-001 — low / verified conditional deduction.** Newly selected §9.14: any two continuous positive complex-homogeneous boundary gauges on a nonempty proper pseudoconvex domain give negative-log boundary-distance PSH functions and explicit PSH exhaustions differing by globally bounded terms; no convexity/triangle inequality, and no comparison of Levi forms claimed. Full Oka upstream not certified.
+- **Coverage:** first selected proof-level §§16.32, 9.14; §9.13.2 definition/context only. The prior POME-HULL-JET-INTERP-001 was found in the ledger and **not repeated**. Exactly 747 current ToC section rows remain; none fully certified. No confirmed new error, no former issue closed.
+- **Scope:** Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss programme remain **deferred-by-user** without inspection. Only audit Markdown; main, source bodies, registry and tags untouched. No build, CI, formal proof, publishing or project tests.
+
+---
+
 # 2026-10-26 — supporting probability stability and first variation of logarithmic product selection
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `336e7987e04aacf0e430e060d50a641e7e20255f`. [Source-anchored English proofs](reports/2026-10-26-critical-support-semicontinuity-and-logarithmic-linear-response.md).

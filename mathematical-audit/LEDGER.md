@@ -1,3 +1,16 @@
+## 2026-10-26 — proper polynomial extremal measures and gauge-independent boundary PSH
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** fb3f1a07c6791d6b269e32527f17fa490a82412a. [Complete hypotheses, proofs, source labels and lines](reports/2026-10-26-proper-polynomial-equilibrium-transport-and-gauge-independent-boundary-psh.md).
+
+| Stable finding ID | Severity / status | Exact source, justification, correction proposal and affected dependents |
+| --- | --- | --- |
+| **POME-PROPER-POLY-EQUILIBRIUM-PUSH-001** | low / **verified conditional deduction**; no false printed theorem | §16.32.1 source <code>klimek-pluripotential-theory-B04DEE23</code>, tag <code>68FB8247AB5A</code>, <code>docs/sections/maps-and-regularity-of-global-extremals/index.html</code>, main blob <code>b20154011d37d46a4d0cc7751863207e5debf183</code>, lines 10–35; contextual §16.32.5 tag <code>15FA5C21941D</code> lines 94–127 and counterexample §16.32.6 tag <code>446A0A9CF0BF</code> lines 129–133. For proper degree-d polynomial map with homogeneous leading part vanishing only at 0 and bounded nonpluripolar E: <code>V*_(f^-1 E)=V*_E∘f/d</code>, generic sheet count d^n by projective degree, and exact <code>f_* MA(V*_(f^-1 E))=MA(V*_E)</code> by local BT functoriality and zero mass on analytic branch sets. At x above E, L-regularity is equivalent in both directions, including critical points. Optional corollary after 16.32.1, relevant to BT/local regularity and §16.32.5; not valid for nonproper local maps, and transitive BT/cohomological inputs not fully certified. |
+| **POME-BOUNDARY-GAUGE-BOUNDED-PSH-001** | low / **verified conditional deduction**; no false printed theorem | §9.14.1 source <code>klimek-pluripotential-theory-DAAFC667</code>, tag <code>D1E020BB8CEA</code>, <code>docs/sections/plurisubharmonic-hulls-and-general-boundary-distances/index.html</code>, main blob <code>9b491cd7d9fcb7adb3b43c8daf2d8a29a0ed4077</code>, lines 13–42; gauge definition §9.13.2 tag <code>8FBCDB96A2E2</code>, blob <code>f2bbaea02a3b85847acc503b83d0cf4dfa11e9d0</code> lines 39–56. For proper nonempty pseudoconvex Ω and positive continuous complex-homogeneous δ1,δ2 with aδ1≤δ2≤bδ1, boundary distances satisfy same inequalities, hence -log b≤Φ2-Φ1≤-log a. PSH exhaustions |z|²+max(0,Φi) differ by ≤max(|log a|,|log b|). Optional remark after §9.14.1, relevant to domain exhaustion/hull comparison; Oka upstream remains conditional; **no** Levi-form or metric equivalence asserted. |
+
+**Coverage:** first selected proof-level §§9.14.1–2 and 16.32.1–5, contextual §16.32.6–7 and §9.13 gauge definitions, **not full section certification**. Historical POME-HULL-JET-INTERP-001 at §9.13 already exists and is not counted again. 747 unique ToC section rows preserved. Excluded approximation programme remains **deferred-by-user**, no old finding closed. Only audit Markdown, no source/main/registry/tag/CI/site/test changes.
+
+---
+
 ## 2026-10-26 — critical-support upper hemicontinuity and logarithmic model first variation
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [New exact-anchored proof report](reports/2026-10-26-critical-support-semicontinuity-and-logarithmic-linear-response.md). First selected inspection of **§§11.44–11.45**; no complete-section or upstream existence certification.
