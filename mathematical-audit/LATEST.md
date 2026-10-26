@@ -1,6 +1,6 @@
 # 2026-10-26 — Kähler envelope Hessian hypotheses and bounded complex-trace regularity limits
 
-**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; [precise integrated proofs, examples and status boundaries](reports/2026-10-26-kahler-envelope-one-sided-hessian-and-bounded-trace-limits.md).
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; [precise integrated proofs, examples and status boundaries](reports/2026-10-26-kahler-envelope-one-sided-hessian-and-bounded-trace-limits.md).
 
 - **POME-ENVELOPE-SOFTMIN-ONESIDED-SHARP-001 — low / verified conditional deduction:** two fixed smooth obstacles \(\pm\varphi\) on \(\mathbb P^1\) have smooth soft minima with uniform values/gradients and **upper** real Hessian, but real-Hessian lower bound of order \(-1/\delta\) at their crossing. Exact negative-variance calculation validates the one-sided input in Lemma 16.16.1 and Theorem 16.16.7; original printed results are **not false**.
 - **POME-TRACE-COMPLEX-HESSIAN-NOT-C11-001 — low / verified conditional deduction:** the explicit subharmonic \(2|z|^2+\operatorname{Re}(z^2)\log|z|\) has \(1\le u_{z\bar z}\le3\) almost everywhere but unbounded real Hessian. This checks the *logical limit* of §16.19.1's final bounded-complex-Hessian-to-\(C^{1,\gamma}\) reasoning, **not** a counterexample to the envelope theorem.
