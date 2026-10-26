@@ -1,3 +1,13 @@
+# 2026-10-27 — Finite closed maps do not preserve cohomological dimension; compact-submanifold obstruction makes strong n-convexity sharp
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** 9ff39885f090f324eed569465cb12e69198e417c. [Complete English proofs, source variants, exact files and permanent tags](reports/2026-10-27-finite-map-cohomological-dimension-and-sharp-q-convexity.md).
+
+- **POME-FINITE-CLOSED-COHDIM-ASYMMETRY-001 — low / verified conditional deduction:** §10.61.3 proves cd(X)≤cd(Y) for a closed finite-fiber map from a Hausdorff X. The binary-digit map from the Cantor space C onto [0,1] is compact, closed, onto, at most two-to-one, yet cd(C)=0<1=cd([0,1]). If the map has a continuous section, equality does follow. Printed sheaf Leray, soft-resolution and metric-product results remain true.
+- **POME-STRONG-Q-COMPACT-SUBMANIFOLD-OBSTRUCTION-001 — low / verified conditional deduction:** a compact complex q-submanifold forbids strong q-convexity near it by the Levi maximum principle and dimension count. The noncompact n-fold P^(n−1)×C (n≥2) is never strongly (n−1)-complete, while §9.52.8 supplies a smooth strongly n-convex exhaustion; the universal threshold is sharp. Printed q-completeness criteria remain correct.
+- **New exact coverage:** selected proof-level §§9.52, 10.61, 10.62 (3 previously inventory-only entries); 747 unique original ToC rows retained, zero full-section certifications. No new confirmed false mathematical theorem or resolved old finding, and no builds/CI/formal verification/published website. Dedicated Demailly approximation/regularization and Bergman/L²/OT/multiscale/positivity-loss remain **deferred-by-user** and untouched.
+
+---
+
 # 2026-10-27 — Compact ∂̄-primitive hole support and six genus-two Weierstrass branch points
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full exact-source-anchored English report](reports/2026-10-27-compact-dbar-hole-support-and-genus-two-weierstrass-branching.md).
