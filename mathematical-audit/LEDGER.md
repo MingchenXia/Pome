@@ -1,3 +1,16 @@
+## 2026-10-27 — calibration energy and curvature-normal-potential coefficient
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **review head before edit:** `a619aa2756a221271ac24b1bf166d7e898532a87`. [Complete anchored proof](reports/2026-10-27-calibration-defect-and-kahler-quartic-potential-jet.md). Two previously inventory-only §§10.89 and 10.94 checked in limited scope, printed results correct, upstream inputs conditional.
+
+| Stable finding | Severity / status | Precise source, claim, correction and affected dependents |
+| --- | --- | --- |
+| **POME-CALIBRATION-ANGLE-DEFECT-001** | low / **verified conditional deduction**; original Proposition 10.89.2 and Theorem 10.89.3 correct | `docs/sections/hermitian-volume-and-complex-calibration/index.html` main blob `dfaec751e0c2e79937b0126d572a87bc300f3261`; Proposition 10.89.2 source `demailly-complex-geometry-E9A95F3B`, permanent tag `AB0853CAC9B1`, physical lines 10–26; Theorem 10.89.3 source `demailly-complex-geometry-6F717209`, tag `EB0F17719184`, lines 28–41; orientation Example 10.89.4 tag `75AEF98694BC`, lines 43–49. Exact Vol difference controls ∫ squared J-normal projection with pointwise sharp coefficient 1/4 for p=1, 1/(2p) for p≥2; equality forces correctly oriented complex tangent planes. Optional quantitative corollary only; affects calibrated volume equality/near-calibration, not theorem truth. Stokes and tangent regularity conditional. |
+| **POME-KAHLER-QUARTIC-POTENTIAL-001** | low / **verified conditional deduction**; original Theorem 10.94.2 correct | `docs/sections/kahler-normal-coordinate-jets/index.html` main blob `4fd58352bd134c2715fc4cbf1e0074a42a7e0657`; Theorem 10.94.2 source `demailly-complex-geometry-07136048`, tag `64B6971EF741`, lines 10–79; metric jet Eq.10.94.3 tag `F8EFB833957C` (16–23), curvature symmetries Eq.10.94.4 tag `89C5EDFA346C` (24–27), cubic Eq.10.94.6 tag `9F6B4FD758C3` (51–60). Unique mixed quartic potential jet mod pluriharmonic gauge: -1/4 ΣC z_jz_l bar z_k bar z_m, remainder O(|z|⁵). Direct four-derivative symmetry and CP¹ Fubini–Study check. Optional normal-potential corollary, affects local curvature normalization/expansions; local ∂∂bar-potential existence conditional. |
+
+**Actual coverage:** §§10.89.2–4 and 10.94.2–6 at specified proof and equality passages; 747 ToC rows remain unique; zero entire sections certified; no old finding resolved or duplicated. Demailly approximation/regularization, dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss work remains **deferred-by-user** and unopened. No build/CI/formalization/website, main/source/body/registry/tag mutations.
+
+---
+
 ## 2026-10-27 — magnetic spectral Riesz means and nuclear Banach rigidity
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **review head before edit:** `1e130a81f5b539996317119059f22ff7839815c6`. [Full evidence and proofs](reports/2026-10-27-magnetic-riesz-rates-and-nuclear-banach-rigidity.md). Two previously inventory-only §§2.13 and 2.24 reviewed at specified passages; prior statuses unchanged.

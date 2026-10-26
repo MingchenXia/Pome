@@ -1,3 +1,13 @@
+# 2026-10-27 — Quantitative calibration defect and fourth-order Kähler potential jet
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting review head:** `a619aa2756a221271ac24b1bf166d7e898532a87`. [Full precise English proof and anchors](reports/2026-10-27-calibration-defect-and-kahler-quartic-potential-jet.md).
+
+- **POME-CALIBRATION-ANGLE-DEFECT-001 — low / verified conditional deduction:** §10.89.2–3 gives the exact volume deficit Vol(Y)−Vol(Z)=∫_Y(1−c(TY)), bounding the integral of squared normal components of J on TY with sharp universal coefficient 1/4 (p=1) or 1/(2p) (p≥2). Equality forces complex-oriented Y; the original calibrated volume inequality remains correct.
+- **POME-KAHLER-QUARTIC-POTENTIAL-001 — low / verified conditional deduction:** §10.94.2 and curvature equation 10.94.3 give the explicit potential jet Φ=|z|²−(1/4)ΣC_(j bar k l bar m) z_j z_l bar z_k bar z_m+O(|z|⁵), modulo pluriharmonic gauge, with the exact unscaled Chern convention. A CP¹ Fubini–Study and symbolic derivative check confirm its sign and factor; no error in the printed theorem.
+- **Coverage:** newly selected nonexcluded §§10.89 and 10.94 at pinned passages only; 747 unique ToC rows preserved and zero whole sections certified. No existing statuses changed. Demailly approximation/regularization and the dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme remain **deferred-by-user**. No build, CI, formal verification, website publication, main/source/registry/permanent-tag change.
+
+---
+
 # 2026-10-27 — Landau midpoint defect, quantitative magnetic Dirichlet Riesz rate, and nuclear Banach rigidity
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting review head:** `1e130a81f5b539996317119059f22ff7839815c6`. [Exact-source anchored complete proofs](reports/2026-10-27-magnetic-riesz-rates-and-nuclear-banach-rigidity.md).
