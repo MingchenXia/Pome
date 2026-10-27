@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-28, infinite Ext products and non-PID injective dimensions
+
+**Fresh production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Review starting HEAD:** 8e85fb0c7ae18c5f4dcb1d1e2745d04a280e4ca8. [Complete current-main source/tag/line-anchored report](reports/2026-10-28-infinite-ext-products-nonpid-length-and-coherent-topology.md).
+
+- **POME-EXT-INFINITE-CYCLIC-PRODUCT-001** — low / **verified conditional deduction**: $\operatorname{Ext}^1_{\mathbb Z}(\bigoplus_{r\ge1}\mathbb Z/2^r,\mathbb Z)=\prod_{r\ge1}\mathbb Z/2^r$, not a direct sum; this Ext even has elements of infinite order. The printed finite-generation qualifier in §10.68.4 is correct and essential.
+- **POME-EXT-NONPID-INJECTIVE-DIMENSION-001** — low / **verified conditional deduction**: over $R=\mathbb Q[x,y]$, the explicit length-two Koszul resolution gives $\operatorname{Ext}^2_R(R/(x,y),R)=\mathbb Q$. Thus PID length-one injective resolutions from §10.68.2 cannot be extended to arbitrary commutative rings.
+- **Actual new selected coverage:** §§10.68 (explicit algebraic resolution/UCT proofs) and 9.51 (only cover-order Lemma 9.51.1, Mayer–Vietoris cone Lemma 9.51.9 and compact finiteness Theorem 9.51.10, conditional on their cited nonexcluded inputs). No new false printed theorem. User-excluded weighted $L^2$ §9.51.2 and all dedicated Demailly regularization/Bergman/L²/OT/multiscale/positivity-loss work remain **deferred-by-user** and unopened. Exactly **747** ToC IDs retained, **zero** entire sections certified. No main, source, body, tags, registry, site, tests, CI or formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-28, componentwise top cohomology and one-point vanishing
 
 **Fresh main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit branch HEAD:** f134fde1c03070e7c70c23f5fc9bc04feae70261. [Full current integrated-source mathematical report](reports/2026-10-28-top-degree-components-ext-and-onepoint-connectedness.md).

@@ -1,3 +1,16 @@
+## 2026-10-28 — derived Ext products, non-PID dimensions and coherent topology
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete proofs and exact integrated HTML line/source/tag anchors](reports/2026-10-28-infinite-ext-products-nonpid-length-and-coherent-topology.md).
+
+| Stable ID | Severity / status | Exact affected mathematics, correction, and dependents |
+| --- | --- | --- |
+| **POME-EXT-INFINITE-CYCLIC-PRODUCT-001** | low / **verified conditional deduction**, printed results correct | Corollary 10.68.4 tag **7E187B2EFD5F**, source demailly-complex-geometry:82FDC40D, main file docs/sections/spectral-sequences-support-and-cup-products--injective-modules-and-extension-modules/index.html blob a26517e086ac8ed8c5d590cad04b203a2f602f99 lines **106–122**; Theorem 10.68.6 tag **04CB406A4809** and Eq 10.68.7 tag **F019AD1FFDA1** lines **126–193**. The infinite cyclic torsion direct sum has first Ext the full product, with an infinite-order element. Preserve finite-generation hypothesis and arbitrary-complex derived statement; optional example after 10.68.4. |
+| **POME-EXT-NONPID-INJECTIVE-DIMENSION-001** | low / **verified conditional deduction**, printed results correct | Proposition 10.68.2 tag **9253F65EBAE8**, source demailly-complex-geometry:A99EA81C, same integrated file/blob lines **28–56**. Explicit Koszul resolution over Q[x,y] yields nonzero Ext^2(Q,Q[x,y]), forbidding a length-one injective resolution of the second coefficient module. Preserve PID-only clause; optional illustrative example after 10.68.2, not a repair to an existing false claim. |
+
+**New bounded proof inspection without new finding:** §9.51 Lemma 9.51.1 source demailly-complex-geometry:1DA19751 tag **95172CE64D2D**, main file docs/sections/convex-neighborhoods-and-coherent-vanishing--coherent-sections-and-stein-vanishing/index.html blob b25b9fd626fe95865e728c2f180eadb84c00b44b lines **10–38**; Lemma 9.51.9 source demailly-complex-geometry:301AB7EF tag **600DE1CB7CE6** lines **178–202**; Theorem 9.51.10 source demailly-complex-geometry:3541C0AE tag **7C6C814BF9A5** lines **204–214**. Cover-packing inequality, cone differential sign and finite-cochain compactness checked under upstream Čech, Fréchet and compact restriction inputs; **none** of these inputs certified. Lemma 9.51.2's excluded weighted L² proof is **deferred-by-user**, not examined. Only §§10.68 and 9.51 upgraded from inventory to **selected passages**; 747 distinct ToC rows retained, zero full-section certifications. All historical findings/deferred statuses preserved. No build/tests/CI/formalization/main/source/body/permanent-tag/site modification.
+
+---
+
 ## 2026-10-28 — componentwise top cohomology, dualizing Ext, and one-point vanishing
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit HEAD:** f134fde1c03070e7c70c23f5fc9bc04feae70261. [Source/tag/line anchored complete report](reports/2026-10-28-top-degree-components-ext-and-onepoint-connectedness.md).
