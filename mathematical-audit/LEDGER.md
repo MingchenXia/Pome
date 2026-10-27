@@ -1,3 +1,15 @@
+## 2026-10-27 — Quasi-everywhere equality on plurifine opens implies full Bedford–Taylor and locally finite NPP locality
+
+**Pinned main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full source-anchored proof, limited conditional dependencies, sharp closed-contact counterexample](reports/2026-10-27-quasieverywhere-plurifine-locality-and-closed-contact-counterexample.md).
+
+| Stable finding | Severity / status | Hypotheses, adjudication, proposed placement and affected dependents |
+| --- | --- | --- |
+| **POME-PLURIFINE-QE-EQUALITY-LOCALITY-001** | **low / verified conditional deduction** (printed theorems correct) | For $u_j,v_j\in\mathrm{PSH}(U)$, plurifine-open $W\subset U$ and any pluripolar $E$, equality $u_j=v_j$ on $W\setminus E$ forces equality **everywhere on $W$**, even at common poles. Indeed psh maps into Hausdorff $[-\infty,\infty)$ are plurifinely continuous, so their equalizers are plurifinely closed; $W\setminus E$ is dense in $W$. Main §5.47 Def. 5.47.14 tag **09A00D4B8096** lines 275–279, Prop. 5.47.16 tag **DD1F66C6842A** lines 337–346, Thm. 5.47.22 tag **C1A6B45ED829** lines 450–480, blob **1bfa1fc213c9d9cf3db6ec015a10aeb21617aa2c**; §13.2 Lemma 13.2.2 tag **D59675D9F6D8** lines 35–58 and Prop. 13.2.6 tag **7F7123F92478** lines 80–111, blob **81be8c5acc360c96bd3c5acba05a3cdb5fafaf4c**. Locally bounded BT products therefore agree on $W$; locally finite non-pluripolar products do so if **both** exist. Open condition is sharp: $u=\max(0,\log|z|^2)$, $v=0$ agree on closed disk $K=\{|z|\le1\}$ but $\mathbf1_Kdd^cu$ is Haar measure on $|z|=1$, unlike $\mathbf1_Kdd^cv=0$. Proposed optional corollary after §5.47.22 with a reference from §13.2.6; **no source edit**. Conditions: non-Borel $W,E$ allowed by completed coefficient measures; no global finiteness follows. Dependents: §5.47.23 level sets, §13.2.2/.6 truncated products. Selected source dependencies checked, but upstream BT convergence, Choquet and measure domination are **not** independently certified. |
+
+**Actual fresh coverage:** §§5.9 and 5.47 promoted from inventory to selected proof review, with exact subsets in report. §13.2 only cross-checked (previously audited). No false theorem found, and no complete section or project verification. Demailly regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss work remain **deferred-by-user**.
+
+---
+
 ## 2026-10-27 — First Cartier b-divisor model and strict modified Dolbeault class
 
 **Pinned main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; [exact source lines and complete chart computation](reports/2026-10-27-point-ideal-bdivisor-model-and-modification-dolbeault.md). One **new low / verified conditional deduction**, no confirmed false theorem.
