@@ -141,6 +141,17 @@ bibliographic identity.
 
 ## Demailly supplement
 
+The Demailly registration pins reviewed source revision
+`108777f7acbb201bd914119bfd00a38a83282e3d` for the positive-level correction
+to the arbitrary-bidimension Siu theorem (permanent tag `6A51F1CD4D5B`).
+Its level-set analyticity and dimension bound require `c > 0`; at level
+zero the zero current on an n-fold with n > p contradicts the dimension
+bound. The source proof already uses positive-level inputs and is unchanged.
+The 103-file allowlist includes only this existing supplement. The unfinished
+survey adaptation in Gerby-Literature PR #6 is outside that export graph.
+The other Literature registrations retain their existing refs. Restore main
+tracking only after reviewing the merged source and its export hashes.
+
 The sixth registered source, `demailly-complex-geometry`, uses
 `contributions/demailly-complex-geometry.tex` in Gerby-Literature. Its
 reviewed manifest hashes exactly 103 selected files: 98 proof fragments,
