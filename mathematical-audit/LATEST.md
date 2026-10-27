@@ -1,3 +1,13 @@
+# 2026-10-27 — Strictly positive Monge–Ampère density is essential for local trace-to-smoothness; measurable-coefficient ABP input
+
+**Freshly reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit head:** 5dc554e85f165dfb8656f891d7244c03d59b3dca. [Full dated source-pinned report](reports/2026-10-27-degenerate-ma-trace-sharpness-and-abp-viscosity.md).
+
+- **POME-MA-INTERIOR-POSITIVE-DENSITY-NECESSITY-001 — low / verified conditional deduction:** In complex dimension $n\geq2$, $u(z)=(\max\{\operatorname{Re}z_1,0\})^2$ is psh and $C^{1,1}$ but not $C^2$, has bounded current trace $\operatorname{tr}_\beta dd^cu=\mathbf1_{\{\operatorname{Re}z_1>0\}}/2$, and has zero Bedford–Taylor top product. Hence the $F>0$ hypothesis in Proposition 15.18.5 cannot be weakened to smooth $F\geq0$. The printed proposition itself is not false.
+- **POME-MA-INTERIOR-ABP-VISCOSITY-INPUT-001 — medium / external dependency:** The §15.18.5 $W^{2,q}$ strong-solution-to-viscosity passage (main lines 202–210) explicitly invokes GT01 Aleksandrov maximum principle, including a *measurable coefficient field* in the lower-test direction, then variable-coefficient Evans–Krylov and Schauder. This is an application-specific **unresolved self-containment input**, not a duplicate assertion that the general Evans–Krylov theorem is new; existing **POME-MA-SMOOTH-REG-EXTERNAL-001** remains unresolved.
+- **Actual newly inspected coverage:** selected lines 50–126, 135–213, 225–290 and 295–411 of **§15.18 only** (the last two are limited hypothesis/sign reviews), one formerly inventory-only ToC row upgraded. All **747** distinct numbered ToC rows remain; **zero** complete-section certifications. No build/tests/CI/formalization/main/source/tag/site modification. Dedicated Demailly approximation/regularization, Bergman/$L^2$/OT/multiscale/positivity-loss programmes remain **deferred-by-user** and unopened.
+
+---
+
 # 2026-10-27 — Unibranch obstacle descent, strictly convex Gauss maps, and Hermitian sharpness
 
 **Reviewed current main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit head:** cf7cc8c49f2fd2b51bd085ae89429a9db2ad2684. [Full proof with source labels, tags, file SHA and physical line anchors](reports/2026-10-27-unibranch-obstacle-descent-gauss-map-gaussian-sharpness.md).
