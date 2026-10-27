@@ -1,3 +1,15 @@
+# 2026-10-27 — Pluriclosed surface volume, a continuum of I-equivalent polar masses, and sharp one-sided mixed-MA bounds
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full pinned English proofs, source tags, permanent tags and physical lines](reports/2026-10-27-pluriclosed-surface-mass-and-inequivalent-mixed-ma-bounds.md).
+
+- **POME-GAUD-SURFACE-MASS-PLURICLOSED-001 — low / verified conditional deduction:** on a compact complex surface, total Hermitian MA mass satisfies \(\int(\theta+dd^cv)^2=\int\theta^2+2\int v\,dd^c\theta\); for a positive background potential-independence is equivalent to \(dd^c\theta=0\), not \(d\theta=0\). An explicit nonclosed, positive pluriclosed metric on the flat complex 2-torus demonstrates the distinction.
+- **POME-POLAR-I-TYPE-MASS-CONTINUUM-001 — low / verified conditional deduction:** scaling the existing §13.4.11 atom-free polar potential gives all \(\omega_{\rm FS}\) non-pluripolar masses \(1-t\), \(t\in[0,1]\), all multiplier ideals trivial, but pairwise different ordinary and P-singularity types; positive P-background \((1+\delta)\omega_{\rm FS}\) handles the endpoint \(t=1\). The old §16.8.19 pairwise example is explicitly *not* registered again.
+- **POME-MIXED-MA-NONREVERSE-KAHLER-001 — low / verified conditional deduction:** on \((\mathbb P^1)^n\), strictly Kähler \(T_{i,\varepsilon}=\omega_i+\varepsilon\sum_j\omega_j\) have pure top-density \(n!(1+\varepsilon)\varepsilon^{n-1}\), but mixed density \(\sum_{k=0}^n\binom nk k!\varepsilon^k\to1\); no dimension-only reverse geometric-mean estimate. Proportional Kähler forms attain coefficient 1 in the printed *lower* bound.
+
+**Actual scope:** first selected proof passages in §§13.4–13.5, first explanatory/definition-only review in §§12.1 and 16.7; prior §§16.3/16.8 used as dependencies, not re-counted. All **747** ToC section identifiers retained; no whole-section certification, new false printed theorem, source edit, project build, CI, formal verification or publication. All previously deferred-by-user Demailly approximation/regularization and dedicated Bergman/L2/OT/multiscale/positivity-loss work remains untouched.
+
+---
+
 # 2026-10-27 — Split Frölicher pages under modifications; explicit complex-torus Hodge numbers
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting review head:** 70608f5b76eda0322898690d69552a01a52c7d8a. [Complete source-anchored proofs and boundary conditions](reports/2026-10-27-modification-frolicher-retract-and-torus-fourier-hodge.md).
