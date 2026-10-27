@@ -1,3 +1,18 @@
+## 2026-10-27 — Exact Hartogs-bridge hull and explicit complete puncture cusp
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Pinned detailed proof and source anchors](reports/2026-10-27-hartogs-bridge-exact-hull-and-explicit-puncture-kahler-cusp.md).
+
+| Stable finding | Severity / status | Exact premises, justification, proposed addition, affected dependents |
+| --- | --- | --- |
+| **POME-HARTOGS-BRIDGE-EXACT-HULL-001** | low / **verified conditional deduction** (printed Prop. 9.30.1 true) | For §9.30 gluing $\pi:X\to\Delta^2$ and its $H$-chart circle $K=\{z=3/4,\ |w|=7/8\}$, every global function descends uniquely from $\Delta^2$, whence $\widehat K=\pi^{-1}(\{z=3/4,\ |w|\le7/8\})$ by the global coordinate $z-3/4$, function $w$, and the one-variable maximum principle. Both unglued $U_-$ sheets are retained. Noncompactness follows from the B-sheet sequence tending to $(3/4,i/8)\notin\pi(X)$. Source path docs/sections/separation-strict-exhaustions-and-coverings--local-separation-without-global-separation/index.html, main blob c4037b237429e2c1269bd7beebded6644dc206c9, §9.30 Prop. 9.30.1 source label demailly-complex-geometry:61281B36, permanent 774E0C4C33DB, physical lines 10–62. Proposed optional exact-hull corollary; dependents §§9.25–9.32 Stein/separation claims. |
+| **POME-PUNCTURE-KAHLER-FINITE-CUSP-001** | low / **verified conditional deduction** (printed Thm. 9.31.1 and Ex. 9.31.2 true) | On $\mathbb C^n\setminus\{0\}$ take $L=\log(1/r^2)$, $\psi=-\log L$ near $0$, and $\omega=\omega_{\mathrm{eucl}}+\lambda i\partial\bar\partial(\chi\psi)$ with cutoff and small $\lambda>0$. Levi eigenvalues near zero are $1/(r^2L^2)$ radial and $1/(r^2L)$ tangential (before positive factor $\lambda$). The metric is complete since $\int dr/(rL)=\infty$, while local cusp volume is finite since $\int dr/(rL^{n+1})<\infty$. Source docs/sections/separation-strict-exhaustions-and-coverings--complete-kahler-metrics-on-regular-open-sets/index.html, blob 3faaef942f4822127e09c63a463d654d346696c2, §9.31.1 tag 214C6B3DF885 lines 7–22 and §9.31.2 tag D80B90CDCDA1 lines 25–42, source labels demailly-complex-geometry:232F4B65 and :12510407. Proposed explicit elementary substitute for **only** the example's metric construction; complete-Kähler⇒pseudoconvex proof still conditionally cites internal Cor. 6.28.14 (unreopened L² input). Dependents: regular-open requirement §9.31.1; no whole theorem certified. |
+
+**New selected corroboration (no new finding ID):** §10.82.1–2 source docs/sections/symbols-exterior-algebra-and-bundle-adjoints/index.html main blob 95b25dd98d1678d1130be1b6dbd3f18c3c084ce8, tag 5ADADD15BE60 lines 5–21, Proposition 10.82.2 source demailly-complex-geometry:A161E98B tag 3765CBF9B2B4 lines 23–35. Confirmed Hodge/adjoin sign, anticommutator principal symbol and flatness qualification by explicit unitary connection $D=d+i x\,dy$, $D^2=i\,dx\wedge dy\ne0$.
+
+**Actual new coverage:** §§9.30, 9.31, 10.82 selected proof paragraphs, 3 previously inventory-only rows; 747 unique ToC identifiers retained, zero full sections certified. No newly false theorem. Dedicated Demailly approximation/regularization and Bergman/L²/OT/multiscale/positivity-loss work remains **deferred-by-user**, untouched.
+
+---
+
 ## 2026-10-27 — Quasi-everywhere equality on plurifine opens implies full Bedford–Taylor and locally finite NPP locality
 
 **Pinned main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full source-anchored proof, limited conditional dependencies, sharp closed-contact counterexample](reports/2026-10-27-quasieverywhere-plurifine-locality-and-closed-contact-counterexample.md).

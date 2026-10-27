@@ -1,3 +1,14 @@
+# 2026-10-27 — Exact Hartogs bridge hull, complete finite-volume Kähler puncture cusp, and Hodge-symbol sign checks
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **initial review head:** de4c9e61443ae6d23e794c739688e877a38c653c. [Complete English proof, labels, blobs and physical lines](reports/2026-10-27-hartogs-bridge-exact-hull-and-explicit-puncture-kahler-cusp.md).
+
+- **POME-HARTOGS-BRIDGE-EXACT-HULL-001 — low / verified conditional deduction:** §9.30's glued two-chart Riemann domain has the *exact* holomorphic hull of its example circle $K$: $\widehat K_{\mathcal O(X)}=\pi^{-1}(\{z=3/4,|w|\le7/8\})$, including both points over the negative unglued overlap. This explicit formula strengthens the existing noncompactness demonstration; Proposition 9.30.1 remains correct.
+- **POME-PUNCTURE-KAHLER-FINITE-CUSP-001 — low / verified conditional deduction:** §9.31.2's complete Kähler metric on $\mathbb C^n\setminus\{0\}$ admits an independent explicit elementary construction with a **finite-volume puncture cusp**, $\omega_{\mathrm{eucl}}+\lambda i\partial\bar\partial(\chi[-\log\log(1/|z|^2)])$. Exact Hessian radial/tangential eigenvalues and integrable $r^{-2n}L^{-(n+1)}$ density are proved; no dedicated $L^2$ or regularization proof is revisited. The regular-open hypothesis of §9.31.1 remains necessary.
+- **Independent selected §10.82 check:** Hodge-star and formal-adjoint signs, scalar principal symbol of the twisted Laplacian, and exact nonflat counterexample to interpreting $D$ as a cochain differential; no false theorem found and no extra new finding claimed.
+- **Actual coverage:** first specified proof-level inspection of exactly §§9.30, 9.31 and 10.82 (three inventory rows upgraded), preserving **747** ToC section rows. No complete-section or upstream analytic-division/Hodge theorem certification; no CI/build/tests/formalization/publishing or main/source/tag changes. Dedicated Demailly approximation/regularization, Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programmes remain **deferred-by-user** and untouched.
+
+---
+
 # 2026-10-27 — Quasi-everywhere equality strengthens plurifine locality; closed contact sets do not suffice
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **New selected proof review:** §§5.9 and 5.47, contextual cross-check (not recounted) of previously reviewed §13.2. [Detailed report with stable tags, physical main lines, complete proof and boundary counterexample](reports/2026-10-27-quasieverywhere-plurifine-locality-and-closed-contact-counterexample.md).
