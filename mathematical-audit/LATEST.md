@@ -1,3 +1,13 @@
+# 2026-10-27 — Sharp radial residual Sobolev threshold and quantitative equilibrium-mass stability
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** f06fc11b2c80c4ba71dc1ab7fcea90166e47b2d4. [Source-anchored complete conditional proofs and counterexamples](reports/2026-10-27-radial-residual-critical-sobolev-and-obstacle-mass-stability.md).
+
+- **POME-RADIAL-RESIDUAL-CRITICAL-SOBOLEV-001 — low / verified conditional deduction:** for radial MA density relative error O(r^δ) near the prescribed pole in complex dimension k≥2, 0<δ<1, the residual has sharp W^{2,p} regularity **including** p=k/(1−δ), with log integrability at the endpoint; the printed normalized perturbation shows failure for every larger p. For 1/2<δ<1 its C^{1,2δ−1} regularity and sharpness also follow without density-derivative assumptions. Printed §§11.46.8/.17 remain correct.
+- **POME-RADIAL-OBSTACLE-KOLMOGOROV-SHARPNESS-001 — low / verified conditional deduction:** fixed-support C²-bounded convex radial obstacles have equilibrium MA radial cumulative distributions differing by O(√||F−G||∞), and a smooth strictly convex localized bump proves the 1/2 exponent optimal. This is **not** total-variation stability. Printed §§11.47.5/.8/.11 remain correct.
+- **New actual selected coverage:** §§11.46–11.47 (radial inverse, density zeros, sharp perturbations, convex obstacle, contact/mass and C^{1,1} control) and independently §9.49 (ambient ideal logarithm, Levi normal-block argument, q-convex subspace/neighborhood construction); exactly three prior inventory-only ToC rows upgraded, all 747 unique identifiers retained. §7.31.2–4 contextual non-regularization check only; §7.31.1 smoothing and all dedicated Demailly/Bergman/L²/OT/multiscale/positivity-loss work **deferred-by-user**, untouched. No full-section certification, confirmed false theorem, project build/test/CI/formalization or publication.
+
+---
+
 # 2026-10-27 — Finite closed maps do not preserve cohomological dimension; compact-submanifold obstruction makes strong n-convexity sharp
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** 9ff39885f090f324eed569465cb12e69198e417c. [Complete English proofs, source variants, exact files and permanent tags](reports/2026-10-27-finite-map-cohomological-dimension-and-sharp-q-convexity.md).
