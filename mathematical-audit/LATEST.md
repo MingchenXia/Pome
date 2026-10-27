@@ -1,3 +1,13 @@
+# Latest mathematical-audit checkpoint — 2026-10-28, normalized finite-map trace and compact de Rham duality
+
+**Pinned main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Initial audit HEAD:** \`d66ceeb98dac4938559f13344d8f996feba2376c\`. [Detailed dated source-anchored report](reports/2026-10-28-finite-curve-trace-average-and-algebraic-duality.md).
+
+- **POME-CURVE-FINITE-TRACE-PSH-AVERAGE-001** — low / **verified conditional deduction**, no false theorem. For any degree-\(d\) finite holomorphic map of compact curves and \(h\in\mathrm{PSH}(C',r^*\beta)\), the normalized ramification-weighted fiber trace \(A_rh=d^{-1}\sum_{r(x)=s}e_xh(x)\) is \(\beta\)-psh, has curvature \(\beta+dd^cA_rh=d^{-1}r_*(r^*\beta+dd^ch)\), and Lelong numbers \(d^{-1}\sum_x\nu(h,x)\). Explicit quadratic-map \(\mathbb P^1\) example proves that this is **not** the printed §5.43.15 fiber maximum, which has minimum adjusted Lelong number. The two valid semantics must not be deduplicated; optional corollary, no body modification.
+- **Actual new selected proof-level reading:** **§5.43** finite-curve descent and trace §§5.43.4–.16 (selected only); **§10.73** de Rham compact-support trace sign and algebraic duality (selected only). §5.44 was **already historically reviewed**; this run merely crosschecked fixed and moving non-pluripolar measure arguments without repeating older findings. All **747** current section records retained, **zero** whole-section certifications; no new confirmed false printed theorem.
+- Dependencies such as full Godement/Ext duality, Cegrell fixed-measure convergence, and the bounded-current torsion calculus remain conditional. All dedicated Demailly approximation/regularization, Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss historical items remain **deferred-by-user**, untouched. No main/body/source/registry/tags/site/build/CI/formalization modifications.
+
+---
+
 # Latest mathematical audit — 2026-10-27, sharp Hessian coefficient and codimension-two heat trace rates
 
 **Pinned main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Branch:** review/mathematical-audit. [Complete dated source-anchored report](reports/2026-10-27-hessian-deleted-coefficient-and-heat-lp-rates.md).
