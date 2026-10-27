@@ -1,13 +1,13 @@
 # 2026-10-28: bounded exponential equations and resolved blowup densities
 
-**Reviewed production \`main\`:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-**Review branch:** \`review/mathematical-audit\`. This note audits only specified integrated reading-edition passages; it does not certify the full sections or their upstream analytic dependencies.
+**Reviewed production `main`:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+**Review branch:** `review/mathematical-audit`. This note audits only specified integrated reading-edition passages; it does not certify the full sections or their upstream analytic dependencies.
 
 ## Scope and exact integrated sources
 
-1. \`docs/sections/equations-with-prescribed-singularities--a-bounded-subsolution-theorem/index.html\`, blob \`6240b6dc071d12eac1476ed548736d012c1a4fa2\`: Theorem **15.10.1**, permanent tag **BA5CB37AAAC1**, lines **11–17**; fixed-reference mixed inequality (15.10.2), permanent equation tag **25E63CEC282C**, lines **66–79**; Step 2 uniform bound/limit argument, lines **58–107**.
-2. \`docs/sections/equations-with-prescribed-singularities--equations-with-resolved-logarithmic-poles/index.html\`, blob \`bec2abe4e9b361a37adbf668837da42726b6dcda\`: resolved-logarithmic hypotheses (15.22.1), tag **1B942D170060**, lines **10–17**; Theorem **15.22.2**, tag **3B5397268E44**, lines **21–49**; Example **15.22.7**, tag **0362BBF11A0B**, lines **64–78**; Proposition **15.22.10**, tag **D1ADF0EFDD30**, lines **87–105**.
-3. \`docs/sections/equations-with-prescribed-singularities--minimal-singularities-in-an-arbitrary-big-background/index.html\`, blob \`4805502723e87defe8ae12616a3d2d550fb8dd75\`: Theorem **15.16.2**, tag **352C3567BAAD**, lines **63–140**, **only** Steps 2–3, lines **87–140**, as comparison context.
+1. `docs/sections/equations-with-prescribed-singularities--a-bounded-subsolution-theorem/index.html`, blob `6240b6dc071d12eac1476ed548736d012c1a4fa2`: Theorem **15.10.1**, permanent tag **BA5CB37AAAC1**, lines **11–17**; fixed-reference mixed inequality (15.10.2), permanent equation tag **25E63CEC282C**, lines **66–79**; Step 2 uniform bound/limit argument, lines **58–107**.
+2. `docs/sections/equations-with-prescribed-singularities--equations-with-resolved-logarithmic-poles/index.html`, blob `bec2abe4e9b361a37adbf668837da42726b6dcda`: resolved-logarithmic hypotheses (15.22.1), tag **1B942D170060**, lines **10–17**; Theorem **15.22.2**, tag **3B5397268E44**, lines **21–49**; Example **15.22.7**, tag **0362BBF11A0B**, lines **64–78**; Proposition **15.22.10**, tag **D1ADF0EFDD30**, lines **87–105**.
+3. `docs/sections/equations-with-prescribed-singularities--minimal-singularities-in-an-arbitrary-big-background/index.html`, blob `4805502723e87defe8ae12616a3d2d550fb8dd75`: Theorem **15.16.2**, tag **352C3567BAAD**, lines **63–140**, **only** Steps 2–3, lines **87–140**, as comparison context.
 
 These are permanent *reading-edition tags*. Their individual upstream original-source labels were not independently reconstructed during this run; no source-label mapping is conjectured. The mathematical hypotheses and proofs below are keyed to the stated integrated version, not to a same-numbered historical theorem.
 
