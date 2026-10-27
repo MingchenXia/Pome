@@ -1,92 +1,77 @@
-# 2026-10-27 — Unibranch obstacle descent, convex Gauss maps, and sharp complete-Hermitian dual energy
+# 2026-10-27 — Unibranch obstacle descent, strictly convex Gauss maps, and sharp Hermitian dual energy
 
-**Pinned integrated reading-edition main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting audit head:** `cf7cc8c49f2fd2b51bd085ae89429a9db2ad2684`. **Scope:** first *selected* mathematical/proof inspection of §§9.10, 9.16, 9.53 and 11.49. No complete-section or upstream theorem-chain certification. Original source text was not needed: the indicated current integrated reading-edition passages and exact displayed proofs were read. No Demailly approximation/regularization, nor its dedicated Bergman, L², Ohsawa–Takegoshi, multiscale-atlas or positivity-loss proof-completion programme, was reopened. Historical records of those subjects stay **deferred-by-user**, not resolved.
+**Reviewed current main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit head:** cf7cc8c49f2fd2b51bd085ae89429a9db2ad2684. **Scope:** first selected mathematical inspection of §§9.10, 9.16, 9.53, 11.49 in the integrated reading edition, not the original source alone. None of these sections or their entire dependency chains is certified. No Demailly approximation/regularization or dedicated Bergman, L², Ohsawa–Takegoshi, multiscale-atlas or positivity-loss proof-completion work was reopened; all its historical entries remain **deferred-by-user**.
 
 ## POME-UNIBRANCH-CONTINUOUS-OBSTACLE-DESCENT-001
 
-**Status:** verified conditional deduction. **Severity:** low; this is a precise application, not a false printed theorem.
+**Status:** verified conditional deduction. **Severity:** low; no false printed theorem.
 
-**Anchors and inputs:** `docs/sections/pluripotential-theory-on-unibranch-spaces/index.html`, main blob `6edfa6b19fa7cdbaf0c2665389fa7b3ca338cdf4`. Theorem 9.10.5, source `sgpt`, internal label `sgpt-... ` (use the stable tag below rather than guessing the missing source ID), permanent tag `E707851D5DBA`, lines 39–64; quoted disk criterion Theorem 9.10.13, source label `sgpt-59A3C1AA`, permanent tag `48473380B913`, lines 126–139; Theorem 9.10.14, source `sgpt-EEFC0C9A`, permanent tag `C69D2F0ABA4F`, lines 140–214; Corollary 9.10.16, source `sgpt-D36D019A`, permanent tag `2DA8FD7B7A99`, lines 216–249. Corollary 9.10.16, and standard existence of a continuous-obstacle psh envelope on a smooth compact Kähler manifold, are *explicit conditional inputs*. Existing `POME-UNI-EXT-FN-001` (Fornæss–Narasimhan disk-test converse) remains an **unresolved external dependency**; neither its proof nor any user-excluded approximation argument is treated as established by this report.
+**Source anchors.** Main file **docs/sections/pluripotential-theory-on-unibranch-spaces/index.html**, blob **6edfa6b19fa7cdbaf0c2665389fa7b3ca338cdf4**. Theorem 9.10.5, source label **sgpt-AFDCC00F**, permanent tag **E707851D5DBA**, physical lines 39–64 (connected fibers); Theorem 9.10.13, source label **sgpt-59A3C1AA**, tag **48473380B913**, lines 126–139 (Fornæss–Narasimhan disk test); Theorem 9.10.14, label **sgpt-EEFC0C9A**, tag **C69D2F0ABA4F**, lines 140–214; Corollary 9.10.16, label **sgpt-D36D019A**, tag **2DA8FD7B7A99**, lines 216–249 (pullback bijection). The printed Corollary 9.10.16 and standard existence of continuous-obstacle psh envelopes on smooth compact Kähler manifolds are explicit conditional inputs. The earlier **POME-UNI-EXT-FN-001**, a genuine external dependency on the converse disk criterion, remains open.
 
-**Precise deduction.** Suppose (pi:Y	o X) is a proper bimeromorphic morphism, (Y) a smooth compact Kähler manifold and (X) a connected compact **unibranch** Kähler space. Let (	heta) be a smooth closed real ((1,1))-form on (X), assume (mathrm{PSH}(X,	heta)
-earnothing), and let (fin C^0(X,mathbb R)). Let (P_	heta(f)) and (P_{pi^*	heta}(fcircpi)) denote the *largest* psh minorants of their respective continuous obstacles. Then
-[
- oxed{pi^*P_	heta(f)=P_{pi^*	heta}(fcircpi).}
-]
-In particular the downstairs envelope exists as a (	heta)-psh function; this proof does **not** require unproved commutation of upper-semicontinuous regularization with the quotient map.
+**Assertion.** Let $\pi:Y\to X$ be a proper bimeromorphic morphism from a smooth compact Kähler manifold $Y$ to a connected compact unibranch Kähler space $X$. Let $\theta$ be a smooth closed real $(1,1)$-form on $X$, with $\mathrm{PSH}(X,\theta)\ne\varnothing$, and let $f\in C^0(X,\mathbb R)$. The largest $\theta$-psh minorant $P_\theta(f)$ is well defined and
+$$
+\boxed{\pi^*P_\theta(f)=P_{\pi^*\theta}(f\circ\pi).}
+$$
 
-**Proof.** Since (mathrm{PSH}(X,	heta)
-earnothing), the upstairs admissible family is nonempty: a downstairs (	heta)-psh candidate may be lowered by a constant to lie under (f), and its pullback is admissible under (fcircpi). Because (fcircpi) is continuous, the standard upper-regularized supremum (w=P_{pi^*	heta}(fcircpi)) is itself (pi^*	heta)-psh and remains pointwise (le fcircpi): local upper regularization cannot exceed a continuous majorant. By Corollary 9.10.16, the psh function (w) is the pullback of a unique (vinmathrm{PSH}(X,	heta)). Surjectivity of (pi) and (wle fcircpi) imply (vle f). For any (uinmathrm{PSH}(X,	heta)) with (ule f), (pi^*ule w=pi^*v), whence (ule v) by surjectivity. Thus (v) is the largest minorant on (X), proving the formula. This is an order argument for an arbitrary (even uncountable) family; it neither assumes sequential compactness nor interchanges limiting operations.
+**Complete deduction from the specified inputs.** Nonemptiness of $\mathrm{PSH}(X,\theta)$ gives an admissible minorant of $f$: every fixed $\theta$-psh function is bounded above on compact $X$ and can be lowered by a constant. Its pullback lies under $f\circ\pi$, so the upstairs admissible family is nonempty. On smooth compact Kähler $Y$, let $w=P_{\pi^*\theta}(f\circ\pi)$ be the upper-semicontinuous regularized supremum. It is $\pi^*\theta$-psh. **Continuity of the obstacle matters:** regularizing a family bounded by the continuous $f\circ\pi$ still gives $w\le f\circ\pi$ everywhere. By Corollary 9.10.16 there is a unique $v\in\mathrm{PSH}(X,\theta)$ with $w=\pi^*v$. Since $\pi$ is surjective, $v\le f$. For any competing $u\in\mathrm{PSH}(X,\theta)$ with $u\le f$, its pullback is a competing minorant upstairs, hence $\pi^*u\le w=\pi^*v$. Surjectivity gives $u\le v$. Thus $v=P_\theta(f)$ and the identity follows. This proof **does not interchange** pullback with usc regularization, assume sequential compactness, or manipulate the excluded regularization programme.
 
-**Disposition/dependents.** Optional continuous-obstacle birational functoriality lemma near §9.10.16 or the envelope definitions in §16. The preservation of the obstacle's continuity and the exact unibranch/proper hypotheses are essential to the derivation. This is *not* an audit or repair of excluded approximation inputs, nor a certification of all pluripotential operations on singular spaces.
+**Suggested placement and dependents.** Optional precise lemma near Corollary 9.10.16 and §16's obstacle-envelope definitions. It applies to continuous obstacles, not automatically to arbitrary discontinuous singular obstacles. The Fornæss–Narasimhan input and the upstream smooth-envelope existence theorem are not re-proved here.
 
 ## POME-STRICT-CONVEX-GAUSS-DIFFEO-001
 
-**Status:** verified conditional deduction. **Severity:** low; strengthens the printed extreme-point conclusion, which remains correct.
+**Status:** verified conditional deduction. **Severity:** low; correct printed extreme-point theorem strengthened.
 
-**Anchors:** `docs/sections/local-convexity-and-defining-functions/index.html`, main blob `55354bba1d289fc34e69e2c9746bb3cbe9b2d059`, source `klimek-pluripotential-theory`; Proposition 9.16.1, label `klimek-pluripotential-theory-BAA922F2`, permanent tag `3269D913190D`, physical lines 8–28; Proposition 9.16.2, label `klimek-pluripotential-theory-C7D4500D`, tag `2822D619E8BC`, lines 30–48. The cap construction in Proposition 9.16.3, label `klimek-pluripotential-theory-1E9F70D8`, tag `623CAE0176D7`, lines 50–94, was separately checked at the stated (C^2) cutoff/Hessian and sign-preservation steps; it gives no new defect or third convexity finding.
+**Source anchors.** Main file **docs/sections/local-convexity-and-defining-functions/index.html**, blob **55354bba1d289fc34e69e2c9746bb3cbe9b2d059**, source **klimek-pluripotential-theory**. Proposition 9.16.1, source label **klimek-pluripotential-theory-BAA922F2**, tag **3269D913190D**, lines 8–28 (closed locally convex sets); Proposition 9.16.2, source label **klimek-pluripotential-theory-C7D4500D**, tag **2822D619E8BC**, lines 30–48; Proposition 9.16.3, source label **klimek-pluripotential-theory-1E9F70D8**, tag **623CAE0176D7**, lines 50–94, read at its holomorphic quadratic correction, cutoff and cap steps. Its conclusion is not claimed to have been certified through all sources.
 
-**Precise deduction and proof.** Under *all* hypotheses of Proposition 9.16.2, with real dimension (mge2), not only is (Dsubsetmathbb R^m) convex with all boundary points extreme, but **every boundary point is exposed**, and the outward Gauss map
-[
- 
-u:partial Dlongrightarrow S^{m-1},
- qquad 
-u(p)=rac{
-abla q(p)}{|
-abla q(p)|}
-]
-is a **(C^1) diffeomorphism**. Convexity gives the supporting hyperplane (H_p={x:
-u(p)cdot(x-p)=0}) at (p). If another (rinoverline Dcap H_p), the entire segment ([p,r]) lies in the supporting hyperplane and (overline D), hence in (partial D); this contradicts the proven extreme-point conclusion. Thus the hyperplane exposes (p) uniquely, showing injectivity of (
-u). Given (ein S^{m-1}), maximize (ecdot x) over compact (overline D); a maximizing boundary point has outward normal (e), proving surjectivity. On (T_ppartial D=
-u(p)^perp),
-[
- D
-u_p(w)=rac{(I-
-u(p)otimes
-u(p))D^2q(p)w}{|
-abla q(p)|},
- quad
- langle D
-u_p(w),wangle
- =rac{D^2q(p)[w,w]}{|
-abla q(p)|}>0
- quad (w
-e0).
-]
-Hence the differential on the ((m-1))-dimensional tangent space is an isomorphism. The inverse function theorem and the global bijection make (
-u) a (C^1) diffeomorphism. Nothing here invokes complex Hessian regularization; it is an elementary convex-geometric strengthening.
+**Assertion.** Under all assumptions of Proposition 9.16.2, with $m\ge2$, $D\subset\mathbb R^m$ bounded and connected, $q\in C^2$ a defining function near $\overline D$, $dq\ne0$ on $\partial D$, and the real Hessian $D^2q$ positive definite on every tangent space $T_p\partial D$, every boundary point is **exposed** (not just extreme), and the outward Gauss map
+$$
+\nu:\partial D\longrightarrow S^{m-1},\qquad
+\nu(p)=\frac{\nabla q(p)}{|\nabla q(p)|}
+$$
+is a **$C^1$ diffeomorphism**.
 
-**Disposition/dependents.** Optional consequence after Proposition 9.16.2, potentially useful in boundary convexification and support-function arguments. It does not claim a (C^2) inverse Gauss map from merely (C^2) boundary data.
+**Proof.** Proposition 9.16.2 proves convexity of $D$ and extremality of all its boundary points. At $p$, differentiability and convexity show that $H_p=\{x:\nu(p)\cdot(x-p)=0\}$ is supporting. If $r\ne p$ belongs to $H_p\cap\overline D$, convexity puts the segment $[p,r]$ inside this intersection; the supporting property puts the entire segment in $\partial D$, contradicting the extremality of $p$. Thus $p$ is exposed and $p\mapsto\nu(p)$ is injective. Any unit vector $e$ attains its support maximum $e\cdot x$ on compact $\overline D$ at some boundary point, whose exterior normal is $e$; this proves surjectivity. Along $w\in T_p\partial D=\nu(p)^\perp$,
+$$
+D\nu_p(w)
+=\frac{(I-\nu(p)\otimes\nu(p))D^2q(p)w}{|\nabla q(p)|},
+\qquad
+\langle D\nu_p(w),w\rangle
+=\frac{D^2q(p)[w,w]}{|\nabla q(p)|}>0\quad(w\ne0).
+$$
+Therefore $D\nu_p:T_p\partial D\to T_{\nu(p)}S^{m-1}$ is invertible, since both spaces have dimension $m-1$. The inverse function theorem and the bijection give a global $C^1$ diffeomorphism. A $C^2$ inverse is **not** asserted under merely $C^2$ boundary regularity.
+
+**Suggested placement/dependents.** Optional sharpening after Proposition 9.16.2, useful for support functions, strictly convex caps and boundary normal coordinates. Not an error in the original theorem.
 
 ## POME-COMPLETE-HERM-GAUSSIAN-SHARPNESS-001
 
-**Status:** verified conditional deduction. **Severity:** low; certifies optimality of an existing coefficient in an explicit admissible example, *not* the entire analytic solvability proof.
+**Status:** verified conditional deduction. **Severity:** low; proves optimality of the existing constant, rather than validating all its analytic prerequisites.
 
-**Anchors:** `docs/sections/complete-hermitian-laplacians-and-dual-energy/index.html`, main blob `5bf728a2fa3b558bf7d922d30ea25a449c70b68b`, source `demailly-complex-geometry`, Corollary 11.49.2 label `demailly-complex-geometry-456C31C4`, tag `28AC2C7FBC2B`, lines 8–23; Theorem 11.49.3 label `demailly-complex-geometry-C84B45BB`, tag `D6CB928B58CE`, hypotheses lines 25–46 and energy/graph-domain proof lines 48–69. The printed Bochner–Kodaira–Nakano identity `11.48.19` and its graph-core closure premise remain *conditional inputs*. This audit checks the next exact model and the algebraic energy consequence, **not** the excluded Demailly-approximation L² proof-completion chain.
+**Source anchors.** Main file **docs/sections/complete-hermitian-laplacians-and-dual-energy/index.html**, blob **5bf728a2fa3b558bf7d922d30ea25a449c70b68b**, source **demailly-complex-geometry**. Corollary 11.49.2, source label **demailly-complex-geometry-456C31C4**, tag **28AC2C7FBC2B**, lines 8–23; Theorem 11.49.3, label **demailly-complex-geometry-C84B45BB**, tag **D6CB928B58CE**, hypotheses lines 25–46, energy-inequality and domain proof lines 48–69. Printed inputs are the exact torsion Bochner energy identity (11.48.19), the joint graph-core theorem and the closed-Hilbert-complex duality argument. No excluded approximation-specific L² proof is revisited.
 
-**Exact sharp model.** Take (X=mathbb C), (omega=i,dzwedge dar z) (complete flat Kähler metric), (E=X	imesmathbb C) with its standard holomorphic frame (e) and smooth metric (|e|_h^2=e^{-lambda |z|^2}) for (lambda>0). Here (iTheta(E)=lambdaomega), the torsion operator is zero, and on (E)-valued ((0,1))-forms (A=[iTheta(E),Lambda_omega]=lambda I). For (g=dar zotimes e), (arpartial g=0) and (u=ar z,e) solves (arpartial u=g). With (dV_omega=omega=2,dx,dy) and (|dar z|_omega^2=1),
-[
- |g|_2^2=4piint_0^infty r e^{-lambda r^2},dr
-       =rac{2pi}{lambda},qquad
- |u|_2^2=4piint_0^infty r^3 e^{-lambda r^2},dr
-       =rac{2pi}{lambda^2}
-       =int_mathbb C|g|_{A^{-1}}^2,dV_omega.
-]
-Moreover (u) is the **minimum-norm solution**, not merely a solution attaining the upper bound: if (F) is any entire holomorphic function in the same weighted (L^2) space, the angular average of (ar z,overline{F(z)}) vanishes at every fixed radius (the power series of (overline F) contains only nonpositive Fourier modes). Cauchy–Schwarz makes its full weighted integral absolutely convergent. Hence (uperpkerarpartial), and every other solution is (u+F), so the bound is an equality for the minimizer. Thus the universal coefficient (1) in Theorem 11.49.3 cannot be reduced, even for flat complete Kähler base and a smooth *strictly* positive line-bundle metric.
+**Sharp example.** Set $X=\mathbb C$, $\omega=i\,dz\wedge d\bar z$ (a complete flat Kähler metric) and take the trivial holomorphic line bundle $E$ with smooth Hermitian weight $|e|_h^2=e^{-\lambda|z|^2}$, $\lambda>0$. The Chern curvature and torsion satisfy $i\Theta(E)=\lambda\omega$, $T_\omega=0$; on $(0,1)$-forms $A=[i\Theta(E),\Lambda_\omega]=\lambda I$. The closed form $g=d\bar z\otimes e$ admits $u=\bar z e$ with $\bar\partial u=g$. Since $dV_\omega=2\,dx\,dy$ and $|d\bar z|_\omega^2=1$,
+$$
+\|g\|_2^2=4\pi\int_0^\infty r e^{-\lambda r^2}\,dr
+=\frac{2\pi}{\lambda},\qquad
+\|u\|_2^2=4\pi\int_0^\infty r^3e^{-\lambda r^2}\,dr
+=\frac{2\pi}{\lambda^2}
+=\int_{\mathbb C}|g|_{A^{-1}}^2\,dV_\omega.
+$$
+To establish that $u$ is **minimum-norm**, note that any other solution is $u+F$ with $F$ entire and weighted $L^2$. For each $r$, the angular integral of $\bar z\,\overline{F(z)}$ vanishes by the convergent power series of $F$: its Fourier exponents are all strictly negative. Weighted Cauchy–Schwarz makes the full integral absolutely convergent; polar Fubini therefore gives $u\perp F$. Thus every other solution has squared norm $\|u\|^2+\|F\|^2$. The universal coefficient **one** in Theorem 11.49.3 is optimal even on flat complete $\mathbb C$.
 
-**Related conditional spectral consequence.** If, on some fixed ((p,q)) degree with (qge1), the theorem's exact endomorphism satisfies (A(x)gelambda_0 I) for a uniform constant (lambda_0>0), the displayed energy inequality and joint graph core yield
-[
- |arpartial v|_2^2+|arpartial^*v|_2^2
- gelambda_0|v|_2^2
-]
-for each (v) in the full joint graph domain. Thus the nonnegative selfadjoint Laplacian associated with this closed quadratic form has spectrum in ([lambda_0,infty)). The printed solution estimate gives (|u_{min}|_2lelambda_0^{-1/2}|g|_2) for closed (g), and the (unreduced) (L^2) cohomology in that degree vanishes. The Gaussian example above saturates this factor in degree ((0,1)). This invokes only the stated integrated energy theorem conditionally; no theorem-chain certification or excluded completion work is claimed.
+**Related conditional spectral bound.** If at a fixed degree $(p,q)$, $q\ge1$, the exact printed curvature-plus-torsion endomorphism has a global constant bound $A\ge\lambda_0 I$ with $\lambda_0>0$, the displayed energy estimate gives on the full joint graph domain
+$$
+\|\bar\partial v\|_2^2+\|\bar\partial^*v\|_2^2
+\ge\lambda_0\|v\|_2^2.
+$$
+Consequently the selfadjoint Laplacian of this closed quadratic form has spectrum in $[\lambda_0,\infty)$; for distributionally closed $g$ the printed solution theorem yields
+$\|u_{\min}\|_2\le\lambda_0^{-1/2}\|g\|_2$, so unreduced $L^2$ cohomology in this degree vanishes. The Gaussian example saturates the norm coefficient. **No uniform spectral gap is claimed when $\inf_X\lambda(x)=0$.**
 
-**Disposition/dependents.** Optional sharpness example and spectral-gap corollary after Theorem 11.49.3. Do not strengthen to a positive uniform spectral gap when only (A(x)gelambda(x)I>0) with (inflambda=0).
+**Suggested placement/dependents.** Optional exact sharpness example and spectral-gap consequence after Theorem 11.49.3. This report does not re-prove its transitive Bochner/graph-core/Hilbert-complex theorem chain or reopen the excluded Demailly-approximation L² project.
 
-## Separate selected proof inspection without a new defect: §9.53
+## Separate selected proof inspection: formal complex coordinates (§9.53)
 
-**Anchor:** `docs/sections/formal-integrability-and-smooth-complex-coordinates/index.html`, main blob `218b71104a05350a9bb37b63c64638efecbd1e42`, source `demailly-complex-geometry`; Proposition 9.53.2 label `demailly-complex-geometry-EF13FDD7`, permanent tag `7D9D38C5DA0E`, lines 10–42; Lemma 9.53.5 label `demailly-complex-geometry-... ` (refer to stable tag `30126C7FDE2C`), lines 45–76; Lemma 9.53.7 tag `53F867AC87E1`, lines 80–107. We *specifically* checked tensoriality under ([fX,gY]), the (-artheta') sign detected on ((0,1))-forms, and the polynomial (arpartial)-homotopy step (partial_{ar z_k}Q_j=P_{jk}). The corrected coordinates have (d''(z_j-Q_j)=O(|z|^{s+1})) because the residual (partial_{z_k}Q_j,d''z_k) is (O(|z|^{2s})) and (2sge s+1). The separate Levi estimate of Lemma 9.53.7 is controlled by (O(r^{s-2})), uniform in (epsilon), for (sge3). These are limited checks, **not** a complete verification of the local/global analytic (L^2) route to Newlander–Nirenberg (Theorem 9.53.13), which was not re-proved or certified.
+Main file **docs/sections/formal-integrability-and-smooth-complex-coordinates/index.html**, blob **218b71104a05350a9bb37b63c64638efecbd1e42**, source **demailly-complex-geometry**. Proposition 9.53.2, label **demailly-complex-geometry-EF13FDD7**, tag **7D9D38C5DA0E**, physical lines 10–42; Lemma 9.53.5, label **demailly-complex-geometry-F9963253**, tag **30126C7FDE2C**, lines 45–76; Lemma 9.53.7, tag **53F867AC87E1**, lines 80–107. The projected bracket $[fX,gY]^{0,1}=fg[X,Y]^{0,1}$ validates tensoriality; on a $(0,1)$ covector, the $(2,0)$ part of $du$ is $-\vartheta'u$, checking the minus sign in (9.53.3). For the inductive coordinate correction, formal $d''{}^2=0$ gives $\partial_{\bar z_l}P_{jk}=\partial_{\bar z_k}P_{jl}$ at degree $s-1$. The explicit line homotopy $Q_j=\int_0^1\sum_l\bar z_lP_{jl}(z,t\bar z)\,dt$ satisfies $\partial_{\bar z_k}Q_j=P_{jk}$; the remaining term $\partial_{z_k}Q_j\,d''z_k$ has degree at least $2s\ge s+1$. The separate Levi positivity error in Lemma 9.53.7 is $O(r^{s-2})$ uniformly in $\epsilon$ for $s\ge3$. No new defect was established. **The global L² proof of Theorem 9.53.13 was not audited or certified.**
 
-## Coverage, historic statuses, and writing boundary
+## Coverage and safeguards
 
-The four previously inventory-only ToC rows **§§9.10, 9.16, 9.53 and 11.49** are upgraded only to the *specific* theorem/proof passage scopes above; the other **743** rows retain their prior classifications. There remain **747 unique ToC section identifiers**, and **zero entire sections** certified by this pass. Three low-severity **verified conditional deductions** were added; no newly false printed theorem and no new mathematical duplicate were established. Fornæss–Narasimhan's disk criterion remains open as prior `POME-UNI-EXT-FN-001`; other prior unresolved/resolved/deferred matters are unchanged. All historical dedicated Demailly approximation/regularization, Bergman/L²/OT/multiscale/positivity-loss entries retain **deferred-by-user**. No source/body/registry/tag/main edits, builds, GitHub Actions, tests, formal verification or website publishing are claimed.
+Exactly four previously inventory-only ToC rows (§§9.10, 9.16, 9.53, 11.49) were upgraded to **these specified selected passages only**, not complete-section coverage. **747** unique actual ToC section IDs remain; no full section or higher dependency chain certified. Three new *low / verified conditional deduction* entries, no newly false printed theorem and no new genuine duplication. Historical external, resolved, unresolved and deferred ledgers remain unchanged, including **POME-UNI-EXT-FN-001** and every **deferred-by-user** regularization/Bergman/L²/OT/multiscale/positivity-loss item. No full build, tests, CI, formal proof verification, source/registry/tag/main mutation or website publishing.
