@@ -1,3 +1,16 @@
+## 2026-10-27 — exact Hessian coefficient extremizer and sharp \(L^p\) heat traces
+
+**Main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full proof, hypotheses, source labels, physical line anchors and limitations](reports/2026-10-27-hessian-deleted-coefficient-and-heat-lp-rates.md).
+
+| Stable ID | Severity / status | Integrated source and precise disposition |
+| --- | --- | --- |
+| **POME-HESS-DELETED-COEFF-SHARP-001** | low / **verified conditional deduction**; no false theorem | §8.2.8, non-kahler-pluripotential-theory:E5B04592, permanent 8673FC834527; docs/sections/complex-hessian-equations--the-admissible-cone/index.html, blob 925e6109ab7d800cde9bec4b0487842b2e6877a8, lines 186–221. For \(n=4,m=2,q=1\), \(\lambda=(\sqrt3-2,\sqrt3-2,1,1)\in\partial\Gamma_2\), the deleted coefficient is 2, each partial sum is \(\sqrt3\), and equality holds in the \(4/3\) bound. Optional sharpness remark / algebraic regression; related §8.11 input not independently certified. |
+| **POME-HEAT-CODIM2-LP-RATE-SHARP-001** | low / **verified conditional deduction**; no false theorem | §3.10.5, transcendental-positive-cones:DD00B1CA, tag 56A174D59425; docs/sections/heat-kernels-on-compact-manifolds/index.html, blob c59a1b3fab9433f1aae95db99adb4821857b5d8d, lines 85–105; §3.10.1 heat-mass/Gaussian line 11–79. Given codimension-two ball growth and \(B=C(A+\rho(X))\), Hölder yields \(t|\int(h_t\rho)F|\leq B^{1/p}\rho(X)^{1-1/p}t^{1-1/p}\|F\|_p\), \(1<p\leq\infty\). Flat torus / point mass + fixed singular test functions show polynomial-rate sharpness, and no uniform positive polynomial \(L^1\) rate. Optional corollary, not a repeat of the historical Frostman-\(\beta\) family finding. |
+
+**Independent new selected proof coverage without new finding:** §10.88.2, source demailly-complex-geometry:3A637A7E, tag 5809CC1BC6C9, docs/sections/local-sheaf-interfaces-and-regular-function-coherence/index.html, blob c9612e989bb20e042a971bdc48e0b5ab27be9656, lines 7–17. Étale separation, constant-polynomial ring-sheaf coherence and exactness of inverse image checked; analytic holomorphic-module coherence **not** inferred. **Only §10.88** is upgraded from inventory-only to selected passage; §§8.2 and 3.10 already had partial reviews. 747 ToC entries remain and none are fully certified. No excluded Demailly regularization/Bergman/\(L^2\)/OT/multiscale/positivity-loss activity, no body/main/CI/publication changes.
+
+---
+
 ## 2026-10-27 — compact cutoff embeddings and a sharp nonstrong positive energy sequence
 
 **Pinned main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full source-anchored proof report](reports/2026-10-27-compact-coordinate-embedding-and-energy-weak-nonstrong.md).

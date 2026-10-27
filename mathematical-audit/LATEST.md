@@ -1,3 +1,13 @@
+# Latest mathematical audit — 2026-10-27, sharp Hessian coefficient and codimension-two heat trace rates
+
+**Pinned main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Branch:** review/mathematical-audit. [Complete dated source-anchored report](reports/2026-10-27-hessian-deleted-coefficient-and-heat-lp-rates.md).
+
+- **POME-HESS-DELETED-COEFF-SHARP-001** — low / **verified conditional deduction**: Lemma 8.2.8 is correct, and its factor \((1-c_{N,q})^{-1}=4/3\) is actually attained at \(n=4,m=2,q=1\) by the boundary Hessian eigenvalues \((\sqrt3-2,\sqrt3-2,1,1)\); interior cone points approach equality. This is within the actual §8.1 assumption \(2\leq m<n\), not the superseded out-of-scope \(m=1\) objection.
+- **POME-HEAT-CODIM2-LP-RATE-SHARP-001** — low / **verified conditional deduction**: Lemma 3.10.5 and heat mass conservation give \(t|\int (h_t\rho)F|\leq B^{1/p}\rho(X)^{1-1/p}t^{1-1/p}\|F\|_p\) for \(1<p\leq\infty\). Explicit fixed singular \(L^p\) functions on a flat two-torus show the polynomial exponent is optimal; an \(L^1\) example has only logarithmic decay, excluding any general positive-power rate. Distinct from older POME-HEAT-FROSTMAN-CODIM-001.
+- **New first selected reading:** §10.88 Proposition 10.88.2 (étalé Hausdorff identity principle and coherence in the *regular/polynomial ring-sheaf* category), correct as printed. §§8.2 and 3.10 are increments, not new first-review rows. **747** unique current ToC rows remain; **zero** complete section certifications; no new confirmed false theorem. Existing unresolved and **deferred-by-user** items remain unchanged. Dedicated Demailly approximation/regularization and Bergman/\(L^2\)/OT/multiscale/positivity-loss programme remains entirely unexamined. No main/source/registry/tags/site/build/CI/formalization changes.
+
+---
+
 # Latest mathematical-audit checkpoint — 2026-10-27, compact embedding and positive Green-energy weak/strong separation
 
 **Fresh current main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit HEAD:** 228abedaaea2ac833f281ee60f65a11711cc3eaf. **Exact integrated-source report:** [2026-10-27 compact-coordinate embedding and energy weak/nonstrong](reports/2026-10-27-compact-coordinate-embedding-and-energy-weak-nonstrong.md).
