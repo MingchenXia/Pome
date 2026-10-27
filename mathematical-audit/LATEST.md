@@ -1,3 +1,14 @@
+# Latest mathematical audit checkpoint — 2026-10-28, Morse equation aliases and metric/spectral limits
+
+**Fresh production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit HEAD:** d16eef2f0c21ce6226a5efbcd4305a6ff0a8e77f. [Exact source/tag/physical-line anchored report](reports/2026-10-28-morse-equation-aliases-metric-gh-and-spectral-vague.md).
+
+- **POME-HOLO-MORSE-ALIGN-ALIASES-001** — medium / **confirmed reading-edition integration error**, **not a false theorem**: §10.96.1 correctly displays three holomorphic Morse rows, but §10.96.3–4 are each duplicated as malformed nested display-environment aliases, including on their own permanent-tag pages. Repair the canonical group-row placement without dropping any permanent tags. No production patch has been made.
+- **POME-METRIC-COMPLETIONS-GH-001** — low / **verified conditional deduction**: uniform convergence of the completed-distance pullback pseudometrics in Corollary 5.39.8 yields Gromov–Hausdorff convergence of compact metric quotients, with a sharp factor-one-half distortion bound. No noncollapse is claimed absent a uniform positive lower metric bound.
+- **POME-MORSE-SPECTRAL-VAGUE-001** — low / **verified conditional deduction**: Theorem 10.95.5's small-spectrum counting convergence at continuity points implies vague convergence of normalized full spectral counting measures, including possible atoms in the limiting distribution; convergence of counts at those atoms is **not** inferred.
+- **First selected proof-level inspection:** §§5.39, 10.95, 10.96 only, with precise limits in the report. **747** current ToC section IDs preserved; **zero** completely certified sections. The original spectral/magnetic analytic inputs remain conditional. No main/source/body/registry/permanent-tag/site/CI/build/browser/formalization edits. All user-excluded Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss programmes remain **deferred-by-user** and untouched.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-28, Siu residual pole and positive-cone threshold
 
 **Fresh production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit HEAD:** aa3e29c54e6dc51f099751ec4aecff64370d68ff. [Source/tag/line anchored report](reports/2026-10-28-siu-residual-lelong-and-movable-duality-gauge.md).
