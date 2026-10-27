@@ -1,3 +1,16 @@
+## 2026-10-27 — compact cutoff embeddings and a sharp nonstrong positive energy sequence
+
+**Pinned main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full source-anchored proof report](reports/2026-10-27-compact-coordinate-embedding-and-energy-weak-nonstrong.md).
+
+| Stable finding | Severity / status | Integrated anchors, mathematical conclusion and proposed disposition |
+| --- | --- | --- |
+| **POME-COMPACT-CHART-EMBEDDING-BILIPSCHITZ-001** | low / **verified conditional deduction**; Lemma 5.2.7 correct | docs/sections/complex-differential-forms-and-positive-currents--complex-manifolds-and-differential-forms/index.html, blob 886a687d5029616950683fe55defce1fe6854b12, Lemma 5.2.7 tag 98494B0CCC31, source foundations-of-pluripotential-theory:C99D5F6B, lines 153–174. On each W_i where chi_i=1, the corresponding block of the printed F is the chart kappa_i, so dF is injective; F is a smooth embedding. Finite convex chart balls, a Lebesgue number and compact off-diagonal separation prove c d_g <= |F(x)-F(y)| <= C d_g for connected compact X and any smooth metric g. Optional corollary for metric-dependent downstream estimates; do not compare separate components by infinite geodesic distance. |
+| **POME-GREEN-ENERGY-WEAK-NONSTRONG-SPHERES-001** | low / **verified conditional deduction**; Thm 4.5.4 correct | docs/sections/green-energy-and-martin-boundaries/index.html, blob 976a90f2a5eba299658f73a1eee8b9d3fef8020f, Thm 4.5.4 tag CE0D5F4DF7B2 source classical-potential-theory:5FB19CB2 lines 46–68; Ex. 4.5.5 tag 61A5D2A82793 lines 70–73. In R^3, with sigma_r normalized shell probability and mu_j=2^{-j}sigma_{4^{-j}}, shell formula gives norm squared 1, consecutive distance 1, mass ->0. Thus vague and, conditionally on Thm4.5.4, weak-energy convergence to zero, but not strong convergence. Optional caution after Thm4.5.4; does not contradict positive-cone completeness and is distinct from signed-space incompleteness. |
+
+**Additional selected independent checks without defect:** §5.2.6 cutoff/Stokes and §5.2.8–10 dd^c/Euclidean volume conventions agree with §7.1; §6.10.6 tag 675539E4A76C (blob 878526739ee043892cdc85040a280504328b6dea lines 83–93) root-bound algebra and finite-sum integrability valid. Its upstream coherence result 6.8.9 and OT/L2/Hilbert-space arguments were **not reopened**. **Coverage:** first selected only §§5.2, 6.10; new limited §4.5.4–5 increment (section previously partly audited), no first coverage credit for §7.1. **747** ToC rows, zero whole-section certification. All excluded programmes **deferred-by-user**. No test/build/CI/formalization/publication/main/source/tag changes.
+
+---
+
 ## 2026-10-27 — Sharp projective cusp avoidance and exact fiber-convexity deterioration
 
 **Pinned current main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Dated complete English derivations, source tags and anchors:** [report](reports/2026-10-27-projective-cusp-avoidance-and-fiber-convexity-margins.md).

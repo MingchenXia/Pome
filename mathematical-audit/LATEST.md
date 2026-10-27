@@ -1,3 +1,13 @@
+# Latest mathematical-audit checkpoint — 2026-10-27, compact embedding and positive Green-energy weak/strong separation
+
+**Fresh current main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit HEAD:** 228abedaaea2ac833f281ee60f65a11711cc3eaf. **Exact integrated-source report:** [2026-10-27 compact-coordinate embedding and energy weak/nonstrong](reports/2026-10-27-compact-coordinate-embedding-and-energy-weak-nonstrong.md).
+
+**Two new low-severity verified conditional deductions, no false printed theorem:** POME-COMPACT-CHART-EMBEDDING-BILIPSCHITZ-001 proves the cutoff-coordinate map of Lemma 5.2.7 is already a smooth embedding and its chord metric is bi-Lipschitz to any smooth Riemannian distance on **connected compact** X. POME-GREEN-ENERGY-WEAK-NONSTRONG-SPHERES-001 gives \(\mu_j=2^{-j}\sigma_{4^{-j}}\) on \(\mathbb R^3\), with \(\|\mu_j\|^2=1\), mass \(2^{-j}\to0\), and \(\|\mu_j-\mu_{j+1}\|=1\): vague/weak-energy convergence does not imply strong energy convergence. No conclusion on arbitrary nets is inferred from a sequential theorem.
+
+**Actual limited coverage:** first selected nonexcluded §§5.2 and 6.10 (only Proposition 6.10.6's algebraic closure step, **not** its OT/L2/Hilbert-space dependencies), with an incremental direct §§4.5.4–5 energy check. §7.1 used only for normalization consistency. All **747** unique ToC sections retained, **zero** complete sections certified. No builds, tests, CI, formalization, source/registry/tag/main changes or site publication. Demailly approximation/regularization and its dedicated Bergman/L2/OT/multiscale/positivity-loss programme remain **deferred-by-user**, untouched.
+
+---
+
 # Latest mathematical-audit checkpoint — 2026-10-27, algebraic cusp avoidance and sharp Finsler fiber margins
 
 **Fresh current `main`:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit HEAD:** `0dd559673f4d539ff49838a3da3ddc003c96a7a5`. **Full exact source-anchored report:** [sharp cubic non-integrability locus and fiber margins](reports/2026-10-27-projective-cusp-avoidance-and-fiber-convexity-margins.md).
