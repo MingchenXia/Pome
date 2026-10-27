@@ -1,3 +1,15 @@
+## 2026-10-27 — First Cartier b-divisor model and strict modified Dolbeault class
+
+**Pinned main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; [exact source lines and complete chart computation](reports/2026-10-27-point-ideal-bdivisor-model-and-modification-dolbeault.md). One **new low / verified conditional deduction**, no confirmed false theorem.
+
+| Stable finding | Severity / status | Exact hypotheses, source, correction and dependents |
+| --- | --- | --- |
+| **POME-POINT-IDEAL-BDIVISOR-NONBASE-CARTIER-001** | **low / verified conditional deduction** | \(X=\mathbb P^2\), \(T=\omega_{\rm FS}+dd^c\log(|Z_1|^2_{\rm FS}+|Z_2|^2_{\rm FS})\), base ideal \((Z_1,Z_2)\). Blowup \(\pi:\widetilde X\to X\) of \(p=[1:0:0]\): \(\pi^*T=[E]+f^*\omega_{\mathbb P^1}\), \(N_X(T)=0\), \(N_{\widetilde X}(T)=[E]\), \(\mathbb D(T)_{\widetilde X}=\pi^*\mathbb D(T)_X-\{[E]\}\), and \(\int_E f^*\omega_{\mathbb P^1}=1\ne0=\int_E\pi^*\omega_X\). Hence analytic singularities yield a nef Cartier realization on the resolved model **but not on the base**; simultaneously \(\pi^*:H^{1,1}_{\bar\partial}(X)\hookrightarrow H^{1,1}_{\bar\partial}(\widetilde X)\) is not onto. Source \`non-kahler-pluripotential-theory\` §20.4.11 \`6EC6FB71DCF4\` lines 208–220, .14 \`691315D9AA1C\` lines 267–285, .15 \`25F4A4E3755D\` lines 289–311, .18 \`0AD88DBD3706\` lines 340–363; \`docs/sections/divisorial-currents-on-compact-modifications/index.html\` blob \`79d6e21f9d3784bf3761846f77f90ad075253644\`. Source \`demailly-complex-geometry\` §10.91.1 \`35E27213FA56\` lines 8–44, §10.91.2 \`8532D3ED47E8\` lines 46–74; \`docs/sections/one-point-curvature-positivity-and-vanishing--one-point-positivity-and-modification-descent/index.html\` blob \`95b3f78a729e01664c4a24d3ef8aa96143ead523\`. Proposed optional example, no printed statement change; dependent concepts: b-divisor Cartier realization / modified Dolbeault split injection. |
+
+**Coverage/status:** §20.4 selected .11/.14–15/.18 added beyond already logged .20/.22/.24; §10.91 newly selected .1–2. No complete sections certified, all prior ledger statuses preserved. Excluded regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss remain **deferred-by-user**; no new review of them.
+
+---
+
 ## 2026-10-27 — Surface Gauduchon mass, polar ideal-types, and one-sided mixed Monge–Ampère
 
 **Pinned main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Proofs, exceptions and exact physical anchors](reports/2026-10-27-pluriclosed-surface-mass-and-inequivalent-mixed-ma-bounds.md). Three **new low / verified conditional deductions**; zero new confirmed false printed statements.

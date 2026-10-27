@@ -1,3 +1,12 @@
+# 2026-10-27 — Point-ideal blowup: first nef Cartier b-divisor model and strict Dolbeault descent
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **starting audit head:** \`1352f713ef37704dabde09d82995ac7849d48e2d\`. [Full pinned-source proof and exact labels](reports/2026-10-27-point-ideal-bdivisor-model-and-modification-dolbeault.md).
+
+- **POME-POINT-IDEAL-BDIVISOR-NONBASE-CARTIER-001 — low / verified conditional deduction:** on \(\mathbb P^2\), \(T=\omega_{\rm FS}+dd^c\log(|Z_1|_{\rm FS}^2+|Z_2|_{\rm FS}^2)\) has analytic singularity only at \(p=[1:0:0]\), so its base divisorial part is zero. On \(\widetilde X=\operatorname{Bl}_p\mathbb P^2\), \(\pi^*T=[E]+f^*\omega_{\rm FS,\mathbb P^1}\): the trace b-divisor has its nef Cartier realization upstairs, but not on the original base, as integration over \(E\) distinguishes the classes (1 versus 0). The same explicit form shows that modification pullback on \(H^{1,1}_{\bar\partial}\) need not be surjective, consistently with the printed split-injection theorem.
+- **Actual new scope:** §20.4.11/.14–15/.18 selected proof and example, plus first selected §10.91.1–2. §20.4.20/.22/.24 previously reviewed, **not** recounted. No newly false printed theorem, whole-section certification, project builds/tests, CI, formal verification or publication. All 747 section identifiers retained; Demailly approximation/regularization and the dedicated Bergman/L²/OT/multiscale/positivity-loss programme remain **deferred-by-user** and unexamined.
+
+---
+
 # 2026-10-27 — Pluriclosed surface volume, a continuum of I-equivalent polar masses, and sharp one-sided mixed-MA bounds
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full pinned English proofs, source tags, permanent tags and physical lines](reports/2026-10-27-pluriclosed-surface-mass-and-inequivalent-mixed-ma-bounds.md).
