@@ -8,7 +8,7 @@ A shared mathematical reference combining definitions, theorems, and proofs from
 
 ## Content and organization
 
-The collection integrates the following sources, tracking their `main` branches:
+The collection integrates the following sources at their registered revisions:
 
 - [Foundations of pluripotential theory](https://github.com/MingchenXia/foundations-of-pluripotential-theory).
 - [Singularities in global pluripotential theory (SGPT)](https://github.com/MingchenXia/SGPT).
@@ -18,7 +18,7 @@ The collection integrates the following sources, tracking their `main` branches:
 
 - **Local and global pluripotential theory: supplements after Klimek**, from `Gerby-Literature/main`. The reviewed supplement adds explicit proofs and supporting mathematics across the existing subjects, with 216 source tags and three reviewed canonical merges. The book scans and private research records stay private.
 
-- **Complex analysis, cohomology and differential geometry**, the reviewed Demailly supplement from `Gerby-Literature/main`. Its selected proofs join the existing mathematical subjects; retained books and private review files are excluded.
+- **Complex analysis, cohomology and differential geometry**, the reviewed Demailly supplement from Gerby-Literature. Its registration pins the reviewed positive-level Siu correction; selected proofs join the existing mathematical subjects, while retained books and private review files are excluded.
 
 - **Transcendental positive cones**, the reviewed supplement after Tosatti with BDPP foundations, volume variation, divisorial restricted volumes and balanced-cone duality. The arguments and prerequisites join the existing subjects, with major attribution in the project history.
 

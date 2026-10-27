@@ -59,7 +59,7 @@
       "title": "Complex analysis, cohomology and differential geometry",
       "author": "Gerby Literature",
       "repository": "https://github.com/MingchenXia/Gerby-Literature",
-      "ref": "main",
+      "ref": "108777f7acbb201bd914119bfd00a38a83282e3d",
       "entrypoint": "contributions/demailly-complex-geometry.tex",
       "checkout_env": "DEMAILLY_SOURCE_DIR",
       "visibility": "private",

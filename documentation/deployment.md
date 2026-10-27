@@ -16,7 +16,7 @@ The published `upstream.json` contains the build time, the project commit used t
 
 ## Shared collection
 
-Sources are registered in `books.json`; their status becomes `published` when an adapter is ready. The nine registered sources are Foundations, SGPT, the private Hermitian book, and the Helms, Klimek, Demailly, transcendental-positive-cone, isolated-plurisubharmonic-singularity and relative-canonical/foliation supplements from Gerby-Literature. Registrations select an explicit manuscript entry point and a source ref. The Cao–Păun supplement pins the exact reviewed source edition; the earlier registrations continue to track main. Public sources use HTTPS; private sources use the local authenticated Git credential helper. No credentials or private research files are exported. Registering a source does not by itself publish an edition. The isolated-singularity adapter reads only its reviewed contribution, bibliography, subject history and exact four-packet allowlist; retained papers and private reconstruction records stay outside the export graph. Its source override is `ISOLATED_PSH_SOURCE_DIR`, which can share the clean Gerby-Literature checkout used by the other four Literature contributions.
+Sources are registered in `books.json`; their status becomes `published` when an adapter is ready. The nine registered sources are Foundations, SGPT, the private Hermitian book, and the Helms, Klimek, Demailly, transcendental-positive-cone, isolated-plurisubharmonic-singularity and relative-canonical/foliation supplements from Gerby-Literature. Registrations select an explicit manuscript entry point and a source ref. The Cao–Păun supplement and the Demailly positive-level correction pin exact reviewed source editions; the other registrations continue to track main. Public sources use HTTPS; private sources use the local authenticated Git credential helper. No credentials or private research files are exported. Registering a source does not by itself publish an edition. The isolated-singularity adapter reads only its reviewed contribution, bibliography, subject history and exact four-packet allowlist; retained papers and private reconstruction records stay outside the export graph. Its source override is `ISOLATED_PSH_SOURCE_DIR`, which can share the clean Gerby-Literature checkout used by the other four Literature contributions.
 
 Each adapter receives `SOURCE_DIRECTORY OUTPUT_DIRECTORY` and exports:
 
@@ -140,6 +140,17 @@ TeX-href author link into a clickable HTML link without changing its
 bibliographic identity.
 
 ## Demailly supplement
+
+The Demailly registration pins reviewed source revision
+`108777f7acbb201bd914119bfd00a38a83282e3d` for the positive-level correction
+to the arbitrary-bidimension Siu theorem (permanent tag `6A51F1CD4D5B`).
+Its level-set analyticity and dimension bound require `c > 0`; at level
+zero the zero current on an n-fold with n > p contradicts the dimension
+bound. The source proof already uses positive-level inputs and is unchanged.
+The 103-file allowlist includes only this existing supplement. The unfinished
+survey adaptation in Gerby-Literature PR #6 is outside that export graph.
+The other Literature registrations retain their existing refs. Restore main
+tracking only after reviewing the merged source and its export hashes.
 
 The sixth registered source, `demailly-complex-geometry`, uses
 `contributions/demailly-complex-geometry.tex` in Gerby-Literature. Its
