@@ -1,3 +1,15 @@
+# Latest mathematical-audit checkpoint — 2026-10-28, bounded exponential stability and smooth-center blowup density thresholds
+
+**Fresh production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting review head:** 17ec85a05311aeb681827ed0bc6f797d0e90803a. [Detailed source-anchored English proof and explicit limitations](reports/2026-10-28-resolved-blowup-lp-and-bounded-exponential-stability.md).
+
+- **POME-BOUNDED-EXP-DENSITY-L1-STABILITY-001** — low / **verified conditional deduction**: for a fixed bounded Monge–Ampère reference, uniformly bounded nonnegative densities converging in L1(reference), with positive limiting mass, give bounded exponential-equation solutions converging in L1 and capacity, and their Monge–Ampère measures converge in total variation. This is sequential, and depends on the existing uniform trace estimate, normalized psh compactness, and dominated capacity stability of §15.10; no independent existence proof.
+- **POME-BLOWUP-PUSHFORWARD-LP-CODIM-001** — low / **verified conditional deduction**: a smooth positive volume upstairs pushed through the blowup of a smooth complex codimension-r center produces downstairs density in Lp **exactly** for 1<=p<r/(r-1); logarithmic divergence at the endpoint. Extends the point-center r=n example in §15.22.7. Jacobian calculation independently checked for r=2,...,6.
+- **POME-RESOLVED-REMAINDER-FIBER-CRITERION-001** — low / **verified conditional deduction**: a continuous (in particular Hölder) resolved remainder descends continuously across a proper modification **iff** it is constant on every fiber. Thus printed §15.22.2's Hölder remainder *on Y* cannot imply a continuous remainder on X when its exceptional trace varies, as explicitly allowed in §15.22.7.
+
+**Actual new limited coverage:** §§15.10 (Step 2), 15.16 (Steps 2–3 only), 15.22 (blowup density, pushforward and mass-defect algebra); all three were inventory-only. **747** distinct ToC section IDs retained; **zero** whole sections certified. §15.16 Step 1 and any analytic input relying on the user-excluded Demailly approximation/regularization and dedicated Bergman/L2/OT/multiscale/positivity-loss programme remain **deferred-by-user**, not reopened or resolved. No new confirmed false theorem, no main/source/body/registry/tag/website/CI/build/formalization changes. Only a five-case symbolic Jacobian cross-check was run.
+
+---
+
 # Latest mathematical-audit checkpoint — 2026-10-28, ideal-type collapse, sharp current dimensions, Stein jet endpoint
 
 **Fresh production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting review head:** 9bac0ec9e795112180b7af459d01f1d14fee153d. [Exact current-reading source-anchored report](reports/2026-10-28-zero-lelong-ideal-collapse-hausdorff-threshold-and-jet-endpoint.md).
