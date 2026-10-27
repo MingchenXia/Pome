@@ -48,7 +48,7 @@ Therefore $D\nu_p:T_p\partial D\to T_{\nu(p)}S^{m-1}$ is invertible, since both 
 
 **Source anchors.** Main file **docs/sections/complete-hermitian-laplacians-and-dual-energy/index.html**, blob **5bf728a2fa3b558bf7d922d30ea25a449c70b68b**, source **demailly-complex-geometry**. Corollary 11.49.2, source label **demailly-complex-geometry-456C31C4**, tag **28AC2C7FBC2B**, lines 8–23; Theorem 11.49.3, label **demailly-complex-geometry-C84B45BB**, tag **D6CB928B58CE**, hypotheses lines 25–46, energy-inequality and domain proof lines 48–69. Printed inputs are the exact torsion Bochner energy identity (11.48.19), the joint graph-core theorem and the closed-Hilbert-complex duality argument. No excluded approximation-specific L² proof is revisited.
 
-**Sharp example.** Set $X=\mathbb C$, $\omega=i\,dz\wedge d\bar z$ (a complete flat Kähler metric) and take the trivial holomorphic line bundle $E$ with smooth Hermitian weight $|e|_h^2=e^{-\lambda|z|^2}$, $\lambda>0$. The Chern curvature and torsion satisfy $i\Theta(E)=\lambda\omega$, $T_\omega=0$; on $(0,1)$-forms $A=[i\Theta(E),\Lambda_\omega]=\lambda I$. The closed form $g=d\bar z\otimes e$ admits $u=\bar z e$ with $\bar\partial u=g$. Since $dV_\omega=2\,dx\,dy$ and $|d\bar z|_\omega^2=1$,
+**Sharp example.** Set $X=\mathbb C$, $\omega=i\,dz\wedge d\bar z$ (a complete flat Kähler metric) and take the trivial holomorphic line bundle $E$ with smooth Hermitian weight $|e|_h^2=e^{-\lambda|z|^2}$, $\lambda>0$. The Chern curvature and torsion satisfy $i\Theta(E)=\lambda\omega$, $T_\omega=0$; on $(1,1)$-forms $A=[i\Theta(E),\Lambda_\omega]=\lambda I$ (while the commutator is zero on $(0,1)$-forms in complex dimension one). The closed form $g=dz\wedge d\bar z\otimes e$ admits the $(1,0)$-form $u=-\bar z\,dz\otimes e$, with $\bar\partial u=d z\wedge d\bar z\otimes e=g$. Since $dV_\omega=2\,dx\,dy$ and $|dz\wedge d\bar z|_\omega^2=|dz|_\omega^2=1$,
 $$
 \|g\|_2^2=4\pi\int_0^\infty r e^{-\lambda r^2}\,dr
 =\frac{2\pi}{\lambda},\qquad
@@ -56,7 +56,7 @@ $$
 =\frac{2\pi}{\lambda^2}
 =\int_{\mathbb C}|g|_{A^{-1}}^2\,dV_\omega.
 $$
-To establish that $u$ is **minimum-norm**, note that any other solution is $u+F$ with $F$ entire and weighted $L^2$. For each $r$, the angular integral of $\bar z\,\overline{F(z)}$ vanishes by the convergent power series of $F$: its Fourier exponents are all strictly negative. Weighted Cauchy–Schwarz makes the full integral absolutely convergent; polar Fubini therefore gives $u\perp F$. Thus every other solution has squared norm $\|u\|^2+\|F\|^2$. The universal coefficient **one** in Theorem 11.49.3 is optimal even on flat complete $\mathbb C$.
+To establish that $u$ is **minimum-norm**, note that any other solution is $u+F(z)\,dz\otimes e$ with $F$ entire and weighted $L^2$. For each $r$, the angular integral of $-\bar z\,\overline{F(z)}$ vanishes by the convergent power series of $F$: its Fourier exponents are all strictly negative. Weighted Cauchy–Schwarz makes the full integral absolutely convergent; polar Fubini therefore gives $u\perp F(z)\,dz\otimes e$. Thus every other solution has squared norm $\|u\|^2+\|F(z)\,dz\otimes e\|^2$. The universal coefficient **one** in Theorem 11.49.3 is optimal even on flat complete $\mathbb C$.
 
 **Related conditional spectral bound.** If at a fixed degree $(p,q)$, $q\ge1$, the exact printed curvature-plus-torsion endomorphism has a global constant bound $A\ge\lambda_0 I$ with $\lambda_0>0$, the displayed energy estimate gives on the full joint graph domain
 $$
