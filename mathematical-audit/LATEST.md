@@ -1,3 +1,15 @@
+# 2026-10-27 — Unibranch obstacle descent, strictly convex Gauss maps, and Hermitian sharpness
+
+**Reviewed current main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit head:** cf7cc8c49f2fd2b51bd085ae89429a9db2ad2684. [Full proof with source labels, tags, file SHA and physical line anchors](reports/2026-10-27-unibranch-obstacle-descent-gauss-map-gaussian-sharpness.md).
+
+- **POME-UNIBRANCH-CONTINUOUS-OBSTACLE-DESCENT-001 — low / verified conditional deduction:** for a proper compact Kähler modification $\pi:Y\to X$ with $X$ unibranch, any continuous obstacle $f$ and nonempty $\mathrm{PSH}(X,\theta)$ satisfy $\pi^*P_\theta(f)=P_{\pi^*\theta}(f\circ\pi)$; proof uses the actual pullback bijection and descent, without commuting usc regularization with pullback. Previously open Fornæss–Narasimhan input **POME-UNI-EXT-FN-001** stays unresolved.
+- **POME-STRICT-CONVEX-GAUSS-DIFFEO-001 — low / verified conditional deduction:** the compact strictly tangent-convex $C^2$ domain in Proposition 9.16.2 has every boundary point exposed and a globally $C^1$-diffeomorphic outward Gauss map $\partial D\to S^{m-1}$. No $C^2$ inverse is claimed.
+- **POME-COMPLETE-HERM-GAUSSIAN-SHARPNESS-001 — low / verified conditional deduction:** on complete flat $\mathbb C$ with Gaussian Hermitian line metric, the minimum-norm $\bar\partial$ solution saturates **constant one** in the precise inverse-curvature energy estimate of Theorem 11.49.3; $A\ge\lambda_0 I$ also gives the expected closed-form spectral gap. Transitive energy/graph-core inputs remain conditional.
+- **Independent §9.53 check, no separate finding:** correct minus sign of the non-integrability tensor, polynomial $\bar\partial$ homotopy correction and uniform Levi error were read directly. The global Newlander–Nirenberg $L^2$ existence chain was not audited.
+- **Actual new coverage:** selected passages only in §§9.10, 9.16, 9.53, 11.49; four previously inventory-only ToC rows upgraded, all 747 unique section identifiers retained, zero full sections certified. No new false printed theorem, no build/tests/CI/formal proof/source/main/tag/site change. All dedicated Demailly approximation/regularization, Bergman/L²/OT/multiscale/positivity-loss items remain **deferred-by-user** and unopened.
+
+---
+
 # 2026-10-27 — Quantified Hölder-dominated Monge–Ampère interpolation; exact determinant-duality curve boundary
 
 **Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **audit starting head:** \`c5174d2febe6dbc34110438dba394fec5b3e2f56\`. [Complete English report with hypotheses, source labels, permanent tags, physical lines and proofs](reports/2026-10-27-holder-dominated-ma-interpolation-and-determinant-curve-edge.md).
