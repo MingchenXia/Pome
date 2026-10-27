@@ -1,3 +1,12 @@
+# 2026-10-27 — Quasi-everywhere equality strengthens plurifine locality; closed contact sets do not suffice
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **New selected proof review:** §§5.9 and 5.47, contextual cross-check (not recounted) of previously reviewed §13.2. [Detailed report with stable tags, physical main lines, complete proof and boundary counterexample](reports/2026-10-27-quasieverywhere-plurifine-locality-and-closed-contact-counterexample.md).
+
+- **POME-PLURIFINE-QE-EQUALITY-LOCALITY-001 — low / verified conditional deduction:** If psh tuples agree off a pluripolar exceptional set inside a *plurifine-open* $W$, the agreement automatically holds pointwise on all of $W$. The equalizer is plurifine closed since the extended-real target is Hausdorff, and the complement of every pluripolar set is plurifinely dense (Prop. 5.47.16). Hence locally bounded Bedford–Taylor products agree on $W$ (Thm. 5.47.22); if both non-pluripolar products are locally finite, they also agree on $W$ (Prop. 13.2.6). The result does not require $W$ or the exceptional set to be Borel. **Boundary sharpness:** $u=\max\{0,\log|z|^2\}$ and $v=0$ agree on the closed unit disk but $dd^cu$ gives mass one on its boundary while $dd^cv=0$. Plurifine openness cannot simply be removed.
+- **Adjudication and exact scope:** no newly disproved printed theorem. Proof-level selected entries: §5.47.14–16, .20–23, .25/.27, and §5.9.1/.3–4; contextual verification of §13.2.2/.6. Two formerly inventory-only matrix entries upgraded, not entire sections. 747 chapter/section identifiers preserved; no build, CI, formal proof, release or website publication. All Demailly regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss historical items remain **deferred-by-user**, neither certified nor reopened.
+
+---
+
 # 2026-10-27 — Point-ideal blowup: first nef Cartier b-divisor model and strict Dolbeault descent
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit head:** `1352f713ef37704dabde09d82995ac7849d48e2d`. [Full pinned-source proof and exact labels](reports/2026-10-27-point-ideal-bdivisor-model-and-modification-dolbeault.md).
