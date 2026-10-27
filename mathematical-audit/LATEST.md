@@ -1,3 +1,15 @@
+# Latest mathematical-audit checkpoint — 2026-10-28, ideal-type collapse, sharp current dimensions, Stein jet endpoint
+
+**Fresh production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting review head:** 9bac0ec9e795112180b7af459d01f1d14fee153d. [Exact current-reading source-anchored report](reports/2026-10-28-zero-lelong-ideal-collapse-hausdorff-threshold-and-jet-endpoint.md).
+
+- **POME-IDEAL-ZEROLELONG-COLLAPSE-001** — low / **verified conditional deduction**: on a disc, the subharmonic family \(u_a=-(-\log|z|^2)^a\), \(0<a<1\), has zero Lelong numbers and *trivial multiplier ideals for every real weight* \(k>0\), but produces an uncountable strictly ordered chain of distinct ordinary singularity types. Printed §5.33 order/ideal comparison remains correct; optional semantic guard, not a false theorem.
+- **POME-HAUSDORFF-TRACE-EXPONENT-SHARP-001** — low / **verified conditional deduction**: integration current of a complex \((n-j)\)-plane positively charges a set of zero Hausdorff \(s\)-measure for every \(s>2(n-j)\), so the null-set exponent of correct Corollary 5.34.3 is optimal. Independent §5.34.4 projective-line Lelong normalization was checked without new defect.
+- **POME-STEIN-JET-WEIGHT-ENDPOINT-001** — low / **verified conditional deduction**, *local mechanism only*: a holomorphic germ of order \(m\) is integrable against \(|z|^{-2c}\) on \(\mathbb C^n\) exactly when \(m>c-n\). Therefore \(c=n+\ell\) in Theorem 9.29.1 is the smallest coefficient that forces vanishing of all order-\(\le\ell\) holomorphic jets by the local weighted argument. The corollary's hull implication was also checked; global \(L^2\) existence and smoothing inputs remain conditional, **not** audited.
+
+**Actual new selected coverage:** §§5.33, 5.34, 9.29, limited to specified integrated passages; 747 ToC section IDs retained and **zero** whole sections certified. No new confirmed false theorem. Entire Demailly approximation/regularization and dedicated Bergman/\(L^2\)/Ohsawa–Takegoshi/multiscale/positivity-loss proof-completion programme remains **deferred-by-user**, untouched. No main/source/registry/permanent-tag/site/build/CI/formalization changes.
+
+---
+
 # Latest mathematical-audit checkpoint — 2026-10-28, normalized finite-map trace and compact de Rham duality
 
 **Pinned main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Initial audit HEAD:** `d66ceeb98dac4938559f13344d8f996feba2376c`. [Detailed dated source-anchored report](reports/2026-10-28-finite-curve-trace-average-and-algebraic-duality.md).

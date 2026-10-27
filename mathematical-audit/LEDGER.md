@@ -1,3 +1,17 @@
+## 2026-10-28 — ideal singularities, positive-current Hausdorff threshold, and optimal local Stein jet-pole weight
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full dated proof and precise anchors](reports/2026-10-28-zero-lelong-ideal-collapse-hausdorff-threshold-and-jet-endpoint.md).
+
+| Stable finding ID | Severity / status | Reviewed source, mathematical distinction, proposed disposition and dependents |
+| --- | --- | --- |
+| **POME-IDEAL-ZEROLELONG-COLLAPSE-001** | low / **verified conditional deduction**, original §5.33 correct | §5.33.2/.3, source non-kahler-pluripotential-theory:C73A1DEC/07A23101, tags 32843D040902/36A8480CE7DF, docs/sections/plurisubharmonic-functions-and-singularities--singularity-type-and-multiplier-ideals/index.html blob c80624ee98ec8a3500112df6411c98bf4520fa86, lines 38–65. Uncountably many radial zero-Lelong ordinary types all have \(\mathcal I(ku)=\mathcal O\) for *every* real \(k>0\). Optional example after §5.33.3; preserve distinct ordinary/ideal semantics for §§16.7/18.1–18.2, no duplicate merging. §5.34 already contains one corresponding zero-Lelong radial function; not claiming that function was newly discovered. |
+| **POME-HAUSDORFF-TRACE-EXPONENT-SHARP-001** | low / **verified conditional deduction**, original §5.34.3 correct | §5.34.3, source non-kahler-pluripotential-theory:5103AFE8, tag C6F4FBF73B9E, docs/sections/plurisubharmonic-functions-and-singularities--analytic-types-and-restriction/index.html blob cff8b3156b07aff2f3d881d83d04608e87b7f2c8, lines 74–87. Smooth codimension-\(j\) plane integration current proves \(2(n-j)\) Hausdorff null-set threshold optimal; optional sharpness remark, no source modification. §5.34.4 normalization and dominated Lelong computation independently checked. |
+| **POME-STEIN-JET-WEIGHT-ENDPOINT-001** | low / **verified conditional deduction**, local method only | §9.29.1 source demailly-complex-geometry:24E0701D tag 17CC905E00B7, §9.29.6 source demailly-complex-geometry:1B882AC9 tag 476E1C34C3CF; docs/sections/separation-strict-exhaustions-and-coverings--discrete-holomorphic-jets-and-the-stein-criterion/index.html blob 05395f62951e3f992ef7b105424a5f1fe22d4947, lines 61–76 and 82–90. \(|z|^{-2c}\) weighted \(L^2\) holomorphic germ of order \(m\) is locally integrable iff \(m>c-n\), so \(c=n+\ell\) is the sharp jet-killing coefficient. Conditional hull implication valid; do **not** infer full global weighted solvability/smoothing certification; no excluded proof programme reopened. |
+
+**Scope:** three formerly inventory-only §§5.33, 5.34, 9.29 upgraded to precisely selected proof snippets, **not** complete sections. 747 unique ToC identifiers unchanged; all previous unresolved, resolved and **deferred-by-user** items preserved. All dedicated Demailly approximation/regularization, Bergman/\(L^2\)/OT/multiscale/positivity-loss work remains deferred and unopened. No confirmed new false theorem, production code, main, CI, build or publication edit.
+
+---
+
 ## 2026-10-28 — finite-curve ramification-weighted trace preserves positivity and exact pushforward curvature
 
 **Pinned main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Dated exact proof, source, tags, line anchors, counterexample and limitations](reports/2026-10-28-finite-curve-trace-average-and-algebraic-duality.md).
