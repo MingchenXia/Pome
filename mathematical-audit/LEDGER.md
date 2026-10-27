@@ -1,3 +1,16 @@
+## 2026-10-28 — Siu residual point poles and movable dual-cone thresholds
+
+**Fresh main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full mathematical proofs, immutable source tags and physical line anchors](reports/2026-10-28-siu-residual-lelong-and-movable-duality-gauge.md).
+
+| Stable finding | Severity and status | Exact scope, mathematical result, and disposition |
+| --- | --- | --- |
+| **POME-SIU-RESIDUAL-POINT-LELONG-001** | low / **verified conditional deduction**, printed theorem correct | Theorem 6.40.3, source demailly-complex-geometry:FC32B122, permanent tag 9F8D9022476A, main docs/sections/lelong-densities-generalized-masses-and-multiplicity--siu-decomposition-in-arbitrary-bidimension/index.html blob 76094d2efe4c1a0c306f19d592c1e11029a6a5d9 lines 37–53, plus Proposition 6.40.4 source demailly-complex-geometry:5CB7F8B8, tag 4357853E1FD2 lines 55–99. $dd^c\log|z|^2$ on ℂ² has residual Siu decomposition, Lelong 1 at 0, no coefficient atom, classical square $\delta_0$ but non-pluripolar square 0. Optional clarification; **do not merge products or reinterpret residual as zero point Lelong**. |
+| **POME-MOVABLE-DUAL-THRESHOLD-GAUGE-001** | low / **verified conditional deduction**, printed theorem correct | Theorem 10.100.1, source transcendental-positive-cones:5F09EB8A, tag DF6FA97EF816, main docs/sections/dual-positive-cones/index.html blob 9b0ff0ccb06e68d1cbc466d8b79df3ceb5f022f1 lines 7–42. From the **assumed** cone duality derive exact normalized single-power supremum for pseudoeffective threshold. ℙ¹×ℙ¹ limit checks sharpness and nonattainment on the identity model. Optional corollary; upstream §13.32.3 regularization is **deferred-by-user** and **not certified**. |
+
+**Other first selected nonexcluded inspection:** §6.49.1–4, source isolated-plurisubharmonic-singularities:801F1DD0/2E583758/737A0A7C, permanent tags CE621FA6CE58/A9F7692E230F/DDF1EA12A4BF, main docs/sections/polynomial-iterates-and-residual-mass/index.html blob 40c8aa7367e43ba39fca9bc1288b62aa3e9c78cc lines 10–135: exact branch images, local degree, top-mass and Lelong scale crosscheck, no new error. §§6.40 and 10.100 are similarly selected only and keep their deep analytical inputs conditional. **Exactly three** inventory rows upgraded, **747** unique ToC IDs retained, **zero** full sections certified. Existing resolved/unresolved/deferred rows remain intact; no main/body/source/tags/site/CI/build/test/formalization changes.
+
+---
+
 ## 2026-10-28 — derived Ext products, non-PID dimensions and coherent topology
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete proofs and exact integrated HTML line/source/tag anchors](reports/2026-10-28-infinite-ext-products-nonpid-length-and-coherent-topology.md).

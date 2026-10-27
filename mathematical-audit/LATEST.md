@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-28, Siu residual pole and positive-cone threshold
+
+**Fresh production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit HEAD:** aa3e29c54e6dc51f099751ec4aecff64370d68ff. [Source/tag/line anchored report](reports/2026-10-28-siu-residual-lelong-and-movable-duality-gauge.md).
+
+- **POME-SIU-RESIDUAL-POINT-LELONG-001** — low / **verified conditional deduction**: on ℂ², $T=dd^c\log|z|^2$ has a positive point Lelong number but a purely residual bidimension-one Siu decomposition; its classical square is $\delta_0$ and its non-pluripolar square vanishes. The explicit regularized Hessian density integrates to 1, with no false printed theorem.
+- **POME-MOVABLE-DUAL-THRESHOLD-GAUGE-001** — low / **verified conditional deduction**: assuming the printed §10.100.1 cone duality, the one-sided pseudoeffective threshold is exactly the supremum of normalized negative pairings with individual modified Kähler single powers. Sharp explicit ℙ¹×ℙ¹ limit and strict-gap estimate. The approximation cited by §10.100 remains **deferred-by-user** and unverified.
+- **First limited coverage:** §§6.40, 6.49, 10.100; precise selected claims and dependencies are in the report, not whole-section certifications. **747** unique ToC IDs; **zero** completely certified sections. No main/source/body/registry/tag/site/CI/test/build/formalization changes. All prior user-deferred dedicated Demailly/Bergman/L²/OT/multiscale/positivity-loss tasks remain **deferred-by-user**.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-28, infinite Ext products and non-PID injective dimensions
 
 **Fresh production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Review starting HEAD:** 8e85fb0c7ae18c5f4dcb1d1e2745d04a280e4ca8. [Complete current-main source/tag/line-anchored report](reports/2026-10-28-infinite-ext-products-nonpid-length-and-coherent-topology.md).
