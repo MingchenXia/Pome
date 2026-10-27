@@ -1,7 +1,7 @@
 # Mathematical audit — the point ideal, the first Cartier model, and modification Dolbeault classes (2026-10-27)
 
-- **Pinned published main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-- **Starting audit head:** \`1352f713ef37704dabde09d82995ac7849d48e2d\`.
+- **Pinned published main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+- **Starting audit head:** `1352f713ef37704dabde09d82995ac7849d48e2d`.
 - **Scope:** first direct selected proof review of §§20.4.11, 20.4.14–15, 20.4.18 and §10.91.1–2; §20.4.17 and the analytic-resolution hypothesis are used only as stated inputs, **not** re-proved. The dedicated Demailly approximation/regularization and Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss programme is excluded by the author and remains **deferred-by-user**, not certified.
 - **New finding:** one low-severity **verified conditional deduction**, not a false printed theorem or a certified resolution of any historical issue. The algebraic blowup and Poincaré–Lelong calculations below are explicit and require no excluded approximation proof.
 
@@ -11,8 +11,8 @@
 
 **Pinned primary sources and exact reader anchors:**
 
-1. \`docs/sections/divisorial-currents-on-compact-modifications/index.html\`, Git blob \`79d6e21f9d3784bf3761846f77f90ad075253644\`: Definition **20.4.11**, source \`non-kahler-pluripotential-theory:DDEBA3E8\`, permanent \`6EC6FB71DCF4\`, lines **208–220**; self-trace §**20.4.13** source \`non-kahler-pluripotential-theory:9A3BEEA2\`, permanent \`F45AA1F2A651\`, lines **252–263**; Lemma **20.4.14**, source \`non-kahler-pluripotential-theory:8A6E9683\`, permanent \`691315D9AA1C\`, lines **267–285**; Theorem **20.4.15**, source \`non-kahler-pluripotential-theory:29CD462A\`, permanent \`25F4A4E3755D\`, lines **289–311**; Theorem **20.4.18**, source \`non-kahler-pluripotential-theory:BA4B812E\`, permanent \`0AD88DBD3706\`, lines **340–363**.
-2. \`docs/sections/one-point-curvature-positivity-and-vanishing--one-point-positivity-and-modification-descent/index.html\`, Git blob \`95b3f78a729e01664c4a24d3ef8aa96143ead523\`: Proposition **10.91.1**, source \`demailly-complex-geometry:CAB0AEA4\`, permanent \`35E27213FA56\`, lines **8–44**; Theorem **10.91.2**, source \`demailly-complex-geometry:156BC1D4\`, permanent \`8532D3ED47E8\`, lines **46–74**. Smooth/current Dolbeault comparison and the Kähler vanishing result cited there remain conditional inputs, not newly certified.
+1. `docs/sections/divisorial-currents-on-compact-modifications/index.html`, Git blob `79d6e21f9d3784bf3761846f77f90ad075253644`: Definition **20.4.11**, source `non-kahler-pluripotential-theory:DDEBA3E8`, permanent `6EC6FB71DCF4`, lines **208–220**; self-trace §**20.4.13** source `non-kahler-pluripotential-theory:9A3BEEA2`, permanent `F45AA1F2A651`, lines **252–263**; Lemma **20.4.14**, source `non-kahler-pluripotential-theory:8A6E9683`, permanent `691315D9AA1C`, lines **267–285**; Theorem **20.4.15**, source `non-kahler-pluripotential-theory:29CD462A`, permanent `25F4A4E3755D`, lines **289–311**; Theorem **20.4.18**, source `non-kahler-pluripotential-theory:BA4B812E`, permanent `0AD88DBD3706`, lines **340–363**.
+2. `docs/sections/one-point-curvature-positivity-and-vanishing--one-point-positivity-and-modification-descent/index.html`, Git blob `95b3f78a729e01664c4a24d3ef8aa96143ead523`: Proposition **10.91.1**, source `demailly-complex-geometry:CAB0AEA4`, permanent `35E27213FA56`, lines **8–44**; Theorem **10.91.2**, source `demailly-complex-geometry:156BC1D4`, permanent `8532D3ED47E8`, lines **46–74**. Smooth/current Dolbeault comparison and the Kähler vanishing result cited there remain conditional inputs, not newly certified.
 
 **Hypotheses and explicit construction.** On \(X=\mathbb P^2\), let \(p=[1:0:0]\), let \(\omega_{\rm FS}\) be the Chern form of \(\mathcal O(1)\) normalized by \(\int_{\mathbb P^1}\omega_{\rm FS}=1\), and let \(s_1=Z_1,s_2=Z_2\) be the global coordinate sections. Define a globally well-defined quasi-psh potential
 \[
