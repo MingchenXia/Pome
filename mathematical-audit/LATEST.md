@@ -1,3 +1,15 @@
+# Latest mathematical audit checkpoint — 2026-10-28, componentwise top cohomology and one-point vanishing
+
+**Fresh main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit branch HEAD:** f134fde1c03070e7c70c23f5fc9bc04feae70261. [Full current integrated-source mathematical report](reports/2026-10-28-top-degree-components-ext-and-onepoint-connectedness.md).
+
+- **POME-TOP-COHOM-COMPONENT-PRODUCT-001**, low / **verified conditional deduction**: top-degree ordinary cohomology on a possibly disconnected paracompact n-manifold is the **product** of orientation-coinvariant classes from its compact connected components; connected noncompact components contribute zero. R disjoint union S¹ has nonzero H¹ despite being noncompact, so the printed connected hypothesis matters.
+- **POME-DUALIZING-EXT-STALK-ENDPOINT-001**, low / **verified conditional deduction**: on R with A=Z/2 and M=Z, Hom=0 but Ext¹=Z/2, giving a genuine degree-one dualizing cohomology row; the Ext hypothesis of §10.72.3 is necessary.
+- **POME-ONEPOINT-VANISH-EACH-COMPONENT-001**, low / **verified conditional deduction**: P¹ disjoint union P¹ with O(1) on one and O on the other is semipositive globally and strictly positive somewhere but has H^{1,1}=C. To extend §10.92.1 to disconnected compact manifolds, strict positivity **on every component** is a sufficient condition. The printed connected corollary is correct.
+
+New first **selected, not complete** proof coverage §§10.71, 10.72, 10.92. §10.91 merely a historically checked dependency; §9.55 already has a separate finding and is not repeated. All **747** ToC section IDs retained and **zero** entire sections certified. No new confirmed false printed theorem, build, tests, formalization, CI, main/source/body/tag/registry change or publication. Excluded Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss items remain **deferred-by-user**.
+
+---
+
 # Latest mathematical-audit checkpoint — 2026-10-28, bounded exponential stability and smooth-center blowup density thresholds
 
 **Fresh production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting review head:** 17ec85a05311aeb681827ed0bc6f797d0e90803a. [Detailed source-anchored English proof and explicit limitations](reports/2026-10-28-resolved-blowup-lp-and-bounded-exponential-stability.md).

@@ -1,3 +1,17 @@
+## 2026-10-28 — componentwise top cohomology, dualizing Ext, and one-point vanishing
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit HEAD:** f134fde1c03070e7c70c23f5fc9bc04feae70261. [Source/tag/line anchored complete report](reports/2026-10-28-top-degree-components-ext-and-onepoint-connectedness.md).
+
+| Stable finding ID | Severity / status | Precise source and suggested disposition |
+| --- | --- | --- |
+| **POME-TOP-COHOM-COMPONENT-PRODUCT-001** | low / **verified conditional deduction**; printed theorem correct | §10.71.5 tag **9EC6A8A9270A** source demailly-complex-geometry:87D6C3E7 lines 77–103 and §10.71.7 tag **211197321C0C** source demailly-complex-geometry:726E10E1 lines 133–158, main blob 88ed77871455097c456cafaba2cca34986f3a3fb. Top cohomology is product of compact-component orientation coinvariants; R disjoint union S¹ refutes merely noncompact disconnected variant. Optional componentwise corollary, depends on cap/local-system comparison. |
+| **POME-DUALIZING-EXT-STALK-ENDPOINT-001** | low / **verified conditional deduction**; printed theorem correct | §10.72.1–3 tags **9E818639205F**, **13DBDC23AA55**, **3968AEF4C8FE**, respective source labels demailly-complex-geometry:11705A2E/AA116797/14A61A97, main blob 6b6c9fc091feb1d437ae0e3858f32feb11cba68a lines 8–87. Explicit R, A=Z/2, M=Z produces nonzero degree-one Ext=Z/2. Do not remove Ext hypothesis of §10.72.3; optional example after §10.72.2. |
+| **POME-ONEPOINT-VANISH-EACH-COMPONENT-001** | low / **verified conditional deduction**; printed theorem correct | §10.92.1 tag **B3500F172230** source demailly-complex-geometry:269B809F, §10.92.2 tag **D736EC97F02B** source demailly-complex-geometry:AC1F8542, main blob 92bd47c3486213df134952fce23f4291c3ae81ca lines 8–69; upstream §10.91.2 tag **8532D3ED47E8**, blob 95b3f78a729e01664c4a24d3ef8aa96143ead523. Disconnected P¹ disjoint union P¹ with O(1) and O gives H^{1,1}=C despite strict positivity somewhere; componentwise strictness suffices, geometric inputs remain conditional. Optional remark, no change to connected theorem. |
+
+Only §§10.71, 10.72, 10.92 moved from inventory to selected excerpts. §10.91 historically selected, not newly counted. Exactly **747** unique ToC IDs retained, **zero** whole-section certifications. All previous findings and all **deferred-by-user** excluded work unchanged, no new confirmed false printed theorem, and no main/source/body/registry/tag/site/build/CI/formalization changes.
+
+---
+
 ## 2026-10-28 — bounded exponential density stability and smooth-center blowup exponents
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Dated detailed mathematical proofs, current source paths and exact line anchors](reports/2026-10-28-resolved-blowup-lp-and-bounded-exponential-stability.md).
