@@ -1,3 +1,18 @@
+## 2026-10-27 — Hölder-dominated MA interpolation and dimension-one Gauduchon determinant criterion
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Full source-pinned English report](reports/2026-10-27-holder-dominated-ma-interpolation-and-determinant-curve-edge.md).
+
+| Stable finding | Status / severity | Exact conditions, reason, disposition, and dependents |
+| --- | --- | --- |
+| **POME-HOLDER-DOMINATED-MA-UNIFORM-INTERPOLATION-001** | **verified conditional deduction / low**; not a false theorem | Integrated §15.25.1, source \`non-kahler-pluripotential-theory-6A4C8C89\`, tag \`8CE230CD94D4\`, \`docs/sections/equations-with-prescribed-singularities--the-homogeneous-equation-with-a-holder-reference/index.html\`, main blob \`0defdec5270db7ff34625b638c9ac2a31264ca4a\`, physical lines 47–69; cited §§5.29.9/.13 and 14.19.23. Any normalized uniformly bounded continuous h-psh family with MA measures $\mu_i\le M\,\mathrm{MA}_h(v_i)$ and uniform $C^{0,\alpha}$ norms of h-psh references has a **pairwise, all-index-set** $L^1\to C^0$ estimate with exponent $\alpha/((\alpha+2n)(6n+1))$. Full proof applies uniform square-capacity, Hölder-reference measure and two directions of 14.19.23; no unverified limit exchange. Proposed optional explicit lemma near §15.25; dependency on §5.42.7 approximation is **deferred-by-user**, not touched or certified. |
+| **POME-GAUD-DETERMINANT-DIM1-EXACT-001** | **verified conditional deduction / low**; $n\ge2$ original proposition not false | Integrated §10.97 Prop. 10.97.4, source \`transcendental-positive-cones-538E99DD\`, tag \`970E2C8817B1\`, \`docs/sections/determinant-bounds-and-gauduchon-separation/index.html\`, main blob \`21ee4c9d517250bec607fa5ebd5630b41a7bd658\`, physical lines 44–112. On connected compact Riemann surfaces the Gauduchon-trace feasibility condition is **equivalent** to $\int\psi\ge\int\nu$, and to existence of smooth $R=\psi+dd^cu\ge\nu$ by the zero-mean Poisson equation; equality forces every admissible current to equal $\nu$. Proposed curve addendum; affects determinant-duality endpoint scope but not n>=2 proof. |
+
+**Additional first selected verification (no new finding):** §9.50.1/.3/.5/.8, \`docs/sections/convex-neighborhoods-and-coherent-vanishing--bundle-cohomology-on-strongly-convex-exhaustions/index.html\` main blob \`dad21663dd676575d42f1b996e7c900285ec878c\`, tags \`8646B8C271A2\`, \`E85E2E5CB1FF\`, \`8AB8E8F1EBBE\`, \`7B8A55FF470A\`, lines 10–178; $M=\mathbb C$, $U=\Delta$ shows q-Runge density need not give surjectivity. No complete L²/Hilbert-complex proof certified.
+
+**Actual coverage:** exactly **three** previously inventory-only ToC rows upgraded, §§9.50, 10.97 and 15.25; 747 unique current rows retained, no full sections or upstream proofs certified. Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss remain **deferred-by-user**, neither resolved nor reopened. No main/body/registry/tag/website/test/build/CI/formalization changes.
+
+---
+
 ## 2026-10-27 — Exact Hartogs-bridge hull and explicit complete puncture cusp
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Pinned detailed proof and source anchors](reports/2026-10-27-hartogs-bridge-exact-hull-and-explicit-puncture-kahler-cusp.md).

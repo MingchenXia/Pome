@@ -1,3 +1,14 @@
+# 2026-10-27 — Quantified Hölder-dominated Monge–Ampère interpolation; exact determinant-duality curve boundary
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **audit starting head:** \`c5174d2febe6dbc34110438dba394fec5b3e2f56\`. [Complete English report with hypotheses, source labels, permanent tags, physical lines and proofs](reports/2026-10-27-holder-dominated-ma-interpolation-and-determinant-curve-edge.md).
+
+- **POME-HOLDER-DOMINATED-MA-UNIFORM-INTERPOLATION-001 — low / verified conditional deduction:** For any (even uncountable) family of normalized bounded continuous $h$-psh potentials $\varphi_i$ whose Monge–Ampère measures are uniformly dominated by those of uniformly $C^{0,\alpha}$ $h$-psh references, the *pairwise* norm bound $\|\varphi_i-\varphi_j\|_\infty\le C\|\varphi_i-\varphi_j\|_{L^1}^{\alpha/((\alpha+2n)(6n+1))}$ follows from the existing Hölder-measure, square-capacity and stability estimates. This makes the §15.25 uniform-convergence mechanism quantitative **without** checking its separately deferred §5.42.7 regularization input.
+- **POME-GAUD-DETERMINANT-DIM1-EXACT-001 — low / verified conditional deduction:** Proposition 10.97.4's trace-feasibility condition has an elementary exact $n=1$ analogue: $\int_X\psi\ge\int_X\nu$ is necessary and sufficient for a smooth representative $R=\psi+dd^cu\ge\nu$; at equality any admissible positive current equals $\nu$. The printed $n\ge2$ proposition remains unchanged and correct under its own conditions.
+- **Independent selected §9.50 check (no extra new finding):** spectral q-convex metric and conditional bundle vanishing/Runge-density proof passages checked. On $\mathbb C\supset\Delta$, polynomials approximate $1/(1-z)$ in all compact smooth seminorms but no entire extension exists: density cannot be upgraded to surjectivity. No excluded Hilbert-complex L² proof-completion work was reopened.
+- **Actual new coverage:** first selected proof-level §§9.50, 10.97 and 15.25 (three inventory-only rows upgraded), 747 unique current ToC rows preserved, no entire section/upstream chain certified and no newly false printed theorem. No tests/builds/CI/formalization/publishing/main/source/tag changes. All Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss work remains **deferred-by-user** and untouched.
+
+---
+
 # 2026-10-27 — Exact Hartogs bridge hull, complete finite-volume Kähler puncture cusp, and Hodge-symbol sign checks
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **initial review head:** de4c9e61443ae6d23e794c739688e877a38c653c. [Complete English proof, labels, blobs and physical lines](reports/2026-10-27-hartogs-bridge-exact-hull-and-explicit-puncture-kahler-cusp.md).
