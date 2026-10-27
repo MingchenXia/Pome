@@ -1,3 +1,18 @@
+## 2026-10-27 — Compact obstacle nonexpansiveness, essential joint Kiselman positivity, and curvature periods
+
+**Reviewed main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. **Pinned integrated proof:** [full report](reports/2026-10-27-compact-obstacle-kiselman-joint-positivity-and-curvature-integrality.md).
+
+| Stable finding | Severity / status | Target, precise adjudication, and dependents |
+| --- | --- | --- |
+| <code>POME-KISELMAN-JOINT-PSH-ESSENTIAL-001</code> | Low / **verified conditional deduction**; printed statement true | §5.41.3 tag <code>ED1DA0551379</code>, main blob <code>3a96ad51514a61efa6802d09305f90a4c9cbef2d</code>, physical lines 35–62. On \(\mathbb P^1\), \(u_t=ath+(a^2/4)t^2\) with \(h=2\operatorname{Re}z/(1+|z|^2)\) has strictly positive \(\omega_{\rm FS}+dd^cu_t\) and strict \(t\)-convexity for \(|t|<1\) but \(\inf_tu_t=-h^2\) near \(z=0\) is not \(\omega_{\rm FS}\)-psh; joint Hessian determinant \(-a^2/8\). Keep joint positivity; optional sharpness example; §5.41/§17 dependents. |
+| <code>POME-KISELMAN-INTERNAL-COROLLARY-REFERENCE-001</code> | Low / **verified repair**, not a new theorem proof certification | §5.41.3 lines 39–43 cites external SGPT local Kiselman, yet internal Cor. 5.12.2 tag <code>2C1A82803889</code>, main blob <code>e26179ee7cbb45fe10f7b4aabb9057ca33739a87</code>, physical lines 100–129 exactly supplies strip infimum needed after the printed local quadratic correction. Proposed citation-only patch to §5.12.2, retaining SGPT/Kiselman history. No body edit and no excluded analytic programme. |
+| <code>POME-COMPACT-OBSTACLE-SUPNORM-STABILITY-001</code> | Low / **verified conditional deduction** | §5.40.6 tag <code>F031A16FF76F</code>, blob <code>30716faee83d2ac0ec84b3684e319210980bd14f</code>, lines 169–199. For bounded obstacles \(\psi,\phi\) on fixed compact non-pluripolar \(K\), big smooth possibly nonclosed \(\theta\), \(E_K(\phi)-\delta\le E_K(\psi)\le E_K(\phi)+\delta\), \(\delta=\sup_K|\psi-\phi|\); finite-locus norm bound is sharp at \(K=X=\mathbb P^1\). Optional corollary; do not invoke excluded §5.32 approximation. |
+| <code>POME-LINE-CURVATURE-INTEGRAL-PERIOD-001</code> | Low / **verified conditional deduction**; original theorem true | §5.45.1 tag <code>620B099907AB</code>, main blob <code>28b44ce67341b26ec1d01db0feaa83adbb6b357a</code>, lines 9–31. \(\theta=\sqrt2\omega_{\rm FS}\) on \(\mathbb P^1\) is closed/positive yet no \(\theta+dd^cu\) is singular curvature of a holomorphic line bundle, because its integral \(\sqrt2\) conflicts with integer \(\deg L\). Optional integral class qualification; source theorem asserts only necessity of closedness. |
+
+**Exact new section coverage:** selected §5.40.1/.3/.5/.6/.10/.12, §5.41.1/.3/.5/.8/.9, §5.45.1; contextual Cor. 5.12.2 (previous proof input) is *not* counted as first coverage. Three prior inventory-only ToC rows upgraded; retain all 747 and no full section certifications. Existing unresolved and all **deferred-by-user** excluded Demailly approximation/regularization, Bergman, L², OT, multiscale and positivity-loss statuses remain unchanged. No build/test/CI/formalization/main/source/tag/website changes.
+
+---
+
 ## 2026-10-27 — Projective Hartogs saturation sharpness and exact punctured-ball hull
 
 **Reviewed main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. **Detailed new proof/anchors:** [report](reports/2026-10-27-hartogs-saturated-sheaves-and-punctured-hull.md). **Three new IDs; previous Grauert, normalization, and excluded-programme statuses unchanged.**

@@ -1,3 +1,14 @@
+# Latest mathematical-audit checkpoint — 2026-10-27, compact obstacle envelopes and Kiselman sharpness
+
+**Pinned reviewed main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. **Audit branch:** <code>review/mathematical-audit</code>. **Full English mathematics and anchored proofs:** [report](reports/2026-10-27-compact-obstacle-kiselman-joint-positivity-and-curvature-integrality.md).
+
+**Four new low-severity IDs, no false printed theorem:** <code>POME-KISELMAN-JOINT-PSH-ESSENTIAL-001</code> proves on compact \(\mathbb P^1\) that smooth uniformly strictly \(\theta\)-psh slices and strict \(t\)-convexity on a bounded interval do *not* make the parameter infimum \(\theta\)-psh without joint \((x,t+i s)\) positivity; exact Schur determinant is negative. <code>POME-KISELMAN-INTERNAL-COROLLARY-REFERENCE-001</code> gives the precise existing internal proof bridge from Corollary 5.12.2 to Proposition 5.41.3, retaining its historical SGPT/Kiselman attribution (verified repair proposal, not body edit). <code>POME-COMPACT-OBSTACLE-SUPNORM-STABILITY-001</code> gives the sharp coefficient-one envelope comparison for **arbitrary bounded obstacles on a non-pluripolar compact set** in any big, potentially nonclosed \(\theta\) background (extended-valued inequalities, finite-locus norm only). <code>POME-LINE-CURVATURE-INTEGRAL-PERIOD-001</code> demonstrates a closed smooth positive \(\sqrt2\,\omega_{\rm FS}\) which still cannot be singular line-bundle curvature because its period is nonintegral. Printed §5.41.3 and §5.45.1 are correct under their actual hypotheses.
+
+**Actual coverage newly upgraded:** only selected §§5.40, 5.41, 5.45, with §5.12.2 checked as an existing internal dependency. The **747** unique actual ToC rows remain, **zero** complete-section certifications; upstream normal compactness, Josefson, comparison and proof of §5.12.2 not certified. No body/source/registry/tags/main/website/build/CI/formalization modifications. The entire dedicated Demailly approximation/regularization and Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss proof-completion programme remains **deferred-by-user**, untouched.
+
+---
+## Previous checkpoint (preserved verbatim)
+
 # Latest mathematical-audit checkpoint — 2026-10-27, holomorphic hulls and saturated Hartogs extensions
 
 **Pinned reviewed main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. **Branch:** <code>review/mathematical-audit</code>. **Dated proof report:** [Hartogs saturation and punctured hull](reports/2026-10-27-hartogs-saturated-sheaves-and-punctured-hull.md).
