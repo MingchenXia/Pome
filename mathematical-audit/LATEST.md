@@ -1,3 +1,12 @@
+# 2026-10-27 — Finsler polar uniformity needs compactness; independently checked normal-current signs
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **starting review head:** \`bde22f904afce4cde92892d88ffb6a494d36d691\`. [Complete counterexample, local uniform repair, and pinned proof anchors](reports/2026-10-27-finsler-polar-global-margin-and-normal-current-support.md). 
+
+- **POME-FINSLER-POLAR-GLOBAL-MARGIN-001 — medium / confirmed error under unqualified standalone hypotheses:** §11.12.3 claims one fiberwise convexity margin on arbitrary \(E\to X\); on noncompact \(\mathbf C\), \(G=e^{\operatorname{Re}z}|v|^2\) has zero Kobayashi curvature but \(Q=e^{-\operatorname{Re}z}|\xi|^2\), so no global \(c>0\). The **intended compact-base theorem is correct**. Verified repair: require compact \(X\), or state locally uniform \(c_U>0\) for each relatively compact \(U\Subset X\); only the local conclusion is needed as convexity input in §11.12.6. No related smoothing programme reopened.
+- **New actual coverage:** selected proof checks in §§11.11–11.12 (tautological curvature, Finsler Schur formula and polar convexity) and §§5.55–5.56 (the \(C^1\) Stokes sign and normal-current conormal/support argument). **Four former inventory-only ToC rows upgraded**, 747 unique identifiers retained; no whole section certified. §11.3 context-only. No project tests/build/CI/formal verification, publication, or source/main edits. Dedicated Demailly psh approximation/regularization/Bergman/\(L^2\)/Ohsawa–Takegoshi/multiscale/positivity-loss remains **deferred-by-user**, untouched.
+
+---
+
 # 2026-10-27 — Sharp radial residual Sobolev threshold and quantitative equilibrium-mass stability
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** f06fc11b2c80c4ba71dc1ab7fcea90166e47b2d4. [Source-anchored complete conditional proofs and counterexamples](reports/2026-10-27-radial-residual-critical-sobolev-and-obstacle-mass-stability.md).

@@ -1,3 +1,15 @@
+## 2026-10-27 — Global Finsler polar margin: noncompact counterexample and local repair
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **starting audit head:** \`bde22f904afce4cde92892d88ffb6a494d36d691\`. [Full direct proof and exact integrated-source anchors](reports/2026-10-27-finsler-polar-global-margin-and-normal-current-support.md). No existing issue status modified.
+
+| Stable finding | Severity / status | Source, reason, correction and affected dependents |
+| --- | --- | --- |
+| **POME-FINSLER-POLAR-GLOBAL-MARGIN-001** | **medium / confirmed error under the unqualified standalone statement**; compact-base case **valid**, not a false compact theorem | §11.12.3 (source \`non-kahler-pluripotential-theory-86EFA793\`, permanent \`BD7ECB0F942E\`), \`docs/sections/gauduchon-metrics-and-linear-mass--convex-norms-and-gauduchon-degrees--polar-norms-of-semipositive-finsler-metrics/index.html\`, main blob \`9d8c639c4460719360048213e58aa08138dd1a71\`, lines **102–106** and proof **111–141**: no explicit compactness but a single global \(c>0\) is asserted; proof uses compact unit sphere at line 112 and uniform lower coercivity at line 128. Counterexample \(X=\mathbf C,\ G(z,v)=e^{\operatorname{Re}z}|v|^2,\ Q(z,\xi)=e^{-\operatorname{Re}z}|\xi|^2\), even with \(\mathcal K_G=0\). Correct: add compact \(X\), or replace by \(c_U>0\) on every \(U\Subset X\); full supporting-affine proof in report. §11.12.6 tag \`3DE300A9B2AD\`, lines 146–153, requires only local margin; subsequent smoothing dependency not reexamined. Retain original tags and provenance; propose separate patch, no source write. |
+
+**Other selected direct proof checks:** §11.11.1/.2 (\`40D29F4EF95B\`/\`68260DAF47D2\`, main blob \`6f9d5aa919f3b4de1626f1b32cee6064393fff7c\`, lines 20–60) curvature Schur-square and ampleness metric; §5.55.1 (\`E09F702EB680\`, main blob \`09cf11ebb628e7a198bbe84befd8d5c68ead5854\`, lines 8–41) \(C^1\) Stokes sign; §5.56.1/.3 (\`A6C399681838\`/\`D47CED9844B5\`, main blob \`f89355e610fd1711a2397855116df4d1325d58df\`, lines 23–109, examples 113–128) normality, pushforward parity and conormal annihilation. No additional confirmed mathematical errors. **New selected coverage:** four formerly inventory-only §§5.55–5.56, 11.11–11.12; no complete sections certified, all 747 unique ToC rows preserved. All dedicated author-excluded Demailly psh approximation/regularization and Bergman/\(L^2\)/OT/multiscale/positivity-loss records remain **deferred-by-user**. No project tests, builds, CI, publication or main/source edits.
+
+---
+
 ## 2026-10-27 — critical radial Sobolev exponents and sharp radial obstacle-mass modulus
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit head:** f06fc11b2c80c4ba71dc1ab7fcea90166e47b2d4. [Complete explicit proofs, main blobs and source anchors](reports/2026-10-27-radial-residual-critical-sobolev-and-obstacle-mass-stability.md). Newly selected §§9.49, 11.46, 11.47; no whole section or transitive theorem system certified.
