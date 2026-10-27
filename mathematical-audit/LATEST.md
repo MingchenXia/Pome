@@ -1,3 +1,13 @@
+# 2026-10-27 — Global Hermitian sublevel capacity and circle-supported max-Fubini–Study curvature
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting review head:** ac620c1713fd3da8d846132b457cedd1221a6977. [Complete source-anchored English report](reports/2026-10-27-hermitian-global-sublevel-capacity-and-fs-circle-curvature.md).
+
+- **POME-HERMITIAN-GLOBAL-SUBLEVEL-CAP-001 — low / verified conditional deduction:** on a fixed connected compact Hermitian manifold, normalized \(u\in\mathrm{PSH}(X,\omega)\) have \(c_\omega(\{u<-t\})\le C_{X,\omega}/t\) uniformly in \(u\) and \(t>0\), with globally sharp \(t^{-1}\) order on \(\mathbb P^1\), witnessed by the circle mass \((1-e^{-(t+1)})/(t+1)\) of a bounded \(\omega\)-psh test. This is not a duplicate of the prior *local* weighted-CLN capacity finding.
+- **POME-FS-MAX-CIRCLE-CURVATURE-001 — low / verified conditional deduction:** \(\max(\log|X_0|^2,\log|X_1|^2)\) defines a pole-free continuous max-Fubini–Study metric on \(\mathcal O_{\mathbb P^1}(1)\) whose positive curvature is normalized arclength on \(|z|=1\), not a smooth density or a complex-analytic divisor.
+- **Actual scope:** first selected proof-level checks in §§10.6 and 10.9 (two inventory rows upgraded). No original theorem found false, no whole section or upstream BT/CLN comparison certified. All 747 section rows and historical ledger statuses retained. No Demailly approximation/regularization or dedicated Bergman/L²/OT/multiscale/positivity-loss activity; all remain **deferred-by-user**. No source/main/registry/tag edit, build, tests, CI, formalization or publication.
+
+---
+
 # 2026-10-27 — Quantitative Hartogs–Bochner boundary extension, non-splitting jets, and polar affine reweighting
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting review head:** b71610cf5edf7ad06ac8f1be1d9ad4d522247c18. [Full English report with main blobs, stable labels and physical lines](reports/2026-10-27-hartogs-bochner-log-modulus-and-jet-nonsplitting.md).
