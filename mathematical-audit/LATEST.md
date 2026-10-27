@@ -1,3 +1,14 @@
+# 2026-10-27 — Quantitative Hartogs–Bochner boundary extension, non-splitting jets, and polar affine reweighting
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting review head:** b71610cf5edf7ad06ac8f1be1d9ad4d522247c18. [Full English report with main blobs, stable labels and physical lines](reports/2026-10-27-hartogs-bochner-log-modulus-and-jet-nonsplitting.md).
+
+- **POME-CR-BOUNDARY-LOGMODULUS-001 — low / verified conditional deduction:** in §9.36.1, the existing compact-support Cauchy-type homotopy kernel and C² collar produce a C||f||C¹ * h(1+log(R/h)) modulus for the continuous holomorphic extension, hence all C^{0,alpha} exponents alpha<1; a constant-on-each-boundary-component annulus example proves the printed connected-boundary hypothesis cannot be deleted.
+- **POME-JET-EXACT-NONSPLIT-001 — low / verified conditional deduction:** §10.93.3 yields 0 -> Sym^k Omega¹ tensor E -> J^k E -> J^{k−1}E -> 0; splitting at k=1 equals a holomorphic connection. On P¹, J¹O(1) = O², but 0 -> O(−1) -> O² -> O(1) -> 0 does not holomorphically split, despite very ampleness.
+- **POME-POLAR-AFFINE-REWEIGHT-001 — low / verified conditional deduction:** §5.46.3 implies exact polar-curvature scaling 1_S dd^c(chi(u)) = c 1_S dd^c u for negative psh u and convex nondecreasing chi with chi(t)=ct+O(1) at −infinity, c>0. Ratio-only asymptotics are not claimed sufficient.
+- **Actual coverage:** first **selected** §9.36.1, §10.93.1/.3–4 and §5.46.1–5 (three inventory rows upgraded); §5.49 homotopy reused, not counted as a newly audited section. **747 unique section entries retained, no whole section certified.** All printed theorems checked here remain correct; several upstream analytic prerequisites are conditional. No project build/tests, CI, formal verification, website publication, main/source/registry/tag change. Dedicated Demailly approximation/regularization, Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss completion remains **deferred-by-user**, untouched.
+
+---
+
 # 2026-10-27 — Finsler polar uniformity needs compactness; independently checked normal-current signs
 
 **Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **starting review head:** \`bde22f904afce4cde92892d88ffb6a494d36d691\`. [Complete counterexample, local uniform repair, and pinned proof anchors](reports/2026-10-27-finsler-polar-global-margin-and-normal-current-support.md). 
