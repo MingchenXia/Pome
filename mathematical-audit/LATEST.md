@@ -1,3 +1,14 @@
+# 2026-10-27 — Split Frölicher pages under modifications; explicit complex-torus Hodge numbers
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting review head:** 70608f5b76eda0322898690d69552a01a52c7d8a. [Complete source-anchored proofs and boundary conditions](reports/2026-10-27-modification-frolicher-retract-and-torus-fourier-hodge.md).
+
+- **POME-MODIFICATION-FROLICHER-PAGE-SPLIT-001 — low / verified conditional deduction:** §10.87.1's chain-level current identity, plus smooth/current Dolbeault \(E_1\)-comparison, gives a split injection of **every** Frölicher \(E_r^{p,q}\) under compact modifications. Page dimensions, differential ranks and total-degree Frölicher defects are nondecreasing upstairs. No ascending-degeneration assertion.
+- **POME-FUJIKI-ODD-BETTI-OBSTRUCTION-001 — low / verified conditional deduction:** all odd Betti numbers of Fujiki-class compact complex manifolds are even. The primary scalar Hopf surface \(S^3\times S^1\) has \(b_1=b_3=1\) and therefore no Kähler modification.
+- **POME-COMPLEX-TORUS-FOURIER-DOLBEAULT-001 — low / verified conditional deduction:** §10.81.1's full real lattice quotient has \(h^{p,q}=\binom np\binom nq\) and \(b_k=\binom{2n}k\). An explicit order-\(-1\) Fourier contraction kills every nonzero frequency. Kähler strong Hodge gives identical Bott–Chern dimensions.
+- **Actual new coverage:** first selected proof-level **§§10.81 and 10.87** only. §§10.84–86 previously audited and reused as dependencies, not counted again; 747 unique ToC rows, zero complete-section certifications. No printed theorem found false in this pass, no build/tests/CI/formal verification or site publication. Demailly approximation/regularization and its dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss work remain **deferred-by-user** and unopened.
+
+---
+
 # 2026-10-27 — Global Hermitian sublevel capacity and circle-supported max-Fubini–Study curvature
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting review head:** ac620c1713fd3da8d846132b457cedd1221a6977. [Complete source-anchored English report](reports/2026-10-27-hermitian-global-sublevel-capacity-and-fs-circle-curvature.md).
