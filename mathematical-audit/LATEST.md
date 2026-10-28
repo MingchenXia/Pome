@@ -1,3 +1,14 @@
+# Latest mathematical audit checkpoint — 2026-10-29: exceptional divisor determinant volume and sharp strict-point vanishing
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [New source/tag/blob/physical-line report](reports/2026-10-29-exceptional-ac-volume-and-onepoint-strictness.md).
+
+- **POME-AC-VOLUME-EXCEPTIONAL-NEGATIVE-001** — low / **verified conditional deduction**: for $X=\mathrm{Bl}_p\mathbb P^2$ and $\alpha_a=\pi^*H+a[E]$ ($a\ge1$ integer), $\operatorname{Vol}(\alpha_a)=1$ but $\alpha_a^2=1-a^2$; the positive current $\pi^*\omega_{\mathrm{FS}}+a[E]$ **attains** $\int T_{\mathrm{ac}}^2=1$. Direct exact-sequence proof of section growth; general upper bound still conditional on printed §13.31.1. §§13.31.3–4 remain correct, not a previously recorded full-mass singular-current repetition.
+- **POME-ONEPOINT-STRICT-ELLIPTIC-PRODUCT-001** — low / **verified conditional deduction**: for all $n\ge2$, $X=\mathbb P^{n-1}\times C$ with $C$ elliptic, $L=p_1^*\mathcal O(n)$ is semipositive but nowhere strictly positive, yet $H^{n,1}(X,L)=H^{0,n-1}(X,L^{-1})=\mathbb C$. The **strictly positive/negative at one point** premise in printed §10.92.1 is indispensable even on connected projective manifolds. No claim about higher-rank thresholds.
+- **Actual coverage:** incremental proof/model checks §§13.31.3–4 and 10.92.1, comparison-only §10.91.2; first orientation of §10.90 (subject heading only, *not* a theorem audit). Unchanged **25-chapter / 747-section inventory; zero entire sections certified**. No previous finding closed.
+- All dedicated Demailly approximation/regularization and Bergman/L2/OT/multiscale/positivity-loss proof work remains **deferred-by-user** and untouched; no main/source/site/tag/registry/build/CI/formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: torsion-free Hartogs and all-fiber non-pluripolar disintegration
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting review HEAD:** `4e82d8059895628c7120e4007e31980b5e648a7a`. [New source/tag/blob/physical-line proof report](reports/2026-10-29-hartogs-torsionfree-and-fiber-disintegration.md).

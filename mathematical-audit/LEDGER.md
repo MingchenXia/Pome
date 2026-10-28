@@ -1,3 +1,16 @@
+## 2026-10-29 — exceptional-divisor ac determinant and one-point strictness
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. Full English [proof report](reports/2026-10-29-exceptional-ac-volume-and-onepoint-strictness.md). Two low-severity **verified conditional deductions**; both printed assertions correct. No old issue closed and no complete theorem chain certified.
+
+| Stable finding ID | Severity / status | Anchors, mathematical conclusion, proposed action and affected dependents |
+| --- | --- | --- |
+| **POME-AC-VOLUME-EXCEPTIONAL-NEGATIVE-001** | low / **verified conditional deduction** | §13.31.3–4, <code>docs/sections/absolutely-continuous-and-non-pluripolar-mass/index.html</code> blob <code>bea17d8041a7af4a252913e0f700b44d77521f82</code>, source <code>transcendental-positive-cones:A2E98A80</code> / <code>AA4B08E5</code>, tags <code>1E1CF458220D</code> / <code>04768594F11F</code>, physical lines 103–136. On $\mathrm{Bl}_p\mathbb P^2$, $\alpha_a=H+aE$ is big with $\operatorname{Vol}(\alpha_a)=1$, $\alpha_a^2=1-a^2$, and $\pi^*\omega_{\mathrm{FS}}+a[E]$ attains ac determinant integral $1$. Complete exact-sequence calculation; original §13.31.1 remains the upper-bound input. Optional example; protects big/non-nef volume and §13.32 numerical-positive-product interpretation. Not a false original theorem. |
+| **POME-ONEPOINT-STRICT-ELLIPTIC-PRODUCT-001** | low / **verified conditional deduction** | §10.92.1 tag <code>B3500F172230</code>, source <code>demailly-complex-geometry:269B809F</code>, <code>docs/sections/one-point-curvature-positivity-and-vanishing--one-point-vanishing-on-compact-complex-manifolds/index.html</code> blob <code>92bd47c3486213df134952fce23f4291c3ae81ca</code>, physical lines 7–29. $X=\mathbb P^{n-1}\times C$ elliptic, $L=p_1^*O(n)$; semipositive but nowhere strict; nonzero $H^{n,1}(X,L)$ and $H^{0,n-1}(X,L^{-1})$ equal $\mathbb C$ for every $n\ge2$. Künneth/Serre proof; optional hypothesis-sharpness example, not a counterexample to printed theorem. Dependents §10.91–10.92 one-point vanishing. |
+
+**Coverage:** incremental previously sampled §§13.31 and 10.92; first **orientation-only** §10.90 subject heading tag <code>3209A23008E4</code>; §10.91.2 premise-only context. Retain 25 / 747 / 0 matrix. All user-deferred Demailly approximation/regularization and dedicated Bergman/L2/OT/multiscale/positivity-loss work remains **deferred-by-user**, not resolved. No production edits, tests, build, CI, site publication, or formalization.
+
+---
+
 ## 2026-10-29 — torsion-free Hartogs extension and all-fiber disintegration
 
 **Reviewed main** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. Full English anchored proof: [reports/2026-10-29-hartogs-torsionfree-and-fiber-disintegration.md](reports/2026-10-29-hartogs-torsionfree-and-fiber-disintegration.md). Three **low-severity / verified conditional deductions**; all original printed assertions correct, no old issue closed, and no complete upstream proof chain certified.
