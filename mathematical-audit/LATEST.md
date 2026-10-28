@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-28: monomial Newton multiplier ideals and sharp elliptic relative embedding
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit HEAD:** `3c8eab9c71d11875033be6435db7ef5e61bcf4f2`. [Full physical-line, source-label, permanent-tag and mathematical proofs](reports/2026-10-28-monomial-newton-ideals-and-elliptic-relative-embedding.md).
+
+- **POME-MONOMIAL-NEWTON-MULTIPLIER-001** — low / **verified conditional deduction**, printed Theorem 6.12.8 correct: direct polar-logarithmic integral proof of the exact Newton-polyhedron multiplier-ideal formula for *arbitrary finite monomial ideals*, including all strict boundary faces and analytic power-series sufficiency. For `(x²,y³)`, the log canonical threshold is exactly `5/6`; the constant fails to be integrable at equality, and `I(φ)=(x,y)` at `c=5/6`. Entirely outside user-excluded regularization/Bergman/L²/OT proof programmes.
+- **POME-RELATIVE-ELLIPTIC-POWER-OPTIMAL-001** — low / **verified conditional deduction**, printed Lemma 9.71.1 correct: on the trivial elliptic family with fiber degree-one positive line bundle, the first tensor power admitting the required closed relative projective embedding is **exactly 3**, by curve Riemann–Roch and separation of points/first jets. General Grauert base change remains a quoted external input; the earlier L² vanishing proof remains user-deferred.
+- **Exact new scope:** first selected independent nonexcluded model in previously inventory-only **§6.12**; incremental independent sharpness in already selected **§9.71**; internal §10.78.9 and §7.1 introduction only as conditional/contextual references. Existing **25 chapters / 747 numbered ToC sections**, **zero** full-section certifications. No previously open mathematical error or proof gap silently repaired or relabeled; all excluded tasks stay **deferred-by-user**. No main/source/tag/registry/site/CI/build/formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-28: toric facet vanishing distributions and Newton interior coercivity
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit HEAD:** `c7a5d4213bc2dab8b3e8b35684c2425d2ec29ba0`. [Full source-anchored proof and exact coverage](reports/2026-10-28-toric-facet-filtration-and-logsum-coercivity.md).

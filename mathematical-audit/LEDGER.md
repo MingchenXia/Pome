@@ -1,3 +1,16 @@
+## 2026-10-28 — monomial Newton integrability and elliptic power-three relative embeddings
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting audit HEAD:** `3c8eab9c71d11875033be6435db7ef5e61bcf4f2`. [Detailed source/tag/physical-line report](reports/2026-10-28-monomial-newton-ideals-and-elliptic-relative-embedding.md).
+
+| Stable finding ID | Severity / status | Current source, proof result and exact scope | Proposed action, affected dependents and limitations |
+| --- | --- | --- | --- |
+| **POME-MONOMIAL-NEWTON-MULTIPLIER-001** | low / **verified conditional deduction**; published theorem correct | §6.12.8, source `foundations-of-pluripotential-theory:17D7A591`, tag `5BA222439952`; Eqs. 6.12.9–10 tags `2874465D0AEF`/`784A47900871`, Example 6.12.19 tag `B10A1F1C864B`. `docs/sections/lelong-numbers-and-multiplier-ideals--birational-change-of-variables-and-logarithmic-thresholds/index.html`, blob `5336b9d58df5b21518d7436a7c42d2d7be253340`, lines **137–171, 291–294**. Full direct polar-cone integrability proof: `I(c log(sum abs(z^a)^2))=(z^b: b+1 in Int(c NP(a)))`; endpoint `(x²,y³)` has lct `5/6`, and `I=(x,y)` at equality. | Optional completely elementary Newton-ideal example at §§6.12/6.54/16.6; distinguishes strict-integrability boundary from generic divisorial order. General log-resolution theorem not transitively certified. **No** Demailly approximation/Bergman/L²/OT opened. |
+| **POME-RELATIVE-ELLIPTIC-POWER-OPTIMAL-001** | low / **verified conditional deduction**; published lemma correct | §9.71.1 source `cao-paun-foliations:4BE67CB0`, tag `A53CEC220C70`; `docs/sections/local-projectivity-from-relative-positivity/index.html`, blob `f17614b598855bda6fc15f266135d6fe238638cf`, lines **8–11, 17–36**. For `E×Δ→Δ`, `deg L=1`, minimum embedding power **k=3**; `h⁰(L^k)=k`, and `L³` separates points and first jets. Internal RR §10.78.9 tag `7F8CC797059F` is quoted as an input. | Optional sharpness example at §9.71; shows existential high tensor power cannot be replaced by `k≤2`. Full family proof conditional on existing Grauert base change; relative L² vanishing remains **deferred-by-user**. |
+
+**Actual coverage:** first selected independent model for §6.12; incremental selected §9.71; §§7.1 and 10.78 context-only. No whole-section or complete dependency-chain certification, original **747** numbered rows unchanged. All user-deferred regularization and its dedicated Bergman/L²/OT/multiscale/positivity-loss tasks remain **deferred-by-user**. No body/main/source/registry/tag/site/CI/build/formalization edits.
+
+---
+
 ## 2026-10-28 — toric facet filtration and log-sum-exp relative interior
 
 **Pinned main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting audit HEAD:** `c7a5d4213bc2dab8b3e8b35684c2425d2ec29ba0`. [Proof report with exact source labels, permanent tags, blobs and physical lines](reports/2026-10-28-toric-facet-filtration-and-logsum-coercivity.md).
