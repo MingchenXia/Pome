@@ -52,7 +52,7 @@ Their values differ despite identical k-jets. The failure precisely occurs since
 
 **Severity:** low. **Status:** verified conditional deduction — exact model sharpening the correct directional angular/supremum comparison, not a false theorem.
 
-**Exact integrated anchors:** same section 6.37 main file/blob as above. Proposition 6.37.1, source demailly-complex-geometry:8EFE1AE46FF7, permanent 8EFE1AE46FF7 (the boundary torus law); Theorem 6.37.5, source demailly-complex-geometry:28BEBFE4, permanent E3EFBBDA7787, physical lines 88–124, particularly complete equations 6.37.6/7 at lines 89–97 and the negative-r inequalities at lines 112–124. The proposition is inspected only for its relevant torus-probability normalization.
+**Exact integrated anchors:** same section 6.37 main file/blob as above. Proposition 6.37.1, source demailly-complex-geometry:ACEFE38D, permanent 8EFE1AE46FF7 (the boundary torus law); Theorem 6.37.5, source demailly-complex-geometry:28BEBFE4, permanent E3EFBBDA7787, physical lines 88–124, particularly complete equations 6.37.6/7 at lines 89–97 and the negative-r inequalities at lines 112–124. The proposition is inspected only for its relevant torus-probability normalization.
 
 **Claim/proof:** In dimension two choose positive weights lambda_1,lambda_2, positive integers m,b, and the psh model
 \[V(z_1,z_2)=\log|z_1^m+z_2^b|^2.\]
