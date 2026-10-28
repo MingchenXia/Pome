@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-28: toric facet vanishing distributions and Newton interior coercivity
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit HEAD:** `c7a5d4213bc2dab8b3e8b35684c2425d2ec29ba0`. [Full source-anchored proof and exact coverage](reports/2026-10-28-toric-facet-filtration-and-logsum-coercivity.md).
+
+- **POME-TORIC-FACET-VANISH-DH-001** — low / **verified conditional deduction**: toric character sections have exact normalized vanishing-weight empirical distributions converging narrowly to the facet affine-functional pushforward of polytope Lebesgue measure. On `P=d Delta_2` the (unnormalized) DH density is `(d-t) 1_[0,d](t) dt`, probability moments `2 d^j/[(j+1)(j+2)]`. The published §21.9.5 and §19.6.18 remain correct; earlier §19.6.16 error is not duplicated.
+- **POME-LOGSUM-RELINT-COERCIVITY-001** — low / **verified conditional deduction**: §21.4.6's bounded-below condition `alpha in conv(beta_i)` sharpens to quotient-space coercivity and integrability of `exp(-H_alpha)` **iff** `alpha` lies in the relative interior of the finite Newton polytope; boundary points lose both. Explicit symmetric one-variable integral equals `pi/b`.
+- **Exact incremental coverage:** new selected §§21.4.6 and 21.9.2/.5; §19.6 definitions and §21.7.3 only as conditional inputs. **25 chapters / 747 numbered sections, no entire section certified.** User-excluded Demailly approximation/regularization + dedicated Bergman/L2/OT/multiscale/positivity-loss work remains **deferred-by-user**. No main/source/site/CI/build/formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-28: nonnormal isolated Hartogs poles and maximal convex tubes
 
 **Reviewed main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>; **starting audit HEAD:** <code>8574b4195dc023866c9763a133a0138db90b5510</code>. [New complete sharpness proofs with source labels, permanent tags, and exact physical lines](reports/2026-10-28-nonnormal-hartogs-poles-and-maximal-convex-tubes.md).

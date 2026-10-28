@@ -1,3 +1,16 @@
+## 2026-10-28 — toric facet filtration and log-sum-exp relative interior
+
+**Pinned main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting audit HEAD:** `c7a5d4213bc2dab8b3e8b35684c2425d2ec29ba0`. [Proof report with exact source labels, permanent tags, blobs and physical lines](reports/2026-10-28-toric-facet-filtration-and-logsum-coercivity.md).
+
+| Stable finding ID | Severity / status | Exact locus, proof, dependencies, correction and affected consumers |
+| --- | --- | --- |
+| **POME-TORIC-FACET-VANISH-DH-001** | low / **verified conditional deduction**, printed statements correct | §21.9.2 `7B4A7CC50CDC` lines 35–61 and §21.9.5 source `foundations-of-pluripotential-theory:BD98CC5B`, tag `69D3D97E7701`, `docs/sections/convex-analysis-and-toric-potentials--fans-divisors-and-character-sections/index.html`, main blob `7ad2e6dbdd0ce59e1bf08cd9cb3c046e8c87ff6c`, lines 139–167. Internal §21.7.3 `831AEEB7084F` and §19.6.18 `51940EF88F4F` as conditional dependencies. Exact `ord_{D_rho}(chi^m s0^k)=k ell_rho(m/k)`; empirical section weights converge narrowly to `ell_{rho*}(1_P dp)`. On `d Delta_2`, density `(d-t)dt`, moments `2d^j/[(j+1)(j+2)]`. Proposed optional filtration/DH model remark; relates to toric sections, Okounkov test curves and NA DH, not the previously recorded §19.6.16 error or §21.8 chart-cycle. No source edit. |
+| **POME-LOGSUM-RELINT-COERCIVITY-001** | low / **verified conditional deduction**, printed lemma correct | §21.4.6 source `foundations-of-pluripotential-theory:5D58DF02`, tag `F7AECD623994`, `docs/sections/convex-analysis-and-toric-potentials--slope-bodies-and-bounded-growth/index.html`, blob `56a9a1c19e7234e2aa258d5ad1b66a5679ace190`, lines 109–123. For alpha in convex hull B, logsum-minus-linear is coercive on `N_R/span(beta_i-beta_1)^perp` and `exp(-H)` is integrable there iff alpha in `relint B`. Uniform support-function gap gives positive linear growth; a relative-boundary supporting ray yields an infinite-volume lower-bound cylinder. Symmetric one-variable integral `pi/b`. Proposed optional sharpness note; only finite-dimensional convexity, no excluded approximation or multiplier-ideal proof programme. |
+
+**Scope:** selected new proof-level increments §§21.4.6 and 21.9.2/.5; contextual §19.6 definitions and §21.7.3 only. Existing 25-chapter / 747-section matrix preserved, zero full sections certified. Earlier errors, proof gaps, duplicates and external inputs retain their statuses; user-excluded Demailly regularization/approximation with dedicated Bergman/L2/OT/multiscale/positivity-loss programme remains **deferred-by-user**. No main, source, registry, tag, site, CI, build, test or formalization change.
+
+---
+
 ## 2026-10-28 — irreducible nonnormal Hartogs pole and sharp Bochner tube base
 
 **Pinned main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>; **starting audit HEAD:** <code>8574b4195dc023866c9763a133a0138db90b5510</code>. [Detailed dated mathematical proof and exact integrated source/tag/physical-line anchors](reports/2026-10-28-nonnormal-hartogs-poles-and-maximal-convex-tubes.md).
