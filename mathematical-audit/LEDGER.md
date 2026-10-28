@@ -1,3 +1,17 @@
+## 2026-10-28 — optimal logarithmic measure-order estimate and sharp transcendental Morse coefficient
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting review HEAD:** `2f3bb4465182ee0ac5c3f62b70746776895a3c25`. [Full proof, source labels/tags, blob SHA and line anchors](reports/2026-10-28-exponential-measure-order-and-transcendental-morse-sharpness.md).
+
+| Stable finding ID | Severity / status | Exact statement and action |
+| --- | --- | --- |
+| **POME-EXP-MEASURE-LOGRATIO-LINF-SHARP-001** | low / **verified conditional deduction** | `docs/sections/big-backgrounds-under-bounded-mass/index.html` blob `0cc1ca66dd13369d9ae3f4aa43bb3bb074c05571`, Thm 10.31.44, source `non-kahler-pluripotential-theory:14E81064`, tag `D5758568A543`, lines 1023–1123, and `docs/sections/volumes-under-bounded-mass--domination-and-ordinary-envelopes/index.html` blob `aa11cda5105062bb7d7b5eaaa1396940c679e097`, Cor 13.19.3, source `non-kahler-pluripotential-theory:25AC6489`, tag `85CE662E8010`, lines 45–57: if (e^m\mu\le\nu\le e^M\mu), then (u-M/\lambda\le v\le u-m/\lambda); sharp for (
+u=e^t\mu). Optional post-theorem corollary. No false theorem, no proof of existence prerequisites. |
+| **POME-TRANS-MORSE-COEFF-N-SHARP-001** | low / **verified conditional deduction** | `docs/sections/transcendental-morse-inequalities/index.html` blob `8c3b365abcfd969b94e36611e28d6b87dfddc45b`, Thm 10.98.2 source `transcendental-positive-cones:6BC489CE` tag `DE32EEA596CD`, Eq 10.98.3 source `transcendental-positive-cones:8CA0AB71` tag `74CB0E2B99CA`, lines 17–23, 69–95, 97–137. On ((\mathbf P^1)^n), (a=\sum h_i), (b=t h_1) gives exact equality and shows (n) optimal even for Kähler input pairs by perturbation. Checked determinant/trace factors and fixed-difference nef limiting step. Excluded regularization use in line 37 stays **deferred-by-user**. No false theorem; optional sharpness example. |
+
+**Coverage:** §§10.31, 10.98 first selected nonexcluded proof-level inspection; §13.19.3 supporting lemma only. **747** unique current ToC IDs, **zero** whole-section certifications. Existing ledger findings and statuses retained. Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss work remain **deferred-by-user**. No main/source/body/registry/permanent tag/site/build/CI/formalization change.
+
+---
+
 ## 2026-10-28 — Morse equation-group aliases, metric completions and spectral distribution limits
 
 **Main SHA:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full report with mathematical justifications, physical lines and stable source/permanent tags](reports/2026-10-28-morse-equation-aliases-metric-gh-and-spectral-vague.md).

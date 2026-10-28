@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-28, exponential measure-order sharpness and transcendental Morse coefficient
+
+**Fresh production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting audit HEAD:** `2f3bb4465182ee0ac5c3f62b70746776895a3c25`. [Full two-finding source/tag/line-anchored report](reports/2026-10-28-exponential-measure-order-and-transcendental-morse-sharpness.md).
+
+- **POME-EXP-MEASURE-LOGRATIO-LINF-SHARP-001** — low / **verified conditional deduction**: nonzero finite non-pluripolar data with (e^mmu\le\nu\le e^Mmu) yield ordered unique exponential solutions (u-M/\lambda\le v\le u-m/\lambda); the coefficient (1/\lambda) and both signs are sharp for constant multiples. Selected §10.31.44 and §13.19.3 only; existence, domination and related analytic prerequisites remain conditional.
+- **POME-TRANS-MORSE-COEFF-N-SHARP-001** — low / **verified conditional deduction**: on ((\mathbf P^1)^n), (a=\sum h_i), (b=t h_1) gives *equality* in §10.98.2 and shows its coefficient (n) is optimal, even when (b) is made Kähler by a small perturbation. The trace/eigenvalue constants and final simultaneous-nef perturbation have been independently checked. Printed §10.98's regularization input at line 37 is **deferred-by-user**, not reopened or certified.
+- **Actual new limited coverage:** §§10.31 and 10.98, previously inventory-only. Exact anchors and conditional inputs in the report. **747** current unique ToC sections, **zero** completely certified sections. No claim of full existence proofs, project builds/tests/CI/formalization or publication. All excluded Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss tasks remain **deferred-by-user**.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-28, Morse equation aliases and metric/spectral limits
 
 **Fresh production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit HEAD:** d16eef2f0c21ce6226a5efbcd4305a6ff0a8e77f. [Exact source/tag/physical-line anchored report](reports/2026-10-28-morse-equation-aliases-metric-gh-and-spectral-vague.md).
