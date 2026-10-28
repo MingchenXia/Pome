@@ -1,3 +1,12 @@
+# Latest mathematical-audit checkpoint — 2026-10-28, non-Delzant toric cone and intrinsic almost-complex torsion
+
+**Reviewed current main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting audit HEAD:** `59a8c1afae4ef4f6e5ae7a3be5342c6b4e3aa02f`. [Pinned theorem tags, physical lines, and complete algebraic checks](reports/2026-10-28-nondelzant-quadric-and-almost-complex-torsion.md).
+
+- **POME-TORIC-NONDELZANT-QUADRIC-CONE-001** — low / **verified conditional deduction**, not a false theorem: the non-Delzant integral triangle `conv{(0,0),(2,0),(0,1)}` produces the projective quadric cone `Z0 Z2=Z1²`, singular at its non-unimodular vertex. Thus the smooth-polytope hypothesis in §21.8.3 is genuinely necessary for smooth affine vertex charts. Older toric reference-cycle findings are unchanged.
+- **POME-ALMOSTCOMPLEX-TORSION-BRACKET-001** — low / **verified conditional deduction**, not a false theorem: the explicit distribution `T^{1,0}=span{∂z1, ∂z2+z1∂bar z1}` has bracket `∂bar z1`, tests the minus sign of the torsion correction in Eq. 9.53.3 and shows `(d'')² z1` is a nonzero `(0,2)` form. The formally integrable hypothesis in Eq. 9.53.4 cannot be omitted.
+- **Actual scope:** incremental selected nonexcluded statement/proof and countermodel checks in §§21.8 and 9.53, both already partially reviewed; not new first-section counts and not full certifications. The current chapter ToC contains 747 distinct numbered sections; **zero** completely certified. No source, main, canonicalization, registry, tag, website, CI, build or formalization edits. All Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss programme notes remain **deferred-by-user**.
+
+---
 # Latest mathematical-audit checkpoint — 2026-10-28, cone-adapted multiplicity and Jensen equation alias
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit HEAD:** 4264019bb6a9cbee7d007d53542f0bf2e1861aa6. [Exact integrated file paths, permanent tags, physical lines and proofs](reports/2026-10-28-cone-adapted-projections-and-jensen-equation-alias.md).
