@@ -1,3 +1,14 @@
+# Latest mathematical audit checkpoint — 2026-10-28: finite Dolbeault traces, exact blowup jets and the projective dimension bound
+
+**Reviewed current main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>; **starting audit HEAD:** <code>5aa4f41894c9c26fba96e433aaa68783245c4ec2</code>. [Complete three-finding source/tag/physical-line report](reports/2026-10-28-finite-dolbeault-trace-point-jets-and-projection-dimension.md).
+
+- **POME-FINITE-DOLBEAULT-TRACE-SPLIT-001** — low / **verified conditional deduction**: the current-valued left inverse of the correct §10.91.1 modification injection extends to every surjective proper generically finite holomorphic map of positive degree \(d\), with the exact normalized transfer \(d^{-1}f_*\). Branch loci have measure zero; bundle-valued smooth/current Dolbeault comparison is a stated, unrecertified input.
+- **POME-BLOWUP-POINT-JET-H1-OPTIMAL-001** — low / **verified conditional deduction**: on the one-point blowup of \(\mathbb P^2\), \(h^1(kH-mE)=\binom{m+1}{2}-\binom{\min(k,m-1)+2}{2}\) for all \(m\ge1,k\ge0\), giving the **exact** threshold \(k\ge m-1\). This verifies that the linear order in correct Proposition 10.41.1 cannot be uniformly reduced to sublinear growth.
+- **POME-EMBEDDING-DIMENSION-GENUS2-001** — low / **verified conditional deduction**: a genus-two curve admits no embedding into \(\mathbb P^2\), whereas Theorem 10.41.2 embeds it into \(\mathbb P^3\); the universal \(2n+1\) bound is optimal for \(n=1\), without claiming sharpness in all dimensions.
+- **Actual coverage:** first targeted proof pass in previously inventory-only **§10.41**; incremental §10.91.1 (already sampled 2026-10-27), and contextual §10.43.11/§10.87.1 only. Fresh ToC count **25 chapters / 747 sections**, **zero** whole sections certified. All dedicated Demailly approximation/regularization and Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss projects retain **deferred-by-user** status. No main/source/registry/tag/website/build/CI/formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-28: nodal cycle stalks and arbitrary convex intersection closure
 
 **Reviewed current main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit branch HEAD:** `761432437250660fe278ee086c041a8a0b30600a`. [Detailed two-finding report](reports/2026-10-28-nodal-cycle-stalks-and-convex-interior-closure.md).
