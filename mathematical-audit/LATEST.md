@@ -1,3 +1,13 @@
+# Latest mathematical-audit checkpoint — 2026-10-28, infinitely near divisors and analytic-ideal thresholds
+
+**Reviewed `main`:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting audit HEAD:** `74ed8e9ada205ba2f214facc675dcd52c2a87669`. [Exact source/tag/physical-line anchored proof report](reports/2026-10-28-infinitely-near-lelong-and-analytic-ideal-thresholds.md).
+
+- **POME-LELONG-INFINITELY-NEAR-JUMP-001** — low / **verified conditional deduction**: for \(\log(|x|^2+|y|^4)\), point Lelong and first exceptional generic Lelong are \(1\), but the exceptional divisor of a second blowup at a special point has generic Lelong \(2\). Distinct divisorial valuations must not be canonicalized merely by their center. §5.16.11 model-independence wording also needs an explicit common-resolution comparison step if expanded; its statement is correct.
+- **POME-ANALYTIC-IINF-MULTIPLIER-GAP-001** — low / **verified conditional deduction**: the analytic weight \(\log(|x|^4+|y|^6)\) on a bidisc has \(\mathcal I=(x,y)\) but \(\mathcal I_\infty=(x^2,xy^2,y^3)\). Full elementary weighted-integrability and uniform-dominance threshold proofs are in the report. No false printed theorem or completed global analytic input.
+- **Actual new coverage:** selected nonexcluded statements/proof fragments of §§5.16 and 5.18, which were previously only inventoried; 747 unique ToC sections retained, **none fully certified**. §5.18.9–10 approximation and the entire dedicated Demailly/Bergman/L²/OT/multiscale/positivity-loss programme remain **deferred-by-user**, not reopened. No main/site/source/registry/tag/build/CI/formalization changes.
+
+---
+
 # Latest mathematical-audit checkpoint — 2026-10-28, classical collar endpoints and projective nilradical twists
 
 **Reviewed `main`:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting review HEAD:** `2f9bca2d9bf51ea9aecffca37a5b36da5189c9a1`. [Three exact source/tag/line-anchored proofs](reports/2026-10-28-classical-collar-sharp-endpoints-and-projective-nilradical-twists.md).

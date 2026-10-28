@@ -1,3 +1,16 @@
+## 2026-10-28 — infinitely near Lelong numbers and distinct analytic ideals
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting audit HEAD:** `74ed8e9ada205ba2f214facc675dcd52c2a87669`. [Complete local computations and pinned source anchors](reports/2026-10-28-infinitely-near-lelong-and-analytic-ideal-thresholds.md).
+
+| Stable finding ID | Severity / exact status | Main reading-edition sources, mathematical result, action and affected dependents |
+| --- | --- | --- |
+| **POME-LELONG-INFINITELY-NEAR-JUMP-001** | low / **verified conditional deduction**; printed statements correct | §5.16.11 `sgpt-AF4A6BE6`, tag `E9EA7799080C`, main `docs/sections/plurisubharmonic-functions--lelong-numbers-and-multiplier-ideal-sheaves/index.html` blob `2315574feb57cd6bf57c3d64e4221da2eabc3cc9`, lines **137–145**; §5.16.17 `sgpt-B8094988`, tag `C85C2748AE0B`, lines **189–196**. Explicit \(\varphi=\log(|x|^2+|y|^4)\) has \(\nu(\varphi,0)=\nu(\varphi,E_1)=1\) after first blowup, but \(\nu(\varphi,E_2)=2\) on the infinitely near divisor from the second. Distinct valuations remain separate despite shared center. Proposed optional example and common-model comparison sentence for §5.16.11 (Siu generic constancy plus permitted smooth common resolution); no theorem falsified. Affects comparison/canonicalization of divisorial Lelong data, not source tags. |
+| **POME-ANALYTIC-IINF-MULTIPLIER-GAP-001** | low / **verified conditional deduction**; printed inclusion correct | §5.18.11 `sgpt-133FCD5C` tag `99446B95B55B`, §5.18.12 `sgpt-FA864488` tag `D9F25876A735`, main `docs/sections/plurisubharmonic-functions--analytic-singularities/index.html` blob `877d567c35ff3e75a0c1c874be251d75bf9f4927`, lines **124–155**. At the origin for \(\psi=\log(|x|^4+|y|^6)\), radial integration gives \(\mathcal I(\psi)=(x,y)\) whereas direct dominance gives \(\mathcal I_\infty(\psi)=(x^2,xy^2,y^3)\), a strict inclusion for a finite-generated analytic singularity. Proposed optional local example; preserve the two distinct ideal functors and their labels. No global log-resolution/coherence or approximation proof certified. |
+
+**Coverage and status:** two prior inventory-only rows moved to precisely selected §5.16 and §5.18 passages, **not** whole-section verification. **747** unique numbered sections remain; **zero** completely certified. All historical confirmed, open and deferred items retain their statuses. Demailly approximation/regularization, and dedicated Bergman/L²/OT/multiscale/positivity-loss completion remain **deferred-by-user**. No production/main/source/registry/tag/site/CI/build/formalization edits.
+
+---
+
 ## 2026-10-28 — classical collar sharpness and two distinct projective nilradical gluings
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting audit HEAD:** `2f9bca2d9bf51ea9aecffca37a5b36da5189c9a1`. [Full source-anchored report](reports/2026-10-28-classical-collar-sharp-endpoints-and-projective-nilradical-twists.md).
