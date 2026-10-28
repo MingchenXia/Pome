@@ -1,3 +1,14 @@
+# Latest mathematical audit checkpoint — 2026-10-28: directional torus, sharp jet order and two equation aliases
+
+**Reviewed current main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit HEAD:** d8e5ca08d6218c1ece22e7c89236661ee672ab92. [Complete three-finding source/tag/physical-line report](reports/2026-10-28-directional-torus-jet-threshold-and-equation-alias.md).
+
+- **POME-DIRECTIONAL-EQ-ALIAS-NESTED-001** — medium / **confirmed error (reading-edition integration only)**: in §6.37, complete (6.37.6–7) occur inside Theorem 6.37.5, but separate retained-tag chunks F71249678342/B7F196B96D6D at line 128 and both tag pages show isolated terminal equalities, with invalid nested aligned/align markup. This is a **distinct two-tag manifestation** of the previously documented §6.36 alias-export defect; not a false theorem and not a new mathematical duplication. Keep the source tags; propose canonical complete-equation rendering.
+- **POME-DIRECTIONAL-JET-THRESHOLD-SHARP-001** — low / **verified conditional deduction**: Cor. 6.39.13's condition (k+1) min(lambda) >= max(lambda) is essential for uniform k-jet invariance. On the line z1=0, coordinate systems (z1,z2) and (z1+z2^(k+1),z2) share k-jets but yield generalized numbers k+2 and k+1 for weights (1,k+2). Original corollary **correct**.
+- **POME-DIRECTIONAL-TORUS-BINOMIAL-GAP-001** — low / **verified conditional deduction**: V=log|z1^m+z2^b|^2 has exact weighted-torus mean r min(m/lambda1,b/lambda2), supremum 2 log(A+B), and a sharp within-family mean–supremum defect at most 2 log 2, including equality on resonant slopes. Directional-number identification remains conditional on the printed theorem.
+- **Actual new coverage:** selected, nonexcluded pieces of previously inventory-only §§6.37 and 6.39; §6.34/§6.36 only as existing conditional inputs. Main-aligned ToC inventory remains 25 chapters / 747 sections, **zero** whole sections certified. All Demailly approximation/regularization and its dedicated Bergman/L2/Ohsawa–Takegoshi/multiscale/positivity-loss programmes remain **deferred-by-user**. No main/source/registry/permanent-tag/website edits, tests, builds, CI or formalization.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-28: finite Dolbeault traces, exact blowup jets and the projective dimension bound
 
 **Reviewed current main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>; **starting audit HEAD:** <code>5aa4f41894c9c26fba96e433aaa68783245c4ec2</code>. [Complete three-finding source/tag/physical-line report](reports/2026-10-28-finite-dolbeault-trace-point-jets-and-projection-dimension.md).
