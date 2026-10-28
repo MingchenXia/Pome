@@ -1,3 +1,14 @@
+# Latest mathematical-audit checkpoint — 2026-10-28, classical collar endpoints and projective nilradical twists
+
+**Reviewed \`main\`:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Starting review HEAD:** \`2f9bca2d9bf51ea9aecffca37a5b36da5189c9a1\`. [Three exact source/tag/line-anchored proofs](reports/2026-10-28-classical-collar-sharp-endpoints-and-projective-nilradical-twists.md).
+
+- **POME-COLLAR-WEIGHT-TOP-ENDPOINT-001**, low / **verified conditional deduction**: Corollary 7.31.3's \(q\le n-1\) is sharp. On the complex ball with \(u_j=V=\log|z|^2\), all boundaries avoid the isolated pole; the \(q<n\) trace has integrable logarithmic weight, but the **classical** top product is \(\delta_0\) and cannot integrate \(V\). Conditionally, permitted \(q<n\) traces charge no complete pluripolar set defined by an ambient psh function.
+- **POME-COLLAR-ANALYTIC-LOCUS-DIM-ENDPOINT-001**, low / **verified conditional deduction**: for \(1\le p<n\), the current \(T=[\{z_{p+1}=\cdots=z_n=0\}]\) and \(u=\log|z_{p+1}|^2\) prove the analytic-pole-locus threshold \(\dim A\le p-1\) in §7.31.4 is optimal.
+- **POME-PROJ-NILRADICAL-GLUING-TWIST-001**, low / **verified conditional deduction**: two allowed nonreduced graded Proj constructions have the same reduced \(\mathbb P^1\), but nilradicals \(\mathcal O(-1)\) and \(\mathcal O\), respectively, and are not isomorphic; preserve distinct nonreduced structures in §9.59/9.60.
+- **Actual scope:** first selected nonexcluded §7.31 non-smoothing passages; increment in historically selected §9.59 and §9.60.1 context. **747** unique ToC section IDs retained, **zero** whole sections certified. All prior issue statuses unchanged. §7.31.1 smoothing and the entire dedicated Demailly/Bergman/L²/OT/multiscale/positivity-loss programme remain **deferred-by-user**. No source/main/registry/tag/site/CI/build/formalization modifications.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-28, elliptic Hodge families and real de Rham closed range
 
 **Current main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting audit HEAD:** `6086d6374afc442a6ba5dfed05ef182301b544b1`. [Dated source/tag/line-anchored proof report](reports/2026-10-28-hodge-family-semicontinuity-and-real-derham-closed-range.md).
