@@ -1,3 +1,17 @@
+## 2026-10-29 — torsion-free Hartogs extension and all-fiber disintegration
+
+**Reviewed main** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. Full English anchored proof: [reports/2026-10-29-hartogs-torsionfree-and-fiber-disintegration.md](reports/2026-10-29-hartogs-torsionfree-and-fiber-disintegration.md). Three **low-severity / verified conditional deductions**; all original printed assertions correct, no old issue closed, and no complete upstream proof chain certified.
+
+| Stable finding ID | Severity / status | Exact integrated anchor, mathematical conclusion and action |
+| --- | --- | --- |
+| **POME-HARTOGS-TORSIONFREE-SATURATION-001** | low / **verified conditional deduction** | §9.72.1, `docs/sections/projective-hartogs-extension/index.html` main blob `3191443b49a20377356f519b5e98ec29259f1c7c`, source `cao-paun-foliations:FF53288F`, tag `0A2146B324EB`, lines 9, 14–18: reflexivity may be weakened to torsion-free ambient coherent sheaves; kernel-of-holomorphic-matrix proof, nonreflexive `(z,w)⊕O` test, saturated quotient `(z,w²)`. Meromorphic Hartogs remains conditional; optional remark after printed correct lemma. |
+| **POME-FIBER-BOREL-DISINTEGRATION-001** | low / **verified conditional deduction** | §13.6.1/Eq.13.6.2, `docs/sections/non-pluripolar-products--fiber-integration-and-modifications/index.html`, main blob `9954a43d90d5cae8ef744968636d7a5912348fce`, source `foundations-of-pluripotential-theory:BAE2819F`, tags `BEC54934FC2C`, `F6B4982710D8`, lines 11–30: the proof extends its fiber formula to **any bounded Borel weight**, by monotone cutoffs and signed decompositions. §§13.4–13.5 inputs conditional; optionally publish as separate corollary. |
+| **POME-FIBER-ALL-SLICES-LOWER-BOUND-001** | low / **verified conditional deduction** | Same §13.6.1 tag/blob, statement line 15/proof line 26: on `P¹×P¹`, `W=p_Z^*log||s||²` is joint `Θ`-psh and satisfies `W≤Φ`, but the divisor fiber has `W_z≡-∞`. Lower domination cannot be deleted if the conclusion claims **every** slice exists. Printed two-sided theorem intact; optional sharpness example. |
+
+**Coverage:** new selected argument-level increments §§9.72.1 and 13.6.1, §13.6.3 statement only; previously inventory-only overview §§9.57 and 10.83 navigation/orientation only. No whole section certified. Original **25 / 747 / 0** matrix and all prior unresolved/deferred findings retained. Dedicated Demailly approximation/regularization/Bergman/L²/OT/multiscale/positivity-loss remain **deferred-by-user**. No production source, body, registry, tag, site, test, build or CI mutation.
+
+---
+
 ## 2026-10-29 — effective finite fiber equations and exponential density tails
 
 **Reviewed production main** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. Full English source-tag, physical-line, hypotheses and proof report: [reports/2026-10-29-effective-fiber-equations-and-exponential-lp-tails.md](reports/2026-10-29-effective-fiber-equations-and-exponential-lp-tails.md). Two new low-severity **verified conditional deductions**; neither is a false theorem, a closed dependency, nor a complete-section certification.

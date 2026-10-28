@@ -1,3 +1,14 @@
+# Latest mathematical audit checkpoint — 2026-10-29: torsion-free Hartogs and all-fiber non-pluripolar disintegration
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting review HEAD:** `4e82d8059895628c7120e4007e31980b5e648a7a`. [New source/tag/blob/physical-line proof report](reports/2026-10-29-hartogs-torsionfree-and-fiber-disintegration.md).
+
+- **POME-HARTOGS-TORSIONFREE-SATURATION-001** — low / **verified conditional deduction**, §9.72.1 printed lemma correct: reflexivity of the ambient sheaf may be relaxed to torsion-freeness. Explicit `(z,w) ⊕ O` nonreflexive example; coherent kernel construction, saturated uniqueness; meromorphic Hartogs remains an identified conditional internal input.
+- **POME-FIBER-BOREL-DISINTEGRATION-001** — low / **verified conditional deduction**, §13.6.1 correct: the printed local truncation argument actually proves bounded-Borel-weight disintegration, not only weights `1` and `W-Φ`. Mass bounds and monotone truncation control the fiber integrals.
+- **POME-FIBER-ALL-SLICES-LOWER-BOUND-001** — low / **verified conditional deduction**, §13.6.1 correct: on `P¹ × P¹`, a vertical logarithmic divisor gives a joint psh potential `W ≤ Φ` whose special slice is identically `-∞`; the lower domination is necessary for **every** slice to be defined.
+- **Actual coverage:** incremental selected §§9.72.1 and 13.6.1; §13.6.3 definition/statement distinction only. Previously inventory-only index sections §§9.57, 10.83 read **orientation-only**, no mathematical proof certification. Original **25 chapters / 747 numbered ToC sections / zero complete sections certified**. All Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss work **deferred-by-user** and untouched. No main/source/site/registry/tag/build/CI/formalization modifications.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: effective fiber equations and exponential Lp tails
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit branch:** `7ce98250c3524e0d440c9fb857cf5286363dae03`. [Pinned source/tag/line-anchored proofs](reports/2026-10-29-effective-fiber-equations-and-exponential-lp-tails.md).
