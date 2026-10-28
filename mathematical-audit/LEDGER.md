@@ -1,3 +1,16 @@
+## 2026-10-28 — nodal cycle branches and convex-intersection closure
+
+**Pinned production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting audit head:** `761432437250660fe278ee086c041a8a0b30600a`. [Complete source/tag/line-anchored proofs](reports/2026-10-28-nodal-cycle-stalks-and-convex-interior-closure.md).
+
+| Stable finding | Severity / status | Exact integrated locus, justification, dependents and disposition |
+| --- | --- | --- |
+| **POME-CYCLE-NODAL-LOCAL-BRANCH-001** | low / **verified conditional deduction**, printed proposition correct | §20.6.3, source `demailly-complex-geometry:02B65FA7`, permanent tag `FD8966432506`; `docs/sections/analytic-cycles-and-cartier-cycles/index.html`, blob `d4817ac64b1365bd967d42cd474fec169f992e28`, physical lines **8, 13–37**. The globally irreducible curve `y²=x²(1+x)` has two *local* node branches `y=±x√(1+x)`; `\mathscr Z_1(C)(C)=Λ[C]`, `\mathscr Z_1(C)_0=Λ²`, restriction `[C]↦(1,1)`. Preserve branchwise cycle stalks and component gluing in §§20.5–20.6, not just global components. Optional example, **not** source correction; no original theorem false. |
+| **POME-CONVEX-INTERIOR-ANCHOR-001** | low / **verified conditional deduction**, printed lemma correct | §19.7.11 source `sgpt:76F15C30`, tag `127837115DD3`; `docs/sections/almost-semigroups/index.html`, blob `33898b2963ad0f8b7e30bf414276642f60925b74`, physical lines **173–183**. For any family of convex sets sharing one open ball, `cl(∩D_i)=∩cl(D_i)`, proved with a common convex interpolation point and separately chosen setwise approximants; existing positive-volume assumption supplies the ball. Nested bounded convex `D_j={(0,0)}∪{(x,y):|x|<1,0<y<1/j}` disproves the empty-interior extension. Optional self-contained proof for §19.7/Okounkov-body applications; earlier §19.7.9 gap unchanged. |
+
+**Precisely performed:** incremental selected (not first, not full) inspection §§20.6 and 19.7; all 25 current chapter ToC indexes enumerated, **747** distinct numbered sections, **zero** whole-section certifications. Historical findings retain statuses, especially every author-excluded Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss item **deferred-by-user**. No `main`/website/source/body/registry/permanent-tag edits, builds, CI, tests, or formalization.
+
+---
+
 ## 2026-10-28 — null-form reducibility and MRC product-cotangent bounds
 
 **Pinned main** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting review HEAD** `a75651e5fdedfb2aee64a6f344715ab19d9072ad`. [Full pinned proofs, assumptions, line anchors and dependency boundaries](reports/2026-10-28-null-reducibility-and-mrc-curve-products.md).

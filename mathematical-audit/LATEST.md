@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-28: nodal cycle stalks and arbitrary convex intersection closure
+
+**Reviewed current main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit branch HEAD:** `761432437250660fe278ee086c041a8a0b30600a`. [Detailed two-finding report](reports/2026-10-28-nodal-cycle-stalks-and-convex-interior-closure.md).
+
+- **POME-CYCLE-NODAL-LOCAL-BRANCH-001** — low / **verified conditional deduction**, not a false theorem. The globally irreducible nodal plane curve `y²=x²(1+x)` has analytic 1-cycle global module `Λ[C]` but stalk at the node `Λ[C_+]⊕Λ[C_-]`; restriction is the diagonal `[C]→(1,1)`. Correct §20.6.3 gluing/branch rule must not be canonicalized by global component counts.
+- **POME-CONVEX-INTERIOR-ANCHOR-001** — low / **verified conditional deduction**, original §19.7.11 correct. For an **arbitrary**, possibly uncountable family of convex sets sharing an open ball, closure commutes with intersection. A direct common-anchor proof avoids interchange of limits or sequential compactness; explicit nested strip-plus-origin example shows failure with nonempty but empty-interior intersection.
+- **Actual coverage:** incremental selected passages in §§20.6 and 19.7, both previously sampled; no entire section certified. Fresh count **25 chapters / 747 numbered sections**. All Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss work stays **deferred-by-user**. No main/source/body/registry/tag/site/build/CI/formalization change.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-28: null-form reducibility and MRC products over curves
 
 **Reviewed current main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting review head:** `a75651e5fdedfb2aee64a6f344715ab19d9072ad`. [Detailed two-finding source/tag/physical-line-anchored report](reports/2026-10-28-null-reducibility-and-mrc-curve-products.md).
