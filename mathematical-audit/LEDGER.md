@@ -1,3 +1,16 @@
+## 2026-10-28 — elliptic harmonic dimensions and automatic real de Rham closed ranges
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Detailed verified mathematics and exact source anchors:** [dated report](reports/2026-10-28-hodge-family-semicontinuity-and-real-derham-closed-range.md).
+
+| Stable finding ID | Severity / status | Exact source and disposition |
+| --- | --- | --- |
+| **POME-HODGE-HARMONIC-UPPER-SEMICONT-001** | low / **verified conditional deduction**; printed Hodge statements correct | §10.46.1 tag `2EE58CB34CD0` and §10.46.4 tag `BD1EEDFB2146`; main `docs/sections/hodge-theory-curvature-and-compact-vanishing--compact-hodge-theory-and-analytic-duality/index.html` blob `b7001303a35ddd5c91f40e81cfc93523e8d6b8ab`, lines 39–103,108–139. Uniform Gårding/Rellich gives upper semicontinuity of cohomology dimensions for smoothly parameterized elliptic complexes with uniform scalar principal ellipticity; $d+it\,dx$ on $S^1$ shows strict jumps. Optional family corollary; compact elliptic prerequisites conditional; affects family Hodge/Dolbeault deformations and not the truth of original results. |
+| **POME-DE-RHAM-PERIOD-CLOSED-RANGE-001** | low / **verified conditional deduction**; printed duality statement correct, real closed-range hypothesis redundant under standard de Rham comparison | §10.59.2 tag `42254A734333` and §10.59.3 tag `CFEFE5F704F2`, main `docs/sections/spectral-sequences-support-and-cup-products--integration-contraction-and-precise-duality-scope/index.html` blob `55412114272bdaf8f2b79ad36d829454862b32c9`, lines 26–63; §10.57.1 `A9627E651E13`, blob `b7aa363efc0c0104512b4291b9a0adb88e349fdb`, lines 7–25; §10.70.3 `9E4C37619D42` comparison dependency. Images of real de Rham $d$ are intersections of closed cycle-period kernels inside the closed-form space. Thus ordinary real compact/ordinary duality is with the continuous dual without extra range hypotheses; countably disjoint circles prove full algebraic dual would be too large. Smooth period-comparison compatibility not independently certified; no analogous automatic claim for holomorphic Dolbeault. Optional explanatory remark; affects interpretation of noncompact §10.59 duality, not a false statement. |
+
+**Actual new limited coverage:** §§10.46, 10.57, 10.59 only; §10.70 is a conditional input. Recounted **747** numbered ToC IDs across 25 chapter pages; **zero** whole sections certified. Historic resolved, unresolved, and user-deferred items retained unchanged. All Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss work remains **deferred-by-user** and unopened. No source/main/registry/permanent-tag/site/CI/build/formalization edits.
+
+---
+
 ## 2026-10-28 — harmonic Lefschetz norm bounds, sharp curvature thresholds, and one duplicated canonical proof
 
 **Reviewed current main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting review HEAD:** `7b3b9f87f5e66dde96194ca2b3137d300b94fe8b`. [Full pinned report, mathematical derivations, source labels, tags and exact line anchors](reports/2026-10-28-lefschetz-norm-curvature-threshold-and-duplicate-proof.md).

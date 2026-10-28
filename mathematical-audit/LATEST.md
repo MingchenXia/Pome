@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-28, elliptic Hodge families and real de Rham closed range
+
+**Current main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting audit HEAD:** `6086d6374afc442a6ba5dfed05ef182301b544b1`. [Dated source/tag/line-anchored proof report](reports/2026-10-28-hodge-family-semicontinuity-and-real-derham-closed-range.md).
+
+- **POME-HODGE-HARMONIC-UPPER-SEMICONT-001** — low / **verified conditional deduction**. For a $C^1$-continuous compact family of elliptic complexes with uniformly positive scalar Laplacian symbols, the harmonic/cohomology dimensions are upper semicontinuous. Uniform Gårding + compact $H^1\to L^2$ proves this without a general eigenvalue-continuity theorem. The flat unitary connection $d+it\,dx$ on $S^1$ exhibits a strict drop; printed §10.46 is correct.
+- **POME-DE-RHAM-PERIOD-CLOSED-RANGE-001** — low / **verified conditional deduction**. Via the standard de Rham period comparison, every ordinary real de Rham differential has closed range in the compact-open smooth Fréchet topology on a second-countable manifold; hence the *real* duality hypothesis of §10.59.3 is automatically met. The compact/ordinary pairing uses the **continuous**, not full algebraic, dual; $\coprod S^1$ gives an exact product/direct-sum distinction. The smooth-period comparison is conditional, not a new proof of §10.70.3. No assertion for arbitrary noncompact Dolbeault ranges.
+- **First selected proof-level scope:** §§10.46, 10.57, 10.59 only; §10.70.3 dependency crosscheck, not first coverage. Actual current main rendered chapter ToC re-counted: **25 chapters, 747 unique section IDs**, **zero** full sections certified. Demailly approximation/regularization and dedicated Bergman/$L^2$/OT/multiscale/positivity-loss work remains **deferred-by-user**, unopened. No original false theorem found, no project builds/tests/CI/formalization or production edits.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-28, Lefschetz norms, curvature thresholds, and duplicated proof
 
 **Fresh production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting audit HEAD:** `7b3b9f87f5e66dde96194ca2b3137d300b94fe8b`. [Detailed source/tag/physical-line anchored English report](reports/2026-10-28-lefschetz-norm-curvature-threshold-and-duplicate-proof.md).
