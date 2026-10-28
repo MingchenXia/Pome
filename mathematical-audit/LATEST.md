@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-28: nonnormal isolated Hartogs poles and maximal convex tubes
+
+**Reviewed main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>; **starting audit HEAD:** <code>8574b4195dc023866c9763a133a0138db90b5510</code>. [New complete sharpness proofs with source labels, permanent tags, and exact physical lines](reports/2026-10-28-nonnormal-hartogs-poles-and-maximal-convex-tubes.md).
+
+- **POME-HARTOGS-NORMALITY-ISOLATED-POLE-001**, low / **verified conditional deduction**: the irreducible nonnormal affine surface Spec C[s²,st,t²,s³,t³] has a meromorphic function s that is holomorphic away from its codimension-two vertex but not at the vertex. This proves normality is essential to §9.38.1 Hartogs extension and §9.38.2 purity of the meromorphic non-holomorphic-germ pole set. The **printed normal-space results are correct**.
+- **POME-BOCHNER-TUBE-CONVEX-HULL-MAXIMAL-001**, low / **verified conditional deduction**: for each point outside the convex-hull tube of an open connected real base, a separating real linear form defines a holomorphic hyperplane-reciprocal function on the original tube that cannot extend through that point. §9.39.7 is therefore optimal as the **common guaranteed** convex-tube extension, not as the maximal domain of every individual function. The printed theorem remains correct; its extension existence proof is still an upstream conditional input.
+- **Precise coverage:** new targeted model proofs as increments in **already selected §§9.38–9.39**; first **statement-level only** §18.3 hypothesis/conclusion crosscheck against §18.1.2, **no excluded proof reopened**. §9.37 heading context only. Existing **25 chapters / 747 distinct ToC sections** retained, **zero** whole sections certified. All Demailly approximation/regularization plus dedicated Bergman/L²/OT/multiscale/positivity-loss tasks retain **deferred-by-user**; no production/source/registry/tag/site/CI/build/formalization edits.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-28: local mixed residual masses and the classical/non-pluripolar split
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit HEAD:** 6d65a806d4ce26e4745b11045a94df9f782cd799. [Detailed proofs, tags, exact file blobs and physical lines](reports/2026-10-28-local-mixed-logconvexity-and-isolated-npp-discrepancy.md).

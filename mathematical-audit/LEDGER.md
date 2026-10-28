@@ -1,3 +1,16 @@
+## 2026-10-28 — irreducible nonnormal Hartogs pole and sharp Bochner tube base
+
+**Pinned main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>; **starting audit HEAD:** <code>8574b4195dc023866c9763a133a0138db90b5510</code>. [Detailed dated mathematical proof and exact integrated source/tag/physical-line anchors](reports/2026-10-28-nonnormal-hartogs-poles-and-maximal-convex-tubes.md).
+
+| Stable finding ID | Severity / status | Mathematical evidence, original locus, dependents and disposition |
+| --- | --- | --- |
+| **POME-HARTOGS-NORMALITY-ISOLATED-POLE-001** | low / **verified conditional deduction**, not a false printed theorem | §9.38.1/2, <code>demailly-complex-geometry:75A8246F / F60855BF</code>, tags <code>512196636E86 / DA978F0F96EA</code>, <code>docs/sections/normal-spaces-and-tube-continuation--continuation-on-normal-complex-spaces/index.html</code>, main blob <code>fa09a923ef076a99d638d038020ddd3b884afaa7</code>, lines 11–26/30–54. Finite monomial normalization of the irreducible nonnormal surface Spec C[s²,st,t²,s³,t³] produces meromorphic s holomorphic outside an isolated codimension-two vertex but non-holomorphic at it (tangent derivative contradiction). Shows **normality is essential**; protect §9.38.5 and analytic-model consumers from unsupported extensions. Optional sharpness example only. |
+| **POME-BOCHNER-TUBE-CONVEX-HULL-MAXIMAL-001** | low / **verified conditional deduction**, not a false printed theorem | §9.39.7, <code>demailly-complex-geometry:F7AA195B</code>, tag <code>E5EB0154B387</code>, <code>docs/sections/normal-spaces-and-tube-continuation--holomorphic-extension-from-a-connected-tube/index.html</code>, main blob <code>a94e3aa490fee004284dab37f4f6e35094bf2bfa</code>, lines 97–148. For every point outside the open convex-hull tube, strict real separation provides $F(z)=1/\ell_{\mathbb C}(z-z_0)$ holomorphic on the original tube but non-extendible through the point. Sharp **common** extension base, not maximality for each function. Conditional on printed Bochner existence theorem; relevant to §9.39.10, optional corollary. |
+
+**Actual selected scope:** new independently proved models for already sampled §§9.38–9.39; first **statement-only** §18.3 versus §18.1.2 with exact qualifying hypotheses, no proof-level certification or newly false theorem; §9.37 context only. 25 chapters / 747 ToC entries unchanged, zero completely certified sections. All earlier ledger statuses, including the entire user-excluded Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss programme, remain **deferred-by-user**. No tests/builds/CI/formalization or production edits.
+
+---
+
 ## 2026-10-28 — mixed residual masses and isolated-pole non-pluripolar contrast
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Audit starting HEAD:** 6d65a806d4ce26e4745b11045a94df9f782cd799. [Complete dated report with proof and line/source anchors](reports/2026-10-28-local-mixed-logconvexity-and-isolated-npp-discrepancy.md).
