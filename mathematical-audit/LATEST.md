@@ -1,6 +1,6 @@
 # Latest mathematical audit checkpoint — 2026-10-29: Hopf character divisors and separately smooth subharmonic peaks
 
-**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Dated proof, source/tag and physical-line anchored report](reports/2026-10-29-hopf-picard-and-separately-smooth-subharmonic-peaks.md).
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Dated proof, source/tag and physical-line anchored report](reports/2026-10-29-hopf-picard-and-separately-smooth-subharmonic-peaks.md).
 
 - **POME-HOPF-CHAR-MEROMORPHIC-SECTIONS-001** — low / **verified conditional deduction**: on a scalar Hopf surface the character bundle \(L_a\) has a nonzero meromorphic section precisely when \(a=2^m\) for some integer \(m\). Thus \(L_3\) is a holomorphic line bundle outside the image \(\operatorname{Div}\to\operatorname{Pic}\). Correct printed §20.7.3, conditional on the normal-space meromorphic Hartogs extension §9.38.5.
 - **POME-SEPARATE-SMOOTH-SUBHARM-PEAK-001** — low / **verified conditional deduction**: the published §3.7 example admits a strengthened **separately \(C^\infty\), separately subharmonic** construction with arbitrarily large diagonal peaks, still finite and not jointly USC; §3.6.1's joint upper-bound/majorant hypothesis remains indispensable. Original §3.7 and §3.6.1 correct.
