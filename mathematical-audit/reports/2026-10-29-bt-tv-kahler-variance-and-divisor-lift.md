@@ -10,33 +10,37 @@
 
 **Severity:** low. **Status:** verified conditional deduction. **Printed theorem:** correct; the failed total-variation strengthening is **not** printed. **Integrated anchor:** Theorem 7.5.8 (source Gerby key `2B1AA42A`; permanent tag `42828E3BDDFA`), including its weighted extension, in `docs/sections/bedford-taylor-products-and-local-capacity--quasi-continuity-and-convergence-in-capacity/index.html`, main blob `464778b7ca6f1a456e36b24ecb4a0c93ab6948d3`, physical lines 172–185; relevant definition of capacity convergence, permanent tag `DAD5D0809372`, lines 84–89. The normalized formula `dd^c=(i/2pi)partial bar-partial` is explicitly printed in `docs/sections/bedford-taylor-products-and-local-capacity--bounded-potentials-and-recursive-products/index.html`, main blob `18bd2395f3b76941b2c677079c09eb6accc5a9cb`, lines 82–95.
 
-**Claim and complete model calculation.** Fix `0<a<1`, `D={|z|<1}` in the complex line, and, for every positive integer `m`, let
-[
- u_m(z)=m^{-1}log(a^{2m}+|z|^{2m}),qquad
- u(z)=max{log a^2,log|z|^2}.
-]
-Each `u_m` is a *smooth* plurisubharmonic function because it is `m^{-1}log(|a^m|^2+|z^m|^2)`; `u` is a bounded continuous subharmonic maximum. The elementary inequality `max(A,B)<=A+B<=2max(A,B)` implies
-[
- 0le u_m-ule (log2)/mquad	ext{uniformly on }D.
-]
-Thus the strongest elementary convergence of potentials (uniform, hence local capacity convergence) holds, and all potentials are uniformly bounded. No pole or loss of potential mass is involved.
+**Claim and complete model calculation.** Fix \(0<a<1\), the unit disk \(D=\{|z|<1\}\subset\mathbb C\), and positive integers \(m\), and define
+\[
+ u_m(z)=\frac1m\log(a^{2m}+|z|^{2m}),\qquad
+ u(z)=\max\{\log a^2,\log|z|^2\}.
+\]
+Each \(u_m\) is a *smooth* subharmonic function (it is \(m^{-1}\log(|a^m|^2+|z^m|^2)\)); \(u\) is a continuous bounded subharmonic maximum. The elementary log-sum bound gives
+\[
+ 0\leq u_m-u\leq\frac{\log 2}{m}
+ \qquad\text{uniformly on }D.
+\]
+Thus the potentials converge uniformly, and hence in local capacity, with a uniform boundedness condition. No poles or loss of mass are involved.
 
-With the printed convention `dd^c=(1/(4pi))Delta` on the complex line, the radial Stokes formula gives
-[
- int_{|z|<R}dd^c u_m
- =rac{R u_m'(R)}2
- =rac{R^{2m}}{a^{2m}+R^{2m}},qquad 0<R<1.
-]
-In contrast, `u` is harmonic away from the circle `|z|=a`; its inward radial derivative is zero and its outward radial derivative is `2/r`. Its radial Laplacian is therefore supported on that circle and has total mass `(1/2)(a)(2/a)=1`. By rotation invariance,
-[
- dd^c u=sigma_a,
-]
-where `sigma_a` is the normalized uniform probability measure on `|z|=a`. On `D`, the smooth measure `dd^c u_m` is absolutely continuous with respect to planar Lebesgue measure, whereas `sigma_a` is supported on a Lebesgue-null circle. They are mutually singular for **every** `m`. As the total masses are `1/(1+a^{2m})` and `1`, the exact signed total-variation norm is
-[
- oxed{;|dd^c u_m-dd^c u|_{mathrm{TV}}(D)
-       =1+rac1{1+a^{2m}}longrightarrow2.;}
-]
-The same obstruction persists on every closed disk of radius `R` with `a<R<1`: its variation is `1+R^{2m}/(a^{2m}+R^{2m})	o2`. Weak convergence `dd^c u_mightharpoonup dd^c u` holds, either by uniform convergence of the potentials and the distributional continuity of `dd^c`, or by Theorem 7.5.8. The example therefore rules out **total-variation convergence**, even under uniform convergence of smooth bounded potentials, while remaining entirely compatible with the printed theorem.
+For the printed normalization \(dd^c=(1/(4\pi))\Delta\) in one complex dimension, Stokes' theorem on any circle of radius \(0<R<1\) gives
+\[
+ \int_{|z|<R}dd^c u_m
+ =\frac{R\,u_m'(R)}{2}
+ =\frac{R^{2m}}{a^{2m}+R^{2m}}.
+\]
+In contrast, \(u\) is harmonic away from the circle \(|z|=a\). Its inward radial derivative there equals zero, while its outward radial derivative equals \(2/a\). Thus \(dd^c u\) is supported on that circle and has total mass \(a(2/a)/2=1\). Rotation invariance makes it exactly the normalized arclength measure \(\sigma_a\):
+\[
+ dd^c u=\sigma_a,\qquad \sigma_a(D)=1.
+\]
+For every \(m\), the smooth measure \(dd^c u_m\) is absolutely continuous with respect to planar Lebesgue measure, whereas \(\sigma_a\) is carried by a Lebesgue-null circle; consequently the measures are mutually singular. Their masses on \(D\) are respectively \(1/(1+a^{2m})\) and \(1\). Therefore the signed-measure total-variation norm is **exactly**
+\[
+ \boxed{
+ \|dd^c u_m-dd^c u\|_{\mathrm{TV}}(D)
+ =1+\frac{1}{1+a^{2m}}\longrightarrow 2.
+ }
+\]
+The failure is local: on any disk \(B_R\Subset D\) with \(a<R<1\), this norm is \(1+R^{2m}/(a^{2m}+R^{2m})\to2\). Nevertheless \(dd^c u_m\rightharpoonup dd^c u\) weakly, either directly by distributional continuity of \(dd^c\) under uniform convergence, or by Theorem 7.5.8. Hence **uniform convergence of smooth bounded potentials does not imply total-variation convergence of their Bedford–Taylor measures**, fully consistent with the printed weak-convergence theorem.
+
 
 **Disposition and downstream relevance.** Optional one-sentence example after Theorem 7.5.8 distinguishing weak convergence of Bedford–Taylor measures from variation convergence. This matters for §§7.5–7.6, 13.7 and any attempt to replace continuous test functions by arbitrary bounded Borel tests. This model is not the prior real-current homotopy/atomic smoothing example `POME-CURRENT-HOMOTOPY-TV-GAP-001`: here the input potentials are bounded and the circle mass is generated by the Bedford–Taylor operation itself. No original theorem is false; no complete capacity proof is certified.
 
@@ -46,31 +50,35 @@ The same obstruction persists on every closed disk of radius `R` with `a<R<1`: i
 
 **Precisely additional hypothesis:** the positive Hermitian background `omega` is **closed** (Kähler), `X` is compact and connected, and smooth solutions `omega_{u_t}>0` of the normalized equation exist and vary smoothly along the smooth affine data path `F_t=F+tG`. Their existence and differentiable dependence are *conditional internal inputs*; this audit does not certify the general PDE/existence chain.
 
-**Proof.** Set `V=int_X omega^n>0`. Because `omega` is closed, every form `omega_{u_t}=omega+dd^c u_t` is closed in the same class and
-[
- int_Xomega_{u_t}^n=V.
-]
-For instance, the derivative with respect to an interpolation parameter `s` in `omega+sdd^c u_t` is `n int_X dd^c u_t wedge (omega+sdd^c u_t)^{n-1}=0` by Stokes and the closedness of the latter factor. Integrate equation (14.1.1):
-[
- V=e^{b(F_t)}int_X e^{F_t},dV,qquad
- oxed{b(F_t)=log V-logint_Xe^{F_t},dV}.
-]
-Its induced probability is `dnu_t=e^{F_t}dV/int e^{F_t}dV=omega_{u_t}^n/V`. The adjoint probability measure `mu_{u_t}` from §11.23 agrees with `nu_t` here because `L_{u_t}v` is the complex Laplacian of `v`, has zero integral against `omega_{u_t}^n` by Stokes, and the positive adjoint probability is unique under the quoted elliptic Fredholm input. Direct differentiation of the log partition function, with no derivative of an unknown probability measure necessary, yields
-[
- dot b_t=-mathbb E_{
-u_t}G,qquad
- oxed{ddot b_t=-operatorname{Var}_{
-u_t}(G)}.
-]
-Theorem 14.8.1 independently states `ddot b_t=-int tr(A_t^2)dmu_{u_t}` for affine data, `A_t=omega_{u_t}^{-1}dd^c dot u_t`. Comparing the two identities gives the exact *closed-background variance–Hessian identity*
-[
- oxed{int_Xoperatorname{tr}igl[(omega_{u_t}^{-1}dd^cdot u_t)^2igr],d
-u_t
-  =int_X(G-mathbb E_{
-u_t}G)^2,d
-u_t}.
-]
-This is valid in every complex dimension `n>=1`, and the common value is strictly positive for nonconstant smooth `G` because `nu_t` has full support. The general Hermitian case does **not** have a fixed cohomological total volume and cannot be assigned this log-partition formula.
+**Proof.** Let \(V=\int_X\omega^n>0\). Because \(d\omega=0\), each \(\omega_{u_t}=\omega+dd^c u_t\) is closed in the same cohomology class, so
+\[
+ \int_X\omega_{u_t}^n=V.
+\]
+Indeed, differentiating \(\int_X(\omega+s\,dd^c u_t)^n\) in \(s\) yields \(n\int_X dd^c u_t\wedge(\omega+s\,dd^c u_t)^{n-1}=0\) by Stokes. Integrating the equation (14.1.1), \(\omega_{u_t}^n=e^{F_t+b_t}dV\), therefore gives
+\[
+ V=e^{b_t}\int_Xe^{F_t}\,dV,\qquad
+ \boxed{b_t=\log V-\log\int_Xe^{F_t}\,dV}.
+\]
+Define the probability measure
+\[
+ d\nu_t=\frac{e^{F_t}\,dV}{\int_Xe^{F_t}\,dV}
+       =\frac{\omega_{u_t}^n}{V}.
+\]
+In this Kähler case \(\nu_t\) also equals the adjoint probability \(\mu_{u_t}\) of §11.23: the linearized operator is the complex Laplacian, it integrates to zero against \(\omega_{u_t}^n\) by Stokes, and the positive adjoint probability is unique under the stated elliptic Fredholm input. For affine \(F_t=F+tG\), direct differentiation of the log-partition formula yields
+\[
+ \dot b_t=-\mathbb E_{\nu_t}G,\qquad
+ \boxed{\ddot b_t=-\operatorname{Var}_{\nu_t}(G)}.
+\]
+Theorem 14.8.1 also states, for affine \(F_t\), that \(\ddot b_t=-\int_X\operatorname{tr}(A_t^2)d\mu_{u_t}\), with \(A_t=\omega_{u_t}^{-1}dd^c\dot u_t\). Comparison gives the exact *closed-background Hessian–variance identity*
+\[
+ \boxed{
+ \int_X\operatorname{tr}\!\left[
+  \bigl(\omega_{u_t}^{-1}dd^c\dot u_t\bigr)^2\right]\,d\nu_t
+ =\int_X\bigl(G-\mathbb E_{\nu_t}G\bigr)^2\,d\nu_t.
+ }
+\]
+This identity holds in **every complex dimension** and is strictly positive for nonconstant smooth \(G\), because \(\nu_t\) has a strictly positive smooth density. No such log-partition formula is claimed for general **nonclosed Hermitian** backgrounds, where \(\int\omega_u^n\) need not be constant.
+
 
 **Relation to historical audit.** Earlier `POME-MA-ADJOINT-STRONG-CONC-001` recorded the general Hermitian lower bound `-b'' >= Var(G)/n` and its equality in dimension one. The present *Kähler* calculation identifies exact equality `-b''=Var(G)` in **all dimensions**, with a separate proof from Stokes, and does not repeat or reclassify that earlier finding. Optional specialization after §14.8.1; affects normalization and concavity arguments in §§14.4, 14.8–14.9 and the distinction between closed and torsion backgrounds. No entire PDE section certified.
 
@@ -78,15 +86,17 @@ This is valid in every complex dimension `n>=1`, and the common value is strictl
 
 **Severity:** low. **Status:** verified conditional deduction. **Printed theorem:** correct; this is a complete *geometric example*, not a verification of its Hodge heat proof. **Integrated anchor:** Theorem 5.66.2 (source Gerby key `A0A7B853`, permanent tag `157D8E84FB8C`), `docs/sections/heat-regularization-and-pluriharmonic-lifts/index.html`, main blob `f1bc470a44f22d02d9e104070aafb5462133b7e9`, physical lines 48–53 and 85–94. The original theorem asks, for a positive real `dd^c`-closed `(1,1)` current `T` and a Kähler modification `mu:Y->X`, for a positive `dd^c`-closed lift `T_tilde` with the pulled-back **Aeppli class** and `mu_*T_tilde=T`.
 
-**Exact blow-up model and verification.** Take `X=P^2`, a point `p`, and a projective line `L` passing through `p`. Let `mu:Y=Bl_p X -> X` be the blow-up, `E=mu^{-1}(p)` its exceptional curve, and `L_tilde` the strict transform of `L`. Set `T=[L]`. It is positive and **d-closed**, so in particular `dd^cT=0`. The scheme-theoretic total transform of the line is
-[
-  mu^*L=widetilde L+E,
-]
-with coefficient **one** on `E`: in a standard blow-up chart, the line's local defining equation pulls back as `z_1=st`, and Poincaré–Lelong applied to `log|st|^2=log|s|^2+log|t|^2` gives the two integration currents with those exact multiplicities. Define
-[
- oxed{widetilde T=[widetilde L]+[E]}.
-]
-This is positive, real, and d-closed. By the first Chern/divisor current identity, `[T_tilde]_A=mu^*[T]_A`, where the equality is already equality of de Rham `(1,1)) classes. The strict transform maps generically one-to-one onto `L`, so `mu_*[L_tilde]=[L]`; for every test `(1,1)` form `alpha` on `X`, `(mu|_E)^*alpha=0` since `mu|_E` is constant, hence `mu_*[E]=0`. Therefore `mu_*T_tilde=T`, exactly as printed.
+**Exact blow-up model and verification.** Let \(X=\mathbb P^2\), choose \(p\in X\) and a projective line \(L\) through \(p\), and write \(\mu:Y=\operatorname{Bl}_p X\to X\), with exceptional curve \(E\) and strict transform \(\widetilde L\). Put \(T=[L]\), a positive and \(d\)-closed current, hence also \(dd^c\)-closed. The scheme-theoretic pullback of the line is
+\[
+ \mu^*L=\widetilde L+E.
+\]
+The exceptional multiplicity is **one**: in a standard blow-up chart the line equation pulls back as \(z_1=st\); Poincaré–Lelong applied to \(\log|st|^2=\log|s|^2+\log|t|^2\) gives exactly the two integration currents, each with coefficient one. Consequently
+\[
+ \boxed{\widetilde T=[\widetilde L]+[E]}
+\]
+is positive and \(d\)-closed and has the required pulled-back Aeppli class
+\([\widetilde T]_A=\mu^*[T]_A\). The equality follows already in de Rham cohomology from the divisor/first-Chern identity. Since \(\widetilde L\) maps generically one-to-one onto \(L\), \(\mu_*[\widetilde L]=[L]\); since \(\mu|_E\) is constant, the pullback of every \((1,1)\) test form to \(E\) is zero, so \(\mu_*[E]=0\). Thus \(\mu_*\widetilde T=T\), proving all three conditions in this explicit model.
+
 
 **Why the exceptional term matters.** `[L_tilde]` alone remains positive and has the same pushforward, but its class is `mu^*c_1(O(1))-[E]`, not the desired pullback class. The class `[E]` is genuinely nonzero, detected by `E^2=-1` (equivalently, `O_E(E)=O_{P^1}(-1)`). Thus positivity and pushforward equality **alone** cannot replace the Aeppli-class requirement: the exceptional coefficient is essential in this concrete model.
 
