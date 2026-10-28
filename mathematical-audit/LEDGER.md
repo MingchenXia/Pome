@@ -1,3 +1,17 @@
+## 2026-10-29 — Hopf divisor image, smooth separate-subharmonic peaks, and polynomial hole obstruction
+
+**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Complete proof and stable exact sources](reports/2026-10-29-hopf-picard-and-separately-smooth-subharmonic-peaks.md).
+
+| Stable ID | Severity / status | Exact evidence, correction and dependents |
+| --- | --- | --- |
+| **POME-HOPF-CHAR-MEROMORPHIC-SECTIONS-001** | low / **verified conditional deduction**; printed §20.7.3 correct | Source \`demailly-complex-geometry:00A05C89\` §20.7.3 tag \`ACC6D09EDDD9\`, \`docs/sections/meromorphic-sections-and-divisor-classes/index.html\` blob \`d0c40d1e3f6f515eb13169ed1cd3fb447ca161c8\` lines 12–28; normal meromorphic Hartogs §9.38.5 tag \`F35BA7139EC4\` conditional. Scalar-Hopf \(L_a\) has nonzero meromorphic sections iff \(a\in2^\mathbb Z\); \(L_3\) witnesses non-surjectivity of divisor-to-Picard. Optional example after §20.7.3; protect arbitrary line-bundle versus Cartier/b-divisor distinctions; earlier elliptic-degree-zero finding unchanged. |
+| **POME-SEPARATE-SMOOTH-SUBHARM-PEAK-001** | low / **verified conditional deduction**; printed example/theorem correct | Source \`klimek-pluripotential-theory:01560C0B\` §3.7.1 tag \`6D285B395FD0\`, and untagged §3.7 example lines 21–36 in \`docs/sections/polynomial-approximation-and-a-separate-subharmonic-example/index.html\` blob \`a4a17c61ef30efb6fc6e20f105baeca052bbed43\`. Smooth convex flat cutoff creates finite separately smooth/subharmonic \(F\) with arbitrary diagonal peaks, not jointly USC. §3.6.1 tag \`58AAF98CC15E\` blob \`1d3c9ebe0d7093f0f069dc2b25b0a47f700f907a\` lines 7–35; optional strengthened example preserving original. |
+| **POME-POLY-CONNECTED-COMPLEMENT-NECESSITY-001** | low / **verified conditional deduction**; printed proposition correct | §3.7.1 same source/blob/tag lines 7–19. If \(\mathbb C\setminus K\) has bounded component \(H\), \(f=(z-a)^{-1}\), \(a\in H\), is impossible to approximate polynomially: maximum modulus applied to \((z-a)p_n-1\) forces \(1\le o(1)\). Optional converse. Applicable to connected-complement requirement in the subsequent §3.7 interpolation. |
+
+**Exact coverage:** §3.7 newly selected proof level, §3.6 deeper selected check, §20.7 incremental; §9.38.5 and §23.1 context only. **25 chapters / 747 ToC sections / zero entire-section certifications**. Every prior confirmed error, proof gap, external input, genuine duplication and **deferred-by-user** item retains its status. Excluded Demailly/Bergman/L²/OT/multiscale/positivity-loss work untouched; no main/site/source/registry/tag/build/CI changes.
+
+---
+
 ## 2026-10-29 — Hessian parametric linear response and uncountable ordinary-type fibers
 
 **Pinned main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Exact current integrated proofs, source IDs, permanent tags, physical line anchors, hypotheses and outstanding dependencies](reports/2026-10-29-hessian-linear-response-and-envelope-nonseparation.md). Neither result is an error in the printed theorem; earlier findings and statuses remain unchanged.
