@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-29: effective fiber equations and exponential Lp tails
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **starting audit branch:** \`7ce98250c3524e0d440c9fb857cf5286363dae03\`. [Pinned source/tag/line-anchored proofs](reports/2026-10-29-effective-fiber-equations-and-exponential-lp-tails.md).
+
+- **POME-FINITE-PROJECTION-BOUNDED-EQUATIONS-001** — low / **verified conditional deduction**, not a false theorem: in the exact linear-cone, proper finite-projection setting of §9.61.4 with generic degree \`d\`, vertical dimension \`q≥1\`, \`d(q-1)+1\` fixed moment-curve fiber equations of total degree at most \`d\` cut out the analytic set *set-theoretically*. The direction bound is sharp for this fixed method (explicit finite-fiber obstruction).
+- **POME-EXPONENTIAL-LP-TAIL-RATE-001** — low / **verified conditional deduction**, not a false theorem: §15.17.3's λ-exponential density convergence admits an exact \`L^p\` tail bound, with conditional \`O(λ)\` under \`(B-V_θ)f∈L^p\`. A normalized local log-pole example demonstrates **no universal positive power rate** under only envelope domination and \`f∈L^p\`; it is **not** a counterexample to PDE solutions.
+- **Actual coverage:** incremental §9.61.4 and first selected nonexcluded §15.17.3–4, §15.16.5/§15.17.1 statements and §9.61.2 contextual only. Original **25 chapters / 747 numbered sections / zero whole-section certifications** retained; the proof of §15.17.1 and all dedicated Demailly approximation/regularization, Bergman/L²/OT/multiscale/positivity-loss programmes remain **deferred-by-user** and were not inspected. No main/source/site/CI/build/formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: polar boundary spike and A1 Remmert reduction
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **audit starting HEAD:** `558b2abca69b5f2e2d118a0cbcb03478bf7413f4`. [Exact pinned source/tag/line proof report](reports/2026-10-29-polar-boundary-spike-and-cotorsor-remmert.md).
