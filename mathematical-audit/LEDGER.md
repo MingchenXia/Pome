@@ -1,3 +1,15 @@
+## 2026-10-28 — non-Delzant quadric cone and the almost-complex torsion sign
+
+**Pinned main** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **audit starting HEAD** `59a8c1afae4ef4f6e5ae7a3be5342c6b4e3aa02f`. [Full exact source/tag/line-anchored proofs](reports/2026-10-28-nondelzant-quadric-and-almost-complex-torsion.md).
+
+| Stable ID | Severity and status | Integrated source, mathematical justification, affected dependents and proposed action |
+| --- | --- | --- |
+| **POME-TORIC-NONDELZANT-QUADRIC-CONE-001** | low / **verified conditional deduction**, printed Thm 21.8.3 correct | §21.8.1 source `foundations-of-pluripotential-theory:5FF56EB5`, tag `E11C7A4F96AC`, and §21.8.3 source `foundations-of-pluripotential-theory:0F7315B0`, tag `E49F0370E203`; `docs/sections/convex-analysis-and-toric-potentials--smooth-lattice-polytopes-and-projective-charts/index.html`, blob `f442a7b663689b97a9b89689b8b7ae8b366a53fe`, physical lines **10–15, 107–132**. Triangle with vertices `(0,0),(2,0),(0,1)` has index-two primitive directions at `(0,1)`; toric image `[1:x:x²:y]` closes to quadric `Z0Z2=Z1²`, singular at `[0:0:0:1]` (Jacobian zero). Smoothness cannot be dropped in the vertex-chart conclusion. Optional caution/example after §21.8.1; affects §§21.8–21.9, not the separate already-recorded `POME-TOR-CHART-XREF-CYCLE-001` proof-reference issue. |
+| **POME-ALMOSTCOMPLEX-TORSION-BRACKET-001** | low / **verified conditional deduction**, printed Prop 9.53.2 correct | §9.53.2 source `demailly-complex-geometry:EF13FDD7`, tag `7D9D38C5DA0E`, Eq 9.53.3 source `DAF605C6`, tag `A64B66D1EDF0`, Eq 9.53.4 source `2F4BFF1E`, tag `3BE881B07623`. `docs/sections/formal-integrability-and-smooth-complex-coordinates/index.html`, blob `218b71104a05350a9bb37b63c64638efecbd1e42`, physical lines **10–42**. On C² the globally complementary frame `X=∂z1, Y=∂z2+z1∂bar z1` yields `[X,Y]=∂bar z1`; `d(dbar z1-z1 dz2)=-dz1∧dz2` tests the torsion **minus sign**, and `(d'')²z1=(dbar z1-z1 dz2)∧dbar z2≠0`. Optional first-order warning; affects use of bicomplex identities without formal integrability. No weighted L²/analytic coordinate-construction programme examined. |
+
+**Coverage:** new explicit countermodels for previously selected/contextual §§21.8 and 9.53 (no first-section promotions). Earlier confirmed integration errors, existing toric reference-cycle and all proof-gap/candidate/conditional/external entries retain prior statuses. **747** distinct current chapter-ToC sections; **zero** complete sections certified. Excluded Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss tasks remain **deferred-by-user**, neither solved nor reopened. No build, test, CI, formalization, source/body/registry/tag/main/site write, PR merge or publication.
+
+---
 ## 2026-10-28 — cone-adapted analytic density versus finite-projection degree, and Jensen alias rendering
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting review HEAD:** 4264019bb6a9cbee7d007d53542f0bf2e1861aa6. [Detailed pinned mathematics, stable source labels, tags and lines](reports/2026-10-28-cone-adapted-projections-and-jensen-equation-alias.md).
