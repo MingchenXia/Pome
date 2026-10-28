@@ -1,6 +1,6 @@
 # Latest mathematical-audit checkpoint — 2026-10-28, classical collar endpoints and projective nilradical twists
 
-**Reviewed \`main\`:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Starting review HEAD:** \`2f9bca2d9bf51ea9aecffca37a5b36da5189c9a1\`. [Three exact source/tag/line-anchored proofs](reports/2026-10-28-classical-collar-sharp-endpoints-and-projective-nilradical-twists.md).
+**Reviewed `main`:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting review HEAD:** `2f9bca2d9bf51ea9aecffca37a5b36da5189c9a1`. [Three exact source/tag/line-anchored proofs](reports/2026-10-28-classical-collar-sharp-endpoints-and-projective-nilradical-twists.md).
 
 - **POME-COLLAR-WEIGHT-TOP-ENDPOINT-001**, low / **verified conditional deduction**: Corollary 7.31.3's \(q\le n-1\) is sharp. On the complex ball with \(u_j=V=\log|z|^2\), all boundaries avoid the isolated pole; the \(q<n\) trace has integrable logarithmic weight, but the **classical** top product is \(\delta_0\) and cannot integrate \(V\). Conditionally, permitted \(q<n\) traces charge no complete pluripolar set defined by an ambient psh function.
 - **POME-COLLAR-ANALYTIC-LOCUS-DIM-ENDPOINT-001**, low / **verified conditional deduction**: for \(1\le p<n\), the current \(T=[\{z_{p+1}=\cdots=z_n=0\}]\) and \(u=\log|z_{p+1}|^2\) prove the analytic-pole-locus threshold \(\dim A\le p-1\) in §7.31.4 is optimal.
