@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-29: polar boundary spike and A1 Remmert reduction
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **audit starting HEAD:** `558b2abca69b5f2e2d118a0cbcb03478bf7413f4`. [Exact pinned source/tag/line proof report](reports/2026-10-29-polar-boundary-spike-and-cotorsor-remmert.md).
+
+- **POME-PLANAR-GREEN-POLAR-BOUNDARY-SPIKE-001** — low / **verified conditional deduction**, not a false theorem: for the **nonpolar** compact `closed unit disc ∪ {2}`, the raw logarithmic polynomial envelope is zero at 2, while its USC regularization equals `log⁺|z|` and has positive exterior boundary limit `log 2` there. Proposition 3.8.2's polar boundary exception is essential.
+- **POME-COTORSOR-A1-REMMERT-001** — low / **verified conditional deduction**, not a false theorem: the zero-ruling torsor's printed cover `C² × Tot(O_P¹(-2))` has a proper Remmert reduction to `C² × {AC=B²}`, contracting precisely its exceptional P¹ fibers; all global holomorphic functions descend. Conditional solely on the printed global cover identification, not on a new proof of its elliptic-lattice construction.
+- **Actual new scope:** selected proofs/models of §§3.8.2 and 12.33.3; earlier §§3.8.1 and 12.33.2 context only. Existing **25 chapters / 747 numbered sections / zero complete-section certifications**, no fresh full ToC recount because main unchanged. All dedicated Demailly approximation/regularization and Bergman/L²/OT/multiscale/positivity-loss programmes remain **deferred-by-user**. No production edits, build, CI or formal proof verification.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: Hopf character divisors and separately smooth subharmonic peaks
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Dated proof, source/tag and physical-line anchored report](reports/2026-10-29-hopf-picard-and-separately-smooth-subharmonic-peaks.md).

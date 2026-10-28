@@ -1,3 +1,16 @@
+## 2026-10-29 — polar Green boundary spike and cotorsor Remmert reduction
+
+**Pinned main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete proof, exact tags and physical lines](reports/2026-10-29-polar-boundary-spike-and-cotorsor-remmert.md).
+
+| Stable ID | Severity / status | Exact evidence, proposed correction and dependents |
+| --- | --- | --- |
+| **POME-PLANAR-GREEN-POLAR-BOUNDARY-SPIKE-001** | low / **verified conditional deduction**; Proposition 3.8.2 correct | `docs/sections/planar-green-functions-and-conformal-maps/index.html`, blob `bfee348bb5f4bbfaa4515e5c9333789a13dae861`, lines 53–69, source `klimek-pluripotential-theory-886FBC1A`, tag `3F05222ECC9E`. For nonpolar `K=closed D ∪ {2}`, the raw polynomial envelope has `V_K(2)=0` while `V_K^*(2)=log 2`; explicit admissible polynomials `(z−2)z^N/3`. Essential polar exception on `∂Ω`; optional example, protect Green boundary hypotheses. Does not repeat the earlier Poisson-boundary example. |
+| **POME-COTORSOR-A1-REMMERT-001** | low / **verified conditional deduction**; Proposition 12.33.3 correct in this model | `docs/sections/a-gauduchon-variational-volume--orders-of-degeneration-at-the-nef-boundary--cotangent-extensions-with-zero-ruling-component/index.html`, blob `67f63edb723e3cfd5ddb9723cc6061190e473feb`, lines 75–99, source `non-kahler-pluripotential-theory-B736897D`, tag `0414E2D53266`. Explicit `(y,ty,t²y)` contracts `Tot(O(-2))` onto normal `A₁` cone `AC=B²`; proof of properness, fibers, holomorphic-function descent via finite cover/Hartogs. Gives Remmert reduction of the **printed universal cover**; optional geometry corollary, do not conflate isomorphic graded section rings with Stein torsor geometry. Global torsor-cover identification remains conditional. |
+
+**Coverage:** first selected §3.8.2 and §12.33.3 model/proof steps only; §§3.8.1, 12.33.2 context, no complete section certified. Unchanged 25-chapter / 747-row matrix and all prior issue statuses. Dedicated excluded Demailly approximation/regularization/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss remains **deferred-by-user**. No main/source/site/body/tag/registry/CI/build/formalization edits.
+
+---
+
 ## 2026-10-29 — Hopf divisor image, smooth separate-subharmonic peaks, and polynomial hole obstruction
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete proof and stable exact sources](reports/2026-10-29-hopf-picard-and-separately-smooth-subharmonic-peaks.md).
