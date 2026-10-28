@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-28: local mixed residual masses and the classical/non-pluripolar split
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit HEAD:** 6d65a806d4ce26e4745b11045a94df9f782cd799. [Detailed proofs, tags, exact file blobs and physical lines](reports/2026-10-28-local-mixed-logconvexity-and-isolated-npp-discrepancy.md).
+
+- **POME-LOCAL-MIXED-MASS-LOGCONVEX-SHARP-001** — low / **verified conditional deduction**: for isolated analytic weights a=log(|z|^(2p)+|w|^(2q)), b=log(|z|²+|w|²) in C², the classical residual mixed atoms are (m0,m1,m2)=(1,min(p,q),pq). The local **log-convex** inequality of printed §6.51.1 is correct in this model, can be arbitrarily strict, and must not be replaced by global cohomological log-concavity.
+- **POME-ZERO-LELONG-CLASSICAL-NPP-SPLIT-001** — low / **verified conditional deduction**: the explicit isolated weights U_n in printed §6.50.11/.14 satisfy (dd^c U_n)^n_classical=δ0 with ν(U_n,0)=0, while the Definition 13.11.1 non-pluripolar top product is identically zero. Every restricted truncated product vanishes already at finite cutoff; this contrast requires no problematic limit interchange. The upstream classical mass construction remains conditional, not independently certified here.
+- **Exact coverage:** first selected nonexcluded proof and statement passages in previously inventory-only §§6.50 and 6.51; incremental Definition 13.11.1; §6.49 dependency context only. The original **25 chapters / 747 distinct section IDs** remain in the matrix; **zero** whole sections certified. All Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss items remain **deferred-by-user**. No production/source/body/registry/site/tag changes or builds, CI, tests or formal verification.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-28: maxima of multiplier ideals and the critical Sobolev C¹ boundary
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit HEAD:** `467b09fa9df1071dd2106b9cf78f32d0529f7314`. [Detailed mathematical proofs, source tags and physical lines](reports/2026-10-28-max-ideals-and-critical-sobolev-boundary.md).

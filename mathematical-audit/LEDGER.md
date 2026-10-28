@@ -1,3 +1,16 @@
+## 2026-10-28 — mixed residual masses and isolated-pole non-pluripolar contrast
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Audit starting HEAD:** 6d65a806d4ce26e4745b11045a94df9f782cd799. [Complete dated report with proof and line/source anchors](reports/2026-10-28-local-mixed-logconvexity-and-isolated-npp-discrepancy.md).
+
+| Stable finding ID | Severity / status | Exact integrated source, justification, dependents and disposition |
+| --- | --- | --- |
+| **POME-LOCAL-MIXED-MASS-LOGCONVEX-SHARP-001** | low / **verified conditional deduction**; printed Lemma 6.51.1 correct in the model | §6.51.1, isolated-plurisubharmonic-singularities:21929182, tag BE4AE95DA940; docs/sections/radial-growth-and-residual-mass/index.html, main blob 3b7a7a2965306db7a2bde4c5f91c171bae685546, lines **11–58**. For a=log(|z|^(2p)+|w|^(2q)) and b=log(|z|²+|w|²), classical mixed residuals (m0,m1,m2)=(1,min(p,q),pq) by spherical averaging, Poincaré–Lelong and generic isolated curve intersections; m1²/(m0m2)=min/max, arbitrarily small. Affects §6.51.4 and distinctions from global mixed cohomology log-concavity. Optional model remark; conditional on standard proper intersection/averaging identification, no source edit. |
+| **POME-ZERO-LELONG-CLASSICAL-NPP-SPLIT-001** | low / **verified conditional deduction**; no printed theorem false | §6.50.11 source isolated-plurisubharmonic-singularities:5C61AE34 tag 367D36FB36A0, and §6.50.14 source :BA029FA9 tag ECF3A574075A; docs/sections/isolated-singularities-with-zero-lelong-number/index.html, blob 046c83fa3c876c8a6d98642662ded103d6c78eec, lines **134–189, 195–239**. Definition §13.11.1 source sgpt:FCFE372A tag 1A52175C3D64; docs/sections/non-pluripolar-products--the-non-pluripolar-products/index.html, blob 054a7661c855824b86eb749e211fc3da88a599de, lines **14–28**. For the printed U_n, classical top MA=δ0 and zero Lelong, whereas every restricted truncation measure 1_{U_n>-k}(dd^c max(U_n,-k))^n=0, so the non-pluripolar top product is 0. Affects §§6.50–6.51 and 13.11–13.14 plus future energy comparisons. Preserve classical versus non-pluripolar conventions; §6.50 construction/mass inputs not fully re-certified. |
+
+**Coverage:** first selected nonexcluded §§6.50–6.51, incremental §13.11.1 only, contextual §6.49; **zero** fully certified sections of **747** ToC IDs. Older ledger entries retain status; all excluded Demailly approximation/regularization/Bergman/L²/OT/multiscale/positivity-loss matters remain **deferred-by-user**. No production, source, registry, tags, website, tests, CI, or builds changed.
+
+---
+
 ## 2026-10-28 — maximum multiplier ideals and critical Sobolev endpoint
 
 **Pinned main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Audit branch starting HEAD:** `467b09fa9df1071dd2106b9cf78f32d0529f7314`. [Complete global model / coordinate calculation and original physical-line anchors](reports/2026-10-28-max-ideals-and-critical-sobolev-boundary.md).
