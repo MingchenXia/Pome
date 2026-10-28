@@ -1,3 +1,16 @@
+## 2026-10-28 — quantitative current homotopies and a nonzero spectral d2
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit branch HEAD:** 7aa546a53cb1d997f423f79cf74539ef11d92336. [Full source-anchored mathematical report](reports/2026-10-28-current-homotopy-mass-and-spectral-d2.md).
+
+| Stable finding ID | Severity / status | Exact current source, hypotheses, proof result | Proposed action, downstream relevance, and limitations |
+| --- | --- | --- | --- |
+| **POME-CURRENT-HOMOTOPY-TV-GAP-001** | low / **verified conditional deduction**; printed theorem correct | §5.54.2 source <code>demailly-complex-geometry:C92BDA92</code>, tag <code>7D93F6AD9C80</code>, §5.54.1 source <code>demailly-complex-geometry:7A345420</code>, tag <code>A748F8312A04</code>; main <code>docs/sections/real-currents-submersions-and-homotopies--global-smoothing-and-the-poincare-lemma-for-currents/index.html</code> blob <code>597a770e3f087693b98968c6e5fcf8bcd9ca0841</code>, lines 10–35, 40–57, 59–65, 80–81. Finite-mass degree-q currents satisfy M(K_eps T) <= C eps M(T). For an atomic 1-current, M(K_eps delta_y)=psi(y) eps int abs(v)rho(v)dv but TV(R_eps delta_y-delta_y)=2. | Optional precise mass-topology remark, useful for downstream current/de Rham comparisons. No full §5.54 certification, no verification of smoothing construction beyond the isolated homotopy identity and mass tests; certainly no user-excluded psh approximation/regularization programme. |
+| **POME-SPECTRAL-D2-ZIGZAG-001** | low / **verified conditional deduction**; printed theorem correct | §10.54.2 source <code>demailly-complex-geometry:311B37F9</code>, tag <code>E83B7568FE4B</code>; main <code>docs/sections/spectral-sequences-support-and-cup-products--filtered-complexes-and-spectral-sequences/index.html</code> blob <code>2d26dcf0ea764f1d8823bae057dc951063053a50</code>, lines 17–58. Context §10.55.2 tag <code>D461C5DFED48</code>, <code>docs/sections/spectral-sequences-support-and-cup-products--hypercohomology-and-direct-image-spectral-sequences/index.html</code> blob <code>83ea6c60c0691a7e3559214e363361863f3ea2a2</code>, lines 7–16 and 38–56. Bounded 4-term zigzag: D(a)=c, D(b)=d-c; E2 nonzero at (0,1) and (2,0), d2[a]=[d], and H*(Tot)=0. | Optional algebraic example checking filtration and signs; no blanket E2-collapse claim. §10.54 previously selected in 2026-10-25 audit: incremental model only; no re-certification of all filtered-cohomology theory. |
+
+**Actual new coverage:** first targeted, independent, non-psh homotopy/mass comparison in §5.54; incremental §10.54.2 and only necessary §10.55 sign convention. The established 25-chapter / 747-row matrix is preserved; **zero** entire sections certified. Previously filed errors, proof gaps and deferred notes retain their earlier statuses. All user-excluded Demailly approximation/regularization and dedicated Bergman/L2/OT/multiscale/positivity-loss work stays **deferred-by-user**. No main/source/registry/tag/site/CI/build/formalization change.
+
+---
+
 ## 2026-10-28 — monomial Newton integrability and elliptic power-three relative embeddings
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting audit HEAD:** `3c8eab9c71d11875033be6435db7ef5e61bcf4f2`. [Detailed source/tag/physical-line report](reports/2026-10-28-monomial-newton-ideals-and-elliptic-relative-embedding.md).

@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-28: current homotopy mass topology and nonzero second spectral differential
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit branch:** 7aa546a53cb1d997f423f79cf74539ef11d92336. [Complete independently checked calculations, exact source labels/tags/blobs/lines](reports/2026-10-28-current-homotopy-mass-and-spectral-d2.md).
+
+- **POME-CURRENT-HOMOTOPY-TV-GAP-001** — low / **verified conditional deduction**, §5.54.2 correct: for compactly supported finite-mass degree-q currents the de Rham homotopy correction obeys a quantitative mass estimate M(K_eps T) <= C eps M(T). On an atomic 1-current, the bound is sharply linear in eps, while the associated smooth average remains TV-distance 2 from the atom at every eps. This is a stress test of the **real current homotopy**, not the user-excluded Demailly psh-regularization proof programme.
+- **POME-SPECTRAL-D2-ZIGZAG-001** — low / **verified conditional deduction**, §10.54.2 correct: an explicit four-term bounded double complex has two nonzero E2 terms joined by an isomorphism d2; its total complex is acyclic. The calculation independently checks the filtered representative and totalization signs without asserting E2 collapse.
+- **Exact coverage:** first selected *nonexcluded current-homotopy portion only* of previously inventory-only §5.54; incremental §10.54.2; §5.54.1 and §10.55.2 necessary context only. **25 chapters / 747 numbered sections, zero fully certified**. All Demailly approximation/regularization, dedicated Bergman/L2/OT/multiscale/positivity-loss work remains **deferred-by-user**. No body/main/source/registry/site/permanent-tag/build/CI/formalization modifications.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-28: monomial Newton multiplier ideals and sharp elliptic relative embedding
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit HEAD:** `3c8eab9c71d11875033be6435db7ef5e61bcf4f2`. [Full physical-line, source-label, permanent-tag and mathematical proofs](reports/2026-10-28-monomial-newton-ideals-and-elliptic-relative-embedding.md).
