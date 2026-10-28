@@ -1,62 +1,95 @@
 # 2026-10-28 audit: Newton polyhedra of monomial multiplier ideals and the sharp elliptic relative-embedding power
 
-**Source pinned:** Pome production `main` `b6933b772f41b45918f7e25ed1afbbb1fd892272`; audit branch starting HEAD `3c8eab9c71d11875033be6435db7ef5e61bcf4f2`. **Scope:** genuinely new direct model proofs in previously inventory-only §6.12, plus an independent sharpness proof for the previously selected §9.71. No complete section or transitive theorem-chain certification. Neither finding is an error in the printed theorem. All Demailly approximation/regularization, dedicated Bergman, weighted L², Ohsawa–Takegoshi, multiscale-atlas, and positivity-loss proof-completion tasks remain **deferred-by-user**, neither reopened nor declared resolved.
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit HEAD:** 3c8eab9c71d11875033be6435db7ef5e61bcf4f2.
+
+**Scope:** new selected §6.12 monomial model; independent incremental §9.71 elliptic-family sharpness. Neither is an error in the printed theorem. No entire section or complete dependency chain is certified. The user-excluded Demailly approximation/regularization and dedicated Bergman, weighted \(L^2\), Ohsawa–Takegoshi, multiscale-atlas and positivity-loss proof-completion tasks remain **deferred-by-user**, neither reopened nor resolved.
 
 ## POME-MONOMIAL-NEWTON-MULTIPLIER-001
 
-**Severity:** low. **Status:** verified conditional deduction (independent monomial analytic verification of a correct integrated theorem, not a proof of all cases). **Target:** Theorem **6.12.8**, original source `foundations-of-pluripotential-theory:17D7A591`, permanent reader tag `5BA222439952`; strict divisor condition Eq. **6.12.9**, source `foundations-of-pluripotential-theory:DD8A324C`, tag `2874465D0AEF`; sheaf formula Eq. **6.12.10**, source `foundations-of-pluripotential-theory:6DB88FC2`, tag `784A47900871`; Example **6.12.19**, source `foundations-of-pluripotential-theory:C4F4BAF9`, tag `B10A1F1C864B`. Current reading-edition file `docs/sections/lelong-numbers-and-multiplier-ideals--birational-change-of-variables-and-logarithmic-thresholds/index.html`, blob `5336b9d58df5b21518d7436a7c42d2d7be253340`, physical lines **137–171, 291–294**. Earlier integrability change-of-variables input is at lines 94–126. The named log-resolution is an allowed Hironaka input in the integrated proof, but is **not** needed for the model below.
+**Severity:** low. **Status:** verified conditional deduction: a complete independent analytic model, not a proof of all general cases.
 
-**Precise statement.** Let (mathfrak a=(z^{a^{(1)}},ldots,z^{a^{(s)}})subsetmathcal O_{mathbb C^n,0}) be a nonzero monomial ideal, with (a^{(j)}inmathbb N^n), (c>0), and
-[
-phi=clogBig(sum_{j=1}^s |z^{a^{(j)}}|^2Big),qquad
-P=operatorname{conv}{a^{(1)},ldots,a^{(s)}}+mathbb R_{ge0}^n.
-]
-With the project's (mathcal I(phi)={f:|f|^2e^{-phi}in L^1_{m loc}}) convention,
-[
-oxed{quadmathcal I(phi)_0
- =ig(z^b: binmathbb N^n, b+mathbf1inoperatorname{Int}_{mathbb R^n}(cP)ig).quad}
-]
-The interior is **ordinary full-dimensional interior**; the inequality on each lower supporting facet is strict. This is a direct Newton-polyhedron model for the genuine discrepancy and floor effects in Theorem 6.12.8, and is not a restatement of its general log-resolution proof.
+**Integrated anchors:** Theorem **6.12.8**, source **foundations-of-pluripotential-theory:17D7A591**, reader tag **5BA222439952**; strict divisor inequality **Eq. 6.12.9**, source **foundations-of-pluripotential-theory:DD8A324C**, tag **2874465D0AEF**; sheaf formula **Eq. 6.12.10**, source **foundations-of-pluripotential-theory:6DB88FC2**, tag **784A47900871**; Example **6.12.19**, source **foundations-of-pluripotential-theory:C4F4BAF9**, tag **B10A1F1C864B**. Exact reading-edition path: **docs/sections/lelong-numbers-and-multiplier-ideals--birational-change-of-variables-and-logarithmic-thresholds/index.html**, blob **5336b9d58df5b21518d7436a7c42d2d7be253340**, physical lines **137–171, 291–294**. Theorem 6.12.8 employs Hironaka log resolution (permitted), but the following direct model does not.
 
-**Proof without approximation or L² estimates.** Fix a sufficiently small polydisc, put (t_i=-log|z_i|^2) and integrate first over the angles. Up to bounded positive factors, the radial integrand for a monomial (z^b) is
-[
-exp{-F_b(t)},dt_1cdots dt_n,qquad
-F_b(t)=langle b+mathbf1,tangle-cmin_jlangle a^{(j)},tangle,qquad t_igg1.
-]
-Indeed, (sum_j e^{-langle a^{(j)},tangle}) lies between (e^{-min_jlangle a^{(j)},tangle}) and (s,e^{-min_jlangle a^{(j)},tangle}); the complex polar Jacobian contributes (e^{-sum_i t_i}). The continuous positively homogeneous, piecewise linear (F_b) is bounded below by a positive multiple of (|t|) on the positive cone precisely when
-[
-langle b+mathbf1,vangle>cmin_jlangle a^{(j)},vangle
-quad	ext{for every }vinmathbb R_{ge0}^nsetminus{0}.
-]
-This is equivalent, by the supporting-halfspace description of (P), to (b+mathbf1inoperatorname{Int}(cP)). If strict positivity fails on a ray, the integral diverges: for a negative value it grows exponentially along a narrow cone; for a zero value a fixed-width infinite cylinder near that ray has (F_b) uniformly bounded above (piecewise linearity gives a uniform Lipschitz constant). Such a cylinder lies inside the translated positive cone after choosing a fixed positive offset, so it has infinite volume. Thus monomial membership is **if and only if**, including the boundary case.
+**Claim and hypotheses.** Let \(\mathfrak a=(z^{a^{(1)}},\ldots,z^{a^{(s)}})\subset\mathcal O_{\mathbb C^n,0}\) be a nonzero monomial ideal, with \(a^{(j)}\in\mathbb N^n\), \(c>0\), and
+\[
+\phi=c\log\left(\sum_{j=1}^s|z^{a^{(j)}}|^2\right),
+\qquad
+P=\operatorname{conv}\{a^{(1)},\ldots,a^{(s)}\}+\mathbb R_{\ge0}^n.
+\]
+The multiplier ideal in the Pome convention \(|f|^2e^{-\phi}\in L^1_{\mathrm{loc}}\) is exactly
+\[
+\boxed{
+\mathcal I(\phi)_0
+=\big(z^b:\ b\in\mathbb N^n,\quad b+\mathbf1\in\operatorname{Int}_{\mathbb R^n}(cP)\big).
+}
+\]
+This is **ordinary full-dimensional interior** and strict inequality on all lower supporting facets, not relative interior of an individual compact face.
 
-For a general holomorphic germ (f=sum_b c_bz^b), angular orthogonality and Tonelli give the integral as a sum of nonnegative monomial radial integrals weighted by (|c_b|^2). Necessity excludes every forbidden exponent with (c_b
-eq0). Conversely the set of allowed exponents is upward closed and has finitely many minimal generators (Dickson's lemma), so an analytic germ supported entirely on allowed exponents belongs to the finitely generated corresponding monomial ideal: regroup its absolutely convergent power series according to an allowed monomial divisor, on a smaller polydisc. The ideal's finitely many generators already have locally integrable weighted squared norms, and their holomorphic coefficients are locally bounded. This proves sufficiency and the boxed ideal identity.
+**Proof (without regularization or weighted \(L^2\) arguments).** In a sufficiently small product of coordinate discs, set \(t_i=-\log|z_i|^2\), so \(t_i\ge T\). Integrating over angular variables, the radial integrand for the monomial \(z^b\), up to uniform positive multiplicative constants, is
+\[
+\exp[-F_b(t)]\,dt_1\cdots dt_n,\quad
+F_b(t)=\langle b+\mathbf1,t\rangle-c\min_{1\le j\le s}\langle a^{(j)},t\rangle.
+\]
+Indeed,
+\[
+e^{-\min_j\langle a^{(j)},t\rangle}
+\le\sum_j e^{-\langle a^{(j)},t\rangle}
+\le s\,e^{-\min_j\langle a^{(j)},t\rangle},
+\]
+and the Euclidean complex polar Jacobian contributes \(e^{-\sum_i t_i}\) times a fixed positive factor.
 
-**Endpoint check.** For (mathfrak a=(x^2,y^3)), (P={(u,v)inmathbb R_{ge0}^2:u/2+v/3ge1}), so
-[
-x^py^qinmathcal I(clog(|x|^4+|y|^6))_0
-iff rac{p+1}{2}+rac{q+1}{3}>c.
-]
-The constant is integrable exactly when (c<5/6). Thus (operatorname{lct}(mathfrak a)=5/6), with **failure at equality**; at (c=5/6) and (c=1), (mathcal I(phi)=(x,y)). This independently checks the strict (>) sign and the (+1) discrepancy shift in the printed result. Do not conflate these ideal orders with the ordinary generic Lelong number or with a dedicated Demailly approximation.
+The continuous positively homogeneous piecewise linear function \(F_b\) has a uniform strictly positive linear lower bound on the nonnegative cone if and only if
+\[
+\langle b+\mathbf1,v\rangle
+>c\min_j\langle a^{(j)},v\rangle
+\quad\text{for every }v\in\mathbb R_{\ge0}^n\setminus\{0\}.
+\]
+Compactness of the unit-direction simplex gives \(F_b(t)\ge\delta\|t\|\) for some \(\delta>0\), and therefore integrability. By the supporting-halfspace representation of the unbounded Newton polyhedron \(P\), the strict inequalities are equivalent to \(b+\mathbf1\in\operatorname{Int}(cP)\).
 
-**Dependents and proposed action:** use this exact monomial endpoint as an optional, self-contained model in §§6.12, 6.54 and 16.6 where analytic singularities and multiplier ideal jumps are compared; retain all pre-existing source and permanent tags. **No correction** of the printed Theorem 6.12.8 is indicated. The full general integrability-resolution chain is not certified by this model.
+Conversely, if \(F_b(v)<0\) for any nonzero \(v\ge0\), a narrow solid cone of radial directions gives exponential divergence. If \(F_b(v)=0\), the positive homogeneity and global Lipschitz bound on the finite piecewise linear function imply that \(F_b(sv+w)\) stays uniformly bounded above for \(s\to\infty\) and \(w\) in a sufficiently small fixed full-dimensional transverse ball centered at a positive vector. The resulting infinite cylinder eventually lies inside the shifted positive cone, has infinite Euclidean measure, and supplies divergence. Therefore the strict inequality is necessary even at the endpoint.
+
+For an arbitrary holomorphic germ \(f(z)=\sum_{b\in\mathbb N^n}c_bz^b\), angular orthogonality and Tonelli yield a nonnegative sum of monomial radial integrals \(|c_b|^2I_b\). Consequently, every exponent in the support of an integrable \(f\) must satisfy the strict Newton condition. The allowed exponents form an upward-closed subset of \(\mathbb N^n\) with finitely many minimal elements (Dickson's lemma). Regroup the absolutely convergent Taylor series of \(f\) by one of these finitely many monomial divisors, on a smaller polydisc. Thus \(f\) belongs to the corresponding finitely generated monomial ideal. Its generators have integrable weighted squared norms, and the holomorphic coefficient germs are locally bounded, so every element of that ideal is integrable. This proves the boxed equality for all holomorphic germs, not just monomial tests.
+
+**Numerical endpoint.** For \(\mathfrak a=(x^2,y^3)\) the Newton polyhedron is
+\[
+P=\{(u,v)\in\mathbb R_{\ge0}^2:u/2+v/3\ge1\},
+\]
+and
+\[
+x^py^q\in\mathcal I\big(c\log(|x|^4+|y|^6)\big)_0
+\iff\frac{p+1}{2}+\frac{q+1}{3}>c.
+\]
+The constant function is integrable precisely when \(c<5/6\): the log canonical threshold is \(5/6\), and the constant fails at equality. At both \(c=5/6\) and \(c=1\) the multiplier ideal equals \((x,y)\). This tests the printed strict \(>\) sign and the essential log-discrepancy \(+1\) shift. The published Theorem 6.12.8 and Example 6.12.19 are **correct**.
+
+**Proposed correction/action and dependents:** optional self-contained Newton monomial example for §6.12 and the §§6.54, 16.6 discussion of analytic-singularity multiplier jumps; preserve statement, historical attribution and permanent labels. No theorem-body correction, no certification of all resolutions, and no attempt to restart the deferred Demailly proof programme.
 
 ## POME-RELATIVE-ELLIPTIC-POWER-OPTIMAL-001
 
-**Severity:** low. **Status:** verified conditional deduction (sharp model, printed Lemma 9.71.1 correct). **Target:** Lemma **9.71.1**, original source `cao-paun-foliations:4BE67CB0`, permanent tag `A53CEC220C70`; `docs/sections/local-projectivity-from-relative-positivity/index.html`, blob `f17614b598855bda6fc15f266135d6fe238638cf`, physical **lines 8–11, 17–36**. The printed proof invokes Kodaira and Grauert base change (line 24), and an upstream vanishing theorem (line 18); their proof chains are **not** certified here. Internal curve Riemann–Roch is Theorem **10.78.9**, tag `7F8CC797059F`, `docs/sections/compact-curves-periods-and-complex-tori--divisors-and-riemann-roch-on-a-compact-curve/index.html`, blob `58c04d3cf4408fcdb140162e03a9052d3620610a`, physical lines **133–145**.
+**Severity:** low. **Status:** verified conditional deduction: an exact sharpness model for a correct integrated lemma.
 
-**Precise sharpness assertion.** Let (E) be a complex elliptic curve, (L) a holomorphic line bundle of degree one with smooth positive curvature, (M=E	imesDelta), (p=operatorname{pr}_Delta), and (A=operatorname{pr}_E^*L). The hypotheses of Lemma 9.71.1 hold on every fiber. The **minimum possible tensor power** in its relative embedding conclusion is (k=3). Thus replacing the printed existential (k>0) by (k=1) or even (kle2) is false, without any degeneration of the family or positivity.
+**Integrated anchors:** Lemma **9.71.1**, source **cao-paun-foliations:4BE67CB0**, tag **A53CEC220C70**; reading-edition file **docs/sections/local-projectivity-from-relative-positivity/index.html**, blob **f17614b598855bda6fc15f266135d6fe238638cf**, physical lines **8–11, 17–36**. Named internal input is Theorem **10.78.9** (Riemann–Roch for a line bundle), tag **7F8CC797059F**, **docs/sections/compact-curves-periods-and-complex-tori--divisors-and-riemann-roch-on-a-compact-curve/index.html**, blob **58c04d3cf4408fcdb140162e03a9052d3620610a**, lines **133–145**. Its complete general proof is not reaudited here.
 
-**Proof.** On an elliptic curve (K_Esimeqmathcal O_E). For (kge1), Riemann–Roch and the absence of sections of negative-degree line bundles give (h^0(E,L^k)=k), (h^1(E,L^k)=0). A morphism (E	omathbb P^N) satisfying (G^*mathcal O(1)=L^k) is defined by a basepoint-free linear subsystem of (H^0(E,L^k)); its image is contained in a projective linear subspace of dimension at most (k-1). For (k=1) the map is constant (indeed the unique degree-one section has a zero); for (k=2) its image lies in (mathbb P^1), and a compact genus-one curve cannot embed in (mathbb P^1). For (k=3), Riemann–Roch gives, for distinct (x,yin E), (h^0(L^3)=3, h^0(L^3(-x))=2, h^0(L^3(-x-y))=1, h^0(L^3(-2x))=1). These dimension drops show basepoint-freeness, separation of distinct points, and separation of tangent directions. Hence the complete linear system of (L^3) gives an embedding (Ehookrightarrowmathbb P^2). Taking its product with (operatorname{id}_Delta) is the desired closed relative embedding, and pulls back (mathcal O_{mathbb P^2}(1)) to (A^3).
+**Sharpness statement.** Let \(E\) be a compact elliptic curve and \(L\) a holomorphic line bundle of degree one with a smooth positive curvature metric. Define the proper holomorphic submersion \(p:E\times\Delta\to\Delta\) and \(A=\operatorname{pr}_E^*L\). These satisfy the printed vertical positivity assumptions. The smallest integer \(k>0\) for which a closed relative projective embedding \(G:E\times\Delta\hookrightarrow\mathbb P^N\times\Delta\) can satisfy \(G^*\mathcal O_{\mathbb P^N}(1)=A^k\) is **exactly \(k=3\)**.
 
-**Dependents and proposed action:** optional sharpness remark at §9.71.1, clarifying why a sufficiently high power is necessary even in a trivial smooth family. The existing Grauert base-change and Kodaira arguments remain distinct prerequisites; no claim of having proved the lemma in arbitrary families, and no body, source, or permanent-tag edit.
+**Proof.** Since \(K_E\simeq\mathcal O_E\), Riemann–Roch and the absence of sections of a negative-degree line bundle give, for \(k\ge1\),
+\[
+h^0(E,L^k)=k,\qquad h^1(E,L^k)=0.
+\]
+Any morphism to projective space with pullback \(\mathcal O(1)=L^k\) is defined by a basepoint-free linear subsystem of \(H^0(E,L^k)\); the image lies in a linear space of projective dimension at most \(k-1\). For \(k=1\) such an embedding is impossible (one global section vanishes at a point and gives no basepoint-free subsystem). For \(k=2\), the image lies in \(\mathbb P^1\), and a compact elliptic curve cannot embed into \(\mathbb P^1\). This remains true even when the target dimension \(N\) is arbitrarily large.
 
-## Coverage, invariants, and deferred scope
+For \(k=3\), and arbitrary distinct \(x,y\in E\), Riemann–Roch gives
+\[
+h^0(L^3)=3,\qquad
+h^0(L^3(-x))=2,\qquad
+h^0(L^3(-x-y))=1,\qquad
+h^0(L^3(-2x))=1.
+\]
+The first dimension drop gives basepoint-freeness, the second separates points, and the last separates first jets. Thus the complete linear system \(|L^3|\) embeds \(E\) as a smooth plane cubic into \(\mathbb P^2\). Taking its product with the identity of \(\Delta\) is a closed relative embedding with the asserted pullback identity. Hence the existential high-power requirement in Lemma 9.71.1 **cannot** be replaced by \(k=1\) or \(k=2\), even for a trivial family.
 
-- **New selected proof-level coverage:** §6.12, specifically Theorem 6.12.8, Eqs. 6.12.9–10, and Example 6.12.19, via a complete independent monomial model, not the whole section. The earlier §6.12.4 change-of-variables statement was read only for normalization.
-- **Incremental coverage in an already reviewed section:** §9.71.1, positive elliptic-fiber model and exact minimum power; §10.78.9 is an explicitly named internal Riemann–Roch input, **not** newly certified here.
-- **Context-only:** current §7.1 introductory Bedford–Taylor definition/normalization (physical lines 7–13, blob `41bc964bad8bf8505892c2cb3762e5cce2071ae6`), no theorem-level review and no claim of first selected proof coverage.
-- The existing **25-chapter / 747-section** actual table-of-contents matrix is preserved; **zero** complete sections or chapters certified. No other prior finding, repair, contradiction, circularity or external-input status is changed.
-- All user-excluded Demailly approximation/regularization plus dedicated Bergman/L²/OT/multiscale-atlas/positivity-loss programme remains **deferred-by-user**, not reopened or resolved. The printed §9.71 relative vanishing input is explicitly **deferred**, and Grauert base change remains a quoted external dependency. Historical attribution must be retained.
-- No mathematical source/body/canonicalization/registry/tag/published website edits; no build, CI, automated deployment, software tests, or formal verification conducted.
+**Proposed action and dependents:** an optional relative Kodaira sharpness example at §9.71, preserving the existing lemma and source tags. The full proof in families still quotes Grauert's precise proper base-change theorem and a pre-existing vanishing result: those are **not** independently proved by this model. The excluded weighted \(L^2\) proof completion is not reopened.
+
+## Actual coverage and preserved audit boundaries
+
+**First selected direct model in previously inventory-only §6.12:** Theorem 6.12.8 and its two display equations and Example 6.12.19. §6.12.4 was consulted only for change-of-variables conventions. **Incremental, not first, selected model in §9.71:** the exact elliptic-fiber power threshold. **Internal/contextual only:** §10.78.9 and §7.1's current Bedford–Taylor introductory normalization (path **docs/sections/bedford-taylor-products-and-local-capacity/index.html**, blob **41bc964bad8bf8505892c2cb3762e5cce2071ae6**, lines **7–13**). The latter is *not* counted as first theorem-proof coverage.
+
+The live table of contents retains **25 chapters and 747 numbered section rows**, with **zero** entire sections or chapters certified. Every previous confirmed error, proof gap, external dependency and conditional repair retains its status. All user-deferred Demailly approximation/regularization and dedicated Bergman, weighted \(L^2\), Ohsawa–Takegoshi, multiscale atlas and positivity-loss proof-completion work stays **deferred-by-user**. No production main, manuscript body, source repository, registry, canonicalization, permanent tags, published website, builds, software tests, GitHub Actions, or formal proofs changed.
