@@ -6,37 +6,37 @@
 
 **Status:** verified conditional deduction; **severity:** low; **printed theorem:** correct, hypothesis admits a strengthening. **Integrated source:** `docs/sections/projective-hartogs-extension/index.html`, main blob `3191443b49a20377356f519b5e98ec29259f1c7c`, Lemma **9.72.1**, original source `cao-paun-foliations:FF53288F`, permanent tag `0A2146B324EB`, statement line 9 and proof lines 14–18, especially line 17. The earlier saturation-versus-subbundle and codimension-one-essential-singularity examples remain separately registered and unchanged.
 
-**Strengthened statement.** Let (U) be a complex manifold, (A\subset U) a closed analytic set of complex codimension at least two, and (\mathcal E) **any torsion-free coherent sheaf**, not necessarily reflexive. Every saturated coherent subsheaf (\mathcal F\subset\mathcal E|_{U\setminus A}) has a unique saturated coherent extension (\widetilde{\mathcal F}\subset\mathcal E) on (U). Saturated means that the quotient is torsion-free. The original lemma asserts this for a reflexive (\mathcal E); it is therefore **true**.
+**Strengthened statement.** Let $U$ be a complex manifold, $A\subset U$ a closed analytic set of complex codimension at least two, and $\mathcal E$ **any torsion-free coherent sheaf**, not necessarily reflexive. Every saturated coherent subsheaf $\mathcal F\subset\mathcal E|_{U\setminus A}$ has a unique saturated coherent extension $\widetilde{\mathcal F}\subset\mathcal E$ on $U$. Saturated means that the quotient is torsion-free. The original lemma asserts this for a reflexive $\mathcal E$; it is therefore **true**.
 
-**Complete local argument, conditional only on the printed meromorphic Hartogs input.** Work on connected coordinate neighborhoods and write (K) for their field of meromorphic functions. Since the coherent module (\mathcal E) is torsion-free over the integral regular local analytic rings, finitely many local sections of (\mathcal E^*=​\mathcal Hom(\mathcal E,\mathcal O)) generically span its dual; their evaluation gives an **injection** (\mathcal E\hookrightarrow\mathcal O^N). The kernel has generic rank zero and is torsion, hence vanishes. The generic rank-(k) plane of (\mathcal F) defines a meromorphic Grassmannian map on (U\setminus A). By the projective meromorphic Hartogs extension of the first assertion of Lemma 9.72.1 (applied in Plücker coordinates), this (K)-plane (W\subset K^N) extends meromorphically across (A).
+**Complete local argument, conditional only on the printed meromorphic Hartogs input.** Work on connected coordinate neighborhoods and write $K$ for their field of meromorphic functions. Since the coherent module $\mathcal E$ is torsion-free over the integral regular local analytic rings, finitely many local sections of $\mathcal E^*=\mathcal{H}om(\mathcal E,\mathcal O)$ generically span its dual; their evaluation gives an **injection** $\mathcal E\hookrightarrow\mathcal O^N$. The kernel has generic rank zero and is torsion, hence vanishes. The generic rank-$k$ plane of $\mathcal F$ defines a meromorphic Grassmannian map on $U\setminus A$. By the projective meromorphic Hartogs extension of the first assertion of Lemma 9.72.1 (applied in Plücker coordinates), this $K$-plane $W\subset K^N$ extends meromorphically across $A$.
 
-Locally choose a meromorphic matrix (M:K^N\to K^{N-k}) with kernel (W). Multiplying by one nonzero holomorphic denominator gives a holomorphic matrix (B:\mathcal O^N\to\mathcal O^{N-k}), with the same generic kernel. Define
-[
+Locally choose a meromorphic matrix $M:K^N\to K^{N-k}$ with kernel $W$. Multiplying by one nonzero holomorphic denominator gives a holomorphic matrix $B:\mathcal O^N\to\mathcal O^{N-k}$, with the same generic kernel. Define
+$$
 \widetilde{\mathcal F}:=\ker(B|_{\mathcal E}:\mathcal E\to\mathcal O^{N-k})=\mathcal E\cap W.
-]
-It is coherent as a kernel of coherent sheaves. The quotient (\mathcal E/\widetilde{\mathcal F}) injects into (\mathcal O^{N-k}), hence is torsion-free; therefore the extension is saturated. Off (A), (\mathcal F) already equals (\mathcal E\cap W): any (s\in\mathcal E\cap W) maps to a torsion section of (\mathcal E/\mathcal F), which is zero. This proves agreement. Two saturated extensions with the same generic (W) are both (\mathcal E\cap W); uniqueness gives gluing. There is no reflexivity step.
+$$
+It is coherent as a kernel of coherent sheaves. The quotient $\mathcal E/\widetilde{\mathcal F}$ injects into $\mathcal O^{N-k}$, hence is torsion-free; therefore the extension is saturated. Off $A$, $\mathcal F$ already equals $\mathcal E\cap W$: any $s\in\mathcal E\cap W$ maps to a torsion section of $\mathcal E/\mathcal F$, which is zero. This proves agreement. Two saturated extensions with the same generic $W$ are both $\mathcal E\cap W$; uniqueness gives gluing. There is no reflexivity step.
 
-**Genuinely non-reflexive explicit test.** On (U=\Delta^2), with coordinates (z,w), let (\mathfrak m=(z,w)), (A=\{0\}), and (\mathcal E=\mathfrak m\oplus\mathcal O). It is torsion-free but not reflexive: (\mathcal E^{**}\simeq\mathcal O^2\neq\mathcal E). On (U\setminus A), the line sheaf generated by the column ((z,w)) is saturated in (\mathcal E|_{U\setminus A}\simeq\mathcal O^2). Its saturated extension is the same image (\mathcal O\cdot(z,w)\subset\mathfrak m\oplus\mathcal O); the morphism
-[
+**Genuinely non-reflexive explicit test.** On $U=\Delta^2$, with coordinates $(z,w)$, let $\mathfrak m=(z,w)$, $A=\{0\}$, and $\mathcal E=\mathfrak m\oplus\mathcal O$. It is torsion-free but not reflexive: $\mathcal E^{**}\simeq\mathcal O^2\neq\mathcal E$. On $U\setminus A$, the line sheaf generated by the column $(z,w)$ is saturated in $\mathcal E|_{U\setminus A}\simeq\mathcal O^2$. Its saturated extension is the same image $\mathcal O\cdot(z,w)\subset\mathfrak m\oplus\mathcal O$; the morphism
+$$
 (a,b)\longmapsto -wa+zb
-]
-identifies the quotient with the torsion-free ideal ((z,w^2)). The assertion cannot be reduced to the original reflexive-ambient case by silently replacing (\mathcal E) with (\mathcal E^{**}), because the required extension is specifically inside (\mathcal E).
+$$
+identifies the quotient with the torsion-free ideal $(z,w^2)$. The assertion cannot be reduced to the original reflexive-ambient case by silently replacing $\mathcal E$ with $\mathcal E^{**}$, because the required extension is specifically inside $\mathcal E$.
 
 **Proposed optional correction:** state the torsion-free generalization in a remark or corollary, keeping the published reflexive version and its stable tag intact. **Affected dependents:** meromorphic Grassmannian continuation, saturated foliations and sheaf extensions (§§9.72–9.75). The meromorphic Hartogs theorem is an identified **conditional internal input**, not independently certified here.
 
 ## POME-FIBER-BOREL-DISINTEGRATION-001
 
-**Status:** verified conditional deduction; **severity:** low; **printed corollary:** correct; **scope:** explicit strengthening already implicit in its proof. **Integrated source:** `docs/sections/non-pluripolar-products--fiber-integration-and-modifications/index.html`, main blob `9954a43d90d5cae8ef744968636d7a5912348fce`; Corollary **13.6.1**, source `foundations-of-pluripotential-theory:BAE2819F`, permanent tag `BEC54934FC2C`, lines 11–20; Equation **13.6.2**, tag `F6B4982710D8`, lines 16–19; original proof lines 25–30, especially arbitrary nonnegative bounded Borel (G) at line 28. Related Proposition 13.6.3 tag `0811FFDF15B7`, lines 36–55, checked for distinctions only.
+**Status:** verified conditional deduction; **severity:** low; **printed corollary:** correct; **scope:** explicit strengthening already implicit in its proof. **Integrated source:** `docs/sections/non-pluripolar-products--fiber-integration-and-modifications/index.html`, main blob `9954a43d90d5cae8ef744968636d7a5912348fce`; Corollary **13.6.1**, source `foundations-of-pluripotential-theory:BAE2819F`, permanent tag `BEC54934FC2C`, lines 11–20; Equation **13.6.2**, tag `F6B4982710D8`, lines 16–19; original proof lines 25–30, especially arbitrary nonnegative bounded Borel $G$ at line 28. Related Proposition 13.6.3 tag `0811FFDF15B7`, lines 36–55, checked for distinctions only.
 
-Retain exactly the stated hypotheses: connected compact Kähler (X^r,Z^m), smooth closed (\theta), smooth closed semipositive (\gamma), (\varphi\in\mathrm{PSH}(X,\theta)), (\Phi=p_X^*\varphi), (\Theta=p_X^*\theta+p_Z^*\gamma), and (W\in\mathrm{PSH}(X\times Z,\Theta)) satisfying (|W-\Phi|\le C). Set (T=\Theta+dd^cW), (S=\Theta+dd^c\Phi), and (T_z=\theta+dd^cW_z), (S_z=\theta+dd^c\varphi). For **every bounded Borel** (G:X\times Z\to\mathbb R), every smooth real top-degree form (\eta) on (Z), and (0\le j\le r),
-[
+Retain exactly the stated hypotheses: connected compact Kähler $X^r,Z^m$, smooth closed $\theta$, smooth closed semipositive $\gamma$, $\varphi\in\mathrm{PSH}(X,\theta)$, $\Phi=p_X^*\varphi$, $\Theta=p_X^*\theta+p_Z^*\gamma$, and $W\in\mathrm{PSH}(X\times Z,\Theta)$ satisfying $|W-\Phi|\le C$. Set $T=\Theta+dd^cW$, $S=\Theta+dd^c\Phi$, and $T_z=\theta+dd^cW_z$, $S_z=\theta+dd^c\varphi$. For **every bounded Borel** $G:X\times Z\to\mathbb R$, every smooth real top-degree form $\eta$ on $Z$, and $0\le j\le r$,
+$$
 \boxed{\displaystyle
 \int_{X\times Z}G\,p_Z^*\eta\wedge\langle T^j\wedge S^{r-j}\rangle
 =\int_Z\left(\int_XG(x,z)\,\langle T_z^j\wedge S_z^{r-j}\rangle\right)\eta(z).}
-]
-In particular, the inner integral defines a measurable, uniformly bounded function of (z) when (G) is bounded, with the mass bound depending on fixed (X,\theta) rather than the individual (W_z). Choosing (G=1) or (G=W-\Phi) recovers the two printed instances, assigning arbitrary bounded values on their common polar set.
+$$
+In particular, the inner integral defines a measurable, uniformly bounded function of $z$ when $G$ is bounded, with the mass bound depending on fixed $X,\theta$ rather than the individual $W_z$. Choosing $G=1$ or $G=W-\Phi$ recovers the two printed instances, assigning arbitrary bounded values on their common polar set.
 
-**Proof details.** In product charts introduce local psh (w=W+a+b), (v=\Phi+a+b). On (O_k=\{w>-k\}\cap\{v>-k\}), apply the **bounded** Bedford–Taylor fiber identity Lemma 13.4.5/Equation 13.4.6 to the truncations and the nonnegative Borel weight (\rho G\mathbf1_{O_k}), with (\rho\) a compactly supported chart cutoff. Plurifine locality identifies these restrictions with the non-pluripolar mixed currents, including the endpoint cases (j=0,r). The restrictions increase with (k), and the complement of their union is the common polar locus, which non-pluripolar products do not charge. Monotone convergence establishes the identity for (G\ge0) and (\eta\ge0). Uniform fiber mass bounds from Theorem 13.5.4 permit integration and ensure measurability through the Borel truncations. Decompose a bounded signed (G) into positive and negative parts and a signed smooth (\eta) into positive and negative top forms; use a finite partition of unity. **No arbitrary exchange of two unrelated limits occurs**: the (k)-truncation limit is monotone on both sides.
+**Proof details.** In product charts introduce local psh $w=W+a+b$, $v=\Phi+a+b$. On $O_k=\{w>-k\}\cap\{v>-k\}$, apply the **bounded** Bedford–Taylor fiber identity Lemma 13.4.5/Equation 13.4.6 to the truncations and the nonnegative Borel weight $\rho G\mathbf1_{O_k}$, with $\rho$ a compactly supported chart cutoff. Plurifine locality identifies these restrictions with the non-pluripolar mixed currents, including the endpoint cases $j=0,r$. The restrictions increase with $k$, and the complement of their union is the common polar locus, which non-pluripolar products do not charge. Monotone convergence establishes the identity for $G\ge0$ and $\eta\ge0$. Uniform fiber mass bounds from Theorem 13.5.4 permit integration and ensure measurability through the Borel truncations. Decompose a bounded signed $G$ into positive and negative parts and a signed smooth $\eta$ into positive and negative top forms; use a finite partition of unity. **No arbitrary exchange of two unrelated limits occurs**: the $k$-truncation limit is monotone on both sides.
 
 **Proposed optional correction:** expose the general bounded-Borel disintegration as a corollary to avoid readers assuming (13.6.2) only applies to the special energy weight. **Affected dependents:** §§13.6, 17.1 fiberwise energy, and weighted product integrals. The bounded Bedford–Taylor fiber identity and uniform mixed-mass bound are **conditional internal inputs**, not re-proved here.
 
@@ -44,15 +44,15 @@ In particular, the inner integral defines a measurable, uniformly bounded functi
 
 **Status:** verified conditional deduction; **severity:** low; **printed corollary:** correct with the stated two-sided bound. **Same exact integrated anchors as above**, especially §13.6.1 line 15 and proof line 26. This is a sharp hypothesis test, **not** a counterexample to the printed theorem.
 
-Take (X=Z=\mathbb P^1), (\theta=\omega_{FS,X}), (\gamma=\omega_{FS,Z}). Let (z_0\in Z), let (s\in H^0(Z,\mathcal O(1))) vanish precisely at (z_0), and choose the standard metric (h) with curvature (\omega_{FS,Z}). Then (\psi=\log|s|_h^2\le0) after constant normalization and Poincaré–Lelong gives
-[
+Take $X=Z=\mathbb P^1$, $\theta=\omega_{FS,X}$, $\gamma=\omega_{FS,Z}$. Let $z_0\in Z$, let $s\in H^0(Z,\mathcal O(1))$ vanish precisely at $z_0$, and choose the standard metric $h$ with curvature $\omega_{FS,Z}$. Then $\psi=\log|s|_h^2\le0$ after constant normalization and Poincaré–Lelong gives
+$$
 dd^c\psi=[z_0]-\omega_{FS,Z}.
-]
-With (\Phi\equiv0) and (W=p_Z^*\psi), we have (W\le\Phi) and
-[
+$$
+With $\Phi\equiv0$ and $W=p_Z^*\psi$, we have $W\le\Phi$ and
+$$
 \Theta+dd^cW=p_X^*\omega_{FS,X}+p_Z^*[z_0]\ge0.
-]
-Thus **even the one-sided upper domination** (W\le\Phi+C) with (C=0) and joint (\Theta)-psh do **not** imply all slice potentials exist: (W_{z_0}\equiv-\infty), which is excluded from (\mathrm{PSH}(X,\theta)). The missing hypothesis is the lower bound (W\ge\Phi-C), which in the original proof excludes identically (-\infty) fiber restrictions. This example does **not** assert that an almost-everywhere weighted fiber identity fails, only that the printed **for every (z)** conclusion cannot survive this weakening.
+$$
+Thus **even the one-sided upper domination** $W\le\Phi+C$ with $C=0$ and joint $\Theta$-psh do **not** imply all slice potentials exist: $W_{z_0}\equiv-\infty$, which is excluded from $\mathrm{PSH}(X,\theta)$. The missing hypothesis is the lower bound $W\ge\Phi-C$, which in the original proof excludes identically $-\infty$ fiber restrictions. This example does **not** assert that an almost-everywhere weighted fiber identity fails, only that the printed **for every $z$** conclusion cannot survive this weakening.
 
 **Proposed optional correction:** give this one-sided counterexample immediately after Corollary 13.6.1. **Affected dependents:** §17.1 fiberwise energy over every parameter and any claim of all-fiber slicing, as distinct from identities valid for almost every parameter.
 
