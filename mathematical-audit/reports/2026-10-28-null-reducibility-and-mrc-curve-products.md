@@ -1,15 +1,15 @@
 # Mathematical audit: reducibility in null foliations and cotangent tensors over rationally connected fibers
 
 **Date:** 2026-10-28 (Asia/Shanghai).
-**Pinned current production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-**Starting audit branch:** \`a75651e5fdedfb2aee64a6f344715ab19d9072ad\`.
+**Pinned current production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+**Starting audit branch:** `a75651e5fdedfb2aee64a6f344715ab19d9072ad`.
 **Scope:** only the integrated reading edition at the specified physical lines. No source publication, canonicalization, Demailly approximation/regularization, dedicated Bergman, weighted L², Ohsawa–Takegoshi, multiscale-atlas, or positivity-loss work is attempted.
 
 ## POME-NULL-ALPHA-REDUCIBILITY-001
 
 **Severity:** low. **Status:** verified conditional deduction (an exact countermodel to a *hypothesis-deleted extension*, not an error in the printed proposition).
 
-**Reading locus:** \`docs/sections/integral-leaves-of-constant-rank-null-distributions/index.html\`, main blob \`564667ab5d008b0ffa1d29f5b7ecc578c19d2f04\`, physical lines 83–107, especially Proposition **7.15.4**, source \`klimek-pluripotential-theory:3B18B0CF\`, permanent tag \`992E9692EF3B\`. The printed independent warning, Example **7.15.5** (source \`klimek-pluripotential-theory:D21B8572\`, permanent tag \`849194DD5398\`), appears at lines 114–120 and removes *semipositivity of β*, not reducibility of α. The complex-kernel calculation is in Theorem **7.15.3**, source \`klimek-pluripotential-theory:FB2152E8\`, tag \`8FE75D79B9CA\`, lines 50–79.
+**Reading locus:** `docs/sections/integral-leaves-of-constant-rank-null-distributions/index.html`, main blob `564667ab5d008b0ffa1d29f5b7ecc578c19d2f04`, physical lines 83–107, especially Proposition **7.15.4**, source `klimek-pluripotential-theory:3B18B0CF`, permanent tag `992E9692EF3B`. The printed independent warning, Example **7.15.5** (source `klimek-pluripotential-theory:D21B8572`, permanent tag `849194DD5398`), appears at lines 114–120 and removes *semipositivity of β*, not reducibility of α. The complex-kernel calculation is in Theorem **7.15.3**, source `klimek-pluripotential-theory:FB2152E8`, tag `8FE75D79B9CA`, lines 50–79.
 
 **Verified countermodel.** On \(\mathbb C^3\), consider the constant complex \((1,1)\)-form and real semipositive \((1,1)\)-form
 \[
@@ -37,7 +37,7 @@ The essential failure is \(\ker A\ne\ker A^*\); a rank-one non-reducible complex
 
 **Severity:** low. **Status:** verified conditional deduction (complete elementary result for a nontrivial family of MRC quotients; **not** a solution of the unrestricted open question).
 
-**Reading locus:** \`docs/sections/questions-on-relative-canonical-classes-and-cotangent-tensors/index.html\`, main blob \`7b2763d35ab776a5bb0a17a34e8a2e6b3546358f\`, physical lines 5, 8–12. **Question 24.12.2**, source \`cao-paun-foliations:54F33ABF\`, permanent tag \`2C2AE81C4020\`, asks whether, for the maximal rationally connected quotient \(q:X\dashrightarrow Q\), a pseudoeffective line bundle \(L\hookrightarrow(\Omega_X^1)^{\otimes m}\) satisfies \(\nu(X,L)\le\nu(Q,K_Q)\). Adjacent **Conjecture 24.12.1** has source \`cao-paun-foliations:026DF33E\` and tag \`3E0B91E5DF69\`; it is not used or resolved.
+**Reading locus:** `docs/sections/questions-on-relative-canonical-classes-and-cotangent-tensors/index.html`, main blob `7b2763d35ab776a5bb0a17a34e8a2e6b3546358f`, physical lines 5, 8–12. **Question 24.12.2**, source `cao-paun-foliations:54F33ABF`, permanent tag `2C2AE81C4020`, asks whether, for the maximal rationally connected quotient \(q:X\dashrightarrow Q\), a pseudoeffective line bundle \(L\hookrightarrow(\Omega_X^1)^{\otimes m}\) satisfies \(\nu(X,L)\le\nu(Q,K_Q)\). Adjacent **Conjecture 24.12.1** has source `cao-paun-foliations:026DF33E` and tag `3E0B91E5DF69`; it is not used or resolved.
 
 **Verified product case.** Fix \(r\ge1\), a smooth connected projective curve \(C\) of genus \(g\ge1\), and
 \[
@@ -81,6 +81,6 @@ Thus \(\deg(K_C^{\otimes m}\otimes M^{-1})\ge0\), hence \(0\le\deg M\le m(2g-2)\
 
 - **§7.15:** this run directly checked Proposition 7.15.4's displayed proof (physical lines 83–107) against a complex nonreducible form, and contrasted the already printed Example 7.15.5. This **extends an already contextually sampled section**; it is not first coverage of a complete section.
 - **§24.12:** the formerly inventory-only new section received its **first** targeted question/hypothesis review (physical lines 5–12), followed by a fully computed projective-fibration model. This is a question-case proof, not certification of an open conjecture.
-- Crosschecked §19.10.1 (semipositive section-growth asymptotic) and §22.1.109 (net-limit minimax) for prior scope and duplication. Existing findings \`POME-SEMIPOS-TORSION-OSCILLATION-001\` and \`POME-NA-MINIMAX-001\` remain unchanged; neither is repackaged as new progress.
+- Crosschecked §19.10.1 (semipositive section-growth asymptotic) and §22.1.109 (net-limit minimax) for prior scope and duplication. Existing findings `POME-SEMIPOS-TORSION-OSCILLATION-001` and `POME-NA-MINIMAX-001` remain unchanged; neither is repackaged as new progress.
 - Current chapter index inventory remains **25 chapters / 747 distinct section IDs**, with **zero entire sections certified**. Existing resolved/unresolved/deferred statuses are preserved. No tests, builds, CI, browser validation, formalization, original-source changes, production-main changes, tag changes, merges or publication performed.
 - Demailly approximation/regularization and the dedicated Bergman, L², Ohsawa–Takegoshi, multiscale-atlas and positivity-loss programme remain expressly **deferred-by-user**, not resolved or reopened.
