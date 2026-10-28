@@ -1,3 +1,16 @@
+## 2026-10-28 — null-form reducibility and MRC product-cotangent bounds
+
+**Pinned main** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **starting review HEAD** \`a75651e5fdedfb2aee64a6f344715ab19d9072ad\`. [Full pinned proofs, assumptions, line anchors and dependency boundaries](reports/2026-10-28-null-reducibility-and-mrc-curve-products.md).
+
+| Stable ID | Severity / status | Precise locus, mathematical evidence, dependents and proposed disposition |
+| --- | --- | --- |
+| **POME-NULL-ALPHA-REDUCIBILITY-001** | low / **verified conditional deduction** (countermodel to an invalid strengthening; printed Prop 7.15.4 correct) | §7.15.4 source \`klimek-pluripotential-theory:3B18B0CF\`, tag \`992E9692EF3B\`, main \`docs/sections/integral-leaves-of-constant-rank-null-distributions/index.html\`, blob \`564667ab5d008b0ffa1d29f5b7ecc578c19d2f04\`, physical lines **83–107**. Complex nonreducible \(\alpha=(i/2)dz_1\wedge d\bar z_2\), real semipositive \(\beta=(i/2)dz_3\wedge d\bar z_3\): \(p=q=1\), \(\alpha\beta\ne0,\alpha^2=\alpha\beta^2=0\), but common nullity 0 instead of 1. Retain reducibility of α and semipositivity of β; optional separate necessity remark beside existing Example 7.15.5 (tag \`849194DD5398\`), which proves a **different** necessity. |
+| **POME-MRC-PROJECTIVE-CURVE-COTENSOR-001** | low / **verified conditional deduction** (open general question unchanged) | §24.12.2 source \`cao-paun-foliations:54F33ABF\`, tag \`2C2AE81C4020\`, main \`docs/sections/questions-on-relative-canonical-classes-and-cotangent-tensors/index.html\`, blob \`7b2763d35ab776a5bb0a17a34e8a2e6b3546358f\`, physical lines **5, 8–12**. On \(X=\mathbb P^r\times C\), \(g(C)\ge1\), a psef \(L\to(\Omega_X^1)^{\otimes m}\ne0\) must be \(q^*M\), \(0\le\deg M\le m(2g-2)\); for elliptic \(C\), \(M\simeq\mathcal O_C\). Euler/conormal restriction to a line and degree pairing give a complete product proof. Consequently \(\nu(X,L)\le\nu(C,K_C)\), with equality attained. Keep Question 24.12.2 and adjacent Conjecture 24.12.1 open; optional example only, no general claim. |
+
+**Precisely performed:** §7.15.4 selected algebraic proof/check (previously contextual); **first targeted** §24.12.2 question and projective-curve model (formerly inventory-only). Contextual §§19.10/22.1 not counted as new coverage; existing \`POME-SEMIPOS-TORSION-OSCILLATION-001\`/\`POME-NA-MINIMAX-001\` untouched. **747** unique ToC IDs, **zero** whole-section certifications. All old confirmed errors, candidates, proof gaps, external dependencies and **deferred-by-user** items retain their statuses. No source/body/main/registry/tag/site edits, tests, builds, CI or publication.
+
+---
+
 ## 2026-10-28 — non-Delzant quadric cone and the almost-complex torsion sign
 
 **Pinned main** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **audit starting HEAD** `59a8c1afae4ef4f6e5ae7a3be5342c6b4e3aa02f`. [Full exact source/tag/line-anchored proofs](reports/2026-10-28-nondelzant-quadric-and-almost-complex-torsion.md).
