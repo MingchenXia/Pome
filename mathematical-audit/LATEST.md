@@ -1,3 +1,15 @@
+# Latest mathematical audit checkpoint — 2026-10-29: bounded Bedford–Taylor TV obstruction, Kähler variance, and an explicit modification lift
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit HEAD:** `a228e82aa470a173bd82c9b3291f5e4e900157d6`. [Complete new mathematics, exact source keys, permanent tags and main physical lines](reports/2026-10-29-bt-tv-kahler-variance-and-divisor-lift.md).
+
+- **POME-BT-UNIFORM-PSH-SINGULAR-TV-001** — low / **verified conditional deduction**: smooth bounded psh potentials on a disk converge **uniformly**, but their Bedford–Taylor measures are mutually singular with the circular weak limit, and their exact total-variation distance tends to 2. Printed §7.5.8 remains correct; the false stronger **TV** conclusion was not asserted.
+- **POME-KAHLER-MA-NORMALIZATION-VARIANCE-001** — low / **verified conditional deduction**: for a **closed Kähler** background, (b(F)=logintomega^n-logint e^F dV), so (b''(F+tG)=-operatorname{Var}_{
+u_t}(G)) in every dimension; comparing §14.8.1 identifies the exact weighted complex-Hessian-square integral. Not a Hermitian generalization or duplicate of the prior variance/n bound.
+- **POME-MODIFICATION-DIVISOR-AEPPLI-LIFT-001** — low / **verified conditional deduction**: on `Bl_p(P²)`, the positive lifted current of a line through `p` is `[strict transform]+[E]`; dropping `[E]` leaves the pushforward unchanged but violates the required Aeppli pullback class. Printed §5.66.2 correct; **its heat proof was not opened**.
+- **Exact scope:** first selected **nonexcluded** §5.66.2 divisor model only; incremental §7.5.8 and §14.8.1, contextual §14.1/14.4 and §7.2. Existing **25 chapters / 747 numbered sections / zero entire sections certified**. Demailly approximation and the entire dedicated Bergman/L2/OT/multiscale/positivity-loss programme remain **deferred-by-user**. No production/source/registry/tag/site or CI/build/formal-verification changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-28: current homotopy mass topology and nonzero second spectral differential
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit branch:** 7aa546a53cb1d997f423f79cf74539ef11d92336. [Complete independently checked calculations, exact source labels/tags/blobs/lines](reports/2026-10-28-current-homotopy-mass-and-spectral-d2.md).
