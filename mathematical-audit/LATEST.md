@@ -1,3 +1,14 @@
+# Latest mathematical-audit checkpoint — 2026-10-28, cone-adapted multiplicity and Jensen equation alias
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit HEAD:** 4264019bb6a9cbee7d007d53542f0bf2e1861aa6. [Exact integrated file paths, permanent tags, physical lines and proofs](reports/2026-10-28-cone-adapted-projections-and-jensen-equation-alias.md).
+
+- **POME-JENSEN-EQ-ALIAS-NESTED-001** — **medium / confirmed error in reading-edition integration only** (not a false theorem): §6.36 canonical complete two-line Eq. 6.36.6 is followed by a separate truncated right-hand-side fragment with invalid nested aligned/align delimiters; its permanent tag page reproduces the bad fragment. Recommend suppressing the orphan chunk and linking its stable tag to the full canonical formula without changing mathematical content.
+- **POME-CONE-PROJECTION-SHEET-UNBOUNDED-001** — low / **verified conditional deduction**, printed §§6.35.2 and 6.38.3 correct: reduced irreducible plane germs y^m=x^k (coprime k>m) have ordinary multiplicity m, but the non-cone-adapted finite y-projection has k sheets and weighted number k. The ratio k/m is unbounded with m fixed, proving the sharp need for the stated cone hypothesis.
+- **Independent §6.36 Jensen test:** in dimension one for the radial log pole, the full-pole equation is the explicitly permitted extended identity +infinity=+infinity; the finite annular equation reads r-r0=r-r0. Not a third new finding.
+- **Precisely limited new coverage:** selected nonexcluded passages in §§6.35, 6.36, 6.38 only; prior §§6.43–6.48 contextual. **747** numbered ToC sections retained; **zero** complete sections certified. The theorem's smoothing reference and all dedicated Demailly approximation/regularization, Bergman/L²/OT/multiscale/positivity-loss work remain **deferred-by-user**, not reopened. No main/source/body/registry/tag/site/build/CI/formalization changes. Existing audit PR #9 is closed and merged; no new PR.
+
+---
+
 # Latest mathematical-audit checkpoint — 2026-10-28, infinitely near divisors and analytic-ideal thresholds
 
 **Reviewed `main`:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting audit HEAD:** `74ed8e9ada205ba2f214facc675dcd52c2a87669`. [Exact source/tag/physical-line anchored proof report](reports/2026-10-28-infinitely-near-lelong-and-analytic-ideal-thresholds.md).
