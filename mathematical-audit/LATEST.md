@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-29: smooth Hessian parameter response and ordinary-type nonseparation fiber
+
+**Reviewed current main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete new direct proof and continuum example with source keys, permanent tags, main blobs and physical line anchors](reports/2026-10-29-hessian-linear-response-and-envelope-nonseparation.md).
+
+- **POME-HESSIAN-SMOOTH-LINEAR-RESPONSE-001** — low / **verified conditional deduction**; §8.8.3 correct. Under a smooth one-parameter family of proper intermediate-degree Hessian exponents with common barriers and uniform derivative lower bound kappa, implicit elliptic differentiation gives (L_w-f_t) dot(w)=f_s, ||dot(w)||_infty<=||f_s||_infty/kappa, and f_s>=0 forces dot(w)<=0. The constant is attained for f_s=t+sc. This is the smooth **linear response operator**, not a repetition of the earlier §8.13 one-sided *measure-residual* estimate. New direct selected §8.8.1–3 proof inspection; upstream global PDE a priori/viscosity inputs conditional.
+- **POME-ORDINARY-TYPE-UNCOUTABLE-FIBER-001** — low / **verified conditional deduction**, §18.10.1 correct. Convex compositions u_alpha=1-(1-w)^alpha for 0<alpha<1 of one cutoff logarithmic omega-psh pole give continuum many **distinct** bounded-difference classes, all with P_omega[u_alpha]=P_omega[u_alpha]_I=0 and identical tau_{omega,0} neighborhoods. Incremental §18.10.1 check only; its mass comparison was not reaudited.
+- **Coverage:** exact main ToC unchanged at **25 chapters / 747 numbered sections / zero whole-section certifications**. Only §8.8 directly newly audited; §18.10 incremental. All dedicated Demailly approximation/regularization, Bergman/L2/OT/multiscale/positivity-loss work remains **deferred-by-user**, not resolved. No production/main/source/site/body/registry/tag/CI/build/formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: bounded Bedford–Taylor TV obstruction, Kähler variance, and explicit modification lift
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **original review HEAD:** a228e82aa470a173bd82c9b3291f5e4e900157d6. [Complete new mathematics with exact source keys, permanent tags and main physical lines](reports/2026-10-29-bt-tv-kahler-variance-and-divisor-lift.md).
