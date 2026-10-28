@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-28: maxima of multiplier ideals and the critical Sobolev C¹ boundary
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **starting audit HEAD:** `467b09fa9df1071dd2106b9cf78f32d0529f7314`. [Detailed mathematical proofs, source tags and physical lines](reports/2026-10-28-max-ideals-and-critical-sobolev-boundary.md).
+
+- **POME-MULTIPLIER-MAX-IDEAL-SUM-001** — low / **verified conditional deduction**, printed §16.24.1–2 correct. On `P¹×P¹`, the global θ-psh divisor weights `u=log|s₁|²`, `v=log|s₂|²` satisfy `I(u)_p=(x)`, `I(v)_p=(y)` but `I(max(u,v))_p=O_p`; hence the multiplier ideal of a maximum is **not** generally the ideal sum `(x,y)`, despite the correct minimum formula for divisorial Lelong numbers. Distinguish ideal operations when integrating §16.6/§18.4.
+- **POME-HERM-SOB-CRITICAL-C1-001** — low / **verified conditional deduction**, printed §11.24.1 correct. A compactly supported `f(x)=χ(|x|)x₁ log log(e/|x|)` belongs to `W^{2,2n}` in real dimension `2n≥2`, while its gradient is unbounded. Thus the proof's `W^{2,p}→C¹` step cannot be invoked at `p=2n`. This **does not disprove** Fredholm theory at the endpoint.
+- **Precise new coverage:** incremental selected arguments in previously sampled §§16.24 and 11.24; introductory §§16.1, 11.3, 18.2 were contextual only. Existing ToC matrix retains **25 chapters / 747 section IDs**, **zero whole-section certifications**. No previously excluded Demailly approximation/regularization or dedicated Bergman/L²/OT/multiscale/positivity-loss work reopened; statuses remain **deferred-by-user**. No main, source, registry, site, tags, build, tests, CI or publication changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-28: directional torus, sharp jet order and two equation aliases
 
 **Reviewed current main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **starting audit HEAD:** d8e5ca08d6218c1ece22e7c89236661ee672ab92. [Complete three-finding source/tag/physical-line report](reports/2026-10-28-directional-torus-jet-threshold-and-equation-alias.md).

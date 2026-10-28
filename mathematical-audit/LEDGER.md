@@ -1,3 +1,16 @@
+## 2026-10-28 — maximum multiplier ideals and critical Sobolev endpoint
+
+**Pinned main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Audit branch starting HEAD:** `467b09fa9df1071dd2106b9cf78f32d0529f7314`. [Complete global model / coordinate calculation and original physical-line anchors](reports/2026-10-28-max-ideals-and-critical-sobolev-boundary.md).
+
+| Stable finding ID | Severity / status | Exact integrated locus, proof and proposed disposition |
+| --- | --- | --- |
+| **POME-MULTIPLIER-MAX-IDEAL-SUM-001** | low / **verified conditional deduction**; printed statements correct | §16.24.1–2, `foundations-of-pluripotential-theory:73492AFD` / `AC593099`, permanent `585A4246348B` / `FFB5A7083041`; `docs/sections/envelopes-and-model-potentials--divisorial-constraints-under-envelopes/index.html`, main blob `40f522a64d7e846a4507c27e8ac9b4fa382c514c`, physical lines **14–43, 45–61**. Global θ-psh divisor weights on `P¹×P¹` yield at their crossing `I(u)=(x)`, `I(v)=(y)` while `I(max(u,v))=O`, **strictly larger than** `I(u)+I(v)=(x,y)`. No printed equation equates these ideals; retain divisorial valuation formula and distinct ideal operation. Optional example for §16.24 and its §16.6/§18.4 consumers; no body/registry edits. |
+| **POME-HERM-SOB-CRITICAL-C1-001** | low / **verified conditional deduction**; printed lemma correct | §11.24.1 `non-kahler-pluripotential-theory:2FF004A4`, permanent `DEA6C8EFE702`, `docs/sections/gauduchon-metrics-and-linear-mass--fredholm-theory-for-a-continuous-hermitian-form/index.html`, blob `8fd933d027ecdba0c2df8efe7524e3984613857a`, physical lines **11–21, 36–58**; Eq. 11.24.3 permanent `88F9E749216F`, lines **44–49**. `χ(r)x₁ log log(e/r)` belongs to `W^{2,d}` but not `C¹` for real `d=2n≥2`; the printed `p>d` is essential for its *particular C¹-based argument*, without asserting failure of endpoint Fredholm theory. No source correction. |
+
+**Actual work:** independent direct model/endpoint proofs in the already selected §§16.24 and 11.24; contextual introductions §§16.1, 11.3, 18.2 not counted. No complete section certified; original 25-chapter / 747-section matrix unchanged except incremental annotation. All historical errors, open proof gaps and external dependencies remain in their previous states; all author-excluded approximation/regularization plus dedicated Bergman/L²/OT/multiscale/positivity-loss items remain **deferred-by-user**. No tests, build, CI, publication or main/source/tag changes.
+
+---
+
 ## 2026-10-28 — directional equations, coordinate jets, and angular means
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit HEAD:** d8e5ca08d6218c1ece22e7c89236661ee672ab92. [Full exact mathematical arguments and provenance](reports/2026-10-28-directional-torus-jet-threshold-and-equation-alias.md).
