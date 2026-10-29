@@ -19,7 +19,7 @@ Neither item is a false printed theorem, a proof-gap closure, a new external dep
 
 **Claim with the printed hypotheses.** Let \(\Omega\subset\mathbb R^d\) be open, \(K_r\) a compact exhaustion with \(\operatorname{Int}K_r\uparrow\Omega\), \(\chi_r\in C_c(\Omega)\), \(\chi_r\ge0\), \(\chi_r=1\) on \(K_r\), and \(M_r<\infty\). Let
 \[
-\mathcal M=\{\mu\ge0:\mu\text{ Radon on }\\Omega,\ \int\chi_r\,d\mu\le M_r\ \forall r\}.
+\mathcal M=\{\mu\ge0:\mu\text{ Radon on }\Omega,\ \int\chi_r\,d\mu\le M_r\ \forall r\}.
 \]
 Then the vague topology on \(\mathcal M\) is metrizable. In particular, every **sequence** in \(\mathcal M\) has a vaguely convergent subsequence with limit in \(\mathcal M\), in addition to the already printed Willard-subnet compactness statement.
 
