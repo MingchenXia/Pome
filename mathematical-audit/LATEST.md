@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-29: sharp zero-mass normalized tails and quantitative envelope-volume estimate
+
+**Pinned production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete P¹ current calculation, optimized finite-A bound, stable source labels and physical line anchors](reports/2026-10-29-zero-mass-envelope-tail-sharpness.md).
+
+- **POME-ENV-ZEROMASS-TAIL-OPT-001 — low / verified conditional deduction; printed Proposition 17.6.1 correct.** Incremental selected **§17.6** proof review: on \(\mathbb P^1\) with \(u=\log(|z|^2/(1+|z|^2))\), \(\omega+dd^cu=[0]\) has **zero non-pluripolar mass**, but \(w_\varepsilon=(1-\varepsilon)u\) has \(\mu_{w_\varepsilon}=\varepsilon\omega\), \(m_\varepsilon=\varepsilon\), and its normalized tail is exactly \(e^{-A/(1-\varepsilon)}\uparrow r(A)=e^{-A}\) as \(\varepsilon\downarrow0\). Hence Eq. 17.6.2 is attained asymptotically despite mass collapse. Optimizing the printed Eq. 17.6.3 gives, for fixed \(\delta>0\) and sufficiently small \(r(A)\), a uniform finite-obstacle volume bound of order \(r(A)^{1/(n+1)}\), without a positive mass lower bound. This exponent is optimal **for balancing the proof's two terms**, not an asserted intrinsic geometric sharpness result. §16.25.4/§17.5.6 conditional inputs checked at statement level, not certified. Distinct from pre-existing **POME-ENV-MASS-ORDER-001** (total-mass vanishing order).
+- **Earlier same-day incremental §21.5 finding:** **POME-TORIC-MIXED-ESCAPE-001** remains documented immediately below; §11.48 old 2026-10-25 glyph/alias errors were only rechecked, **not new findings or repairs**.
+- **Actual coverage:** new selected Step 2–6 quantitative checks in previously partly reviewed §17.6 and mixed-measure calculation in previously partly reviewed §21.5. **25 chapters / 747 numbered current ToC sections / zero complete-section certifications**. All pre-existing errors and deferred Demailly approximation/regularization, Bergman/L²/OT/multiscale/positivity-loss remain unchanged. No production main, source/registry/tag/site edits, builds, CI or formal verification.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: mixed real Monge–Ampère mass escaping with one moving argument
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full exact proof and source-tag/line anchors](reports/2026-10-29-hermitian-bochner-aliases-and-mixed-toric-escape.md).
