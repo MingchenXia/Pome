@@ -1,3 +1,14 @@
+# Latest mathematical audit checkpoint — 2026-10-30: sharp tautological fiber nonvanishing and exceptional numerical dimension
+
+**Pinned production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [English proof, permanent tags and physical anchors](reports/2026-10-30-tautological-fiber-sharpness-and-exceptional-numerical-dimension.md).
+
+- **POME-TAUT-FIBER-N-OPTIMAL-001 — low / verified conditional deduction; Lemma 10.108.1 correct.** For all \(r\ge2\), a hyperplane-pole singular metric on \(\mathcal O_{\mathbf P^{r-1}}(1)\) at \(m\varepsilon C=1\) has \(\mathcal I(h^m)=\mathcal O(-(m+1)H)\). Thus the lemma's target is \(\mathcal O(N-r-1)\), which has no global sections for \(N\le r\), and exactly one at \(N=r+1\). **The uniform \(N\ge r+1\) threshold is sharp.** The prior tautological open-model metric-extension candidate remains unresolved.
+- **POME-NUMDIM-EXCEPTIONAL-POSPRODUCT-001 — low / verified conditional deduction, analytic-current characterization conditional.** On \(X=\operatorname{Bl}_p\mathbf P^2\), \(\omega\in H-dE\), \(0<d<1\), every positive \(S=T+\varepsilon\omega\in E+\varepsilon[\omega]\) has generic exceptional coefficient \(a\ge1-\varepsilon d\), so the residual mass outside the polar set is \(\le\varepsilon\). Consequently \(\langle[E]\rangle\cdot\omega=0\), \(\nu(E)=0\) under the printed convention, despite the **ordinary** pairing \(E\cdot\omega=d>0\). No simultaneous regularization or general positive-product equivalence was reaudited.
+- **First direct selected §24.5 coverage:** checked exact fixed-\(\varepsilon\) zero-class mass scaling, plus the closed and Gauduchon-surface Stokes contrast, at physical line 10; the existence of unbounded mass is only the cited conditional input and no open problem was solved.
+- **Actual scope:** selected §§10.108.1, 10.109 introduction/degree-one and §24.5 first paragraph. **25 chapters, 747 current ToC sections, zero whole-section certifications**. All historical statuses unchanged; expressly excluded Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss work remain **deferred-by-user**. No main, source, site, CI, build or formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: non-Archimedean divisorial-pointwise versus full-pointwise limits and a stale equation label
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete new example, proof, stable source tags and physical anchors](reports/2026-10-29-nonarchimedean-divisorial-limit-and-fs-label.md).
