@@ -1,3 +1,16 @@
+## 2026-10-29 — exact Picard–Albanese lattice index and generic integral-polarization obstruction
+
+**Reviewed main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Full anchored mathematical report](reports/2026-10-29-pic-alb-polarization-index-and-generic-tori.md). Both findings are **low / verified conditional deduction**; printed §§10.80.2–4 correct, no existing error repaired or closed.
+
+| Stable finding ID | Severity / status | Exact main source, proof and downstream action |
+| --- | --- | --- |
+| **POME-PIC-ALB-EXACT-PRODUCT-INDEX-001** | low / **verified conditional deduction** | §10.80.4 tag <code>183B8F4BFE57</code>, source <code>demailly-complex-geometry:354EFEF2</code>, <code>docs/sections/compact-curves-periods-and-complex-tori--projectivity-and-integral-periods/index.html</code>, main blob <code>f9b42d19c3b216883c147bc8b47f7af4b22bf026</code>, physical lines 99–149 (especially 113–147). For \(X=C_g\times\mathbb P^{n-1}\), \(n\ge2\), integral Kähler form \(\alpha+k\beta\), \(B\Lambda=-k^{n-1}\Gamma\) with index \(k^{2g(n-1)}\), and the displayed Picard polarization has type \((k^{n-1})^g\). Direct product/wedge calculation; uses §10.79.11 tag <code>6D7C5C5A2C24</code>, source <code>demailly-complex-geometry:E24CF274</code>, blob <code>81ec78509629e15d648cfd3b686fe4d691437330</code>, lines 175–235, as an explicit **conditional internal** integral-lattice input. Optional example after finite-index claim; protects non-unimodularity of integral polarization in Pic/Alb and §10.80.2. |
+| **POME-TORUS-INTEGRAL-H2-NONPOLARIZATION-001** | low / **verified conditional deduction** | §10.80.2 tag <code>826013CCAFEC</code>, source <code>demailly-complex-geometry:4A5F6AF1</code>, same main file/blob, lines 37–60; §10.65.1–2 exact-period and averaging as internal inputs. For Baire-generic constant complex \(J\) on \(\mathbb R^4/\mathbb Z^4\), every nonzero integral alternating \(E\) fails \(J^*E=E\). An explicit isotropic graph-plane construction makes each individual invariant-form locus closed, proper and nowhere dense in each orientation component. Thus no nonzero integral \((1,1)\) class exists and such tori are nonprojective. Optional sharpness clarification: integral real two-periods alone imply neither a positive Riemann form nor projectivity; original printed theorem correct. |
+
+**Coverage:** upgraded previously *context-only* §10.80 to first selected proof/model review §§10.80.2–4; §10.80.1 statement context, §10.79.11 and §§10.79.2/.4–5 support only (no complete curve lattice proof recertification); §§10.65.1–2 context. **25 chapters / 747 ToC rows / zero whole-section certifications**. Existing ledgers remain unaltered below. All dedicated Demailly approximation/regularization/Bergman/L²/OT/multiscale/positivity-loss material remains **deferred-by-user**. No main/source/body/site/registry/tag/CI/build/formalization edits.
+
+---
+
 ## 2026-10-29 — exceptional-divisor ac determinant and one-point strictness
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. Full English [proof report](reports/2026-10-29-exceptional-ac-volume-and-onepoint-strictness.md). Two low-severity **verified conditional deductions**; both printed assertions correct. No old issue closed and no complete theorem chain certified.
