@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-29: sharp moving-radius penalty and finite-energy curve traces
+
+**Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Pinned integrated anchors, hypotheses and complete new arguments](reports/2026-10-29-varying-radius-penalty-and-curve-finite-energy-traces.md).
+
+- **POME-ENVELOPE-VARYING-RADIUS-SHARP-BARRIER-001 — low / verified conditional deduction.** New §16.18.1 direct proof gives the locally uniform **O(ε log(1/ε))** penalized-infimum error, with exact e^s constant-upper-endpoint model attaining ε log(1/ε)+O(ε). A moving endpoint b=B+C_b|z|² shows the printed **c C_b** curvature-loss coefficient is universally optimal; no printed error.
+- **POME-CURVE-TRACE-FINITE-ENERGY-001 — low / verified conditional deduction.** The §15.31.4 **trace clause only** holds under the weaker assumptions μ polar-null and Q_μ∈H¹, even when Q_μ is unbounded. Explicit radial μ_p with density proportional to 1/(r²(log(1/r))^p) has a bounded H¹→L¹(μ_p) trace exactly for p>3/2, yet Q_p(0)=−∞ for p≤2. The nearby exponential-equation regularity still requires its own hypotheses; no theorem declared false.
+- **Actual coverage:** newly inspected §16.18.1 and strengthened §15.31.4; §15.31.3 context only and previously checked §5.53 sign conventions not recounted. **25 chapters / 747 distinct ToC sections / zero entire-section certifications.** All prior statuses unchanged; Demailly regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss remain **deferred-by-user**, untouched. No main/source/site/registry/build/CI/formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: Schwarz quadratic jets and Gauduchon equation-alias rendering
 
 **Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Pinned integrated source labels, physical-line anchors and complete selected proofs](reports/2026-10-29-schwarz-quadratic-jet-and-gauduchon-equation-alias.md).

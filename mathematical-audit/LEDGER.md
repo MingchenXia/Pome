@@ -1,3 +1,16 @@
+## 2026-10-29 — Sharp moving-radius penalty and finite-energy curve traces
+
+**Reviewed main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Complete proof and source-anchored English report](reports/2026-10-29-varying-radius-penalty-and-curve-finite-energy-traces.md). The printed lemmas are correct; old findings and statuses are unchanged.
+
+| Stable finding ID | Severity / status | Exact main anchor, hypotheses, complete conclusion and proposed action |
+| --- | --- | --- |
+| **POME-ENVELOPE-VARYING-RADIUS-SHARP-BARRIER-001** | **low / verified conditional deduction** | §16.18.1, source foundations-of-pluripotential-theory:1E3A3A35, permanent tag 93E8FFBE7FEB; docs/sections/envelopes-and-model-potentials--measures-on-contact-sets--a-minimum-with-a-varying-upper-radius/index.html, blob 879fd87eacb65755ae0e7a9ffc95e71d1c262d39, physical lines 10–55. Under exact printed H_s≥0, H_ss>0, coercivity, Levi and b-Hessian hypotheses, penalized minima obey local sup error ≤ε log(1/ε)+C_K ε. The boundary-attaining H=e^s model gives ε log(1/ε)+O(ε); b=B+C_b|z|² gives curvature tending to −c C_b. Thus both quantitative penalty rate and original endpoint coefficient are sharp. Optional internal corollary, no source or registry edits; contact-envelope steps can cite the bound. |
+| **POME-CURVE-TRACE-FINITE-ENERGY-001** | **low / verified conditional deduction** | §15.31.4, source non-kahler-pluripotential-theory:CF08BC57, permanent F5E3175FA178; Eq. 15.31.5 tag DB0D4C618F78, Eq. 15.31.6 tag 79703FA8B5E7; docs/sections/equations-with-prescribed-singularities--singular-measures-on-products-with-a-curve/index.html, blob faaa787720a2f791dc9526724427e9b669516051, lines 9–23, 66–105. Under μ≥0 probability, μ polar-null, ddᶜQ=μ−κ and Q∈H¹, the H¹→L¹(μ) trace, integration by parts, canonical qpsh values and Lipschitz chain rule hold without continuity of Q. For radial μ_p∼r⁻²(log(1/r))⁻p dA, p>1, the bounded trace exists **iff p>3/2** whereas Q_p(0)=−∞ for p≤2. Proof by exact radial Green derivative / Dirichlet integral and H⁻¹ Poisson converse. Propose an optional narrower trace corollary only; do not alter hypotheses of §15.31.8 or other nonlinear dependents. |
+
+**Actual coverage:** first substantive §16.18.1 direct reading and new §15.31.4 trace proof, §15.31.3 dependency only; earlier §5.53 sign checking not counted anew. Existing 25/747/0 inventory retained. All previous errors/gaps unchanged, all excluded Demailly/Bergman/L²/OT/multiscale/positivity-loss proof-completion strictly **deferred-by-user**. No production main/source/registry/site/build/CI/formalization change.
+
+---
+
 ## 2026-10-29 — Schwarz quadratic-jet replacement proof and Gauduchon multiline equation alias
 
 **Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Exact proof, hypothesis, source/tag/blob and physical-line report](reports/2026-10-29-schwarz-quadratic-jet-and-gauduchon-equation-alias.md). Existing issues stay open or deferred at their historical status.
