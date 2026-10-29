@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-30: exact radial Newtonian sphere sweeping and escape
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete source-anchored proof](reports/2026-10-30-newton-shell-projection-and-exterior-escape.md).
+
+- **POME-GREEN-SPHERE-SWEEP-ESCAPE-001 — low / verified conditional deduction.** On `R^d` for `d>=3`, an explicit Newtonian shell model computes the unique Hilbert-energy projection onto measures supported on a sphere `S_s`: for any finite positive rotation-invariant finite-energy measure `mu`, its spherical sweep is `c_s sigma_s`, with `c_s=mu(closed B_s)+s^(d-2) integral_{|y|>s}|y|^(2-d)dmu(y)`, and the energy residual has norm squared `||mu||²-c_s²s^(2-d)`. Sweeping an outside unit shell inward loses precisely `1-(s/r)^(d-2)` total mass, matching the **ordinary exterior** harmonic escape term of Theorem 4.4.11; no Helms-harmonicity at infinity is asserted for the zero-at-infinity hitting function. Original Theorems 4.4.11 and 4.5.6 are correct in the examined model; this is **not** general theorem certification. Prior shell-energy incompleteness, weak-versus-strong convergence, and nonexpansive projection findings were not repeated.
+- **Actual coverage:** new selected direct checks of §4.4.11 and §4.5.1/.6 with only contextual comparisons to §4.5.2/.4/.5; no complete section verification. **25 chapters / 747 numbered ToC sections / zero entirely certified sections**. All historical confirmed errors, proof gaps, candidates, external dependencies and the excluded Demailly approximation/regularization/Bergman/L²/OT/multiscale-atlas/positivity-loss programme remain at their prior statuses, the excluded portion specifically **deferred-by-user**. No main/source/body/registry/site/build/CI/formal verification modifications.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-30: sharp Kähler adjoint total-variation stability
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete new proof and pinned source anchors](reports/2026-10-30-kahler-adjoint-tanh-stability-and-boundary-distance.md).
