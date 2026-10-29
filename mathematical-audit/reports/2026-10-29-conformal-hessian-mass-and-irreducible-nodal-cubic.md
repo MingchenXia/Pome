@@ -52,11 +52,11 @@ $$
 \nu:\mathbf P^1\longrightarrow C,\qquad
 [S:T]\longmapsto [S(T^2-S^2):T(T^2-S^2):S^3].
 $$
-The fiber over `P` consists of `[1:1]` and `[1:-1]`; at the node `delta_P=dim_C(widetilde{mathcal O}_{C,P}/mathcal O_{C,P})=1`, and the conductor inside the local normalization is precisely the pairs of germs vanishing at their respective origins. Therefore *global irreducibility does not imply the local unibranch condition*. In particular, this normalization is not a homeomorphism, without contradicting Corollary 9.4.9.
+The fiber over `P` consists of `[1:1]` and `[1:-1]`; at the node $\delta_P=\dim_{\mathbb C}(\widetilde{\mathcal O}_{C,P}/\mathcal O_{C,P})=1$, and the conductor inside the local normalization is precisely the pairs of germs vanishing at their respective origins. Therefore *global irreducibility does not imply the local unibranch condition*. In particular, this normalization is not a homeomorphism, without contradicting Corollary 9.4.9.
 
-**Explicit proof.** All three coordinate forms above have degree three and no common projective zero (at `S=0`, `Y=T^3!=0`; for `S!=0`, `Z=S^3!=0`). They satisfy the cubic identity by direct substitution: `Y^2 Z = S^3 T^2(T^2-S^2)^2 = X^2(X+Z)`. On `S!=0`, write `t=T/S`; then `x=X/Z=t^2-1`, `y=Y/Z=t(t^2-1)`. When `x!=0`, `t=y/x` is the inverse rational function. Thus `nu` is birational and its image is the whole cubic, which is irreducible as a continuous algebraic image of `P^1`. As a nonconstant morphism of projective curves, `nu` is proper with finite fibers, hence finite. Its source is smooth, so Theorem 9.4.6 identifies it as the normalization. The preimages of `P` solve `t^2=1`, giving exactly two points.
+**Explicit proof.** All three coordinate forms above have degree three and no common projective zero (at `S=0`, `Y=T^3!=0`; for `S!=0`, `Z=S^3!=0`). They satisfy the cubic identity by direct substitution: `Y^2 Z = S^3 T^2(T^2-S^2)^2 = X^2(X+Z)`. On `S!=0`, write `t=T/S`; then `x=X/Z=t^2-1`, `y=Y/Z=t(t^2-1)`. When `x!=0`, `t=y/x` is the inverse rational function. Thus $\nu$ is birational and its image is the whole cubic, which is irreducible as a continuous algebraic image of `P^1`. As a nonconstant morphism of projective curves, $\nu$ is proper with finite fibers, hence finite. Its source is smooth, so Theorem 9.4.6 identifies it as the normalization. The preimages of `P` solve `t^2=1`, giving exactly two points.
 
-On the affine chart `Z=1` near `P`, the equation is `y^2=x^2(1+x)`. Choose the holomorphic square root `h(x)=sqrt(1+x)` with `h(0)=1`, and put `w=y/h(x)`. The completed/local analytic equation becomes `(w-x)(w+x)=0`, displaying the two smooth transverse branches. The normal local algebra is `B=C\{x\}oplus C\{x\}`; the local curve algebra identifies with
+On the affine chart `Z=1` near `P`, the equation is `y^2=x^2(1+x)`. Choose the holomorphic square root `h(x)=sqrt(1+x)` with `h(0)=1`, and put `w=y/h(x)`. The completed/local analytic equation becomes `(w-x)(w+x)=0`, displaying the two smooth transverse branches. The normal local algebra is $B=\mathbb C\{x\}\oplus\mathbb C\{x\}$; the local curve algebra identifies with
 $$
 A=\{(g_+,g_-)\in B:g_+(0)=g_-(0)\}.
 $$
@@ -65,7 +65,7 @@ $$
 F(x,w)=\frac{g_+(x)+g_-(x)}2+
 \frac{g_+(x)-g_-(x)}{2x}\,w.
 $$
-is holomorphic and realizes it. Thus `B/A ~= C` (difference of constants), and the conductor `{b in B : bB subset A}` consists exactly of the pairs with both constants zero. This direct local computation proves `delta_P=1`.
+is holomorphic and realizes it. Thus $B/A\cong\mathbb C$ (difference of constants), and the conductor $\{b\in B:bB\subset A\}$ consists exactly of the pairs with both constants zero. This direct local computation proves $\delta_P=1$.
 
 **Suggested action and dependents:** optional example after §9.4.10 contrasting a *globally irreducible* nodal cubic with the reducible coordinate cross and the unibranch cusp; reinforces exact hypotheses of Theorem 9.4.6 and Corollary 9.4.9. No source theorem or proof is identified as false. The earlier coprime monomial-cusp conductor example `POME-NORM-MONOM-CONDUCTOR-001` is **not** repeated.
 
