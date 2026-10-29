@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-30: primitive Gauduchon root deficit and endpoint determinant concentration
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full new direct proof and source anchors](reports/2026-10-30-primitive-gauduchon-radial-deficit-and-endpoint-collapse.md).
+
+- **POME-PRIMGAUD-ROOT-DEFICIT-001** — low / verified conditional deduction: exact normalized root-volume deficit in §24.4.13, \(\mathcal E=(x-1)^2(x+2)/2\), \(x=\sqrt{3a/(a+\bar g)}\). Printed Proposition 24.4.13 is correct; equality fixes \(\bar g=2a\), not the oscillation of \(g\).
+- **POME-PRIMGAUD-ENDPOINT-ESCAPE-001** — low / verified conditional deduction: on a non-Kähler primitive elliptic bundle, exact root-volume equalizers with fixed degree have determinant densities \(k_\varepsilon=Cg_\varepsilon^{2/3}\); they converge strongly to zero in every \(L^q\), \(1\le q<3/2\), retain fixed nonzero critical \(L^{3/2}\) norm and diverge in every \(q>3/2\), while root-volume measures concentrate. Do not confuse the determinant measure (12.7.1) with root volume; this does **not** solve the lower-mass Problem 24.4.14.
+- **Actual new coverage:** first direct selected proof-level §§24.4.8/.13 and open-problem boundary §24.4.14; selected §12.7.1 and §§12.9.1–2 normalization crosschecks; §24.11.1 statement-level problem inventory; §§10.32 and 10.45 structurally navigation-only. **25 chapters / 747 numbered ToC sections / zero complete-section certifications**. Existing confirmed errors, proof gaps and external dependencies unchanged. Demailly regularization and its dedicated Bergman/L²/OT/multiscale/positivity-loss programme remain strictly **deferred-by-user**; no source, main, registry, site, CI, build or formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-30: Hausdorff loss under nuclear-module base change; new §§24.8–24.9 problem inventory
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full anchored elementary proof and problem quantifier audit](reports/2026-10-30-relative-nuclear-basechange-hausdorff-loss.md).
