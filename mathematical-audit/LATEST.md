@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-29: generalized-mass level atoms and a logistic ray's exact energy
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full source-tagged, line-anchored report with independently checked formulas](reports/2026-10-29-generalized-level-atoms-and-logistic-ray-energy.md).
+
+- **POME-GENLELONG-LEVEL-JUMP-001 — low / verified conditional deduction.** First selected nonexcluded direct audit of §§6.34.2/.5/.8: a **fixed-weight** $p=0$ positive-measure example attains the upper closed-level bound in (6.34.9), so the printed right limit cannot generally be replaced by the open-level value. Independently, a support-relative compact complex line current with the psh weight $\max(0,\log|w|^2)$ has a unit circle of generalized mass at level zero; shifting the weight down by $1/j$ gives locally uniform convergence of $e^{\varphi_j}$ but fails open-level mass continuity in positive bidimension. Both printed statements are correct. No Demailly approximation/regularization or dedicated excluded proof has been considered.
+- **POME-RWN-LOGISTIC-RAY-ENERGY-001 — low / verified conditional deduction.** Incremental smooth computation on the **already partly reviewed** explicit $\mathbb P^1$ Legendre ray §17.17.11/.12: its velocity sends the mass-one Monge–Ampère form to **uniform measure on [0,1]** for every $t$, hence every positive moment is $1/(q+1)$, and its Aubin–Mabuchi energy is **exactly $t/2$**. This checks the normalization directly without claiming a new proof of the general Perron correspondence or geodesic energy theorem.
+- **Actual coverage:** new selected §§6.34.2/.5/.8; incremental §17.17.10–12; §17.8.3 is normalization context only and §6.42 is convention/navigation only. **25 chapters / 747 numbered ToC sections / zero complete-section certificates.** All previous errors, gaps, external inputs, and user-deferred work retain their prior statuses. No main, sources, tags, registries, generated site, build, CI, or formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: conformal Kähler Hessian comparison and irreducible nodal cubic
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Two source-tagged complete model arguments](reports/2026-10-29-conformal-hessian-mass-and-irreducible-nodal-cubic.md).
