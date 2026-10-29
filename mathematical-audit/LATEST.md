@@ -1,3 +1,14 @@
+# Latest mathematical audit checkpoint — 2026-10-29: exact Picard–Albanese polarization index and generic nonalgebraic two-tori
+
+**Reviewed main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Exact physical-line, source/tag, hypotheses and proofs](reports/2026-10-29-pic-alb-polarization-index-and-generic-tori.md).
+
+- **POME-PIC-ALB-EXACT-PRODUCT-INDEX-001** — low / **verified conditional deduction**: for \(X=C_g\times\mathbb P^{n-1}\), \(g\ge1,n\ge2\), with integral Kähler form \(\omega=\alpha+k\beta\), the *actual* §10.80.4 map satisfies \(B\Lambda=-k^{n-1}\Gamma\) and exact lattice index \(k^{2g(n-1)}\). The induced Picard polarization has type \((k^{n-1})^g\), not necessarily principal. §10.79.11 is explicitly a conditional internal input. Printed Theorem 10.80.4 correct.
+- **POME-TORUS-INTEGRAL-H2-NONPOLARIZATION-001** — low / **verified conditional deduction**: a Baire-generic linear complex structure on \(\mathbb R^4/\mathbb Z^4\) has no nonzero integral \((1,1)\) class, despite six independent integral degree-two periods, and hence is nonprojective. Explicit isotropic complementary-plane argument establishes each nonzero lattice condition is proper in both orientation components. Printed Riemann-form criterion §10.80.2 and its minus-sign convention correct.
+- **Actual new coverage:** first selected independent proof/model review of §§10.80.2–4; §10.80.1 premise/context only, §10.79.11 and §§10.79.2/.4–5 plus §§10.65.1–2 used as internal lattice prerequisites, not certified. The original **25 chapters / 747 numbered ToC sections / zero complete section certifications** remain. No other old finding closed.
+- All dedicated Demailly approximation/regularization plus Bergman/L²/OT/multiscale/positivity-loss programmes remain **deferred-by-user** and untouched. No body/main/source/registry/site/tag/CI/build/formalization modification.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: exceptional divisor determinant volume and sharp strict-point vanishing
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [New source/tag/blob/physical-line report](reports/2026-10-29-exceptional-ac-volume-and-onepoint-strictness.md).
