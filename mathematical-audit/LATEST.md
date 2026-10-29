@@ -1,3 +1,14 @@
+# Latest mathematical audit checkpoint — 2026-10-29: projective-vertex vanishing, explicit jets, and geodesic time speed
+
+**Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Full mathematical report, stable source labels, physical lines, and scope](reports/2026-10-29-projective-vertices-jets-and-geodesic-time-speed.md).
+
+- **POME-PROJECTIVE-VERTICES-WALDSCHMIDT-EXACT-001** — low / **verified conditional deduction**: for the $n+1$ coordinate vertices in $\mathbb P^n$ ($n\ge2$), independently proved $\omega_t=\lceil (n+1)t/n\rceil$ and $\Omega=(n+1)/n$. The refined §9.56.4/.6 exceptional-locus inequality is **exactly attained** with $(X_0\cdots X_n)^k$ and zero fractional divisor. General analytic extension inputs NOT audited.
+- **POME-PROJECTIVE-JET-CRT-SHARP-001** — low / **verified conditional deduction**: first selected nonexcluded §10.39.1 projective model, explicit polynomial construction gives simultaneous $m$-jet interpolation for $N$ points with $k\ge N(m+1)-1$ on $\mathbb P^n$; threshold is **sharp for $\mathbb P^1$** by dimension. General printed $L^2$ proof remains deferred.
+- **POME-GEODESIC-FULL-TIME-LIPSCHITZ-001** — low / **verified conditional deduction**: §17.7.8 interval-restriction plus §17.7.9 endpoint bound give sharp $|G_t-G_s|\le C|t-s|$ on the common finite locus for endpoint distance $\le C$ q.e. Upstream existence and energy results not recertified.
+- **Actual coverage:** first selected independent nonexcluded §10.39.1 model; incremental selected §§9.56.1/.4/.6 and 17.7.8–9; first **navigation-only** subject headers §§9.54 and 10.38. Original **25 chapters / 747 numbered ToC sections / zero whole-section certifications**. No prior finding resolved; all dedicated Demailly approximation/regularization and Bergman/L²/OT/multiscale/positivity-loss work remains **deferred-by-user**. No main/source/site/registry/tag/build/CI/formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: irrational weighted-section semigroup and signed Bott–Chern mass
 
 **Reviewed main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Complete source-tag/physical-line report](reports/2026-10-29-irrational-weighted-sections-and-bc-signed-mass.md).
