@@ -1,6 +1,6 @@
 # Mathematical audit — 30 October 2026: a sharp tautological fiber threshold and an exceptional-divisor numerical dimension test
 
-**Reviewed production \`main\`:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Audit branch:** \`review/mathematical-audit\` (parent HEAD \`bba3ba534a2cb6f3aea42bd3931eaecd19cfaaec\` before this checkpoint). This is a selected mathematical review, **not** a certification of any whole section, external theorem, build, or published page.
+**Reviewed production `main`:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Audit branch:** `review/mathematical-audit` (parent HEAD `bba3ba534a2cb6f3aea42bd3931eaecd19cfaaec` before this checkpoint). This is a selected mathematical review, **not** a certification of any whole section, external theorem, build, or published page.
 
 ## Scope, evidence and exclusions
 
@@ -12,7 +12,7 @@ In accordance with the owner's explicit scope change, this audit **does not exam
 
 **Status:** low / **verified conditional deduction**; printed Lemma 10.108.1 remains correct. This is a sharpness example, **not a repair or a false theorem**.
 
-**Reading-edition location:** \`docs/sections/tautological-metrics-and-maximal-slopes/index.html\`, production blob \`313098e0ab266ca5696a16775bc5277539dfe889\`; Lemma **10.108.1**, source label \`C1E90EFE\`, permanent tag \`C0B465266C15\`, physical lines **12–16**, integrated proof lines **20–23**. Its dependent Theorem **10.108.2** has source label \`E0E0E4DB\` and permanent tag \`9CD904E0945C\`, lines **28–88**. The existing candidate **POME-TAUT-MODEL-METRIC-EXT-001** regarding a different open-to-compact metric extension remains *unresolved*; this calculation neither revisits nor closes it.
+**Reading-edition location:** `docs/sections/tautological-metrics-and-maximal-slopes/index.html`, production blob `313098e0ab266ca5696a16775bc5277539dfe889`; Lemma **10.108.1**, source label `C1E90EFE`, permanent tag `C0B465266C15`, physical lines **12–16**, integrated proof lines **20–23**. Its dependent Theorem **10.108.2** has source label `E0E0E4DB` and permanent tag `9CD904E0945C`, lines **28–88**. The existing candidate **POME-TAUT-MODEL-METRIC-EXT-001** regarding a different open-to-compact metric extension remains *unresolved*; this calculation neither revisits nor closes it.
 
 **Precisely tested hypotheses:** let \(r\ge2\), \(m\ge1\), \(\theta=c_1(\mathcal O_{\mathbf P^{r-1}}(1),h_{\rm FS})\), and let \(h\) be a singular metric on \(\mathcal O(1)\) with \(c_1(\mathcal O(1),h)\ge-\epsilon C\theta\) and \(m\epsilon C\le1\). The lemma gives a nonzero section of \(K_{\mathbf P^{r-1}}\otimes\mathcal O(m+N)\otimes\mathcal I(h^m)\) when \(N\ge r+1\).
 
@@ -51,7 +51,7 @@ Therefore its global sections vanish for **every \(N\le r\)** and are one-dimens
 
 **Status:** low / **verified conditional deduction** under the printed analytic-current/positive-product convention. This is a numerical test of the **correct** definition, not an error in Lemma 10.109.1 or Theorem 10.109.2.
 
-**Reading-edition location:** \`docs/sections/numerical-dimension-and-cotangent-quotients/index.html\`, production blob \`85538a5ba880030f432282e302a446a230ae15ec\`; \(\nu(a)\) and the \(\varepsilon\)-boundary convention, physical lines **8–23**; analytic-current supremum, lines **26–32**. Lemma **10.109.1**, source label \`5A937EA0\`, permanent tag \`636609E49628\`, lines **36–49**; Theorem **10.109.2**, source label \`71F4321F\`, permanent tag \`7E716F90C084\`, lines **54–69**, considered only as a downstream numerical-dimension user. The source labels of the two linked external-to-this-pass positive-mass/approximation inputs remain unaltered.
+**Reading-edition location:** `docs/sections/numerical-dimension-and-cotangent-quotients/index.html`, production blob `85538a5ba880030f432282e302a446a230ae15ec`; \(\nu(a)\) and the \(\varepsilon\)-boundary convention, physical lines **8–23**; analytic-current supremum, lines **26–32**. Lemma **10.109.1**, source label `5A937EA0`, permanent tag `636609E49628`, lines **36–49**; Theorem **10.109.2**, source label `71F4321F`, permanent tag `7E716F90C084`, lines **54–69**, considered only as a downstream numerical-dimension user. The source labels of the two linked external-to-this-pass positive-mass/approximation inputs remain unaltered.
 
 **Exact surface model and cohomology.** Let
 \[
@@ -111,7 +111,7 @@ where the zero-th positive product is positive by convention. This is compatible
 
 ## First direct selected coverage: §24.5, without solving an open problem
 
-**Location:** \`docs/sections/problems-in-hermitian-pluripotential-theory--closed-and-twisted-classes/index.html\`, main blob \`eed47dda4235b5db713fe1c6c6fcea777ee9b674\`, section tag \`B3F20D9F0DB0\`; physical line **10** contains the fixed-error, zero-class mass warning, referencing Proposition 10.15.1 (permanent tag \`FCA1263B1141\`). Other paragraphs at lines **13–34** were scanned only for the broad dependency map, not theorem proofs.
+**Location:** `docs/sections/problems-in-hermitian-pluripotential-theory--closed-and-twisted-classes/index.html`, main blob `eed47dda4235b5db713fe1c6c6fcea777ee9b674`, section tag `B3F20D9F0DB0`; physical line **10** contains the fixed-error, zero-class mass warning, referencing Proposition 10.15.1 (permanent tag `FCA1263B1141`). Other paragraphs at lines **13–34** were scanned only for the broad dependency map, not theorem proofs.
 
 **Verified local calculation:** if a Hermitian \(\omega\) has an unbounded smooth positive-potential mass family \(\int_X(\omega+dd^cu_j)^n\to\infty\), then at each fixed \(\varepsilon>0\), the smooth closed **exact** currents \(T_j=\varepsilon dd^cu_j\) satisfy \(T_j+\varepsilon\omega\ge0\) and
 \[
@@ -127,6 +127,6 @@ This checks the scaling used in the printed fixed-error warning *conditional on 
 
 - **New full selected computations:** Lemma 10.108.1 fiber threshold, §10.109 exceptional divisor degree-one positive mass; existing larger theorem chains remain conditional.
 - **First substantive selected check:** §24.5 line 10 fixed-error identity and the closed/Gauduchon surface comparison, without declaring the section reviewed in full.
-- **No new false theorem / no direct editing of mathematical source.** Two new low-severity **verified conditional deductions**; no historical issues were closed. Previous \`POME-TAUT-MODEL-METRIC-EXT-001\` candidate remains a candidate.
+- **No new false theorem / no direct editing of mathematical source.** Two new low-severity **verified conditional deductions**; no historical issues were closed. Previous `POME-TAUT-MODEL-METRIC-EXT-001` candidate remains a candidate.
 - **Unreviewed or deferred:** the rest of the 747 numbered sections beyond their precisely recorded excerpts, general positive-product equivalence and movable-slope external dependencies, all expressly deferred Demailly approximation/regularization and its Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme.
 - **Checks actually done:** read the integrated HTML text at pinned production blob SHAs, independently derive the listed algebra and measure inequalities, compare with existing stable ledger entries, and check the 747-section inventory. **Not done:** project build, Python/JavaScript tests, browser tests, GitHub Actions CI, source/registry/canonicalization/tag edits, main merge, website publication or formal proof verification.
