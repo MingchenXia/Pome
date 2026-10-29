@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-29: Radon sequential compactness and oscillatory mixed b-divisor intersections
+
+**Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Pinned integrated source labels, physical-line anchors and independent proofs](reports/2026-10-29-vague-sequential-compactness-and-oscillatory-mixed-bdivisor.md).
+
+- **POME-RADON-LOCAL-MASS-SEQUENTIAL-COMPACT-001** — low / **verified conditional deduction**: Theorem 2.7.3's positive locally bounded Radon-measure class is not only compact under Willard subnets: its vague topology is metrizable and every sequence has a convergent subsequence. A countable compact-support dense test family and an elementary diagonal extraction establish this under the original hypotheses. The printed theorem is correct.
+- **POME-BDIV-MIXED-OSCILLATION-POSITIVE-001** — low / **verified conditional deduction**: two big nef Cartier b-divisor sequences on \(\mathbb P^2\), individually of constant positive volumes \(1-a^2\) and \(1-b^2\), converge modelwise to the Cartier hyperplane b-divisor, but their mixed intersections alternate between \(1-ab\) and \(1\). This is separate from the existing printed **zero-volume** Example 20.1.9; Proposition 20.1.47's upper semicontinuity remains correct.
+- **Actual coverage:** selected proof/definition checks §§2.7.3 and 20.1.7/.9/.10–12/.39/.40/.41/.43/.45/.47/.49; navigation-only first inspection §§16.1/.2/.10 and 9.25. **25 chapters / 747 numbered sections / zero complete-section certifications**. Every old issue status unchanged; excluded approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss work remains **deferred-by-user**. No source/main/site/registry/build/CI/formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: lsc density viscosity criterion and divergent weak circle energies
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Exact source labels, main blob/physical-line anchors and complete arguments](reports/2026-10-29-lsc-bt-densities-and-circle-weak-energy.md).

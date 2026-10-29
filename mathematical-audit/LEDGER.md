@@ -1,3 +1,16 @@
+## 2026-10-29 — Sequential vague compactness and mixed b-divisor product oscillations
+
+**Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Exact tagged integrated statements and complete proofs](reports/2026-10-29-vague-sequential-compactness-and-oscillatory-mixed-bdivisor.md). Neither printed theorem is false; no prior issue is closed.
+
+| Stable finding ID | Severity / status | Anchors, precise result, proposed action and affected dependents |
+| --- | --- | --- |
+| **POME-RADON-LOCAL-MASS-SEQUENTIAL-COMPACT-001** | low / **verified conditional deduction** | §2.7.3, source <code>foundations-of-pluripotential-theory:5470287F</code>, tag <code>DF30CEF15D17</code>; <code>docs/sections/measures-and-distributions--nets-and-compactness/index.html</code>, main blob <code>7e4a226a48f88a97b3db1a8dd7d8582c909aeea1</code>, physical lines 53–69. The positive Radon-measure class with the printed common finite local cutoff bounds admits a countable determining set of test functions; its vague topology is metrizable and diagonal subsequences are vaguely relatively compact. Requires only internal positive Riesz theorem §2.3.3. Optional strengthening for positive-current compactness proofs with uniform local mass, not a claim for arbitrary spaces or signed measures. |
+| **POME-BDIV-MIXED-OSCILLATION-POSITIVE-001** | low / **verified conditional deduction** | §20.1 Def. 20.1.39 tag <code>BFB26AC5F975</code>, Prop. 20.1.47 source <code>sgpt:125DC222</code> tag <code>754B050BFA6C</code>; <code>docs/sections/the-theory-of-b-divisors/index.html</code>, main blob <code>4a793dfd462badcb351f54a36cb030cde14a399b</code>, physical lines 100–145, 737–851, 916–975. On \(\mathbb P^2\), big nef Cartier closures of \(H-aE_{p_j}\) and \(H-bE_{q_j}\), \(0<a,b<1\), have constant volumes \(1-a^2\) and \(1-b^2\), converge modelwise to \(\overline H\), yet their mixed intersections alternate \(1-ab,1\) as \(q_j=p_j\) or \(q_j\ne p_j\). Printed USC true. Optional caution near §20.1.47; not the old zero-volume Example 20.1.9 and not a repair to prior <code>POME-BDIV-001</code>. |
+
+**Coverage:** new selected proof-level deductions §§2.7.3, 20.1.7/.9/.10–12/.39/.40/.41/.43/.45/.47/.49; navigation-only page checks §§16.1/.2/.10, 9.25. **25 chapters / 747 numbered sections / 0 complete-section certifications**. Old confirmed errors, gaps, conditional repairs and external inputs all retain previous status. Excluded Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss programme remains **deferred-by-user**, not checked or certified; no main/source/registry/site/CI/build/formalization modification.
+
+---
+
 ## 2026-10-29 — lsc Bedford–Taylor densities and divergent energies under weak convergence
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Exact hypotheses, proof, physical lines, source labels and permanent tags](reports/2026-10-29-lsc-bt-densities-and-circle-weak-energy.md). No new false printed theorem or closure of old findings.
