@@ -1,6 +1,6 @@
 # Latest mathematical audit checkpoint — 2026-10-29: lsc density viscosity criterion and divergent weak circle energies
 
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Exact source labels, main blob/physical-line anchors and complete arguments](reports/2026-10-29-lsc-bt-densities-and-circle-weak-energy.md).
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Exact source labels, main blob/physical-line anchors and complete arguments](reports/2026-10-29-lsc-bt-densities-and-circle-weak-energy.md).
 
 - **POME-BT-LSC-VISCOSITY-EXTENSION-001** — low / **verified conditional deduction**: Proposition 7.8.3's measure/upper-test/distributional equivalence and convolution estimate extend from continuous densities to finite nonnegative **lsc and locally integrable** densities, using explicit increasing Lipschitz minorants. The bounded upper-semicontinuous point spike \(f=\mathbf1_{\{x_0\}}\), \(u=0\), shows no such **pointwise** equivalence for arbitrary Borel/USC representatives. The original printed proposition is correct.
 - **POME-CLASS-CIRCLE-WEAK-ENERGY-DIVERGENCE-001** — low / **verified conditional deduction**: normalized arclength on a radius-\(R\) circle has logarithmic capacity exactly \(R\); atomless finite-energy arc measures \(\mu_N\rightharpoonup\mu\) can nevertheless satisfy \(I_D(\mu_N)\ge N/(2\pi)+O(1/N)\to\infty\). Theorem 4.1.7 correctly uses energy **lower** semicontinuity; weak convergence alone does not give energy convergence.

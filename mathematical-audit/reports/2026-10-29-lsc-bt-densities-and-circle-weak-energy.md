@@ -1,7 +1,7 @@
 # Mathematical audit — 2026-10-29: lower-semicontinuous Bedford–Taylor densities and divergent weak circle energies
 
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-**Starting audit branch:** \`7f56dc9b075c505d2ada70d5bcbc35e1c0725795\`.
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+**Starting audit branch:** `7f56dc9b075c505d2ada70d5bcbc35e1c0725795`.
 **Scope:** selected integrated proof/statement passages in §§7.8.1–4, 7.8.6–8, 4.1.1–7, with a consistency check of the precise locality and compact-cutoff steps in §§7.6.1–2. This is **not** a whole-section or upstream proof-chain certification. All user-excluded Demailly approximation/regularization and its dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss proof programme remain **deferred-by-user**, not resolved. The work below contains no such programme.
 
 ## Findings at a glance
@@ -15,7 +15,7 @@ Neither finding is a false printed theorem, a closed historical error, a complet
 
 ## 1. POME-BT-LSC-VISCOSITY-EXTENSION-001
 
-**Integrated anchor:** \`docs/sections/bedford-taylor-products-and-local-capacity--density-lower-bounds-and-mixed-products/index.html\`, **main blob** \`0284d93a0ac26e28746e95afda5e6875f9feaba3\`, physical lines **114–181**, especially original Proposition 7.8.3 at 114–129, the upper-test/comparison argument at 133–156, distributional and convolution arguments at 158–178. **Source identifier:** \`foundations-of-pluripotential-theory:183E5B3C\`; **permanent Pome tag:** \`EB2AFC8FB17C\`. Supporting original Lemmas 7.8.1–2: source \`2844C025\` / tag \`BB19C89586B1\` (lines 22–63) and source \`2D6E0212\` / tag \`1BE242B641AA\` (lines 65–97). Mixed-corollary dependencies: 7.8.4 \`EADDEAF9FAD9\`, 7.8.6 \`91F43DBA51F0\`, 7.8.8 \`142C8110B540\`.
+**Integrated anchor:** `docs/sections/bedford-taylor-products-and-local-capacity--density-lower-bounds-and-mixed-products/index.html`, **main blob** `0284d93a0ac26e28746e95afda5e6875f9feaba3`, physical lines **114–181**, especially original Proposition 7.8.3 at 114–129, the upper-test/comparison argument at 133–156, distributional and convolution arguments at 158–178. **Source identifier:** `foundations-of-pluripotential-theory:183E5B3C`; **permanent Pome tag:** `EB2AFC8FB17C`. Supporting original Lemmas 7.8.1–2: source `2844C025` / tag `BB19C89586B1` (lines 22–63) and source `2D6E0212` / tag `1BE242B641AA` (lines 65–97). Mixed-corollary dependencies: 7.8.4 `EADDEAF9FAD9`, 7.8.6 `91F43DBA51F0`, 7.8.8 `142C8110B540`.
 
 **Exact extension.** Let \(\Omega\subset\mathbb C^n\) be open, \(u\in\operatorname{PSH}(\Omega)\cap L^\infty_{\mathrm{loc}}(\Omega)\), and let \(f:\Omega\to[0,\infty)\) be finite, lower semicontinuous and locally integrable. Put \(\eta=\mathrm{dd}^{\mathrm c}|z|^2\), \(\mathcal H(q)=(q_{j\bar k})\), and \(L_Bq=\operatorname{tr}(B\mathcal H(q))\), \(B>0\), \(\det B=1\). Then the following are equivalent:
 
@@ -47,7 +47,7 @@ From (1), its measure inequality for each \(f_j\) gives (2) and (3) for \(f_j\);
 
 ## 2. POME-CLASS-CIRCLE-WEAK-ENERGY-DIVERGENCE-001
 
-**Integrated anchor:** \`docs/sections/potentials-energy-and-capacity/index.html\`, **main blob** \`4962a7cd576a64cb47fa0955dcc80cf87c3da9d1\`, physical lines **21–47** (kernel and energy normalization), **187–239** (Theorem 4.1.7 and the proof of existence/uniqueness), especially lines 198–220 (weak convergence and lower-semicontinuity). **Source:** \`foundations-of-pluripotential-theory:A35EEAC5\`; **permanent tag:** \`AA43DD93EFE4\`. The positive-definite finite-energy signed-pairing input is Proposition 4.1.5, source \`DF3A6DB5\`, tag \`09A0D05A868F\`, physical lines 98–184. This calculation is separate from the earlier polar-Cantor weak/TV model finding: *all approximants here are atomless and have individually finite logarithmic energy; their energies diverge*.
+**Integrated anchor:** `docs/sections/potentials-energy-and-capacity/index.html`, **main blob** `4962a7cd576a64cb47fa0955dcc80cf87c3da9d1`, physical lines **21–47** (kernel and energy normalization), **187–239** (Theorem 4.1.7 and the proof of existence/uniqueness), especially lines 198–220 (weak convergence and lower-semicontinuity). **Source:** `foundations-of-pluripotential-theory:A35EEAC5`; **permanent tag:** `AA43DD93EFE4`. The positive-definite finite-energy signed-pairing input is Proposition 4.1.5, source `DF3A6DB5`, tag `09A0D05A868F`, physical lines 98–184. This calculation is separate from the earlier polar-Cantor weak/TV model finding: *all approximants here are atomless and have individually finite logarithmic energy; their energies diverge*.
 
 **Exact model.** Fix \(R>0\), \(K=\{z\in\mathbb C:|z|=R\}\), and the printed logarithmic scale \(D>2R=\operatorname{diam}K\). Write
 \[
