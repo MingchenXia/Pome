@@ -1,12 +1,12 @@
 # Sharpness of the bounded Monge–Ampère \(L^1\)-to-\(L^\infty\) stability exponent — 2026-10-29
 
-**Pinned production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Audit branch:** \`review/mathematical-audit\`. This is a selected nonexcluded mathematical check, not a certification of the full comparison/domination machinery or the section. No source text, permanent tag, or published site is changed.
+**Pinned production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Audit branch:** `review/mathematical-audit`. This is a selected nonexcluded mathematical check, not a certification of the full comparison/domination machinery or the section. No source text, permanent tag, or published site is changed.
 
 ## POME-PRESMA-STABILITY-EXPONENT-SHARP-001
 
 **Severity / status:** low / **verified conditional deduction** (a fully computed obstruction to strengthening the *printed* estimate; the printed theorem is **correct**). This result is not a counterexample to Theorem 15.4.1 because that theorem assumes the strictly smaller exponent.
 
-**Integrated anchor:** \`docs/sections/equations-with-prescribed-singularities--a-quantitative-stability-estimate/index.html\`, main blob \`f0c16c8d03d6175fd285bfbc1fc3a6af96cf6d8a\`, physical lines **10–28** (hypotheses and exponent of Theorem **15.4.1**), **33–87** (printed proof and its \(q\downarrow1\) exponent), **93–107** (Corollary **15.4.3**). The theorem has source identifier \`non-kahler-pluripotential-theory:D2BDFCB4\` and permanent tag \`72397EB33655\`; the section tag is \`B4FB50E0C9DE\`. The current section states \(p>1\) and a smooth semipositive big \(\theta\). We take a strictly positive \(\theta\), a special admissible case.
+**Integrated anchor:** `docs/sections/equations-with-prescribed-singularities--a-quantitative-stability-estimate/index.html`, main blob `f0c16c8d03d6175fd285bfbc1fc3a6af96cf6d8a`, physical lines **10–28** (hypotheses and exponent of Theorem **15.4.1**), **33–87** (printed proof and its \(q\downarrow1\) exponent), **93–107** (Corollary **15.4.3**). The theorem has source identifier `non-kahler-pluripotential-theory:D2BDFCB4` and permanent tag `72397EB33655`; the section tag is `B4FB50E0C9DE`. The current section states \(p>1\) and a smooth semipositive big \(\theta\). We take a strictly positive \(\theta\), a special admissible case.
 
 **Claim.** For every complex dimension \(n\ge1\), every \(1<p<\infty\), and every
 \[
