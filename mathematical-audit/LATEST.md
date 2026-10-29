@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-29: conformal Kähler Hessian comparison and irreducible nodal cubic
+
+**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Two source-tagged complete model arguments](reports/2026-10-29-conformal-hessian-mass-and-irreducible-nodal-cubic.md).
+
+- **POME-HESS-CONFORMAL-KAHLER-MASS-001 — low / verified conditional deduction.** New direct selected inspection of Theorem 8.13.4 and Example 8.13.5 (with actual standing assumption 2 <= m < n). For any compact Kähler (X,beta), n>=3, and arbitrary smooth conformal Hermitian omega=e^phi beta, unmodified m-Hessian comparison for every allowed m holds **iff phi is constant**. If nonconstant, the single f=e^((n-1)phi) has strictly negative mass derivative in every intermediate degree; u=t f and a constant larger than u violate the mass comparison on the whole X. All printed results correct; no upstream bounded-current or modified comparison proof recertified.
+- **POME-NORM-IRREDUCIBLE-NODAL-CUBIC-001 — low / verified conditional deduction.** New selected §9.4.6/.9/.10 inspection: the projective *irreducible* nodal cubic Y²Z=X²(X+Z) has P¹ normalization by explicit cubic homogeneous forms, two points over its node, local delta invariant 1 and an explicit conductor ideal. Global irreducibility is not local unibranchness. Distinct from the previous coprime monomial cusp model; printed normalization/unibranch statements correct.
+- **Actual coverage:** selected §§8.1, 8.13.4–5, 9.4.6/.9/.10; §§8.9–12, 8.13.3/.8–.12 and 9.3/9.5 only necessary context, not fully certified. **25 chapters / 747 numbered ToC sections / zero complete-section certificates.** All old confirmed errors, gaps and dependencies unchanged. Demailly approximation/regularization and its dedicated Bergman/L²/OT/multiscale/positivity-loss programme remain **deferred-by-user**; no main/source/site/CI/formalization edits.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: sharp finite-p Monge–Ampère stability exponent
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete project-tagged proof](reports/2026-10-29-prescribed-ma-stability-sharp-exponent.md).
