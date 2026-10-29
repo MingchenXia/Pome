@@ -1,3 +1,16 @@
+## 2026-10-29 — Conformal Kähler Hessian comparison and globally irreducible nodal cubic
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Complete independently derived examples, permanent tags, main HTML blobs and physical-line anchors](reports/2026-10-29-conformal-hessian-mass-and-irreducible-nodal-cubic.md). Previous findings are **not** withdrawn or changed.
+
+| Stable finding ID | Severity / status | Exact anchor, hypotheses, proof, correction and dependents |
+| --- | --- | --- |
+| **POME-HESS-CONFORMAL-KAHLER-MASS-001** | low / **verified conditional deduction**, printed theorem correct | §8.1 standing 2<=m<n, \`docs/sections/complex-hessian-equations/index.html:7\`; Theorem 8.13.4 tag \`53F870DE5980\`, Example 8.13.5 tag \`0DB9D80DE230\`, section tag \`B908310EE8A2\`, \`docs/sections/complex-hessian-equations--hessian-mass-and-global-comparison/index.html\`, blob \`580d3bc2b10ebd01d880b2a31fc6930436570aac\`, physical lines 70–121 and 129–150, source \`non-kahler-pluripotential-theory\`. For any compact connected Kähler (X,beta), n>=3, omega=e^phi beta with phi nonconstant, f=e^((n-1)phi) has for all 2<=m<n: P_m'(0)=m int_X dd^c f wedge omega^(n-1) = -m int_X df wedge d^c f wedge beta^(n-1)<0. Choose one sufficiently small t>0, u=tf strictly admissible for every m, and C>sup u: {u<C}=X but H_m(C)(X)>H_m(u)(X), violating ordinary comparison. Conversely phi constant means omega Kähler, so §8.13.4 gives comparison. Optional example only; affects §8.13.3/.4, does **not** contradict modified §8.13.8. Bounded current calculus stays conditional. |
+| **POME-NORM-IRREDUCIBLE-NODAL-CUBIC-001** | low / **verified conditional deduction**, original normalization theorem correct | Theorem 9.4.6 tag \`12A47DB401E2\`, Cor. 9.4.9 tag \`EE1633042D3D\`, Example 9.4.10 tag \`60A14C7A1845\`, section tag \`C16A2F5D9879\`, \`docs/sections/complex-spaces-and-modifications--reduced-spaces-and-normalization/index.html\`, blob \`06439f43d1ce8e83d2529682c9a630bffa3d9c22\`, lines 142–163,185–192,197–200, source \`foundations-of-pluripotential-theory\`. Irreducible projective cubic Y²Z=X²(X+Z) normalized by [S:T] -> [S(T²−S²):T(T²−S²):S³]; two preimages [1:±1] over node P; local analytic change w=y/sqrt(1+x) gives (w−x)(w+x)=0. The normalization local ring is C{x}⊕C{x}, curve ring is equal-constant pairs, their quotient has dimension 1, conductor equals pairs vanishing on both branches. Thus irreducible global curve need not be unibranch. Optional example after §9.4.10, not a duplicate of \`POME-NORM-MONOM-CONDUCTOR-001\`. |
+
+**Scope:** selected new proof/statement inspection §§8.1,8.13.4/.5,9.4.6/.9/.10 only; local Hessian convergence §8.9–12 and nearby normalization results context only. No full theorem-chain or section certification; existing ToC **25 chapters / 747 sections / 0 complete section certificates**. Dedicated Demailly/regularization/Bergman/L²/OT/multiscale/positivity-loss stays **deferred-by-user**. No main/source/registry/site/build/CI/formalization changes.
+
+---
+
 ## 2026-10-29 — Optimal supremum of the prescribed-MA stability exponent
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Source/tag/blob anchored complete proof](reports/2026-10-29-prescribed-ma-stability-sharp-exponent.md). Previous ledger classifications remain unchanged.
