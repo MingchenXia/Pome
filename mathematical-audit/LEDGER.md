@@ -1,3 +1,16 @@
+## 2026-10-29 — Hopf toric moment-map volume and Hermitian mass on higher-dimensional projective products
+
+**Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Dated complete calculations and precise caveats](reports/2026-10-29-toric-moment-measure-and-projective-hermitian-mass.md). No new false theorem, closed prior proof gap, or full-section certification.
+
+| Stable finding ID | Severity / status | Integrated source, mathematical justification, proposed change and affected dependents |
+| --- | --- | --- |
+| **POME-HOPF-TORIC-MOMENT-PUSHFORWARD-001** | low / **verified conditional deduction** | §21.14.8, source <code>non-kahler-pluripotential-theory:7515BE71</code>, permanent <code>F23340CADBE0</code>; <code>docs/sections/hopf-fibrations-and-toric-potentials/index.html</code>, main blob <code>0e83de13efbd70dfddc64a8eed40baed2d4359c5</code>, physical lines 141–201; §21.14.4 source <code>8A7CCCFA</code> / permanent <code>94243AEE3360</code>, lines 61–106. For smooth toric \(k\sigma+\mathrm{dd}^{\mathrm c}v>0\), Hessian and angle-form computation proves the pushforward density \((n-1)!\) on the affine-coordinate simplex \(\Delta_k\), total \(k^{n-1}\). The original Hopf fiber integral supplies \(2n\). Optional explicit normalization corollary; retain distinct valid §21.12 version. Affects §§21.12/14, 19.9, 23.1. |
+| **POME-HERM-PROJECTIVE-MASS-ALLDIM-001** | low / **verified conditional deduction** | §§11.1.5/.12/.13/.16–18, source <code>non-kahler-pluripotential-theory:028A9E19</code>, permanent <code>F336FEED9D87</code>; eq source <code>F1D489BD</code>, permanent <code>914CB776FFB8</code>; <code>docs/sections/torsion-and-the-variation-of-mass/index.html</code>, blob <code>9abec9685e33a1b40f9c0765381408eb52b325d3</code>, lines 68–96 and 208–294. Elementary bidegree selection on \(E^2\times Y^{n-2}\) yields mass \(\binom n2(4-\pi^2t)BV\), strict positivity for \(|t|<\pi^{-2}\), and a global comparison counterexample for \(t<0\) after a constant shift. For \(Y=\mathbb P^{n-2}\) the manifold is projective, but the **chosen background remains nonclosed**. Optional all-dimensional extension; affects §§11.1, 14.19/25. |
+
+**Coverage:** first direct selected §21.14.6–8 and new selected §11.1.11–18 product calculation; exact formula checks §11.1.4–5, §21.14.4. §21.12 comparison only. **25 / 747 / 0 complete certifications**, all prior statuses retained. §11.1.7 bounded-potential reduction via §5.32.1 noted only as **deferred-by-user**, with the entire dedicated Demailly approximation/regularization/Bergman/L²/OT/multiscale/positivity-loss programme untouched. No source/main/site/registry/tag edits or tests/build/CI/formal verification.
+
+---
+
 ## 2026-10-29 — Hölder density thresholds and full exceptional-divisor flag semigroup
 
 **Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Precise integrated-source/physical-line report](reports/2026-10-29-holder-sublevel-and-exceptional-flag-body.md). Two **low / verified conditional deductions**, no false printed theorem or newly resolved prior issue.

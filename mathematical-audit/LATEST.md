@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-29: toric simplex moment measure and projective Hermitian mass in all dimensions
+
+**Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Exact integrated anchors, hypotheses and independent proofs](reports/2026-10-29-toric-moment-measure-and-projective-hermitian-mass.md).
+
+- **POME-HOPF-TORIC-MOMENT-PUSHFORWARD-001** — low / **verified conditional deduction**: for smooth strictly positive toric \(k\sigma+\mathrm{dd}^{\mathrm c}v\) on \(\mathbb P^{n-1}\), the §21.14.8 logarithmic-gradient map pushes its top power forward to \((n-1)!\,\mathrm dp_1\cdots\mathrm dp_{n-1}\) on the open affine simplex of size \(k\), with total mass \(k^{n-1}\). For the original \(k=1\) Hopf background, the fiber factor is exactly \(2n\); more general \(k\alpha+\zeta\) is distinguished as a derived background. The printed statements remain correct; not a duplicate of the broader §21.12 toric dictionary.
+- **POME-HERM-PROJECTIVE-MASS-ALLDIM-001** — low / **verified conditional deduction**: the nonclosed two-torus Hermitian example of §11.1.12 times any compact Kähler \((n-2)\)-fold has exact smooth-potential mass \(\binom n2(4-\pi^2t)BV\). Taking a projective factor yields comparison failure on a projective manifold of **every** complex dimension \(n\ge2\), because the chosen background is nonclosed. Direct elementary product calculation, not a new surface example or an allegation that Kähler comparison fails.
+- **Actual coverage:** first selected proof scrutiny §21.14.6–8 and selected all-dimensional extension of §11.1.11–18; selected formula checks §11.1.4–5; §21.14.4 normalization checked; §21.12.8/13 and related sections are context only. **25 chapters / 747 numbered ToC sections / zero complete section certifications**. No prior finding closed; all user-excluded approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss work stays **deferred-by-user**; its §5.32.1 dependency was noted but not reopened. No production edits, tests, CI, build, or publication.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: Hölder sublevels and exact exceptional-flag Okounkov body
 
 **Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Full anchored report with hypotheses and complete calculations](reports/2026-10-29-holder-sublevel-and-exceptional-flag-body.md).
