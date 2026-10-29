@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-30: sharp Kähler adjoint total-variation stability
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete new proof and pinned source anchors](reports/2026-10-30-kahler-adjoint-tanh-stability-and-boundary-distance.md).
+
+- **POME-KAHLER-ADJOINT-TANH-TV-001 — low / verified conditional deduction.** For a fixed closed Kähler background, continuous log density F and smooth probability dV, the normalization functional has the explicit analytic formula B_0(F)=log M-log ∫exp(F)dV; its unique supporting probability is nu_F=exp(F)dV/∫exp(F)dV, with Hessian minus the covariance. New exact universal sharp stability: dual TV norm of nu_F-nu_G is at most 2 tanh(osc(G-F)/4), and at most ||F-G||_infinity. Optimality holds by two-level densities approximated by smooth functions. **No general Hermitian uniqueness claim:** Conjecture 24.7.1 remains open.
+- **First selected §24.6–7 review:** §24.7.1 benchmark and sign of supporting Eq. 11.34.1; §24.6.1 and the degree-one root-volume radial isometry in Proposition 12.6.1 checked at selected steps only. The general completion problem 24.6.1 remains open; no entire theorem dependency chain verified.
+- **Actual scope:** 25 current chapters / 747 distinct numbered ToC sections / zero entire-section certifications. All historical unresolved/deferred items unchanged. Demailly approximation/regularization and dedicated Bergman, L², Ohsawa–Takegoshi, multiscale atlas and positivity-loss proof programme remain **deferred-by-user**, neither reopened nor certified. Audit Markdown only: no production, source, tag, registry, site, CI, build or formal-verification changes.
+
+---
 # Latest mathematical audit checkpoint — 2026-10-30: sharp tautological fiber nonvanishing and exceptional numerical dimension
 
 **Pinned production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [English proof, permanent tags and physical anchors](reports/2026-10-30-tautological-fiber-sharpness-and-exceptional-numerical-dimension.md).
