@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-29: Hölder sublevels and exact exceptional-flag Okounkov body
+
+**Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Full anchored report with hypotheses and complete calculations](reports/2026-10-29-holder-sublevel-and-exceptional-flag-body.md).
+
+- **POME-DEGEN-HOLDER-SUBLEVEL-001** — low / **verified conditional deduction**: the square-root connectivity/uniqueness criterion of §14.21.13 extends to $C^{1,\alpha}$ nonnegative densities, $0<\alpha<1$, with sharp topological threshold $\operatorname{Vol}\{f\le t\}=o(t^{1/(1+\alpha)})$ (liminf suffices). In the hypotheses of §14.21.3, even $C^{1,1}$ potentials suffice. A flat torus density achieves exactly $2/\pi$ times the critical power while its positive set is disconnected. This is **not** a Monge–Ampère nonuniqueness example; the maximum-principle theorem remains an unrecertified internal input.
+- **POME-BLOWUP-EXCEPTIONAL-FLAG-OKO-001** — low / **verified conditional deduction**: for $\operatorname{Bl}_p\mathbb P^2$, $L=aH+bE$, $a,b\ge1$ integers, flag $E\supset\{q\}$, all degree-$m$ valuations are precisely $(mb+k,j)$ with $0\le j\le k\le ma$. Its saturated degree-one-generated semigroup yields a translated triangle of area $a^2/2$, independently of $b$; this adds **valuation information**, not a repeat of the previously registered exceptional-volume calculation.
+- **Actual coverage:** incremental selected, nonexcluded proof calculations in §§14.21.3/.13 and 19.9.1/.2/.5–7. §§14.20, 19.7 are context only. **25 chapters / 747 numbered ToC sections / zero complete-section certifications**. Previous ledger statuses unchanged; excluded Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss tasks remain **deferred-by-user**. No production or publication changes, CI, build, or formal verification.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: projective-vertex vanishing, explicit jets, and geodesic time speed
 
 **Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Full mathematical report, stable source labels, physical lines, and scope](reports/2026-10-29-projective-vertices-jets-and-geodesic-time-speed.md).
