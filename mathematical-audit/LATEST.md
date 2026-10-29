@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-29: Schwarz quadratic jets and Gauduchon equation-alias rendering
+
+**Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Pinned integrated source labels, physical-line anchors and complete selected proofs](reports/2026-10-29-schwarz-quadratic-jet-and-gauduchon-equation-alias.md).
+
+- **POME-SCHWARZ-QUADRATIC-JET-MEAN-001 — low / verified repair of selected proof step only.** In §9.17.1, the quadratic real Taylor jet of a C² function <code>v=exp(h)</code> with a PSH pole admits no pure holomorphic quadratic terms. Bounded subharmonic removal and the *circle sub-mean property* alone establish this, eliminating the printed proof's nonthin-segment input. Proposition 9.17.1 itself is not false, and its remaining Green/leafwise dependencies are not certified.
+- **POME-GAUD-SECONDVAR-EQ-ALIAS-NESTED-001 — medium / confirmed reading-edition integration error, not a false PDE claim.** §12.4.1 correctly prints both rows of (12.4.2)–(12.4.3), but its section tail duplicates row (12.4.3) inside an illegal nested <code>aligned</code>/<code>align</code> display; the permanent equation (12.4.3) standalone page contains the same malformed fragment. The source tags and intended second-variation mathematics are valid. Propose canonical row aliases and legal standalone rendering in a separate patch.
+- **Actual coverage:** new selected §9.17.1 jet proof; incremental §12.4.1–4 equation/normalization audit; §§9.33, 10.42 **navigation-only**, with no substantive mathematical statements on their index pages. Original **25 chapters / 747 numbered ToC sections / zero entire-section certifications**; previous issues remain unchanged and dedicated Demailly approximation/regularization with Bergman/L²/OT/multiscale/positivity-loss completion stays **deferred-by-user**. Read-only three-page exact text checks performed; no builds, browser tests, CI, main/source/site/registry/formalization edits.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: Radon sequential compactness and oscillatory mixed b-divisor intersections
 
 **Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Pinned integrated source labels, physical-line anchors and independent proofs](reports/2026-10-29-vague-sequential-compactness-and-oscillatory-mixed-bdivisor.md).
