@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-30: Hausdorff loss under nuclear-module base change; new §§24.8–24.9 problem inventory
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full anchored elementary proof and problem quantifier audit](reports/2026-10-30-relative-nuclear-basechange-hausdorff-loss.md).
+
+- **POME-RELNUC-BASECHANGE-HS-LOSS-001 — low / verified conditional deduction, printed Lemma 9.46.3 correct.** A one-term B-nuclear endomorphism on the disk algebra B has **Hausdorff one-dimensional** original cokernel B/zB. Continuous extension of scalars to smooth functions C on a closed interval through z→h=exp(-1/x²) gives the cyclic **non-Hausdorff** cokernel C/hC. Its ideal closure is exactly the flat functions at zero; the quotient is infinite-dimensional over the complex numbers. Distinct from the earlier example that already had a non-Hausdorff original cokernel. Theorem 9.46.5 and downstream §9.47 must not infer Hausdorffness from finite generation; no printed result disproved.
+- **First selected statement-level §24.8.4 / §24.9.1 checks:** isolated the full topology/analytic-closure requirement and the “every divisor on every modification” realization quantifier. Open questions remain open, and cited regularization/approximation material was not reviewed.
+- **Actual scope:** §9.46.3 exact model and relevant §9.46.5 statement; previously unreviewed §§24.8.3–4 and 24.9.1 *problem/hypothesis* inventory only. **25 chapters / 747 numbered ToC entries / zero entirely certified sections**. Historical statuses unchanged. Excluded Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss programme stay **deferred-by-user**. Audit Markdown only; no main, source, site, tests/build, CI, or formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-30: irrational null-leaf closures and a Hartogs coefficient criterion beyond maximal continuation
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete new independent calculations and exact integrated anchors](reports/2026-10-30-irrational-null-leaf-closures-and-hartogs-coefficients.md).
