@@ -1,3 +1,14 @@
+## 2026-10-29 — Optimal supremum of the prescribed-MA stability exponent
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Source/tag/blob anchored complete proof](reports/2026-10-29-prescribed-ma-stability-sharp-exponent.md). Previous ledger classifications remain unchanged.
+
+| Stable finding ID | Severity / status | Exact anchor, hypotheses, proof and proposed action |
+| --- | --- | --- |
+| **POME-PRESMA-STABILITY-EXPONENT-SHARP-001** | **low / verified conditional deduction**; printed theorem **correct** | **Theorem 15.4.1**, source `non-kahler-pluripotential-theory:D2BDFCB4`, tag `72397EB33655`, section tag `B4FB50E0C9DE`; integrated `docs/sections/equations-with-prescribed-singularities--a-quantitative-stability-estimate/index.html`, main blob `f0c16c8d03d6175fd285bfbc1fc3a6af96cf6d8a`, lines 10–28, 33–87; Cor. 15.4.3 lines 93–107 for dependents only. For each n≥1, p>1 and any η>(p−1)/(np+p−1), choose β∈(2−2/p,2) with β/(β+2n)<η, and a fixed small θ-psh cusp minimum `u=−λg+Aχ|z|^β` on P^n (`θ=ω_FS`, `g=|Z₀|²/Σ|Z_j|²`). Local Hessian determinant `f∼|z|^{n(β−2)}` is L^p; `v_δ=max(u,−λ+δ)≤0` has sup excess δ while its L¹ excess is asymptotic to `J(0) Vol(B_1^{2n}) β A^(−2n/β)/(2n+β) · δ^(1+2n/β)`. Therefore the hypothetical larger exponent fails even for fixed u/f and fixed norm bounds. β=2 gives smooth bounded-density ceiling 1/(n+1). The theorem's strict range is optimal **as a supremum**, endpoint unknown. Optional sharpness remark only, **no source patch**. Affected: Cor. 15.4.3, later regularity estimates dependent on stability (dedicated regularization portions of §§15.5–15.6 remain excluded). |
+
+**Scope:** independent nonexcluded selected §15.4.1 proof/threshold check, not whole theorem-chain or entire section certification; 25/747/0 unchanged. All previous errors/gaps and **deferred-by-user** Demailly/Bergman/L²/OT/multiscale/positivity-loss remain intact. No CI/build/publication.
+
+---
 ## 2026-10-29 — Dense non-locally-finite divisors, moving-pole Lelong strictness, and filled ellipse capacity
 
 **Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Source-tagged/physical-line report and complete explicit-model proofs](reports/2026-10-29-dense-divisors-moving-lelong-and-ellipse-capacity.md). All three findings are **low / verified conditional deduction**; the underlying printed theorems remain correct and previous ledger statuses stay unchanged.
