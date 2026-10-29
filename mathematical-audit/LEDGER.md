@@ -1,3 +1,17 @@
+## 2026-10-29 — one new mixed real-Monge–Ampère observation; pre-existing Bochner defects not recounted
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [English report, exact proof, stable source IDs and physical-line anchors](reports/2026-10-29-hermitian-bochner-aliases-and-mixed-toric-escape.md). All previous resolved/unresolved/deferred findings retain their old statuses.
+
+| Stable ID | Severity / status | Pinned evidence, hypotheses, proof and disposition |
+| --- | --- | --- |
+| **POME-TORIC-MIXED-ESCAPE-001** | low / **verified conditional deduction**; printed theorem correct | Integrated §21.5 at **docs/sections/convex-analysis-and-toric-potentials--the-real-monge-ampere-measure/index.html**, main blob **7089aa41ae2422b1bd6b5094e46668cbc8ed37be**, Theorem **21.5.1** source **foundations-of-pluripotential-theory:4A0FAEB3**, permanent **409656CC47D4**, physical lines **11–42**; Thm. **21.5.2** source **6403CF44**, tag **F4072D9ED060**, lines **44–85**; original one-variable Example **21.5.3** source **87E8B742**, tag **6BCC82ADB7C7**, lines **90–97**; mixed Proposition **21.5.4** source **EAD83A50**, tag **5D8A7A7D734E**, lines **99–158**; Eq. **21.5.5** source **24CC29A7**, tag **D38381F0AC43**, lines **143–148**. For \(n\ge2\), finite convex \(F_i=a_i(x_i-c_i)_+\), \(a_i>0\), any proper-subset sum has lower-dimensional slopes and zero \(n\)-dimensional Alexandrov measure, while the full sum has only the point mass \(n!(\prod_i a_i)\delta_c\). The exact \(1/n!\) polarization gives \(\operatorname{MA}_{\mathbb R}(F_1,\ldots,F_n)=(\prod_i a_i)\delta_c\). Set \(c_1=\cdots=c_{n-1}=0,c_n=j\to\infty\): **only one** mixed-MA argument tends locally uniformly to zero, but mixed mass of fixed positive size \(\prod_i a_i\) escapes to infinity; vague convergence holds, narrow convergence fails. Optional distinct genuinely mixed example, not a false theorem or a full continuity-proof verification. Dependents §21.5.2/.4, toric mixed-volume applications. |
+
+**Not new:** §11.48's invalid five permanent equation aliases and its independent U+201D double-prime corruptions have existed in the ledger since **2026-10-25**, with exact IDs **POME-HERM-BOCHNER-EQUATION-ALIASES-001** and **POME-HERM-BOCHNER-DOUBLEPRIME-001** ([prior report](reports/2026-10-25-hermitian-affine-background-scaling-and-bochner-equation-aliases.md)); this session merely rechecked those same production bytes and added a conditional formal-adjoint/conformal-metric sanity calculation. They remain unresolved, **not repaired**, and are **not counted as new discoveries or new section visits**. §11.5 Gauduchon trace/AGM checks are contextual only.
+
+**Actual coverage:** incremental new calculation in previously partly audited §21.5; historical recheck of §11.48; contextual selected §11.5. **25 current chapters / 747 numbered ToC sections / zero complete-section certificates**. All excluded Demailly approximation/regularization and its dedicated Bergman/L²/OT/multiscale/positivity-loss work remains **deferred-by-user**. No mathematical bodies, source, proof registry, tags, main, site, build, CI, formal verification or merges touched.
+
+---
+
 ## 2026-10-29 — Full-lattice Okounkov semigroups and sharp finite-family convex envelope hypotheses
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full English proof, exact integrated tags, main blob SHAs and physical-line anchors](reports/2026-10-29-full-lattice-conductor-isometry-and-infinite-convex-envelopes.md). Previous ledger findings remain unchanged.
