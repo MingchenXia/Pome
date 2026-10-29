@@ -1,3 +1,14 @@
+# Latest mathematical audit checkpoint — 2026-10-29: irrational weighted-section semigroup and signed Bott–Chern mass
+
+**Reviewed main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Complete source-tag/physical-line report](reports/2026-10-29-irrational-weighted-sections-and-bc-signed-mass.md).
+
+- **POME-CURVE-BOUNDED-SECTION-FG-RATIONAL-001** — low / **verified conditional deduction**: for the explicit positive-weighted \( \mathbb P^1 \) model of §19.8.11, the bounded weighted section algebra is finitely generated **exactly when** the logarithmic pole coefficient is rational, although its Hilbert function grows linearly for every coefficient. Also exact integral/bounded dimension gap \(1_{\{mc\notin\mathbb Z\}}\). Original theorem correct, not a new general finite-generation claim.
+- **POME-BC-FIXED-CLASS-SIGNED-MASS-001** — low / **verified conditional deduction**: on \( \mathbb P^1 \), the smooth closed signed representatives \(T_t=\gamma+t\,\mathrm{dd}^{\mathrm c}\phi\) have identical Bott–Chern class and trace but unbounded total-variation and normalized-potential norms. The common negative lower bound in §10.11.1 and positivity in §20.4.20 are essential. Printed statements correct.
+- **Actual coverage:** new calculations in previously partly reviewed §§19.8.8–11, 10.11.1–2, and model-only §20.4.20. First **navigation-only** identification of formerly inventory-only §§10.10 and 5.59 (subject headers, no theorem certification). Original **25 chapters / 747 numbered ToC sections / zero complete section certifications** unchanged. No prior finding closed.
+- Dedicated Demailly approximation/regularization and Bergman/L²/OT/multiscale/positivity-loss programmes remain **deferred-by-user**. No main/source/registry/site/tag/build/CI/formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: exact Picard–Albanese polarization index and generic nonalgebraic two-tori
 
 **Reviewed main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Exact physical-line, source/tag, hypotheses and proofs](reports/2026-10-29-pic-alb-polarization-index-and-generic-tori.md).
