@@ -1,3 +1,15 @@
+## 2026-10-30 — sharp local-finiteness threshold for a non-pluripolar square
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full determinant, radial integral, fixed source tags/physical lines and complete calculation](reports/2026-10-30-nonpluripolar-power-threshold.md). All earlier dispositions retained.
+
+| Stable finding ID | Severity/status | Evidence, proposed amendment and dependents |
+| --- | --- | --- |
+| **POME-NPP-POWER-SINGULARITY-THRESHOLD-001** | **low / verified conditional deduction**; printed Example 13.2.9 **correct** | Main \`docs/sections/non-pluripolar-products--truncation-and-plurifine-locality/index.html\`, blob \`81be8c5acc360c96bd3c5acba05a3cdb5fafaf4c\`, source \`foundations-of-pluripotential-theory:2F8E45A2\`, permanent \`6F4C920FEDCA\`, physical lines **152–165**, with Lemma 13.2.2 lines **35–52**. For \(u_a=(|x|^2-1)(-\log|y|)^a\) on \(|x|^2<1-a\), \(0<a<1\), explicit determinant is \(a(1-a-|x|^2)(-\log|y|)^{2a-2}/(4|y|^2)\); \(\langle(dd^c u_a)^2\rangle\) is locally finite exactly when \(a<1/2\). Exact finite-tail mass \(\frac{a}{1-2a}((1-a)r^2-r^4/2)(\log(1/\rho))^{2a-1}\). Optional remark after original example; downstream §§13.2–13.5 finite mass premises, no asserted theorem error. |
+
+**First statement-level (not proof-level) inventory:** §24.2.2 \`docs/sections/problems-in-hermitian-pluripotential-theory--threshold-equations-and-singular-limits/index.html\`, blob \`cb587f6666e775e88de2cc2aefa9c6a1dddd96e7\`, source \`non-kahler-pluripotential-theory:E3CD8C18\`, permanent \`FBE8C5BA5CA4\`, physical lines **18–38**: zero-lower-mass \(v_-(h)=0\), fixed nonzero positive-threshold \(L^1\) density, exact equation not just subsolution. Open problem and all cited proof chains remain open/conditional. **25 chapters / 747 numbered ToC rows / zero complete-section certifications**. Demailly approximation/regularization and dedicated Bergman/L2/OT/multiscale/positivity-loss programme remain **deferred-by-user**. No main/site/source/build/CI change.
+
+---
+
 ## 2026-10-30 — primitive elliptic Gauduchon root-volume equality and critical determinant-density escape
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Exact integrated tags, formulas, complete calculations and limits](reports/2026-10-30-primitive-gauduchon-radial-deficit-and-endpoint-collapse.md). All prior findings and dispositions remain unchanged.
