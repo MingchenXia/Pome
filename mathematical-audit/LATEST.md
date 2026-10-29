@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-30: ordered degenerate Monge–Ampère branches and navigation-only sections
+
+**Pinned production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete proof, original/permanent tags and precise anchors](reports/2026-10-30-degenerate-ma-ode-separation-and-navigation-inventory.md).
+
+- **POME-DEGENMA-ORDER-QUANT-SEPARATION-001 — low / verified conditional deduction; no false theorem.** On the fixed smooth degenerate equation of Theorem 14.27.1, solutions `h_eta` of the first-order ODE are *strictly ordered throughout the full middle band*: for `eta1<eta2`, `h_eta1-h_eta2=(eta2-eta1) exp(integral_0^r a)`, where `a` is the explicit divided difference of the nonlinear ODE coefficient. After sup normalization the **exact oscillation** of the potential difference is the integral of this positive slope separation over `(-1,1)`; its extrema occur on the two distinct outer components. Uniform compact-interior ODE bounds yield `||u_eta1-u_eta2||_infinity >= b exp(-L_b b)|eta2-eta1|` for small parameters. This differs from the prior C-infinity nonisolation finding and does not reprove the full global background construction.
+- **Newly classified previously unreviewed heading-only ToC entries:** §§2.11, 5.52, 9.37, 9.48, 10.53 and 10.76 each contain only navigation/citation UI, not a mathematical theorem or proof. Their inventory status is **navigation-only**, not theorem/section certification; following mathematical sections remain to be reviewed separately.
+- **Actual coverage:** new selected §14.27.3/.7 ODE comparison and Theorem 14.27.1 normalization; structural inventory checks of six headings. **25 chapters / 747 numbered ToC entries / zero fully mathematically certified sections.** All historical errors and open gaps retain their statuses. Demailly approximation/regularization and its dedicated Bergman/L²/OT/multiscale-atlas/positivity-loss programme remain **deferred-by-user**, not reopened. No production, sources, publication, CI, build, or formal verification changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-30: exact radial Newtonian sphere sweeping and escape
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete source-anchored proof](reports/2026-10-30-newton-shell-projection-and-exterior-escape.md).
