@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-29: non-Archimedean divisorial-pointwise versus full-pointwise limits and a stale equation label
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete new example, proof, stable source tags and physical anchors](reports/2026-10-29-nonarchimedean-divisorial-limit-and-fs-label.md).
+
+- **POME-NA-DIV-POINTWISE-NONUSC-001 — low / verified conditional deduction.** New selected §22.1.66–76 mathematical review: on `P^1`, rational Fubini–Study metrics `Phi_m=(1-1/m)Phi+(1/m)log|Z_0|` **increase** to `Phi=max(log|Z_0|,log|Z_1|)` at all divisorial valuations but remain `-infinity` at the closed-support semivaluation `[0:1]` where `Phi=0`. The raw full-Berkovich pointwise limit fails upper semicontinuity. This is compatible with, and explains the precise **divisorial-pointwise** convergence topology and Conjecture 22.1.76; no printed theorem is false and no envelope conjecture was proved.
+- **POME-NA-FS-STALE-EQUATION-LABEL-001 — medium / confirmed reading-edition integration error, unresolved.** At §22.1.70 lines 1178–1185 the correct Fubini–Study formula is given the **unlinked literal source number `13.37`**, not a generated §22.1 equation label/permalink. Propose a separate renderer correction after checking for a true source equation tag; do not edit the published body. This is **not a mathematical formula error**.
+- **False-positive excluded:** §22.1.66's `U^An` condition “support meets U” matches the published Boucksom–Jonsson definition; do not replace it with “center in U”. **Actual scope:** selected §22.1.66–76 definitions, model computation, cross-reference; all other BJ theorems conditional, no whole section certified. **25 chapters / 747 current ToC sections / zero whole-section certifications**. Historical errors, especially §22.1.88, and user-deferred Demailly/Bergman/L²/OT/multiscale/positivity-loss remain unchanged. No production/main/site/source/build/CI/formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: sharp zero-mass normalized tails and quantitative envelope-volume estimate
 
 **Pinned production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete P¹ current calculation, optimized finite-A bound, stable source labels and physical line anchors](reports/2026-10-29-zero-mass-envelope-tail-sharpness.md).

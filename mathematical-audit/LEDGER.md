@@ -1,3 +1,16 @@
+## 2026-10-29 — Non-Archimedean divisorial topology and a stale Fubini–Study formula label
+
+**Pinned main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; audit-only branch `review/mathematical-audit`. [Full mathematical proof and exact stable anchors](reports/2026-10-29-nonarchimedean-divisorial-limit-and-fs-label.md). All historical entries remain untouched.
+
+| Stable finding ID | Severity / status | Exact source, hypotheses, proof, correction, dependents |
+| --- | --- | --- |
+| **POME-NA-DIV-POINTWISE-NONUSC-001** | low / **verified conditional deduction**, original §§22.1.71–76 correct | Source `sgpt`, `docs/sections/non-archimedean-pluripotential-theory/index.html` production blob `8448d710690ebe1cc28040f9611d05c9d008a961`; FS formula lines **1178–1185**, Definition 22.1.71 source `DAC17F2D` / tag `EEADED50AAC3` line 1189; topology and Theorem 22.1.72 source `ADE700C1` / tag `0DAB63894803` lines 1193–95; Conjecture 22.1.76 source `DD4F2A90` / tag `95739E70234B` lines 1213–15. On `P^1` with `L=O(1)`, `Phi_m=(1-1/m)Phi+(1/m)log|Z_0|` is an **increasing** sequence of rational generically finite FS metrics bounded by `Phi=max(log|Z_0|,log|Z_1|)`. It converges at every divisorial valuation; at closed support point `p=[0:1]`, `Phi_m(p)=-infinity` and `Phi(p)=0`. With `v_t=t ord_p -> p`, the raw pointwise limit equals zero at `v_t` but minus infinity at `p`, hence is not usc. No sequence compactness or full convergence on `X^An` is inferred. Optional example in §§22.1.71–76; protects NA envelope and topology dependents, not a theorem repair. |
+| **POME-NA-FS-STALE-EQUATION-LABEL-001** | medium / **confirmed error in reading-edition numbering**, unresolved; formula mathematically correct | Same main blob **line 1181**, in §22.1.70 source heading `3CE1C3E79114`: `<span class="equation-label">13.37</span>` hard-codes original numbering without a permanent tag, link or §22.1 prefix. Contrast proper numbered tagged Eqs. 22.1.68 and .69 at lines 1156–1169. Propose separate renderer/tag-map review: generate the correct §22.1 anchored label **only if** legitimate equation provenance exists, else display unnumbered. Do not change source, generated docs, permanent tags or registry in audit branch. Affects formula navigation near Definition 22.1.71, not its truth. |
+
+**Coverage:** selected lines 1102–1215 of §22.1.66–76, no complete section certificate, 25 chapters / 747 numbered ToC sections. Checked line 1143's support-meets-open definition against published BJ22 §1.1.2; **not** a defect (affine-chart center test would be invalid). Historical unresolved 22.1.88 and excluded Demailly regularization/Bergman/L²/OT/multiscale/positivity-loss remain unchanged and **deferred-by-user** where applicable. No main, source, site, builds, CI or formalization changes.
+
+---
+
 ## 2026-10-29 — sharp normalized zero-mass envelope tails and finite-A volume balance
 
 **Pinned main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full mathematical report and exact permanent labels](reports/2026-10-29-zero-mass-envelope-tail-sharpness.md). All pre-existing ledger entries unchanged.
