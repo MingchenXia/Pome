@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-29: mixed real Monge–Ampère mass escaping with one moving argument
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full exact proof and source-tag/line anchors](reports/2026-10-29-hermitian-bochner-aliases-and-mixed-toric-escape.md).
+
+- **POME-TORIC-MIXED-ESCAPE-001 — low / verified conditional deduction.** In §21.5, for any \(n\ge2\) and \(F_i(x)=a_i(x_i-c_i)_+\), \(a_i>0\), the Alexandrov definition and printed polarization give exactly \(\operatorname{MA}_{\mathbb R}(F_1,\ldots,F_n)=(\prod_i a_i)\delta_c\). Fixing the first \(n-1\) functions and translating **only** \(F_{n,j}=a_n(x_n-j)_+\to0\) locally uniformly gives mixed measures of constant positive mass supported at \((0,\ldots,0,j)\). They converge **vaguely, not narrowly**, to the zero mixed measure. This is a new genuinely mixed-dimensional sharpening of the *already printed* one-variable Example 21.5.3, not an error in Proposition 21.5.4; it independently verifies the \(n!\)/\(1/n!\) normalization.
+- **Historical recheck, not new findings:** §11.48's five invalid equation aliases and two U+201D/double-prime corruptions were **already recorded** under **POME-HERM-BOCHNER-EQUATION-ALIASES-001** and **POME-HERM-BOCHNER-DOUBLEPRIME-001** in the [2026-10-25 report](reports/2026-10-25-hermitian-affine-background-scaling-and-bochner-equation-aliases.md); statuses remain unchanged. The present report's adjoint-algebra and conformal-torsion check adds supporting calculations only, **not** a rediscovered error or resolved repair.
+- **Actual scope:** incremental §21.5.1–4 mixed calculation; historical §11.48 recheck and selected contextual §11.5 Stokes/AGM check **not counted as new section coverage**. **25 chapters / 747 ToC numbered sections / zero complete-section certificates.** Every historical error/proof gap and all dedicated Demailly approximation/regularization, Bergman, L²/Ohsawa–Takegoshi, multiscale and positivity-loss work remain unchanged and **deferred-by-user** where applicable. No production/source/registry/tag/site changes, builds, CI, publication or formal verification.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: full-lattice Okounkov conductors, symmetric-difference isometry and infinite convex envelopes
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Pinned source tags, physical main lines, complete selected proofs and counterexamples](reports/2026-10-29-full-lattice-conductor-isometry-and-infinite-convex-envelopes.md).
