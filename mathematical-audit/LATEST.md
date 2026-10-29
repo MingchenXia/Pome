@@ -1,3 +1,11 @@
+# Latest mathematical audit checkpoint — 2026-10-29: sharp finite-p Monge–Ampère stability exponent
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete project-tagged proof](reports/2026-10-29-prescribed-ma-stability-sharp-exponent.md).
+
+- **POME-PRESMA-STABILITY-EXPONENT-SHARP-001 — low / verified conditional deduction.** First new exact sharpness analysis of the printed §15.4.1 exponent, for every complex dimension n and p>1. A **fixed** bounded `ω_FS`-psh cusp solution on P^n has `MA(u)=f dV` with `f∈L^p`, while `v_δ=max(u,min(u)+δ)` has pointwise height δ and `L¹` excess asymptotic to a positive constant times `δ^(1+2n/β)` for any `β∈(2−2/p,2)`. Hence any universal exponent above `(p−1)/(np+p−1)` fails, proving that the printed strict range is optimal as a supremum; endpoint **not** settled. For p=∞ a smooth model yields the ceiling 1/(n+1). Theorem 15.4.1 remains **correct**, no open problem is closed.
+- **Actual coverage:** selected integrated theorem/proof §§15.4.1 (lines 10–28 and 33–87); §15.4.3 statement and §§15.5–15.6 dependency context only, **not** their dedicated regularization proofs. Still **25 chapters / 747 ToC sections / zero completely certified sections**. Historical issues and Demailly/regularization/Bergman/L²/OT/multiscale/positivity-loss items remain **deferred-by-user**. No main, source, registry, site, CI or formal verification changes.
+
+---
 # Latest mathematical audit checkpoint — 2026-10-29: countably dense divisorial poles, strict moving-point Lelong limit, and ellipse capacity
 
 **Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Exact source tags, main blob/physical lines and independent selected proofs](reports/2026-10-29-dense-divisors-moving-lelong-and-ellipse-capacity.md).
