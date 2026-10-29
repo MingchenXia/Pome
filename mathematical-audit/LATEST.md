@@ -1,3 +1,14 @@
+# Latest mathematical audit checkpoint — 2026-10-29: full-lattice Okounkov conductors, symmetric-difference isometry and infinite convex envelopes
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Pinned source tags, physical main lines, complete selected proofs and counterexamples](reports/2026-10-29-full-lattice-conductor-isometry-and-infinite-convex-envelopes.md).
+
+- **POME-OKO-FULL-LATTICE-CONDUCTOR-001 — low / verified repair of full-lattice subcase only.** A finite-cone residue/conductor proof gives uniform lattice saturation on compact interior subsets of $\Delta(S)$ for $\operatorname{gp}(S)=\mathbb Z^{n+1}$, and therefore the precise full-degree $|S_k|/k^n\to\operatorname{vol}\Delta(S)$. It removes KK12/WN14 as *proof inputs for this restricted case*, not for the arbitrary-semigroup theorem; their historical attribution is retained.
+- **POME-OKO-SYMDIFF-ISOMETRY-001 — low / verified conditional deduction.** Exact $d_{\rm sg}(S,T)=\operatorname{Leb}(\Delta(S)\triangle\Delta(T))$ for full-lattice semigroups, including zero-volume intersections, extends to positive-volume almost semigroups. Their pseudometric quotient is the positive-volume compact-convex-body space with symmetric-difference measure metric; no completeness at zero-volume boundary is claimed.
+- **POME-CVX-INFINITE-FAMILY-BOUNDARY-001 — low / verified conditional deduction.** Two explicit infinite families with all effective domains in a common compact set defeat, respectively, closedness/biconjugacy and infimum attainment of a hypothetical infinite-family version of the *correct finite* Lemma 21.6.1. Do not silently drop finiteness.
+- **Actual coverage:** incremental selected §§19.2, 19.7 and 21.6; *first* selected §24.3.2 positive-Gauduchon-volume proof check, no new error and its external/internal prerequisites not certified. **25 chapters / 747 numbered ToC sections / zero complete-section certificates.** All historical findings and user-deferred Demailly/regularization/Bergman/L²/OT/multiscale/positivity-loss statuses unchanged. No production/main/source/CI/site edits.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: generalized-mass level atoms and a logistic ray's exact energy
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full source-tagged, line-anchored report with independently checked formulas](reports/2026-10-29-generalized-level-atoms-and-logistic-ray-energy.md).
