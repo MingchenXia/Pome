@@ -1,3 +1,16 @@
+## 2026-10-30 — Exact irrational null-leaf closure and Hartogs coefficient identity without maximal continuation
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; [complete hypotheses, self-contained proofs, source/permanent tags and physical anchors](reports/2026-10-30-irrational-null-leaf-closures-and-hartogs-coefficients.md). Audit-only branch; prior findings and statuses preserved.
+
+| Stable ID | Severity and status | Pinned source, exact reasoning, disposition and affected dependents |
+| --- | --- | --- |
+| **POME-NULL-LEAF-KRONECKER-CLOSURE-001** | low / **verified conditional deduction**, no false theorem | `docs/sections/integral-leaves-of-constant-rank-null-distributions/index.html`, main blob `564667ab5d008b0ffa1d29f5b7ecc578c19d2f04`; §7.15 tag `930CF3D498A8`, Thm 7.15.3 source `klimek-pluripotential-theory:FB2152E8` / permanent `8FE75D79B9CA`, physical lines **51–79**, example line **124**. For `h=log|w|-a log|z|` on `(C*)²`, `h²` has rank-one complex Hessian; its null leaf has exact closure `{h=h(z0,w0)}` for irrational `a` by irrational-rotation density and is not embedded. For `a=p/q` rational the leaf is the **closed** complex curve `w^q z^(-p)=constant`. Optional precision after line 124; affects §7.15 intrinsic leaf/plaque convention, not general foliation existence. Printed example and theorem correct; no complete dependency proof. |
+| **POME-HARTOGS-EQUALITY-WITHOUT-EXISTENCE-001** | low / **verified conditional deduction**, no theorem correction | `docs/sections/complete-hartogs-domains-and-taylor-coefficients/index.html`, main blob `641a66c419e4a1f7207cd301b51f27f3a6efd6f9`; Prop 9.15.1 source `klimek-pluripotential-theory:7CA9E7D7` / permanent `202C805DC8A2`, physical lines **8–16,21–27**. In pseudoconvex `H={|w|<1,|zw|<1}`, rational holomorphic `f=1/(1-w)+1/(1-zw)` has `c_j=1+z^j`, so the raw coefficient growth equals `max(0,log|z|)`, yet extends through boundary point `(0,i)`. For `f=1` the growth identity fails. Hence domain-of-existence is **sufficient** in the universal proposition but not **necessary for an individual function**; old `POME-HARTOGS-USC-STAR-001` is distinct and unchanged. Optional remark only; no Oka proof certification. |
+
+**Structural inventory, not mathematical proof:** §18.2 `docs/sections/multiplier-ideal-envelopes-and-goodness/index.html`, main blob `69648fba935f0ec61a2c74177e0805aab98dc944`, section tag `530E72454328`, lines 7–13, is expository with no numbered theorem/proof. Its Demailly dyadic statements were not examined. **Actual newly checked passages:** §§7.15.3 and 9.15 model, §9.15.1 coefficient argument; §18.2 expository inventory only. **25 chapters / 747 numbered ToC sections / zero complete-section certifications.** Prior confirmed errors, proof gaps, external inputs, duplicate decisions, and deferred-by-user entries untouched; no source/main/site/CI/build/formalization changes.
+
+---
+
 ## 2026-10-30 — Strict ODE ordering and quantified separation in smooth degenerate Monge–Ampère families
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; audit branch only. [Complete proof and exact integrated source anchors](reports/2026-10-30-degenerate-ma-ode-separation-and-navigation-inventory.md). Historical statuses, including `POME-DEGENMA-CINF-NONISOL-001`, remain unchanged.

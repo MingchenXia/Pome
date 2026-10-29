@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-30: irrational null-leaf closures and a Hartogs coefficient criterion beyond maximal continuation
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete new independent calculations and exact integrated anchors](reports/2026-10-30-irrational-null-leaf-closures-and-hartogs-coefficients.md).
+
+- **POME-NULL-LEAF-KRONECKER-CLOSURE-001 — low / verified conditional deduction.** In §7.15's constant-rank null foliation model on `(C*)²`, the irrational-`a` immersed leaf `(z0 exp(t), w0 exp(a t))` is dense in **exactly** the real Levi-flat hypersurface `log|w|-a log|z|=constant`; it is injective but not embedded. For rational `a=p/q`, the leaf is the closed embedded algebraic curve `w^q z^(-p)=constant`. This strengthens the printed intrinsic-topology illustration without challenging the theorem.
+- **POME-HARTOGS-EQUALITY-WITHOUT-EXISTENCE-001 — low / verified conditional deduction.** §9.15.1's coefficient identity can hold even when the chosen holomorphic function does **not** have the Hartogs domain as its domain of existence: on `H={|w|<1,|zw|<1}`, `f=1/(1-w)+1/(1-zw)` has `c_j=1+z^j`, whose **unregularized** logarithmic coefficient limsup is exactly `max(0,log|z|)`, while `f` extends across `(0,i)`. The constant function shows the domain-of-existence hypothesis cannot be deleted from the universal statement. Separate from the previous usc-star necessity example.
+- **Scope:** direct selected mathematical checks in §§7.15 and 9.15; §18.2 was checked only as an **expository, unnumbered** page, not as proof coverage. **25 chapters / 747 numbered ToC sections / zero entire-section certifications**. Prior statuses unchanged. Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss programme remain **deferred-by-user**, untouched. Audit Markdown only; no production, source, site, tests/build, CI or formalization change.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-30: ordered degenerate Monge–Ampère branches and navigation-only sections
 
 **Pinned production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete proof, original/permanent tags and precise anchors](reports/2026-10-30-degenerate-ma-ode-separation-and-navigation-inventory.md).
