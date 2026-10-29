@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-29: verified finite concave-tail repair and weak polar-measure closure obstruction
+
+**Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Exact source-label, permanent-tag, physical-line report](reports/2026-10-29-concave-envelope-tail-repair-and-weak-polar-closure.md).
+
+- **POME-NA-CONCAVE-TAIL-REPAIR-001** — **medium / verified repair of the finite recursion only**: independently proves that changing the incorrect §22.1.88 left-tail assignment from unprimed to **primed last-node value** yields the least concave majorant for arbitrary finite real data and hence the canonical $\theta$-psh-valued finite construction. Full slope monotonicity and minimality proof; a new seeded 10,000-case scalar check is archived. **Existing POME-NA-CONCAVE-TAIL-001 remains a confirmed, unresolved error in production main**; Lemmas 22.1.89 and 22.1.107 are not transitively certified.
+- **POME-CURVE-POLAR-WEAK-CLOSURE-001** — low / **verified conditional deduction**: explicit logarithmic-capacity-zero Bernoulli Cantor support gives finite-rational-atomic analytic models of fixed non-pluripolar mass $1/2$ whose polar measures converge **weakly** to a **nonideal nonatomic polar model**. The TV model distance remains **1** and the limiting model's distance to the ideal locus is **$1/2$**. This does not challenge the correct printed TV-closedness theorem.
+- **Actual scope:** newly complete combinatorial correction argument for selected §22.1.88 (source still wrong), plus new weak-topology stress test of previously sampled §§13.28 and 13.30; §21.11.12 and §13.29.1 contextual only. **25 chapters / 747 unique numbered ToC sections / zero whole-section certifications.** Old statuses unchanged and all user-excluded Demailly approximation/regularization with dedicated Bergman/L²/OT/multiscale/positivity-loss tasks remain **deferred-by-user**. No main/source/site/build/CI/formalization change.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: toric simplex moment measure and projective Hermitian mass in all dimensions
 
 **Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Exact integrated anchors, hypotheses and independent proofs](reports/2026-10-29-toric-moment-measure-and-projective-hermitian-mass.md).

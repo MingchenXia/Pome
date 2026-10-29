@@ -1,3 +1,16 @@
+## 2026-10-29 — finite NA concave-tail repair and weak-* polar closure obstruction
+
+**Reviewed main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Complete proofs, exact integrated source labels and physical lines](reports/2026-10-29-concave-envelope-tail-repair-and-weak-polar-closure.md). This is an *additional verified repair*, not a production repair or a closure of the original confirmed error.
+
+| Stable finding ID | Severity / status | Anchors, proof, proposed correction and affected dependents |
+| --- | --- | --- |
+| **POME-NA-CONCAVE-TAIL-REPAIR-001** | medium / **verified repair of finite construction**; original error still **confirmed error / unresolved** | §22.1.88 source <code>B104EEAF</code>, tag <code>9911A537C86C</code>, main <code>docs/sections/non-archimedean-pluripotential-theory/index.html</code>, blob <code>8448d710690ebe1cc28040f9611d05c9d008a961</code>, physical lines 1326–1332. Correct the left ray to $A'_\tau=A'_{\tau_N}$. For finite data $r_j=\max(0,\max_{i>j}(a_i-c_j)/(\tau_j-\tau_i))$, $c_{j+1}=c_j+(\tau_j-\tau_{j+1})r_j$; $0\le r_{j+1}\le r_j$ and comparison with every concave majorant prove exact minimality. Extend to $\theta$-psh by finite max/positive interpolation and canonical USC across the common polar set. Counterexample unchanged; proposed separately reviewable patch only. Downstream §§22.1.89/.107 **not** certified. New reproducible seeded text check under <code>mathematical-audit/checks/concave_tail_finite_data.py</code>. |
+| **POME-CURVE-POLAR-WEAK-CLOSURE-001** | low / **verified conditional deduction**; no printed error | §13.28.1/.4/.7 tags <code>2422DD1AB3AB</code>, <code>74646DD62F50</code>, <code>FB89848D2500</code>; §13.30.3 tag <code>C5551396F93B</code>; main blobs <code>4ec0e8d5c90ad5df4e84f17bbc03a2298415e29f</code> (lines 20–110), <code>506708195b4fbeb7c1c0ac6ebea922983a764a6b</code> (lines 43–76). Superfactorial binary Cantor support has zero logarithmic capacity by direct cylinder-energy lower bounds; its Bernoulli measure is nonatomic. Rational atomic truncations of polar mass $1/2$ converge weakly but stay TV distance $1$ from the nonideal ordinary-model limit; all non-pluripolar volumes remain $1/2$, and limiting distance to ideal locus is $1/2$. Conditional on existing polar model classification. Sharpness of TV assumptions, **not** an allegation that the printed closedness theorem fails. |
+
+**Actual coverage:** new proof/repair of previously known §22.1.88 defect, new fixed-volume weak-* test of §§13.28/.30; §13.29.1 and §21.11.12 prerequisites only. Original **25 chapters / 747 unique ToC sections / zero complete-section certifications** unchanged. All unrelated errors/gaps/dependencies remain in their previous states; all Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss work **deferred-by-user**. No main/source/site/registry/tag/build/CI/formal-verification changes.
+
+---
+
 ## 2026-10-29 — Hopf toric moment-map volume and Hermitian mass on higher-dimensional projective products
 
 **Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Dated complete calculations and precise caveats](reports/2026-10-29-toric-moment-measure-and-projective-hermitian-mass.md). No new false theorem, closed prior proof gap, or full-section certification.
