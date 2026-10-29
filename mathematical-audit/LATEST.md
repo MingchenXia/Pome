@@ -1,3 +1,14 @@
+# Latest mathematical audit checkpoint — 2026-10-29: countably dense divisorial poles, strict moving-point Lelong limit, and ellipse capacity
+
+**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Exact source tags, main blob/physical lines and independent selected proofs](reports/2026-10-29-dense-divisors-moving-lelong-and-ellipse-capacity.md).
+
+- **POME-DENSE-DIVISOR-LOCI-DOMINATION-001 — low / verified conditional deduction.** First direct nonexcluded §5.38.1/.5/.6 selected proof review: on \`P¹×P¹\`, a finite-mass sum of prime divisor currents with **dense, non-locally-finite support** satisfies the printed countable-divisor domination criterion. The L¹-defined qpsh model \`v=Σ 2^{-j}π₁*q_{p_j}\` tests the finite-partial-sum positivity limit exactly. Printed Lemma 5.38.5 correct; internal Siu/divisorial-removal premise conditional.
+- **POME-MOVING-POINT-LELONG-STRICT-LIMSUP-001 — low / verified conditional deduction.** §5.38.7's fixed-point Lelong upper semicontinuity is **strict** for moving analytic logarithmic poles \`q_{p_j}→q_p\` in L¹ with common Fubini–Study lower bound, because at fixed \`p\`, \`ν(q_{p_j},p)=0\` while \`ν(q_p,p)=1\`. No smoothing or dedicated excluded approximation.
+- **POME-PLANAR-ELLIPSE-GREEN-CAPACITY-001 — low / verified conditional deduction.** New §3.8.2 conformal-model calculation gives \`cap(K_{a,b})=(a+b)/2\` for a filled ellipse and identifies equilibrium law as the pushforward of uniform angle under \`F(w)=((a+b)/2)(w+((a-b)/(a+b))/w)\`, with arcsine degeneration. Distinct from earlier real-cube Joukowski and planar polar-boundary findings; printed proposition correct.
+- **Actual coverage:** first direct selected §5.38.1/.5–.8; incremental §3.8.2. §5.38.9 and dedicated Bergman/L²/OT/multiscale/positivity-loss proof programme **deferred-by-user**, not examined; §§5.24/.33/.37 and §10.4 conditional context only. **25 chapters / 747 numbered ToC sections / zero entire-section certifications.** All prior issues retain historical status. No main/source/site/registry/build/CI/formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-29: sharp moving-radius penalty and finite-energy curve traces
 
 **Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Pinned integrated anchors, hypotheses and complete new arguments](reports/2026-10-29-varying-radius-penalty-and-curve-finite-energy-traces.md).
