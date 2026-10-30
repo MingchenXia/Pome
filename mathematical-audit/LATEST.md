@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-31 — sharp closed-class L1 scalar and probability bounds
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete anchored conditional proof and optimality](reports/2026-10-31-closed-scalar-sharp-l1-tv.md).
+
+- **POME-CLOSED-LOGPART-SHARP-L1-TV-001 — low / verified conditional deduction:** For closed semipositive big `theta` on a compact Kähler manifold with the prescribed ordinary-type scalar equation available, the closed-mass identity gives `B_phi(F)=log(m_phi)-log∫exp(F)dV` and unique supporting measure `nu_F=exp(F)dV/∫exp(F)dV`, extending printed Eq. 11.37.2 beyond strictly Kähler `theta`. For `|F|,|G|<=M` and `V=∫dV`, **both** `|B_phi(G)-B_phi(F)|` and `d_TV(nu_F,nu_G)` are at most `exp(2M)||F-G||_{L1(dV)}/V`. This coefficient is sharp for each inequality by two-valued densities on a shrinking measurable set. Printed results are correct; this is not a general nonclosed Hermitian statement or a new mass/existence proof. Distinct from earlier L-infinity/tanh TV findings.
+- **Actual new proof-level coverage:** selected Eq. 11.33.1 / Theorem 11.33.5 and Eq. 11.37.2 / Proposition 11.37.3 (incremental, not previously unreviewed sections). Theorem 13.8.7 and Theorem 15.12.1 are conditional internal dependencies; excluded regularization proofs not reopened. **25 chapters / 747 numbered ToC sections / zero entire-section mathematical certifications.** No project tests/build/CI/publication/formalization; historical issues and excluded programme remain **deferred-by-user**.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-31 — exact quadratic Bedford–Taylor Dirichlet envelopes
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete pinned proof and source anchors](reports/2026-10-31-quadratic-dirichlet-spectral-envelope.md).

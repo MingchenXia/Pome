@@ -1,3 +1,15 @@
+## 2026-10-31 — sharp closed-class L1 scalar and supporting-measure stability
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Anchored proof and sharpness construction](reports/2026-10-31-closed-scalar-sharp-l1-tv.md).
+
+| Stable ID | Severity / status | Exact hypotheses and mathematical finding; anchors, dependencies, proposed action |
+| --- | --- | --- |
+| **POME-CLOSED-LOGPART-SHARP-L1-TV-001** | **low / verified conditional deduction**; no false printed theorem | On compact Kähler `X`, with smooth **closed semipositive big** `theta`, a model `phi` of mass `m_phi>0`, smooth positive `dV` of mass `V`, and the §15.12.1 ordinary-type scalar equation, §13.8.7 equal-mass comparison gives `B_phi(F)=log m_phi-log∫exp(F)dV`, supporting `nu_F=exp(F)dV/∫exp(F)dV`, even if `theta` is not Kähler. For `M>0`, `|F|,|G|<=M`, **both** scalar variation and supporting probability TV distance obey the **sharp** `exp(2M)||F-G||_{L1(dV)}/V` bound; two-valued bounded densities on shrinking sets prove both optima. This is different from older L-infinity/tanh-TV results and does not extend to nonclosed Hermitian forms. Main files: `docs/sections/normalization-and-weak-adjoint-measures--the-scalar-functional/index.html` blob `fff86de757578ed2be369ba752123f62f3d31044`, Eq.11.33.1 source `non-kahler-pluripotential-theory:19974F5F` / permanent `9D47DB96B6E3` lines 10–20, Theorem 11.33.5 source `:D502EBBF` / permanent `5E3583383688` lines 89–116; `docs/sections/normalization-and-weak-adjoint-measures--entropy-and-the-closed-case/index.html` blob `0710d0732ae7ef81de3d3d62206a0f9c6b5d321f`, Eq.11.37.2 source `:65FF799F` / permanent `803909FECEC0` lines 54–61; Prop.11.37.3 source `:460EAE65` / permanent `33DF3CE1122A` lines 65–75. Conditional dependencies: Theorem 13.8.7 tag `60DE4F681F75` and Theorem 15.12.1 tag `7AFA75E73767`. Optional closed-class corollary; no source, permanent-tag, or site change. Affects §§11.33–11.34/11.37–11.38 only in specified scope. |
+
+**Actual coverage:** quantitative closed-class normalization/supporting-probability deduction, not complete §11.33 or §11.37 certification; upstream mass and solvability unverified in this increment. **25 chapters / 747 actual ToC sections / zero entire-section certifications.** Previous confirmed errors, gaps, external dependencies, duplicated versions and deferred-by-user regularization/Bergman/L2/OT/multiscale/positivity-loss programme retain their statuses. No tests, CI, build, publishing, formalization or source edits.
+
+---
+
 ## 2026-10-31 — exact spectral quadratic Dirichlet envelopes, concavity and maximality
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full proof and stable anchors](reports/2026-10-31-quadratic-dirichlet-spectral-envelope.md).
