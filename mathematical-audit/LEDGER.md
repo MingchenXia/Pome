@@ -1,3 +1,15 @@
+## 2026-10-30 — Triangular Hopf quotients: meromorphic field dichotomy
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full stable-anchored proof](reports/2026-10-30-jordan-hopf-meromorphic-field-dichotomy.md).
+
+| Stable finding ID | Severity / status | Hypotheses, source anchors, complete proof, proposed placement and affected dependents |
+| --- | --- | --- |
+| **POME-HOPF-JORDAN-MEROMORPHIC-FIELD-001** | **low / verified conditional deduction**, not a false theorem or full proof repair | For `F_p(z,w)=(lambda z,lambda w+z^p)`, `0<|lambda|<1`, `p>=1`, the printed compact quotient `X_p` has `M(X_1)=C` and `M(X_p)=C(T_p)` for `p>=2`, where `T_p=(w+z^p/(lambda-lambda^p))/z`; algebraic dimensions 0 and 1 respectively. Source `demailly-complex-geometry:371996B7`, permanent tag `D81E3145A1B4`, `docs/sections/contracting-hopf-quotients/index.html`, main blob `d09d9bac3785b78b557ff5178ad7a52b34b20dac`, statement lines 9–22, proof 26–52, iteration formula 29–33 tag `436562DE848D`. **Conditional internal dependency:** §9.72.1 meromorphic Hartogs, source `cao-paun-foliations:FF53288F`, tag `0A2146B324EB`, `docs/sections/projective-hartogs-extension/index.html:9–18`, blob `3191443b49a20377356f519b5e98ec29259f1c7c`; its separate normal-codimension-two extension input not recertified. Independent proof: initial homogeneous quotient `R=z^k r(w/z)`; Jordan invariance `lambda^k r(t+1/lambda)=r(t)` forces `k=0` and `r` constant, then subtract constant to rule out nonconstant invariant germs. For `p>=2`, global polynomial `H(z,w)=(z,w+z^p/(lambda-lambda^p))` conjugates to scalar contraction; scalar invariant germ's lowest homogeneous part is an invariant degree-zero rational function, subtracting it rules out higher terms. **Proposed:** optional new corollary after §23.3.3 without replacing proof, tags or historical attribution. **Dependents:** algebraic reduction/meromorphic functions, §§9.67, 9.72 and §23.3. Prior polynomial conjugacy and smooth mapping-torus results are reused, not duplicated. |
+
+**Coverage and limitations:** directly read full §23.3.3 printed proof and §9.72.1 extension statement; selected contextual review of §§23.2, 8.13 and 21.7–10 only. Printed §23.3.3 not found false. **25 chapters, 747 ToC rows, zero entire-section certifications.** All earlier statuses remain; Demailly approximation/regularization plus dedicated Bergman/L²/OT/multiscale/positivity-loss items remain **deferred-by-user**. Audit branch only, no source, main, registry, tags, CI, publication, project tests or formalization.
+
+---
+
 ## 2026-10-30 — Exact constant nonzero Monge–Ampère one-form curl on a pluriclosed compact torus
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Pinned full proof and physical reading-edition lines](reports/2026-10-30-pluriclosed-torus-constant-curl-and-mass.md).

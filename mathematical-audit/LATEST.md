@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-30 — triangular Hopf meromorphic-field dichotomy
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full independent proof and source anchors](reports/2026-10-30-jordan-hopf-meromorphic-field-dichotomy.md).
+
+- **POME-HOPF-JORDAN-MEROMORPHIC-FIELD-001 — low / verified conditional deduction:** among the printed triangular Hopf contractions of §23.3.3, the linear Jordan quotient `F_1(z,w)=(lambda z,lambda w+z)` has **only constant meromorphic functions**, while every `p>=2` quotient `F_p(z,w)=(lambda z,lambda w+z^p)` has meromorphic-function field exactly `C((w+z^p/(lambda-lambda^p))/z)`; their algebraic dimensions are respectively 0 and 1. Proof uses invariant meromorphic-germ homogeneous terms, rational translation rigidity and the already noted nonlinear scalar conjugacy; **conditional** on the separately printed §9.72.1 codimension-two meromorphic Hartogs extension. Theorem 23.3.3 is not false and no older conjugacy result is re-registered.
+- **Actual new selected coverage:** full printed statement/proof of §23.3.3 (including iteration formula), §9.72.1 statement and dependency only. §§23.2.14–17/.20/.25–29, §§8.13.4–8 and §§21.7–10 were context/earlier-ledger crosschecks, **not new certifications**. Coverage remains **25 chapters / 747 ToC sections / zero entire-section certifications**. Excluded Demailly approximation/regularization and its dedicated Bergman/L²/OT/multiscale/positivity-loss work remain **deferred-by-user**. Audit-only; no main, sources, CI or publication changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-30 — an exact constant Monge–Ampère one-form curl on a pluriclosed complex torus
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full pinned source anchors and independent calculation](reports/2026-10-30-pluriclosed-torus-constant-curl-and-mass.md).
