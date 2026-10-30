@@ -1,3 +1,11 @@
+# Latest mathematical audit checkpoint — 2026-10-30 — atomic Dirichlet defect despite total-variation Monge–Ampère convergence
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Exact new measure-level proof, integrated tags and physical line anchors](reports/2026-10-30-dirichlet-defect-atom-with-tv-ma-convergence.md). Audit branch only.
+
+- **POME-ENERGY-DIRICHLET-DEFECT-ATOM-001 — low / verified conditional deduction, no false theorem.** For smooth strictly Kähler potentials `u_a=a log((|z|²+epsilon_a)/(1+|z|²))` on `P¹`, with `a² log(1/epsilon_a) -> Lambda`, the Monge–Ampère probabilities satisfy **dual total-variation distance at most `2a`** from Fubini–Study, whereas the positive Dirichlet-energy measures `du_a wedge d^c u_a` converge **narrowly to `Lambda delta_0`**. Their total mass equals `a²(log(1/epsilon_a)+O(1))` and mass off every fixed pole neighborhood is `O(a²)`. For `Lambda>0` the gradient measures cannot converge in total variation: the distance to the Dirac limit tends to `2 Lambda`. This is a measure-level sharpening, **not** repetition of old scalar-energy `POME-ENERGY-L1-SHARP-001`.
+- **Actual new coverage:** selected direct §17.4.11 radial-model audit (tag `27DF9596E862`), first selected §1.1 `dd^c` convention check (tag `DE921263`), and first **navigation-only** inventory §2.15 (tag `73E021597E92`). §17.3.16 and §17.4.4 only conditional context. **25 chapters / 747 numbered ToC sections / zero whole-section certifications**. Previous error/gap/dependency statuses unchanged; Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme **deferred-by-user**, not touched. No main/source/body/registry/site/build/CI/formalization changes.
+
+---
 # Latest mathematical audit checkpoint — 2026-10-30 — exact arbitrary-polyradius Bedford–Taylor relative capacity and its distinguished-torus mass
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full source-anchored proof](reports/2026-10-30-polydisc-relative-capacity-and-clifford-torus.md). Audit branch `review/mathematical-audit`; source and production edition unchanged.
