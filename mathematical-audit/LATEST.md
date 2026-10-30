@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-30 — smooth full-mass sequence with diffuse polar zero-Lelong limit
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Fully pinned proof and exact reading-edition anchors](reports/2026-10-30-diffuse-polar-zero-lelong-mass-loss.md).
+
+- **POME-NPP-DIFFUSE-POLAR-SMOOTH-MASS-001 — low / verified conditional deduction:** an explicit superexponential binary Cantor probability μ on P¹ has no atoms and is entirely supported on the pole set of its ω_FS-psh logarithmic potential u, so its current has **all Lelong numbers zero**, classical total mass 1, but **non-pluripolar mass zero**. An explicit elementary kernel family gives smooth strictly positive ω_FS+dd^cu_δ of mass 1, u_δ↓u in L¹/extended capacity, weak current convergence to μ, and **exact mass loss 1** in the non-pluripolar limit. Unlike printed §13.7.6, this defect is completely diffuse and invisible to point Lelong numbers. The older Cantor weak-closure finding is retained separately, not recounted. No false printed theorem alleged.
+- **Actual new selected coverage:** §13.2.2/.4 definition and restriction, §13.7.3/.5/.6, §13.11.8, and §13.8.7 statement plus nonexcluded comparison only; **25 chapters / 747 current numbered sections / zero fully certified sections**. §13.8.5's excluded §6.17.1 reference remains **deferred-by-user**, without inspection. All other unresolved/deferred ledgers unchanged. Audit files only; no main, source, registry, tag, site, CI, build, or publication edits.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-30 — weighted projective products and complete flat Gauduchon Hessian cones
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full self-contained model proof and pinned source anchors](reports/2026-10-30-weighted-projective-products-flat-gauduchon-metric.md).

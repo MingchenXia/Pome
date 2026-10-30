@@ -1,3 +1,15 @@
+## 2026-10-30 — Diffuse polar full-mass loss with zero point Lelong numbers
+
+**Production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Independent construction, precise physical lines/source tags and proofs](reports/2026-10-30-diffuse-polar-zero-lelong-mass-loss.md).
+
+| Stable ID | Severity/status | Verified conclusion, main anchors, correction and affected dependents |
+| --- | --- | --- |
+| **POME-NPP-DIFFUSE-POLAR-SMOOTH-MASS-001** | **low / verified conditional deduction**, not false theorem/proof repair | For μ the nonatomic Bernoulli probability supported on the polar set K={Σ ε_j exp(−4^j)}⊂P¹, u(z)=∫log(|z−w|²/(1+|z|²))dμ(w) is ω_FS-psh, equals −∞ throughout K, and ω_FS+dd^cu=μ has **all Lelong numbers zero**. Thus its NPP degree-one mass is exactly **0** despite classical mass **1**. The smooth explicit u_δ with |z−w|² replaced by |z−w|²+δ give **strictly positive smooth mass-1 currents** and u_δ↓u in L¹ and extended capacity, while μ_δ→μ weakly and NPP mass falls 1→0; TV norm of μ_δ−μ equals 2. Integrated main files: §13.2 Definition 13.2.4 source foundations-of-pluripotential-theory:9D8E4DD8, permanent D79952D7E272, blob 81be8c5acc360c96bd3c5acba05a3cdb5fafaf4c lines 34–63; §13.7 Lemma 13.7.3 source :4720F1AB tag 274B700496A8 lines 41–66, Theorem 13.7.5 source :AB4EBE3B tag 67C4F7EC316E lines 106–135, Example 13.7.6 source :D5678E03 tag ACAEA8D8BE87 lines 138–140, blob d66813856cb813722806ab912afdfd4815d2da97; §13.11 Example 13.11.8 sgpt:B002DC9E tag 00950EDCBA2C, blob 054a7661c855824b86eb749e211fc3da88a599de lines 101–114; §13.8 Theorem 13.8.7 source foundations-of-pluripotential-theory:6A80B686 tag 60DE4F681F75, blob dd89e44c511fd6f6bdd164a09a77c1637c42b410 lines 217–244. **Propose optional diffuse companion example after §13.7.6**, not changing the correct theorem. Distinct from atomic printed Example 13.7.6 and previous POME-CURVE-POLAR-WEAK-CLOSURE-001 on metric TV behavior. §13.8.5's §6.17.1 prerequisite **deferred-by-user**, not touched. Affected §§13.2,13.7,13.8,13.11 and full-mass-limit applications; none certified transitively. |
+
+**Actual selected coverage:** specific statements and model checks above; not complete sections. **25 chapters / 747 numbered ToC sections / zero full mathematical section certifications**. Previous errors, missing proofs, external dependencies, duplicates and user exclusions unchanged. No production, source, registry, tag, project tests, build, CI or publication changes.
+
+---
+
 ## 2026-10-30 — Complete flat weighted Gauduchon Hessian cone for multiprojective products
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete independent higher-product calculation and exact anchors](reports/2026-10-30-weighted-projective-products-flat-gauduchon-metric.md).
