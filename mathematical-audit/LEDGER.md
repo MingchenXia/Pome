@@ -1,3 +1,14 @@
+## 2026-10-30 — Dirichlet defect atom under strong Monge–Ampère convergence
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full independent computation and physical source anchors](reports/2026-10-30-dirichlet-defect-atom-with-tv-ma-convergence.md). Older findings preserved.
+
+| Stable ID | Severity / status | Precise hypotheses, result, evidence, proposal and dependents |
+| --- | --- | --- |
+| **POME-ENERGY-DIRICHLET-DEFECT-ATOM-001** | **low / verified conditional deduction**, not an incorrect printed theorem, not a full theorem repair | On `P¹` take `0<a<1`, `0<epsilon_a<1/2` with `a² log(1/epsilon_a) -> Lambda >= 0`, and `u_a=a log((|z|²+epsilon_a)/(1+|z|²))`. The smooth positive probability MA measures `mu_a=(1-a)omega+a omega_epsilon` satisfy `||mu_a-omega||_(TV,*) <= 2a -> 0` and `u_a -> 0` in `L¹`; yet `du_a wedge d^c u_a` converges narrowly to `Lambda delta_0`, has mass `a²(log(1/epsilon_a)+O(1))`, and has off-pole mass `O_rho(a²)`. For `Lambda>0` its total-variation distance from the Dirac limit tends to `2 Lambda`. Direct radial proof with exact `1/(2 pi)` factor in [report](reports/2026-10-30-dirichlet-defect-atom-with-tv-ma-convergence.md). Evidence: main `docs/sections/relative-energy-and-perron-segments--continuity-and-compactness/index.html` blob `6fd38d5ff9d0037e9d0d347814a95ad97331715f`, Example 17.4.11 permanent tag `27DF9596E862`, source label `foundations-of-pluripotential-theory:68158160`, lines 226–241; §1.1 tag `DE921263`, blob `ef778e54d8d7413242387e95c52269b3c7d42cae`, line 47. Optional addition of a measure-level remark after Example 17.4.11; no production edit. Affect interpretation of §17.4 `L¹` upper semicontinuity and §17.5 variational limits. Existing `POME-ENERGY-L1-SHARP-001` already gives scalar energy defects and is **not** repeated or closed. Other prerequisites conditional; no excluded regularization reaudited. |
+
+**First structural inventory §2.15:** `docs/sections/differential-operators-and-elliptic-regularity/index.html`, main blob `1d365c77d3f0306ab0fac8e87c65c2f5781d32aa`, heading tag `73E021597E92`, 15 physical lines: navigation-only, no mathematical claim or proof. Not mathematical verification. The selected §1.1 `dd^c` check is likewise not a whole-section certificate. Original errors, proof gaps, external dependencies and the user-deferred Demailly programme retain their existing states.
+
+---
 ## 2026-10-30 — exact arbitrary-polyradius Bedford–Taylor relative capacity and its distinguished-torus mass
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full proof, main blobs, permanent/source tags and exact physical anchors](reports/2026-10-30-polydisc-relative-capacity-and-clifford-torus.md). Previous findings and statuses are preserved without revalidation or closure.
