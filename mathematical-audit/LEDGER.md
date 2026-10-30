@@ -1,3 +1,15 @@
+## 2026-10-30 — Exact ideal metric and sharp entropy modulus on the one-pole projective-line family
+
+**Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Full proof, tags and original physical line anchors](reports/2026-10-30-ideal-model-entropy-metric-sharp-modulus.md).
+
+| Stable ID | Severity / status | Exact result, hypotheses, physical anchors, proposal and affected dependents |
+| --- | --- | --- |
+| **POME-IDEAL-P1-SHARP-ENTROPY-MODULUS-001** | **low / verified conditional deduction**; not a false theorem, external proof completion or repaired gap | For \(\mathbb P^1,\ \omega=dd^c\log(1+|z|^2)\), pole \(u_c=c\log(|z|^2/(1+|z|^2))\), \(0\leq c\leq1\), choose \(dV=\omega\). **Exact** \(d_{\mathcal I}([u_c],[u_d])=|F(c)-F(d)|\), \(F(c)=c+(1-c)\log(1-c)\), with *sharp uniform one-family modulus* \(\delta(1-\log\delta)\) for \(|c-d|=\delta\), attained at \(d=1,\ c=1-\delta\). Thus the ideal-ordered family \(c_j=1-1/j\uparrow1\) satisfies printed Proposition 18.7.1 and has exact \(L^1\)-envelope error \((1+\log j)/j\), showing no general pole-coefficient **Lipschitz** estimate can follow even in this model; \(F(c)=c^2/2+O(c^3)\) near 0. §18.7.1 source <code>non-kahler-pluripotential-theory:305955D4</code>, tag **B727D2CB45A6**, main file <code>docs/sections/multiplier-ideal-envelopes-and-goodness--limits-of-analytic-envelopes/index.html</code>, blob **764fb239e47ddf264f688649849e6b737b23dab7**, lines **13–44**; Cor 18.7.2 tag **5AE1D9158EE3**, lines **52–69**. Metric Proposition 18.6.1 source <code>non-kahler-pluripotential-theory:C2DA1190</code>, tag **47A414940A74**, metric equation tag **CE9BB18A9158**, file <code>docs/sections/multiplier-ideal-envelopes-and-goodness--geometry-of-ideal-classes/index.html</code>, blob **64b1c0de9266a28727de07ca3502a13ab974f001**, lines **19–35**. Existing exact envelope **POME-MODEL-P1-FREEBOUNDARY-EXACT-001** used but **not repeated**. New independent metric integration, sharpness proof and five integral / four endpoint scalar checks in the report/check file. **Proposal:** optional quantitative model corollary after §18.6.1, without any general rate claim. **Dependents:** §§18.6–18.7, §16.21. No production correction. |
+
+**Actually inspected:** first selected §18.7.1–3 stability, hypotheses and proof passages; §18.6.1 metric statement/proof; §18.4.8 and §16.21 for consistency only. Neither the general valuative chain nor the user-excluded §§18.7.4–9 Demailly/Bergman/L²/OT/multiscale/positivity-loss inputs was verified. **25 chapters, 747 current ToC IDs, zero complete section certifications.** All historical ledger statuses preserved. Audit-only change, no main/source/CI/website/build/formalization.
+
+---
+
 ## 2026-10-30 — Triangular Hopf quotients: meromorphic field dichotomy
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full stable-anchored proof](reports/2026-10-30-jordan-hopf-meromorphic-field-dichotomy.md).

@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-30 — sharp entropic modulus for the ideal-class metric
+
+**Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Fully anchored report and proof](reports/2026-10-30-ideal-model-entropy-metric-sharp-modulus.md).
+
+- **POME-IDEAL-P1-SHARP-ENTROPY-MODULUS-001 — low / verified conditional deduction:** first selected, nonexcluded §18.7.1–3 stability/proof and §18.6.1 metric review. For one analytic pole of weight \(c\in[0,1]\) on \(\mathbb P^1\), the ideal metric with \(dV=\omega_{\rm FS}\) is **exactly** \(|F(c)-F(d)|\), \(F(c)=c+(1-c)\log(1-c)\). Its **sharp uniform modulus within this family** is \(\delta(1-\log\delta)\), attained near weight 1, so no uniform Lipschitz bound in the Lelong gap is available even for ideal-ordered approximations; at weight 0, distance is \(\delta^2/2+O(\delta^3)\). This refines the earlier **POME-MODEL-P1-FREEBOUNDARY-EXACT-001** by calculating the *ideal metric and endpoint rate*, not by rediscovering the envelope. Proposition 18.7.1 remains correct; its \(L^1\) convergence is qualitative. Full current-main blobs, stable tags, numbered physical lines, independent maximum principle and derivative proof, proposed optional corollary and affected dependents appear in the report. The standalone Python scalar check passed (five midpoint integrals, four endpoint gaps); no build or general verification.
+- **Coverage:** actual new selected §§18.7.1–3 and §18.6.1 metric formula; §18.4.8 and §16.21 only constrained comparisons. **25 chapters / 747 current ToC sections / zero completely verified sections**. All previous errors, gaps and user-deferred items retain prior statuses. Demailly approximation/regularization and dedicated Bergman, L², OT, multiscale-atlas and positivity-loss proof completion remain strictly **deferred-by-user**; no work on §§18.7.4–9 or their proof inputs. Changes confined to audit Markdown and one small reproducible scalar check on review/mathematical-audit. No production/main/source/registry/tag/site/CI action.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-30 — triangular Hopf meromorphic-field dichotomy
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full independent proof and source anchors](reports/2026-10-30-jordan-hopf-meromorphic-field-dichotomy.md).
