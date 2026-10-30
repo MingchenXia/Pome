@@ -1,3 +1,11 @@
+# Latest mathematical audit checkpoint — 2026-10-30 — sharp Perron endpoint contraction and nonsmooth convex subgradient nets
+
+**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Complete proof, original source/permanent tags, physical lines and pinned main HTML blobs](reports/2026-10-30-perron-endpoint-stability-and-convex-subgradient-nets.md).
+
+- **POME-PERRON-AFFINE-ENDPOINT-CONTRACTION-001 — low / verified conditional deduction:** direct new early §17.16.2/.3/.6/.7 proof audit yields a **sharp time-affine two-endpoint Perron comparison**, with coefficients \(1-t,t\). Consequence: arbitrary directed nets of uniformly perturbed endpoints give jointly uniform time/space convergence of Perron segments (off their common pole set), without sequential compactness. The statement works for smooth nonclosed Hermitian backgrounds. The printed results remain correct; §5.24 and §5.40 inputs are not independently certified.
+- **POME-CONVEX-SUBGRAD-NET-SQUEEZE-001 — low / verified conditional deduction:** direct new §21.11.63 support-line proof check extends the correct **one-dimensional sequential derivative lemma** to **all subgradients, arbitrary directed nets and finite dimensions**, without assuming the approximants differentiable or the touching upper bound convex. Alternating affine slopes under \(g(x)=|x|\) show the touching function's differentiability cannot be omitted.
+- **Precisely selected coverage:** §§17.16.2/.3/.6/.7, §21.11.63; §21.11.20 contextual only. **25 chapters / 747 current ToC sections / zero complete mathematical section certifications**; old findings untouched. Demailly regularization/Bergman/L²/OT/multiscale/positivity-loss remains **deferred-by-user**, not revisited. **Audit-only**, no production, CI, build, or publication.
+
 # Latest mathematical audit checkpoint — 2026-10-30 — test-curve Choquet dead slices and a conditional complete local repair
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Exact integrated labels/line anchors, diagnostic model, conditional repair and independent Hessian-scope guard](reports/2026-10-30-test-curves-choquet-dead-slices-and-hessian-guard.md).
