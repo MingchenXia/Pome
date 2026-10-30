@@ -1,3 +1,15 @@
+## 2026-10-30 — Complete flat weighted Gauduchon Hessian cone for multiprojective products
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete independent higher-product calculation and exact anchors](reports/2026-10-30-weighted-projective-products-flat-gauduchon-metric.md).
+
+| Stable ID | Severity / status | Mathematical claim, integrated locations and effect |
+| --- | --- | --- |
+| **POME-GAUD-WEIGHTED-PRODUCT-FLAT-001** | **low / verified conditional deduction**; not a theorem error, proof-gap repair or full certification | On `X=prod_j P^{d_j}` and normalized product probability `mu_0`, `theta_a=sum_j a_j alpha_j` gives exact root volume `[n!/(prod d_j!)]^{1/n} prod a_j^{d_j/n}` and **all minimizing rays `R_{>0} theta_a`**, by a direct integrated AM–GM quotient argument. On the genuine factor-class cone the Hessian metric is `sum(d_j/n)(d log a_j)^2`: flat, complete, with exact weighted-log distance, geometric-interpolation geodesics and complete constant-volume slice. Unlike printed §12.6.2, arbitrary `k` and `d_j` are covered. §12.2.1 source `non-kahler-pluripotential-theory:6E1DBC11`, tag `0C4AF7E2CEBB`, blob `9ec67161d46b3ba20afa1b1c9a0c84f29322763e`, lines 7–21; §12.2.3 source `:876DF057`, tag `2DB664A6EFDF`, lines 58–77; §12.4.1 source `:C55D0CC4`, tag `67FDDBC10DBD`, blob `4992f82c6e84918ead47a972eab7e3238a147655`, lines 22–74; §12.6.1 source `:9494E2B6`, tag `88C1708A920C`, §12.6.2 tag `5429610F6E7A`, blob `23a7f2a1dab791569c39a0ff5f056f52bfc200fe`, lines 25–92. **Optional proposal:** standalone higher-product corollary, no production edit. **Affected:** §§12.2–12.6. For arbitrary smooth `mu` the cohomological volume claim is *conditional* on printed smooth Monge–Ampère equation (§14.2.1); fixed `mu_0` proof does not use it. |
+
+**Actual incremental coverage:** selected integrated §12.2.1/.3, §12.4.1/.4, §12.6.1 and the printed §12.6.2 contrast. Previous findings, deferrals and section coverage preserved; **25 current chapters / 747 numbered sections / zero complete-section mathematical certifications**. No numerical or software checks, build, CI, publication, source or main changes.
+
+---
+
 ## 2026-10-30 — Exact ideal metric and sharp entropy modulus on the one-pole projective-line family
 
 **Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Full proof, tags and original physical line anchors](reports/2026-10-30-ideal-model-entropy-metric-sharp-modulus.md).

@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-30 — weighted projective products and complete flat Gauduchon Hessian cones
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full self-contained model proof and pinned source anchors](reports/2026-10-30-weighted-projective-products-flat-gauduchon-metric.md).
+
+- **POME-GAUD-WEIGHTED-PRODUCT-FLAT-001 — low / verified conditional deduction:** on `X=prod P^{d_j}`, with fixed normalized product probability `mu_0`, the root variational volume of `theta_a=sum a_j alpha_j` is exactly `[n!/(prod d_j!)]^{1/n} prod a_j^{d_j/n}`, proved directly by pointwise AM–GM and the Kähler minimizing test, **without PDE existence**. Minimizers are precisely constant multiples of `theta_a`. The finite-dimensional background-class Hessian metric is `sum(d_j/n)(da_j/a_j)^2`, globally Euclidean in weighted log coordinates; all geodesics, distances, completeness and constant-volume infinite-distance degenerations follow. The printed `P^1 x P^1` example is not repeated as new. For arbitrary smooth probability the formula is conditional on the printed smooth equation §12.2.3, not a new external-input verification.
+- **New selected coverage:** integrated §12.2.1/3 quotient and equality, §12.4.1/4 Hessian normalization, §12.6.1 and higher-factor extension of §12.6.2. **25 chapters / 747 numbered sections / zero fully certified mathematical sections.** All previous issues retain their status. User-excluded Demailly regularization/Bergman/L²/OT/multiscale/positivity-loss work remains **deferred-by-user**, entirely untouched. Audit notes only, no main, sources, permanent tags, site, CI or project build.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-30 — sharp entropic modulus for the ideal-class metric
 
 **Reviewed production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. [Fully anchored report and proof](reports/2026-10-30-ideal-model-entropy-metric-sharp-modulus.md).
