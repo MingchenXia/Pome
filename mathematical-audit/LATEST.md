@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-30 — entire-function algebra of a Stein open union; optimality of conditional Hölder interpolation
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full pinned mathematics and proofs](reports/2026-10-30-stein-union-entire-algebra-and-holder-interpolation.md). Audit notes only.
+
+- **POME-STEIN-UNION-ENTIRE-ALGEBRA-001 — low / verified conditional deduction, no false theorem:** the increasing union of affine Stein surfaces of Example 9.27.1 has \(\mathcal O(X)=\pi^*\mathcal O(\mathbb C^2)\). Its holomorphic hulls equal inverse images of ordinary polynomial hulls under \(\pi=(z,w)\); even a singleton on a zero fiber has an entire affine-line hull. Proof uses Laurent coefficients vanishing at the accumulating \(a_j=1/j\). A separate nonaccumulating-integers construction gives a global function \(\sin(\pi z)/w\) not descended from any entire function, proving the accumulation hypothesis matters. Distinct from the previously recorded psh-exhaustion obstruction and the §9.30 Hartogs bridge.
+- **POME-HOLDER-ABSTRACT-SMOOTHING-OPT-001 — low / verified conditional deduction:** the last, elementary step from uniform smoothing error \(O(s^q)\) and gradient \(O(1/s)\) to exponent \(q/(1+q)\) is sharp **using only those two estimates**, by a cutoff cusp and mollification at width \(s^{1+q}\). The numerical exponents of printed Theorems 15.5.1/.4 and the conditional continuity modulus in 15.6.1 are consistent. This neither asserts global sharpness within Monge–Ampère solution classes nor verifies the excluded regularization inputs.
+- **Actual coverage:** first conditional post-input proof checks in previously inventory-only §§15.5–15.6, incremental new §9.27 global algebra/hulls, §9.26 and §9.30 as contextual comparisons; **25 chapters / 747 numbered ToC sections / zero complete mathematical-section certifications**. All earlier errors/gaps/external dependencies preserved. Dedicated Demailly regularization, Bergman, \(L^2\), Ohsawa–Takegoshi, multiscale and positivity-loss work remain **deferred-by-user**, without reopening. No production/code/site/build/CI/publication/formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-30 — fixed ordinary restriction with a continuum of atomic trace masses
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete compact projective-product model and exact all-real-weight multiplier-ideal computation](reports/2026-10-30-atomic-trace-continuum-fixed-restriction.md).
