@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-30 — exact arbitrary-polyradius Bedford–Taylor relative capacity and its distinguished-torus mass
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full source-anchored proof](reports/2026-10-30-polydisc-relative-capacity-and-clifford-torus.md). Audit branch `review/mathematical-audit`; source and production edition unchanged.
+
+- **POME-BT-POLYDISC-SHILOV-CAP-001 — low / verified conditional deduction:** for \(\Omega=\prod\Delta(R_i)\), \(K=\prod\overline\Delta(r_i)\), \(L_i=\log(R_i/r_i)\), the exact extremal is \(\max(-1,\max_i\log(|z_i|/R_i)/L_i)\); its Monge–Ampère measure is **\(1/(2^n\prod_iL_i)\)** times normalized Haar probability on the **distinguished n-torus** \(\{|z_i|=r_i\ \forall i\}\). Both inner and outer BT capacities equal this mass. Proven by finite coordinatewise powers plus monotone compact exhaustion for irrational ratios and the exact complex/real toric Jacobian. Printed §§7.16.1/.4/.5 and 21.5.1 are correct in the model; original general results and BT continuity not independently certified.
+- **Actual new proof-level scope:** selected §7.16.1(2–3), norm-ball formula, §7.16.4 proper-map equivariance, §7.16.5 capacity/mass statement, §21.5.1–2 real measure normalization. **25 chapters / 747 numbered current ToC sections / zero complete-section certifications**. Older ledger statuses unchanged. The Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss programme remains **deferred-by-user**, not reopened. No main/source/website/CI/build/formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-30: primitive Gauduchon root deficit and endpoint determinant concentration
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full new direct proof and source anchors](reports/2026-10-30-primitive-gauduchon-radial-deficit-and-endpoint-collapse.md).
