@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-31 — exact Newtonian shell Gram matrix and polynomial accumulation threshold
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Exact source-pinned proof, sharp convergence criterion/rate and signed incompleteness distinction](reports/2026-10-31-newton-spherical-shell-polynomial-threshold.md).
+
+- **POME-GREEN-SHELL-GRAM-THRESHOLD-001 — low / verified conditional deduction:** A new all-shell Gram formula in classical §4.5.5 gives \(I(\sigma_{r_j}-\sigma_1,\sigma_{r_k}-\sigma_1)=\delta_{\max(j,k)}\), \(\delta_j=r_j^{-1}-1\). For any strictly increasing \(r_j\uparrow1\), signed shell partial sums are energy-Cauchy **iff** \(\sum j\delta_j<\infty\). For \(r_j=1-j^{-p}\), \(j\ge2\), this is exactly **\(p>2\)**, and the squared tail has sharp asymptotic \(2n^{2-p}/((p-1)(p-2))\). Despite Cauchy convergence, no signed Radon energy limit exists because the open-ball restriction has infinitely many unit-mass shells approaching the compact boundary. This is a quantitative **new** criterion extending, not repeating, the already printed geometric signed-incompleteness example or the separate historical positive-shell convergence finding. Original printed §4.5.4 and Example §4.5.5 remain correct; §4.5.2's energy pairing is a conditional internal input.
+- **Precisely new coverage:** selected classical potential theory §4.5.5 Gram/accumulation and §§4.5.2/.4 hypotheses; §4.5.6 and Martin §§4.5.8–13 background only. **25 chapters / 747 numbered actual ToC sections / zero complete-section certifications.** Sixteen exact-rational finite-Gram comparisons were executed, but no project tests/build/CI/formalization. All prior findings and user-deferred Demailly regularization/Bergman/L²/OT/multiscale/positivity-loss work remain unchanged. Only English audit notes/check script were added; main, source, registry, website, tags were not modified.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-31 — sharp (L^p) atomic trace Poisson stability and the (L^1) obstruction
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete anchored proof, exact (L^1) counterexample and smooth endpoint instability](reports/2026-10-31-atomic-trace-poisson-sharp-lp-endpoint.md).
