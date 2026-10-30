@@ -1,17 +1,17 @@
 # A concentrated Dirichlet defect despite total-variation convergence of smooth Monge–Ampère measures
 
 **Audit date:** 2026-10-30.  
-**Reviewed production \`main\`:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
-**Write scope:** audit Markdown only on \`review/mathematical-audit\`.  
-**Stable ID:** \`POME-ENERGY-DIRICHLET-DEFECT-ATOM-001\`.  
+**Reviewed production `main`:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
+**Write scope:** audit Markdown only on `review/mathematical-audit`.  
+**Stable ID:** `POME-ENERGY-DIRICHLET-DEFECT-ATOM-001`.  
 **Severity / status:** **low / verified conditional deduction**. **Not** a false theorem, repaired proof, or certification of an entire section.
 
 ## Exact integrated source and what was read
 
-- \`docs/sections/relative-energy-and-perron-segments--continuity-and-compactness/index.html\`, production blob \`6fd38d5ff9d0037e9d0d347814a95ad97331715f\`, **Example 17.4.11**, permanent tag \`27DF9596E862\`, original source \`foundations-of-pluripotential-theory:68158160\`, physical lines **226–241** (especially lines 227–240). The example proves scalar Dirichlet-energy noncontinuity under \`L^1\` convergence.
-- Same file, **Proposition 17.4.4**, tag \`2FF0E77E9188\`, lines **95–114**: only upper semicontinuity of the relative energy is asserted. Its statement is consistent with this calculation; its complete upstream dependencies were not certified.
-- \`docs/sections/relative-energy-and-perron-segments--relative-monge-ampere-energy/index.html\`, Example **17.3.16**, tag \`6EAA0093766C\` (curve energy/Stokes normalization), checked as a conditional internal comparison.
-- \`docs/sections/conventions/index.html\`, section **1.1**, permanent tag \`DE921263\`, source label \`foundations-of-pluripotential-theory:DE921263\`, production blob \`ef778e54d8d7413242387e95c52269b3c7d42cae\`, physical **line 47**, \`dd^c=(i/2π)∂\bar∂\`. This is the first direct *selected* §1.1 convention check, **not** full coverage of §1.1.
+- `docs/sections/relative-energy-and-perron-segments--continuity-and-compactness/index.html`, production blob `6fd38d5ff9d0037e9d0d347814a95ad97331715f`, **Example 17.4.11**, permanent tag `27DF9596E862`, original source `foundations-of-pluripotential-theory:68158160`, physical lines **226–241** (especially lines 227–240). The example proves scalar Dirichlet-energy noncontinuity under `L^1` convergence.
+- Same file, **Proposition 17.4.4**, tag `2FF0E77E9188`, lines **95–114**: only upper semicontinuity of the relative energy is asserted. Its statement is consistent with this calculation; its complete upstream dependencies were not certified.
+- `docs/sections/relative-energy-and-perron-segments--relative-monge-ampere-energy/index.html`, Example **17.3.16**, tag `6EAA0093766C` (curve energy/Stokes normalization), checked as a conditional internal comparison.
+- `docs/sections/conventions/index.html`, section **1.1**, permanent tag `DE921263`, source label `foundations-of-pluripotential-theory:DE921263`, production blob `ef778e54d8d7413242387e95c52269b3c7d42cae`, physical **line 47**, `dd^c=(i/2π)∂\bar∂`. This is the first direct *selected* §1.1 convention check, **not** full coverage of §1.1.
 
 ## Exact new measure-level deduction
 
@@ -113,8 +113,8 @@ Since the total masses tend to \(\Lambda\), testing against any continuous funct
 
 **Printed Example 17.4.11 and Proposition 17.4.4 are mathematically consistent.** This finding is a **verified conditional deduction** obtained by direct calculation; it does not repair a false statement, supply missing external elliptic inputs, or certify a full energy/compactness theorem. There is **no new proof gap** established.
 
-The earlier **\`POME-ENERGY-L1-SHARP-001\`** (2026-10-22) already establishes scalar energy defects for similar smooth \(\mathbf P^1\) potentials and is preserved unchanged. The contribution here is the **narrow atomic limit of the positive Dirichlet-energy measures while the smooth Monge–Ampère probabilities converge in total variation**, including the exact uniform localization and TV obstruction. An optional non-destructive editorial example after Example 17.4.11 could emphasize this difference. This matters when applying §17.4 semicontinuity or §17.5 variational compactness: small error in the Monge–Ampère measure does not by itself control the distribution of gradient energy, unless extra estimates are imposed.
+The earlier **`POME-ENERGY-L1-SHARP-001`** (2026-10-22) already establishes scalar energy defects for similar smooth \(\mathbf P^1\) potentials and is preserved unchanged. The contribution here is the **narrow atomic limit of the positive Dirichlet-energy measures while the smooth Monge–Ampère probabilities converge in total variation**, including the exact uniform localization and TV obstruction. An optional non-destructive editorial example after Example 17.4.11 could emphasize this difference. This matters when applying §17.4 semicontinuity or §17.5 variational compactness: small error in the Monge–Ampère measure does not by itself control the distribution of gradient energy, unless extra estimates are imposed.
 
-**Actual new coverage:** selected mathematical check of the explicit §17.4.11 radial model and §1.1 normalization; §17.3.16 and §17.4.4 only for precise conditional context. Independently inspected \`docs/sections/differential-operators-and-elliptic-regularity/index.html\`, blob \`1d365c77d3f0306ab0fac8e87c65c2f5781d32aa\`, section **2.15**, tag \`73E021597E92\`: the present page is **navigation-only**, without a proof or statement. This is structural inventory, not proof verification. **25 current chapters, 747 distinct numbered sections, no completely certified mathematical section.**
+**Actual new coverage:** selected mathematical check of the explicit §17.4.11 radial model and §1.1 normalization; §17.3.16 and §17.4.4 only for precise conditional context. Independently inspected `docs/sections/differential-operators-and-elliptic-regularity/index.html`, blob `1d365c77d3f0306ab0fac8e87c65c2f5781d32aa`, section **2.15**, tag `73E021597E92`: the present page is **navigation-only**, without a proof or statement. This is structural inventory, not proof verification. **25 current chapters, 747 distinct numbered sections, no completely certified mathematical section.**
 
 **Scope boundary:** Demailly approximation/regularization and its dedicated Bergman, L², Ohsawa–Takegoshi, multiscale-atlas and positivity-loss programme remain **deferred-by-user**, neither reaudited nor certified. No source manuscripts, mathematics body, registry, permanent tags, production main, website, build, CI or formalization were changed; no project tests or builds were run.
