@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-31 — exact spectral quadratic Bedford–Taylor ball envelopes
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full anchored proof and spectral equality test](reports/2026-10-31-quadratic-dirichlet-spectral-envelope.md).
+
+- **POME-BT-QUADRATIC-DIRICHLET-EIGENVALUE-001 — low / verified conditional deduction:** For any Hermitian matrix (A), the homogeneous Dirichlet envelope on the complex unit ball of quadratic real boundary data (z^*Az+2\operatorname{Re}P(z)+c) is **exactly** this quadratic plus (lambda_{\min}(A)(1-|z|^2)). A direct constant-Hessian determinant computation proves psh and vanishing top BT mass; existing §7.7.4 comparison/uniqueness identifies the Perron solution conditionally. For arbitrary Hermitian (A,B), the exact boundary-interpolation concavity defect is the minimum-eigenvalue Rayleigh gap times ((1-|z|^2)), with equality precisely when their minimum eigenspaces intersect. Orthogonal 2×2 diagonal examples give strict gap ((1-|z|^2)/2), distinguishing this **nonaffinity** from the previously logged boundary sup-norm isometry. For (A\ge0), Corollary 7.7.5 gives an explicit quadratic ball balayage.
+- **Actual new review:** §7.7.4/5 selected comparison, **first newly selected §7.7.6/7 maximality proof steps**, with §7.3.11 only a conditional internal input. Reader `docs/sections/bedford-taylor-products-and-local-capacity--the-homogeneous-dirichlet-problem-and-balayage/index.html` blob `928f3d3e36f2d03a42623b91487ecec7d189e6c7`, precise tags and physical lines in report. **25 chapters / 747 actual numbered ToC sections / zero whole-section mathematical certifications.** Five **new** exact-rational matrix sanity checks passed; no build, CI, site publication or formal verification. All earlier issues and explicitly user-deferred Demailly/regularization/Bergman/L²/OT/multiscale/positivity-loss work retain their status; no excluded review was conducted.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-31 — exact Newtonian shell Gram matrix and polynomial accumulation threshold
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Exact source-pinned proof, sharp convergence criterion/rate and signed incompleteness distinction](reports/2026-10-31-newton-spherical-shell-polynomial-threshold.md).

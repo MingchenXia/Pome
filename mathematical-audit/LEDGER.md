@@ -1,3 +1,15 @@
+## 2026-10-31 — Hermitian quadratic ball Dirichlet envelopes, exact spectral concavity and balayage
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; [Full anchored proof and spectral equality test](reports/2026-10-31-quadratic-dirichlet-spectral-envelope.md).
+
+| Stable finding ID | Severity / status | Exact target, hypotheses, argument, proposed action and dependents |
+| --- | --- | --- |
+| **POME-BT-QUADRATIC-DIRICHLET-EIGENVALUE-001** | **low / verified conditional deduction**; no false theorem / no general proof repair | On `B(0,1) in C^n`, (n\ge1), real boundary data (arphi_A=z^*Az+2\operatorname{Re}P+c) with (A=A^*) and holomorphic polynomial (P) of degree (\le2), the **exact** homogeneous BT envelope is (H_A=arphi_A+\lambda_{\min}(A)(1-|z|^2)). Directly (dd^cH_A\ge0), (det(H_{j\bar k})=\det(A-\lambda I)=0), and the boundary is exact; §7.7.4 **uniqueness** is a conditional internal input. For (t\in[0,1]), the exact interpolation gap is ([\lambda_{\min}((1-t)A+tB)-(1-t)\lambda_{\min}(A)-t\lambda_{\min}(B)](1-|z|^2)\ge0), zero for (0<t<1) iff the minimal eigenspaces meet. The two orthogonal projector examples on (\mathbb C^2) give a strict gap ((1-|z|^2)/2); (A\ge0) gives an explicit global ball replacement via §7.7.5. **Integrated:** `docs/sections/bedford-taylor-products-and-local-capacity--the-homogeneous-dirichlet-problem-and-balayage/index.html`, main blob `928f3d3e36f2d03a42623b91487ecec7d189e6c7`; §7.7.4 source `foundations-of-pluripotential-theory:FEE18534`, tag `9181532558D7`, **lines 104–108, 113–135**; §7.7.5 source `:A118D214`, tag `2E8B947536C1`, **140–154**; §7.7.6 source `:4A1DBBE1`, tag `FD8547B922C9`, **160**; §7.7.7 source `:5C75D8E4`, tag `BCFDDA1FCB7A`, **165–174**; determinant §7.7.2 source `:2473754C`, tag `0E5A3E632224`, **58–69**; comparison §7.3.11 tag `D0AF90DDC7A5`, source `:A7DD3972`, **line 304 of** `docs/sections/bedford-taylor-products-and-local-capacity--decreasing-continuity-and-symmetry/index.html` (blob `96a9e39e85fab5774ebdac0c6d9d006338a4e42c`). **Proposal:** optional exact quadratic example after §7.7.4; no edit to main/manuscripts/registry/tags. **Dependents:** §7.7.7 maximality tests, §7.7.5 balayage, §5.47 relative-extremal interpretation. Previous `POME-BT-PERRON-ISOMETRY-001` is distinct and preserved. |
+
+**New scope:** selected §7.7.4/5 and §7.7.6/7 maximality, §7.3.11 conditional statement only; not whole-section verification. Five exact rational checks passed; **25 chapters / 747 numbered sections / zero full-section certifications**. Existing historical records and excluded Demailly/regularization/Bergman/L²/OT/multiscale/positivity-loss programme remain untouched and `deferred-by-user`. Audit-only; no production/CI/publication action.
+
+---
+
 ## 2026-10-31 — Newtonian spherical-shell exact Gram and sharp polynomial accumulation
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete pinned proof, exact physical lines, polynomial threshold, tail constant and independent rational checks](reports/2026-10-31-newton-spherical-shell-polynomial-threshold.md).
