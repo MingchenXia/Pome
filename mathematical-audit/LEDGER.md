@@ -1,3 +1,17 @@
+## 2026-10-31 — exact sharp central-binomial cofactor sandwich and selected analytic checks
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Complete anchored proof, optimality witnesses and coverage](reports/2026-10-31-sharp-binomial-cofactor-and-cross-chapter-guard.md).
+
+| Stable ID | Severity / status | Mathematical finding, exact source anchors, proposed action and dependents |
+| --- | --- | --- |
+| **\`POME-MA-COFACTOR-SHARP-CENTRAL-BINOMIAL-001\`** | **low / verified conditional deduction**; printed inequality **correct**, not a false theorem or general proof repair | In \(n\ge1\), with \(k=n-1\), semipositive \((1,1)\)-forms \(A,B\), \(H=A+B\), \(T=\sum_{j=0}^k A^jB^{k-j}\), one has the **optimal** positive-form sandwich \(\binom{k}{\lfloor k/2\rfloor}^{-1}H^k\le T\le H^k\) and the beta integral identity \(T=(k+1)\int_0^1(tA+(1-t)B)^kdt\). Complementary coordinate-rank forms give equality in the lower bound and \(A=0\), \(B\) rank \(k\), in the upper, **even while \(A^n=B^n=0\)**. Original weaker \(2^{-k}H^k\le T\) in Eq. **14.21.8**, source \`non-kahler-pluripotential-theory:BDBE4297\`, tag \`144125DEDD1C\`, physical **line 117** of \`docs/sections/uniqueness-for-degenerate-equations--extrema-and-density-sublevels/index.html\` (main blob \`044f55457f10b2f640052854a7f5f14b8403be82\`), is valid. Eq. **14.21.9** source \`:A73BA233\`, tag \`CEEE110C45FE\`, **line 124**. Definition/polarization Eq. **14.20.1**, source \`:AA4FA8E3\`, tag \`2EA7CA32AE91\`, main path \`docs/sections/uniqueness-for-degenerate-equations/index.html\`, blob \`0c1c033d7a1a76b9ccf9fbd5b4bfc8321a33f208\`, **line 18**. Theorem 14.21.3 source \`:61B8DD0F\`, tag \`6EB399397505\`, line **28**, uses cofactor local ellipticity. **Proposed optional replacement** only: strengthen lower coefficient in Eq 14.21.8, keeping provenance and tags; affects ellipticity constants and dependent §§14.21–14.22, **not** the theorem's topology/existence assumptions. |
+
+**Independent selected checks:** Proposition **9.5.6** source \`foundations-of-pluripotential-theory:441B06F2\`, tag \`0E64BF4DC7C7\`, \`docs/sections/complex-spaces-and-modifications--analytic-curves-and-finite-maps/index.html\` blob \`2c725646172203283ac4564bddd46213d9a75cbe\`, physical lines **104–124**: local pure zero-set dimension argument is consistent conditional on Lemma 9.5.5 and analytic-stratum inputs. Theorem **11.1.7 (Chiose)**, source \`non-kahler-pluripotential-theory:5CD99CBA\`, tag \`FB90FC741F25\`, \`docs/sections/torsion-and-the-variation-of-mass/index.html\` blob \`9abec9685e33a1b40f9c0765381408eb52b325d3\`, lines **100–135**: smooth polarization and torsion algebra checked, bounded-potential approximation **excluded/deferred**, not certified. No new error in these selected steps.
+
+**Accounting:** exactly one new mathematical finding, selected passages only, not complete sections. **25 chapters / 747 actual numbered ToC rows / zero entire-section certifications**. All historical confirmed errors/proof gaps/external dependencies and user-deferred regularization/Bergman/L²/OT/multiscale/positivity-loss programme retain their earlier statuses. No tests, CI, build, website publication, formal verification or source/main/tag/registry changes.
+
+---
+
 ## 2026-10-31 — sharp closed-class L1 scalar and supporting-measure stability
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Anchored proof and sharpness construction](reports/2026-10-31-closed-scalar-sharp-l1-tv.md).
