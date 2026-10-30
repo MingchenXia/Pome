@@ -1,20 +1,20 @@
 # Quadratic boundary data: exact spectral Dirichlet envelope and strict concavity
 
-**Date:** 2026-10-31. **Stable finding:** POME-BT-QUADRATIC-DIRICHLET-EIGENVALUE-001. **Severity:** low. **Status:** verified conditional deduction; no false printed theorem or general proof repair. **Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. Proposed findings only on \`review/mathematical-audit\`.
+**Date:** 2026-10-31. **Stable finding:** POME-BT-QUADRATIC-DIRICHLET-EIGENVALUE-001. **Severity:** low. **Status:** verified conditional deduction; no false printed theorem or general proof repair. **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. Proposed findings only on `review/mathematical-audit`.
 
 ## Precisely inspected reading-edition statements
 
-The integrated source is \`docs/sections/bedford-taylor-products-and-local-capacity--the-homogeneous-dirichlet-problem-and-balayage/index.html\`, main blob \`928f3d3e36f2d03a42623b91487ecec7d189e6c7\`, parent section 7.7 tag \`22EC1FF0BE9D\`.
+The integrated source is `docs/sections/bedford-taylor-products-and-local-capacity--the-homogeneous-dirichlet-problem-and-balayage/index.html`, main blob `928f3d3e36f2d03a42623b91487ecec7d189e6c7`, parent section 7.7 tag `22EC1FF0BE9D`.
 
 | Item | Original source label / permanent tag | Physical HTML lines |
 | --- | --- | --- |
-| Lemma 7.7.2, Hessian determinant formula | \`foundations-of-pluripotential-theory:2473754C\` / \`0E5A3E632224\` | 58–69; proof 75–99 |
-| Theorem 7.7.4, homogeneous Dirichlet existence and uniqueness | \`foundations-of-pluripotential-theory:FEE18534\` / \`9181532558D7\` | 104–108; proof 113–135 |
-| Corollary 7.7.5, ball balayage | \`foundations-of-pluripotential-theory:A118D214\` / \`2E8B947536C1\` | 140–154 |
-| Definition 7.7.6, maximality | \`foundations-of-pluripotential-theory:4A1DBBE1\` / \`FD8547B922C9\` | 160 |
-| Theorem 7.7.7, maximality iff vanishing mass | \`foundations-of-pluripotential-theory:5C75D8E4\` / \`BCFDDA1FCB7A\` | 165–174 |
+| Lemma 7.7.2, Hessian determinant formula | `foundations-of-pluripotential-theory:2473754C` / `0E5A3E632224` | 58–69; proof 75–99 |
+| Theorem 7.7.4, homogeneous Dirichlet existence and uniqueness | `foundations-of-pluripotential-theory:FEE18534` / `9181532558D7` | 104–108; proof 113–135 |
+| Corollary 7.7.5, ball balayage | `foundations-of-pluripotential-theory:A118D214` / `2E8B947536C1` | 140–154 |
+| Definition 7.7.6, maximality | `foundations-of-pluripotential-theory:4A1DBBE1` / `FD8547B922C9` | 160 |
+| Theorem 7.7.7, maximality iff vanishing mass | `foundations-of-pluripotential-theory:5C75D8E4` / `BCFDDA1FCB7A` | 165–174 |
 
-The uniqueness/comparison input is Theorem 7.3.11, source \`foundations-of-pluripotential-theory:A7DD3972\`, permanent tag \`D0AF90DDC7A5\`, line **304** of \`docs/sections/bedford-taylor-products-and-local-capacity--decreasing-continuity-and-symmetry/index.html\`, main blob \`96a9e39e85fab5774ebdac0c6d9d006338a4e42c\`. Its general proof chain is **not** certified by this review. This run freshly checked the maximality proof steps in §7.7.6–7 (especially the boundary comparison in line 171 and global ball replacement in line 173), while the prior §7.7.4/5 review is retained without recounting it.
+The uniqueness/comparison input is Theorem 7.3.11, source `foundations-of-pluripotential-theory:A7DD3972`, permanent tag `D0AF90DDC7A5`, line **304** of `docs/sections/bedford-taylor-products-and-local-capacity--decreasing-continuity-and-symmetry/index.html`, main blob `96a9e39e85fab5774ebdac0c6d9d006338a4e42c`. Its general proof chain is **not** certified by this review. This run freshly checked the maximality proof steps in §7.7.6–7 (especially the boundary comparison in line 171 and global ball replacement in line 173), while the prior §7.7.4/5 review is retained without recounting it.
 
 ## Exact formula for quadratic boundary data
 
@@ -75,7 +75,7 @@ H_{(1-t)\varphi+t\psi}
 \geq(1-t)H_\varphi+tH_\psi.
 $$
 
-The right-hand side is a plurisubharmonic competitor with the correct boundary data, so the inequality follows from the envelope characterization. This concavity, which is strict for the displayed quadratic pair, is **not** the previously registered sup-norm boundary isometry \`POME-BT-PERRON-ISOMETRY-001\`; the two findings are logically distinct.
+The right-hand side is a plurisubharmonic competitor with the correct boundary data, so the inequality follows from the envelope characterization. This concavity, which is strict for the displayed quadratic pair, is **not** the previously registered sup-norm boundary isometry `POME-BT-PERRON-ISOMETRY-001`; the two findings are logically distinct.
 
 ## Exact quadratic balayage
 
@@ -96,6 +96,6 @@ Its inside has zero top Bedford–Taylor mass, its trace equals $u$ on $\partial
 
 Theorem 7.7.4 and Theorem 7.7.7 remain **correct in the mathematical steps checked**. The new formula is an exact independent model calculation, but its **unique-Perron identification** and the global balayage interpretation remain **conditional on the existing comparison/gluing results**. Theorem 7.3.11 is a genuine internal dependency, not a new external quotation or a certified proof. The model is a **verified conditional deduction**, neither a false theorem nor a complete repair.
 
-An optional insertion immediately after Theorem 7.7.4 could record this explicit family, its nonaffinity and the gluing example, keeping the original source attribution and permanent labels. Affected interpretative dependents include the maximality test §7.7.7 and relative extremal/obstacle constructions in §5.47. **No modification** to the manuscript, proof registry, canonicalization, permanent tags or production \`main\` is proposed as already implemented.
+An optional insertion immediately after Theorem 7.7.4 could record this explicit family, its nonaffinity and the gluing example, keeping the original source attribution and permanent labels. Affected interpretative dependents include the maximality test §7.7.7 and relative extremal/obstacle constructions in §5.47. **No modification** to the manuscript, proof registry, canonicalization, permanent tags or production `main` is proposed as already implemented.
 
-**Actual new coverage:** selected §7.7.4 and §7.7.5 comparison, **fresh specific §7.7.6–7.7.7 maximality proof inspection**, §7.3.11 only a conditional comparison statement. This does **not** certify a whole numbered section, upstream Bedford–Taylor theory or the entire collection. The chapter/section matrix remains **25 chapters, 747 current ToC sections, zero wholly certified mathematical sections**. The companion standard-library exact rational check \`mathematical-audit/checks/check_quadratic_dirichlet_spectral.py\` passed **five** diagonal matrix sanity checks; no project build, CI, website publication or formal verification was performed. All prior findings persist unchanged. Demailly approximation/regularization and the Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss programmes remain **deferred-by-user** without review or certification.
+**Actual new coverage:** selected §7.7.4 and §7.7.5 comparison, **fresh specific §7.7.6–7.7.7 maximality proof inspection**, §7.3.11 only a conditional comparison statement. This does **not** certify a whole numbered section, upstream Bedford–Taylor theory or the entire collection. The chapter/section matrix remains **25 chapters, 747 current ToC sections, zero wholly certified mathematical sections**. The companion standard-library exact rational check `mathematical-audit/checks/check_quadratic_dirichlet_spectral.py` passed **five** diagonal matrix sanity checks; no project build, CI, website publication or formal verification was performed. All prior findings persist unchanged. Demailly approximation/regularization and the Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss programmes remain **deferred-by-user** without review or certification.
