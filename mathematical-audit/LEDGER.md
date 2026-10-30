@@ -1,3 +1,15 @@
+## 2026-10-31 — sharp periodic Kodaira flat-gauge spectral rigidity
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Detailed English proof, source tags and limitations](reports/2026-10-31-kodaira-flat-gauge-spectral-rigidity.md).
+
+| Stable finding ID | Severity / status | Exact hypotheses, proof and dependent impact |
+| --- | --- | --- |
+| **POME-KODAIRA-FLAT-GAUGE-SPECTRAL-RIGIDITY-001** | **Low / verified conditional deduction**, *not* a source theorem error or certified global repair | In *every* smooth 1-periodic f with C=1−f''>0 in integrated Example 23.2.53, `h=C^(−1/2)`, flat gauge `omega=h omega_1`, `q=d_g^*lambda=−h''`, `dvol=e1234`. Fourier Parseval proves `integral_X q^2 >= (2pi)^4 integral_0^1 |h−mean(h)|^2`, with equality precisely for h in Fourier modes 0,±1; Gauduchon iff f is constant. Under *unverified upstream* Thm.23.2.47, `integral_X|S^-|^2 >= 8 pi^4 integral_0^1|h−mean(h)|^2`. Sharpness holds in the original family: `h_a=(1−a^2)^(−3/4)(1+a cos(2pi x))`, 0<a<1, gives `mean(h_a^(−2))=1`, hence periodic f_a via `f_a''=1−h_a^(−2)`. Production `docs/sections/locally-conformally-kahler-geometry/index.html` blob `6ebf8e604b45d3eb748037af506145273ca3875d`, source `non-kahler-pluripotential-theory:F3D1120B`, permanent `E37387C4675B` lines 906–982, global identity tag `C4981F6B1F78` lines 786–888. Propose optional corollary after Example 23.2.53, retaining all provenance; affects only explicit family's quantitative interpretation and §23.2.54 context; no global Vaisman conjecture settled. |
+
+**Scope:** §23.2.53 complete direct proof inspected; upstream theorem 23.2.47 identity used *conditionally*, other selected §23.2 and §§13.7,17.3,19.2–3,19.7,20.5 checks contextual/partial only; §20.4 excluded programme not revisited. Total current TOC **25 chapters / 747 sections / 0 completely certified**. Old open/deferred ledger and user-excluded Demailly/Bergman/L²/OT/multiscale/positivity-loss work unchanged; no main/website/registry/body writes, project tests, builds, CI, publication or formal certification.
+
+---
+
 ## 2026-10-31 — exact sharp central-binomial cofactor sandwich and selected analytic checks
 
 ## 2026-10-31 — explicit nef-boundary volume regularity and sharp toric FS determinant minors
