@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-31 — sharp Chern–Ricci-flat Kodaira Lee-gauge spectral rigidity
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [New source-pinned complete local proof](reports/2026-10-31-kodaira-flat-gauge-spectral-rigidity.md).
+
+**POME-KODAIRA-FLAT-GAUGE-SPECTRAL-RIGIDITY-001 — low / verified conditional deduction, not a printed theorem error.** For the *entire* positive periodic Kodaira family of Example 23.2.53, put C=1−f'', h=C^(−1/2), omega=h omega_1. The smooth Chern–Ricci-flat gauge has q=d_g^*lambda=−h'', with total volume e1234. Parseval gives the **sharp** spectral gap `integral_X q^2 = integral_0^1 |h''|^2 >= (2pi)^4 integral_0^1 |h−average(h)|^2`. Hence **this flat gauge is Gauduchon iff f is constant**; nonconstant q changes sign. By the integrated Thm. 23.2.47, the *conditional* geometric bound is `integral_X |S^-|^2 >= 8 pi^4 integral_0^1 |h−average(h)|^2`. Both constants are attained by admissible positive first-harmonic h, constructed with mean h^(−2)=1; no false theorem and no global rigidity proof certification. Integrated source `non-kahler-pluripotential-theory:F3D1120B`, permanent `E37387C4675B`, `docs/sections/locally-conformally-kahler-geometry/index.html`, blob `6ebf8e604b45d3eb748037af506145273ca3875d`, physical lines 906–982; Thm. 23.2.47 tag `C4981F6B1F78` lines 786–888.
+
+**Actual incremental coverage:** complete direct example proof §23.2.53, with §23.2.47 as *conditional* internal prerequisite; §23.2.2–24/.29–32/.56–72 selected contextual risk checks only, plus contextual checks §§13.7,17.3,19.2–3,19.7,20.5. The §20.4 excluded-approximation pathway was not revisited. **25 chapters, 747 numbered sections, zero fully mathematically certified sections.** Old findings and deferred-by-user Demailly regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss notes all retain previous status. No builds, tests, CI, formal verification, main/site/source/registry/tag edits.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-31 — nonclosed-nef volume differentiability and toric Fubini–Study minors
 
 **Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [New complete source-pinned selected proofs](reports/2026-10-31-nef-volume-regularity-and-toric-fs-minors.md).
