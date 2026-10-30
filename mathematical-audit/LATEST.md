@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-31 — nonclosed-nef volume differentiability and toric Fubini–Study minors
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [New complete source-pinned selected proofs](reports/2026-10-31-nef-volume-regularity-and-toric-fs-minors.md).
+
+- **\`POME-GAUD-RADIAL-NEF-REGULARITY-001\` — low / verified conditional deduction:** In the explicit positive-volume but nonbig Gauduchon family §12.14.6, along the **fiber** perturbation \`theta_epsilon=omega+(a+epsilon)w\`, the volume \`V=n/H_epsilon\` is one-sided \`C^(n-3)\` but not \`C^(n-2)\` at zero. The critical derivative has an explicit nonzero logarithmic divergence, and in \`n=3\` the difference is asymptotic to \`(3/2)epsilon log(1/epsilon)\`; in \`n>=4\` the first derivative is finite and exactly \`n(n-2)^2/((n-1)(n-3))\`. Printed statements remain correct.
+- **\`POME-TORIC-FS-MINOR-LOWER-001\` — low / verified conditional deduction:** In every Delzant vertex chart of §21.8.3 the complex Fubini–Study Hessian determinant equals the sum of squared \`(n+1)\`-row holomorphic minors divided by \`S^(n+1)\`, with a distinguished minor **identically one**. This yields the globally valid chart-local sharp lower bound \`det G >= S^(-n-1)\`, equality at the fixed vertex, and a dense-torus lattice-covariance formula. Four exact-rational square checks passed; no new false theorem.
+- **Precise new selected coverage:** §12.14.1/.6/.10 radial parameter and derivatives, §21.8.2(4)/.3 monomial chart/Hessian; §21.9.5 context only. **25 chapters / 747 numbered ToC sections / zero entire mathematical-section certifications.** Earlier findings and all Demailly/regularization/Bergman/L²/OT/multiscale/positivity-loss work retain their existing **deferred-by-user** status. Audit notes and one small reproducible script only; no source/main/site/build/CI/formalization.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-31 — sharp central-binomial cofactor bounds and broad cross-checks
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Exact pinned proof and selected cross-chapter checks](reports/2026-10-31-sharp-binomial-cofactor-and-cross-chapter-guard.md).

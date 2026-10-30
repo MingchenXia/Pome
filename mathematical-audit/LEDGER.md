@@ -1,5 +1,19 @@
 ## 2026-10-31 — exact sharp central-binomial cofactor sandwich and selected analytic checks
 
+## 2026-10-31 — explicit nef-boundary volume regularity and sharp toric FS determinant minors
+
+**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Exact report, stable original labels and full proofs](reports/2026-10-31-nef-volume-regularity-and-toric-fs-minors.md).
+
+| Stable ID | Severity / status | Precisely scoped conclusion, anchors and proposed action |
+| --- | --- | --- |
+| **POME-GAUD-RADIAL-NEF-REGULARITY-001** | **low / verified conditional deduction**; printed model correct | Along **only** \`theta_epsilon=omega+(a+epsilon)w\` of §12.14.6, on \`P^m x P^1\`, \`m=n-1>=2\`, \`t=(m-1)/m\`, \`V=n/H_epsilon\` has one-sided regularity \`C^(m-2)\` but not \`C^(m-1)\`, with \`V^(m-1)(epsilon)=(-1)^m n(m-1)!m t^m log(1/epsilon)+O(1)\`. For \`n=3\`, \`V-3 ~(3/2)epsilon log(1/epsilon)\`; for \`n>=4\` derivative is \`n(n-2)^2/((n-1)(n-3))\`. Exact main \`docs/sections/a-gauduchon-variational-volume--positive-volume-without-bigness/index.html\`, blob \`4e892ab379abdfa3b6520671db344e94bbc7a51a\`; Eq.12.14.1 source \`non-kahler-pluripotential-theory:9FF975A3\`, tag \`71973446DB97\`, lines 24–26; Thm.12.14.6 source \`:7A1559DF\`, tag \`ECAB6BFB33FD\`, lines 100–110,120–158; Prop.12.14.10 source \`:EDD3E86A\`, tag \`0E9506DB4E70\`, lines 178–219/229–232. Optional exact endpoint differentiability remark in §12.14; dependent interpretation §§12.11/12.20/24.6, **not** an assertion for general nef classes or perturbations. |
+| **POME-TORIC-FS-MINOR-LOWER-001** | **low / verified conditional deduction**; printed Thm 21.8.3 correct | For a smooth n-dimensional lattice polytope \`P\`, in a vertex chart with \`S=sum_{m in P∩M}|w^b(m)|^2\`, \`det(partial barpartial log S)=S^(-n-1)sum_{|I|=n+1}|det(F,DF)_I|^2 >= S^(-n-1)\`, with equality at \`w=0\`; on the torus it is \`det Cov_p(b)/prod|w_i|^2\`. Cauchy–Binet + distinguished minor \`(1,w_1,...,w_n)\` is a self-contained proof; four exact-rational square checks passed. Main \`docs/sections/convex-analysis-and-toric-potentials--smooth-lattice-polytopes-and-projective-charts/index.html\`, blob \`f442a7b663689b97a9b89689b8b7ae8b366a53fe\`; §21.8.2(4) source \`foundations-of-pluripotential-theory:86BADE82\`, tag \`41C54729DBFD\`, lines 24–55,84; Thm.21.8.3 source \`:0F7315B0\`, tag \`E49F0370E203\`, lines 107–112/126–132/142–155. Context §21.9.5 source \`:BD98CC5B\`, tag \`69D3D97E7701\`, blob \`7ad2e6dbdd0ce59e1bf08cd9cb3c046e8c87ff6c\`, lines 139–166, not a complete proof certification. Optional quantitative metric remark after §21.8.3; affects chart computations §§21.9–10/21.12 only conditionally. |
+
+**Actual selected coverage only:** §§12.14.1/.6/.10, 21.8.2(4)/.3; §21.9.5 context-only. **25 chapters / 747 ToC sections / zero full mathematical-section certifications.** Old errors, proof gaps, external inputs, duplicates and user-deferred Demailly/regularization/Bergman/L²/OT/multiscale/positivity-loss programme unchanged. No full test/build/CI/site/formal verification or production edits.
+
+---
+
+
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete anchored proof, optimality witnesses and coverage](reports/2026-10-31-sharp-binomial-cofactor-and-cross-chapter-guard.md).
 
 | Stable ID | Severity / status | Mathematical finding, exact source anchors, proposed action and dependents |
