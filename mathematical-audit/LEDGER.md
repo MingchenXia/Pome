@@ -1,3 +1,15 @@
+## 2026-10-30 — sparse-ball Wiener boundary regularity with the exact log-log borderline
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete source-anchored model, two-sided Green-capacity bounds, threshold proof and coverage inventory](reports/2026-10-30-sparse-wiener-balls-loglog-threshold.md). All older entries retained without recertification.
+
+| Stable finding ID | Severity / status | Exact evidence, proposed addition, dependents and limits |
+| --- | --- | --- |
+| **POME-WIENER-SPARSE-BALLS-LOGLOG-001** | **low / verified conditional deduction**; Theorem 4.4.26 **correct in the model** | §4.4.26 **classical-potential-theory:BE9DEDF9**, tag **A856D11F5895**, main **docs/sections/perron-theory-and-fine-boundary-limits/index.html**, blob **4bc2fb9317e2b6f6bb5b2d90208c677da8275eba**, physical lines **345–350, 353–380**; §§4.1.16/.21, same source normalization, **docs/sections/potentials-energy-and-capacity/index.html**, blob **4962a7cd576a64cb47fa0955dcc80cf87c3da9d1**, physical lines **450–482, 628–642**. In d>=3, put one ball of radius \(\rho_j/[20(j+1)^\alpha(\log(j+\mathrm e))^\beta]\) in each exact Wiener shell, \(\lambda=4^{d-2}\), \(\Phi(\rho_j)=\lambda^{j+1/2}\), \(\alpha,\beta\ge0\). Relative capacity is uniformly comparable to \(s_j^{d-2}\), so the boundary point is **irregular** iff \(\alpha(d-2)>1\), or equality with \(\beta(d-2)>1\); otherwise it is **regular**, including double equality. Optional example after theorem; §4.4 Perron/fine-boundary users and §4.4.6 exterior-cone sufficiency, **not** a claim of false theorem or general theorem certification. |
+
+**New first direct expository-only inventory (no theorem certification):** §5.1 main blob **fec3c3e220607b33de74642b64e444ac8f21b41e** lines **7–16**; §5.7 blob **bc8a7baa7d35967c7d56a357c4d9022ff36a51d9** lines **7–30**; §5.21 blob **1b0067104a17b95c283a89791721bb9b04edad39** lines **7–11**. Full permanent tags in the dated report. **25 chapters / 747 numbered sections / zero complete section certifications**; prior unresolved errors/gaps/external inputs unchanged. Demailly approximation/regularization and dedicated Bergman/L2/OT/multiscale/positivity-loss are **deferred-by-user**, not reviewed or resolved. Audit Markdown only, no main/source/website/CI/build change.
+
+---
+
 ## 2026-10-30 — sharp local-finiteness threshold for a non-pluripolar square
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full determinant, radial integral, fixed source tags/physical lines and complete calculation](reports/2026-10-30-nonpluripolar-power-threshold.md). All earlier dispositions retained.
