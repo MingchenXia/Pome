@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-30 — density-one fine neighborhoods and strict density-topology inclusion
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete quantitative proof and halfspace nonthinness counterexample](reports/2026-10-30-fine-neighborhoods-lebesgue-density-and-strictness.md). Audit branch only.
+
+- **POME-FINE-LEBESGUE-DENSITY-001 — low / verified conditional deduction.** Every classical fine neighborhood N of x contains a basic set {u>a} with u(x)>a. If M_r is the sup of u on the closed r-ball, the submean inequality gives outer complement proportion at most (M_r-u(x))/(M_r-a), tending to zero by upper semicontinuity. Thus every fine-open set has Lebesgue density one at each point and every finely continuous metric-valued map is approximately continuous.
+- **POME-FINE-DENSITY-STRICT-001 — low / verified conditional deduction.** The measurable set U=R^d\(H\{0}), H={x_1=0}, has density one at every point of U, but is not fine-open at 0. The positive harmonic function |x_1| on B\H is a barrier at 0, so the closed hyperplane is nonthin there by printed Theorem 4.4.22, and removing 0 does not change thinness. Hence classical fine topology is **strictly coarser** than Lebesgue density topology for d>=2. Neither printed theorem is false.
+- **Exact scope:** first explicit quantitative reanalysis of selected §4.2.2/.4–.5, conditional §4.2.22 measurability, and new selected §4.4.22 halfspace barrier; **not** the older §4.2.25 classical-versus-plurifine or §4.4.26 Wiener findings. Pinned main physical line anchors and tags in report. **25 chapters / 747 numbered ToC sections / zero full-section certifications**; no earlier statuses closed. Excluded Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme remain **deferred-by-user**, not touched. No main/source/body/registry/site/build/CI/formalization changes.
+
+---
 # Latest mathematical audit checkpoint — 2026-10-30 — atomic Dirichlet defect despite total-variation Monge–Ampère convergence
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Exact new measure-level proof, integrated tags and physical line anchors](reports/2026-10-30-dirichlet-defect-atom-with-tv-ma-convergence.md). Audit branch only.
