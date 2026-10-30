@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-31 — sharp (L^p) atomic trace Poisson stability and the (L^1) obstruction
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete anchored proof, exact (L^1) counterexample and smooth endpoint instability](reports/2026-10-31-atomic-trace-poisson-sharp-lp-endpoint.md).
+
+- **POME-TRACE-POISSON-LP1-SHARP-001 — low / verified conditional deduction (printed Theorem 20.3.15 correct):** For a compact curve, fixed atomic trace (D) of mass (d<M), and normalized nonnegative densities (f,g\in L^p), (p>1), the uniquely normalized **bounded Poisson corrections** obey the sharp-topology stability estimate `||s_f-s_g||_infinity <= (M-d) C_{Y,eta,p} ||f-g||_p` with `C=sup_x ||G(x,.)||_{p/(p-1)}<infinity`. An exact affine formula also isolates the dependence on total atomic mass, not its locations. **The (p>1) assumption cannot universally be replaced by (p=1):** an explicit positive integrable density proportional to `1/(r^2 log^2(1/r))` has an unbounded logarithmic Green potential and no solution in the smooth ordinary trace type. Even smooth strictly positive probability densities may converge in (L^1) while their normalized smooth Poisson solutions fail to converge uniformly (rescaled bump of weight `1/|log epsilon|`). This is a proof of a precise endpoint obstruction, **not** a false printed theorem.
+- **New selected coverage:** direct §20.3.15 proof and normalization; §20.3.10 Green/atomic mass used as a stated internal input; §20.3.13 context only. **25 chapters / 747 actual ToC sections / zero complete mathematical-section certifications.** Existing errors, gaps, dependences and deferred-by-user Demailly regularization/Bergman/`L^2`/OT/multiscale/positivity-loss work unchanged. Notes-only: no source, main, registry, site, CI, build or formal verification.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-30 — exact shifted-grid Haar averaging and one infinite-order equivariance generator
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Source-pinned proof report](reports/2026-10-30-shift-averaging-and-one-rotation-grading.md).
