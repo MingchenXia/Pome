@@ -1,3 +1,15 @@
+## 2026-10-30 — Full continuum of curve trace masses with fixed ordinary restriction
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Exact global multiplier-ideal proof and source anchors](reports/2026-10-30-atomic-trace-continuum-fixed-restriction.md).
+
+| Stable ID | Severity / status | Hypotheses, source anchors, rigorous result, suggested correction, dependents |
+| --- | --- | --- |
+| **POME-TRACE-ATOMIC-INTERPOLATION-001** | **low / verified conditional deduction**, **not** a false theorem or proof gap | Compact `X=P¹_z×P¹_w`, `Y={z=0}`, `theta=omega_z+omega_w`; explicit `u_s=s phi_w+(1-s)max(phi_w,F(phi_z))`, `0≤s≤1`, all restrict **identically** to `phi_w` with Lelong one at `p=(0,0)`. Direct polar integrability and smooth-divisor necessity show `I(tu_s)=O_X(-floor(st)D_w)` for every **real** `t>0`. Hence `tau_{Y,u_s}(p)=s`, all other traces zero, `D_{u_s}=s delta_p`, Poisson trace representative `v_s=s phi_w`, residual mass `1-s`, sharp finite-level TV defect `s-floor(ms)/m<1/m`. **Main** `docs/sections/restriction-and-intrinsic-trace-data/index.html` blob `dbc3b722ceacb8232fe4c7b711e5ad98b0708f06`: Thm 20.3.2 source `non-kahler-pluripotential-theory:BF417B5C` tag `7CD874C73EC9`, lines 36–67; Prop 20.3.6 source `04472093` tag `FE94B20EED19`, lines 129–177; Thm 20.3.10 source `C5D10418` tag `879739B42EBB`, lines 226–272; Prop 20.3.13 tag `B3BE3C08418A`, lines 290–309. `docs/sections/divisorial-currents-on-compact-modifications/index.html` blob `79d6e21f9d3784bf3761846f77f90ad075253644`, Thm 20.4.2 source `E6DD8E29`, tag `A67FA9DFB4BC`, lines 51–82. **Propose optional compact parameterized example** after §20.3.6, no statement/tag alterations. Affects understanding of ordinary restriction versus atomic trace, dyadic/TV convergence §20.3.13 and trace-mass normalization §20.4.2. The existing single strict endpoint example is acknowledged, **not** counted as new. Analytic approximation dependencies remain deferred-by-user. |
+
+**Actual coverage:** selected new integrated §§20.3.2/.4/.6/.10/.13 + §20.4.2 curve-case crosscheck, **not** entire proof-chain or whole-section certification. **25 chapters / 747 numbered ToC sections / zero fully certified sections.** Historical issues unchanged; all dedicated excluded regularization/Bergman/L²/OT/multiscale/positivity-loss work untouched. No production/source/registry/site/build/CI/publication/formalization changes.
+
+---
+
 ## 2026-10-30 — Okounkov convex-roof critical DH tails and sharp transport limits
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full mathematical report, labels, exact physical line anchors and proof](reports/2026-10-30-okounkov-critical-tail-and-wasserstein-rates.md). One new **low / verified conditional deduction**, not a false Pome theorem or a general proof repair.

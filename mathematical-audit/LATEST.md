@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-30 — fixed ordinary restriction with a continuum of atomic trace masses
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete compact projective-product model and exact all-real-weight multiplier-ideal computation](reports/2026-10-30-atomic-trace-continuum-fixed-restriction.md).
+
+- **POME-TRACE-ATOMIC-INTERPOLATION-001 — low / verified conditional deduction; no false theorem.** On `X=P¹×P¹`, `Y={z=0}×P¹`, construct `u_s∈PSH(X,omega_z+omega_w)`, `0≤s≤1`, whose restrictions to `Y` all equal the **same** logarithmic `phi_w`, but `I(tu_s)=O_X(-floor(st)D_w)` for **all real t>0**. Consequently `D_{u_s}=s delta_p`, `Tr_Y^at(u_s)~s phi_w`, and the residual curve measure is `(1-s)omega_w`. The finite ideal trace has **exact sharp** TV error `s-floor(ms)/m<1/m`. This is a compact continuum-strengthening of the existing §20.3.6 strict local example, **not** a repetition of its endpoint; original §§20.3.2/.6/.10/.13 and 20.4.2 correct in this model.
+- **Actual selected proof/model coverage:** first direct §§20.3.2/.4/.6/.10/.13 all-real-weight ideal, restriction, Poisson and measure crosschecks, and first selected §20.4.2 curve-case mass sharpness; relevant integrated permanent tags, physical lines, main blobs in the report. **No complete mathematical section certified**; standing inventory **25 chapters / 747 numbered ToC sections / 0 complete certifications**. All historical errors/gaps/external dependencies unchanged. Dedicated Demailly regularization/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss remains **deferred-by-user** and unexamined. Audit documentation only; no production change/build/CI/publication.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-30 — sharp critical DH moments and exact Wasserstein convergence rates for concave roofs
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete pinned-label mathematical proof](reports/2026-10-30-okounkov-critical-tail-and-wasserstein-rates.md). Audit-branch notes only.
