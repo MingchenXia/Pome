@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-30 — test-curve Choquet dead slices and a conditional complete local repair
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Exact integrated labels/line anchors, diagnostic model, conditional repair and independent Hessian-scope guard](reports/2026-10-30-test-curves-choquet-dead-slices-and-hessian-guard.md).
+
+- **POME-TC-CHOQUET-DEAD-SLICES-001 — low–medium / proof gap (verified conditional local repair proposed, not integrated):** Proposition **17.15.31** at lines 680–684 falsely calls **all** finite-join rational slices `PSH(X,theta)` before invoking §5.14.3: if the selected subset's terminal maximum is **below** rational `q<M`, its slice is identically `-infinity`. Explicit `P^1` step-curve parameters `b=0,2`, `q=1` refute **the proof inclusion only**, not the theorem. Restrict the Choquet family to `Fin_q(I)={J: max_{j in J} Gamma^j_max >= q}`, including the **equality** endpoint allowed by §17.12.3; discarded terms are all `-infinity`. Countable selection then works, and §17.12.5 reconstructs every real slice from rational ones, avoiding additional nonlinear mass-continuity appeals. Earlier **POME-CHOQUET-TOPOLOGICAL-REPAIR-001** is a distinct already-proposed repair of foundational §5.14.3, not repeated.
+- **Independent breadth:** first selected §§8.11–8.12 Hessian capacity, torsion, weighted convergence, maxima, and positive-mass steps; the `omega^(n-q-2)` exponent in §8.11.4 is **legitimate** because Chapter 8 explicitly assumes `2<=m<n`—no false-positive issue opened. **Actual selected** §§17.15.20/.22/.25/.28/.31; §§17.12.1/.3/.5/.6; §5.14.3 prerequisite statement; §§8.11–8.12 designated proof steps. **25 chapters / 747 ToC sections / zero completely certified sections**. Existing statuses and all user-excluded Demailly/regularization/Bergman/L²/OT/multiscale/positivity-loss work remain **deferred-by-user**. Audit-only, no main/body/source/tag/site/CI/build/formal verification.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-30 — Grassmannian radial moment threshold and malformed equation permalink
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Pinned source labels, equations, full sharp radial calculation and exact reader-error evidence](reports/2026-10-30-averaged-plane-radial-power-and-detached-equation.md).
