@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-30 — exact shifted-grid Haar averaging and one infinite-order equivariance generator
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Source-pinned proof report](reports/2026-10-30-shift-averaging-and-one-rotation-grading.md).
+
+- **POME-TORIC-HAAR-SHIFT-EXACT-001 — low / verified conditional deduction:** Theorem 21.7.3 (source `foundations-of-pluripotential-theory:364BCD30`, tag `831AEEB7084F`) admits a finite-`k` **exact** Haar-shift identity for any integrable compactly supported weight: the average of normalized shifted-grid sums equals its integral. On `[0,alpha]`, count variance is exactly `{k*alpha}(1-{k*alpha})/k^2 <=1/(4k^2)`. The sharp deterministic `O(1/k)` error recorded earlier is *different* and not repeated. A five-case exact-rational script was executed successfully.
+- **POME-NA-ONE-GENERATOR-GRADING-001 — low / verified conditional deduction:** Lemma 22.1.94 (source `sgpt:AB6FE74C`, tag `76252E7717AC`) needs only **one** multiplier `a` of infinite multiplicative order with `sigma_a(I) subset I` to force full `C^*` grading. A finite Vandermonde inversion proves the claim without topological density; `I=(t^q-1)` is the sharp root-of-unity obstruction. The existing canonical-filtration finding remains separate, as does §22.1.96's external GAGA input.
+- **Exact new mathematical coverage:** the finite-shift quantifier in §21.7.3 and the one-generator algebraic hypothesis of §22.1.94. §§21.9.5/22.1.96 were **context/dependency only**; no full-section or upstream verification. **25 chapters / 747 numbered ToC sections / zero complete mathematical-section certifications**. All earlier errors/gaps/deferrals unchanged; dedicated Demailly/regularization/Bergman/`L^2`/OT/multiscale/positivity-loss programme **deferred-by-user** and not reopened. Audit-only, no main/source/site/CI/build/formalization edits.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-30 — sharp Perron endpoint contraction and nonsmooth convex subgradient nets
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete proof, original source/permanent tags, physical lines and pinned main HTML blobs](reports/2026-10-30-perron-endpoint-stability-and-convex-subgradient-nets.md).
