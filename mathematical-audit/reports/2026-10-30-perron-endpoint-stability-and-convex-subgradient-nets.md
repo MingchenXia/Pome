@@ -1,6 +1,6 @@
 # Sharp affine endpoint stability for Perron segments and a directed-net subgradient theorem
 
-**Audit date:** 2026-10-30. **Reviewed production \`main\`:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+**Audit date:** 2026-10-30. **Reviewed production `main`:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 **Audit scope:** new selected examination of the *integrated reading edition* §§17.16.2–7 and 21.11.63, not a complete review of either section or its dependency graph. Neither result below is an alleged false source theorem. No Demailly approximation/regularization, Bergman, \(L^2\), Ohsawa–Takegoshi, multiscale or positivity-loss programme was examined.
 
 ## POME-PERRON-AFFINE-ENDPOINT-CONTRACTION-001
@@ -8,10 +8,10 @@
 **Severity/status:** low / **verified conditional deduction** (original §17.16.2, Proposition 17.16.6 and Theorem 17.16.7 remain correct; new sharp corollary, not a repair).
 
 **Pinned production evidence:**
-- \`docs/sections/perron-interpolation-and-the-geodesic-equation/index.html\`, main blob \`dc8dc381257360c94fe1c792499bb1ddf1bf5997\`.
-- Standing setup (notably \(\theta\) smooth but **not required closed**) at physical lines 7, 20–29; affine invariance Proposition **17.16.2** at 32–40, source \`non-kahler-pluripotential-theory:16B06DB1\`, permanent tag \`1A5A4BBF82E3\`.
-- Perron definition lines 67–75; largest-envelope and endpoint/restriction Proposition **17.16.6**, lines 78–102, source \`non-kahler-pluripotential-theory:071B00B3\`, permanent tag \`5D2A9C4885B8\`.
-- Bounded-difference existence Theorem **17.16.7**, lines 109–138, source \`non-kahler-pluripotential-theory:CADEDF46\`, permanent tag \`66E38862017F\`; the proof uses the explicit maximum of two affine barriers. These are the exact proof steps checked, not an assertion that all prerequisites §5.24/§5.40 are independently certified.
+- `docs/sections/perron-interpolation-and-the-geodesic-equation/index.html`, main blob `dc8dc381257360c94fe1c792499bb1ddf1bf5997`.
+- Standing setup (notably \(\theta\) smooth but **not required closed**) at physical lines 7, 20–29; affine invariance Proposition **17.16.2** at 32–40, source `non-kahler-pluripotential-theory:16B06DB1`, permanent tag `1A5A4BBF82E3`.
+- Perron definition lines 67–75; largest-envelope and endpoint/restriction Proposition **17.16.6**, lines 78–102, source `non-kahler-pluripotential-theory:071B00B3`, permanent tag `5D2A9C4885B8`.
+- Bounded-difference existence Theorem **17.16.7**, lines 109–138, source `non-kahler-pluripotential-theory:CADEDF46`, permanent tag `66E38862017F`; the proof uses the explicit maximum of two affine barriers. These are the exact proof steps checked, not an assertion that all prerequisites §5.24/§5.40 are independently certified.
 
 **Statement and exact hypotheses.** Let \(X\) be a connected compact complex manifold, \(\theta\) any smooth real \((1,1)\)-form, and let
 \[
@@ -59,7 +59,7 @@ Apply these two facts to the endpoint inequalities first with \((a_0,a_1)\), the
 
 **Severity/status:** low / **verified conditional deduction**, with a self-contained proof; the printed one-dimensional sequential Lemma 21.11.63 is **correct**, and is not repeated as an error.
 
-**Pinned production evidence:** \`docs/sections/convex-functions-and-convex-bodies/index.html\`, blob \`2a123a863642a5a75caa173f0f73aff439a02ea4\`; Lemma **21.11.63** at physical lines **864–925**, source \`sgpt:F7AADC82\`, permanent tag \`66B643EAC79A\`. The printed proof uses the support-line inequality and one-sided difference quotients, lines 881–915. The separate earlier §21.11.20 dense convergence theorem is not assumed here.
+**Pinned production evidence:** `docs/sections/convex-functions-and-convex-bodies/index.html`, blob `2a123a863642a5a75caa173f0f73aff439a02ea4`; Lemma **21.11.63** at physical lines **864–925**, source `sgpt:F7AADC82`, permanent tag `66B643EAC79A`. The printed proof uses the support-line inequality and one-sided difference quotients, lines 881–915. The separate earlier §21.11.20 dense convergence theorem is not assumed here.
 
 **Sharpened theorem.** Let \(U\) be an open convex neighborhood of \(0\) in a finite-dimensional real vector space \(V\). Let \(f_\lambda:U\to\mathbb R\) be a **net** of finite convex functions indexed by a directed set and \(g:U\to\mathbb R\) an arbitrary function differentiable at \(0\). Assume, for every *fixed* \(x\in U\),
 \[
@@ -99,6 +99,6 @@ The expressions are understood as tail infima/suprema; no compactness of subgrad
 
 ## Scope and disposition
 
-The new actual mathematical work is **selected** integrated reading-edition verification of §§17.16.2/.3/.6/.7, including the endpoint envelope/affine-change proof, and **new** detailed proof reading of §21.11.63 with the above independent strengthening; §21.11.20 is contextual only. Source labels and tags above are those of production main \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. Neither finding is a defect of the printed theorems, neither is a full proof-chain certification, and neither repeats prior time-Lipschitz or convex-duality audit entries. Baseline inventory remains **25 chapters, 747 numbered table-of-contents sections, zero complete mathematical section certifications**.
+The new actual mathematical work is **selected** integrated reading-edition verification of §§17.16.2/.3/.6/.7, including the endpoint envelope/affine-change proof, and **new** detailed proof reading of §21.11.63 with the above independent strengthening; §21.11.20 is contextual only. Source labels and tags above are those of production main `b6933b772f41b45918f7e25ed1afbbb1fd892272`. Neither finding is a defect of the printed theorems, neither is a full proof-chain certification, and neither repeats prior time-Lipschitz or convex-duality audit entries. Baseline inventory remains **25 chapters, 747 numbered table-of-contents sections, zero complete mathematical section certifications**.
 
 All historical confirmed errors, proof gaps, candidates, external dependencies and repairs retain their earlier status. Demailly approximation/regularization and its dedicated Bergman, \(L^2\), Ohsawa–Takegoshi, multiscale-atlas and positivity-loss programme remain **deferred-by-user**, neither resolved nor certified. No mathematical body, source, registry, permanent tag or published document was changed. No project build, numerical experiment, CI, website publication or formal verification was run.
