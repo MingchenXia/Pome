@@ -1,3 +1,15 @@
+## 2026-10-30 — Fine topology versus Lebesgue density neighborhoods
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete exact inequality and strict halfspace counterexample](reports/2026-10-30-fine-neighborhoods-lebesgue-density-and-strictness.md). Both entries are low / **verified conditional deduction**; no false printed theorem, general repair, or full-section certification.
+
+| Stable ID | Severity / status | Source anchors, hypotheses, complete reason, correction and dependents |
+| --- | --- | --- |
+| **POME-FINE-LEBESGUE-DENSITY-001** | **low / verified conditional deduction** | `docs/sections/fine-topology-and-balayage/index.html` main blob `d4c8eed09391441b4b6d13e2fa402a60da70be0d`; Definition 4.2.2 source `foundations-of-pluripotential-theory:F5342A6A` tag `C067468FA3F0`, lines 29–37; Proposition 4.2.4 source `foundations-of-pluripotential-theory:D80928DD` tag `CAAD6BABA60C` lines 51–80; Proposition 4.2.5 source `foundations-of-pluripotential-theory:01F6C408` tag `9E787ECDB068` lines 85–99. For every fine neighborhood N of x, a basic superlevel E={u>a} inside N gives `outer_volume(B_r\N)/volume(B_r) <= (sup_Br u-u(x))/(sup_Br u-a) -> 0` by the submean inequality and upper semicontinuity. Theorem 4.2.22 tag `730413AAC920`, lines 490–520, gives measurability of fine-open sets. Every finely continuous map into a metric space is approximately continuous. Optional density-one corollary after 4.2.5, no change required to correct theorem. Dependents §§4.2.22–23, 4.4.19 and fine/plurifine comparisons; dependencies only conditionally used. |
+| **POME-FINE-DENSITY-STRICT-001** | **low / verified conditional deduction** | Same §4.2 subbasis/nonthin criterion, plus `docs/sections/perron-theory-and-fine-boundary-limits/index.html` main blob `4bc2fb9317e2b6f6bb5b2d90208c677da8275eba`, Theorem 4.4.22 source `classical-potential-theory:A2D0D838`, permanent tag `2B657EA5CC09`, lines 304–314. In R^d (d>=2), U=R^d\(H\{0}) with H={x_1=0} has Lebesgue density one at every point of U, but H is nonthin at 0 since w=|x_1| is positive harmonic on a punctured-neighborhood complement and tends to 0 at 0; by 4.4.22 H\{0} is nonthin, so U is not a fine neighborhood of 0. Strict fine-versus-density topology inclusion, distinct from old `POME-FINE-HYP-001` and `POME-FINE-QL-001`. Optional clarification only; does not reprove Wiener criterion or certify fine-theory dependencies. |
+
+**Actual new proof-level passages:** selected §§4.2.2, 4.2.4–5; crosschecked 4.2.22 measurability and 4.4.22 barrier implication, but **no complete section** verified. The old 25-chapter, 747-numbered-section matrix and all unresolved/deferred history are preserved. Demailly regularization and its dedicated Bergman/L²/OT/multiscale/positivity-loss programme remain **deferred-by-user**; no source/website/build/CI modification.
+
+---
 ## 2026-10-30 — Dirichlet defect atom under strong Monge–Ampère convergence
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full independent computation and physical source anchors](reports/2026-10-30-dirichlet-defect-atom-with-tv-ma-convergence.md). Older findings preserved.
