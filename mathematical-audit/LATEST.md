@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-30 — sharp critical DH moments and exact Wasserstein convergence rates for concave roofs
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete pinned-label mathematical proof](reports/2026-10-30-okounkov-critical-tail-and-wasserstein-rates.md). Audit-branch notes only.
+
+- **POME-OKO-ROOF-CRITICAL-WASSERSTEIN-001 — low / verified conditional deduction, no false theorem:** For explicit concave roofs `G_alpha=-x_1^(-alpha)-(1-x_1)^(-alpha)` on a fixed n-cube and bounded upper roofs `G_alpha,epsilon`, DH laws converge **narrowly**; limiting negative tail is asymptotic to `2R^(-1/alpha)`, `p`-th absolute moment is finite exactly when `alpha*p<1`, and at/above the threshold the bounded approximants' moments diverge logarithmically/polynomially. For `p>=1`, `alpha*p<1`, monotone quantile coupling gives the **exact** transport cost and sharp rate `W_p^p~2 epsilon^(1-alpha*p) integral_0^infty(t^(-alpha)-(t+1)^(-alpha))^p dt`. In particular explicit `W_1=2(1-(1+epsilon)^(1-alpha)+epsilon^(1-alpha))/(1-alpha)` when `alpha<1`. This is not the older two-curve finite-W1 profile result or the old increasing-test-curve false-hypothesis report; general geometric NA realizability is not claimed. Original §19.6.19 **correct with extended moments**.
+- **Actual incremental proof/model coverage:** selected source-anchored §§19.6.1/.5/.7/.18/.19/.22, not a whole-section certification; **first §11.3 introductory Gauduchon page inspected**, *expository/context only* (not mathematical proof coverage). Standing matrix **25 chapters / 747 numbered ToC sections / zero complete mathematical-section certifications**. Historical errors, gaps, external dependencies preserved. Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme remain **deferred-by-user**, untouched. No production edits/build/CI/publication/formalization.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-30 — density-one fine neighborhoods and strict density-topology inclusion
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete quantitative proof and halfspace nonthinness counterexample](reports/2026-10-30-fine-neighborhoods-lebesgue-density-and-strictness.md). Audit branch only.

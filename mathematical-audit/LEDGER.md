@@ -1,3 +1,15 @@
+## 2026-10-30 — Okounkov convex-roof critical DH tails and sharp transport limits
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full mathematical report, labels, exact physical line anchors and proof](reports/2026-10-30-okounkov-critical-tail-and-wasserstein-rates.md). One new **low / verified conditional deduction**, not a false Pome theorem or a general proof repair.
+
+| Stable finding ID | Severity/status | Exact proof, suggested change and dependents |
+| --- | --- | --- |
+| **POME-OKO-ROOF-CRITICAL-WASSERSTEIN-001** | **low / verified conditional deduction** | `docs/sections/the-theory-of-okounkov-bodies--okounkov-test-curves/index.html` main blob `20ff3089e62dd1c8349e8bcc077ec64605a9788b`: §19.6.1 source `sgpt:26A94CBB` tag `ACD722F45231` lines 16–45; §19.6.5 `sgpt:9E9C0297` tag `F0D4BAA63D8A` lines 89–109; §19.6.7 `sgpt:2E276BD3` tag `7B20D9977149` lines 112–130; §19.6.18 `sgpt:09132002` tag `51940EF88F4F` lines 328–334; §19.6.19 `sgpt:DE3D564A` tag `F397AFA38927` lines 337–368; §19.6.22 `sgpt:B9C8ADE8` tag `9C05354365F4` lines 370–408. Explicit roofs `G=-x_1^(-alpha)-(1-x_1)^(-alpha)`, `G_e=-(x_1+e)^(-alpha)-(1-x_1+e)^(-alpha)` on `[0,1]^n` give DH tail `~2R^(-1/alpha)`, finite `p` moment iff `alpha*p<1`, truncated moment logarithmic/power divergence otherwise, and **narrow** convergence for all `alpha`. For `p>=1`, `alpha*p<1`, monotone quantile coupling gives the exact `W_p` and sharp `W_p^p~2e^(1-alpha*p) integral_0^infty[t^(-alpha)-(t+1)^(-alpha)]^p dt`. Precise proposed optional example after §19.6.19; affects moment-uniform-integrability premises for §§19.6.22–23, 22.1.54–60. Does **not** assert geometric NA realizability or reproduce earlier `POME-NA-DH-W1-PROFILE-001` / `POME-OKO-INCREASING-TC-REPAIR-001` or `POME-RADIAL-MOMENT-SPECTRUM-001`. Printed moment theorem remains correct in its extended sense. |
+
+**First new structural-only inventory:** §11.3 `docs/sections/gauduchon-metrics-and-linear-mass/index.html`, main blob `02d635e918120c4026c38d14119db9377eefe61f`, source `non-kahler-pluripotential-theory:67BD8090`, tag `1009E65ECC4C`, lines 5–20: introductory conservation/duality prose, **no theorem/proof**, **expository only**. Prior statuses preserved; 25 chapters, 747 numbered sections, zero complete certifications. Excluded Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss proof work **deferred-by-user**. No main/source/registry/site edits, tests, build, CI, publication or formalization.
+
+---
+
 ## 2026-10-30 — Fine topology versus Lebesgue density neighborhoods
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete exact inequality and strict halfspace counterexample](reports/2026-10-30-fine-neighborhoods-lebesgue-density-and-strictness.md). Both entries are low / **verified conditional deduction**; no false printed theorem, general repair, or full-section certification.
