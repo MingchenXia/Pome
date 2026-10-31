@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-31 — exact pairwise essential-extremal speed of weak geodesics
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Source-pinned complete new proof](reports/2026-10-31-pairwise-geodesic-essential-speed.md).
+
+- **POME-GEO-PAIRWISE-EXTREMAL-SPEED-001 — low / verified conditional deduction; printed propositions correct.** For equivalent-singularity `u,v in E(X,theta,phi)`, set `C=ess sup(v-u)`, `c=ess inf(v-u)`, `G_t=G_t(u,v)`. The **new pairwise**, not merely endpoint, identities are `ess sup(G_t-G_s)=(t-s)C` and `ess inf(G_t-G_s)=(t-s)c` for **all** `0<=s<=t<=1`. Hence exact `d_infinity(G_s,G_t)=(t-s)d_infinity(u,v)` and `ess osc(G_t-G_s)=(t-s)(C-c)`. Time reversal and the *infimum* identity of §17.9.1 first compute both extrema of `v-G_s`; the subinterval-geodesic identity in §17.7.8 then reapplies §17.9.1 to the pair `(G_s,v)`. This is a full local deduction conditional on those printed theorems, **not** transitive verification and **not** a `d_1` claim. It does **not repeat** old endpoint `POME-GEO-SLOPES-001` or upper time-Lipschitz `POME-GEODESIC-FULL-TIME-LIPSCHITZ-001`. Optional separately reviewable corollary proposed after §17.9.1; no original theorem shown false.
+- **Precisely selected new review:** §17.9.1 essential extrema/reversal (main `docs/sections/relative-energy-and-perron-segments--extremal-slopes-and-long-perron-segments/index.html`, blob `023e78b3da0fd8f33d39177dba02f410b10f376c`, source `foundations-of-pluripotential-theory:58E4D688`, permanent `0583958ACA6D`, physical lines 10–26); §17.7.8 restriction and §17.7.9 reversal (source tags and exact lines in report), §17.9.2 conventions only. Separately inspected selected §§13.4.1–5 weighted CLN/no-polar-mass/BT bounded factors/measurable fiber Fubini, **without** whole-section certification or repeated findings. **25 current chapters / 747 numbered ToC sections / zero entire mathematical sections certified**. No project build, tests, CI, formal verification or publication; no main/source/tag/registry/site edits. Historical unresolved and verified-repair statuses unchanged. Demailly approximation/regularization and all dedicated Bergman/L²/OT/multiscale/positivity-loss proof work remain **deferred-by-user**.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-31 — weighted Lelong projective jumping strata
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete source-pinned report](reports/2026-10-31-rotated-lelong-projective-threshold-strata.md).
