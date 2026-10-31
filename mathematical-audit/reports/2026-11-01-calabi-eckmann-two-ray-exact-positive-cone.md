@@ -1,16 +1,16 @@
 # Two independent positive exact rays on the Calabi–Eckmann threefold
 
-**Audit date:** 2026-11-01. **Production main inspected:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+**Audit date:** 2026-11-01. **Production main inspected:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 **Verdict:** no false printed theorem found. One new explicit, independently justified **low / verified conditional deduction**; ordinary topology and positivity conventions are the only inputs. No regularization, Bergman, \(L^2\), or extension work.
 
 ## Source and exact reading-edition anchors
 
-- The main reading-edition file is \`docs/sections/locally-conformally-kahler-geometry/index.html\`, Git blob **\`6ebf8e604b45d3eb748037af506145273ca3875d\`**.
-- **Proposition 23.2.59:** source \`non-kahler-pluripotential-theory:F88B67B6\`, permanent tag **\`EBFA309383E5\`**, lines **1054–1080**. Its proof depends on generalized Lamari duality, Theorem 11.6.1, and Poincaré duality. We checked the image/annihilator and openness arguments locally, not the entire Lamari theorem.
-- **Theorem 23.2.60:** source \`non-kahler-pluripotential-theory:B41AA0AF\`, permanent **\`DB27896B9A96\`**, lines **1082–1113**. The finite-dimensional separation direction was checked, including the case \(W_X=0\).
-- **Proposition 23.2.69:** source \`non-kahler-pluripotential-theory:40B2088A\`, permanent **\`4CCB765ECCA2\`**, lines **1238–1274**. The differential sign and Fréchet-cone separation were checked as specified below, without re-certifying the de Rham theorem for currents.
-- **Corollary 23.2.70:** source \`non-kahler-pluripotential-theory:811BE385\`, permanent **\`86E2247D209D\`**, lines **1280–1305**; its numbered mass inequality has source \`8F1CE001\`, permanent **\`24F2C25D4A8F\`**, lines **1282–1285**.
-- **Example 23.2.72:** source \`non-kahler-pluripotential-theory:3C406D0A\`, permanent **\`1EE117A3B0B0\`**, lines **1307–1357**, particularly quotient construction **1318–1338**, holomorphic projection and positive exact form **1340–1354**.
+- The main reading-edition file is `docs/sections/locally-conformally-kahler-geometry/index.html`, Git blob **`6ebf8e604b45d3eb748037af506145273ca3875d`**.
+- **Proposition 23.2.59:** source `non-kahler-pluripotential-theory:F88B67B6`, permanent tag **`EBFA309383E5`**, lines **1054–1080**. Its proof depends on generalized Lamari duality, Theorem 11.6.1, and Poincaré duality. We checked the image/annihilator and openness arguments locally, not the entire Lamari theorem.
+- **Theorem 23.2.60:** source `non-kahler-pluripotential-theory:B41AA0AF`, permanent **`DB27896B9A96`**, lines **1082–1113**. The finite-dimensional separation direction was checked, including the case \(W_X=0\).
+- **Proposition 23.2.69:** source `non-kahler-pluripotential-theory:40B2088A`, permanent **`4CCB765ECCA2`**, lines **1238–1274**. The differential sign and Fréchet-cone separation were checked as specified below, without re-certifying the de Rham theorem for currents.
+- **Corollary 23.2.70:** source `non-kahler-pluripotential-theory:811BE385`, permanent **`86E2247D209D`**, lines **1280–1305**; its numbered mass inequality has source `8F1CE001`, permanent **`24F2C25D4A8F`**, lines **1282–1285**.
+- **Example 23.2.72:** source `non-kahler-pluripotential-theory:3C406D0A`, permanent **`1EE117A3B0B0`**, lines **1307–1357**, particularly quotient construction **1318–1338**, holomorphic projection and positive exact form **1340–1354**.
 
 ## POME-CE-TWORAY-EXACT-CONE-001 — low / verified conditional deduction
 
@@ -63,7 +63,7 @@ Thus the exactness sign in the proof of Proposition 23.2.69, lines 1245–1251, 
 
 **Relevant dependents:** differentiating strong Gauduchon from \(0\in\operatorname{LG}(X)\); the cohomological mass and weak compactness claims of §23.2.70; possible interpretations of the de Rham image of the pseudoeffective cone. The proof assumes only the explicitly constructed quotient, elementary cohomology of \(S^3\times S^3\), positivity of Fubini–Study pullbacks, and the signed \(d^c\) convention; the general Lamari and Fréchet duality chain has not been independently certified.
 
-**New selected mathematical coverage:** the *second independent pullback form* and two-parameter mass family in §23.2.72, and local checks of §23.2.59/.60/.69/.70. These latter theorems were **historically sampled** (in particular \`POME-LG-SG-DUAL-001\`), so this is not their first review or complete certification. No other chapter, whole section, or source version was exhaustively reviewed.
+**New selected mathematical coverage:** the *second independent pullback form* and two-parameter mass family in §23.2.72, and local checks of §23.2.59/.60/.69/.70. These latter theorems were **historically sampled** (in particular `POME-LG-SG-DUAL-001`), so this is not their first review or complete certification. No other chapter, whole section, or source version was exhaustively reviewed.
 
 **Repository-wide certification remains:** 25 actual chapters, 747 numbered ToC sections, **zero fully mathematically certified sections**. All previously unresolved/resolved findings are preserved. User-excluded Demailly approximation/regularization and dedicated Bergman, \(L^2\), Ohsawa–Takegoshi, multiscale-atlas and positivity-loss proof-completion work remains **deferred-by-user**, neither resolved nor restarted.
 
