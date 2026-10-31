@@ -1,3 +1,15 @@
+## 2026-10-31 — representation-independent compact sweeping in Martin existence proof
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete local proof, labels and anchors](reports/2026-10-31-martin-sweeping-projective-consistency.md).
+
+| Stable finding | Severity / exact status | Evidence, correction, and affected dependents |
+| --- | --- | --- |
+| **POME-MART-SWEEP-PROJECTIVE-001** | **low / verified repair (proposed, not integrated)**, **not** a false printed theorem | §4.5.12 source `classical-potential-theory:57D18B4C`, tag `6736FBE7368C`, production file `docs/sections/green-energy-and-martin-boundaries/index.html`, blob `976a90f2a5eba299658f73a1eee8b9d3fef8020f`, line **176**: the lattice argument uses `ν_C=μ_C` for two potentially unequal Martin boundary representatives of the same harmonic function. By §4.5.10 (source `classical-potential-theory:F432655F`, tag `B0A113187C30`, lines 135–149), both are the unique **interior Riesz measure** of `\widehat R_Ch`, so equality follows *without assuming boundary uniqueness*. §4.5.11 (source `classical-potential-theory:20921377`, tag `FDE7BF6A9927`, lines 153–161) then yields `∫T_Cf dν=∫f dν_C=∫f dμ_C`. Nested compact reductions satisfy `(μ_D)_C=μ_C` by reduction absorption. Proposed **proof-text insertion only**, tags/attribution and original statements preserved; affects Theorem 4.5.12's lattice-existence chain, downstream 4.5.13, not an independently certified Martin theorem. Distinct from older Martin SW/Gδ/UNI findings. |
+
+**Actual coverage:** selected §4.5.10–12 measure/representation step; §4.5.13 dependency only; not a whole-section proof certification. **25 chapters / 747 numbered sections / zero complete mathematical sections.** All historical unresolved/resolved/deferred statuses unchanged, especially excluded Demailly regularization plus dedicated Bergman/L²/OT/multiscale/positivity-loss **deferred-by-user**. No tests, build, CI or publication.
+
+---
+
 ## 2026-10-31 — exact smooth surface determinant-root defect and equality rigidity
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full complete local proof, precise source/main anchors and reproducible checks](reports/2026-10-31-surface-monge-ampere-minkowski-anisotropy.md).

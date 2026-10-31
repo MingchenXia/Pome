@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-31 — representation-independent compact Martin sweepings
+
+**Reviewed current main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Exact source-anchored proof and proposed minimal insertion](reports/2026-10-31-martin-sweeping-projective-consistency.md).
+
+- **POME-MART-SWEEP-PROJECTIVE-001 — low / verified repair (proposed, not integrated).** §4.5.12's lattice proof uses equality of compact sweeps for two potentially different Martin-boundary representing measures. It follows independently of boundary-measure uniqueness because both compact sweeps are the unique interior Riesz measure of the same reduced harmonic function (§4.5.10). This also gives nested projective consistency and a representation-independent `T_C` pairing via §4.5.11. Original Theorem 4.5.12 is **not** shown false; upstream reduction/weak-limit and Stone–Weierstrass remain conditional, and existing Martin ledger statuses are preserved.
+- **Actual incremental proof coverage:** selected §§4.5.10–12 compact reduction and the specific line-176 measure identity; §4.5.13 downstream statement only. Integrated HTML `docs/sections/green-energy-and-martin-boundaries/index.html`, blob `976a90f2a5eba299658f73a1eee8b9d3fef8020f`; source labels, tags and physical lines in report. **25 chapters / 747 numbered ToC sections / zero entire mathematical-section certifications.** No tests, build, CI, publishing or formalization. Demailly regularization and all dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss work remain **deferred-by-user**.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-31 — sharp surface Monge–Ampère anisotropy defect
 
 **Reviewed current main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete source-anchored local proof and five exact symbolic checks](reports/2026-10-31-surface-monge-ampere-minkowski-anisotropy.md).
