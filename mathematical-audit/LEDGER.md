@@ -1,3 +1,15 @@
+## 2026-10-31 — quantitative convex slices: interior Lipschitz, arbitrarily slow endpoint continuity
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full anchored proof](reports/2026-10-31-convex-slice-moduli.md).
+
+| Stable finding ID | Severity and exact status | Hypotheses, complete reasoning, proposed amendment and affected dependents |
+| --- | --- | --- |
+| **POME-OKO-SLICE-MODULI-001** | **low / verified conditional deduction**; the original Lemma 19.7.9 is correct, and this is neither a new false theorem nor a resolution of the previously registered proof gap `POME-OKO-SLICE-001`. | Main `docs/sections/almost-semigroups/index.html` blob `33898b2963ad0f8b7e30bf414276642f60925b74`, §19.7.9 source `sgpt:68EC4013`, permanent `806DFD35CCE5`, lines **96–134**; §19.7.6 source `sgpt:3312EB21` tag `AFBD46E7C0A4` lines **45–59** context; §19.7.14 source `sgpt:7B965039` tag `72547EEEBFE4` lines **197–208** dependent. For nonempty compact convex \(K\subset\mathbb R^n\) with \(a=\min_K x_1<b=\max_K x_1\) and diameter \(D\), its sections satisfy **\(d_H(K_s,K_t)\le D|s-t|/\delta\)** on \(a+\delta\le s,t\le b-\delta\), by explicit two-sided interpolation with points in the extreme fibers \(K_a,K_b\). At the endpoint, the positive-area planar body \(K=\{(t,y):0\le t\le e^{-3},\ |y|\le 1/\log(e/t)\}\) (radius zero at \(t=0\)) is compact convex because the radius is continuous and concave, and \(d_H(K_t,K_0)=1/\log(e/t)\), failing **every** positive Hölder exponent. A fixed-rectangle family with radii \(\min(t/h,1)\) has endpoint gap \(1\) at \(t=h\to0\), excluding even a body-uniform modulus. Optional separately reviewable paragraph after §19.7.9, distinguishing **interior** estimates from endpoint limits; §19.7.14 and moving-slice applications must not assume a uniform endpoint power rate. Earlier `POME-OKO-SLICE-001` **proof gap/verified proposed repair**, separate §19.5.4 `POME-OKO-SLICE-FALSE-001` **confirmed error**, and KK12 external dependencies remain unchanged. |
+
+**Actual new coverage:** §19.7.9 quantitative proof and endpoints; §§19.7.6, 19.7.14 contextual only. Three exact rational piecewise-linear examples checked (not a build or formal verification). **25 chapters / 747 actual numbered current ToC sections / 0 whole mathematical-section certifications.** No production main, source/body, tags, registry, CI, website publication or merge. All excluded Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss tasks remain **deferred-by-user**.
+
+---
+
 ## 2026-10-31 — sharp individual Hessian derivative bound, with restricted gradient-threshold refinement
 
 **Reviewed current main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete proof and exact checks](reports/2026-10-31-sharp-hessian-coordinate-ellipticity.md).
