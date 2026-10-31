@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-31 — sharp surface Monge–Ampère anisotropy defect
+
+**Reviewed current main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete source-anchored local proof and five exact symbolic checks](reports/2026-10-31-surface-monge-ampere-minkowski-anisotropy.md).
+
+- **POME-BT-SURFACE-MINKOWSKI-ANISOTROPY-001 — low / verified conditional deduction; printed results correct.** For strictly positive Hermitian 2x2 complex Hessians A,B, with a=det A, b=det B, and relative eigenvalues lambda_1,lambda_2, the exact smooth coefficient gap is det(tA+sB)-(t sqrt(a)+s sqrt(b))² = st a (sqrt(lambda_1)-sqrt(lambda_2))², t,s>=0. It vanishes for positive t,s iff B=cA and is bounded below by (st sqrt(ab)/4) log²(lambda_1/lambda_2), with optimal 1/4. Anisotropic quadratic models give exact defects 9 and 2; the statement is **not** a nonsmooth Bedford–Taylor or NPP identity and does not repeat previously recorded POME-BT-FINITE-MINKOWSKI-001.
+- **Actual new selected proof inspection:** §7.8.1 determinant-mixing eigenvalue calculation and §7.8.4 smooth normalization, plus §7.8.2/.3 elliptic-to-distribution/measure transition as selected-risk crosschecks. Main HTML path docs/sections/bedford-taylor-products-and-local-capacity--density-lower-bounds-and-mixed-products/index.html, blob 0284d93a0ac26e28746e95afda5e6875f9feaba3; source labels, permanent tags and physical line anchors in full report. Five exact symbolic 2x2 checks passed; no project build, CI, publication, or formalization. **25 chapters / 747 actual ToC sections / zero entire mathematical-section certifications.** Old findings and the Demailly approximation/regularization, dedicated Bergman/L²/OT/multiscale-atlas/positivity-loss **deferred-by-user** program remain untouched.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-31 — compact-open restriction quotients and intrinsic graded lattice normalization
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [New English source-pinned complete local proofs](reports/2026-10-31-clopen-restriction-quotients-and-graded-lattice-period.md).

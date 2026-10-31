@@ -1,3 +1,15 @@
+## 2026-10-31 — exact smooth surface determinant-root defect and equality rigidity
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full complete local proof, precise source/main anchors and reproducible checks](reports/2026-10-31-surface-monge-ampere-minkowski-anisotropy.md).
+
+| Stable ID | Severity / status | Evidence, exact scope, correction proposal and dependents |
+| --- | --- | --- |
+| **POME-BT-SURFACE-MINKOWSKI-ANISOTROPY-001** | **low / verified conditional deduction**, not a false theorem, not an integration repair | §7.8.1 original source **foundations-of-pluripotential-theory:2844C025**, tag **BB19C89586B1**, lines 22–63; §7.8.3 source **foundations-of-pluripotential-theory:183E5B3C**, tag **EB2AFC8FB17C**, lines 114–181; §7.8.4 source **foundations-of-pluripotential-theory:66F302D3**, tag **EADDEAF9FAD9**, lines 183–209; all on main **docs/sections/bedford-taylor-products-and-local-capacity--density-lower-bounds-and-mixed-products/index.html**, blob **0284d93a0ac26e28746e95afda5e6875f9feaba3**. For strictly positive C² complex-surface Hessians A,B, exact gap det(tA+sB)-(t sqrt(det A)+s sqrt(det B))² = st det A (sqrt(lambda_1)-sqrt(lambda_2))², with iff-proportional equality and optimal log-anisotropy lower bound (st sqrt(det A det B)/4) log²(lambda_1/lambda_2). Complete algebra and noncommuting/proportional models in report; five exact SymPy checks executed, script checks/check_bt_surface_anisotropy.py. **Only** optional smooth n=2 corollary after §7.8.4 proposed; original mixed inequality is correct. Potential dependent uses §7.9 Dirichlet, §7.12 mixing and smooth surface variational equality cases. Distinct from already logged POME-BT-FINITE-MINKOWSKI-001 for nonsmooth Radon measures and prior §7.8 l.s.c. density extension. No singular equality, external-chain certification or entire-section proof claimed. |
+
+**Actual selected scope:** §7.8.1 and .4's determinant and density polynomial; §7.8.2–.3 local elliptic linearization checked as supporting steps only. Existing §7.5/§7.12 checks not counted as new progress. **25 current chapters / 747 numbered sections / 0 complete sections mathematically certified**. All previous errors, gaps, proposed repairs and external dependencies retain their ledger states; excluded Demailly regularization/Bergman/L²/OT/multiscale/positivity-loss remains **deferred-by-user**. No production, source, registry, permanent-tag, CI or website changes.
+
+---
+
 ## 2026-10-31 — exact clopen restriction completion and graded section period
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete proof and main blob/source/line anchors](reports/2026-10-31-clopen-restriction-quotients-and-graded-lattice-period.md).
