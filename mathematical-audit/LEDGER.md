@@ -1,3 +1,16 @@
+## 2026-10-31 — exact clopen restriction completion and graded section period
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete proof and main blob/source/line anchors](reports/2026-10-31-clopen-restriction-quotients-and-graded-lattice-period.md).
+
+| Stable finding ID | Severity / status | Hypotheses, verified conclusion, proposed action and dependents |
+| --- | --- | --- |
+| **POME-LCS-CLOPEN-DENSE-QUOTIENT-001** | **Low / verified conditional deduction**; original §2.23.3 correct | For zero-dimensional locally compact Hausdorff X with compact clopen basis and closed A, restriction C_k(X)→F⊂C_k(A) is open surjective onto **dense** F; C_k(X), C_k(A) are complete and completion(F)=C_k(A). In the printed ordinal plank F is proper and incomplete. Proof by compact-clopen finite partition, truncation on compact clopen neighborhood and Cauchy **nets**. Main `docs/sections/completions-and-locally-convex-quotients/index.html` blob `e2c6d25d35020ccefa739f04aa893e173f73c17e`, Lemma 2.23.3 `demailly-complex-geometry:69616994` / permanent `5F1410BEA2F7`, lines 51–90; links §2.23.1 tag `0628F713D150`, Example 2.23.4 tag `B0973308F142`. Optional density/completion corollary, no erroneous source claim; affects interpretation of §2.23.4, not Fréchet positive statement §2.23.5. |
+| **POME-OKO-PERIOD-LATTICE-NORMALIZATION-001** | **Low / verified conditional deduction**; original §19.9.9 correct | On P¹ with standard flag, W_(2q)=span{x^(2q−2j)y^(2j)}, W_odd=0, has degree period e=2, Λ=2Z, d=1, Δ=[0,1], **vol_Λ Δ=1/2 ≠ ambient length 1** and dim W_(2q)=q+1; odd normalized counts vanish and even normalized counts approach 1/2. Thus period and lattice normalization are independently necessary. Main `docs/sections/flags-convex-bodies-and-section-growth/index.html` blob `83557f0e15275253661fe679c75407e6636d497c`, Theorem 19.9.9 `non-kahler-pluripotential-theory:4EE23942` / permanent `CC2BF9294FA3`, lines 178–233, Lemma 19.9.2 tag `2B103C3B777A` lines 36–48. Optional warning example only; KK12 internal/external dependency §19.7.20 and historic POME-OKO-KK-REPAIR-001 retain prior status. |
+
+**Coverage:** newly selected §§2.23.1–5 and 19.9.2/.3/.6/.9/.10; §2.14 context, not completed. Eight exact degree-slice arithmetic checks; no production build, CI, formal certification or publication. **25 current chapters / 747 numbered sections / 0 whole mathematical sections certified.** Older confirmed errors, gaps, candidate repairs, duplicates, attribution and user-deferred Demailly/Bergman/L²/OT/multiscale/positivity-loss notes unchanged.
+
+---
+
 ## 2026-10-31 — sharp periodic Kodaira flat-gauge spectral rigidity
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Detailed English proof, source tags and limitations](reports/2026-10-31-kodaira-flat-gauge-spectral-rigidity.md).
