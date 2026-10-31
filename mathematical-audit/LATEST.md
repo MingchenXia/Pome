@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-11-01 — two positive de Rham-exact rays on a Calabi–Eckmann threefold
+
+**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Exact anchored English review](reports/2026-11-01-calabi-eckmann-two-ray-exact-positive-cone.md).
+
+- **POME-CE-TWORAY-EXACT-CONE-001 — low / verified conditional deduction**, no false printed theorem. In the quotient Calabi–Eckmann threefold of Example 23.2.72 (\(X\simeq S^3\times S^3\)), the two **separate** Fubini–Study pullbacks \(\alpha_i=p_i^*\omega_{\rm FS}\) are independent, nonzero, closed semipositive real forms, both **de Rham exact**. Hence \(\{s\alpha_1+t\alpha_2:s,t\ge0\}\) is a 2-dimensional positive exact-current cone, and for every Hermitian \(h\), all its currents have class zero while their trace mass is exactly \(s m_1+t m_2\), \(m_i=\int\alpha_i\wedge h^2>0\). In particular the zero-class positive-current fiber is unbounded/not weakly relatively compact, and the *closed and pointed* image cone \(\{0\}\) does **not** conversely imply a strongly Gauduchon metric. This strictly extends the printed *one-form* obstruction, not a correction to Proposition 23.2.69/Corollary 23.2.70. Primary main blob \`6ebf8e604b45d3eb748037af506145273ca3875d\`, Example §23.2.72 source \`non-kahler-pluripotential-theory:3C406D0A\` permanent \`1EE117A3B0B0\`, lines 1307–1357. Corollary §23.2.70 source \`811BE385\`, permanent \`86E2247D209D\`, lines 1281–1305. Does not assert independence of Bott–Chern classes.
+- **Actual selected coverage:** new second-ray construction and exact mass formula §23.2.72; independent selected sign, annihilator, separation and duality crosschecks §§23.2.59/.60/.69/.70, **historically sampled**, not counted again as new first coverage. No complete theorem chain/section certification. **25 chapters / 747 actual ToC rows / zero mathematically certified full sections**. Prior ledger states preserved; all user-excluded Demailly regularization/approximation and Bergman/L²/OT/multiscale/positivity-loss work remains **deferred-by-user**. Audit Markdown only; no tests/build/CI/formalization/main/site/publication changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-11-01 — orphaned Hausdorff equation and tangential intersection multiplicities
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Anchored English report](reports/2026-11-01-tangential-cartier-intersections-and-orphan-alignment.md).

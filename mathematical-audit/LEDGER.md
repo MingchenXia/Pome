@@ -1,3 +1,15 @@
+# 2026-11-01 — two independent exact positive rays versus strongly Gauduchon cohomological mass control
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Full pinned English report](reports/2026-11-01-calabi-eckmann-two-ray-exact-positive-cone.md).
+
+| Stable finding ID | Severity / status | Exact evidence and mathematical outcome |
+| --- | --- | --- |
+| **POME-CE-TWORAY-EXACT-CONE-001** | **low / verified conditional deduction**; no false theorem, no actual production patch | \`docs/sections/locally-conformally-kahler-geometry/index.html\`, main blob \`6ebf8e604b45d3eb748037af506145273ca3875d\`. Example 23.2.72 source \`non-kahler-pluripotential-theory:3C406D0A\`, permanent \`1EE117A3B0B0\`, lines **1307–1357**; Corollary 23.2.70 source \`non-kahler-pluripotential-theory:811BE385\`, permanent \`86E2247D209D\`, lines **1280–1305**; Proposition 23.2.69 source \`40B2088A\`, permanent \`4CCB765ECCA2\`, lines **1238–1274**. The *separate* Fubini–Study pullbacks \(\alpha_i=p_i^*\omega_{\rm FS}\) on the printed quotient \(X\simeq S^3\times S^3\) are linearly independent **smooth current** rays, each closed semipositive nonzero and exact since \(H^2_{\rm dR}(X)=0\). Every \(s\alpha_1+t\alpha_2\) is positive exact of mass \(s m_1+t m_2\), \(m_i=\int_X\alpha_i\wedge h^2>0\) for any Hermitian \(h\), so the de Rham zero-class fiber has unbounded mass and the image cone \(\{0\}\) may be closed/pointed without an sG metric. Distinct from historical \`POME-LG-SG-DUAL-001\` (general cone separation). **Do not infer Bott–Chern independence** of the two rays. Original §23.2.69–70 and Example 23.2.72 remain correct; optional two-ray warning after the example, no edits. Dependent interpretation: cohomology mass estimates and necessity of sG hypothesis. |
+
+**Actual incremental scope:** new explicit two-parameter positive exact-current family and mass computation §23.2.72, plus local signed \(d^c\), finite-dimensional polar separation and Fréchet-cone proof crosschecks §§23.2.59/.60/.69/.70. Those general theorems have earlier selected audits and remain conditional on Lamari/Fréchet/de Rham inputs; no complete certification. **25 chapters / 747 ToC sections / zero entire mathematical sections certified**. Existing unresolved/resolved and **deferred-by-user** findings remain; excluded Demailly approximation/regularization/Bergman/L²/OT/multiscale/positivity-loss untouched. No builds/tests/CI/formalization/main/source/site/publication changes.
+
+---
+
 # 2026-11-01 — detached §7.30 alignment and tangent complete-intersection multiplicities
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full English report](reports/2026-11-01-tangential-cartier-intersections-and-orphan-alignment.md).
