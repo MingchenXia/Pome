@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-31 — generic-fiber identification of the non-Archimedean graded-ideal tail
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Source-pinned complete algebraic argument and sharp `P¹` graded-ideal examples](reports/2026-10-31-nonarchimedean-graded-tail-generic-ideal.md).
+
+- **POME-NA-TAIL-GENERIC-FIBER-001 — low / verified conditional deduction, not a printed error.** In §22.1.98, write the homogeneous algebraic `S¹`-invariant ideal `I` extending `I(mΦ)` as `a_0+a_1 t+···+a_N(t^N)`. Its restriction over `t≠0` is the pullback of `J=I(mφ)`. The stabilized coefficient is **exactly `a_N=J`**, not merely some unspecified ideal: homogeneous finite generation and localization by `t` prove this, equally seen by restricting to the fiber `t=1`. Thus `σ(v)(I)=min_{0≤j≤N}(v(a_j)+j)` has a terminal term `v(J)+N`, **not generally `N`**. On `P¹×A¹`, the proper-terminal ideal `I=I_p^a+t^kI_p^b` (`a>b≥1`) gives the exact kink `σ(c ord_p)(I)=min(ac,bc+k)` at `c=k/(a-b)`; this illustrates the indispensable line-1494 footnote. Source §§22.1.94/.96/.98, stable tags and exact lines are in the report. GAGA (§22.1.96) and family global generation (§22.1.97) **remain unresolved external dependencies**, not certified. This adds generic-fiber identification **beyond** earlier `POME-NA-GRADED-CANON-001` and `POME-NA-ONE-GENERATOR-GRADING-001` rather than re-registering them.
+- **Actual new coverage:** selected elementary algebra in §22.1.94 and §22.1.98's graded coefficient step (main blob `8448d710690ebe1cc28040f9611d05c9d008a961`, lines 1402–1416,1418–1427,1458–1494), Eq. 22.1.69 convention; §22.1.96 used conditionally and §22.1.97 statement-only, not its excluded proof. **25 chapters / 747 numbered ToC sections / zero whole mathematical-section certifications.** No build, tests, CI, publication, formalization, source, tag, registry or production-main changes. Historical statuses preserved. All Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss work remains **deferred-by-user**.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-31 — fiberwise ideal collapse versus positive-mass curve growth
 
 **Reviewed current main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete source-anchored proof and explicit product counterexample](reports/2026-10-31-fiberwise-ideal-collapse-and-curve-mass-growth.md).
