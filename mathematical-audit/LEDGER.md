@@ -1,3 +1,16 @@
+## 2026-10-31 — multipole Green-weight stability and shift-invariant relative-capacity comparison
+
+**Reviewed current main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full proof, source/permanent tags and physical line anchors](reports/2026-10-31-multipole-weight-stability-and-relative-capacity-oscillation.md). Two new **conditional** deductions; no previously recorded proof gap or error is closed.
+
+| Stable finding ID | Severity and precise disposition | Anchors, mathematical evidence, correction proposal, affected dependents |
+| --- | --- | --- |
+| **POME-GREEN-MULTIPOLE-WEIGHT-STABILITY-001** | low / **verified conditional deduction**, not a false original proposition | §7.19.5, `docs/sections/symmetric-envelopes-and-finite-collections-of-poles/index.html` main blob `8e33a409fa4a7c6eea29ab48727741ed9b1e167d`, source `klimek-pluripotential-theory:00AC0DAE`, permanent `A3DBF2B9E6B2`, lines **77–90**. For *fixed distinct poles* and positive weight vectors α,β, $r_+G_α≤G_β≤r_-G_α$, where $r_\pm=\max/\min_j(β_j/α_j)$; on compact sets away from poles, $\|G_β-G_α\|_\infty≤\|\beta-\alpha\|_\infty(\min α_j)^{-1}\|G_α\|_\infty$. Sharp for one ball pole. Exact total-variation distance between classical atomic measures is $2^{-n}\sum|β_j^n-α_j^n|$, **conditional** on the original local residual-mass formula. Optional corollary only, preserving tags; relevant to multipole Green mass/weight comparisons, not moving poles or whole §7.19 certification. |
+| **POME-RELCAP-OSCILLATION-001** | low / **verified conditional deduction**, original constant correct | §16.25.6, `docs/sections/envelopes-and-model-potentials--singularity-constraints-and-relative-capacity/index.html`, main blob `4207ba03590b2988456f1df4da4123e1e572c8de`, source `foundations-of-pluripotential-theory:2C3BA6F2`, permanent `1587DBB4654F`, lines **112–136**; Def.16.25.5 tag `E9BD67F94210`. If φ−ψ has bounded oscillation ω off common poles, capacities compare multiplicatively with $(1+\omega)^{\pm n}$, strengthening printed $(2C+1)^{\pm n}$. Explicit convex competitor $q=(1-t)ψ+tv-tM$, $t=(1+\omega)^{-1}$, and mixed non-pluripolar positivity give both directions; exactly 1 for constant shifts. **Mixed product positivity is an unrecertified upstream input**. Optional remark and reference-potential stability bound for §§16.25–16.27; no false theorem or repaired global chain claimed. |
+
+**Newly checked scope:** quantitative multipole-envelope comparison at §7.19.5 (context §§7.19.1–4), and reference-oscillation competitor map at §16.25.6 (context §§16.25.4–5/.7). Earlier selections in both sections are not re-counted as first coverage. **25 chapters / 747 ToC sections / 0 whole mathematical-section certifications.** All old resolved/unresolved/external/deferred entries remain; excluded Demailly approximation/regularization, Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss remain **deferred-by-user**. No source/main/tag/CI/build/site/formalization edits.
+
+---
+
 ## 2026-10-31 — capacity-distribution tail control of weighted Bedford–Taylor products
 
 **Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Complete original-net proof, source/permanent tags, exact physical lines and sharp radial obstruction](reports/2026-10-31-bedford-taylor-capacity-tail-unbounded-weights.md).

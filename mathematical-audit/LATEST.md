@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-31 — sharp multipole weight comparison and capacity oscillation
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full anchored English proof](reports/2026-10-31-multipole-weight-stability-and-relative-capacity-oscillation.md).
+
+- **POME-GREEN-MULTIPOLE-WEIGHT-STABILITY-001 — low / verified conditional deduction:** fixed multipole Green envelopes obey $r_+G_\alpha\leq G_\beta\leq r_-G_\alpha$, for $r_\pm$ max/min weight ratios; hence a sharp off-pole local $L^\infty$ weight-Lipschitz estimate and exact $2^{-n}\sum|\beta_j^n-\alpha_j^n|$ classical atomic-measure total variation. §7.19.5, source `klimek-pluripotential-theory:00AC0DAE`, permanent `A3DBF2B9E6B2`, main HTML blob `8e33a409fa4a7c6eea29ab48727741ed9b1e167d`, lines 77–90. The original proposition is not disproved.
+- **POME-RELCAP-OSCILLATION-001 — low / verified conditional deduction:** §16.25.6's valid $(2C+1)^n$ relative-capacity comparison improves to a constant-shift invariant $(1+\operatorname{osc}(\phi-\psi))^n$. Explicit convex interpolation of competitors proves both directions, conditional on the existing mixed non-pluripolar positivity. Source `foundations-of-pluripotential-theory:2C3BA6F2`, permanent `1587DBB4654F`, blob `4207ba03590b2988456f1df4da4123e1e572c8de`, lines 112–136. No error or external dependency is declared repaired.
+- **Actual incremental review:** selected new proofs at §§7.19.5 and 16.25.6, context §§7.19.1–4 and 16.25.4–5/.7; previous partial checks not re-counted. **25 current chapters / 747 numbered sections / 0 complete mathematical-section certifications.** User-deferred Demailly approximation/regularization, dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss work was not reopened; existing records stay **deferred-by-user**. No main, source, canonicalization, tag, build, CI, formalization, website or publication changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-31 — capacity-tail criterion for unbounded Bedford–Taylor weights
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full exact mathematical proof and sharp disc model](reports/2026-10-31-bedford-taylor-capacity-tail-unbounded-weights.md).
