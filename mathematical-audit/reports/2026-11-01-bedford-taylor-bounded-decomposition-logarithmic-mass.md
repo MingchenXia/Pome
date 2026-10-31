@@ -1,17 +1,17 @@
 # Quantitative logarithmic mass of bounded Bedford–Taylor cone decompositions
 
-**Date:** 2026-11-01. **Production main reviewed:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+**Date:** 2026-11-01. **Production main reviewed:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 **Status:** selected, proof-level audit; no complete section or prerequisite-chain certification. **Severity:** low.
 **Finding:** **POME-BT-LOGMASS-ASYMPTOTIC-001 — verified conditional deduction**. The printed proposition is not false, and the proposed strengthening has **not** been incorporated into the reading edition.
 
 ## Exact reading-edition anchors and scope
 
-- **Main path:** \`docs/sections/unbounded-potentials-and-dependence-on-regularization/index.html\`; pinned main blob \`431e66dcee4efdf3c4aac592aaee1490156da2b9\`.
-- **Section §7.23:** source \`klimek-pluripotential-theory:91597462\`, permanent \`32DC47BECC3E\`, physical line 5.
-- **Example 7.23.1:** source \`klimek-pluripotential-theory:6E737739\`, permanent \`20D8C7C9B243\`, physical lines 7–41.
-- **Proposition 7.23.2 (principal review):** source \`klimek-pluripotential-theory:80EFAB5F\`, permanent \`EC436652E435\`, statement lines 45–46; local Hessian/gradient argument lines 51–98; bounded cone decomposition lines 100–119; positivity and contradiction lines 120–132.
-- **Example 7.23.3:** source \`klimek-pluripotential-theory:8EC23CC0\`, permanent \`C89C030AFB89\`, physical lines 137–145.
-- **Contextual, introductory-only first reads:** \`docs/sections/bedford-taylor-products-and-local-capacity/index.html\`, §7.1, main blob \`41bc964bad8bf8505892c2cb3762e5cce2071ae6\`, source \`foundations-of-pluripotential-theory:6DA2347F\`, permanent \`2F5912FF9FEA\`, lines 7–16; and \`docs/sections/complex-spaces-and-modifications/index.html\`, §9.1, blob \`65a26de54d52679ab76f293f0fc75795d38a3822\`, source \`foundations-of-pluripotential-theory:1823FC9F\`, permanent \`B64C7FEAE2E7\`, lines 7–16. These two pages are introductions, **not newly certified theorem proofs**.
+- **Main path:** `docs/sections/unbounded-potentials-and-dependence-on-regularization/index.html`; pinned main blob `431e66dcee4efdf3c4aac592aaee1490156da2b9`.
+- **Section §7.23:** source `klimek-pluripotential-theory:91597462`, permanent `32DC47BECC3E`, physical line 5.
+- **Example 7.23.1:** source `klimek-pluripotential-theory:6E737739`, permanent `20D8C7C9B243`, physical lines 7–41.
+- **Proposition 7.23.2 (principal review):** source `klimek-pluripotential-theory:80EFAB5F`, permanent `EC436652E435`, statement lines 45–46; local Hessian/gradient argument lines 51–98; bounded cone decomposition lines 100–119; positivity and contradiction lines 120–132.
+- **Example 7.23.3:** source `klimek-pluripotential-theory:8EC23CC0`, permanent `C89C030AFB89`, physical lines 137–145.
+- **Contextual, introductory-only first reads:** `docs/sections/bedford-taylor-products-and-local-capacity/index.html`, §7.1, main blob `41bc964bad8bf8505892c2cb3762e5cce2071ae6`, source `foundations-of-pluripotential-theory:6DA2347F`, permanent `2F5912FF9FEA`, lines 7–16; and `docs/sections/complex-spaces-and-modifications/index.html`, §9.1, blob `65a26de54d52679ab76f293f0fc75795d38a3822`, source `foundations-of-pluripotential-theory:1823FC9F`, permanent `B64C7FEAE2E7`, lines 7–16. These two pages are introductions, **not newly certified theorem proofs**.
 
 This audit treats the **elementary failure of unrestricted unbounded Bedford–Taylor products**. Although the title of §7.23 refers to dependence on regularization, it does **not** revisit Demailly approximation or its dedicated Bergman/L²/OT/multiscale/positivity-loss programme, which remains **deferred-by-user**.
 
@@ -128,11 +128,11 @@ This proves (*), subject only to the explicitly stated locally bounded Bedford�
 
 ## Interpretation, severity and disposition
 
-- **Finding ID:** \`POME-BT-LOGMASS-ASYMPTOTIC-001\`.
+- **Finding ID:** `POME-BT-LOGMASS-ASYMPTOTIC-001`.
 - **Severity/status:** **low / verified conditional deduction**; this is neither a false theorem nor a newly discovered proof gap. It sharpens the *example used inside the proof* of the correct Proposition 7.23.2.
 - **Proposed production correction:** optional quantitative remark following the obstruction proof, with the constant, compact restrictions, normalization and dependency stated exactly; **no production/body, source, registry, tag or canonicalization edit authorized in this audit**.
 - **Affected dependents:** interpretations of how severely unrestricted positive \(n\)-linear BT extensions fail (§7.23.2), and the distinction between classical and non-pluripolar products (§7.23.3, §13.1). It **does not** extend the BT product to unbounded potentials or establish any Demailly regularization result.
 - **Conditional dependencies:** the local \(C^2\) determinant/gradient bounds printed in §7.23.2 are checked algebraically for this model; the general locally bounded Bedford–Taylor non-charging-of-pluripolar-sets statement (§§7.2–7.5) is used only as a stated established premise. No upstream complete section is declared certified.
 - **Actual new coverage:** §7.23.1/.2/.3 selected normalization, positivity and measure proofs, with the new quantitative local-mass argument; §§7.1 and 9.1 were opened as contextual *expository-only* current-main pages. No completed theorem dependency chain.
 - **Project-level audit state:** the matrix remains **25 chapters / 747 numbered current-main sections / zero entire mathematical sections certified**; all historical findings and deferred-by-user work persist unchanged.
-- **Execution boundary:** no complete repository build, project test suite, CI, formalization, website publication, main/source change, or external service. The only proposed write is audit Markdown on \`review/mathematical-audit\`.
+- **Execution boundary:** no complete repository build, project test suite, CI, formalization, website publication, main/source change, or external service. The only proposed write is audit Markdown on `review/mathematical-audit`.
