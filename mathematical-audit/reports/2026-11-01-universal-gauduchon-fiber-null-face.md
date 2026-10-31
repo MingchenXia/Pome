@@ -1,71 +1,88 @@
 # 2026-11-01 — uniqueness of the exposed null-current face in the Gauduchon radial counterexample
 
-**Production main reviewed:** `b6933b772f41b45918f7e25ed1afbbb1fd892272` (not modified).
-**Scope:** the actual integrated reading-edition §§12.14.6, 12.14.10, 12.14.13, 24.3.2, and a separate selected check of §15.32.6; no excluded Demailly approximation, regularization, Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss chain.
+**Production main reviewed:** `b6933b772f41b45918f7e25ed1afbbb1fd892272` (not modified). **Scope:** actual integrated §§12.14.6, 12.14.10, 12.14.13 and 24.3.2, plus an independently selected §15.32.6 proof check. Demailly approximation/regularization, the dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme, and its prerequisites were not examined.
 
 ## POME-GAUD-UNIVERSAL-FIBER-EXPOSED-001
 
-**Severity:** low. **Status:** verified conditional deduction; not a false statement, not a complete upstream theorem certification, and not a production repair.
+**Severity:** low. **Status:** verified conditional deduction. No false original theorem, full upstream certification, or production repair is asserted.
 
-**Primary anchors:**
-- `docs/sections/a-gauduchon-variational-volume--positive-volume-without-bigness/index.html`, blob `4e892ab379abdfa3b6520671db344e94bbc7a51a`: setup **lines 10–20**, Theorem **12.14.6** (source `non-kahler-pluripotential-theory:7A1559DF`, permanent tag `ECAB6BFB33FD`) **lines 100–140**, normalized explicit tests Proposition **12.14.10** (source `non-kahler-pluripotential-theory:EDD3E86A`, tag `0E9506DB4E70`) **lines 169–205**, and Proposition **12.14.13** (source `non-kahler-pluripotential-theory:4D5B675F`, tag `F8EA88FD522E`) **lines 243–274**.
-- `docs/sections/problems-in-hermitian-pluripotential-theory--positive-gauduchon-volume-and-bigness/index.html`, blob `e64a919194dbc4dbd1739cd02811a5c45e252358`: Proposition **24.3.2**, source `non-kahler-pluripotential-theory:B0E460AB`, permanent `32F82EA89236`, **lines 26–68**; determinant quotient and collapse discussion **lines 71–84**.
+**Exact anchors.** Main `docs/sections/a-gauduchon-variational-volume--positive-volume-without-bigness/index.html`, blob `4e892ab379abdfa3b6520671db344e94bbc7a51a`: the model is specified at **lines 10–20**; Theorem **12.14.6**, source `non-kahler-pluripotential-theory:7A1559DF`, permanent tag `ECAB6BFB33FD`, is at **lines 100–140**; Proposition **12.14.10**, source `non-kahler-pluripotential-theory:EDD3E86A`, permanent `0E9506DB4E70`, at **lines 169–205**; Proposition **12.14.13**, source `non-kahler-pluripotential-theory:4D5B675F`, permanent `F8EA88FD522E`, at **lines 243–274**. Main `docs/sections/problems-in-hermitian-pluripotential-theory--positive-gauduchon-volume-and-bigness/index.html`, blob `e64a919194dbc4dbd1739cd02811a5c45e252358`: Proposition **24.3.2**, source `non-kahler-pluripotential-theory:B0E460AB`, permanent `32F82EA89236`, **lines 26–68**, with the determinant-collapse discussion **lines 71–84**. §24.3.2 was already directly sampled on **2026-10-29**; the present work is an *additional*, independent proof/model analysis, not its first coverage.
 
-### New assertion: every almost-null normalized Gauduchon test has the same limit
+### Claim: rigidity of every almost-null Gauduchon test
 
-In the printed example let `m>=2`, `n=m+1`, `B=P^m`, `X=B x P^1`, and write `omega,w` for normalized Fubini–Study forms with `int_B omega^m=int_{P^1}w=1`. Set
-[
- t=(m-1)/m,quad
- x([Z_0:cdots:Z_m])=rac{sum_{1}^{m}|Z_i|^2}{sum_{0}^{m}|Z_i|^2},quad
- a=x/t,quad h=omega+w,quad 	heta=omega+a,w.
-]
-Let `p=[1:0:...:0]` and `Z={p}xP^1`, so `int_Z h=1`. On the cone of positive `(m,m)` currents consider
-[
- mathscr C={Tge0: dd^cT=0, int_X hwedge T=1}.
-]
-Then the **exposed zero face is exactly one point**:
-[
- oxed{{Tinmathscr C: int_X	hetawedge T=0}={[Z]}.}	ag{*}
-]
-Consequently, for **any net** `T_alpha` in `mathscr C` with `int_X theta wedge T_alpha ->0`, one has `T_alpha -> [Z]` weakly. In particular, if `gamma_alpha` are smooth Gauduchon metrics, `int_X h wedge gamma_alpha^m=1`, and `int_X theta wedge gamma_alpha^m ->0`, then `gamma_alpha^m ->[Z]` along the **original net**. Moreover, for these smooth metrics, `D_mu(gamma_alpha)->0` conditional on the printed `lambda_mu(theta)=n^{1/n}>0`. Unlike Proposition 12.14.13, which *constructs one family*, (*) classifies **every** almost-minimizing Gauduchon family and every positive `dd^c`-closed normalized cluster current.
+Keep the printed notation: for \(m\ge2\), \(n=m+1\), set
+\[
+ B=\mathbb P^m,\quad X=B\times\mathbb P^1,\quad
+ t=\frac{m-1}{m},\qquad
+ x([Z_0:\ldots:Z_m])=\frac{\sum_{i=1}^{m}|Z_i|^2}{\sum_{i=0}^{m}|Z_i|^2}.
+\]
+Write \(\omega\) and \(w\) for the pullbacks of the Fubini–Study forms normalized by \(\int_B\omega^m=\int_{\mathbb P^1}w=1\), and set
+\[
+ a=x/t,\quad h=\omega+w,\quad\theta=\omega+a\,w,\quad
+ p=[1:0:\cdots:0],\quad Z=\{p\}\times\mathbb P^1.
+\]
+Here \(\int_Zh=1\), \(\theta\ge0\), and the kernel of \(\theta\) over \(Z\) is precisely its vertical tangent line. Let
+\[
+ \mathscr C=\left\{T\text{ positive of bidegree }(m,m):
+       dd^c T=0,\ \int_Xh\wedge T=1\right\}.
+\]
+Then the exposed zero face is a singleton:
+\[
+ \boxed{\left\{T\in\mathscr C:\int_X\theta\wedge T=0\right\}=\{[Z]\}.}\tag{1}
+\]
+In particular, for **any directed net** \(T_\alpha\in\mathscr C\) satisfying \(\int_X\theta\wedge T_\alpha\longrightarrow0\), one has \(T_\alpha\rightharpoonup[Z]\) along the *original indexing net*.
 
-### Complete local argument for (*)
+Every smooth Gauduchon metric \(\gamma_\alpha\) satisfies \(dd^c(\gamma_\alpha^m)=0\). Hence the above conclusion applies to \(\gamma_\alpha^m\) if the \(h\)-trace is normalized to one and the \(\theta\)-pairing tends to zero. Furthermore, the printed positive root-volume identity \(\lambda_\mu(\theta)=n^{1/n}>0\), **used only conditionally here**, gives
+\[
+ 0\le D_\mu(\gamma_\alpha)
+   \le n^{-1/n}\int_X\theta\wedge\gamma_\alpha^m\longrightarrow0.
+\]
+Thus Proposition 12.14.13's explicitly constructed family is not special in its current limit: **all** normalized almost-threshold Gauduchon families converge to the same fiber current.
 
-1. **Compactness without sequential assumptions.** Positivity and the fixed `h`-trace mass imply a uniform bound for all coefficient measures of each `(m,m)` current. Weak-* compactness of the mass-one positive-current set gives cluster points for arbitrary nets; positivity, the linear trace, and the `dd^c`-closure identity pass under weak convergence. The set `mathscr C` is weakly compact and Hausdorff.
-2. **Support and tangency.** `	heta` is semipositive and **strictly positive away from** `Z`; at points of `Z` it has rank `m` with one-dimensional kernel equal to the vertical tangent `T(P^1)`. If `T>=0` and `int theta wedge T=0`, then the positive measure `	hetawedge T` vanishes. Thus `T` is supported on `Z` (on every compact set outside `Z`, `	heta>=c h` for some `c>0`). On `Z`, its positive coefficient matrix has zero contraction with the horizontally strictly positive form `omega`. Nonnegative diagonal measures and the Cauchy–Schwarz inequalities for a positive matrix of measures show that every horizontal and mixed tangent coefficient vanishes. Only its **vertical** tangent coefficient remains, so `T=i_*
-u` for a positive finite measure `
-u` on `Z=P^1`, interpreted by `T(eta)=int_Z(eta|_Z/w),d
-u` for smooth test `(1,1)` forms `eta`.
-3. **Harmonic rigidity rather than a closed-current assumption.** Since `dd^cT=0`, for every smooth real function `f` on `P^1` and its smooth extension to `X`,
-[
- 0=T(dd^cwidetilde f)
-   =int_Zrac{dd^cf}{w},d
-u.
-]
-For every smooth zero-`w`-mean function `g` on `P^1`, the ordinary compact Riemann-surface Poisson equation solves `dd^cf=g,w` after the harmless fixed normalization of `dd^c`. Hence `int g,d
-u=0`, implying `
-u=cw`. The trace normalization gives `1=int hwedge T=
-u(Z)=c`, and so `T=[Z]`. This uses only the elementary Poisson solvability on `P^1`, positive-current coefficient bounds and `dd^c)-closure; **it never replaces Gauduchon by balanced or `dd^c)-closed by `d)-closed**.
-4. **Net convergence.** Every cluster point of `T_alpha` has zero `	heta`-pairing and so equals `[Z]`; weak compactness plus uniqueness of all cluster points implies the entire original net converges. For smooth Gauduchon powers, the original definition of `lambda_mu(	heta)>0` gives `lambda_mu(	heta)D_mu(gamma_alpha)leint	hetawedgegamma_alpha^m`, proving the stated determinant collapse.
+### Proof of the unique exposed face
 
-### Exact quantitative concentration estimate and sharpness
+1. **Weak compactness for genuine nets.** The \(h\)-trace controls each coefficient measure of a positive current of bidegree \((m,m)\); fixed trace mass one therefore bounds all coefficient measures. Weak-* compactness for positive currents on compact \(X\), together with the continuity of \(dd^c\) in the distribution topology, shows that \(\mathscr C\) is weakly compact and Hausdorff. Neither sequential compactness nor sequential diagonal extraction is required.
+2. **Support and the one allowed tangent direction.** The smooth form \(\theta\) is strictly positive definite on \(X\setminus Z\). Thus, if \(T\in\mathscr C\) has \(\int_X\theta\wedge T=0\), the positive measure \(\theta\wedge T\) is identically zero, and every compact \(K\subset X\setminus Z\) has \(\theta\ge c_Kh\) for some \(c_K>0\); consequently \(T|_{X\setminus Z}=0\). Along \(Z\), \(\theta\) is strictly positive in the \(m\) horizontal directions and vanishes only in the one vertical direction. The Hermitian matrix of coefficient measures of \(T\) is positive. Vanishing contraction with \(\theta\) forces all its horizontal diagonal measures to vanish; positivity and Cauchy–Schwarz for the coefficient matrix then kill its horizontal/vertical mixed coefficients. Hence \(T\) has only its vertical tangent component and is represented by a finite positive measure \(\nu\) on \(Z\simeq\mathbb P^1\): for any smooth \((1,1)\)-test form \(\beta\),
+   \[
+     T(\beta)=\int_Z \frac{i^*\beta}{w}\,d\nu,
+   \]
+   where \(i:Z\hookrightarrow X\) is the inclusion. The displayed quotient is the scalar coefficient of the top-degree form \(i^*\beta\) relative to the positive area form \(w\).
+3. **Gauduchon closure is enough.** Given a smooth real \(f\) on \(Z\), extend it to \(\widetilde f\) on \(X\). Since \(dd^cT=0\),
+   \[
+      0=T(dd^c\widetilde f)
+       =\int_Z\frac{dd^cf}{w}\,d\nu.
+   \]
+   The elementary Poisson equation on the compact Riemann surface \(\mathbb P^1\) solves \(dd^cf=g\,w\) for each smooth \(g\) with \(\int_Zg\,w=0\) (with the fixed \(dd^c\) normalization absorbed into the Laplacian). Therefore \(\int_Zg\,d\nu=0\) for every such \(g\); hence \(\nu=cw\). The trace normalization gives \(c=\int_Xh\wedge T=\nu(Z)=1\), so \(T=[Z]\). Crucially, this uses **\(dd^cT=0\)**, not the stronger and unavailable hypothesis **\(dT=0\)**.
+4. **Original-net convergence.** Every cluster point of a directed net \(T_\alpha\) with vanishing \(\theta\)-pairing is, by (1), equal to \([Z]\). In the compact Hausdorff space \(\mathscr C\), uniqueness of all cluster points implies convergence of the entire net. The final determinant estimate is exactly the printed root-volume inequality, *not* an independent certification of its analytic construction.
 
-For any `0<r<t`, on `{xge r}` one has `	heta=omega+(x/t)wge(r/t)(omega+w)=(r/t)h`. Therefore every positive `(m,m)` current `T` satisfies
-[
- oxed{int_{{xge r}}hwedge T le rac{t}{r}int_X	hetawedge T.}	ag{**}
-]
-The constant `t/r` is **sharp** already among positive closed `(m,m)` currents: for `qin B` with `x(q)=r`, take `T=[{q}	imes P^1]`; both trace and the right-hand side of (**) equal `1`. It is also asymptotically sharp among **smooth balanced powers**, not just singular currents: choose `q_epsilon	o q` with `x(q_epsilon)>r` and nonnegative smooth probability densities `f_epsilonomega^m` on `B`, supported in `{x>r}` near `q_epsilon`. Put
-[
- Gamma_epsilon=rac{f_epsilonomega^m+epsilon h^m}{1+nepsilon}.
-]
-This is smooth, strictly positive and `d`-closed with `int hwedgeGamma_epsilon=1`; the positive-root theorem used at §12.14.13 supplies a smooth balanced `b_epsilon` with `b_epsilon^m=Gamma_epsilon`. As `epsilondownarrow0`, its mass over `{xge r}` tends to `1`, while `int	hetawedgeGamma_epsilon	o r/t`. Hence the ratio tends to `t/r`, verifying sharpness without assuming arbitrary singular currents are balanced metric powers.
+### A sharp quantitative off-fiber bound
 
-### Mathematical classification and affected dependents
+For each \(0<r<t\), on \(\{x\ge r\}\) the pointwise Hermitian inequality is
+\[
+   \theta=\omega+\frac{x}{t}w\ge\frac{r}{t}(\omega+w)=\frac{r}{t}h.
+\]
+Every positive \((m,m)\) current \(T\) consequently satisfies the **measure-level** estimate
+\[
+ \boxed{\int_{\{x\ge r\}}h\wedge T\le\frac{t}{r}\int_X\theta\wedge T.}\tag{2}
+\]
+The constant \(t/r\) is optimal. For \(q\in B\) with \(x(q)=r\), the closed positive vertical-fiber current \(T=[\{q\}\times\mathbb P^1]\) has left side \(1\) and \(\theta\)-pairing \(r/t\), so equality holds.
 
-Theorem 12.14.6, Proposition 12.14.13 and Proposition 24.3.2 **remain correct as stated** in the checked passages. The new result is an optional strengthening of the **uniqueness of the normalized null-test limit**, together with a sharp off-fiber concentration bound. The `D_mu` consequence remains conditional on the printed root-volume value; the exposed-face calculation itself does **not** use any approximation/regularization or the volume-minimizer construction. Affected interpretation: the §12.14.10–13 distinction between volume-minimizing and bigness-threshold-minimizing tests, §24.3.2 denominator-collapse discussion, and the Gauduchon-current compactness context of §11.6. No source theorem is proposed for deletion, no permanent tags or source attributions are altered.
+It is also sharp **within smooth balanced metric powers**, in the limiting sense. Choose \(q_\varepsilon\to q\) with \(x(q_\varepsilon)>r\), and smooth nonnegative probability densities \(f_\varepsilon\omega^m\) supported in arbitrarily small neighborhoods of \(q_\varepsilon\) contained in \(\{x>r\}\). Define
+\[
+ \Gamma_\varepsilon=
+   \frac{f_\varepsilon\,\omega^m+\varepsilon h^m}{1+n\varepsilon}.
+\]
+Since \(f_\varepsilon\omega^m\) is top-degree on \(B\), it is closed. Moreover, \(\Gamma_\varepsilon>0\), \(d\Gamma_\varepsilon=0\), and \(\int_Xh\wedge\Gamma_\varepsilon=1\), using \(\int_Xh^n=n\). The positive-root theorem invoked in the proof of Proposition 12.14.13 gives a smooth balanced metric \(b_\varepsilon\) with \(b_\varepsilon^m=\Gamma_\varepsilon\). Then
+\[
+ \int_{\{x\ge r\}}h\wedge\Gamma_\varepsilon\longrightarrow1,\qquad
+ \int_X\theta\wedge\Gamma_\varepsilon\longrightarrow r/t,
+\]
+so the ratio converges to \(t/r\). No singular current is being passed off as a smooth balanced form.
 
-**Separately selected crosscheck, no new verdict:** §15.32.6, `docs/sections/equations-with-prescribed-singularities--stability-of-the-subsolution-threshold/index.html` blob `903ae0ce7173604063a833295dd94e971b18fd72`, source `non-kahler-pluripotential-theory:500DB50B`, permanent `C926F63790E3`, **lines 103–129**: checked the converse norm-completeness construction's `L^1` embedding, positive partial sums and `L^n` obstruction as a selected proof step. The equivalence with infinite upper volume still uses the indicated §§12.15.4 and 12.2.3 inputs and is not recertified. This was historically sampled (§15.32); it is **not** first reviewed or certified here.
+### Classification, dependencies, and coverage
 
-**Coverage accounting:** additional selected proof-level examination of §24.3.2 (previously directly sampled on 2026-10-29), plus fresh §12.14.6/.10/.13 proof-step examination and §15.32.6 contextual check; **no entire numbered mathematical section or transitive proof chain certified**. The actual current main ToC remains **25 chapters / 747 sections / zero complete certifications**. Previous confirmed errors, proof gaps, external inputs and proposed-but-unapplied repairs are unchanged; all user-deferred Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss work remains **deferred-by-user, not resolved**.
+**Verdict:** low / verified conditional deduction. Theorem 12.14.6, Propositions 12.14.10/13 and Proposition 24.3.2 are **not refuted**. Equations (1)–(2) and the uniqueness of the weak null-current limit are new local deductions; the determinant conclusion uses the already printed positive root volume. The proof invokes positive-current weak compactness, a positive matrix-of-measures argument, the standard Poisson equation on \(\mathbb P^1\), and the separately stated positive-root theorem for the sharp smooth approximation; these inputs have not been transitively certified as part of this run. Proposed action: optional corollary after §12.14.13 or the §24.3.2 discussion, preserving all labels, historical attribution and distinct Gauduchon versus balanced hypotheses. Affected dependents are the §12.14 volume-versus-threshold test discussion and §24.3 determinant-denominator collapse analysis; no source or canonicalization change is made.
 
-**Operations:** audit Markdown only, intended for `review/mathematical-audit`; no main, source/body, canonicalization, registry, tag, built docs, CI, formalization, mathematical software tests or website publication changes.
+**Independent selected crosscheck, no fresh mathematical error:** Proposition **15.32.6** source `non-kahler-pluripotential-theory:500DB50B`, permanent `C926F63790E3`, in `docs/sections/equations-with-prescribed-singularities--stability-of-the-subsolution-threshold/index.html` blob `903ae0ce7173604063a833295dd94e971b18fd72`, **lines 103–129**. Checked its \(L^1\)-embedding of the root norm, its nonnegative Cauchy partial sums and their \(L^n\)-obstruction. The unbounded-normalization input from §§12.15.4/12.2.3 remains conditional. §15.32 was historically sampled, not first covered here.
+
+**Actual work:** further selected §24.3.2 proof-level reading (**first sampled 2026-10-29**), new exact radial exposed-face proof and sharpness, selected §12.14.6/.10/.13, plus the independent §15.32.6 argument. **25 current main chapters / 747 numbered ToC sections / zero whole mathematical-section certifications**. All older resolved/unresolved/external/deferred findings remain unchanged. User-excluded Demailly approximation/regularization and its dedicated Bergman/L²/OT/multiscale/positivity-loss programme remains **deferred-by-user**, neither resolved nor reopened. No mathematical software tests, builds, CI, formalization, website publication, main/source/docs/tags/registry changes.
