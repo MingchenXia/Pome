@@ -1,3 +1,16 @@
+# 2026-10-31 — iterated-logarithm curve threshold and full four-ruling Cartier obstruction
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Exact source tags, paragraph/physical lines, proofs, dependency boundaries](reports/2026-10-31-iterated-logarithmic-curve-endpoint-and-four-ruling-cartier-lattice.md).
+
+| Stable ID | Severity / status | New mathematical scope, correction proposal and affected dependents |
+| --- | --- | --- |
+| **POME-UNI-LOGLOG-ORDTYPE-001** | low / **verified conditional deduction**, original §9.11.60 true; not an ordinary-type theorem for general L1 data | In §9.11.60's fixed elliptic-normalization curve setting, at the gamma=2 endpoint, density C0 r^-2 t^-2(log t)^-eta is L1 for every eta and lies in no Lp, p>1. Its exact radial Green potential has zero atom and bounded correction **iff eta>1**; eta=1 has -k log log t divergence and eta<1 has -k/(1-eta)(log t)^(1-eta) divergence. Hence the type-preserving compact-curve equation exists exactly for eta>1, assuming the printed Green, mass, descent and ideal lemmas. Main docs/sections/potentials-and-equations-on-unibranch-spaces/index.html blob fa1475ba7cd3b71cf195e91c45b5719b517bb0ae lines 1019–1102, source non-kahler-pluripotential-theory:267B655B, permanent E80960D59FB4; Eq.9.11.61 permanent 7B4446B6082E. Optional endpoint remark; dependent Problem §24.11.1 (A63319B4B931) remains open. **Distinct from previous POME-UNI-LOG-DINI-001.** |
+| **POME-CYCLE-FOURRULING-CARTIER-001** | low / **verified conditional deduction**, original §20.6.5 true; not a full local class-group calculation | Four prime Weil rulings A=(x,z), B=(x,w), C=(y,z), D=(y,w) on X=(xy+zw=0) give Cartier local cycle alpha A+beta B+gamma C+delta D exactly when alpha+delta=beta+gamma, with meromorphic local equation x^(alpha-gamma) z^gamma w^delta. Full four-prime supported quotient is Z, using rank-one submersion and C*-gauge obstruction; the prior POME-CYCLE-QUADRIC-CARTIER-LATTICE-001 treated only A,B and retains its status. Main docs/sections/analytic-cycles-and-cartier-cycles/index.html blob d4817ac64b1365bd967d42cd474fec169f992e28 lines 13–78, Example §20.6.5 source demailly-complex-geometry:E054C396 permanent 0C462992AB3A, supporting Prop.20.6.4 tag AA96C35C8290. Optional local Weil/Cartier example; downstream §§20.6–20.7, no changes to existing tags or historical attribution. |
+
+**Actual new proof/model steps only:** §9.11.59–60 radial density, flux and type threshold plus Problem §24.11.1 downstream quantifier; §20.6.2–5 four-prime analytic Cartier obstruction and explicit principal construction. SymPy exact rank/primitive kernel/minor test and four signed vector reconstructions passed; no project build, CI or formal verification. **25 chapters / 747 ToC rows / 0 complete mathematical sections certified.** Prior error/gap/external statuses unchanged. Excluded Demailly regularization, Bergman, L2, OT, multiscale and positivity-loss remain **deferred-by-user**, not revisited. No source/main/site/registry/tag edits.
+
+---
+
 # 2026-10-31 — strong reduction coreflection and two-parameter Aeppli saddle
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Source-anchored English mathematical report](reports/2026-10-31-ringed-coreflection-and-torus-product-aeppli-saddle.md).
