@@ -1,3 +1,15 @@
+# 2026-11-01 — quantitative mass obstruction in elementary locally bounded Bedford–Taylor decomposition
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Exact source-anchored proof and limits](reports/2026-11-01-bedford-taylor-bounded-decomposition-logarithmic-mass.md).
+
+| Stable ID | Severity / status | Source anchors, mathematical decision, dependents, and proposed correction |
+| --- | --- | --- |
+| **POME-BT-LOGMASS-ASYMPTOTIC-001** | **low / verified conditional deduction**; correct printed Proposition 7.23.2, not a false theorem or applied fix | In `docs/sections/unbounded-potentials-and-dependence-on-regularization/index.html` blob `431e66dcee4efdf3c4aac592aaee1490156da2b9`, source `klimek-pluripotential-theory:80EFAB5F`, permanent `EC436652E435`, lines 45–132, the exact bounded psh cone pieces `psi_j=kappa*j*U/(j-U)`, `kappa=1/18`, satisfy `int_{K_{a,b,R}}(dd^c psi_j)^n ~ [n(n-1)/4]*kappa^n*(a^2-a^4)*b^(2(n-2))*log j` for `a<1/4,R<e^-1,b<1` and `n>=2` (omit `b` at `n=2`). Full proof uses the rank-one determinant lemma, original gradient bound `Q<=4(-U)`, three radial shells and exact Euclidean volume constants. Bounded BT non-charging of pluripolar sets remains an **explicit not-fully-reverified upstream premise**. Optional precise quantitative remark only; no source/proof, canonical, or production patch. Dependents: §7.23.2 impossibility of positive unrestricted n-linear extension; §7.23.3 and §13.1 classical/NPP pole-mass distinctions. |
+
+**Other newly selected proof checks:** §7.23.1 source `klimek-pluripotential-theory:6E737739` tag `20D8C7C9B243` (lines 7–41): `(dd^c a_j)^n=0` versus `(dd^c b_j)^n -> n! delta_0`; §7.23.3 source `klimek-pluripotential-theory:8EC23CC0` tag `C89C030AFB89` (lines 137–145): classical isolated-atom mass `2^-n` versus zero NPP top product. No false theorem identified in these models; their upstream chains remain unverified. §7.1 and §9.1 were opened only as introductory context (no proof certification). **Current main ToC: 25 chapters / 747 sections / zero entire mathematical sections certified.** All historical ledger findings preserved. Demailly approximation/regularization and the dedicated Bergman/L²/OT/multiscale/positivity-loss programme remain **deferred-by-user**, not solved or certified. No CI, test suite, site, or main/source edits.
+
+---
+
 # 2026-11-01 — universal Gauduchon null-current face and sharp concentration
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete English proof](reports/2026-11-01-universal-gauduchon-fiber-null-face.md).
