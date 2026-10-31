@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-31 — dual-curvature proof sign and zero-slope foliation endpoint
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Detailed source-pinned report](reports/2026-10-31-dual-curvature-sign-and-nonnegative-foliation-endpoint.md).
+
+- **POME-DET-DUAL-GRIFFITHS-SIGN-001 — low / confirmed error confined to proof wording:** §10.104.1 line 17 calls the smooth **dual** approximant Griffiths-positive, although logarithmic dual norms psh mean **primal** Griffiths semipositive / **dual** Griffiths seminegative. Explicit O(1) Fubini–Study metric on P¹ disproves the intermediate sentence; the determinant inequality and original lemma are not refuted. Main blob 901d6104f4a5ba01b188270bd6e2377ee4baeb9d, source cao-paun-foliations:2FBA7F63, permanent EC118288B440, lines 8–17. Propose changing that sentence only.
+- **POME-FOL-HN-NONNEGATIVE-BRACKET-001 — low / verified conditional deduction:** §10.107.2's HN first term G is involutive already when **mu(G)>=0**, not only the printed mu(G)>0, and more generally if **mu_max(F/G)<2mu(G)**. Strict HN gap, reflexive exterior semistability and Hom vanishing prove this; a rank-two zero-slope product-elliptic foliation realizes the endpoint. Section §10.106.2 blob b824fc476c0cecf64bc52f2178c90344dfb3e7ab, source cao-paun-foliations:E126ED45 / tag 469F76790780, lines 43–72; §§10.107.1–2 blob b0939c7452c9ef74f49bd7751c8c728c251199d4, source labels 8DCECA93/F67243E2, permanent BB9ADDF87BD1/1BF160484066, lines 8–43. **Ou movable tensor semistability** remains a genuine prior external dependency, not proved here.
+- Selected incremental passages only; §10.104 and §§10.106–107 had prior 2026-10-23 work, which remains distinct. **25 actual ToC chapters / 747 numbered sections / zero complete section certifications**. No build, tests, CI, formalization, publication or main/source/tag changes. All user-excluded Demailly regularization/Bergman/L²/OT/multiscale/positivity-loss work stays **deferred-by-user**.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-31 — second logarithmic endpoint and four-ruling Cartier lattice
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full pinned proof and dependency boundaries](reports/2026-10-31-iterated-logarithmic-curve-endpoint-and-four-ruling-cartier-lattice.md).

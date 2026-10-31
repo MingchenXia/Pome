@@ -1,3 +1,16 @@
+# 2026-10-31 — new local determinant proof-sign error and nonnegative foliation endpoint
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Exact English proof, line anchors and dependent scope](reports/2026-10-31-dual-curvature-sign-and-nonnegative-foliation-endpoint.md).
+
+| Stable finding ID | Severity / status | Exact scope, correction and affected dependents |
+| --- | --- | --- |
+| **POME-DET-DUAL-GRIFFITHS-SIGN-001** | low / **confirmed error in an intermediate proof sentence, not false theorem** | §10.104.1, docs/sections/determinants-of-singular-bundle-metrics/index.html, main blob 901d6104f4a5ba01b188270bd6e2377ee4baeb9d, source cao-paun-foliations:2FBA7F63, permanent EC118288B440, physical line 17: “smooth dual metrics ... positive Griffiths curvature” has wrong dual sign. O(1) Fubini–Study line metric satisfies hypothesis but its dual has negative curvature. Replace with primal Griffiths-semipositive / dual Griffiths-seminegative. The following dd^c log det H* >=0 is correct. Only the local wording correction is verified; singular analytic proof not fully certified. |
+| **POME-FOL-HN-NONNEGATIVE-BRACKET-001** | low / **verified conditional deduction** | §10.106.2 tag 469F76790780, main blob b824fc476c0cecf64bc52f2178c90344dfb3e7ab lines 43–72; §10.107.1 tag BB9ADDF87BD1 and §10.107.2 tag 1BF160484066, blob b0939c7452c9ef74f49bd7751c8c728c251199d4 lines 8–43. For saturated involutive F in TX and first HN G, under Kähler movable alpha and the **existing unverified external movable reflexive-tensor semistability premise**, G is involutive whenever mu_max(F/G)<2mu(G), especially when mu(G)>=0. At equality mu(G)=0, mu_min(G)=0 (do not retain original strict positivity conclusion). Optional dependent remark/corollary after §10.107.2; downstream foliation quotient §9.75 only conditional. Distinct from 2026-10-23 exterior HN polygon finding. |
+
+Prior verified conclusions, open gaps, external assumptions and all explicitly excluded **deferred-by-user** work remain unchanged. New coverage is selected incremental proof steps only; 25 current chapters / 747 ToC sections / 0 entire-section mathematical certifications. No main, source, publication or CI writes.
+
+---
+
 # 2026-10-31 — iterated-logarithm curve threshold and full four-ruling Cartier obstruction
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Exact source tags, paragraph/physical lines, proofs, dependency boundaries](reports/2026-10-31-iterated-logarithmic-curve-endpoint-and-four-ruling-cartier-lattice.md).
