@@ -1,3 +1,15 @@
+# 2026-11-01 — parametrized finite-energy layer-cake comparison
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Complete source-pinned English proof](reports/2026-11-01-parametric-finite-energy-layer-cake-comparison.md).
+
+| Stable finding ID | Severity / status | Precise claim, hypotheses, proof and dependency boundaries |
+| --- | --- | --- |
+| **POME-ENERGY-PARAMETRIC-LAYER-001** | **low / verified conditional deduction**, original Lemma 17.3.18 not false; optional unimplemented improvement | Fix \`u∈E(X,θ,φ)\`, \`v≼φ\`, Borel \`γ≥max(u,v)\`, and define \`A=∫(γ-u)μ_u\`, \`B=∫(γ-v)μ_v\`, \`I=∫(γ-u)μ_v\`. For **every** \`a>0\`, \`I≤(1+a)A+(1+a^{-1})B\`; if \`A,B<∞\`, optimize to \`I≤(√A+√B)²≤2(A+B)\`, strictly stronger than the printed right-hand side unless \`A=B\`. The inclusion \`{γ>u+(1+a)t}⊂{γ>v+at}∪{v>u+t}\`, Tonelli and Prop.16.25.4 with full-mass \`u\` prove it; \`u=-c,v=γ=φ=0\` on a compact Kähler manifold yields equality at \`B=0\`. **Main:** \`docs/sections/relative-energy-and-perron-segments--relative-monge-ampere-energy/index.html\` blob \`16fdcc4c6a6f0cc75e69ba267bd7da2b2d7922a1\`; Lemma17.3.18 source \`foundations-of-pluripotential-theory:FE22CA48\`, permanent \`620127F44043\`, lines **247–282**. **Conditional input:** \`docs/sections/envelopes-and-model-potentials--singularity-constraints-and-relative-capacity/index.html\` blob \`4207ba03590b2988456f1df4da4123e1e572c8de\`; Prop16.25.4 source \`foundations-of-pluripotential-theory:944C88B6\`, tag \`C32431185924\`, lines **75–99**. Proposed optional corollary preserving source text, tag, and current correct bound. Possible dependent: finite-energy cocycle Prop17.3.19 (tag \`98BD01BE1363\`), no new downstream error or complete upstream certification. |
+
+**Precise incremental scope:** new parameter optimization at Lemma17.3.18; §16.25.4 comparison premises examined. Previously reviewed §7.3.4/.7 and §20.7.3 reread independently as contextual checks and **not** counted as first or new full-section coverage; no defect found in those selected steps. **25 chapters / 747 ToC numbered sections / zero complete mathematical section certifications.** All existing errors, gaps, dependencies, previously proposed repairs and user-deferred items unchanged. The full Demailly regularization/approximation and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme remains **deferred-by-user**; no project tests, build, CI, formalization, publication or production edits.
+
+---
+
 # 2026-11-01 — directed harmonic measures and a missing mixed-mass background qualification
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full pinned report](reports/2026-11-01-directed-harmonic-measures-and-volume-background-switch.md).
