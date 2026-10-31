@@ -1,18 +1,18 @@
 # Convex-section continuity: quantitative interior bound and failure of endpoint Hölder control
 
-**Audit date:** 2026-10-31. **Reviewed production \`main\`:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+**Audit date:** 2026-10-31. **Reviewed production `main`:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 **Scope:** elementary convex geometry in the integrated reading edition only; no production/source/registry/tag edits.
 
-**Stable finding ID:** \`POME-OKO-SLICE-MODULI-001\`.
-**Severity/status:** **low / verified conditional deduction**; the printed theorem is correct. The already existing \`POME-OKO-SLICE-001\` subsequence-quantifier proof gap and its proposed repair are **not** new findings and are **not** changed or certified as integrated.
+**Stable finding ID:** `POME-OKO-SLICE-MODULI-001`.
+**Severity/status:** **low / verified conditional deduction**; the printed theorem is correct. The already existing `POME-OKO-SLICE-001` subsequence-quantifier proof gap and its proposed repair are **not** new findings and are **not** changed or certified as integrated.
 
 ## Exact integrated anchors and dependencies
 
-- \`docs/sections/almost-semigroups/index.html\`, production blob \`33898b2963ad0f8b7e30bf414276642f60925b74\`.
-- Lemma **19.7.9**, source \`sgpt:68EC4013\`, permanent tag \`806DFD35CCE5\`, physical lines **96–106** (compact convex sections and continuity), proof **108–134**, especially formula at **129–130**.
-- Theorem **19.7.6**, source \`sgpt:3312EB21\`, permanent tag \`AFBD46E7C0A4\`, physical lines **45–59** (sequence characterization; existing proof-quantifier warning).
-- Theorem **19.7.14**, source \`sgpt:7B965039\`, permanent tag \`72547EEEBFE4\`, physical lines **197–208** (slice continuity is used for the inductive multiplicative Brunn–Minkowski proof).
-- Section location in current chapter 19 ToC: \`docs/chapters/sections-okounkov/index.html\`, §19.7 **Almost semigroups**.
+- `docs/sections/almost-semigroups/index.html`, production blob `33898b2963ad0f8b7e30bf414276642f60925b74`.
+- Lemma **19.7.9**, source `sgpt:68EC4013`, permanent tag `806DFD35CCE5`, physical lines **96–106** (compact convex sections and continuity), proof **108–134**, especially formula at **129–130**.
+- Theorem **19.7.6**, source `sgpt:3312EB21`, permanent tag `AFBD46E7C0A4`, physical lines **45–59** (sequence characterization; existing proof-quantifier warning).
+- Theorem **19.7.14**, source `sgpt:7B965039`, permanent tag `72547EEEBFE4`, physical lines **197–208** (slice continuity is used for the inductive multiplicative Brunn–Minkowski proof).
+- Section location in current chapter 19 ToC: `docs/chapters/sections-okounkov/index.html`, §19.7 **Almost semigroups**.
 - All mathematics below follows from elementary convexity and is independent of KK12/conductor, projective-volume asymptotics, and the user-excluded analytic regularization programme.
 
 ## New quantitative statement
@@ -90,7 +90,7 @@ Thus no body-independent endpoint modulus can be derived merely from a common ou
 
 ## Mathematical disposition and dependents
 
-The original **Lemma 19.7.9 is true**. The new contribution is the explicit interior Lipschitz estimate and two sharp *scope obstructions* to an endpoint regularity inference. It is **not** a false-theorem report, a proof-completion claim for the older \`POME-OKO-SLICE-001\` entry, or a claim about convergence of whole Okounkov bodies. In particular, when a proof using convex slices (including §19.7.14) passes to endpoint limits, it may use the printed continuity for each **fixed** body but cannot demand a uniform Hölder modulus across moving bodies without additional hypotheses.
+The original **Lemma 19.7.9 is true**. The new contribution is the explicit interior Lipschitz estimate and two sharp *scope obstructions* to an endpoint regularity inference. It is **not** a false-theorem report, a proof-completion claim for the older `POME-OKO-SLICE-001` entry, or a claim about convergence of whole Okounkov bodies. In particular, when a proof using convex slices (including §19.7.14) passes to endpoint limits, it may use the printed continuity for each **fixed** body but cannot demand a uniform Hölder modulus across moving bodies without additional hypotheses.
 
 **Proposed separately reviewable optional addition:** after Lemma 19.7.9, record (*) and the warning that endpoint continuity may be arbitrarily slower than a power. Preserve all source numbers, permanent tags, authorship and historical attribution. No existing theorem's hypotheses or statement need correction.
 
