@@ -1,3 +1,14 @@
+# Latest mathematical audit checkpoint — 2026-10-31 — mixed Alexandrov Dirac atoms and two legacy-number leakage defects
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Source-pinned proof and editorial diagnostics](reports/2026-10-31-mixed-support-alexandrov-atoms-and-orphan-equation-labels.md).
+
+- **POME-TOR-MIXED-SUPPORT-ATOMS-001 — low / verified conditional deduction:** for any nonempty compact convex K_1,...,K_n, even lower-dimensional ones, the mixed Alexandrov measure of their support functions is exactly the origin atom of mass n! times mixed lattice volume, equivalently the coefficient of t_1...t_n in Vol(sum t_j K_j). The polynomial existence and coefficient identity follow directly from the *assumed* integrated Theorem 21.11.58. In dimension two, two perpendicular unit segments have **zero diagonal MA masses but mixed MA equal to delta_0**. Exact rectangle and 3-box coefficients 29 and 177 passed the committed standard-library check; this does not certify upstream mixed-measure construction. §21.11.50/.58, blob 2a123a863642a5a75caa173f0f73aff439a02ea4, permanent FF5885207F9E/59E2455286B4, main lines 624–630 and 740–769.
+- **POME-BDIV-ORPHAN-SOURCE-EQ-001 — low / confirmed editorial numbering error (not a false theorem):** §20.1.14, blob 4a793dfd462badcb351f54a36cb030cde14a399b, source sgpt:CB2E09F0, permanent 165D43352903, lines 148–154, displays the original equation number **11.3** rather than a current §20.1 locator; the equation lacks an independent tag/id. Its mathematical formula is not refuted.
+- **POME-TROP-ORPHAN-SOURCE-EQ-001 — low / confirmed editorial numbering error (not a false theorem):** §21.12.1, blob 56a1a55dfc8185aee0e6d495a6a93d8a2313d76b, source sgpt:2FF2CFF2, permanent DD9C13434AA7; the Trop map at lines 111–114 has untagged legacy label **5.5**, unlike neighboring tagged Eq. 21.12.3 (EA1385DD984D). Formula and log|z|² convention are correct. Both issues require source/adapter/registry-aware **proposed** repairs only, no generated-docs edits.
+- **Actual new incremental work:** model/normalization in §§21.11.50/.58 and §§21.12.1/.4; §20.1.14 current-numbering defect. No whole mathematical section or upstream chain certified: **25 current chapters / 747 numbered sections / zero complete certifications**. All previously logged issues retain status. User-deferred Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale-atlas/positivity-loss are unchanged **deferred-by-user**. No production, source, permanent tag, build, CI, formalization or publication changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-31 — dual-curvature proof sign and zero-slope foliation endpoint
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Detailed source-pinned report](reports/2026-10-31-dual-curvature-sign-and-nonnegative-foliation-endpoint.md).

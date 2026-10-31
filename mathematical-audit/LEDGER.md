@@ -1,3 +1,17 @@
+# 2026-10-31 — mixed support-function Alexandrov atoms and two source-number leaks
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full proof and source-anchored findings](reports/2026-10-31-mixed-support-alexandrov-atoms-and-orphan-equation-labels.md).
+
+| Stable finding ID | Severity / status | Hypotheses, precise source, evidence, proposed correction / affected dependents |
+| --- | --- | --- |
+| **POME-TOR-MIXED-SUPPORT-ATOMS-001** | low / **verified conditional deduction**; not a false statement or a proof certification | For any nonempty compact convex K_j in the dual rank-n space (including lower-dimensional K_j), MA_R(h_K1,...,h_Kn) = n! V(K1,...,Kn) delta_0. The mass equals the t_1...t_n coefficient in Vol(sum t_j K_j) and follows by subgradient-face support plus the *assumed* mixed measure multilinearity/diagonal §21.11.58 (not independently certified). Perpendicular unit segments give zero individual diagonal mass but mixed mass 1; exact boxes give 29 and 177. Main docs/sections/convex-functions-and-convex-bodies/index.html, blob 2a123a863642a5a75caa173f0f73aff439a02ea4; Def.21.11.50 source sgpt:AA859A41 / permanent FF5885207F9E lines 624–630, Thm.21.11.58 source sgpt:AE125FCA / permanent 59E2455286B4 lines 740–769. Optional corollary, affects convex/toric §§21.5,21.11–13 and normalization; existing semantic-duplicate record remains unchanged. |
+| **POME-BDIV-ORPHAN-SOURCE-EQ-001** | low mathematical / medium numbering risk; **confirmed editorial error**, not a false theorem | docs/sections/the-theory-of-b-divisors/index.html, blob 4a793dfd462badcb351f54a36cb030cde14a399b, Definition 20.1.14 source sgpt:CB2E09F0 / permanent 165D43352903, lines 148–154. Correct current-definition b-divisor equation visibly retains source locator 11.3 in numbered-equation and has no separate equation tag/id, contrary to documentation/integration-layout.md current-reader numbering; inspect raw source and guarded adapter/registry before proposing distinct pipeline patch, never directly edit main/docs or invent a tag. Downstream §20.1.15 conventions; inbound links not checked. |
+| **POME-TROP-ORPHAN-SOURCE-EQ-001** | low mathematical / medium numbering risk; **confirmed editorial error**, not a false theorem | docs/sections/toric-pluripotential-theory-on-ample-line-bundles/index.html, blob 56a1a55dfc8185aee0e6d495a6a93d8a2313d76b, §21.12.1 source sgpt:2FF2CFF2 / permanent DD9C13434AA7 lines 96–117. Tropicalization equation lines 111–114 displays source locator 5.5 with no own tag/id, adjacent tagged Eq.21.12.3 source sgpt:4AC25346 / permanent EA1385DD984D is correct. Propose independently reviewable source/adapter/numbering repair, preserve formula and existing tags; downstream §§21.12–13. |
+
+**Coverage:** selected incremental §21.11.50/.58, §21.12.1/.4 and §20.1.14 only; earlier reviews in §21.11 and §20.1 not counted again. **25 chapters / 747 numbered ToC sections / 0 entire mathematical sections certified**. All historical resolved/unresolved/external entries unchanged, especially expressly excluded Demailly regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss work **deferred-by-user**. Only small exact checker executed (no project build/CI/formalization); no production writes.
+
+---
+
 # 2026-10-31 — new local determinant proof-sign error and nonnegative foliation endpoint
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Exact English proof, line anchors and dependent scope](reports/2026-10-31-dual-curvature-sign-and-nonnegative-foliation-endpoint.md).
