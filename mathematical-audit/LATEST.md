@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-31 — fiberwise ideal collapse versus positive-mass curve growth
+
+**Reviewed current main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete source-anchored proof and explicit product counterexample](reports/2026-10-31-fiberwise-ideal-collapse-and-curve-mass-growth.md).
+
+- **POME-FIBER-POSMASS-DESCENT-OBSTRUCTION-001 — low / verified conditional deduction, not a false theorem.** On \(B=\mathbf P^1\), every \(\theta=\omega_{\mathrm{FS}}\)-psh weight \(\psi\) of positive non-pluripolar mass \(M\) has \(\dim H^0(B,\mathcal O(m)\otimes\mathcal I(m\psi))\ge mM+1\). The coefficient \(M\) is asymptotically sharp for a single logarithmic pole; proof uses elementary one-variable Riesz/Jensen integrability, atomic-mass bookkeeping and \(h^0(\mathbf P^1,\mathcal O(d))\). In contrast, for the smooth Kähler submersion \(X=\mathbf P^1_b\times\mathbf P^1_f\to B\), the admissible fiber-divisor weight \(\varphi=c\log|s_p|^2\) makes every selected space \(V_m=0\) whenever \(mc\ge1\). Thus §24.10.2's positive-mass base-reference property cannot hold without hypotheses excluding fiberwise nonintegrability; the printed Problem **already asks for such conditions** and is not refuted.
+- **Actual new selected proof coverage:** §24.10.2 (source `non-kahler-pluripotential-theory:3C96DD18`, permanent tag `4813DF6B9029`, integrated lines 42–55) and §§5.37.1/.7/.8 (source labels, tags and physical anchors in report). §24.10.1/.3/.4 contextual only; remaining §5.37 L²/OT/regularization passages excluded and untouched. **25 chapters / 747 actual numbered ToC sections / zero entire mathematical-section certifications.** No project build, CI, formalization, publication, source text, registry, or main changes. Prior ledger status preserved; Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss programme remain **deferred-by-user**.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-31 — representation-independent compact Martin sweepings
 
 **Reviewed current main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Exact source-anchored proof and proposed minimal insertion](reports/2026-10-31-martin-sweeping-projective-consistency.md).
