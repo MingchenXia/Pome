@@ -1,3 +1,16 @@
+## 2026-10-31 — capacity-distribution tail control of weighted Bedford–Taylor products
+
+**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Complete original-net proof, source/permanent tags, exact physical lines and sharp radial obstruction](reports/2026-10-31-bedford-taylor-capacity-tail-unbounded-weights.md).
+
+| Stable finding ID | Severity / status | Exact mathematical disposition, proposal and affected dependents |
+| --- | --- | --- |
+| **POME-BT-WEIGHT-CAPTAIL-001** | **low / verified conditional deduction**, original Lemma 7.5.7 and Thm 7.5.8 **not disproved** | Main \`docs/sections/bedford-taylor-products-and-local-capacity--quasi-continuity-and-convergence-in-capacity/index.html\`, blob \`464778b7ca6f1a456e36b24ecb4a0c93ab6948d3\`: Definition 7.5.5 source \`foundations-of-pluripotential-theory:F3E0CD1A\`, permanent \`DAD5D0809372\`, lines **83–89**; Lemma 7.5.7 source \`foundations-of-pluripotential-theory:39398ED2\`, permanent \`880C30054932\`, lines **124–166**; Thm 7.5.8 source \`foundations-of-pluripotential-theory:2B1AA42A\`, permanent \`42828E3BDDFA\`, lines **171–185**. Tonelli plus uniform capacity control of coefficient variations yields \`int_K |g|d|sigma_alpha| <= C int_0^infty Cap_B^*(K intersect {|g|>t})dt\`. The vanishing of this full **capacity-tail integral**, for finite but not uniformly bounded Borel weights, implies original-net weighted weak current convergence when S_alpha converges weakly and f is bounded quasi-continuous. For bounded amplitudes, a \`delta Cap(K)+(2M-delta)Cap(superlevel_delta)\` inequality recovers capacity-net convergence with **no dominated-convergence interchange for nets**. On the unit disc r_j=exp(-j^beta), the exact extremal measure has mass 1/(2j^beta); weight j on its inner closed disc produces weighted mass and capacity-tail \`j^(1-beta)/2\`. Critical beta=1 supplies nonzero \`(1/2)delta_0\` despite ordinary capacity convergence; beta>1 satisfies the new criterion with unbounded weight. Auxiliary §7.16.1 source \`klimek-pluripotential-theory:7B045988\`, tag \`11F76749E371\`, and §7.16.5 source \`klimek-pluripotential-theory:68BF935A\`, tag \`08DA18E923C1\`; main blob \`c6560283c5ff9e2587ffe93f7f2e7ba687105243\`, lines **53–61 and 111–131, 178–184**. Optional appendix/corollary to §7.5.7, **audit-only**. Potential dependents §7.5.8, §§7.11–7.12 and §13.12 must retain their own hypotheses and conditional sources. Distinct from previously recorded bounded-weight net, Lebesgue-Lp and fixed-smooth-factor sharpness IDs. |
+
+**Coverage/status discipline:** selected quantitative §7.5.5/.7/.8 and §7.16.1/.5 steps plus §7.6.1 net-versus-sequence check; historical first coverage is not repeated. No whole section, build, CI, formal verification, website or production changes. **25 chapters / 747 numbered ToC sections / zero fully certified sections.** All old findings and user-deferred Demailly approximation/regularization, Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss work retain their precise previous status **deferred-by-user**, not resolved.
+
+---
+
+
 # 2026-10-31 — mixed support-function Alexandrov atoms and two source-number leaks
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full proof and source-anchored findings](reports/2026-10-31-mixed-support-alexandrov-atoms-and-orphan-equation-labels.md).

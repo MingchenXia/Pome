@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-31 — capacity-tail criterion for unbounded Bedford–Taylor weights
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full exact mathematical proof and sharp disc model](reports/2026-10-31-bedford-taylor-capacity-tail-unbounded-weights.md).
+
+- **POME-BT-WEIGHT-CAPTAIL-001 — low / verified conditional deduction:** for locally uniformly bounded Bedford–Taylor factors with weakly convergent currents, a locally bounded quasi-continuous limit weight f and potentially **unbounded** finite Borel f_alpha, the quantitative condition \`integral_0^infinity Cap_B^*(K intersect {|f_alpha-f|>t}) dt -> 0\` on each compact K guarantees coefficientwise and trace weighted convergence \`f_alpha S_alpha -> f S\` along the **original directed net**. Tonelli and §7.5.7(1)'s uniform total-variation capacity domination prove the inequality, while the fixed-weight step uses §7.5.7(2). A bounded-amplitude one-threshold corollary derives the original net bound without applying dominated convergence to nets. Exact unit-disc model r_j=exp(-j^beta), f_j=j 1_{|z|<=r_j} has capacity-tail and weighted mass j^(1-beta)/2: beta>1 works with unbounded weights, beta=1 fails despite capacity convergence. Original Lemma7.5.7 and Thm7.5.8 are **not false**; this is a strict **sufficient** extension, not necessary and not repeated prior bounded-weight IDs.
+- **Selected actual coverage:** §7.5.5/.7/.8 (original directed-net and coefficient-variation proof), §7.6.1 sequence-only versus net quantifier, §7.16.1/.5 exact disc normalization. §7.5 and §7.16 were previously sampled; no false first-time scope claim and no whole section certification. **25 chapters / 747 numbered current ToC sections / zero fully certified mathematical sections.** Previous findings, conditional prerequisites and all explicitly excluded Demailly regularization/Bergman/L²/OT/multiscale/positivity-loss work remain unchanged **deferred-by-user**. No main/source/registry/tag/site/build/test/CI/formalization/publication modifications.
+
+---
+
+
 # Latest mathematical audit checkpoint — 2026-10-31 — mixed Alexandrov Dirac atoms and two legacy-number leakage defects
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Source-pinned proof and editorial diagnostics](reports/2026-10-31-mixed-support-alexandrov-atoms-and-orphan-equation-labels.md).
