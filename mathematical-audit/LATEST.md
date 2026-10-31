@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-31 — pointwise Levi bracket generation
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete source-pinned proof and signed hyperquadric check](reports/2026-10-31-levi-bracket-step-two-rigidity.md).
+
+- **POME-LEVI-STEP2-BRACKET-001 — low / verified conditional deduction; printed Proposition 9.34.1 not false.** On a C² real hypersurface of C^n, n>=2, its maximal complex tangent distribution D satisfies **D_p+[D,D]_p=T_pM exactly when the Levi form L_p is nonzero**, even if L_p has mixed signs or nonmaximal rank. Take Y=JX in the printed exact bracket identity to produce the missing tangent direction; conversely L_p=0 kills every bracket component modulo D. Every C² real D-first integral is locally constant on a patch where L is nowhere zero. The direct hyperquadric model ρ=Re w+λ|z|² gives [X,JX](0)=−4λ∂_v; its sign/factor and tangent constraints were checked exactly with SymPy. **New incremental §9.34.1 bracket consequence**, not a repeated §9.34 proof-sign audit or a classification of pseudoconvex boundaries.
+- **Other selected conditional inspection, no new error:** §11.33.2/.4/.5 normalization scalar monotonicity, mixed-MA concavity, uniformly bounded L¹ stability, with strict domination/existence/barrier/capacity inputs left unverified. Main integrated path/blob/source labels/permanent tags/physical lines in the report. **25 actual chapters / 747 numbered ToC sections / zero whole mathematical sections certified.** No build, test suite, CI, formal verification, publication or production edit. All previous unresolved findings and the expressly user-deferred Demailly approximation/regularization, dedicated Bergman/L²/OT/multiscale/positivity-loss programme remain unchanged.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-31 — sharp multipole weight comparison and capacity oscillation
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full anchored English proof](reports/2026-10-31-multipole-weight-stability-and-relative-capacity-oscillation.md).
