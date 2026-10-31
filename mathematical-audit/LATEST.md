@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-31 — compact-open restriction quotients and intrinsic graded lattice normalization
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [New English source-pinned complete local proofs](reports/2026-10-31-clopen-restriction-quotients-and-graded-lattice-period.md).
+
+- **POME-LCS-CLOPEN-DENSE-QUOTIENT-001 — low / verified conditional deduction, not a printed error.** First substantive selected §2.23 review. For compact-clopen-basis locally compact Hausdorff X and closed A, restriction r:C_k(X)→F⊂C_k(A) is an **open quotient onto a dense subspace F**; both ambient compact-open spaces are complete, and completion(F)=C_k(A). The ordinal-plank example §2.23.3 has F proper, dense and incomplete. Proof uses finite compact-clopen step approximants, explicit radial clipping, and arbitrary nets, not sequential compactness. Main §2.23 blob `e2c6d25d35020ccefa739f04aa893e173f73c17e`, source `demailly-complex-geometry:69616994`, permanent tag `5F1410BEA2F7`, lines 51–90. This functional-analytic result does **not** revisit the excluded Demailly approximation programme.
+- **POME-OKO-PERIOD-LATTICE-NORMALIZATION-001 — low / verified conditional deduction, not a printed error.** On P¹, the even-degree subalgebra W_(2q)=span{x^(2q−2j)y^(2j)}, W_odd=0, yields degree period e=2, difference lattice Λ=2Z, Okounkov body [0,1], intrinsic lattice volume **1/2** (ambient length 1), and dimensions q+1. Odd and even degrees have distinct normalized asymptotics; both period and intrinsic lattice in correct §19.9.9 are indispensable. Main §19.9 blob `83557f0e15275253661fe679c75407e6636d497c`, source `non-kahler-pluripotential-theory:4EE23942`, permanent `CC2BF9294FA3`, lines 178–233. This does not replay or resolve the old KK12/conductor dependency.
+- **Actual newly examined proofs:** §2.23.1–5 and selected §§19.9.2/.3/.6/.9/.10; §§2.14.2–4 context only. Eight exact-integer sample slices checked; no project build, CI, formalization or website changes. **25 chapters / 747 sections / 0 entire sections mathematically certified.** Prior errors and open external inputs remain unchanged. User-deferred Demailly regularization, Bergman/L²/OT/multiscale-atlas/positivity-loss work remains **deferred-by-user**, not reopened.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-31 — sharp Chern–Ricci-flat Kodaira Lee-gauge spectral rigidity
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [New source-pinned complete local proof](reports/2026-10-31-kodaira-flat-gauge-spectral-rigidity.md).
