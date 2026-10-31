@@ -1,3 +1,15 @@
+## 2026-10-31 — non-Archimedean graded-ideal tail equals the generic-fiber ideal
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full proof, exact projective model, stable tags and dependency boundary](reports/2026-10-31-nonarchimedean-graded-tail-generic-ideal.md).
+
+| Stable finding ID | Severity and exact status | Evidence, proof, proposed correction, affected dependents |
+| --- | --- | --- |
+| **POME-NA-TAIL-GENERIC-FIBER-001** | **low / verified conditional deduction**, no false printed theorem, no unproved proof repair | Integrated `docs/sections/non-archimedean-pluripotential-theory/index.html`, main blob `8448d710690ebe1cc28040f9611d05c9d008a961`: Lemma §22.1.94 source `sgpt:AB6FE74C`, permanent tag `76252E7717AC`, lines **1402–1416** and Eq. 22.1.95 tag `6126C03E6587`; Lemma §22.1.96 source `sgpt:0D0A3D2C` / `AF0C82DE24E9`, lines **1418–1427**; Proposition §22.1.98 source `sgpt:4D7EEB4A` / `6A232EAE791C`, lines **1445–1494**, especially punctured restriction 1458–64, Eq. 22.1.99 `sgpt:B0939F32` / `9186BF0A5F55`, 1466–73, and footnote 1494. For any homogeneous coherent algebraic ideal `I⊂O_{X×A¹}` with `I|_{X×C*}=p_X^*J`, its coefficient filtration `J_j={f:ft^j∈I}` stabilizes **at `J`**: finite homogeneous generators on each affine chart and restriction to `t=1` identify the terminal ideal. Consequently `σ(v)(I)=min_{0≤j≤N}(v(J_j)+j)` includes the precise terminal term `v(J)+N`. Sharp family `I=I_p^a+t^kI_p^b` on `P¹×A¹` (`a>b≥1`) gives `min(ac,bc+k)` at `v=c ord_p`, with arbitrary rational kink `k/(a-b)`; the terminal ideal `I_p^b≠O` cannot be dropped. **Optional proposed explanatory addition** after Eq.22.1.99: `a_N=I(mφ)` because the punctured family is `p_X^*I(mφ)`. This refines prior `POME-NA-GRADED-CANON-001` and `POME-NA-ONE-GENERATOR-GRADING-001`, not a duplicate. Dependents: §22.1.98 Gauss minimum and §22.1.100 analytification. **GAGA in §22.1.96 and external global generation in §22.1.97 remain unresolved**, no new certification, and no excluded L²/regularization proof work. |
+
+**Actual new selected proof coverage:** graded algebra and generic fiber of §§22.1.94/.96/.98; Eq.22.1.69 convention; §22.1.97 statement only and §22.1.100 downstream context. Nothing about the entire non-Archimedean correspondence is certified. **25 chapters / 747 ToC sections / zero fully verified mathematical sections.** Original error, gap, external dependency and deferred-by-user ledger statuses remain as before; Demailly approximation/regularization, dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss completion **deferred-by-user**. No project build, tests, CI, publication, main/site/source/registry/permanent-tag changes.
+
+---
+
 ## 2026-10-31 — product-submersion obstruction and sharp positive-mass curve dimension bound
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete independent local argument with stable source labels/tags and proposed optional remark](reports/2026-10-31-fiberwise-ideal-collapse-and-curve-mass-growth.md).
