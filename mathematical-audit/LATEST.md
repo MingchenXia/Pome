@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-31 — optimal coefficientwise Hessian linearization ellipticity
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete source-pinned proof and exact rational checks](reports/2026-10-31-sharp-hessian-coordinate-ellipticity.md).
+
+- **POME-HESS-SHARP-DIAGONAL-DERIVATIVE-001 — low / verified conditional deduction (original printed inequalities correct).** For `2<=m<=n` and spectral `lambda in Gamma_m`, the normalized Hessian root satisfies the **optimal** coordinate derivative inequality `F_i >= f/(m S)`, in place of the correct but weaker `f/(m! S)` in Lemma 8.2.5. Delete coordinate `i`, apply Newton–Maclaurin ratios to the `(n-1)`-vector, then use `S_m(lambda)=lambda_i S_(m-1)(mu)+S_m(mu)`; positive-definite spectra `(R,1,...,1)` achieve sharp asymptotic ratio `S F_i/f -> 1/m`. This improves the coefficient by `(m-1)!` for `m>=3`.
+- **Precisely limited dependent step.** In Lemma 8.4.2 only the gradient-penalty threshold `q² >= 4m! C_G/f_0` can be weakened to **`q² >= 4m C_G/f_0`**. The distinct mixed-form estimate for a possibly indefinite cone element `M` is **not improved**: keep `q >= 2 n m! C_H/f_0` and `W_M >= f tr(M)/(m! S)`. No general Hessian equation or regularity proof is certified.
+- **New selected coverage:** integrated §8.2.5 coefficient derivative and §8.4.2 coordinate-gradient absorption, with §8.2.3/.4, §8.2.6 and §8.3.3 selected contextual algebra; §17.15 earlier issues not re-logged. Exact main blobs, source labels, permanent tags and physical lines in report. Six exact rational spectra and four sharpness families checked, not a project build, CI or formal verification. **25 chapters / 747 actual ToC sections / zero complete mathematical section certifications.** All older errors, gaps, external inputs and user-excluded Demailly approximation/regularization, dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss work remain unchanged **deferred-by-user**. No main/site/source/registry/CI/publication write.
+
+---
 # Latest mathematical audit checkpoint — 2026-10-31 — generic-fiber identification of the non-Archimedean graded-ideal tail
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Source-pinned complete algebraic argument and sharp `P¹` graded-ideal examples](reports/2026-10-31-nonarchimedean-graded-tail-generic-ideal.md).
