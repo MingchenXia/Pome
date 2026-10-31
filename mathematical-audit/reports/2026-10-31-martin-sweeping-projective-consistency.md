@@ -5,70 +5,65 @@
 ## Integrated reading-edition anchors (all at the reviewed main)
 
 - `docs/sections/green-energy-and-martin-boundaries/index.html`, blob `976a90f2a5eba299658f73a1eee8b9d3fef8020f`.
-- §4.5.10, Lemma, original source `classical-potential-theory:F432655F`, permanent tag `B0A113187C30`, physical lines **135–149**: for compact `CSubset Ω`, the compact reduction of a positive `K`-potential has a **unique interior** representing Riesz measure `μ_C`; `γ_{y,C}` is the compact reduction of a point boundary kernel and `T_C f(y)=∫ f\,dγ_{y,C}`.
+- §4.5.10, Lemma, original source `classical-potential-theory:F432655F`, permanent tag `B0A113187C30`, physical lines **135–149**: for compact `C\Subset\Omega`, the compact reduction of a positive `K`-potential has a **unique interior** representing Riesz measure `μ_C`; `γ_{y,C}` is the compact reduction of a point boundary kernel and `T_C f(y)=∫ f\,dγ_{y,C}`.
 - §4.5.11, Lemma, original source `classical-potential-theory:20921377`, permanent tag `FDE7BF6A9927`, physical lines **153–161**: nonnegative integral-sweeping and the barycentric identity `μ_C=∫_Δ γ_{y,C}\,dμ(y)`.
 - §4.5.12, Theorem, original source `classical-potential-theory:57D18B4C`, permanent tag `6736FBE7368C`, physical lines **165–185**. **Exact proof hinge, line 176:** after choosing a subsequential weak limit `ν` of `μ_{C_j}` and proving `Kν=Kμ`, the proof uses `∫ f\,dν_{C_j}=∫ f\,dμ_{C_j}` inside its lattice argument, without explicitly demonstrating why two potentially *different* Martin-boundary representing measures have identical compact sweeps.
 - §4.5.13, Theorem, source `classical-potential-theory:854603A2`, permanent tag `0E65F552B1A6`, lines **189–212**, is a conditional downstream user of the unique minimal Martin representation. Section `4.5.9` (source `classical-potential-theory:1677A9F0`, tag `9D6B5CF5E0CF`, lines 109–122) supplies the compact metrizable kernel setting and is not re-certified here.
 
 ## Precise local proof
 
-Assume the §4.5.10–11 reduction construction and the interior Riesz-measure uniqueness stated there. Let `h≥0` be harmonic and let `μ` and `ν` be *arbitrary finite positive measures on the Martin boundary* such that
+Assume the §4.5.10–11 reduction construction and the interior Riesz-measure uniqueness stated there. Let $h\geq0$ be harmonic and let $\mu$ and $\nu$ be *arbitrary finite positive measures on the Martin boundary* such that
 
-[
-Kmu=K
-u=h.
-]
+\[
+K\mu=K\nu=h.
+\]
 
-No uniqueness of `μ` or `ν` is assumed; in particular, do **not** presume the conclusion of §4.5.12. For any compact `CSubset Ω`, by the definition of compact sweep and the fact that reduction depends only on the function,
+No uniqueness of $\mu$ or $\nu$ is assumed; in particular, do **not** presume the conclusion of §4.5.12. For any compact $C\Subset\Omega$, by the definition of compact sweep and the fact that reduction depends only on the function,
 
-[
-Kmu_C=widehat R_C(Kmu)=widehat R_C h
-       =widehat R_C(K
-u)=K
-u_C.
-]
+\[
+K\mu_C=\widehat R_C(K\mu)=\widehat R_C h
+       =\widehat R_C(K\nu)=K\nu_C.
+\]
 
-Both `μ_C` and `ν_C` are supported *inside* `Ω`, and are uniquely determined by their Green potential by the interior Riesz distributional identity. Hence
+Both $\mu_C$ and $\nu_C$ are supported *inside* $\Omega$, and are uniquely determined by their Green potential by the interior Riesz distributional identity. Hence
 
-[
-oxed{quad mu_C=
-u_C,qquad CSubset Ω.quad}
-]
+\[
+\boxed{\quad \mu_C=\nu_C,\qquad C\Subset\Omega.\quad}
+\]
 
 This is independence of the choice of boundary representing measure, not uniqueness of that measure itself.
 
-For two nested compact sets `C⊂DSubset Ω`, the elementary reduction absorption law gives
+For two nested compact sets $C\subset D\Subset\Omega$, the elementary reduction absorption law gives
 
-[
-widehat R_C(widehat R_Dh)=widehat R_Ch.
-]
+\[
+\widehat R_C(\widehat R_Dh)=\widehat R_Ch.
+\]
 
-Indeed the reduction on `D` is a superharmonic minorant of `h` which agrees with `h` quasi-everywhere on `D`; reduction on `C⊂D` depends only on the quasi-everywhere obstacle there, and its lower-semicontinuous representative is canonical. Alternatively, the two elementary majorant comparisons for unre-gularized reductions, followed by regularization, give the same identity. Applying interior uniqueness again yields the **projective consistency of compact sweeps**
+Indeed the reduction on $D$ is a superharmonic minorant of $h$ which agrees with $h$ quasi-everywhere on $D$; reduction on $C\subset D$ depends only on the quasi-everywhere obstacle there, and its lower-semicontinuous representative is canonical. Alternatively, the two elementary majorant comparisons for unregularized reductions, followed by regularization, give the same identity. Applying interior uniqueness again yields the **projective consistency of compact sweeps**
 
-[
-oxed{quad (mu_D)_C=mu_C.quad}
-]
+\[
+\boxed{\quad (\mu_D)_C=\mu_C.\quad}
+\]
 
 The previous assertion requires only the established reduction regularization and quasi-everywhere stability; it does not assert convergence or uniqueness of arbitrary Martin boundary representing measures.
 
-Using the §4.5.11 barycentric formula and Tonelli for positive measures, for every `f∈C(M)` we obtain the representation-independent functional identity
+Using the §4.5.11 barycentric formula and Tonelli for positive measures, for every $f\in C(M)$ we obtain the representation-independent functional identity
 
-[
-oxed{quad
-int_Delta T_Cf(y),dmu(y)
- =int_Omega f(t),dmu_C(t)
- =int_Delta T_Cf(y),d
-u(y).
-quad}
-]
+\[
+\boxed{\quad
+\int_\Delta T_Cf(y)\,d\mu(y)
+ =\int_\Omega f(t)\,d\mu_C(t)
+ =\int_\Delta T_Cf(y)\,d\nu(y).
+\quad}
+\]
 
-This explicitly justifies the equality used at line 176 of §4.5.12. It works even when `μ≠ν`, so the existence proof does not circularly import the uniqueness that it is trying to establish.
+This explicitly justifies the equality used at line 176 of §4.5.12. It works even when $\mu\ne\nu$, so the existence proof does not circularly import the uniqueness that it is trying to establish.
 
 ### Direct insertion proposed for the proof of §4.5.12
 
 After `Kν=Kμ` is established, insert:
 
-> For every compact `CSubset Ω`, the measures `μ_C` and `ν_C` are both the unique interior Riesz measure of the same compact reduction `\widehat R_C(Kμ)=\widehat R_C(Kν)`. They are therefore equal, independently of any uniqueness of the boundary representing measure. By the integral-sweeping identity of Lemma 4.5.11, `\int T_Cf\,dν=\int f\,dν_C=\int f\,dμ_C`, which is the equality used below.
+> For every compact `C\Subset\Omega`, the measures `μ_C` and `ν_C` are both the unique interior Riesz measure of the same compact reduction `\widehat R_C(Kμ)=\widehat R_C(Kν)`. They are therefore equal, independently of any uniqueness of the boundary representing measure. By the integral-sweeping identity of Lemma 4.5.11, `\int T_Cf\,dν=\int f\,dν_C=\int f\,dμ_C`, which is the equality used below.
 
 No change to the statement, tags, source attribution, normalizations, or canonicalization is proposed. The nested consistency statement may be added as an optional corollary; it is not needed for the minimal insertion.
 
