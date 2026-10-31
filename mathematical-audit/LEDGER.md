@@ -1,3 +1,15 @@
+## 2026-10-31 — weighted Lelong rotation: exact projective threshold strata
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full anchored proof and exact-rational checks](reports/2026-10-31-rotated-lelong-projective-threshold-strata.md).
+
+| Stable ID | Severity and status | Hypotheses, complete local evidence, proposed correction and dependents |
+| --- | --- | --- |
+| **POME-ROTATED-LELONG-PROJECTIVE-STRATA-001** | **low / verified conditional deduction**; printed Theorem 6.45.2 is not false and is not globally certified | Integrated main docs/sections/lelong-densities-generalized-masses-and-multiplicity--rotation-of-an-arbitrary-isolated-continuous-weight/index.html, blob 9175f1ac475bf4a9f9d9a1749037ae86beb675e8, source **demailly-complex-geometry:A05C5CFA**, permanent **E186C2A7FA32**, Theorem **6.45.2** lines **35–41**; Eq. 6.45.3 source 3D3D2464 / permanent **B144F857EFF6** lines 37–39, Eq. 6.45.4 tag **F13CFDE93F11** lines **49–53**, averaged-origin step **98–105**; Lemma 6.45.1 source F7E1037D / tag **D72B7AE5B407** lines 7–30 contextual; §6.41.14 source 1B549607 / tag **5BC026092C60** lines 237–277 a.e. quantifier contextual. For any positive \(a_j\), \(\varphi=\max_j a_j\log|z_j|^2\) is continuous with the unique pole 0. For any complex line current \(T_v=[\mathbb Cv]\), **\(\nu(T_v,\varphi)=\min_{v_j\ne0}a_j\)**, while \(\nu(T_v,0)=1\) and \(\nu(dd^c\varphi,0)=\min_j a_j\). The threshold \(\nu(T_v,\varphi)\ge c\) consists precisely of the projectivized coordinate span of indices with \(a_j\ge c\), hence is proper algebraic and Haar-null if \(c>\min a_j\). Its \(\mathrm U(n)\)-rotation average is exactly \(\min a_j\). For \(n=2\), \(a_1<a_2\), \(T=[z_1=0]\) yields strict ratio \(a_2/a_1\), arbitrarily large, while generic lines attain equality. Proof by radial supremum and one-variable Riesz/Poincaré–Lelong only; 15 rational coordinate-support checks. Optional separate example after §6.45.4 preserving tags/attribution; affected interpretation of §6.45.2's *almost-everywhere* qualifier and §6.39.8's exceptional threshold geometry. No extension to \(p>1\), no excluded smoothing or product-chain certification. |
+
+**Actual new coverage:** selected Theorem §6.45.2, §6.45.1 and §6.41.14 contextual only; **25 chapters / 747 ToC sections / 0 entirely certified**. Earlier ledger statuses and all user-deferred Demailly approximation/regularization, Bergman/L²/OT/multiscale/positivity-loss remain unchanged. No source, site, main, CI, publication or formal-verification work.
+
+---
+
 ## 2026-10-31 — quantitative convex slices: interior Lipschitz, arbitrarily slow endpoint continuity
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full anchored proof](reports/2026-10-31-convex-slice-moduli.md).

@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-31 — weighted Lelong projective jumping strata
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete source-pinned report](reports/2026-10-31-rotated-lelong-projective-threshold-strata.md).
+
+- **POME-ROTATED-LELONG-PROJECTIVE-STRATA-001 — low / verified conditional deduction**, not a false theorem. In the first genuinely new proof-level check of Theorem **6.45.2** (as distinct from previously reviewed Lemma 6.45.1), for the isolated continuous psh pole \(\varphi=\max_j a_j\log|z_j|^2\) and line current \(T_v=[\mathbb Cv]\), prove \(\nu(T_v,\varphi)=\min_{v_j\ne0}a_j\) and \(\nu(dd^c\varphi,0)=\min_j a_j\). Every threshold locus \(\{\nu(T_v,\varphi)\ge c\}\) is exactly a coordinate projective linear subspace, with dimension and Haar-null exceptional rotations explicit. The printed bound is sharp generically, but can be arbitrarily strict on exceptional lines; *do not replace its inequality with pointwise equality*. This is a proof from one-variable Riesz theory, not from excluded regularization or L² techniques.
+- **Actual new selected scope:** §6.45.2 lines 35–41, 49–53, 98–105, §6.45.1 only contextual; §6.41.14 a.e. slice quantifier cross-check only. Main integrated blob 9175f1ac475bf4a9f9d9a1749037ae86beb675e8, theorem source demailly-complex-geometry:A05C5CFA / permanent E186C2A7FA32; all equation and dependent anchors in report. Fifteen exact rational coordinate-support tests passed, no project build, CI or formal verification. **25 chapters / 747 numbered current ToC sections / zero entire mathematical sections certified.** Older findings unchanged; Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme remain **deferred-by-user**. No main, site, source, registry or tag changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-31 — quantitative convex-slice continuity and endpoint obstructions
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete source-anchored proof](reports/2026-10-31-convex-slice-moduli.md).
