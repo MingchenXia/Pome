@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-11-01 — exact logarithmic mass of bounded Bedford–Taylor cone pieces
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **new pinned mathematical report:** [bounded BT decomposition log-mass](reports/2026-11-01-bedford-taylor-bounded-decomposition-logarithmic-mass.md).
+
+- **POME-BT-LOGMASS-ASYMPTOTIC-001 — low / verified conditional deduction** (no false printed theorem or applied production fix). In the *actual bounded psh decomposition* of §7.23.2, source `klimek-pluripotential-theory:80EFAB5F`, permanent tag `EC436652E435`, main `docs/sections/unbounded-potentials-and-dependence-on-regularization/index.html`, blob `431e66dcee4efdf3c4aac592aaee1490156da2b9`, lines 45–132, choose `kappa=1/18` and `psi_j=kappa*j*U/(j-U)`. For compact polydisc-product `K={|x|<=a, |y|<=R, |z'|<=b}`, `0<a<1/4`, `0<R<exp(-1)`, `0<b<1` when `n>2`, the *exact* BT top-mass growth is `lim_{j->infty} int_K(dd^c psi_j)^n/log(j) = n(n-1) kappa^n (a^2-a^4) b^(2(n-2))/4` (omit `b` for `n=2`). The proof uses an explicit rank-one complex Hessian determinant, sharp logarithmic radial shell estimate and the standard locally bounded BT non-charging of polar sets; it strengthens the already correct qualitative contradiction, **conditional** on that bounded-product property, without closing the entire upstream theory.
+- **First selected proof-level coverage:** §7.23.1/.2/.3: smooth decreasing counterexample's factorial normalization, positive-cone decomposition, quantitatively divergent bounded BT measures, and classical versus NPP pole mass. Stable section tag `32DC47BECC3E`, source `klimek-pluripotential-theory:91597462`. **First structural/context reads only:** §§7.1 and 9.1 (introductory navigation, no numbered theorem to certify). Earlier §11.48 and §17.16 findings are not repeated.
+- **Coverage:** actual current main **25 chapters / 747 numbered ToC sections / zero complete mathematical-section certifications**. All previous errors/gaps and explicitly excluded Demailly approximation/regularization plus dedicated Bergman/L²/OT/multiscale/positivity-loss programme remain **deferred-by-user**, never resolved or reexamined here. Audit Markdown only; no source, main, site, CI, formalization, or project test/build changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-11-01 — universal Gauduchon null-face rigidity on the radial nonbig background
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete source-anchored proof](reports/2026-11-01-universal-gauduchon-fiber-null-face.md).
