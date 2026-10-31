@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-11-01 — exact toric cone integrability and insufficient ray-only checks
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full source-anchored proof](reports/2026-11-01-yao-exact-cone-integrability-and-raywise-failure.md).
+
+- **POME-TOR-YAO-CONE-CRITERION-001 — low / verified conditional deduction**, not a false printed theorem. In Theorem 21.12.31 (source sgpt:59CD0BEC, permanent E109952155FB, main HTML blob 56a1a55dfc8185aee0e6d495a6a93d8a2313d76b, lines 600–694), under its stated model-envelope/multiplier-ideal reduction, a character with m in P is integrable **iff** each maximal fan cone's compact coefficient simplex has maximum H_m(-sum c_i u_i)<1. The exact face-uniform necessity and sufficiency proof also treats critical equality. On P=[0,2]^2, Delta=conv((2,0),(0,2)), m=0, all four primitive fan-ray tests are strictly below 1 while the midpoint has value 1; the local integral of 1/(|z1|^4+|z2|^4) diverges. **Earlier** POME-TOR-YAO-EDGE-001 already noted the equality endpoint, and is not counted again; the simultaneous exact criterion and raywise failure are new. No printed toric theorem is refuted or production fix applied.
+- **Rotated inventory-only crosscheck:** §6.42 source demailly-complex-geometry:2E584F85, tag 1A00687E6A1B, blob 6277ee1be4d5cc08777aca6c82e9663518be6961, line 7, is just an introductory conventions paragraph; no mathematical theorem/proof review to certify there. §21.12.29 and §21.12.35 checked contextually, not in full.
+- **Coverage:** 25 chapters / 747 current-main ToC sections / zero complete mathematical-section certifications. Prior unresolved/corrected findings remain unchanged. All user-excluded approximation/regularization/Bergman/L²/OT/multiscale/positivity-loss work remains **deferred-by-user**, not resolved. Audit Markdown only; no tests/build/CI/formalization/main/site/source changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-11-01 — two positive de Rham-exact rays on a Calabi–Eckmann threefold
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Exact anchored English review](reports/2026-11-01-calabi-eckmann-two-ray-exact-positive-cone.md).

@@ -1,3 +1,15 @@
+# 2026-11-01 — exact toric maximal-cone multiplier-ideal criterion
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete anchored English report](reports/2026-11-01-yao-exact-cone-integrability-and-raywise-failure.md).
+
+| Stable ID | Severity / status | Precise evidence, mathematical conclusion, proposal and dependents |
+| --- | --- | --- |
+| **POME-TOR-YAO-CONE-CRITERION-001** | **low / verified conditional deduction**, no false theorem or complete upstream proof certification | Theorem **21.12.31**, source **sgpt:59CD0BEC**, permanent **E109952155FB**, main **docs/sections/toric-pluripotential-theory-on-ample-line-bundles/index.html**, blob **56a1a55dfc8185aee0e6d495a6a93d8a2313d76b**, lines **600–694**. Assuming its cited model-envelope preservation (Prop.16.6.18, Prop.21.12.29) and bounded support-function difference, for each m in P∩M the character belongs to the multiplier ideal **iff**, on *every* maximal cone with primitive generators u_i, the maximum over c_i≥0, sum c_i=1, of H_m(-sum c_i u_i) is strictly <1. Sufficiency: uniform strict margin gives exponential integrability of the logarithmic radial t-integral. Necessity: the fixed-width tube along any maximizing **face** diverges for maximum ≥1. This reuses but does **not** re-register old **POME-TOR-YAO-EDGE-001** (equality threshold). New counterexample: P=[0,2]², Delta=segment between (2,0) and (0,2), m=0, toric weight log(|z1|⁴+|z2|⁴): all four primitive-ray tests <1, but diagonal midpoint equals 1 and the constant section fails local integrability. Therefore ray-only tests are insufficient (not an asserted printed theorem). Optional exact-criterion corollary preserving all tags/attribution; affects toric multiplier-ideal character counting (§21.12.35) and §21.13 comparisons. No production edit. |
+
+**Additional scope:** previously inventory-only **§6.42** main path **docs/sections/lelong-densities-generalized-masses-and-multiplicity--multiplicities-and-lelong-numbers-under-holomorphic-maps/index.html**, blob **6277ee1be4d5cc08777aca6c82e9663518be6961**, source **demailly-complex-geometry:2E584F85**, section tag **1A00687E6A1B**, line **7** inspected: conventions only, **no mathematical proposition to review**. §21.12.29 and §21.12.35 contextual checks, not complete section review. **25 chapters / 747 actual ToC sections / zero complete mathematical certifications.** Old ledger and excluded scope preserved; all dedicated Demailly/Bergman/L²/OT/multiscale/positivity-loss work remains **deferred-by-user**. No production, tests, build, CI, formalization, site or publication changes.
+
+---
+
 # 2026-11-01 — two independent exact positive rays versus strongly Gauduchon cohomological mass control
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full pinned English report](reports/2026-11-01-calabi-eckmann-two-ray-exact-positive-cone.md).
