@@ -1,3 +1,16 @@
+# 2026-10-31 — strong reduction coreflection and two-parameter Aeppli saddle
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Source-anchored English mathematical report](reports/2026-10-31-ringed-coreflection-and-torus-product-aeppli-saddle.md).
+
+| Stable ID | Severity / status | Verified statement, precise source and proposed action |
+| --- | --- | --- |
+| **POME-RING-STRONG-COREFLECTION-001** | low / **verified conditional deduction**; no false theorem | In the category of locally ringed k-spaces with fixed residue field k, strong reduction X_st-red is right adjoint to the full inclusion of strongly reduced spaces: maps Y→X from strongly reduced Y uniquely and functorially factor via X_st-red→X. Further (X_red)_st-red≅X_st-red. Source §9.64.3 **demailly-complex-geometry:29A82276** / permanent **16DE5782FC00** and §9.64.2 tag **ADC46EC60E54**, main **docs/sections/ringed-spaces-and-reductions/index.html**, blob **a84cbf2134702a33dc53c3de30ff097d9cfa1c1f**, physical lines **13–61**. Formal proof uses residue-evaluation naturality and kernel factorization. Optional expository universal-property statement only, no source/canonicalization edit; dependents §§9.58–60, 9.67. |
+| **POME-HERM-TORUS-PRODUCT-SADDLE-001** | low / **verified conditional deduction**; original examples correct | For α_s of §11.2.22 on S×S, ω_(s,t)=α_s+α_t has canonical completion ρ_s+ρ_t, F/V0²=s²+t²−2s²t², V/V0²=(1−s²)(1−t²) and a unique internal (s,t)-critical point (1/√2,1/√2) with Aeppli-slice Hessian V0²[[0,−4],[−4,0]]. Distinct from earlier potential-Hessian and curl findings; explicit strict saddle in a smooth positive 2-parameter Aeppli subspace. Source §§11.2.22–24 original **non-kahler-pluripotential-theory:CC0FA29C** / permanent **ACA94D5D202C** and **:4189BCA9** / **F9D5DB66D92A**, production **docs/sections/monge-ampere-energy-and-torsion/index.html**, blob **fe1ca06167b8f5bc9868e9a9876397afad4e7ff5**, physical lines **345–416**. Optional illustration after Example 11.2.24; affects interpretation of §11.2.19/23, not general critical-point classification. |
+
+**New selection only:** §11.2.22–24 smooth product/canonical completion/energy and §9.64.2–4 universal factorization; previous proof reviews and all prior finding statuses retained without counting them again. **25 chapters / 747 numbered ToC sections / zero full mathematical sections certified.** No project tests/build/CI/formal verification, main/source/site/registry/tag modifications. The explicitly excluded approximation/regularization plus dedicated Bergman/L²/OT/multiscale/positivity-loss work remains **deferred-by-user**.
+
+---
+
 ## 2026-10-31 — complete all-dimensional harmonic-distance rigidity classification
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Detailed independently proved report, exact source labels and physical anchors](reports/2026-10-31-harmonic-distance-flat-slab-rigidity.md).

@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-10-31 — ringed coreflection and explicit Hermitian-symplectic saddle
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full proof with source labels, permanent tags, main HTML blob/line anchors](reports/2026-10-31-ringed-coreflection-and-torus-product-aeppli-saddle.md).
+
+- **POME-RING-STRONG-COREFLECTION-001 — low / verified conditional deduction:** §9.64.3's strong residue-value reduction is **right adjoint** to the inclusion of strongly reduced local-k-ringed spaces. Every morphism from a strongly reduced Y to X factors uniquely through X_st-red, naturally in both objects. Also (X_red)_st-red ≅ X_st-red. This is additional universal structure, not a false printed proposition. Exact main blob a84cbf2134702a33dc53c3de30ff097d9cfa1c1f, lines 32–61; source tag 29A82276, permanent 16DE5782FC00.
+- **POME-HERM-TORUS-PRODUCT-SADDLE-001 — low / verified conditional deduction:** Newly selected §11.2.22–24 explicit two-factor Hermitian-symplectic torus metrics have F/V0²=s²+t²-2s²t², V/V0²=(1-s²)(1-t²); the unique internal Aeppli-slice critical point (1/√2,1/√2) has Hessian V0²[[0,-4],[-4,0]], a strict saddle. It independently interpolates the correct printed Examples 11.2.23–24; it does **not** repeat the historical §11.2 exact potential-energy quadratic identity or torus curl calculation. Main blob fe1ca06167b8f5bc9868e9a9876397afad4e7ff5, lines 345–416; source labels CC0FA29C and 4189BCA9, permanent ACA94D5D202C and F9D5DB66D92A.
+- **Actual new proof-level scope:** previously unreviewed §11.2.22–24, plus new §9.64.2–4 universal factorization not addressed by its older selected proof inspection. No whole section or complete transitive dependency certified. SymPy exact polynomial derivative/Hessian and two rational sample checks passed; no project build/CI/formal verification. **25 chapters / 747 ToC sections / zero whole mathematical-section certifications.** All user-excluded Demailly regularization/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss proof work remains **deferred-by-user**, not resumed. No production, source, tag, registry or publication change.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-31 — harmonic distance flat-slab rigidity
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full source-anchored proof](reports/2026-10-31-harmonic-distance-flat-slab-rigidity.md).
