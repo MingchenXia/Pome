@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-10-31 — harmonic distance flat-slab rigidity
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full source-anchored proof](reports/2026-10-31-harmonic-distance-flat-slab-rigidity.md).
+
+- **POME-DIST-HARMONIC-SLAB-RIGIDITY-001 — low / verified conditional deduction; printed Proposition 3.9.2 not shown false.** For every nonempty proper closed F in R^m (m>=1), its Euclidean distance is **harmonic on the entire complement** iff F is a hyperplane, a closed slab or a closed half-space. Bochner plus the eikonal equation forces affine distance on each complement component; infinite nearest-point rays force every component to be an entire half-space; at most two pairwise disjoint open half-spaces exist. This is **not** a generalization of the R^2 **subharmonic** criterion (the weaker hypothesis fails in higher dimensions). Main §3.9.2 source **klimek-pluripotential-theory:219D9DEC**, permanent **59D258340230**, blob **25fd0fd57d3e51f9224a25341ace77584b2a1a2a**, physical lines **37–86**; §3.9.3 connected-neighborhood condition checked contextually.
+- **Separate selected conditional cross-check:** §16.13.1/.3/.4 capacity-exception sets, decreasing l.s.c. obstacles, contact weights and truncated limit in main blob **840ebcb98be09245369315fa0c0288b936040098**; big-class analytic-singularity prerequisite remains conditional, not re-examined. No complete section certified, no old findings repeated. **25 chapters / 747 current ToC sections / zero whole mathematical-section certifications.** All excluded Demailly/Bergman/L2/OT/multiscale/positivity-loss work **deferred-by-user**; no main/site/registry/build/CI/formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-10-31 — exact pairwise essential-extremal speed of weak geodesics
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Source-pinned complete new proof](reports/2026-10-31-pairwise-geodesic-essential-speed.md).

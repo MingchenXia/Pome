@@ -1,3 +1,15 @@
+## 2026-10-31 — complete all-dimensional harmonic-distance rigidity classification
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Detailed independently proved report, exact source labels and physical anchors](reports/2026-10-31-harmonic-distance-flat-slab-rigidity.md).
+
+| Stable finding | Severity / status | Hypotheses, evidence, correction and affected dependents |
+| --- | --- | --- |
+| **POME-DIST-HARMONIC-SLAB-RIGIDITY-001** | **low / verified conditional deduction**, printed Proposition **3.9.2** correct as stated | In R^m, m>=1, for **any** nonempty proper closed F (not assumed convex), d_F harmonic on **all R^m\\F** iff F is a hyperplane, closed parallel slab, or closed half-space. Eikonal plus harmonic Bochner forces Hess(d)=0 on each complement component; infinite normal rays imply F lies behind a supporting plane and each component is a full half-space; at most two disjoint half-spaces yield the exhaustive classification. Conversely the distance to such F is piecewise affine on its complement. Main `docs/sections/planar-boundary-distance-and-convexity/index.html`, blob `25fd0fd57d3e51f9224a25341ace77584b2a1a2a`; §3.9.2 source `klimek-pluripotential-theory:219D9DEC`, permanent `59D258340230`, physical lines **37–86**; §3.9.3 source `klimek-pluripotential-theory:366D2F88`, permanent `BBEB233BF8A4`, lines **91–106**. New harmonic-distance **stronger-hypothesis** theorem, not a false source theorem or a multidimensional subharmonic extension. Optional corollary after §3.9.2; affects §§3.9,9.19 interpretations, not existing tag/canonicalization. Distinct from older subharmonic tube findings. Selected §§16.13.1/.3/.4 contact-measure capacity/limit passages contextual only, not certified, §16.13.2 analytic-singularity dependency conditional. |
+
+**Coverage:** precisely selected §3.9.2/.3 plus contextual §16.13.1/.3/.4; no whole sections or upstream chains certified; **25 chapters, 747 numbered sections, zero complete mathematical-section certifications**. Historical ledger unchanged below; user-deferred Demailly regularization/dedicated Bergman/L2/OT/multiscale/positivity-loss programme remains **deferred-by-user**. No production edits, project build, CI, publication or formal verification.
+
+---
+
 ## 2026-10-31 — Exact pairwise essential-uniform speed along weak geodesics
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete local proof with exact reading-edition sources and physical anchors](reports/2026-10-31-pairwise-geodesic-essential-speed.md).
