@@ -1,3 +1,14 @@
+# Latest mathematical audit checkpoint — 2026-11-01 — orphaned Hausdorff equation and tangential intersection multiplicities
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Anchored English report](reports/2026-11-01-tangential-cartier-intersections-and-orphan-alignment.md).
+
+- **POME-HAUS-ORPHAN-ALIGN-001 — low / confirmed error (editorial, not mathematical):** §7.30.3's second estimate (7.30.6) appears inside the original two-row \`align\` at main blob \`9cde5bfdeb2e3c0457216278945df46eb230e42b\` line 38, and again as an orphan separate reading chunk on line **157**. The detached source label \`demailly-complex-geometry:9EEEF3B3\` / permanent tag **\`FB8CDED199AB\`** wraps \`align\` inside \`aligned\` inside display math and repeats the hard-coded equation number. Proposed registry/placement alias keeping **both** original tags; no production edit. The underlying Proposition 7.30.3 is not disproved.
+- **POME-CI-TANGENT-MULTIPLICITY-001 — low / verified conditional deduction:** For all integers \`a,b,k>=1\`, the classical intersection \`dd^c(a log|z|²) ∧ dd^c log|w^b+z^k|² = ab δ_0\` on a bidisc. All Hausdorff subfamily null tests hold; restriction to \`z=0\` gives \`b log|w|²\`, and the local quotient has exact length \`ab\`. Confirms the current normalization on a *nontransverse* family, conditional on internally stated Poincaré–Lelong/cycle restriction, **not** a new proof of the general theorem. §7.28.1 source \`F96C3380\` / tag \`1BBBF8109419\`; §20.5.5 source \`D58680EB\` / tag \`F1C928146DBC\`; §20.5.10 source \`34D8935D\` / tag \`DDB973C0C1DD\`. Five exact SymPy Gröbner examples checked.
+
+**Actual selected scope:** §7.30.3 formula and detached reading chunk; §7.28.1 and §20.5.5/.10 chosen analytic intersection steps. Prior §7.12 and earlier coordinate-divisor models are not re-counted. **25 actual chapters / 747 numbered ToC sections / 0 complete mathematical-section certifications.** Existing ledger statuses remain; Demailly approximation/regularization and the dedicated Bergman/L²/OT/multiscale/positivity-loss programme remain **deferred-by-user**. Audit Markdown only; no production/build/CI/site/formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-11-01 — optimized cross-mass layer-cake comparison
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete English proof](reports/2026-11-01-parametric-finite-energy-layer-cake-comparison.md).
