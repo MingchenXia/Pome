@@ -1,17 +1,17 @@
 # Audit: fiberwise multiplier-ideal collapse versus positive-mass growth on a curve (2026-10-31)
 
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-**Audit-only branch:** \`review/mathematical-audit\`.
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+**Audit-only branch:** `review/mathematical-audit`.
 **Finding:** **POME-FIBER-POSMASS-DESCENT-OBSTRUCTION-001** — **low / verified conditional deduction**. It is an explicit obstruction to a *universal* positive-mass reference in the question of §24.10.2; **it does not contradict Problem 24.10.2**, which asks for sufficient hypotheses and already warns that not every selecting weight need admit such a reference. No original theorem or lemma is shown false.
 
 ## Exact integrated anchors and provenance
 
 | Object | Production file and blob | Stable original source label / permanent tag | Physical HTML lines |
 | --- | --- | --- | --- |
-| Problem 24.10.2 (descent and \(o(m^q)\) reference) | \`docs/sections/problems-in-hermitian-pluripotential-theory--sections-kernels-and-the-dimension-of-growth/index.html\`, \`172c54fa873ed9a051dc85ddfa4c28e1d4bcdac9\` | \`non-kahler-pluripotential-theory:3C96DD18\` / \`4813DF6B9029\` | 39–55, especially 42–51 |
-| Lemma 5.37.1 (normal logarithmic pole and ideal exponent) | \`docs/sections/plurisubharmonic-functions-and-singularities--multiplier-ideals-and-logarithmic-poles/index.html\`, \`9256668b88735f821d06b0919466a6a8cba777ed\` | \`non-kahler-pluripotential-theory:94144E8D\` / \`C21A2A6F9E07\` | 10–30 |
-| Lemma 5.37.7 (ideal pullback by a *submersion*) | same §5.37 file and blob | \`non-kahler-pluripotential-theory:BD00E282\` / \`2FA053FE56D9\` | 135–163 |
-| Example 5.37.8 (critical-map pullback counterexample) | same §5.37 file and blob | \`non-kahler-pluripotential-theory:FD30A3D0\` / \`E39EAA145A67\` | 167–177 |
+| Problem 24.10.2 (descent and \(o(m^q)\) reference) | `docs/sections/problems-in-hermitian-pluripotential-theory--sections-kernels-and-the-dimension-of-growth/index.html`, `172c54fa873ed9a051dc85ddfa4c28e1d4bcdac9` | `non-kahler-pluripotential-theory:3C96DD18` / `4813DF6B9029` | 39–55, especially 42–51 |
+| Lemma 5.37.1 (normal logarithmic pole and ideal exponent) | `docs/sections/plurisubharmonic-functions-and-singularities--multiplier-ideals-and-logarithmic-poles/index.html`, `9256668b88735f821d06b0919466a6a8cba777ed` | `non-kahler-pluripotential-theory:94144E8D` / `C21A2A6F9E07` | 10–30 |
+| Lemma 5.37.7 (ideal pullback by a *submersion*) | same §5.37 file and blob | `non-kahler-pluripotential-theory:BD00E282` / `2FA053FE56D9` | 135–163 |
+| Example 5.37.8 (critical-map pullback counterexample) | same §5.37 file and blob | `non-kahler-pluripotential-theory:FD30A3D0` / `E39EAA145A67` | 167–177 |
 
 The local multiplier ideal uses \(|f|^2e^{-u}\); \(\mathrm{dd}^c=(i/2\pi)\partial\bar\partial\), so \(\mathrm{dd}^c\log|z|^2=[0]\). This review is **not** about Demailly regularization, Bergman approximation, \(L^2\) extension or the excluded proof-completion programme. Lemma 5.37.7 applies to pullbacks of *base* weights; it must not be applied to the fiber-dependent weight below.
 
