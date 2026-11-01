@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-11-01 — contact theorem background mismatch
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Source-anchored English report](reports/2026-11-01-contact-background-polynomial-repair.md).
+
+- **POME-NPP-DNT-CONTACT-BACKGROUND-001 — medium / confirmed proof gap with verified conditional repair, not an invalid theorem.** Theorem 13.13.57 Step 3 at `docs/sections/non-pluripolar-products--properties-of-non-pluripolar-products/index.html:1295–1312` invokes its Step 2 for (q=P_{\theta+\omega}(f)) under background (\theta), although (q) need not be (\theta)-psh. On (\mathbb P^1), (\theta=0), a sufficiently small smooth nonconstant (\omega)-psh bump (f\ge0), and (\varphi=0) give (q=f\notin\mathrm{PSH}(X,0)) with nonempty contact set. Repair: use Step 2 for (\theta+t\omega) with (t\ge1), then identify the polynomial-in-(t) current measures and evaluate at (t=0) **only after** polynomial continuation. The resulting signed (C^{1,\bar1}) product is not asserted positive. External Tosatti–Chu–Zhou envelope regularity and the prior Step 2 remain conditional inputs; no forbidden psh smoothing/regularization proof was opened.
+- **Actual scope:** new selected Step 3 proof check in previously partially audited §13.13, with 13.13.49–51 and Step 2.2 read only for dependency/compatibility. Existing findings retain statuses. **25 chapters / 747 numbered ToC sections / zero complete mathematical-section certifications**. Excluded Demailly regularization, Bergman/L²/OT/multiscale/positivity-loss stay **deferred-by-user**, neither solved nor certified. No production modifications, CI, tests, build, formalization or site publication.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-11-01 — two singular plane-branch intersections
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Exact source-anchored English proof](reports/2026-11-01-two-singular-plane-branches-intersection-multiplicity.md).
