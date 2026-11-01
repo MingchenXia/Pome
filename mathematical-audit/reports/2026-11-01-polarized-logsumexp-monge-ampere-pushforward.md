@@ -13,11 +13,21 @@ Lemma **17.18.1**, source **transcendental-positive-cones:676C0E65**, permanent 
 the Schur-complement and angular normalization proof is at **28–40**, bounded psh interpolation at **45–60**, noncompact-fiber control at **60–62**.
 The local normalization is dd^c=(i/2π)∂∂̄, y=log|τ|², with d^c y=d arg(τ)/(2π), whose circle integral is one.
 
-For independent rotation only, §10.76 was **first opened directly** at
+For independent rotation through a **previously inventory-only, nonexcluded section**, §2.1 was directly read at
+docs/sections/measures-and-distributions/index.html,
+main blob **a4727844b53c77f57825013c347a3d6e4be72705**,
+physical lines **5–14**, source **foundations-of-pluripotential-theory:B288B328** and permanent tag **B288B328**.
+The page is introductory only. Its exact distributional identity Δlog|x|=2πδ₀ on R² (line 7; reference to §3.1.13) was independently checked by Green's identity on the punctured plane: for f smooth compactly supported, the inner-boundary contribution is
+[
+int_0^{2pi}!left[f(arepsilon e^{i	heta})-arepsilonlogarepsilon,partial_r f(arepsilon e^{i	heta})ight]d	hetalongrightarrow 2pi f(0).
+]
+The other introductory citations to Riesz representation and mollification were **not** proof-checked; no theorem in §2.1 is certified. This is a **first direct introductory/normalization check**, not a full mathematical-section certification.
+
+For context §10.76 was **rechecked**, but its navigation-only status was **already recorded on 2026-10-30**, so it is **not** first coverage:
 docs/sections/compact-curves-periods-and-complex-tori/index.html,
-main blob **f19750ab7bab07f32873dcd297f2332b3f461129**,
-physical lines **4–6**, section permanent tag **2B25FAC99DE6**.
-It contains *only a subject-navigation list to §§10.77–10.81*, with no proposition or proof to certify. This is a structural inventory update only, not mathematical coverage of those five child sections.
+blob **f19750ab7bab07f32873dcd297f2332b3f461129**,
+physical lines **4–6**, permanent tag **2B25FAC99DE6**.
+It lists child §§10.77–10.81, contains no proposition/proof, and creates no new coverage or finding.
 
 ## Exact two-endpoint identity
 
@@ -122,4 +132,4 @@ For φ=ψ, all n+1 mixed terms coincide and (A) reads \((n+1)(dd^c\varphi)^n\), 
 
 **Status:** POME-LEGENDRE-POLARIZED-SOFTMAX-001 — low / **verified conditional deduction**, not a confirmed error, not a certified full lemma, and not a production fix. Its mathematical scope is the explicitly locally bounded two-endpoint family and the max limit. Optional action is an example/corollary after Lemma 17.18.1; retain source and permanent tags and original attribution. Potential dependents are the mass normalization in §17.18 and mixed-product identities of §7.3/§7.5. The broader Kiselman/Legendre correspondence, global non-pluripolar statement, and all upstream Bedford–Taylor proofs remain outside this local certification.
 
-**Actual coverage:** additional selected proof-level inspection of §17.18.1 with a new family and limit; it was **already sampled in 2026-10-23** (the prior logistic coefficient-(n+1) test is not counted again). First structural reading of §10.76 only, no mathematical assertion there. No entire mathematical section certified; collection remains **25 actual chapters / 747 ToC sections / zero fully certified sections**. All historical ledger findings remain unchanged. All user-excluded Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss work stays **deferred-by-user**, not touched or certified. Only audit Markdown is proposed; no main/source/proof-registry/canonicalization/tag/CI/build/formalization/site/publication changes.
+**Actual coverage:** additional selected proof-level inspection of §17.18.1 with a new family and limit; it was **already sampled in 2026-10-23** (the prior logistic coefficient-(n+1) test is not counted again). First direct introductory §2.1 check with the exact Δlog|x| normalization, not theorem certification; §10.76 was a previously recorded navigation-only recheck, not new coverage. No entire mathematical section certified; collection remains **25 actual chapters / 747 ToC sections / zero fully certified sections**. All historical ledger findings remain unchanged. All user-excluded Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss work stays **deferred-by-user**, not touched or certified. Only audit Markdown is proposed; no main/source/proof-registry/canonicalization/tag/CI/build/formalization/site/publication changes.
