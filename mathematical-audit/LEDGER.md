@@ -1,3 +1,15 @@
+# 2026-11-02 — Normal-crossing critical locus and rank-jumping Levi nullspaces
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full anchored proof](reports/2026-11-02-levi-rank-jump-normal-crossing-fibers.md).
+
+| Stable finding ID | Severity / status | Source, exact proof and impact |
+| --- | --- | --- |
+| **POME-BT-LEVI-RANKJUMP-NORMALCROSSING-001** | **low / verified conditional deduction**, **not a false original theorem or proof gap** | Main `docs/sections/integral-leaves-of-constant-rank-null-distributions/index.html`, blob `564667ab5d008b0ffa1d29f5b7ecc578c19d2f04`; Theorem **7.15.3** source `klimek-pluripotential-theory:FB2152E8` tag `8FE75D79B9CA` lines **50–79**, Proposition **7.15.4** source `klimek-pluripotential-theory:3B18B0CF` tag `992E9692EF3B` lines **84–108**, Example **7.15.5** source `klimek-pluripotential-theory:D21B8572` tag `849194DD5398` lines **115–124**. For `u=|zw|²`, `dd^c u=(i/2π)(w dz+z dw)∧(\bar w d\bar z+\bar z d\bar w)`; Levi rank one off the origin and zero at the origin, while its square vanishes identically. The regular kernel line is `span(z∂_z−w∂_w)`, with distinct limits `C∂_z` and `C∂_w` along the two axes: no continuous extension across the critical point. Thus the printed **constant-rank** condition is essential. With `p=1,q=0,β=0`, the printed **nowhere-zero** wedge premise is separately essential despite `α²=0` and `α≥0`. Optional extra example after 7.15.5, **no statement patch**. Affects use of Levi-null foliation near rank-jumping singularities, not the correctness of 7.15.3/4. |
+
+**Actual new scope:** §7.15.3–5 selected proof-level inspection; §7.15.1–2 structural crosschecks only. §7.15 was previously sampled; zero entire-section certifications. **25 chapters / 747 ToC sections / 0 whole mathematical-section certifications**. Prior ledger classifications unchanged. Excluded Demailly regularization, Bergman/`L²`/OT/multiscale/positivity-loss remain **deferred-by-user**. Markdown-only audit; no production, test/build/CI/site/formalization actions.
+
+---
+
 # 2026-11-02 — Support-probability graph under bounded \(L^1\) perturbations
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete source-anchored English proof and counterexample](reports/2026-11-02-bounded-l1-supporting-probability-stability.md).
