@@ -1,3 +1,15 @@
+# 2026-11-01 — polarized log-sum-exp fiber mass; first §10.76 navigation inspection
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full independent proof and source-anchored scope](reports/2026-11-01-polarized-logsumexp-monge-ampere-pushforward.md).
+
+| Stable ID | Severity / status | Exact claim, anchors, hypotheses, correction and dependents |
+| --- | --- | --- |
+| **POME-LEGENDRE-POLARIZED-SOFTMAX-001** | **low / verified conditional deduction**; no printed theorem refuted, no production patch, complete **model proof** conditional on established bounded Bedford–Taylor mixed products. | On arbitrary open U⊂C^n (n≥1), for **locally bounded psh** φ,ψ and t>0, \(u_t=t^{-1}\log(e^{t\varphi}+|\tau|^{2t}e^{t\psi})\) on U×C* has Legendre transforms \((1-\lambda)\varphi+\lambda\psi-t^{-1}[\lambda\log\lambda+(1-\lambda)\log(1-\lambda)]\) for λ∈[0,1]. Exactly \((\pi_U)_*(dd^cu_t)^{n+1}=\sum_{k=0}^n(dd^c\varphi)^{n-k}\wedge(dd^c\psi)^k\), **coefficient 1 for each mixed term**; identity is t-independent and continues to \(u_\infty=\max\{\varphi,\psi+\log|\tau|^2\}\) via t→∞. Proof in report: smooth logistic/Schur complement, beta integral, uniform y-tail ≤2(n+1)C_K exp[-(R−M_K)] independent of t≥1 and smooth approximation, bounded BT monotone continuity. Main docs/sections/partial-legendre-transforms-and-monge-ampere-mass/index.html blob **5d989cf765f5471ce1e2278ef39e2c69979eeb92**, source **transcendental-positive-cones:676C0E65**, permanent **C12669D1EC3D**, original Lemma **17.18.1**, physical lines **13–23**; Schur/tail **28–40, 60–62**; §17.18 source **transcendental-positive-cones:17B5480E**, permanent **12D395D414C1**, lines **5–10**. Optional **corollary/example after Lemma 17.18.1** only; original lemma correct, not fully certified. Dependents: local mixed-product normalization §§7.3–7.5, §17.18 fiber mass. Explicitly not an NPP/global singular statement or full proof of upstream bounded BT theory. |
+
+**Independent first direct inventory check (not a finding ID or mathematical proof certification):** §10.76 docs/sections/compact-curves-periods-and-complex-tori/index.html, blob **f19750ab7bab07f32873dcd297f2332b3f461129**, permanent **2B25FAC99DE6**, physical lines **4–6**. It is a pure navigation section pointing to §§10.77–10.81, with no statement/proof. The five child sections retain their separate coverage records. Exact SymPy beta coefficient check for n=1,…,7 only; no build/tests/formalization. §17.18 was first sampled on 2026-10-23, not first reviewed here. **25 actual chapters / 747 numbered ToC sections / zero entire mathematically certified sections.** All prior ledger findings and user-deferred Demailly approximation/regularization/Bergman/L²/OT/multiscale/positivity-loss programme remain unchanged. No source/registry/canonicalization/tags/main/site/CI/publication edits.
+
+---
+
 # 2026-11-01 — finite-sheet covering and exhaustion properness
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete independently proved conditional deduction](reports/2026-11-01-covering-exhaustion-finite-degree-dichotomy.md).
