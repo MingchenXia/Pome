@@ -1,3 +1,15 @@
+# 2026-11-01 — sharp inhomogeneous cofactor energy and TV constant
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full source-anchored proof, direct torus coefficients and sharpness](reports/2026-11-01-weighted-cofactor-sharp-inhomogeneous-energy.md).
+
+| Stable finding ID | Severity / status | Mathematical evidence, correction and affected dependents |
+| --- | --- | --- |
+| **POME-GAUD-SURFACE-SHARP-TV-ENERGY-001** | **low / verified conditional deduction**; optional quantitative corollary only, no false production theorem | In `docs/sections/uniqueness-for-degenerate-equations/index.html` blob `0c1c033d7a1a76b9ccf9fbd5b4bfc8321a33f208` Eq14.20.1 `non-kahler-pluripotential-theory:AA4FA8E3` tag `2EA7CA32AE91` lines 10–23, and `docs/sections/uniqueness-for-degenerate-equations--polarized-cofactors-and-propagation/index.html` blob `56645140ee2a5e1f97f3288e31ad9a48161e73e5`, Thm14.22.1 `:DC121A4C` tag `919310C73DBE` lines 13–30, Eq14.22.5 `:02BFB727` tag `A2BD70AF14EC` lines 43–55, Prop14.22.13 `:9858A450` tag `F563CACF5D7D` lines 165–188, Cor14.22.15 `:F2E44751` tag `EAC3CF41BD99` lines 190–202, independently prove for arbitrary unequal smooth semipositive top measures, with continuous (h>0), (dd^c(hT)=0): (E_h=-\int h(w-c)(A^n-B^n)\ge0) and (E_h\le(\operatorname{osc}w/2)\int h|A^n-B^n|\). Testing (w) and (w^2) justifies the mean-zero signed-measure centering. For (n=2,dd^c\omega=0), (h=1) automatically, and strictly positive flat-torus pairs (u=\delta^2 f_\delta(x_1),v=0), with smoothed periodic triangle (f_\delta), have ratio tending to one; coefficient 1/2 is sharp. No full proof-chain certification or (L^\infty) conclusion; proposed optional corollary after 14.22.15, original tags/attribution retained. Context `docs/sections/uniqueness-for-degenerate-equations--integral-rigidity-in-dimensions-two-and-three/index.html` blob `e67714c2fe599f71be40618f9586b6b31095275e`, Thm14.23.1 permanent `AF9D036E600F`, lines 13–65. Dependents: §§14.20–14.25 and pluriclosed Gauduchon surface energy comparisons. |
+
+**Actual coverage**: new unequal-RHS energy test and sharpness for already partly audited §§14.20/14.22/14.23, not new first section coverage, no complete theorem/section certification. **25 main ToC chapters / 747 sections / 0 complete mathematical sections certified**. All excluded Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss remain **deferred-by-user**. No project tests/build/CI/formalization, source/site/main/registry/tag edits.
+
+---
+
 # 2026-11-01 — exact two-pole rooftop threshold, harmonic bridge and contact measure
 
 **Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Full proof and provenance](reports/2026-11-01-sharp-two-pole-rooftop-free-boundary-on-p1.md).
