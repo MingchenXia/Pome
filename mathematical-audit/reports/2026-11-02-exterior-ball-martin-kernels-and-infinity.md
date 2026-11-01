@@ -73,7 +73,7 @@ Kelvin transformation of the unnormalized ball Poisson density
 \((R^2-|z|^2)/|z-\zeta|^d\) is precisely
 \((|x|^2-R^2)/|x-\zeta|^d\). This gives (1), including the correct \(d=2\) normalization.
 
-The formulas are positive and harmonic in \(x\in\Omega\), and each equals one at \(a\). Distinct finite \(\zeta\) give nonproportional boundary singularities, and \(K_\infty\) cannot equal a finite-boundary kernel: as \(x\to\zeta\) from within \(\Omega\), \(K_\zeta(x)\) diverges whereas \(K_\infty(x)\to0\). The ordinary one-point closure
+The formulas are positive and harmonic in \(x\in\Omega\), and each equals one at \(a\). Distinct finite \(\zeta\) give nonproportional boundary singularities, and \(K_\infty\) cannot equal a finite-boundary kernel: along the **radial normal approach** \(x=(1+t/R)\zeta\) as \(t\downarrow0\), \(K_\zeta(x)\) diverges whereas \(K_\infty(x)\to0\). The ordinary one-point closure
 \[
  \overline\Omega^{\,\sharp}=
  \{x\in\mathbb R^d:|x|\ge R\}\cup\{\infty\}
