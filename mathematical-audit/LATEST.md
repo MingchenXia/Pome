@@ -1,3 +1,14 @@
+# Latest mathematical audit checkpoint — 2026-11-01 — sharp half-space harmonic gradient and vertical Harnack bounds
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete new source-anchored mathematical proof](reports/2026-11-01-sharp-halfspace-differential-harnack-and-gradient.md).
+
+- **POME-HARM-HALFSPACE-SHARP-DIFFERENTIAL-HARNACK-001 — low / verified conditional deduction**, not a false original theorem or an applied proof repair. In \(\mathbb R^{d-1}\times(0,\infty)\), every nonzero nonnegative harmonic \(h\) satisfies the **sharp** \(|\nabla h|\le(d-1)h/t\), \((1-d)h\le t\partial_t h\le h\), and \(|\nabla_{x'}h|\le d\,h/(2t)\). Integrating gives the **exact attained two-sided vertical Harnack powers** \((t_2/t_1)^{1-d}\le h(x',t_2)/h(x',t_1)\le t_2/t_1\). Proof uses the positive Radon Poisson representation from Theorem 3.2.6 and its weighted differentiation lemma (conditional internal input), an exact one-parameter log-gradient identity, and sharp Dirac/linear models.
+- **Actual new selected review:** §3.2.6/.12 representation/kernel/normalization/differentiation; §§4.4.11–18 compactified Perron/exterior-sphere mean transfer context-only. Both sections were already sampled; no newly first-covered section or complete theorem chain. No newly confirmed source error.
+- **Total:** 25 chapters / 747 numbered current ToC sections / **0 complete mathematical sections certified**. All historical confirmed errors, open proof gaps, external inputs and deferred items unchanged. Demailly approximation/regularization and the dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme remain **deferred-by-user**.
+- Audit Markdown only on review/mathematical-audit; no production main, source/body/registry/tag changes, project tests, builds, CI, formalization or website publication.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-11-01 — rational interior Okounkov slices via image graded series
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete new algebraic proof and exact anchors](reports/2026-11-01-rational-okounkov-slice-restricted-image-semigroup.md).

@@ -1,3 +1,15 @@
+# 2026-11-01 — sharp half-space harmonic differential Harnack estimates
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete proof, anchored source labels and admissibility](reports/2026-11-01-sharp-halfspace-differential-harnack-and-gradient.md).
+
+| Stable ID | Severity / status | Exact source, hypotheses, justification, correction, affected dependents |
+| --- | --- | --- |
+| **POME-HARM-HALFSPACE-SHARP-DIFFERENTIAL-HARNACK-001** | **low / verified conditional deduction** (no original theorem error; not applied) | Theorem 3.2.6, **classical-potential-theory:1C8A330A**, permanent **6BC86EEF03A9**, production docs/sections/kelvin-transforms-and-half-space-potentials/index.html, blob **f2615a5393af724c3996978212162f94911ff9d9**, lines **65–75, 80–132**; kernel Eq3.2.5 lines57–61, weighted admissibility Eq3.2.8 source classical-potential-theory:358F89A3/permanent 8F7C774A9D89; Theorem3.2.12 label **classical-potential-theory:BB6DAC3F**, tag **9ADD2DF19642**, lines141–180. For \(d\ge2\), \(h\ge0\) harmonic, the represented kernel has exact \(t^2|\nabla\log P|^2=1+d(d-2)t^2/(|x'-z|^2+t^2)\); positivity and legitimate weighted integral differentiation yield **sharp** \(|\nabla h|\le(d-1)h/t\), \((1-d)h\le t h_t\le h\), \(|\nabla_{x'}h|\le d h/(2t)\), and vertical ratios between powers \(1-d\) and \(1\). Dirac Poisson kernels and \(h=t\) attain all bounds. **Conditional** on original positive harmonic representation; no new false theorem, no full proof chain. Propose only optional corollary after Thm3.2.6; affects half-space Harnack/gradient estimates and kernel data checks, not source text, canonicalization or attribution. |
+
+**Actual review coverage:** previously sampled §3.2.6 and §3.2.12 now receive independent differential/measure proof checks; previously sampled §§4.4.11–18 exterior Poisson/Perron content opened for context (source file blob 4bc2fb9317e2b6f6bb5b2d90208c677da8275eba, lines117–251), without certifying it. No first-time or whole-section certification. **25 chapters / 747 numbered ToC sections / 0 mathematically certified entire sections**. Existing ledger statuses retained, expressly user-deferred approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss remain **deferred-by-user**. Audit Markdown only.
+
+---
+
 # 2026-11-01 — universal rational-interior slice of a graded section valuation semigroup
 
 **Main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full proof and stable anchors](reports/2026-11-01-rational-okounkov-slice-restricted-image-semigroup.md).
