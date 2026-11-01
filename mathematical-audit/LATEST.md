@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-11-01 — two singular plane-branch intersections
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Exact source-anchored English proof](reports/2026-11-01-two-singular-plane-branches-intersection-multiplicity.md).
+
+- **POME-CYCLE-TWO-BRANCH-NORM-INTERSECTION-001 — low / verified conditional deduction**, not an original theorem error. For coprime pairs \(2\le p<q\), \(2\le r<s\), and \(\lambda\ne0\), the distinct irreducible singular germs \(y^p=x^q\) and \(y^r=\lambda x^s\) intersect with exact classical positive current coefficient \(\min(qr,ps)\) at the origin. Two independent proofs use the Theorem 20.5.5 normalization/Poincaré–Lelong pushforward and a finite-free DVR module norm determinant/length, respectively. The \((r,s)=(p,q),\lambda\to1\) endpoint loses both the proper-intersection and nonvanishing-logarithm hypotheses; no self-intersection limit is inferred. Four newly calculated finite resultants check the arithmetic, not the upstream theorems.
+- **Actual additional selected coverage in already partly reviewed §20.5:** Theorems 20.5.5 and 20.5.10, Eq. 20.5.9, Lemma 20.5.2 endpoint quantifier; §20.6.2 is **definition-level context only**. Original theorems not shown false, no new complete section or upstream proof certification. Optional example after §20.5.11 is a proposed future patch, **not applied**.
+- **Overall actual ToC:** **25 chapters / 747 numbered sections / zero complete mathematical-section certifications**. All older error/gap/external/duplicate records unchanged. Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss work remain **deferred-by-user**; no main, source, registry, permanent-tag, site, full build, CI or formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-11-01 — toric rooftop energy is exactly dual convex L1 distance
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Source-anchored exact proof](reports/2026-11-01-toric-rooftop-energy-dual-l1-isometry.md).
