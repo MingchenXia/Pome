@@ -1,3 +1,15 @@
+# 2026-11-02 — Sharp barrier-weighted BT comparison and weak-L^n tail
+
+**Production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Source-anchored full proof](reports/2026-11-02-bedford-taylor-strict-comparison-barrier-tail.md).
+
+| Stable ID | Severity / status | Exact reading-edition evidence, result, proposed action and dependents |
+| --- | --- | --- |
+| **POME-BT-BARRIER-WEAKLN-001** | **low / verified conditional deduction**, **not** a theorem error, full proof-chain certification or applied repair | Main <code>docs/sections/bedford-taylor-products-and-local-capacity--decreasing-continuity-and-symmetry/index.html</code>, blob <code>96a9e39e85fab5774ebdac0c6d9d006338a4e42c</code>; Prop **7.3.10**, source <code>foundations-of-pluripotential-theory:0C37DA3F</code>, tag <code>0453AAB39932</code>, lines 279–296; Thm **7.3.11**, source <code>:A7DD3972</code>, tag <code>D0AF90DDC7A5</code>, lines 304–341; Cor **7.3.12**, source <code>:3A1D42EE</code>, tag <code>F2BBEF3BF09B</code>, lines 346–363. For psh u,v with boundary liminf(v−u)≥0, χ≤0 psh and δ>0, the exact sharp measure comparison δ^n∫_{v<u+δχ}(dd^cχ)^n ≤ ∫_{v<u}(dd^cv)^n holds, with no global total-mass finiteness premise. Explicit balls show coefficient 1 is sharp and χ≤0 cannot be dropped. Euclidean χ=|z|²−R² yields the weak-L^n tail t^n|{u−v>t}|≤π^nR^{2n} M/n! for M=∫_{v<u}MA(v), with n forced by scaling. **Proposed:** optional corollary following 7.3.12, no original modifications. **Dependents:** §§7.3–7.5 and quantitative comparison uses; earlier 7.3.7 bounded-product theorem remains an unrecertified dependency, no new source error established. |
+
+**Coverage:** incremental selected proof-level §7.3.10–12, not a newly first-reviewed section or complete section; **25 chapters / 747 sections / 0 whole mathematical sections certified**. Older ledger findings and all user-deferred Demailly regularization/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss statuses unchanged. No main/source/registry/tag/site/build/test/CI/formalization writes.
+
+---
+
 # 2026-11-02 — Convex dual splitter nonattainment at a boundary-only domain intersection
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Source-anchored full English proof and separate first §6.9 analytic-intersection audit](reports/2026-11-02-convex-boundary-dual-nonattainment-and-analytic-intersections.md).
