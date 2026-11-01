@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-11-01 — exact polarization through one logarithmic fiber
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **New report:** [exact polarized log-sum-exp / rooftop Monge–Ampère pushforward](reports/2026-11-01-polarized-logsumexp-monge-ampere-pushforward.md).
+
+- **POME-LEGENDRE-POLARIZED-SOFTMAX-001 — low / verified conditional deduction, not a false printed theorem.** For locally bounded psh φ,ψ on U⊂C^n and every t>0, \(u_t=t^{-1}\log(e^{t\varphi}+|\tau|^{2t}e^{t\psi})\) satisfies the **exact local measure identity** \((\pi_U)_*(dd^cu_t)^{n+1}=\sum_{k=0}^n(dd^c\varphi)^{n-k}\wedge(dd^c\psi)^k\), each coefficient **one** (not binomial). The pushforward is independent of t and extends, through a uniform **noncompact-fiber exponential tail bound**, to \(u_\infty=\max(\varphi,\psi+\log|\tau|^2)\). Proof: precise logistic Schur complement, beta integral, smooth monotone approximants, mixed Bedford–Taylor mass bounds and controlled fiber escape. The general §17.18.1 was **already partly reviewed in 2026-10-23**; this is a new selected mixed-product model, not first coverage, complete lemma certification or global non-pluripolar claim. Main file docs/sections/partial-legendre-transforms-and-monge-ampere-mass/index.html blob 5d989cf765f5471ce1e2278ef39e2c69979eeb92, Lemma source transcendental-positive-cones:676C0E65 / permanent C12669D1EC3D, lines 13–40 and 60–62.
+- **First structural §10.76 check:** docs/sections/compact-curves-periods-and-complex-tori/index.html, blob f19750ab7bab07f32873dcd297f2332b3f461129, permanent 2B25FAC99DE6: current page contains navigation only, no proposition/proof; five mathematical child sections are **not** certified by opening it. Exact SymPy beta-integral coefficients checked for n=1,…,7; no repository build or suite run.
+- **Coverage unchanged overall:** 25 chapters / 747 numbered current ToC sections / **zero fully certified mathematical sections**. All earlier ledger statuses preserved; Demailly approximation/regularization and its dedicated Bergman/L²/OT/multiscale/positivity-loss programme remains **deferred-by-user**, not opened. Audit-only note; no production, source, registry, canonical tags, build, CI, formalization, site or publication changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-11-01 — finite-degree obstruction to unmodified covering exhaustions
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **new report:** [finite-degree covering-exhaustion dichotomy](reports/2026-11-01-covering-exhaustion-finite-degree-dichotomy.md).
