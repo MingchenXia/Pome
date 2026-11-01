@@ -1,3 +1,15 @@
+# 2026-11-01 — singular–singular proper plane-curve intersection
+
+**Main examined:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Detailed report, exact anchors, complete model proofs](reports/2026-11-01-two-singular-plane-branches-intersection-multiplicity.md).
+
+| Stable ID | Severity / status | Integrated source, hypotheses, justification, correction, dependents |
+| --- | --- | --- |
+| **POME-CYCLE-TWO-BRANCH-NORM-INTERSECTION-001** | **low / verified conditional deduction**, **not** a false source theorem, applied repair or complete theorem certification | In `docs/sections/divisors-and-logarithmic-limits-on-analytic-cycles/index.html`, main blob `dae567406b2030e550664ca57b1fe77911d956d4`: Theorem **20.5.5** source `demailly-complex-geometry:D58680EB` / tag `F1C928146DBC`, lines **63–76**; Eq. **20.5.9** source `:51A40A6D` / tag `74331B0B45F1`, lines **104–116**; Theorem **20.5.10** source `:34D8935D` / tag `DDB973C0C1DD`, lines **133–151**; Lemma **20.5.2** source `:72B4BF94` / tag `551A781E3A1C`, lines **10–22**. If \(\gcd(p,q)=\gcd(r,s)=1\), \(2\le p<q\), \(2\le r<s\), \(\lambda\in\mathbb C^\times\), and \(y^p-x^q\), \(y^r-\lambda x^s\) are distinct, then normalization \((x,y)=(t^p,t^q)\) gives vanishing order **\(\min(qr,ps)\)**, hence \([Z_1]\wedge[Z_2]=\min(qr,ps)[0]\). Independent computation: the \(R=\mathbb C\{x\}\)-free rank-\(p\) module \(R[y]/(y^p-x^q)\) has quotient by \(g\) of length \(\operatorname{ord}_x N(g)=\min(qr,ps)\). Four new finite resultant calculations agree. For equal exponent pairs and \(\lambda\to1\), \(g\) tends to a function identically zero on \(Z_1\), violating the proper intersection and Lemma 20.5.2 nonzero-component premises: **no unproved self-intersection limit**. Optional independent example after 20.5.11; affects interpretations of **§§20.5–20.6** proper Cartier intersections and **§9** singular curve examples, not production text or historical attribution. Upstream Poincaré–Lelong/resolution remains a cited internal/allowed Hironaka input, not newly certified. |
+
+**Coverage:** additional selected proof/model verification within **previously partially audited §20.5** only, plus §20.6.2 definition context; **25 chapters / 747 numbered ToC sections / zero complete mathematical-section certifications**. All earlier confirmed errors, proof gaps, external dependencies, genuine duplications, and user-deferred Demailly regularization/Bergman/L²/OT/multiscale/positivity-loss entries retain their prior statuses. No production source/registry/tag/website or CI/build/formalization update.
+
+---
+
 # 2026-11-01 — toric rooftop energy and convex-dual L1 metric
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete English proof with physical-line and tag anchors](reports/2026-11-01-toric-rooftop-energy-dual-l1-isometry.md).
