@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-11-01 — toric rooftop energy is exactly dual convex L1 distance
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Source-anchored exact proof](reports/2026-11-01-toric-rooftop-energy-dual-l1-isometry.md).
+
+- **POME-TORIC-ROOFTOP-DUAL-L1-001 — low / verified conditional deduction**, not a source theorem error. For bounded torus-invariant omega-psh potentials on a polarized smooth compact toric manifold, define the rooftop energy functional D(phi,psi)=E(phi)+E(psi)-2E(P_omega(phi,psi)). Then **D(phi,psi)=n! integral_P |G_phi-G_psi| dm** exactly, since the convex dual of the rooftop is max(G_phi,G_psi) and the integrated energy equals n! integral_P (G_0-G). Thus D is a metric on bounded toric potentials; the straight line in Legendre duals yields a constant-speed D-geodesic and affine energy, without any PDE-geodesic or regularization assertion. Also D <= Vol(L) ||phi-psi||_infinity, with optimal factor attained by constants. Earlier general toric/roof results remain separately attributed.
+- **Actual new selected proof coverage:** §21.12.21 (rooftop/Legendre proof), §21.12.39 (toric energy first variation and monotone cutoff), with definitions §21.11.10–11, the toric correspondence §21.12.13 and constant shifts §21.12.20 checked for compatibility. §21.12 was previously sampled; not first section coverage, no entire theorem chain certified. The derivation is conditional on original integrated results; its proof does not use Demailly approximation, Bergman kernels or L2/OT arguments.
+- Current ToC: **25 chapters / 747 numbered sections / 0 complete mathematical-section certifications**. Older confirmed errors, unresolved proof gaps, external inputs and **deferred-by-user** regularization/Bergman/L2/OT/multiscale/positivity-loss records unchanged. Audit-only Markdown, no main/site/source/registry/permanent-tag/build/test/CI/formalization modifications.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-11-01 — sharp half-space harmonic gradient and vertical Harnack bounds
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete new source-anchored mathematical proof](reports/2026-11-01-sharp-halfspace-differential-harnack-and-gradient.md).
