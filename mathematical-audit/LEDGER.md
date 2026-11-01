@@ -1,3 +1,15 @@
+# 2026-11-02 — Exact Abel fibers and sharp curve basepoint/jet thresholds
+
+**Production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete main-pinned, source-anchored proof](reports/2026-11-02-abel-fibers-and-sharp-curve-jet-thresholds.md).
+
+| Stable finding ID | Severity / status | Precise checked reading edition, proof, proposal and dependents |
+| --- | --- | --- |
+| **POME-CURVE-ABEL-JET-THRESHOLDS-001** | **low / verified conditional deduction**; **not** a false theorem, proof gap, or applied repair | **Main** `docs/sections/compact-curves-periods-and-complex-tori--integral-periods-picard-tori-and-albanese-maps/index.html`, blob `81ec78509629e15d648cfd3b686fe4d691437330`: Lemma **10.79.7** source `demailly-complex-geometry:18DB35BC` tag `1CADB2D45709` lines **134–169**; Lemma **10.79.11** source `:E24CF274` tag `6D7C5C5A2C24` lines **175–210**; Theorem **10.79.13** source `:A929CFA1` tag `06A0A5883E2F` lines **216–236**, and Theorem **10.79.4** source `:96378EB7` tag `C1FB3F157E12` lines **59–85**. **Main** `docs/sections/compact-curves-periods-and-complex-tori--divisors-and-riemann-roch-on-a-compact-curve/index.html` blob `58c04d3cf4408fcdb140162e03a9052d3620610a`: Theorem **10.78.9** source `:B4C3A1F9` tag `7F8CC797059F` lines **133–161**; Corollary **10.78.11** source `:76995AC9` tag `43B79368A1B8` lines **167–184**, Riemann–Hurwitz **10.78.16** source `:E01C6B43` tag `0DB2FC824E28` starting **222**. Direct RR/Serre+divisor argument gives Abel surjectivity for `d>=g` and exact projective fibers `P^{d-g}` for `d>=2g-1`, plus all-degree basepoint-free bound `d>=2g` and very-ample/2-jet-length bound `d>=2g+1`. The bounds are universally sharp for **each** `g>=1`: `K_X(p)` base point at `d=2g-1` and `pi^*O_{P^1}(g)` on genus-`g` hyperelliptic `X` fails separation at `d=2g`. Abel transition logarithm/Serre wedge signs checked directly, no mismatch. **Proposed** optional corollary after §10.79.13 (or §10.78.11), no production change. **Dependents:** §§10.78–10.79, line-series interpretation of §§10.35/10.39 and §19. Upstream Hodge/Serre remains conditional, no global certificate. |
+
+**Actual newly reviewed:** §10.79.7/.11 proof/normalization passages; §§10.79.4/.13 and 10.78.9/.11/.16 selected dependencies, **not** whole theorems or entire section. **25 chapters / 747 numbered sections / zero complete-section certificates**. Older findings unaffected. Demailly regularization/Bergman/L²/OT/multiscale/positivity-loss continue **deferred-by-user**. Audit Markdown only; no CI/build/formalization/site/source/main updates.
+
+---
+
 # 2026-11-02 — Universal torsion-free action criterion and balanced torus
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full source-anchored proof](reports/2026-11-02-universal-action-torsion-and-balanced-torus.md).
