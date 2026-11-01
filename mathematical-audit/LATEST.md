@@ -1,3 +1,12 @@
+# Latest mathematical audit checkpoint — 2026-11-01 — smooth surface volume range and Gauduchon optimizers
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Exact English proof and anchors](reports/2026-11-01-surface-gauduchon-mass-range-and-minimizers.md).
+
+- **POME-GAUD-SURFACE-VOLUME-RANGE-OPTIMIZERS-001 — low / verified conditional deduction.** For a compact complex surface the *smooth strictly positive potential masses* form a singleton if \(dd^c\omega=0\), otherwise a nondegenerate **open interval with no attained endpoint**; by the smooth normalized equation so do the smooth positive-probability measure-volumes. If \(dd^c\omega\ne0\), the Gauduchon quotient has no minimizer. If \(dd^c\omega=0\), its exact minimizing set consists of all positive scalar multiples of \(\omega+dd^cv>0\), with minimum \((\int\omega^2)^{1/2}\). The older POME-GAUD-SURFACE-MASS-PLURICLOSED-001 affine Stokes formula is explicitly **not** counted again. Optimizer classification uses the integrated smooth PDE/quotient theorem as an internal input.
+- Newly inspected selected proof steps **12.15.6**, with **12.15.2** smooth realization and **12.2.3** equality case; earlier §12.15 coverage preserved. The excluded smoothing of bounded potentials at §12.15.4 line 81 was **not** reopened or needed. No complete chain or section certified. **25 chapters / 747 sections / 0 whole-section certifications**. All older findings retain status; Demailly approximation/regularization and Bergman/L²/OT/multiscale/positivity-loss work stays deferred-by-user; no main/site/source/registry/tags/build/CI/formalization change.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-11-01 — sharp inhomogeneous cofactor energy
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete exact source-anchored proof](reports/2026-11-01-weighted-cofactor-sharp-inhomogeneous-energy.md).

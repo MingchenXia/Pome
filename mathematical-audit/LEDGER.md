@@ -1,3 +1,15 @@
+# 2026-11-01 — smooth surface mass interval and Gauduchon quotient optimizers
+
+**Main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete source-anchored argument](reports/2026-11-01-surface-gauduchon-mass-range-and-minimizers.md).
+
+| Stable ID | Severity / status | Source, statement, correction and dependents |
+| --- | --- | --- |
+| **POME-GAUD-SURFACE-VOLUME-RANGE-OPTIMIZERS-001** | **low / verified conditional deduction**, not a false theorem, not an applied repair | On a compact complex surface, smooth positive-potential masses form a singleton iff \(dd^c\omega=0\), and otherwise a nondegenerate **open interval** (no attained endpoints); each smooth measure-volume also has strictly smaller/larger smooth-measure realizations. The Gauduchon quotient does not attain its infimum for \(dd^c\omega\ne0\); for \(dd^c\omega=0\) its minimizers are precisely \(a(\omega+dd^cv)>0\) with \(a>0\), minimum \((\int\omega^2)^{1/2}\). Uses *previously logged* affine Stokes identity POME-GAUD-SURFACE-MASS-PLURICLOSED-001 (not new), plus the smooth PDE and quotient equality case as conditional internal inputs. Proposition 12.15.2 source non-kahler-pluripotential-theory:F87A9477 permanent D26C76DEC922; Proposition 12.15.6 source :6834DDEA permanent 87CB9377C0BB; main docs/sections/a-gauduchon-variational-volume--varying-the-probability-measure/index.html blob 440964738faf623f2e0942bbc7fd21d5f2a3ed69 lines 33–49, 98–118. Theorem 12.2.3 source :876DF057 permanent 2DB664A6EFDF, main docs/sections/a-gauduchon-variational-volume--the-quotient-and-the-smooth-equation/index.html blob 9ec67161d46b3ba20afa1b1c9a0c84f29322763e lines 49–80. Proposed optional corollary after 12.15.6; affects §§12.2–12.6 and 12.15–12.16. The excluded regularization at 12.15.4 line 81 is **deferred-by-user**, not certified. |
+
+**Actual incremental selected coverage:** §§12.15.2/.6 plus smooth §12.2.3; no first-time section claim, no complete theorem/section certification. **25 chapters / 747 numbered sections / 0 entire mathematical sections certified**. All older errors/gaps/deferred records remain unchanged, no production, site, source, build, CI, formalization, or registry update.
+
+---
+
 # 2026-11-01 — sharp unequal-density cofactor energy on pluriclosed surfaces
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [English report, exact anchors and sharpness](reports/2026-11-01-weighted-cofactor-sharp-inhomogeneous-energy.md).
