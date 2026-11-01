@@ -1,3 +1,15 @@
+# Latest mathematical audit checkpoint — 2026-11-01 — central blowup identities and three detached restricted-volume equations
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Report:** [blowup intersection test and three reading-edition orphan equations](reports/2026-11-01-central-blowup-intersections-and-orphan-restricted-volumes.md).
+
+- **POME-DIVVOL-ORPHAN-EQS-001 — low / confirmed error (representation only):** the grouped formulas (20.8.5)–(20.8.7) occur correctly at `docs/sections/divisorial-restricted-volumes/index.html:117–120`, but three separate reading chunks on line **237** duplicate their labels and contain invalid nested `aligned/align` TeX. Independent permanent tag pages `9788B3886ACF`, `8B17E6C92508`, `6394FCEF80E1` reproduce the malformed payload. Preserve all tags and historical source labels; propose a separate canonicalization/linking patch, **not** a theorem correction. No production edit.
+- **POME-DIVVOL-P2CENTRAL-FIBER-001 — low / verified conditional deduction:** for `X=P²`, `Y=H`, `alpha=aH`, `0<c<a`, `b>c+1`, the ample central blowup `beta=aA+bB-cE` has `Vol(beta)=3a²b-3ac²+c³`, central restricted masses `(a-c)²` and `2ac-c²`, sum `a²`, agreeing with Theorem 20.8.3 and Eqs. 20.8.4–8. Explicit `(a,b,c)=(2,3,1)` gives volume `31`, central masses `1+3=4`; formula and `n=2` derivative correct in this model only, no global proof certification.
+- **Incremental proof-level checks:** new selected §§7.11.18/.19/.27 capacity/BT telescoping, truncation and varying-quasicontinuous-weights argument; upstream BT locality/symmetry and Portmanteau remain premises, no entire §7.11 certificate. §20.8 regularization-sensitive dependencies were **not reopened**.
+
+**Coverage:** 25 actual current chapters / 747 numbered ToC sections / **zero entire mathematical sections certified**. All older statuses preserved; excluded Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss programme **deferred-by-user**. Audit Markdown only; no tests/build/CI/main/site/formalization/publication.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-11-01 — exact polarization through one logarithmic fiber
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **New report:** [exact polarized log-sum-exp / rooftop Monge–Ampère pushforward](reports/2026-11-01-polarized-logsumexp-monge-ampere-pushforward.md).

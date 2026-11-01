@@ -1,3 +1,16 @@
+# 2026-11-01 — central blowup restricted-volume normalization and orphan equation aliases
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete pinned English report](reports/2026-11-01-central-blowup-intersections-and-orphan-restricted-volumes.md).
+
+| Stable ID | Severity / status | Evidence, exact hypotheses, result, proposed correction and affected dependents |
+| --- | --- | --- |
+| **POME-DIVVOL-ORPHAN-EQS-001** | **low / confirmed error**, *reader display only*, NOT a false mathematical theorem and NOT repaired in production | Grouped equations **20.8.5–7** occur at `docs/sections/divisorial-restricted-volumes/index.html:117–120`; **line 237** repeats each one in a standalone chunk with invalid nested `aligned/align`. Main blob `8eb1127568e77d6d045098361c366ceeb846b909`, group source `transcendental-positive-cones:94BE9453` permanent `419BFB5D9AD7`. Source/permanent pairs: `694584D3/9788B3886ACF`, `B14C7F7D/8B17E6C92508`, `104018FE/6394FCEF80E1`. All three standalone tag pages reproduce bad TeX; their precise paths/blob SHAs in report. Propose separate grouped-row aliases while **preserving all independent tags/provenance**, no direct main, registry, or site edit. Dependents: Theorem 20.8.3's equation anchors and reader navigation. |
+| **POME-DIVVOL-P2CENTRAL-FIBER-001** | **low / verified conditional deduction**, exact **ample-model** calculation, no theorem falsified | In Theorem §20.8.3, source `transcendental-positive-cones:42C59BDB`, permanent `8DC7DAC31FB7`, main lines **63–68,117–140,157–160,227–233**: for `X=P²,Y=H,alpha=aH,0<c<a,b>c+1`, `beta=aA+bB-cE` on the blowup of `X×P¹` along `H×0` has `A²B=1, AE²=-1, E³=-1`, so `Vol(beta)=3a²b-3ac²+c³`, `Vol_{X'}=(a-c)²`, `Vol_E=2ac-c²`, sum `a²`, and `Vol(beta)-Vol(beta-F)=3a²`. Numerically `a=2,b=3,c=1`: `31,19,1,3`. The printed formulas (20.8.4–8) and derivative `2a` are consistent in this model. Optional elementary consistency example; general Legendre/restricted-product proof, plus separately deferred regularization prerequisites, **not certified**. |
+
+**New selected mathematical review, no additional error claimed:** §7.11.18 (source `foundations-of-pluripotential-theory:7C182C45`, permanent `E1A777307E3D`, lines 355–381), §7.11.19 (`2F603F4B`, `546063653198`, lines 385–423), §7.11.27 (`CA871C5F`, `A2369B2DB317`, lines 556–606), all in main `docs/sections/bedford-taylor-products-and-local-capacity--local-energy-moments/index.html` blob `e619f7aa95f80ce11aa676193b054db3180e59d4`. Reviewed compact-support telescoping/Stokes, truncation total mass/TV, and uniform capacity-modulus varying-weights proof steps. Only selected conditional deductions, no complete §7.11 or §20.8 theorem certification. Current main ToC **25 chapters / 747 sections / 0 complete mathematical certifications**. Existing ledger findings unchanged. Explicit Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss are **deferred-by-user**, not reopened. No tests/CI/build/source/main/site edits.
+
+---
+
 # 2026-11-01 — polarized log-sum-exp fiber mass; first §2.1 introductory normalization check
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full independent proof and source-anchored scope](reports/2026-11-01-polarized-logsumexp-monge-ampere-pushforward.md).
