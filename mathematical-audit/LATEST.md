@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-11-01 — exact sharp two-pole rooftop and free boundary on \(\mathbf P^1\)
+
+**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Full source-anchored mathematical report](reports/2026-11-01-sharp-two-pole-rooftop-free-boundary-on-p1.md).
+
+- **POME-ROOF-P1-SYMMETRIC-FREEBOUNDARY-001 — low / verified conditional deduction**, original Example **16.11.8** correct. For \(\tau\in(0,1]\), \(P_{\omega_{\rm FS}}(\tau u_0,\tau u_\infty)\) is nontrivial **iff \(2\tau\le1\)**. For \(0<\tau<1/2\) its exact noncontact annulus is \(\sqrt{1-2\tau}<|z|<(1-2\tau)^{-1/2}\), with **explicit \(C^1\) harmonic bridge**, contact caps, and curvature \(\tau[0]+\tau[\infty]+(1-\tau){\bf1}_{\rm caps}\omega_{\rm FS}\); the cap mass is exactly \(1-2\tau\), and no circle masses occur. At \(\tau=1/2\), the rooftop is \((u_0+u_\infty)/2\); above this threshold it is \(-\infty\). Proof uses atomic mass, a common supporting tangent, and the subharmonic annulus maximum principle **for arbitrary nonradial competitors**.
+- **Selected incremental §16.11 coverage**, not its first review and not full certification: definitions .3/.5, selected proofs .4/.7, and the new direct quantitative extension of Example .8. Main HTML \`docs/sections/envelopes-and-model-potentials--obstacles-and-rooftops/index.html\`, blob \`e9129aaaab9e9f172da9704bffe939839f8afeb6\`, source \`foundations-of-pluripotential-theory:108F276E\`, permanent \`908479CB91B3\`, lines **165–172**; all other anchors and proof in report.
+- The user-excluded Demailly approximation/regularization, Bergman, L2, OT, multiscale-atlas and positivity-loss work is **deferred-by-user**, neither reopened nor certified. No other old unresolved/error/repair status changed. **25 chapters / 747 ToC sections / 0 fully certified mathematical sections**; audit Markdown only, no production, site, test, CI, build or formalization work.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-11-01 — proper Hessian equations, exact log-data stability
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [New source-anchored English report](reports/2026-11-01-hessian-proper-equations-sharp-log-data-stability.md).

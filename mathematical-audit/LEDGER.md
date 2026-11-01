@@ -1,3 +1,15 @@
+# 2026-11-01 — exact two-pole rooftop threshold, harmonic bridge and contact measure
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Full proof and provenance](reports/2026-11-01-sharp-two-pole-rooftop-free-boundary-on-p1.md).
+
+| Stable ID | Severity / status | Exact anchor, mathematical result, correction and dependents |
+| --- | --- | --- |
+| **POME-ROOF-P1-SYMMETRIC-FREEBOUNDARY-001** | **low / verified conditional deduction**; original result correct; no production patch | Main \`docs/sections/envelopes-and-model-potentials--obstacles-and-rooftops/index.html\`, blob \`e9129aaaab9e9f172da9704bffe939839f8afeb6\`, source \`foundations-of-pluripotential-theory:108F276E\`, permanent \`908479CB91B3\`, Example **16.11.8** lines **165–172**; supporting Prop **16.11.4** \`:3796C01B\` / \`641F3FEC623D\` lines **88–136**, Prop **16.11.7** \`:4EFFB27F\` / \`046401771DAB\` lines **147–163**, and SGPT formula \`sgpt:0337BA47\` / \`6AE4825E4C6F\` lines **174–177** (valid separate provenance). On \(\mathbf P^1\), \(\theta=\omega_{\rm FS}\), \(u_0=\log(|z|^2/(1+|z|^2)), u_\infty=-\log(1+|z|^2)\), and \(0<\tau\le1\): common \(\theta\)-psh minorant exists iff \(2\tau\le1\). At \(\tau=1/2\), rooftop \(=(u_0+u_\infty)/2\). For \(0<\tau<1/2\), put \(d=1-2\tau\), \(a=-\log d\), \(c_\tau=(1-\tau)\log(2(1-\tau))-(1/2-\tau)\log d\); the rooftop equals \(\tau u_0\) on \(|z|\le\sqrt d\), \(\frac12\log|z|^2+c_\tau-\log(1+|z|^2)\) on \(\sqrt d\le|z|\le1/\sqrt d\), \(\tau u_\infty\) beyond. Exact measure \(\tau[0]+\tau[\infty]+(1-\tau){\bf1}_{\rm caps}\theta\); smooth mass \(1-2\tau\), no boundary atoms. Proof: atom obstruction, common convex tangent and **annulus maximum principle for nonradial competitors**; exact checks for \(\tau=1/10,1/4,2/5\). Proposal: optional corollary after Example .8; affected contact concentration §§16.12–14 and rooftops §§16.22–27 as models only, without certifying them. |
+
+**Actual incremental selected checks:** §16.11.3/.4/.5/.7/.8, earlier §16.11 work remains historical; no entire-section certification. Current ToC **25 chapters / 747 numbered sections / 0 completely certified**. All excluded approximation/regularization, dedicated Bergman/L2/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss remains **deferred-by-user**, not reviewed or resolved. No production/main/source/registry/tag/site/CI/build/test/formalization edits.
+
+---
+
 # 2026-11-01 — sharp order-reversing log-data bound for proper complex Hessian equations
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full exact source-anchored proof](reports/2026-11-01-hessian-proper-equations-sharp-log-data-stability.md).
