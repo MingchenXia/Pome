@@ -1,3 +1,15 @@
+# 2026-11-01 — verified replacement for the paracompactness step in normalization gluing
+
+**Main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete English proof and anchors](reports/2026-11-01-normalization-paracompact-gluing-proof-repair.md).
+
+| Stable finding ID | Severity / status | Anchored mathematical justification, proposed correction, dependents |
+| --- | --- | --- |
+| **POME-NORM-PERFECT-PARACOMPACT-REPAIR-001** | **medium / verified repair, proposal only**; prior **POME-NORM-COUNTABLE-COVER-001** remains **medium / confirmed proof-step error / unresolved in main** | Theorem **9.4.6** source `foundations-of-pluripotential-theory:7042BB57`, permanent `12A47DB401E2`, main `docs/sections/complex-spaces-and-modifications--reduced-spaces-and-normalization/index.html` blob `06439f43d1ce8e83d2529682c9a630bffa3d9c22`, lines **142–163**, faulty countable-base Step 3 **line 157**. Lemma **9.4.5**, permanent `58E87F89D557`, lines **117–140**, supplies locally finite/proper normalizations; Def **5.2.3**, source `foundations-of-pluripotential-theory:76F27E8E` permanent `42A02A1A5EFE`, file `docs/sections/complex-differential-forms-and-positive-currents--complex-manifolds-and-differential-forms/index.html` blob `886a687d5029616950683fe55defce1fe6854b12`, lines 49 and 83–86 allows non-second-countable paracompact manifolds. Full proof: local properness + locally compact Hausdorff base implies global properness and closedness; a closed map with compact fibers over a paracompact base has paracompact source by finite fiber subcovers, base locally finite refinement, and pullback. Uncountable disjoint union of discs refutes the **proof premise**, not the theorem. Proposed isolated replacement of the two Step 3 countability sentences; **no patch in production**. Dependents Cor 9.4.7/.9 and §§9.5–9.8 normalizations, proper finite maps. Does not certify all Theorem 9.4.6 steps, and must not mark old issue resolved until actual reader patch. |
+
+**Coverage performed:** independent topological lemma and specified Step 3 repair, selected reread §§9.4.5–6; §11.32 intro-only integrated lines 7–12, section tag `7091FEDB43F0`, blob `031b5d62d25d7ff03d95e4a14988399527cc946a`. No new full theorem or section certification. **25 chapters / 747 ToC sections / zero whole-section certificates**; all earlier statuses preserved, user-excluded Demailly/regularization/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss **deferred-by-user**. No tests/build/CI/site publication or main/source/registry edits.
+
+---
+
 # 2026-11-01 — tangential cusp–line conductor and exact normalization defect
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete source-anchored proof](reports/2026-11-01-tangential-cusp-line-normalization-conductor.md).

@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-11-01 — paracompact normalization gluing without second countability
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Fully proved, source-anchored repair proposal](reports/2026-11-01-normalization-paracompact-gluing-proof-repair.md).
+
+- **POME-NORM-PERFECT-PARACOMPACT-REPAIR-001 — medium / verified repair, PROPOSED ONLY.** A continuous closed map with compact fibers onto a paracompact space has paracompact total space: finite subcovers on each fiber, openness of `X\\f(Y\\W_x)`, locally finite base refinement and finite subcovers in its pullback give a fully explicit proof without a countable cover. In Theorem 9.4.6 Step 3, local finite/proper normalizations glue to a Hausdorff total space; local properness over a locally compact Hausdorff base implies global properness, hence closedness, so the lemma applies. This corrects the invalid assertion that every complex space has a global countable basis. The **old POME-NORM-COUNTABLE-COVER-001 remains confirmed/unresolved in the production proof**; the theorem is not false, and this new repair has not been applied. Main `docs/sections/complex-spaces-and-modifications--reduced-spaces-and-normalization/index.html` blob `06439f43d1ce8e83d2529682c9a630bffa3d9c22`, source `foundations-of-pluripotential-theory:7042BB57`, permanent `12A47DB401E2`, lines 142–163 (especially 157); local Lemma 9.4.5 tag `58E87F89D557`; convention Def 5.2.3 tag `42A02A1A5EFE`.
+- **Additional actual coverage:** §11.32's integrated overview page read directly (blob `031b5d62d25d7ff03d95e4a14988399527cc946a`, lines 7–12); introductory navigation, **no numbered theorem/proof certified**. §22.1 selected statements reread as already-sampled context only; no recycled NA findings.
+- **Coverage and exclusions:** 25 chapters / 747 numbered ToC sections / 0 complete mathematical sections certified. Prior ledger unresolved/confirmed/deferred statuses retained. Demailly approximation/regularization and all dedicated Bergman/L²/OT/multiscale/positivity-loss work remains **deferred-by-user**. Audit-only Markdown; no source/reader/registry/tags/main/CI/build/site changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-11-01 — tangential cusp–line normalization conductor and finite-map degree
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Exact anchored English report](reports/2026-11-01-tangential-cusp-line-normalization-conductor.md).
