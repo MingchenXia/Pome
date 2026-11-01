@@ -1,3 +1,11 @@
+# Mathematical-audit checkpoint — 2026-11-02 — two-point blowup null wall and exact restricted ranks
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **POME-RESTVOL-TWOPOINT-NULL-WALL-001 — low / verified conditional deduction (not a false theorem)**: independently computed every degree-m global monomial count and the **actual restriction-image ranks** along the two exceptional curves and the strict transform of their joining line on Bl_{p1,p2} P^2. Exact volumes for D_a=H-a(E_1+E_2): V=1-2a² for a≤1/2 and V=2(1-a)² for a≥1/2; restricted volumes (1-2a)_+ along L and min(a,1-a) on E_i. At a=1/2 the class is **big, nef and semiample** (non-nef locus empty) but its **non-Kähler locus is L** and the restricted volume there vanishes. Three-parameter differentiability crosschecks positive products with Theorem 10.99.8 as a conditional internal input. [Full main-pinned proof and exact labels/physical anchors](reports/2026-11-02-two-point-blowup-restricted-volumes-and-null-wall.md).
+
+**Precisely new proof-level model:** §§20.8.13–16 and 10.99.8, with §§10.12–10.13 only for the geometric locus distinction; all these sections were **already partially reviewed**. Older one-exceptional-class C1,1/non-C2 example POME-VOL-C11-NONC2-BLOWUP-001 is **not duplicated**. Neither the printed 20.8.16 regularization-dependent proof nor the full volume gradient theorem is independently certified. **Actual ToC 25 chapters / 747 sections / zero complete mathematical-section certifications.** Earlier confirmed errors, gaps, duplicates and dependencies retain their original statuses. All Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss work remains **deferred-by-user**. Only audit Markdown files were modified, no main, source, tag, registry, site, CI, tests, build or formalization.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-11-01 — nonproper Leray stalks versus actual fibers
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete source-anchored report](reports/2026-11-01-nonproper-leray-stalk-fiber-and-surjective-holomorphic-model.md).
