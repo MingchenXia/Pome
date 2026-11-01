@@ -1,3 +1,15 @@
+# 2026-11-01 — finite-sheet covering and exhaustion properness
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete independently proved conditional deduction](reports/2026-11-01-covering-exhaustion-finite-degree-dichotomy.md).
+
+| Stable ID | Severity / status | Exact main anchors, hypotheses, proof, correction and dependents |
+| --- | --- | --- |
+| **POME-COVER-PULLBACK-PROPERNESS-DICHOTOMY-001** | **low / verified conditional deduction**; all printed theorems correct, no production fix applied | A finite continuous proper exhaustion `f:X->R` on a connected Hausdorff second-countable manifold pulls back to a proper exhaustion on a surjective connected covering `p:Y->X` **iff** its covering degree is finite. Finite-sheet covers are proper (finite local trivializations over a compact set); an infinite sheet fiber is closed infinite discrete, forcing a noncompact constant-level subspace. If a perturbation is bounded above on that fiber, properness still fails. Sharp strictly PSH model: `p(w)=exp w:C->C^*`, `f(z)=|z|²+|z|^-2`, `f∘p=2cosh(2Re w)` nonproper despite strict Levi positivity; adding `epsilon|w|²` restores it. Main `docs/sections/separation-strict-exhaustions-and-coverings--strictly-plurisubharmonic-exhaustions-on-coverings/index.html`, blob `ef92b5dc5bb4c143345621ea60ca52f3ca7d1872`, §9.28.2 source `demailly-complex-geometry:CD2B2989`, permanent `E200BE9CFD9E`, lines 29–45; §9.28.3 source `:09F8EE91`, tag `7808CCD76C79`, lines 47–101; §9.28.5 source `:F653208F`, tag `73159A8CF2BB`, lines 103–142. Optional independent remark near §9.28.3–5, preserve attribution/tags, no required theorem correction. Dependents: need for sheet-sensitive distance term in Thm9.28.5 and exhaustion convention §9.26; no global Stein/jet-interpolation proof certification. |
+
+**Actual new selected inspection:** §9.28 original covering-distance and smoothing statements rechecked only as precise hypotheses, and new full elementary covering-dichotomy proof and sharp model supplied. §10.1 intro line 7, main blob `6f817fc2a3effc4c21e3ec5f7b1bb63f9ba66480`, section tag `CFDF01A8B5A7`, directly checked compact Kähler Stokes obstruction for positive exact currents; no full dd^c lemma. §§9.25, 16.1–2 navigation-only. **25 chapters / 747 current ToC sections / zero complete mathematical-section certifications.** All prior statuses unchanged; Demailly approximation/regularization plus the dedicated Bergman/L²/OT/multiscale/positivity-loss programme remains **deferred-by-user**. Audit Markdown only, no production/site/test/build/CI/formalization.
+
+---
+
 # 2026-11-01 — quantitative mass obstruction in elementary locally bounded Bedford–Taylor decomposition
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Exact source-anchored proof and limits](reports/2026-11-01-bedford-taylor-bounded-decomposition-logarithmic-mass.md).

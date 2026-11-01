@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-11-01 — finite-degree obstruction to unmodified covering exhaustions
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **new report:** [finite-degree covering-exhaustion dichotomy](reports/2026-11-01-covering-exhaustion-finite-degree-dichotomy.md).
+
+- **POME-COVER-PULLBACK-PROPERNESS-DICHOTOMY-001 — low / verified conditional deduction**, not a false printed theorem or production patch. For any finite continuous base exhaustion `f` and connected manifold covering `p:Y->X`, `f∘p` is exhaustive **exactly when p has finite degree**. On an infinite cover every fixed fiber is infinite closed discrete, so not even a perturbation bounded above on that fiber can make `f∘p` exhaustive. The logarithmic cover `exp:C->C^*` with `f(z)=|z|²+|z|^-2` gives a smooth **strictly PSH** but nonproper pullback `2cosh(2Re w)`; adding `epsilon|w|²` restores strict PSH properness. This precisely distinguishes the sheet-sensitive distance correction in §§9.28.2/.3 and Theorem 9.28.5. **Original statements remain correct**; no complete proof-chain certification.
+- **New direct introductory check:** §10.1 compact Kähler global positive-current obstruction by Stokes/trace mass; this is only its first introductory passage, not a proof of the full dd^c lemma. §§9.25,16.1,16.2 only structural rereads. §9.28 previously partially reviewed: only a **new independent deduction**, no claimed first coverage or entire-section certification. See report for main file blobs, source labels, permanent tags, physical lines, hypotheses and dependents.
+- **Actual matrix:** 25 current chapters / 747 numbered sections / zero fully certified mathematical sections. All older findings preserved; excluded Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss remain **deferred-by-user** without examination. Audit Markdown only; no main, source, registry, permanent-tag, test/build, CI, formalization or publication activity.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-11-01 — exact logarithmic mass of bounded Bedford–Taylor cone pieces
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **new pinned mathematical report:** [bounded BT decomposition log-mass](reports/2026-11-01-bedford-taylor-bounded-decomposition-logarithmic-mass.md).
