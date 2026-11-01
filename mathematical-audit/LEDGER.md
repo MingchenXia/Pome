@@ -1,3 +1,15 @@
+# 2026-11-02 — Exact exterior-ball Martin kernels and the extra minimal end
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete English evidence, source tags and proof](reports/2026-11-02-exterior-ball-martin-kernels-and-infinity.md).
+
+| Stable ID | Severity / exact status | Precise production anchor, verified proof, proposal and affected dependents |
+| --- | --- | --- |
+| **POME-MART-EXTERIOR-BALL-INFINITY-001** | **low / verified conditional deduction**; no false printed theorem, new proof gap or applied repair | Main `docs/sections/green-energy-and-martin-boundaries/index.html`, blob `976a90f2a5eba299658f73a1eee8b9d3fef8020f`: Lemma **4.5.8** source `classical-potential-theory:AB110663`, permanent `D878F27BAB16`, lines **94–106**; Thm **4.5.9** source `:1677A9F0`, permanent `9D6B5CF5E0CF`, **109–122**; Thm **4.5.12** source `:57D18B4C`, permanent `6736FBE7368C`, **165–186**; Thm **4.5.13** source `:854603A2`, permanent `0E65F552B1A6`, **189–214**. Crosscheck `docs/sections/perron-theory-and-fine-boundary-limits/index.html`, blob `4bc2fb9317e2b6f6bb5b2d90208c677da8275eba`, Thm **4.4.11** source `:07EA9CB6`, permanent `E16C09608A00`, lines **122–148**. The complete ordinary Martin boundary for exterior \(B_R\subset\mathbb R^d\) (\(d\ge2\)) is \(\partial B_R\sqcup\{\infty\}\), all minimal. Finite normalized kernels \(K_\zeta(x)=\frac{(|x|^2-R^2)|a-\zeta|^d}{(|a|^2-R^2)|x-\zeta|^d}\); end kernel \(K_\infty(x)=\log(|x|/R)/\log(|a|/R)\) if \(d=2\), and \([1-(R/|x|)^{d-2}]/[1-(R/|a|)^{d-2}]\) if \(d\ge3\). Proof: Kelvin-inverted Green function and sphere normal derivative, compact continuous evaluation map, ball Poisson minimality plus Bôcher at puncture. In \(d\ge3\), the positive finite end limit and zero sphere data violate Helms's separate **interior-infinity** harmonic mean condition; no inconsistency between original theorems. **Proposal:** optional explicit model after 4.5.13, no applied statement/tag/body change. **Dependents:** classical exterior Perron/Martin boundary interpretation §§4.4–4.5; general Martin sweeping proof remains conditional, previous `POME-MART-SWEEP-PROJECTIVE-001` unchanged. |
+
+**Actual coverage:** incremental selected exact proof/model check in previously partly audited §4.5 and §4.4.11 dependency; §16.2 previously inventoried introductory page rechecked structurally only (source `sgpt:189A8E0C`, tag `A6FA63C034E6`, main blob `912f81b3bccf3e1ead96fd18005261a708dfcb4e`, lines **5–9**). **25 chapters / 747 numbered sections / zero whole mathematically certified sections**. Existing resolved/unresolved/candidate/external/deferred ledger statuses retained. Demailly approximation/regularization, Bergman/\(L^2\)/Ohsawa–Takegoshi/multiscale/positivity-loss remain **deferred-by-user**. No main/source/reader/registry/tag/site/build/test/CI/formalization writes.
+
+---
+
 # 2026-11-02 — Sharp barrier-weighted BT comparison and weak-L^n tail
 
 **Production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Source-anchored full proof](reports/2026-11-02-bedford-taylor-strict-comparison-barrier-tail.md).
