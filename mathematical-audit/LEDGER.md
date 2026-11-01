@@ -1,3 +1,15 @@
+# 2026-11-01 — toric rooftop energy and convex-dual L1 metric
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete English proof with physical-line and tag anchors](reports/2026-11-01-toric-rooftop-energy-dual-l1-isometry.md).
+
+| Stable ID | Severity / status | Statement, source, proof, correction and affected dependents |
+| --- | --- | --- |
+| **POME-TORIC-ROOFTOP-DUAL-L1-001** | **low / verified conditional deduction**; proposed optional corollary, **not** an original mathematical error or an applied patch | Main **docs/sections/toric-pluripotential-theory-on-ample-line-bundles/index.html**, blob **56a1a55dfc8185aee0e6d495a6a93d8a2313d76b**. Proposition **21.12.21**, source **sgpt:E2F47062**, permanent **419A1D9F18A9**, lines **390–415** identifies rooftop dual as convex max; Proposition **21.12.39**, source **sgpt:B3280F36**, permanent **75730375E037**, lines **893–984**, especially energy Eq **21.12.40**, source **sgpt:4A4855E9**, permanent **F02AE1451B98**, lines **895–898**, gives the exact dual integral. For bounded toric omega-psh phi,psi, rooftop is bounded; substitution yields **D(phi,psi)=E(phi)+E(psi)-2E(P(phi,psi))=n! integral_P abs(G_phi-G_psi)**, a genuine metric via closed convex biconjugation. Dual interpolation gives constant-speed paths and affine E, and D <= n!vol(P) ||phi-psi||_infty is optimal under constant shifts. The full proof is in the dated report. **Conditional** on the cited integrated rooftop and energy theorems (and toric identification 21.12.13), which were inspected but not transitively certified. Proposed optional corollary after 21.12.39; affects toric rooftop/energy and comparison with §17 geodesic distance, but **does not claim the interpolating path solves the complex homogeneous MA geodesic PDE**. Historic attribution and permanent tags preserved. |
+
+**Actual scope:** first selected proof-check of 21.12.21 and 21.12.39 within previously sampled §21.12, and definition checks 21.11.10–11/21.12.13/.20. **25 current chapters / 747 numbered ToC sections / zero completely mathematically verified sections**. Existing ledger entries retained and exclusions remain **deferred-by-user**. No tests/build/CI/formalization/site/source/main changes.
+
+---
+
 # 2026-11-01 — sharp half-space harmonic differential Harnack estimates
 
 **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete proof, anchored source labels and admissibility](reports/2026-11-01-sharp-halfspace-differential-harnack-and-gradient.md).
