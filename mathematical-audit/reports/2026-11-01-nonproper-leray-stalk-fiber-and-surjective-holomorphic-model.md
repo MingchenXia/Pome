@@ -1,18 +1,18 @@
 # Nonproper Leray higher-direct-image stalks need not be fiber cohomology
 
-**Audit date:** 2026-11-01. **Production main SHA:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+**Audit date:** 2026-11-01. **Production main SHA:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 **Finding:** POME-LERAY-NONPROPER-STALK-FIBER-001 — **low / verified conditional deduction**. This verifies the sharp necessity of the *printed warning* in Theorem 10.55.6; the theorem is **not false**, and no repair of its proof is asserted.
 
 ## Current integrated source and exact scope
 
-- **Main HTML:** \`docs/sections/spectral-sequences-support-and-cup-products--hypercohomology-and-direct-image-spectral-sequences/index.html\`; Git blob \`83ea6c60c0691a7e3559214e363361863f3ea2a2\`.
-- **Theorem 10.55.6:** source \`demailly-complex-geometry:8B97C424\`, permanent tag \`2CFDCB1083B2\`, physical statement lines **104–112** (especially **108–112**); proof lines **118–126**, and edge-map identification **131–170**.
-- **Definition 10.55.5:** source heading tag \`CF90123DE41C\`, lines **92–100**. The printed stalk formula is
+- **Main HTML:** `docs/sections/spectral-sequences-support-and-cup-products--hypercohomology-and-direct-image-spectral-sequences/index.html`; Git blob `83ea6c60c0691a7e3559214e363361863f3ea2a2`.
+- **Theorem 10.55.6:** source `demailly-complex-geometry:8B97C424`, permanent tag `2CFDCB1083B2`, physical statement lines **104–112** (especially **108–112**); proof lines **118–126**, and edge-map identification **131–170**.
+- **Definition 10.55.5:** source heading tag `CF90123DE41C`, lines **92–100**. The printed stalk formula is
   \[
   (R^q f_*A)_y=\varinjlim_{V\ni y}H^q(f^{-1}V,A).
   \]
   The printed theorem **explicitly refrains** from identifying it with \(H^q(f^{-1}(y),A|_{f^{-1}(y)})\) without additional hypotheses. The proof correctly invokes exact filtered stalk limits; the examples below show why the limit cannot be replaced by cohomology of a single fiber.
-- **Additional direct inventory only:** \`docs/sections/separation-strict-exhaustions-and-coverings/index.html\`, production blob \`89f1c30a6df3c3df624fd05943a5cc64460824b8\`, section **9.25** tag \`D10F3B8AA2A1\`, physical lines **1–15**. This page is navigation/citation only; it contributes **no independently reviewed mathematical theorem**.
+- **Additional direct inventory only:** `docs/sections/separation-strict-exhaustions-and-coverings/index.html`, production blob `89f1c30a6df3c3df624fd05943a5cc64460824b8`, section **9.25** tag `D10F3B8AA2A1`, physical lines **1–15**. This page is navigation/citation only; it contributes **no independently reviewed mathematical theorem**.
 
 ## First explicit holomorphic countermodel: punctured disk inclusion
 
