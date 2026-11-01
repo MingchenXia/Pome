@@ -46,11 +46,11 @@ agreeing independently with circle retraction. Importantly, \(H^1(D,j_*\mathbb Z
 
 ## Stronger model: surjectivity and nonempty fibers still do not suffice
 
-Let \(X=D^*\sqcup\{e\}\), a disconnected (one-dimensional plus zero-dimensional) complex manifold, and define a **surjective holomorphic map**
-\(f:X\to D\) by \(f|_{D^*}=j\) and \(f(e)=0\). For the constant sheaf \(\mathbb Z_X\),
+Let \(X=D^*\sqcup D\), a disconnected **pure one-dimensional complex manifold**, and define a **surjective holomorphic map**
+\(f:X\to D\) by \(f|_{D^*}=j\) and \(f|_D=\mathrm{id}_D\). For the constant sheaf \(\mathbb Z_X\),
 \[
-f^{-1}(D_\varepsilon)=D_\varepsilon^*\sqcup\{e\},\qquad
-f^{-1}(0)=\{e\}.
+f^{-1}(D_\varepsilon)=D_\varepsilon^*\sqcup D_\varepsilon,\qquad
+f^{-1}(0)=\{0_D\}.
 \]
 The same retractions and stable restriction generators give
 \[
@@ -62,7 +62,7 @@ H^1(f^{-1}(0),\mathbb Z)=0.
 \]
 Thus failure is **not explained merely by an empty fiber or a nonsurjective map**. The map is nonproper: the preimage of a closed small disk contains a punctured disk sequence tending to the omitted point of its component. No false claim is made about proper base change; its hypotheses and proof are **not** supplied by this example.
 
-As a further spectral-sequence check, \(f_*\mathbb Z_X\simeq\mathbb Z_D\oplus i_*\mathbb Z_{\{0\}}\) and \(R^1f_*\mathbb Z_X\simeq i_*\mathbb Z_{\{0\}}\). Their higher cohomology on the disk vanishes. Leray consequently gives \(H^0(X,\mathbb Z)=\mathbb Z^2\), \(H^1(X,\mathbb Z)=\mathbb Z\), exactly as the direct disjoint-union computation.
+As a further spectral-sequence check, \(f_*\mathbb Z_X\simeq\mathbb Z_D\oplus\mathbb Z_D\) and \(R^1f_*\mathbb Z_X\simeq i_*\mathbb Z_{\{0\}}\). Their higher cohomology on the disk vanishes. Leray consequently gives \(H^0(X,\mathbb Z)=\mathbb Z^2\), \(H^1(X,\mathbb Z)=\mathbb Z\), exactly as the direct disjoint-union computation.
 
 ## Assessment, action, and limitations
 
