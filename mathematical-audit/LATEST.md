@@ -1,14 +1,14 @@
-# Latest mathematical audit checkpoint — 2026-11-01 — sharp unequal-density cofactor energy on pluriclosed surfaces
+# Latest mathematical audit checkpoint — 2026-11-01 — sharp inhomogeneous cofactor energy
 
-**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete anchored English proof and sharp Kähler torus example](reports/2026-11-01-weighted-cofactor-sharp-inhomogeneous-energy.md).
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete exact source-anchored proof](reports/2026-11-01-weighted-cofactor-sharp-inhomogeneous-energy.md).
 
-- **POME-GAUD-SURFACE-SHARP-TV-ENERGY-001 — low / verified conditional deduction**: for smooth semipositive (A=\omega+dd^cu,B=\omega+dd^cv), positive continuous (h) with (dd^c(hT)=0), (T=\sum A^jB^{n-1-j}), the **unequal-density** identity (\mathcal E_h=-\int h(w-c)(A^n-B^n)\) gives the **best universal coefficient** (\mathcal E_h\le\frac12\operatorname{osc}(w)\int h|A^n-B^n|\). On every pluriclosed compact complex surface (h=1) works automatically. Periodic mollified triangular waves on a flat complex two-torus attain ratio (1) asymptotically with strictly positive (A,B).
-- New selected rereading of integrated **14.20.1**, **14.22.1/.5/.13/.15** and surface Stokes **14.23.1**. Earlier reviews of §§14.20, 14.22, 14.23 were **not** relabeled first coverage. No false original theorem or production fix; no claim of (L^\infty) PDE stability or complete upstream proof certification. **25 actual chapters / 747 ToC sections / zero complete mathematical-section certifications**.
-- Excluded Demailly approximation/regularization and dedicated Bergman, L², Ohsawa–Takegoshi, multiscale atlas and positivity-loss proof-completion remain **deferred-by-user**; no production/site/source/CI/build/formalization changes.
+- **POME-GAUD-SURFACE-SHARP-TV-ENERGY-001 — low / verified conditional deduction:** for $A=\omega+dd^cu,B=\omega+dd^cv\ge0$ and a positive continuous cofactor weight $h$ with $dd^c(hT)=0$, the **unequal-data** identity $\mathcal E_h=-\int h(w-c)(A^n-B^n)$ yields the sharp $\mathcal E_h\le\frac12\operatorname{osc}(w)\int h|A^n-B^n|$. On every pluriclosed compact complex surface, $h=1$ is automatic. Smoothed periodic triangular waves on a flat complex two-torus demonstrate optimality of the coefficient within smooth strictly positive Kähler forms.
+- Additional direct checks of **14.20.1**, **14.22.1/.5/.13/.15**, and surface Stokes **14.23.1**. All these sections were **previously sampled**, so none is mislabeled as first coverage; no false original theorem, complete dependency certification, or $L^\infty$ stability claim. **25 chapters / 747 sections / zero wholly certified mathematical sections**.
+- Demailly approximation/regularization and dedicated Bergman, L², Ohsawa–Takegoshi, multiscale atlas and positivity-loss proof completion remain **deferred-by-user**. No source, production main, registry, tags, site, build, CI or formalization changes.
 
 ---
 
-# Latest mathematical audit checkpoint — 2026-11-01 — exact sharp two-pole rooftop and free boundary on \(\mathbf P^1\)
+ Latest mathematical audit checkpoint — 2026-11-01 — exact sharp two-pole rooftop and free boundary on \(\mathbf P^1\)
 
 **Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Full source-anchored mathematical report](reports/2026-11-01-sharp-two-pole-rooftop-free-boundary-on-p1.md).
 
