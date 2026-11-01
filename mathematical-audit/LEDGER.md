@@ -1,3 +1,15 @@
+# New findings — 2 November 2026 — exact two-point restricted volumes and null locus
+
+**Main SHA:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Full anchored report:** [Two-point blowup restricted volumes](reports/2026-11-02-two-point-blowup-restricted-volumes-and-null-wall.md).
+
+| Stable finding ID | Severity/status | Precise production anchor and independently established conclusion | Proposed correction and affected dependents |
+| --- | --- | --- | --- |
+| **POME-RESTVOL-TWOPOINT-NULL-WALL-001** | **Low / verified conditional deduction**, **not a false original theorem, not a resolved proof gap** | **Main** \`docs/sections/divisorial-restricted-volumes/index.html\` blob \`8eb1127568e77d6d045098361c366ceeb846b909\`; Lemma **20.8.13** source \`transcendental-positive-cones:A47ADAF8\`, permanent \`DA69AEE4E88A\`, lines 291–302; Lemma **20.8.14** source \`transcendental-positive-cones:54BBE5DC\`, permanent \`B50F0B700160\`, lines 305–325; Lemma **20.8.15** source \`transcendental-positive-cones:04719031\`, permanent \`41D346BEA9CE\`, lines 326–347; Proposition **20.8.16** source \`transcendental-positive-cones:682A1645\`, permanent \`7ED04B77FCC6\`, lines 349–383. **Main** \`docs/sections/variations-of-the-volume/index.html\` blob \`0b744b6432968b1320d63f5ebe67246108bb3ecf\`, Theorem **10.99.8** source \`transcendental-positive-cones:0FF4E50C\`, tag \`BF3A71BBF47B\`, lines 135–152. On the blowup at **two distinct points**, for \`D_a=H-a(E_1+E_2)\` (\`0<a<1\`), the exact global ranks and restricted image ranks are proved by direct monomial enumeration; \`V(D_a)=1-2a²\` until \`a=1/2\`, then \`2(1-a)²\`; restricted volumes along joining \`L\` and exceptional \`E_i\` are \`(1-2a)_+\` and \`min(a,1-a)\`. At \`a=1/2\` the class is big nef semiample with **empty non-nef locus**, but non-Kähler locus \`L\` and zero L-restricted volume. Positive-product identification is conditional on the printed gradient theorem; not a new analytic proof of Proposition 20.8.16. | Optional *separate* example after Proposition 20.8.16 and cross-reference to §10.99.8; preserves permanent tags, source attribution, and original theorem statements. **Dependents:** conceptual distinction §§10.12–10.14, restricted volumes §20.8 and differentiability §10.99.8. This is **not** the older one-point wall result POME-VOL-C11-NONC2-BLOWUP-001. |
+
+**Scope:** newly checked exact two-point algebraic model and cohomology derivatives; previously sampled §§20.8, 10.99, contextual §§10.12–10.13, *not* whole theorem/section certification. **25 current chapters / 747 ToC sections / zero entire mathematical-section certifications.** All previous findings and statuses preserved. The author-deferred Demailly regularization/Bergman/L²/OT/multiscale/positivity-loss chain is not reopened. No source/production site/CI/build/formalization changes.
+
+---
+
 # 2026-11-01 — nonproper Leray stalks and fiber cohomology
 
 **Production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Exact source-anchored proof and page computation](reports/2026-11-01-nonproper-leray-stalk-fiber-and-surjective-holomorphic-model.md).
