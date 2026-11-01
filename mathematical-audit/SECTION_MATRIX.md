@@ -1,3 +1,9 @@
+# Coverage update — 2026-11-01 — exact rational interior Okounkov slice from restricted image graded series
+
+**Main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Fully proved new algebraic statement and exact source tags](reports/2026-11-01-rational-okounkov-slice-restricted-image-semigroup.md). **POME-OKO-RATIONAL-IMAGE-SEMIGROUP-001 — low / verified conditional deduction:** additional selected mathematical review in **already reviewed** §§19.4.8, 19.5.4(5), 19.9.5; the complete global algebraic rational-interior slice identity uses actual restricted *image* graded linear series. It does **not** recertify or repair the false general transcendental full-restriction clause. First direct statement-only contextual inspection of §24.12.1/.2 as explicitly open conjecture/question, not a theorem proof. Existing section-level rows, history, tags and statuses retained. **25 chapters / 747 numbered sections / zero entire-section certifications**; all Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss plans remain **deferred-by-user**, not reopened. Audit-only notes.
+
+---
+
 # Coverage update — 2026-11-01 — smooth surface volume range and Gauduchon optimizers
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Exact English proof and anchors](reports/2026-11-01-surface-gauduchon-mass-range-and-minimizers.md).

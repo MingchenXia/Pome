@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-11-01 — rational interior Okounkov slices via image graded series
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete new algebraic proof and exact anchors](reports/2026-11-01-rational-okounkov-slice-restricted-image-semigroup.md).
+
+- **POME-OKO-RATIONAL-IMAGE-SEMIGROUP-001 — low / verified conditional deduction.** For any multiplicative graded valuation semigroup of sections and rational first-coordinate \(t\) strictly between its minimum and maximum normalized first-coordinate ranges, the closed Okounkov-body slice \(x_1=t\) equals the body of the **actual image** of the restricted graded series after subtracting \(mtY_1\). A four-step self-contained proof moves finite convex combinations to the exact slice, rationalizes a rational coefficient polytope, and realizes every rational combination by products of global sections. The image series is essential: the **complete** restricted linear series need not agree. This is a general algebraic correction, NOT a transcendental-body theorem nor an applied repair of **POME-OKO-SLICE-FALSE-001**, which remains **high / confirmed theorem-clause error / unresolved**.
+- **Selected existing-section proof coverage:** §§19.4.8, 19.5.4(5), 19.9.5, preserving all prior work. §24.12.1/.2 read directly as explicitly open conjecture/question only; no proof or resolution claimed. The §19.5.4 historical citation [DRWNXZ] remains.
+- **Overall:** 25 chapters / 747 numbered sections / 0 complete mathematical sections certified. All prior findings and deferrals unchanged. Demailly approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss programmes remain **deferred-by-user**; none reopened. Audit Markdown only, no main/source/tags/registry/site/CI/build/test/formalization changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-11-01 — smooth surface volume range and Gauduchon optimizers
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Exact English proof and anchors](reports/2026-11-01-surface-gauduchon-mass-range-and-minimizers.md).

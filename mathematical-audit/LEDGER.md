@@ -1,3 +1,15 @@
+# 2026-11-01 — universal rational-interior slice of a graded section valuation semigroup
+
+**Main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Full proof and stable anchors](reports/2026-11-01-rational-okounkov-slice-restricted-image-semigroup.md).
+
+| Stable ID | Severity / status | Complete finding, location, correction and dependents |
+| --- | --- | --- |
+| **POME-OKO-RATIONAL-IMAGE-SEMIGROUP-001** | **low / verified conditional deduction**; general algebraic replacement PROPOSED, no source patch | §§19.4.8 (source sgpt:32C6E06F, tag 0114DCC2E021; main blob c661e264cab0995a2a344453039940028feff8e0 lines 112–117), 19.9.5 (non-kahler-pluripotential-theory:B9A34270, tag E9A3FA804369; blob 83557f0e15275253661fe679c75407e6636d497c lines 110–132), and the still-incorrect 19.5.4(5) (source sgpt:F0C64B11, tag 111D84FB6B1C; blob a53c6b2f80c3775e9d646f57808425823ec4a4ac lines 44–49). **New general theorem:** for any rational \(a<t<b\), \(\Delta(W_\bullet)\cap\{x_1=t\}\) equals the Okounkov body of the graded images \(\operatorname{im}(W_m(-mtY_1)\to H^0(Y_1,(L^m(-mtY_1))|_{Y_1}))\). Proof uses exact Cartier leading coefficients, two-sided slice correction, density of rational points in a rational coefficient polytope, and multiplicativity to realize each rational combination by one section. The full restriction system may be larger. Only rational interior algebraic sections established; **does not repair the general transcendental theorem**, whose existing **POME-OKO-SLICE-FALSE-001 high / confirmed error / unresolved** persists. Proposed optional precise algebraic proposition after §19.9.5, with historical [DRWNXZ] intact. Affects §§19.3–19.5, 19.9 and restricted-series interpretations; no full theorem-chain certification. |
+
+**Additional direct statements, not theorem reviews:** §24.12.1/.2 on current main, blob 7b2763d35ab776a5bb0a17a34e8a2e6b3546358f lines 8–12, tags 3E0B91E5DF69 and 2C2AE81C4020. Both explicitly open; no claims about their truth. 25 chapters / 747 sections / 0 complete-section mathematical certifications; earlier issues remain unchanged. Excluded Demailly/regularization/Bergman/L²/OT/multiscale/positivity-loss work remains **deferred-by-user**, not reopened. No CI, site, source or main update.
+
+---
+
 # 2026-11-01 — smooth surface mass interval and Gauduchon quotient optimizers
 
 **Main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete source-anchored argument](reports/2026-11-01-surface-gauduchon-mass-range-and-minimizers.md).
