@@ -1,3 +1,15 @@
+# 2026-11-02 — Universal torsion-free action criterion and balanced torus witness
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full proof with main blobs, labels and lines](reports/2026-11-02-universal-action-torsion-and-balanced-torus.md).
+
+| Stable ID | Severity / status | Precisely verified observation, dependency and proposed action |
+| --- | --- | --- |
+| **POME-GEO-UNIVERSAL-TORSION-KAHLER-001** | **low / verified conditional deduction**; **not** a false source theorem, proof repair or whole-theorem certification | Main `docs/sections/perron-interpolation-and-the-geodesic-equation/index.html` blob `dc8dc381257360c94fe1c792499bb1ddf1bf5997`: Theorem **17.16.12** source `non-kahler-pluripotential-theory:983F8C01` permanent `7A7AE56CA513`, equation 17.16.13 tag `DCC8DA6D179E`, lines **214–247**; Cor. **17.16.14** source `:8881F196` tag `BE24BBA15991`, lines **252–262**. Main `docs/sections/gauduchon-metrics-and-linear-mass--the-adjoint-measure-of-the-linearization/index.html` blob `519e50338be6560f6b2856fddce212738f5109bc`: Prop **11.23.4** source `:B9B9F692` tag `A914D4D9C6CB`, lines 58–73; Ex **11.23.5** source `:324594DA` tag `28F39F2B7C2C`, lines 77–100. Thm **11.1.7** (Chiose) tag `FB90FC741F25`, `docs/sections/torsion-and-the-variation-of-mass/index.html` blob `9abec9685e33a1b40f9c0765381408eb52b325d3` lines 100–159. Smooth first-variation formula independently checked; the additional torsion operator vanishes identically for all real velocities at one potential iff its top power is **balanced**, and for all positive potential perturbations iff the background is **Kähler** (proof via wedge-pairing and polynomial Hessian jets). The printed §11.23.5 three-torus metric is balanced but non-Kähler; its printed perturbation satisfies exact nonzero `d omega_s^2=2s h dc wedge eta_2 wedge eta_3`, at `x1=1/4,x2=0` equals `-4pi^2 s dx1 wedge eta_2 wedge eta_3`. **Optional post-17.16.12 corollary and 11.23.5 note**; source text unchanged. **Dependents:** §§17.16.9–14, 11.1.7–8, 11.23.4–5, formal distinction of action-geodesic and HCMA/Perron equations. No existence/solution-set equivalence claimed. |
+
+**Actual coverage:** additional *selected* first-variation and torsion-jet proof check in previously partly audited §§17.16,11.23,11.1. Not first section coverage or a full proof-chain certification. **25 chapters / 747 sections / 0 fully certified mathematical sections.** All earlier resolved/unresolved/genuine duplicate/external/deferred statuses preserved. Demailly approximation/regularization and Bergman/L²/OT/multiscale/positivity-loss remain **deferred-by-user**. Only audit Markdown; no main/source/registry/tag/site/CI/build/tests/formalization.
+
+---
+
 # New findings — 2 November 2026 — exact two-point restricted volumes and null locus
 
 **Main SHA:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Full anchored report:** [Two-point blowup restricted volumes](reports/2026-11-02-two-point-blowup-restricted-volumes-and-null-wall.md).
