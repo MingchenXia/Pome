@@ -61,7 +61,7 @@ Let \(R=\mathbb C\{x\}\) and \(A=R[y]/(y^p-x^q)\). Division by the monic polynom
  \dim_{\mathbb C} A/gA
   =\operatorname{ord}_x\det_R(m_g).
 \]
-Over fraction fields, the extension is \(\mathbb C((t))/\mathbb C((x))\), with \(x=t^p,y=t^q\). The determinant is the field norm
+After scalar extension from \(\operatorname{Frac}(R)\) to its \(x\)-adic completion \(\mathbb C((x))\), the rank-\(p\) algebra becomes the field extension \(\mathbb C((t))/\mathbb C((x))\), with \(x=t^p,y=t^q\). This completion does not change the matrix determinant or its \(x\)-adic valuation. The determinant is the field norm
 \[
 \det_R(m_g)
  =N_{\mathbb C((t))/\mathbb C((x))}
