@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-11-01 — exact graded rings of nine-point anticanonical elliptic divisors
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete source-anchored English proof](reports/2026-11-01-halphen-anticanonical-graded-section-rings.md).
+
+- **POME-HALPHEN-ANTICANONICAL-SECTION-RING-001 — low / verified conditional deduction**, not a false original theorem or applied repair. For the nine-point smooth cubic blowup of §12.27.7, the complete anticanonical graded ring is **C[s]** if the elliptic normal bundle is nontorsion, and **C[s,t] with degrees (1,m)** if its exact torsion order is m. In the second case every degree-k monomial s^(k-mj)t^j (0<=j<=floor(k/m)) is independent by its distinct vanishing order along D and forms a basis by the elliptic restriction-sequence upper bound. Thus h^0(kD)=floor(k/m)+1 and the Hilbert series is 1/((1-z)(1-z^m)); the nontorsion Hilbert series is 1/(1-z). The original Proposition 12.27.7 correctly states semiampleness and the first pencil; this is a strengthening, not a correction.
+- **New selected proof-level review:** §12.27.7, permanent 9124282E25D3, source non-kahler-pluripotential-theory:B910BA77, physical main lines 245–264, previously only contextual §12.27 coverage. Theorem 12.27.3's analytic flat-neighborhood fixed point, Proposition 12.27.5 and Corollary 12.27.6 are context, not certified. No source or main modifications.
+- **Actual overall coverage:** 25 chapters / 747 ToC sections / **0 complete mathematical-section certifications**. Previously recorded errors, gaps, external inputs, genuine duplicates and resolved findings retain status; excluded Demailly approximation/regularization and Bergman/L²/OT/multiscale/positivity-loss proof programme remains **deferred-by-user**. Audit Markdown only; no CI/build/test/formalization/site publication.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-11-01 — contact theorem background mismatch
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Source-anchored English report](reports/2026-11-01-contact-background-polynomial-repair.md).

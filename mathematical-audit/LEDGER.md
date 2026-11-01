@@ -1,3 +1,15 @@
+# 2026-11-01 — nine-point cubic blowup exact graded anticanonical section ring
+
+**Main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete English proof and physical anchors](reports/2026-11-01-halphen-anticanonical-graded-section-rings.md).
+
+| Stable finding ID | Severity / status | Integrated premise, proof, proposal and dependents |
+| --- | --- | --- |
+| **POME-HALPHEN-ANTICANONICAL-SECTION-RING-001** | **low / verified conditional deduction**; no false original theorem, no applied patch | **docs/sections/a-gauduchon-variational-volume--orders-of-degeneration-at-the-nef-boundary--flat-anticanonical-curves/index.html**, production blob **f2becb302ae1be6656823cbbdd037f2ad2a4ecf1**, Proposition **12.27.7**, source **non-kahler-pluripotential-theory:B910BA77**, permanent **9124282E25D3**, statement line **245**, exact restriction sequence **253–257**, nontorsion **259**, torsion lift **261**, geometric family **263**. For 9 blowups on a smooth cubic, with elliptic normal bundle N, the exact graded ring is **C[s] (deg s=1)** if N nontorsion, and **C[s,t] (deg s=1, deg t=m)** if N has torsion order m. Complete proof: each restriction H⁰(N^k) has dimension 1 iff m divides k and 0 otherwise; for m finite use H¹(O_S)=0 and H¹(N^j)=0 (j<m) to lift t with t|D nowhere zero; the monomials s^(k-mj)t^j have pairwise distinct ord_D and attain the upper bound 1+floor(k/m). Hilbert series respectively **1/(1-z)** and **1/((1-z)(1-z^m))**. Optional post-12.27.7 corollary only; the printed statement is correct. **Dependents:** §§12.25–12.27 degeneration/semiampleness comparison, §19 graded-series interpretations. Analytic flat-neighborhood/semipositivity and volume theorems §§12.27.3/.5/.6 not proved in this increment. |
+
+**Coverage:** new selected *proof-level* inspection of previously context-only §12.27.7; **not** an entire section or analytic dependency certification. Current actual main ToC **25 chapters / 747 sections / zero fully certified mathematical sections**. Older ledger records and statuses retained. User-excluded Demailly regularization/Bergman/L²/OT/multiscale/positivity-loss remains **deferred-by-user**; no production edits/build/tests/CI/formalization/site publication.
+
+---
+
 # 2026-11-01 — Di Nezza–Trapani contact background gap
 
 **Main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Exact proof, nonimplication model and proposed conditional patch](reports/2026-11-01-contact-background-polynomial-repair.md).
