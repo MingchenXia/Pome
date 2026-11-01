@@ -1,3 +1,15 @@
+# 2026-11-01 — nonproper Leray stalks and fiber cohomology
+
+**Production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Exact source-anchored proof and page computation](reports/2026-11-01-nonproper-leray-stalk-fiber-and-surjective-holomorphic-model.md).
+
+| Stable ID | Severity / status | Exact current reader anchor, countermodels, proposal, dependents |
+| --- | --- | --- |
+| **POME-LERAY-NONPROPER-STALK-FIBER-001** | **low / verified conditional deduction**; **not a false original theorem or proof gap** | Theorem **10.55.6**, source **demailly-complex-geometry:8B97C424**, permanent **2CFDCB1083B2**, main \`docs/sections/spectral-sequences-support-and-cup-products--hypercohomology-and-direct-image-spectral-sequences/index.html\` blob \`83ea6c60c0691a7e3559214e363361863f3ea2a2\`, lines **104–112** stalk warning and **118–126** proof. Inclusion \(j:D^*\to D\): \((R^1j_*\mathbb Z)_0=\mathbb Z\), fiber empty; also \(j_*\mathbb Z=\mathbb Z_D\), \(R^1j_*\mathbb Z=i_*\mathbb Z\). Surjective holomorphic \(f:D^*\sqcup\{e\}\to D\), \(e\mapsto0\): actual fiber has \(H^1=0\), higher direct image stalk has \(R^1=\mathbb Z\), and \(R^0\) stalk \(\mathbb Z^2\). Explicit Leray \(E_2\) and abutment calculations match. This proves the printed **nonidentification warning is necessary**; no additional proper-base-change or edge isomorphism is presumed. **Optional corollary/example** after 10.55.6, preserve tags/attribution; affects §10.55 direct-image/edge interpretation and §§9–10 nonproper-map dependencies. General Godement proof not recertified. |
+
+**Coverage:** selected additional §10.55.5–6 checks, previously sampled, not full theorem/section. §9.25 heading/navigation only, first inspected but no mathematical theorem. **25 chapters / 747 ToC sections / 0 full mathematical-section certifications**. Older error/gap/external/duplicate statuses unchanged; excluded Demailly approximation/regularization and Bergman/$L^2$/OT/multiscale/positivity-loss work **deferred-by-user**. No production edits, tests/build/CI/formalization/site.
+
+---
+
 # 2026-11-01 — nine-point cubic blowup exact graded anticanonical section ring
 
 **Main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete English proof and physical anchors](reports/2026-11-01-halphen-anticanonical-graded-section-rings.md).
