@@ -1,3 +1,15 @@
+# 2026-11-01 — tangential cusp–line conductor and exact normalization defect
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete source-anchored proof](reports/2026-11-01-tangential-cusp-line-normalization-conductor.md).
+
+| Stable ID | Severity / status | Source anchors, justification, correction and affected dependents |
+| --- | --- | --- |
+| **POME-NORM-TANGENTIAL-CUSP-LINE-CONDUCTOR-001** | **low / verified conditional deduction**, not a false theorem, proof gap, or global theorem repair | Reduced curve `X={y(y^p-x^q)=0}` with coprime `2<=p<q`; normalization `C{t}⊕C{s}`, `x=(t^p,s), y=(t^q,0)`; branch intersection length `q`, total delta `q+(p-1)(q-1)/2` and conductor `t^[q+(p-1)(q-1)] C{t}⊕s^q C{s}`. Exact proof uses `0→A→C{t^p,t^q}⊕C{s}→C{x}/(x^q)→0`, coprime semigroup gaps, and direct conductor test. Independent nonzerodivisor check: `length(A/(x))=p+1` equals generic degree of `x`; `y` is a zero divisor, illustrating necessity of the branch hypothesis of Prop9.5.6. Primary `docs/sections/complex-spaces-and-modifications--reduced-spaces-and-normalization/index.html` blob `06439f43d1ce8e83d2529682c9a630bffa3d9c22`, Lemma9.4.2 permanent `26BA2ABFD727` line 38, Prop9.4.3 source `foundations-of-pluripotential-theory:AC231B8D` permanent `36422A732754` lines 56–84, Thm9.4.6 source `...:7042BB57` permanent `12A47DB401E2` lines 142–163, Ex9.4.10 permanent `60A14C7A1845` line197. Secondary `docs/sections/complex-spaces-and-modifications--analytic-curves-and-finite-maps/index.html` blob `2c725646172203283ac4564bddd46213d9a75cbe`, Prop9.5.1 source `...:7EBE91CF` permanent `A3A9384DC317` line11; Prop9.5.6 source `...:441B06F2` permanent `0E64BF4DC7C7` line104. Optional separate example after Ex9.4.10, preserve tags/attribution. Dependents: normalization branch count, weak-holomorphic decomposition, local denominator/conductor, finite map degree and pure zero-set criterion. All prior normalization gaps remain open; no production change. |
+
+**Actual selected coverage:** additional proof-level local example §§9.4.2/.3/.6/.10, §§9.5.1/.6 only; previously sampled sections, no first-time or whole-section certification. Current ToC 25 chapters / 747 sections / zero complete mathematical-section certifications. User-excluded approximation/regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss remain **deferred-by-user**. No project build/CI/tests/formalization/site/publication/source/main edits.
+
+---
+
 # 2026-11-01 — ample Okounkov slice threshold and exact restricted-image repair (model only)
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete source-anchored proof and model](reports/2026-11-01-ample-okounkov-slice-threshold-and-restricted-series.md).

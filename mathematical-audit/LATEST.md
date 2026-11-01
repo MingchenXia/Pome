@@ -1,3 +1,13 @@
+# Latest mathematical audit checkpoint — 2026-11-01 — tangential cusp–line normalization conductor and finite-map degree
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Exact anchored English report](reports/2026-11-01-tangential-cusp-line-normalization-conductor.md).
+
+- **POME-NORM-TANGENTIAL-CUSP-LINE-CONDUCTOR-001 — low / verified conditional deduction**, **no false printed theorem**: for coprime `2<=p<q`, the reduced plane curve `y(y^p-x^q)=0` has two normalization branches `(t^p,t^q)` and `(s,0)`, intersection length `q`, delta invariant `q+(p-1)(q-1)/2`, and exact conductor `t^[q+(p-1)(q-1)] C{t} ⊕ s^q C{s}`. In the `(2,3)` model these are delta `4` and conductor exponents `(5,3)`. The finite projection `x` has generic degree and local intersection length `p+1`; the coordinate `y`, vanishing identically on one branch, illustrates the necessity of the nonzerodivisor assumption. These are proved by a fiber-product exact sequence and an elementary coprime numerical-semigroup computation, not by revisiting excluded approximation.
+- **Actual main anchors:** §9.4.2/.3/.6/.10 at `docs/sections/complex-spaces-and-modifications--reduced-spaces-and-normalization/index.html` blob `06439f43d1ce8e83d2529682c9a630bffa3d9c22`, lines 38, 56–84, 142–163, 197–200; §9.5.1/.6 at `docs/sections/complex-spaces-and-modifications--analytic-curves-and-finite-maps/index.html` blob `2c725646172203283ac4564bddd46213d9a75cbe`, lines 11–35 and 104–117. Both sections were **already** sampled historically; this is only incremental model-based proof review, **not** first coverage or full-section certification. Existing `POME-NORM-COUNTABLE-COVER-001` remains unresolved.
+- **Coverage remains:** 25 chapters / 747 numbered ToC sections / zero entire mathematical sections certified. All prior finding statuses retained. All user-excluded Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss work stays **deferred-by-user**, not reopened. Audit-only notes, no main/source/registry/tags/site/build/test/CI/formalization/publication changes.
+
+---
+
 # Latest mathematical audit checkpoint — 2026-11-01 — sharp ample Okounkov slice threshold and restricted-image series
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete source-anchored English report](reports/2026-11-01-ample-okounkov-slice-threshold-and-restricted-series.md).
