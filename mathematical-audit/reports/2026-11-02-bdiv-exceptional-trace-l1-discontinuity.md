@@ -1,17 +1,17 @@
 # Projective automorphisms: constant roots, jumping exceptional b-divisor trace, and lost NPP mass
 
-**Finding:** \`POME-BDIV-EXCEPTIONAL-TRACE-L1-JUMP-001\`  
+**Finding:** `POME-BDIV-EXCEPTIONAL-TRACE-L1-JUMP-001`  
 **Severity / status:** low / **verified conditional deduction (sharp hypothesis boundary)**. No printed theorem is disproved; no source or canonicalization change has been applied.  
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
-**Audit baseline:** \`review/mathematical-audit\` at \`91b9c93ae8000a1d707953d02e146b5a0288c9ac\`.  
-**Reading-edition file:** \`docs/sections/the-theory-of-b-divisors/index.html\`, blob \`4a793dfd462badcb351f54a36cb030cde14a399b\`.
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
+**Audit baseline:** `review/mathematical-audit` at `91b9c93ae8000a1d707953d02e146b5a0288c9ac`.  
+**Reading-edition file:** `docs/sections/the-theory-of-b-divisors/index.html`, blob `4a793dfd462badcb351f54a36cb030cde14a399b`.
 
 ## Exact internal anchors and scope
 
-- Definition **20.1.14**, source \`sgpt:CB2E09F0\`, permanent tag \`165D43352903\`, HTML physical lines **149–167**: \(\mathbb D(T)_Y=\{\operatorname{Reg}\pi^*T\}\).
-- Proposition **20.1.19** and equation **20.1.20**, source \`sgpt:91114C12\` and \`sgpt:A6C4C90C\), permanent tags \`87D0CCEB6DF9\` and \`64E2A79320D9\`, physical lines **265–319**: continuity of \(\mathbb D\) under **\(d_S\)** convergence, with a genuine net quantifier.
-- Definition **20.1.6**, source \`sgpt:0B20B6FE\`, permanent \`E6F6681E7170\`, lines **56–63**; Lemma **20.1.7**, source \`sgpt:54FCB4C1\`, permanent \`F5B2C1F1E318\`, lines **66–98**, give the b-divisor volume and a separate *coefficientwise b-divisor* upper semicontinuity assertion.
-- Theorem **20.1.15**, source \`sgpt:A0644B2C\`, permanent \`6EB1B4E1D222\`, physical lines **183–259**: its NPP-volume equality is context **only**; its excluded approximation input in Step 3 (lines 209ff.) was **not** audited or extended.
+- Definition **20.1.14**, source `sgpt:CB2E09F0`, permanent tag `165D43352903`, HTML physical lines **149–167**: \(\mathbb D(T)_Y=\{\operatorname{Reg}\pi^*T\}\).
+- Proposition **20.1.19** and equation **20.1.20**, source `sgpt:91114C12` and `sgpt:A6C4C90C`, permanent tags `87D0CCEB6DF9` and `64E2A79320D9`, physical lines **265–319**: continuity of \(\mathbb D\) under **\(d_S\)** convergence, with a genuine net quantifier.
+- Definition **20.1.6**, source `sgpt:0B20B6FE`, permanent `E6F6681E7170`, lines **56–63**; Lemma **20.1.7**, source `sgpt:54FCB4C1`, permanent `F5B2C1F1E318`, lines **66–98**, give the b-divisor volume and a separate *coefficientwise b-divisor* upper semicontinuity assertion.
+- Theorem **20.1.15**, source `sgpt:A0644B2C`, permanent `6EB1B4E1D222`, physical lines **183–259**: its NPP-volume equality is context **only**; its excluded approximation input in Step 3 (lines 209ff.) was **not** audited or extended.
 
 This is a newly inspected **specific hypothesis boundary of 20.1.19**, rather than a full proof verification of the proposition or the section. It also tests the meaning of the word "regular part" in 20.1.14. The projective-automorphism family below is an elementary algebraic degeneration and is not part of the author-excluded Demailly approximation/Bergman/\(L^2\)/extension/positivity-loss program.
 
@@ -125,6 +125,6 @@ The printed Proposition 20.1.19 only asserts continuity under \(d_S\), **not** u
 
 **Actual coverage:** new proof/model-level inspection of Definition 20.1.14, Proposition 20.1.19's *hypotheses and conclusion* and the limiting-quantifier comparison with Lemma 20.1.7; Theorem 20.1.15 is dependency context only. §20.1 had prior selected audits, so this is **not a first-reviewed section or a complete-section certification**. Theorem 20.1.19's internal smoothing/envelope prerequisites are **not** reopened. The full collection still has **25 actual ToC chapters, 747 numbered sections, zero fully mathematically certified sections**.
 
-**Independent structural inventory in this run:** \`docs/sections/problems-in-hermitian-pluripotential-theory/index.html\`, blob \`6f5551ea2240aedfcb4283c349dc7b46c51aaabc\`, physical lines 5–17, was opened for the first time as §24.1. It is a roadmap and contains **no numbered theorem or mathematical proof**. Count **orientation only**, not mathematical certification.
+**Independent structural inventory in this run:** `docs/sections/problems-in-hermitian-pluripotential-theory/index.html`, blob `6f5551ea2240aedfcb4283c349dc7b46c51aaabc`, physical lines 5–17, was opened for the first time as §24.1. It is a roadmap and contains **no numbered theorem or mathematical proof**. Count **orientation only**, not mathematical certification.
 
 **Execution:** no test suite, CI, build, formalization, public-page publication, source/body/registry/permanent-tag modifications, or original-main edits. All original errors, candidate gaps and external inputs remain independently classified; Demailly approximation/regularization and dedicated Bergman/\(L^2\)/Ohsawa–Takegoshi/multiscale/positivity-loss work remain **deferred-by-user**, neither verified nor resolved.
