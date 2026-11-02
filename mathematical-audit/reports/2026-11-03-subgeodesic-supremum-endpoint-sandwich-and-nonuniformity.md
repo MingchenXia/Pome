@@ -2,16 +2,16 @@
 
 **Finding ID:** POME-GEO-SUBGEO-ENDPOINT-SANDWICH-001  
 **Date:** 2026-11-03 (Asia/Shanghai)  
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`  
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`  
 **Severity/status:** low / **verified conditional deduction** (an independent proof and a sharpness example; **not** a false printed theorem, proof-gap certification, or applied repair).  
 **Scope:** new selected proof-level inspection of the *early* subgeodesic material in §17.10, especially Proposition 17.10.13 and its endpoint proof. The much later radial-energy results of §17.10 are a separate, previously audited subject.
 
 ## Exact integrated anchors
 
-- \`docs/sections/geodesic-rays-in-the-space-of-potentials/index.html\`, main blob \`52bf9e459a0dfb1c8afe79556db037450be06bb3\`.
-- Proposition **17.10.7**: original source \`sgpt:DBC4F9ED\`, permanent \`1880C1FBD88F\`, physical lines **88–139**. Its convexity and the psh lower envelope \(\inf_{0<t<1}\varphi_t\) are used as printed.
-- Corollary **17.10.9**: \`sgpt:B35F3B4F\`, permanent \`C645EE3517E1\`, lines **144–170**; its endpoint equality is *quasi-everywhere*, not everywhere.
-- Proposition **17.10.13**: \`sgpt:BBFDD373\`, permanent \`5ECD747A7B0B\`, lines **194–266**. Choquet countability and the equality (17.10.14) are in lines **224–257**; compactness of normalized psh functions is invoked in lines **259–265**. The exact equality (17.10.14) has source \`sgpt:5593AC43\`, permanent \`BA313A9B1A1F\`.
+- `docs/sections/geodesic-rays-in-the-space-of-potentials/index.html`, main blob `52bf9e459a0dfb1c8afe79556db037450be06bb3`.
+- Proposition **17.10.7**: original source `sgpt:DBC4F9ED`, permanent `1880C1FBD88F`, physical lines **88–139**. Its convexity and the psh lower envelope \(\inf_{0<t<1}\varphi_t\) are used as printed.
+- Corollary **17.10.9**: `sgpt:B35F3B4F`, permanent `C645EE3517E1`, lines **144–170**; its endpoint equality is *quasi-everywhere*, not everywhere.
+- Proposition **17.10.13**: `sgpt:BBFDD373`, permanent `5ECD747A7B0B`, lines **194–266**. Choquet countability and the equality (17.10.14) are in lines **224–257**; compactness of normalized psh functions is invoked in lines **259–265**. The exact equality (17.10.14) has source `sgpt:5593AC43`, permanent `BA313A9B1A1F`.
 - Standing assumptions: \(X\) compact, connected, Kähler; \(\theta\) smooth closed and big; all families are of genuine \(\theta\)-psh functions and uniformly bounded **above** at both endpoints. No convergence of arbitrary directed nets is asserted.
 
 ## A direct \(L^1\)-endpoint proof that avoids compactness
