@@ -1,7 +1,7 @@
 # 2026-11-02 mathematical audit — a rough-weight obstruction and square-zero Hermitian torsion
 
-**Reviewed production \`main\`:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-**Review branch before this report:** \`7cc686f2d822a251fb5991663a8fcd5c8b794235\`.
+**Reviewed production `main`:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+**Review branch before this report:** `7cc686f2d822a251fb5991663a8fcd5c8b794235`.
 **Scope:** independent, selected proof-level checks of the *integrated reading edition* in §§13.7, 7.5 and 11.48. Neither entire section nor its full upstream proof chain is certified. This report does **not** inspect or extend the user-deferred Demailly approximation/regularization, Bergman, weighted L², Ohsawa–Takegoshi, multiscale atlas, or positivity-loss programme.
 
 ## POME-NPP-ROUGH-WEIGHT-CIRCLE-001
@@ -10,8 +10,8 @@
 
 **Exact integrated sources:**
 
-- \`docs/sections/non-pluripolar-products--capacity-convergence-and-loss-of-mass/index.html\`, blob \`d66813856cb813722806ab912afdfd4815d2da97\`: Corollary **13.7.9**, source \`data-tag=82DB3E57\`, permanent tag \`D73416504271\`, physical lines **176–209**, especially the quasi-continuity hypothesis at 176, mass hypothesis at 180–184, and weighted continuity proof at 190–208. Theorem **13.7.5**, source \`AB4EBE3B\`, permanent \`67C4F7EC316E\`, lines 107–134. Example **13.7.6**, source \`D5678E03\`, permanent \`ACAEA8D8BE87\`, line 139.
-- \`docs/sections/bedford-taylor-products-and-local-capacity--quasi-continuity-and-convergence-in-capacity/index.html\`, blob \`464778b7ca6f1a456e36b24ecb4a0c93ab6948d3\`: Definition **7.5.1**, source \`CB3CE5F3\`, permanent \`A2CACA24130B\`, line 11; weighted-continuity Theorem **7.5.8**, source \`2B1AA42A\`, permanent \`42828E3BDDFA\`, lines **172–185**.
+- `docs/sections/non-pluripolar-products--capacity-convergence-and-loss-of-mass/index.html`, blob `d66813856cb813722806ab912afdfd4815d2da97`: Corollary **13.7.9**, source `data-tag=82DB3E57`, permanent tag `D73416504271`, physical lines **176–209**, especially the quasi-continuity hypothesis at 176, mass hypothesis at 180–184, and weighted continuity proof at 190–208. Theorem **13.7.5**, source `AB4EBE3B`, permanent `67C4F7EC316E`, lines 107–134. Example **13.7.6**, source `D5678E03`, permanent `ACAEA8D8BE87`, line 139.
+- `docs/sections/bedford-taylor-products-and-local-capacity--quasi-continuity-and-convergence-in-capacity/index.html`, blob `464778b7ca6f1a456e36b24ecb4a0c93ab6948d3`: Definition **7.5.1**, source `CB3CE5F3`, permanent `A2CACA24130B`, line 11; weighted-continuity Theorem **7.5.8**, source `2B1AA42A`, permanent `42828E3BDDFA`, lines **172–185**.
 - The normalization in these pages is \(\mathrm dd^{\mathrm c}=\frac{\mathrm i}{2\pi}\partial\bar\partial\); the Fubini–Study probability form is \(\omega_{\rm FS}=\mathrm dd^{\mathrm c}\log(1+|z|^2)\) on \(\mathbf P^1\).
 
 **Question.** Can the limit weight's quasi-continuity in Corollary 13.7.9 be dropped while retaining bounded Borel weights, capacity convergence of those weights, uniform convergence of potentials, and *exact conservation of the total masses*? The answer is **no**.
@@ -80,7 +80,7 @@ The open-set Portmanteau inequality for the already proved weak convergence \(T_
 
 **Exact integrated sources:**
 
-- \`docs/sections/hermitian-torsion-and-the-bochner-identity/index.html\`, blob \`4656b430de6ec989ef121eca550afda0be407222\`: Definition/equation **11.48.2**, line 17; \(T_\omega\) equation **11.48.13**, source \`D2AA9D04\`, permanent \`DBCAF8FF0340\`, lines **103–108**; Bochner identity Theorem **11.48.15**, source \`72367915\`, permanent \`E96E372480D4\`, lines 155–197; vanishing Corollary **11.48.20**, source \`B37247AF\`, permanent \`222BB53B613A\`, lines **205–222**; torsion bound Corollary **11.48.21**, source \`7E456199\`, permanent \`5029210C26BC\`, lines **227–244**, especially the estimate at 237–240.
+- `docs/sections/hermitian-torsion-and-the-bochner-identity/index.html`, blob `4656b430de6ec989ef121eca550afda0be407222`: Definition/equation **11.48.2**, line 17; \(T_\omega\) equation **11.48.13**, source `D2AA9D04`, permanent `DBCAF8FF0340`, lines **103–108**; Bochner identity Theorem **11.48.15**, source `72367915`, permanent `E96E372480D4`, lines 155–197; vanishing Corollary **11.48.20**, source `B37247AF`, permanent `222BB53B613A`, lines **205–222**; torsion bound Corollary **11.48.21**, source `7E456199`, permanent `5029210C26BC`, lines **227–244**, especially the estimate at 237–240.
 - Existing §11.48 equation-alias and double-prime rendering defects already recorded elsewhere remain separate; no new editorial rendering defect is registered here.
 
 **Exact algebraic improvement.** Write \(a=\partial\omega\wedge\) on the complete Hermitian exterior algebra (with the bundle \(E\) tensored by its identity). The wedge multiplier has **odd total degree three**. For every three-form \(\alpha\), \(\alpha\wedge\alpha=0\), so
