@@ -3,10 +3,10 @@
 - **Finding:** POME-HARM-HALFSPACE-CONE-GROWTH-SHARP-001
 - **Date:** 2026-11-02
 - **Severity / status:** low / **verified conditional deduction** (not an incorrect printed theorem, not an applied source repair).
-- **Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-- **Integrated source file:** \`docs/sections/kelvin-transforms-and-half-space-potentials/index.html\`, blob \`f2615a5393af724c3996978212162f94911ff9d9\`.
-- **Section:** §3.2, permanent section tag \`9728BD930155\`. Original source variant: \`classical-potential-theory\`.
-- **Direct anchors:** Theorem 3.2.6, source Gerby tag \`1C8A330A\`, permanent tag \`6BC86EEF03A9\`, physical lines **65–75**, representation equation 3.2.7 original \`C0A46F1A\` / permanent \`F3ED29BBAD39\`, lines **66–68**, weighted hypothesis (3.2.8) original \`358F89A3\` / permanent \`8F7C774A9D89\`, lines **70–73**; constructive converse and its derivative domination, lines **111–131**. Crosscheck Theorem 3.2.12, original \`BB6DAC3F\`, permanent \`9ADD2DF19642\`, lines **141–145**, and the nonuniqueness caveat at line **185**.
+- **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+- **Integrated source file:** `docs/sections/kelvin-transforms-and-half-space-potentials/index.html`, blob `f2615a5393af724c3996978212162f94911ff9d9`.
+- **Section:** §3.2, permanent section tag `9728BD930155`. Original source variant: `classical-potential-theory`.
+- **Direct anchors:** Theorem 3.2.6, source Gerby tag `1C8A330A`, permanent tag `6BC86EEF03A9`, physical lines **65–75**, representation equation 3.2.7 original `C0A46F1A` / permanent `F3ED29BBAD39`, lines **66–68**, weighted hypothesis (3.2.8) original `358F89A3` / permanent `8F7C774A9D89`, lines **70–73**; constructive converse and its derivative domination, lines **111–131**. Crosscheck Theorem 3.2.12, original `BB6DAC3F`, permanent `9ADD2DF19642`, lines **141–145**, and the nonuniqueness caveat at line **185**.
 - **Scope:** Only the exact representation and converse hypotheses were inspected, and the additional growth/measure calculations below were independently proved. This does **not** certify Theorem 3.2.6's ball boundary-measure existence proof (lines 80–123), all Kelvin-transform dependencies, the entire §3.2, or the whole project. No Demailly approximation, Bergman, weighted L², Ohsawa–Takegoshi, multiscale-atlas, or positivity-loss programme was opened.
 
 ## Statement with the hypotheses actually used
