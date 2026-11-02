@@ -3,14 +3,14 @@
 **Finding ID:** POME-HERM-COMPDEF-MASS-OSC-001  
 **Date:** 2026-11-02  
 **Severity / classification:** low / **verified conditional deduction** (a sharp new consequence of the printed locality/contact steps; **not a false printed theorem, not a completed repair**).  
-**Production \`main\` reviewed:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
+**Production `main` reviewed:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
 **Scope:** nonexcluded Bedford–Taylor products and Hermitian comparison; no regularization, Bergman, weighted L², Ohsawa–Takegoshi, or positivity-loss proof checked.
 
 ## Exact source anchors
 
-- \`docs/sections/uniqueness-for-degenerate-equations--comparison-and-invariant-mass/index.html\`, main blob \`7683a63656f9b4311a77d1db8e260a1bdc65f0b0\`, **physical lines 33–64**: Theorem **14.25.3**, source label \`non-kahler-pluripotential-theory:27525A10\`, permanent tag \`FE27B72E2DB5\`; Equation **14.25.4**, source \`non-kahler-pluripotential-theory:F7BB1056\`, permanent tag \`A25B3D75AF64\`. The original proof uses ordered contact and plurifine locality before invoking invariant total mass.
-- \`docs/sections/plurisubharmonic-functions-and-singularities--products-with-smooth-backgrounds/index.html\`, main blob \`e2ba89b51376ba0296846221109c664a0c29b2c3\`, **physical lines 48–68**: Lemma **5.28.3**, source \`non-kahler-pluripotential-theory:A262AD55\`, permanent tag \`5087175B2C39\` (ordered contact).
-- \`docs/sections/torsion-and-the-variation-of-mass/index.html\`, main blob \`9abec9685e33a1b40f9c0765381408eb52b325d3\`, **physical lines 69–89, 185–195, 208–240**: Theorem **11.1.5**, source \`non-kahler-pluripotential-theory:2B3316345A4A\` [the source label needs independent verification; permanent tag \`2B3316345A4A\`]; Corollary **11.1.10** permanent tag \`2C05FFD39C6D\`; Example **11.1.12**, source \`non-kahler-pluripotential-theory:028A9E19\`, permanent tag \`F336FEED9D87\`. The example is already printed: it is **not** presented here as a newly discovered counterexample.
+- `docs/sections/uniqueness-for-degenerate-equations--comparison-and-invariant-mass/index.html`, main blob `7683a63656f9b4311a77d1db8e260a1bdc65f0b0`, **physical lines 33–64**: Theorem **14.25.3**, source label `non-kahler-pluripotential-theory:27525A10`, permanent tag `FE27B72E2DB5`; Equation **14.25.4**, source `non-kahler-pluripotential-theory:F7BB1056`, permanent tag `A25B3D75AF64`. The original proof uses ordered contact and plurifine locality before invoking invariant total mass.
+- `docs/sections/plurisubharmonic-functions-and-singularities--products-with-smooth-backgrounds/index.html`, main blob `e2ba89b51376ba0296846221109c664a0c29b2c3`, **physical lines 48–68**: Lemma **5.28.3**, source `non-kahler-pluripotential-theory:A262AD55`, permanent tag `5087175B2C39` (ordered contact).
+- `docs/sections/torsion-and-the-variation-of-mass/index.html`, main blob `9abec9685e33a1b40f9c0765381408eb52b325d3`, **physical lines 69–89, 185–195, 208–240**: Theorem **11.1.5**, source `non-kahler-pluripotential-theory:D4902E5B`, permanent tag `2B3316345A4A`; Corollary **11.1.10** permanent tag `2C05FFD39C6D`; Example **11.1.12**, source `non-kahler-pluripotential-theory:028A9E19`, permanent tag `F336FEED9D87`. The example is already printed: it is **not** presented here as a newly discovered counterexample.
 
 ## Statement (optimal additive defect)
 
