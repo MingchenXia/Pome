@@ -1,3 +1,15 @@
+# 2026-11-02 — Existing internal Lelong proof discharges Hausdorff trace external step
+
+**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. [Full reviewed cross-section proof, tags and anchors](reports/2026-11-02-hausdorff-trace-internal-lelong-proof-dependency.md).
+
+| Stable finding ID | Severity / status | Exact location, mathematical justification, proposed change and affected dependents |
+| --- | --- | --- |
+| **POME-HAUSDORFF-LELONG-INTERNAL-001** | **low / verified repair** of an external mathematical dependency, **proposed not applied**; no false theorem or complete proof-chain certification | \`docs/sections/plurisubharmonic-functions-and-singularities--analytic-types-and-restriction/index.html\` main blob \`cff8b3156b07aff2f3d881d83d04608e87b7f2c8\`, Cor. **5.34.3** source \`non-kahler-pluripotential-theory:5103AFE8\` permanent \`C6F4FBF73B9E\`, lines **74–87** (external proof citation at **80**). The exact \`p=n-j\` current bidimension, Stokes/annular positivity with open-ball left continuity, all-radius good-sphere limit, and compact-center \`μ(B(a,r))≤C_Kr^{2p}\` are **already proved internally** in \`docs/sections/lelong-densities-generalized-masses-and-multiplicity--lelong-densities-of-positive-currents/index.html\` blob \`48bb9c525a826e4d1e337b755fac22aaa3016e66\`, Thm **6.33.1** source \`demailly-complex-geometry:B0B6D8E5\` tag \`7ACCEC6E0526\` lines **25–80**, Cor. **6.33.5** source \`:5906DE01\` tag \`6FD01B620D33\` lines **82–94**, coefficient domination tag \`1C212E45A497\`. Quantitative Hausdorff covering bound \`μ(E)≤2^{2p}C_K H^{2p}(E)\` gives the stated coefficient-measure null-set theorem on Borel \`E⊂K\`. **Propose** replace mandatory \`DemCADG\` proof input at 5.34.3 line 80 with these internal theorem references, but **retain historical DemCADG attribution**. Theorem 6.33.13 on \`H^{2p}(E_c)\` is distinct and must not be canonicalized with this coefficient-null theorem. Prior \`POME-HAUSDORFF-TRACE-EXPONENT-SHARP-001\` and \`POME-LELONG-LEVEL-SHARP-DIM-001\` findings are not repeated or reclassified. This is conditional on existing coefficient domination being valid, not its full dependency-chain audit; impacts downstream positive-current nonconcentration citations only. |
+
+**Actual coverage:** direct new selected cross-section proof/dependency check in *previously sampled* §§5.34.3 and 6.33.1/.5, no newly first-reviewed numbered section or whole-section certificate. **25 chapters / 747 sections / zero entire mathematical sections certified**. Excluded Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme stays **deferred-by-user**, not resolved. Audit-only Markdown; no main/source/site/tags/registry/build/test/CI/formalization work.
+
+---
+
 # 2026-11-02 — Sublogarithmic poles versus equisingular trace
 
 **Main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Exact anchored proof](reports/2026-11-02-zero-lelong-polar-restriction-and-trace.md).
