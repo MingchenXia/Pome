@@ -1,0 +1,7 @@
+# Additive classified audit ledger — 2026-11-02 — §21.9
+
+| Finding ID | Status | Severity | Main SHA | Exact anchor | Mathematics | Action |
+|---|---|---|---|---|---|---|
+| **POME-TORIC-POLYTOPE-TRANSLATION-WEIGHTS-001** | **verified conditional deduction** (not a false printed theorem) | low | b6933b772f41b45918f7e25ed1afbbb1fd892272 | §21.9.2/5, foundations-of-pluripotential-theory:86CCC496 / permanent 7B4A7CC50CDC and :BD98CC5B / permanent 69D3D97E7701; docs/sections/convex-analysis-and-toric-potentials--fans-divisors-and-character-sections/index.html blob 7ad2e6dbdd0ce59e1bf08cd9cb3c046e8c87ff6c, lines 35–39, 57–61, 139–167 | A lattice translation P→P+b preserves the toric base and ordinary line bundle but shifts the divisor by -div chi^b and the **natural equivariant character weights on degree-k sections** by chi^(-kb). The coordinate reindexing makes the underlying basis vectors equal. | Optional addendum after Thm 21.9.5; no body modification or status change to older findings. |
+
+[Complete argument and P^1 sign check](../reports/2026-11-02-toric-polytope-translation-and-character-linearization.md). Main 25 chapters / 747 numbered sections / zero whole-section mathematical certifications. Existing outstanding and user-deferred items remain unchanged. This is a new selected §21.9 proof check, not an entire-section certification. The excluded Demailly/Bergman/L2/Ohsawa–Takegoshi/multiscale/positivity-loss programme remains **deferred-by-user**.
