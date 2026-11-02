@@ -8,11 +8,11 @@
 
 ## Exact integrated anchors and scope
 
-- Current-main reading edition: \`docs/sections/locally-conformally-kahler-geometry/index.html\`, Git blob \`6ebf8e604b45d3eb748037af506145273ca3875d\`.
-- Definition 23.2.68, source \`non-kahler-pluripotential-theory:18572B0D\`, permanent tag \`ADA9E5EAD64C\`, physical lines 1224–1235: positive closed complementary-degree representative and the strongly Gauduchon condition.
-- Proposition 23.2.69, source \`non-kahler-pluripotential-theory:40B2088A\`, permanent tag \`4CCB765ECCA2\`, lines 1238–1270: the absence of nonzero positive de Rham-exact \((1,1)\)-currents is equivalent to existence of a strongly Gauduchon metric.
-- Corollary 23.2.70, source \`non-kahler-pluripotential-theory:811BE385\`, permanent tag \`86E2247D209D\`, lines 1280–1303, and equation 23.2.71, source \`non-kahler-pluripotential-theory:8F1CE001\`, permanent tag \`24F2C25D4A8F\`, lines 1282–1284: qualitative cohomological mass bound and compactness.
-- Theorem 23.2.60, source \`non-kahler-pluripotential-theory:B41AA0AF\`, permanent tag \`DB27896B9A96\`, lines 1083–1111: contextual Lee–Gauduchon duality, not needed for the calculation below.
+- Current-main reading edition: `docs/sections/locally-conformally-kahler-geometry/index.html`, Git blob `6ebf8e604b45d3eb748037af506145273ca3875d`.
+- Definition 23.2.68, source `non-kahler-pluripotential-theory:18572B0D`, permanent tag `ADA9E5EAD64C`, physical lines 1224–1235: positive closed complementary-degree representative and the strongly Gauduchon condition.
+- Proposition 23.2.69, source `non-kahler-pluripotential-theory:40B2088A`, permanent tag `4CCB765ECCA2`, lines 1238–1270: the absence of nonzero positive de Rham-exact \((1,1)\)-currents is equivalent to existence of a strongly Gauduchon metric.
+- Corollary 23.2.70, source `non-kahler-pluripotential-theory:811BE385`, permanent tag `86E2247D209D`, lines 1280–1303, and equation 23.2.71, source `non-kahler-pluripotential-theory:8F1CE001`, permanent tag `24F2C25D4A8F`, lines 1282–1284: qualitative cohomological mass bound and compactness.
+- Theorem 23.2.60, source `non-kahler-pluripotential-theory:B41AA0AF`, permanent tag `DB27896B9A96`, lines 1083–1111: contextual Lee–Gauduchon duality, not needed for the calculation below.
 
 The new proof directly checks the normalized positive-current compactness and the de Rham pairing step used in Corollary 23.2.70, and the Hahn–Banach / exact-current separation logic of Proposition 23.2.69. It does not certify all analytic and cohomological prerequisites, all of §23.2, or the overall project.
 
