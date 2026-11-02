@@ -1,13 +1,13 @@
 # Analytic monomial curves: normalization, conductor, and parameter slice (2026-11-03)
 
-**Finding:** \`POME-AN-CURVE-CONDUCTOR-SOCLE-001\` — **low / verified conditional deduction**. This is **not** a false printed theorem or an applied proof repair.  
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+**Finding:** `POME-AN-CURVE-CONDUCTOR-SOCLE-001` — **low / verified conditional deduction**. This is **not** a false printed theorem or an applied proof repair.  
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 
 ## Pinned integrated reading-edition sources
 
-- \`docs/sections/finite-type-algebraic-models-and-analytic-structure-sheaves--analytic-local-models-and-infinitesimal-information/index.html\`, blob \`7a3c24deaab8602c3d2b4be2e31d739f02b5a657\`, **Example 9.60.2**, lines **36–56**, permanent tag \`94F2248906E2\`, original label \`demailly-complex-geometry:74D1BE60\`. Lines 37 and 47–53 identify the analytic local ring and its embedding dimension; lines 38–41 and 55 discuss the special $N=3$ defining ideal.
-- Same file, **Proposition 9.60.1**, lines **11–15, 31–32**, permanent tag \`57433F7B0D87\`, source \`demailly-complex-geometry:2090FB67\`: contextual embedding-dimension statement.
-- \`docs/sections/finite-type-algebraic-models-and-analytic-structure-sheaves--finite-type-models-and-nilpotent-structure/index.html\`, blob \`96eb7c1f6ee63ce6d222ed3f608a242a0a64b7f0\`, **Proposition 9.58.3**, lines **35–61**, permanent tag \`72F3ADBDFF9A\`, source \`demailly-complex-geometry:5EF3B92E\`: local ring conventions, crosschecked only.
+- `docs/sections/finite-type-algebraic-models-and-analytic-structure-sheaves--analytic-local-models-and-infinitesimal-information/index.html`, blob `7a3c24deaab8602c3d2b4be2e31d739f02b5a657`, **Example 9.60.2**, lines **36–56**, permanent tag `94F2248906E2`, original label `demailly-complex-geometry:74D1BE60`. Lines 37 and 47–53 identify the analytic local ring and its embedding dimension; lines 38–41 and 55 discuss the special $N=3$ defining ideal.
+- Same file, **Proposition 9.60.1**, lines **11–15, 31–32**, permanent tag `57433F7B0D87`, source `demailly-complex-geometry:2090FB67`: contextual embedding-dimension statement.
+- `docs/sections/finite-type-algebraic-models-and-analytic-structure-sheaves--finite-type-models-and-nilpotent-structure/index.html`, blob `96eb7c1f6ee63ce6d222ed3f608a242a0a64b7f0`, **Proposition 9.58.3**, lines **35–61**, permanent tag `72F3ADBDFF9A`, source `demailly-complex-geometry:5EF3B92E`: local ring conventions, crosschecked only.
 
 The hypothesis is the **actual printed** analytic local-ring identification for the curve $t\mapsto(t^N,t^{N+1},\ldots,t^{2N-1})$:
 \[
