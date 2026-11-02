@@ -1,0 +1,7 @@
+# Classified audit ledger increment — 2026-11-03 — finite-degree NPP pushforward
+
+| Stable finding ID | Severity | Classification | Source label / permanent tag | Exact location on reviewed main | Result | Proposed treatment / dependencies |
+| --- | --- | --- | --- | --- | --- | --- |
+| POME-NPP-FINITE-DEGREE-PUSH-SECOND-FAIL-001 | low | **verified conditional deduction** | foundations-of-pluripotential-theory:3F4A3A88 / 0811FFDF15B7 | docs/sections/non-pluripolar-products--fiber-integration-and-modifications/index.html, blob 9954a43d90d5cae8ef744968636d7a5912348fce, lines 36–54 | For generic degree d, the NPP pullback followed by pushforward equals d times the original product; the reverse product/pushforward formula is **false** for degree k²>1, even when both source currents are smooth. Explicit f_k on ℙ² has top-degree masses 1 versus k². | Keep the original **modification** hypothesis and two distinct identities. Optional note after §13.6.3; no source edit. Bounded BT cohomological identity §13.5.1 and NPP locality §13.2 are selected internal dependencies; not transitively certified. [Full proof](../reports/2026-11-03-generically-finite-npp-pushforward-and-branched-cross-terms.md). |
+
+Reviewed main: **b6933b772f41b45918f7e25ed1afbbb1fd892272**. Existing confirmed-error/proof-gap/external-input statuses are unchanged; excluded regularization/Bergman/L²/OT/multiscale/positivity-loss programme remains **deferred-by-user**. No whole section is certified, no original theorem is declared false, and no main/source/registry/tag/site/CI update was made.
