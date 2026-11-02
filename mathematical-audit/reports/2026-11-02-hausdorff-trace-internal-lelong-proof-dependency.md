@@ -14,44 +14,44 @@
 ## Exact hypothesis transport and self-contained deduction
 
 Let `X` have complex dimension `n`, let `T` be closed positive of bidegree `(j,j)` with `1≤j<n`, and put `p=n-j≥1`. On a coordinate domain `Ω⊂C^n`, `T` has bidimension `(p,p)`, precisely the quantified class of Theorem 6.33.1. Put
-[
-eta=dd^c|z|^2,qquad mu=Twedgeeta^p,qquad
-D_T(a,r)=r^{-2p}mu(B(a,r)).
-]
+\[
+\beta=dd^c|z|^2,\qquad \mu=T\wedge\beta^p,\qquad
+D_T(a,r)=r^{-2p}\mu(B(a,r)).
+\]
 Theorem 6.33.1 asserts monotonicity for **open** balls, with its half-open-annulus identity and correct left-continuity convention. For any compact inner chart `K⊂Ω` and `0<r_0<dist(K,C^n\setminus Ω)`, Corollary 6.33.5 already states the *uniform-in-center* estimate
-[
-mu(B(a,r))le C_K r^{2p},quad
-C_K=rac{mu(K_{r_0})}{r_0^{2p}},qquad
-ain K,quad 0<rle r_0.
-]
+\[
+\mu(B(a,r))\le C_K r^{2p},\quad
+C_K=\frac{\mu(K_{r_0})}{r_0^{2p}},\qquad
+a\in K,\quad 0<r\le r_0.
+\]
 This is exactly the nontrivial estimate assumed in the printed proof of Corollary 5.34.3.
 
 For completeness, that monotonicity is **proved internally**, rather than merely reasserted: Theorem 6.33.1 first computes, for smooth closed positive `T`,
-[
-r^{-2p}int_{B(0,r)}Twedgeeta^p
- =int_{partial B(0,r)}Twedge d^clog|z|^2
-                  wedge(dd^clog|z|^2)^{p-1}
-]
+\[
+r^{-2p}\int_{B(0,r)}T\wedge\beta^p
+ =\int_{\partial B(0,r)}T\wedge d^c\log|z|^2
+                  \wedge(dd^c\log|z|^2)^{p-1}.
+\]
 by Stokes and the boundary identities
 `d^c|z|²=r²d^c log|z|²`,
 `β|_{∂B_r}=r²(dd^c log|z|²)|_{∂B_r}`.
 Stokes on an annulus yields
-[
+\[
 D_T(0,r_2)-D_T(0,r_1)
- =int_{{r_1le |z|<r_2}}
-       Twedge(dd^clog|z|^2)^pge0.
-]
+ =\int_{\{r_1\le |z|<r_2\}}
+       T\wedge(dd^c\log|z|^2)^p\ge0.
+\]
 The logarithmic Hessian is semipositive by its explicit orthogonal-projection matrix. For general positive closed currents, §6.33.1 passes through **ordinary local convolution of coefficient distributions** (not a Demailly approximation theorem), weak convergence on spheres of zero trace mass, and approximation of arbitrary radii from below. This correctly preserves the open-ball, left-continuous and half-open-annulus conventions. These steps are present in lines **47–80** and were checked here; no global regularization or curvature-loss theorem is needed.
 
 Now let `E⊂K` be Borel. For a sufficiently fine cover of `E` by sets `A_i` of diameters `d_i<r_0/2`, choose `a_i∈E∩A_i` whenever nonempty. The subset `E∩A_i` lies in `B(a_i,2d_i)` (use arbitrarily small positive radii for zero-diameter members); hence
-[
-mu(E)le 2^{2p}C_Ksum_i d_i^{2p}.
-]
+\[
+\mu(E)\le 2^{2p}C_K\sum_i d_i^{2p}.
+\]
 Taking arbitrarily fine diameter-normalized Hausdorff covers proves the slightly **quantitative** consequence
-[
-oxed{ mu(E)le 2^{2p}C_K,mathcal H^{2p}(E) },qquad Esubset K 	ext{Borel}.
-]
-The displayed constant is a safe cover constant, not claimed sharp. In particular `H^{2p}(E)=0` implies `μ(E)=0`. The already integrated coefficient-measure domination (tag `1C212E45A497`) gives `|T_{I\bar J}|(E)≤C_{n,j}mu(E)=0` for every coefficient. A countable inner-chart cover finishes Corollary 5.34.3 on `X` with no external proof input.
+\[
+\boxed{\ \mu(E)\le 2^{2p}C_K\,\mathcal H^{2p}(E)\ },\qquad E\subset K\ \text{Borel}.
+\]
+The displayed constant is a safe cover constant, not claimed sharp. In particular `H^{2p}(E)=0` implies `μ(E)=0`. The already integrated coefficient-measure domination (tag `1C212E45A497`) gives `|T_{I\bar J}|(E)≤C_{n,j}\mu(E)=0` for every coefficient. A countable inner-chart cover finishes Corollary 5.34.3 on `X` with no external proof input.
 
 The proof uses exactly `p=n-j` and the same normalization on both sides. In particular, **no factorial, opposite monotonicity direction, or closed/open-ball substitution** is introduced. The permitted local convolution in §6.33.1 is routine distribution theory, unrelated to the user's excluded regularization programme.
 
