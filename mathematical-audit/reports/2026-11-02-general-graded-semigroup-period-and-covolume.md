@@ -48,7 +48,7 @@ Suppose \(d=n+1\). For every compact \(E\Subset\operatorname{int}K\), we prove t
  (x,k)\in G,\quad k\geq k_E,\quad x/k\in E
  \quad\Longrightarrow\quad (x,k)\in S. \tag{*}
 \]
-Choose finitely many points of \(S\) whose **real positive cone** contains \(E\times\{1\}\) in its interior. Here are the details: each \(v\in E\times\{1\}\) is interior to the closure of the positive cone of \(S\); choose a small simplex around \(v\) whose vertices remain in that interior, approximate its vertices by finite positive combinations of elements of \(S\), and use compactness of \(E\) to select finitely many such simplices. In addition choose finitely many elements of \(S\) generating the abelian group \(G\), possible because every subgroup of \(\mathbb Z^{n+1}\) is finitely generated. Let \(F=\{f_1,\ldots,f_r\}\subset S\) contain both finite families, set \(D=\sum_i\mathbb R_{\geq0}f_i\), and \(M=\sum_i\mathbb N f_i\subseteq S\). Thus \(\operatorname{gp}(F)=G\) and \(E\times\{1\}\Subset\operatorname{int}D\).
+Choose finitely many points of \(S\) whose **real positive cone** contains \(E\times\{1\}\) in its interior. Here are the details: each \(v\in E\times\{1\}\) is interior to the closure of the positive cone of \(S\); choose a small simplex around \(v\) whose vertices remain in that interior, approximate its vertices by finite positive combinations of elements of \(S\), and use compactness of \(E\) to select finitely many such simplices. In addition choose finitely many elements of \(S\) generating the abelian group \(G\), possible because every subgroup of \(\mathbb Z^{n+1}\) is finitely generated. Discard any zero generator and let \(F=\{f_1,\ldots,f_r\}\subset S\) contain both finite families. Set \(D=\sum_i\mathbb R_{\geq0}f_i\) and \(M=\sum_i\mathbb N f_i\), the monoid of finite nonnegative sums. All \(f_i\) have positive degree, and **every nonzero element of \(M\) lies in \(S\)**, whether or not the original definition of subsemigroup requires \(0\in S\). Thus \(\operatorname{gp}(F)=G\) and \(E\times\{1\}\Subset\operatorname{int}D\).
 
 For any \(y\in D\cap G\), choose nonnegative real coefficients \(t_i\) with \(y=\sum_i t_if_i\). Then
 \[
@@ -56,9 +56,9 @@ For any \(y\in D\cap G\), choose nonnegative real coefficients \(t_i\) with \(y=
  r_y=\sum_i\{t_i\}f_i\in R:=
  G\cap\Bigl\{\sum_i u_if_i:0\leq u_i\leq1\Bigr\}.
 \]
-The bounded set \(R\) is **finite**, since \(G\) is discrete. Each \(r\in R\) is an integral linear combination \(\sum_i z_{r,i}f_i\), because \(F\) generates \(G\) *as a group*. Select an integer \(N\geq0\) with \(N+z_{r,i}\geq0\) for every \(r,i\), and put \(c=N\sum_i f_i\in M\). Then \(c+r\in M\) for every \(r\in R\), and therefore
+The bounded set \(R\) is **finite**, since \(G\) is discrete. Each \(r\in R\) is an integral linear combination \(\sum_i z_{r,i}f_i\), because \(F\) generates \(G\) *as a group*. Select an integer \(N\geq1\) with \(N+z_{r,i}\geq1\) for every \(r,i\), and put \(c=N\sum_i f_i\in S\). Then \(c+r\in M\setminus\{0\}\subseteq S\) for every \(r\in R\), and consequently
 \[
- \boxed{c+(D\cap G)\subseteq M\subseteq S.} \tag{conductor}
+ \boxed{c+(D\cap G)\subseteq M\setminus\{0\}\subseteq S.} \tag{conductor}
 \]
 This is a finite-residue proof; no normality, finite generation of the original \(S\), KK12, or affine semigroup theorem is assumed.
 
