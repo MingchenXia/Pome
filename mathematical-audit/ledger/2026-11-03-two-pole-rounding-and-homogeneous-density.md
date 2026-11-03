@@ -1,0 +1,11 @@
+# Ledger increment — 2026-11-03: analytic two-pole rounded valuation sets
+
+- **ID:** `POME-OKO-TWO-POLE-FLOOR-CEILING-001`.
+- **Severity/status:** low / **verified conditional deduction**. **No incorrect Pome theorem identified.**
+- **Current main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; `docs/sections/the-theory-of-okounkov-bodies--algebraic-partial-okounkov-bodies/index.html`, blob `c661e264cab0995a2a344453039940028feff8e0`; main source `sgpt:F679E79A` / `sgpt:68553106` / `sgpt:DBBE11BD` / `sgpt:1C31F648` / `sgpt:7E7DA8C6`; permanent tags `0F5DB984097B`, `DCCC835656D0`, `AE88967EEE84`, `A653D079A694`, `56E59F7A3150`; physical lines **25–42, 141–169, 250–255, 276–309**.
+- **Exact result:** on `P¹` with `L=O(d)` and analytic two-pole weights `a,b>0` rational, `a+b<d`, ordinary and supremum-growth valuation intervals have respective floor and ceiling endpoints. They have at most two differing lattice values per degree and the identical limiting body `[a,d-b]` and non-pluripolar mass `d-a-b`. Yet ordinary `Γ` need **not** be additive: `d=2,a=b=3/5` gives `(0,1)+(0,1)∉Γ`, whereas `Γ∞` is additive.
+- **Resolution/proposal:** optional precise finite-degree example and canonicalization warning only; no mathematical repair of the printed almost-semigroup theorem. Preserve all prior `POME-OKO-*` findings, particularly the earlier unweighted twisting example and independent denominator-clearing gap; do not reclassify them.
+- **Dependents:** Definition 19.4.17, Theorem 19.4.16, Corollary 19.4.19, equation 19.4.21, and any future valuation-registry canonicalization.
+- **Actual additional proof-step inspection, not a new ID:** §15.25.1 (`non-kahler-pluripotential-theory:6A4C8C89`, permanent `8CE230CD94D4`, blob `0defdec5270db7ff34625b638c9ac2a31264ca4a`, lines 25–69), checking the continuous-test diagonal and conditional scalar bounds; §5.42.7 approximation **deferred-by-user**, unreviewed.
+- **Full independent proof and exact convention:** [two-pole report](../reports/2026-11-03-two-pole-multiplier-rounding-and-almost-semigroup.md).
+- **Coverage:** two previously partly sampled sections with newly selected steps, **not** new whole-section certifications; current ToC remains **25 chapters / 747 numbered sections / zero full mathematical-section certifications**. No main/build/site/CI/formalization/source/registry/tag changes.
