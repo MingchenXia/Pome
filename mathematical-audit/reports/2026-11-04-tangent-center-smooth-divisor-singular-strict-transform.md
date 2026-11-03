@@ -1,14 +1,14 @@
 # Smooth divisors can acquire an A1 singularity under a smooth-center ambient blowup
 
-**Date:** 2026-11-04 (Asia/Shanghai). **Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Finding:** \`POME-MOD-TANGENT-CENTER-STRICT-A1-001\`, **low / verified conditional deduction**. The printed propositions are correct: this is a precisely delimited **counterexample to a stronger unprinted smoothness assertion**, with an explicit local repair on a further blowup, and not a claim of certification of the entire §9.8.
+**Date:** 2026-11-04 (Asia/Shanghai). **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Finding:** `POME-MOD-TANGENT-CENTER-STRICT-A1-001`, **low / verified conditional deduction**. The printed propositions are correct: this is a precisely delimited **counterexample to a stronger unprinted smoothness assertion**, with an explicit local repair on a further blowup, and not a claim of certification of the entire §9.8.
 
 ## Exact integrated passages and provenance
 
-- Main reading edition \`docs/sections/complex-spaces-and-modifications--connected-fibers-and-resolution-models/index.html\`; blob \`6ad8bec31c3089b7eab91f199f5a1eb355a12c40\`.
-- Proposition **9.8.3**, source label \`foundations-of-pluripotential-theory:FCB2677B\`, permanent tag \`2312A839D109\`: **line 37** statement, **lines 43–61** proof, especially **lines 59–61** irreducible strict-transform claim.
-- Definition **9.8.4**, source \`foundations-of-pluripotential-theory:E9F7D8E8\`, permanent tag \`0C92F63F8A00\`, **line 85** (divisor representatives).
-- Lemma **9.8.5(2)**, source \`foundations-of-pluripotential-theory:7C25C2FE\`, permanent tag \`5488C1DAFED2\`, **lines 90–114**, especially **lines 96–100 and 114** (an extra principalization to obtain a smooth representative).
-- Blowup-chart prerequisites are in \`docs/sections/complex-spaces-and-modifications--blowups-and-resolution/index.html\`, blob \`f452f4b1abe5cdfe348ae11fcd934febcfdd570b\`, Proposition **9.6.3**, source \`foundations-of-pluripotential-theory:2959F02B\`, permanent tag \`865FE5EC97E6\`, and Eq. **9.6.4**, source \`foundations-of-pluripotential-theory:5649DBB5\`, permanent tag \`E62F169B3F9F\`, physical lines **49–69**. Only elementary charts are used; no regularization programme is implicated.
+- Main reading edition `docs/sections/complex-spaces-and-modifications--connected-fibers-and-resolution-models/index.html`; blob `6ad8bec31c3089b7eab91f199f5a1eb355a12c40`.
+- Proposition **9.8.3**, source label `foundations-of-pluripotential-theory:FCB2677B`, permanent tag `2312A839D109`: **line 37** statement, **lines 43–61** proof, especially **lines 59–61** irreducible strict-transform claim.
+- Definition **9.8.4**, source `foundations-of-pluripotential-theory:E9F7D8E8`, permanent tag `0C92F63F8A00`, **line 85** (divisor representatives).
+- Lemma **9.8.5(2)**, source `foundations-of-pluripotential-theory:7C25C2FE`, permanent tag `5488C1DAFED2`, **lines 90–114**, especially **lines 96–100 and 114** (an extra principalization to obtain a smooth representative).
+- Blowup-chart prerequisites are in `docs/sections/complex-spaces-and-modifications--blowups-and-resolution/index.html`, blob `f452f4b1abe5cdfe348ae11fcd934febcfdd570b`, Proposition **9.6.3**, source `foundations-of-pluripotential-theory:2959F02B`, permanent tag `865FE5EC97E6`, and Eq. **9.6.4**, source `foundations-of-pluripotential-theory:5649DBB5`, permanent tag `E62F169B3F9F`, physical lines **49–69**. Only elementary charts are used; no regularization programme is implicated.
 
 ## Complete projective countermodel
 
