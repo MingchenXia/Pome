@@ -3,10 +3,10 @@
 **Finding:** POME-RELCAP-ZEROLELONG-NO-UNIVERSAL-POWER-001  
 **Date:** 2026-11-03  
 **Severity/status:** low / **verified conditional deduction** (independent quantitative sharpness model). **Not** a false printed theorem or a complete certification.  
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
-**Primary integrated reading file:** \`docs/sections/envelopes-and-model-potentials--comparison-of-relative-capacities/index.html\`, blob \`1c209671c3de0740018b2aaad7aa321f5647313d\`.  
-**Main anchors:** §16.27.15 (source \`foundations-of-pluripotential-theory:106FDCD9\`, permanent \`A285A0B9F4B7\`, physical lines 217–259, especially the tail-dependent comparison (16.27.16), lines 227–256); §16.27.17 (source \`foundations-of-pluripotential-theory:207C29D0\`, permanent \`337360EF765B\`, physical lines 262–289).  
-**Definition and nonduplicate comparison:** \`docs/sections/envelopes-and-model-potentials--singularity-constraints-and-relative-capacity/index.html\`, blob \`4207ba03590b2988456f1df4da4123e1e572c8de\`: Definition 16.25.5 (source \`foundations-of-pluripotential-theory:0AAB93DD\`, permanent \`E9BD67F94210\`, lines 104–108); Proposition 16.25.6 (source \`foundations-of-pluripotential-theory:2C3BA6F2\`, permanent \`1587DBB4654F\`, lines 113–135).
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
+**Primary integrated reading file:** `docs/sections/envelopes-and-model-potentials--comparison-of-relative-capacities/index.html`, blob `1c209671c3de0740018b2aaad7aa321f5647313d`.  
+**Main anchors:** §16.27.15 (source `foundations-of-pluripotential-theory:106FDCD9`, permanent `A285A0B9F4B7`, physical lines 217–259, especially the tail-dependent comparison (16.27.16), lines 227–256); §16.27.17 (source `foundations-of-pluripotential-theory:207C29D0`, permanent `337360EF765B`, physical lines 262–289).  
+**Definition and nonduplicate comparison:** `docs/sections/envelopes-and-model-potentials--singularity-constraints-and-relative-capacity/index.html`, blob `4207ba03590b2988456f1df4da4123e1e572c8de`: Definition 16.25.5 (source `foundations-of-pluripotential-theory:0AAB93DD`, permanent `E9BD67F94210`, lines 104–108); Proposition 16.25.6 (source `foundations-of-pluripotential-theory:2C3BA6F2`, permanent `1587DBB4654F`, lines 113–135).
 
 ## Precise statement
 
@@ -37,17 +37,15 @@ Use the affine coordinate \(z=Z_1/Z_0\), \(p=\{z=0\}\), and put
  \quad dd^c=\frac{i}{2\pi}\partial\bar\partial .
 \]
 
-Fix \(0<\epsilon<1/4\), and define an increasing convex \(C^1\) function on \((-\infty,0]\) by
+Fix \(0<\epsilon<1/4\). Choose a smooth function \(\chi:(-\infty,0]\to[0,1]\) with \(\chi=1\) for \(t\le-3\) and \(\chi=0\) for \(t\ge-2\). Define the smooth, increasing, convex function \(H:(-\infty,0]\to\mathbf R\) uniquely by requiring
 
 \[
- H(t)=
- \begin{cases}
- -\epsilon(-t)^\alpha,&t\le-2,\\
- -\epsilon2^\alpha+\epsilon\alpha2^{\alpha-1}(t+2),&-2\le t\le0.
- \end{cases}
- \qquad
- 0\le H'\le \epsilon\alpha2^{\alpha-1}<1.
+ H(t)=-\epsilon(-t)^\alpha\quad(t\le-3),\qquad
+ H''(t)=\epsilon\alpha(1-\alpha)(-t)^{\alpha-2}\chi(t)\quad(t\le0).
 \]
+
+The second derivative vanishes for \(t\ge-2\), so \(H\) is affine there, and
+\(0\le H'\le\epsilon\alpha2^{\alpha-1}<1/4\). Moreover \(H\le-\epsilon(-t)^\alpha\le0\), because both functions agree with their first derivatives at \(-3\), while \(H''\) is no larger than the second derivative of the right-hand side. In particular \(H'(-\infty)=0\). This smoothing is only an **elementary one-variable convex interpolation** and has no connection with the excluded Demailly regularization programme.
 
 Let \(\psi_\alpha=H(g)\). The convex chain rule on \(X\setminus\{p\}\) gives
 
@@ -85,7 +83,7 @@ For the radial function \(\psi_\alpha\), letting \(r=e^{-T}\) and \(g_r=\log(r^2
  \mu_{\psi_\alpha}(K_T)
  =\frac{r^2+H'(g_r)}{1+r^2}
  =\frac{r^2+\epsilon\alpha(-g_r)^{\alpha-1}}{1+r^2}
- \asymp T^{\alpha-1}\qquad(T\ge4).
+ \asymp T^{\alpha-1}\qquad(T\ge8).
  \tag{2}
 \]
 
@@ -100,7 +98,7 @@ For **every** admissible \(u\in[\psi_\alpha-1,\psi_\alpha]\), Jensen convexity g
  \tag{3}
 \]
 
-Here \(M_{\psi_\alpha}\) is explicit and radial. For \(T\ge4\),
+Here \(M_{\psi_\alpha}\) is explicit and radial. For \(T\ge8\),
 
 \[
  M_{\psi_\alpha}(-T/2)-M_{\psi_\alpha}(-T)
@@ -124,7 +122,7 @@ For every competitor \(v\in\mathrm{PSH}(X,\omega)\) with \(-1\le v\le0\), its Je
  \tag{4}
 \]
 
-For the reverse inequality choose \(T\ge4\) and the global admissible potential
+For the reverse inequality choose \(T\ge8\) and the global admissible potential
 
 \[
  v_T=\max\left\{\frac{g}{4T},-1\right\}.
