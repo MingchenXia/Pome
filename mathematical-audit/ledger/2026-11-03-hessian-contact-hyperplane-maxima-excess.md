@@ -1,0 +1,9 @@
+# Additive classification — 2026-11-03 — strict Hessian maximum contact mass
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. Stable finding **`POME-HESS-MAX-CONTACT-SINGULAR-EXCESS-001`**, **severity low**, **status verified conditional deduction**. Printed Theorem 8.12.2 remains true; this is a fully computed counterexample to a *hypothetical equality strengthening*, not a false Pome statement.
+
+**Pinned primary anchor:** `docs/sections/complex-hessian-equations--locality-and-maxima-of-bounded-potentials/index.html` blob `8750df56019c14e16704607ca20fa8b90f137fb0`; Theorem 8.12.2, source `non-kahler-pluripotential-theory:D838B734`, permanent `655B0BBF4F9C`, lines 37–59; Proposition 8.12.1 source `non-kahler-pluripotential-theory:C5CC915B`, permanent `9989CBEEE646`, lines 10–30. **Condition:** compact `n`-dimensional complex torus, `2<=m<n`, smooth strictly admissible `u,v`, `w=max(u,v)`.
+
+**Finding:** for each `1<=r<=m`, the contact-set excess equals `r t(n-1)!/(4pi) delta(x_1)dx_1 wedge dy_1 wedge beta_2 wedge ... wedge beta_n` in a chart with `u=0,v=t Re(z_1)`, a positive nonzero hypersurface measure. Derivation uses the `dd^c=i/(2pi)partial barpartial` normalization and the exact recursion `D_2(w,w)=dd^c(w dd^c w)=0`, since `w=0` on its distributional Hessian support. Details and full hypotheses: [dated mathematical report](../reports/2026-11-03-hessian-contact-hyperplane-maxima-excess.md).
+
+**Correction/dependents:** optional warning, not an amendment to the theorem; retain inequality rather than equality in downstream §8.13 and other contact/locality arguments. **Coverage:** selected §§8.12.1–2 newly checked by explicit model, §8.9 merely definition/normalization crosschecked. Previous ledger statuses unchanged; excluded Demailly/regularization/Bergman/L²/OT/multiscale/positivity-loss remains deferred-by-user. No full-section certificate, CI, build or publication.
