@@ -15,7 +15,7 @@
 
 Relevant *established internal* inputs, crosschecked for exact mathematical content, not recertified:
 docs/sections/harmonic-functions-and-the-dirichlet-problem/index.html, blob fc02188d6e246a21aa07acd8bf6d3712761ba6e5:
-Theorem 3.1.7 (interior derivative estimate (3.1.8)), permanent A60BA3B2DBFC, physical lines **138–149**; Proposition 3.1.19 (local Harnack), permanent DAC835A39525, physical lines **365–414**; Theorem 3.1.11 (Weyl's lemma), permanent C9127FBA9AE8, physical lines **210 onward**. Their proofs are *dependencies*, not newly independently certified here.
+Theorem 3.1.7 (interior derivative estimate (3.1.8)), permanent A60BA3B2DBFC, physical lines **136–149**; Proposition 3.1.19 (local Harnack), permanent DAC835A39525, physical lines **365–414**; Theorem 3.1.11 (Weyl's lemma), permanent C9127FBA9AE8, physical lines **210 onward**. Their proofs are *dependencies*, not newly independently certified here.
 
 ## Precise strengthening
 
