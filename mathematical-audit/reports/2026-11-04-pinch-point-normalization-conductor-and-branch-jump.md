@@ -7,12 +7,12 @@
 
 ## Pinpointed integrated targets (physical HTML lines)
 
-- File: \`docs/sections/complex-spaces-and-modifications--reduced-spaces-and-normalization/index.html\` (main blob \`06439f43d1ce8e83d2529682c9a630bffa3d9c22\`).
-- Weakly holomorphic definition, line **34**; Proposition **9.4.3**, source \`foundations-of-pluripotential-theory:AC231B8D\`, permanent tag \`36422A732754\`, lines **52–79** (integral closure and finite limits on an *irreducible germ*).
-- Lemma **9.4.4**, source \`foundations-of-pluripotential-theory:E60680A7\`, permanent \`D73CC9F08C05\`, lines **87–108** (analytic non-normal locus and conductor-like endomorphism sheaf).
-- Lemma **9.4.5**, source \`foundations-of-pluripotential-theory:571B5EA0\`, permanent \`58E87F89D557\`, lines **116–136** (local finite normalization and branch fibres).
-- Theorem **9.4.6**, source \`foundations-of-pluripotential-theory:7042BB57\`, permanent \`12A47DB401E2\`, lines **141–159** (global normalization, exact pushforward sheaf).
-- Definition **9.4.8**, source \`foundations-of-pluripotential-theory:C9F1CBB2\`, permanent \`0E1E539882AD\`, line **180**; Corollary **9.4.9**, source \`foundations-of-pluripotential-theory:405861C0\`, permanent \`EE1633042D3D\`, lines **184–191** (global unibranch hypothesis).
+- File: `docs/sections/complex-spaces-and-modifications--reduced-spaces-and-normalization/index.html` (main blob `06439f43d1ce8e83d2529682c9a630bffa3d9c22`).
+- Weakly holomorphic definition, line **34**; Proposition **9.4.3**, source `foundations-of-pluripotential-theory:AC231B8D`, permanent tag `36422A732754`, lines **52–79** (integral closure and finite limits on an *irreducible germ*).
+- Lemma **9.4.4**, source `foundations-of-pluripotential-theory:E60680A7`, permanent `D73CC9F08C05`, lines **87–108** (analytic non-normal locus and conductor-like endomorphism sheaf).
+- Lemma **9.4.5**, source `foundations-of-pluripotential-theory:571B5EA0`, permanent `58E87F89D557`, lines **116–136** (local finite normalization and branch fibres).
+- Theorem **9.4.6**, source `foundations-of-pluripotential-theory:7042BB57`, permanent `12A47DB401E2`, lines **141–159** (global normalization, exact pushforward sheaf).
+- Definition **9.4.8**, source `foundations-of-pluripotential-theory:C9F1CBB2`, permanent `0E1E539882AD`, line **180**; Corollary **9.4.9**, source `foundations-of-pluripotential-theory:405861C0`, permanent `EE1633042D3D`, lines **184–191** (global unibranch hypothesis).
 
 ## Complete calculation
 
@@ -85,6 +85,6 @@ The middle identification uses that $I$ contains the nonzerodivisor $y$. This in
 
 **Suggested text-only addition (not applied):** insert the above pinch-point computation as an example after Corollary 9.4.9, illustrating the distinction between a one-point fibre and a globally unibranch space, with the exact conductor as an optional companion to Lemma 9.4.4. Keep all source attribution and permanent tags. **Affected readers/dependents:** hypotheses of Definition 9.4.8/Corollary 9.4.9 and normalization-based descent in §§9.9–9.11; no downstream theorem is claimed false.
 
-**Pre-existing issue explicitly left unchanged:** the separately logged global-gluing countability/paracompactness proof-step finding \`POME-NORM-COUNTABLE-COVER-001\` and the proposed repair \`POME-NORM-PERFECT-PARACOMPACT-REPAIR-001\` have already been reviewed; this report neither reopens nor resolves them.
+**Pre-existing issue explicitly left unchanged:** the separately logged global-gluing countability/paracompactness proof-step finding `POME-NORM-COUNTABLE-COVER-001` and the proposed repair `POME-NORM-PERFECT-PARACOMPACT-REPAIR-001` have already been reviewed; this report neither reopens nor resolves them.
 
 **Coverage boundary:** new, complete calculation of this particular two-dimensional analytic normalization and the selected cited proof clauses; no full §9.4, Theorem 9.4.6 in arbitrary spaces, or transitive analytic-coherence proof certification. The main ToC remains 25 chapters / 747 sections, with zero mathematical sections completely certified. All owner-excluded work remains **deferred-by-user**. No build, tests, CI, source edit, automatic publication, or formal verification.
