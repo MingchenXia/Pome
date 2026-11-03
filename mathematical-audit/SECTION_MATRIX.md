@@ -1,3 +1,15 @@
+# Coverage increment — 2026-11-04 — metric curvature ranks versus intrinsic graded growth
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **`POME-SECTION-CURVRANK-METRIC-DEPENDENCE-001` — low / verified conditional deduction; no original theorem is refuted.** A fixed `n`-dimensional complex torus and **one fixed trivial line bundle** have smoothly varying Hermitian metrics with `r_h^+=r=0,...,n`, while `h^0(X,L^p)=1`, `kappa(L)=0`, and `chi(X,L^p tensor E)` is independent of `p`. This shows that maximum **pointwise** curvature rank and rank on its semipositive locus are not intrinsic growth exponents. Exact curvature differentiation, local semipositivity locus, and cohomological cancellation are proved in the [complete source-tagged report](reports/2026-11-04-torus-curvature-rank-versus-graded-growth.md); see also [classified finding](ledger/2026-11-04-metric-curvature-rank-versus-intrinsic-growth.md).
+
+| Actual current ToC section | Precisely new content and anchors | Status / scope boundary |
+| --- | --- | --- |
+| **19.9** Flags, convex bodies and section growth | Main `docs/sections/flags-convex-bodies-and-section-growth/index.html`, blob `83557f0e15275253661fe679c75407e6636d497c`; Proposition **19.9.19** source `non-kahler-pluripotential-theory:77A30A69` / tag `C8B2CB1B6819`, lines **391–426**; Corollary **19.9.20** `:CBB2BC97` / `14480FFA5B57`, lines **430–448**; Proposition **19.9.23** `:04D312FB` / `5C0C7B20BA7A`, lines **503–516**. | First independent all-rank **metric-variation model** and section/Euler check on a *fixed* `(X,L)`, not an external-proof replacement, complete §19.9 certification, or a reinterpretation of previously checked Example 19.9.25. The printed bounds remain correct; source history/tags unaffected. |
+
+Actual ToC retained **25 chapters / 747 numbered sections / zero completely verified mathematical sections**. Existing confirmed errors, proof gaps, original external inputs and previously deferred items remain in their original categories. User-excluded Demailly approximation/regularization, dedicated Bergman, weighted L², OT, multiscale and positivity-loss proofs remain **deferred-by-user**. Audit Markdown only, no main/source/site/test/CI/publication edits.
+
+---
+
 # Coverage increment — 2026-11-04 — pinch-point normalization, conductor, and jumping branches
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **POME-NORM-PINCH-CONDUCTOR-BRANCH-JUMP-001 — low / verified conditional deduction, no original theorem refuted.** Newly calculated the exact two-dimensional pinch-point normalization $\nu(y,t)=(yt,y,t^2)$ of $x^2=y^2z$, the conductor $\mathfrak c=(x,y)$, weakly holomorphic $x/y$, $\widetilde{\mathcal O}_X/\mathcal O_X\simeq\mathcal O_{\{x=y=0\}}$ locally, and $\operatorname{End}(\sqrt{(y)})=\widetilde{\mathcal O}_X$. The single fibre at the unibranch origin coexists with two-point fibres at nearby singular-axis points. The printed §9.4.9 **global** unibranch hypothesis is essential and respected; this is not the earlier one-dimensional conductor model or the already logged normalization-gluing countability defect.
