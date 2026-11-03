@@ -78,7 +78,7 @@ For \(m=2^k-1\) (\(k\geq2\)),
 \]
 Thus **no estimate \(e_m\leq C(u,Y,\omega)/m\) holds for all positive integers \(m\)** even for this one fixed positive current on \(\mathbf P^2\). A direct bound for all \(m\geq1\), with \(k=\lfloor\log_2m\rfloor\), is
 \[
- 0\leq e_m<
+ 0\leq e_m\leq
  \frac{k}{m}+\sum_{j>k}2^{-j}
  \leq\frac{k+2}{m}.
 \]
