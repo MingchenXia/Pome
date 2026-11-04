@@ -1,0 +1,13 @@
+# Additive current-ToC coverage matrix — 2026-11-04 — unbounded maximality / top NPP
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. This is an **additive increment** to [SECTION_MATRIX.md](../SECTION_MATRIX.md), not a replacement, and uses the actual current ToC (25 chapters, 747 numbered sections).
+
+| Actual current ToC section | Exact newly checked source/proof step | Status / remaining audit |
+| --- | --- | --- |
+| **17.8 Energy along weak geodesics** | Lemma **17.8.1** forward-only statement, physical lines 7, 11–37 of `docs/sections/relative-energy-and-perron-segments--energy-along-weak-geodesics/index.html`, blob `8d9b7af925289346c96df751c67049e90c9dfe1d`, source `foundations-of-pluripotential-theory:9DEC569D`, permanent `950F051CF55A`; selected forward application in Theorem 17.8.3 lines 95–103. Explicit `log|z|^2` counterexample demonstrates converse is false. | `POME-MAX-NPP-ZERO-NONCONVERSE-001` / low, **verified conditional deduction**; no theorem refutation. General energy affine proof upstream still conditional. Previously sampled section; no full certification. |
+| **7.7 The homogeneous Dirichlet problem and balayage** | Definition **7.7.6** `foundations-of-pluripotential-theory:4A1DBBE1` / `FD8547B922C9`; Theorem **7.7.7** `:5C75D8E4` / `BCFDDA1FCB7A`, physical lines 160–174, `docs/sections/bedford-taylor-products-and-local-capacity--the-homogeneous-dirichlet-problem-and-balayage/index.html`, blob `928f3d3e36f2d03a42623b91487ecec7d189e6c7`. | Verified model shows its **locally bounded** qualifier is important when comparing with NPP vanishing. General bounded theorem already partially reviewed, not fully certified. |
+| **13.2 Truncation and plurifine locality** | Definition **13.2.4** `foundations-of-pluripotential-theory:9D8E4DD8` / `D79952D7E272`, physical lines 7–13, 35–63, `docs/sections/non-pluripolar-products--truncation-and-plurifine-locality/index.html`, blob `81be8c5acc360c96bd3c5acba05a3cdb5fafaf4c`. All strict-cutoff measures on the radial example are *individually zero*. | Verified direct application of the **definition**, not full foundational proof of non-pluripolar products; general locality dependencies unverified. |
+
+[Source-anchored proof](../reports/2026-11-04-unbounded-maximality-versus-zero-npp.md) · [classified ledger](../ledger/2026-11-04-maximality-zero-npp-nonconverse.md).
+
+**Unresolved/deferred:** older findings retain their classifications; all user-excluded Demailly regularization, Bergman, weighted-L²/OT, multiscale and positivity-loss programme entries remain **deferred-by-user**, not resolved. Zero newly complete sections, no source/production main/tags/registry/tests/build/CI/site updates.
