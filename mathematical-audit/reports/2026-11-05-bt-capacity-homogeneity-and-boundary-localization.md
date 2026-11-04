@@ -1,12 +1,12 @@
 # Bedford–Taylor capacity: homogeneous exponent and compact localization
 
-**Date (Asia/Shanghai):** 2026-11-05. **Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-**Integrated reading file:** \`docs/sections/bedford-taylor-products-and-local-capacity--bounded-measurable-densities/index.html\`,
-blob \`762b841b0cb243784dc988f04dbf2779da66c469\`.
+**Date (Asia/Shanghai):** 2026-11-05. **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+**Integrated reading file:** `docs/sections/bedford-taylor-products-and-local-capacity--bounded-measurable-densities/index.html`,
+blob `762b841b0cb243784dc988f04dbf2779da66c469`.
 This is a fresh **proof-level** check of Lemma 7.10.1 and the negative-tail estimate in the proof of Theorem 7.10.2, not a complete review of the section or its Bedford–Taylor prerequisites.
 
-- **Lemma 7.10.1:** source label \`foundations-of-pluripotential-theory:74804636\`; permanent tag \`C09E42A43E93\`; printed statement physical lines **11–13**, proof **19–33**.
-- **Theorem 7.10.2:** source label \`foundations-of-pluripotential-theory:9C25B561\`; permanent tag \`C9116FCEFCD2\`; statement physical lines **38–45**; reviewed proof segment **64–78**, with barriers and bounded-mass assumptions at **54–62**. Equation (7.9.3), source tag \`0390D064\` / permanent \`B8751A529320\`, is **context only** (line 42).
+- **Lemma 7.10.1:** source label `foundations-of-pluripotential-theory:74804636`; permanent tag `C09E42A43E93`; printed statement physical lines **11–13**, proof **19–33**.
+- **Theorem 7.10.2:** source label `foundations-of-pluripotential-theory:9C25B561`; permanent tag `C9116FCEFCD2`; statement physical lines **38–45**; reviewed proof segment **64–78**, with barriers and bounded-mass assumptions at **54–62**. Equation (7.9.3), source tag `0390D064` / permanent `B8751A529320`, is **context only** (line 42).
 - **Standing normalization:** \(\eta=dd^c|z|^2\), \(dd^c=\frac{i}{2\pi}\partial\bar\partial\). Thus \(\eta^n=(n!/\pi^n)\,dV_{2n}\) and \(\int_{B_1}\eta^n=1\).
 
 ## POME-BT-CAP-EXPONENT-HOMOGENEITY-001
