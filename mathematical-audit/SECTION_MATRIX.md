@@ -1,3 +1,16 @@
+# Coverage increment — 2026-11-04 — balanced Hermitian total-mass saddle
+
+**Production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete new proof](reports/2026-11-04-balanced-hermitian-mass-saddle-on-three-torus.md) · [additive status ledger](ledger/2026-11-04-balanced-torus-indefinite-mass-hessian.md).
+
+| Current actual ToC section | Exact newly verified mathematical scope and main anchors | Classification / limits |
+| --- | --- | --- |
+| **11.1 Torsion and the variation of mass** (previously sampled) | `docs/sections/torsion-and-the-variation-of-mass/index.html`, main blob `9abec9685e33a1b40f9c0765381408eb52b325d3`. Theorem 11.1.5 source `non-kahler-pluripotential-theory:D4902E5B`, permanent `2B3316345A4A`, lines **68–94**; Chiose Thm 11.1.7 `:5CD99CBA` / `FB90FC741F25`, lines **99–157**; Prop 11.1.8 `:940AB63B` / `5C29873687ED`, lines **161–174**. New independent exact determinant calculation gives (M(\epsilon f g)=6-(3\epsilon^2/8)\int f^2c''), both signs and zero first derivative at balanced metric. | `POME-HERM-BALANCED-MASS-SADDLE-001`, **low / verified conditional deduction**; printed statements correct. Smooth example only; no bounded-potential approximation review. |
+| **11.23 The adjoint measure of the linearization** (previously sampled) | `docs/sections/gauduchon-metrics-and-linear-mass--the-adjoint-measure-of-the-linearization/index.html`, blob `519e50338be6560f6b2856fddce212738f5109bc`. Existing Example 11.23.5 source `non-kahler-pluripotential-theory:324594DA` / tag `28F39F2B7C2C`, lines **76–99**. New quantitative contrast: printed (f=1) deformation leaves mass fixed while no longer Gauduchon; nearby *other* directions have both mass signs. | New model-specific insight only, **not** duplicate prior torsion/persistence proofs. No full §11.23 verification. |
+
+The chapter/section inventory retains **25 chapters / 747 numbered ToC sections / zero completely mathematically certified sections**. Previously logged errors, gaps, candidate/external-dependency/duplication/repair classifications retained. The explicitly excluded Demailly approximation/regularization, Bergman, weighted-L², OT, multiscale and positivity-loss programme remains **deferred-by-user**. Only audit Markdown; no main/source/registry/tags, formalization, CI, builds, tests or publication.
+
+---
+
 # Coverage increment — 2026-11-04 — exceptional mixed NPP and optimal extended-capacity atlas constant
 
 **Production main reviewed:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Full proof and exact source anchors](reports/2026-11-04-modification-products-and-sharp-extended-capacity-atlas.md) · [additive classification](ledger/2026-11-04-modification-pushforward-and-atlas-distortion.md).
