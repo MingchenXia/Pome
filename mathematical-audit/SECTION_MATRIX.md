@@ -1,3 +1,17 @@
+# Coverage increment — 2026-11-04 — birational Okounkov flags and nested resolution compatibility
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. [Complete proof and precisely pinned observations](reports/2026-11-04-okounkov-flag-birational-matrices-and-resolution-audit.md) · [classified ledger](ledger/2026-11-04-okounkov-flag-correction-and-integrated-locator.md).
+
+| Actual current ToC section | Exactly new reading, tags and main line anchors | Status and remaining gaps |
+| --- | --- | --- |
+| **19.3 Flags and valuations** | docs/sections/the-theory-of-okounkov-bodies--flags-and-valuations/index.html, main blob 9190d2ae0d3e51ca0ca965000cb9b5b2ec965c85. New two-blowup coordinate verification of Definition 19.3.12 sgpt:E615C683 / E494C67EB4B8, lines 161–179; Eq. 19.3.13 sgpt:827D77FC / 63511F34173E; Prop. 19.3.14 sgpt:DD7439A2 / D094DD00A592, lines 183–236; Prop. 19.3.17 sgpt:6A0E92BC / 8D2910CD1CEC and Eq. 19.3.18 sgpt:E051E414 / 1C158885A628, lines 241–305. First direct §19.3.19 nested-resolution proof-step inspection, sgpt:44C3D868 / B00AB5301F7A, lines 311–332; trace notation on line 179 and untagged source-era equation label "10.14" on lines 183–188. | New verified model **POME-OKO-FLAG-TWO-BLOWUPS-001**; medium **candidate** possible compatible-resolution proof gap **POME-OKO-FLAG-NESTED-RESOLUTION-001**; low **candidate** typed trace input **POME-OKO-FLAG-TRACE-INPUT-001**; low **confirmed editorial** locator defect **POME-OKO-FLAG-PRINTED-LABEL-001**. No printed false mathematical theorem, no full §19.3 certification. |
+| **20.2 The trace operator** | Context only: docs/sections/the-trace-operator/index.html, blob 1f3a3e4f0317a308b43bd3df53dda84c5f3fa50a, lines 49–71, ambient-to-subvariety trace convention. | Not a new audit of trace construction or Demailly regularization. |
+| **9.10 Complex spaces** | Context only: Hironaka's Chow lemma, permanent 3CD8BF9158DD, docs/tag/3CD8BF9158DD/index.html, blob d18c8ad0d4a849626e9cf982293e9eb0266915af. | Only domination is stated by the cited result; simultaneous nested embedded resolution must be specified if invoked. |
+
+Actual collection has **25 chapters, 747 numbered ToC sections, zero complete mathematical-section certifications**. Prior §19.4.7 POME-OKO-FLAG-ON-MODEL-001 and all existing findings unchanged, no duplicate. Demailly approximation/regularization and dedicated Bergman/weighted-L²/OT/multiscale/positivity-loss completion remain **deferred-by-user**. Only audit Markdown; no production main/source/tag/registry/CI/build/tests/website edits.
+
+---
+
 # Coverage increment — 2026-11-04 — rooftop divisorial threshold and limiting-cone maximality
 
 **Production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Two new low / verified conditional deductions, printed theorems correct:** `POME-ROOF-EXTRAPOLATION-DIVISOR-THRESHOLD-001` and `POME-GAUD-LIOUVILLE-MAXIMALITY-NECESSARY-001`. [Complete independent proof](reports/2026-11-04-rooftop-threshold-and-cone-maximality-models.md) · [classified ledger](ledger/2026-11-04-rooftop-divisor-threshold-and-admissible-cone-model.md).
