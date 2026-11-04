@@ -1,0 +1,10 @@
+# Current-ToC coverage increment — 2026-11-05 — bounded-density Bedford–Taylor comparison
+
+**Production main** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\` (unchanged); **25 chapters / 747 numbered ToC sections / zero complete mathematical-section certifications**. [Mathematical report](../reports/2026-11-05-bt-capacity-homogeneity-and-boundary-localization.md) · [resolved/unresolved classification](../ledger/2026-11-05-bt-capacity-homogeneity-and-boundary-localization.md).
+
+| Current actual section | Newly reviewed exact scope | Status / unresolved chain |
+| --- | --- | --- |
+| **7.10 Bounded measurable densities** | First direct **independent homogeneity and localization check** of Lemma **7.10.1** source \`foundations-of-pluripotential-theory:74804636\`, permanent \`C09E42A43E93\`, lines **11–13, 19–33**; fresh negative-tail proof inspection Theorem **7.10.2** source \`:9C25B561\`, permanent \`C9116FCEFCD2\`, lines **54–78**. Main \`docs/sections/bedford-taylor-products-and-local-capacity--bounded-measurable-densities/index.html\` blob \`762b841b0cb243784dc988f04dbf2779da66c469\`. | **POME-BT-CAP-EXPONENT-HOMOGENEITY-001** and **POME-BT-CAP-LOCALIZATION-NECESSARY-001**, both **low / verified conditional deduction**, printed lemma correct. General comparison principle 7.3.11, mixed products 7.2.2/7.3.7, capacity and quasi-continuity 7.4/7.5 remain unverified internal dependencies for this pass. |
+| **7.9, 7.5, 7.3** | Only locator and assumption crosschecks for Theorems 7.9.2, 7.5.8, 7.3.11 and Eq. 7.9.3. | **Not newly certified or separately reviewed**. Previously logged findings unchanged. |
+
+All existing full-matrix entries and prior classifications stand. This is **incremental, model/proof-step coverage**, not a whole §7.10 or project certification. User-deferred Demailly approximation/regularization with Bergman, weighted \(L^2\), OT, multiscale and positivity-loss work remains **deferred-by-user**. Only English audit Markdown notes are authorized; no production files, publication or CI.
