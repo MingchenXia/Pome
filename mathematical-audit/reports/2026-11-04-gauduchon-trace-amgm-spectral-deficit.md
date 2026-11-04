@@ -1,19 +1,19 @@
 # Audit 2026-11-04: a quantitative spectral deficit behind Gauduchon trace/Monge–Ampère bounds
 
-**Finding ID:** \`POME-GAUD-AGM-SPECTRAL-DEFICIT-001\`  
+**Finding ID:** `POME-GAUD-AGM-SPECTRAL-DEFICIT-001`  
 **Severity / status:** low / **verified conditional deduction**; the printed propositions are correct, with no identified proof gap.  
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\` (unchanged).  
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272` (unchanged).  
 **Actual scope:** one new quantitative all-dimensional AM–GM deduction and an exact dimension-two model in previously *partially reviewed* §11.5; no whole-section or upstream PDE certification.
 
 ## Pinned integrated reading text and provenance
 
-- \`docs/sections/gauduchon-metrics-and-linear-mass--conservation-of-the-trace-mass/index.html\`, blob \`34af83ff391b5e5590cd9cb10ca4cd2b3faff02c\`, physical lines **11–27**, Proposition **11.5.1** (conservation of the Gauduchon trace); source \`non-kahler-pluripotential-theory:0D4A42C8\`, permanent tag \`828FAD1A35BF\`; equation **11.5.2**, source \`:DF6E472D\`, permanent \`97DCB5703B01\`.
-- Same file, physical lines **57–76**, Proposition **11.5.4**, source \`non-kahler-pluripotential-theory:C78BBFF1\`, permanent \`BFC1330527CA\`; equations **11.5.5** (\`:671B7CA8\` / \`1F99A7154650\`) and **11.5.6** (\`:D615B576\` / \`B78F87EF7411\`).
-- All comparisons use \`dd^c=i ∂∂bar/(2π)\` and **unscaled** exterior powers \`γ^n\`, as in the printed text. This is not a comparison of Bedford–Taylor or non-pluripolar limiting measures.
+- `docs/sections/gauduchon-metrics-and-linear-mass--conservation-of-the-trace-mass/index.html`, blob `34af83ff391b5e5590cd9cb10ca4cd2b3faff02c`, physical lines **11–27**, Proposition **11.5.1** (conservation of the Gauduchon trace); source `non-kahler-pluripotential-theory:0D4A42C8`, permanent tag `828FAD1A35BF`; equation **11.5.2**, source `:DF6E472D`, permanent `97DCB5703B01`.
+- Same file, physical lines **57–76**, Proposition **11.5.4**, source `non-kahler-pluripotential-theory:C78BBFF1`, permanent `BFC1330527CA`; equations **11.5.5** (`:671B7CA8` / `1F99A7154650`) and **11.5.6** (`:D615B576` / `B78F87EF7411`).
+- All comparisons use `dd^c=i ∂∂bar/(2π)` and **unscaled** exterior powers `γ^n`, as in the printed text. This is not a comparison of Bedford–Taylor or non-pluripolar limiting measures.
 
 ## Precise statement and complete elementary proof
 
-Let \`X\` be a compact complex \`n\`-fold, \`γ\` a smooth Gauduchon metric, \`θ\` a smooth real (1,1)-form, and \`u\` a real smooth function for which
+Let `X` be a compact complex `n`-fold, `γ` a smooth Gauduchon metric, `θ` a smooth real (1,1)-form, and `u` a real smooth function for which
 \[
 \eta=\theta+dd^cu>0,\qquad \eta^n=c f\,dV,\qquad c>0,\ f>0.
 \]
@@ -93,9 +93,9 @@ for \(\delta\ne0\). In particular a *nonconstant smooth* Kähler potential gives
 
 ## Mathematical classification / dependencies / proposed addition
 
-- **Status:** \`verified conditional deduction\`, low; original Proposition 11.5.1 and Proposition 11.5.4 are **correct**, not repaired. No false theorem or missing proof is claimed.
+- **Status:** `verified conditional deduction`, low; original Proposition 11.5.1 and Proposition 11.5.4 are **correct**, not repaired. No false theorem or missing proof is claimed.
 - **Verified internal step:** Stokes for smooth potentials and \(dd^c\gamma^{n-1}=0\), plus pointwise elementary inequalities. The earlier integrated Gauduchon metric existence theorem §11.4 and general Hermitian Monge–Ampère existence theorems are **not** needed to derive (*) or (**), and not certified here. The model uses only explicit smooth forms on a flat torus.
 - **Suggested separate reviewable body addition:** following Proposition 11.5.4, state the integrated spectral variance lower bound and surface equality, retaining the printed theorem and its attribution; optionally use the torus model as an example. No source/registry/entry/permanent tag is edited by this audit.
 - **Affected dependents:** any attempted equality or near-equality use of Proposition 11.5.4/Equation 11.5.6 (e.g. smooth Hermitian MA normalization and Gauduchon dual calculations) gains a quantitative anisotropy criterion. This is not a general nonsmooth or polar-measure statement.
 - **Precise coverage:** selected §11.5.1 and §11.5.4 proof and new spectral refinement only. Chapter 11, §11.5 as a whole, and any nonlinear existence/regularity dependency remain **unverified in full**. Actual inventory: 25 chapters / 747 numbered sections / zero entirely mathematically certified sections.
-- **Exclusions:** all Demailly approximation/regularization and dedicated Bergman, weighted \(L^2\), Ohsawa–Takegoshi, multiscale-atlas, positivity-loss proof programmes remain \`deferred-by-user\`, **not resolved**. No project build, tests, formalization, CI, or publication were carried out.
+- **Exclusions:** all Demailly approximation/regularization and dedicated Bergman, weighted \(L^2\), Ohsawa–Takegoshi, multiscale-atlas, positivity-loss proof programmes remain `deferred-by-user`, **not resolved**. No project build, tests, formalization, CI, or publication were carried out.
