@@ -1,3 +1,15 @@
+# Coverage increment — 2026-11-04 — Non-Archimedean Kähler diagonal and semipositive indexing obstruction
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **New, nonexcluded:** `POME-NA-DIAGONAL-KAHLER-COFINALITY-001` and `POME-NA-SEMIPOSITIVE-NONCOFINALITY-001` (both low / verified conditional deductions; original propositions remain *unrefuted*). A complete categorical diagonal reconstruction was proved for the **Kähler** two-parameter inverse limit; two explicit smooth projective examples show the **positive-volume semipositive** indexing extension is not justified by Kähler cofinality alone. The published §22.1.17 cites the different, analytic decreasing-net input §16.4.4; its model-test-curve application is not independently verified here. [Complete anchored report](reports/2026-11-04-nonarchimedean-diagonal-cofinality-and-degenerate-pullbacks.md) · [classified ledger](ledger/2026-11-04-na-cofinality-vs-semi-positive-boundary.md).
+
+| Actual ToC section | New selected proof/statement reading and pinned permanent tags | Status / precise boundary |
+| --- | --- | --- |
+| **22.1** Non-Archimedean pluripotential theory | Main `docs/sections/non-archimedean-pluripotential-theory/index.html` blob `8448d710690ebe1cc28040f9611d05c9d008a961`; §22.1.14 `sgpt:5A9D4C43`/`CCAAC9DA4E2F` physical lines 256–264, §22.1.15 `sgpt:176139CE`/`3943AA7119C5` lines 268–308, §22.1.17 `sgpt:D30D14E9`/`817C1BB3E570` lines 312–319, §22.1.19 `sgpt:93D7BBCD`/`347399E47277` lines 323–337. Context only: §16.4.4 `sgpt:DE839E2D`/`048490BEAC8C`, entry blob `9e66a1fbda45995c256b709f91a6c505e6a15717`. | **First explicit two-index Kähler diagonal proof** and **first degenerate semipositive cofinality countermodels** at these early statements; §22.1 previously partly audited (so not first section coverage). Semipositive extension, birational invariance and analytic §16.4.4 proof chain remain conditional, **not certified**; no new confirmed error/gap. |
+
+Actual current ToC still **25 chapters / 747 numbered sections / zero whole mathematical-section certifications**. Preserve existing error/gap/repair and excluded `deferred-by-user` categories unchanged. Review-only Markdown; no main/source/registry/tags/CI/build/site writes.
+
+---
+
 # Coverage increment — 2026-11-04 — Gauduchon trace versus smooth density: spectral square-root deficit
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **`POME-GAUD-AGM-SPECTRAL-DEFICIT-001` (low / verified conditional deduction; original statements correct)**: newly proved an all-`n` eigenvalue-dispersion lower bound for Equation 11.5.6 and the **exact** surface coefficient, plus the closed/Kähler equality criterion and a nonconstant flat-torus model with positive strict defect. This is distinct from old §7.8 determinant-mixing and §12.18 root-deficit models. [Complete report](reports/2026-11-04-gauduchon-trace-amgm-spectral-deficit.md) · [classified ledger](ledger/2026-11-04-gauduchon-amgm-spectral-deficit.md).
