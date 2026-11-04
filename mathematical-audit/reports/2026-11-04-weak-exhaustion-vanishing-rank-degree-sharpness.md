@@ -1,19 +1,19 @@
 # 2026-11-04 — Exact rank and bidegree boundaries of weak-exhaustion semipositive vanishing
 
-**Finding:** \`POME-VANISH-POSRANK-BOUNDARY-SHARP-001\`  
+**Finding:** `POME-VANISH-POSRANK-BOUNDARY-SHARP-001`  
 **Severity / status:** **low / verified conditional deduction**. The printed theorem is **not refuted or repaired**; the deduction is an independent sharpness model.  
-**Reviewed production \`main\`:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
-**Integrated reading page:** \`docs/sections/hodge-theory-curvature-and-compact-vanishing--semipositive-line-bundle-vanishing-on-weak-exhaustions/index.html\`; exact main blob \`d3dfb60754a1df99aa6c283d0c54d96fa5a5fa01\`.  
-**Source and permanent label:** Theorem **10.52.1**, \`demailly-complex-geometry:8601427A\`, permanent tag \`A46DE8D5D789\`, physical HTML lines **7–10**. Context-only curvature scalar bound Equation **10.52.3**, source \`demailly-complex-geometry:E34CD770\`, permanent \`C7EBF8BB029C\`, lines **41–44**. Section permanent tag \`D6A8ACD1845D\`.  
-**Actual new coverage:** first direct **geometric countermodel to two unprinted weakenings** of §10.52.1, in previously inventory-only §10.52. The analytic weighted-estimate proof, \`6.27.12\` and \`9.50.3\` are **not reviewed** here. No whole theorem chain or mathematical section is certified.
+**Reviewed production `main`:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
+**Integrated reading page:** `docs/sections/hodge-theory-curvature-and-compact-vanishing--semipositive-line-bundle-vanishing-on-weak-exhaustions/index.html`; exact main blob `d3dfb60754a1df99aa6c283d0c54d96fa5a5fa01`.  
+**Source and permanent label:** Theorem **10.52.1**, `demailly-complex-geometry:8601427A`, permanent tag `A46DE8D5D789`, physical HTML lines **7–10**. Context-only curvature scalar bound Equation **10.52.3**, source `demailly-complex-geometry:E34CD770`, permanent `C7EBF8BB029C`, lines **41–44**. Section permanent tag `D6A8ACD1845D`.  
+**Actual new coverage:** first direct **geometric countermodel to two unprinted weakenings** of §10.52.1, in previously inventory-only §10.52. The analytic weighted-estimate proof, `6.27.12` and `9.50.3` are **not reviewed** here. No whole theorem chain or mathematical section is certified.
 
 ## Statement and exactly what is being tested
 
-The printed Theorem 10.52.1 assumes a weakly pseudoconvex Kähler complex manifold of dimension \`n\`, and a smooth Hermitian line bundle with semipositive curvature having at least \`n-s+1\` strictly positive eigenvalues **at every point**, for \`1 ≤ s ≤ n\`. It concludes
+The printed Theorem 10.52.1 assumes a weakly pseudoconvex Kähler complex manifold of dimension `n`, and a smooth Hermitian line bundle with semipositive curvature having at least `n-s+1` strictly positive eigenvalues **at every point**, for `1 ≤ s ≤ n`. It concludes
 \[
 H^{a,b}_{\bar\partial}(X,L)=0 \quad (a+b\ge n+s).
 \]
-The present model independently proves that neither (i) replacing \`a+b≥n+s\` by \`a+b≥n+s-1\`, nor (ii) allowing only \`n-s\` strictly positive eigenvalues while keeping the original threshold, is valid in this generality.
+The present model independently proves that neither (i) replacing `a+b≥n+s` by `a+b≥n+s-1`, nor (ii) allowing only `n-s` strictly positive eigenvalues while keeping the original threshold, is valid in this generality.
 
 ## Explicit fixed-manifold family (all dimensions and endpoints)
 
