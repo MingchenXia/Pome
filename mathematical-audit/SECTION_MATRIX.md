@@ -1,3 +1,16 @@
+# Coverage increment — 2026-11-04 — regular linear foliations on a flat Kähler torus
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **New stable finding `POME-FOL-TORUS-LEAFREL-RATIONAL-IRRATIONAL-001` — low / verified conditional deduction; printed conormal/quotient implications correct.** [Complete English proof](reports/2026-11-04-flat-torus-linear-foliation-leaf-relation-closure.md) · [classified ledger](ledger/2026-11-04-flat-torus-rational-irrational-leaf-closure.md).
+
+| Actual current ToC section | Exactly newly checked mathematical content and source anchors | Remaining boundaries |
+| --- | --- | --- |
+| **9.74 From local leaves to a meromorphic fibration** | `docs/sections/from-local-leaves-to-a-meromorphic-fibration/index.html`, blob `285a6dbc3d2aeddc105f931a2377cc90d2d101de`; source `cao-paun-foliations:A7CD555C`, permanent tag `6374AD3A13A2`; physical lines **8, 12–18, 21, 24–27**. Fixed surface `A=E²` and saturated trivial line foliation `F_alpha`: rational slopes have closed three-dimensional leaf relation and holomorphic elliptic quotient; slope `√2` gives dense complex leaves, `dim S=3` but analytic closure `A×A` of dimension **4**. Both conormals are trivial and pseudo-effective. The normal bundle identification, local-to-global analytic closure and missing converse are proved directly. | **New explicit boundary model within previously partially sampled §9.74**; the `Ou2025` analytic cycle-space and Barlet compactness theorem stays an **external dependency**, not certified. No entire-section proof verified. |
+| **9.73 Conormal positivity of an analytic germ (statement only)** | Theorem 9.73.1 source `cao-paun-foliations:DB4DFCD8` / permanent `E76BA49374E5`, physical lines **10–14**, `docs/sections/conormal-positivity-of-an-analytic-germ/index.html`, blob `8884dd6b27094e69d54d97004ffa1bd81558c6b8`. Check that the torus dimension jump has a pseudo-effective conormal, consistent with the theorem's direction. | Upstream proof and current sources unchanged; not recertified. |
+
+**Inventory unchanged:** 25 chapters, 747 numbered sections, **zero fully mathematically certified sections**. Prior classified errors, gaps, duplicates, repairs, genuine external inputs and user-excluded Demailly approximation/regularization/Bergman/weighted-L²/Ohsawa–Takegoshi/multiscale/positivity-loss work retain their prior status, `deferred-by-user` for exclusions. Audit Markdown only: no main, integrated source, registry, permanent tags, tests, CI, build or publication modification.
+
+---
+
 # Coverage increment — 2026-11-04 — independent classical Perron disk and sector models
 
 **Production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Two new low / verified conditional deductions:** POME-PERRON-DISC-HARMONIC-MEASURE-SHARP-001 and POME-PERRON-WEDGE-CORNER-HOLDER-001. [Full English proofs](reports/2026-11-04-perron-disc-harmonic-measure-and-sharp-corner-exponents.md) · [additive classified ledger](ledger/2026-11-04-perron-disc-and-corner-boundary-models.md).
