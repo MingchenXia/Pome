@@ -1,3 +1,15 @@
+# Coverage increment — 2026-11-04 — semipositive line-bundle vanishing: exact positivity-rank and degree thresholds
+
+**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **POME-VANISH-POSRANK-BOUNDARY-SHARP-001** (**low / verified conditional deduction**, no original theorem refuted). [Complete independent proof](reports/2026-11-04-weak-exhaustion-vanishing-rank-degree-sharpness.md) · [classified ledger](ledger/2026-11-04-vanishing-positive-eigenvalue-rank-sharpness.md).
+
+| Actual ToC section | New selected exact reading and permanent anchors | Status / boundaries |
+| --- | --- | --- |
+| **10.52 — Semipositive line-bundle vanishing on weak exhaustions** | **First substantive mathematical inspection** of a previously inventory-only section. Theorem 10.52.1 source \`demailly-complex-geometry:8601427A\` / permanent \`A46DE8D5D789\`, main \`docs/sections/hodge-theory-curvature-and-compact-vanishing--semipositive-line-bundle-vanishing-on-weak-exhaustions/index.html\`, blob \`d3dfb60754a1df99aa6c283d0c54d96fa5a5fa01\`, physical **lines 7–10**. Eq. 10.52.3 source \`:E34CD770\` / permanent \`C7EBF8BB029C\`, lines 41–44, *context only*. | Direct geometric nonvanishing proof \(H^{n,n-r}(E^n,L_r)\ne0\) with curvature rank \(r\), sharp both at \(r=n-s+1\), degree \(n+s-1\), and at \(r=n-s\), degree \(n+s\). The analytic proof of Theorem 10.52.1, weighted estimate and its internal L² inputs **not checked**, not a proof repair or full theorem certification. |
+
+Current actual ToC remains **25 chapters / 747 numbered sections / zero whole mathematical-section certifications**. All prior errors, gaps, external-dependency, verified-repair and user-excluded **deferred-by-user** entries stay unchanged. No Demailly approximation/regularization, Bergman, dedicated L²/OT, multiscale or positivity-loss programme reopened. Audit Markdown only.
+
+---
+
 # Coverage increment — 2026-11-04 — Non-Archimedean Kähler diagonal and semipositive indexing obstruction
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **New, nonexcluded:** `POME-NA-DIAGONAL-KAHLER-COFINALITY-001` and `POME-NA-SEMIPOSITIVE-NONCOFINALITY-001` (both low / verified conditional deductions; original propositions remain *unrefuted*). A complete categorical diagonal reconstruction was proved for the **Kähler** two-parameter inverse limit; two explicit smooth projective examples show the **positive-volume semipositive** indexing extension is not justified by Kähler cofinality alone. The published §22.1.17 cites the different, analytic decreasing-net input §16.4.4; its model-test-curve application is not independently verified here. [Complete anchored report](reports/2026-11-04-nonarchimedean-diagonal-cofinality-and-degenerate-pullbacks.md) · [classified ledger](ledger/2026-11-04-na-cofinality-vs-semi-positive-boundary.md).
