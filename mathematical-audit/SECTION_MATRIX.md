@@ -1,3 +1,16 @@
+# Coverage increment — 2026-11-04 — sharp Bedford–Taylor ball Dirichlet root stability
+
+**Production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; new `POME-BT-BALL-DIRICHLET-SHARP-ROOT-STABILITY-001` (**low / verified conditional deduction; original theorem correct**). [Proof](reports/2026-11-04-ball-dirichlet-sharp-root-stability.md) · [ledger](ledger/2026-11-04-ball-dirichlet-root-stability-sharpness.md).
+
+| Actual ToC section | Precisely new integrated content, provenance and anchors | Classification and unverified boundaries |
+| --- | --- | --- |
+| **7.9** The ball Dirichlet problem with continuous density | **New constant-density and boundary simultaneous-sharpness audit**: main `docs/sections/bedford-taylor-products-and-local-capacity--the-ball-dirichlet-problem-with-continuous-density/index.html` blob `ff1d5dfff1913156b45875eabf921f60af553b99`; Lemma **7.9.1** source `foundations-of-pluripotential-theory:89405657` / permanent `0FF4AFFE0ED0` physical lines **17–35**; Theorem **7.9.2** source `:69935D4D` / permanent `A092925717E1` lines **41–50**, proof **130–154**; Eq. **7.9.3** source `:0390D064` / permanent `B8751A529320` lines **46–48**; ball rescaling **58–61**. | Exact equality `d+R^2(s-t)` for simultaneous boundary and density perturbations; globally optimal `1/n` density Hölder exponent. New selected calculation in **previously partially reviewed** section. Original theorem **correct**, no full BT existence/comparison chain certified. |
+| **7.10** Bounded measurable densities (context only) | Main `docs/sections/bedford-taylor-products-and-local-capacity--bounded-measurable-densities/index.html` blob `762b841b0cb243784dc988f04dbf2779da66c469`; statement extending Eq. 7.9.3 to bounded measurable data. | **Statement-level dependency propagation only**; not a new proof of §7.10's separate `L^1` convergence theorem, and not full-section certification. |
+
+Actual ToC **25 chapters / 747 numbered sections / zero complete mathematical-section certifications**. Preserve all earlier confirmed errors, gaps, external inputs, verified repairs and user **deferred-by-user** exclusions without changing status. Dedicated Demailly approximation/regularization, Bergman, weighted L²/OT, multiscale and positivity-loss work untouched. Audit Markdown only; no main/source/registry/tags/CI/build/tests/site changes.
+
+---
+
 # Coverage increment — 2026-11-04 — exact entropy-optimal Laurent-monomial and log-sum-exp bounds
 
 **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **POME-CONVEX-MONOMIAL-ENTROPY-OPTIMUM-001** (**low / verified conditional deduction**, both original lemmas correct). [Complete self-contained proof](reports/2026-11-04-newton-monomial-sharp-entropy-constant.md) · [classified ledger](ledger/2026-11-04-convex-monomial-entropy-bound.md).
