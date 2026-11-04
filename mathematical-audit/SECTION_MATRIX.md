@@ -1,3 +1,15 @@
+# Coverage increment — 2026-11-04 — exact entropy-optimal Laurent-monomial and log-sum-exp bounds
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **POME-CONVEX-MONOMIAL-ENTROPY-OPTIMUM-001** (**low / verified conditional deduction**, both original lemmas correct). [Complete self-contained proof](reports/2026-11-04-newton-monomial-sharp-entropy-constant.md) · [classified ledger](ledger/2026-11-04-convex-monomial-entropy-bound.md).
+
+| Actual ToC section | Precise newly read integrated statements and stable anchors | Scope and disposition |
+| --- | --- | --- |
+| **21.11** Convex functions and convex bodies | **New selected mathematical coverage** of the previously unsampled final Lemmas **21.11.60** and **21.11.62** and Equation **21.11.61**. Main docs/sections/convex-functions-and-convex-bodies/index.html, blob 2a123a863642a5a75caa173f0f73aff439a02ea4; source sgpt:66C95CF5 / permanent B1B557E6282F lines **773–819**; equation sgpt:47539ADA / EF4C4E285442 lines **777–782**; source sgpt:5CDD1487 / permanent 81D915E5313D lines **823–860**. | Proved exact maximum-entropy optimal constant, face/nonattainment criterion, and duplicate-exponent examples. Printed iff theorems remain correct; no new false theorem, gap, or genuine canonical duplication. This is **additional selected coverage** of already partly audited §21.11; older checks and all unresolved/deferred entries unchanged. |
+
+Collection inventory remains **25 chapters / 747 numbered sections / zero entire mathematical-section certifications**. Dedicated Demailly approximation/regularization, Bergman, weighted L², OT, multiscale and positivity-loss programmes stay **deferred-by-user**. Audit Markdown only; no production or publication operations.
+
+---
+
 # Coverage increment — 2026-11-04 — semipositive line-bundle vanishing: exact positivity-rank and degree thresholds
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **POME-VANISH-POSRANK-BOUNDARY-SHARP-001** (**low / verified conditional deduction**, no original theorem refuted). [Complete independent proof](reports/2026-11-04-weak-exhaustion-vanishing-rank-degree-sharpness.md) · [classified ledger](ledger/2026-11-04-vanishing-positive-eigenvalue-rank-sharpness.md).
