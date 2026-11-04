@@ -1,3 +1,15 @@
+# Coverage increment — 2026-11-04 — explicit logarithmic pole with finite metric distance outside Dini regime
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. New `POME-METRIC-DINI-NONNECESSITY-LOGPOLE-001` (**low / verified conditional deduction**, no false theorem/proof-gap repair). [Full English model proof](reports/2026-11-04-log-modulus-finite-intrinsic-distance-beyond-dini.md) · [classification](ledger/2026-11-04-log-modulus-metric-dini-nonnecessity.md).
+
+| Current ToC section | Precisely newly checked main reading-edition content | Status and remaining boundary |
+| --- | --- | --- |
+| **5.39 Potential regularity and metric distance** | Main `docs/sections/plurisubharmonic-functions-and-singularities--potential-regularity-and-metric-distance/index.html`, blob `26695e8698b9114b97108efb16ec94f3984ee308`; Eq. **5.39.5** source `non-kahler-pluripotential-theory:618F80CA` / permanent `06D8010B670C`, lines **58–63**; Thm. **5.39.6** `:97B8A37E` / `21429B9E1BF3`, lines **66–105**; Cor. **5.39.7** `:2F17E044` / `380EB17A4350`, lines **109–124**. Thm. 5.39.1 (lines 10–44) and Cor. 5.39.8 (126–169) are **context only**. | **New exact family** `v_a=(-log|z|)^{-a}`: optimal modulus, `dd^c` mass `(a/2)L^{-a-1}`, Dini divergence for `0<a<=2` but completed pole at exact distance `C_aL^{-a/2}` for every `a>0`. Original theorem/corollary **correct**; the corollary already calls Dini *sufficient only*. Earlier §5.39 proof/GH work preserved. **Selected new model only**, no whole-section certificate. |
+
+Actual ToC still **25 chapters / 747 numbered sections / zero whole mathematical-section certifications**. All prior error/gap/external/repaired findings and explicitly excluded Demailly approximation/regularization, Bergman, weighted L²/OT, multiscale and positivity-loss work retain their previous statuses (`deferred-by-user` for excluded work). Audit-only Markdown; no main/body/source/registry/tag/test/build/CI/publication change.
+
+---
+
 # Coverage increment — 2026-11-04 — sharp Bedford–Taylor ball Dirichlet root stability
 
 **Production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; new `POME-BT-BALL-DIRICHLET-SHARP-ROOT-STABILITY-001` (**low / verified conditional deduction; original theorem correct**). [Proof](reports/2026-11-04-ball-dirichlet-sharp-root-stability.md) · [ledger](ledger/2026-11-04-ball-dirichlet-root-stability-sharpness.md).
