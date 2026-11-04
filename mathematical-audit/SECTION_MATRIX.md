@@ -1,3 +1,17 @@
+# Coverage increment — 2026-11-04 — exact scalar shift and optimal uniform constant in the intermediate Hessian cone
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete proof](reports/2026-11-04-hessian-uniform-cone-shift-sharpness.md) · [classified finding](ledger/2026-11-04-hessian-cone-shift-asymptotic-sharpness.md).
+
+| Actual current ToC section | Newly verified scope, physical main reading anchors and labels | Status and outstanding coverage |
+| --- | --- | --- |
+| **8.2 The admissible cone** (previously partly audited) | `docs/sections/complex-hessian-equations--the-admissible-cone/index.html`, main blob `925e6109ab7d800cde9bec4b0487842b2e6877a8`. **Lemma 8.2.3** `non-kahler-pluripotential-theory:42B9BB86` / permanent `F86594126C69`, physical lines **43–74**. New exact spectra `lambda=(L^(m-1),1^(n-m+1))` yield maximal shift `t_*=1` and `e_m->1`; no dimension/degree-uniform multiplicative improvement `C>1` possible. Smooth strictly positive matrices, exact finite symmetric polynomials, no analytic regularization. | `POME-HESS-CONE-SHIFT-ASYMPTOTIC-SHARP-001`, **low / verified conditional deduction**. Printed lemma correct; proof-level model only, **not** all of §8.2 certified. The separate previous coefficient sharpness finding remains unchanged. |
+| **8.2 dependency context only** | **Lemma 8.2.4** `non-kahler-pluripotential-theory:3E489B35` / `94C4E018DD25`, physical lines **76–100**, and **Lemma 8.2.5** `:53FFB5F3` / `7710D01DF6F5`, physical lines **104–124**: read iteration and coefficient-bound applications against the new sharpness model. | No new verification of their general algebraic proof chains or of §8.4's full trace estimate. |
+| **8.1** | Standing hypothesis `2<=m<n` checked; the `m=n` extension in §8.2 is algebraic, not an extension of the chapter's intermediate-degree PDE. | Context only. |
+
+The actual ToC remains **25 chapters, 747 numbered sections, zero fully mathematically certified sections**. All earlier confirmed-error, proof-gap, candidate, external-dependency, genuine-duplication and verified-repair findings preserve their status. Explicitly excluded Demailly approximation/regularization and the dedicated Bergman/weighted-`L^2`/OT/multiscale/positivity-loss proof programme remains **deferred-by-user**, not reopened or resolved. Audit-only Markdown; no source, production main, tags, registry, tests, build, CI, formal verification or website publication.
+
+---
+
 # Coverage increment — 2026-11-04 — balanced Hermitian total-mass saddle
 
 **Production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Complete new proof](reports/2026-11-04-balanced-hermitian-mass-saddle-on-three-torus.md) · [additive status ledger](ledger/2026-11-04-balanced-torus-indefinite-mass-hessian.md).
