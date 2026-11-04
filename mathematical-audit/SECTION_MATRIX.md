@@ -1,3 +1,16 @@
+# Coverage increment — 2026-11-04 — independent classical Perron disk and sector models
+
+**Production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Two new low / verified conditional deductions:** POME-PERRON-DISC-HARMONIC-MEASURE-SHARP-001 and POME-PERRON-WEDGE-CORNER-HOLDER-001. [Full English proofs](reports/2026-11-04-perron-disc-harmonic-measure-and-sharp-corner-exponents.md) · [additive classified ledger](ledger/2026-11-04-perron-disc-and-corner-boundary-models.md).
+
+| Current ToC section | Exactly new proof/model reading of integrated main and stable anchors | Status and unverified boundaries |
+| --- | --- | --- |
+| **4.4 — Perron theory and fine boundary limits** | Main docs/sections/perron-theory-and-fine-boundary-limits/index.html, blob 4bc2fb9317e2b6f6bb5b2d90208c677da8275eba. Theorem **4.4.2** source classical-potential-theory:410B64F2 / permanent 09873BDAF3E0, physical lines **11–34**; Lemma **4.4.3** source :65DB36A3 / permanent 621606E7390C, lines **39–47**. **New** exact unit-disk Poisson density bounds, sharp Lp constants, completed-null-set and integrability endpoint models. | **Verified conditional deduction, low**; the general harmonic-measure/resolutivity theorem is not re-proved. Printed statements not refuted; no source change. |
+| **4.4 — same section, local barriers** | Theorem **4.4.5** source classical-potential-theory:7A2F4581 / permanent 2F74CBABB2A6, physical lines **52–65**; Theorem **4.4.6** source :2E88760E / permanent 123C9AB7C052, lines **70–81**. **New** explicit sector/wedge and slit-disk harmonic functions with Lipschitz boundary data and sharp bisector exponent pi/beta (slit endpoint 1/2). | **Verified conditional deduction, low**; illustrates quantitative limitations of the correct qualitative barrier/cone/segment statements. No verification of general regular exhaustion and Green applications. |
+
+This is new selected mathematical coverage within a **previously partly visited** §4.4, not a whole-section mathematical certificate. Current actual inventory **25 chapters / 747 numbered sections / zero completely certified mathematical sections**. Existing errors, gaps, external inputs, repairs, and user-deferred excluded Demailly approximation/regularization/Bergman/weighted-L2/OT/multiscale/positivity-loss items retain their prior statuses. Review Markdown only, no main/source/registry/tags/build/tests/CI/site changes.
+
+---
+
 # Coverage increment — 2026-11-04 — explicit logarithmic pole with finite metric distance outside Dini regime
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. New `POME-METRIC-DINI-NONNECESSITY-LOGPOLE-001` (**low / verified conditional deduction**, no false theorem/proof-gap repair). [Full English model proof](reports/2026-11-04-log-modulus-finite-intrinsic-distance-beyond-dini.md) · [classification](ledger/2026-11-04-log-modulus-metric-dini-nonnecessity.md).
