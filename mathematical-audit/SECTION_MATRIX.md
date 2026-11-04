@@ -1,3 +1,15 @@
+# Coverage increment — 2026-11-04 — arbitrarily prescribed gaps for moving-point nef b-divisor volumes
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **New stable finding `POME-BDIV-MOVING-POINT-CONTINUUM-001` — low / verified conditional deduction (original statements correct).** [Full English source-anchored argument](reports/2026-11-04-moving-point-bdivisor-arbitrary-volume-gaps.md) · [additive classification](ledger/2026-11-04-bdivisor-finite-model-volume-gaps.md).
+
+| Current actual ToC section | Exactly new coverage, sources and anchors | Remaining limitations |
+| --- | --- | --- |
+| **20.1 — The theory of b-divisors** | Main `docs/sections/the-theory-of-b-divisors/index.html` blob `4a793dfd462badcb351f54a36cb030cde14a399b`. **New all-dimensional arbitrary-gap extension** of Example **20.1.9**, original `sgpt:048A0D73` / permanent `7AF528B0FB3B`, lines **100–119**: for `n>=2`, `H-tE` on `Bl_p(P^n)` is nef, with **exact volume `1-t^n`**, and any prescribed finite family of model traces is **exactly** `H` if `p` avoids the models' non-isomorphism loci. An explicit general-position sequence gives convergence on every fixed model but `vol(D_i)=c∈[0,1]` and `vol(D)=1`. Read Definition **20.1.6**, `sgpt:0B20B6FE` / `E6F6681E7170`, lines **57–62**, Lemma **20.1.7**, `sgpt:54FCB4C1` / `F5B2C1F1E318`, lines **67–96**, Equation **20.1.8**, `sgpt:D44AA2EA` / `3BFB2E87E034`, lines **68–70**, and Cartier Definition **20.1.10**, `sgpt:2D01378B` / `908967DFB37E`, lines **123–125**. | **New exact nef-volume and finite-model calculations within previously selected §20.1**, not full section certification; general all-model convergence explicitly uses Chow algebraicity for analytic centers of modifications. No error asserted in original Lemma 20.1.7, no upgrade of nonmonotone upper semicontinuity to continuity. Distinct from previously recorded two-sided/mixed-volume oscillations and exceptional-trace jump. |
+
+Current project inventory remains **25 chapters / 747 numbered sections / zero entire mathematical-section certifications**. All prior confirmed errors, proof gaps, genuine duplicates, verified repairs, external inputs and user **deferred-by-user** Demailly approximation/regularization/Bergman/weighted-L²/OT/multiscale/positivity-loss work remain unchanged. Audit Markdown only; no changes to main/source, tags, registry, tests, CI, build or publication.
+
+---
+
 # Coverage increment — 2026-11-04 — regular linear foliations on a flat Kähler torus
 
 **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **New stable finding `POME-FOL-TORUS-LEAFREL-RATIONAL-IRRATIONAL-001` — low / verified conditional deduction; printed conormal/quotient implications correct.** [Complete English proof](reports/2026-11-04-flat-torus-linear-foliation-leaf-relation-closure.md) · [classified ledger](ledger/2026-11-04-flat-torus-rational-irrational-leaf-closure.md).
