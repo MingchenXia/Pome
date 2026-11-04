@@ -1,0 +1,12 @@
+# Classified findings — 2026-11-04 — Perron disk and corner models
+
+Reviewed main: b6933b772f41b45918f7e25ed1afbbb1fd892272.
+Integrated source: docs/sections/perron-theory-and-fine-boundary-limits/index.html, blob 4bc2fb9317e2b6f6bb5b2d90208c677da8275eba.
+Full English calculations: ../reports/2026-11-04-perron-disc-harmonic-measure-and-sharp-corner-exponents.md.
+
+| Stable ID | Status | Severity | Direct main anchors and tags | Judgment, proposal, dependents |
+| --- | --- | --- | --- | --- |
+| **POME-PERRON-DISC-HARMONIC-MEASURE-SHARP-001** | **verified conditional deduction** | low | §4.4.2 source classical-potential-theory:410B64F2 / permanent 09873BDAF3E0, lines 11–34; §4.4.3 source :65DB36A3 / permanent 621606E7390C, lines 39–47 | On the unit disk the **optimal** comparison density constants are (1-r)/(1+r) and (1+r)/(1-r); corresponding exact Lp constants are their 1/p powers. Boundary spikes at one point have zero Perron effect; nonnegative power singularities are integrable iff exponent <1. Optional explanatory examples only. Dependents: harmonic measure completions, Harnack/Lp comparison, polar boundary invariance. **No original false theorem or repair.** |
+| **POME-PERRON-WEDGE-CORNER-HOLDER-001** | **verified conditional deduction** | low | §4.4.5 source classical-potential-theory:7A2F4581 / permanent 2F74CBABB2A6, lines 52–65; §4.4.6 source :2E88760E / permanent 123C9AB7C052, lines 70–81 | On the planar sector of angle beta<=2pi, the continuous Lipschitz boundary datum of Im(z^(pi/beta)) has Perron solution exactly r^(pi/beta)sin(pi theta/beta). At the bisector no uniform boundary Hölder exponent greater than pi/beta is possible for this domain; the slit disk beta=2pi gives the sharp example 1/2. Optional explanatory quantitative example, not a correction. Dependents: Perron barrier regularity, exterior-cone and segment clauses, qualitative Green-function boundary regularity. **No original false theorem or repair.** |
+
+Coverage: selected new direct mathematical checks only in previously partially visited §4.4; not full §4.4 certification. All earlier genuine errors, gaps, verified repairs and external dependencies retain prior classification. In particular user-excluded Demailly approximation/regularization and dedicated Bergman/weighted-L2/OT/multiscale/positivity-loss programme remains **deferred-by-user**, **not certified**. Current inventory 25 chapters / 747 sections / 0 entire-section mathematical certifications. Review branch Markdown only.
