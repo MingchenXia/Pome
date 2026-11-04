@@ -1,13 +1,13 @@
 # Mathematical audit — 2026-11-04 — exceptional modifications and sharp atlas distortion
 
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-**Audit target:** \`review/mathematical-audit\`. Scope excludes Demailly approximation/regularization and the user's deferred Bergman, weighted-L2, OT, multiscale and positivity-loss completion work. This report inspects new, nonexcluded proof/model components of two integrated reading sections, not their full dependency chains.
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+**Audit target:** `review/mathematical-audit`. Scope excludes Demailly approximation/regularization and the user's deferred Bergman, weighted-L2, OT, multiscale and positivity-loss completion work. This report inspects new, nonexcluded proof/model components of two integrated reading sections, not their full dependency chains.
 
 ## 1. POME-NPP-BLOWUP-EXCEPTIONAL-COHOMOLOGY-001
 
 **Status:** verified conditional deduction; **severity:** low. No error in the printed proposition.
 
-**Exact integrated source:** \`docs/sections/non-pluripolar-products--fiber-integration-and-modifications/index.html\`, main blob \`9954a43d90d5cae8ef744968636d7a5912348fce\`, physical lines **35–55** (especially statement 36–46 and proof 50–54). Proposition **13.6.3**, source \`foundations-of-pluripotential-theory:3F4A3A88\`, permanent tag \`0811FFDF15B7\`. The two asserted identities concern the pullback and pushforward of non-pluripolar mixed products under a modification of compact Kähler manifolds.
+**Exact integrated source:** `docs/sections/non-pluripolar-products--fiber-integration-and-modifications/index.html`, main blob `9954a43d90d5cae8ef744968636d7a5912348fce`, physical lines **35–55** (especially statement 36–46 and proof 50–54). Proposition **13.6.3**, source `foundations-of-pluripotential-theory:3F4A3A88`, permanent tag `0811FFDF15B7`. The two asserted identities concern the pullback and pushforward of non-pluripolar mixed products under a modification of compact Kähler manifolds.
 
 **Exact exceptional-current model.** Let \(\pi:Y=\operatorname{Bl}_{p}\mathbf P^2\to\mathbf P^2\) be the blowup of a point, let \(E\subset Y\) be the exceptional curve, and normalize the Fubini–Study form \(\omega\) by \(\int_{\mathbf P^2}\omega^2=1\). Put \(\beta=\pi^*\omega\), a smooth semipositive form, and take any \(a,b\geq0\). The currents
 \[
@@ -39,7 +39,7 @@ because \((\pi^*H)^2=1,\ \pi^*H\cdot E=0,\ E^2=-1\), the latter following from \
 
 **Status:** verified conditional deduction; **severity:** low. Printed Definition 13.7.2 and Lemmas 13.7.1/13.7.3 are not refuted.
 
-**Exact integrated source:** \`docs/sections/non-pluripolar-products--capacity-convergence-and-loss-of-mass/index.html\`, main blob \`d66813856cb813722806ab912afdfd4815d2da97\`. Lemma **13.7.1**, source \`foundations-of-pluripotential-theory:B581D99A\`, permanent \`AB4F8DB9BF3E\`, physical lines **10–34**; Definition **13.7.2**, source \`foundations-of-pluripotential-theory:9AC5981A\`, permanent \`019A8D37A03F\`, lines **36–39**; Lemma **13.7.3**, source \`foundations-of-pluripotential-theory:4720F1AB\`, permanent \`274B700496A8\`, lines **41–69**. In particular, its proof at lines **53–61** bounds the arctangent-distance change after adding the same local smooth potential by \(2(1+h^2)\).
+**Exact integrated source:** `docs/sections/non-pluripolar-products--capacity-convergence-and-loss-of-mass/index.html`, main blob `d66813856cb813722806ab912afdfd4815d2da97`. Lemma **13.7.1**, source `foundations-of-pluripotential-theory:B581D99A`, permanent `AB4F8DB9BF3E`, physical lines **10–34**; Definition **13.7.2**, source `foundations-of-pluripotential-theory:9AC5981A`, permanent `019A8D37A03F`, lines **36–39**; Lemma **13.7.3**, source `foundations-of-pluripotential-theory:4720F1AB`, permanent `274B700496A8`, lines **41–69**. In particular, its proof at lines **53–61** bounds the arctangent-distance change after adding the same local smooth potential by \(2(1+h^2)\).
 
 **Sharp pointwise distortion.** For \(s,t\in[-\infty,\infty)\), let \(d_*(s,t)=|\arctan s-\arctan t|\). For every real \(h\),
 \[
@@ -61,6 +61,6 @@ If \(h(x)\) is a bounded real function with \(|h(x)|\le H\) on a compact chart o
 
 ## Coverage and classification
 
-This run freshly read production \`main\`, \`AGENTS.md\`, \`documentation/proof-expansions.md\`, the audit-branch \`mathematical-audit/LATEST.md\` and \`README.md\`, and the current chapter-13 table of contents. Newly performed mathematics comprises the explicit blowup computation for Proposition 13.6.3 and the optimal arctangent translation/net-gluing proof for Definition 13.7.2 and Lemma 13.7.3. The previous §13.6.1 fiber-slicing and §13.7.5 mass-loss findings remain separate and unchanged. Previously examined §11.2 torus-curl models were **not** counted as new work. No fully mathematically certified numbered section is claimed (actual inventory: 25 chapters, 747 sections). The user's Demailly regularization and dedicated Bergman/L2/OT/multiscale/positivity-loss audit programme stays **deferred-by-user**, neither solved nor reopened.
+This run freshly read production `main`, `AGENTS.md`, `documentation/proof-expansions.md`, the audit-branch `mathematical-audit/LATEST.md` and `README.md`, and the current chapter-13 table of contents. Newly performed mathematics comprises the explicit blowup computation for Proposition 13.6.3 and the optimal arctangent translation/net-gluing proof for Definition 13.7.2 and Lemma 13.7.3. The previous §13.6.1 fiber-slicing and §13.7.5 mass-loss findings remain separate and unchanged. Previously examined §11.2 torus-curl models were **not** counted as new work. No fully mathematically certified numbered section is claimed (actual inventory: 25 chapters, 747 sections). The user's Demailly regularization and dedicated Bergman/L2/OT/multiscale/positivity-loss audit programme stays **deferred-by-user**, neither solved nor reopened.
 
-Only audit Markdown is intended for GitHub branch \`review/mathematical-audit\`; no main, integrated reading body, source, registry, permanent tags, CI, build, tests or publication are changed.
+Only audit Markdown is intended for GitHub branch `review/mathematical-audit`; no main, integrated reading body, source, registry, permanent tags, CI, build, tests or publication are changed.
