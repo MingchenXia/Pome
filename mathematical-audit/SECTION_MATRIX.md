@@ -1,3 +1,15 @@
+# Coverage increment — 2026-11-04 — exact unbounded complex Fourier pi/epsilon tensor-norm gap
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **POME-TENSOR-FOURIER-PI-EPS-GAP-001** (**low / verified conditional deduction; original propositions correct**). For each odd `m>=3`, an explicit complex Fourier matrix tensor in `ell^1_m tensor ell^1_m` has exact projective norm `m^2` and exact injective norm `m^(3/2)`, so the same-space norm ratio is `sqrt(m)` and unbounded. The proof uses coordinate cost, Fourier orthogonality and a quadratic-chirp Gauss-sum calculation valid for every odd composite `m`; no external Gauss-sum theorem or analytic limit. This rules out a false **unprinted** comparison, not the two different correct isomorphisms in the current reading edition.
+
+| Actual current ToC section | Exactly new reading/proof/model coverage | Mathematical status and bounds |
+| --- | --- | --- |
+| **2.19** Concrete completed tensor products | Main `docs/sections/concrete-completed-tensor-products/index.html`, blob `358f584ab4004b3531629e87f1dd73bdea1256d4`; Prop. 2.19.1 source `demailly-complex-geometry:E56C631F` / permanent `84C71E271314`, lines **11–31**; Prop. 2.19.2 source `:4D711A6B` / `96A052277244`, lines **33–55**. §2.19.3 source `:C614F79A` / tag `C9CDFE118A86`, lines **57–82**, **context only**. | New explicit all-odd-dimensional complex norm-gap calculation in **previously partly reviewed** §2.19, not repeated finite-matrix density/compact-space proofs or a whole-section certificate. [New exact proof](reports/2026-11-04-fourier-tensor-projective-injective-unbounded-gap.md); [ledger](ledger/2026-11-04-fourier-tensor-pi-eps-gap.md). |
+
+The exact current ToC remains **25 chapters / 747 numbered sections / zero fully mathematically certified sections**. No printed false theorem, new unresolved proof gap or genuine duplicate is claimed. Earlier resolved/unresolved entries remain unchanged, and user-excluded Demailly approximation/regularization, dedicated Bergman/L2/OT/multiscale/positivity-loss work stays **deferred-by-user**. Audit Markdown only; no production main/source/tags/registry/build/tests/CI/site changes.
+
+---
+
 # Coverage increment — 2026-11-04 — pointwise concave rooftop profiles and countable rational Legendre formula
 
 **Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **\`POME-GEOD-ROOFTOP-RATIONAL-LEGENDRE-001\` — low / verified conditional deduction; original statements correct.** Directly verified \`q_s-h≤q_{s+h}≤q_s\` and \`q_{(1-λ)s_0+λs_1}≥(1-λ)q_{s_0}+λq_{s_1}\` for \`q_s=Pθ(u_0,u_1-s)\`, including the common minus-infinity locus; this yields the *pointwise* equivalence of the real-parameter and rational-parameter supremum in the published Perron Legendre formula. Sharp constant-endpoint model gives a kink and endpoint slopes \`0,-1\`. [New English proof](reports/2026-11-04-perron-rooftop-concavity-rational-parameter.md); [classified finding](ledger/2026-11-04-rooftop-parameter-countable-legendre.md).
