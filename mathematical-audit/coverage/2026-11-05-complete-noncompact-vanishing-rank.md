@@ -1,0 +1,9 @@
+# Coverage increment — 2026-11-05 — noncompact complete weak-exhaustion degree/rank model
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. Actual ToC **25 chapters / 747 numbered sections / zero mathematically certified complete sections**. Existing section coverage is *partial*; this is a new geometry/quantifier check, **not first coverage** of §10.52 and **not** a repetition of the earlier compact-torus model.
+
+| Actual section | Precisely reviewed integrated passages | New scope / classification | Not reviewed |
+| --- | --- | --- | --- |
+| **10.52 — Semipositive line-bundle vanishing on weak exhaustions** | `docs/sections/hodge-theory-curvature-and-compact-vanishing--semipositive-line-bundle-vanishing-on-weak-exhaustions/index.html`, blob `d3dfb60754a1df99aa6c283d0c54d96fa5a5fa01`; Theorem 10.52.1 source `demailly-complex-geometry:8601427A`, tag `A46DE8D5D789`, physical **7–12**. Eigenvalue expression and rank mechanism at **18–46**, Eq. 10.52.3 source `:E34CD770` / tag `C7EBF8BB029C`. | `POME-VANISH-COMPLETE-PUNCTURED-TORUS-NONUNIFORM-001` **low / verified conditional deduction**. Explicit **complete noncompact** (E^{n-1}\times(E\setminus\{p\})) with smooth proper PSH exhaustion, exact semipositive rank and **nonuniform** strictly positive eigenvalue, nonzero (H^{n,n-k}). New scope beyond previously certified *compact* rank/degree optimality. No original theorem refuted. | Full weighted-`L^2` analytic proof and inputs `6.27.12`, `9.50.3` **not checked**; user-excluded programme deferred. No other §10.52 propositions and no full mathematical section certified. |
+
+[Complete argument](../reports/2026-11-05-complete-noncompact-vanishing-rank-model.md) · [additive finding ledger](../ledger/2026-11-05-complete-noncompact-vanishing-rank.md). All earlier mathematical error/gap/repair/duplicate and external-input findings retain status. No main/source/tag/registry tests, build, CI or publication.
