@@ -1,0 +1,7 @@
+# Additive audit ledger — 2026-11-05 — singular mixed products and permanents
+
+| ID | Status and severity | Exact evidence | Correction/dependents/remaining work |
+| --- | --- | --- | --- |
+| \`POME-BT-SINGULAR-PERMANENT-EQUALITY-001\` | **low / verified conditional deduction**; printed Theorem 7.12.1 and Corollaries 7.12.6/8 correct | main \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; \`docs/sections/bedford-taylor-products-and-local-capacity--mixed-products-for-a-common-measure/index.html\` blob \`e33955e433d3d863f053dc34ed3ed38b3397671f\`, physical **10–20, 66–89, 94–125**. Source \`foundations-of-pluripotential-theory:046CCCD5\`, \`:D5C83406\`, \`:02D188DC\`; permanent \`AAD1BC0CC6C4\`, \`0B504335901F\`, \`7071C55A0E4E\`. Exact totally-real \(\mu_0\) model has \(\bigwedge_i dd^cu_i=\operatorname{per}(A)\mu_0\), \((dd^c u_i)^n=n!\prod_j a_{ij}\mu_0\), sharp \(n!\)-permanent AM–GM with positive-matrix equality iff rank one; sum case equality iff vectors proportional. | Optional worked example after §7.12.8; **no change** to general theorem. General §7.12 energy/existence/limit proof **not certified**; model's BT identification conditional on §7.3.7. Affected references §7.12.1/.6/.8 and any downstream mixed-product comparison; no refutation. |
+
+Existing unresolved/resolved/deferred ledger records remain unchanged. Demailly regularization and Bergman/weighted-L²/OT/multiscale/positivity-loss work remains **deferred-by-user**. Nothing is promoted to full mathematical-section certification.
