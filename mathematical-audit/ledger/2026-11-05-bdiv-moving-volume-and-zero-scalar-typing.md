@@ -1,0 +1,10 @@
+# Ledger: moving-point b-divisor volume spectrum and scalar endpoint (2026-11-05)
+
+Production main: `b6933b772f41b45918f7e25ed1afbbb1fd892272`; integrated HTML `docs/sections/the-theory-of-b-divisors/index.html`, blob `4a793dfd462badcb351f54a36cb030cde14a399b`.
+
+| Stable finding | Severity / status | Actual mathematical finding | Proposed correction, dependency and limits |
+| --- | --- | --- | --- |
+| `POME-BDIV-MOVING-POINT-ARBITRARY-VOLUME-001` | **low / verified conditional deduction** | On pairwise distinct moving blowups of `P^2`, the nef Cartier b-divisors realized by `pi_i^*H-a_iE_i`, `0<=a_i<=1`, converge **on every fixed model** to the Cartier b-divisor `H`, while their volumes are precisely `1-a_i^2`. Arbitrary prescribed volume sequences in `[0,1]` occur; positive oscillating sequences use exclusively **big** nef realizations. | Example 20.1.9 `sgpt:048A0D73` / `7AF528B0FB3B` physical lines 100–119: weaken its unnecessary very-general-curve hypothesis to pairwise distinct points; optionally give the sharp family. Lemma 20.1.7 `sgpt:54FCB4C1` / `F5B2C1F1E318` remains true. Uses the existing volume definition and birational monotonicity, not any excluded regularization. |
+| `POME-BDIV-BIG-PRODUCT-ZERO-SCALAR-TYPE-001` | **low / confirmed error (domain/typing; not a false equality)** | Lemma 20.1.40(3) permits `lambda=0` although the only product then defined (Definition 20.1.39) requires big arguments, and the zero class is nonbig. | Restrict to `lambda>0` in this **early** lemma (clause `sgpt:B89A01E8` / `6704C2A24387`, physical lines 758–763). Leave later Proposition 20.1.43(3)'s `lambda>=0` intact after Definition 20.1.41 has expanded the domain. Full intersection theory unverified. |
+
+**Unresolved and deferred:** general higher-dimensional b-divisor and mixed-volume dependencies remain unresolved/not certified; older ledger classifications unchanged. Demailly approximation/regularization and the dedicated Bergman/weighted-L2/OT/multiscale/positivity-loss programme are **deferred-by-user**, neither resolved nor reopened. Audit-only proposals; no production changes.
