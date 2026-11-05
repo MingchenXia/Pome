@@ -1,0 +1,7 @@
+# Classified ledger — 2026-11-05 — sharp upper ceiling on boundary exhaustion powers
+
+| Finding ID | Status | Severity | Main anchor | Mathematical conclusion | Proposal and affected dependents |
+| --- | --- | --- | --- | --- | --- |
+| **POME-BOUNDARY-NEG-PSH-HOPF-LINEAR-001** | **verified conditional deduction** | low | Main \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; \`docs/sections/boundary-levi-geometry-and-holomorphic-extension--bounded-power-exhaustions-at-a-smooth-pseudoconvex-boundary/index.html\`, blob \`3c2f1e7af53a9f7c86ca718d47e5054679ff75a7\`, Theorem **9.35.1**, source \`demailly-complex-geometry:8B2CF5E4\`, permanent \`AC8A460928B4\`, lines 11–16,21–74 | On any bounded \(C^2\) domain, a negative continuous subharmonic function vanishing on the boundary satisfies \(-v\geq c\delta\) in a collar. Consequently \(\gamma>1\) upper power decay cannot hold; \(\gamma=1\) is attained on the unit ball. Full elementary tangent-ball harmonic comparison in [report](../reports/2026-11-05-boundary-hopf-power-ceiling.md). | Proposed explanatory remark only; no false printed theorem or proof repair. Possible affected assertion is an **unprinted** improvement of 9.35.1 to powers \(>1\). The endpoint is **not** asserted on all domains. |
+
+Existing findings retain their statuses. Demailly approximation/regularization and the dedicated Bergman, weighted \(L^2\), Ohsawa–Takegoshi, multiscale-atlas, and positivity-loss proof programme remain **deferred-by-user**, not resolved or certified.
