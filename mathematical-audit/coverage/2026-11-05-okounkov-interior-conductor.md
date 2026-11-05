@@ -1,0 +1,13 @@
+# Current-ToC coverage increment — semigroup interior conductor (2026-11-05)
+
+**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. Actual current chapter index: \`docs/chapters/sections-okounkov/index.html\`, blob \`2d50c059b2f2c487b402a11afdfc0f131400b1e5\`. Chapter **19: Sections, graded series, and Okounkov bodies**, eleven numbered sections. This report adds **selected new proof-step mathematical coverage**, not any complete-section certification.
+
+| Current section | Actually reviewed | Status and scope limit |
+| --- | --- | --- |
+| **§19.7 Almost semigroups** | \`docs/sections/almost-semigroups/index.html\` blob \`33898b2963ad0f8b7e30bf414276642f60925b74\`; Lemma **19.7.25** source \`sgpt:4791A323\` / tag \`E41D68AC6F7C\`, physical lines **372–389**. Independently reconstructed the exact lattice-saturation input using a finite integer-residue conductor, then proved both intersection conclusions. | **POME-OKO-UNIFORM-INTERIOR-SEMIGROUP-CONDUCTOR-001 / medium / verified repair (audit-only)** of external KK12-Theorem-1 proof step. Not a false lemma; general counting Theorem 19.7.20 remains external/unverified. |
+| **§19.2 Almost semigroups (introductory)** | \`docs/sections/the-theory-of-okounkov-bodies--almost-semigroups/index.html\` blob \`33212916f9ea7754f51f8194cfb76c2fcbe8efab\`; Theorem **19.2.5** source \`sgpt:D2CDA8AC\` / tag \`37D86D761E81\`, physical lines **92–111**. Derived compact-interior degree-\(k\) lattice saturation, sufficient for the Hausdorff limit. | **Same finding**, independent application replacing WN14-Lemma-4.8 step; **volume equality still uses** external counting theorem. §19.2 and §19.7 carry different valid roles despite similar titles; no duplicate adjudication. |
+| **§19.7 dependencies** | Internal Lemma **19.7.7** source \`sgpt:E50EA8A4\` / tag \`5C4A19C5ED0B\`, lines **66–94**; Theorem **19.7.20** source \`sgpt:282DA4DD\` / tag \`85641516C8CA\`, lines **299–319**. | **Crosscheck only**, no full reproof of lattice-counting asymptotics or convex-body prerequisites. |
+
+[Full proof](../reports/2026-11-05-okounkov-elementary-interior-semigroup-conductor.md) · [resolved/proposed and unresolved/external ledger](../ledger/2026-11-05-okounkov-interior-conductor.md).
+
+**Baseline stays 25 chapters / 747 numbered sections / zero entirely mathematically certified sections.** Earlier classifications remain unchanged; all explicitly excluded Demailly approximation/regularization, Bergman, weighted L², OT, multiscale atlas and positivity-loss proofs remain **deferred-by-user**, not certified. No main/source/registry/tag/CI/build/website edits.
