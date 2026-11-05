@@ -8,7 +8,7 @@
 ## POME-BDIV-MOVING-POINT-ARBITRARY-VOLUME-001
 **Severity:** low. **Status:** verified conditional deduction (with an elementary proof of the additional model, conditional only on the printed definitions of nef Cartier b-divisor and their volume). **No printed theorem is false.**
 
-**Source anchors.** Lemma 20.1.7: `sgpt:54FCB4C1`, permanent `F5B2C1F1E318`, lines 66–96; Example 20.1.9: `sgpt:048A0D73`, permanent `7AF528B0FB3B`, lines 100–120. The exact upper-semicontinuity formula is Equation 20.1.8, `sgpt:D44AA2EA`, permanent `3BFB2E87E034`, lines 68–70. Definition 20.1.5 of a Weil b-divisor: `sgpt:2A98D289` / `178D74F44C30`, lines 39–53; Definition 20.1.6 of its volume: `sgpt:0B20B6FE` / `E6F6681E7170`, lines 56–63; nef Cartier Definition 20.1.11: `sgpt:DF932FEE` / `FB2640F8F828`, lines 139–151.
+**Source anchors.** Lemma 20.1.7: `sgpt:54FCB4C1`, permanent `F5B2C1F1E318`, lines 66–96; Example 20.1.9: `sgpt:048A0D73`, permanent `7AF528B0FB3B`, lines 100–120. The exact upper-semicontinuity formula is Equation 20.1.8, `sgpt:D44AA2EA`, permanent `3BFB2E87E034`, lines 68–70. Definition 20.1.5 of a Weil b-divisor: `sgpt:2A98D289` / `178D74F44C30`, lines 39–53; Definition 20.1.6 of its volume: `sgpt:0B20B6FE` / `E6F6681E7170`, lines 56–63; nef Cartier Definition 20.1.11: `sgpt:DF932FEE` / `FB2640F8F828`, lines 128–130.
 
 **Exact stronger statement.** Fix *any* pairwise distinct sequence of points `p_i` in `X=P^2`; no generic-position hypothesis is necessary. Write `pi_i:Y_i=Bl_{p_i}X -> X`, with exceptional curve `E_i`, and `H=c_1(O_X(1))`. For *any* sequence `0<=a_i<=1`, let `B_i` be the Cartier b-divisor realized by `pi_i^*H-a_i[E_i]` on `Y_i`, and let `B` be the Cartier b-divisor realized by `H` on `X`. Then:
 
