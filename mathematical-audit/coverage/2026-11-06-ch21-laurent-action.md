@@ -1,0 +1,11 @@
+# Exact current-ToC increment — 2026-11-06 — Chapter 21, Laurent/torus-action proof
+
+**Main commit:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Section in the current 25-chapter / 747-section ToC:** 21.9, *Fans, divisors and character sections* (section tag FF296752801A).
+
+| Current section / statement | Integrated file, immutable blob, physical lines and tags | New direct mathematical work | Not covered / status |
+| --- | --- | --- | --- |
+| §21.9.4 | docs/sections/convex-analysis-and-toric-potentials--fans-divisors-and-character-sections/index.html, blob 7ad2e6dbdd0ce59e1bf08cd9cb3c046e8c87ff6c, lines 112–136; source foundations-of-pluripotential-theory:D75B0BB2 / permanent 00432B20A966 | Independent direct annular-Cauchy proof of full multivariate Laurent representation, coefficient uniqueness, local normal convergence with exact \(3^nC_K\) bound, and positive-cone support for entire functions. Finding POME-TORIC-LAURENT-ANNULAR-CAUCHY-001. | The elementary annular Cauchy formula remains an input. Correct printed lemma; no whole section certification. |
+| §21.9.5, proof action sentence only | Same HTML blob, lines 153–166, especially 156 and 166; source foundations-of-pluripotential-theory:BD98CC5B / permanent 69D3D97E7701 | Explicit \(P=[0,1]\) torus-weight sign calculation and location of the incorrect exponent in the **explanatory premise**. Finding POME-TORIC-ACTION-INVERSE-INFERENCE-001. | Remaining global section reconstruction, lattice counting §21.7.3 and charts §21.8.3 not independently re-certified. The printed theorem is correct. |
+| §21.9.1–3; §21.8.3 | Same chapter, previously documented | Existing conventions read only as input for the selected action check | Context/dependency only; no newly completed proof assigned. |
+
+Detailed [report](../reports/2026-11-06-toric-laurent-cauchy-and-action-inverse.md) and [classified ledger](../ledger/2026-11-06-toric-laurent-and-action-inverse.md). All earlier chapter-21 coverage and classifications persist. **No complete section mathematically certified.** All excluded Demailly approximation and dedicated Bergman/L2/OT/multiscale/positivity-loss programme remains deferred-by-user. Only audit Markdown; no build, tests, CI or publication.
