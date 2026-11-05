@@ -7,7 +7,7 @@
 ## Current integrated reading anchors
 
 - Main file: docs/sections/uniqueness-for-degenerate-equations--bounded-uniqueness-and-connectedness/index.html, blob 52185a663bef778cc6da47299bda5c32fcb05670, physical lines 172–225. Proposition **14.24.13**, source label non-kahler-pluripotential-theory:0687B449, permanent tag **7F590FD94846**; equation **14.24.14**, source non-kahler-pluripotential-theory:9AB915D8, permanent **6928CCD52E25**. Equation **14.24.15**, source :4514E499, permanent **768EAB7723D9**, lines 183–188, is the local Dirichlet input in the printed general proof. The quantitative gluing conclusion is at lines 205–225.
-- In the same file, Proposition **14.24.2** (source non-kahler-pluripotential-theory:02FAC4D4, permanent **2C3AA01F259B**), its mixed comparison computation and equation 14.24.3 occupy physical lines 30–75 (the exact page should be consulted for final line offsets).
+- In the same file, Proposition **14.24.2** (source non-kahler-pluripotential-theory:02FAC4D4, permanent **2C3AA01F259B**), its mixed comparison computation and equation 14.24.3 occupy physical lines **23–49**, with the numerical factor displayed on lines **40–43**.
 - Crosscheck only: docs/sections/uniqueness-for-degenerate-equations--comparison-and-invariant-mass/index.html, blob 7683a63656f9b4311a77d1db8e260a1bdc65f0b0, physical lines 8–16 and 37–68: Guan–Li condition (equation 14.25.1, source :4B4D43A0, permanent 0B3AF72C81CB) and Theorem 14.25.3 (source :27525A10, permanent FE27B72E2DB5). No claim that all bounded comparison or smooth existence inputs have been verified.
 
 ## Printed assertion being tested
