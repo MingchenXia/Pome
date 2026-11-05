@@ -4,8 +4,8 @@
 **Date:** 2026-11-05  
 **Severity:** low  
 **Classification:** verified conditional deduction (not a false printed theorem, proof gap, or completed repair).  
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
-**Integrated reading edition:** \`docs/sections/boundary-levi-geometry-and-holomorphic-extension--bounded-power-exhaustions-at-a-smooth-pseudoconvex-boundary/index.html\`, main blob \`3c2f1e7af53a9f7c86ca718d47e5054679ff75a7\`, physical lines **7–16** (definition and statement), **21–74** (the printed argument). Theorem **9.35.1** source label \`demailly-complex-geometry:8B2CF5E4\`, permanent tag **AC8A460928B4**. The supporting signed-distance collar occurs in Theorem **9.34.2**, source \`demailly-complex-geometry:3D6302E9\`, permanent tag **8F39CE9F0DBB**, \`docs/sections/boundary-levi-geometry-and-holomorphic-extension--boundary-levi-geometry/index.html\`, main blob \`fe5ebfa26a59b083027a10b66fcc13bddad8acbc\`, physical lines **47–61**.
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
+**Integrated reading edition:** `docs/sections/boundary-levi-geometry-and-holomorphic-extension--bounded-power-exhaustions-at-a-smooth-pseudoconvex-boundary/index.html`, main blob `3c2f1e7af53a9f7c86ca718d47e5054679ff75a7`, physical lines **7–16** (definition and statement), **21–74** (the printed argument). Theorem **9.35.1** source label `demailly-complex-geometry:8B2CF5E4`, permanent tag **AC8A460928B4**. The supporting signed-distance collar occurs in Theorem **9.34.2**, source `demailly-complex-geometry:3D6302E9`, permanent tag **8F39CE9F0DBB**, `docs/sections/boundary-levi-geometry-and-holomorphic-extension--boundary-levi-geometry/index.html`, main blob `fe5ebfa26a59b083027a10b66fcc13bddad8acbc`, physical lines **47–61**.
 
 ## Statement established in this audit
 
@@ -69,7 +69,7 @@ in the complex Hessian matrix convention. This is positive definite for \(0<\eta
 
 ## Classification, scope and suggested edit
 
-Theorem 9.35.1 is **not false** and no part of its original proof is claimed to be repaired. This is a new quantitative boundary obstruction complementing, but mathematically distinct from, the earlier audit \`POME-PSH-BOUNDARY-COMPLETE-METRIC-001\`: that work used the produced exhaustion to construct a complete Kähler metric; here the comparison principle proves a universal *upper* limit for possible decay exponents without requiring pseudoconvexity.
+Theorem 9.35.1 is **not false** and no part of its original proof is claimed to be repaired. This is a new quantitative boundary obstruction complementing, but mathematically distinct from, the earlier audit `POME-PSH-BOUNDARY-COMPLETE-METRIC-001`: that work used the produced exhaustion to construct a complete Kähler metric; here the comparison principle proves a universal *upper* limit for possible decay exponents without requiring pseudoconvexity.
 
 **Suggested reading-edition addition, as a proposed patch only:** after Theorem 9.35.1, add a short remark distinguishing existence of some \(0<\eta<1\) from the sharp global ceiling \(\eta\leq1\), with the tangent-ball harmonic barrier and unit-ball endpoint. Do not imply existence of a global psh defining function at \(\eta=1\) on every smooth pseudoconvex domain. The only affected downstream interpretation is any attempt to strengthen the theorem to boundary power \(>1\); no printed dependent result is shown false.
 
