@@ -1,0 +1,13 @@
+# Exact current-ToC coverage increment — 2026-11-05
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. Current reader ToC base **25 chapters / 747 numbered sections**; **zero entire mathematical sections independently certified**. This is an additive selected-entry coverage record, not a replacement or blanket completion of the existing 747-row matrix.
+
+| Current ToC section | Actually inspected | Version / provenance | Status and limit |
+| --- | --- | --- | --- |
+| **8.2**, The admissible cone | **New direct proof/model review** of **Lemma 8.2.7**, setup lines 7–16 and degree guard/proof lines **155–179**. Exact diagonal strictly admissible family and `r=m` countermodel. | `docs/sections/complex-hessian-equations--the-admissible-cone/index.html`; blob `925e6109ab7d800cde9bec4b0487842b2e6877a8`; source `non-kahler-pluripotential-theory:25ADAEE1`; permanent `B0643A9A1173`. | `POME-HESS-ABSOLUTE-FORM-TOP-DEGREE-FAIL-001`, low / verified conditional deduction. Original strict `r<m` lemma valid. Not an audit of all §8.2 or full Gårding theory. |
+| **8.9**, Bounded potentials and recursive Hessian currents | **Exact dependency cross-check only:** Proposition 8.9.3 at lines **46–78**, `q<=p<m` and top `D_m` distributional distinction. | `docs/sections/complex-hessian-equations--bounded-potentials-and-recursive-hessian-currents/index.html`; blob `117b866408974cdf706bf305df75e35e1b8affde`; source `non-kahler-pluripotential-theory:354EA0C7`; permanent `EB2FA13CDDE0`. | No new theorem error; no analytic approximation or full §8.9 certification. |
+| **8.11**, Local capacities and decreasing products | **Exact dependency cross-check only:** Lemma 8.11.10, lines **239–255**; Theorem 8.11.12, lines **281–292**, raw coefficient bounds only for `p<m`. | `docs/sections/complex-hessian-equations--local-capacities-and-decreasing-products/index.html`; blob `115d285f6b1f76d284463c396e7e87db2b9dbdc3`; sources `FA167F60/B227378C`; permanent tags `348FF027ECE6/C044CD1C65C4`. | Context only, no general mass/current convergence theorem certification. |
+
+Other 744 current ToC sections: **no newly recorded reading or verification** in this run. Earlier partial coverage and all historical ledger classifications preserved. Demailly approximation/regularization, Bergman, weighted-L2, OT, multiscale and positivity-loss programme stays **deferred-by-user**. Only audit Markdown is proposed; main, source repositories, permanent tags, canonicalization, site, build and CI untouched.
+
+[Full English argument](../reports/2026-11-05-intermediate-hessian-raw-degree-boundary.md) · [Classified ledger](../ledger/2026-11-05-hessian-absolute-form-top-degree-failure.md).
