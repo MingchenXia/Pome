@@ -1,0 +1,10 @@
+# Classified ledger — 2026-11-05 — convex full-mass measure topology
+
+Reviewed production main: `b6933b772f41b45918f7e25ed1afbbb1fd892272`. Target §21.6, `docs/sections/convex-analysis-and-toric-potentials--compact-convex-envelopes-and-full-mass-limits/index.html` blob `b3b4e34fff767a717df812a381f905589b257fb3`, physical lines 10–45. **Original Lemmas 21.6.1–2 are not refuted.** Details: [full report](../reports/2026-11-05-convex-full-mass-narrow-not-wasserstein.md).
+
+| Stable ID | Severity / status | Precise mathematical conclusion | Proposed treatment / affected dependents |
+| --- | --- | --- | --- |
+| `POME-TORIC-FULLMASS-WASSERSTEIN-NONUPGRADE-001` | low / **verified conditional deduction** | For `P=[0,1]`, the uniformly `E^infty`-bounded `F_R=(1-c/R)x_+ +(c/R)(x-R)_+` tend locally uniformly to `x_+` with full mass. Their real MA measures converge narrowly, but `W_1=c`, all `W_p,p>1` diverge, and `integral_P F_R^*=c^2/(2R)->0`. Independent one-dimensional slope-jump proof. | No false theorem. Optional caution after Lemma 21.6.2; prohibit unproved moment/Wasserstein upgrades in §§21.5–6,21.12–13. |
+| `POME-TORIC-VAGUE-MASS-NET-UPGRADE-001` | low / **verified conditional deduction** | For finite positive Radon **nets**, vague convergence plus total-mass convergence implies narrow convergence by an explicit fixed-cutoff estimate with no subsequences. | Optional strengthened formulation of §21.6.2(1); net-wise MA vague convergence is separately open. |
+
+**Status separation:** No newly confirmed error, proof gap, external input or genuine duplication. No verified repair of a false theorem; original sequence statement remains correct. Crosschecked §21.4.1 (main HTML `56a9a1c19e7234e2aa258d5ad1b66a5679ace190`, lines 11–26) and §21.5.1–3 (blob `7089aa41ae2422b1bd6b5094e46668cbc8ed37be`, lines 11–21, 44–48, 90–94) for scope and normalization; no complete proof-chain certification. Owner-excluded Demailly approximation/regularization and dedicated Bergman/L2/OT/multiscale/positivity-loss work remains **deferred-by-user**; previous ledger statuses unchanged.
