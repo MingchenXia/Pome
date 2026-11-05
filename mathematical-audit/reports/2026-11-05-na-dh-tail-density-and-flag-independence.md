@@ -1,14 +1,14 @@
 # Non-Archimedean Duistermaat–Heckman distributions: exact tails, flag independence, density, and the terminal atom
 
-**Date:** 2026-11-05. **Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\` (not changed).
+**Date:** 2026-11-05. **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272` (not changed).
 
-**Stable finding IDs:** \`POME-NA-DH-TAIL-FLAG-INDEPENDENCE-001\` (medium / **verified repair**: a shorter alternative proof of one valid theorem clause, not a false theorem); \`POME-NA-DH-DENSITY-ENDPOINT-ATOM-001\` (low / **verified conditional deduction**).
+**Stable finding IDs:** `POME-NA-DH-TAIL-FLAG-INDEPENDENCE-001` (medium / **verified repair**: a shorter alternative proof of one valid theorem clause, not a false theorem); `POME-NA-DH-DENSITY-ENDPOINT-ATOM-001` (low / **verified conditional deduction**).
 
-**Exact integrated reading edition:** \`docs/sections/non-archimedean-pluripotential-theory/index.html\`, main blob \`8448d710690ebe1cc28040f9611d05c9d008a961\`, physical lines 902–997 (Definition 22.1.55 at 907–912; Theorem 22.1.56 and moments 915–933; original long approximation-based flag-independence proof 933–997). Source/permanent labels: Definition 22.1.55 \`sgpt:115B0C00\` / \`9ADEFD2FF381\`; Theorem 22.1.56 \`sgpt:420C36E9\` / \`0AD7F80A793D\`; Eq. 22.1.57 \`sgpt:097E0D17\` / \`A51020D58E6F\`; Eq. 22.1.58 \`sgpt:7D143167\` / \`51031202809C\`. The relevant reading-edition heading is §22.1.54 (permanent \`3C0D12E80020\`).
+**Exact integrated reading edition:** `docs/sections/non-archimedean-pluripotential-theory/index.html`, main blob `8448d710690ebe1cc28040f9611d05c9d008a961`, physical lines 902–997 (Definition 22.1.55 at 907–912; Theorem 22.1.56 and moments 915–933; original long approximation-based flag-independence proof 933–997). Source/permanent labels: Definition 22.1.55 `sgpt:115B0C00` / `9ADEFD2FF381`; Theorem 22.1.56 `sgpt:420C36E9` / `0AD7F80A793D`; Eq. 22.1.57 `sgpt:097E0D17` / `A51020D58E6F`; Eq. 22.1.58 `sgpt:7D143167` / `51031202809C`. The relevant reading-edition heading is §22.1.54 (permanent `3C0D12E80020`).
 
 ## The claim and its precise scope
 
-Let \`X\` be a connected compact Kähler manifold of dimension \`n>=1\`, \`theta\` a smooth closed real \`(1,1)\`-form representing a **big** class, and
+Let `X` be a connected compact Kähler manifold of dimension `n>=1`, `theta` a smooth closed real `(1,1)`-form representing a **big** class, and
 \[
 \Gamma\in\mathrm{PSH}^{\mathrm{NA}}(X,\theta)_{>0}.
 \]
@@ -121,8 +121,8 @@ The absolutely continuous part has mass \(n!(1-c)\), the endpoint atom has mass 
 * **Proposed integration, audit only**: place (A) and its short proof after Definition 22.1.55 or within Theorem 22.1.56, and add the locally absolutely continuous/endpoint-atom refinement as a remark after the theorem. Preserve the theorem statement, provenance, permanent tags, and existing longer proof until a separately reviewable source/body patch is accepted.
 
 **Exact cross-section anchors (dependency inspection, not full audit):**
-* \`docs/sections/the-theory-of-okounkov-bodies--okounkov-test-curves/index.html\`, blob \`20ff3089e62dd1c8349e8bcc077ec64605a9788b\`: Definition 19.6.1 \`sgpt:26A94CBB\` / \`ACD722F45231\` lines 16–52; Proposition 19.6.4 \`sgpt:5FBEF833\` / \`29A7DDA38CA2\` lines 55–85; Legendre Definition 19.6.7 \`sgpt:2E276BD3\` / \`7B20D9977149\` lines 112–134; Definition 19.6.18 \`sgpt:09132002\` / \`51940EF88F4F\` lines 328–334; Theorem 19.6.24 \`sgpt:43914315\` / \`74133E3920A2\` lines 447–453. (All locations are physical integrated HTML line numbers.)
-* \`docs/sections/the-theory-of-okounkov-bodies--transcendental-partial-okounkov-bodies/index.html\`, blob \`a53c6b2f80c3775e9d646f57808425823ec4a4ac\`: Theorem 19.5.26(1), source \`sgpt:9B46A73A\` / permanent \`944BC14A8246\`, lines 310–318; its scope is positive-volume currents, satisfied by the levels in Theorem 19.6.24.
+* `docs/sections/the-theory-of-okounkov-bodies--okounkov-test-curves/index.html`, blob `20ff3089e62dd1c8349e8bcc077ec64605a9788b`: Definition 19.6.1 `sgpt:26A94CBB` / `ACD722F45231` lines 16–52; Proposition 19.6.4 `sgpt:5FBEF833` / `29A7DDA38CA2` lines 55–85; Legendre Definition 19.6.7 `sgpt:2E276BD3` / `7B20D9977149` lines 112–134; Definition 19.6.18 `sgpt:09132002` / `51940EF88F4F` lines 328–334; Theorem 19.6.24 `sgpt:43914315` / `74133E3920A2` lines 447–453. (All locations are physical integrated HTML line numbers.)
+* `docs/sections/the-theory-of-okounkov-bodies--transcendental-partial-okounkov-bodies/index.html`, blob `a53c6b2f80c3775e9d646f57808425823ec4a4ac`: Theorem 19.5.26(1), source `sgpt:9B46A73A` / permanent `944BC14A8246`, lines 310–318; its scope is positive-volume currents, satisfied by the levels in Theorem 19.6.24.
 
 **Coverage:** actual new selected subsection §22.1.54–59 distribution/flag-independence mathematics, plus only the specifically cited §§19.5–19.6 convex/Legendre/mass hypotheses; **not** mathematical certification of all of §22.1 or any full chapter. As checked against the current published ToC, the collection still has **25 chapters, 747 numbered sections, and zero wholly mathematically certified sections**. All earlier confirmed errors, gaps, candidates, external dependencies, duplications, and repairs remain separately classified. Demailly approximation/regularization and its dedicated Bergman, weighted-\(L^2\), Ohsawa–Takegoshi, multiscale-atlas, and positivity-loss programme remain **deferred-by-user**: neither reopened nor marked resolved.
 
