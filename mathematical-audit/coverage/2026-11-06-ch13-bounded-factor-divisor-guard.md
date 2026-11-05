@@ -1,0 +1,14 @@
+# 2026-11-06 — precisely bounded Chapter 13 NPP coverage increment
+
+Reviewed production main **b6933b772f41b45918f7e25ed1afbbb1fd892272**. Current recorded ToC **25 chapters / 747 numbered sections**. The chapter/section rows in **mathematical-audit/SECTION_MATRIX.md** are preserved; this is an additive *model-proof* increment to an earlier selected §13.4 audit, not a first review of the section.
+
+| Current ToC locator | Printed result and stable identifiers | Exact integrated source / blob and lines | Newly reviewed scope | Status / remaining work |
+| --- | --- | --- | --- | --- |
+| **§13.4** | Lemma 13.4.2 source **foundations-of-pluripotential-theory:12132441**, permanent **5D93FCFBA57F** | **docs/sections/non-pluripolar-products--bounded-factors-and-the-first-degree-product/index.html**; **d234ab96e33bfd24ad1d53d29332b2c021cddeff**; lines **72–94** | Smooth \(v\) and divisor \(T=[Z]\) exhibit failure of the *unprinted* no-polar-base hypothesis deletion; distinguish it from the lemma's true assumption | Verified conditional deduction; general weighted CLN prerequisite not recertified |
+| **§13.4** | Proposition 13.4.3 source **foundations-of-pluripotential-theory:38D341C7**, permanent **90E0E28D9A95** | Same blob, lines **98–125**, especially **109–125** | Direct two-variable example: ordinary mixed divisor current has \(r^2\) disk mass, actual NPP mixed current vanishes at every level. Generalization to any pure local holomorphic divisor and psh factors | **POME-NPP-DIVISOR-BASE-LOSS-001**, low / verified conditional deduction; printed proposition correct, not fully certified |
+| **§13.2** | Definition 13.2.4 source **foundations-of-pluripotential-theory:9D8E4DD8**, permanent **D79952D7E272**; supporting Lemma 13.2.2 **CE1D6DA5 / D59675D9F6D8** | **docs/sections/non-pluripolar-products--truncation-and-plurifine-locality/index.html**; **81be8c5acc360c96bd3c5acba05a3cdb5fafaf4c**; lines **7–13, 34–52, 57–63** | Read exact strict-level truncation and show directly that all restricted model currents are zero | Definition/model match only; no new whole-section certification |
+| **§17.2** | Lemma 17.2.3 | **docs/sections/relative-energy-and-perron-segments--integration-by-parts-for-bounded-differences/index.html**; **5779ef1a17a52e02052c7485a7aa04adf606aace**; line **139** | Reference-only check of downstream invocation of §13.4.3 | No new proof-level §17.2 coverage claimed |
+
+[Detailed English proof](../reports/2026-11-06-divisorial-npp-bounded-factor-base-loss.md) · [classification delta](../ledger/2026-11-06-divisorial-npp-base-loss.md).
+
+No new whole-section certifications: **zero**. The existing broad matrix and previous chapter reviews are not reclassified; excluded Demailly approximation/regularization and its dedicated programmes continue **deferred-by-user**. No numerical test, compile, CI, website publication or source/registry/tag modification.
