@@ -3,10 +3,10 @@
 **Findings:** POME-CLASSICAL-MINIMUM-INFINITY-NECESSARY-001; POME-CLASSICAL-MINIMUM-LOWERBOUND-NECESSARY-001.  
 **Both:** low / **verified conditional deduction**. The printed theorem is **correct**; these are explicit counterexamples only to *unprinted weakened hypotheses*.  
 **Production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272.  
-**Integrated reading edition:** \`docs/sections/polar-sets-capacity-and-sweeping/index.html\`, blob \`aa814f26482e8ed27e51c945e9202c797449158b\`.  
+**Integrated reading edition:** `docs/sections/polar-sets-capacity-and-sweeping/index.html`, blob `aa814f26482e8ed27e51c945e9202c797449158b`.  
 **Primary location:** §4.3.3, Theorem 4.3.4, physical lines **24–27** (statement), **30–38** (proof).  
-**Source label / permanent tag:** \`classical-potential-theory:B6612815\` / \`09FD5942CD4F\`.  
-**Nearby downstream checks:** §4.3.7 (Theorem 4.3.7, lines 60–93; source \`classical-potential-theory:5388371B\`, permanent \`ABDF7610F7B2\`); §4.3.10 (Theorem 4.3.10, lines 121–130; source \`classical-potential-theory:FA6C8523\`, permanent \`C4F5D8B270EB\`). Only their *uses* of the boundary principle were inspected, not their entire proofs.
+**Source label / permanent tag:** `classical-potential-theory:B6612815` / `09FD5942CD4F`.  
+**Nearby downstream checks:** §4.3.5 (Theorem 4.3.7, lines 60–93; source `classical-potential-theory:5388371B`, permanent `ABDF7610F7B2`); §4.3.10 (Theorem 4.3.10, lines 121–130; source `classical-potential-theory:FA6C8523`, permanent `C4F5D8B270EB`). Only their *uses* of the boundary principle were inspected, not their entire proofs.
 
 ## Exact printed statement and quantifier boundary
 
