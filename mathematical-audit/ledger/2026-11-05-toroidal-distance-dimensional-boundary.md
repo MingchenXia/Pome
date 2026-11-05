@@ -1,0 +1,9 @@
+# 2026-11-05 — dimensional sharpness of planar distance/subharmonicity criteria
+
+| Stable ID | Severity | Status | Current printed result | Reproducible evidence | Correction / affected dependents |
+| --- | --- | --- | --- | --- | --- |
+| POME-PLANAR-DISTANCE-TORUS-DIMENSION-001 | low | verified conditional deduction | §§3.9.1–3.9.3 are true **in R^2**; no counterexample to the printed hypotheses | For every m>=3, the nonconvex solid tube D={dist(x,C)<1} around a radius-4 circle C has -dist(x,R^m\D)=q-1 subharmonic; the closed tube F={q<=1} has dist(x,F)=(q-1)_+ subharmonic on connected G={q<3/2}; see exact q_epsilon Laplacian and boundary-collar computation in linked report | Retain dimension 2 in any restatement, cross-reference, or future generalization. Do not modify existing theorems. Candidate warning for future dimension-generalizations only; no established current dependent is claimed. |
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Main blob:** 25fd0fd57d3e51f9224a25341ace77584b2a1a2a. **Exact integrated file:** docs/sections/planar-boundary-distance-and-convexity/index.html. **Tags:** klimek-pluripotential-theory:79D31B13 / 964B6728E795 (lines 7–33); klimek-pluripotential-theory:219D9DEC / 59D258340230 (lines 38–87); klimek-pluripotential-theory:366D2F88 / BBEB233BF8A4 (lines 92–107). [Full proof](../reports/2026-11-05-toroidal-distance-rigidity-dimension-three.md). [Exact coverage](../coverage/2026-11-05-ch3-planar-distance-dimensional-boundary.md).
+
+**No status change to previously unresolved or resolved findings.** The dedicated Demailly regularization/approximation, Bergman, weighted L2, Ohsawa–Takegoshi, multiscale-atlas and positivity-loss programme remains **deferred-by-user**, not resolved, audited, or certified. No new external input or duplicate has been asserted.
