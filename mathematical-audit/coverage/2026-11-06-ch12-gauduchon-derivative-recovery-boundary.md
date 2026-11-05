@@ -1,0 +1,14 @@
+# Additive current-ToC mathematical coverage — 2026-11-06 — Gauduchon derivative reconstruction
+
+Baseline: production **main b6933b772f41b45918f7e25ed1afbbb1fd892272**. Chapter 12 currently carries the title **Gauduchon variational volume**. Current table of contents remains **25 chapters / 747 numbered sections / zero wholly mathematically certified sections**. This is a new selected proof/model inspection within previously *partially* checked §12.5; it does not make all of §12.5 verified.
+
+| Current ToC position | Exact new coverage and stable labels | Status and limits |
+| --- | --- | --- |
+| **12.5 Recovering a positive class from its Gauduchon derivative** | Directly checked the normalized first-variation form at physical lines **10–19**, Proposition **12.5.1** statement **22–27** and inverse proof **32–43**, main HTML **docs/sections/a-gauduchon-variational-volume--recovering-a-positive-class-from-its-gauduchon-derivative/index.html**, blob **829d10abfa8f92c7c77fde66704adb6486ccdc93**, source **non-kahler-pluripotential-theory:765CFEAC**, permanent **4BBB232A044C**. Independent flat-torus family shows full derivative representatives converge C-infinity while recovered unit-volume solution forms blow up at rate t^(-1/n), with exact q=n/2 L^q threshold. | **POME-GAUD-RECOVERY-SMOOTH-DERIVATIVE-BOUNDARY-001**, low / **verified conditional deduction**. Original proposition correct. Interior uniqueness does not imply a boundary-stable inverse. No full section certification. |
+| **12.2 The quotient and the smooth equation** | Definition **12.2.1**, lines **7–21**, and Theorem **12.2.3** (source **non-kahler-pluripotential-theory:876DF057**, permanent **2DB664A6EFDF**) lines **49–79**; HTML blob **9ec67161d46b3ba20afa1b1c9a0c84f29322763e**. Used quotient normalization and tested equality directly by AGM. | Dependency/context only, not a new independent proof of general smooth Monge–Ampere existence. |
+| **12.3 The equality case of concavity and the first variation** | Proposition **12.3.2**, source **non-kahler-pluripotential-theory:6D3F0AB8**, permanent **94AFD9E43DE0**, lines **34–58**, HTML blob **d94e3fc055b0642a86495c27ad8f5af6f24f17d1**. | Existing derivative-identification input: **conditional**, not independently certified. |
+| **12.1 Chapter background** | Probability-form hypothesis checked at **docs/sections/a-gauduchon-variational-volume/index.html**, line **8**. | Conventions only. |
+
+[Full proof](../reports/2026-11-06-gauduchon-derivative-boundary-noncompactness.md) · [classified ledger](../ledger/2026-11-06-gauduchon-derivative-boundary-noncompactness.md).
+
+No existing audit discovery was reclassified. In particular, the excluded Demailly approximation/regularization and dedicated Bergman, weighted-L2, Ohsawa–Takegoshi, multiscale and positivity-loss programmes are **deferred-by-user**, not resolved. No production file edits, tests, builds, CI, formal verification or website publishing.
