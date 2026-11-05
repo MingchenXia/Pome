@@ -1,0 +1,9 @@
+# Classified increment — 2026-11-05 — exact complete-pluripolar defects
+
+| Finding ID | Severity | Classification | Precise source | Mathematical conclusion and disposition |
+| --- | --- | --- | --- | --- |
+| `POME-BT-ARBITRARY-COMPLETE-POLAR-DEFECT-001` | low | **verified conditional deduction** | `docs/sections/bedford-taylor-products-and-local-capacity--increasing-limits-and-exceptional-envelopes/index.html`, main blob `5e763bdc928794938c37dc3c7a51cc406472d076`, lines 6–15 and 62–78, Theorem 7.6.1 source `foundations-of-pluripotential-theory:36787F42` / tag `A4C45B704647`, Corollary 7.6.2 source `:2ACED3F4` / tag `D865A8538D7D` | On a relatively compact domain any nontrivial PSH pole set is exactly the discrepancy set between the pointwise supremum and regularized supremum of an increasing sequence of PSH functions in [-1,0]. On the unit disk its normalized radial-current mass is exactly 1/j and tends to zero. Printed results correct; potential expository addition only, not a theorem repair. |
+
+Reviewed production main `b6933b772f41b45918f7e25ed1afbbb1fd892272`. Independent pointwise and one-dimensional distributional arguments are complete; general capacity convergence and null capacity of pole sets rely on the indicated internal Theorem 7.6.1 and Corollary 7.6.2, which are **not** fully certified here. §13.7.8 (source `:8CF7A9C6` / permanent `4B60F7F33590`, physical lines 147–173, integrated blob `d66813856cb813722806ab912afdfd4815d2da97`) checked only as a dependent. No newly confirmed mathematical error, gap, external input, genuine duplicate or complete repair. Prior ledger states remain intact.
+
+**Owner-deferred unchanged:** Demailly approximation/regularization and dedicated Bergman, weighted-L2, OT, multiscale-atlas, and positivity-loss proof-completion programme = `deferred-by-user`, not resolved or certified. No modifications to production main, source, tags or publication.
