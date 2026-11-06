@@ -1,0 +1,6 @@
+# 2026-11-06 — Projective diagonal geodesic model: additive classified ledger
+
+- **POME-GEO-PROJECTIVE-DIAGONAL-EXACT-001** — **low / verified conditional deduction**. Reviewed \`main\` \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; precise anchors, source/permanent tags, all hypotheses, full barrier comparison with unrestricted Perron competitors, and independent energy calculation: [report](../reports/2026-11-06-projective-diagonal-geodesic-energy.md).
+- **Not a confirmed error, not a proof-gap repair, not a whole-section certificate.** Exact \(\mathbb P^n\) model satisfies printed §§17.7–17.8; its strictly convex pointwise profiles have affine integrated energy. No change to earlier confirmed errors, proof gaps, external inputs, duplicates, or conditional repairs.
+- **Deferred by user (unchanged):** Demailly approximation/regularization, dedicated Bergman and weighted \(L^2\), Ohsawa–Takegoshi, multiscale atlas, and positivity-loss proof-completion programme. These are not resolved or certified.
+- **Follow-up outside this selected scope:** general energy-affinity proof's integration-by-parts and passage to finite-energy limits, projective/toric normalizations in further examples, and other previously unreviewed sections. Do not infer certification from this model.
