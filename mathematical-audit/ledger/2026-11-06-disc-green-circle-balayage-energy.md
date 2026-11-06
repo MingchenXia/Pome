@@ -1,0 +1,9 @@
+# 2026-11-06 — disc Green circle energy and positive-cone projection
+
+| Stable ID | Status | Severity | Reviewed main | Exact scope | Dependency / correction / affected results |
+| --- | --- | --- | --- | --- | --- |
+| `POME-GREEN-DISC-CIRCLE-ENERGY-PROJECTION-001` | **verified conditional deduction**; no printed false theorem or proof-gap certificate | low | `b6933b772f41b45918f7e25ed1afbbb1fd892272` | §4.5.1, 4.5.2, 4.5.4, 4.5.6; integrated `docs/sections/green-energy-and-martin-boundaries/index.html`, blob `976a90f2a5eba299658f73a1eee8b9d3fef8020f`, lines 5–17, 46–65, 76–86; sources/tags `classical-potential-theory:AEA69819 / CC3D1AD9179B`, `:5FB19CB2 / CE0D5F4DF7B2`, `:9D70EB64 / B15EFD960FD5`. Green convention §3.8.1 `klimek-pluripotential-theory:B1C110E2 / E2B11E803D94`. | Exact concentric-circle potential, Gram kernel, capacity (1/\log(1/R)), all-positive-measure disk projection (\nu=(\log(1/r)/\log(1/R))\u03bc_R), distance squared (a-a^2/b), strong energy convergence with fixed TV distance 2, and vanishing energy with total mass 1 on boundary escape. Unrestricted projection identification uses internal energy positivity §4.5.2, not newly certified. Optional illustrated example only; no change to theorem statements or original proof chain. |
+
+**Unresolved:** independent general Green-energy positivity/completeness and balayage theory remain unverified as complete theorems; no entire §4.5 certification. **Existing classifications:** unchanged; owner-excluded Demailly approximation/regularization, dedicated Bergman/weighted-L²/OT/multiscale/positivity-loss all remain **deferred-by-user**, neither resolved nor reopened.
+
+[Detailed English proof](../reports/2026-11-06-disc-circle-green-energy-balancing-projection.md) · [new exact coverage](../coverage/2026-11-06-ch4-disc-circle-energy-balayage.md).
