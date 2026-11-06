@@ -1,0 +1,14 @@
+# Actual chapter/section coverage increment — 2026-11-06 — §14.8
+
+**Current ToC context:** Chapter 14, *Monge–Ampère equations and stability*, contains §14.1 *Smooth Monge–Ampère equations*, §14.2 *Scalar bounds and uniqueness*, §14.3 *The potential bound from weighted integration*, §14.4 *The linearized equation and smooth dependence*, §§14.5–14.7 elliptic estimates/existence/exponential equation, §14.8 *Variation of the normalization scalar*, and §§14.9–14.18 the Hopf/Gauduchon ansatz. This increment is **not** a whole-chapter or whole-section certification.
+
+| Actual section/statement | Examination performed | Level | Record |
+| --- | --- | --- | --- |
+| §14.8 Theorem 14.8.1, Eq. (14.8.2)–(14.8.3), integrated HTML physical lines 10–48 | Matched the printed hypotheses and determinant derivative with the closed-background mass normalization; supplied a direct Kähler variance and exact wedge/Stokes identity | New selected proof calculation, theorem not fully certified | POME-MA-KAHLER-NORMALIZATION-VARIANCE-001 |
+| §14.8 Corollary 14.8.4, lines 53–68 | Checked probability-measure use, strict concavity and Lipschitz comparison; derived sharp 1/4 quadratic curvature oscillation bound in the Kähler subcase | Selected conditional strengthening, not proof-chain certification | same |
+| §14.8 standalone equation entry at line 70 | Compared exact formula and stable tags with line 17, checked extra environment nesting at source text level | Genuine visible duplication; browser effect not checked | POME-MA-SECOND-VARIATION-RENDER-DUPLICATE-001 |
+| §14.1.1 and §14.2.3 | Read Hermitian/general setup and the exact closed-background scalar formula | Dependency context only | none |
+| §14.4.1 | Read Banach-space smooth-dependence theorem and its linearized argument | Dependency context only; not re-proved | none |
+| §§14.3, 14.5–14.7, 14.9–14.18; general Hermitian adjoint measure | Not reviewed this session | Unreviewed/previous statuses unchanged | none |
+
+**Pinned production main:** <code>b6933b772f41b45918f7e25ed1afbbb1fd892272</code>. §14.8 HTML <code>docs/sections/smooth-monge-ampere-equations--variation-of-the-normalization-scalar/index.html</code> blob <code>34526fcac6d5f30e71a98cadc88a4c76817546c4</code>; §14.1 blob <code>e35eb98bdc1c62c4938155964945f4d6495b4ee4</code>; §14.2 blob <code>3f96829e18befc845df40c6d4bca13c977ae9cea</code>; §14.4 blob <code>2f9ebecbd5bd079eb8573b4bb97df0fb5ab1bdfb</code>. Stable labels and tag anchors in the [full report](../reports/2026-11-06-kahler-normalization-hessian-variance-and-duplicate.md). **Collection total** remains 25 chapters, 747 sections, zero whole-section mathematical certifications; existing ledgers remain intact. Excluded approximation/regularization programme is **deferred-by-user**. Review Markdown only; no main/source/build/CI/site actions.
