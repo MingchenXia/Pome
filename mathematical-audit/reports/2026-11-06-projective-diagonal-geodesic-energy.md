@@ -6,11 +6,11 @@
 
 ## Fixed source and provenance
 
-Reviewed production \`main\` **b6933b772f41b45918f7e25ed1afbbb1fd892272**. The actual reading-edition files, rather than only detached source numbers, were inspected:
+Reviewed production `main` **b6933b772f41b45918f7e25ed1afbbb1fd892272**. The actual reading-edition files, rather than only detached source numbers, were inspected:
 
-- \`docs/sections/relative-energy-and-perron-segments--subgeodesics-and-perron-segments/index.html\`, blob **662f60d73fc585b6ea3b710f2a3472bac1de8a7c**, physical lines **6–24, 100–110, 180–211, 213–254**: Definition 17.7.1 (\`foundations-of-pluripotential-theory:15664095\` / permanent \`B0604A42ABDF\`), Proposition 17.7.4 (\`:424728F5\` / \`61A0C5DD7757\`), Definition 17.7.7 (\`:041BC264\` / \`4A0AFDAD6156\`), Theorem 17.7.8 (\`:108758A0\` / \`2FECBE87C487\`), Proposition 17.7.9 (\`:470B93BF\` / \`DD04D189A4D3\`).
-- \`docs/sections/relative-energy-and-perron-segments--energy-along-weak-geodesics/index.html\`, blob **8d9b7af925289346c96df751c67049e90c9dfe1d**, physical lines **58–65 and 65–116**: Theorem 17.8.3 (\`foundations-of-pluripotential-theory:907171A2\` / \`678A18D6D406\`), especially its energy-affinity conclusion.
-- \`docs/sections/relative-energy-and-perron-segments--relative-monge-ampere-energy/index.html\`, blob **16fdcc4c6a6f0cc75e69ba267bd7da2b2d7922a1**, physical lines **31–37**: Definition 17.3.2 (\`foundations-of-pluripotential-theory:582D55DC\` / \`240EF1DE5889\`) and energy equation 17.3.3 (\`:8C7506A6\` / \`F19AAFA93177\`).
+- `docs/sections/relative-energy-and-perron-segments--subgeodesics-and-perron-segments/index.html`, blob **662f60d73fc585b6ea3b710f2a3472bac1de8a7c**, physical lines **6–24, 100–110, 180–211, 213–254**: Definition 17.7.1 (`foundations-of-pluripotential-theory:15664095` / permanent `B0604A42ABDF`), Proposition 17.7.4 (`:424728F5` / `61A0C5DD7757`), Definition 17.7.7 (`:041BC264` / `4A0AFDAD6156`), Theorem 17.7.8 (`:108758A0` / `2FECBE87C487`), Proposition 17.7.9 (`:470B93BF` / `DD04D189A4D3`).
+- `docs/sections/relative-energy-and-perron-segments--energy-along-weak-geodesics/index.html`, blob **8d9b7af925289346c96df751c67049e90c9dfe1d**, physical lines **58–65 and 65–116**: Theorem 17.8.3 (`foundations-of-pluripotential-theory:907171A2` / `678A18D6D406`), especially its energy-affinity conclusion.
+- `docs/sections/relative-energy-and-perron-segments--relative-monge-ampere-energy/index.html`, blob **16fdcc4c6a6f0cc75e69ba267bd7da2b2d7922a1**, physical lines **31–37**: Definition 17.3.2 (`foundations-of-pluripotential-theory:582D55DC` / `240EF1DE5889`) and energy equation 17.3.3 (`:8C7506A6` / `F19AAFA93177`).
 
 The table of contents on this main has 25 chapters and 747 numbered sections. These are **selected** model/implication checks within previously partially sampled sections, not full section certifications.
 
