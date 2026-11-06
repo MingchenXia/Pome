@@ -1,23 +1,23 @@
 # An irrational Okounkov simplex from a non-finitely generated full-lattice graded section algebra (6 November 2026)
 
-**Finding:** \`POME-OKO-IRRATIONAL-GRADED-SIMPLEX-001\`  
+**Finding:** `POME-OKO-IRRATIONAL-GRADED-SIMPLEX-001`  
 **Severity/status:** low / **verified conditional deduction** (the specific example is proved directly; the general published results and their external counting input are not certified).  
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`, unchanged.  
-**Integrated reading page:** \`docs/sections/flags-convex-bodies-and-section-growth/index.html\`, main blob \`83557f0e15275253661fe679c75407e6636d497c\`.  
-**First selected scope in this run:** §19.9.5 (physical lines 105–133), Proposition 19.9.6 (135–152), Corollary 19.9.7 (160–170), and Theorem 19.9.9 (194–231), with Lemma 19.9.2 and Proposition 19.9.10 as limited context. The cited semigroup result Theorem 19.7.20 was read at \`docs/sections/almost-semigroups/index.html\`, blob \`33898b2963ad0f8b7e30bf414276642f60925b74\`, lines 299–319, **as an external counting dependency, not re-proved**.
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`, unchanged.  
+**Integrated reading page:** `docs/sections/flags-convex-bodies-and-section-growth/index.html`, main blob `83557f0e15275253661fe679c75407e6636d497c`.  
+**First selected scope in this run:** §19.9.5 (physical lines 105–133), Proposition 19.9.6 (135–152), Corollary 19.9.7 (160–170), and Theorem 19.9.9 (194–231), with Lemma 19.9.2 and Proposition 19.9.10 as limited context. The cited semigroup result Theorem 19.7.20 was read at `docs/sections/almost-semigroups/index.html`, blob `33898b2963ad0f8b7e30bf414276642f60925b74`, lines 299–319, **as an external counting dependency, not re-proved**.
 
 ## Exact stable identifiers
 
 | Current reading object | Source label | Permanent tag | Page physical lines |
 | --- | --- | --- | --- |
-| §19.9.5, graded section algebra | \`non-kahler-pluripotential-theory:B9A34270\` | \`E9A3FA804369\` | 105–133 |
-| Proposition 19.9.6, upper volume bound | \`non-kahler-pluripotential-theory:A4601CA4\` | \`E6B4502ECB3B\` | 135–152 |
-| Corollary 19.9.7, full-lattice count | \`non-kahler-pluripotential-theory:8930F62C\` | \`071721B08FC2\` | 160–170 |
-| Theorem 19.9.9, intrinsic lattice/period formula | \`non-kahler-pluripotential-theory:4EE23942\` | \`CC2BF9294FA3\` | 194–231 |
-| Lemma 19.9.2, distinct valuations count sections | \`non-kahler-pluripotential-theory:EAA5A841\` | \`2B103C3B777A\` | 29–57 |
-| Theorem 19.7.20, Kaveh–Khovanskii | \`sgpt:282DA4DD\` (check source-book mapping before reuse) | \`85641516C8CA\` | §19.7, 299–319 |
+| §19.9.5, graded section algebra | `non-kahler-pluripotential-theory:B9A34270` | `E9A3FA804369` | 105–133 |
+| Proposition 19.9.6, upper volume bound | `non-kahler-pluripotential-theory:A4601CA4` | `E6B4502ECB3B` | 135–152 |
+| Corollary 19.9.7, full-lattice count | `non-kahler-pluripotential-theory:8930F62C` | `071721B08FC2` | 160–170 |
+| Theorem 19.9.9, intrinsic lattice/period formula | `non-kahler-pluripotential-theory:4EE23942` | `CC2BF9294FA3` | 194–231 |
+| Lemma 19.9.2, distinct valuations count sections | `non-kahler-pluripotential-theory:EAA5A841` | `2B103C3B777A` | 29–57 |
+| Theorem 19.7.20, Kaveh–Khovanskii | `sgpt:282DA4DD` | `85641516C8CA` | §19.7, 299–319 |
 
-The last source-book prefix is *not* used to assert an exact source provenance here; the integrated theorem's visible source tag \`282DA4DD\` and permanent tag \`85641516C8CA\` suffice for the conditional dependency. No original source texts, private records, or tags were changed.
+The integrated source variant containing Theorem 19.7.20 identifies `data-gerby-book="sgpt"`, so its exact source label is `sgpt:282DA4DD` and its permanent tag is `85641516C8CA`. Its general counting proof remains an external dependency. No original source texts, private records, or tags were changed.
 
 ## Hypotheses and construction
 
@@ -87,7 +87,7 @@ In particular, the limiting facet \(\sum_i x_i=\alpha\) of (3) contains **no nor
 
 ## Classification, correction, dependencies
 
-- **Classification:** low / **verified conditional deduction**. Original Proposition 19.9.6, Corollary 19.9.7, Theorem 19.9.9 and Proposition 19.9.10 remain **correct in this tested model**; no false theorem or gap is asserted. The new fully calculated example checks a genuinely *non-finitely generated*, *full lattice* algebra with an irrational supporting facet. It is mathematically distinct from the earlier **period-two/even-valuation** example (\`POME-OKO-PERIOD-LATTICE-NORMALIZATION-001\`), which addresses lattice index and period.
+- **Classification:** low / **verified conditional deduction**. Original Proposition 19.9.6, Corollary 19.9.7, Theorem 19.9.9 and Proposition 19.9.10 remain **correct in this tested model**; no false theorem or gap is asserted. The new fully calculated example checks a genuinely *non-finitely generated*, *full lattice* algebra with an irrational supporting facet. It is mathematically distinct from the earlier **period-two/even-valuation** example (`POME-OKO-PERIOD-LATTICE-NORMALIZATION-001`), which addresses lattice index and period.
 - **No production correction needed.** Optional explanatory addition to the reading edition: mention (1)–(6) after §19.9.8 to show that finite generation/rational polyhedrality is unnecessary and that endpoint normalized valuations need not exist.
 - **Affected dependents (conditional only):** Theorem 19.9.16 (intrinsic growth via a point blowup), Proposition 19.9.10 (ratio fields), Theorem 19.9.13 (full-dimensional-body contrapositive) and subsequent section-growth applications inherit the distinction between finite-generation arguments and semigroup-volume arguments. No complete dependent proof was rechecked.
 - **Outstanding genuine external input:** Theorem 19.7.20 cites Kaveh–Khovanskii, and the general asymptotic semigroup counting result still requires independent internal proof or precise external-dependency classification. One explicit example does **not** resolve that dependency.
