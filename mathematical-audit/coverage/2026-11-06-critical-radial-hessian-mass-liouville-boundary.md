@@ -1,0 +1,11 @@
+# 2026-11-06 — chapter/section coverage delta: critical radial Hessian mass
+
+**Current main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; the actual chapter-8 page at docs/chapters/complex-hessian-equations/index.html, blob 062df83b33524a8e99600c57f9fd6cc778e389f7, lists exactly §§8.1–8.13. Overall current ToC: **25 chapters / 747 numbered sections / zero whole mathematical-section certifications**. This delta **adds** selected proof/model coverage without replacing the durable SECTION_MATRIX.md or any earlier entry.
+
+| Section / permanent section tag | Actual integrated main path, blob and physical anchors | Reviewed now / not certified |
+| --- | --- | --- |
+| §8.1 / CFD38285654D | docs/sections/complex-hessian-equations/index.html; 5331b937ccdaba51f1ec006d5e72dc84f7addfbf; line 7 | Only compact standing \(2\le m<n\), distinguished from §8.3 Euclidean \(1\le m\le n\). No theorem inspected here. |
+| §8.2 / F677D35E0BD7 | docs/sections/complex-hessian-equations--the-admissible-cone/index.html; 925e6109ab7d800cde9bec4b0487842b2e6877a8; lines 7–21 | \(S_j\), \(\Gamma_m\), closed \(C_{n,m}\) and normalization read for the exact eigenvalue check; no recertification of Gårding facts or the whole cone section. |
+| **§8.3 / 1B647CA2D005** | **docs/sections/complex-hessian-equations--liouville-and-gradient-estimates/index.html**; **74cda06ad4bf75ab5fcba6e841c9ad4aa9424981**; lines **7–16, 34–105, 113–151** | New completely derived radial \(m\)-Hessian ball-mass identity and maximality sharpness for Theorem 8.3.2 (non-kahler-pluripotential-theory:32D9A170 / 96D01E7C4F0F); contextual check of Proposition 8.3.3 (source :A456C079 / B863BB49A505). No general Liouville or blow-up proof-chain certification. |
+
+**Finding/ledger:** [POME-HESS-RADIAL-CRITICAL-MASS-LIOUVILLE-001](../reports/2026-11-06-critical-radial-hessian-mass-liouville-boundary.md) · [classification](../ledger/2026-11-06-critical-radial-hessian-mass-liouville-boundary.md). No Demailly approximation, regularization or its dedicated Bergman/L²/OT/multiscale/positivity-loss programme; every such record remains **deferred-by-user**. Existing unreviewed §§8.4–8.13 are not upgraded by this calculation. No production main/source/permanent-tag edits, GitHub Actions, build or publication.
