@@ -1,12 +1,12 @@
 # Compact perturbations: the exact \(\mathrm{dd}^c\)-closed trace criterion
 
-**Date:** 2026-11-07. **Finding:** \`POME-COMPACT-TRACE-DDC-CRITERION-001\`. **Classification:** low / **verified conditional deduction** (the smooth fixed-form criterion and its countermodel are proved below; the separately printed Bedford–Taylor lemma is not refuted). **Production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+**Date:** 2026-11-07. **Finding:** `POME-COMPACT-TRACE-DDC-CRITERION-001`. **Classification:** low / **verified conditional deduction** (the smooth fixed-form criterion and its countermodel are proved below; the separately printed Bedford–Taylor lemma is not refuted). **Production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 
 ## Exact primary source and dependency anchors
 
-- Primary: \`docs/sections/bedford-taylor-products-and-local-capacity--local-energy-moments/index.html\`, main blob \`e619f7aa95f80ce11aa676193b054db3180e59d4\`, physical lines **355–380**, in particular Lemma **7.11.18**, source \`foundations-of-pluripotential-theory:7C182C45\`, permanent tag \`E1A777307E3D\`. The printed proof uses the **closed** mixed Bedford–Taylor currents, their locality (Proposition 7.2.2) and symmetry (Theorem 7.3.7).
-- Crosscheck: \`docs/sections/torsion-and-the-variation-of-mass/index.html\`, blob \`9abec9685e33a1b40f9c0765381408eb52b325d3\`, lines **14–30, 68–94, 99–128**. In particular integration-by-parts Lemma **11.1.2**, source \`non-kahler-pluripotential-theory:7DC882C7\`, permanent \`3B0A8DD950AD\`; the full-mass Chiose Theorem **11.1.7**, source \`non-kahler-pluripotential-theory:5CD99CBA\`, permanent \`FB90FC741F25\`.
-- Crosscheck: \`docs/sections/gauduchon-metrics-and-linear-mass--conservation-of-the-trace-mass/index.html\`, blob \`34af83ff391b5e5590cd9cb10ca4cd2b3faff02c\`, physical lines **7–30**, Proposition **11.5.1**, source \`non-kahler-pluripotential-theory:0D4A42C8\`, permanent \`828FAD1A35BF\`.
+- Primary: `docs/sections/bedford-taylor-products-and-local-capacity--local-energy-moments/index.html`, main blob `e619f7aa95f80ce11aa676193b054db3180e59d4`, physical lines **355–380**, in particular Lemma **7.11.18**, source `foundations-of-pluripotential-theory:7C182C45`, permanent tag `E1A777307E3D`. The printed proof uses the **closed** mixed Bedford–Taylor currents, their locality (Proposition 7.2.2) and symmetry (Theorem 7.3.7).
+- Crosscheck: `docs/sections/torsion-and-the-variation-of-mass/index.html`, blob `9abec9685e33a1b40f9c0765381408eb52b325d3`, lines **14–30, 68–94, 99–128**. In particular integration-by-parts Lemma **11.1.2**, source `non-kahler-pluripotential-theory:7DC882C7`, permanent `3B0A8DD950AD`; the full-mass Chiose Theorem **11.1.7**, source `non-kahler-pluripotential-theory:5CD99CBA`, permanent `FB90FC741F25`.
+- Crosscheck: `docs/sections/gauduchon-metrics-and-linear-mass--conservation-of-the-trace-mass/index.html`, blob `34af83ff391b5e5590cd9cb10ca4cd2b3faff02c`, physical lines **7–30**, Proposition **11.5.1**, source `non-kahler-pluripotential-theory:0D4A42C8`, permanent `828FAD1A35BF`.
 
 ## Statement, exact iff, and proof
 
