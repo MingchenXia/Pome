@@ -1,16 +1,16 @@
 # Exact adjoint densities for continuous Hermitian trace operators on a non-Kähler torus
 
-**Date:** 2026-11-06. **Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-**Finding ID:** \`POME-HERM-FREDHOLM-ROUGH-ADJOINT-DENSITY-001\`.
+**Date:** 2026-11-06. **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+**Finding ID:** `POME-HERM-FREDHOLM-ROUGH-ADJOINT-DENSITY-001`.
 **Severity:** low. **Status:** verified conditional deduction; **no false printed theorem**.
 **Scope:** a new selected-model review of §11.24.1, not a proof of the general continuous-coefficient Fredholm theorem and not an audit of all Chapter 11.
 
 ## Exact integrated anchors and provenance
 
-- \`docs/sections/gauduchon-metrics-and-linear-mass--fredholm-theory-for-a-continuous-hermitian-form/index.html\`; main blob \`8fd933d027ecdba0c2df8efe7524e3984613857a\`.
-- **Lemma 11.24.1**, source \`non-kahler-pluripotential-theory:2FF004A4\`, permanent tag \`DEA6C8EFE702\`: physical HTML lines 10–15 (continuous positive coefficients, \`p>2n\`, Fredholm index zero, constants as kernel and one-dimensional \`L^{p'}\` annihilator). Lines 20–33 contain its frozen-coefficient \`W^{2,p}\` argument; lines 36–57 the maximum-principle proof; lines 59–66 the compact-perturbation/Fredholm conclusion.
-- Relevant downstream comparison, **Proposition 11.23.2**, \`docs/sections/gauduchon-metrics-and-linear-mass--the-adjoint-measure-of-the-linearization/index.html\`, main blob \`519e50338be6560f6b2856fddce212738f5109bc\`, physical lines 14–29 and 34–43: for a *smooth* form the adjoint measure is smooth. **Proposition 11.25.1**, \`docs/sections/gauduchon-metrics-and-linear-mass--limits-of-adjoint-measures/index.html\`, main blob \`48117e4e5901381d5ae692cfd29f2cf5f1325abc\`, source \`non-kahler-pluripotential-theory:A07C226C\`, permanent \`3E5CF25D6E23\`, lines 10–21: its non-pluripolar/BT hypothesis is deliberately *not* tested here.
-- Current §11.24 section tag \`DB480BD29A98\`, source section \`non-kahler-pluripotential-theory:F945144E\`. §11.24 is present in the actual current Chapter 11 navigation (chapter HTML \`docs/chapters/hermitian-torsion/index.html\`, blob \`4334685938df6b4b83cc024e3fd9245e49c5197d\`).
+- `docs/sections/gauduchon-metrics-and-linear-mass--fredholm-theory-for-a-continuous-hermitian-form/index.html`; main blob `8fd933d027ecdba0c2df8efe7524e3984613857a`.
+- **Lemma 11.24.1**, source `non-kahler-pluripotential-theory:2FF004A4`, permanent tag `DEA6C8EFE702`: physical HTML lines 10–15 (continuous positive coefficients, `p>2n`, Fredholm index zero, constants as kernel and one-dimensional `L^{p'}` annihilator). Lines 20–33 contain its frozen-coefficient `W^{2,p}` argument; lines 36–57 the maximum-principle proof; lines 59–66 the compact-perturbation/Fredholm conclusion.
+- Relevant downstream comparison, **Proposition 11.23.2**, `docs/sections/gauduchon-metrics-and-linear-mass--the-adjoint-measure-of-the-linearization/index.html`, main blob `519e50338be6560f6b2856fddce212738f5109bc`, physical lines 14–29 and 34–43: for a *smooth* form the adjoint measure is smooth. **Proposition 11.25.1**, `docs/sections/gauduchon-metrics-and-linear-mass--limits-of-adjoint-measures/index.html`, main blob `48117e4e5901381d5ae692cfd29f2cf5f1325abc`, source `non-kahler-pluripotential-theory:A07C226C`, permanent `3E5CF25D6E23`, lines 10–21: its non-pluripolar/BT hypothesis is deliberately *not* tested here.
+- Current §11.24 section tag `DB480BD29A98`, source section `non-kahler-pluripotential-theory:F945144E`. §11.24 is present in the actual current Chapter 11 navigation (chapter HTML `docs/chapters/hermitian-torsion/index.html`, blob `4334685938df6b4b83cc024e3fd9245e49c5197d`).
 
 ## Exact continuous-coefficient model
 
