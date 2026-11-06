@@ -1,6 +1,6 @@
 # 2026-11-06 classification increment — nodal strict transforms and exceptional fiber chains
 
-Main reviewed: \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. Reading §9.8 blob \`6ad8bec31c3089b7eab91f199f5a1eb355a12c40\`, §9.4 blob \`06439f43d1ce8e83d2529682c9a630bffa3d9c22\`. [Complete source-pinned proof](../reports/2026-11-06-nodal-strict-transforms-and-exceptional-fiber-chains.md).
+Main reviewed: `b6933b772f41b45918f7e25ed1afbbb1fd892272`. Reading §9.8 blob `6ad8bec31c3089b7eab91f199f5a1eb355a12c40`, §9.4 blob `06439f43d1ce8e83d2529682c9a630bffa3d9c22`. [Complete source-pinned proof](../reports/2026-11-06-nodal-strict-transforms-and-exceptional-fiber-chains.md).
 
 | Stable finding | Severity | Status | Exact mathematical point | Printed result | Action / dependents |
 | --- | --- | --- | --- | --- | --- |

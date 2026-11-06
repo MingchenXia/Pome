@@ -2,10 +2,10 @@
 
 ## Provenance and review boundary
 
-- Reviewed production main: \`b6933b772f41b45918f7e25ed1afbbb1fd892272\` (verified from live \`main\`).
-- Main reading file: \`docs/sections/complex-spaces-and-modifications--connected-fibers-and-resolution-models/index.html\`; Git blob \`6ad8bec31c3089b7eab91f199f5a1eb355a12c40\`; physical lines **10–18** (Theorem 9.8.1), **22–32** (Corollary 9.8.2), **36–62** (Proposition 9.8.3), **84–85** (Definition 9.8.4), **105–115** (strict-transform composition), and **120–171** (Theorem 9.8.6, contextual only).
-- Principal labels: Theorem 9.8.1 \`foundations-of-pluripotential-theory:11F7A347\` / permanent \`176C7A4C3D95\`; Corollary 9.8.2 \`foundations-of-pluripotential-theory:9CE118B1\` / \`6EB72DC4EC68\`; Proposition 9.8.3 \`foundations-of-pluripotential-theory:FCB2677B\` / \`2312A839D109\`; Definition 9.8.4 \`foundations-of-pluripotential-theory:E9F7D8E8\` / \`0C92F63F8A00\`.
-- Cross-check: \`docs/sections/complex-spaces-and-modifications--reduced-spaces-and-normalization/index.html\`, blob \`06439f43d1ce8e83d2529682c9a630bffa3d9c22\`, physical lines **141–157**, Theorem 9.4.6 \`foundations-of-pluripotential-theory:7042BB57\` / permanent \`12A47DB401E2\`.
+- Reviewed production main: `b6933b772f41b45918f7e25ed1afbbb1fd892272` (verified from live `main`).
+- Main reading file: `docs/sections/complex-spaces-and-modifications--connected-fibers-and-resolution-models/index.html`; Git blob `6ad8bec31c3089b7eab91f199f5a1eb355a12c40`; physical lines **10–18** (Theorem 9.8.1), **22–32** (Corollary 9.8.2), **36–62** (Proposition 9.8.3), **84–85** (Definition 9.8.4), **105–115** (strict-transform composition), and **120–171** (Theorem 9.8.6, contextual only).
+- Principal labels: Theorem 9.8.1 `foundations-of-pluripotential-theory:11F7A347` / permanent `176C7A4C3D95`; Corollary 9.8.2 `foundations-of-pluripotential-theory:9CE118B1` / `6EB72DC4EC68`; Proposition 9.8.3 `foundations-of-pluripotential-theory:FCB2677B` / `2312A839D109`; Definition 9.8.4 `foundations-of-pluripotential-theory:E9F7D8E8` / `0C92F63F8A00`.
+- Cross-check: `docs/sections/complex-spaces-and-modifications--reduced-spaces-and-normalization/index.html`, blob `06439f43d1ce8e83d2529682c9a630bffa3d9c22`, physical lines **141–157**, Theorem 9.4.6 `foundations-of-pluripotential-theory:7042BB57` / permanent `12A47DB401E2`.
 - This is **new explicit local blowup and fiber geometry** within previously sampled §9.8, particularly its previously unexamined strict-transform Proposition 9.8.3 and Definition 9.8.4. It does **not** recertify §9.8.1, §9.8.2, §9.4.6 or all of §9.8, and does not revisit any owner-deferred regularization program.
 
 ## POME-AN-NODAL-BLOWUP-STRICT-TRANSFORM-001
