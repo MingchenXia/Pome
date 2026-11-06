@@ -1,11 +1,11 @@
 # Exact Green energy and orthogonal balayage for concentric circles in the unit disc
 
-- **Finding:** \`POME-GREEN-DISC-CIRCLE-ENERGY-PROJECTION-001\`
+- **Finding:** `POME-GREEN-DISC-CIRCLE-ENERGY-PROJECTION-001`
 - **Date:** 2026-11-06.
-- **Reviewed production \`main\`:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+- **Reviewed production `main`:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 - **Classification:** **low / verified conditional deduction**, not a false printed theorem. The disc kernel, potentials, mutual energies and projection candidate are independently calculated. Identifying the candidate as the *unrestricted* positive-cone projection uses the established positive-definite energy inner product in Theorem 4.5.2; this is not a complete independent proof of the general theory.
-- **Reading-edition anchors:** \`docs/sections/green-energy-and-martin-boundaries/index.html\`, blob \`976a90f2a5eba299658f73a1eee8b9d3fef8020f\`; §4.5.1 physical lines **5–13**, source \`classical-potential-theory:5FDF1F52\`, permanent \`57DD989B07A4\`; Theorem **4.5.2**, lines **16–29**, \`classical-potential-theory:AEA69819 / CC3D1AD9179B\`; Theorem **4.5.4**, lines **46–65**, \`:5FB19CB2 / CE0D5F4DF7B2\`; Theorem **4.5.6**, lines **76–86**, \`:9D70EB64 / B15EFD960FD5\`.
-- **Normalization crosscheck:** \`docs/sections/planar-green-functions-and-conformal-maps/index.html\`, blob \`bfee348bb5f4bbfaa4515e5c9333789a13dae861\`, Theorem **3.8.1**, physical lines **10–15**, \`klimek-pluripotential-theory:B1C110E2 / E2B11E803D94\`.
+- **Reading-edition anchors:** `docs/sections/green-energy-and-martin-boundaries/index.html`, blob `976a90f2a5eba299658f73a1eee8b9d3fef8020f`; §4.5.1 physical lines **5–13**, source `classical-potential-theory:5FDF1F52`, permanent `57DD989B07A4`; Theorem **4.5.2**, lines **16–29**, `classical-potential-theory:AEA69819 / CC3D1AD9179B`; Theorem **4.5.4**, lines **46–65**, `:5FB19CB2 / CE0D5F4DF7B2`; Theorem **4.5.6**, lines **76–86**, `:9D70EB64 / B15EFD960FD5`.
+- **Normalization crosscheck:** `docs/sections/planar-green-functions-and-conformal-maps/index.html`, blob `bfee348bb5f4bbfaa4515e5c9333789a13dae861`, Theorem **3.8.1**, physical lines **10–15**, `klimek-pluripotential-theory:B1C110E2 / E2B11E803D94`.
 
 ## Exact disc potential and energy Gram kernel
 
