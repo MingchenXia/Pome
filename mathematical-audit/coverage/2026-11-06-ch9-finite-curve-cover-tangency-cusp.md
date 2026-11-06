@@ -1,0 +1,14 @@
+# Additive 2026-11-06 Chapter 9 coverage — two finite curve covers
+
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\` (unchanged). **Actual chapter/section numbers:** current production reading edition, Chapter 9 **Complex spaces and modifications** (actual ToC); project baseline 25 chapters / 747 numbered sections, **zero complete mathematical-section certifications**.
+
+| Current section/statement | Exact reading-edition source | Actual work this increment | Classification |
+| --- | --- | --- | --- |
+| §9.5.1 (irreducible curve parametrization) | \`docs/sections/complex-spaces-and-modifications--analytic-curves-and-finite-maps/index.html\` blob \`2c725646172203283ac4564bddd46213d9a75cbe\`, lines 7–19; \`foundations-of-pluripotential-theory:7EBE91CF\` / \`A3A9384DC317\` | First selected direct proof for parametrizations \(t\mapsto(t^2,t^{2m+1})\); connected vs disconnected punctured curve | selected only, verified conditional deduction |
+| §9.5.5 (proper finite maps) | same file/blob lines 84–101; \`foundations-of-pluripotential-theory:CB1EA559\` / \`776A532CD79E\` | First selected exact two degree-2 finite surjections with original fibers 2/1, distinct monodromy | selected only, verified conditional deduction |
+| §9.4.2–3 (weakly holomorphic functions/integral closure) | \`docs/sections/complex-spaces-and-modifications--reduced-spaces-and-normalization/index.html\`, blob \`06439f43d1ce8e83d2529682c9a630bffa3d9c22\`, lines 34–48 and 52–78; \`foundations-of-pluripotential-theory:AC231B8D\` / \`36422A732754\` | Branch separator \(e\), cusp \(t\), exact \(x^m\) denominator, quotient length/conductor | context plus new exact family, not full proof certification |
+| §9.4.6/.10 (normalization and basic examples) | same §9.4 file/blob lines 142–159, 197–199; \`foundations-of-pluripotential-theory:7042BB57\` / \`12A47DB401E2\`; Example \`foundations-of-pluripotential-theory:680F3928\` / \`60A14C7A1845\` | Exact normalization-fiber comparison with generic degree 2, \(\delta=m\) for both; general theorem retained | selected context only; earlier audit retained |
+
+**New finding ID:** \`POME-CURVE-DOUBLE-COVER-MONODROMY-CONDUCTOR-001\`; [full English mathematical proof](../reports/2026-11-06-double-cover-nodal-tangency-versus-unibranch-cusp.md) and [status ledger](../ledger/2026-11-06-double-cover-tangency-cusp-conductor.md).
+
+**Not covered:** §9.5.2–4 and §9.5.6 proof chains, general proper-image and normalization gluing arguments, all other §9.4 steps, the other Chapter 9 sections, and all excluded user-deferred Demailly regularization-related content. No whole section is certified. Prior §9.4 pinch-point and §9.9 PSH findings stay unmodified. No external inputs or software checks were used to certify the general theorems; no tests/builds/CI/publication.
