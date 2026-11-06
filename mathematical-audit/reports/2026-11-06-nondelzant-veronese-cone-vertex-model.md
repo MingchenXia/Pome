@@ -6,11 +6,11 @@
 
 ## Provenance and exact scope
 
-Production \`main\`: **b6933b772f41b45918f7e25ed1afbbb1fd892272**. The integrated reading edition, rather than detached source numbering, was inspected:
+Production `main`: **b6933b772f41b45918f7e25ed1afbbb1fd892272**. The integrated reading edition, rather than detached source numbering, was inspected:
 
-- \`docs/sections/convex-analysis-and-toric-potentials--smooth-lattice-polytopes-and-projective-charts/index.html\`, blob **f442a7b663689b97a9b89689b8b7ae8b366a53fe**, physical lines **11–20** (Definition 21.8.1, \`foundations-of-pluripotential-theory:5FF56EB5\` / permanent \`E11C7A4F96AC\`), **25–38 and 81–87** (Lemma 21.8.2, \`:86BADE82\` / \`41C54729DBFD\`), **89–112 and 118–142** (the embedding construction and Theorem 21.8.3, \`:0F7315B0\` / \`E49F0370E203\`).
-- \`docs/sections/convex-analysis-and-toric-potentials--lattice-points-and-volume/index.html\`, blob **5d209b7f4d2156c19bc3fb300303405df6321230**, physical lines **58–63** (Theorem 21.7.3, \`foundations-of-pluripotential-theory:364BCD30\` / \`831AEEB7084F\`); only the lattice-count normalization is cross-checked.
-- \`docs/sections/convex-analysis-and-toric-potentials--fans-divisors-and-character-sections/index.html\`, blob **7ad2e6dbdd0ce59e1bf08cd9cb3c046e8c87ff6c**, physical lines **139–165** (Theorem 21.9.5, \`foundations-of-pluripotential-theory:BD98CC5B\` / \`69D3D97E7701\`); only its stated *smooth-polytope* hypothesis and dependence on vertex charts are compared. **Its section theorem is not invoked for the nonsmooth examples.**
+- `docs/sections/convex-analysis-and-toric-potentials--smooth-lattice-polytopes-and-projective-charts/index.html`, blob **f442a7b663689b97a9b89689b8b7ae8b366a53fe**, physical lines **11–20** (Definition 21.8.1, `foundations-of-pluripotential-theory:5FF56EB5` / permanent `E11C7A4F96AC`), **25–38 and 81–87** (Lemma 21.8.2, `:86BADE82` / `41C54729DBFD`), **89–112 and 118–142** (the embedding construction and Theorem 21.8.3, `:0F7315B0` / `E49F0370E203`).
+- `docs/sections/convex-analysis-and-toric-potentials--lattice-points-and-volume/index.html`, blob **5d209b7f4d2156c19bc3fb300303405df6321230**, physical lines **58–63** (Theorem 21.7.3, `foundations-of-pluripotential-theory:364BCD30` / `831AEEB7084F`); only the lattice-count normalization is cross-checked.
+- `docs/sections/convex-analysis-and-toric-potentials--fans-divisors-and-character-sections/index.html`, blob **7ad2e6dbdd0ce59e1bf08cd9cb3c046e8c87ff6c**, physical lines **139–165** (Theorem 21.9.5, `foundations-of-pluripotential-theory:BD98CC5B` / `69D3D97E7701`); only its stated *smooth-polytope* hypothesis and dependence on vertex charts are compared. **Its section theorem is not invoked for the nonsmooth examples.**
 
 These checks do not certify all of §§21.7–21.9 or their dependency chains.
 
