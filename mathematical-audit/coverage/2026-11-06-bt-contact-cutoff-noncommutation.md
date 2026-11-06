@@ -1,0 +1,12 @@
+# 2026-11-06 selected §7.13 coverage — fixed-contact restriction versus weak convergence
+
+**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. Current ToC baseline **25 chapters, 747 numbered sections, zero wholly certified mathematical sections**.
+
+| Section / integrated path | Stable labels and actual anchors | Inspection | Classification / limits |
+| --- | --- | --- | --- |
+| §7.13 \`docs/sections/bedford-taylor-products-and-local-capacity--bounded-complex-hessians-and-contact-sets/index.html\`, blob \`e2697dc465a2b639120974188eaeb6c446ed8071\` | Lemma .1 \`foundations-of-pluripotential-theory:B80A5A22\` / \`8736729F21D9\`, lines 13–42; Lemma .2 \`:0CFF4F56\` / \`D57C89462C1B\`, 48–82; Prop .3 \`:AF82FB9E\` / \`C006456D2AFC\`, 91–101; Prop .4 \`:D9CC767A\` / \`1466731348C1\`, 109–133 | Re-read precise W²,1 locality, bounded Hessian and contact measure hypotheses, proof's L¹ approximation and mixed-discriminant normalization; computed new logistic smoothing half-contact restriction counterexample to an *unclaimed strengthening*. | \`POME-BT-CONTACT-CUTOFF-NONCOMMUTATION-001\` low / verified conditional deduction; printed proposition correct, **no complete-section certification** |
+| §7.2 \`docs/sections/bedford-taylor-products-and-local-capacity--bounded-potentials-and-recursive-products/index.html\`, blob \`18bd2395f3b76941b2c677079c09eb6accc5a9cb\` | Proposition .6 \`foundations-of-pluripotential-theory:C5608495\` / \`2F39A3F97E8E\`, lines 125–154 | Checked hypothesis of locally uniform convergence; independently verified convergence of explicit product densities, not the general theorem. | contextual dependency only |
+| §8.12 \`docs/sections/complex-hessian-equations--locality-and-maxima-of-bounded-potentials/index.html\`, blob \`8750df56019c14e16704607ca20fa8b90f137fb0\` | Theorem .2 \`655B0BBF4F9C\`, lines 37–59 | Compared the **already recorded** kink interface to avoid duplicate discovery; the new point is failure of restriction continuity with coefficient \(1/2\). | previous finding unchanged |
+| §§16.10/16.13 | not re-read | Only named as possible dependent contact-set arguments; none declared faulty. | **unreviewed in this increment** |
+
+**Owner exclusion:** no Demailly approximation/regularization, Bergman, L², Ohsawa–Takegoshi, multiscale-atlas or positivity-loss programme; all remain deferred-by-user. Existing open and resolved ledgers remain unchanged. Audit Markdown only, no source/main/tag, tests/CI or site publication.
