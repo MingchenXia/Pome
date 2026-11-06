@@ -1,12 +1,12 @@
 # 2026-11-06 — contact-set restriction does not commute with a smooth Bedford–Taylor limit
 
-**Finding:** \`POME-BT-CONTACT-CUTOFF-NONCOMMUTATION-001\`; **severity:** low; **status:** verified conditional deduction (the measures and the failure of restriction continuity are computed directly; no printed Pome proposition is false). **Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Audit branch:** \`review/mathematical-audit\`. This is a *new contact-restriction limit test*, **not** a new claim that maxima can create hypersurface mass: that simpler phenomenon was already recorded as \`POME-HESS-MAX-CONTACT-SINGULAR-EXCESS-001\` in the distinct §8.12 Hessian audit.
+**Finding:** `POME-BT-CONTACT-CUTOFF-NONCOMMUTATION-001`; **severity:** low; **status:** verified conditional deduction (the measures and the failure of restriction continuity are computed directly; no printed Pome proposition is false). **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Audit branch:** `review/mathematical-audit`. This is a *new contact-restriction limit test*, **not** a new claim that maxima can create hypersurface mass: that simpler phenomenon was already recorded as `POME-HESS-MAX-CONTACT-SINGULAR-EXCESS-001` in the distinct §8.12 Hessian audit.
 
 ## Exact integrated reading-edition anchors and dependencies
 
-- \`docs/sections/bedford-taylor-products-and-local-capacity--bounded-complex-hessians-and-contact-sets/index.html\`, main blob \`e2697dc465a2b639120974188eaeb6c446ed8071\`, Lemma **7.13.1** source \`foundations-of-pluripotential-theory:B80A5A22\`, tag \`8736729F21D9\`, physical lines **13–42**; Lemma **7.13.2** source \`foundations-of-pluripotential-theory:0CFF4F56\`, tag \`D57C89462C1B\`, lines **48–82**; Proposition **7.13.3**, source \`foundations-of-pluripotential-theory:AF82FB9E\`, tag \`C006456D2AFC\`, lines **91–101**; Proposition **7.13.4**, source \`foundations-of-pluripotential-theory:D9CC767A\`, tag \`1466731348C1\`, lines **109–133**; the application to local potential shifts, line **138**.
-- \`docs/sections/bedford-taylor-products-and-local-capacity--bounded-potentials-and-recursive-products/index.html\`, blob \`18bd2395f3b76941b2c677079c09eb6accc5a9cb\`, Proposition **7.2.6**, source \`foundations-of-pluripotential-theory:C5608495\`, tag \`2F39A3F97E8E\`, physical lines **125–154** (locally uniform continuous-potential convergence; crosscheck, not independent proof certification).
-- §8.12 prior model: \`docs/sections/complex-hessian-equations--locality-and-maxima-of-bounded-potentials/index.html\`, blob \`8750df56019c14e16704607ca20fa8b90f137fb0\`, Theorem **8.12.2** tag \`655B0BBF4F9C\`; older audit \`reports/2026-11-03-hessian-contact-hyperplane-maxima-excess.md\` is preserved, neither duplicated nor reclassified.
+- `docs/sections/bedford-taylor-products-and-local-capacity--bounded-complex-hessians-and-contact-sets/index.html`, main blob `e2697dc465a2b639120974188eaeb6c446ed8071`, Lemma **7.13.1** source `foundations-of-pluripotential-theory:B80A5A22`, tag `8736729F21D9`, physical lines **13–42**; Lemma **7.13.2** source `foundations-of-pluripotential-theory:0CFF4F56`, tag `D57C89462C1B`, lines **48–82**; Proposition **7.13.3**, source `foundations-of-pluripotential-theory:AF82FB9E`, tag `C006456D2AFC`, lines **91–101**; Proposition **7.13.4**, source `foundations-of-pluripotential-theory:D9CC767A`, tag `1466731348C1`, lines **109–133**; the application to local potential shifts, line **138**.
+- `docs/sections/bedford-taylor-products-and-local-capacity--bounded-potentials-and-recursive-products/index.html`, blob `18bd2395f3b76941b2c677079c09eb6accc5a9cb`, Proposition **7.2.6**, source `foundations-of-pluripotential-theory:C5608495`, tag `2F39A3F97E8E`, physical lines **125–154** (locally uniform continuous-potential convergence; crosscheck, not independent proof certification).
+- §8.12 prior model: `docs/sections/complex-hessian-equations--locality-and-maxima-of-bounded-potentials/index.html`, blob `8750df56019c14e16704607ca20fa8b90f137fb0`, Theorem **8.12.2** tag `655B0BBF4F9C`; older audit `reports/2026-11-03-hessian-contact-hyperplane-maxima-excess.md` is preserved, neither duplicated nor reclassified.
 
 ## Precise local model and measure identity
 
@@ -15,7 +15,7 @@ Fix an integer \(n\ge1\). On \(\mathbb C^n\) write \(z_j=x_j+iy_j\), use \(dd^c=
 v_1=x_1,\qquad u_1=(x_1)_+=\max\{x_1,0\},\qquad
 u_j=v_j=|z_j|^2\quad(2\le j\le n).
 \]
-All \(u_j\) are continuous, locally bounded psh; all \(v_j\) are smooth and pluriharmonic for \(j=1\) or strictly psh for \(j\ge2\). Their common contact set is the *closed* halfspace
+All \(u_j\) are continuous, locally bounded psh; all \(v_j\) are smooth and pluriharmonic for \(j=1\) or psh for \(j\ge2\). Their common contact set is the *closed* halfspace
 \[
 E=\bigcap_{j=1}^n\{u_j=v_j\}=\{x_1\ge0\}.
 \]
