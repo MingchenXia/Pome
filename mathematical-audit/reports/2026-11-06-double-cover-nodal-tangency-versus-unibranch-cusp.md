@@ -17,9 +17,9 @@ Let \(m\geq 1\) be an integer, work with germs at the origin of \(\mathbb C^2\),
  D_m=\{y(y-x^m)=0\},\qquad
  C_m=\{y^2=x^{2m+1}\}.
 \]
-**Both** are reduced plane-curve germs, pure of dimension one, with a unique singular point at the origin. Their projections \(\pi\) are finite surjective degree-two maps over sufficiently small discs; both have two points over \(x\ne0\), one point over \(x=0\), and the same set-theoretic critical/singular image \(\{0\}\). In each case the length of the local normalization quotient (the \(\delta\)-invariant) is exactly \(m\). Nevertheless:
+Here (D_1) is a transverse ordinary node, while (D_m) has two tangent smooth branches of contact order (m) for (mge2). **Both** are reduced plane-curve germs, pure of dimension one, with a unique singular point at the origin. Their projections \(\pi\) are finite surjective degree-two maps over sufficiently small discs; both have two points over \(x\ne0\), one point over \(x=0\), and the same set-theoretic critical/singular image \(\{0\}\). In each case the length of the local normalization quotient (the \(\delta\)-invariant) is exactly \(m\). Nevertheless:
 
-| Invariant | Tangent double branch \(D_m\) | Irreducible cusp \(C_m\) |
+| Invariant | Two branches of contact order \(m\), \(D_m\) | Irreducible cusp \(C_m\) |
 | --- | --- | --- |
 | Normalization | Two disjoint discs \(t\mapsto(t,0)\), \(t\mapsto(t,t^m)\) | One disc \(t\mapsto(t^2,t^{2m+1})\) |
 | Points over the singular point **under normalization** | 2 | 1 |
@@ -30,7 +30,7 @@ Let \(m\geq 1\) be an integer, work with germs at the origin of \(\mathbb C^2\),
 
 Thus **generic degree, set-theoretic fiber cardinalities, critical-value set, and even \(\delta\) do not determine the number of local branches or monodromy**. Discriminant parity distinguishes the two models in this particular quadratic Weierstrass family; it is not being asserted that the discriminants coincide.
 
-## Proof: tangent double branch
+## Proof: two-branch contact-order-\(m\) curve
 
 Write \(R=\mathbb C\{t\}\), and restrict a germ \(F(x,y)\) to its two branches:
 \[
