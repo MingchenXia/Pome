@@ -1,14 +1,14 @@
 # 2026-11-07 — A countable increasing finite-join realization of non-Archimedean Choquet suprema
 
-**Finding:** \`POME-NA-CHOQUET-FINITE-JOIN-EXHAUSTION-001\`  
+**Finding:** `POME-NA-CHOQUET-FINITE-JOIN-EXHAUSTION-001`  
 **Classification:** low / **verified conditional deduction** (the printed statements are not false).  
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
 **Scope:** precisely Proposition 22.1.37 and its finite-join/supremum inputs, with the test-curve Choquet input checked at Proposition 17.15.31. This is **not** certification of either complete section.
 
 ## Integrated source and permanent anchors
 
-- \`docs/sections/non-archimedean-pluripotential-theory/index.html\`, blob \`8448d710690ebe1cc28040f9611d05c9d008a961\`: Definition 22.1.31 / Proposition 22.1.32 at physical lines **504–521**; Definition 22.1.34 / Proposition 22.1.36 at **539–561**; Proposition **22.1.37** and its proof at **566–591**. Main source label **\`sgpt:284D07DA\`**, permanent tag **\`21737B0303A5\`** (Proposition 22.1.37).
-- \`docs/sections/test-curves--operations-on-test-curves/index.html\`, blob \`3da617be8f58713f764d49ba22f49b803149a5e8\`: Definition 17.15.25 at physical lines **592–613**, Proposition **17.15.31** at **662–719**. Source label **\`sgpt:6B576942\`**, permanent tag **\`4B67ABC0083D\`**.
+- `docs/sections/non-archimedean-pluripotential-theory/index.html`, blob `8448d710690ebe1cc28040f9611d05c9d008a961`: Definition 22.1.31 / Proposition 22.1.32 at physical lines **504–521**; Definition 22.1.34 / Proposition 22.1.36 at **539–561**; Proposition **22.1.37** and its proof at **566–591**. Main source label **`sgpt:284D07DA`**, permanent tag **`21737B0303A5`** (Proposition 22.1.37).
+- `docs/sections/test-curves--operations-on-test-curves/index.html`, blob `3da617be8f58713f764d49ba22f49b803149a5e8`: Definition 17.15.25 at physical lines **592–613**, Proposition **17.15.31** at **662–719**. Source label **`sgpt:6B576942`**, permanent tag **`4B67ABC0083D`**.
 - The conditional upstream input is local Choquet selection for \(\theta\)-psh families (Proposition 5.14.3) together with the integrated test-curve comparison and compatibility lemmas cited in 17.15.31 and 22.1.36. No approximation/regularization programme is used or reviewed.
 
 ## Precise strengthened consequence
