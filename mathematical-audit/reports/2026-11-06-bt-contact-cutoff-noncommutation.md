@@ -68,9 +68,31 @@ Indeed, for every compactly supported continuous \(\varphi\), the integrals over
 
 Formula (3) pinpoints a failure that cannot be repaired merely by locally uniform convergence of continuous psh potentials or weak convergence of their Bedford–Taylor products: multiplication by \(\mathbf1_E\) is not continuous when the limiting measure charges \(\partial E\). For \(\varepsilon>0\), the *approximating* contact set \(\{u_{1,\varepsilon}=v_1\}\) is empty, so applying Proposition 7.13.4 with that set yields zero and is not being contradicted. The half-mass is genuinely a **fixed-limit-set restriction** phenomenon, not a counterexample to Bedford–Taylor weak continuity.
 
+
+### Every fractional boundary mass is attainable (not only one half)
+
+The factor \(1/2\) in (3) is determined by **symmetry of the chosen smoothing**, not by Bedford–Taylor convergence. For a real parameter \(a\) define the equally smooth convex psh smoothing
+\[
+u_{1,\varepsilon,a}(x)
+ =\varepsilon\log(1+\exp(x/\varepsilon-a)).
+\]
+The positive-part map is 1-Lipschitz, so uniformly for all \(x\in\mathbb R\),
+\[
+|u_{1,\varepsilon,a}(x)-x_+|
+ \le\varepsilon(|a|+\log 2).
+\]
+Its second derivative is \(k_\varepsilon(x-a\varepsilon)\), hence its **exact mass on the fixed contact halfspace** is
+\[
+\int_0^\infty u_{1,\varepsilon,a}''(x)\,dx
+=1-u_{1,\varepsilon,a}'(0)
+=\frac{e^a}{1+e^a}
+=:\theta(a). \tag{4}
+\]
+For fixed \(a=\log(\theta/(1-\theta))\) with \(0<\theta<1\), the full mixed measures still tend to \(\mu\) while their restrictions to \(E\) tend to **\(\theta\mu\)**. The endpoints are attained by taking \(a_\varepsilon=\varepsilon^{-1/2}\) for \(\theta=1\) and \(a_\varepsilon=-\varepsilon^{-1/2}\) for \(\theta=0\). In both cases \(\varepsilon|a_\varepsilon|=\sqrt\varepsilon\to0\), so uniform convergence to \(x_+\) remains valid and the density is still concentrated within a vanishing neighborhood of \(x=0\). Thus **every** fraction \(\theta\in[0,1]\) is compatible with the *same* uniform psh potential limit and *same* weak Bedford–Taylor measure limit; weak convergence alone provides no canonical restriction to a boundary-charging Borel contact set.
+
 ## Classification, correction direction and exact coverage
 
-- **Classification:** low / **verified conditional deduction**. Equations (1)–(3) are direct distributional/approximate-identity calculations. The general Bedford–Taylor construction and Proposition 7.2.6 remain conditional for the full collection; their particular conclusion in (2) is independently proved by the explicit densities.
+- **Classification:** low / **verified conditional deduction**. Equations (1)–(4), including arbitrary fractional contact limits, are direct distributional/approximate-identity calculations. The general Bedford–Taylor construction and Proposition 7.2.6 remain conditional for the full collection; their particular conclusion in (2) is independently proved by the explicit densities.
 - **Suggested nonproduction clarification:** an optional warning adjacent to Proposition 7.13.4 should state that the bounded-complex-Hessian assumption is essential for replacing the restricted measure by an a.e. Hessian determinant. Even when smooth psh approximants converge uniformly, restriction to the contact set of the *limit* need not commute with weak convergence if that set's boundary carries limiting mass. Do not weaken the proposition's hypotheses or modify its source or tag.
 - **Potential dependents:** applications in envelope/contact-measure sections, including §16.10 and §16.13, must justify restriction to fixed contact sets separately; unqualified use of weak product convergence is insufficient. This is a warning about a possible reasoning step, **not** a claim that a specific downstream theorem is false.
 - **Actual inspection:** Lemmas 7.13.1/2 and Propositions 7.13.3/4 read at the listed physical lines; new exact smooth-cutoff calculation and normalized mixed-product check for §7.13.4; Proposition 7.2.6 and the prior §8.12 model consulted narrowly. No full §7.13, §7.2, §8.12 or envelope chapter certification.
