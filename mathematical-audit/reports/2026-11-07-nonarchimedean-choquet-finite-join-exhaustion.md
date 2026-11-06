@@ -49,7 +49,7 @@ Take \(X=\mathbb P^1\) with its normalized Fubini–Study Kähler form \(\theta\
 \]
 These are valid \(\mathcal I\)-model test curves: every finite level is the zero model potential, the maximal parameter is \(a_j\), and \(\operatorname{vol}(\theta)>0\). Every finite join of members has maximal parameter \(\max_{j\in J} a_j<1\), whereas the upper-regularized supremum of the entire family has maximal parameter \(1\) and is the same constant model curve with threshold \(1\). For any chosen finite \(J\) and any \(\max_{j\in J}a_j<\tau<1\), the finite join has level \(-\infty\) while the full supremum has level \(0\). Therefore **no finite stage can realize the full supremum**, despite exact countable determination.
 
-There is also a **sharp endpoint warning**. With the extension convention of Remark 17.12.3, the supremum curve has level (0) at its new endpoint (	au=1) (the infimum of all levels with (	au<1)), while each individual curve, extended by (-infty) for arguments exceeding its own maximum, satisfies (Gamma^{(j)}_1equiv-infty). Thus
+There is also a **sharp endpoint warning**. With the extension convention of Remark 17.12.3, the supremum curve has level \(0\) at its new endpoint \(\tau=1\) (the infimum of all levels with \(\tau<1\)), while each individual curve, extended by \(-\infty\) for arguments exceeding its own maximum, satisfies \(\Gamma^{(j)}_1\equiv-\infty\). Thus
 \[
 \left(\operatorname*{sup}_{j\ge2}{}^{*}\Gamma^{(j)}\right)_1=0
 \quad\text{but}\quad
@@ -57,7 +57,7 @@ There is also a **sharp endpoint warning**. With the extension convention of Rem
 \]
 The Choquet assertion is an assertion **in the category of test curves with their own maxima**, not an unwarranted exchange between the supremum and endpoint extension at a moving maximal parameter.
 
- This is a model illustrating a necessary distinction between *countably generated* and *finitely generated* upper suprema; it does not refute the printed Choquet statement.
+This is a model illustrating a necessary distinction between *countably generated* and *finitely generated* upper suprema; it does not refute the printed Choquet statement.
 
 ## Disposition and affected results
 
