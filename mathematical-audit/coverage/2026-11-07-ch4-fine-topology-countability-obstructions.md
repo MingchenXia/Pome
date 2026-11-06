@@ -1,0 +1,11 @@
+# Precise nonexcluded coverage increment — 2026-11-07 — classical fine topology
+
+**Main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Actual current-ToC baseline:** 25 chapters, 747 numbered sections.
+
+**Actually newly checked:** §4.2, specifically Proposition **4.2.6** fine-closed/discrete polar sets (source foundations-of-pluripotential-theory:1BE55D99 / permanent 498B2C3E2413, physical lines 103–138), adjacent text lines 140–141, and Proposition **4.2.5** nonisolation (source foundations-of-pluripotential-theory:01F6C408 / permanent 9E787ECDB068, lines 85–99), both in docs/sections/fine-topology-and-balayage/index.html (blob d4c8eed09391441b4b6d13e2fa402a60da70be0d).
+
+**Supporting mathematical dependency read:** §4.1.11 countable unions of polar sets, source foundations-of-pluripotential-theory:7F3FDDFF / permanent 64A94A9EE9E3, docs/sections/potentials-energy-and-capacity/index.html blob 4962a7cd576a64cb47fa0955dcc80cf87c3da9d1, physical lines 303–325. §4.2.2 fine definition (lines 29–37) and §4.2.8 statement (lines 158–170) were contextual only.
+
+**New genuine mathematics:** POME-FINE-POLAR-COUNTABLE-NOSEQUENCES-001, low / **verified conditional deduction**: all fine-convergent sequences eventually constant; fine space nonseparable, nowhere first countable, nonsequential and nowhere countably tight. All conclusions proved under identified printed propositions; no false source theorem, no full transitive certification, no sequential-compactness assumption and no inference about arbitrary nets. [Detailed proof](../reports/2026-11-07-classical-fine-topology-no-convergent-sequences.md) · [ledger](../ledger/2026-11-07-classical-fine-topology-nonsequentiality.md).
+
+**Coverage accounting:** this is additional selected mathematics in §§4.1–4.2 already partially audited. No second first-visit count; no complete theorem dependency chain, section or chapter certified (zero full mathematical-section certifications). Old findings/ledger classifications unchanged. Excluded Demailly regularization and dedicated Bergman/weighted-L²/OT/multiscale/positivity-loss stays **deferred-by-user**. Audit Markdown only; no main/source/body/tags/registry/tests/build/CI/publication changes.
