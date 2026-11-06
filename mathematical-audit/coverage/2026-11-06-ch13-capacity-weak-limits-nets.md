@@ -1,0 +1,12 @@
+# Current-ToC coverage increment — 2026-11-06 — §13.7 nets
+
+Production `main` `b6933b772f41b45918f7e25ed1afbbb1fd892272`; section `13.7 Capacity convergence and loss of mass` (part of the current **25-chapter, 747-numbered-section** ToC). This is an **additive selected-step review**, not a whole-section certificate; total fully certified mathematical sections remains **zero**.
+
+| Reader location and provenance | Actual work | What remains |
+| --- | --- | --- |
+| §13.7.5, `docs/sections/non-pluripolar-products--capacity-convergence-and-loss-of-mass/index.html`, blob `d66813856cb813722806ab912afdfd4815d2da97`, lines **106–134**, source `foundations-of-pluripotential-theory:AB4EBE3B`, permanent `67C4F7EC316E` | Checked exact **sequence** hypothesis and global lower/mass-guarded weak-convergence conclusions; independently proved the conditional **arbitrary-net transfer** by cofinal bad-index diagonalization. | Underlying sequential proof/capacity-BT chain not wholly certified; no theorem refutation. |
+| §13.7.9, same file, lines **175–209**, source `foundations-of-pluripotential-theory:82DB3E57`, permanent `D73416504271` | Checked bounded Borel weight, quasi-continuous limit and capacity hypothesis; transferred weighted lower/weak/Radon assertions conditionally to nets. | Full weighted BT continuity and general unbounded weight variants unreviewed. |
+| §§13.7.2/13.7.8, same file, lines **37–42, 147–170**, source `B1C14956/8CF7A9C6` for section/Proposition; Proposition permanent `4B60F7F33590` | Verified compatibility of net-valued capacity definition with selected sequence and did not replace an arbitrary net by a falsely cofinal sequence. | The full monotone-net theorem not independently reproved. |
+| §7.5.5, `docs/sections/bedford-taylor-products-and-local-capacity--quasi-continuity-and-convergence-in-capacity/index.html`, blob `464778b7ca6f1a456e36b24ecb4a0c93ab6948d3`, lines **83–89**, source `F3E0CD1A`, permanent `DAD5D0809372`; §7.5.8 same file lines **172–189** | Definition and sequential dependency reading only. | §7.5.8 not re-proved. |
+
+Finding `POME-NPP-CAPACITY-ARBITRARY-NET-TRANSFER-001`; [proof](../reports/2026-11-06-capacity-products-arbitrary-net-diagonal-upgrade.md) and [classification](../ledger/2026-11-06-capacity-products-net-upgrade.md). Earlier coverage entries preserved; no duplicate counting of §13.7 or §§7.5. **Deferred-by-user** excluded approximation/regularization programme unchanged. No tests, builds, CI, site publication, source/tag/registry or main edits.
