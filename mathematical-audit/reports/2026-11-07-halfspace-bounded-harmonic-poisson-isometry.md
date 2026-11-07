@@ -1,78 +1,87 @@
-# Bounded half-space harmonic functions: unique (L^infty) Poisson traces
+# Bounded half-space harmonic functions: unique $L^\infty$ Poisson traces
 
 **Finding:** `POME-HALFSPACE-BOUNDED-POISSON-ISOMETRY-001`  
-**Severity/status:** low / **verified conditional deduction** (not a false printed theorem; no claim of a fully certified upstream proof).  
-**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272` (2026-11-07).  
-**Integrated reading file:** `docs/sections/kelvin-transforms-and-half-space-potentials/index.html`, blob `f2615a5393af724c3996978212162f94911ff9d9`, physical lines **55–75, 80–136, 138–180**.  
-**Internal measure input:** `docs/sections/measures-and-distributions--densities-and-differentiation-of-integrals/index.html`, blob `1b600ca8444edebc8e05e300cb86ae371e9f8535`, physical lines **7–46**.  
-**Stable labels:** Theorem 3.2.6, source `classical-potential-theory:1C8A330A`, permanent `6BC86EEF03A9`; Equation 3.2.7, source `classical-potential-theory:C0A46F1A`, permanent `F3ED29BBAD39`; Equation 3.2.8, source `classical-potential-theory:358F89A3`, permanent `8F7C774A9D89`; Theorem 3.2.12, source `classical-potential-theory:BB6DAC3F`, permanent `9ADD2DF19642`; Poisson normalization (3.2.13), source `classical-potential-theory:E7E82020`, permanent `AB2849CD8791`; Lemma 2.8.1, source `foundations-of-pluripotential-theory:43819F13`, permanent `9790D3B21542`.
+**Severity/status:** low / **verified conditional deduction**. This does **not** refute a printed theorem or certify all upstream arguments.  
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272` on 2026-11-07.
 
-## Precise assertion
+**Integrated source and exact anchors.** `docs/sections/kelvin-transforms-and-half-space-potentials/index.html`, main blob `f2615a5393af724c3996978212162f94911ff9d9`, physical lines **55–75, 80–136, 138–180**. Theorem 3.2.6 source `classical-potential-theory:1C8A330A` / permanent `6BC86EEF03A9`; Equation 3.2.7 source `classical-potential-theory:C0A46F1A` / permanent `F3ED29BBAD39`; Equation 3.2.8 source `classical-potential-theory:358F89A3` / permanent `8F7C774A9D89`; Theorem 3.2.12 source `classical-potential-theory:BB6DAC3F` / permanent `9ADD2DF19642`; Equation 3.2.13 source `classical-potential-theory:E7E82020` / permanent `AB2849CD8791`.
 
-Let (dge2), (H=mathbb R^{d-1}	imes(0,infty)), and
-[
-p_t(x')=rac{2t}{s_{d-1}(|x'|^2+t^2)^{d/2}}.
-]
-Write (mathscr H_b(H)) for the **real-valued bounded harmonic functions** on (H), with their supremum norm. The Poisson map
-[
- mathcal P:L^infty(mathbb R^{d-1},dx')longrightarrowmathscr H_b(H),
- qquad flongmapsto ig[(x',t)mapsto (p_t*f)(x')ig]
-]
-is a linear **isometric bijection**. Every bounded harmonic function therefore has a unique almost-everywhere bounded boundary trace; its representing measure in Theorem 3.2.6 (after shifting the function by a constant to make it nonnegative) is absolutely continuous. Neither a singular boundary measure nor a nonzero (ct) term can occur for a bounded nonnegative harmonic function.
+**Internal measure dependency.** `docs/sections/measures-and-distributions--densities-and-differentiation-of-integrals/index.html`, main blob `1b600ca8444edebc8e05e300cb86ae371e9f8535`, physical lines **7–46**, Lemma 2.8.1 source `foundations-of-pluripotential-theory:43819F13` / permanent `9790D3B21542`.
 
-This is a strengthening, for the bounded-harmonic class, of the printed correct Theorems 3.2.6 and 3.2.12. The latter expressly allows a nonzero linear term because its conclusion concerns the unbounded growth class as well.
+## Claim
 
-## Direct proof, including the noncompact boundary tail
+Fix $d\ge2$ and $H=\mathbb R^{d-1}\times(0,\infty)$. Put
+$$
+p_t(x')=\frac{2t}{s_{d-1}(|x'|^2+t^2)^{d/2}}.
+$$
+The Poisson operator
+$$
+\mathcal P:L^\infty(\mathbb R^{d-1})\longrightarrow
+\mathscr H_b(H),\qquad
+f\longmapsto\big((x',t)\mapsto (p_t*f)(x')\big)
+$$
+is a **linear isometric bijection** onto the space of real-valued bounded harmonic functions, with supremum norm. In particular, any nonnegative bounded harmonic $h$ has representation $h=p_t*g$ for **unique** $g\in L^\infty$, $0\le g\le\|h\|_\infty$ a.e.; there is no $ct$ term or singular boundary measure.
 
-Put (m=d-1). By (3.2.13), (int_{mathbb R^m}p_t=1). Its scaling (p_t(x)=t^{-m}p_1(x/t)), positivity, and integrability show that (p_t) is an approximate identity. For every (arphiin C_c(mathbb R^m)), (p_t*arphi	oarphi) uniformly (split the integral into (|y|<delta) by uniform continuity and (|y|gedelta) by the integrable tail of (p_1)).
+The already printed Theorems 3.2.6 and 3.2.12 are **correct**. The new result narrows them to the bounded class and proves uniqueness of the $L^\infty$ trace, not claimed explicitly in §3.2.
 
-**Positive bounded case.** Suppose (0le hle M) on (H). By Theorem 3.2.6, (h(x',t)=ct+int p_t(x'-z)d
-u(z)) with (cge0), (
-u) a positive Radon measure, and
-[
-  int_{mathbb R^m}(1+|z|^2)^{-d/2},d
-u(z)<infty.
-]
-Since (ctle M) for every (t>0), necessarily (c=0).
+## Complete new deduction
 
-For nonnegative (arphiin C_c^infty(mathbb R^m)), Tonelli gives
-[
- I_t:=intarphi(x')h(x',t),dx'
-     =int(p_t*arphi)(z),d
-u(z)le Mintarphi,dx'.
-]
-We justify (I_t	ointarphi,d
-u), **without** incorrectly applying finite-measure weak convergence to the generally infinite total measure (
-u). Choose (Rge1) such that (operatorname{supp}arphisubset B_R). On (|z|le2R), convergence (p_t*arphi	oarphi) is uniform, and (
-u(overline B_{2R})<infty). For (0<tle1) and (|z|>2R), (|z-x'|ge |z|/2) on the support of (arphi), whence
-[
- 0le(p_t*arphi)(z)le C_{arphi,R},t(1+|z|^2)^{-d/2}.
-]
-The tail is at most (C_{arphi,R}tint(1+|z|^2)^{-d/2}d
-u), which tends to zero. Thus
-[
- intarphi,d
-u=lim_{tdownarrow0}I_tle Mintarphi,dx'.
-]
-By the order characterization of positive Radon measures, (
-ule M,dx') on Borel sets. **Lemma 2.8.1** now provides (gin L^infty) with (0le gle M) almost everywhere and (
-u=g,dx'). Therefore (h=p_t*g).
+Let $m=d-1$. Formula (3.2.13) says $\int_{\mathbb R^m}p_t=1$. The scaling $p_t(x)=t^{-m}p_1(x/t)$ and integrability of $p_1$ give, for every $\varphi\in C_c(\mathbb R^m)$, the approximate-identity limit $p_t*\varphi\to\varphi$ uniformly: use uniform continuity inside a fixed $\delta$-ball and the vanishing $\int_{|y|>\delta}p_t(y)\,dy$ outside.
 
-**Signed bounded case.** Let (u) be any real bounded harmonic function, (M=|u|_infty). Apply the preceding case to (h=u+M), which satisfies (0le hle2M). We obtain (h=p_t*g) with (0le gle2M). Since (p_t*1=1), (u=p_t*f) with (f=g-M), and (|f|_inftyle M).
+**Step 1: vanishing atom at infinity.** If $0\le h\le M$, Theorem 3.2.6 gives
+$$
+h(x',t)=ct+\int_{\mathbb R^m}p_t(x'-z)\,d\nu(z),\quad
+c\ge0,\quad \nu\ge0,\qquad
+\int_{\mathbb R^m}(1+|z|^2)^{-d/2}\,d\nu(z)<\infty.
+$$
+As $ct\le M$ for every $t>0$, necessarily $c=0$.
 
-**Converse and uniqueness.** The printed Theorem 3.2.12 gives (p_t*finmathscr H_b(H)) and (|p_t*f|_inftyle|f|_infty) for all (fin L^infty). For any (arphiin C_c^infty), Fubini and the (L^1)-approximate-identity property give
-[
-  lim_{tdownarrow0}intarphi(x')(p_t*f)(x'),dx'
-       =intarphi(x')f(x'),dx'.
-]
-Indeed the difference is at most (|f|_infty|p_t*arphi-arphi|_1	o0); (L^1) convergence follows by the usual translation-continuity argument (or compact/tail splitting). Hence equal harmonic extensions force equal boundary functions as distributions, therefore almost everywhere. Apply this boundary limit to the constructed (f) and the estimate (|u|le M) to recover (|f|_inftyle|u|_infty); combined with the already proved reverse inequality this gives **exact norm equality**.
+**Step 2: boundary convergence for a possibly infinite measure.** For nonnegative $\varphi\in C_c^\infty(\mathbb R^m)$, Tonelli gives
+$$
+I_t:=\int_{\mathbb R^m}\varphi(x')h(x',t)\,dx'
+=\int_{\mathbb R^m}(p_t*\varphi)(z)\,d\nu(z)
+\le M\int_{\mathbb R^m}\varphi\,dx'.
+$$
+We prove $\lim_{t\downarrow0}I_t=\int\varphi\,d\nu$, **without assuming finite total mass of $\nu$**. Fix $R\ge1$ with $\operatorname{supp}\varphi\subset B_R$. For $|z|\le2R$ we have uniform convergence $(p_t*\varphi)(z)\to\varphi(z)$ and $\nu(\overline B_{2R})<\infty$. If $0<t\le1$, $|z|>2R$, and $x'\in\operatorname{supp}\varphi$, then $|z-x'|\ge|z|/2$, so
+$$
+0\le(p_t*\varphi)(z)
+\le C_{\varphi,R}\,t(1+|z|^2)^{-d/2}.
+$$
+The total tail integral is at most $C_{\varphi,R}t\int(1+|z|^2)^{-d/2}d\nu$, which tends to zero. It follows that
+$$
+\int\varphi\,d\nu
+=\lim_{t\downarrow0}I_t
+\le M\int\varphi\,dx'.
+$$
+The inequality for all nonnegative compactly supported tests implies $\nu\le M\,dx'$ as Radon measures. Applying the **internally proved** Lemma 2.8.1, $\nu=g\,dx'$ with $0\le g\le M$ almost everywhere. Thus $h=p_t*g$.
 
-## Boundary cases, dependency discipline, and affected results
+**Step 3: arbitrary signs.** Let $u$ be real bounded harmonic and $M=\|u\|_\infty$. Apply Steps 1–2 to $h=u+M\in[0,2M]$ and obtain $h=p_t*g$, $0\le g\le2M$. By (3.2.13), $p_t*1=1$, so
+$$
+u=p_t*f,\qquad f=g-M,\qquad \|f\|_\infty\le M.
+$$
 
-The positive harmonic function (u(x',t)=t) has boundary value zero at every finite boundary point but is unbounded, so a growth restriction genuinely matters. The Poisson kernel for an atomic boundary measure, (u(x',t)=p_t(x')), is nonnegative harmonic with (c=0) but becomes unbounded as ((x',t)	o(0,0)); the boundary density conclusion genuinely requires a uniform harmonic bound. These examples are logically distinct and do not contradict the printed theorems.
+**Step 4: converse, injectivity and sharp norm.** Theorem 3.2.12 shows that $p_t*f$ is bounded harmonic and
+$\|\mathcal P f\|_\infty\le\|f\|_\infty$.
+For each $\varphi\in C_c^\infty(\mathbb R^m)$, Fubini implies
+$$
+\int\varphi(x')(p_t*f)(x')\,dx'
+=\int(p_t*\varphi)(z)f(z)\,dz.
+$$
+Translation continuity in $L^1$ and the normalized approximate identity yield
+$\|p_t*\varphi-\varphi\|_{L^1}\to0$. Consequently,
+$$
+\lim_{t\downarrow0}\int\varphi(x')(p_t*f)(x')\,dx'
+=\int\varphi(x')f(x')\,dx'.
+$$
+Two equal Poisson extensions thus have equal boundary distributions and agree almost everywhere. The construction in Step 3 gives
+$\|f\|_\infty\le\|\mathcal Pf\|_\infty$, and the printed Poisson bound gives the reverse inequality: **the operator is an isometry**.
 
-**Dependencies:** printed Theorem 3.2.6, normalization (3.2.13) of Theorem 3.2.12, and the **internally proved** bounded-density lemma 2.8.1; standard Tonelli, positivity of Radon measures, and elementary approximate-identity estimates. This report checks the new tail passage and isometry proof, **not** all transitive inputs to the half-space representation or to Radon-measure theory. No Demailly approximation, Bergman, weighted-(L^2), OT, multiscale or positivity-loss argument is used or reopened.
+## Genuine boundary phenomena and status
 
-**Classification:** verified conditional deduction, low. Neither printed theorem is false; there is no proposed change to any source/permanent tag. **Optional source-body proposal for separate review:** append a bounded-harmonic Poisson classification corollary after Theorem 3.2.12, including the weighted-tail argument above. Potential consumers include bounded Dirichlet uniqueness on a half-space and interpretation of the (ct) freedom in §3.2.11. No production or registry file was edited.
+The function $h(x',t)=t$ is positive harmonic with vanishing finite-boundary trace but unbounded growth; it illustrates why the $ct$ term in (3.2.7) cannot be suppressed without a boundedness hypothesis. The atom-at-zero Poisson harmonic function $h(x',t)=p_t(x')$ is positive with $c=0$, but is unbounded near $(0,0)$ and has singular representing measure $\delta_0$. These are two different failure modes.
 
-**Coverage:** new selected proof-level deduction in previously partly audited §3.2, exact displayed statement (3.2.7)–(3.2.8), normalization (3.2.13), and internal Lemma 2.8.1. No first-visit recount, no full-section or upstream-dependency certification. ToC baseline 25 chapters, 747 numbered sections, zero fully certified mathematical sections.
+**Dependencies and limitations.** This verifies Steps 1–4 *conditional* on the printed positive half-space representation (Theorem 3.2.6), Poisson harmonicity and normalization (Theorem 3.2.12, Equation 3.2.13), internal bounded Radon-density Lemma 2.8.1, and elementary integration/approximate identity. It does not certify their entire transitive proof chains. No Demailly approximation/regularization or dedicated Bergman/weighted-$L^2$/Ohsawa–Takegoshi/multiscale/positivity-loss work was used.
+
+**Proposed separately reviewable correction (optional):** insert the bounded-class isometric representation as a corollary after §3.2.12. Affected dependents are uniqueness of bounded half-space Dirichlet solutions and interpretation of the nonzero $ct$ freedom. No source-body, canonicalization, registry, permanent-tag or production changes have been made.
+
+**Coverage:** selected new proof in previously partly audited §3.2; §2.8.1 is a checked internal *dependency*, not a fresh full proof. No first-visit recount, no entire-section certification. Current ToC baseline: 25 chapters / 747 numbered sections / 0 whole-section mathematical certifications.
