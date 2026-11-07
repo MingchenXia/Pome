@@ -1,64 +1,76 @@
-# Direct bounded Bedford–Taylor proof of the positive-current support maximum
+# Bounded Bedford–Taylor truncation yields an essential support maximum, not automatically the pointwise theorem
 
-**Finding ID:** `POME-CURRENT-SUPPORT-MAX-DIRECT-BT-001`. **Classification:** low / verified repair of a proof route (not a false theorem; full transitive internal Bedford–Taylor foundations are not certified). **Date:** 2026-11-07. **Production main reviewed:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+**Finding ID:** `POME-CURRENT-SUPPORT-MAX-DIRECT-BT-001`.
+**Status:** verified conditional deduction (low severity); **not** a theorem refutation and **not** a complete replacement proof of Theorem 5.63.4.
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+**Date:** 2026-11-07.
 
-## Reading-edition anchors and prior scope
+> **Audit correction within this run.** An initial proposed bypass of the smooth-decreasing-majorant step incorrectly treated the strict superlevel of an upper semicontinuous plurisubharmonic function as Euclidean open. Upper semicontinuity does **not** justify that. This corrected report retracts that claimed pointwise proof and retains only the rigorously proved essential-support statement below. The printed theorem has **not** been shown false or incomplete.
 
-- `docs/sections/positive-current-coefficient-bounds-and-support-maxima/index.html`, main blob `cb4c3d4e9d653b216cff05eaf23aafb2a01425ec`: **Theorem 5.63.4**, source `demailly-complex-geometry:A8039435`, permanent tag `949B825CA873`, exact physical lines **82–87**; proof lines **90–108**, particularly the bounded-product argument at **93–105** and the smooth-decreasing-majorant invocation at **107**. The statement is **correct**. The alternative below replaces only the passage from smooth to arbitrary psh without revisiting or relying on the dedicated excluded regularization programme.
-- `docs/sections/bedford-taylor-products-and-local-capacity--bounded-potentials-and-recursive-products/index.html`, main blob `18bd2395f3b76941b2c677079c09eb6accc5a9cb`: **Definition 7.2.1**, source `foundations-of-pluripotential-theory:DE7531DE`, permanent `254CDCCCAB5E`, lines **16–25**; **Proposition 7.2.2**, source `foundations-of-pluripotential-theory:D16BD033`, permanent `D9911E035563`, lines **29–54**, including positive closedness and locality. These are **identified internal inputs**, not independently certified in their full proof chain.
-- Current table-of-contents section tag `D5078EF0D73A` (§5.63). The audit matrix already recorded selected checks of Proposition 5.63.2 / Lemma 5.63.3; this is **new direct coverage of Theorem 5.63.4**, not a first section visit.
+## Exact integrated source anchors
 
-## Proof: no smoothing of the original psh function is needed
+- `docs/sections/positive-current-coefficient-bounds-and-support-maxima/index.html`, main blob `cb4c3d4e9d653b216cff05eaf23aafb2a01425ec`; **Theorem 5.63.4**, source `demailly-complex-geometry:A8039435`, permanent tag `949B825CA873`, physical lines **82–87**; integrated proof lines **90–108**. The printed argument for nonsmooth `u` invokes a smooth decreasing majorant at line **107**. Its hypotheses and source proof have **not** been audited here.
+- `docs/sections/bedford-taylor-products-and-local-capacity--bounded-potentials-and-recursive-products/index.html`, main blob `18bd2395f3b76941b2c677079c09eb6accc5a9cb`; Definition **7.2.1**, source `foundations-of-pluripotential-theory:DE7531DE`, permanent `254CDCCCAB5E`, physical lines **16–25**; Proposition **7.2.2**, source `foundations-of-pluripotential-theory:D16BD033`, permanent `D9911E035563`, physical lines **29–54** (positive closedness and locality). Their full transitive proofs are not newly certified.
+- Current ToC §5.63 permanent section tag `D5078EF0D73A`; earlier audit of §5.63 selected Proposition 5.63.2 and Lemma 5.63.3, **not** this new essential bound.
 
-Let `Omega={psi<0}` be relatively compact with smooth strictly psh `psi` near its closure, `psi=0` on the boundary, and put `omega=dd^c psi>0`. Let `T` be a positive closed current of **bidimension (p,p)**, with `p>=1`, on a neighborhood of the closure. Let `u` be an **arbitrary** psh function there, possibly discontinuous or identically `-infinity` on some subsets.
+## Verified deduction: the boundary supremum controls the trace-measure essential supremum
 
-Define `B=sup_(boundary Omega intersect Supp T) max(u,0)`, with the specified empty-set convention `B=0`. Fix any real `b>B` (hence `b>0`) and any `epsilon>0`. Put
-
-```text
-v = max(u - b + epsilon*psi, 0).
-```
-
-**Key elementary observation:** `v` is *locally bounded psh*, even if `u` is unbounded below. Both arguments of the maximum are psh; the maximum is psh; `v>=0`; and upper semicontinuity of `u` gives a finite upper bound on each compact set. This is a pointwise local boundedness claim, not a smoothing or limiting statement.
-
-At each point of `boundary Omega intersect Supp T`, `u<=B<b`; by upper semicontinuity and continuity of `psi`, the strict inequality `u-b+epsilon*psi<0` holds in a neighborhood. Hence `v=0` on a neighborhood of that compact boundary-support intersection. At any other boundary point the current `T` vanishes locally. Compactness of the boundary gives that `vT` is supported in a compact subset of `Omega`.
-
-By the bounded Bedford–Taylor product (Definition 7.2.1 and Proposition 7.2.2),
+Assume exactly the printed hypotheses: `Omega={psi<0}` is a smoothly bounded relatively compact domain in a complex manifold, `psi` is smooth strictly psh near its closure, `dpsi!=0` on its boundary, and `T` is a positive closed current of bidimension `(p,p)`, `p>=1`, near the closure. Let `u` be any psh function near the closure, without a continuity or lower-boundedness assumption. Write `omega=dd^c psi>0` and let `mu_T=T wedge omega^p`, a positive Radon measure on the closure that detects the current's support locally. Define
 
 ```text
-S := dd^c(v T)
+B = sup_(boundary Omega intersect Supp T) max(u,0)
 ```
 
-is a **positive closed** current of bidimension `(p-1,p-1)`. Since `omega` is smooth and closed, compact-support Stokes implies
+using the printed convention `B=0` if the boundary support is empty. (The compact upper-semicontinuity of `u` makes `B` finite.) **Claim:**
 
 ```text
-integral_Omega S wedge omega^(p-1) = 0.
+mu_T({ x in Omega : u(x) > B }) = 0 .
 ```
 
-Its integrand is a positive measure, so the measure `S wedge omega^(p-1)` vanishes identically on `Omega`.
+Equivalently, `ess sup_(mu_T|Omega) u_+ <= B`. This statement is weaker than the printed **pointwise** support maximum, since no assertion is made about exceptional points inside the support where `mu_T` assigns zero mass.
 
-On the open set `E={u-b+epsilon*psi>0} intersect Omega`, the function `u` is locally bounded **below** by `b-epsilon*psi` and locally bounded above by psh upper semicontinuity. Therefore `u` is locally bounded on `E`, and locality plus additivity of the bounded BT product give
+**Proof.** Fix any `b>B` (so `b>0`) and `epsilon>0`. Define
 
 ```text
-S|_E = dd^c(u T)|_E + epsilon * omega wedge T|_E
-     >= epsilon * omega wedge T|_E.
+v=max(u-b+epsilon*psi,0).
 ```
 
-Wedge with `omega^(p-1)` and use positivity to conclude that `(T wedge omega^p)|_E=0`. Because `omega` is **strictly positive**, its trace measure `T wedge omega^p` has exactly the same support as the positive current `T`. Consequently `E intersect Supp T` is empty.
+Both entries of the maximum are psh; their maximum is psh. Since `v>=0` and any psh function is locally bounded above, `v` is locally bounded (even where `u=-infinity`). Thus the bounded Bedford–Taylor definition is applicable, giving a positive closed current `S=dd^c(vT)` of bidimension `(p-1,p-1)`.
 
-It follows that `u<=b-epsilon*psi` throughout `Omega intersect Supp T`. Let `epsilon` decrease to zero and then let `b` decrease to `B`: we obtain `u<=B` on `Omega intersect Supp T`. On the boundary the same inequality holds by definition of `B`; since `B>=0`, `u_+<=B` everywhere on `closure Omega intersect Supp T`. The reverse inequality for suprema is immediate from boundary inclusion. This proves **exactly** the displayed identity in Theorem 5.63.4, including the case of empty boundary support and the case of psh functions with poles. No smooth-decreasing majorant is invoked, constructed, or checked.
+At every boundary point of `Supp T`, `u<=B<b`. Upper semicontinuity of `u` and continuity of `psi` give a neighborhood on which `v=0`; at boundary points outside `Supp T`, `T=0` locally. Compactness of the boundary therefore implies that `vT` has compact support **strictly inside** `Omega`. Multiplication by `v` is well-defined because `v` is locally bounded. Choose a smooth cutoff equal to 1 on a neighborhood of this compact support.
 
-## Sharpness of the actual hypotheses
+The smooth closed form `omega`, compact-support Stokes and positivity yield
 
-1. **Bidimension p>=1 is essential:** on the unit disk take `T=delta_0` of bidimension `(0,0)`, which is a positive closed top-degree current, and `u=1`. The interior-support supremum is 1, whereas the boundary-support supremum is 0.
-2. **Closedness is essential:** on the unit disk take `p=1`, `T=rho` for a nonzero nonnegative smooth bump `rho` supported strictly inside the disk. This is a positive `(0,0)` current but is not closed unless `rho` is constant. For `u=1` the two suprema are again 1 and 0.
-3. Strict positivity of `omega` is used exactly at the implication `T wedge omega^p=0` on an open set `=>` that set misses `Supp T`. Mere semipositivity does not justify that implication.
+```text
+0 = integral_Omega dd^c(vT) wedge omega^(p-1)
+  = integral_Omega S wedge omega^(p-1).
+```
 
-These examples are **not counterexamples to the printed theorem**: they violate the respective hypotheses.
+Since `S` is positive and `omega` strictly positive, its trace measure vanishes and hence `S=0` on `Omega`. Testing this equality against `psi*omega^(p-1)`, with a cutoff equal to 1 near `Supp(vT)`, and using `dd^c(psi*omega^(p-1))=omega^p`, gives
 
-## Decision / dependencies
+```text
+0 = integral_Omega v T wedge omega^p = integral_Omega v d(mu_T).
+```
 
-**Verified repair of an unnecessary dependency in the proof route, not a theorem correction.** The printed theorem and its existing proof remain mathematically unrefuted. The sole proposed change, if independently reviewed later, is to replace the proof's general-psh approximation paragraph at physical line 107 by the direct bounded-truncation argument above. No production file, source, permanent tag or registry is changed in this audit.
+As `v>=0`, the set `{u-b+epsilon*psi>0}` has `mu_T`-measure zero. Since `psi<0` on `Omega`, for every point there with `u>b` the inequality `u-b+epsilon*psi>0` holds for all sufficiently small `epsilon>0`. Consequently
 
-**Internal dependencies:** established BT positive-product and locality statements (7.2.1–2), compact-support Stokes, and the elementary fact that `T wedge omega^p` detects the support of a positive `(p,p)`-bidimension current when `omega` is strictly positive. Their entire transitive proofs were not re-audited. **Excluded:** all Demailly approximation/regularization, Bergman, weighted L2, Ohsawa–Takegoshi, multiscale atlas and positivity-loss proof-completion work stays **deferred-by-user**; the preexisting approximation notes are not upgraded to resolved/certified.
+```text
+{u>b} intersect Omega
+= union_(j>=1) {u-b+psi/j>0} intersect Omega,
+```
 
-**Coverage:** selected Theorem 5.63.4, its stated hypotheses and proof lines 82–108, plus directly used BT 7.2.1–2 only; **0 new first-visited sections / 0 completely certified sections**. Current project ToC baseline: **25 chapters / 747 numbered sections / 0 fully certified sections**. No tests/build/CI/formalization/publication were performed.
+and this set has `mu_T`-measure zero by countable subadditivity. Let `b` decrease through a countable sequence to `B`; the claim follows. The entire argument uses only the bounded BT product for `v`, positivity of closed currents, and compact-support Stokes. **No smoothing, Bergman, L2, OT, multiscale or positivity-loss construction occurs.** `QED`
+
+## Why this does not finish the printed pointwise theorem
+
+The strict superlevel `{u-b+epsilon*psi>0}` of an upper semicontinuous psh function is **not in general Euclidean open**. Thus ordinary Euclidean-open locality of the BT product (Proposition 7.2.2(2)) cannot be applied on that set without an additional fine-locality argument, and even vanishing trace measure there does not alone prove that this set misses every point of `Supp T`. One must justify the **pointwise** promotion separately; for example, the printed proof invokes a smooth-decreasing-majorant result at its line 107. That original dependency has **not** been resolved or certified by this audit, and no claim about its validity is made.
+
+In particular, `POME-CURRENT-SUPPORT-MAX-DIRECT-BT-001` records a verified conditional deduction and the exact limitation of an attempted stronger proof, **not** a verified repair, complete theorem proof, or evidence that the printed theorem is false. The original printed Theorem 5.63.4 remains unrefuted.
+
+## Sharpness and dependents
+
+The actual assumptions matter even for the weaker statement. With `p=0`, take a positive Dirac point mass current `T=delta_0` in the unit disk and `u=1`: its interior essential supremum is 1 and its boundary support is empty. Without closedness, let `p=1` and `T=rho` be any nonzero nonnegative smooth bump function supported in the disk, `u=1`; the same contradiction occurs. These violate the **printed hypotheses**, not the theorem.
+
+**Affected dependents:** any use of the printed Theorem 5.63.4 in a pointwise support argument must retain the printed smooth-decreasing-majorant input or an independently justified replacement. The essential bound above can be used with trace-measure integrals, not substituted for pointwise support maximum. **Proposed correction to the proof route:** do not replace the general-psh step by Euclidean locality on a strict superlevel; either retain the original justification or prove the missing pointwise upgrade with valid additional input. **No production patch** is made.
+
+**Coverage:** new selected audit of §5.63.4 and the exact §7.2.1–2 premises; no new first-visited ToC section, no whole section certification. Baseline **25 chapters / 747 numbered sections / 0 fully mathematically certified sections**. All user-excluded Demailly approximation/regularization and dedicated Bergman, weighted-L2, OT, multiscale and positivity-loss programmes remain **deferred-by-user**. No tests, builds, CI, formal verification or website publication.
