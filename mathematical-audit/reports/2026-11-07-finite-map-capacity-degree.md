@@ -1,14 +1,14 @@
 # Degree scaling of relative Bedford–Taylor capacity under finite proper holomorphic maps
 
-**Audit date:** 2026-11-07. **Production main reviewed:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+**Audit date:** 2026-11-07. **Production main reviewed:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 
-**Finding ID:** \`POME-CAP-PROPER-FINITE-DEGREE-001\` — **low / verified conditional deduction**. This is a verified consequence of two *correctly qualified* printed results, not a false theorem, a duplicate, or a completed certification of their upstream Bedford–Taylor proof chain.
+**Finding ID:** `POME-CAP-PROPER-FINITE-DEGREE-001` — **low / verified conditional deduction**. This is a verified consequence of two *correctly qualified* printed results, not a false theorem, a duplicate, or a completed certification of their upstream Bedford–Taylor proof chain.
 
 ## Pinpointed reading-edition sources
 
-- \`docs/sections/relative-extremals-on-bounded-hyperconvex-domains/index.html\`, main blob \`c6560283c5ff9e2587ffe93f7f2e7ba687105243\`; section 7.16 permanent tag \`554C8622D718\`.
-- Proposition **7.16.4**, source label \`klimek-pluripotential-theory:2CB6C014\`, permanent tag \`CF1B00103D5B\`, physical lines **96–105**: proper surjective same-dimensional holomorphic maps preserve the *raw* and *USC-regularized* relative extremal under inverse image.
-- Theorem **7.16.5**, source label \`klimek-pluripotential-theory:68BF935A\`, permanent tag \`08DA18E923C1\`, physical lines **110–115** (claim), **118–174** (proof): for any relatively compact subset of a bounded connected hyperconvex domain, outer Bedford–Taylor capacity equals the total mass of the regularized relative extremal. The main page's normalization check for a round disc occurs at physical lines **177–184**.
+- `docs/sections/relative-extremals-on-bounded-hyperconvex-domains/index.html`, main blob `c6560283c5ff9e2587ffe93f7f2e7ba687105243`; section 7.16 permanent tag `554C8622D718`.
+- Proposition **7.16.4**, source label `klimek-pluripotential-theory:2CB6C014`, permanent tag `CF1B00103D5B`, physical lines **96–105**: proper surjective same-dimensional holomorphic maps preserve the *raw* and *USC-regularized* relative extremal under inverse image.
+- Theorem **7.16.5**, source label `klimek-pluripotential-theory:68BF935A`, permanent tag `08DA18E923C1`, physical lines **110–115** (claim), **118–174** (proof): for any relatively compact subset of a bounded connected hyperconvex domain, outer Bedford–Taylor capacity equals the total mass of the regularized relative extremal. The main page's normalization check for a round disc occurs at physical lines **177–184**.
 - The standard bounded Bedford–Taylor decreasing-continuity input is used **conditionally**. This audit gives a direct local approximation argument for the finite-map measure identity but does *not* recertify the entire original relative-capacity theorem.
 
 ## Exact degree formula
@@ -37,7 +37,7 @@ First suppose \(u\) is smooth PSH on the target. On a regular-value open set, th
 \[
  f_*(dd^c(u\circ f))^n=d(dd^c u)^n.
 \]
-The complement of the regular-value set is a proper complex-analytic subset of the target, hence has real Lebesgue measure zero; smooth top-degree forms assign it zero mass. Thus the identity holds across branch values as a measure equality, not merely away from them.
+The Jacobian determinant is a nonzero holomorphic function on each source component (surjectivity and the finite-map openness result prohibit generic rank loss). Its zero set has real Lebesgue measure zero. Since a holomorphic map is locally Lipschitz, the image of this null set is null in the target. Smooth top-degree forms therefore assign the critical values zero mass. Thus the identity holds across branch values as a measure equality, not merely away from them.
 
 For general locally bounded PSH \(u\), fix a relatively compact coordinate ball \(B\Subset\Omega'\) and choose standard radial convolution approximants \(u_j\) on a slightly larger ball, smooth PSH and decreasing pointwise to \(u\). Then \(u_j\circ f\) decreases to \(u\circ f\) on \(f^{-1}(B)\). Bounded Bedford–Taylor decreasing continuity gives weak convergence of the top products **both downstairs and upstairs**. For a continuous test function \(\varphi\) compactly supported in \(B\), properness makes \(\varphi\circ f\) compactly supported in \(f^{-1}(B)\). Passing to the limit in the already-proved smooth identity yields
 \[
