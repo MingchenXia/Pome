@@ -1,0 +1,14 @@
+# Classification ledger — 2026-11-08 — flat-torus Gauduchon spectral face
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272.
+
+| Stable ID | Severity | Status | Statement vs proof | Pinpoint and mathematical evidence | Proposed action / dependents |
+| --- | --- | --- | --- | --- | --- |
+| POME-GAUD-TORUS-SPECTRAL-FACE-CUSP-001 | low | verified conditional deduction | **No false printed theorem or alleged proof gap.** Independent exact model sharpening the interpretation of Cor. 11.6.2 / Prop. 11.7.1 / Cor. 11.7.4. | On $E^2$ with $\omega=\zeta_1+\zeta_2$, $\theta=a\zeta_1+b\zeta_2$, $a<b$, the exact Gauduchon threshold is $a$, but no *smooth Gauduchon test* attains the infimum. $\gamma_\varepsilon=\varepsilon\zeta_1+\zeta_2$ has exact ratio $a+(b-a)\varepsilon/(1+\varepsilon)$. Every normalized current $T_f=f(z_2)\zeta_2$, $\int_E f\beta=1$, belongs to the smooth Gauduchon closure and minimizes: an infinite-dimensional convex face. On $\theta_t=(1+t)\zeta_1+(1-t)\zeta_2>0$, $|t|<1$, the exact threshold $1-|t|$ is nondifferentiable at zero. | Optional separate example after §11.7.4; preserve permanent tags and attribution. Affects applications expecting smooth attainment, uniqueness or differentiability of $\kappa_\omega$. Detailed proof and labels in [report](../reports/2026-11-08-gauduchon-torus-spectral-nonattainment-cusp.md). |
+
+**Pinned reading-edition locations (main blob hashes, not branch hashes):**
+
+- §11.6: docs/sections/gauduchon-metrics-and-linear-mass--the-gauduchon-criterion-for-positivity/index.html; blob **6dd43b62800206fb0302fd4261372d7882e5170d**; Corollary 11.6.2, source **non-kahler-pluripotential-theory:EAE0F4AE**, permanent **F83E15A1F529**, lines **81–96**; Lemma 11.6.3, source **non-kahler-pluripotential-theory:DC67F892**, permanent **91B8C8A3C10E**, lines **104–116**. Contextual theorem 11.6.1 source **non-kahler-pluripotential-theory:87DC00D0**, permanent **88BE3B63D9E5**, lines **10–74**.
+- §11.7: docs/sections/gauduchon-metrics-and-linear-mass--compactness-and-duality-of-gauduchon-currents/index.html; blob **31d17f258f2ff178bf52be3d3f92d5a995878d3a**; Proposition 11.7.1, source **non-kahler-pluripotential-theory:C21ACA47**, permanent **155386134D9E**, lines **7–42**; Corollary 11.7.4, source **non-kahler-pluripotential-theory:4B74203A**, permanent **A97DA8CE2358**, lines **47–70**.
+
+**Other ledger states:** all prior confirmed errors, proof gaps, candidates, genuine duplications, external dependencies, verified repairs and conditional deductions retain their earlier status; no reclassification or closure in this report. **Deferred-by-user** includes the entire excluded Demailly approximation/regularization, Bergman, L², Ohsawa–Takegoshi, multiscale atlas and positivity-loss proof programme. No claim of full proof or section certification. No change to production main or permanent tags.
