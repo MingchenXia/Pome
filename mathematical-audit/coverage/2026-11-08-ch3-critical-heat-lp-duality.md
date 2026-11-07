@@ -1,5 +1,7 @@
 # Precise additive coverage — 2026-11-08, chapter 3 critical heat $L^p$ duality
 
+**Stable finding:** `POME-HEAT-CRITICAL-LP-DUAL-RATE-001` (low / verified conditional deduction); no false printed theorem.
+
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; actual table of contents **25 chapters / 747 distinct numbered sections**; **no complete mathematical section certifications**. This is an *additive* record, not a first visit to §3.10.
 
 | Section | Exact integrated HTML and labels | This run's new proof-level work | Exclusions and limitations |
