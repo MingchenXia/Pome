@@ -1,0 +1,11 @@
+# Additive current-ToC coverage — 2026-11-07 — Hessian C1,1 and ellipticity sharpness
+
+**Pinned main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Stable findings:** POME-HESS-LOG-SINGULAR-C11-OBSTRUCTION-001; POME-HESS-TWO-ELLIPTICITY-BOUNDS-SHARP-001 (both low / verified conditional deduction, no false theorem).
+
+| Current ToC section | Actual main reading-edition material inspected | Stable source/permanent tags and physical anchors | Boundary of certification |
+| --- | --- | --- | --- |
+| 8.5 Bounded complex Hessians and elliptic extensions | docs/sections/complex-hessian-equations--bounded-complex-hessians-and-elliptic-extensions/index.html; blob fdd9225b1d778e1debaf94f75ef65175d4bd4484 | Lemma 8.5.1 non-kahler-pluripotential-theory:835B5652 / 89771FD1FD15, physical 10–27; Lemma 8.5.3 non-kahler-pluripotential-theory:B1F0AA6B / BAC60298D0F2, physical 62–110; §8.5.4 regularity use contextual 122–145 | **New** explicit C1,1 obstruction and independent two-hypothesis sharpness calculations; complete §8.5/PDE proof not certified |
+| 8.2 The admissible cone | docs/sections/complex-hessian-equations--the-admissible-cone/index.html; blob 925e6109ab7d800cde9bec4b0487842b2e6877a8 | Lemma 8.2.5 non-kahler-pluripotential-theory:53FFB5F3 / 7710D01DF6F5, physical 104–130 | Derivative normalization crosscheck only; previous 2026-10-31 sharp **coefficient** result not re-counted |
+| 8.1 Complex Hessian equations | docs/sections/complex-hessian-equations/index.html; blob 5331b937ccdaba51f1ec006d5e72dc84f7addfbf | Section tag CFD38285654D; physical 5–7 | Standing 2<=m<n scope only; inventory/context, not mathematical section certificate |
+
+**Precise progress:** §8.5 and §8.2 both previously partly audited. This adds **two new independent model checks**, **zero** first visits and **zero** complete certifications. Actual ToC retains **25 chapters / 747 numbered sections / 0 fully verified mathematical sections**. The Demailly approximation/regularization plus dedicated Bergman/weighted-L2/OT/multiscale/positivity-loss programme stays **deferred-by-user** and was not inspected. [Full English proof](../reports/2026-11-07-complex-hessian-sharp-regularity-and-ellipticity.md) · [classified ledger](../ledger/2026-11-07-complex-hessian-endpoint-and-ellipticity.md). No builds, tests, CI, formal checks or website publication.
