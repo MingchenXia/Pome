@@ -1,0 +1,17 @@
+# Ledger increment — 2026-11-07 — finite-map scaling of relative Bedford–Taylor capacity
+
+## POME-CAP-PROPER-FINITE-DEGREE-001
+
+- **Severity / status:** low / **verified conditional deduction**. Printed Proposition 7.16.4 and Theorem 7.16.5 are **not false**, and the result is not a duplicate or an unconditional certification of either theorem's full dependency chain.
+- **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272.
+- **Integrated file and main blob:** `docs/sections/relative-extremals-on-bounded-hyperconvex-domains/index.html` / `c6560283c5ff9e2587ffe93f7f2e7ba687105243`. Section permanent tag `554C8622D718`.
+- **Exact labels:** Proposition 7.16.4, source `klimek-pluripotential-theory:2CB6C014`, permanent `CF1B00103D5B`, physical lines 96–105; Theorem 7.16.5, source `klimek-pluripotential-theory:68BF935A`, permanent `08DA18E923C1`, lines 110–115 and 118–174; normalized disk-capacity calculation physical 177–184.
+- **Hypotheses:** finite proper surjective holomorphic map f between bounded connected hyperconvex domains of the same complex dimension n; fixed topological degree d; arbitrary relatively compact E downstairs (outer-capacity convention).
+- **Verified conclusion:** exact local pushforward identity f_* (dd^c(u circ f))^n = d (dd^c u)^n for any locally bounded PSH u; hence Cap^* upstairs of f^(-1)E equals d times Cap^* downstairs of E. Smooth-sheet change of variables plus decreasing bounded Bedford–Taylor continuity handle critical values in the weak limit. Explicit one-dimensional f(z)=z^d calculation verifies the factor and the normalization `dd^c = i/(2 pi) partial bar-partial`.
+- **Unconditional sharpness model:** on the unit disc a radius-r compact disc has capacity 1/[2 log(1/r)]; its pullback by z^d is the radius-r^(1/d) disc, with d times that capacity. A purported *degree-free* preservation of capacity is false when d>1; the original **extremal-function** preservation statement is correct.
+- **Proposed correction:** none to the printed theorems. Optional future independently reviewed exposition could state the degree formula; no changes to source, canonicalization or permanent tags are authorized by this audit.
+- **Affected dependents:** finite holomorphic pullbacks in local capacity arguments and relative extremal models; one must not conflate equality of pulled-back extremals with numerical equality of Monge–Ampère masses.
+- **Unresolved/transitive premises:** bounded Bedford–Taylor monotone convergence; complete proof chains for §7.16.4 and §7.16.5 remain **uncertified**, although their precise statements and selected passages were read. No claimed external analytic-input elimination beyond the new finite-map step.
+- **Detailed justification:** [complete English proof](../reports/2026-11-07-finite-map-capacity-degree.md); [precise additive coverage](../coverage/2026-11-07-ch7-finite-map-capacity-degree.md).
+
+**Ledger continuity:** older confirmed errors, proof gaps, candidates, external dependencies, genuine duplications and verified repairs retain their previous statuses. The excluded Demailly regularization/Bergman/L2/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss programme remains **deferred-by-user**, not resolved or certified. Actual mathematical increment is in a previously partly audited §7.16; zero section first visits or whole-section certifications. ToC baseline 25 chapters / 747 numbered sections / 0 fully certified. Audit Markdown only; no build, test, CI, formalization, source or site changes.
