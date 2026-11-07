@@ -1,77 +1,107 @@
-# Arbitrarily late first nonzero differentials in finite first-quadrant double complexes
+# Arbitrarily late nonzero differentials in finite first-quadrant double complexes
 
-**Finding:** `POME-SPECTRAL-SHARP-LATE-TRANSGRESSION-001`  
-**Class:** low / **verified conditional deduction**; *no printed theorem is refuted*.  
-**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
-**Integrated reading-edition file:** `docs/sections/spectral-sequences-support-and-cup-products--filtered-complexes-and-spectral-sequences/index.html`, blob `2d26dcf0ea764f1d8823bae057dc951063053a50`.  
-**Source/permanent labels:** Theorem 10.54.2, source `demailly-complex-geometry:311B37F9`, permanent `E83B7568FE4B`, physical lines **23–41**; Theorem 10.54.6, source `demailly-complex-geometry:F23F5EAE`, permanent `C060D8E63B4F`, lines **114–139**; Theorem 10.54.7, source `demailly-complex-geometry:B32921E0`, permanent `BD1FDFF09B89`, lines **141–160**. The finite-filtration comparison and collapse conditions of Theorem 10.54.3 were also checked in the integrated passage preceding line 114. These are *spectral-sequence* statements from a complex-geometry source; no part of the owner-excluded Demailly approximation programme was opened.
+**Finding:** POME-SPECTRAL-SHARP-LATE-TRANSGRESSION-001.  
+**Class:** low / **verified conditional deduction**; no printed theorem is refuted.  
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272.  
+**Integrated reading edition:** docs/sections/spectral-sequences-support-and-cup-products--filtered-complexes-and-spectral-sequences/index.html; Git blob **2d26dcf0ea764f1d8823bae057dc951063053a50**.
 
-## Exact statement and hypotheses
+**Precise sources and anchors:** Theorem 10.54.2, **demailly-complex-geometry:311B37F9**, permanent tag **E83B7568FE4B**, physical lines 23–41; Theorem 10.54.6, **demailly-complex-geometry:F23F5EAE**, permanent tag **C060D8E63B4F**, lines 114–139; Theorem 10.54.7, **demailly-complex-geometry:B32921E0**, permanent tag **BD1FDFF09B89**, lines 141–160. The finite-filtration and page-stabilization argument of Theorem 10.54.3 was checked in the intervening lines. The source name refers to complex geometry, *not* to the owner-excluded approximation/regularization proof programme.
 
-For **each integer** $r\ge 3$, there exists a bounded, first-quadrant double complex $K_r^{p,q}$ of **finite free abelian groups**, with anticommuting horizontal and vertical differentials, such that:
+## Statement and scope
 
-1. Its column spectral sequence has exactly two nonzero groups on pages $E_1, E_2,\ldots,E_r$:
-   [
-   E_s^{0,r-1}\cong\mathbb Z,\qquad E_s^{r,0}\cong\mathbb Z\quad$1\le s\le r$.
-   ]
-   Every $d_s$ for $s<r$ vanishes, but $d_r:E_r^{0,r-1}\to E_r^{r,0}$ is multiplication by $(-1)^{r-1}$.
-2. The **total complex is acyclic**. Thus $E_{r+1}=0$, even though the preceding $r-1$ pages have not changed.
-3. For each $2\le s\le r$, the actual top-edge map (H^{r-1}$\mathrm{Tot}K_r$\to E_s^{0,r-1}) is not surjective, and the bottom-edge map (E_s^{r,0}\to H^r$\mathrm{Tot}K_r$) is not injective. This does **not** contradict Theorem 10.54.7, which only asserts existence/naturality of these edge maps.
-4. The total-degree threshold is sharp: in *every* first-quadrant cohomological spectral sequence a nonzero $d_r$ requires a source of total degree at least $r-1$; the constructed source has exactly that degree.
+For every integer $r\ge3$, there exists a bounded first-quadrant double complex $K_r^{p,q}$ of **finite free abelian groups**, with anticommuting horizontal and vertical differentials, such that:
 
-This is a **new uniform-in-r construction**, not the previously logged four-term **nonzero $d_2$** example `POME-SPECTRAL-D2-ZIGZAG-001`.
+1. Its column spectral sequence has only two nonzero groups on every page $E_1,E_2,\ldots,E_r$:
+   $$
+   E_s^{0,r-1}\cong\mathbb Z,\qquad E_s^{r,0}\cong\mathbb Z
+   \quad(1\le s\le r).
+   $$
+   All differentials $d_s$ with $s<r$ vanish, but
+   $$
+   d_r:E_r^{0,r-1}\longrightarrow E_r^{r,0}
+       \quad\text{is multiplication by }(-1)^{r-1}.
+   $$
+2. The total complex is **acyclic**, hence $E_{r+1}=0$.
+3. For all $2\le s\le r$, the top-edge map $H^{r-1}(\operatorname{Tot}K_r)\to E_s^{0,r-1}$ is **not surjective**, and the bottom-edge map $E_s^{r,0}\to H^r(\operatorname{Tot}K_r)$ is **not injective**. Both maps still exist, exactly as asserted in Theorem 10.54.7.
+4. The source total degree is optimal: every nonzero differential $d_r$ in any first-quadrant cohomological spectral sequence originates in total degree at least $r-1$, and this model realizes degree $r-1$.
 
-## Complete integral construction and proof
+The result is a uniform construction for **all $r\ge3$**, distinct from the earlier isolated $d_2$ calculation **POME-SPECTRAL-D2-ZIGZAG-001**, which remains valid and unchanged.
 
-Fix $r\ge3$. Let all unspecified components be zero and take one copy of $\mathbb Z$ in each of
+## Explicit integral bicomplex and full proof
+
+Fix $r\ge3$ and let all unlisted components be zero. Take a copy of $\mathbb Z$ with generator $a_j$ in bidegree $(j,r-1-j)$ for every $0\le j\le r-1$, and a copy with generator $b_j$ in bidegree $(j+1,r-1-j)$ for every $0\le j\le r-1$. Thus
 $$
- a_j\in K_r^{j,r-1-j}\quad$0\le j\le r-1$,\qquad
- b_j\in K_r^{j+1,r-1-j}\quad$0\le j\le r-1$.
+a_j\in K_r^{j,r-1-j},\qquad
+b_j\in K_r^{j+1,r-1-j}
+\qquad(0\le j\le r-1).
 $$
-The symbols name free generators. Prescribe
-$$
- d_h a_j=b_j\quad$0\le j\le r-1$,\qquad
- d_v a_0=0,\quad d_v a_j=b_{j-1}\quad$1\le j\le r-1$,
-$$
-and set both differentials to zero on every $b_j$. Every $a_j$ has total degree $r-1$ and every $b_j$ has total degree $r$. Both $d_h$ and $d_v$ square to zero; each composite $d_hd_v$ and $d_vd_h$ is identically zero. Thus the **anticommutation** convention $d_hd_v+d_vd_h=0$ of the actual Theorem 10.54.6 holds integrally, without a hidden sign conversion.
 
-For the column filtration, $E_1$ is vertical cohomology. In each intermediate column $j=1,\ldots,r-1$, the vertical pair $a_j\mapsto b_{j-1}$ is an isomorphism, hence acyclic. The two unmatched generators are $a_0\in K^{0,r-1}$ and $b_{r-1}\in K^{r,0}$. There are therefore exactly the two displayed $E_1$ groups. A differential $d_s$ has bidegree $$s,1-s$$. For $s<r$, its target from ($0,r-1$) is ($s,r-s$), a vacant term on the page; no other possible differential survives. Consequently $E_1=E_2=\cdots=E_r$ as bigraded groups.
+Define
+$$
+d_h a_j=b_j\quad(0\le j\le r-1),\qquad
+d_v a_0=0,\qquad
+d_v a_j=b_{j-1}\quad(1\le j\le r-1),
+$$
+and put $d_hb_j=d_vb_j=0$ for every $j$. Every $a_j$ has total degree $r-1$, every $b_j$ has total degree $r$, and all components lie in the first quadrant. Since *both composites* $d_hd_v$ and $d_vd_h$ vanish (they land in generators $b_j$ on which all differentials vanish), the actual anticommutation convention
+$$
+d_h^2=d_v^2=0,\qquad d_hd_v+d_vd_h=0
+$$
+of Theorem 10.54.6 holds over $\mathbb Z$ without a sign convention change.
 
-For an **actual filtered representative**, put
+The column filtration of $\operatorname{Tot}K_r$ has first page the vertical cohomology. Each intermediate column $j=1,\ldots,r-1$ contains the vertical two-term **isomorphism**
 $$
- c=\sum_{j=0}^{r-1}(-1)^j a_j\in F^0\mathrm{Tot}^{r-1}K_r.
+\mathbb Z a_j\xrightarrow{d_v}\mathbb Z b_{j-1}.
 $$
-A direct cancellation gives
+Only $a_0$ in column $0$ and $b_{r-1}$ in column $r$ remain, giving
 $$
- Dc=\sum_{j=0}^{r-1}(-1)^jb_j+
-       \sum_{j=1}^{r-1}(-1)^j b_{j-1}
-   =(-1)^{r-1}b_{r-1}\in F^r\mathrm{Tot}^{r}K_r.
+E_1^{0,r-1}=\mathbb Z[a_0],\qquad
+E_1^{r,0}=\mathbb Z[b_{r-1}],
 $$
-Thus $c\in Z_r^{0,r-1}$, reduces to $a_0$ in the zeroth associated-graded column, and by the **printed representative rule** in Theorem 10.54.2,
-$$
- d_r[a_0]=(-1)^{r-1}[b_{r-1}].
-$$
-The target class is nonzero on $E_r$, so $d_r$ is an isomorphism. The next page is zero by Theorem 10.54.2.
+with every other $E_1^{p,q}=0$. A page-$s$ differential has bidegree $(s,1-s)$. For $s<r$, the only possible arrow out of $(0,r-1)$ lands in $(s,r-s)$, whose $E_1$-group is zero. There is no other nonzero source. Inductively $d_s=0$ and $E_{s+1}=E_s$ for $1\le s<r$.
 
-Independently of spectral convergence, the total complex consists only of
+To compute the *actual* $r$-th page differential using the printed filtered representatives, put
 $$
- 0\longrightarrow \mathrm{Tot}^{r-1}K_r\xrightarrow{D}
- \mathrm{Tot}^{r}K_r\longrightarrow0 .
+c=\sum_{j=0}^{r-1}(-1)^j a_j\in
+F^0\operatorname{Tot}^{r-1}K_r.
 $$
-With columns ordered $a_0,\ldots,a_{r-1}$ and rows $b_0,\ldots,b_{r-1}$, its integer matrix is
+The two sums telescope:
 $$
- D_{ij}=\delta_{ij}+\delta_{i,j-1},\qquad 0\le i,j\le r-1.
+Dc=\sum_{j=0}^{r-1}(-1)^jb_j+
+\sum_{j=1}^{r-1}(-1)^jb_{j-1}
+=(-1)^{r-1}b_{r-1}\in
+F^r\operatorname{Tot}^{r}K_r.
 $$
-This is upper bidiagonal with every diagonal entry $1$, so $\det D=1$. Hence (D\in\mathrm{GL}_r$\mathbb Z$) and the total complex has **zero cohomology in every degree**. This also proves that no torsion or completion issue is concealed in the spectral computation.
+Thus $c\in Z_r^{0,r-1}$, while its class modulo $F^1$ is exactly $a_0$. The rule $d_r[x]=[Dx]$ in Theorem 10.54.2 now gives
+$$
+\boxed{d_r[a_0]=(-1)^{r-1}[b_{r-1}].}
+$$
+The target is a nonzero integral generator, so this is an **isomorphism**, and $E_{r+1}=0$.
 
-Finally any first-quadrant nonzero $d_r:E_r^{p,q}\to E_r^{p+r,q-r+1}$ has target second index $q-r+1\ge0$, forcing $q\ge r-1$ and source total degree $p+q\ge r-1$. Our $$0,r-1$\to$r,0$$ differential attains equality. Since total cohomology is zero, the top-edge map $0\to\mathbb Z$ and bottom-edge map $\mathbb Z\to0$ on every $2\le s\le r$ have respectively non-surjective and non-injective behavior. Both maps remain exactly as asserted in the original theorem.
+An *independent* verification of total acyclicity avoids any appeal to spectral convergence. The total complex has just the degrees $r-1$ and $r$:
+$$
+0\longrightarrow
+\operatorname{Tot}^{r-1}K_r\xrightarrow{D}
+\operatorname{Tot}^{r}K_r\longrightarrow0.
+$$
+In the ordered free bases $(a_0,\ldots,a_{r-1})$ and $(b_0,\ldots,b_{r-1})$ its differential is the upper bidiagonal integer matrix
+$$
+D_{ij}=\delta_{ij}+\delta_{i,j-1},
+\qquad 0\le i,j\le r-1.
+$$
+Every diagonal entry is $1$, so $\det D=1$; thus $D\in\mathrm{GL}_r(\mathbb Z)$. In particular **all total cohomology vanishes integrally**, not merely rationally. The calculation has no completion, torsion, extension or limiting assumption.
 
-## Mathematical classification, impact, and limits
+For any first-quadrant spectral sequence, if
+$$
+d_r:E_r^{p,q}\longrightarrow E_r^{p+r,q-r+1}
+$$
+is nonzero, its target must satisfy $q-r+1\ge0$. Hence $q\ge r-1$ and source total degree $p+q\ge r-1$. The constructed $d_r:E_r^{0,r-1}\to E_r^{r,0}$ attains equality.
 
-**Severity:** low. **Status:** verified conditional deduction, with a fully elementary independent integral construction; published Theorems 10.54.2, 10.54.3, 10.54.6 and 10.54.7 are **not false**. No original proof gap is alleged. This model shows the hypothesis "degenerates at $E_2$" cannot be inferred from first-quadrant boundedness, $E_2$-page stability for an arbitrarily long finite interval, or the existence of natural edge maps. The proven per-degree total convergence remains intact.
+Finally $H^{r-1}(\operatorname{Tot}K_r)=H^r(\operatorname{Tot}K_r)=0$. For $2\le s\le r$, Theorem 10.54.7's maps specialize to $0\to\mathbb Z$ and $\mathbb Z\to0$, respectively. Neither is an isomorphism; the former is not surjective and the latter is not injective. The printed result claims neither stronger property, so **it remains correct**.
 
-**Proposed editorial addition $not applied$:** after Theorem 10.54.7, insert the all-$r$ double-complex model, or at least a note that the edge maps are not generally mono-/epimorphisms and that arbitrarily late first differentials occur even for bounded complexes of finite free modules. Preserve both theorem source attributions and permanent tags.
+## Classification, possible note, dependents and boundaries
 
-**Potential downstream audit targets:** the spectral-sequence comparisons in `docs/sections/spectral-sequences-support-and-cup-products--hypercohomology-and-direct-image-spectral-sequences/index.html` (§10.55) and `docs/sections/general-complex-cohomology-and-modifications--the-frolicher-filtration/index.html` (§10.84), but **no error is asserted in those sections without checking their exact hypotheses**. The construction is an abstract double complex; it is **not** claimed to arise from the Dolbeault complex of any compact complex manifold.
+**Severity:** low. **Status:** verified conditional deduction (indeed an elementary integral proof with no new external mathematical input). This is a *sharp limitation of tempting unprinted strengthening*, **not a confirmed false theorem, missing proof, or repair**. Specifically, first-quadrant boundedness, the finite-page stabilization $E_2=\cdots=E_r$, and the mere existence of edge maps do *not* imply $E_2$ degeneration, nor injectivity/surjectivity of the edge maps. The precise convergence and five-term exact-sequence statements printed in §§10.54.2–7 remain intact.
 
-**Coverage:** new *selected* proof-level verification of §10.54.6–7 and all-$r$ transgression sharpness in a section previously sampled for $d_2$. Exactly **zero** newly first-visited ToC sections and **zero** whole mathematical sections certified; the actual current navigation remains **25 chapters / 747 numbered sections**. No project tests, build, GitHub Actions, formal verification, or website deployment were run. The Demailly approximation/regularization and dedicated Bergman, weighted $L^2$, Ohsawa–Takegoshi, multiscale-atlas and positivity-loss proof-completion programme remains **deferred-by-user**.
+**Proposed optional clarification (not applied to production):** add the all-$r$ model, or an abbreviated note after Theorem 10.54.7, retaining permanent tags and historical attribution. Downstream spectral-sequence applications deserving separate hypothesis checks include §10.55 (hypercohomology/direct images) and §10.84 (Frölicher filtration), **but this audit has not found or alleged an error in those sections**. The abstract bicomplex is not claimed to be realized as a Dolbeault double complex of a compact complex manifold.
+
+**Exact coverage:** new selected proof-level reading of the already-partly-reviewed §10.54, not a first visit; **0** newly first-visited ToC sections and **0** complete mathematical-section certifications. Current actual inventory: **25 chapters / 747 numbered sections**. The Demailly approximation/regularization and dedicated Bergman, weighted $L^2$, Ohsawa–Takegoshi, multiscale-atlas and positivity-loss proof-completion programme remains **deferred-by-user**. No build, tests, CI, formal verification, website publishing, source/registry/tag edits or production-main changes were made.
