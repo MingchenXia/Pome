@@ -1,0 +1,9 @@
+# 2026-11-08 — critical heat $L^p$ duality classified ledger
+
+| Stable finding ID | Severity / status | Direct source and precise finding | Disposition / affected dependents |
+| --- | --- | --- | --- |
+| `POME-HEAT-CRITICAL-LP-DUAL-RATE-001` | **low / verified conditional deduction** | §3.10 Lemma 3.10.5, `transcendental-positive-cones:DD00B1CA` / permanent `56A174D59425`, HTML physical lines 85–105. From the printed codimension-two heat growth bound and mass conservation, the critical operator norm on `L^p`, `1<p<infinity`, decays as `O(t^(1-1/p))`, while each fixed test enjoys `o(t^(1-1/p))`. The unit-torus codimension-two model has exact nonzero limiting operator-norm constant `(4pi)^(-1)(4pi/q)^(1/q)`, so exponent and uniformity are sharp. | Optional **proposed exposition only**, not applied. Do not replace the fixed-test small-o by uniform small-o for moving tests. Prior critical `L^1` endpoint and a.e. findings are unchanged and not double-counted. No printed theorem is false. General compact elliptic/heat prerequisites remain uncertified. |
+
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. Main integrated HTML `docs/sections/heat-kernels-on-compact-manifolds/index.html` blob `c59a1b3fab9433f1aae95db99adb4821857b5d8d`; Gaussian Lemma 3.10.1 `transcendental-positive-cones:327DDB8B` / `126365F8EBD6`, physical lines 10–13 and 19–79. [Complete proof](../reports/2026-11-08-critical-heat-lp-dual-sharp-rate.md) · [exact coverage](../coverage/2026-11-08-ch3-critical-heat-lp-duality.md).
+
+**Carryover:** Prior resolved, unresolved, candidate, genuine-duplication, external-dependency and verified-repair ledgers are not reclassified. Demailly approximation/regularization and dedicated Bergman/`L^2`/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss work remains **deferred-by-user**, not certified. No whole-section verification.
