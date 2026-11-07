@@ -1,18 +1,18 @@
 # Exact Aubin–Mabuchi energy splitting for separated Kähler factors
 
-**Finding:** \`POME-ENERGY-PRODUCT-TENSOR-SPLITTING-001\`  
+**Finding:** `POME-ENERGY-PRODUCT-TENSOR-SPLITTING-001`  
 **Review date:** 2026-11-07  
 **Classification:** low / **verified conditional deduction**; the printed statements inspected below are **not** refuted.  
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
 **Scope:** a new, narrowly delimited consequence of the integrated reading-edition statements in §§13.6 and 17.3, not a certification of either section or of their transitive dependencies.
 
 ## Exact integrated anchors
 
-- \`docs/sections/non-pluripolar-products--fiber-integration-and-modifications/index.html\`, main blob \`9954a43d90d5cae8ef744968636d7a5912348fce\`: Corollary 13.6.1, original \`foundations-of-pluripotential-theory:BAE2819F\`, permanent \`BEC54934FC2C\`, **physical lines 10–30** (weighted fiber identity); Proposition 13.6.3, original \`foundations-of-pluripotential-theory:3F4A3A88\`, permanent \`0811FFDF15B7\`, **physical lines 35–55** (modification naturality, read for scope only).
-- \`docs/sections/relative-energy-and-perron-segments--relative-monge-ampere-energy/index.html\`, main blob \`16fdcc4c6a6f0cc75e69ba267bd7da2b2d7922a1\`: Definition 17.3.2, original \`foundations-of-pluripotential-theory:582D55DC\`, permanent \`240EF1DE5889\`, **physical lines 31–38**, including formula 17.3.3, permanent \`F19AAFA93177\`; Proposition 17.3.4, original \`foundations-of-pluripotential-theory:44639882\`, permanent \`9086ABF36774\`, **physical lines 41–53**, with first-variation formula 17.3.5, permanent \`46190A7C1B2F\`; its polynomial/BT integration-by-parts proof, **physical lines 55–90**.
-- The current ToC, \`docs/index.html\`, main blob \`68e66f6b30cdaaee887dc3c91580cdd0a38d8801\`, locates §§13.6 and 17.3 in chapters 13 and 17 respectively.
+- `docs/sections/non-pluripolar-products--fiber-integration-and-modifications/index.html`, main blob `9954a43d90d5cae8ef744968636d7a5912348fce`: Corollary 13.6.1, original `foundations-of-pluripotential-theory:BAE2819F`, permanent `BEC54934FC2C`, **physical lines 10–30** (weighted fiber identity); Proposition 13.6.3, original `foundations-of-pluripotential-theory:3F4A3A88`, permanent `0811FFDF15B7`, **physical lines 35–55** (modification naturality, read for scope only).
+- `docs/sections/relative-energy-and-perron-segments--relative-monge-ampere-energy/index.html`, main blob `16fdcc4c6a6f0cc75e69ba267bd7da2b2d7922a1`: Definition 17.3.2, original `foundations-of-pluripotential-theory:582D55DC`, permanent `240EF1DE5889`, **physical lines 31–38**, including formula 17.3.3, permanent `F19AAFA93177`; Proposition 17.3.4, original `foundations-of-pluripotential-theory:44639882`, permanent `9086ABF36774`, **physical lines 41–53**, with first-variation formula 17.3.5, permanent `46190A7C1B2F`; its polynomial/BT integration-by-parts proof, **physical lines 55–90**.
+- The current ToC, `docs/index.html`, main blob `68e66f6b30cdaaee887dc3c91580cdd0a38d8801`, locates §§13.6 and 17.3 in chapters 13 and 17 respectively.
 
-The only substantive inputs used are bounded Bedford–Taylor multilinearity and its compact Kähler mass invariance, plus the stated internal energy first-variation formula. They are **dependencies**, not re-proved from first principles here; no Demailly approximation/regularization or associated Bergman, weighted \`L^2\`, Ohsawa–Takegoshi, multiscale, or positivity-loss argument is used or examined.
+The only substantive inputs used are bounded Bedford–Taylor multilinearity and its compact Kähler mass invariance, plus the stated internal energy first-variation formula. They are **dependencies**, not re-proved from first principles here; no Demailly approximation/regularization or associated Bergman, weighted `L^2`, Ohsawa–Takegoshi, multiscale, or positivity-loss argument is used or examined.
 
 ## The precise new deduction
 
