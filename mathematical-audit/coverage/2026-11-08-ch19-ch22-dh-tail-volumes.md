@@ -1,0 +1,14 @@
+# Exact selected ToC coverage — 2026-11-08 — DH tails and moving Okounkov bodies
+
+**Main SHA:** b6933b772f41b45918f7e25ed1afbbb1fd892272.
+**Coverage baseline:** 25 current main ToC chapters / 747 numbered sections / 0 completely certified sections.
+**New mathematical first visits:** 0 (both sections already partially audited). **New full-section certifications:** 0.
+
+| Section (actual main ToC) | Precise integrated reading file and blob | Stable IDs / permanent tags and physical lines newly checked | Exact new mathematical scope | Unresolved and deferred boundary |
+| --- | --- | --- | --- | --- |
+| **19.6 Okounkov test curves** | docs/sections/the-theory-of-okounkov-bodies--okounkov-test-curves/index.html; blob 20ff3089e62dd1c8349e8bcc077ec64605a9788b | Definition 19.6.1 sgpt:26A94CBB / ACD722F45231 (17–48); Proposition 19.6.4 sgpt:5FBEF833 / 29A7DDA38CA2 (56–92); Definition 19.6.7 sgpt:2E276BD3 / 7B20D9977149 (113–133); preexisting false Proposition 19.6.16 sgpt:5E98C990 / D70EFA3100C9 (278–326) *only as dependency*; Definition 19.6.18 sgpt:09132002 / 51940EF88F4F (329–335); Lemma 19.6.22 sgpt:B9C8ADE8 / 9C05354365F4 (371–409); Lemma 19.6.23 sgpt:19978809 / 22B2EF8281A7 (411–444). | Complete new distribution-function/total-mass proof for both measure convergence lemmas, bypassing the printed pointwise-convergence dependency; separate explicit heavy-tail example showing lack of W1/moment conclusion. **POME-DH-TAIL-VOLUME-PROOF-001** verified proposed repair; **POME-DH-HEAVYTAIL-NOT-MOMENT-001** verified conditional deduction. | Existing error in 19.6.16 unchanged; its pointwise claim not repaired; no other parts of §19.6 certified. |
+| **22.1 Non-Archimedean pluripotential theory** | docs/sections/non-archimedean-pluripotential-theory/index.html; blob 8448d710690ebe1cc28040f9611d05c9d008a961 | Definition 22.1.55 sgpt:115B0C00 / 9ADEFD2FF381 (908–914); Theorem 22.1.56 sgpt:420C36E9 / 0AD7F80A793D (916–1008; dependency context); Proposition 22.1.60 sgpt:3E4F1C70 / 492A145E9067 (1012–1093), clause sgpt:6F9C2E90 / 75E1B24CB49A; equation sgpt:969A6D8B / 636AFE1086C1. | Validates the finite-measure convergence lemma invoked at line 1090 without the false pointwise proposition; preserves original n! normalization and terminal-atom caveat. | Full NA input level/body Hausdorff convergence, §16.4 monotone envelopes, §16.9 metric and §19.5 partial body continuity still conditional. No full §22.1 certification. |
+
+[Complete English proof](../reports/2026-11-08-okounkov-dh-tail-volume-proof-bypass.md) · [classified findings](../ledger/2026-11-08-okounkov-dh-tail-volume-proof-bypass.md).
+
+**Scope:** Demailly regularization/approximation and its Bergman, L2, Ohsawa–Takegoshi, multiscale-atlas and positivity-loss proof programme stay **deferred-by-user**. No production or registry changes and no build, test, CI, formalization or publication.
