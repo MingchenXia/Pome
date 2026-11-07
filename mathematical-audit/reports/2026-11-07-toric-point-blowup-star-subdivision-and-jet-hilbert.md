@@ -10,31 +10,32 @@
 ## Exact claim and hypotheses
 
 Let `M=Z^2`, take integers `d>ell>0`, and put
-[
- P_{d,ell}={(p,q)in{mathbb R}^2:p,qge0,quad ellle p+qle d}.
-]
+\[
+P_{d,\ell}=\{(p,q)\in\mathbb R^2:p,q\ge0,\quad \ell\le p+q\le d\}.
+\]
 This is a two-dimensional **smooth lattice polytope**, not merely a simple polytope. Its associated projective toric surface `X_P` is the blowup `B=Bl_{[0:0:1]}(P^2)`. If `H` is the pullback of a line avoiding the center and `E` is the exceptional curve, then the polytope line bundle is `L=dH-ell E`; for every integer `k>=0`,
-[
- H^0(B,L^k)=mathrm{span}{X^pY^qZ^{kd-p-q}: p,qin{mathbb Z}_{ge0}, kellle p+qle kd},
-]
+\[
+H^0(B,L^k)=\operatorname{span}\{X^pY^qZ^{kd-p-q}:
+p,q\in\mathbb Z_{\ge0},\ k\ell\le p+q\le kd\}.
+\]
 interpreted as plane degree-`kd` forms vanishing to order at least `k ell` at the blown-up point. The displayed monomials are linearly independent, and
-[
- h^0(B,L^k)=inom{kd+2}{2}-inom{kell+1}{2}
- =rac{d^2-ell^2}{2}k^2+rac{3d-ell}{2}k+1.
-]
+\[
+h^0(B,L^k)=\binom{kd+2}{2}-\binom{k\ell+1}{2}
+=\frac{d^2-\ell^2}{2}k^2+\frac{3d-\ell}{2}k+1.
+\]
 The invariant boundary gives `-K_B=3H-E`, `H^2=1`, `H.E=0`, `E^2=-1`, and
-[
- L^2=d^2-ell^2,qquad (-K_B).L=3d-ell,qquad
- L.E=ell,quad L.(H-E)=d-ell .
-]
+\[
+L^2=d^2-\ell^2,\qquad (-K_B)\cdot L=3d-\ell,\qquad
+L\cdot E=\ell,\quad L\cdot(H-E)=d-\ell.
+\]
 In particular `2 area(P)=L^2`, and the entire linear Hilbert coefficient is `(1/2)(-K_B).L=(3d-ell)/2`, independently of a general asymptotic lattice-count theorem.
 
 ## Direct proof
 
 **(1) Delzant/fan check.** The four vertices are `(ell,0),(d,0),(0,d),(0,ell)`. The primitive inward facet normals, in cyclic order, are
-[
- (0,1), (-1,-1), (1,0), (1,1).
-]
+\[
+(0,1),\quad (-1,-1),\quad (1,0),\quad (1,1).
+\]
 The support constants in `p>=0,q>=0,d-p-q>=0,p+q-ell>=0` are respectively `0,0,d,-ell` for rays `(1,0),(0,1),(-1,-1),(1,1)`. At each vertex the two primitive edge vectors form a basis of `Z^2`; for example at `(ell,0)` they are `(1,0),(-1,1)`, and at `(0,ell)` they are `(0,1),(1,-1)`. The other two vertices have edge bases `(-1,0),(-1,1)` and `(0,-1),(1,-1)` up to order. Every determinant has absolute value one. The fan rays are exactly the three rays of `P^2` together with the inserted ray `(1,1)=(1,0)+(0,1)`, subdividing its positive first quadrant.
 
 **(2) Explicit blowup charts, rather than an unexplained toric equivalence.** On the dense torus use `x=X/Z=chi^(1,0)`, `y=Y/Z=chi^(0,1)`. The §21.8.3 chart at `(ell,0)` has coordinates `u=x`, `t=y/x`, and its map to the plane chart `Z!=0` is `(u,t) -> (x,y)=(u,ut)`. The chart at `(0,ell)` has `s=x/y`, `v=y`, mapping `(s,v)->(x,y)=(sv,v)`. On the overlap, `s=1/t` and `v=ut`, and the exceptional curve is `u=0` or `v=0`; it is `P^1`. These are exactly the two standard charts of the blowup of the origin in `A^2`. The remaining two vertex charts coincide with the usual plane charts off the center. The toric maps therefore glue to the global blowup, without importing a resolution theorem.
