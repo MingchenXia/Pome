@@ -1,18 +1,18 @@
 # Mathematical audit — connected nonconvex fibers defeat a strictly plurisubharmonic Kiselman infimum
 
 **Date:** 2026-11-09 (Asia/Shanghai).  
-**Production main reviewed:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
-**Audit branch pre-write commit:** \`5515c3ea8aa7f4feb59c1b42c4d0d369acc0b1e8\`.  
-**Exact integrated reading edition:** \`docs/sections/plurisubharmonic-functions--kiselman-s-minimum-principle/index.html\`; blob \`e26179ee7cbb45fe10f7b4aabb9057ca33739a87\`, 140 physical lines.
+**Production main reviewed:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
+**Audit branch pre-write commit:** `5515c3ea8aa7f4feb59c1b42c4d0d369acc0b1e8`.  
+**Exact integrated reading edition:** `docs/sections/plurisubharmonic-functions--kiselman-s-minimum-principle/index.html`; blob `e26179ee7cbb45fe10f7b4aabb9057ca33739a87`, 140 physical lines.
 
-**Finding ID:** \`POME-KISELMAN-NONCONVEX-CONNECTED-TUBE-001\`.  
+**Finding ID:** `POME-KISELMAN-NONCONVEX-CONNECTED-TUBE-001`.  
 **Severity:** low. **Status:** **verified conditional deduction** (sharpness counterexample to a *hypothetical weakened hypothesis*; **not** a false printed theorem, a repair of its proof, or a claim of transitive proof certification).
 
 ## Mathematically identifiable source and scope
 
-- **Corollary 5.12.2**, source label \`foundations-of-pluripotential-theory:B6D5E591\`, permanent tag \`2C1A82803889\`, physical **lines 99–105**. Its printed product-tube hypothesis explicitly requires a nonempty **open convex** real set \`V\`; it concludes that an imaginary-translation-invariant plurisubharmonic \`u\` has a plurisubharmonic or identically \`-infinity\` fiber infimum, and permits subtracting any real affine functional.
-- **Theorem 5.12.1**, source label \`foundations-of-pluripotential-theory:90492B74\`, permanent tag \`1F87EF4FCF69\`, physical **lines 20–28**: *both* convex real fibers and a proper invariant plurisubharmonic exhaustion are assumed. Its smooth Schur-complement step is visible at lines 33–62. We check these hypotheses to avoid an invalid inference from the corollary.
-- **Section 5.12**, permanent tag \`53A48113C242\`, original section tag \`foundations-of-pluripotential-theory:12F6C9C4\`, integrated physical lines 5–16 define the fiber/translation conventions. Previously selected §5.12 proof checks remain in the durable matrix; no first visit is claimed here.
+- **Corollary 5.12.2**, source label `foundations-of-pluripotential-theory:B6D5E591`, permanent tag `2C1A82803889`, physical **lines 99–105**. Its printed product-tube hypothesis explicitly requires a nonempty **open convex** real set `V`; it concludes that an imaginary-translation-invariant plurisubharmonic `u` has a plurisubharmonic or identically `-infinity` fiber infimum, and permits subtracting any real affine functional.
+- **Theorem 5.12.1**, source label `foundations-of-pluripotential-theory:90492B74`, permanent tag `1F87EF4FCF69`, physical **lines 20–28**: *both* convex real fibers and a proper invariant plurisubharmonic exhaustion are assumed. Its smooth Schur-complement step is visible at lines 33–62. We check these hypotheses to avoid an invalid inference from the corollary.
+- **Section 5.12**, permanent tag `53A48113C242`, original section tag `foundations-of-pluripotential-theory:12F6C9C4`, integrated physical lines 5–16 define the fiber/translation conventions. Previously selected §5.12 proof checks remain in the durable matrix; no first visit is claimed here.
 
 ## Explicit strictly PSH counterexample with a connected real fiber
 
@@ -21,7 +21,7 @@ Let
  D=\{z\in\mathbb C:|z|<1/4\},\qquad
  V=\{t\in\mathbb R^2:1<|t|<2\}.
 \]
-Then \`V\` is **bounded, connected, open, and has smooth boundary**, but it is **not convex**. Put \(\Omega=D\times(V+\mathrm i\mathbb R^2)\). This is a **connected** domain invariant under arbitrary imaginary translations in the last two complex coordinates. For \(w=(w_1,w_2)\), let \(t=(\operatorname{Re}w_1,\operatorname{Re}w_2)\) and \(a(z)=(\operatorname{Re}z,\operatorname{Im}z)\). Define
+Then `V` is **bounded, connected, open, and has smooth boundary**, but it is **not convex**. Put \(\Omega=D\times(V+\mathrm i\mathbb R^2)\). This is a **connected** domain invariant under arbitrary imaginary translations in the last two complex coordinates. For \(w=(w_1,w_2)\), let \(t=(\operatorname{Re}w_1,\operatorname{Re}w_2)\) and \(a(z)=(\operatorname{Re}z,\operatorname{Im}z)\). Define
 \[
  u(z,w)=|t-a(z)|^2+|z|^2+|t|^2
        =[\operatorname{Re}(w_1-z)]^2
