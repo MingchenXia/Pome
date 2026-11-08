@@ -19,57 +19,57 @@ This shows why the printed convergence conclusion of Lemma 7.14.3 **must retain 
 
 Work in $U=\{(z,w)\in\mathbb C^2:|z|<1,|w|<1\}$, take $L=\{w=0\}$, and let $\Theta=[L]$ be its integration current. With $\beta=(i/2)(dz\wedge d\bar z+dw\wedge d\bar w)$, the trace $\mu=[L]\wedge\beta$ is ordinary Euclidean area on the $z$-disk. In the ordered frame ($dz,dw$), §7.14's definition
 
-$
+$$
 \frac{i}{2\pi}\,dz_j\wedge d\bar z_i\wedge\Theta=h_{ij}\mu
-$
+$$
 
 gives $H=\operatorname{diag}(1/\pi,0)$, $\mu$-almost everywhere: the $dz\wedge d\bar z$ term is $(1/\pi)\mu$, while any term containing $dw$ vanishes after restriction to $L$.
 
-Let (m_k=4^k), $t=\operatorname{Re}w$, and choose integers
-$
+Let $m_k=4^k$, $t=\operatorname{Re}w$, and choose integers
+$$
 (a_k,b_k)=
 \begin{cases}
 (1,3),&k\text{ odd},\\
 (3,1),&k\text{ even}.
 \end{cases}
-qquad
-v_k(z,w)=\frac1{m_k}\log\!\left$e^{a_k}+e^{b_k+m_k t}\right$.
-$
+\qquad
+v_k(z,w)=\frac1{m_k}\log\!\left(e^{a_k}+e^{b_k+m_k t}\right).
+$$
 
 Every $v_k$ is smooth and PSH: it is the composition of $t=\operatorname{Re}w$, a pluriharmonic function, with the convex function $s\mapsto m_k^{-1}\log(e^{a_k}+e^{b_k+m_k s})$. Its second derivative is nonnegative, so $dd^cv_k\ge0$. Moreover,
-$
+$$
 \max\left\{\frac{a_k}{m_k},t+\frac{b_k}{m_k}\right\}
 \le v_k\le
 \max\left\{\frac{a_k}{m_k},t+\frac{b_k}{m_k}\right\}+\frac{\log2}{m_k}.
-$
+$$
 Consequently $v_k\to v(z,w)=\max\{0,\operatorname{Re}w\}$ **locally uniformly**.
 
 The **monotonicity** is not an assumption: set
-$
+$$
 \Phi_T(A,B;t)=T\log(e^{A/T}+e^{(t+B)/T}).
-$
-It is increasing in $A$ and $B$. For fixed (A,B,t), direct differentiation shows
-$
+$$
+It is increasing in $A$ and $B$. For fixed $A,B,t$, direct differentiation shows
+$$
 \frac{\partial\Phi_T}{\partial T}
 =-p\log p-(1-p)\log(1-p)\ge0,\qquad
 p=\frac{e^{(t+B)/T}}{e^{A/T}+e^{(t+B)/T}}.
-$
-At stage $k$ use (T_k=1/m_k, A_k=a_k/m_k,B_k=b_k/m_k). Since $1\le a_k,b_k\le3$ and (m_{k+1}=4m_k), **all three** parameters (T_k,A_k,B_k) strictly decrease. Thus $v_{k+1}=\Phi_{T_{k+1}}(A_{k+1},B_{k+1};t)\le\Phi_{T_k}(A_k,B_k;t)=v_k$ at every point.
+$$
+At stage $k$ use $T_k=1/m_k$, $A_k=a_k/m_k$, $B_k=b_k/m_k$. Since $1\le a_k,b_k\le3$ and $m_{k+1}=4m_k$, **all three** parameters $T_k,A_k,B_k$ strictly decrease. Thus $v_{k+1}=\Phi_{T_{k+1}}(A_{k+1},B_{k+1};t)\le\Phi_{T_k}(A_k,B_k;t)=v_k$ at every point.
 
 There is no tangential derivative: $\partial_zv_k=0$, and
-$
+$$
 \partial_wv_k(z,0)=\frac12\frac{e^{b_k}}{e^{a_k}+e^{b_k}}=
 \begin{cases}
 \frac12\frac{e^2}{1+e^2},&k\text{ odd},\\
 \frac12\frac1{1+e^2},&k\text{ even}.
 \end{cases}
-$
+$$
 Therefore, on every positive-area compact disk $K\subset L\cap U$,
-$
-\|\partial v_{k+1}-\partial v_k\|_{L^2$K,\mu$}
-=\frac{\tanh1}{2}\,\mu$K$^{1/2}>0
-$
-for all $k$. On the other hand, $H^{1/2}\partial v_k=0$ on $L$ **for every $k$**. In fact $v_k|_L=m_k^{-1}\log(e^{a_k}+e^{b_k})$ is constant, so its relative gradient measure $dv_k\wedge d^cv_k\wedge[L]$ vanishes exactly. The limit (v|_L=0) also has zero relative gradient energy by the printed definition and monotone-continuity lemma.
+$$
+\|\partial v_{k+1}-\partial v_k\|_{L^2(K,\mu)}
+=\frac{\tanh1}{2}\,\mu(K)^{1/2}>0
+$$
+for all $k$. On the other hand, $H^{1/2}\partial v_k=0$ on $L$ **for every $k$**. In fact $v_k|_L=m_k^{-1}\log(e^{a_k}+e^{b_k})$ is constant, so its relative gradient measure $dv_k\wedge d^cv_k\wedge[L]$ vanishes exactly. The limit $v|_L=0$ also has zero relative gradient energy by the printed definition and monotone-continuity lemma.
 
 Hence the energy-seminorm convergence asserted in Lemma 7.14.3 holds (trivially here), while the stronger unweighted full-gradient convergence fails along a **single** monotone smooth approximation sequence. All constants and the alternating lower bound are exact.
 
