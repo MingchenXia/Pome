@@ -1,24 +1,24 @@
 # A hyperplane-current model attaining the full non-pluripolar comparison deficit
 
-**Finding ID:** \`POME-NPP-COMPARISON-DEFICIT-OPTIMAL-001\`  
+**Finding ID:** `POME-NPP-COMPARISON-DEFICIT-OPTIMAL-001`  
 **Date:** 2026-11-08  
 **Severity/status:** **low / verified conditional deduction** (sharpness of an existing theorem, not a false statement or a certified proof repair).  
-**Production main read:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
-**Integrated reading file:** \`docs/sections/non-pluripolar-products--maximal-mass-and-comparison/index.html\`, blob \`adbc9c739b3694725aa176e8013ac7f3077f035e\`.  
+**Production main read:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
+**Integrated reading file:** `docs/sections/non-pluripolar-products--maximal-mass-and-comparison/index.html`, blob `adbc9c739b3694725aa176e8013ac7f3077f035e`.  
 **Scope:** first selected theorem-level examination of §13.9; specifically Proposition 13.9.5 and the hypothesis boundary of Corollary 13.9.6. No entire-section verification.
 
 ## Precise printed anchors
 
-- Definition 13.9.1: source \`foundations-of-pluripotential-theory:65F4E5E2\`, permanent \`4F64B29C315E\`, physical lines 9–17. In top degree the volume is the maximal non-pluripolar mass.
-- Proposition 13.9.2: source \`foundations-of-pluripotential-theory:5364CD2E\`, permanent \`44F242B6965F\`, lines 19–45. Every positive current in the class has non-pluripolar mass at most the class volume.
-- Proposition 13.9.5: source \`foundations-of-pluripotential-theory:D16465F8\`, permanent \`FEA17FAE6BAA\`, lines 77–101. For \(\mu_a=\langle(\theta+dd^c a)^n\rangle\),
+- Definition 13.9.1: source `foundations-of-pluripotential-theory:65F4E5E2`, permanent `4F64B29C315E`, physical lines 9–17. In top degree the volume is the maximal non-pluripolar mass.
+- Proposition 13.9.2: source `foundations-of-pluripotential-theory:5364CD2E`, permanent `44F242B6965F`, lines 19–45. Every positive current in the class has non-pluripolar mass at most the class volume.
+- Proposition 13.9.5: source `foundations-of-pluripotential-theory:D16465F8`, permanent `FEA17FAE6BAA`, lines 77–101. For \(\mu_a=\langle(\theta+dd^c a)^n\rangle\),
   \[
     \mu_v(\{u<v\})\leq \mu_u(\{u<v\})
        +\operatorname{vol}(\{\theta\})-\mu_u(X).
   \]
   Its extra term can be omitted under a full-mass or relative-boundedness assumption.
-- Corollary 13.9.6: source \`foundations-of-pluripotential-theory:5F5C5397\`, permanent \`D91589CC5A89\`, lines 105–121. The domination transfer requires \(u\geq v-O(1)\) and \(u\geq\rho-O(1)\).
-- Definition 13.2.4 of the non-pluripolar product: source \`foundations-of-pluripotential-theory:9D8E4DD8\`, permanent \`D79952D7E272\`, in \`docs/sections/non-pluripolar-products--truncation-and-plurifine-locality/index.html\`, blob \`81be8c5acc360c96bd3c5acba05a3cdb5fafaf4c\`, lines 57–63. This is a **definition cross-check**; §13.2 was previously partially reviewed, not re-certified here.
+- Corollary 13.9.6: source `foundations-of-pluripotential-theory:5F5C5397`, permanent `D91589CC5A89`, lines 105–121. The domination transfer requires \(u\geq v-O(1)\) and \(u\geq\rho-O(1)\).
+- Definition 13.2.4 of the non-pluripolar product: source `foundations-of-pluripotential-theory:9D8E4DD8`, permanent `D79952D7E272`, in `docs/sections/non-pluripolar-products--truncation-and-plurifine-locality/index.html`, blob `81be8c5acc360c96bd3c5acba05a3cdb5fafaf4c`, lines 57–63. This is a **definition cross-check**; §13.2 was previously partially reviewed, not re-certified here.
 
 ## Exact all-dimensional model and proof
 
