@@ -1,0 +1,12 @@
+# POME-TORIC-INVARIANT-DIVISOR-SECTION-CANONICAL-001 — classification and dependencies (2026-11-08)
+
+- **Status:** verified conditional deduction. **Severity:** low. No false printed proposition; neither a complete proof-system certification nor a source repair.
+- **Baseline:** main b6933b772f41b45918f7e25ed1afbbb1fd892272; branch review/mathematical-audit. Reading-edition §§21.8–21.9, blobs f442a7b663689b97a9b89689b8b7ae8b366a53fe and 7ad2e6dbdd0ce59e1bf08cd9cb3c046e8c87ff6c.
+- **Stable source labels/tags:** §21.8.2 foundations-of-pluripotential-theory:86BADE82 / 41C54729DBFD; §21.8.3 foundations-of-pluripotential-theory:0F7315B0 / E49F0370E203; §21.9.2 foundations-of-pluripotential-theory:86CCC496 / 7B4A7CC50CDC; §21.9.3 foundations-of-pluripotential-theory:43543C56 / C62B8871AA1C; §21.9.4 foundations-of-pluripotential-theory:D75B0BB2 / 00432B20A966; §21.9.5 foundations-of-pluripotential-theory:BD98CC5B / 69D3D97E7701.
+- **Anchors:** §21.8 physical lines 25, 89, 108–150; §21.9 lines 34–61, 69–102, 112–134, 138–166. See the full [mathematical argument](../reports/2026-11-08-toric-arbitrary-invariant-cartier-sections-and-canonical-form.md).
+- **Hypotheses:** full-dimensional smooth lattice polytope, complete normal fan and smooth toric charts, arbitrary integral coefficients \(a_\rho\), Laurent uniqueness on \((\mathbb C^*)^n\). No nefness, ampleness or effectivity for \(D\).
+- **Conclusion:** \(D=\sum a_\rho D_\rho\) Cartier; \(H^0(\mathcal O(D))\) monomial basis indexed by the bounded lattice polyhedron \(P_D\); \(K=-\sum_\rho D_\rho\) from the invariant meromorphic logarithmic volume form; signed \(\mathbb P^1\) check including negative coefficients.
+- **Dependencies not globally certified:** actual §21.8.2–3 normal bases/vertex charts, §21.9.2–4 characters/Laurent uniqueness. No external non-Hironaka input needed for the increment; existing library-wide dependencies unchanged.
+- **Proposed text-only change (not applied):** optional corollary following §21.9.5 for arbitrary toric invariant Cartier divisors, and a canonical-divisor remark with the logarithmic form. Do not alter main, permanent tags, reader sources or canonicalization.
+- **Affected dependents to inspect, not certified:** divisorial line-bundle identities and section-growth computations in §§20.7, 19.1–19.5, 21.8–21.12; no false statement inferred.
+- **No changes to other audit classifications.** Demailly approximation/regularization and Bergman/L2/OT/multiscale/positivity-loss proof-completion records remain **deferred-by-user**, not resolved or certified.
