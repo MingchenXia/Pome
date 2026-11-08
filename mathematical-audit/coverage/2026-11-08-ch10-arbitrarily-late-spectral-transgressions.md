@@ -1,5 +1,7 @@
 # 2026-11-08 — exact additional chapter 10 coverage
 
+**Stable finding ID:** `POME-SPECTRAL-SHARP-LATE-TRANSGRESSION-001` (**low / verified conditional deduction**; printed theorems retained).
+
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. The actual current chapter 10 navigation identifies **§10.54 "Filtered complexes and spectral sequences"**, permanent section tag `7B5C64883AEA`.
 
 | ToC row | Actual inspected integrated content | Source / permanent tags and physical anchors | Level and change from previous matrix |
