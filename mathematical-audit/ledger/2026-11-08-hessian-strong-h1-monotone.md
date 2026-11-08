@@ -1,0 +1,14 @@
+# Classified ledger — 2026-11-08: strong Sobolev monotone convergence
+
+**Stable finding ID:** \`POME-HESS-CAP-STRONG-H1-MONOTONE-001\`  
+**Severity:** low. **Status:** verified conditional deduction, **not** a confirmed error, proof gap, independently verified theorem, or replacement of an excluded programme.
+
+**Main reviewed:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Integrated file:** \`docs/sections/complex-hessian-equations--sobolev-capacity-and-two-hessian-factors/index.html\` (blob \`25f25433cb9b17de6715a5b05f8b3c15b95a18cd\`). Source tags/permanent tags: Lemma 8.10.2 \`non-kahler-pluripotential-theory:1DDAECA7\` / \`FFBF9CD42640\`, physical lines 59–95; Lemma 8.10.3 \`non-kahler-pluripotential-theory:8E387C3E\` / \`A82044827575\`, lines 101–125; Proposition 8.10.4 \`non-kahler-pluripotential-theory:C0AF8E7E\` / \`B40742E0DD08\`, lines 131–149. Gauduchon form and Sobolev norm lines 10–28.
+
+**Hypotheses and mathematical conclusion:** in compact Hermitian §8.10, \`2<=m<n\`, Gauduchon \`T=rho omega^{n-1}\` with \`dd^cT=0\`, finite trace \`mu_u=(omega+dd^c u) wedge T\`; assume the existing bounded admissible monotone smoothing, weak \`H^1\` trace result, and weighted-measure convergence of 8.10.4. Every uniformly bounded decreasing sequence \`u_j downarrow u\` of canonical admissible potentials satisfies **strong** \`H^1\` convergence with the explicit upper bound \`E_T(u_j-u)<=int (u_j-u) dmu_u ->0\`. Pairwise bounded canonical admissible potentials obey \`E_T(a-b)=int (a-b) d(mu_b-mu_a)\`. The full proof first proves smooth-monotone strong convergence by lower semicontinuity and 8.10.4, then obtains pairwise identity by passing all four smooth weighted integrals, then derives the general bound by positivity. [Complete proof](../reports/2026-11-08-hessian-strong-h1-monotone.md).
+
+**Proposed correction/addition:** optional independent corollary after Proposition 8.10.4; do **not** change the original Lemma 8.10.2, permanent tags, source bodies or canonicalization. **Affected dependents:** Theorem 8.10.5, §8.11 weighted-convergence techniques (possible stronger input; no printed defect asserted).
+
+**Open conditional inputs:** §8.6.6 pre-existing m-Hessian decreasing approximations, §8.10.2/.3/.4 weighted convergence and Theorem 11.4.2 Gauduchon multiplier. Neither these complete proof chains nor a global Hessian-current theory are certified. Excluded Demailly regularization/Bergman/L²/OT/multiscale/positivity-loss remains **deferred-by-user**, neither resolved nor reopened.
+
+**Coverage:** only §§8.10.2–4 selected, with §8.10.5 contextual; previously partly covered section, **0 newly first-visited sections / 0 complete mathematical sections certified**, ToC **25/747**. No tests, builds, CI, formal verification, publishing, production edits or private-source copying.
