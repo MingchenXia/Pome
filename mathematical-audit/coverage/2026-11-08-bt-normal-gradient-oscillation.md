@@ -1,4 +1,4 @@
-# Additive precise coverage — 2026-11-08 — first selected §7.14 gradient review
+# Additive precise coverage — 2026-11-08 — normal-gradient oscillation in previously reviewed §7.14
 
 **Main SHA:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Starting audit head:** `698bbdcd81a1f957375261543e41ab5b09d40ad4`. **Stable finding:** `POME-BT-NORMAL-TRACE-GRADIENT-OSCILLATION-001` (low / verified conditional deduction).
 **ToC placement:** Chapter 7 *Local Monge–Ampère theory and capacity*, §7.14 *Gradients against positive currents*, permanent section tag `166A7FDE3C64`.
@@ -13,4 +13,4 @@
 
 **Mathematical scope:** log-sum-exp entropy monotonicity, local-uniform monotone PSH convergence, exact current coefficient matrix, alternating normal derivative and failure of full trace $L^2$ convergence. Full [English proof](../reports/2026-11-08-bt-normal-gradient-oscillation.md) and [classification](../ledger/2026-11-08-bt-normal-gradient-oscillation.md).
 
-**First-visit count:** one new selected theorem-level section (§7.14; no earlier direct §7.14 entry was found in audit README or LATEST), not the already-reviewed downstream §13.3. **Fully certified sections:** 0. Current actual ToC baseline **25 chapters / 747 numbered sections / 0 complete mathematical certifications**. Prior findings and their statuses unchanged; Demailly approximation/regularization and dedicated Bergman/weighted-L2/OT/multiscale/positivity-loss programme **deferred-by-user**. Audit Markdown only, no production or website changes.
+**First-visit count:** zero. The existing SECTION_MATRIX row records an earlier direct §7.14 review (2026-10-22, `POME-BT-CURRENT-MULTICHAIN-001`); the new oscillating-normal-gradient proof is different from that multivariate chain-rule check. §13.3 is an existing downstream dependency and not a new first visit. **Fully certified sections:** 0. Current actual ToC baseline **25 chapters / 747 numbered sections / 0 complete mathematical certifications**. Prior findings and their statuses unchanged; Demailly approximation/regularization and dedicated Bergman/weighted-L2/OT/multiscale/positivity-loss programme **deferred-by-user**. Audit Markdown only, no production or website changes.
