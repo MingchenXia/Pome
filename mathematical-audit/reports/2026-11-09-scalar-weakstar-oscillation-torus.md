@@ -1,10 +1,10 @@
 # Exact weak-star homogenization obstruction for the normalization scalar (2026-11-09)
 
-**Stable finding ID:** \`POME-SCALAR-WEAKSTAR-HOMOGENIZATION-001\`. **Severity:** low. **Status:** verified conditional deduction (a sharpness counterexample to an *unprinted* weakening, **not** a false theorem or repair).
+**Stable finding ID:** `POME-SCALAR-WEAKSTAR-HOMOGENIZATION-001`. **Severity:** low. **Status:** verified conditional deduction (a sharpness counterexample to an *unprinted* weakening, **not** a false theorem or repair).
 
-**Production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+**Production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 
-**Integrated anchors:** \`docs/sections/normalization-and-weak-adjoint-measures--the-scalar-functional/index.html\`, blob \`fff86de757578ed2be369ba752123f62f3d31044\`, Theorem 11.33.5, source label \`non-kahler-pluripotential-theory:D502EBBF\`, permanent tag \`5E3583383688\`, physical lines 88–121 (hypotheses 88–91, proof 94–121). Also \`docs/sections/normalization-and-weak-adjoint-measures--entropy-and-the-closed-case/index.html\`, blob \`0710d0732ae7ef81de3d3d62206a0f9c6b5d321f\`, Eq. 11.37.2, source label \`non-kahler-pluripotential-theory:65FF799F\`, permanent tag \`803909FECEC0\`, physical lines 50–61, especially 56–59.
+**Integrated anchors:** `docs/sections/normalization-and-weak-adjoint-measures--the-scalar-functional/index.html`, blob `fff86de757578ed2be369ba752123f62f3d31044`, Theorem 11.33.5, source label `non-kahler-pluripotential-theory:D502EBBF`, permanent tag `5E3583383688`, physical lines 88–121 (hypotheses 88–91, proof 94–121). Also `docs/sections/normalization-and-weak-adjoint-measures--entropy-and-the-closed-case/index.html`, blob `0710d0732ae7ef81de3d3d62206a0f9c6b5d321f`, Eq. 11.37.2, source label `non-kahler-pluripotential-theory:65FF799F`, permanent tag `803909FECEC0`, physical lines 50–61, especially 56–59.
 
 ## Explicit example and exact result
 
