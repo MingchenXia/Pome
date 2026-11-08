@@ -1,0 +1,10 @@
+# POME-RELNUC-SQUAREZERO-CHARACTER-DICHOTOMY-001 — classified ledger
+
+**Date:** 2026-11-08. **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Starting audit head:** 8eaecc1cfecc5f179d31392311ed9db757607725.
+**Status:** verified conditional deduction; **severity:** low. **NOT** a confirmed error, full repair, or complete transitive theorem verification.
+**Anchors:** docs/sections/relative-nuclear-maps-and-composition/index.html, blob b426cb8cb38d4c1b66611ac9f8cb87b35406aca9; §9.68.1 source demailly-complex-geometry:FCE8E21F / permanent DB4C2E622157, lines 7–26; §9.68.2 source demailly-complex-geometry:E95AA863 / permanent FECBDA82D7CC, lines 30–64.
+**Finding:** for square-zero A=C⊕B, T:C^m_q -> C^r_q is A-subnuclear exactly when B finite-dimensional or T=0. For B infinite and T!=0, T nevertheless factors as A-subnuclear f:A⊕C^m_q -> C^r_q after precomposition with a nuclear-domain inclusion.
+**Dependencies (conditional):** internal nuclear-to-compact Lemma 2.13.1 (source demailly-complex-geometry:A13EE630, permanent 67761F6CDA64) and nuclear closed-subspace Theorem 2.13.3 (source demailly-complex-geometry:054FCEA1, permanent A46D09531259), main file docs/sections/open-maps-nuclear-spaces-and-inverse-limits--nuclear-spaces-and-completed-tensor-products/index.html blob ecbf01a4ed81461ba32f1e0c88c6a550ebaa8135, lines 17 and 77. Neither entire proof chain reverified.
+**Proposed optional addition:** a remark after Example 9.68.2. Printed proposition and example remain correct.
+**Affected dependents:** general arguments assuming subnuclear maps are closed under precomposition with arbitrary nuclear modules without a nuclear cover; none of the printed dependents is newly refuted. Full proof: [report](../reports/2026-11-08-square-zero-character-nuclear-dichotomy.md).
+**Deferred:** owner-excluded Demailly approximation/regularization and dedicated Bergman/L2/OT/multiscale/positivity-loss remains deferred-by-user. No modifications to production source or other earlier ledger entries.

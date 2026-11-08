@@ -1,0 +1,10 @@
+# Additive precise coverage — 2026-11-08 — first §9.68 review
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272; **audit base:** 8eaecc1cfecc5f179d31392311ed9db757607725; **finding:** POME-RELNUC-SQUAREZERO-CHARACTER-DICHOTOMY-001 (low / verified conditional deduction).
+**Current ToC:** chapter 9 Complex spaces and modifications, §9.68 Relative nuclear maps and composition, section tag 054AFF2CD121.
+**New actual review:** definitions in docs/sections/relative-nuclear-maps-and-composition/index.html line 7; Proposition 9.68.1 (source demailly-complex-geometry:FCE8E21F / permanent DB4C2E622157), lines 10–26; Example 9.68.2 (source demailly-complex-geometry:E95AA863 / permanent FECBDA82D7CC), lines 30–64. Integrated blob b426cb8cb38d4c1b66611ac9f8cb87b35406aca9.
+**Selected cross-reference reading only:** §2.13.1 and §2.13.3 (source/permanent tags and blob pinned in [full report](../reports/2026-11-08-square-zero-character-nuclear-dichotomy.md)); no re-audit of the entire nuclear Fréchet proof chain.
+**Verified mathematical scope:** exact finite-vs-infinite Banach ideal character-map subnuclear dichotomy, general positive finite rank, all module action, covering openness and complemented-copy arguments.
+**First visit:** §9.68 first selected theorem-level coverage documented here (not previously mentioned in current matrix); §2.13 is previously reviewed and is not recounted as new. **Full mathematical sections certified:** zero. Overall main ToC still **25 chapters / 747 numbered sections / 0 completely certified mathematical sections**. These are precise selected claims, not whole-chapter or whole-project verification.
+**Status and controls:** printed theorem not refuted; earlier statuses unchanged. User-excluded Demailly regularization and dedicated Bergman/L2/OT/multiscale/positivity-loss deferred-by-user. Only audit Markdown; no main, source, tests, build, CI, formalization or publication.
+**Ledger:** [classification](../ledger/2026-11-08-square-zero-character-nuclear-dichotomy.md).
