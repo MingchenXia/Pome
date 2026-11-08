@@ -1,0 +1,10 @@
+# Precise additive coverage — 2026-11-08 — raw Legendre upper semicontinuity
+
+**Production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Actual table of contents:** 25 chapters, 747 numbered sections, **0 complete section certifications**. `POME-RWN-RAW-LEGENDRE-USC-COMPACT-001` is low / verified repair proposed only (original lemma correct). [Proof](../reports/2026-11-08-rwn-raw-legendre-usc-compact-param.md) · [ledger](../ledger/2026-11-08-rwn-raw-legendre-usc-compact-param.md).
+
+| Section | Exact current integrated scope | Review and boundaries |
+| --- | --- | --- |
+| §17.13 Ross–Witt Nyström correspondence | `docs/sections/test-curves--ross-witt-nystrom-correspondence/index.html`, blob `bdfe4175ffeeb4d1b3decf4dbaace0738c4c2b09`. Selected Definition 17.13.1 source `sgpt:236F4C37` / permanent `2105331E66C7` lines 13–24; **Lemma 17.13.7** source `sgpt:27709055` / permanent `BC74B8EA334F` physical lines 60–117; Cor. 17.13.9 lines 119–141 only as direct dependent. | Complete replacement proof of joint usc and `pi^*theta`-psh raw transform; no separate exceptional-set/Kiselman/biconjugacy argument needed for this lemma. **Previously partially audited §17.13: 0 new first visits, 0 complete certifications**. Prior `POME-RWN-POLE-QUANTIFIER-001` separate. |
+| §17.12 The notion of test curves | `docs/sections/test-curves--the-notion-of-test-curves/index.html`, blob `6dfdfc2b5e599eb3a19a9558a9c963e79df71dc7`. Def.17.12.1 source `sgpt:ECCF19D5` / permanent `C8399F09D86D` lines 10–36, Remark 17.12.3 source `sgpt:FCDC9660` / permanent `3D73AB2E32CB` lines 42–48, Eq.17.12.5 source `sgpt:07C41068` / permanent `5EFADBE6069E` lines 71–78. | Exact conditional assumptions for left-continuity and cutoff. **Context/input only**, no full proof-chain certification. |
+
+No prior ledger item is reclassified. The user-excluded Demailly approximation/regularization, dedicated Bergman/L2/OT/multiscale/positivity-loss proof programme remains deferred-by-user. Audit Markdown only; no source/main/canonicalization changes, builds, CI, formal proof or publication.

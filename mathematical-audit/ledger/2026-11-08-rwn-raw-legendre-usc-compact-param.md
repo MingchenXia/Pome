@@ -1,0 +1,7 @@
+# Finding ledger increment — 2026-11-08 — compact-parameter Legendre upper envelope
+
+| Stable ID | Classification | Severity | Exact source/reading anchors | Disposition and dependents |
+| --- | --- | --- | --- | --- |
+| POME-RWN-RAW-LEGENDRE-USC-COMPACT-001 | **verified repair (proposed optional internal proof replacement; printed lemma correct)** | low | main `b6933b772f41b45918f7e25ed1afbbb1fd892272`; `docs/sections/test-curves--ross-witt-nystrom-correspondence/index.html` blob `bdfe4175ffeeb4d1b3decf4dbaace0738c4c2b09`, §17.13.7 source `sgpt:27709055` / permanent `BC74B8EA334F`, lines 60–117; §17.12.5 source `sgpt:07C41068` / permanent `5EFADBE6069E`, `docs/sections/test-curves--the-notion-of-test-curves/index.html` blob `6dfdfc2b5e599eb3a19a9558a9c963e79df71dc7`, lines 71–78 | Full direct joint-usc proof from pointwise left-continuity, compact parameter maxima, and uniform tails. Avoids 5.14.5, 5.14.15, 5.14.6, and 21.11.26 **in this proof only**. Cor. 17.13.9 and subsequent correspondence still depend on other unverified steps. No original theorem refuted and no production patch integrated. |
+
+[Full proof and exact hypotheses](../reports/2026-11-08-rwn-raw-legendre-usc-compact-param.md). The existing §17.13 `POME-RWN-POLE-QUANTIFIER-001` gap is separate and unaltered. Previous confirmed errors, external inputs, unresolved and deferred-by-user findings are not reclassified. No excluded regularization/Bergman/L2/OT programme opened.
