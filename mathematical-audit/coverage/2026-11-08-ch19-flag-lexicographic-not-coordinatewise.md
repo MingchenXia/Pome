@@ -1,0 +1,12 @@
+# Additive exact coverage — 2026-11-08 — Chapter 19, §19.3
+
+**Fresh production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. Fresh main table of contents: **25 chapters, 747 uniquely numbered sections**. No complete mathematical section certified.
+
+| Section | Actual integrated path / blob | Stable labels and physical anchors | What was checked at proof level | Scope / status |
+| --- | --- | --- | --- | --- |
+| §19.3, Flags and valuations | docs/sections/the-theory-of-okounkov-bodies--flags-and-valuations/index.html; 9190d2ae0d3e51ca0ca965000cb9b5b2ec965c85 | smooth flag Definition 19.3.5 sgpt:8623A0C4 / 46E1CFFE3502, lines 50–56; current valuation Definition 19.3.6 sgpt:F2145CC7 / 78704BB19535, lines 59–72; Proposition 19.3.9 sgpt:8C1D8954 / EF8E476D98F4, lines 112–159; formula (19.3.10) sgpt:4904264E / 98CF17AA36AD, lines 115–121 | Direct P² analytic-singularity Kähler-current model proves ordinary/ideal singularity monotonicity leads only to the **printed lexicographic**, not hypothetical coordinatewise, order: (a,0)>_lex(0,a) for 0<a<1. Exact current positivity/cohomology, globally ordered potentials, generic Lelong numbers and residual traces. | **New distinct selected proof/model**; §19.3 was already partially audited for birational flag correction/provenance. Zero first section visits, zero complete-section certifications; no printed proposition false; POME-OKO-FLAG-LEX-NONCOORDINATE-001 (low / verified conditional deduction). |
+| §20.2, trace operator | docs/sections/the-trace-operator/index.html; 1f3a3e4f0317a308b43bd3df53dda84c5f3fa50a | Proposition 20.2.21 sgpt:F53735CE / F2C3DD7D449E, lines 350–377 | Inspected printed zero-generic-Lelong and trace-order hypotheses; **model-only** trace computed by restricting explicit logarithmic potentials. | Dependency/context check, **not** a newly certified §20.2 proof or first visit. |
+
+[Full English proof](../reports/2026-11-08-okounkov-flag-lexicographic-sharpness-kahler-currents.md) · [resolved/unresolved/deferred ledger](../ledger/2026-11-08-okounkov-flag-lexicographic-sharpness.md).
+
+Earlier findings and their statuses are unchanged. In particular, distinct §19.3 birational valuation correction and resolution issues remain exactly as recorded. The user-excluded Demailly approximation and dedicated Bergman/L²/OT/multiscale-atlas/positivity-loss programme remain **deferred-by-user**, neither fixed nor certified. No production-main/source/registry/permanent-tag/canonicalization changes and no builds, tests, CI, formalization or publication.
