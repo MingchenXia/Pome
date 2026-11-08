@@ -1,13 +1,13 @@
 # Full automorphism groups of the diagonal and triangular Hopf quotients: resonance and centralizers
 
-**Date:** 2026-11-08. **Finding:** \`POME-HOPF-AUTOMORPHISM-RESONANCE-CENTRALIZER-001\`. **Severity:** low. **Status:** verified conditional deduction (the existing theorem is **not** false). **Scope:** new theorem, independent of the previously recorded Hopf meromorphic-field, holomorphic-tensor, polynomial-conjugacy, and topological audits. No Demailly approximation/regularization or its excluded analytical program was used.
+**Date:** 2026-11-08. **Finding:** `POME-HOPF-AUTOMORPHISM-RESONANCE-CENTRALIZER-001`. **Severity:** low. **Status:** verified conditional deduction (the existing theorem is **not** false). **Scope:** new theorem, independent of the previously recorded Hopf meromorphic-field, holomorphic-tensor, polynomial-conjugacy, and topological audits. No Demailly approximation/regularization or its excluded analytical program was used.
 
 ## Verified fixed reading-edition anchors
 
-Production \`main\` commit: \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-File: \`docs/sections/contracting-hopf-quotients/index.html\` (blob \`d09d9bac3785b78b557ff5178ad7a52b34b20dac\`).
-Actual section **23.3 Contracting Hopf quotients**, permanent section tag \`20E4E5F60131\`, lines 5–6.
-**Theorem 23.3.3:** original source \`demailly-complex-geometry:371996B7\`, permanent tag \`D81E3145A1B4\`, physical lines **8–21** (hypotheses, compact quotient), **26–27, 33–50** (inverse, convergence, properly discontinuous action, universal covering). **Equation (23.3.4):** source \`demailly-complex-geometry:F5EE64FF\`, permanent tag \`436562DE848D\`, lines **29–31** (iterates). Source naming here is provenance only; the audit concerns Hopf quotients, **not** Demailly's approximation program. The source labels/permanent tags must be preserved.
+Production `main` commit: `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+File: `docs/sections/contracting-hopf-quotients/index.html` (blob `d09d9bac3785b78b557ff5178ad7a52b34b20dac`).
+Actual section **23.3 Contracting Hopf quotients**, permanent section tag `20E4E5F60131`, lines 5–6.
+**Theorem 23.3.3:** original source `demailly-complex-geometry:371996B7`, permanent tag `D81E3145A1B4`, physical lines **8–21** (hypotheses, compact quotient), **26–27, 33–50** (inverse, convergence, properly discontinuous action, universal covering). **Equation (23.3.4):** source `demailly-complex-geometry:F5EE64FF`, permanent tag `436562DE848D`, lines **29–31** (iterates). Source naming here is provenance only; the audit concerns Hopf quotients, **not** Demailly's approximation program. The source labels/permanent tags must be preserved.
 
 ## New precise classification
 
@@ -133,6 +133,6 @@ They coincide for \(c=(\lambda-\lambda^p)^{-1}\), which is well defined since \(
 * The independent earlier audit of scalar/polynomial conjugacy, meromorphic function fields and holomorphic covariant tensors is **not repeated or reclassified**. This report supplies a new *all-automorphisms* theorem, not only linear or polynomial-subgroup statements.
 * **Proposed addition only:** an optional proposition after Theorem 23.3.3 displaying (A)–(C), preserving the original source/permanent tags and the existing theorem/proof. Do not change main, source bodies, canonicalization or permanent tags in the audit branch.
 * Direct mathematical dependents would include any subsequent use of \(\operatorname{Aut}(X_F)\), equivariant metric or divisor statements on these Hopf surfaces. The adjacent LCK §23.2, global classification of all Hopf surfaces, and transitive analytic prerequisites (covering and Cauchy's theorem) are **not certified in their entirety**.
-* The earlier excluded Demailly approximation/regularization, Bergman, weighted \(L^2\), Ohsawa–Takegoshi, multiscale-atlas and positivity-loss completion program remains **deferred-by-user**, not resolved. The attribution string \`demailly-complex-geometry\` in the Hopf section does not enlarge this audit's scope.
+* The earlier excluded Demailly approximation/regularization, Bergman, weighted \(L^2\), Ohsawa–Takegoshi, multiscale-atlas and positivity-loss completion program remains **deferred-by-user**, not resolved. The attribution string `demailly-complex-geometry` in the Hopf section does not enlarge this audit's scope.
 
 **Actual coverage:** newly reviewed the **full deck-normalizer versus automorphism-lift quantifier** and the **resonance/Taylor coefficient argument** for selected assertions in already partially audited §23.3. Not a full section certification. Current ToC: 25 chapters, 747 numbered sections, 0 entire-section mathematical certifications. No project build, tests, CI, formal verification, source edit or website publication claimed.
