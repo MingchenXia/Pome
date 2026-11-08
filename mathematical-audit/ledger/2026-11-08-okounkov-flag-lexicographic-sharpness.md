@@ -1,0 +1,13 @@
+# 2026-11-08 — §19.3 flag valuation order: resolved sharpness / unresolved general dependencies
+
+| Stable finding ID | Severity | Status | Precise affected statement and anchors | Mathematical result | Proposed follow-up |
+| --- | --- | --- | --- | --- | --- |
+| POME-OKO-FLAG-LEX-NONCOORDINATE-001 | low | **verified conditional deduction** (printed proposition correct) | Proposition 19.3.9(1), equation 19.3.10; source sgpt:8C1D8954 / permanent EF8E476D98F4 and equation sgpt:4904264E / permanent 98CF17AA36AD; main §19.3 blob 9190d2ae0d3e51ca0ca965000cb9b5b2ec965c85, physical lines 112–142 | For every 0<a<1, cohomologous Kähler currents T_a=(1-a)ω+a[Z_1=0] and S_a=(1-a)ω+a(ω+dd^c log((|Z_1|²+|Z_2|²)/Σ)) on P² satisfy T_a ≼_I S_a but ν(T_a)=(a,0), ν(S_a)=(0,a) along the smooth flag P²⊃{Z_1=0}⊃{[1:0:0]}. The lexicographic order holds; coordinatewise order fails. | Optionally add example after Proposition 19.3.9. Do not modify original theorem, proof, source, tags or canonicalization. |
+
+**Resolved (specific model only).** Both currents are positive and cohomologous with smooth positive part (1-a)ω; globally normalized potentials compare pointwise; generic divisorial masses and residual restrictions computed directly, with Poincaré–Lelong normalization. This is independent of earlier birational flag-correction matrix examples and is not a disguised update to any excluded regularization effort. [Full proof](../reports/2026-11-08-okounkov-flag-lexicographic-sharpness-kahler-currents.md).
+
+**Unresolved (not converted to a finding of falsehood).** The general trace operator Proposition 20.2.21 (source sgpt:F53735CE / permanent F2C3DD7D449E, main blob 1f3a3e4f0317a308b43bd3df53dda84c5f3fa50a, physical lines 355–377), ideal-order comparison and all §19.3.12–22 modification/valuation transformations were *not* reproved. In the printed proof, equality of first generic Lelong numbers is precisely the point at which the trace-order argument can be iterated; this remains a stated internal dependency rather than a complete proof-chain certification. Historical attribution retained.
+
+**Deferred-by-user (not resolved/certified).** The pre-existing Demailly approximation/regularization and dedicated Bergman, weighted-L², OT, multiscale atlas, positivity-loss proof-completion programme is excluded. No work was performed on it.
+
+**Reviewed production SHA:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Coverage:** incremental selected §19.3 theorem-level check; §20.2.21 context only; 25 chapters, 747 numbered sections, zero complete mathematical-section certifications. No source/main writes, tests, build, CI, formal verification, or publication.
