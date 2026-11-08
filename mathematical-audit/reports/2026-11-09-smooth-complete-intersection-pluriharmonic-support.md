@@ -1,11 +1,11 @@
 # Smooth higher-codimension support for positive currents with order-zero \(\mathrm{dd}^{\mathrm c}\)
 
-**Finding ID:** \`POME-PLURI-SUPPORT-SMOOTH-CODIM-001\`  
+**Finding ID:** `POME-PLURI-SUPPORT-SMOOTH-CODIM-001`  
 **Date:** 2026-11-09  
 **Severity/status:** low / **verified conditional deduction** (a proposed internal corollary, not a false printed theorem or a repair of its proof).  
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
-**Integrated source:** \`docs/sections/gauduchon-metrics-and-linear-mass--pluriharmonic-currents/index.html\`, blob \`046c12d159f8aaeff268c57d822253da11ed41ba\`.  
-**Original reference:** Lemma 11.22.1, physical lines **11–36**, especially the normal-square test in **17–23**, the positivity argument in **25–33**, and the \(q=1\) conclusion in **35**. Stable source label \`non-kahler-pluripotential-theory:9611A9E5\`; permanent tag \`D9A37BB4C36B\`.
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
+**Integrated source:** `docs/sections/gauduchon-metrics-and-linear-mass--pluriharmonic-currents/index.html`, blob `046c12d159f8aaeff268c57d822253da11ed41ba`.  
+**Original reference:** Lemma 11.22.1, physical lines **11–36**, especially the normal-square test in **17–23**, the positivity argument in **25–33**, and the \(q=1\) conclusion in **35**. Stable source label `non-kahler-pluripotential-theory:9611A9E5`; permanent tag `D9A37BB4C36B`.
 
 ## Precisely proved extension
 
@@ -49,7 +49,7 @@ where \(\delta_{\{z=0\}}\) denotes the scalar measure distribution supported on 
 
 ## Scope, dependencies and proposed change
 
-The argument uses the **actual integrated proof** of Lemma 11.22.1 and its local positivity/order-zero calculation, plus elementary local coordinate extension and the maximum principle. This is an internally conditional deduction: the lemma's complete independent dependency chain has **not** been transitively certified. It is independent of the previously logged \`POME-PLURI-FIBER-LIOUVILLE-001\` and \`POME-PLURI-FIBER-HIGHERDIM-001\` (both concern fiberwise *descent*, not support on a codimension-\(k\) embedding).
+The argument uses the **actual integrated proof** of Lemma 11.22.1 and its local positivity/order-zero calculation, plus elementary local coordinate extension and the maximum principle. This is an internally conditional deduction: the lemma's complete independent dependency chain has **not** been transitively certified. It is independent of the previously logged `POME-PLURI-FIBER-LIOUVILLE-001` and `POME-PLURI-FIBER-HIGHERDIM-001` (both concern fiberwise *descent*, not support on a codimension-\(k\) embedding).
 
 **Proposed change only:** add a separately tagged corollary immediately after Lemma 11.22.1 in the reading edition, keeping its original historical attribution, source label, permanent tag and full statement unchanged. **Affected dependents:** any smooth-stratum support/decomposition argument for positive \(\mathrm{dd}^{\mathrm c}\)-closed currents, in particular the \((k,k)\) rigidity \(R=c[Y]\). Do not apply it without qualification across singular strata. No production source, canonicalization, formalization, CI, or publishing action is authorized by this note.
 
