@@ -1,11 +1,11 @@
 # Gauduchon derivative: cofactor inversion and quantitative stability (2026-11-09)
 
-**Stable finding:** \`POME-GAUD-DERIVATIVE-COFACTOR-STABILITY-001\`  
+**Stable finding:** `POME-GAUD-DERIVATIVE-COFACTOR-STABILITY-001`  
 **Classification:** low / **verified conditional deduction** (no false printed statement, no claim of full upstream verification).  
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
-**Primary integrated reading edition:** \`docs/sections/a-gauduchon-variational-volume--recovering-a-positive-class-from-its-gauduchon-derivative/index.html\`, blob \`829d10abfa8f92c7c77fde66704adb6486ccdc93\`, section tag \`9141861B4F50\`; Proposition 12.5.1, source \`non-kahler-pluripotential-theory:765CFEAC\`, permanent tag \`4BBB232A044C\`, physical lines 22–43, especially formulas at 23–25 and proof at 32–35. Section setup and derivative representation are at lines 7–19.
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
+**Primary integrated reading edition:** `docs/sections/a-gauduchon-variational-volume--recovering-a-positive-class-from-its-gauduchon-derivative/index.html`, blob `829d10abfa8f92c7c77fde66704adb6486ccdc93`, section tag `9141861B4F50`; Proposition 12.5.1, source `non-kahler-pluripotential-theory:765CFEAC`, permanent tag `4BBB232A044C`, physical lines 22–43, especially formulas at 23–25 and proof at 32–35. Section setup and derivative representation are at lines 7–19.
 
-**Other integrated inputs directly crosschecked:** Theorem 12.2.3, \`docs/sections/a-gauduchon-variational-volume--the-quotient-and-the-smooth-equation/index.html\`, blob \`9ec67161d46b3ba20afa1b1c9a0c84f29322763e\`, source \`non-kahler-pluripotential-theory:876DF057\`, permanent \`2DB664A6EFDF\`, starting physical line 59; Proposition 12.3.2, \`docs/sections/a-gauduchon-variational-volume--the-equality-case-of-concavity-and-the-first-variation/index.html\`, blob \`d94e3fc055b0642a86495c27ad8f5af6f24f17d1\`, source \`non-kahler-pluripotential-theory:6D3F0AB8\`, permanent \`94AFD9E43DE0\`, starting line 34. Their general elliptic existence/smooth-dependence proofs are **inputs, not certified** in this note.
+**Other integrated inputs directly crosschecked:** Theorem 12.2.3, `docs/sections/a-gauduchon-variational-volume--the-quotient-and-the-smooth-equation/index.html`, blob `9ec67161d46b3ba20afa1b1c9a0c84f29322763e`, source `non-kahler-pluripotential-theory:876DF057`, permanent `2DB664A6EFDF`, starting physical line 59; Proposition 12.3.2, `docs/sections/a-gauduchon-variational-volume--the-equality-case-of-concavity-and-the-first-variation/index.html`, blob `d94e3fc055b0642a86495c27ad8f5af6f24f17d1`, source `non-kahler-pluripotential-theory:6D3F0AB8`, permanent `94AFD9E43DE0`, starting line 34. Their general elliptic existence/smooth-dependence proofs are **inputs, not certified** in this note.
 
 ## Exact claim and hypotheses
 
