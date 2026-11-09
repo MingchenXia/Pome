@@ -1,0 +1,9 @@
+# Classified ledger — 2026-11-10 §11.6 positive-root dimension boundary
+
+| Stable ID | Severity and status | Exact false claim | Counterexample and repair | Impact / remaining work |
+| --- | --- | --- | --- | --- |
+| `POME-GAUDUCHON-N1-POSITIVE-ROOT-001` | **low / confirmed error (auxiliary assertion)**; **proposed verified local repair only**, not merged | §11.6 main `docs/sections/gauduchon-metrics-and-linear-mass--the-gauduchon-criterion-for-positivity/index.html`, physical lines **23–30**; for all dimensions a strictly positive `(n-1,n-1)` form has a *unique* strictly positive `(1,1)` root. | At `n=1`, `Gamma=2` has no root because `gamma^0=1`; `Gamma=1` has infinitely many. Formula divides by `n-1`. For `n=1`, positive `dd^c`-closed `(0,0)` forms are positive constants and provide the required separation tests. Explicit Poisson solution `theta+dd^c(-f)=a omega`, `a=int theta/int omega>=0`, independently proves the theorem's one-dimensional implication. Keep spectral root only for `n>=2`. | **Theorem 11.6.1 is not false** (source/permanent `87DC00D0/88BE3B63D9E5`; line **41** cites root). Cor. 11.6.2 `EAE0F4AE/F83E15A1F529` and Lem. 11.6.3 `DC67F892/91B8C8A3C10E` remain true; no complete `n>=2` proof certification. |
+
+**Production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Main blob:** `6dd43b62800206fb0302fd4261372d7882e5170d`. **Source heading:** `non-kahler-pluripotential-theory:8909D36D`, permanent section `6029C37CE10F`. See [the complete report](../reports/2026-11-10-gauduchon-dim1-positive-root.md).
+
+All older ledger entries, including resolved/unresolved/external and user **`deferred-by-user`** items, are unchanged. This is a false **auxiliary mathematical assertion**, not a newly false theorem and not an unproved replacement. No production files were edited.
