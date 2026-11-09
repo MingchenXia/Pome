@@ -1,10 +1,10 @@
 # Parameter window for degenerate Monge–Ampère densities without interior \(C^{1,1}\)
 
-**Date:** 2026-11-09. **Stable finding:** \`POME-MA-DEGENERATE-C2-PARAMETER-WINDOW-001\`. **Status:** verified conditional deduction. **Severity:** low. **Original Proposition 7.24.1 is not false.** This is a new parameter-family verification of the *integrated* proof, not an upstream certification.
+**Date:** 2026-11-09. **Stable finding:** `POME-MA-DEGENERATE-C2-PARAMETER-WINDOW-001`. **Status:** verified conditional deduction. **Severity:** low. **Original Proposition 7.24.1 is not false.** This is a new parameter-family verification of the *integrated* proof, not an upstream certification.
 
-**Production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+**Production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 
-**Target:** \`docs/sections/degenerate-densities-and-interior-second-derivatives/index.html\`, blob \`fafeab3a344243fe04f24265022bd921f3a4d375\`, Proposition 7.24.1, source label \`klimek-pluripotential-theory:5F0EDAF7\`, permanent tag \`D0960BD969B2\`, physical lines **10–16**; proof lines **20–33** (density and \(C^2\)), **35–67** (radial contact), and **69–99** (anisotropic blowup and mass bound). The theorem in the reading edition uses \(dd^c=i\partial\bar\partial/(2\pi)\).
+**Target:** `docs/sections/degenerate-densities-and-interior-second-derivatives/index.html`, blob `fafeab3a344243fe04f24265022bd921f3a4d375`, Proposition 7.24.1, source label `klimek-pluripotential-theory:5F0EDAF7`, permanent tag `D0960BD969B2`, physical lines **10–16**; proof lines **20–33** (density and \(C^2\)), **35–67** (radial contact), and **69–99** (anisotropic blowup and mass bound). The theorem in the reading edition uses \(dd^c=i\partial\bar\partial/(2\pi)\).
 
 ## Statement and the genuine parameter domain
 
@@ -102,8 +102,8 @@ If \(u\) were \(C^{1,1}\) near the origin, the \(w\)-rotation symmetry would for
 
 ## Exact dependency and disposition
 
-* **Internal input, not re-proved:** Theorem 7.9.2, \`docs/sections/bedford-taylor-products-and-local-capacity--the-ball-dirichlet-problem-with-continuous-density/index.html\`, blob \`ff1d5dfff1913156b45875eabf921f60af553b99\`, source/permanent \`foundations-of-pluripotential-theory:69935D4D/A092925717E1\`, physical lines 41–50.
-* **Internal input, not re-proved:** Theorem 7.2.5 (bounded CLN estimate), \`docs/sections/bedford-taylor-products-and-local-capacity--bounded-potentials-and-recursive-products/index.html\`, blob \`18bd2395f3b76941b2c677079c09eb6accc5a9cb\`, source/permanent \`foundations-of-pluripotential-theory:103AB333/2A84C325AB58\`, physical lines 99–117.
+* **Internal input, not re-proved:** Theorem 7.9.2, `docs/sections/bedford-taylor-products-and-local-capacity--the-ball-dirichlet-problem-with-continuous-density/index.html`, blob `ff1d5dfff1913156b45875eabf921f60af553b99`, source/permanent `foundations-of-pluripotential-theory:69935D4D/A092925717E1`, physical lines 41–50.
+* **Internal input, not re-proved:** Theorem 7.2.5 (bounded CLN estimate), `docs/sections/bedford-taylor-products-and-local-capacity--bounded-potentials-and-recursive-products/index.html`, blob `18bd2395f3b76941b2c677079c09eb6accc5a9cb`, source/permanent `foundations-of-pluripotential-theory:103AB333/2A84C325AB58`, physical lines 99–117.
 * **Other theorem-level input:** maximality/comparison for locally bounded MA-zero PSH functions on the annular region; the integrated Proposition 7.24.1 already invokes it. Its full dependency chain is not certified in this report.
 
 **Verdict:** Proposition 7.24.1 is mathematically correct at the checked steps; the derivation above is a **verified conditional deduction** from the stated classical Dirichlet, CLN, and comparison inputs. The parameter inequalities and Jacobian calculation are independently checked. Recommend an optional remark after Proposition 7.24.1 with (1)–(3), preserving its exact original source label, permanent tag, and historical attribution. Do **not** modify main or count §7.24 as fully certified. This is unrelated to the owner-excluded approximation/regularization/Bergman/\(L^2\)/Ohsawa–Takegoshi/multiscale/positivity-loss programme, which remains **deferred-by-user**, not resolved. No software test, build, formal verification, CI or site publication is claimed.
