@@ -1,0 +1,20 @@
+# Chapter-14 selected-proof coverage — flat nonuniqueness density (2026-11-09)
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272.  
+**ToC check:** actual current main chapter index and collection: **25 chapters, 747 numbered sections**.  
+**New finding:** **POME-DEGENMA-FLAT-DENSITY-LOGTAIL-001**, low / verified conditional deduction, **not** an error in the original theorems.  
+**Proof:** [report](../reports/2026-11-09-degenerate-ma-flat-density-logarithmic-sublevels.md) · [ledger](../ledger/2026-11-09-degenerate-ma-flat-density-logarithmic-sublevels.md).
+
+| Scope | Exact integrated-reading file/blob | Directly checked and new coverage | Explicit limits |
+| --- | --- | --- | --- |
+| §14.27, primary (already partly audited) | docs/sections/uniqueness-for-degenerate-equations--nonuniqueness-with-a-zero-set-of-empty-interior/index.html; **3cd83bbb6ab246cda0adae1789d7374d815529a6** | Theorem **14.27.1** source **non-kahler-pluripotential-theory:FBA8D992** / permanent **E16A6F31A061** (line 11); Eq. **14.27.2** source **:72DF4377** / permanent **42198F5D282A** (lines 18–49), Lemma **14.27.3** source **:DF551C7A** / permanent **C96C68E6BB33** (lines 51–118), Lemma **14.27.7** source **:B92AD5B5** / permanent **31CA87ECD1DF** (lines 125–179), final flat-vanishing description lines 180–203. **New proof:** sharp interior-flat density asymptotic, every inverse-power divergence, exact logarithmic small-sublevel measure via radial Fubini–Study pushforward, logarithmic-moment threshold. | Upstream background existence, ODE continuation and smooth flat gluing not recertified; *central-band-only* exact tail, not a global tail. |
+| §14.26, determinant/context only | docs/sections/uniqueness-for-degenerate-equations--smooth-nonuniqueness-for-a-degenerate-density/index.html; **7240d97e9192c70acf09f755ec90a5420bc11ef7** | §14.26.2 rank-one independent forms; Eq. **14.26.4** source **non-kahler-pluripotential-theory:7BBBEE11** / permanent **71DFC7D0861C**, approximate lines 38–50; Eq. **14.26.6** source **:C78CE2C9** / permanent **DE71ED12948B**, lines 58–65; §14.26.7 one-sided coefficients. | Only prerequisite and normalization checks, not fresh full theorem verification. Exterior flat gluing deliberately not assigned a uniform asymptotic. |
+| §14.29, distinct comparator only | docs/sections/uniqueness-for-degenerate-equations--a-real-analytic-density/index.html; **2f00a81edc49855971bb3a6d774603ee5bbf40db** | Theorem **14.29.1** source **non-kahler-pluripotential-theory:3ADFF2BE** / permanent **DD001DBBE659**, line 11; Eq. **14.29.16** source **:5D15E8A7** / permanent **C72BCF7334A2**, lines 199–206; its *quadratic* zeros and inverse-power exponent 1/2 checked as a contrast. | No further independent review of analytic construction. Distinct from infinitely flat §14.27; preserve both. |
+
+All truncated source labels in this table begin with **non-kahler-pluripotential-theory**. Physical line anchors refer to the pinned *generated HTML* files on reviewed **main** and not to original source files.
+
+**Precise completion accounting:** No first mathematical visit to a numbered section in this run, because §14.27, §14.26 and §14.29 were already partly inspected and inventoried. **0 newly first-visited sections; 0 completely certified sections; 747/747 ToC rows retained; 0 complete project certifications.** This finding is an additive, bounded-scope computation, not evidence that all of Chapter 14 has been reviewed.
+
+**Preserved statuses:** Previous confirmed errors, proof gaps, candidate issues, genuine duplicates, conditional repairs, external dependencies remain unchanged. User-excluded Demailly approximation/regularization and dedicated Bergman, \(L^2\), Ohsawa–Takegoshi, multiscale-atlas, positivity-loss completion programme remain **deferred-by-user** without mathematical review or certification.
+
+**No production mutations:** Only audit Markdown may change on review/mathematical-audit. Main, mathematical body, source repositories, registry, canonicalization, tags, builds, CI, website publication and formalization evidence were not changed or claimed.
