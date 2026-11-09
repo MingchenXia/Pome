@@ -2,23 +2,23 @@
 
 **Stable finding ID:** POME-PERRON-EXTERIOR-INFINITY-ATOMIC-MASS-001  
 **Severity / status:** **low / verified conditional deduction**. The original theorems are **not** false. This is an independently checked explicit Perron-model consequence, not a complete certification of compactified Perron theory.  
-**Production main reviewed:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **audit destination:** \`review/mathematical-audit\`.
+**Production main reviewed:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **audit destination:** `review/mathematical-audit`.
 
 ## Exact integrated-reading anchors
 
-The actual chapter-4 table of contents places this computation in **§4.4, Perron theory and fine boundary limits**. Direct reading-edition file: \`docs/sections/perron-theory-and-fine-boundary-limits/index.html\`, blob **\`4bc2fb9317e2b6f6bb5b2d90208c677da8275eba\`**.
+The actual chapter-4 table of contents places this computation in **§4.4, Perron theory and fine boundary limits**. Direct reading-edition file: `docs/sections/perron-theory-and-fine-boundary-limits/index.html`, blob **`4bc2fb9317e2b6f6bb5b2d90208c677da8275eba`**.
 
-- **Theorem 4.4.2**, source \`classical-potential-theory:410B64F2\`, permanent tag \`09873BDAF3E0\`, physical lines **10–35**: bounded-domain resolutivity/representing harmonic measures; ball Poisson formula used only as an established elementary input.
-- **Theorem 4.4.12**, source \`classical-potential-theory:7E1C8CAC\`, permanent tag \`8FA95EB71F47\`, physical lines **152–166**: compactified superharmonicity and different polarity of the point at infinity in dimensions two and at least three.
-- **Lemma 4.4.13**, source \`classical-potential-theory:C1B6A087\`, permanent tag \`58BE7FB3C948\`, physical lines **168–181**: Kelvin transformation and exterior harmonic functions.
-- **Lemma 4.4.15**, source \`classical-potential-theory:EFC4C537\`, permanent tag \`E0D6C3CD3750\`, physical lines **184–202**: nondense compactified domains, weak barriers and regularity at infinity.
-- **Lemma 4.4.16**, source \`classical-potential-theory:0B575946\`, permanent tag \`5D12CB9707B5\`, physical lines **204–224**: polar boundary exceptional sets.
-- **Theorem 4.4.17**, source \`classical-potential-theory:2870669A\`, permanent tag \`A7E357C38C8E\`, physical lines **226–237**: compactified Perron resolutivity and completed harmonic measures.
+- **Theorem 4.4.2**, source `classical-potential-theory:410B64F2`, permanent tag `09873BDAF3E0`, physical lines **10–35**: bounded-domain resolutivity/representing harmonic measures; ball Poisson formula used only as an established elementary input.
+- **Theorem 4.4.12**, source `classical-potential-theory:7E1C8CAC`, permanent tag `8FA95EB71F47`, physical lines **152–166**: compactified superharmonicity and different polarity of the point at infinity in dimensions two and at least three.
+- **Lemma 4.4.13**, source `classical-potential-theory:C1B6A087`, permanent tag `58BE7FB3C948`, physical lines **168–181**: Kelvin transformation and exterior harmonic functions.
+- **Lemma 4.4.15**, source `classical-potential-theory:EFC4C537`, permanent tag `E0D6C3CD3750`, physical lines **184–202**: nondense compactified domains, weak barriers and regularity at infinity.
+- **Lemma 4.4.16**, source `classical-potential-theory:0B575946`, permanent tag `5D12CB9707B5`, physical lines **204–224**: polar boundary exceptional sets.
+- **Theorem 4.4.17**, source `classical-potential-theory:2870669A`, permanent tag `A7E357C38C8E`, physical lines **226–237**: compactified Perron resolutivity and completed harmonic measures.
 - The standing Perron-class convention for the compactified case occurs immediately before Lemma 4.4.15, physical lines **184–185**: upper competitors are hyperharmonic and bounded below, with the prescribed boundary liminf.
 
 ## Exact statement
 
-Let \`d>=2\`, \`R>0\`, and treat
+Let `d>=2`, `R>0`, and treat
 \[
 D_R=\{x\in\mathbb R^d:|x|>R\}
 \]
@@ -113,8 +113,8 @@ uniformly for \(\zeta\in\partial B_R\) and the direction \(x/r\) as \(r\to\infty
 ## Findings, action and exact coverage
 
 - **Mathematical classification:** low / **verified conditional deduction**, not a false printed theorem, not an established proof gap, not an applied repair. The explicit Poisson/Kelvin computation and the two-dimensional upper/lower Perron sandwich are independently proved. General bounded-domain Poisson theory and compactified comparison/representation are retained as clearly stated **internal conditional inputs**; the general theories themselves are not certified.
-- **Difference from old audit:** \`POME-MART-EXTERIOR-BALL-INFINITY-001\` (2026-11-02) computed **normalized Martin boundary kernels** and their minimality, rather than the **Perron probability law** for arbitrary continuous spherical data, its **atomic mass**, or the two-dimensional **logarithmic upper/lower class proof**. These statements must not be conflated or entered as a mathematical duplication.
+- **Difference from old audit:** `POME-MART-EXTERIOR-BALL-INFINITY-001` (2026-11-02) computed **normalized Martin boundary kernels** and their minimality, rather than the **Perron probability law** for arbitrary continuous spherical data, its **atomic mass**, or the two-dimensional **logarithmic upper/lower class proof**. These statements must not be conflated or entered as a mathematical duplication.
 - **Suggested production change (not applied):** add an optional example after Theorem 4.4.17 giving (1)–(5) and clarifying the distinction between *infinity as boundary point* and *infinity as interior point* (Theorem 4.4.11). Retain all source attribution, permanent tags and existing statements.
 - **Affected dependent arguments:** compactified Perron and harmonic-measure use in §§4.4–4.5; any application transporting exterior-end Martin data into a compactified Dirichlet boundary condition. No downstream printed theorem is declared false.
 - **Actual incremental review:** §4.4.12–17 selected hypotheses, Kelvin normalization, all-dimensional spherical measure and Perron boundary quantifiers. Earlier §4.4.11 and §4.5 Martin audit used only for comparison; not re-counted. **§4.4 was already partly visited: zero first visits, zero fully certified mathematical sections.** Existing project baseline: **25 chapters, 747 numbered sections, 0 fully certified mathematical sections**. Historical error, gap, external dependency and user-deferred ledgers remain unchanged; Demailly regularization, dedicated Bergman, L², Ohsawa–Takegoshi, multiscale and positivity-loss completion remain **deferred-by-user**.
-- **Repository restrictions:** audit Markdown notes only on \`review/mathematical-audit\`; no source/main edits, no canonicalization/tag changes, no CI/build/test/formal certification/automatic publication.
+- **Repository restrictions:** audit Markdown notes only on `review/mathematical-audit`; no source/main edits, no canonicalization/tag changes, no CI/build/test/formal certification/automatic publication.
