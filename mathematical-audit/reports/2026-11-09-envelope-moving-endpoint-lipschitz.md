@@ -1,10 +1,10 @@
 # Audit: exact Lipschitz stability of a constrained minimum under endpoint perturbations
 
-**Finding:** \`POME-ENVELOPE-MOVING-ENDPOINT-LIPSCHITZ-001\`.  
+**Finding:** `POME-ENVELOPE-MOVING-ENDPOINT-LIPSCHITZ-001`.  
 **Date:** 2026-11-09. **Severity/status:** low / verified conditional deduction; the printed lemma remains correct. This is an independently proved supplemental consequence, not a repair or a complete verification of its dependency chain.
 
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
-**Integrated source:** \`docs/sections/envelopes-and-model-potentials--measures-on-contact-sets--a-minimum-with-a-varying-upper-radius/index.html\`, blob \`879fd87eacb65755ae0e7a9ffc95e71d1c262d39\`. Lemma 16.18.1, source label \`foundations-of-pluripotential-theory:1E3A3A35\`, permanent tag \`93E8FFBE7FEB\`; original hypotheses at physical lines 10–24, the penalized scalar minimization at 27–42, the Schur complement at 43–49 and the distributional limit at 52–55.
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
+**Integrated source:** `docs/sections/envelopes-and-model-potentials--measures-on-contact-sets--a-minimum-with-a-varying-upper-radius/index.html`, blob `879fd87eacb65755ae0e7a9ffc95e71d1c262d39`. Lemma 16.18.1, source label `foundations-of-pluripotential-theory:1E3A3A35`, permanent tag `93E8FFBE7FEB`; original hypotheses at physical lines 10–24, the penalized scalar minimization at 27–42, the Schur complement at 43–49 and the distributional limit at 52–55.
 
 ## Statement and scope
 
@@ -60,12 +60,12 @@ At fixed $b$, a uniform inequality $|H_1-H_2|\le\delta$ changes the infimum by a
    Thus no smaller universal endpoint coefficient is possible.
 3. **Nonnegative $H_s$ is essential.** If it is dropped, $H(s)=e^s-Ms$ ($M>0$) has strictly positive second derivative and is lower bounded at $-\infty$, but at deep negative endpoints its constrained minimum is $e^b-(M+c)b$. Its endpoint slope tends to $-(M+c)$, violating the $c$-Lipschitz conclusion. This example **does not contradict the original lemma**, because it violates its explicitly printed $H_s\ge0$ assumption.
 
-The previously recorded \`POME-ENVELOPE-VARYING-RADIUS-SHARP-BARRIER-001\` also used $H=e^s$, **for a different assertion**: the optimal $\varepsilon\log(1/\varepsilon)$ penalty convergence and the optimal curvature-loss coefficient $cC_b$. Neither of those findings is repeated here or relabeled as new. The new result concerns exact sensitivity of the *minimum value* to $b$ and to $H$.
+The previously recorded `POME-ENVELOPE-VARYING-RADIUS-SHARP-BARRIER-001` also used $H=e^s$, **for a different assertion**: the optimal $\varepsilon\log(1/\varepsilon)$ penalty convergence and the optimal curvature-loss coefficient $cC_b$. Neither of those findings is repeated here or relabeled as new. The new result concerns exact sensitivity of the *minimum value* to $b$ and to $H$.
 
 ## Classification, corrections, dependencies, and coverage
 
 **Original statement:** Lemma 16.18.1 correct. **Status:** verified conditional deduction, severity low; neither confirmed error nor proof gap. A suitable optional **Remark** after the lemma would record (A)–(C) and their sharpness. No source or canonical statement edits are authorized here, and source labels, permanent tags, and historical attribution must stay intact.
 
-**Potential dependents:** §§16.19–16.20 may use the bound if the exact common-domain and $H_s\ge0$ assumptions hold. No assertion is made that their full joint-Hessian, envelope, or PDE arguments have been certified. The present proof is independent of Kiselman's theorem (cited by the original Hessian proof), and it does not inspect or resume any Demailly approximation, dedicated Bergman, $L^2$, Ohsawa–Takegoshi, multiscale-atlas, or positivity-loss proof-completion task; those remain \`deferred-by-user\`.
+**Potential dependents:** §§16.19–16.20 may use the bound if the exact common-domain and $H_s\ge0$ assumptions hold. No assertion is made that their full joint-Hessian, envelope, or PDE arguments have been certified. The present proof is independent of Kiselman's theorem (cited by the original Hessian proof), and it does not inspect or resume any Demailly approximation, dedicated Bergman, $L^2$, Ohsawa–Takegoshi, multiscale-atlas, or positivity-loss proof-completion task; those remain `deferred-by-user`.
 
 **Coverage:** Already-sampled §16.18 received one selected new exact mathematical deduction and its independent proof. Zero newly visited numbered sections; zero completely certified sections (project baseline 25 chapters / 747 sections). No tests, build, CI, formal verification, website publication, or production-main changes performed.
