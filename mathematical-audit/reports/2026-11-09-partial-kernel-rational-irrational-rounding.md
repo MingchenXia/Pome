@@ -3,8 +3,8 @@
 **Finding:** POME-PARTIAL-KERNEL-RATIONAL-IRRATIONAL-ROUNDING-001.  
 **Date:** 2026-11-09. **Severity:** low. **Status:** verified conditional deduction (a new explicit family; no claim that an existing theorem is false or that its analytic upstream dependencies are fully certified).
 
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
-**Integrated reading edition:** \`docs/sections/partial-kernels-and-quotient-equilibrium--rounding-in-multiplier-ideal-kernel-families/index.html\`, blob \`f1c3a22bdbfa2598789f5df1ee8369eca29ff815\`. Section 18.46 source \`non-kahler-pluripotential-theory:E838CB8C\`, permanent tag \`73EEA7DBAB83\`, physical lines 5–10. Theorem 18.46.2 source \`non-kahler-pluripotential-theory:5A74DD32\`, permanent tag \`318BC0622217\`, physical lines **36–49**, proof **54–100**. Equation 18.46.1 source/permanent \`6F82427C/C673111EE95F\` (lines 27–29); equation 18.46.4 source/permanent \`778924A6/7E8D4542A29B\` (lines 67–71). The section's half-weight model is the special case \(t=1/2\).
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
+**Integrated reading edition:** `docs/sections/partial-kernels-and-quotient-equilibrium--rounding-in-multiplier-ideal-kernel-families/index.html`, blob `f1c3a22bdbfa2598789f5df1ee8369eca29ff815`. Section 18.46 source `non-kahler-pluripotential-theory:E838CB8C`, permanent tag `73EEA7DBAB83`, physical lines 5–10. Theorem 18.46.2 source `non-kahler-pluripotential-theory:5A74DD32`, permanent tag `318BC0622217`, physical lines **36–49**, proof **54–100**. Equation 18.46.1 source/permanent `6F82427C/C673111EE95F` (lines 27–29); equation 18.46.4 source/permanent `778924A6/7E8D4542A29B` (lines 67–71). The section's half-weight model is the special case \(t=1/2\).
 
 ## Precise supplemental claim
 
