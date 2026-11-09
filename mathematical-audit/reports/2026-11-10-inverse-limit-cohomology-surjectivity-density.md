@@ -3,9 +3,9 @@
 - **Finding:** POME-INV-LIM-COHOM-SURJECTIVITY-DENSITY-001
 - **Date:** 2026-11-10
 - **Status:** verified conditional deduction (self-contained counterexample to an **unprinted weakening**); **severity:** low for the present text, potentially high for downstream uses dropping hypotheses.
-- **Production main reviewed:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\` (unchanged at review).
-- **Integrated source:** \`docs/sections/open-maps-nuclear-spaces-and-inverse-limits--cohomology-of-countable-inverse-limits/index.html\`, blob \`30e6e5800601450ce52d9c01dc5abea06a403d6e\`.
-- **Stable location:** section permanent tag \`0A983B5FB454\`; Theorem 2.14.4 source \`demailly-complex-geometry:3D7EF38C\`, permanent \`50E84369B7A2\`, physical lines **78–117**, especially the degree-\(q-1\) density step at **91–109**; Theorem 2.14.6 source \`demailly-complex-geometry:7A48110C\`, permanent \`10E2183C49C3\`, physical lines **123–157**, especially clause (1) **123–126** and proof **144–145**; Lemma 2.14.2 source \`demailly-complex-geometry:AAE7DFD2\`, permanent \`139720D2EFCA\`, physical lines **42–54**.
+- **Production main reviewed:** `b6933b772f41b45918f7e25ed1afbbb1fd892272` (unchanged at review).
+- **Integrated source:** `docs/sections/open-maps-nuclear-spaces-and-inverse-limits--cohomology-of-countable-inverse-limits/index.html`, blob `30e6e5800601450ce52d9c01dc5abea06a403d6e`.
+- **Stable location:** section permanent tag `0A983B5FB454`; Theorem 2.14.4 source `demailly-complex-geometry:3D7EF38C`, permanent `50E84369B7A2`, physical lines **78–117**, especially the degree-\(q-1\) density step at **91–109**; Theorem 2.14.6 source `demailly-complex-geometry:7A48110C`, permanent `10E2183C49C3`, physical lines **123–157**, especially clause (1) **123–126** and proof **144–145**; Lemma 2.14.2 source `demailly-complex-geometry:AAE7DFD2`, permanent `139720D2EFCA`, physical lines **42–54**.
 - **Scope:** a new, independent failure model for *surjectivity* of the cohomology comparison after deleting density of degreewise bonding maps; not a claim that any printed theorem is false.
 
 ## Exact hypotheses of the printed results
