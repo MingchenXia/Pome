@@ -1,15 +1,15 @@
 # Invisible irrelevant-ideal torsion in nonreduced projective models
 
-**Stable finding:** \`POME-PROJ-IRRELEVANT-TORSION-KERNEL-001\` — **low / verified conditional deduction**. This is an independent algebraic consequence and a nilpotent boundary example for **correct** Theorem 9.59.2. It does **not** assert a false printed theorem, a missing proof of its existing claim, or a general classification of projective-equivalent graded rings.
+**Stable finding:** `POME-PROJ-IRRELEVANT-TORSION-KERNEL-001` — **low / verified conditional deduction**. This is an independent algebraic consequence and a nilpotent boundary example for **correct** Theorem 9.59.2. It does **not** assert a false printed theorem, a missing proof of its existing claim, or a general classification of projective-equivalent graded rings.
 
 ## Current-main source and exact scope
 
-- Reviewed production \`main\`: \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-- Integrated file: \`docs/sections/finite-type-algebraic-models-and-analytic-structure-sheaves--products-closed-subspaces-and-projective-charts/index.html\`; blob \`4373897c66d3fae21cab98bec91fff3457d23ade\`.
-- **Theorem 9.59.2:** original source \`demailly-complex-geometry:979A59BB\`; permanent tag \`4D90B8C4C837\`. The exact graded finite-type hypotheses and projective construction are on **physical lines 28–29**, the basic \`B_{(s)}\` and degree-one-cover argument on **lines 33–42**, the \`B^+\` change of degree-zero part and local quotient proof on **line 44**, and Veronese identification on **line 46**.
-- **Proposition 9.59.1:** source \`demailly-complex-geometry:20E582B2\`, permanent tag \`476B5A661E43\`, **lines 11–19**, used only to distinguish genuine quotient ringed spaces from equality of closed-point supports.
-- Context only: \`docs/sections/finite-type-algebraic-models-and-analytic-structure-sheaves--analytic-local-models-and-infinitesimal-information/index.html\`, blob \`7a3c24deaab8602c3d2b4be2e31d739f02b5a657\`, Proposition 9.60.1, source \`demailly-complex-geometry:2090FB67\`, permanent tag \`57433F7B0D87\`, **lines 11–31**. This concerns nilpotents *on an analytic local model*, not the possible removal of irrelevant torsion by projective localization.
-- Prior report \`2026-10-28-classical-collar-sharp-endpoints-and-projective-nilradical-twists.md\` distinguishes **two surviving square-zero structures** \(\mathcal O(-1)\) and \(\mathcal O\) on the same reduced projective line. The present report instead identifies exactly **which graded elements disappear entirely**, and gives arbitrary-order nilpotents killed on every projective chart. It is not a relabeling of that finding.
+- Reviewed production `main`: `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+- Integrated file: `docs/sections/finite-type-algebraic-models-and-analytic-structure-sheaves--products-closed-subspaces-and-projective-charts/index.html`; blob `4373897c66d3fae21cab98bec91fff3457d23ade`.
+- **Theorem 9.59.2:** original source `demailly-complex-geometry:979A59BB`; permanent tag `4D90B8C4C837`. The exact graded finite-type hypotheses and projective construction are on **physical lines 28–29**, the basic `B_{(s)}` and degree-one-cover argument on **lines 33–42**, the `B^+` change of degree-zero part and local quotient proof on **line 44**, and Veronese identification on **line 46**.
+- **Proposition 9.59.1:** source `demailly-complex-geometry:20E582B2`, permanent tag `476B5A661E43`, **lines 11–19**, used only to distinguish genuine quotient ringed spaces from equality of closed-point supports.
+- Context only: `docs/sections/finite-type-algebraic-models-and-analytic-structure-sheaves--analytic-local-models-and-infinitesimal-information/index.html`, blob `7a3c24deaab8602c3d2b4be2e31d739f02b5a657`, Proposition 9.60.1, source `demailly-complex-geometry:2090FB67`, permanent tag `57433F7B0D87`, **lines 11–31**. This concerns nilpotents *on an analytic local model*, not the possible removal of irrelevant torsion by projective localization.
+- Prior report `2026-10-28-classical-collar-sharp-endpoints-and-projective-nilradical-twists.md` distinguishes **two surviving square-zero structures** \(\mathcal O(-1)\) and \(\mathcal O\) on the same reduced projective line. The present report instead identifies exactly **which graded elements disappear entirely**, and gives arbitrary-order nilpotents killed on every projective chart. It is not a relabeling of that finding.
 
 ## The exact projectively invisible ideal
 
@@ -59,7 +59,7 @@ Directly on the two projective charts,
 because invertibility of \(x_i\) kills \(\epsilon\). The standard \(z\leftrightarrow1/z\) gluing proves
 \[
  \boxed{\operatorname{Proj}_{\mathrm{cl}}B_r\simeq \mathbb P^1_k
-       \quad\text{as a \emph{reduced} ringed space for every }r\ge2.}
+       \quad (r\ge2).}
 \]
 By contrast set
 \[
