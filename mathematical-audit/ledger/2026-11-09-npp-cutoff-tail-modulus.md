@@ -1,0 +1,7 @@
+# 2026-11-09 — Non-pluripolar cutoff-gradient tail modulus
+
+| Finding ID | Severity | Status | Direct source anchor | Result / proposed action | Dependents |
+| --- | --- | --- | --- | --- | --- |
+| `POME-NPP-CUTOFF-TAIL-MODULUS-001` | low | **verified conditional deduction** | main `b6933b772f41b45918f7e25ed1afbbb1fd892272`; `docs/sections/non-pluripolar-products--closedness-and-cutoff-gradients/index.html` blob `f781fa61bd20944c7c4798e0e0984cfb81ef069f`, Theorem 13.3.1, `foundations-of-pluripotential-theory:A226C692` / `8A125B338F90`, physical lines 23–47 | Exact positive trace-tail cutoff defect and square-root tail bound for its exterior derivative, as in [complete report](../reports/2026-11-09-npp-cutoff-tail-modulus.md). Propose a remark, **not** a theorem correction. | §§13.4–13.11, §§17.2–17.5 (only contextual; their proofs are not certified here). |
+
+The original Theorem 13.3.1 has **not** been found false; its hypotheses and printed proof are retained. Upstream §7.14 gradient calculus and §13.2 plurifine locality are treated as **internal dependencies**, not fully re-certified. The category is neither confirmed error nor a completed upstream proof repair. Historical attribution and existing tags remain intact. All prior resolved/unresolved/candidate/external entries and the owner's excluded Demailly approximation/regularization, Bergman, weighted L², Ohsawa–Takegoshi, multiscale-atlas and positivity-loss tracks remain **unchanged / deferred-by-user**, not resolved. No new external dependency is introduced.
