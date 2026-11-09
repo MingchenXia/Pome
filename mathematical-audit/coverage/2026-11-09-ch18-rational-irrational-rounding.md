@@ -1,0 +1,14 @@
+# Precise 2026-11-09 coverage increment — §18.46 arithmetic kernel rounding
+
+**Current production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; ToC 25 chapters / 747 numbered sections.  
+**Audit branch:** \`review/mathematical-audit\`.  
+**New first proof-level subsection:** **§18.46**, previously marked inventory only. **No whole section certified.**
+
+| Current section | Direct examination | Stable provenance / anchors | Status and limits |
+| --- | --- | --- | --- |
+| **18.46** Rounding in multiplier-ideal kernel families | Theorem 18.46.2 printed hypotheses/conclusion and proof: two divisor coefficients, multiplier-ideal floors, global monomial count, product beta norms, weak measures, partial envelope, NPP top mass. Independently proved unequal-weight \(0<t<1\) family and rational/irrational degree arithmetic. | \`docs/sections/partial-kernels-and-quotient-equilibrium--rounding-in-multiplier-ideal-kernel-families/index.html\` blob \`f1c3a22bdbfa2598789f5df1ee8369eca29ff815\`; theorem source/permanent \`non-kahler-pluripotential-theory:5A74DD32/318BC0622217\`, physical lines **36–49,54–100**; section \`E838CB8C/73EEA7DBAB83\`, lines 5–10; exact beta norm \`778924A6/7E8D4542A29B\`, lines 67–71. | **Selected proof only**, new finding \`POME-PARTIAL-KERNEL-RATIONAL-IRRATIONAL-ROUNDING-001\` low / verified conditional deduction. Half-weight theorem not refuted. **First selected mathematical visit; zero full certifications.** |
+| 18.30, 18.32 | Definitions of selected-space kernel and partial envelope as referenced in 18.46. | Links in theorem 18.46.2 | Hypothesis context only; no independent proof audit. |
+| 5.37.1, 5.37.3, 5.37.18 | Local multiplier-ideal/Lelong and atom rules named in 18.46 proof. | Printed §18.46 physical lines 54–65 | Internal conditional dependencies; no renewed examination of excluded approximation work. |
+| 18.45, 18.47 | Neighboring different selection models. | Table of contents and printed §18.46 final remark, lines 103–104 | Context/duplicate guard only; no substantive proof-level coverage claimed in this run. |
+
+**Verdict:** one new previously inventory-only section receives selected mathematical proof review; **0** entire sections and **0** entire chapters are newly certified. Global count still **25/747/0**. Not a comparison of all proof chains in §18.46; no source adapter, publication, tag, registry, canonicalization or main changes. Earlier confirmed errors, unresolved proof gaps and external dependencies retain their status. Demailly approximation/regularization and the dedicated Bergman/\(L^2\)/OT/multiscale/positivity-loss programme are **deferred-by-user** and deliberately excluded. [Full derivation](../reports/2026-11-09-partial-kernel-rational-irrational-rounding.md) · [ledger](../ledger/2026-11-09-partial-kernel-rational-irrational-rounding.md).
