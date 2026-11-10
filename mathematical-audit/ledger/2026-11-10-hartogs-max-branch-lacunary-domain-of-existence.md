@@ -1,0 +1,9 @@
+# Finding ledger — 2026-11-10 — mixed max-branch Hartogs natural boundary
+
+| Finding ID | Severity | Status | Actual mathematical claim | Main/anchors | Resolution / remaining dependency |
+| --- | --- | --- | --- | --- | --- |
+| `POME-HARTOGS-MAX-BRANCH-LACUNARY-EXISTENCE-001` | low | verified conditional deduction | For each nonconstant polynomial `P`, the explicitly PSH-exhausted `H_P={|w|<1,|P(z)w|<1}` is the **domain of existence** of the single holomorphic `F(w)+F(Pw)`, `F(t)=Σ_{k≥0}t^{2^k}`; its fiber coefficients satisfy the **pointwise** growth identity `limsup j^{-1}log|c_j(z)|=max(0,log|P(z)|)`, even where two boundary branches meet. | main `b6933b772f41b45918f7e25ed1afbbb1fd892272`, `docs/sections/complete-hartogs-domains-and-taylor-coefficients/index.html`, blob `641a66c419e4a1f7207cd301b51f27f3a6efd6f9`, Proposition 9.15.1 source `klimek-pluripotential-theory:7CA9E7D7`, permanent `202C805DC8A2`, lines 7–16 and 21–27 | Model proved in [report](../reports/2026-11-10-hartogs-max-branch-lacunary-domain-of-existence.md). Optional example proposed only. Printed theorem correct in audited instance; general Oka/Hartogs-lemma and arbitrary-radius chain **not certified**. |
+
+**Separation from prior items:** This is not the 2026-11-03 monomial `(p/q)log|z|` natural-boundary model and not the 2026-10-30 rational-function coefficient equality **without** domain of existence. Those older findings remain unchanged.
+
+**Nonexcluded coverage:** selected proof/model in already partly sampled §9.15; zero newly first-visited numbered sections; zero whole-section certifications; production ToC 25/747. All existing confirmed errors/proof gaps/external dependencies/repairs remain in their previous ledger state. Owner-excluded Demailly approximation/regularization/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme remains **deferred-by-user, not resolved**. No source/body/registry/production/CI/site write.
