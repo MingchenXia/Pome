@@ -16,11 +16,11 @@ The source labels above are the rendered `data-tag` values; the permanent tags a
 Let `k` be any algebraically closed field and `A` a finitely generated commutative `k`-algebra, not necessarily reduced. Fix a closed point `x:A -> k` with maximal ideal `m`. Let `J_q=k[e]/(e^{q+1})`, `q>=1`, with reduction `J_q -> k`. Under the printed contravariant equivalence in Proposition 9.58.3, morphisms of locally ringed spaces `Spm J_1 -> Spm A` centered at `x` correspond to `k`-algebra homomorphisms `phi:A -> J_1` reducing to `x`.
 
 **Claim 1 (complete proof).**
-[
-operatorname{Hom}_{k	ext{-alg},x}(A,k[e]/e^2)
- cong operatorname{Der}_{k,x}(A,k)
- cong operatorname{Hom}_k(m/m^2,k).
-]
+\[
+\operatorname{Hom}_{k\text{-alg},x}(A,k[e]/(e^2))
+\cong \operatorname{Der}_{k,x}(A,k)
+\cong \operatorname{Hom}_k(m/m^2,k).
+\]
 Write `phi(a)=x(a)+e delta(a)`. Multiplicativity is equivalent to
 `delta(ab)=x(a)delta(b)+x(b)delta(a)`, and `delta` vanishes on `k`.
 On `m`, the Leibniz rule kills `m^2`, so `delta` induces a `k`-linear
@@ -31,9 +31,10 @@ gives the Leibniz rule and the inverse correspondence.
 If `A=k[T_1,...,T_N]/(F_1,...,F_s)` and `x(T_i)=a_i`, then a first-order
 morphism is determined by `T_i -> a_i+e v_i`. Its **necessary and
 sufficient** equations are
-[
-  sum_{i=1}^N rac{partial F_j}{partial T_i}(a),v_i=0,quad j=1,...,s.
-]
+\[
+  \sum_{i=1}^N \frac{\partial F_j}{\partial T_i}(a)\,v_i=0,
+  \qquad j=1,\ldots,s.
+\]
 Indeed the Taylor identity modulo `e^2` expands every defining
 polynomial to its value and first derivatives. Thus the first-order
 tangent functor retains equations and nilpotent structure, not merely
@@ -48,26 +49,23 @@ However the *higher* infinitesimal jets distinguish every `m`.
 
 **Claim 2 (complete proof).** For every `q>=1`, the centered morphisms
 `A_m -> J_q` correspond bijectively to polynomials
-[
-   y(e)=sum_{j=1}^{q} a_j e^j pmod{e^{q+1}}
-   quad	ext{with}quad
-   operatorname{ord}_e(y)ge
-        leftlceilrac{q+1}{m}ightceil
-   quad(y=0	ext{ allowed}).
-]
+\[
+   y(e)=\sum_{j=1}^{q} a_j e^j \pmod{e^{q+1}},
+   \qquad \operatorname{ord}_e(y)\ge
+   \left\lceil\frac{q+1}{m}\right\rceil,
+\]
+where `y=0` is allowed (infinite order).
 In particular the set of such jets is an affine `k`-space of dimension
-[
-  q-leftlceilrac{q+1}{m}ightceil+1,
-]
+\[
+  q-\left\lceil\frac{q+1}{m}\right\rceil+1,
+\]
 with the indicated coordinates `a_j` free. **This counts `k`-valued
 jets, not an assertion about the scheme-theoretic jet space.**
 
 To prove the criterion, a homomorphism `A_m -> J_q` is uniquely
-specified by `t -> y` and exists exactly when `y^m=0`. If `y
-e0`
+specified by `t -> y` and exists exactly when `y^m=0`. If `y != 0`
 has leading term `a_r e^r`, then `y^m` has leading term
-`a_r^m e^{mr}`, with `a_r^m
-e0` in the field. Hence `y^m=0`
+`a_r^m e^{mr}`, with `a_r^m != 0` in the field. Hence `y^m=0`
 modulo `e^{q+1}` if and only if `mr>=q+1`, giving the claim. No
 characteristic-zero assumption, Hironaka, L2 theory, or analytic
 regularization is used.
@@ -76,8 +74,7 @@ regularization is used.
 represented by `t -> v e` in `J_1`. For every `1<=q<m`, the map
 `t -> v e` itself defines a lift to `J_q`, since `e^m=0` there.
 For `q=m`, every hypothetical lift has
-`y=v e+O(e^2)`, so `y^m=v^m e^m mod e^{m+1}
-e0`. No such lift
+`y=v e+O(e^2)`, so `y^m=v^m e^m mod e^{m+1} != 0`. No such lift
 exists. Thus **the first failed lifting order is exactly `m`** for a
 nonzero tangent velocity. For example `A_2=k[t]/t^2` has a nonzero
 tangent even though every such tangent fails to lift from
