@@ -1,17 +1,17 @@
 # 2026-11-10 — Finite-rank Gram logarithmic determinants: variance and a strict spectral gap
 
-**Finding:** \`POME-GRAM-LOGDET-VARIANCE-SPECTRAL-GAP-001\`  
+**Finding:** `POME-GRAM-LOGDET-VARIANCE-SPECTRAL-GAP-001`  
 **Classification:** low / **verified conditional deduction** (an additional finite-dimensional estimate; no printed theorem is refuted).  
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
 **First proof-level section visit:** §18.34, *The determinant functional*. **No entire section or upstream analytic proof chain is certified.**
 
 ## Exact integrated anchors
 
-- \`docs/sections/partial-kernels-and-quotient-equilibrium--the-determinant-functional/index.html\`, blob \`626a4c74bb7f5e6659320052c54ec29902646b61\`; section permanent tag \`3AC0CF30AE00\`.
-- Definition of \(\mathcal F_m^{(r)}\), physical lines **10–16**; Proposition **18.34.1**, source \`non-kahler-pluripotential-theory:576F8072\`, permanent \`A1D3D26087E7\`, statement lines **20–28**, replacement proof and projection square lines **33–55**.
-- Normalized probability and correlation kernel, equations **18.34.15**, **18.34.17**, physical lines **265–293**; Lemma **18.34.16**, source \`non-kahler-pluripotential-theory:C7EB694C\`, permanent \`66CB6C16A6B7\`, proof lines **298–305**.
-- Proposition **18.34.18**, source \`non-kahler-pluripotential-theory:0C4BDB09\`, permanent \`4920A08E02F1\`, lines **314–375**, contains the compatible first-order variation and total-variation estimates; the new result below is *second-order* and is not a restatement of its existing bounds.
-- Standing norm and probability measure only: \`docs/sections/partial-kernels-and-quotient-equilibrium--selected-spaces-and-partial-bergman-kernels/index.html\`, blob \`81983c5cf4bb50d5de9006906d9fdab07137e6f4\`, §18.30 source hypotheses, physical lines **7–25**. No local kernel estimates or approximation theorems are being audited.
+- `docs/sections/partial-kernels-and-quotient-equilibrium--the-determinant-functional/index.html`, blob `626a4c74bb7f5e6659320052c54ec29902646b61`; section permanent tag `3AC0CF30AE00`.
+- Definition of \(\mathcal F_m^{(r)}\), physical lines **10–16**; Proposition **18.34.1**, source `non-kahler-pluripotential-theory:576F8072`, permanent `A1D3D26087E7`, statement lines **20–28**, replacement proof and projection square lines **33–55**.
+- Normalized probability and correlation kernel, equations **18.34.15**, **18.34.17**, physical lines **265–293**; Lemma **18.34.16**, source `non-kahler-pluripotential-theory:C7EB694C`, permanent `66CB6C16A6B7`, proof lines **298–305**.
+- Proposition **18.34.18**, source `non-kahler-pluripotential-theory:0C4BDB09`, permanent `4920A08E02F1`, lines **314–375**, contains the compatible first-order variation and total-variation estimates; the new result below is *second-order* and is not a restatement of its existing bounds.
+- Standing norm and probability measure only: `docs/sections/partial-kernels-and-quotient-equilibrium--selected-spaces-and-partial-bergman-kernels/index.html`, blob `81983c5cf4bb50d5de9006906d9fdab07137e6f4`, §18.30 source hypotheses, physical lines **7–25**. No local kernel estimates or approximation theorems are being audited.
 
 ## Precisely scoped statement
 
