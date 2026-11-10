@@ -6,9 +6,9 @@
 - **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272
 - **Actual direct proof-level scope:** §3.4, Proposition 3.4.11, Theorem 3.4.12(2), Theorem 3.4.14, and the stated radial fundamental solution of §3.1.13; NOT the entirety of §§3.1 or 3.4.
 - **Integration paths and Git blob SHA:** 
-  - \`docs/sections/subharmonic-functions/index.html\`, \`3d06e9703f2eb184cf63a2c45524ed6acbeeebd2\`; Proposition 3.4.11 physical lines 186–214, Theorem 3.4.12 lines 218–285 (particularly formula 3.4.13 at 227–232), Riesz decomposition Theorem 3.4.14 lines 298–310, Example 3.4.15 lines 314–330.
-  - \`docs/sections/harmonic-functions-and-the-dirichlet-problem/index.html\`, \`fc02188d6e246a21aa07acd8bf6d3712761ba6e5\`; Proposition 3.1.13 and equation 3.1.14 at physical lines 244–253.
-- **Stable source-label / permanent-tag pairs:** Proposition 3.4.11 \`foundations-of-pluripotential-theory:45B5A1B8\` / \`1F52C5AF98EF\`; Theorem 3.4.12 \`foundations-of-pluripotential-theory:7E2C1398\` / \`E76E281548A5\`; Theorem 3.4.14 \`foundations-of-pluripotential-theory:A2BCDB4A\` / \`F04DBD614238\`; Proposition 3.1.13 \`foundations-of-pluripotential-theory:571B3697\` / \`F8A69601BB8C\`; equation 3.1.14 \`foundations-of-pluripotential-theory:BC51DE75\` / \`49DB76D43578\`.
+  - `docs/sections/subharmonic-functions/index.html`, `3d06e9703f2eb184cf63a2c45524ed6acbeeebd2`; Proposition 3.4.11 physical lines 186–214, Theorem 3.4.12 lines 218–285 (particularly formula 3.4.13 at 227–232), Riesz decomposition Theorem 3.4.14 lines 298–310, Example 3.4.15 lines 314–330.
+  - `docs/sections/harmonic-functions-and-the-dirichlet-problem/index.html`, `fc02188d6e246a21aa07acd8bf6d3712761ba6e5`; Proposition 3.1.13 and equation 3.1.14 at physical lines 244–253.
+- **Stable source-label / permanent-tag pairs:** Proposition 3.4.11 `foundations-of-pluripotential-theory:45B5A1B8` / `1F52C5AF98EF`; Theorem 3.4.12 `foundations-of-pluripotential-theory:7E2C1398` / `E76E281548A5`; Theorem 3.4.14 `foundations-of-pluripotential-theory:A2BCDB4A` / `F04DBD614238`; Proposition 3.1.13 `foundations-of-pluripotential-theory:571B3697` / `F8A69601BB8C`; equation 3.1.14 `foundations-of-pluripotential-theory:BC51DE75` / `49DB76D43578`.
 - **Severity and dependents:** low. Provides a local radial mass-recovery tool for classical Riesz potentials and possible potential-theoretic applications of Chapters 3–4. It does not alter the statements or canonical entries, and no downstream theorem has been certified merely by citing it.
 
 ## Exact statement
