@@ -1,0 +1,9 @@
+# 2026-11-10 — irreducible curve valuation ratios
+
+| Stable finding ID | Severity | Status | Precise verdict | Action / dependents |
+| --- | --- | --- | --- | --- |
+| \`POME-MONOMIAL-IRREDUCIBLE-CURVE-VALUATION-RATIOS-001\` | low | **verified conditional deduction** | For the finite diagonal map \`F(z)=(z_j^{s_j})\`, the pushforward of any reduced irreducible curve germ with primitive normalization orders \`a_j\` satisfies \`\nu(F_*[C],0)=\min_j s_j a_j\` and \`\nu([C],\rho_\lambda)=\min_j\lambda_j a_j\`. For \`n=2,s_1<s_2\`, irreducible curve pushforward ratios form a countable dense proper subset of the printed interval. **No false printed theorem; not a proof repair.** | Optional \`p=1\` corollary after Cor. 6.47.2; clarifies the strict distinction from old \`POME-MONOMIAL-MULTIPLICITY-INTERVAL-001\` (mixtures of coordinate-plane currents). |
+
+**Main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Reading-edition anchors:** \`docs/sections/lelong-densities-generalized-masses-and-multiplicity--monomial-maps-and-the-sharp-directional-comparison/index.html\` blob \`bad5cd9bb63a90871462700f5c1f7080c597ee99\`, source/permanent \`demailly-complex-geometry:F608EF8B/0A17C5BE0625\` lines 7–31, \`demailly-complex-geometry:9E33C486/240191846A51\` lines 33–45. §6.35.1 \`demailly-complex-geometry:2034468C/9BBFC6858DCC\` lines 7–24, and §6.38.3 \`demailly-complex-geometry:8BE55493/673FC5FBB2C8\` lines 45–77.
+
+**Proof and exact assumptions:** [dated report](../reports/2026-11-10-monomial-irreducible-curve-valuation-ratios.md). **Existing statuses:** no changes to previous resolved, unresolved, confirmed errors or deferred ledgers. Dedicated excluded regularization programme remains **deferred-by-user**. Normalization and the internal proper-weighted-projection dependency are not promoted to certified results. Coverage **0 first visits / 0 whole-section certifications; ToC 25/747**.
