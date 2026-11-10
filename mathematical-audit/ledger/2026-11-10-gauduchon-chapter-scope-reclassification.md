@@ -1,0 +1,9 @@
+# Audit status correction — §11.3 inherited dimension hypothesis (2026-11-10)
+
+| Stable ID | Severity / status | Precise issue | Mathematical resolution | Consequences |
+| --- | --- | --- | --- | --- |
+| `POME-GAUD-ROOT-SCOPE-AUDIT-RECLASS-001` | **medium / verified repair of audit classification (not source repair)** | Older `POME-GAUDUCHON-N1-POSITIVE-ROOT-001` called §11.6's `n=1` positive-root failure a **confirmed error**, although §11.3 limits the relevant chapter to `n>=2` absent an explicit local exception. | §11.3 `docs/sections/gauduchon-metrics-and-linear-mass/index.html`, blob `02d635e918120c4026c38d14119db9377eefe61f`, source/permanent `non-kahler-pluripotential-theory:67BD8090/1009E65ECC4C`, **line 7** imposes `n>=2`. §11.6's source `:8909D36D/6029C37CE10F`, root paragraph **23–30**, is therefore valid; the explicit `n=1` addendum at §11.6.3 **line 109** applies to that lemma only. Positive-matrix inverse adjugate formula proves root uniqueness in the actual `n>=2` range. | `POME-GAUDUCHON-N1-POSITIVE-ROOT-001` is **superseded as a confirmed in-scope error**. The hypothetical curve counterexamples and Poisson extension remain sound mathematical observations but do not justify a mandatory source patch. Production §11.6 and §11.4 need no dimension repair. Full Hahn–Banach proof remains unverified. |
+
+**Production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. §11.6 blob `6dd43b62800206fb0302fd4261372d7882e5170d`, Theorem 11.6.1 `non-kahler-pluripotential-theory:87DC00D0/88BE3B63D9E5`, proof line 41; §11.4 theorem `non-kahler-pluripotential-theory:F1B1A709/3978AEB15BD7`, line 24. Full [source-anchored correction](../reports/2026-11-10-gauduchon-chapter-scope-reclassification.md).
+
+No production/source/tag change; excluded regularization/Bergman/L²/OT/multiscale/positivity-loss retains `deferred-by-user`.

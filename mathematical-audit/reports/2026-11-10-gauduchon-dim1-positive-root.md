@@ -1,3 +1,7 @@
+> **AUDIT CORRECTION (2026-11-10, `POME-GAUD-ROOT-SCOPE-AUDIT-RECLASS-001`):** The former `POME-GAUDUCHON-N1-POSITIVE-ROOT-001` was **incorrectly classified as a confirmed source error**. §11.3, line 7, supplies the standing `n>=2` hypothesis governing §§11.4/11.6; §11.6.3 alone explicitly extends its lemma to `n=1`. The counterexamples in the original note concern an **unasserted extension**, not the printed root statement. The original mathematical note remains below as superseded historical material, **not an active confirmed error**. [Full correction](../reports/2026-11-10-gauduchon-chapter-scope-reclassification.md). No production patch is required.
+
+---
+
 # The one-dimensional exception to the positive Gauduchon-root assertion
 
 - **Finding:** `POME-GAUDUCHON-N1-POSITIVE-ROOT-001`
