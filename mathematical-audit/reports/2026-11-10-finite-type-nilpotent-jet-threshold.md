@@ -5,11 +5,11 @@
 
 ## Precisely pinned reading-edition anchors
 
-- `docs/sections/finite-type-algebraic-models-and-analytic-structure-sheaves--finite-type-models-and-nilpotent-structure/index.html`, main blob `96eb7c1f6ee63ce6d222ed3f608a242a0a64b7f0`. Theorem 9.58.2, source `demailly-complex-geometry:36502A11961A`, permanent `36502A11961A` **[note: the rendered permanent tag appears at the theorem label; the exact source tag is the HTML `data-tag` and should be distinguished from the displayed tag if they differ]**, physical lines 12–27; Proposition 9.58.3, source `demailly-complex-geometry:72F3ADBD`, permanent `72F3ADBDFF9A`, lines **35–55**; nilpotent-reduction paragraph **59–60**. The chapter's algebraically closed base field, closed-point `Spm` convention and retention of nilpotents are explicit at line **7**.
+- `docs/sections/finite-type-algebraic-models-and-analytic-structure-sheaves--finite-type-models-and-nilpotent-structure/index.html`, main blob `96eb7c1f6ee63ce6d222ed3f608a242a0a64b7f0`. Theorem 9.58.2, source `demailly-complex-geometry:3F3FF286`, permanent `36502A11961A`, physical lines 12–27; Proposition 9.58.3, source `demailly-complex-geometry:5EF3B92E`, permanent `72F3ADBDFF9A`, lines **35–55**; nilpotent-reduction paragraph **59–60**. The chapter's algebraically closed base field, closed-point `Spm` convention and retention of nilpotents are explicit at line **7**.
 - `docs/sections/finite-type-algebraic-models-and-analytic-structure-sheaves--products-closed-subspaces-and-projective-charts/index.html`, main blob `4373897c66d3fae21cab98bec91fff3457d23ade`, Proposition 9.59.1, source `demailly-complex-geometry:20E582B2`, permanent `476B5A661E43`, statement beginning at physical lines **10–11**. Contextual only: products and closed-subspace ideals.
 - `docs/sections/finite-type-algebraic-models-and-analytic-structure-sheaves--analytic-local-models-and-infinitesimal-information/index.html`, main blob `7a3c24deaab8602c3d2b4be2e31d739f02b5a657`, Proposition 9.60.1, source `demailly-complex-geometry:2090FB67`, permanent `57433F7B0D87`, statement and doubled-hyperplane morphisms at lines **10–15**, proof at **20–31**. Contextual only; its whole analytic-coherence proof was not recertified.
 
-The canonical tag/source distinction must be checked at the rendered `data-tag` versus adjacent visible `tag-id`; no tag or registry changes are proposed.
+The source labels above are the rendered `data-tag` values; the permanent tags are the adjacent visible `tag-id` values. No tag or registry changes are proposed.
 
 ## The exact first-order tangent functor
 
