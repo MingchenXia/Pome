@@ -1,55 +1,64 @@
-# Mathematical audit: noncompact projective complements contain escaping compact projective fibers
+# Mathematical audit: an escaping family of compact projective fibers disproves noncompact projective-complement convexity
 
-**Finding:** `POME-PROJ-COMP-BASE-ESCAPING-COMPACT-FIBERS-001` — **high / confirmed error** in the *unqualified noncompact scope* of printed Theorem 11.18.2. This is an actual counterexample to the stated conclusion, **not merely a gap in its published exhaustion construction**. The theorem is valid with the added hypothesis that the base (X) is compact, using the displayed proof. A downstream corollary is dependent on the theorem but is **not itself refuted by the example**.
+**Finding:** POME-PROJ-COMP-BASE-ESCAPING-COMPACT-FIBERS-001 — **high / confirmed error** in the noncompact scope of Theorem 11.18.2. The compact-base statement is valid; this is a counterexample to the *printed theorem*, not merely the failure of one proof.
 
-**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272` (rechecked 2026-11-11). **Audit branch before writing:** `79e5084fc4507ef7996d4c6cce06fe5dc877fd00`. **Current ToC:** 25 chapters, 747 numbered sections; zero fully mathematically certified. We only audited selected statements, not whole sections.
+**Reviewed main SHA:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Previously read audit branch:** 7f39817101bee3652f081647929b5dc342c06988. **Review date:** 2026-11-11.
 
-## Actual integrated reading and stable anchors
+## Pinned integrated reading
 
-1. `docs/sections/gauduchon-metrics-and-linear-mass--convex-norms-and-gauduchon-degrees--curvature-and-projective-complement-exhaustions/index.html`, main blob `fab309d460a8411fefcd1ef32a094927d6feea10`: standing assumptions lines **10–25**, Lemma **11.18.1** lines **29–45**, source `non-kahler-pluripotential-theory:F8D5B741`, permanent tag `5022159B8350`; Theorem **11.18.2** lines **51–68**, source `non-kahler-pluripotential-theory:9BF81039`, permanent tag `B93CB03C68B7`. Its text says `E -> X` is a holomorphic rank-`r` bundle with (n\geq1) and imposes no compactness hypothesis; its proof uses "**Since the ambient projective bundle is compact**" at physical line **67**. Corollary **11.18.4** lines **91–105**, source `non-kahler-pluripotential-theory:B119F64B`, permanent tag `18D33491ABFD`, invokes this theorem.
-2. `docs/sections/gauduchon-metrics-and-linear-mass--convex-norms-and-gauduchon-degrees--concave-neighborhoods-and-dual-norms/index.html`, main blob `d49b7d4f2a213c8b70abfe2f337562202bb58dfb`, physical line **129**: an (N)-fold is (q)-convex if it has a smooth exhaustion with at least (N-q+1) strictly positive Levi eigenvalues **outside a compact set**. The definition is not a global strictly-PSH requirement.
-3. `docs/sections/gauduchon-metrics-and-linear-mass/index.html`, main blob `02d635e918120c4026c38d14119db9377eefe61f`, line **7**: chapter-wide convention fixes a Hermitian form and (n\geq2), *not* compactness; §11.18 explicitly chooses (n\geq1). `docs/sections/conventions/index.html`, main blob `ef778e54d8d7413242387e95c52269b3c7d42cae`, physical lines **11, 23**: spaces/manifolds are paracompact/Hausdorff, not assumed compact.
+- Main **§11.18**: [integrated section](https://github.com/MingchenXia/Pome/blob/main/docs/sections/gauduchon-metrics-and-linear-mass--convex-norms-and-gauduchon-degrees--curvature-and-projective-complement-exhaustions/index.html), blob **fab309d460a8411fefcd1ef32a094927d6feea10**. Scope/hypotheses at physical lines **10–25**; Lemma 11.18.1 lines **29–45**, source **non-kahler-pluripotential-theory:F8D5B741**, permanent **5022159B8350**; Theorem 11.18.2 lines **51–68**, source **non-kahler-pluripotential-theory:9BF81039**, permanent **B93CB03C68B7**. Theorem 11.18.2 imposes *no compactness* on the base. Its proof at line **67** explicitly assumes the ambient projective bundle is compact. Corollary 11.18.4 lines **91–105**, source **non-kahler-pluripotential-theory:B119F64B**, permanent **18D33491ABFD**, cites this theorem.
+- Main **§11.17**: [integrated section](https://github.com/MingchenXia/Pome/blob/main/docs/sections/gauduchon-metrics-and-linear-mass--convex-norms-and-gauduchon-degrees--concave-neighborhoods-and-dual-norms/index.html), blob **d49b7d4f2a213c8b70abfe2f337562202bb58dfb**, physical line **129**. For a complex $N$-fold, $q$-convexity means a smooth real exhaustion with at least $N-q+1$ positive Levi eigenvalues *outside a compact set*.
+- Main **§11.3**, [chapter conventions](https://github.com/MingchenXia/Pome/blob/main/docs/sections/gauduchon-metrics-and-linear-mass/index.html), blob **02d635e918120c4026c38d14119db9377eefe61f**, line **7**, fixes $n\ge2$ and a Hermitian form but does **not** assume $X$ compact. Main [general conventions](https://github.com/MingchenXia/Pome/blob/main/docs/sections/conventions/index.html), blob **ef778e54d8d7413242387e95c52269b3c7d42cae**, physical lines **11 and 23**, require paracompactness/Hausdorffness rather than compactness. §11.18 explicitly sets $n\ge1$.
 
-## Counterexample: positive curvature in (d) independent directions, (2)-convexity fails
+## Counterexample with all printed hypotheses
 
-Fix any integer (d\geq2) and set
-[
-B=\mathbb P^d,qquad X=B\times\mathbb C,qquad
-n=d+1,qquad E=\operatorname{pr}_B^*\mathcal O_{\mathbb P^d}(1),qquad r=1.
-]
-Equip (E) with the pullback of its standard positive Fubini–Study Hermitian metric (h). Its Chern coefficient form satisfies
-[
-\alpha_{h,v}=\mathrm i,h(F_hv,v)=h(v,v)\operatorname{pr}_B^*\omega_{\rm FS}
-]
-up to the fixed positive normalization of (omega_{\rm FS}) in §11.18. Indeed in the affine chart (mathcal O(1)) has squared frame norm (h(e,e)=(1+\lVert z\rVert^2)^{-1}); the printed (F_h=\bar\partial(h^{-1}\partial h)) gives
-(mathrm iF_h=mathrm i\partial\bar\partial\log(1+\lVert z\rVert^2)>0) on (mathbb P^d).
-Thus for **every** (x\in X) and (v\ne0), (alpha_{h,v}) has exactly (s=d) positive eigenvalues, and zero in the (mathbb C)-direction. All hypotheses of Theorem 11.18.2 hold, including (0\leq s\leq n).
+For any integer $d\ge2$, take the connected smooth complex manifold and positive Hermitian line bundle
+$$
+B=\mathbb P^d,\quad X=B\times\mathbb C,\quad n=d+1,\quad
+E=\operatorname{pr}_B^*\mathcal O_{\mathbb P^d}(1),\quad r=1,
+$$
+with $h$ the pullback of the standard Fubini–Study Hermitian metric. In affine projective coordinates, the local holomorphic frame of $\mathcal O(1)$ has norm $h(e,e)=(1+\lVert z\rVert^2)^{-1}$. With the printed sign convention $F_h=\bar\partial(h^{-1}\partial h)$,
+$$
+\mathrm iF_h=\mathrm i\partial\bar\partial\log(1+\lVert z\rVert^2)
+$$
+is the positive Fubini–Study curvature along the $B$ factor. Consequently, for **every** $(x,v)$ with $v\ne0$, the Hermitian form
+$$
+\alpha_{h,v}=\mathrm i\,h(F_hv,v)
+$$
+has precisely $d$ positive complex eigenvalues in the $B$ directions and one zero eigenvalue along the $\mathbb C$ factor. Thus Theorem 11.18.2 applies with $s=d$, where $0\le s\le n$.
 
-That theorem asserts that
-[
+It would assert that
+$$
 U_E=\mathbb P(\mathcal O_X\oplus E)\setminus\mathbb P(\mathcal O_X)
-]
-is (q=(n+r-s)=(d+1)+1-d=2)-convex. Its complex dimension is (N=n+r=d+2), hence a purported (2)-convex exhaustion must have **at least (N-1=d+1) strictly positive Levi eigenvalues** outside one compact set (K\subset U_E).
+$$
+is $(n+r-s)=2$-convex. Since $\dim_\mathbb C U_E=N=d+2$, a $2$-convex exhaustion $\psi$ must have at least
+$$
+N-2+1=d+1\ge3
+$$
+strictly positive Levi eigenvalues outside some compact $K\subset U_E$.
 
-The infinity divisor (Z=\mathbb P(E)\subset U_E) is closed and is canonically isomorphic to (X) since (r=1). For each (t\in\mathbb C), the fiber
-[
-Y_t=\mathbb P(E)|_{\mathbb P^d\times\{t\}}
-\simeq\mathbb P^d
-]
-is a compact complex submanifold of (U_E), of complex dimension (d). They **escape every fixed compact subset** of (U_E): the projection (U_E\to\mathbb C) has compact image on (K), so choose (t) outside that image. This escape argument is essential because the definition only asks for Levi positivity outside (K).
+The closed infinity divisor $Z=\mathbb P(E)$ lies inside $U_E$. Because $E$ has rank one, $Z\simeq X$. For each $t\in\mathbb C$, it contains the compact complex submanifold
+$$
+Y_t=\mathbb P(E)|_{B\times\{t\}}\simeq\mathbb P^d,
+\qquad\dim_\mathbb C Y_t=d.
+$$
+These fibers **escape every compact subset** of $U_E$: the image of $K$ under the holomorphic projection $U_E\to\mathbb C$ is compact; choose $t$ outside this image. In particular $Y_t\cap K=\varnothing$. This step is indispensable because the definition permits exceptional compact sets.
 
-Suppose a smooth real exhaustion (psi) gave the claimed (2)-convexity. Choose (t) with (Y_t\cap K=\varnothing). The restriction (psi|_{Y_t}) attains a maximum at some (p\in Y_t). Its Levi form at (p) is **negative semidefinite on the (d)-dimensional complex tangent space** (T_p^{1,0}Y_t). Every positive definite subspace for (mathcal L_psi(p)) meets (T_p^{1,0}Y_t) trivially, hence has dimension at most
-[
-\dim_\mathbb C U_E-\dim_\mathbb C Y_t=(d+2)-d=2.
-]
-But (2)-convexity requires (d+1\geq3) positive eigenvalues at (p\notin K). **Contradiction**. The theorem's asserted conclusion is false for every (d\geq2). No regularization, analytic PDE input or external vanishing theorem is used.
+Since $Y_t$ is compact, $\psi|_{Y_t}$ attains a maximum at $p\in Y_t$. At $p$, the Levi form of $\psi$ is nonpositive on $T_p^{1,0}Y_t$. Any complex subspace on which the ambient Levi form is positive definite must therefore meet $T_p^{1,0}Y_t$ trivially, and so has dimension at most
+$$
+\dim_\mathbb C T_pU_E-\dim_\mathbb C T_pY_t
+=(d+2)-d=2.
+$$
+Thus the ambient Levi form has at most **two** positive eigenvalues at $p\notin K$, contradicting the required **$d+1\ge3$**. This proves **non-$2$-convexity** and therefore refutes the unqualified theorem.
 
-## Precise correction, affected dependents, and status
+The counterexample uses only explicit positive curvature, projective bundle geometry, compactness of $\mathbb P^d$, and the second derivative test at a maximum. It uses **no** excluded regularization or Bergman/L²/extension inputs.
 
-**Proposed source-body correction (NOT applied):** insert "**Assume in addition that (X) is compact**" before the curvature hypothesis in Theorem 11.18.2. With compact (X), the ambient projective bundle is compact; its cutoff function (psi=\chi(G)/G) tends to (+\infty) on approach to the removed zero section and its finite sublevels are compact. Lemma 11.18.1 gives the required (s+1) positive Levi directions near that removed section, so the printed argument then establishes the corrected theorem. The corrected case is a **verified repair**, not a justification of the original noncompact claim.
+## Repair, classification, dependencies
 
-**Impacted dependencies:** Corollary 11.18.4 (permanent tag `18D33491ABFD`) applies the theorem and should state/receive the compactness condition for its first, pointwise-mean-curvature clause; its Hermitian–Einstein stable-bundle clause uses an additional quoted compact-manifold existence input. Corollary 11.18.5 works over the compact Hirzebruch surface and is unaffected by this counterexample. Definition 11.18.3 integrates over (X); on noncompact (X), degree may also require a separately specified convergence assumption, but this is **not needed** for the counterexample. Lemma 11.18.1 is a correct local differential calculation; no defect is alleged there.
+**Complete conditional repair of Theorem 11.18.2 (proposed, not applied):** Add the hypothesis **“$X$ is compact.”** Then $\mathbb P(\mathcal O_X\oplus E)$ is compact. The printed function $\psi=\chi(G)/G$, extended by zero at infinity, blows up only at the deleted zero section; consequently its finite sublevels are compact. Lemma 11.18.1 gives at least $s+1$ positive Levi directions where $\psi=1/G$ near the deleted section, outside a suitable compact set. This proves precisely $(n+r-s)$-convexity. The local Hessian computation in Lemma 11.18.1 is not challenged.
 
-**Reclassification:** prior `POME-PROJ-COMP-BASE-PROPER-001` (2026-10-23, **proof gap**) established only the failure of the printed cutoff to be proper when (X) is noncompact and explicitly did **not** disprove the theorem. The present escaping-family argument upgrades the **theorem itself** to **confirmed error** for the noncompact scope. Preserve that prior record as historical evidence, linked to this stronger finding; do not silently rewrite or erase it.
+**Dependents:** Corollary 11.18.4 (tag **18D33491ABFD**) uses the theorem for its positive-mean-curvature assertion; it should explicitly inherit the compact-base qualification or receive an independent noncompact proof. The present model **does not disprove that corollary's weaker $(n+r-1)$-convexity claim**. Its stability/Hermitian–Einstein clause invokes an additional global existence result. Corollary 11.18.5 concerns a compact Hirzebruch surface and is **not** refuted. Definition 11.18.3's degree integral over noncompact $X$ raises separate convergence questions, not necessary here.
 
-**Coverage:** newly examined explicit projective-line-bundle model and the full logical obstruction at §11.18.2, with the exact §11.17 (q)-convexity definition and chapter/global scope checked. Both sections had been partly audited, so **0 new first-visited numbered sections; 0 whole-section certifications**. No tests, build, formalization, CI, website publication, other-source or main edits. The owner-excluded Demailly approximation/regularization and dedicated Bergman, L², Ohsawa–Takegoshi, multiscale-atlas and positivity-loss programme remain **deferred-by-user**, not resolved or certified.
+**Prior ledger reclassification:** The older **POME-PROJ-COMP-BASE-PROPER-001** (2026-10-23, proof gap) showed only that the specific printed cutoff need not be proper on a noncompact base; that record correctly refrained from declaring the theorem false. The present escaping-projective-fiber argument proves the theorem itself false on an allowed noncompact base. **Keep the older record as historical and superseded by this stronger confirmed-error finding.**
+
+**Severity/status:** high / **confirmed error** for the original noncompact theorem; **verified repair under the compact-base hypothesis**, *not* verification of the original theorem. **Coverage:** only this counterexample and its exact definition/hypothesis/proof anchors; §§11.17 and 11.18 were previously partly examined, **0 new first-visited numbered sections and 0 whole-section mathematical certifications**; the actual ToC remains **25 chapters / 747 sections**. Earlier ledger findings remain intact; excluded Demailly approximation/regularization, dedicated Bergman, L², Ohsawa–Takegoshi, multiscale-atlas and positivity-loss programme remains **deferred-by-user**. No main, source-body, registry, canonicalization, permanent-tag, build, test, CI or website writes.
