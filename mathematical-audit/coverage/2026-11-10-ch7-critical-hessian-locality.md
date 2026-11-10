@@ -1,0 +1,14 @@
+# 2026-11-10 — actual mathematical coverage: mixed \(L^p\)-Hessian contact locality
+
+**Main SHA:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Collection ToC:** 25 chapters, 747 numbered sections; no whole section certified.
+
+| Actual section and main integrated blob | Directly inspected mathematical content | Classification and what was *not* reviewed |
+| --- | --- | --- |
+| §7.13 `docs/sections/bedford-taylor-products-and-local-capacity--bounded-complex-hessians-and-contact-sets/index.html`; `e2697dc465a2b639120974188eaeb6c446ed8071` | Prop. **7.13.4** source `foundations-of-pluripotential-theory:D9CC767A` / permanent `1466731348C1` lines **109–133**: exact normalization and mollifier/determinant proof; Prop. **7.13.3** source `:AF82FB9E` / `C006456D2AFC` lines **91–101**: W²,¹ zero-set locality; Lemma **7.13.1** source `:B80A5A22` / `8736729F21D9` lines **14–42**, and Lemma **7.13.2** source `:0CFF4F56` / `D57C89462C1B` lines **48–82** narrow context | New proof `POME-BT-CRITICAL-LN-HESSIAN-CONTACT-001`, low / verified conditional deduction, no printed error. Earlier selected coverage already exists; **not** first numbered-section visit or complete-section certification. |
+| §7.2 `docs/sections/bedford-taylor-products-and-local-capacity--bounded-potentials-and-recursive-products/index.html`; `18bd2395f3b76941b2c677079c09eb6accc5a9cb` | Prop. **7.2.6** source `foundations-of-pluripotential-theory:C5608495` / `2F39A3F97E8E` lines **125–154**: locally uniform BT product weak convergence; matched exact hypotheses, without re-proving transitive current-mass prerequisites. | **Dependency check only**; no full proof certification. |
+| §16.10 `docs/sections/envelopes-and-model-potentials--measures-on-contact-sets/index.html`; `c3be9349468d2203c0b67f4bee2be49d1392f8ff` | Overview lines **7–20**: NPP, contact-set setting and limiting-measure warning. | Context only, not a mathematical review of the following envelope theorems. |
+| §16.13 | Not inspected. | Merely listed as possible downstream dependent; no claim of error or verification. |
+
+**Distinction from old finding:** `POME-BT-CONTACT-CUTOFF-NONCOMMUTATION-001` establishes failure of restricting general weakly convergent singular measures to a fixed contact halfspace; this report proves an **absolute-continuity criterion** under new integrability. Prior statuses retained, not replayed.
+
+**Progress count:** **0** new first proof-level numbered sections; **0** completely mathematically verified sections; the project still has **25 chapters and 747 numbered sections**. Owner-excluded approximation/regularization and Bergman/L²/OT/multiscale/positivity-loss proof-completion remain **deferred-by-user**. Only audit Markdown is proposed for the review branch. No production main, source, permanent tags, registry/canonicalization, build, tests, CI or publication.
