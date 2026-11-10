@@ -1,0 +1,9 @@
+# 2026-11-11 precise coverage — §§14.29 and 14.26
+
+- **Finding:** `POME-DEGENMA-ANALYTIC-CONTINUUM-001`; **classification:** low / verified conditional deduction. Not a source-theorem error.
+- **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`; actual ToC **25 chapters, 747 numbered sections**.
+- **New substantial proof:** §14.29 lines 40–105 (coefficient and determinant hypotheses), 108–165 (fixed global background, extension, normalization); independently solve the scalar ODE for an **uncountable interval** of initial slopes, prove interior continuation, pointwise positivity and **all-order flat extension** at both critical hypersurfaces; finite algebra check of strict cubic determinant surplus for affine interpolation. Section source `non-kahler-pluripotential-theory:3ADFF2BE`, theorem permanent tag `DD001DBBE659`, main HTML blob `2f00a81edc49855971bb3a6d774603ee5bbf40db`.
+- **Dependency crosscheck only:** §14.26 lines 23–64, determinant and (dd^cG(r)) chain rule, source equation `:7BBBEE11` permanent `71DFC7D0861C`; main HTML blob `7240d97e9192c70acf09f755ec90a5420bc11ef7`.
+- **Prior review preserved, not duplicated:** 2026-11-07 §14.29 quadratic inverse-ellipticity threshold and flat jets; old finding `POME-MA-ANALYTIC-ALIGN-ALIAS-001` duplicated display (14.29.7). This run is an independent **continuum/existence** deduction, not another jet calculation.
+- **First time proof-level visited sections this run:** **0** (both sections had earlier selected reviews). **Entire mathematical sections independently certified this run:** **0**. Omitted theorem steps and upstream claims remain open. No assertion about the rest of the 747 sections.
+- **Excluded by user:** Demailly regularization/Bergman/L²/OT/multiscale/positivity-loss remain `deferred-by-user`. No source files, published docs, tags, CI, build, or site writes.
