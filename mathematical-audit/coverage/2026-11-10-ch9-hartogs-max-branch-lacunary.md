@@ -1,5 +1,7 @@
 # Coverage increment — 2026-11-10 — §9.15 max-type Hartogs natural boundary
 
+**Stable finding:** `POME-HARTOGS-MAX-BRANCH-LACUNARY-EXISTENCE-001` (low / verified conditional deduction).
+
 **Audited main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Reading-edition blob:** `641a66c419e4a1f7207cd301b51f27f3a6efd6f9`. **Section:** 9.15 / `F6F3F90BB780` / source `klimek-pluripotential-theory:1253F321`. **Selected integrated result:** Proposition 9.15.1 / `202C805DC8A2` / source `klimek-pluripotential-theory:7CA9E7D7`.
 
 - **Directly examined:** exact hypothesis `R>0` lower semicontinuous, coefficient equality requiring an individual maximal holomorphic domain, text at physical lines 7–16; Cauchy normal convergence, USC regularized coefficient limsup and maximality argument, proof lines 21–27.

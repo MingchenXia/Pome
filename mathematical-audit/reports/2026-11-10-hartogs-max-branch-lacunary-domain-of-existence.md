@@ -13,60 +13,60 @@
 ## Explicit max-of-two-branches model
 
 Let `d>=1` and let `P∈C[z_1,...,z_d]` be a **nonconstant** polynomial (the concrete two-dimensional instance is `d=1,P(z)=z`). Put
-[
- u_P(z)=max{0,log|P(z)|},quad
- R_P(z)=min{1,|P(z)|^{-1}},quad
- H_P={(z,w)inmathbf C^d	imesmathbf C:|w|<1, |P(z)w|<1}.
-]
+$$
+ u_P(z)=\max\{0,\log|P(z)|\},\quad
+ R_P(z)=\min\{1,|P(z)|^{-1}\},\quad
+ H_P=\{(z,w)\in\mathbf C^d\times\mathbf C:|w|<1,\ |P(z)w|<1\}.
+$$
 Interpret `|P|^{-1}=+infinity` at a zero of `P`. Then `R_P=e^{-u_P}` is strictly positive and continuous. The finite-valued continuous PSH function `u_P` is the maximum of the PSH functions `0` and `log|P|`; near zeros, the maximum equals zero, so no pole survives.
 
 Pseudoconvexity is checked **without using Proposition 9.15.1**: the smooth function
-[
- Phi(z,w)=|z|^2+|w|^2-log(1-|w|^2)-log(1-|P(z)w|^2)
-]
+$$
+ \Phi(z,w)=|z|^2+|w|^2-\log(1-|w|^2)-\log(1-|P(z)w|^2)
+$$
 is strictly PSH on `H_P`. For each holomorphic `g`, the function `-log(1-|g|^2)` is PSH on `|g|<1`, by direct `i∂∂bar` computation, and the Euclidean term is strictly PSH. The exhaustion is proper: any sequence leaving compact subsets either has unbounded Euclidean norm or approaches a finite boundary point with `|w|=1` or `|P(z)w|=1`, forcing one logarithmic term to diverge to `+infinity`. Thus `H_P` is a smooth strictly-PSH-exhausted complete Hartogs domain.
 
 Define the lacunary disk function and its **single** holomorphic Hartogs function by
-[
- F(t)=sum_{k=0}^{infty}t^{2^k},qquad
+$$
+ F(t)=\sum_{k=0}^{\infty}t^{2^k},\qquad
  f_P(z,w)=F(w)+F(P(z)w).
-]
+$$
 On compact subsets of `H_P`, both `|w|` and `|Pw|` have a common strict upper bound below one. Both series converge uniformly absolutely; hence `f_P∈O(H_P)`. Its exact Taylor coefficients in the fiber variable are
-[
+$$
  c_j(z)=
- egin{cases}1+P(z)^{2^k},&j=2^k, kge0,\
- 0,&j
-otin{2^k:kge0}.
- end{cases}
-]
+ \begin{cases}
+ 1+P(z)^{2^k},&j=2^k,\ k\ge0,\\
+ 0,&j\notin\{2^k:k\ge0\}.
+ \end{cases}
+$$
 In particular `c_0=0`, and logarithms of zero coefficients below are `-infinity`.
 
 ## Pointwise coefficient identity, including the switching set
 
 Write `p=P(z)`. If `|p|<1`, then `1+p^{2^k}→1`, so `2^{-k}log|1+p^{2^k}|→0`. If `|p|>1`, factor
-[
+$$
  1+p^{2^k}=p^{2^k}(1+p^{-2^k}),
-]
+$$
 and obtain `2^{-k}log|c_{2^k}(z)|→log|p|`. These include `p=0` in the first case.
 
 At the **nontrivial switching set** `|p|=1`, the upper bound `|1+p^{2^k}|≤2` gives a limsup at most zero. For any unit complex number `t`,
-[
-  max{|1+t|, |1+t^2|}ge1.
-]
+$$
+ \max\{|1+t|,\ |1+t^2|\}\ge1.
+$$
 Indeed, if `|1+t|<1`, then `Re(t)<-1/2`, so `|1+t^2|=2|Re(t)|>1`. Applied to `t=p^{2^k}`, this shows that in each adjacent pair of lacunary coefficients at least one has modulus at least one. Hence arbitrarily large coefficient indices have normalized logarithm at least zero, giving the reverse limsup bound. Thus at **every base point**, including all zeros and all `|P|=1`,
-[
- oxed{limsup_{j	oinfty}rac1jlog|c_j(z)|
-    =max{0,log|P(z)|}=u_P(z).}
-]
+$$
+ \boxed{\limsup_{j\to\infty}\frac1j\log|c_j(z)|
+    =\max\{0,\log|P(z)|\}=u_P(z).}
+$$
 The raw limsup is already continuous, hence equals its upper-semicontinuous regularization here. This does **not** assert that such regularization can be omitted in the general printed proposition.
 
 ## Domain of existence: all boundary faces, including corners
 
 First, `F` has no holomorphic continuation across any point of the unit circle, by an elementary argument (no gap theorem). If `zeta^{2^N}=1`, then
-[
- F(rzeta)=sum_{k<N}r^{2^k}zeta^{2^k}
-                   +sum_{kge N}r^{2^k},quad 0<r<1.
-]
+$$
+ F(r\zeta)=\sum_{k<N}r^{2^k}\zeta^{2^k}
+                   +\sum_{k\ge N}r^{2^k},\quad 0<r<1.
+$$
 The finite sum stays bounded and the second tends to `+infinity`: for any integer `M`, its first `M` terms tend to one as `r↑1`. Thus `F(rzeta)` is unbounded near each dyadic root of unity. Such roots are dense on the unit circle, so no local continuation is possible at any unit-circle point.
 
 For the **mixed Hartogs boundary**, all finite boundary points satisfy `|w|≤1`, `|Pw|≤1`, with at least one equality:
