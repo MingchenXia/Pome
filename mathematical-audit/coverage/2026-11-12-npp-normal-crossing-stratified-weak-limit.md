@@ -1,0 +1,10 @@
+# Precise incremental coverage — 2026-11-12 — projective SNC strata
+
+**Production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. Current ToC: 25 chapters / 747 numbered sections.
+
+- **§13.7** (`docs/sections/non-pluripolar-products--capacity-convergence-and-loss-of-mass/index.html`, blob `d66813856cb813722806ab912afdfd4815d2da97`): exact Theorem 13.7.5 (source/permanent `foundations-of-pluripotential-theory:AB4EBE3B/67C4F7EC316E`, lines 106–135), Example 13.7.6 (`:D5678E03/ACAEA8D8BE87`, lines 138–143); their loss-of-mass scope and full-capacity hypothesis, **not their whole proof chain**.
+- **§13.5** (`docs/sections/non-pluripolar-products--global-finiteness-and-bounded-cohomological-mass/index.html`, blob `943517743538820940559eae8469ce98ecf5fcd5`): Proposition 13.5.1 (source/permanent `:4EE18BE1/06A36B9354A5`, lines 10–39) used as cohomological mass reference only; no general proof recertification.
+- **§13.2** (`docs/sections/non-pluripolar-products--truncation-and-plurifine-locality/index.html`, blob `81be8c5acc360c96bd3c5acba05a3cdb5fafaf4c`): Definition 13.2.4 (source/permanent `:9D8E4DD8/D79952D7E272`, lines 57–66) and polar-set convention only.
+- **New proof:** `POME-NPP-SNC-STRATIFIED-MASS-DEFECT-001`; exact `2^n`-term weak measure decomposition for *distinct transverse* hyperplane pole factors, with intermediate intersection-strata weights; [complete mathematics](../reports/2026-11-12-npp-normal-crossing-stratified-weak-limit.md), [classified ledger](../ledger/2026-11-12-npp-normal-crossing-stratified-weak-limit.md).
+- **Deduplication:** §13.7 was already selected for the 2026-11-07 one-hyperplane mass-defect model and earlier §7.28 all-unit pole model; neither is counted as new.
+- **Counts:** **0** newly first-visited numbered sections; **0** fully certified sections. General BT/NPP continuity and all uninspected theorem chains remain unverified. All explicitly excluded regularization/Bergman/L²/OT/multiscale/positivity-loss work remains **deferred-by-user**; no changes to production main, source text, registry or permanent tags.
