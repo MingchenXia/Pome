@@ -1,0 +1,15 @@
+# Exact incremental chapter-17 coverage — 2026-11-12
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Existing chapter-17 TOC:** 18 numbered sections; **entire project TOC:** 25 chapters and 747 numbered sections. This is additive to the existing durable SECTION_MATRIX.md and does not reinterpret previously reviewed sections as new first visits.
+
+| Numbered section | Actual action | Source/path/blob/physical lines | Status |
+| --- | --- | --- | --- |
+| **17.3** Relative Monge–Ampère energy | Re-read Definition .2, Eq .3, variation Eq .5; directly derive dimension-one Stokes formula and normalizations | docs/sections/relative-energy-and-perron-segments--relative-monge-ampere-energy/index.html; blob 16fdcc4c6a6f0cc75e69ba267bd7da2b2d7922a1; lines 31–47; original/permanent Def .2 foundations-of-pluripotential-theory:582D55DC/240EF1DE5889; Eq .3 :8C7506A6/F19AAFA93177 | Selected independent model, not entire theorem chain |
+| **17.7** Subgeodesics and Perron segments | Re-read joint psh definition, Perron definition, existence and endpoints, rotation invariance; independent convex conjugacy order in invariant class | docs/sections/relative-energy-and-perron-segments--subgeodesics-and-perron-segments/index.html; blob 662f60d73fc585b6ea3b710f2a3472bac1de8a7c; lines 10–24, 181–211, 214–250; original/permanent Thm .8 foundations-of-pluripotential-theory:108758A0/2FECBE87C487 | Perron existence treated as unverified internal dependency |
+| **17.8** Energy along weak geodesics | Re-read Lemmas .1–.2 and Theorem .3 actual integrated proof Steps 1–5; exact smooth complex Hessian, moment pushforward, velocity moments, affine energy independently calculated in a new nonflow family | docs/sections/relative-energy-and-perron-segments--energy-along-weak-geodesics/index.html; blob 8d9b7af925289346c96df751c67049e90c9dfe1d; lines 10–113; original/permanent Thm .3 foundations-of-pluripotential-theory:907171A2/678A18D6D406 | POME-GEOD-CP1-NONFLOW-TORIC-SPEED-001; low / verified conditional deduction |
+
+**Not reviewed or certified in this increment:** any other Chapter 17 section, general smooth and singular endpoint existence outside the model, §§13.6/17.2 non-pluripolar integration-by-parts chains, or all source/canonicalization equivalences. Numbered sections newly visited at proof level: **0** (all three previously partly reviewed). Completely certified numbered sections: **0**.
+
+**Duplicate guard:** 2026-11-06 diagonal projective holomorphic-flow result POME-GEO-PROJECTIVE-DIAGONAL-EXACT-001 and older logistic-ray calculations remain prior work. This report newly handles quadratic Legendre-potential perturbations and all real p-velocity moments.
+
+**Report:** [Full mathematical proof](../reports/2026-11-12-cp1-nonflow-toric-geodesic-energy-speed.md). **Ledger:** [Classified finding](../ledger/2026-11-12-cp1-nonflow-toric-geodesic.md). Owner-excluded regularization and its dedicated Bergman/L²/OT/multiscale/positivity-loss proof-completion remain **deferred-by-user**. No production changes, tests, builds, CI, website publication, or new PR.
