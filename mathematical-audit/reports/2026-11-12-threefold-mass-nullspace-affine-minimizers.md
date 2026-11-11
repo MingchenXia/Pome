@@ -1,13 +1,13 @@
 # Affine nullspace of smooth threefold Monge–Ampère mass extrema
 
-**Date:** 2026-11-12. **Finding ID:** \`POME-GAUD-THREEFOLD-MASS-NULLSPACE-AFFINE-001\`. **Severity:** low. **Status:** verified conditional deduction; not a false printed theorem or a claimed proof repair.
+**Date:** 2026-11-12. **Finding ID:** `POME-GAUD-THREEFOLD-MASS-NULLSPACE-AFFINE-001`. **Severity:** low. **Status:** verified conditional deduction; not a false printed theorem or a claimed proof repair.
 
-**Production main SHA:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Review branch:** \`review/mathematical-audit\`.
+**Production main SHA:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Review branch:** `review/mathematical-audit`.
 
 ## Exact integrated reading anchors
 
-- \`docs/sections/a-gauduchon-variational-volume--curvature-conditions-for-mass-extrema/index.html\`, Git blob \`cedeb939240bded77843daec0292d1a8bde0d2cb\`: Lemma 12.16.1 (source \`non-kahler-pluripotential-theory:5C8E3A8A\`, permanent tag \`744D35F9BE16\`), physical lines 17–46; Proposition 12.16.2 (permanent \`CE7BE3992C5F\`), lines 51–68; Theorem 12.16.3 (source \`non-kahler-pluripotential-theory:F297E7B1\`, permanent \`26629526444F\`), lines 76–103; equation 12.16.4 (source \`non-kahler-pluripotential-theory:10BBB84F\`, permanent \`D5CA82478984\`), lines 94–102.
-- \`docs/sections/unbounded-mass-on-hopf-manifolds/index.html\`, Git blob \`f53618e8d808de21687ff9166971cb9302ea8cfb\`: identity 23.1.3 (permanent \`25275E5CD565\`), lines 33–55; Proposition 23.1.4 / mass formula 23.1.5 (permanent \`DDEBFFAFCD1F\` / \`C46F0B405DC2\`), lines 74–77; **already printed** Proposition 23.1.38 (permanent \`E42306969D71\`), lines 693–727, which characterizes Hopf minimum-mass bounded potentials by fiber pullbacks. The Hopf classification is crosschecked, **not claimed as a new result**.
+- `docs/sections/a-gauduchon-variational-volume--curvature-conditions-for-mass-extrema/index.html`, Git blob `cedeb939240bded77843daec0292d1a8bde0d2cb`: Lemma 12.16.1 (source `non-kahler-pluripotential-theory:5C8E3A8A`, permanent tag `744D35F9BE16`), physical lines 17–46; Proposition 12.16.2 (permanent `CE7BE3992C5F`), lines 51–68; Theorem 12.16.3 (source `non-kahler-pluripotential-theory:F297E7B1`, permanent `26629526444F`), lines 76–103; equation 12.16.4 (source `non-kahler-pluripotential-theory:10BBB84F`, permanent `D5CA82478984`), lines 94–102.
+- `docs/sections/unbounded-mass-on-hopf-manifolds/index.html`, Git blob `f53618e8d808de21687ff9166971cb9302ea8cfb`: identity 23.1.3 (permanent `25275E5CD565`), lines 33–55; Proposition 23.1.4 / mass formula 23.1.5 (permanent `DDEBFFAFCD1F` / `C46F0B405DC2`), lines 74–77; **already printed** Proposition 23.1.38 (permanent `E42306969D71`), lines 693–727, which characterizes Hopf minimum-mass bounded potentials by fiber pullbacks. The Hopf classification is crosschecked, **not claimed as a new result**.
 
 ## New general conclusion and precise hypotheses
 
