@@ -1,0 +1,9 @@
+# Exact incremental coverage — 2026-11-11, Chapter 2
+
+- **Production main SHA:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+- **Precisely reviewed:** §2.14 Theorem 2.14.4 statement/proof lines 77–118, Theorem 2.14.6(3) lines 123–159, Proposition 2.14.7 lines 162–185; §2.14 standing Fréchet conventions lines 5–16; source page \`docs/sections/open-maps-nuclear-spaces-and-inverse-limits--cohomology-of-countable-inverse-limits/index.html\`, blob \`30e6e5800601450ce52d9c01dc5abea06a403d6e\`.
+- **New proof-level work:** one explicit stagewise-open-surjective Hilbert tower; full computation of \(H^1(\varprojlim E_\nu)=\mathbb C^{\mathbb N}/\ell^2\), including the quotient topology and failure of inverse-limit right-exactness when kernel transitions are nondense.
+- **New stable ID:** \`POME-INV-LIM-COHOM-INJECTIVITY-SHIFT-001\` — **low / verified conditional deduction**, not a source theorem error or a repaired theorem. [Complete proof](../reports/2026-11-11-inverse-limit-cohomology-injectivity-sharpness.md) · [ledger](../ledger/2026-11-11-inverse-limit-cohomology-injectivity-shift.md).
+- **Not redone:** Theorem 2.14.4 surjectivity proof, full Theorem 2.14.6, and earlier \`POME-INV-LIM-COHOM-SURJECTIVITY-DENSITY-001\` (a different non-density mechanism).
+- **Actual new first-visit count:** **0 numbered sections**; §2.14 had earlier direct proof-level inspection. **Whole numbered sections certified:** **0**. The current ToC inventory remains **25 chapters / 747 unique numbered sections**; not a claim of global review.
+- **Scope restrictions:** Excluded Demailly regularization and dedicated Bergman/\(L^2\)/OT/multiscale/positivity-loss work remains **deferred-by-user**; neither reopened nor marked solved. No tests/builds, GitHub Actions CI, publication, main/source/registry/tags/canonicalization changes.
