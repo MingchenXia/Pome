@@ -3,12 +3,12 @@
 **Finding ID:** POME-OKO-DH-PRODUCT-CONVOLUTION-001  
 **Date:** 2026-11-12  
 **Severity / classification:** low / **verified conditional deduction**. No printed theorem is declared false.  
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 
 ## Integrated source and precise anchors
 
-1. \`docs/sections/the-theory-of-okounkov-bodies--okounkov-test-curves/index.html\` at blob \`20ff3089e62dd1c8349e8bcc077ec64605a9788b\`, §19.6. Definition **19.6.1**, source \`sgpt:26A94CBB\`, permanent \`ACD722F45231\`, physical lines **16–44**; Definition **19.6.5**, \`sgpt:9E9C0297\` / \`F0D4BAA63D8A\`, **90–107**; Definition **19.6.7**, \`sgpt:2E276BD3\` / \`7B20D9977149\`, **113–126**; Definition **19.6.18**, \`sgpt:09132002\` / \`51940EF88F4F\`, **329–334**. Proposition **19.6.19**, \`sgpt:DE3D564A\` / \`F397AFA38927\`, **338–366**, was read for moment conventions, not globally re-proved.
-2. \`docs/sections/non-archimedean-pluripotential-theory/index.html\` at blob \`8448d710690ebe1cc28040f9611d05c9d008a961\`, §22.1. Definition **22.1.55**, \`sgpt:115B0C00\` / \`9ADEFD2FF381\`, physical lines **902–912**; Theorem **22.1.56**, \`sgpt:420C36E9\` / \`0AD7F80A793D\`, **916–931** (the remainder of its proof continues through line 997). The factor \`n!\` in Definition 22.1.55 is essential.
+1. `docs/sections/the-theory-of-okounkov-bodies--okounkov-test-curves/index.html` at blob `20ff3089e62dd1c8349e8bcc077ec64605a9788b`, §19.6. Definition **19.6.1**, source `sgpt:26A94CBB`, permanent `ACD722F45231`, physical lines **16–44**; Definition **19.6.5**, `sgpt:9E9C0297` / `F0D4BAA63D8A`, **90–107**; Definition **19.6.7**, `sgpt:2E276BD3` / `7B20D9977149`, **113–126**; Definition **19.6.18**, `sgpt:09132002` / `51940EF88F4F`, **329–334**. Proposition **19.6.19**, `sgpt:DE3D564A` / `F397AFA38927`, **338–366**, was read for moment conventions, not globally re-proved.
+2. `docs/sections/non-archimedean-pluripotential-theory/index.html` at blob `8448d710690ebe1cc28040f9611d05c9d008a961`, §22.1. Definition **22.1.55**, `sgpt:115B0C00` / `9ADEFD2FF381`, physical lines **902–912**; Theorem **22.1.56**, `sgpt:420C36E9` / `0AD7F80A793D`, **916–931** (the remainder of its proof continues through line 997). The factor `n!` in Definition 22.1.55 is essential.
 
 ## Statement proved at the abstract Okounkov-test-curve level
 
