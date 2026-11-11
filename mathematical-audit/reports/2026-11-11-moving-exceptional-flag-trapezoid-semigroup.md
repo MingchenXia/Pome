@@ -13,7 +13,7 @@
 
 ## New model and exact statements
 
-Let $\pi:X=\operatorname{Bl}_p\mathbb P^2\to\mathbb P^2$, $p=[0:0:1]$, with $H=\pi^*\mathcal O_{\mathbb P^2}(1)$ and exceptional curve $E$. Take **integers $a\ge b\ge0$, $a\ge1** and the moving linear system $L=\mathcal O_X(aH-bE)$; write $c=a-b$. Choose the complete flag $X\supset E\supset\{q\}$, where $q=[0:1]$ on $E=\mathbb P(T_p\mathbb P^2)$.
+Let $\pi:X=\operatorname{Bl}_p\mathbb P^2\to\mathbb P^2$, $p=[0:0:1]$, with $H=\pi^*\mathcal O_{\mathbb P^2}(1)$ and exceptional curve $E$. Take integers $a\ge b\ge0$ with $a\ge1$, and the moving linear system $L=\mathcal O_X(aH-bE)$; write $c=a-b$. Choose the complete flag $X\supset E\supset\{q\}$, where $q=[0:1]$ on $E=\mathbb P(T_p\mathbb P^2)$.
 
 For every integer $k\ge0$, **the entire valuation set** of nonzero sections of $L^k$ is
 \[
