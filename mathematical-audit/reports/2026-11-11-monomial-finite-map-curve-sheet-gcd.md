@@ -1,92 +1,106 @@
-# Monomial finite maps: generic curve-sheet gcd versus ambient degree
+# Monomial finite maps: exact curve sheet degree versus ambient degree
 
-**Date:** 2026-11-11. **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
-**Stable finding:** `POME-CYCLE-MONOMIAL-FINITE-MAP-GCD-001`.
-**Classification:** **low / verified conditional deduction** (a completely explicit algebraic model and its conditional current-theoretic identification). **No original printed theorem is false, repaired, or newly certified.**
+**Date:** 2026-11-11. **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272.
+**Stable finding:** POME-CYCLE-MONOMIAL-FINITE-MAP-GCD-001. **Severity/status:** low / verified conditional deduction; the printed results are *not* refuted. This is a fully derived finite-map model, not a general new proof of proper-image theory or Poincaré–Lelong.
 
-## Exact source anchors (integrated reading edition)
+## Exact integrated reading-edition anchors
 
-- `docs/sections/divisors-and-logarithmic-limits-on-analytic-cycles/index.html`, **main blob `dae567406b2030e550664ca57b1fe77911d956d4`**.
-- **Lemma 20.5.3**, source `demailly-complex-geometry:FF68839A`, permanent `323D5DA3E240`: statement **physical lines 27–31**, analytic critical-set/degree proof **36–59**. States that the proper pushforward of an irreducible dimension-(r) divisor is its image cycle with its **generic sheet degree**, not necessarily the degree of the ambient finite map.
-- **Theorem 20.5.5**, source `demailly-complex-geometry:D58680EB`, permanent `F1C928146DBC`: statement and equation **lines 64–75**, resolution and coefficient proof **80–127**. Formula 20.5.9: source `demailly-complex-geometry:51A40A6D`, permanent `74331B0B45F1` (lines 104–116). The conditional analytic input is the normalized Poincaré–Lelong identity and proper pushforward of currents.
-- **Theorem 20.5.10**, source `demailly-complex-geometry:34D8935D`, permanent `DDB973C0C1DD` (lines 133–150), supplies properly intersecting cycle products; **Example 20.5.11**, source `demailly-complex-geometry:1764A64B`, permanent `FF4839E28893` (line 155), treats the original cusp's multiplicity two. These are *context and normalization only*, not claims of a new proof of the whole theorems.
+The production file is **docs/sections/divisors-and-logarithmic-limits-on-analytic-cycles/index.html**, main blob **dae567406b2030e550664ca57b1fe77911d956d4**. The section's permanent tag is **1564EBAEA948**.
 
-The historical source name is attribution for ordinary divisor/current theory and **does not authorize or imply work on the user-excluded Demailly approximation programme**.
+- **Lemma 20.5.3**, source **demailly-complex-geometry:FF68839A**, permanent **323D5DA3E240**, statement lines **27–31**, proof lines **36–59**. It asserts a proper pushforward coefficient equal to the *generic sheet number on the irreducible divisor*, not the ambient degree.
+- **Theorem 20.5.5**, source **demailly-complex-geometry:D58680EB**, permanent **F1C928146DBC**, statement and formula lines **64–75**, normalization/pushforward proof lines **80–127**. Its equation 20.5.9 has source **demailly-complex-geometry:51A40A6D** and permanent **74331B0B45F1**, physical lines **104–116**.
+- **Theorem 20.5.10**, source **demailly-complex-geometry:34D8935D**, permanent **DDB973C0C1DD**, lines **133–150**, inspected as statement/dependency context only. **Example 20.5.11**, source **demailly-complex-geometry:1764A64B**, permanent **FF4839E28893**, line **155**, is the printed cusp calibration.
 
-## Exact algebraic and cycle statement
+These source labels preserve historic attribution to ordinary divisor/current theory; they do **not** reopen the excluded Demailly approximation programme.
 
-Take integers (p,q,m,n\ge 1) with (gcd(p,q)=1), coordinates ((x,y)) and ((u,v)) on two copies of (mathbb C^2), and the globally proper finite holomorphic map
-[
- F(x,y)=(x^m,y^n).
-]
-Let the irreducible curve (D={y^p=x^q}) have the normalization
-[
- 
-u(t)=(t^p,t^q).
-]
-Define
-[
- d=gcd(pm,qn),qquad P=pm/d,quad Q=qn/d,qquad L=mn/d.
-]
-All these are positive integers, (gcd(P,Q)=1), and (d\mid mn) (the latter follows from (gcd(p,q)=1); see proof). Put (B={v^P=u^Q}).
+## Exact theorem for the model
 
-**Claim A: exact proper pushforward.**
-[
- oxed{F(D)=B,qquad F_*[D]=d[B].}
-]
-Thus the sheet degree of (F|_D) is (d), which can differ from the **ambient** generic degree (mn).
+Choose integers \(p,q,m,n\ge1\) with \(\gcd(p,q)=1\). Consider the globally proper finite holomorphic map
+\[
+ F:\mathbb C^2_{x,y}\longrightarrow\mathbb C^2_{u,v},
+ \qquad F(x,y)=(x^m,y^n)
+\]
+of generic **ambient degree \(mn\)**, and the irreducible curve \(D=\{y^p=x^q\}\), normalized by \(t\mapsto(t^p,t^q)\). Set
+\[
+ d:=\gcd(pm,qn),\qquad P:=pm/d,\quad Q:=qn/d,\qquad
+ L:=mn/d.
+\]
+Because \(\gcd(p,q)=1\), \(d\mid mn\); consequently \(P,Q,L\) are positive integers and \(\gcd(P,Q)=1\). Let \(B=\{v^P=u^Q\}\), an irreducible target curve.
 
-**Claim B: complete pullback and projection check.**
-[
- oxed{F^*[B]=sum_{zeta^L=1}[D_zeta],quad
- D_zeta={y^p=zeta x^q},quad
- F_*[D_zeta]=d[B],quad
- F_*F^*[B]=mn[B].}
-]
-Every (D_zeta) is reduced and irreducible, and these are exactly the (L) distinct irreducible components of (F^{-1}(B)), with **Cartier pullback multiplicity one**. The cycle pushforward's coefficient (mn) arises only **after summing all components**; it must not be substituted for the individual coefficient (d).
+**(A) Exact restricted proper pushforward:**
+\[
+ \boxed{F(D)=B,\qquad F_*[D]=d[B].}
+\]
+The degree \(d\) is *not* generally \(mn\).
 
-**Claim C: local Poincaré–Lelong/projection normalization.** For integers (a,b\ge0) with (a+b>0), set (h(u,v)=u^a v^b). Locally at the origin, with Pome's (dd^c=\frac{i}{2pi}\partial\bar\partial),
-[
- oxed{dd^c(log|h\circ F|^2[D])=(pma+qnb)[0]
-   =d(Pa+Qb)[0].}
-]
-On (B), (dd^c(log|h|^2[B])=(Pa+Qb)[0]). Therefore
-[
- F_*dd^c(log|h\circ F|^2[D])
-  =d,dd^c(log|h|^2[B]).
-]
-This is a local cycle identity, not a claim about arbitrary non-pluripolar products.
+**(B) Full inverse-image divisor with exact component count:**
+\[
+ \boxed{
+ F^*[B]=\sum_{\zeta^L=1}[D_\zeta],
+ \qquad D_\zeta=\{y^p=\zeta x^q\},
+ \qquad F_*[D_\zeta]=d[B].}
+\]
+The \(L=mn/d\) factors are **distinct reduced irreducible** curves of Cartier multiplicity one. Hence
+\[
+ \boxed{F_*F^*[B]=Ld[B]=mn[B].}
+\]
+The full pullback–pushforward degree identity therefore **does not** permit assigning the ambient degree to any one irreducible source component.
 
-## Proof with all degree and multiplicity factors
+**(C) Exact Poincaré–Lelong order/projection factor:** for \(a,b\in\mathbb Z_{\ge0}\), \(a+b>0\), let \(h(u,v)=u^av^b\). Locally at the origin,
+\[
+ dd^c\!\left(\log|h\circ F|^2[D]\right)
+   =(pma+qnb)[0]
+   =d(Pa+Qb)[0],
+ \qquad
+ dd^c\!\left(\log|h|^2[B]\right)=(Pa+Qb)[0].
+\]
+Thus
+\[
+ F_*dd^c\!\left(\log|h\circ F|^2[D]\right)
+   =d\,dd^c\!\left(\log|h|^2[B]\right).
+\]
+Here \(dd^c=\frac{i}{2\pi}\partial\bar\partial\) and \(dd^c\log|t|^2=[0]\); no additional \(2\pi\) factor occurs. This is an **ordinary analytic cycle current** computation, not an assertion about non-pluripolar wedges.
 
-1. **Irreducibility and normalization.** Because (gcd(p,q)=1), (y^p-x^q) is irreducible in (mathbb C[x,y]) (equivalently, the homomorphism (mathbb C[x,y]\tomathbb C[t]), (x\mapsto t^p,y\mapsto t^q), has prime kernel generated by this binomial). The normalization (
-u) is one-to-one over (D\setminus\{0}): if (t') maps to (
-u(t)), then ((t'/t)^p=(t'/t)^q=1), hence (t'=t). It is finite and proper onto (D). The target binomial (v^P-u^Q) is similarly irreducible because (gcd(P,Q)=1).
+## Complete model proof
 
-2. **Exact image and sheet degree.** On the normalization, (F\circ\nu(t)=(t^{pm},t^{qn})=(t^{dP},t^{dQ})), so (F(D)\subseteq B). Conversely every (s\in\mathbb C) has a (d)th root (t), and ((s^P,s^Q)=F\circ\nu(t)); thus (F(D)=B). For a generic (s\ne0), the equation (t^d=s) has exactly (d) distinct solutions. Alternatively, equality of two nonzero image points gives ((t'/t)^{pm}=(t'/t)^{qn}=1), so the ratio is exactly a (d)th root of unity. Lemma 20.5.3 therefore gives (F_*[D]=d[B]), with no ambient (mn) factor.
+**1. Irreducibility and parameter normalizations.** Since \(\gcd(p,q)=1\), the prime kernel of \(\mathbb C[x,y]\to\mathbb C[t]\), \(x\mapsto t^p,\ y\mapsto t^q\), is generated by the irreducible polynomial \(y^p-x^q\). Its parametrization \(t\mapsto(t^p,t^q)\) is finite, and generically injective: two nonzero parameters with the same image have ratio simultaneously a \(p\)-th and a \(q\)-th root of unity, thus ratio one. The target binomial is also irreducible because \(\gcd(P,Q)=1\); its normalization is \(s\mapsto(s^P,s^Q)\).
 
-3. **Why (L) is integral.** Prime-by-prime, let (ell^c\Vert d). Since (gcd(p,q)=1), (min(v_ell(p),v_ell(q))=0). If (v_ell(p)=0), then (c=\min(v_ell(m),v_ell(q)+v_ell(n))\le v_ell(m)\le v_ell(mn)); the other case is symmetric. Hence (d\mid mn). (Equivalently, (gcd(pm,qn)\mid mn) for coprime (p,q).)
+**2. Image and sheets.** The composition on the normalization is
+\[
+ (F\circ\nu)(t)=(t^{pm},t^{qn})=(t^{dP},t^{dQ}).
+\]
+Every point \((s^P,s^Q)\in B\) has a preimage by taking any \(d\)-th root \(t\) of \(s\), establishing \(F(D)=B\). For a generic \(s\ne0\) these are exactly \(d\) distinct roots. Equivalently, two nonzero parameters have the same image iff their quotient is a \(\gcd(pm,qn)\)-th root of unity. Therefore Lemma 20.5.3 gives \(F_*[D]=d[B]\).
 
-4. **Factorization of the entire inverse image.** The defining equation of (F^{-1}(B)) is
-[
- v^P-u^Q\circ F=y^{nP}-x^{mQ}
-   =(y^p)^L-(x^q)^L
-   =prod_{zeta^L=1}(y^p-zeta x^q).
-]
-Here (nP=pL, mQ=qL). The (L) factors are pairwise distinct, reduced and irreducible (rescaling (y) reduces each to the first binomial). Since each appears with exponent one, the Cartier divisor pullback has no hidden multiplicity. For (D_zeta), choose an (eta) with (eta^p=zeta); its normalization is (x=t^p,y=eta t^q). Its image obeys (v^P=u^Q), because (eta^{nP}=zeta^L=1); its image is all (B) by surjectivity of the power parameter. Two source parameters mapping to a generic image differ by a (d)th root of unity, and the image normalization is again degree (d). Therefore (F_*[D_zeta]=d[B]). Summing (L) components yields (Ld=mn), as required.
+**3. Divisibility of the component number.** For each prime \(\ell\), coprimality implies \(\min(v_\ell(p),v_\ell(q))=0\). If \(v_\ell(p)=0\), then
+\[
+ v_\ell(d)=\min\{v_\ell(m),v_\ell(q)+v_\ell(n)\}
+          \le v_\ell(m)\le v_\ell(mn).
+\]
+If \(v_\ell(q)=0\) the symmetric argument yields \(v_\ell(d)\le v_\ell(n)\). Thus \(d\mid mn\) and \(L\in\mathbb Z_{>0}\).
 
-5. **Local divisor orders.** The normalization of (D) pulls (h\circ F) back to (t^{pma+qnb}); the normalization of (B) pulls (h) back to (s^{Pa+Qb}). Both are nonzero holomorphic functions off the respective origins, and both define effective zero cycles there. Theorem 20.5.5's resolution-pushforward Poincaré–Lelong rule, or directly the ordinary one-dimensional identity followed by the normalization pushforward, yields the displayed coefficients. This also fixes the potential factor-of-(2pi) ambiguity: the book uses (dd^c\log|t|^2=[0]).
+**4. Scheme-theoretically reduced pullback and the degrees of its branches.** The equation of the pullback is
+\[
+ (v^P-u^Q)\circ F
+ =y^{nP}-x^{mQ}
+ =(y^p)^L-(x^q)^L
+ =\prod_{\zeta^L=1}(y^p-\zeta x^q).
+\]
+The factors are distinct and irreducible since \(\gcd(p,q)=1\); each occurs once. For each \(\zeta\), choose \(\eta\) with \(\eta^p=\zeta\), so a normalization of \(D_\zeta\) is \(x=t^p,\ y=\eta t^q\). Its image is contained in \(B\) because \(\eta^{nP}=\zeta^L=1\). It is all of \(B\) by properness and dimension one; or choose \(c\in\mathbb C^\times\) with \(c^P=1\), \(c^Q=\eta^n\) (possible because \(\gcd(P,Q)=1\) and \((\eta^n)^P=1\)), and then \(F(t^p,\eta t^q)=((ct^d)^P,(ct^d)^Q)\). Generic fiber cardinality is \(d\), so Lemma 20.5.3 gives \(F_*[D_\zeta]=d[B]\). Summing yields \(Ld=mn\).
 
-## Boundary examples and risk relevance
+**5. Local intersection-current coefficients.** On the normalization of \(D\),
+\[
+ (h\circ F\circ\nu)(t)=t^{pma+qnb}.
+\]
+On the normalization of \(B\), \(h(s^P,s^Q)=s^{Pa+Qb}\). Neither restriction is identically zero. The one-variable Poincaré–Lelong identity and the projection formula via Theorem 20.5.5 (or its explicit equation 20.5.9) give the respective zero-cycle masses \(pma+qnb\) and \(Pa+Qb\). The equality \(pma+qnb=d(Pa+Qb)\) completes the compatibility check.
 
-- (p=2,q=3,m=2,n=3): (d=gcd(4,9)=1), (L=6). The finite ambient map has degree six, but **each of six** preimage curves maps generically **one-to-one** onto (B).
-- (p=2,q=3,m=3,n=2): (d=gcd(6,6)=6), (L=1). The inverse image of the diagonal (B={u=v}) is just (D), whose normalized map is **six-to-one**.
-- (m=n=k): (d=k), (L=k). Neither generic curve degree nor component count alone is the ambient degree (k^2).
+## Sharp scope illustrations
 
-**Audit conclusion:** The printed Lemma 20.5.3's generic-sheet coefficient is correctly scoped. The model exhibits why using the ambient degree (mn) in an individual divisor pushforward, or assigning (d) to each Cartier pullback component, would be a normalization/canonicalization error. The model proves neither a flaw in the printed lemma nor a general replacement proof for Remmert/proper-image or Poincaré–Lelong. **Status remains verified conditional deduction.** Possible dependents for future targeted scrutiny: §20.4 modifications and exceptional divisor pushforwards; §20.6 cycle coefficients; §20.8 restricted-volume cycle normalization. No source/registry/tag patch is proposed for a theorem that is already correct.
+- \(p=2,q=3,m=2,n=3\): \(d=\gcd(4,9)=1\), \(L=6\). The ambient map has degree **6**, but the inverse image of \(B\) has **six** components and the restriction to *each* is generically one-to-one.
+- \(p=2,q=3,m=3,n=2\): \(d=\gcd(6,6)=6\), \(L=1\). Here \(B=\{u=v\}\); its entire inverse-image divisor is \(D\), mapped with generic degree **6**.
+- \(m=n=k\): \(d=k\), \(L=k\), and \(mn=k^2\).
 
-## Coverage, exclusions, and operations
+## Audit classification, novelty, and limits
 
-**Direct proof-level revisit:** §20.5 Lemma .3 (statements and full generic-sheet proof), Theorem .5 (statement plus normalization/pushforward steps), Example .11 as a simple cusp calibration; Theorem .10 **statement/dependency context only**. The mathematical identities of Claims A–C were independently calculated as above; no whole-section, all-dependent theorem, or all-chapter certification. §20.5 was previously proof-reviewed; **0 first visits, 0 entire-section certifications**. Baseline: actual production ToC **25 chapters / 747 numbered sections**. The 2026-11-01 two-singular-branch intersection and 2026-11-08 divisor-collision reports remain separate; their calculations and status are **not re-reported**. All user-excluded Demailly approximation/regularization and dedicated Bergman, L2, Ohsawa–Takegoshi, multiscale atlas, positivity-loss proof-completion remain **deferred-by-user**, neither resolved nor certified.
+**Low / verified conditional deduction.** The printed Lemma 20.5.3 is correctly stated: replacing its generic *restricted* sheet number by the ambient degree would give wrong multiplicities. Neither the lemma nor Theorem 20.5.5 is refuted. The algebraic normalization and factorization are independent; identification with integration currents uses the named **internal conditional dependencies** proper pushforward and Poincaré–Lelong. No general theorem in §§20.4/20.6/20.8 was newly certified. No source-body correction is required; the proposed action is to retain the degree distinction in future reviews of divisor traces and cycle pushforwards.
 
-No GitHub Actions, build, site publication, tests, source-body or main mutation were performed. Only review-branch Markdown is eligible for commit.
+This is **not** the pre-existing 2026-11-01 intersection of two distinct singular plane branches, nor the 2026-11-08 moving-divisor collision. Those findings and their statuses are preserved unchanged. Only selected §20.5 lemmas/proof passages and the new finite-map model were analyzed: **zero first-visited numbered sections**, **zero completely certified sections**, production ToC **25 chapters and 747 numbered sections**. All Demailly approximation/regularization and its dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss proof-completion work remains **deferred-by-user**, not resolved or certified. No tests, build, GitHub Actions, source/main changes, formal verification, or website publication were run.
