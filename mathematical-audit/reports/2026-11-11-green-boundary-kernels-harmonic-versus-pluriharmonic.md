@@ -1,18 +1,18 @@
 # Green level boundary measures: exactly which harmonic test functions are reproduced?
 
-**Finding:** \`POME-GREEN-BDY-HARMONIC-VS-PLURIHARMONIC-001\`  
+**Finding:** `POME-GREEN-BDY-HARMONIC-VS-PLURIHARMONIC-001`  
 **Assessment:** low / **verified conditional deduction**. No error in the printed propositions.  
 **Audit date:** 2026-11-11.  
-**Production main reviewed:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
-**Integrated reading-edition file:** \`docs/sections/green-level-measures-and-boundary-representation/index.html\`; Git blob \`895dbdfaa3c78ce41abe556f573644d857ab7517\`.
+**Production main reviewed:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
+**Integrated reading-edition file:** `docs/sections/green-level-measures-and-boundary-representation/index.html`; Git blob `895dbdfaa3c78ce41abe556f573644d857ab7517`.
 
 ## Source-accurate anchors and scope
 
 - Section 7.20, opening convention on physical line 7: \(d^c=i(\bar\partial-\partial)/(4\pi)\), \(dd^c=i\partial\bar\partial/(2\pi)\), and \(m_n=2^{-n}\).
-- Proposition **7.20.2**: \`klimek-pluripotential-theory:1F1C8FD9\`, permanent tag \`351C8FCB17FF\`, physical lines **47–82**. Its monotonicity/Jensen formula is read as background, not independently certified.
-- Proposition **7.20.3**: \`klimek-pluripotential-theory:62713F04\`, permanent tag \`EC62871F80C4\`, physical lines **85–105**. The printed result reproduces **pluriharmonic** test functions, not all real-harmonic ones.
-- Proposition **7.20.4**: \`klimek-pluripotential-theory:D0489F01\`, permanent tag \`438C4583CB39\`, physical lines **109–132**. Its explicit boundary measures for the ball and polydisc are the sole nontrivial input for the calculations below.
-- Proposition **7.20.1**: \`klimek-pluripotential-theory:1821D4AD\`, permanent tag \`1359A4B6C1D8\`, physical lines **10–35**, was read for the level-flux convention, but its general chain-rule proof was not independently recertified.
+- Proposition **7.20.2**: `klimek-pluripotential-theory:1F1C8FD9`, permanent tag `351C8FCB17FF`, physical lines **47–82**. Its monotonicity/Jensen formula is read as background, not independently certified.
+- Proposition **7.20.3**: `klimek-pluripotential-theory:62713F04`, permanent tag `EC62871F80C4`, physical lines **85–105**. The printed result reproduces **pluriharmonic** test functions, not all real-harmonic ones.
+- Proposition **7.20.4**: `klimek-pluripotential-theory:D0489F01`, permanent tag `438C4583CB39`, physical lines **109–132**. Its explicit boundary measures for the ball and polydisc are the sole nontrivial input for the calculations below.
+- Proposition **7.20.1**: `klimek-pluripotential-theory:1821D4AD`, permanent tag `1359A4B6C1D8`, physical lines **10–35**, was read for the level-flux convention, but its general chain-rule proof was not independently recertified.
 
 All calculations below concern the **normalized probability** \(\rho_{D,a}:=2^n\mu_{D,a}\); without this normalization, each displayed expectation is multiplied by \(2^{-n}\).
 
