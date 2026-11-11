@@ -78,7 +78,7 @@ For `1<=r<n`, the optimal local Hölder exponent of `L` at zero is **exactly** `
 For **every** such fixed nef class, `L` is Hölder-`1/n` on `[0,1]`:
 [
  |L(\epsilon)-L(\eta)|
- \leq\left(\sum_{j=1}^n c_j\right)^{1/n}
+ \leq\left(\sum_{j=1}^n j c_j\right)^{1/n}
  |\epsilon-\eta|^{1/n},\quad
  \epsilon,\eta\in[0,1].
  \tag{6}
@@ -107,18 +107,7 @@ For (6), all `c_j` are nonnegative, and for `0<=epsilon<=eta<=1`,
  =\sum_{j=1}^nc_j(\eta^j-\epsilon^j)
  \leq(\eta-\epsilon)\sum_{j=1}^njc_j
 ]
-(the sharper coefficient is `sum j c_j`; using `sum c_j` alone would be wrong). Therefore the **correct** constant in (6) is
-[
- K=\left(\sum_{j=1}^n j c_j\right)^{1/n}.
-]
-Using the elementary inequality `a^(1/n)-b^(1/n) <= (a-b)^(1/n)` for `a>=b>=0` proves (6) with this `K`. **The coefficient in (6) must consequently be read as `K`, not `(sum c_j)^(1/n)`**; in any proposed published remark, print the corrected version below:
-[
- \boxed{|L(\epsilon)-L(\eta)|
- \leq\left(\sum_{j=1}^n j c_j\right)^{1/n}
- |\epsilon-\eta|^{1/n}.}\tag{6'}
-]
-This proof intentionally keeps the intermediate coefficient check visible so that the proposed statement is not silently certified with the weaker incorrect constant.
-
+and thus the Lipschitz constant for \`P\` on \`[0,1]\` is \`sum j c_j\`). Therefore the coefficient in (6) is exactly the displayed \`(sum j c_j)^(1/n)\`. Using the elementary inequality `a^(1/n)-b^(1/n) <= (a-b)^(1/n)` for `a>=b>=0` proves (6) with this `K`. 
 ## Exact sharp family
 
 For `1<=r<n`, choose `X=P^r x P^{n-r}` and let
@@ -136,13 +125,13 @@ Consequently
  \frac{dq}{d\log\epsilon}
  =\frac rn\frac\epsilon{(1+\epsilon)^2}>0.
 ]
-For `r=n-1` this proves the universal `1/n` boundary Hölder exponent in (6') is sharp. The model also distinguishes the *volume* order `n-r` already printed in §12.20 from the **root normalization** order `(n-r)/n` and its monotone moving exponent.
+For `r=n-1` this proves the universal `1/n` boundary Hölder exponent in (6) is sharp. The model also distinguishes the *volume* order `n-r` already printed in §12.20 from the **root normalization** order `(n-r)/n` and its monotone moving exponent.
 
 ## Audit classification, dependencies and precise coverage
 
-- **Verified conditional deduction / low:** the variance identity (2), global slope bounds (4), derivative and Hölder statements (5)–(6'), with explicit sharp models, are newly checked corollaries. The **printed** Propositions 12.20.1/.2 and Theorem 12.11.1 are **not refuted**. This is not an independent proof of Gauduchon quotient duality or Monge–Ampère smooth existence.
+- **Verified conditional deduction / low:** the variance identity (2), global slope bounds (4), derivative and Hölder statements (5)–(6), with explicit sharp models, are newly checked corollaries. The **printed** Propositions 12.20.1/.2 and Theorem 12.11.1 are **not refuted**. This is not an independent proof of Gauduchon quotient duality or Monge–Ampère smooth existence.
 - **Do not mistake this for the previously printed polynomial order:** §12.20.2 already proves `P(epsilon) ~ epsilon^(n-r)`. The new material is the **full-ray variance monotonicity for the effective exponent**, sharp two-parameter root distortion, and explicit optimal Hölder and derivative bounds. No old degeneration order is relabeled as a fresh discovery.
-- **Proposed correction/placement:** add an *optional new remark* following Proposition 12.20.2 stating (1)–(4) and (6') with the `j` factor. There is **no necessary correction** to the printed result, and no direct source or production edit. Preserve historical attribution and original/permanent labels.
+- **Proposed correction/placement:** add an *optional new remark* following Proposition 12.20.2 stating (1)–(4) and (6) with the `j` factor. There is **no necessary correction** to the printed result, and no direct source or production edit. Preserve historical attribution and original/permanent labels.
 - **Affected dependents:** `12.11.1` (closed-nef formula), `12.20.1–2` (order and perturbation invariance); optional quantitative interpretation in the Gauduchon boundary discussions of §§12.21–12.25. Their independent proof chains remain conditional.
 - **Coverage:** new proof-level calculation within previously partially audited §12.20; selected §12.11.1 statement and closed-nef step as prerequisite only. **0 first-visited numbered sections; 0 entire sections certified.** Actual current ToC: **25 chapters, 747 sections**.
 - **Explicit exclusion:** no Demailly approximation/regularization, dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale atlas/positivity-loss programme. All earlier such notes stay **deferred-by-user**, not resolved or certified. No builds, tests, CI, formalization, site deployment, source or main changes claimed.
