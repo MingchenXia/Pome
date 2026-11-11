@@ -1,10 +1,10 @@
 # 2026-11-11 — Overdetermined elliptic gradient: sharp closed range and infinite-dimensional cokernel
 
-**Stable finding:** \`POME-ELL-OVERDETERMINED-GRADIENT-COKERNEL-001\`  
+**Stable finding:** `POME-ELL-OVERDETERMINED-GRADIENT-COKERNEL-001`  
 **Severity:** low. **Status:** **verified conditional deduction**, not a false theorem or a source repair.  
-**Reviewed production \`main\`:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
-**Integrated reading-edition file:** \`docs/sections/differential-operators-and-elliptic-regularity--elliptic-operators-of-arbitrary-order/index.html\`, exact main blob \`24bf19943a31d603485b8e14f63fe05b1f55dd47\`.  
-**Provenance:** \`demailly-complex-geometry:90E5290C\` / permanent \`0D76F8A1E29B\`, Lemma 2.18.1 (physical lines 29–58); \`demailly-complex-geometry:5AEC3D70\` / \`DB125476638D\`, Theorem 2.18.3 (lines 122–153); \`demailly-complex-geometry:E1228506\` / \`912C25048C3D\`, Theorem 2.18.4 (lines 155–198). The section heading has tag \`36FFBD062A7E\`.
+**Reviewed production `main`:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
+**Integrated reading-edition file:** `docs/sections/differential-operators-and-elliptic-regularity--elliptic-operators-of-arbitrary-order/index.html`, exact main blob `24bf19943a31d603485b8e14f63fe05b1f55dd47`.  
+**Provenance:** `demailly-complex-geometry:90E5290C` / permanent `0D76F8A1E29B`, Lemma 2.18.1 (physical lines 29–58); `demailly-complex-geometry:5AEC3D70` / `DB125476638D`, Theorem 2.18.3 (lines 122–153); `demailly-complex-geometry:E1228506` / `912C25048C3D`, Theorem 2.18.4 (lines 155–198). The section heading has tag `36FFBD062A7E`.
 
 ## Exact theorem and sharp hypothesis boundary
 
@@ -94,7 +94,7 @@ The Fourier calculation is direct and independent of analytic regularization. Th
 
 **Proposed optional text:** After Theorem 2.18.4, remark that the gradient \(d\) on \(T^m\), \(m\ge2\), has injective symbol and closed range in all Sobolev orders but infinite-dimensional divergence-free cokernel; the equal-rank premise cannot be dropped. This is a proposed annotation only, **not** an edit to the theorem or any permanent tag. Its dependents are interpretations of Theorems 2.18.3–4 and any extension of the Fredholm conclusion to rectangular injective-symbol complexes.
 
-**Previous-work comparison:** The older \`POME-ELL-FREDHOLM-LOWERORDER-001\` in the coverage matrix concerns **index stability under lower-order perturbations** of an already Fredholm equal-rank operator. The present countermodel instead distinguishes **coercive closed range from finite codimension** for an overdetermined operator. It is not a repeated homotopy/index calculation.
+**Previous-work comparison:** The older `POME-ELL-FREDHOLM-LOWERORDER-001` in the coverage matrix concerns **index stability under lower-order perturbations** of an already Fredholm equal-rank operator. The present countermodel instead distinguishes **coercive closed range from finite codimension** for an overdetermined operator. It is not a repeated homotopy/index calculation.
 
 **Actually read:** the integrated Fourier norm and compactness proof Lemma 2.18.1, the regularity theorem 2.18.3, and the Fredholm theorem/proof 2.18.4, including the proof's use of the adjoint ellipticity under equal ranks. This is **new selected mathematical verification** in previously partially reviewed §2.18: **0 first numbered-section visits**, **0 fully certified sections**. The actual main ToC remains **25 chapters / 747 numbered sections**. This audit neither reconstructs all global elliptic parametrices nor certifies the upstream general Sobolev or spectral theorem chains.
 
