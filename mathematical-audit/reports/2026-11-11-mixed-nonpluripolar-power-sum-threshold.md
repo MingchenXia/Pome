@@ -1,98 +1,99 @@
-# Exact mixed non-pluripolar mass threshold for two distinct zero-Lelong power-logarithmic potentials
+# Sharp mixed non-pluripolar power-sum threshold for two zero-Lelong potentials
 
-**11 November 2026. Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+**Date:** 2026-11-11. **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+**Stable ID:** `POME-NPP-MIXED-POWER-SUM-THRESHOLD-001`. **Severity/status:** **low / verified conditional deduction**. The printed results are correct; this is a quantitative extension, **not** a confirmed error or complete proof-chain certification.
 
-**Stable finding:** `POME-NPP-MIXED-POWER-SUM-THRESHOLD-001` — **low / verified conditional deduction**. The original Lemma 13.2.2, Proposition 13.2.6, and Example 13.2.9 are **not refuted**. This extends the already recorded **2026-10-30 single-potential square threshold** `POME-NPP-POWER-SINGULARITY-THRESHOLD-001` to genuinely **mixed, unequal parameters**, and does not re-register the diagonal case as a new finding.
+## Primary integrated statements, labels, and anchors
 
-## Precise current integrated sources
+- `docs/sections/non-pluripolar-products--truncation-and-plurifine-locality/index.html`, blob **`81be8c5acc360c96bd3c5acba05a3cdb5fafaf4c`**.
+- Lemma **13.2.2**, source `foundations-of-pluripotential-theory:CE1D6DA5`, permanent `D59675D9F6D8`, physical lines **34–52**. Its local-finiteness criterion Eq. **13.2.3**, source `:F86748C9`, permanent `E88E33ACAD5B`, lines **36–40**, requires uniformly bounded compact trace mass.
+- Proposition **13.2.6**, source `foundations-of-pluripotential-theory:E82F0D73`, permanent `7F7123F92478`, lines **80–125**: plurifine locality and multilinearity for locally finite products.
+- Example **13.2.9**, source `foundations-of-pluripotential-theory:2F8E45A2`, permanent `6F4C920FEDCA`, physical lines **151–165**: the single power $a=1/2$.
+- Smooth determinant normalization Eq. **7.2.4**, permanent `706A589A680C`, `docs/sections/bedford-taylor-products-and-local-capacity--bounded-potentials-and-recursive-products/index.html`, verified main blob `18bd2395f3b76941b2c677079c09eb6accc5a9cb`.
+- Theorem **13.3.1**, permanent `8A125B338F90`, `docs/sections/non-pluripolar-products--closedness-and-cutoff-gradients/index.html`, blob `f781fa61bd20944c7c4798e0e0984cfb81ef069f`, lines **10–47**, considered only as a dependent/internal premise.
 
-- `docs/sections/non-pluripolar-products--truncation-and-plurifine-locality/index.html`, main blob **`81be8c5acc360c96bd3c5acba05a3cdb5fafaf4c`**.
-- Lemma **13.2.2**, source `foundations-of-pluripotential-theory:CE1D6DA5`, permanent **`D59675D9F6D8`**, physical lines **34–52**, especially local-finiteness trace criterion Eq. **13.2.3**, source `:F86748C9`, permanent **`E88E33ACAD5B`**, lines **36–40**.
-- Proposition **13.2.6**, source `foundations-of-pluripotential-theory:E82F0D73`, permanent **`7F7123F92478`**, lines **80–125**, especially positivity, plurifine locality and mixed multilinearity.
-- Example **13.2.9**, source `foundations-of-pluripotential-theory:2F8E45A2`, permanent **`6F4C920FEDCA`**, lines **151–165**, with the square-root endpoint.
-- The smooth determinant convention is Eq. **7.2.4**, permanent **`706A589A680C`**, in `docs/sections/bedford-taylor-products-and-local-capacity--bounded-potentials-and-recursive-products/index.html` (previously pinned blob `18bd2395f3b76941b2c677079c09eb6accc5a9cb`); the normalization is `dd^c = (i/2π)∂∂bar`. The §13.3 closedness theorem is an **upstream dependency**, not independently certified here.
+## Statement (exact new unequal-exponent case)
 
-## Claim, hypotheses and sharp threshold
+Fix real $0<a,b<1$ and $0<c<\min(1-a,1-b)$. On
+\[
+ U_{a,b,c}=\{(x,y)\in\mathbb C^2:|x|^2<c,\ |y|<e^{-1}\}
+\]
+put $L=-\log|y|$ and
+\[
+ u_s(x,y)=(|x|^2-1)L^s\quad(s=a,b,\ y\neq0),\qquad
+ u_s(x,0)=-\infty .
+\]
+Both $u_a$ and $u_b$ are plurisubharmonic, and **both have zero Lelong numbers along $y=0$**. Their mixed non-pluripolar product is locally finite **if and only if**
+\[
+\boxed{a+b<1.}
+\]
+Set $r=|x|^2$, $A=a(1-a)+b(1-b)$ and $B_{a,b}(r)=A(1-r)-2ab\,r$. On $y\neq0$, with zero extension across the pluripolar axis, the exact cutoff-limit measure is
+\[
+\boxed{
+d\mu_{a,b}=
+\frac{B_{a,b}(|x|^2)}{4\pi^2|y|^2L^{2-a-b}}\,dA(x)dA(y).}
+\]
+When $a+b<1$, for every $0<R^2<c$ and $T>1$, its compact-cylinder mass is exactly
+\[
+\boxed{
+\mu_{a,b}\{|x|\le R,\ |y|\le e^{-T}\}
+=\frac{A R^2-\frac12(A+2ab)R^4}{2(1-a-b)}\,T^{a+b-1}.
+}
+\]
+At $a+b=1$ the mass of an inner annular cutoff $e^{-S}\le|y|\le e^{-T}$ grows proportionally to $\log(S/T)$; at $a+b>1$ it grows proportionally to $(S^{a+b-1}-T^{a+b-1})/(a+b-1)$. In both cases the non-pluripolar mixed product **fails** local finiteness on every neighborhood of the axis.
 
-Fix two **independent** real numbers `0 < a,b < 1` and a number `0<c<min(1-a,1-b)`. Let
-[
-U_{a,b,c}={(x,y)inmathbb C^2: |x|^2<c, |y|<e^{-1}},quad L=-log|y|.
-]
-Define on `y≠0`, and extend by `-∞` on `y=0`,
-[
-u_a=(|x|^2-1)L^a,qquad u_b=(|x|^2-1)L^b .
-]
-Both functions are plurisubharmonic. Each has **zero Lelong number** on the axis `y=0`. Nevertheless, the **mixed** non-pluripolar product
-[
-langle dd^cu_awedge dd^cu_bangle
-]
-is locally finite on `U_{a,b,c}` **if and only if `a+b<1`**. In particular, the mixed product can be locally finite even when **one of the two self-products is not locally finite**. No condition involving only the Lelong numbers can detect this threshold.
+## Proof and normalization audit
 
-More precisely, put `r=|x|²` and
-[
-A=a(1-a)+b(1-b),qquad B_{a,b}(r)=A(1-r)-2ab,r.
-]
-On `y≠0`, and extended by zero on the polar axis, the mixed cutoff-limit Borel measure is
-[
-oxed{quad dmu_{a,b}=rac{B_{a,b}(|x|^2)}{4pi^2|y|^2L^{,2-a-b}},dA(x)dA(y).quad}
-]
-For `a+b<1`, any `0<R²<c` and `T>1` with `e^{-T}<e^{-1}` give the **exact compact-cylinder mass**
-[
-oxed{quad
-mu_{a,b}{,|x|le R, |y|le e^{-T},}
-=rac{A R^2-rac12(A+2ab)R^4}{2(1-a-b)},T^{a+b-1}.quad}
-]
-When `a+b=1`, the mass of the annular truncation `e^{-S}le|y|le e^{-T}` grows as a **positive constant times `log(S/T)`**; for `a+b>1`, it grows as a positive constant times `(S^{a+b-1}-T^{a+b-1})/(a+b-1)`. Hence the threshold is **strict**.
-
-## Complete calculation
-
-On `y≠0`, for `s` equal to `a` or `b`, differentiation gives
-[
-(u_s)_{xar x}=L^s,qquad
-(u_s)_{xar y}=-rac{sar x}{2ar y}L^{s-1},qquad
-(u_s)_{yar y}=rac{s(1-s)(1-r)}{4|y|^2}L^{s-2},
-]
+For each $s\in\{a,b\}$, direct differentiation away from $y=0$ gives
+\[
+ (u_s)_{x\bar x}=L^s,\qquad
+ (u_s)_{x\bar y}=-\frac{s\bar x}{2\bar y}L^{s-1},
+ \qquad
+ (u_s)_{y\bar y}=\frac{s(1-s)(1-r)}{4|y|^2}L^{s-2},
+\]
 and
-[
-det H_s=rac{s(1-s-r)}{4|y|^2}L^{2s-2}>0
-qquad (r<c<1-s).
-]
-The first principal minor `L^s` is positive, so each Hessian is positive definite off the axis. The functions are locally bounded above, tend uniformly to `-∞` toward the axis on compact subsets in `x`, and extend there as psh functions by the same removable-polar-set argument used in Example 13.2.9. At a point `(x_0,0)`, the radial upper growth is of order `-(log(1/ho))^s` on small balls; after division by `log ρ`, it tends to zero since `s<1`. This proves zero Lelong number, regardless of the precise factor in its chosen convention.
+\[
+ \det((u_s)_{j\bar k})
+ =\frac{s(1-s-r)}{4|y|^2}L^{2s-2}>0
+ \qquad(r<c<1-s).
+\]
+The positive $(x,\bar x)$ minor and determinant prove strict plurisubharmonicity off the axis. On compact subsets in $x$, $(r-1)L^s$ tends uniformly to $-\infty$ as $y\to0$ and is locally bounded above. Its $-\infty$ extension is psh by exactly the polar-removal input used in Example 13.2.9. At $(x_0,0)$, the supremum on balls of radius $\rho$ has negative growth of order $(\log(1/\rho))^s$, hence its ratio to $\log\rho$ tends to zero because $s<1$. Thus every axial Lelong number vanishes.
 
-For smooth complex Hessians `H_a,H_b`, the mixed coefficient is the **polarization** of determinant, not the product of two determinants:
-[
-egin{aligned}
-D(H_a,H_b)&=(H_a)_{xar x}(H_b)_{yar y}
-+(H_b)_{xar x}(H_a)_{yar y}\
-&quad -(H_a)_{xar y}(H_b)_{yar x}
- -(H_b)_{xar y}(H_a)_{yar x}\
-&=rac{A(1-r)-2ab r}{4|y|^2}L^{a+b-2}.
-end{aligned}
-]
-The coefficient `B_{a,b}(r)>0` because the two Hessians are positive definite. With `dd^c=(i/2π)∂∂bar`, the wedge density equals `D(H_a,H_b)/π²`; setting `b=a` recovers `2det(H_a)/π²`, verifying the normalization against the old square-model audit.
+For smooth Hessians $H_a,H_b$, the **polarization of determinant** gives the mixed coefficient
+\[
+\begin{aligned}
+D(H_a,H_b)
+&=(H_a)_{x\bar x}(H_b)_{y\bar y}
+ +(H_b)_{x\bar x}(H_a)_{y\bar y}\\
+&\quad -(H_a)_{x\bar y}(H_b)_{y\bar x}
+ -(H_b)_{x\bar y}(H_a)_{y\bar x}\\
+&=\frac{[a(1-a)+b(1-b)](1-r)-2ab\,r}
+       {4|y|^2}L^{a+b-2}.
+\end{aligned}
+\]
+It is strictly positive because the two Hessians are positive definite. In Pome's convention $dd^c=(i/2\pi)\partial\bar\partial$, the mixed smooth wedge has density $D(H_a,H_b)/\pi^2$ relative to $dA(x)dA(y)$. At $a=b$, $D(H_a,H_a)=2\det H_a$, recovering Eq. 7.2.4 and the registered diagonal audit exactly.
 
-For every compact set disjoint from the axis, sufficiently high Bedford–Taylor truncations agree with the smooth psh functions, hence with the displayed mixed wedge. Plurifine locality ensures the cutoff limit agrees there. The axis is pluripolar and, by Lemma 13.2.2, the cutoff measure assigns it zero outer mass. Thus the formula for `dmu_{a,b}` is exact on the finite locus and on the whole domain after zero extension, whether or not it is locally finite.
+By bounded Bedford–Taylor plurifine locality, every high enough truncated mixed product agrees with this smooth wedge on a compact set away from the polar axis. The cutoff-limit measure gives zero mass to the axis and therefore coincides with this density extended by zero; here no **a priori** assertion of local finiteness is needed, only the increasing Borel trace measures supplied in §13.2.
 
-Polar coordinates `y=ho e^{iartheta}`, `t=-logho`, give
-[
-int_{0<|y|le e^{-T}}rac{dA(y)}{|y|^2L^{2-a-b}}
-=2piint_T^infty t^{a+b-2},dt.
-]
-The integral is finite **exactly for `a+b<1`**. Integrating `B_{a,b}(r)` in `x` over `|x|le R` gives
-[
-int_{|x|le R}B_{a,b}(|x|^2),dA(x)
-=pileft(A R^2-rac{A+2ab}{2}R^4ight).
-]
-Multiplying proves the boxed exact cylinder mass. For `a+bge1` that same positive density has infinite mass near every point of the axis. This is precisely failure of the trace-bound criterion Eq. 13.2.3, whereas when `a+b<1` local density integrability verifies it.
+The decisive integral is
+\[
+\int_{0<|y|\le e^{-T}}\frac{dA(y)}{|y|^2 L^{2-a-b}}
+=2\pi\int_T^\infty t^{a+b-2}\,dt.
+\]
+It converges exactly for $a+b<1$, where it equals
+$2\pi T^{a+b-1}/(1-a-b)$. The remaining factor integrates over the $x$-disk to
+\[
+\int_{|x|\le R}B_{a,b}(|x|^2)\,dA(x)
+=\pi\left[A R^2-\frac{A+2ab}{2}R^4\right].
+\]
+Multiplication proves the exact displayed cylinder formula. For $a+b\ge1$ the positive integral diverges on any cylinder centered on the axis. The equivalence with the trace criterion Eq. 13.2.3 now establishes the locally finite versus infinite dichotomy.
 
-## Nontrivial mixed-versus-diagonal distinction
+**Genuinely mixed phenomenon:** choose $a=1/8$, $b=3/4$ and $c<1/4$. Then $a+b=7/8<1$, so the mixed product is locally finite, while $2b=3/2>1$ and the **self-product of $u_b$ is not**. Thus existence of a mixed product cannot be inferred from local finiteness of *each diagonal product* in the converse direction; neither zero Lelong numbers nor first-degree local finiteness is sufficient to guarantee a self-product. This is new relative to the diagonal-only October 30 finding `POME-NPP-POWER-SINGULARITY-THRESHOLD-001`, whose status is unchanged.
 
-Take **`a=1/8`**, **`b=3/4`**, and `0<c<1/4`. Then **`a+b=7/8<1`**, so the **mixed** product is locally finite, while **`2b=3/2>1`**, so the **self-product of `u_b` is not**. Conversely, taking `a=b=3/4` leaves both Lelong numbers zero but makes the mixed product non-locally-finite. The first example is **not obtainable from the former diagonal power threshold alone without a new mixed polarization computation**.
+## Classification and boundaries
 
-## Classification, dependency boundary and proposed annotation
+**Verified conditional deduction / low:** no false printed statement, no proof gap newly claimed, no duplicate canonization proposed. The calculation is self-contained once the established psh extension, bounded BT locality, smooth determinant formula and §13.2 trace criterion are granted; **their full upstream proofs are not certified by this model**.
 
-**Status: verified conditional deduction; severity: low.** Original Lemma 13.2.2, Proposition 13.2.6, Example 13.2.9, and the earlier `POME-NPP-POWER-SINGULARITY-THRESHOLD-001` retain their prior statuses. No theorem is claimed false, no general integration-by-parts/Bedford–Taylor construction is independently certified. The only invoked upstream mathematics is psh extension across a polar hypersurface, bounded BT locality, smooth `dd^c` determinant polarization and the existing local-finiteness criterion. All are nonexcluded internal dependencies.
+**Proposed correction (not applied):** optional short mixed-parameter remark following Example 13.2.9, highlighting the strict sum threshold, exact wedge density, and the $a=1/8,b=3/4$ distinction. **Affected dependent contexts:** §§13.2–13.5 local finiteness and multilinearity; §13.14 global products; any energy argument using mixed products. All old unresolved and external-dependency ledgers remain unchanged.
 
-**Proposed source-body change (not applied):** optionally add an adjacent mixed-parameter remark after Example 13.2.9, stating the strict threshold `a+b<1` and emphasizing that one mixed product may exist while a diagonal product does not. Potential dependents: definition and multilinearity of products in §§13.2–13.5, local-to-global assumptions in §13.14, and energy products relying on local finiteness; none is newly certified or invalidated.
-
-**Actual scope:** incremental proof-level visit to **§13.2, Lemma .2, Proposition .6, Example .9**, with §13.3.1 used only as conditional background. This was already a previously visited numbered section: **0 newly first-visited sections, 0 whole-section certifications**. Existing ToC inventory remains **25 chapters / 747 sections**. The owner-deferred Demailly approximation/regularization and dedicated Bergman, L², Ohsawa–Takegoshi, multiscale-atlas and positivity-loss work was not reopened. No build, CI, publication, source, registry, or permanent-tag change.
+**Actual coverage:** new computation of the selected §13.2.2/.6/.9 passages, with contextual §13.3.1 and Eq. 7.2.4. §13.2 was already partially reviewed: **0 first-visited numbered sections, 0 fully certified sections**, actual ToC **25 chapters / 747 sections**. Demailly approximation/regularization and its dedicated Bergman, L², Ohsawa–Takegoshi, multiscale atlas and positivity-loss proof programme remain **deferred-by-user**, neither reopened nor certified. No source/body, tags, registry, main, website, build, CI or formalization changes.
