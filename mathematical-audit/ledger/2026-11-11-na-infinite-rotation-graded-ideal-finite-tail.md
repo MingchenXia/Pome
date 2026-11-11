@@ -12,7 +12,7 @@ I=\bigoplus_{j=0}^{D-1}J_jt^j\ \oplus\ J_Dt^DR[t].
 \]
 The terminal `I_m(t^m)` in printed (22.1.95) is read as this **full tail ideal**, not just one homogeneous degree.
 
-**Sharp boundaries:** the **previously established** finite-order rotation obstruction (not counted again) is (`I=(t^q-1)⊂C[t]`); **new explicit non-fg boundary**: without finite generation the eventual-stabilization claim fails (`R=C[x_1,x_2,\ldots]`, `I=(x_jt^j:j≥1)`, `J_j=(x_1,\ldots,x_j)`). These refute weakened variants, **not** printed Lemma 22.1.94.
+**Sharp boundaries:** the **previously established** finite-order rotation obstruction (not counted again) is `I=(t^q-1)⊂C[t]`; **new explicit non-fg boundary**: without finite generation the eventual-stabilization claim fails (`R=C[x_1,x_2,\ldots]`, `I=(x_jt^j:j≥1)`, `J_j=(x_1,\ldots,x_j)`). These refute weakened variants, **not** printed Lemma 22.1.94.
 
 **Proposed optional clarification:** display the tail and mention one-infinite-order-scaling criterion, preserving all existing wording, source attribution, permanent tags and alternate valid forms. **Potential dependent:** Proposition 22.1.98's construction of finitely many coherent coefficient ideal sheaves (22.1.99). Analytic gluing/GAGA (Lemma 22.1.96) is an **external dependency**, not certified or replaced here; no claim that the full non-Archimedean theorem is proved.
 
