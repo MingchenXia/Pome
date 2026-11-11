@@ -81,7 +81,7 @@ The representation also shows directly that the Green potential is positive and 
  =\gamma(1-\gamma)\int_1^\infty
  (s^\gamma+\gamma-1)^q s^{\gamma-2}\,ds.
 \]
-The integrand is asymptotic to (\gamma(1-\gamma)s^{\gamma(q+1)-2}\); the power-integral criterion gives the stated strict threshold, including divergence at equality. At $q=1$ and $0<\gamma<1/2$ the integral is explicitly
+The integrand is asymptotic to $\gamma(1-\gamma)s^{\gamma(q+1)-2}$; the power-integral criterion gives the stated strict threshold, including divergence at equality. At $q=1$ and $0<\gamma<1/2$ the integral is explicitly
 \[
  \gamma(1-\gamma)\left(\frac1{1-2\gamma}
             +\frac{\gamma-1}{1-\gamma}\right)
@@ -97,7 +97,7 @@ which agrees exactly with the energy formula when finite.
 
 ## Mathematical classification and integration proposal
 
-**Status:** verified conditional deduction, **low** severity. The displayed Green-kernel calculation is self-contained once the unnormalized planar disk Green formula is fixed. It verifies an explicit model of printed **Example 4.5.5** and its compatibility with Theorem 4.5.2's no-polar-mass statement: (\mu_\gamma(\{0\})=0\), even though (U_\gamma(0)=+\infty\). Neither the general finite-energy equivalence nor the general Martin-boundary and balayage results are certified by this example. There is **no confirmed source error, no proof gap in Example 4.5.5, and no duplicate theorem claim**.
+**Status:** verified conditional deduction, **low** severity. The displayed Green-kernel calculation is self-contained once the unnormalized planar disk Green formula is fixed. It verifies an explicit model of printed **Example 4.5.5** and its compatibility with Theorem 4.5.2's no-polar-mass statement: $\mu_\gamma(\{0\})=0$, even though $U_\gamma(0)=+\infty$. Neither the general finite-energy equivalence nor the general Martin-boundary and balayage results are certified by this example. There is **no confirmed source error, no proof gap in Example 4.5.5, and no duplicate theorem claim**.
 
 **Proposed optional insertion (not applied):** after Example 4.5.5, give the explicit radial density and potential, note the $C^1$ gluing at $r=e^{-1}$, and state the sharp $q$-moment criterion. Preserve the original capacity construction, its attribution, source tag and permanent tag; the new example is complementary rather than a replacement.
 
