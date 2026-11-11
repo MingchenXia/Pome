@@ -1,0 +1,12 @@
+# Exact coverage increment — 2026-11-11 — §15.26 real Riesz-energy threshold
+
+**Reviewed main** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Section 15.26** “Singular measures on shrinking spheres” already had partial proof-level coverage from October 2026: **+0 first numbered-section visits**, **+0 entire-section certifications**. Current actual ToC **25 chapters / 747 numbered sections**. This is a *selected new computation*, not a section-wide review.
+
+| Printed reading edition / precise scope | Anchors (all at immutable main above) | Actual new mathematics | Boundary |
+| --- | --- | --- | --- |
+| Eq. **15.26.1**, Proposition **15.26.2**: precise geometric radii, normalized sphere measures and weights; proof's non-pluripolarity and Hölder dominant potential | `docs/sections/equations-with-prescribed-singularities--singular-measures-on-shrinking-spheres/index.html`, blob `354dfdf5224fac8896103ec09aa5936351021914`, lines **10–23, 27–65**; source `non-kahler-pluripotential-theory:4C0F3404` / permanent `938F2C76C18A`, source `:92442012` / permanent `8F3C95237950` | Complete independent Euclidean self/cross Riesz-energy calculation, exact `s<n` criterion and local exponents `n/2` at 0, `2n-1` on shells. Report ID **POME-SPHERE-RIESZ-ENERGY-THRESHOLD-001**, **low / verified conditional deduction**. | The general Bedford–Taylor/Monge–Ampère identity and global Hölder construction are printed inputs, **not** independently certified. |
+| Corollary **15.26.3**, Theorem **15.26.4** | source `:BBB972F3` / permanent `AB5B44EC4BDD` lines **70–81**; source `:7EBE40DC` / permanent `6076D6F3256C` lines **85–103** | Context only: the specific `nu=rho` solvability conclusion does not require finite Newtonian self-energy. | Conditional on cited §15.25.1 and §15.10.1. No check of their general existence proofs. |
+
+[Complete independent proof](../reports/2026-11-11-shrinking-sphere-riesz-energy-multifractal.md) · [stable classified ledger](../ledger/2026-11-11-shrinking-sphere-riesz-energy.md).
+
+**Historical overlap excluded:** the 2026-10-18 sphere MA normalization and 2026-10-25 Hölder ball mass exponent findings are not counted anew. No new false printed theorem, no source repair, no new external mathematical input. **Demailly approximation/regularization, Bergman, weighted-L², Ohsawa–Takegoshi, multiscale-atlas and positivity-loss proof-completion work remains deferred-by-user, neither resolved nor certified.** No build, tests, CI, formalization, production publication, or main/source/registry/permanent-tag modifications.
