@@ -1,3 +1,7 @@
+> **2026-11-12 additive coverage (selected §18.27):** POME-IDEAL-SMALLCURV-DIFFUSE-GREEN-THRESHOLD-001 tests unbounded zero-Lelong Green residuals and proves the sharp finite-divisor threshold a>Σ_iλ_i on P¹. [Report](reports/2026-11-12-small-curvature-diffuse-green-multipole-threshold.md) · [ledger](ledger/2026-11-12-small-curvature-diffuse-green-multipole-threshold.md) · [exact scope](coverage/2026-11-12-ch18-small-curvature-diffuse-green-threshold.md). Main b6933b772f41b45918f7e25ed1afbbb1fd892272; §18.27 previously partially covered: +0 first visits, +0 full certifications; 25 chapters/747 sections. Excluded regularization remains **deferred-by-user**.
+
+---
+
 > Integration status — 18 October 2026: the audit branch has been incorporated into `main`. Confirmed capacity and placement defects are repaired; see [the integration report](reports/2026-10-18-integrated-corrections.md). Demailly approximation and its dedicated prerequisite audit remain deferred by the author. Older priorities, branch-only restrictions, and scheduling descriptions below are historical, not current instructions. This integration does not certify the unreviewed chapters or every external dependency.
 
 # Broad-scope coverage ledger — 17 October 2026
