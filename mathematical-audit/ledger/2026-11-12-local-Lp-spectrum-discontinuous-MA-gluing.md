@@ -1,0 +1,9 @@
+# Classified finding — 2026-11-12 — sharp local density spectrum
+
+| Stable ID | Severity | Status | What is established | Optional correction | Affected dependents |
+|---|---|---|---|---|---|
+| \`POME-MA-GLUING-LOCAL-LP-SPECTRUM-001\` | low | **verified conditional deduction** (printed Lemma 15.21.8 and Theorem 15.21.12 not refuted) | For each isolated transition pole \`a_k\` in the compact discontinuous Monge–Ampère gluing, \`F(z,w)\asymp_k |z-a_k|^{-2(1-\alpha_k)}\` on a small product neighborhood, \`p_k^*=1/(1-\alpha_k)\` is the exact strong \`L^p\` threshold, and \`F\in L^{p_k^*,\infty}\setminus L^{p_k^*}\`; at the accumulation point, no local \`L^p\` with \`p>1\` holds | Optional explanatory remark after Theorem 15.21.12; **no theorem repair or source edit** | Sharp local regularity of the explicit example; the existing global \`L^p\` failure remains valid |
+
+Main \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; integrated \`docs/sections/equations-with-prescribed-singularities--local-density-and-boundary-control/index.html\`, blob \`44fa705661cd5778904e1b9a6ea7299fb19e13ff\`; Lemma 15.21.8 source \`non-kahler-pluripotential-theory:09B4FC75\`, tag \`5E22269BEE55\`, lines 79–141; Theorem 15.21.12 source \`:A866D6A3\`, tag \`5FC2412C22E9\`, lines 153–232. [Complete mathematical proof](../reports/2026-11-12-local-Lp-spectrum-discontinuous-MA-gluing.md) · [exact additive coverage](../coverage/2026-11-12-ch15-transition-local-lp-spectrum.md).
+
+**Distinct from:** previously reported lower bound/global non-\`L^p\` in the printed proof, and \`POME-CONSTANT-MA-DISCONTINUITY-DIMENSION-001\` (dimension/product extension, 2026-10-27). Existing confirmed errors, proof gaps, repairs and conditional deductions retain their statuses. **Deferred-by-user** (unchanged, neither resolved nor certified): Demailly approximation/regularization and the dedicated Bergman, L², OT, multiscale-atlas, and positivity-loss programme.
