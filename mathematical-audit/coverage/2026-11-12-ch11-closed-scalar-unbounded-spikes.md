@@ -1,0 +1,16 @@
+# Incremental actual coverage — 2026-11-12 — Chapter 11 closed scalar tails
+
+**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Stable finding:** \`POME-SCALAR-VITALI-UNBOUNDED-SPIKE-001\` — low / **verified conditional deduction**, not a printed error. [Proof](../reports/2026-11-12-closed-scalar-vitali-shrinking-spikes.md); [ledger](../ledger/2026-11-12-closed-scalar-vitali-shrinking-spikes.md).
+
+| Numbered section | Current integrated file / blob | Exact newly examined material | Extent and status |
+| --- | --- | --- | --- |
+| §11.32 | \`docs/sections/normalization-and-weak-adjoint-measures/index.html\` / \`031b5d62d25d7ff03d95e4a14988399527cc946a\` | Standing connected compact Kähler-compatible hypotheses, model reference and normalization convention at physical line 7, section permanent \`7091FEDB43F0\` | Prior contextual read; scope only; **no proof-level visit credited** |
+| §11.33 | \`docs/sections/normalization-and-weak-adjoint-measures--the-scalar-functional/index.html\` / \`fff86de757578ed2be369ba752123f62f3d31044\` | Eq. 11.33.1 source/permanent \`non-kahler-pluripotential-theory:19974F5F / 9D47DB96B6E3\`, physical 10–20; Theorem 11.33.5 \`:D502EBBF / 5E3583383688\`, physical 89–116; actual common \(L^\infty\) hypothesis, proof's exponential Lipschitz step and proposed closed-case replacement criterion | **Selected proof-level revisit; already previously partially reviewed**, not whole-section proof certification |
+| §11.37 | \`docs/sections/normalization-and-weak-adjoint-measures--entropy-and-the-closed-case/index.html\` / \`0710d0732ae7ef81de3d3d62206a0f9c6b5d321f\` | Exact mass/log-partition and adjoint probability Eq. 11.37.2 source/permanent \`non-kahler-pluripotential-theory:65FF799F / 803909FECEC0\`, physical 54–61 | **Selected proof-level revisit; already previously partially reviewed**, general fixed-mass theorem conditional |
+| §§11.34–35 | No new integrated full-proof inspection | Downstream supporting probabilities and their convex dual only identified as possible mistaken extrapolation targets | **Dependency crosscheck only**, no new proof-level credit |
+
+**Actual incremental totals:** first proof-level visited numbered sections **+0**; fully mathematically certified sections **+0**. Baseline current table of contents **25 chapters, 747 numbered sections**. This is not project-level, chapter-level or full-section certification.
+
+**Mathematical scope:** exact Vitali/Scheffé equivalence for *sequences* of individually bounded inputs converging in measure, plus explicit \(\mathbb P^1\) positive and negative shrinking-cap spikes; radial potential formula verifies existence for the counterexample independently. The earlier sharp **common-L∞-box** Lipschitz and Gibbs/KL findings are not repeated. General Hermitian MA existence, singular comparison and other §11 results remain unverified; deferred-by-user Demailly approximation/regularization and its dedicated Bergman/\(L^2\)/OT/multiscale/positivity-loss programme was not inspected.
+
+**Edits:** audit Markdown on \`review/mathematical-audit\` only. No modifications to mathematical body, source repos, main, canonicalization, registry or permanent tags; no build, tests, Actions, or website publication.
