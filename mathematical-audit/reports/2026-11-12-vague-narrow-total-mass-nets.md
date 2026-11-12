@@ -1,16 +1,16 @@
 # Exact vague-to-narrow criterion for positive Radon nets
 
-**Date:** 2026-11-12 (Asia/Shanghai). **Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-**Finding:** \`POME-MEASURE-VAGUE-MASS-NARROW-NET-001\` — **low / verified conditional deduction**.
+**Date:** 2026-11-12 (Asia/Shanghai). **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+**Finding:** `POME-MEASURE-VAGUE-MASS-NARROW-NET-001` — **low / verified conditional deduction**.
 **Scope:** new proof-level examination of the integrated §2.6, especially Propositions 2.6.2–2.6.3; context checks of Proposition 2.6.1, Example 2.6.4, and Theorem 2.6.5. The printed statements are **not refuted**.
 
 ## Exact integrated provenance
 
-- Reading-edition file: \`docs/sections/measures-and-distributions--weak-convergence-of-measures/index.html\`, main blob \`45720b2399a645a1a9a8148873fdc01c634fc5d7\`.
-- Proposition **2.6.2**, source \`foundations-of-pluripotential-theory:6031A2A1\`, permanent tag \`132090FCDF4A\`, physical lines **37–55**: open-set liminf and compact-set limsup for vague **nets**.
-- Proposition **2.6.3**, source \`foundations-of-pluripotential-theory:A9ED3F7E\`, permanent tag \`54258F39AC23\`, physical lines **57–72**: eventual uniform tightness plus vague convergence implies finite narrow limit.
-- Example **2.6.4**, source \`foundations-of-pluripotential-theory:B49233FD\`, permanent tag \`81B4A3D092FF\`, physical lines **75–77**: positive escape-of-mass examples, **not newly registered** here.
-- Theorem **2.6.5**, source \`foundations-of-pluripotential-theory:C9B16608\`, permanent tag \`F9F4241C5BD2\`, physical lines **80–102**: diagonal extraction for **sequences**, not automatically nets.
+- Reading-edition file: `docs/sections/measures-and-distributions--weak-convergence-of-measures/index.html`, main blob `45720b2399a645a1a9a8148873fdc01c634fc5d7`.
+- Proposition **2.6.2**, source `foundations-of-pluripotential-theory:6031A2A1`, permanent tag `132090FCDF4A`, physical lines **37–55**: open-set liminf and compact-set limsup for vague **nets**.
+- Proposition **2.6.3**, source `foundations-of-pluripotential-theory:A9ED3F7E`, permanent tag `54258F39AC23`, physical lines **57–72**: eventual uniform tightness plus vague convergence implies finite narrow limit.
+- Example **2.6.4**, source `foundations-of-pluripotential-theory:B49233FD`, permanent tag `81B4A3D092FF`, physical lines **75–77**: positive escape-of-mass examples, **not newly registered** here.
+- Theorem **2.6.5**, source `foundations-of-pluripotential-theory:C9B16608`, permanent tag `F9F4241C5BD2`, physical lines **80–102**: diagonal extraction for **sequences**, not automatically nets.
 - Additional internal dependencies: §2.2 Radon inner regularity and compact cutoffs, and §2.6.2–3 as above. None is declared transitively certified.
 
 ## The exact three-way equivalence (new deduction)
