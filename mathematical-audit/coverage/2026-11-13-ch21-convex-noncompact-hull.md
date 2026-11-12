@@ -1,0 +1,13 @@
+# Selected proof-level coverage — 2026-11-13 — Chapter 21 / §21.6
+
+**Current production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Actual current navigation:** 25 chapters / 747 numbered sections; do not infer whole-project coverage from this selected review.
+
+| Location | Stable provenance and permanent tag | Exact source | What was checked | Status / remaining work |
+| --- | --- | --- | --- | --- |
+| §21.6 / Lemma 21.6.1 | \`foundations-of-pluripotential-theory:30FFD831\` / \`FCDAD9CEC8CE\` | \`docs/sections/convex-analysis-and-toric-potentials--compact-convex-envelopes-and-full-mass-limits/index.html\` blob \`b3b4e34fff767a717df812a381f905589b257fb3\`, statement physical lines **10–12**, proof **14–30** | Inspected the compact-domain use, its lower-bound argument, the barycentric subsequence step and duality conclusion; derived explicit two-function noncompact counterexample with *both* lsc and attainment failures, plus exact biconjugate | \`POME-CONVEX-NONCOMPACT-HULL-NONATTAIN-001\`: low / **verified conditional deduction**; printed lemma **not false**. This is a scope sharpness check, not whole-lemma dependency certification |
+| §21.3 / Proposition 21.3.3(2) | \`foundations-of-pluripotential-theory:E93FCB56\` / \`53A9D470F1AC\` | \`docs/sections/convex-analysis-and-toric-potentials--legendre-duality-and-convex-envelopes/index.html\` blob \`347fa1f0fc35c13b1d1c45193ab997ed456966e4\`, starting line **64**, convexification proof through **122** | Independently matched finite-combination infimum to the explicit unbounded epigraph example | Conditional internal comparison; no certification of all of §21.3 |
+| §21.3 / Theorem 21.3.2 | \`foundations-of-pluripotential-theory:DD2DB654\` / \`011FA81B0000\` | Same §21.3 file, statement physical line **24** | Directly computed \(H^{**}\), using elementary polar-quadrant conjugacy | Conditional context only |
+
+**Precise increment:** §21.6 had prior selected audit of §21.6.2 (narrow vs Wasserstein), which is **not** counted again. Newly checked paragraph cluster of §21.6.1, **+0 newly first-visited numbered sections; +0 fully certified sections**. The other 746 sections and unsampled parts of §21.6 are not being claimed as rechecked here. [Detailed proof](../reports/2026-11-13-noncompact-convex-envelope-nonattainment.md) · [classified ledger](../ledger/2026-11-13-noncompact-convex-envelope-nonattainment.md).
+
+**Deferred-by-user remains unchanged:** Demailly approximation/regularization and its dedicated Bergman, \(L^2\), OT, atlas and positivity-loss completion programme. Notes-only audit, no production/source/registry/CI/build/site writes.
