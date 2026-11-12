@@ -3,13 +3,13 @@
 **Date:** 2026-11-13  
 **Stable finding:** POME-CONVEX-NONCOMPACT-HULL-NONATTAIN-001  
 **Severity / status:** low / **verified conditional deduction** (sharp scope counterexample; **not** an error in the printed lemma).  
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 
 ## Exact integrated anchors
 
-- \`docs/sections/convex-analysis-and-toric-potentials--compact-convex-envelopes-and-full-mass-limits/index.html\`, blob \`b3b4e34fff767a717df812a381f905589b257fb3\`; **Lemma 21.6.1**, source \`foundations-of-pluripotential-theory:30FFD831\`, permanent tag \`FCDAD9CEC8CE\`, statement physical lines **10–12**, replacement/reading proof **14–30** (in particular compactness and lower-bound use lines **17–25**).
-- \`docs/sections/convex-analysis-and-toric-potentials--legendre-duality-and-convex-envelopes/index.html\`, blob \`347fa1f0fc35c13b1d1c45193ab997ed456966e4\`; **Proposition 21.3.3(2)**, source \`foundations-of-pluripotential-theory:E93FCB56\`, permanent tag \`53A9D470F1AC\`, starting physical line **64** and convexification proof through **122**; **Theorem 21.3.2**, source \`foundations-of-pluripotential-theory:DD2DB654\`, permanent tag \`011FA81B0000\`, statement line **24**.
-- Current main \`docs/navigation.json\` has **25 chapters and 747 numbered sections**. This run reviewed the *selected proof and its sharp noncompact scope*, not the complete section or its entire dependency chain.
+- `docs/sections/convex-analysis-and-toric-potentials--compact-convex-envelopes-and-full-mass-limits/index.html`, blob `b3b4e34fff767a717df812a381f905589b257fb3`; **Lemma 21.6.1**, source `foundations-of-pluripotential-theory:30FFD831`, permanent tag `FCDAD9CEC8CE`, statement physical lines **10–12**, replacement/reading proof **14–30** (in particular compactness and lower-bound use lines **17–25**).
+- `docs/sections/convex-analysis-and-toric-potentials--legendre-duality-and-convex-envelopes/index.html`, blob `347fa1f0fc35c13b1d1c45193ab997ed456966e4`; **Proposition 21.3.3(2)**, source `foundations-of-pluripotential-theory:E93FCB56`, permanent tag `53A9D470F1AC`, starting physical line **64** and convexification proof through **122**; **Theorem 21.3.2**, source `foundations-of-pluripotential-theory:DD2DB654`, permanent tag `011FA81B0000`, statement line **24**.
+- Current main `docs/navigation.json` has **25 chapters and 747 numbered sections**. This run reviewed the *selected proof and its sharp noncompact scope*, not the complete section or its entire dependency chain.
 
 ## Question being tested
 
