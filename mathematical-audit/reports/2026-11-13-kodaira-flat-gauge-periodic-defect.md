@@ -1,15 +1,15 @@
 # Parametric Kodaira LCK flat gauges: exact Gauduchon criterion and unbounded divergence
 
-**Finding:** \`POME-KODAIRA-FLAT-GAUDUCHON-FREQUENCY-001\`
+**Finding:** `POME-KODAIRA-FLAT-GAUDUCHON-FREQUENCY-001`
 **Classification:** low / **verified conditional deduction**. Printed Example 23.2.53 and Theorem 23.2.47 are **not** contradicted. The parametric construction, flat-gauge uniqueness, and divergence are checked directly. The optional antisymmetric-Hessian norm comparison invokes printed Theorem 23.2.47 *conditionally*, without certifying its entire proof.
 
 ## Provenance, precise scope and anchors
 
-- Production \`main\` commit: \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-- Integrated reading edition: \`docs/sections/locally-conformally-kahler-geometry/index.html\`, blob \`6ebf8e604b45d3eb748037af506145273ca3875d\`.
-- Example 23.2.53: source \`non-kahler-pluripotential-theory:F3D1120B\`, permanent tag \`E37387C4675B\`. Statement physical lines 906–908; quotient and complex structure 913–937; invariant metric 939–951; flat conformal gauge 953–965; printed numerical instance 967–979; conformal uniqueness 981–982.
-- Theorem 23.2.47: source \`non-kahler-pluripotential-theory:C87CCD5B\`, permanent tag \`C4981F6B1F78\`; statement lines 785–795 and integrated Bianchi/Bochner argument 799–889.
-- Definition 23.2.2 (Lee convention): source \`non-kahler-pluripotential-theory:FE5EDE37\`, permanent tag \`48F6C713AFE3\`, lines 22–28.
+- Production `main` commit: `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+- Integrated reading edition: `docs/sections/locally-conformally-kahler-geometry/index.html`, blob `6ebf8e604b45d3eb748037af506145273ca3875d`.
+- Example 23.2.53: source `non-kahler-pluripotential-theory:F3D1120B`, permanent tag `E37387C4675B`. Statement physical lines 906–908; quotient and complex structure 913–937; invariant metric 939–951; flat conformal gauge 953–965; printed numerical instance 967–979; conformal uniqueness 981–982.
+- Theorem 23.2.47: source `non-kahler-pluripotential-theory:C87CCD5B`, permanent tag `C4981F6B1F78`; statement lines 785–795 and integrated Bianchi/Bochner argument 799–889.
+- Definition 23.2.2 (Lee convention): source `non-kahler-pluripotential-theory:FE5EDE37`, permanent tag `48F6C713AFE3`, lines 22–28.
 - Only selected new proof steps of §23.2.53 are certified here. All other LCK cases, full Theorem 23.2.47 proof, and every user-excluded regularization/Bergman/L²/OT/multiscale/positivity-loss programme are out of scope.
 
 ## Exact new statement
