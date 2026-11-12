@@ -1,0 +1,9 @@
+# Classified mathematical-audit ledger — 2026-11-13 — Hirzebruch polarization wall
+
+| Stable ID | Severity | Status | Printed statement / scope | Verified additional claim | Proposed action | Dependencies / remaining gaps |
+| --- | --- | --- | --- | --- | --- | --- |
+| \`POME-HIRZ-POLARIZATION-UNIVERSAL-STABILITY-WALL-001\` | low | **verified conditional deduction** | Prop. 11.14.1 \`non-kahler-pluripotential-theory:D386B065\` / permanent \`A195B6162A49\`, lines 25–86; fixed-\(P\) theorem **correct** | On \(X=\mathbb F_0\), across all nonsplit extensions and ample real \(uS+vf\), exact worst-case margin \(\min\{3(u-v),3v-2u\}\) and universal stability iff \(2u/3<v<u\). Lower wall controlled by \(\ker(H^1(6,-6)\to H^1(6,-5))\). | Optional independent remark/PR, **not** a production-source change; preserve original result and older distinct fixed-polarization finding | Standard \(\mathbb P^1\) cohomology, Künneth, Serre duality, Hartogs and §11.13 effective cone. Theorem 11.15.5's Walter-stack input is a distinct **external dependency** and is **not** certified |
+
+**Production main SHA:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Full report:** [2026-11-13-hirzebruch-polarization-universal-stability-wall.md](../reports/2026-11-13-hirzebruch-polarization-universal-stability-wall.md). **Actual coverage:** [2026-11-13-ch11-hirzebruch-polarization-wall.md](../coverage/2026-11-13-ch11-hirzebruch-polarization-wall.md).
+
+**Ledger reconciliation:** Distinct from \`POME-HIRZ-EXT-SLOPE-JUMP-001\` (2026-11-11 fixed \(P=4S+3f\), dimensions and stratification of special extension classes); no old calculation or claim is relabeled as new. Existing resolved/unresolved/external/deferred entries unchanged. Demailly approximation/regularization, dedicated Bergman/\(L^2\)/OT/multiscale/positivity-loss work remains **deferred-by-user**. No change to main, source text, registries or tags.
