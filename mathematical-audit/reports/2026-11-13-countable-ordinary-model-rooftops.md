@@ -1,29 +1,29 @@
 # Countable rooftops and finite intersection of zero sets for ordinary models
 
-**Date:** 2026-11-13. **Finding ID:** \`POME-ROOFTOP-COUNTABLE-MODEL-FIP-001\`.
+**Date:** 2026-11-13. **Finding ID:** `POME-ROOFTOP-COUNTABLE-MODEL-FIP-001`.
 **Classification:** low; **verified conditional deduction**. No false printed
 statement has been found here. This note is a new countable-family corollary,
 not an audit certification of all of §13.23 or its prerequisites.
 
 ## Immutable reviewed source
 
-- Production \`main\`: \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+- Production `main`: `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 - Integrated reading page:
-  \`docs/sections/volumes-under-bounded-mass--rooftops-and-capacity-convergence/index.html\`,
-  blob \`2b0162752e9800061002119630703701c814a2ec\`.
+  `docs/sections/volumes-under-bounded-mass--rooftops-and-capacity-convergence/index.html`,
+  blob `2b0162752e9800061002119630703701c814a2ec`.
 - Finite rooftop Lemma 13.23.1, source
-  \`non-kahler-pluripotential-theory:126FCF2C\`, permanent
-  \`2B568CD72F9D\`: physical lines 10–42 (hypotheses 11–15,
+  `non-kahler-pluripotential-theory:126FCF2C`, permanent
+  `2B568CD72F9D`: physical lines 10–42 (hypotheses 11–15,
   finite-level argument 20–42).
-- Proposition 13.23.2, source \`non-kahler-pluripotential-theory:06C3A6D1\`,
-  permanent \`1542F41C8A51\`: lines 49–90 (context only).
+- Proposition 13.23.2, source `non-kahler-pluripotential-theory:06C3A6D1`,
+  permanent `1542F41C8A51`: lines 49–90 (context only).
 - Theorem 13.23.3, source
-  \`non-kahler-pluripotential-theory:0A2EE475\`, permanent
-  \`7D5F8FB5CFAB\`: lines 97–160, especially the verified finite-rooftop
+  `non-kahler-pluripotential-theory:0A2EE475`, permanent
+  `7D5F8FB5CFAB`: lines 97–160, especially the verified finite-rooftop
   ordinary-model argument in line 112 and normalized decreasing models
   in line 157.
 - Chapter assumptions in
-  \`docs/sections/volumes-under-bounded-mass/index.html\` line 20:
+  `docs/sections/volumes-under-bounded-mass/index.html` line 20:
   connected compact complex \(X\) of dimension \(n\ge1\) with the bounded
   mass property and big smooth real \((1,1)\)-form \(\theta\), not necessarily
   closed. The restricted curve-background change from §13.28 is irrelevant.
@@ -140,7 +140,7 @@ inequalities.
 
 ## Classification and follow-up
 
-- **Finding:** \`POME-ROOFTOP-COUNTABLE-MODEL-FIP-001\`.
+- **Finding:** `POME-ROOFTOP-COUNTABLE-MODEL-FIP-001`.
 - **Severity / status:** low / **verified conditional deduction**, with
   an explicit scope counterexample for **non-model** obstacles;
   no confirmed error in Lemma 13.23.1, Proposition 13.23.2 or

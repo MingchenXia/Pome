@@ -1,14 +1,14 @@
 # Classified audit ledger — 2026-11-13 — countable ordinary-model rooftops
 
-- **ID:** \`POME-ROOFTOP-COUNTABLE-MODEL-FIP-001\`.
+- **ID:** `POME-ROOFTOP-COUNTABLE-MODEL-FIP-001`.
 - **Status:** **verified conditional deduction**; **severity low**.
-- **Source:** production main \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`,
-  \`docs/sections/volumes-under-bounded-mass--rooftops-and-capacity-convergence/index.html\`
-  (blob \`2b0162752e9800061002119630703701c814a2ec\`), Lemma 13.23.1
-  \`non-kahler-pluripotential-theory:126FCF2C\` /
-  \`2B568CD72F9D\`, lines 10–42; Theorem 13.23.3
-  \`non-kahler-pluripotential-theory:0A2EE475\` /
-  \`7D5F8FB5CFAB\`, especially 112 and 157.
+- **Source:** production main `b6933b772f41b45918f7e25ed1afbbb1fd892272`,
+  `docs/sections/volumes-under-bounded-mass--rooftops-and-capacity-convergence/index.html`
+  (blob `2b0162752e9800061002119630703701c814a2ec`), Lemma 13.23.1
+  `non-kahler-pluripotential-theory:126FCF2C` /
+  `2B568CD72F9D`, lines 10–42; Theorem 13.23.3
+  `non-kahler-pluripotential-theory:0A2EE475` /
+  `7D5F8FB5CFAB`, especially 112 and 157.
 - **Content:** for countably many normalized ordinary models
   \(u_j\preceq w\), if
   \(\sum_j[U(w)-U(u_j)]<
