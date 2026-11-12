@@ -1,16 +1,16 @@
 # Exact cutoff normalization and large-time recovery for ideal-envelope test curves
 
 **Audit date:** 2026-11-13.
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-**Stable finding ID:** \`POME-ENVSYS-CUTOFF-LEGENDRE-RECOVERY-001\`.
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+**Stable finding ID:** `POME-ENVSYS-CUTOFF-LEGENDRE-RECOVERY-001`.
 **Severity / status:** **low / verified conditional deduction**. The printed Definition 16.29.2 and Proposition 16.29.3 are **not** false. This is a new consequence of their hypotheses, conditional only on the stated internal normalization/upper-envelope facts, and **not** a certification of the full section or of its multiplier-ideal dependency chain.
 
 ## Precisely reviewed integrated source
 
-- \`docs/sections/envelope-systems-over-hermitian-perturbations/index.html\`, main blob \`856e240bbc5c86058ff861873f11e87db021e1bd\`; section permanent tag \`4AD4DDD929EE\`, original label \`non-kahler-pluripotential-theory:D633A6C5\`.
-- **Definition 16.29.2**, original \`non-kahler-pluripotential-theory:DC46E61D\`, permanent \`F0A985779829\`, physical HTML lines **24–47** (left constancy, pointwise concavity/decrease, cutoff and fixedness).
-- **Proposition 16.29.3**, original \`non-kahler-pluripotential-theory:C6135113\`, permanent \`160B15BF08FE\`, physical lines **51–66** (regularized Legendre transform and bounds).
-- Independent scope crosscheck: \`docs/sections/multiplier-ideal-envelopes-and-goodness--ideal-projection/index.html\`, main blob \`f1979b73c857f4874dd4a5cb10b93bcc047ebbdc\`, **Theorem 18.4.2**, original \`non-kahler-pluripotential-theory:3A211D73\`, permanent \`7F20FD198864\`, physical lines **22–29** and normalization argument **45–46**.
+- `docs/sections/envelope-systems-over-hermitian-perturbations/index.html`, main blob `856e240bbc5c86058ff861873f11e87db021e1bd`; section permanent tag `4AD4DDD929EE`, original label `non-kahler-pluripotential-theory:D633A6C5`.
+- **Definition 16.29.2**, original `non-kahler-pluripotential-theory:DC46E61D`, permanent `F0A985779829`, physical HTML lines **24–47** (left constancy, pointwise concavity/decrease, cutoff and fixedness).
+- **Proposition 16.29.3**, original `non-kahler-pluripotential-theory:C6135113`, permanent `160B15BF08FE`, physical lines **51–66** (regularized Legendre transform and bounds).
+- Independent scope crosscheck: `docs/sections/multiplier-ideal-envelopes-and-goodness--ideal-projection/index.html`, main blob `f1979b73c857f4874dd4a5cb10b93bcc047ebbdc`, **Theorem 18.4.2**, original `non-kahler-pluripotential-theory:3A211D73`, permanent `7F20FD198864`, physical lines **22–29** and normalization argument **45–46**.
 - We use the standard local upper-envelope fact that a locally bounded-above supremum of PSH functions equals its usc regularization outside a pluripolar set. The rest is elementary and needs no projective regularization.
 
 ## Claim (stronger than the printed inequalities)
