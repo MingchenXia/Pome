@@ -1,3 +1,7 @@
+> **2026-11-12 additive exact coverage, §19.7 zero-volume Okounkov boundary:** [POME-OKO-ZEROVOLUME-NONEXTENSION-001](reports/2026-11-12-okounkov-zero-volume-nonextension.md) (low / verified conditional deduction, no printed theorem error) directly calculates saturated full-group semigroups approaching the same zero-volume element in d_sg while their Okounkov bodies separate in Hausdorff distance. [Exact selected IDs, source tags, physical lines](coverage/2026-11-12-ch19-okounkov-zero-volume-boundary.md); [classified ledger](ledger/2026-11-12-okounkov-zero-volume-nonextension.md). Main b6933b772f41b45918f7e25ed1afbbb1fd892272; §19.7 previously partly sampled, **+0 first section visits, +0 full certifications, 25/747 actual ToC**. Excluded regularization programme remains deferred-by-user.
+
+---
+
 > **2026-11-12 additive coverage (selected §18.27):** POME-IDEAL-SMALLCURV-DIFFUSE-GREEN-THRESHOLD-001 tests unbounded zero-Lelong Green residuals and proves the sharp finite-divisor threshold a>Σ_iλ_i on P¹. [Report](reports/2026-11-12-small-curvature-diffuse-green-multipole-threshold.md) · [ledger](ledger/2026-11-12-small-curvature-diffuse-green-multipole-threshold.md) · [exact scope](coverage/2026-11-12-ch18-small-curvature-diffuse-green-threshold.md). Main b6933b772f41b45918f7e25ed1afbbb1fd892272; §18.27 previously partially covered: +0 first visits, +0 full certifications; 25 chapters/747 sections. Excluded regularization remains **deferred-by-user**.
 
 ---
