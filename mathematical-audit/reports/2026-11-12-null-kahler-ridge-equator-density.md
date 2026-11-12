@@ -1,17 +1,17 @@
 # Exact ridge density and an equatorial null-supported Kähler representative
 
-**Date:** 2026-11-12. **Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-**Finding:** \`POME-NULL-KAHLER-RIDGE-EQUATOR-DENSITY-001\`.
+**Date:** 2026-11-12. **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+**Finding:** `POME-NULL-KAHLER-RIDGE-EQUATOR-DENSITY-001`.
 **Severity/status:** **low / verified conditional deduction**. Neither printed theorem is false; no production correction is required. The local ridge formula is conditional on a regular *two-branch* tie, whereas the projective example is unconditional.
 
 ## Current integrated source and exact anchors
 
-- \`docs/sections/null-supported-kahler-currents/index.html\`, main blob \`009f58a180936636f2e5927b9272f87f2c93aa29\`; section 5.64, permanent tag \`CF37B5381263\` (physical line 5), original section source \`transcendental-positive-cones:D29CF8E7\`.
-- Lemma 5.64.1, original \`transcendental-positive-cones:C6A5C2FA\`, permanent \`0B34D9269CEA\`, lines 11–26: real-analytic nonzero level sets are null.
-- Theorem 5.64.2, original \`transcendental-positive-cones:FBD376B2\`, permanent \`E682ACE02BAF\`, lines 31–104. We rechecked the actual local potentials and maxima (43–63), constant choices (65–79), equality locus (81–93), support and cohomological mass (95–103), and the express warning about noncomplex ties (108).
-- The related *previously reviewed* Corollary 5.65.2 appears in \`docs/sections/local-mass-bounds-for-pluriharmonic-currents/index.html\`, blob \`4c2db22424afb29ff4ec2f972dc28cb50b8f0b82\`, permanent \`63CAD58A60D1\`, lines 48–65. Only its **statement** is used as a scope comparison; its proof was not reassessed in this run.
+- `docs/sections/null-supported-kahler-currents/index.html`, main blob `009f58a180936636f2e5927b9272f87f2c93aa29`; section 5.64, permanent tag `CF37B5381263` (physical line 5), original section source `transcendental-positive-cones:D29CF8E7`.
+- Lemma 5.64.1, original `transcendental-positive-cones:C6A5C2FA`, permanent `0B34D9269CEA`, lines 11–26: real-analytic nonzero level sets are null.
+- Theorem 5.64.2, original `transcendental-positive-cones:FBD376B2`, permanent `E682ACE02BAF`, lines 31–104. We rechecked the actual local potentials and maxima (43–63), constant choices (65–79), equality locus (81–93), support and cohomological mass (95–103), and the express warning about noncomplex ties (108).
+- The related *previously reviewed* Corollary 5.65.2 appears in `docs/sections/local-mass-bounds-for-pluriharmonic-currents/index.html`, blob `4c2db22424afb29ff4ec2f972dc28cb50b8f0b82`, permanent `63CAD58A60D1`, lines 48–65. Only its **statement** is used as a scope comparison; its proof was not reassessed in this run.
 
-The 2026-10-26 report \`reports/2026-10-26-null-kahler-current-sharp-support-dimension.md\` already establishes a separate sharp Hausdorff-dimension example using a Cantor support. **That proof and its finding are not repeated** here. The new work computes the precise *codimension-one ridge density*, supplies an explicit normalized smooth-interface model, and calculates its trace mass on all products of projective lines.
+The 2026-10-26 report `reports/2026-10-26-null-kahler-current-sharp-support-dimension.md` already establishes a separate sharp Hausdorff-dimension example using a Cantor support. **That proof and its finding are not repeated** here. The new work computes the precise *codimension-one ridge density*, supplies an explicit normalized smooth-interface model, and calculates its trace mass on all products of projective lines.
 
 ## 1. Exact local two-branch jump formula
 
