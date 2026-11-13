@@ -1,0 +1,7 @@
+# 2026-11-14 — Sharp fiberwise point-pole jet defect
+
+| ID | Classification | Severity | Main SHA | Stable locus | Precise claim | Status / action |
+|---|---|---|---|---|---|---|
+| **POME-FIBER-POINT-POLES-SHARP-JET-GAP-001** | **verified conditional deduction** | low | b6933b772f41b45918f7e25ed1afbbb1fd892272 | §18.37: source non-kahler-pluripotential-theory:08207DCC, C595893C, 5221B002; permanent 22D696DB398E, BEF6F7AD320C, D9B0D46D42B2; physical lines 13–31, 55–93, 98–124; integrated blob c63860c49c4b05ac31665aada937e81f848266b7 | On $X=\mathbf P^q\times\mathbf P^f$ with one coefficient-$a$ pole and $0<a<1$: $d_m=\binom{\lfloor ma\rfloor}{q}-\binom{\lfloor ma\rfloor-f}{q}$. The $q$-normalized nested-kernel total-variation defect is $qfa^{q-1}/m+O(m^{-2})$, independent of weight, and the constant-weight determinant defect has the identical sharp rate. | **No printed error**. Exact jet-surjectivity proof and model construction in [report](../reports/2026-11-14-fiber-point-poles-sharp-jet-gap.md). Proposed optional theorem addendum only; no production edit. |
+
+**Dependents and limits.** Affects optimality of §§18.37.1/.3/.4 and constant translation in §18.34.1. No proof of the general limit from §18.35.5 is claimed. The historical regularization/Bergman/L²/OT/multiscale/positivity-loss programme stays **deferred-by-user** (not resolved). No confirmed false theorem, proof repair, or genuine duplication in this increment.
