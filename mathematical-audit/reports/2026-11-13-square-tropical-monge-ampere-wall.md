@@ -1,14 +1,14 @@
 # 2026-11-13 — An exact square-slope wall crossing for real Monge–Ampère atoms
 
-**Finding:** \`POME-TORIC-SQUARE-DIAGONAL-ATOM-WALL-001\`  
+**Finding:** `POME-TORIC-SQUARE-DIAGONAL-ATOM-WALL-001`  
 **Severity / status:** **low / verified conditional deduction** (an independent polyhedral test and exact refinement; the printed results are **not false**).
 
 ## Production edition and precise anchors
 
-Reviewed **main**: \`b6933b772f41b45918f7e25ed1afbbb1fd892272\` (current at inspection).
-- \`docs/sections/convex-analysis-and-toric-potentials--the-real-monge-ampere-measure/index.html\`, blob \`7089aa41ae2422b1bd6b5094e46668cbc8ed37be\`. Theorem **21.5.1**, source \`foundations-of-pluripotential-theory:4A0FAEB3\`, permanent tag \`409656CC47D4\`, physical lines **10–39** (especially the \`n!\` Alexandrov normalization and inverse-gradient pushforward at lines 11–21); Theorem **21.5.2**, source \`foundations-of-pluripotential-theory:6403CF44\`, permanent tag \`F4072D9ED060\`, physical lines **43–85** (vague stability under locally uniform convergence, and full mass).
-- \`docs/sections/convex-analysis-and-toric-potentials--compact-convex-envelopes-and-full-mass-limits/index.html\`, blob \`b3b4e34fff767a717df812a381f905589b257fb3\`. Lemma **21.6.1**, source \`foundations-of-pluripotential-theory:30FFD831\`, permanent tag \`FCDAD9CEC8CE\`, physical lines **10–28** (compact-domain convex envelope); Lemma **21.6.2**, source \`foundations-of-pluripotential-theory:55EDF0D7\`, permanent tag \`F2FABB0A312F\`, physical lines **32–46** (vague plus total mass implies narrow convergence).
-- Internal convex duality dependency: Theorem 21.3.2 (Fenchel–Moreau), permanent tag \`011FA81B0000\`. Its full proof was not re-certified here.
+Reviewed **main**: `b6933b772f41b45918f7e25ed1afbbb1fd892272` (current at inspection).
+- `docs/sections/convex-analysis-and-toric-potentials--the-real-monge-ampere-measure/index.html`, blob `7089aa41ae2422b1bd6b5094e46668cbc8ed37be`. Theorem **21.5.1**, source `foundations-of-pluripotential-theory:4A0FAEB3`, permanent tag `409656CC47D4`, physical lines **10–39** (especially the `n!` Alexandrov normalization and inverse-gradient pushforward at lines 11–21); Theorem **21.5.2**, source `foundations-of-pluripotential-theory:6403CF44`, permanent tag `F4072D9ED060`, physical lines **43–85** (vague stability under locally uniform convergence, and full mass).
+- `docs/sections/convex-analysis-and-toric-potentials--compact-convex-envelopes-and-full-mass-limits/index.html`, blob `b3b4e34fff767a717df812a381f905589b257fb3`. Lemma **21.6.1**, source `foundations-of-pluripotential-theory:30FFD831`, permanent tag `FCDAD9CEC8CE`, physical lines **10–28** (compact-domain convex envelope); Lemma **21.6.2**, source `foundations-of-pluripotential-theory:55EDF0D7`, permanent tag `F2FABB0A312F`, physical lines **32–46** (vague plus total mass implies narrow convergence).
+- Internal convex duality dependency: Theorem 21.3.2 (Fenchel–Moreau), permanent tag `011FA81B0000`. Its full proof was not re-certified here.
 
 ## Exact example and statements
 
