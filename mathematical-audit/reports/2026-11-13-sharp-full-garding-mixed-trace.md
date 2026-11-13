@@ -1,16 +1,16 @@
 # The sharp full-Gårding-cone mixed-trace coefficient
 
-**Date:** 2026-11-13. **Finding:** \`POME-HESS-MIXED-CONE-SHARP-001\`.  
+**Date:** 2026-11-13. **Finding:** `POME-HESS-MIXED-CONE-SHARP-001`.  
 **Severity / classification:** low / **verified conditional deduction**; printed lemmas are correct but their mixed coefficient is not optimal for \(m\ge3\). This is a new full-cone assertion, not the earlier coordinatewise \(F_i\) estimate.
 
 ## Exact production reading-edition anchors
 
-- Pinned production \`main\`: \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-- \`docs/sections/complex-hessian-equations--the-admissible-cone/index.html\`, Git blob \`925e6109ab7d800cde9bec4b0487842b2e6877a8\`; section source \`non-kahler-pluripotential-theory:97706797\`, permanent \`F677D35E0BD7\`. Conventions and classical Gårding assumptions: physical lines 5–16.
-- Lemma **8.2.4**, source \`non-kahler-pluripotential-theory:3E489B35\`, permanent \`94C4E018DD25\`, lines **76–100**, statement lines 77–81, iterative \(1/m!\) proof lines 86–99.
-- Lemma **8.2.5**, source \`non-kahler-pluripotential-theory:53FFB5F3\`, permanent \`7710D01DF6F5\`, lines **113–131**, especially full-matrix estimate line 116 and derivative reduction line 124.
-- \`docs/sections/complex-hessian-equations--a-trace-estimate-with-a-prescribed-potential/index.html\`, Git blob \`3d7fe6d1867a0d8ac268042a59e112329a6c8af3\`; Lemma **8.4.2**, source \`non-kahler-pluripotential-theory:2489DE92\`, permanent \`61C6DAF48B41\`, statement/hypotheses physical lines **35–46**, mixed \(C_H\)-term absorption lines **59–62**, coordinate \(C_G\)-term absorption lines **65–68**.
-- The actual chapter introduction \`docs/sections/complex-hessian-equations/index.html\`, blob \`5331b937ccdaba51f1ec006d5e72dc84f7addfbf\`, physical line 7 has analytic standing range \(2\le m<n\); the algebraic lemma is expressly also stated for \(m=n\).
+- Pinned production `main`: `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+- `docs/sections/complex-hessian-equations--the-admissible-cone/index.html`, Git blob `925e6109ab7d800cde9bec4b0487842b2e6877a8`; section source `non-kahler-pluripotential-theory:97706797`, permanent `F677D35E0BD7`. Conventions and classical Gårding assumptions: physical lines 5–16.
+- Lemma **8.2.4**, source `non-kahler-pluripotential-theory:3E489B35`, permanent `94C4E018DD25`, lines **76–100**, statement lines 77–81, iterative \(1/m!\) proof lines 86–99.
+- Lemma **8.2.5**, source `non-kahler-pluripotential-theory:53FFB5F3`, permanent `7710D01DF6F5`, lines **113–131**, especially full-matrix estimate line 116 and derivative reduction line 124.
+- `docs/sections/complex-hessian-equations--a-trace-estimate-with-a-prescribed-potential/index.html`, Git blob `3d7fe6d1867a0d8ac268042a59e112329a6c8af3`; Lemma **8.4.2**, source `non-kahler-pluripotential-theory:2489DE92`, permanent `61C6DAF48B41`, statement/hypotheses physical lines **35–46**, mixed \(C_H\)-term absorption lines **59–62**, coordinate \(C_G\)-term absorption lines **65–68**.
+- The actual chapter introduction `docs/sections/complex-hessian-equations/index.html`, blob `5331b937ccdaba51f1ec006d5e72dc84f7addfbf`, physical line 7 has analytic standing range \(2\le m<n\); the algebraic lemma is expressly also stated for \(m=n\).
 
 ## Exact sharpening of Lemma 8.2.4
 
@@ -73,7 +73,7 @@ R(L,0)=\frac{(L+n-1)\binom{n-1}{m-1}}
 \]
 Here \(\binom{n-1}{n}=0\) for \(m=n\). Taking **first** \(\varepsilon\downarrow0\) at fixed \(L\) and **then** \(L\to\infty\) gives \(R\to1/m\). Therefore no larger uniform constant works even in the strictly Kähler subclass. This sequential limiting argument proves an infimum, not attainment at a degenerating endpoint.
 
-The prior \`POME-HESS-SHARP-DIAGONAL-DERIVATIVE-001\` established the **coordinatewise** bound \(F_i\ge f/(mS)\), which tests only rank-one positive-semidefinite \(\gamma\). That coordinate argument alone cannot imply (A) for general closed \(m\)-cone forms with negative eigenvalues. The new hyperbolic-direction argument controls **every** such \(\gamma\), even without simultaneous diagonalization.
+The prior `POME-HESS-SHARP-DIAGONAL-DERIVATIVE-001` established the **coordinatewise** bound \(F_i\ge f/(mS)\), which tests only rank-one positive-semidefinite \(\gamma\). That coordinate argument alone cannot imply (A) for general closed \(m\)-cone forms with negative eigenvalues. The new hyperbolic-direction argument controls **every** such \(\gamma\), even without simultaneous diagonalization.
 
 ## Conditional, exactly localized consequence for Lemmas 8.2.5 and 8.4.2
 
@@ -96,7 +96,7 @@ q\ge8,\qquad q\ge\frac{2nm C_H}{f_0},\qquad
 q^2\ge\frac{4m C_G}{f_0}.
 \tag{D}
 \]
-The \(C_G\) change in (D) was **already proved** in \`POME-HESS-SHARP-DIAGONAL-DERIVATIVE-001\`; it is **not** being counted as a new finding. The new contribution is the full-cone \(C_H\) improvement. This establishes the selected algebraic absorption step only; it does **not** certify the entirety of the trace maximum principle, PDE solution, or later estimates.
+The \(C_G\) change in (D) was **already proved** in `POME-HESS-SHARP-DIAGONAL-DERIVATIVE-001`; it is **not** being counted as a new finding. The new contribution is the full-cone \(C_H\) improvement. This establishes the selected algebraic absorption step only; it does **not** certify the entirety of the trace maximum principle, PDE solution, or later estimates.
 
 ## Classification, dependencies, and proposed patch
 
