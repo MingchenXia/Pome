@@ -1,6 +1,6 @@
 # Exact audit coverage — 2026-11-14 — §§18.37, 18.34 and 18.36
 
-Reviewed main **b6933b772f41b45918f7e25ed1afbbb1fd892272**; ToC read at \`docs/chapters/index.html\` (25 chapters, 747 numbered sections). Prior matrix row §18.37 was inventory-only / unreviewed. This is **one newly first-visited numbered section**, not a whole-section certification.
+Reviewed main **b6933b772f41b45918f7e25ed1afbbb1fd892272**; ToC read at `docs/chapters/index.html` (25 chapters, 747 numbered sections). Prior matrix row §18.37 was inventory-only / unreviewed. This is **one newly first-visited numbered section**, not a whole-section certification.
 
 | Pome locus | Scope | Source / permanent tag | Main integrated file / physical anchor | Status |
 |---|---|---|---|---|

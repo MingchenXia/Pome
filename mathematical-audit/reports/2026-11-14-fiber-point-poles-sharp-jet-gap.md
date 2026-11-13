@@ -6,13 +6,13 @@
 
 ## Provenance and actual inspection
 
-- Main reviewed: \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-- New first direct proof-level reading: \`docs/sections/partial-kernels-and-quotient-equilibrium--isolated-logarithmic-poles-on-a-fibration/index.html\`, blob \`c63860c49c4b05ac31665aada937e81f848266b7\`.
-- §18.37.1, **Lemma**: source \`non-kahler-pluripotential-theory:08207DCC\`, permanent \`22D696DB398E\`, physical lines **13–31**; exact nested-space positivity, total variation, and determinant estimates.
-- §18.37.2, logarithmic pole equation: source \`non-kahler-pluripotential-theory:C1AEB350\`, permanent \`DA25AD427AC7\`, lines **33–50**.
-- §18.37.3, **Proposition**: source \`non-kahler-pluripotential-theory:C595893C\`, permanent \`BEF6F7AD320C\`, lines **55–93**; exact fiberwise maximal coefficient, jet injection, and the $O(m^{q-1})$ bound.
-- §18.37.4, **Theorem**: source \`non-kahler-pluripotential-theory:5221B002\`, permanent \`D9B0D46D42B2\`, lines **98–124**; the stated $O(m^{-1})$ measure comparison and finite-dimensional determinant comparison, followed by analytic convergence from §18.35.5.
-- Contextual, not newly certified: \`docs/sections/partial-kernels-and-quotient-equilibrium--the-determinant-functional/index.html\`, blob \`626a4c74bb7f5e6659320052c54ec29902646b61\`, Proposition 18.34.1 source \`576F8072\`, permanent \`A1D3D26087E7\`, lines **19–49**; \`docs/sections/partial-kernels-and-quotient-equilibrium--kernels-on-a-fibration/index.html\`, blob \`f8a231d3de6115aad857e48f9700b2c48938e1f0\`, Proposition 18.36.1 source \`DF971029\`, permanent \`7E88736EF73B\`, lines **31–66**; \`docs/sections/plurisubharmonic-functions-and-singularities--multiplier-ideals-and-logarithmic-poles/index.html\`, blob \`9256668b88735f821d06b0919466a6a8cba777ed\`, Lemma 5.37.1 source \`94144E8D\`, permanent \`C21A2A6F9E07\`, lines **13–24**.
+- Main reviewed: `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+- New first direct proof-level reading: `docs/sections/partial-kernels-and-quotient-equilibrium--isolated-logarithmic-poles-on-a-fibration/index.html`, blob `c63860c49c4b05ac31665aada937e81f848266b7`.
+- §18.37.1, **Lemma**: source `non-kahler-pluripotential-theory:08207DCC`, permanent `22D696DB398E`, physical lines **13–31**; exact nested-space positivity, total variation, and determinant estimates.
+- §18.37.2, logarithmic pole equation: source `non-kahler-pluripotential-theory:C1AEB350`, permanent `DA25AD427AC7`, lines **33–50**.
+- §18.37.3, **Proposition**: source `non-kahler-pluripotential-theory:C595893C`, permanent `BEF6F7AD320C`, lines **55–93**; exact fiberwise maximal coefficient, jet injection, and the $O(m^{q-1})$ bound.
+- §18.37.4, **Theorem**: source `non-kahler-pluripotential-theory:5221B002`, permanent `D9B0D46D42B2`, lines **98–124**; the stated $O(m^{-1})$ measure comparison and finite-dimensional determinant comparison, followed by analytic convergence from §18.35.5.
+- Contextual, not newly certified: `docs/sections/partial-kernels-and-quotient-equilibrium--the-determinant-functional/index.html`, blob `626a4c74bb7f5e6659320052c54ec29902646b61`, Proposition 18.34.1 source `576F8072`, permanent `A1D3D26087E7`, lines **19–49**; `docs/sections/partial-kernels-and-quotient-equilibrium--kernels-on-a-fibration/index.html`, blob `f8a231d3de6115aad857e48f9700b2c48938e1f0`, Proposition 18.36.1 source `DF971029`, permanent `7E88736EF73B`, lines **31–66**; `docs/sections/plurisubharmonic-functions-and-singularities--multiplier-ideals-and-logarithmic-poles/index.html`, blob `9256668b88735f821d06b0919466a6a8cba777ed`, Lemma 5.37.1 source `94144E8D`, permanent `C21A2A6F9E07`, lines **13–24**.
 
 The reading-edition statement and proof of §18.37.3 are examined directly; §18.35.5 is **not** independently reproved, and no Demailly approximation, regularization, or dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss proof-completion programme is opened. The result concerns elementary point-ideal jets and finite-dimensional orthogonal projections only.
 
