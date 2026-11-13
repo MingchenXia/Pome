@@ -4,9 +4,8 @@
 - **Date / severity / status:** 2026-11-13; low; **verified conditional deduction**. The printed result is **not** false and no correction to its existing hypotheses is required.
 - **Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272.
 - **Integrated reading-edition file:** docs/sections/complex-hessian-equations--local-capacities-and-decreasing-products/index.html, blob 115d285f6b1f76d284463c396e7e87db2b9dbdc3.
-- **Primary stable anchors:** Definition 8.11.2, source non-kahler-pluripotential-theory:016F1DC8, permanent FA49D2074193, physical lines 48–61; Lemma 8.11.11, source non-kahler-pluripotential-theory:59C81738, permanent 978D54F1054C4, physical lines 259–279 (permanent-tag display is 978D54F1054C; see clarification below); Theorem 8.11.12, source B227378C, permanent C044CD1C65C4, lines 281–295; Lemma 8.11.13, source 915C1E41, permanent E64937A67BD2, lines 300–318; Theorem 8.11.14, source C3C23711, permanent 945FEE7DBDC5, lines 320–334.
+- **Primary stable anchors:** Definition 8.11.2, source non-kahler-pluripotential-theory:016F1DC8, permanent FA49D2074193, physical lines 48–61; Lemma 8.11.11, source non-kahler-pluripotential-theory:59C81738, permanent 978D54F1054C, physical lines 259–279 (permanent-tag display is 978D54F1054C; see clarification below); Theorem 8.11.12, source B227378C, permanent C044CD1C65C4, lines 281–295; Lemma 8.11.13, source 915C1E41, permanent E64937A67BD2, lines 300–318; Theorem 8.11.14, source C3C23711, permanent 945FEE7DBDC5, lines 320–334.
 - **Independent context inspected:** Lemma 8.11.1 (source 7121E570, permanent 370C4F1C4AF0, lines 19–46), equation 8.11.3 (source 32422401, permanent A08EAEC63C44, lines 64–71), Proposition 8.11.6 (source 22C64532, permanent 390B1CE08171, lines 146–237), and §8.9.3/§8.9.8 as declared internal dependencies. §8.9 integrated blob 117b866408974cdf706bf305df75e35e1b8affde.
-- **Tag clarification:** The correct permanent identifier for Lemma 8.11.11 is 978D54F1054C, with **12** hexadecimal characters. No source tag or published tag is altered.
 
 ## Generalized statement
 
