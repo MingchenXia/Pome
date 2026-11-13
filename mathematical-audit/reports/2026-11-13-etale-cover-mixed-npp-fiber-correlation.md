@@ -1,68 +1,88 @@
-# An étale cover with identical averaged currents but different averaged mixed products
+# Étale-cover correlation obstructs degree-normalized mixed non-pluripolar pushforward
 
-**Date:** 2026-11-13. **Finding ID:** `POME-NPP-ETALE-FIBER-CORRELATION-001`. **Severity:** low. **Status:** **verified conditional deduction** (sharp limitation on a *proposed* non-birational generalization); **not** a false printed proposition, **not** a repair or whole-theorem certification.
+**Date:** 2026-11-13. **Stable finding ID:** POME-NPP-ETALE-FIBER-CORRELATION-001. **Severity:** low. **Status:** **verified conditional deduction**, NOT an error in the printed bimeromorphic proposition or an applied repair.
 
-**Main reviewed:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Integrated file:** `docs/sections/non-pluripolar-products--fiber-integration-and-modifications/index.html` (blob `9954a43d90d5cae8ef744968636d7a5912348fce`). **Anchor:** Proposition **13.6.3**, source `foundations-of-pluripotential-theory:3F4A3A88`, permanent `0811FFDF15B7`, statement at physical lines **35–44** and proof at **49–54**. Section §13.6 is **previously partially sampled**; the separately published 2026-11-03 `POME-NPP-FINITE-DEGREE-PUSH-SECOND-FAIL-001` is retained, not re-registered.
+**Main reviewed:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Integrated file:** docs/sections/non-pluripolar-products--fiber-integration-and-modifications/index.html, blob 9954a43d90d5cae8ef744968636d7a5912348fce. **Exact anchor:** Proposition 13.6.3, source label foundations-of-pluripotential-theory:3F4A3A88, permanent tag 0811FFDF15B7, physical statement lines 35–44, proof lines 49–54.
 
-## What the printed proposition says
+## Statement being tested
 
-For a proper **bimeromorphic modification** `π: X̃ → X` between compact Kähler manifolds and closed positive (1,1)-currents, Proposition 13.6.3 has the pullback/pushforward non-pluripolar-product identities. Its argument uses the **single** biholomorphic sheet over the complement of an analytic set and the zero mass of non-pluripolar products on pluripolar exceptional sets. There is no error in the printed, bimeromorphic scope.
+Printed Proposition 13.6.3 asserts two non-pluripolar-product pushforward identities under a proper **bimeromorphic modification** between compact Kähler manifolds. The proof identifies the unique biholomorphic sheet off a proper analytic set and uses the fact that non-pluripolar products give this set zero mass. Nothing here refutes the printed theorem.
 
-The prior 2026-11-03 report established the generic degree factor in the *first* identity and refuted the unnormalized *second* identity for finite covers using total masses (on a branched self-map of projective space). The issue considered here is stronger and mathematically different: **even after division by the covering degree**, all individual pushforward currents and *total top-degree mass* can agree while their averaged mixed-product **measures differ locally**. It occurs for a smooth **unramified** cover, so branching and pole sets play no role.
+An earlier independent report, POME-NPP-FINITE-DEGREE-PUSH-SECOND-FAIL-001 (2026-11-03), established a generic degree factor for the pulled-back-current formula and found a branched finite self-map of projective space where the two unnormalized second-formula measures have **different total masses**. The present result tests the strictly stronger proposal that merely dividing by the generic degree restores the second identity. The example uses a smooth unramified covering, has **identical averaged individual currents**, and even has **equal total mixed masses**, but still fails as an equality of measures.
 
-## Explicit degree-two étale model
+## Explicit degree-two étale construction
 
-Let `E = ℂ/(ℤ+iℤ)`, with complex coordinates `z=x+iy`, `w=s+it` on `Y=E×E`. The fixed-point-free holomorphic involution
-[
-	au(z,w)=(z+	frac12,w)
-]
-defines an étale quotient `X=Y/⟨τ⟩` and a degree-two holomorphic covering `π:Y→X`. The standard translation-invariant Kähler form
-[
-Omega_Y=rac{i}{2}(dzwedge dar z+dwwedge dar w)
-]
-descends to a Kähler form `Ω` on `X`, so `π^*Ω=Ω_Y`.
+Let
+\[
+E=\mathbb C/(\mathbb Z+i\mathbb Z),\qquad
+Y=E\times E.
+\]
+Use complex coordinates \(z=x+iy\), \(w=s+it\) on the covering vector space. Translation by half a real period,
+\[
+\tau(z,w)=(z+\tfrac12,w),
+\]
+is a free holomorphic involution. The quotient \(X=Y/\langle\tau\rangle\) is a compact complex torus, and \(\pi:Y\to X\) is a degree-two étale holomorphic covering. The flat Kähler form
+\[
+\Omega_Y=\frac{i}{2}\bigl(dz\wedge d\bar z+dw\wedge d\bar w\bigr)
+\]
+descends to a Kähler form \(\Omega\) on \(X\), so \(\pi^*\Omega=\Omega_Y\).
 
-Define a smooth real function on `Y` by
-[
-f(z,w)=cos(2pi x)cos(2pi s),qquad
-H=dd^cf,quad dd^c=rac{i}{2pi}partialarpartial.
-]
-Since `f∘τ=-f`, we have `τ^*H=-H`. For every sufficiently small `ε>0`, the two smooth closed real forms
-[
-R_+=Omega_Y+arepsilon H,qquad
-R_-=Omega_Y-arepsilon H
-]
-are **strictly positive**: the eigenvalues of `H` relative to `Ω_Y` are uniformly bounded on the compact manifold, so choose `ε` below the reciprocal of the bound. Thus all non-pluripolar products below coincide with the ordinary smooth wedge products; no truncation or regularization is involved.
+Define the globally smooth real-valued function and its real closed \((1,1)\)-form by
+\[
+f(z,w)=\cos(2\pi x)\cos(2\pi s),\qquad
+H=dd^cf,\qquad dd^c=\frac{i}{2\pi}\partial\bar\partial.
+\]
+The key symmetry is \(f\circ\tau=-f\), hence \(\tau^*H=-H\). Since \(Y\) is compact, the eigenvalues of \(H\) relative to \(\Omega_Y\) are uniformly bounded. Thus for every sufficiently small positive \(\varepsilon\), both
+\[
+R_+=\Omega_Y+\varepsilon H,\qquad R_-=\Omega_Y-\varepsilon H
+\]
+are smooth **strictly positive closed** real \((1,1)\)-forms. Their non-pluripolar products are therefore simply their classical smooth wedge products, without any limiting or approximation step.
 
-As a current, the pushforward satisfies `π_*Ω_Y=2Ω`. For every test form `ξ` on `X`, the deck transformation gives `π_*H=π_*(τ^*H)=-π_*H`, hence `π_*H=0`. Consequently
-[
-oxed{rac12pi_*R_+=rac12pi_*R_-=Omega.}	ag{1}
-]
-Yet `τ^*(Hwedge H)=Hwedge H`, so there is a unique smooth real `(2,2)`-form `β` on `X` with `π^*β=H^2`, and `π_*H^2=2β`. Therefore
-[
-oxed{rac12pi_*langle R_+wedge R_-angle
-=Omega^2-arepsilon^2eta
+Pushforward of a topological covering counts its two sheets, so \(\pi_*\Omega_Y=2\Omega\). On the other hand,
+\[
+\pi_*H=\pi_*(\tau^*H)=-\pi_*H=0.
+\]
+Consequently the individual averaged currents agree *exactly*:
+\[
+\boxed{\tfrac12\pi_*R_+=\tfrac12\pi_*R_-=\Omega.}\tag{1}
+\]
 
-e Omega^2
-=leftlangle	frac12pi_*R_+wedge	frac12pi_*R_-ightangle.}	ag{2}
-]
+The square \(H^2=H\wedge H\) is invariant under \(\tau\), so it descends to a unique smooth real top-degree form \(\beta\) on \(X\), characterized by \(\pi^*\beta=H^2\). Therefore \(\pi_*H^2=2\beta\). Since wedge products of two-forms commute,
+\[
+R_+\wedge R_-=\Omega_Y^2-\varepsilon^2H^2,
+\]
+and
+\[
+\boxed{
+\tfrac12\pi_*\langle R_+\wedge R_-\rangle
+=\Omega^2-\varepsilon^2\beta,\quad
+\left\langle(\tfrac12\pi_*R_+)\wedge(\tfrac12\pi_*R_-)\right\rangle
+=\Omega^2.}\tag{2}
+\]
 
-Here the inequality is **proved**, not inferred from degree counting. At `(z,w)=(0,0)`, the two diagonal entries of the complex Hessian of `f` are both `-π²` and the mixed entries vanish, giving
-[
-H(0,0)=-piOmega_Y(0,0),qquad
-H^2(0,0)=pi^2Omega_Y^2(0,0)
-e0.
-]
-Thus `β` is a nonzero smooth top-degree form, positive at the image of the origin. In fact `∫_Xβ=(1/2)∫_Y(dd^cf)^2=0` by Stokes and `dH=0`. Hence the two measures in (2) **have the same total mass**, although they are not equal (and `β` necessarily changes sign). This distinguishes the new example from the prior unequal-total-mass test.
+The defect \(\beta\) is genuinely nonzero. At \(z=w=0\), the two diagonal complex-Hessian entries of \(f\) are \(-\pi^2\) and the off-diagonal entries vanish, since \(f_{xx}(0)=f_{ss}(0)=-4\pi^2\). It follows directly from the stated \(dd^c\) convention that
+\[
+H(0,0)=-\pi\Omega_Y(0,0),\qquad
+H^2(0,0)=\pi^2\Omega_Y^2(0,0)\ne0.
+\]
+Thus \(\beta\) is positive and nonzero at the image of the origin, and the two positive smooth measures in (2) are **not equal**.
 
-## Interpretation, dependency and correction boundary
+Nevertheless, their *total masses are equal*:
+\[
+\int_X\beta=\tfrac12\int_Y(dd^cf)^2=0.
+\]
+Indeed \(H=dd^cf\) is exact and closed, so \(H^2=d(d^cf\wedge H)\), and Stokes applies to compact \(Y\). Thus a mass comparison alone could not detect the new obstruction: \(\beta\) changes sign, and (2) is an intrinsically local difference.
 
-The pushforward operation averages over the two sheets. Wedge products do not commute with this averaging: `(π_*R_+ /2)wedge(π_*R_-/2)` includes cross-sheet correlations, whereas `π_*(R_+wedge R_-)/2` averages the *same-sheet* products. Degree normalization alone cannot repair the non-birational second identity. One sufficient special case is `R_j=π^*T_j`, when the first identity, with degree two, implies the **averaged** product equality; this special case is not a statement about arbitrary `R_j`.
+## Scope of the deduction and possible correction
 
-**Suggested editorial scope note (proposed only):** retain “modification” in Proposition 13.6.3 and state that a generically finite replacement is not valid for arbitrary upstairs currents, **even after normalizing pushforward by generic degree** and even when all upstairs forms are smooth, positive, closed and the map is étale. Do not alter theorem, source, canonical registry or permanent tags.
+The two sides average different pairings over the sheets. The left side is the average of the **same-sheet products**; the wedge of the averaged individual currents includes **cross-sheet pairings**. These operations cannot be exchanged without a condition connecting the sheetwise currents.
 
-**Affected dependents:** any extension of §13.6.3 to generically finite maps; any finite-cover comparison of relative Monge–Ampère energies or mixed products that substitutes a wedge of separately averaged currents for the averaged wedge; any proposed canonicalization identifying these operations. This does not invalidate the existing birational or pulled-back-current statements.
+A sufficient special case is \(R_j=\pi^*T_j\) for currents \(T_j\) downstairs. The *first* pullback-pushforward formula extends to such covers with the degree factor and gives the correct averaged product. It says nothing about arbitrary \(R_j\), as (1)–(2) show.
 
-**Inputs/limits:** elementary smooth Kähler calculus, degree-two covering pushforward and Stokes; the equality of smooth and non-pluripolar products follows from their local truncation definition (§13.2). The full Bedford–Taylor analytic chain, Theorem 13.5.4, and all remaining §13.6 statements are **not** transitively certified. Demailly approximation/regularization and its dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss programme remain **deferred-by-user**, untouched. No tests, build, CI, site publication or formal verification were performed.
+**Proposed editorial caution (not applied):** preserve the word “modification” and its bimeromorphic meaning in Proposition 13.6.3; do not assert a degree-normalized arbitrary-upstairs-current version even for finite étale maps. Any replacement needs explicit sheetwise compatibility or a correlation correction term. No original mathematical text, source, registry, canonicalization or permanent tag was changed.
 
-**Coverage:** exact new proof-level §13.6.3 comparison plus contextual §13.2 smooth-product definition; **+0 newly first-visited numbered sections, +0 completely certified sections**; present ToC **25 chapters / 747 numbered sections**.
+**Affected potential dependents:** any planned finite-cover pushforward extension of Proposition 13.6.3; relative Monge–Ampère energy manipulations that wedge separately pushed-forward currents; canonical deduplication that confuses birational and finite-map statements. The existing birational theorem and the degree-weighted pulled-back-current identity remain intact.
+
+**Dependencies and limits:** smooth forms, finite covering transfer, Stokes and the local fact from §13.2 that the non-pluripolar product of smooth positive forms equals their ordinary wedge. This is an independent model computation, **not** a transitive certification of §13.2, §13.5, the fiber formula in §13.6, or the full project. The 2026-11-03 branched-cover finding is **preserved**, not re-opened or represented as new work. Demailly approximation/regularization and the dedicated Bergman, weighted \(L^2\), Ohsawa–Takegoshi, multiscale-atlas and positivity-loss proof-completion programme remain **deferred-by-user** and were not inspected.
+
+**Actual coverage:** one new proof-level scope check of previously partially visited §13.6.3, contextual smooth-product check in §13.2; **+0 first-visited numbered sections, +0 fully mathematically certified sections**. The current integrated ToC has **25 chapters and 747 numbered sections**. No tests, build, CI, publication, website deployment or formal verification were run.
