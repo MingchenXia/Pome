@@ -1,12 +1,12 @@
 # Sharp transport convergence of cube-averaged Bedford--Taylor dominated measures
 
-- **Stable finding ID:** \`POME-BT-CUBE-HISTOGRAM-TRANSPORT-001\`.
+- **Stable finding ID:** `POME-BT-CUBE-HISTOGRAM-TRANSPORT-001`.
 - **Date:** 2026-11-14.
 - **Classification:** **low / verified conditional deduction**; **no false theorem and no proof defect confirmed**. This is an additional quantitative consequence of the hypotheses of Proposition 7.11.5, not a complete certification of that proposition's upstream analytic inputs.
-- **Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-- **Integrated reading-edition file:** \`docs/sections/bedford-taylor-products-and-local-capacity--local-energy-moments/index.html\`; Git blob \`e619f7aa95f80ce11aa676193b054db3180e59d4\`.
-- **Original statement:** Proposition **7.11.5**, source \`foundations-of-pluripotential-theory:3263E506\`, permanent tag \`1151DF7B32E4\`, physical HTML **lines 98--131**, especially the cube construction at **99--103**. The corresponding proof is at **133--177**, especially compact support **136**, weak convergence **138--144**, local psh bound **146--152**, dominated energy **154--168**, and global $L^1$ compactness **170--176**.
-- **Related original inputs (hypotheses only):** Theorem **7.11.2**, source \`foundations-of-pluripotential-theory:C2BB479D\`, permanent tag \`05F71889C324\`, **lines 25--91**; local inequality (7.11.6), source \`foundations-of-pluripotential-theory:C88407F2\` / permanent \`CC0546ABBCE7\`, **lines 109--117**, and the energy control (7.11.7), source \`foundations-of-pluripotential-theory:364DF017\` / permanent \`00E17178E4CB\`, **lines 119--124**.
+- **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+- **Integrated reading-edition file:** `docs/sections/bedford-taylor-products-and-local-capacity--local-energy-moments/index.html`; Git blob `e619f7aa95f80ce11aa676193b054db3180e59d4`.
+- **Original statement:** Proposition **7.11.5**, source `foundations-of-pluripotential-theory:3263E506`, permanent tag `1151DF7B32E4`, physical HTML **lines 98--131**, especially the cube construction at **99--103**. The corresponding proof is at **133--177**, especially compact support **136**, weak convergence **138--144**, local psh bound **146--152**, dominated energy **154--168**, and global $L^1$ compactness **170--176**.
+- **Related original inputs (hypotheses only):** Theorem **7.11.2**, source `foundations-of-pluripotential-theory:C2BB479D`, permanent tag `05F71889C324`, **lines 25--91**; local inequality (7.11.6), source `foundations-of-pluripotential-theory:C88407F2` / permanent `CC0546ABBCE7`, **lines 109--117**, and the energy control (7.11.7), source `foundations-of-pluripotential-theory:364DF017` / permanent `00E17178E4CB`, **lines 119--124**.
 - **Scope:** Bedford--Taylor/local Monge--Ampère measures and elementary optimal transport. No Demailly regularization, Bergman, weighted L2, Ohsawa--Takegoshi, multiscale atlas, or positivity-loss work.
 
 ## Statements and precise quantifiers
