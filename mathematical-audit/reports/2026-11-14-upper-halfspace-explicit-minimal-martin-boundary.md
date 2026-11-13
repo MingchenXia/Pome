@@ -1,13 +1,13 @@
 # Explicit minimal Martin boundary and representing measures of the upper half-space (2026-11-14)
 
-**Finding:** \`POME-MART-HALFSPACE-ALL-MINIMAL-POISSON-001\`  
+**Finding:** `POME-MART-HALFSPACE-ALL-MINIMAL-POISSON-001`  
 **Classification:** low / **verified conditional deduction**. The printed theorems are **not** counterexamples or confirmed errors. The geometry and asymptotics below are proved directly; the existence part of the representation invokes the already printed half-space representation theorem, which is not transitively certified in this audit.
 
 ## Immutable source record and scope
 
-- Reviewed production \`main\`: \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-- Integrated Chapter 4: \`docs/sections/green-energy-and-martin-boundaries/index.html\`, blob \`976a90f2a5eba299658f73a1eee8b9d3fef8020f\`: Martin normalization and cutoff, **line 106**; Theorem **4.5.9** source \`classical-potential-theory:1677A9F0\`, permanent \`9D6B5CF5E0CF\`, **lines 110–122**; Theorem **4.5.12** source \`classical-potential-theory:57D18B4C\`, permanent \`6736FBE7368C\`, **lines 166–185**; Theorem **4.5.13** source \`classical-potential-theory:854603A2\`, permanent \`0E65F552B1A6\`, **lines 190–213**, checked for the distinct ball model and topology.
-- Integrated Chapter 3: \`docs/sections/kelvin-transforms-and-half-space-potentials/index.html\`, blob \`f2615a5393af724c3996978212162f94911ff9d9\`: Poisson kernel **(3.2.5)** \`classical-potential-theory:2C60ADF3\`, permanent \`21F1298C637C\`, **lines 57–62**; half-space representation Theorem **3.2.6**, source \`classical-potential-theory:1C8A330A\`, permanent \`6BC86EEF03A9\`, and integrability **(3.2.7)–(3.2.8)**, permanent \`F3ED29BBAD39\` / \`8F7C774A9D89\`, **lines 65–76**.
+- Reviewed production `main`: `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+- Integrated Chapter 4: `docs/sections/green-energy-and-martin-boundaries/index.html`, blob `976a90f2a5eba299658f73a1eee8b9d3fef8020f`: Martin normalization and cutoff, **line 106**; Theorem **4.5.9** source `classical-potential-theory:1677A9F0`, permanent `9D6B5CF5E0CF`, **lines 110–122**; Theorem **4.5.12** source `classical-potential-theory:57D18B4C`, permanent `6736FBE7368C`, **lines 166–185**; Theorem **4.5.13** source `classical-potential-theory:854603A2`, permanent `0E65F552B1A6`, **lines 190–213**, checked for the distinct ball model and topology.
+- Integrated Chapter 3: `docs/sections/kelvin-transforms-and-half-space-potentials/index.html`, blob `f2615a5393af724c3996978212162f94911ff9d9`: Poisson kernel **(3.2.5)** `classical-potential-theory:2C60ADF3`, permanent `21F1298C637C`, **lines 57–62**; half-space representation Theorem **3.2.6**, source `classical-potential-theory:1C8A330A`, permanent `6BC86EEF03A9`, and integrability **(3.2.7)–(3.2.8)**, permanent `F3ED29BBAD39` / `8F7C774A9D89`, **lines 65–76**.
 - Substantive newly selected proof-level work: the full explicit half-space Martin-boundary classification, normalized kernels, minimality and measure identification; inspection of the above original statements and normalization. The earlier **exterior-ball** model (2026-11-02) and 2026-11-13 vague half-space boundary trace are inputs/contrasts, not counted as new work.
 
 ## Statement
