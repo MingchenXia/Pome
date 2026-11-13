@@ -1,20 +1,20 @@
 # Equal-partition Hermitian normalization scalars on a flat complex two-torus
 
-**Finding:** \`POME-HERM-EQUAL-PARTITION-SCALAR-SEPARATION-001\`  
+**Finding:** `POME-HERM-EQUAL-PARTITION-SCALAR-SEPARATION-001`  
 **Classification:** low severity / **verified conditional deduction** (the explicit smooth calculation is unconditional; identifying it with the general normalization functional uses the scalar-uniqueness input of §11.33.2). **No printed result is false.**  
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`, 2026-11-14.  
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`, 2026-11-14.  
 **Scope:** Chapter 11, §§11.32–11.34, with the closed-background comparison in §11.42. Demailly regularization and all user-deferred Bergman, L², Ohsawa–Takegoshi, multiscale-atlas, positivity-loss subprogrammes are outside this review.
 
 ## Exact integrated locations and stable identifiers
 
 | Statement | Integrated path and pinned blob | Source label and permanent tag | Physical lines |
 | --- | --- | --- | --- |
-| Standing positive-background/model hypotheses (§11.32) | \`docs/sections/normalization-and-weak-adjoint-measures/index.html\`, \`031b5d62d25d7ff03d95e4a14988399527cc946a\` | \`non-kahler-pluripotential-theory:75571769\`; \`7091FEDB43F0\` | 5–11 |
-| Defining scalar equation (11.33.1) | \`docs/sections/normalization-and-weak-adjoint-measures--the-scalar-functional/index.html\`, \`fff86de757578ed2be369ba752123f62f3d31044\` | \`non-kahler-pluripotential-theory:19974F5F\`; \`9D47DB96B6E3\` | 9–22 |
-| Scalar uniqueness and translation, Proposition 11.33.2 | same §11.33 blob | \`non-kahler-pluripotential-theory:6D175DAF\`; \`2770AB03C0D2\` | 26–51 |
-| Smooth adjoint probability, Theorem 11.34.9 | \`docs/sections/normalization-and-weak-adjoint-measures--supporting-probability-measures/index.html\`, \`a8afa97be049b56b6c7d18302499364022feaa39\` | \`non-kahler-pluripotential-theory:CDAC8220\`; \`7E60599DA339\` | 138–161 |
-| **Closed**-background mass formula, Theorem 11.42.1 | \`docs/sections/normalization-and-weak-adjoint-measures--the-mass-determined-by-the-functional/index.html\`, \`9766d5ddf698ae153a6ba635ab9933d471356d67\` | \`non-kahler-pluripotential-theory:190967B6\`; \`1DCF668EBCCF\` | 7–48 |
-| Nonclosed residual context, Example 11.42.4 | same §11.42 blob | \`non-kahler-pluripotential-theory:D749A384\`; \`0B7F3ACBCCC4\` | 74–81 |
+| Standing positive-background/model hypotheses (§11.32) | `docs/sections/normalization-and-weak-adjoint-measures/index.html`, `031b5d62d25d7ff03d95e4a14988399527cc946a` | `non-kahler-pluripotential-theory:75571769`; `7091FEDB43F0` | 5–11 |
+| Defining scalar equation (11.33.1) | `docs/sections/normalization-and-weak-adjoint-measures--the-scalar-functional/index.html`, `fff86de757578ed2be369ba752123f62f3d31044` | `non-kahler-pluripotential-theory:19974F5F`; `9D47DB96B6E3` | 9–22 |
+| Scalar uniqueness and translation, Proposition 11.33.2 | same §11.33 blob | `non-kahler-pluripotential-theory:6D175DAF`; `2770AB03C0D2` | 26–51 |
+| Smooth adjoint probability, Theorem 11.34.9 | `docs/sections/normalization-and-weak-adjoint-measures--supporting-probability-measures/index.html`, `a8afa97be049b56b6c7d18302499364022feaa39` | `non-kahler-pluripotential-theory:CDAC8220`; `7E60599DA339` | 138–161 |
+| **Closed**-background mass formula, Theorem 11.42.1 | `docs/sections/normalization-and-weak-adjoint-measures--the-mass-determined-by-the-functional/index.html`, `9766d5ddf698ae153a6ba635ab9933d471356d67` | `non-kahler-pluripotential-theory:190967B6`; `1DCF668EBCCF` | 7–48 |
+| Nonclosed residual context, Example 11.42.4 | same §11.42 blob | `non-kahler-pluripotential-theory:D749A384`; `0B7F3ACBCCC4` | 74–81 |
 
 ## New self-contained smooth example
 
