@@ -1,0 +1,10 @@
+# Actual coverage — 2026-11-14, Chapter 10 cover-order and Čech alternation
+
+- **Main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+- **New direct inspection:** §10.44.14 integrated lines 199–217 (permutation signs, integral chain contraction and common-intersection restriction); §10.44.15 lines 220–229 (exact alternative hypotheses and proof); checked the boundary-simplex cover and explicit integral Čech complex against these assertions.
+- **Context only:** §10.43.16 lines 295–305 (acyclic-cover map); §10.66.1 lines 8–25 (existing sphere-cohomology comparison); §10.70.3 lines 72–96 (singular/sheaf comparison and its declared premises). No complete re-proof of any of these internal chains.
+- **Source labels and permanent tags:** §10.44 `demailly-complex-geometry:2FF44C0F` / `DF8C0003C01A`; Proposition .14 `:AE979C9C` / `54F5489B5EF9`; Corollary .15 `:634855A9` / `FC813BFC2984`; Theorem 10.43.16 `:B5A98C8B` / `678E4157C53F`; Proposition 10.66.1 `:1FDB87F2` / `91C788EF5865`; Theorem 10.70.3 `:223C7EB2` / `9E4C37619D42`. Exact file paths and blob hashes in [report](../reports/2026-11-14-simplex-boundary-cech-cover-order-sharpness.md).
+- **Novelty:** explicit all-abelian-coefficients simplex-boundary Čech computation and both sharpness and non-acyclic singleton-cover obstruction; not a repeat of the previously reviewed sphere-cohomology theorem or S¹ local-system monodromy.
+- **Counts:** all four numbered sections already had partial or contextual coverage in the matrix: **+0 first visits; +0 fully certified sections.** Current main: **25 chapters / 747 numbered sections**. Other parts of §§10.43, 10.44, 10.66 and 10.70 not covered by this note retain their previous statuses.
+- **Open/conditional:** sheaf/singular comparison, good-cover spectral-sequence identification and universal underlying resolution chains are not certified end-to-end. No false printed theorem detected. **Excluded Demailly approximation/regularization/Bergman/L²/OT/multiscale/positivity-loss is deferred-by-user.**
+- **No execution claims:** no build, tests, CI, website release, source changes or formal proof check.

@@ -1,0 +1,10 @@
+# Finding ledger — 2026-11-14, simplex-boundary Čech cover order
+
+Reviewed main: `b6933b772f41b45918f7e25ed1afbbb1fd892272`. Audit only on `review/mathematical-audit`. Full calculation: [report](../reports/2026-11-14-simplex-boundary-cech-cover-order-sharpness.md).
+
+| Finding ID | Severity | Status | Exact target and hypothesis | Mathematical disposition | Correction / affected dependents |
+| --- | --- | --- | --- | --- | --- |
+| **POME-CECH-ORDER-ACYCLICITY-SHARP-001** | low | **verified conditional deduction** | §10.44.14 (source `demailly-complex-geometry:AE979C9C`, tag `54F5489B5EF9`, integrated lines 199–217), §10.44.15 (source `demailly-complex-geometry:634855A9`, tag `FC813BFC2984`, lines 221–229); §10.43.16 (tag `678E4157C53F`) and §10.70.3 (tag `9E4C37619D42`) as identified comparison inputs | On `X_n=∂Δ^{n+1}`, the (n+2) coordinate open stars form an acyclic cover with no `(n+2)`-fold intersection; the integral facet-sum map gives `H^n(Cech(cover,A))=A` for any abelian `A`, and hence `H^n(X_n,underline A)=A` conditionally on the integrated comparison. A singleton cover is not acyclic and cannot replace the theorem's alternatives. **Printed corollary and Proposition 10.44.14 remain correct.** | No patch to original theorem. Preserve separate *arbitrarily fine* / *one acyclic* hypotheses and integral signs. Dependents: cohomological-dimension cover criteria, §10.43.16. |
+| User-excluded Demailly regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss programme | n/a | **deferred-by-user** | Existing earlier checkpoints superseded by 2026-10-17 instruction | Not examined, not certified, not resolved | Do not reopen. |
+
+**Scope limits:** Explicit incidence algebra and intersection topology proved in the report. Sheaf acyclicity on contractible manifold opens invokes internal §10.70.3 (not transitively audited), and degree comparison invokes §10.43.16 (not transitively audited). Existing §10.66.1 sphere result is a crosscheck, **not a new discovery**. 0 first visits / 0 whole-section certifications. No source/body/permanent-tag changes.
