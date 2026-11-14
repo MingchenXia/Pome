@@ -1,13 +1,13 @@
-# Exact coverage delta — §3.10, 2026-11-15
+# Actual §3.10 coverage delta — 2026-11-15
 
-**Main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Chapter/section count from current ToC:** 25 / 747. **New first visits:** 0. **New entire-section certifications:** 0.
+**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **main section blob:** \`c59a1b3fab9433f1aae95db99adb4821857b5d8d\`. **ToC:** 25 chapters and 747 numbered sections. **New first visits:** 0. **Complete section certifications:** 0.
 
-| Item | Main reading-edition locator | Source/permanent tags | Review actually performed |
-| --- | --- | --- | --- |
-| §3.10 Gaussian heat kernel | \`docs/sections/heat-kernels-on-compact-manifolds/index.html\`, blob \`c59a1b3fab9433f1aae95db99adb4821857b5d8d\`, lines 11–13, 19–79 | \`transcendental-positive-cones:327DDB8B\` / \`126365F8EBD6\` | Reread the statement and selected spectral/Nash/Davies argument for conventions; explicit periodized Gaussian on flat $\mathbb T^2$ independently checked, not a full proof-chain audit |
-| §3.10 critical Frostman estimate | Same main file, lines 85–105 | \`transcendental-positive-cones:DD00B1CA\` / \`56A174D59425\` | Rechecked critical $m=2$ growth, fixed-$L^1$ quantifier and truncation conclusion; derived sharp operator norms for all $p$ and a new arbitrarily slow fixed-$L^1$ construction |
-| Prior coverage relationship | Previous §3.10 reports dated 2026-11-03 and 2026-11-06 | Permanent tags unchanged | Prior L-infinity and power/logarithmic endpoints retained, not re-registered or counted as new first visits |
+| Actual item | Anchors | What was directly checked |
+| --- | --- | --- |
+| Lemma 3.10.1 | \`docs/sections/heat-kernels-on-compact-manifolds/index.html\` lines 11–13 and 19–79; source \`transcendental-positive-cones:327DDB8B\`, tag \`126365F8EBD6\` | Gaussian statement and heat convention as context; flat-torus periodized heat kernel independently justified, not global Nash/Davies proof certification |
+| Lemma 3.10.5 | Same main HTML lines 85–105; source \`transcendental-positive-cones:DD00B1CA\`, tag \`56A174D59425\` | Exact growth and fixed-$L^1$ quantifiers checked; new adversarial disjoint-annulus **fixed-$F$** construction beats every prescribed modulus |
+| Older closely related work | 2026-11-03, 2026-11-06, **2026-11-08** heat reports | Explicitly retained; earlier sharp $L^p$ rate/constant and power/logarithmic examples are **not counted again** |
 
-**Stable finding:** \`POME-HEAT-SHARP-LP-ARBITRARY-L1-MODULUS-001\`, low / verified conditional deduction. [Full report](../reports/2026-11-15-flat-torus-sharp-lp-heat-rate-arbitrary-l1-modulus.md) · [ledger](../ledger/2026-11-15-flat-torus-sharp-lp-heat-rate-arbitrary-l1-modulus.md).
+**New finding:** \`POME-HEAT-ARBITRARILY-SLOW-FIXED-L1-001\`, low / verified conditional deduction. [Full mathematical proof](../reports/2026-11-15-flat-torus-sharp-lp-heat-rate-arbitrary-l1-modulus.md) · [ledger](../ledger/2026-11-15-flat-torus-sharp-lp-heat-rate-arbitrary-l1-modulus.md).
 
-**Remaining:** general compact heat construction, full Nash/semigroup proof chain and all section-wide dependencies remain unverified; no statement in the printed text is refuted by this result. User-excluded approximation and associated dedicated programmes remain **deferred-by-user**. No tests, builds, source edits, main updates, CI, or publication.
+The entire §3.10 and upstream heat PDE proof chain remain uncertified. Excluded Demailly regularization and its dedicated programmes remain **deferred-by-user**. Audit notes only, no project tests/build/CI/site edits.
