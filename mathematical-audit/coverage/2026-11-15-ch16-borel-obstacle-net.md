@@ -1,0 +1,8 @@
+# 2026-11-15 — exact selected audit coverage
+
+- Reviewed `main` `b6933b772f41b45918f7e25ed1afbbb1fd892272`; actual table of contents has **25 chapters, 747 numbered sections**.
+- Direct substantive verification: `docs/sections/envelopes-and-model-potentials--obstacles-and-rooftops/index.html`, blob `e9129aaaab9e9f172da9704bffe939839f8afeb6`, §16.11 Definition .3 (76–84), Proposition .4(3),(5) (97–110, 129, 133–134). Source `foundations-of-pluripotential-theory:7FB6072B` / `:3796C01B`, stable tags `A4F165851008` / `641F3FEC623D`.
+- New mathematical check: full finite-polar-obstacle net counterexample with proof of the simultaneous sequence/no-countable-cofinal contrast. ID `POME-BOREL-OBSTACLE-UNCOUNTABLE-NET-001`; status **low / verified conditional deduction**, printed sequential statement **correct**.
+- §16.1 (blob `1751b26b427c36506d7ed35ca6f52aefc56f8b04`, physical lines 5–20), §16.2 (`912f81b3bccf3e1ead96fd18005261a708dfcb4e`, lines 5–9), and §16.10 (`decb273ec97fcb9bb0ace2e0b90270723ecbea3e`, lines 5–16) were consulted for introductory assumptions and provenance **only**, not mathematical proof checks.
+- §16.11 was previously visited; **new first-visited mathematical numbered sections: 0; newly fully certified numbered sections: 0**. The work does not certify general envelope/Monge–Ampère dependencies or 747 sections in aggregate.
+- Dedicated Demailly regularization/Bergman/L2/OT/multiscale/positivity-loss programme remains explicitly **deferred-by-user**, not resolved or certified. Only audit Markdown; no source, registry, tags, main, tests, build, CI or site publication.
