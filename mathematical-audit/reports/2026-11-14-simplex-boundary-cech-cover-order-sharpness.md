@@ -14,16 +14,16 @@ The reviewed §10.44.14–15 assertions are **correct as printed**. This audit c
 ## An exact good cover in every dimension
 
 Let $n\ge1$, let $A$ be an arbitrary abelian group, and realize
-$
+$$
 X_n=\partial\Delta^{n+1}
-=\left\{t=$t_0,\ldots,t_{n+1}$\in[0,1]^{n+2}:
+=\left\{t=(t_0,\ldots,t_{n+1})\in[0,1]^{n+2}:
 \sum_i t_i=1,\quad\prod_i t_i=0\right\}\simeq S^n.
-$
+$$
 For each vertex index $i\in\{0,\ldots,n+1\}$, set $U_i=\{t\in X_n:t_i>0\}$. These $n+2$ relatively open sets cover $X_n$. For every nonempty proper index set $I$, the intersection $U_I=\cap_{i\in I}U_i$ is nonempty (it contains the barycenter of the face on $I$) and **contractible**. Indeed, put
-$
+$$
 p_I(t)_i=\begin{cases}t_i/\sum_{j\in I}t_j&i\in I,\\0&i\notin I,\end{cases}
 \qquad H(s,t)=(1-s)t+sp_I(t).
-$
+$$
 Every $t\in U_I$ has support containing $I$, and the support of $H(s,t)$ is contained in the original proper support of (t). Thus this continuous homotopy stays in $X_n\cap U_I$, fixes the face interior $\Delta_I^\circ$, and ends there. That face interior is convex. On the other hand, $\bigcap_{i=0}^{n+1}U_i=\varnothing$, since a point of the boundary has at least one zero coordinate. Consequently this is a finite cover of **order exactly $n+1$** (there are nonempty intersections of $n+1$ distinct members, but none of $n+2$).
 
 Each $U_I$ is a contractible open subset of the topological manifold $X_n$, hence the constant sheaf $\underline A$ is acyclic there by the singular/sheaf comparison of §10.70.3 and the elementary singular prism homotopy. Accordingly the **acyclic-cover clause** of §10.43.16 applies. This identification is conditional on that previously stated internal comparison theorem; we do not claim a new complete verification of §10.70.3.
@@ -31,28 +31,28 @@ Each $U_I$ is a contractible open subset of the topological manifold $X_n$, henc
 ## An integral computation of the entire Čech cochain complex
 
 By the integral alternating homotopy of §10.44.14, it suffices to use increasing index tuples. All proper subsets of the $n+2$ vertices occur as simplices in the nerve, whereas the full vertex set does not. Therefore the alternating Čech complex of this cover with constant coefficients has
-$
-C^q=\bigoplus_{\substack{I\subset\{0,\ldots,n+1\}\\|I|=q+1}}A\qquad$0\le q\le n$,\qquad C^q=0\ $q>n$,
-$
-with the usual signed omission coboundary. Every nonempty intersection is connected, so (\underline A$U_I$=A), and all restriction homomorphisms are the identity. This is exactly the simplicial cochain complex of the boundary of the $$n+1$$-simplex, with coefficients in **any** $A$, not merely a field.
+$$
+C^q=\bigoplus_{\substack{I\subset\{0,\ldots,n+1\}\\|I|=q+1}}A\qquad(0\le q\le n),\qquad C^q=0\ (q>n),
+$$
+with the usual signed omission coboundary. Every nonempty intersection is connected, so $\underline A$U_I$=A$, and all restriction homomorphisms are the identity. This is exactly the simplicial cochain complex of the boundary of the $$n+1$$-simplex, with coefficients in **any** $A$, not merely a field.
 
 For an entirely elementary calculation, adjoin to this boundary cochain complex the single top term $C^{n+1}_{\Delta}=A$ from the full simplex. In all lower degrees the two complexes agree. The full simplex cochain complex has the explicit integral contraction obtained by inserting the vertex $0$ (the usual augmented simplicial cone, with identity in degree zero). Thus its positive-degree cohomology vanishes. In particular, for $n\ge1$,
-$
-\operatorname{im}$\delta^{n-1}$=\ker$\delta^n_\Delta$,
+$$
+\operatorname{im}(\delta^{n-1})=\ker(\delta^n_\Delta),
 \qquad
 \delta^n_\Delta(c)=\sum_{j=0}^{n+1}(-1)^j c_{\{0,\ldots,n+1\}\setminus\{j\}}.
-$
+$$
 The displayed map is **surjective for every abelian group $A$**, since a cochain supported on the facet omitting vertex $0$, with value $a\in A$, maps to $a$. Thus $\delta^n_\Delta$ induces an integral, coefficient-functorial isomorphism
-$
-\boxed{H^n(C^\bullet$\mathcal U,\underline A$)\cong A.}
-$
+$$
+\boxed{H^n(C^\bullet(\mathcal U,\underline A))\cong A.}
+$$
 The remaining positive degrees below $n$ vanish by the same contraction, and $H^0=A$ because the nerve is connected. In particular a single-facet $n$-cochain of value $a\ne0$ is a nontrivial class; no factorial, positivity, or division hypothesis is involved.
 
-By the stated acyclic-cover comparison this also computes (H^n$S^n,\underline A$\cong A), agreeing with the already printed Proposition 10.66.1 by a **different explicit cover-level calculation**. For every nonzero $A$, the upper-degree vanishing conclusion of Corollary 10.44.15 is optimal: it cannot be strengthened from $q>n$ to $q\ge n$ even for a finite good cover of exact order $n+1$.
+By the stated acyclic-cover comparison this also computes $H^n$S^n,\underline A$\cong A$, agreeing with the already printed Proposition 10.66.1 by a **different explicit cover-level calculation**. For every nonzero $A$, the upper-degree vanishing conclusion of Corollary 10.44.15 is optimal: it cannot be strengthened from $q>n$ to $q\ge n$ even for a finite good cover of exact order $n+1$.
 
 ## Why one non-acyclic cover cannot replace either hypothesis
 
-On the same $X_n\simeq S^n$, consider instead the single-open-set cover `{X_n}`. It has order $1$, so for $n\ge1$ it satisfies the intersection multiplicity condition of the **hypothetical** $n=0$ version with no acyclicity requirement. Its positive-degree alternating Čech groups are all zero, while (H^n$X_n,\underline A$=A\ne0). It is not acyclic for $\underline A$. Hence the theorem's distinction between **arbitrarily fine** low-order covers and **one acyclic** low-order cover is indispensable. A single low-order cover, without the acyclicity requirement, supplies no global cohomological-dimension bound.
+On the same $X_n\simeq S^n$, consider instead the single-open-set cover `{X_n}`. It has order $1$, so for $n\ge1$ it satisfies the intersection multiplicity condition of the **hypothetical** $n=0$ version with no acyclicity requirement. Its positive-degree alternating Čech groups are all zero, while $H^n$X_n,\underline A$=A\ne0$. It is not acyclic for $\underline A$. Hence the theorem's distinction between **arbitrarily fine** low-order covers and **one acyclic** low-order cover is indispensable. A single low-order cover, without the acyclicity requirement, supplies no global cohomological-dimension bound.
 
 This is a counterexample only to the **unauthorized weakened assertion**, **not to the printed corollary**. In the printed proof, the two routes—direct-limit exhaustion versus acyclic-cover comparison—are properly separated.
 
