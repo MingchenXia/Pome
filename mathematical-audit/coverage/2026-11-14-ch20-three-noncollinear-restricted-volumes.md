@@ -1,0 +1,10 @@
+# Selected coverage: noncollinear three-point restricted-volume wall
+
+- Date: 2026-11-14. Reviewed production main: b6933b772f41b45918f7e25ed1afbbb1fd892272.
+- Actual current ToC: 25 chapters and 747 numbered sections (from main chapter index / existing section matrix); this is a **selected revisit**, not a new whole-section certification.
+- §20.8, docs/sections/divisorial-restricted-volumes/index.html (blob 8eb1127568e77d6d045098361c366ceeb846b909): Theorem 20.8.3 hypothesis/equation lines 63–66; Proposition 20.8.16 hypothesis/equations lines 349–352; Lemma 20.8.1 lines 10–11 only for conventions. Theorem 20.8.3 proof lines 72 onward and Proposition 20.8.16 proof lines 358–384 **not certified**, and excluded regularization steps expressly not audited.
+- New independent work: full three noncollinear coordinate-point monomial ideal basis, exact finite-degree global and exceptional image ranks, wall at t=1/2, bigness endpoint t=2/3, volume and restricted-volume functions, first-derivative identity, and exhaustive d<=35 local text check.
+- §20.8 was **already partially proof-reviewed**. New first-visited numbered sections = **0**; newly fully certified numbered sections = **0**. No other numbered section was counted as proved.
+- Finding ID: POME-RESVOL-NONCOLLINEAR-THREEPOINT-WALL-001, low / verified conditional deduction. Report: ../reports/2026-11-14-three-noncollinear-restricted-volume-wall.md; ledger: ../ledger/2026-11-14-three-noncollinear-restricted-volume-wall.md. §20.8.3, §20.8.16 remain conditionally interpreted, not recertified.
+- Distinct predecessor models: two-point blowup (2026-11-02), three collinear blowups (2026-11-07), central-fiber polynomial gluing (2026-11-10). These retain their previous classifications unchanged.
+- Excluded user scope remains **deferred-by-user**: Demailly approximation/regularization and the dedicated Bergman/L2/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss programme. No production, main, registry, source, CI, test-suite, website or publication changes.
