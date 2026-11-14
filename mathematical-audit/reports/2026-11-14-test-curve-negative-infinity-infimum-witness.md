@@ -74,7 +74,7 @@ For every fixed `tau<0`, `a_j(tau)` increases with `j`; since `u_a` decreases in
 \quad(\tau_0<0).
 ```
 
-At each fixed finite `tau<0`, `a_j(tau)uparrow c` and `inf_j Gamma^j_tau=u_c`. The resulting limit test curve is constant `u_c` for all `tau<0`, and has endpoint `u_c`. But each individual endpoint is `0`; hence the desired strict inequality and the mass gap `1-c` versus `1`.
+At each fixed finite `tau<0`, `a_j(tau)\uparrow c` and `inf_j Gamma^j_tau=u_c`. The resulting limit test curve is constant `u_c` for all `tau<0`, and has endpoint `u_c`. But each individual endpoint is `0`; hence the desired strict inequality and the mass gap `1-c` versus `1`.
 
 ## Status, consequences, and boundaries of the audit
 
