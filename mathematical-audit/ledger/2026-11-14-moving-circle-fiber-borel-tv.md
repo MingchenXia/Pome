@@ -1,0 +1,13 @@
+# Classified audit ledger — 2026-11-14 — moving circle fiber slicing
+
+| ID | Classification | Severity | Original result | Proof and distinction | Correction / dependents |
+| --- | --- | --- | --- | --- | --- |
+| **POME-NPP-MOVING-CIRCLE-FIBER-TV-001** | **verified conditional deduction** | **low** | Lemmas 13.4.4–5 (both correct in the selected passages); equation 13.4.6 | Explicit globally bounded psh functions \(u_j=\max(\log|x_j|^2,\log|z_1|^2,-\log 4)\) on \(\Delta_2^r\times\Delta^m\), \(r,m\ge1\), have full-base wedge disintegration \(\lambda_{\max(|z_1|,1/2)}^{\otimes r}\,dV_D(z)\) against *all Borel tests*. The equality-interface set \(|x_1|=|z_1|\) has exactly \(3\pi^m/4\) mass; strict \(>\) has \(\pi^m/4\). Slices vary weakly continuously but have TV norm separation \(2\) for nearby distinct radii. Direct smooth finite log-sum approximation plus internal bounded BT decreasing continuity proves the model; selected published Dynkin/Fubini passages have no detected gap. | **No production change proposed.** Optional explanatory note can distinguish Borel disintegration from a Lebesgue density and weak from TV slice stability. Theorem 7.3.7/CLN remain *conditional upstream inputs*, not chain-certified; Proposition 13.4.7 and any downstream Borel-slicing invocation not certified here. |
+
+**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Path / blob:** \`docs/sections/non-pluripolar-products--bounded-factors-and-the-first-degree-product/index.html\` / \`d234ab96e33bfd24ad1d53d29332b2c021cddeff\`.
+
+**Source and permanent tags / physical lines:** Lemma 13.4.4 \`foundations-of-pluripotential-theory:C504A6B9\` / \`CA3A887474EE\`, 133–153; Lemma 13.4.5 \`foundations-of-pluripotential-theory:638C435E\` / \`4AD0BFC1BFCD\`, 157–190; equation 13.4.6 \`foundations-of-pluripotential-theory:917DDB45\` / \`7F078C7DCBDD\`, 163–165; Proposition 13.4.7 \`foundations-of-pluripotential-theory:D1BF7EF2\` / \`3553558C2E27\`, lines 194–197 (dependence context only).
+
+[Complete proof and limitation](../reports/2026-11-14-moving-circle-npp-fiber-disintegration.md) · [actual coverage delta](../coverage/2026-11-14-ch13-moving-circle-borel-fiber.md).
+
+Existing **confirmed error**, **proof gap**, **candidate**, **external dependency**, **genuine duplication**, **verified repair** and **deferred-by-user** ledger entries are preserved without reclassification. Excluded Demailly approximation/regularization plus dedicated Bergman/\(L^2\)/Ohsawa–Takegoshi/multiscale/positivity-loss work remains **deferred-by-user**. New first-visited numbered sections: **0**. Entire-section certifications: **0**. Project count remains **25 chapters / 747 numbered sections**.
