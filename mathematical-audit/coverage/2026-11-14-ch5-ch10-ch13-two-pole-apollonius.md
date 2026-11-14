@@ -1,0 +1,14 @@
+# Selected-section coverage delta — 2026-11-14 — two-pole Apollonius maximum
+
+**Reviewed production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Current ToC:** 25 chapters / 747 numbered sections (existing inventory; no new claim of complete verification).
+
+| Actual numbered section | Exact newly checked evidence | Boundaries |
+| --- | --- | --- |
+| **5.24** Maxima and maximum principle | Lemma 5.24.1 source non-kahler-pluripotential-theory:8EAEF1E9 / tag 729BA86BCC7C, docs/sections/plurisubharmonic-functions-and-singularities--maxima-and-the-maximum-principle/index.html, blob af8c44279c1e18f00174d613473b1d175beaa44a, lines 10–25; max applied to two point-pole potentials | Already partly audited; only selected max passage rechecked, no entire proof chain |
+| **10.6** Curvature and metrics defined by sections | Example 10.6.7 source foundations-of-pluripotential-theory:E51945FB / tag 4CE1D9D7D803, docs/sections/global-potentials-and-positive-cohomology-classes--curvature-and-metrics-defined-by-sections/index.html, blob ff56aa13950da3423135bb0bbaf40bcc980c21a1, lines 108–115; normalized P1 FS point current | Existing 2026-10-27 unit-circle curvature finding explicitly *not* repeated |
+| **13.2** Truncation and plurifine locality | Definition 13.2.4 source foundations-of-pluripotential-theory:9D8E4DD8 / tag D79952D7E272, docs/sections/non-pluripolar-products--truncation-and-plurifine-locality/index.html, blob 81be8c5acc360c96bd3c5acba05a3cdb5fafaf4c, lines 57–63; first-degree polar restriction | Existing partial proof review preserved; not a whole section |
+| **13.7** Capacity convergence/loss of mass | Theorem .5 source foundations-of-pluripotential-theory:AB4EBE3B / tag 67C4F7EC316E, lines 106–134; Example .6 source :D5678E03 / tag ACAEA8D8BE87, lines 138–140; Proposition .8 source :8CF7A9C6 / tag 4B60F7F33590, lines 147–171. File docs/sections/non-pluripolar-products--capacity-convergence-and-loss-of-mass/index.html, blob d66813856cb813722806ab912afdfd4815d2da97. Exact two-sided monotone max and mass-loss model; W1 ratio | This is **not** the 2026-11-11 single-truncation-shell result. Capacity theorem dependency conditional; no full certification |
+
+**New finding:** POME-NPP-APOLLONIUS-MAX-TRANSPORT-001 (low / verified conditional deduction), [proof](../reports/2026-11-14-two-pole-apollonius-maximum-transport.md) and [ledger](../ledger/2026-11-14-two-pole-apollonius-maximum-transport.md).
+
+**Increment:** 0 first-ever numbered-section proof visits; 0 entire-section certifications; four previously partly visited numbered sections received precisely stated new model-level verification. No error, dependency, or previously deferred item relabelled as solved. The excluded Demailly regularization and dedicated programmes remain deferred-by-user. No build, tests, CI, website, main or source edits.
