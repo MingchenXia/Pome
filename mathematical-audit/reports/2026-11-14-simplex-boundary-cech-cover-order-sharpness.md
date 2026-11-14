@@ -34,7 +34,7 @@ By the integral alternating homotopy of §10.44.14, it suffices to use increasin
 $$
 C^q=\bigoplus_{\substack{I\subset\{0,\ldots,n+1\}\\|I|=q+1}}A\qquad(0\le q\le n),\qquad C^q=0\ (q>n),
 $$
-with the usual signed omission coboundary. Every nonempty intersection is connected, so $\underline A$U_I$=A$, and all restriction homomorphisms are the identity. This is exactly the simplicial cochain complex of the boundary of the $$n+1$$-simplex, with coefficients in **any** $A$, not merely a field.
+with the usual signed omission coboundary. Every nonempty intersection is connected, so $\underline A(U_I)=A$, and all restriction homomorphisms are the identity. This is exactly the simplicial cochain complex of the boundary of the $n+1$-simplex, with coefficients in **any** $A$, not merely a field.
 
 For an entirely elementary calculation, adjoin to this boundary cochain complex the single top term $C^{n+1}_{\Delta}=A$ from the full simplex. In all lower degrees the two complexes agree. The full simplex cochain complex has the explicit integral contraction obtained by inserting the vertex $0$ (the usual augmented simplicial cone, with identity in degree zero). Thus its positive-degree cohomology vanishes. In particular, for $n\ge1$,
 $$
@@ -48,11 +48,11 @@ $$
 $$
 The remaining positive degrees below $n$ vanish by the same contraction, and $H^0=A$ because the nerve is connected. In particular a single-facet $n$-cochain of value $a\ne0$ is a nontrivial class; no factorial, positivity, or division hypothesis is involved.
 
-By the stated acyclic-cover comparison this also computes $H^n$S^n,\underline A$\cong A$, agreeing with the already printed Proposition 10.66.1 by a **different explicit cover-level calculation**. For every nonzero $A$, the upper-degree vanishing conclusion of Corollary 10.44.15 is optimal: it cannot be strengthened from $q>n$ to $q\ge n$ even for a finite good cover of exact order $n+1$.
+By the stated acyclic-cover comparison this also computes $H^n(S^n,\underline A)\cong A$, agreeing with the already printed Proposition 10.66.1 by a **different explicit cover-level calculation**. For every nonzero $A$, the upper-degree vanishing conclusion of Corollary 10.44.15 is optimal: it cannot be strengthened from $q>n$ to $q\ge n$ even for a finite good cover of exact order $n+1$.
 
 ## Why one non-acyclic cover cannot replace either hypothesis
 
-On the same $X_n\simeq S^n$, consider instead the single-open-set cover `{X_n}`. It has order $1$, so for $n\ge1$ it satisfies the intersection multiplicity condition of the **hypothetical** $n=0$ version with no acyclicity requirement. Its positive-degree alternating Čech groups are all zero, while $H^n$X_n,\underline A$=A\ne0$. It is not acyclic for $\underline A$. Hence the theorem's distinction between **arbitrarily fine** low-order covers and **one acyclic** low-order cover is indispensable. A single low-order cover, without the acyclicity requirement, supplies no global cohomological-dimension bound.
+On the same $X_n\simeq S^n$, consider instead the single-open-set cover `{X_n}`. It has order $1$, so for $n\ge1$ it satisfies the intersection multiplicity condition of the **hypothetical** $n=0$ version with no acyclicity requirement. Its positive-degree alternating Čech groups are all zero, while $H^n(X_n,\underline A)=A\ne0$. It is not acyclic for $\underline A$. Hence the theorem's distinction between **arbitrarily fine** low-order covers and **one acyclic** low-order cover is indispensable. A single low-order cover, without the acyclicity requirement, supplies no global cohomological-dimension bound.
 
 This is a counterexample only to the **unauthorized weakened assertion**, **not to the printed corollary**. In the printed proof, the two routes—direct-limit exhaustion versus acyclic-cover comparison—are properly separated.
 
