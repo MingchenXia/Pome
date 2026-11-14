@@ -3,15 +3,15 @@
 **Finding:** POME-HESS-DIAGONAL-HIGHER-CODIM-001  
 **Date:** 2026-11-14  
 **Status:** **verified conditional deduction**; **severity:** low (sharpness/extension, **not** a refutation of the reading edition).  
-**Reviewed production \`main\`:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`  
+**Reviewed production `main`:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`  
 **Scope:** current printed Chapter 8, **connected compact complex** \(X\) of dimension \(n\), Hermitian \(\omega>0\), and \(2\le m<n\) (§8.1, physical line 7). This is *not* the \(m=n\) or \(m=1\) theory.
 
 ## Precise anchored source interfaces
 
-- \`docs/sections/complex-hessian-equations/index.html\`, main blob \`5331b937ccdaba51f1ec006d5e72dc84f7addfbf\`, §8.1 permanent tag \`CFD38285654D\`, line 7: \(2\le m<n\).
-- \`docs/sections/complex-hessian-equations--bounded-potentials-and-recursive-hessian-currents/index.html\`, main blob \`117b866408974cdf706bf305df75e35e1b8affde\`, §8.9, lines 36–56 and 83–115: recursive \(D_p\), positive shifted \(Q_p\). Original source \`non-kahler-pluripotential-theory:61CC9D08\`, permanent tag \`846671D5582A\` (Theorem 8.9.6, lines 96–115); formula (8.9.5) permanent tag \`17FA1BFF2491\`, lines 83–87.
-- \`docs/sections/complex-hessian-equations--sobolev-capacity-and-two-hessian-factors/index.html\`, main blob \`25f25433cb9b17de6715a5b05f8b3c15b95a18cd\`, Lemma 8.10.6 original \`non-kahler-pluripotential-theory:350D7B3A\`, permanent \`2A6BE9847309\`, lines 185–205; Example 8.10.7 original \`non-kahler-pluripotential-theory:36B886BE\`, permanent \`AEB4F2397BBF\`, lines 209–246. The example uses **two distinct coordinate potentials**; it does not establish the **diagonal \(p\)-fold** assertion below.
-- \`docs/sections/complex-hessian-equations--local-capacities-and-decreasing-products/index.html\`, main blob \`115d285f6b1f76d284463c396e7e87db2b9dbdc3\`, Theorem 8.11.12 original \`non-kahler-pluripotential-theory:B227378C\`, permanent \`C044CD1C65C4\`, lines 281–293: joint decreasing-product identification and weak convergence, used **conditionally** below.
+- `docs/sections/complex-hessian-equations/index.html`, main blob `5331b937ccdaba51f1ec006d5e72dc84f7addfbf`, §8.1 permanent tag `CFD38285654D`, line 7: \(2\le m<n\).
+- `docs/sections/complex-hessian-equations--bounded-potentials-and-recursive-hessian-currents/index.html`, main blob `117b866408974cdf706bf305df75e35e1b8affde`, §8.9, lines 36–56 and 83–115: recursive \(D_p\), positive shifted \(Q_p\). Original source `non-kahler-pluripotential-theory:61CC9D08`, permanent tag `846671D5582A` (Theorem 8.9.6, lines 96–115); formula (8.9.5) permanent tag `17FA1BFF2491`, lines 83–87.
+- `docs/sections/complex-hessian-equations--sobolev-capacity-and-two-hessian-factors/index.html`, main blob `25f25433cb9b17de6715a5b05f8b3c15b95a18cd`, Lemma 8.10.6 original `non-kahler-pluripotential-theory:350D7B3A`, permanent `2A6BE9847309`, lines 185–205; Example 8.10.7 original `non-kahler-pluripotential-theory:36B886BE`, permanent `AEB4F2397BBF`, lines 209–246. The example uses **two distinct coordinate potentials**; it does not establish the **diagonal \(p\)-fold** assertion below.
+- `docs/sections/complex-hessian-equations--local-capacities-and-decreasing-products/index.html`, main blob `115d285f6b1f76d284463c396e7e87db2b9dbdc3`, Theorem 8.11.12 original `non-kahler-pluripotential-theory:B227378C`, permanent `C044CD1C65C4`, lines 281–293: joint decreasing-product identification and weak convergence, used **conditionally** below.
 
 ## Exact diagonal statement
 
