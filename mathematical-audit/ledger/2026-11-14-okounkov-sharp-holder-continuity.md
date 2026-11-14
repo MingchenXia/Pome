@@ -1,0 +1,7 @@
+# 2026-11-14 — Quantitative Okounkov-body continuity ledger
+
+| Finding ID | Severity | Status | Exact target | Verified content | Unresolved dependencies / proposed edit |
+| --- | --- | --- | --- | --- | --- |
+| `POME-OKO-SG-HAUSDORFF-HOLDER-SHARP-001` | low | **verified conditional deduction** | Main `b6933b772f41b45918f7e25ed1afbbb1fd892272`; `docs/sections/the-theory-of-okounkov-bodies--almost-semigroups/index.html` blob `33212916f9ea7754f51f8194cfb76c2fcbe8efab`, equation 19.2.1 lines 22–29 tag `A3A5C96E566B`; Theorem 19.2.5 lines 91–111 tag `37D86D761E81`; Theorem 19.2.10 lines 73–84 tag `2534E787147E`; §19.7.20/32 tags `85641516C8CA`, `1551B679B8B7` | On positive-volume semigroup closure, `vol(Delta(S) triangle Delta(T)) <= d_sg(S,T)` and `d_H <= diam(Q)*(d_sg/min(volS,volT))^(1/n)`. Full-lattice rational truncated cubes show exponent `1/n` optimal. | Optional **addendum only**; no printed theorem false. The §19.2.5 counting and §19.2.10 continuity inputs remain not transitively certified; §19.7.20 retains historical Kaveh–Khovanskii attribution. No source/tag/canonicalization edit. |
+
+**Ledger integrity:** This ID is additive, not a duplicate of previously logged full-lattice conductors, numerical counts, or discrete slice symmetric-difference pseudometric checks. Existing confirmed errors, proof gaps and pending external inputs remain unchanged. All user-excluded Demailly approximation/regularization plus dedicated Bergman/L²/OT/multiscale/positivity-loss proof-completion notes stay **deferred-by-user** (neither repaired nor certified).
