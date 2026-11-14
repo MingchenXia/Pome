@@ -1,8 +1,8 @@
 # Explicit entropy-controlled logarithmic scalar stability (selected §§11.32–11.38)
 
-**Audit date:** 2026-11-15 (Asia/Shanghai). **Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Audit branch:** \`review/mathematical-audit\`.
+**Audit date:** 2026-11-15 (Asia/Shanghai). **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Audit branch:** `review/mathematical-audit`.
 
-**Finding ID:** \`POME-ADJOINT-ENTROPY-EXPLICIT-LOGMODULUS-001\`. **Classification:** low / **verified conditional deduction**. **Printed results remain correct**; this is neither a false theorem nor a repair of an original proof. The result is an *explicit* uniform-in-reference version of the previously proved **implicit** $\Psi_{L_M}$ modulus \`POME-ADJOINT-DUAL-UNIFORM-L1-001\` (2026-10-24), not a re-registration of that result. The leading-order sharpness below concerns **general entropy-bounded probabilities**, **not** the particular PDE supporting measures.
+**Finding ID:** `POME-ADJOINT-ENTROPY-EXPLICIT-LOGMODULUS-001`. **Classification:** low / **verified conditional deduction**. **Printed results remain correct**; this is neither a false theorem nor a repair of an original proof. The result is an *explicit* uniform-in-reference version of the previously proved **implicit** $\Psi_{L_M}$ modulus `POME-ADJOINT-DUAL-UNIFORM-L1-001` (2026-10-24), not a re-registration of that result. The leading-order sharpness below concerns **general entropy-bounded probabilities**, **not** the particular PDE supporting measures.
 
 ## Exact current-reading-edition inputs
 
@@ -10,10 +10,10 @@ All paths are relative to repository root and refer to production main at the SH
 
 | Scope / exact label | Integrated HTML path, blob and physical line anchors |
 | --- | --- |
-| Standing hypothesis, source \`non-kahler-pluripotential-theory:75571769\`, permanent \`7091FEDB43F0\` (§11.32) | \`docs/sections/normalization-and-weak-adjoint-measures/index.html\`, \`031b5d62d25d7ff03d95e4a14988399527cc946a\`, lines 5–12 |
-| Proposition 11.33.2, source \`non-kahler-pluripotential-theory:6D175DAF\`, permanent \`2770AB03C0D2\`; Theorem 11.33.5, source \`D502EBBF\`, permanent \`5E3583383688\` | \`docs/sections/normalization-and-weak-adjoint-measures--the-scalar-functional/index.html\`, \`fff86de757578ed2be369ba752123f62f3d31044\`, lines 27–51 and 89–117 |
-| Theorem 11.36.1, source \`non-kahler-pluripotential-theory:ECDF9BCE\`, permanent \`99653D7759E2\`; supporting inequality 11.36.2, source \`4DCA70F5\`, permanent \`F840087A1B81\` | \`docs/sections/normalization-and-weak-adjoint-measures--bounded-measurable-densities-and-stability/index.html\`, \`9c045c6e7a5bc4f0830874030c18dad0cafae905\`, lines 10–20, 30–55 |
-| Corollary 11.38.5, source \`non-kahler-pluripotential-theory:F9E8E533\`, permanent \`A13D502ACAAC\` | \`docs/sections/normalization-and-weak-adjoint-measures--entropy-bounds/index.html\`, \`d124ce19af09af2d0a65d655fe611e7b45804c3d\`, lines 99–132 (especially 103–107, 125–131) |
+| Standing hypothesis, source `non-kahler-pluripotential-theory:75571769`, permanent `7091FEDB43F0` (§11.32) | `docs/sections/normalization-and-weak-adjoint-measures/index.html`, `031b5d62d25d7ff03d95e4a14988399527cc946a`, lines 5–12 |
+| Proposition 11.33.2, source `non-kahler-pluripotential-theory:6D175DAF`, permanent `2770AB03C0D2`; Theorem 11.33.5, source `D502EBBF`, permanent `5E3583383688` | `docs/sections/normalization-and-weak-adjoint-measures--the-scalar-functional/index.html`, `fff86de757578ed2be369ba752123f62f3d31044`, lines 27–51 and 89–117 |
+| Theorem 11.36.1, source `non-kahler-pluripotential-theory:ECDF9BCE`, permanent `99653D7759E2`; supporting inequality 11.36.2, source `4DCA70F5`, permanent `F840087A1B81` | `docs/sections/normalization-and-weak-adjoint-measures--bounded-measurable-densities-and-stability/index.html`, `9c045c6e7a5bc4f0830874030c18dad0cafae905`, lines 10–20, 30–55 |
+| Corollary 11.38.5, source `non-kahler-pluripotential-theory:F9E8E533`, permanent `A13D502ACAAC` | `docs/sections/normalization-and-weak-adjoint-measures--entropy-bounds/index.html`, `d124ce19af09af2d0a65d655fe611e7b45804c3d`, lines 99–132 (especially 103–107, 125–131) |
 
 **Hypotheses retained.** Let $X$ be connected compact complex, $\mu=dV$ a *probability* smooth volume form (as normalized in §11.38), and $\theta$ a smooth semipositive big real $(1,1)$ form. Fix $0<\varepsilon<1$, and consider **only** those ordinary model references $\varphi$ satisfying the stated smaller-background hypothesis $P_{\varepsilon\theta}(\varphi)\not\equiv-\infty$. Use a Hermitian $\Omega\geq\theta$ as in Corollary 11.38.5. The corollary provides one finite constant $a_2$, depending on the fixed background and $\varepsilon$ but **not** on $\varphi$, such that
 \[
