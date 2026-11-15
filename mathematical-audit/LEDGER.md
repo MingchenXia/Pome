@@ -4,6 +4,10 @@ The dated [ledger directory](ledger/) and [section coverage matrix](SECTION_MATR
 
 ## Verified deductions (not errors or source repairs)
 
+- **POME-MAGNETIC-MULTIPAIR-MIDPOINT-DEFECT-001** (2026-11-15, low / verified conditional deduction): n-pair zero-field Riesz mean majorization and an all-rank quadratic field deficit bound; exact 2-pair oscillatory formula gives sharp b² exponent. Printed Lemma 2.24.6 and Proposition 2.24.8 correct. Separate from previously logged one-pair midpoint and Dirichlet-rate results. [Proof](reports/2026-11-15-magnetic-multipair-zero-field-midpoint-defect.md) · [ledger](ledger/2026-11-15-magnetic-multipair-midpoint-defect.md) · [coverage](coverage/2026-11-15-ch2-magnetic-multipair-defect.md).
+
+
+
 - **`POME-STEIN-LEVI-QUANT-CODIM-SHARP-001`** (2026-11-15, low / verified conditional deduction): pointwise quantitative Levi summation with jointly sharp complex codimension and coercivity coefficient; first direct §9.32.2/.4 proof read, original statements correct; no global intersection-index optimality asserted. [Proof](reports/2026-11-15-stein-levi-quantitative-sharp-codimension.md) · [ledger](ledger/2026-11-15-stein-levi-quantitative-sharp-codimension.md) · [coverage](coverage/2026-11-15-ch9-stein-levi-quantitative.md).
 
 - **`POME-CONVEX-DUAL-LINF-OSC-ROOFTOP-001`** (2026-11-15, low / verified conditional deduction): exact global norm/oscillation duality and optimal 1-Lipschitz finite dual-rooftop stability; printed statements correct. Older Wasserstein example is not recounted. [Proof](reports/2026-11-15-legendre-exact-supnorm-oscillation-rooftop.md) · [ledger](ledger/2026-11-15-legendre-supnorm-oscillation-rooftop.md) · [coverage](coverage/2026-11-15-ch21-legendre-rooftop-isometry.md).
