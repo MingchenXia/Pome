@@ -1,0 +1,12 @@
+# 2026-11-15 — Multitorus graded ideals and Gauss-value ledger
+
+- **ID:** \`POME-NA-MULTITORUS-GRADED-IDEAL-GAUSS-FLATNESS-001\`
+- **Classification:** low / **verified conditional deduction**. Printed Lemma 22.1.94 correct; no false theorem or applied repair.
+- **Main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; integrated §22.1 HTML blob \`8448d710690ebe1cc28040f9611d05c9d008a961\`.
+- **Exact anchor:** \`docs/sections/non-archimedean-pluripotential-theory/index.html\` Lemma 22.1.94 \`sgpt:AB6FE74C\` / permanent \`76252E7717AC\`, lines 1402–1415; Equation 22.1.95 \`sgpt:EC9FB89B\` / permanent \`6126C03E6587\`, lines 1404–1407; context 22.1.96 \`sgpt:0D0A3D2C\` / \`AF0C82DE24E9\` lines 1418–1427 and 22.1.98 \`sgpt:4D7EEB4A\` / \`6A232EAE791C\` lines 1445–1492.
+- **Result:** coordinatewise \((S^1)^d\)-invariance of an ideal in \(R[\mathbf t]\) gives exact \(\mathbb N^d\)-homogeneous decomposition; finite monomial coefficient generators; stabilization in a translated orthant; \(T\)-saturation and torus-fiber formula; flatness iff the ideal is pulled back from \(R\); and a finite concave piecewise-affine weighted Gauss-valuation formula. Both full proofs and explicit three-region and diagonal-torus countermodels are in [the dated report](../reports/2026-11-15-multitorus-homogeneous-ideals-gauss-flatness.md).
+- **Scope boundary:** \(R\) Noetherian, trivial action on coefficients; full independent coordinate rotations, not merely diagonal rotations; Gauss formula additionally requires a domain, centered valuation and \(w_i\ge0\). No claim about arbitrary analytic filtrations or convergence of NA test curves.
+- **Dependencies:** elementary finite roots-of-unity extraction, Hilbert basis theorem, valuation properties, and linear algebra. **Previously recorded** GAGA dependency in §22.1.96 left external; §22.1.97 global-generation/L² proof **not examined**.
+- **Prior finding distinguished:** POME-NA-S1-IDEAL-TORSION-FLATNESS-001 already settles the one-variable case; only the genuinely several-parameter work is counted new.
+- **Proposed action:** optional standalone algebraic multitorus lemma, no replacement of the printed one-parameter lemma and no changes to body/tags.
+- **Coverage:** existing partly sampled §22.1; **0 first-visited numbered sections, 0 whole-section certifications**; ToC 25 chapters / 747 sections. Demailly regularization and the dedicated excluded programme remain **deferred-by-user**, not certified.
