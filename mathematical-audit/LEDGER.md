@@ -10,6 +10,10 @@ The dated [ledger directory](ledger/) and [section coverage matrix](SECTION_MATR
 
 ## Verified deductions (not errors or source repairs)
 
+- **POME-HESS-ORDERED-LOGDATA-TWO-SLOPE-001** (2026-11-15, low / verified conditional deduction): strict one-sided logarithmic-data comparison with sharp *two-slope* bounds `v-b/κ ≤ u ≤ v-a/Λ`; original 8.13.10/.12 correct; conditional on Hermitian domination. [Proof](reports/2026-11-15-hessian-ordered-log-data-two-slope.md) · [ledger](ledger/2026-11-15-hessian-ordered-log-data-two-slope.md) · [coverage](coverage/2026-11-15-ch8-hessian-ordered-log-data.md).
+
+
+
 - **POME-MAGNETIC-MULTIPAIR-MIDPOINT-DEFECT-001** (2026-11-15, low / verified conditional deduction): n-pair zero-field Riesz mean majorization and an all-rank quadratic field deficit bound; exact 2-pair oscillatory formula gives sharp b² exponent. Printed Lemma 2.24.6 and Proposition 2.24.8 correct. Separate from previously logged one-pair midpoint and Dirichlet-rate results. [Proof](reports/2026-11-15-magnetic-multipair-zero-field-midpoint-defect.md) · [ledger](ledger/2026-11-15-magnetic-multipair-midpoint-defect.md) · [coverage](coverage/2026-11-15-ch2-magnetic-multipair-defect.md).
 
 

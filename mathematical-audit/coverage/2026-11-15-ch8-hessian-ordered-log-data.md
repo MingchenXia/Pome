@@ -1,0 +1,9 @@
+# Exact coverage delta — 2026-11-15 — Chapter 8 ordered Hessian data
+
+**Finding:** \`POME-HESS-ORDERED-LOGDATA-TWO-SLOPE-001\` (**low / verified conditional deduction**, original propositions correct). **Main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+
+**Actual integrated files:** \`docs/sections/complex-hessian-equations--hessian-mass-and-global-comparison/index.html\`, main blob \`580d3bc2b10ebd01d880b2a31fc6930436570aac\`. Direct integrated proof read: **Theorem 8.13.10** (source \`non-kahler-pluripotential-theory:98425BFC\`, permanent \`A532C77D7D0C\`, physical lines **281–303**) and **Proposition 8.13.12** (source \`non-kahler-pluripotential-theory:3FE616D3\`, permanent \`FBE7E9A6BE5E\`, lines **330–353**). Read **Corollary 8.13.13** (source \`non-kahler-pluripotential-theory:126D8F14\`, permanent \`5460C4009B01\`, lines **355–365**) for affected dependents.
+
+**New mathematical review, no old result repeated:** proof of two-sided *ordered* logarithmic-data comparison \(v-b/\kappa\le u\le v-a/\Lambda\) under \(0\le a\le h_1-h_2\le b\) and \(0<\kappa\le f_t\le\Lambda\), including sharp constant-solution witnesses for each coefficient. This is **not** the previous residual-measure perturbation bound nor the torsion recurrence. [Full theorem/proof](../reports/2026-11-15-hessian-ordered-log-data-two-slope.md) · [classified ledger](../ledger/2026-11-15-hessian-ordered-log-data-two-slope.md).
+
+**Coverage classification:** §8.13 was already partially visited; new first-visited numbered sections **0**, fully certified numbered sections **0**, chapter certifications **0**. Actual ToC **25 chapters / 747 numbered sections**. This selected deduction is conditional on the internal Hermitian domination theorem; the older regularization/Bergman/L²/OT/multiscale/positivity-loss programme is **deferred-by-user**, not resolved. No main edits, production source edits, build, tests, GitHub Actions, or publication.
