@@ -4,6 +4,9 @@ The dated [ledger directory](ledger/) and [section coverage matrix](SECTION_MATR
 
 ## Verified deductions (not errors or source repairs)
 
+- **`POME-CLASS-TWO-BALL-CAPACITY-INTERACTION-001`** (2026-11-15, low / verified conditional deduction): exact two-sided Newtonian capacity bounds for two separated equal balls and the sharp leading negative interaction term, as a selected conditional check of Theorems 4.3.7/4.3.10 (printed results correct). [Proof](reports/2026-11-15-two-separated-newtonian-balls-capacity-interaction.md) · [ledger](ledger/2026-11-15-separated-balls-capacity-interaction.md) · [coverage](coverage/2026-11-15-ch4-separated-balls-capacity-interaction.md).
+
+
 - **`POME-OKO-CURVE-UNIFORM-PIC0-SHARP-RATE-001`** (2026-11-15, low / verified conditional deduction): exact sharp curve bound sup_{T in Pic^0} d_H(Delta_{k,T}(L),[0,d])=g/k for kd>=2g, with a fixed elliptic twist showing 1/k sharp; original Proposition 19.4.12 correct. [Proof](reports/2026-11-15-curve-uniform-pic0-okounkov-rate.md) · [ledger](ledger/2026-11-15-curve-uniform-pic0-okounkov-rate.md) · [coverage](coverage/2026-11-15-ch19-curve-uniform-pic0-okounkov-rate.md).
 
 - **`POME-TORIC-BIG-LATTICEFREE-STABLE-BASE-EFFECTIVE-001`** (2026-11-15, low / verified conditional deduction): exact all-vertex-denominator bound $\operatorname{Bs}|qD|=\mathbf B(D)$ for integral big divisors on smooth projective toric varieties, with an explicit lattice-free degree-one/two big divisor on a smooth projective toric surface; original §§21.13.8 and 21.13.10 correct. [Full proof](reports/2026-11-15-toric-big-lattice-free-effective-stable-base.md) · [classified ledger](ledger/2026-11-15-toric-big-lattice-free-stable-base.md) · [coverage](coverage/2026-11-15-ch21-toric-big-stable-base-effective.md).
