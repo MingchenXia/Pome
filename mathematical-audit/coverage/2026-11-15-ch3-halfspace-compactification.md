@@ -1,0 +1,12 @@
+# 2026-11-15 — precise additive §3.2 coverage: compactified half-space positive cone
+
+**Finding:** \`POME-HALFSPACE-MARTIN-ONEPOINT-WEAKSTAR-001\` (low / verified conditional deduction, not an error or an applied repair). **Main SHA:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Current ToC:** 25 chapters / 747 numbered sections.
+
+| Section | Stable integrated anchors | What was newly proved and what remains conditional |
+| --- | --- | --- |
+| **3.2** Kelvin transforms and half-space potentials | \`docs/sections/kelvin-transforms-and-half-space-potentials/index.html\`, blob \`f2615a5393af724c3996978212162f94911ff9d9\`. Theorem 3.2.2 source \`classical-potential-theory:B1AA5815\` / permanent \`97BA27062B9F\`, lines 16–22, 27–48; Theorem 3.2.6 source \`classical-potential-theory:1C8A330A\` / permanent \`6BC86EEF03A9\`, lines 64–75 and its ball inverse proof 80–123; equations 3.2.7 source \`C0A46F1A\` / \`F3ED29BBAD39\`, lines 66–68; 3.2.8 source \`358F89A3\` / \`8F7C774A9D89\`, lines 70–73. | New complete deduction from the **printed** positive representation: uniqueness of \((c,\nu)\), exact compact-sphere measure conversion, weak-* ↔ \(C^\infty_{\rm loc}\) **net** homeomorphism, and explicit atom-escape / noncontinuous-coefficient model. The existence and global upstream proof of the representation remain conditional, not certified. |
+| **3.2** bounded-data context | Theorem 3.2.12 source \`classical-potential-theory:BB6DAC3F\` / permanent \`9ADD2DF19642\`, lines 140–145; Poisson normalization equation source \`E7E82020\` / permanent \`AB2849CD8791\`, lines 153–164. | Contextual comparison only; the separate previously reported bounded \(L^\infty\) isometry is not counted again. |
+
+**Delta:** first-time visited numbered sections **+0**, entire mathematical sections certified **+0**. No full section/theorem-chain certification; no proof of unrelated geometric claims. [Full report](../reports/2026-11-15-halfspace-onepoint-boundary-cone-homeomorphism.md) · [finding ledger](../ledger/2026-11-15-halfspace-onepoint-boundary-cone-homeomorphism.md).
+
+**Preserved:** existing ledger findings and statuses, historical attribution, all source labels and permanent tags. User-excluded Demailly approximation/regularization and Bergman/\(L^2\)/Ohsawa–Takegoshi/multiscale-atlas/positivity-loss programme remains **deferred-by-user**. No tests, build, CI, main/source change or website publication.
