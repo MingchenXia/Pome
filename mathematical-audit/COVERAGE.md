@@ -1,3 +1,7 @@
+> **2026-11-16 — §9.27 direct Hamiltonian/sphere-period crosscheck:** `POME-STEIN-UNION-HAMILTONIAN-SPHERES-001`, low / verified conditional deduction, original Example 9.27.1 not refuted. [Source-anchored proof](reports/2026-11-16-stein-union-hamiltonian-periods-infinite-h2.md) · [ledger](ledger/2026-11-16-stein-union-hamiltonian-periods.md) · [exact delta](coverage/2026-11-16-ch9-stein-union-hamiltonian-periods.md). Main `b6933b772f41b45918f7e25ed1afbbb1fd892272`, §9.27 blob `26b2e856fc24b04616b0840caec5c688cc045ffa`; physically inspected lines 8–12, 18–30, 32–35, 39–46. Previous partial §9.27: **+0 first visits/+0 complete**, ToC 25/747; excluded work deferred-by-user. No build/test/CI/site actions.
+
+---
+
 > **2026-11-16 — selected §21.5 affine-covariance / rank-collapse extension:** **POME-CONVEX-MA-GL-AFFINE-PULLBACK-MIXED-001 (low / verified conditional deduction; printed Theorem 21.5.1 / Proposition 21.5.4 correct)**. [Source-anchored full proof](reports/2026-11-16-convex-real-ma-affine-pullback-and-rank-collapse.md), [status ledger](ledger/2026-11-16-convex-affine-ma-pullback.md), [exact delta](coverage/2026-11-16-ch21-convex-affine-ma-covariance.md). Main `b6933b772f41b45918f7e25ed1afbbb1fd892272`, §21.5 blob `7089aa41ae2422b1bd6b5094e46668cbc8ed37be`; physically inspected lines 10–40, 99–159, other references contextual. **Existing partial §21.5; +0 first visits/+0 full certifications; ToC 25/747.** SymPy exact small calculation performed, no project suite/build/CI. Excluded topics remain **deferred-by-user**.
 
 ---
