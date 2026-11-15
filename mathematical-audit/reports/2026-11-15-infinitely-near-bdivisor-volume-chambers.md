@@ -4,10 +4,10 @@
 
 ## Pinned main, sources and anchors
 
-Main SHA: \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+Main SHA: `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 
-- \`docs/sections/the-theory-of-b-divisors/index.html\`, blob \`4a793dfd462badcb351f54a36cb030cde14a399b\`: Proposition 20.1.2, source \`sgpt:03364441\`, permanent \`7E1DC3BE93AF\`, physical lines 29–35; Eq. 20.1.3, \`sgpt:6EAD3F58\` / \`73D0C455ED1D\`, lines 31–34; Definition 20.1.5, \`sgpt:2A98D289\` / \`178D74F44C30\`, lines 39–53; Definition 20.1.6, \`sgpt:0B20B6FE\` / \`E6F6681E7170\`, lines 56–63; Definition 20.1.10, \`sgpt:2D01378B\` / \`908967DFB37E\`, lines 123–125. The different moving-point Example 20.1.9 is \`sgpt:048A0D73\` / \`7AF528B0FB3B\`, lines 100–120.
-- \`docs/sections/toric-pluripotential-theory-on-big-line-bundles/index.html\`, blob \`d77d383b4bee977cca473ea43627ee7ac449cfda\`: Theorem 21.13.45, source \`sgpt:7CCE1B26\` / permanent \`1293B87EF09F\`, physical lines 753–764; its Eq. 21.13.47, \`sgpt:86272700\` / \`82B62A741230\`, lines 759–762. The equation identifies maximal-envelope mass with \(2!\) times the character-polytope area in the surface case. Its proof is an **existing internal conditional input** here, not a freshly verified theorem.
+- `docs/sections/the-theory-of-b-divisors/index.html`, blob `4a793dfd462badcb351f54a36cb030cde14a399b`: Proposition 20.1.2, source `sgpt:03364441`, permanent `7E1DC3BE93AF`, physical lines 29–35; Eq. 20.1.3, `sgpt:6EAD3F58` / `73D0C455ED1D`, lines 31–34; Definition 20.1.5, `sgpt:2A98D289` / `178D74F44C30`, lines 39–53; Definition 20.1.6, `sgpt:0B20B6FE` / `E6F6681E7170`, lines 56–63; Definition 20.1.10, `sgpt:2D01378B` / `908967DFB37E`, lines 123–125. The different moving-point Example 20.1.9 is `sgpt:048A0D73` / `7AF528B0FB3B`, lines 100–120.
+- `docs/sections/toric-pluripotential-theory-on-big-line-bundles/index.html`, blob `d77d383b4bee977cca473ea43627ee7ac449cfda`: Theorem 21.13.45, source `sgpt:7CCE1B26` / permanent `1293B87EF09F`, physical lines 753–764; its Eq. 21.13.47, `sgpt:86272700` / `82B62A741230`, lines 759–762. The equation identifies maximal-envelope mass with \(2!\) times the character-polytope area in the surface case. Its proof is an **existing internal conditional input** here, not a freshly verified theorem.
 
 ## Statement
 
