@@ -1,19 +1,19 @@
 # Effective stable base loci for integral big toric divisors, including lattice-free degree one
 
-**Finding ID:** \`POME-TORIC-BIG-LATTICEFREE-STABLE-BASE-EFFECTIVE-001\`  
+**Finding ID:** `POME-TORIC-BIG-LATTICEFREE-STABLE-BASE-EFFECTIVE-001`  
 **Date:** 2026-11-15  
 **Classification:** low / **verified conditional deduction**. The printed Proposition 21.13.8 and Corollary 21.13.10 are **correct** under their usual base-locus conventions. This note is neither a correction to them nor a certification of the entire section.  
-**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
-**Integrated reading file:** \`docs/sections/toric-pluripotential-theory-on-big-line-bundles/index.html\`; main blob \`d77d383b4bee977cca473ea43627ee7ac449cfda\`.
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
+**Integrated reading file:** `docs/sections/toric-pluripotential-theory-on-big-line-bundles/index.html`; main blob `d77d383b4bee977cca473ea43627ee7ac449cfda`.
 
 ## Actual source anchors and mathematical inputs
 
-- Section 21.13.1, source \`sgpt:BBB50B1C\`, permanent \`E05D6993D0C8\`, lines 24–38: smooth projective toric $X$, integral $T$-invariant big divisor $D$, and character/cocharacter lattices $M,N$.
-- Equation 21.13.2, source \`sgpt:995BC664\`, permanent \`2A3462C0F498\`, lines 38–45:
+- Section 21.13.1, source `sgpt:BBB50B1C`, permanent `E05D6993D0C8`, lines 24–38: smooth projective toric $X$, integral $T$-invariant big divisor $D$, and character/cocharacter lattices $M,N$.
+- Equation 21.13.2, source `sgpt:995BC664`, permanent `2A3462C0F498`, lines 38–45:
   $P_D=\{m\in M_{\mathbb R}:\langle m,u_\rho\rangle\ge-a_\rho\ \forall\rho\in\Sigma(1)\}$.
-- Equation 21.13.7, source \`sgpt:38C140E1\`, permanent \`498E343E626C\`, lines 100–107: $Q_\tau=P_D\cap\bigcap_{\rho\in\tau(1)}\{\langle m,u_\rho\rangle=-a_\rho\}$.
-- Proposition 21.13.8, source \`sgpt:7A4E8461\`, permanent \`111BC1BBBDE6\`, lines 110–139 (especially character decomposition, lines 124–135). Its condition 21.13.9 has source \`sgpt:A9A97BFB\`, permanent \`0AA0B0B933FC\`, lines 112–116.
-- Corollary 21.13.10, source \`sgpt:2D4B45AE\`, permanent \`0D3DB05576E8\`, lines 142–163; its empty-face criterion 21.13.11 has source \`sgpt:2CB22C04\`, permanent \`7480F81CDDBD\`, lines 155–159.
+- Equation 21.13.7, source `sgpt:38C140E1`, permanent `498E343E626C`, lines 100–107: $Q_\tau=P_D\cap\bigcap_{\rho\in\tau(1)}\{\langle m,u_\rho\rangle=-a_\rho\}$.
+- Proposition 21.13.8, source `sgpt:7A4E8461`, permanent `111BC1BBBDE6`, lines 110–139 (especially character decomposition, lines 124–135). Its condition 21.13.9 has source `sgpt:A9A97BFB`, permanent `0AA0B0B933FC`, lines 112–116.
+- Corollary 21.13.10, source `sgpt:2D4B45AE`, permanent `0D3DB05576E8`, lines 142–163; its empty-face criterion 21.13.11 has source `sgpt:2CB22C04`, permanent `7480F81CDDBD`, lines 155–159.
 
 The character-section decomposition $H^0(X,\mathcal O_X(kD))=\bigoplus_{m\in kP_D\cap M}\mathbb C\chi^m$ is the standard toric input already stated at 21.13.8. The argument below does not use approximation/regularization or any dedicated Bergman, $L^2$, or Ohsawa–Takegoshi machinery.
 
@@ -90,5 +90,5 @@ In particular, a big integral divisor need not be effective in its first (or eve
 - **Proposed correction:** optional addendum after Corollary 21.13.10 recording the finite denominator bound and the distinction $P_D\ne\varnothing$ versus $P_D\cap M\ne\varnothing$; retain the correct original statement and attribution.
 - **Affected dependents to watch:** any later argument replacing a stable base locus by a single linear-series base locus, or assuming degree-one characters for an integral big divisor, especially toric valuation/Okounkov arguments in §§21.13.31ff. No such downstream statement is classified as false by this note.
 - **Coverage:** new proof-level examination of 21.13.8 and 21.13.10 and its toric section conventions, within §21.13 previously partially visited for other statements on 2026-10-21. **+0 newly first-visited numbered sections; +0 complete-section certifications.** Current table of contents: 25 chapters and 747 numbered sections. §§21.13.21ff and the section's analytic proof chains are **not** certified here.
-- **Independent small check:** \`mathematical-audit/checks/check_toric_big_lattice_free.py\` verifies all adjacent ray determinants, exact polygon area, and integer points in degrees 1, 2, 3 using rational arithmetic; it is not a project test suite or proof of the general lemma.
+- **Independent small check:** `mathematical-audit/checks/check_toric_big_lattice_free.py` verifies all adjacent ray determinants, exact polygon area, and integer points in degrees 1, 2, 3 using rational arithmetic; it is not a project test suite or proof of the general lemma.
 - **Excluded scope:** Demailly approximation/regularization and dedicated Bergman, $L^2$, Ohsawa–Takegoshi, multiscale-atlas and positivity-loss work remain **deferred-by-user, not certified**. No production changes, build, CI or publication.

@@ -1,8 +1,8 @@
 # Classified finding — 2026-11-15 — POME-TORIC-BIG-LATTICEFREE-STABLE-BASE-EFFECTIVE-001
 
-- **Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+- **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 - **Status:** **verified conditional deduction**; **severity:** low. Printed Proposition 21.13.8 and Corollary 21.13.10 are **correct**; neither is a confirmed error, gap, or repair.
-- **Anchors:** \`docs/sections/toric-pluripotential-theory-on-big-line-bundles/index.html\` blob \`d77d383b4bee977cca473ea43627ee7ac449cfda\`; §21.13.8 source/permanent \`sgpt:7A4E8461 / 111BC1BBBDE6\`, physical lines 110–139; §21.13.10 \`sgpt:2D4B45AE / 0D3DB05576E8\`, lines 142–163; $P_D$ eq. 21.13.2 \`sgpt:995BC664 / 2A3462C0F498\`, lines 38–45; $Q_\tau$ eq. 21.13.7 \`sgpt:38C140E1 / 498E343E626C\`, lines 100–107.
+- **Anchors:** `docs/sections/toric-pluripotential-theory-on-big-line-bundles/index.html` blob `d77d383b4bee977cca473ea43627ee7ac449cfda`; §21.13.8 source/permanent `sgpt:7A4E8461 / 111BC1BBBDE6`, physical lines 110–139; §21.13.10 `sgpt:2D4B45AE / 0D3DB05576E8`, lines 142–163; $P_D$ eq. 21.13.2 `sgpt:995BC664 / 2A3462C0F498`, lines 38–45; $Q_\tau$ eq. 21.13.7 `sgpt:38C140E1 / 498E343E626C`, lines 100–107.
 - **Hypotheses/conclusion:** for a smooth projective toric $X$ and integral invariant big $D$, any $q$ clearing the denominators of all vertices of $P_D$ satisfies $\operatorname{Bs}|qD|=\mathbf B(D)$, as reduced loci. Explicit smooth projective toric surface $D$ has area-$1/60$ polygon, no sections of $D$ or $2D$ but a section of $3D$.
 - **Justification:** orbit-by-orbit monomial nonvanishing iff $Q_\tau\cap\frac1kM\ne\varnothing$; every nonempty face has a vertex; explicit twelve-ray smooth fan and exact rational polygon arithmetic. [Proof](../reports/2026-11-15-toric-big-lattice-free-effective-stable-base.md).
 - **Correction proposed:** optional post-corollary effective denominator bound; do not silently assume a big integral divisor has nonzero degree-one sections. Empty character set is handled correctly by the printed universal quantifier, including the zero cone.
