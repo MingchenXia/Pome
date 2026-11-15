@@ -6,6 +6,8 @@ The dated [ledger directory](ledger/) and [section coverage matrix](SECTION_MATR
 
 - **`POME-GAUD-MATRIX-EFFECTIVE-COERCIVITY-POWER-001`** (2026-11-15, low): explicit pointwise coercivity threshold and optimal growth exponent, in [report](reports/2026-11-15-gauduchon-matrix-effective-coercivity-sharp-power.md), [ledger](ledger/2026-11-15-gauduchon-effective-coercivity.md) and [coverage](coverage/2026-11-15-ch14-gauduchon-effective-coercivity.md). Original Lemma 14.13.5 correct.
 
+- **`POME-ADJOINT-ENTROPY-EXPLICIT-LOGMODULUS-001`** (2026-11-15, low): explicit uniform-in-model-reference logarithmic `L1` stability bound derived from §11.38.5 entropy and §11.36.1 supporting probabilities. Sharp entropy-sublevel **mechanism**, not PDE sharpness; earlier 2026-10-24 implicit modulus retained and distinguished. [Full proof](reports/2026-11-15-adjoint-entropy-explicit-log-modulus.md) · [ledger](ledger/2026-11-15-adjoint-entropy-explicit-log-modulus.md) · [coverage](coverage/2026-11-15-ch11-adjoint-entropy-modulus.md). PDE upstream conditional; original theorem correct.
+
 ## Unresolved known examples, not claimed repaired
 
 - `POME-CAP-001`: original global/open-set capacity assertion; prior confirmed error and proposed local correction remain separately recorded.
