@@ -1,15 +1,15 @@
 # Sharp uniform Picard-zero twisted Okounkov convergence on curves
 
-**Finding:** \`POME-OKO-CURVE-UNIFORM-PIC0-SHARP-RATE-001\`  
+**Finding:** `POME-OKO-CURVE-UNIFORM-PIC0-SHARP-RATE-001`  
 **Date:** 2026-11-15  
 **Classification:** **low / verified conditional deduction**; the printed Proposition 19.4.12 is **correct**, not a false theorem or repaired proof. This is a new *uniform-in-varying-flat-twist, exact quantitative curve specialization* of the printed fixed-twist Hausdorff convergence, not a claim about arbitrary-dimensional varieties.
 
 ## Reviewed reading-edition provenance
 
-- Production \`main\` commit: \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-- Integrated file: \`docs/sections/the-theory-of-okounkov-bodies--algebraic-partial-okounkov-bodies/index.html\`, blob \`c661e264cab0995a2a344453039940028feff8e0\`.
-- Definition **19.4.5**, original source label \`sgpt:CBA44DDF\`, permanent tag \`51F245B40203\`, physical lines **48–54**: the convex hull of normalized flag-valuations of sections of \(T\otimes L^k\).
-- Proposition **19.4.12**, source \`sgpt:ADB3B184\`, permanent tag \`1ED4AF0D9A23\`, physical lines **174–179**, proof **181–209**: for each *fixed* line bundle \(T\) on a projective variety with \(L\) big, \(\Delta_{k,T}(L)\to\Delta_\nu(L)\) in Hausdorff distance. The proof injects sections by fixed auxiliary sections of \(L^{k_0}\otimes T^{\pm1}\).
+- Production `main` commit: `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+- Integrated file: `docs/sections/the-theory-of-okounkov-bodies--algebraic-partial-okounkov-bodies/index.html`, blob `c661e264cab0995a2a344453039940028feff8e0`.
+- Definition **19.4.5**, original source label `sgpt:CBA44DDF`, permanent tag `51F245B40203`, physical lines **48–54**: the convex hull of normalized flag-valuations of sections of \(T\otimes L^k\).
+- Proposition **19.4.12**, source `sgpt:ADB3B184`, permanent tag `1ED4AF0D9A23`, physical lines **174–179**, proof **181–209**: for each *fixed* line bundle \(T\) on a projective variety with \(L\) big, \(\Delta_{k,T}(L)\to\Delta_\nu(L)\) in Hausdorff distance. The proof injects sections by fixed auxiliary sections of \(L^{k_0}\otimes T^{\pm1}\).
 - Theorem **19.2.5** (internal reference, not independently reproved in this increment) supplies the general asymptotic Okounkov-body convergence.
 
 ## New exact statement
