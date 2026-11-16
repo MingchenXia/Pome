@@ -7,7 +7,7 @@
 - Reviewed production main: `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 - Integrated reading: `docs/sections/concrete-completed-tensor-products/index.html`, blob `358f584ab4004b3531629e87f1dd73bdea1256d4`, section tag `B34754B4805B`, physical lines 5–84.
 - Proposition **2.19.1**, source `demailly-complex-geometry:E56C631F`, permanent tag `84C71E271314`, lines **11–30**: arbitrary-index projective \(\ell^1\) product.
-- Proposition **2.19.2**, source `demailly-complex-geometry:4D711A6B`, permanent tag `96A052277244`, lines **33–54**: injective polar and \(\ell^0=c_0\) product.
+- Proposition **2.19.2**, source `demailly-complex-geometry:4D711A6B`, permanent tag `96A052277244`, lines **33–54**: injective polar and \(c_0\) product.
 - Proposition **2.19.3**, source `demailly-complex-geometry:C614F79A`, permanent tag `C9CDFE118A86`, lines **57–83**: products of arbitrary compact spaces, without a Hausdorff premise.
 - Norms taken from `docs/sections/open-maps-nuclear-spaces-and-inverse-limits--nuclear-spaces-and-completed-tensor-products/index.html`, blob `ecbf01a4ed81461ba32f1e0c88c6a550ebaa8135`, §2.13 tag `54CD186EFBFD`, **lines 7–13**:
 \[
