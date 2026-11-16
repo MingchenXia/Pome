@@ -1,0 +1,86 @@
+# Decreasing directed semigroup families with positive volume: a net-level Okounkov-body limit
+
+**Finding ID:** \`POME-OKO-DIRECTED-SG-POSVOL-NET-001\`  
+**Date:** 2026-11-17  
+**Classification / severity:** **verified conditional deduction / low**. This strengthens a printed sequence lemma; it is **not** a counterexample to a printed theorem or an independently certified proof of every upstream semigroup counting input.  
+**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
+**Review branch:** \`review/mathematical-audit\`.
+
+## Source and exact reading-edition scope
+
+The inspected integrated text is \`docs/sections/almost-semigroups/index.html\`, Git blob \`33898b2963ad0f8b7e30bf414276642f60925b74\`, in Chapter 19, §19.7. The selected statements and physical lines are:
+
+- Fixed pointed cone \(C\) and lattice slices, lines **211–230**, including the pseudometric **(19.7.17)**, source label \`sgpt:A996EEF7\`, permanent tag \`642E2D6850DF\`.
+- Intersection contraction **Lemma 19.7.19**, source \`sgpt:58F9B6C0\`, permanent tag \`680A0890C1EE\`, lines **261–295**.
+- Graded lattice counting **Theorem 19.7.20**, source \`sgpt:282DA4DD\`, permanent tag \`85641516C8CA\`, lines **299–319**; volume Lipschitz **Lemma 19.7.21**, source \`sgpt:DB644801\`, tag \`DCB8E8464FB6\`, lines **320–340**.
+- Positive-volume intersection **Lemma 19.7.25**, source \`sgpt:4791A323\`, tag \`E41D68AC6F7C\`, lines **372–389**; body **Definition 19.7.26**, source \`sgpt:56C14254\`, tag \`0270FA2C03BD\`, lines **393–396**; equivalence with lattice-cone saturation **Lemma 19.7.27**, source \`sgpt:C3725EB6\`, tag \`B1ED8431B1B9\`, lines **425–439**.
+- **Lemma 19.7.29**, source \`sgpt:688D7503\`, permanent tag \`B63FC87B8DDF\`, **statement lines 477–483 and proof lines 485–525**. Its printed quantifier is a *decreasing sequence*, and it is correct. **Theorem 19.7.32**, source \`sgpt:ED83BFDD\`, tag \`1551B679B8B7\`, lines **535–655**, was checked only for the dependency/continuity interface, not certified in full.
+
+Here \(\operatorname{Sat}(S):=C(S)\cap\mathbb Z^{n+1}\) denotes **combinatorial lattice-cone saturation**, an operation unrelated to Demailly approximation or regularization. No such excluded analytic programme is used.
+
+## Verified extension, with all quantifiers
+
+Let \(I\) be **any nonempty directed set** and \((S_i)_{i\in I}\) a decreasing net in \(\mathcal S'(C)\):
+\[
+ i\preceq j\quad\Longrightarrow\quad S_j\subseteq S_i.
+\]
+Retain the exact §19.7.15–17 hypotheses on the fixed closed convex cone \(C\subset\mathbb R^n\times\mathbb R_{\ge0}\), with \(C\cap\{t=0\}=\{0\}\), and suppose
+\[
+ v:=\inf_{i\in I}\operatorname{vol}S_i>0.
+\]
+Put \(K_i=\Delta(S_i)\), \(K=\bigcap_{i\in I}K_i\), \(Q=\bigcap_{i\in I}C(S_i)\), and
+\[
+ S=Q\cap\mathbb Z^{n+1}.
+\]
+Then \(K\) is a compact convex body of volume \(v\), \(Q\) is its cone, \(S\in\mathcal S'(C)\), and the **original directed net** satisfies
+\[
+ d_{\rm Haus}(K_i,K)\longrightarrow0,\qquad
+ d_{\rm sg}(S_i,S)\longrightarrow0,
+ \qquad
+ d_{\rm sg}(S_i,S)=\operatorname{vol}S_i-\operatorname{vol}S
+                 =\operatorname{vol}K_i-\operatorname{vol}K.
+\]
+In particular, \(S\) is a genuine positive-volume semigroup representative of the pseudometric limit even when \(I\) has **no countable cofinal subset**. The formula for \(S\) uses **intersection of cones, not intersection of the raw semigroups**; the latter can miss whole low-degree sets as the printed comment following Lemma 19.7.29 warns.
+
+## Complete argument for the additional net step
+
+**1. Nested compact bodies converge along the given net.** The cones \(Q_i=C(S_i)\) are decreasing and closed. Their height-one slices \(K_i\) are nonempty compact convex subsets of the fixed compact height-one slice of \(C\). The family has the finite intersection property, so \(K=\bigcap_iK_i\neq\varnothing\).
+
+Fix \(i_0\) and \(\epsilon>0\), and set \(U_\epsilon=\{x:\operatorname{dist}(x,K)<\epsilon\}\). The compact set \(K_{i_0}\setminus U_\epsilon\) is covered by the *relative open* sets \(K_{i_0}\setminus K_j\), for \(j\succeq i_0\): if a point belonged to every \(K_j\) in this cofinal tail, it would belong to \(K\). Compactness gives finitely many indices \(j_1,\dots,j_r\); directedness gives \(j\succeq j_1,\dots,j_r\). Thus \(K_j\subset U_\epsilon\), and the same is true for all \(k\succeq j\). As \(K\subset K_k\), this proves \(d_{\rm Haus}(K_k,K)\to0\) **without taking any sequence or subnet**. The continuity of convex-body volume (the explicitly proved integrated Theorem 19.7.5, permanent tag \`66339C0E3C21\`, lines 38–42) yields
+\[
+ \operatorname{vol}K=\lim_i\operatorname{vol}K_i
+                    =\inf_i\operatorname{vol}K_i=v>0.
+\]
+The equalities \(\operatorname{vol}K_i=\operatorname{vol}S_i\) are the printed full-rank semigroup counting/body theorem, used here as an *identified conditional input*.
+
+**2. The limiting cone is full-dimensional and generated by lattice points.** Since \(Q_i\) is a cone in the positive height direction, a vector of positive height belongs to every \(Q_i\) precisely when its rescaled height-one vector lies in every \(K_i\). Hence \(Q=\operatorname{cone}(K\times\{1\})\). The set \(K\) has positive \(n\)-dimensional volume, so the cone \(Q\) has nonempty interior in \(\mathbb R^{n+1}\). The lattice points \(S=Q\cap\mathbb Z^{n+1}\) form an additive semigroup. To see that they generate the **whole** integer lattice, take an interior ray and an integer lattice point \(w\) deep enough along it that \(w,w+e_1,\dots,w+e_{n+1}\) all lie inside \(Q\). Existence follows by scaling an interior ball and choosing the nearest integer vector. Every standard basis vector is therefore \((w+e_j)-w\), a difference of two elements of \(S\). Thus \(S\in\mathcal S'(C)\). Density of rational rays in the interior of a full-dimensional closed convex cone also implies \(C(S)=Q\), so \(\Delta(S)=K\).
+
+**3. Exact pseudometric convergence.** For each \(i\), replace \(S_i\) *only for the purpose of computing distance* by \(T_i=C(S_i)\cap\mathbb Z^{n+1}\). Lemma 19.7.27 gives \(d_{\rm sg}(S_i,T_i)=0\) and \(\Delta(T_i)=K_i\). Since \(Q\subset C(S_i)\), \(S\subset T_i\). The graded definition (19.7.17), together with the standard lattice-point volume limit for the two full-dimensional convex slices (the convex-body special case in Theorem 19.7.20), gives
+\[
+ d_{\rm sg}(T_i,S)=\lim_{k\to\infty}k^{-n}\bigl(|(T_i)_k|-|S_k|\bigr)
+ =\operatorname{vol}K_i-\operatorname{vol}K.
+\]
+The pseudometric triangle inequality in both directions makes \(d_{\rm sg}(S_i,S)=d_{\rm sg}(T_i,S)\). Step 1 sends the right-hand side to zero. No interchange of a grading limit \(k\to\infty\) with a directed limit \(i\) occurs: the \(k\)-limit is evaluated **for each fixed \(i\)** before passing to the net limit.
+
+## A genuinely non-countably-cofinal family
+
+Let \(n=2\), \(Q_0=[-1,1]^2\), \(r=3/4\), and direct the set \(I\) of **finite subsets of the entire unit circle** \(S^1\) by inclusion. For each \(F\in I\), put
+\[
+ K_F=Q_0\cap\bigcap_{u\in F}\{x\in\mathbb R^2:\langle u,x\rangle\le r\},
+ \quad S_F=\operatorname{cone}(K_F\times\{1\})\cap\mathbb Z^3.
+\]
+Every \(K_F\) contains the Euclidean disk \(\overline B(0,r)\), so its volume is uniformly at least \(\pi r^2>0\); each saturated \(S_F\) spans \(\mathbb Z^3\). The intersection over **all** finite \(F\) is precisely that disk. Consequently
+\[
+ \lim_F d_{\rm Haus}(K_F,\overline B(0,r))=0,\qquad
+ \lim_F d_{\rm sg}(S_F,S)=0,
+ \quad S=\operatorname{cone}(\overline B(0,r)\times\{1\})\cap\mathbb Z^3.
+\]
+There is **no countable cofinal subset of \(I\)**: the union of countably many finite subsets of \(S^1\) is countable and misses some direction, so it cannot dominate the singleton containing that direction. The construction therefore exercises the exact net quantifiers rather than a disguised sequence argument.
+
+## Status, dependencies, and production proposal
+
+**Status:** verified conditional deduction, **low**. The directed-family compactness and lattice-span steps above are completely justified; the general equality between \(\operatorname{vol}S_i\) and the convex slice uses the integrated **Kaveh–Khovanskii** counting theorem (§19.7.20) as a named upstream input. That theorem and the whole proof-chain of §19.7.32 are **not** certified by this increment. The arbitrary-index exact limit does not imply completeness for an arbitrary nonmonotone Cauchy net, nor persistence at zero limiting volume.
+
+**Proposed optional source addition, NOT applied:** following Lemma 19.7.29, state the directed-net version with \(\inf_i\operatorname{vol}S_i>0\), its explicit intersection-of-cones representative and the exact \(d_{\rm sg}\)-volume formula. Keep the original sequence lemma, source labels and permanent tags unchanged. Dependents include the positive-volume closure and continuous Okounkov-body map §§19.7.31–32; no assertion that their independent external inputs are now proved. This is separate from earlier **sharp Hölder metric** estimates, **zero-volume** boundary countermodels, and **convex-slice** modulus reports.
+
+**Coverage:** one new directed-net proof/model increment in previously partially reviewed §19.7, **+0 first-visited numbered sections / +0 fully certified sections**. Existing 25-chapter / 747-section inventory retained, not independently re-counted here. No manuscript/source/registry/main/site/permanent-tag modifications, project tests, build, GitHub Actions CI, or publication. The user-excluded Demailly approximation and dedicated Bergman, \(L^2\), Ohsawa–Takegoshi, multiscale and positivity-loss programmes remain **deferred-by-user**, not resolved.
