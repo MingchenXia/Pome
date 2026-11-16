@@ -2,9 +2,9 @@
 
 **Date:** 2026-11-17. **Stable finding ID:** POME-CONVEX-DENSE-NET-LOCAL-UNIFORM-001.
 **Classification:** low / **verified conditional deduction** (self-contained at the convex-analysis level, using the printed elementary convex-hull and subgradient results). **No false printed theorem and no new established proof gap.**
-**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-**Integrated reading edition:** \`docs/sections/convex-analysis-and-toric-potentials--closed-convex-functions-and-supporting-slopes/index.html\` (blob \`66bfd5b3f6cdfaced77dc1741a995e22768141f1\`).
-**Source and permanent locators:** §21.2 permanent section tag \`5430067C9C99\`; Proposition 21.2.6 source \`data-tag="57C22F00"\`, permanent \`EAC7AAEC7279\`, statement physical HTML line 159, printed sequence proof lines 177–181; the cube estimate (21.2.2) \`data-tag="D1805A42"\`, permanent \`C59E34BB3C43\`, lines 38–45; elementary separation Lemma 21.2.3 \`data-tag="5D4512D3"\`, permanent \`34526AA883B2\`, lines 49–89. Cross-checks: Proposition 21.2.4 permanent \`72D7B299EAB8\`, lines 94–154; Proposition 21.2.8 permanent \`909102168A21\`, lines 197–230; Corollary 21.2.9 lines 235–258.
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+**Integrated reading edition:** `docs/sections/convex-analysis-and-toric-potentials--closed-convex-functions-and-supporting-slopes/index.html` (blob `66bfd5b3f6cdfaced77dc1741a995e22768141f1`).
+**Source and permanent locators:** §21.2 permanent section tag `5430067C9C99`; Proposition 21.2.6 source `data-tag="57C22F00"`, permanent `EAC7AAEC7279`, statement physical HTML line 159, printed sequence proof lines 177–181; the cube estimate (21.2.2) `data-tag="D1805A42"`, permanent `C59E34BB3C43`, lines 38–45; elementary separation Lemma 21.2.3 `data-tag="5D4512D3"`, permanent `34526AA883B2`, lines 49–89. Cross-checks: Proposition 21.2.4 permanent `72D7B299EAB8`, lines 94–154; Proposition 21.2.8 permanent `909102168A21`, lines 197–230; Corollary 21.2.9 lines 235–258.
 
 ## Precisely reviewed statement and new strengthening
 
