@@ -1,0 +1,10 @@
+# 2026-11-16 — §14.24 energy pushforward quantitative audit
+
+**Reviewed main SHA:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\` (25 chapters; 747 numbered sections at this snapshot). **Review branch:** \`review/mathematical-audit\`. **Integrated page:** \`docs/sections/uniqueness-for-degenerate-equations--bounded-uniqueness-and-connectedness/index.html\`, blob \`52185a663bef778cc6da47299bda5c32fcb05670\`.
+
+- **New direct proof scope:** Proposition 14.24.5, source \`non-kahler-pluripotential-theory:8137BCDB\`, permanent \`25FABE38E60B\`, physical lines 58–80; Eqs. 14.24.6/7, source \`09035D3B\`/\`B0F9B793\`, permanent \`5EA1FD990FD5\`/\`B3915B7974CA\`, physical lines 60–71; proof of both moments, physical lines 106–112. New sharp total variation/oscillation and endpoint-layer deductions proved in [report](../reports/2026-11-16-degenerate-ma-energy-oscillation-sharp-tv.md).
+- **Context only:** Theorem 14.24.1 and Lemma 14.24.11 (uniqueness and energy concentration); upstream Bedford–Taylor product construction §5.27, modified comparison §14.19.6 and auxiliary test potentials Proposition 14.24.13. No new proof-level audit or certification of those prerequisites.
+- **Class:** \`POME-DEGENMA-ENERGY-OSC-SHARP-TV-001\`, **low / verified conditional deduction**, original printed statement not refuted. Proven constants optimal only for abstract signed measures satisfying printed pushforward constraints.
+- **Matrix delta:** §14.24 already partly visited; **0 newly visited numbered sections; 0 completely certified numbered sections**. No changed statuses of any historical errors, external dependencies, or user-deferred findings.
+- **Excluded:** Demailly approximation/regularization and dedicated Bergman, L², Ohsawa–Takegoshi, multiscale-atlas and positivity-loss proof programmes remain **deferred-by-user**, not resolved or certified.
+- **Operations:** Audit Markdown plus one optional small exact-arithmetic text check only. No main/source/body/registry/permanent-tag edits, no build/test suite, CI, action or website publication. Small check is **not** formal or analytic verification.
