@@ -1,20 +1,20 @@
 # Entropy-dual sublevels: weak compactness does not upgrade to total-variation compactness
 
-**Date:** 2026-11-16. **Finding ID:** \`POME-ENTROPY-SUBLEVEL-NONSTRONG-001\`. **Severity:** low. **Status:** verified conditional deduction (a fully explicit model computation conditional only on the already printed dual-identification convention); **not** a false printed theorem, proof gap, or applied repair.
+**Date:** 2026-11-16. **Finding ID:** `POME-ENTROPY-SUBLEVEL-NONSTRONG-001`. **Severity:** low. **Status:** verified conditional deduction (a fully explicit model computation conditional only on the already printed dual-identification convention); **not** a false printed theorem, proof gap, or applied repair.
 
 ## Reviewed reading-edition statements and immutable anchors
 
-Production \`main\` SHA: \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+Production `main` SHA: `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 
-- \`docs/sections/normalization-and-weak-adjoint-measures--a-convex-functional-on-probability-measures/index.html\`, blob \`9a4ba5a98abd3273a6872c68beccf764e936d3f0\`: definition (11.35.1), original source \`non-kahler-pluripotential-theory:A5C670F7\`, permanent \`FFB47018170B\`, physical lines 12–14; Theorem 11.35.4, source \`:9F623A72\`, permanent \`6830F8DE9750\`, lines 43–82, and (11.35.5), source \`:3339FE17\`, permanent \`FA8EC628AEAE\`, lines 49–51.
-- \`docs/sections/normalization-and-weak-adjoint-measures--entropy-and-the-closed-case/index.html\`, blob \`0710d0732ae7ef81de3d3d62206a0f9c6b5d321f\`: Lemma 11.37.1, source \`non-kahler-pluripotential-theory:C2CF0A52\`, permanent \`2E4E82F8C3FC\`, physical lines 19–49; closed-background identity (11.37.2), source \`:65FF799F\`, permanent \`803909FECEC0\`, lines 54–61; Proposition 11.37.3, source \`:460EAE65\`, permanent \`33DF3CE1122A\`, lines 64–76.
-- \`docs/sections/normalization-and-weak-adjoint-measures--bounded-measurable-densities-and-stability/index.html\`, blob \`9c045c6e7a5bc4f0830874030c18dad0cafae905\`: Theorem 11.36.1, source \`non-kahler-pluripotential-theory:99653D7759E2\`, permanent \`99653D7759E2\` **not asserted** (see the displayed permalink for authoritative permanent tag), lines 5–63, used only for a scope comparison, not as a new proof dependency.
+- `docs/sections/normalization-and-weak-adjoint-measures--a-convex-functional-on-probability-measures/index.html`, blob `9a4ba5a98abd3273a6872c68beccf764e936d3f0`: definition (11.35.1), original source `non-kahler-pluripotential-theory:A5C670F7`, permanent `FFB47018170B`, physical lines 12–14; Theorem 11.35.4, source `:9F623A72`, permanent `6830F8DE9750`, lines 43–82, and (11.35.5), source `:3339FE17`, permanent `FA8EC628AEAE`, lines 49–51.
+- `docs/sections/normalization-and-weak-adjoint-measures--entropy-and-the-closed-case/index.html`, blob `0710d0732ae7ef81de3d3d62206a0f9c6b5d321f`: Lemma 11.37.1, source `non-kahler-pluripotential-theory:C2CF0A52`, permanent `2E4E82F8C3FC`, physical lines 19–49; closed-background identity (11.37.2), source `:65FF799F`, permanent `803909FECEC0`, lines 54–61; Proposition 11.37.3, source `:460EAE65`, permanent `33DF3CE1122A`, lines 64–76.
+- `docs/sections/normalization-and-weak-adjoint-measures--bounded-measurable-densities-and-stability/index.html`, blob `9c045c6e7a5bc4f0830874030c18dad0cafae905`: Theorem 11.36.1, source `non-kahler-pluripotential-theory:ECDF9BCE`, permanent `99653D7759E2`, lines 5–63, used only for a scope comparison, not as a new proof dependency.
 
-The current section matrix already lists partial coverage of §§11.35–11.37; no first visit is being claimed. In particular, the earlier \`POME-CLOSED-LOGPART-SHARP-L1-TV-001\` establishes a **different** sharp estimate under *convergence of the logarithmic densities*. Do not re-register it as a new result.
+The current section matrix already lists partial coverage of §§11.35–11.37; no first visit is being claimed. In particular, the earlier `POME-CLOSED-LOGPART-SHARP-L1-TV-001` establishes a **different** sharp estimate under *convergence of the logarithmic densities*. Do not re-register it as a new result.
 
 ## Explicit torus theorem
 
-Let \`X=C/(Z+iZ)\`, with global coordinates \`x,y mod 1\`, and let
+Let `X=C/(Z+iZ)`, with global coordinates `x,y mod 1`, and let
 \[
  \theta=\mathrm dV=\frac{\mathrm i}{2}\,\mathrm dz\wedge\mathrm d\bar z
  =\mathrm dx\wedge\mathrm dy,\qquad \int_X\theta=1,\qquad \varphi=0.
@@ -96,7 +96,7 @@ For probabilities the supremum-over-Borel-sets total-variation distance is half 
 
 ## Interpretation, severity and affected dependents
 
-This is an **exact model demonstrating a sharp topology boundary**, not a counterexample to Theorem 11.35.4: that theorem asserts weak compactness and uniform integrability, both of which hold here. It is not a counterexample to Theorem 11.36.1 either: the input \(F_k=\log h_k\) does **not** converge in \(L^1(\mathrm dV)\). In fact the earlier \`POME-CLOSED-LOGPART-SHARP-L1-TV-001\` proves norm/TV continuity for uniformly bounded **converging** logarithmic densities in the closed case; that finding is preserved without duplication.
+This is an **exact model demonstrating a sharp topology boundary**, not a counterexample to Theorem 11.35.4: that theorem asserts weak compactness and uniform integrability, both of which hold here. It is not a counterexample to Theorem 11.36.1 either: the input \(F_k=\log h_k\) does **not** converge in \(L^1(\mathrm dV)\). In fact the earlier `POME-CLOSED-LOGPART-SHARP-L1-TV-001` proves norm/TV continuity for uniformly bounded **converging** logarithmic densities in the closed case; that finding is preserved without duplication.
 
 **Proposed source correction:** none required. An optional separately reviewable clarification after Theorem 11.35.4 could state that its compactness is weak only, citing this flat torus, while leaving permanent tags, normalizations and attribution untouched. **Affected dependents:** interpretations of weak-density compactness in §§11.35–11.38 and any attempt to promote such compactness to total variation in moving-density/moving-reference arguments. No such invalid promotion was detected in the inspected printed theorem/proof passages.
 
