@@ -1,0 +1,9 @@
+# 2026-11-16 — inverse-modulus stability for proper complex Hessian equations
+
+- **ID:** POME-HESS-PROPER-INVERSE-MODULUS-001
+- **Status / severity:** verified conditional deduction / low; no false theorem, no certified full upstream comparison theory.
+- **Source:** main b6933b772f41b45918f7e25ed1afbbb1fd892272, integrated docs/sections/complex-hessian-equations--hessian-mass-and-global-comparison/index.html blob 580d3bc2b10ebd01d880b2a31fc6930436570aac, Theorem 8.13.10 source non-kahler-pluripotential-theory:98425BFC / tag A532C77D7D0C, lines 281–303, and Proposition 8.13.12 source :3FE616D3 / tag FBE7E9A6BE5E, lines 330–353.
+- **Finding:** bounded, merely Borel, nondecreasing f with uniform increase Δ_f(s) admits sharp inverse-modulus L∞ stability under bounded logarithmic data perturbations. In particular f=t^(2q+1) has exact sharp modulus (2^(2q)K)^(1/(2q+1)), witnessed by constant admissible solutions; f=t³ gives sharp cube-root stability despite f'(0)=0. Strict positive derivative lower bound is not required for uniqueness.
+- **Distinct from existing records:** unlike 2026-11-15 two-slope ordered-data result, this covers κ=0, supplies the exact nonlinear inverse modulus and realizes equality.
+- **Justification / conditional inputs:** complete elementary comparison-measure and one-variable minimization proof in [dated report](../reports/2026-11-16-hessian-proper-inverse-monotonicity-modulus.md), using the printed bounded strict-domination theorem as an explicit unresolved upstream dependency. Other comparison/approximation analytic prerequisites are not certified. No user-excluded proof programme visited.
+- **Affected dependents / proposal:** prospective non-Lipschitz stability corollary of §8.13.12 for proper Hessian equations; no change to existing theorem statements, permanent tags, main, source repositories or publication.
