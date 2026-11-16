@@ -1,8 +1,8 @@
 # POME-DIVISOR-ZERO-SPLITTING-W1-NET-001
 
-**Audit:** 2026-11-16. **Main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Classification:** low / verified conditional deduction, not a confirmed false theorem, proof gap, or section certification.
+**Audit:** 2026-11-16. **Main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Classification:** low / verified conditional deduction, not a confirmed false theorem, proof gap, or section certification.
 
-**Actual integrated source:** \`docs/sections/divisors-and-logarithmic-limits-on-analytic-cycles/index.html\`, main blob \`dae567406b2030e550664ca57b1fe77911d956d4\`, §20.5 permanent tag \`1564EBAEA948\`. Lemma 20.5.2 source \`demailly-complex-geometry:72B4BF94\` permanent \`551A781E3A1C\`, lines 10–21. Theorem 20.5.5 source \`demailly-complex-geometry:D58680EB\` permanent \`F1C928146DBC\`, lines 63–75 and 80–127. Example 20.5.11 source \`demailly-complex-geometry:1764A64B\`, permanent \`FF4839E28893\`, lines 154–155.
+**Actual integrated source:** `docs/sections/divisors-and-logarithmic-limits-on-analytic-cycles/index.html`, main blob `dae567406b2030e550664ca57b1fe77911d956d4`, §20.5 permanent tag `1564EBAEA948`. Lemma 20.5.2 source `demailly-complex-geometry:72B4BF94` permanent `551A781E3A1C`, lines 10–21. Theorem 20.5.5 source `demailly-complex-geometry:D58680EB` permanent `F1C928146DBC`, lines 63–75 and 80–127. Example 20.5.11 source `demailly-complex-geometry:1764A64B`, permanent `FF4839E28893`, lines 154–155.
 
 **Assumptions:** reduced pure-dimensional analytic cycle; compact-open holomorphic convergence to a function nonzero on every irreducible component; \(dd^c=i\partial\bar\partial/(2\pi)\). For the explicit examples use standard Euclidean distance and a fixed local neighborhood.
 
