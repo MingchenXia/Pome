@@ -1,12 +1,12 @@
 # Divisor zero splitting: arbitrary-net continuity and sharp transport obstruction
 
-**2026-11-16.** **Stable finding:** \`POME-DIVISOR-ZERO-SPLITTING-W1-NET-001\` — **low / verified conditional deduction**, not a confirmed false theorem or proof gap. **Main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+**2026-11-16.** **Stable finding:** `POME-DIVISOR-ZERO-SPLITTING-W1-NET-001` — **low / verified conditional deduction**, not a confirmed false theorem or proof gap. **Main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 
 ## Integrated statement and exact provenance
-- \`docs/sections/divisors-and-logarithmic-limits-on-analytic-cycles/index.html\` at main blob \`dae567406b2030e550664ca57b1fe77911d956d4\`; §20.5 permanent tag \`1564EBAEA948\`.
-- Lemma 20.5.2: source \`demailly-complex-geometry:72B4BF94\`, permanent tag \`551A781E3A1C\`, physical lines 10–21 (holomorphic-logarithm local L¹ convergence).
-- Theorem 20.5.5: source \`demailly-complex-geometry:D58680EB\`, permanent tag \`F1C928146DBC\`, lines 63–75 (integer intersections, coefficient L¹ convergence) and proof lines 80–127; (20.5.7) source \`demailly-complex-geometry:85805B88\`, permanent tag \`85DED4E0947F\`, lines 70–74.
-- Example 20.5.11: source \`demailly-complex-geometry:1764A64B\`, permanent tag \`FF4839E28893\`, lines 154–155 (cusp \(y^2=x^3\) with normalization \((t^2,t^3)\)).
+- `docs/sections/divisors-and-logarithmic-limits-on-analytic-cycles/index.html` at main blob `dae567406b2030e550664ca57b1fe77911d956d4`; §20.5 permanent tag `1564EBAEA948`.
+- Lemma 20.5.2: source `demailly-complex-geometry:72B4BF94`, permanent tag `551A781E3A1C`, physical lines 10–21 (holomorphic-logarithm local L¹ convergence).
+- Theorem 20.5.5: source `demailly-complex-geometry:D58680EB`, permanent tag `F1C928146DBC`, lines 63–75 (integer intersections, coefficient L¹ convergence) and proof lines 80–127; (20.5.7) source `demailly-complex-geometry:85805B88`, permanent tag `85DED4E0947F`, lines 70–74.
+- Example 20.5.11: source `demailly-complex-geometry:1764A64B`, permanent tag `FF4839E28893`, lines 154–155 (cusp \(y^2=x^3\) with normalization \((t^2,t^3)\)).
 - Lemma 20.5.3 lines 27–60 and Theorem 20.5.10 lines 133–149 were *contextual* dependency reads; no complete re-verification is claimed.
 
 The convention is \(dd^c=i\partial\bar\partial/(2\pi)\), so \(dd^c\log|z|^2=\delta_0\). All \(W_1\) distances below are for equal-mass finite measures using Euclidean distance; the total-variation norm is the sum of the mutually singular masses.
