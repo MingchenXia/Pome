@@ -1,0 +1,7 @@
+# 2026-11-16 — Non-Hausdorff compact-preimage map and noncoherent higher direct image
+
+| Stable ID | Severity | Status | Precise integrated anchors | Mathematical outcome | Original theorem verdict / proposal |
+| --- | --- | --- | --- | --- | --- |
+| POME-PROPER-NONHAUSDORFF-DOUBLE-ORIGIN-H1-001 | low | **verified conditional deduction** (sharpness/counterexample only to an unstated weakening) | Main \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; \`docs/sections/analytic-tensor-products-and-proper-direct-images--coherence-of-proper-analytic-direct-images/index.html\` blob \`94a7e39e68ce5dee99508213be822611b96db9d2\`; Lemma 9.47.1 \`81A3D17F4D37\` lines 8,13–22; Theorem 9.47.2 \`1A9A12704621\` lines 28,34–79 | The doubled-origin line maps holomorphically to \(\mathbb C\), with compact inverse images of all compact sets but nonclosed chart-intersection diagonal. Its \(R^1g_*\mathcal O_X\) is noncoherent at 0: the principal-part classes \(c_k=[z^{-k}]\) obey \(z^Nc_{N+1}=c_1\neq0\) for every \(N\). | **Both printed statements retain their Hausdorff hypotheses and are not refuted.** Keep separatedness mandatory; consider an expository warning, not a source change. §9.46.7 and coherent vanishing remain conditional dependencies. |
+
+[Complete source-anchored English proof](../reports/2026-11-16-doubled-origin-proper-image-separatedness-sharpness.md). The user-excluded regularization and dedicated proof programme stays \`deferred-by-user\`.
