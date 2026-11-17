@@ -1,0 +1,13 @@
+# 2026-11-18 audit classification — sharp Okounkov-body Hölder stability
+
+- **Stable ID:** POME-OKO-POSVOL-HAUSDORFF-HOLDER-SHARP-001
+- **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272
+- **Severity / status:** low / verified conditional deduction (additive quantitative corollary, **not** a confirmed error or complete section certification).
+- **Exact anchors:** docs/sections/almost-semigroups/index.html blob 33898b2963ad0f8b7e30bf414276642f60925b74; equation 19.7.17 line 228–230, Definition 19.7.26 source sgpt:56C14254 / permanent 0270FA2C03BD lines 393–400, Definition 19.7.31 source sgpt:7DD4FA88 / permanent B0C65454CC85 lines 530–532, Theorem 19.7.32 source sgpt:ED83BFDD / permanent 1551B679B8B7 lines 535–655. Theorem 19.7.20 source sgpt:282DA4DD / tag 85641516C8CA lines 299–319 and Lemma 19.7.25 source sgpt:4791A323 / tag E41D68AC6F7C lines 372–389 are hypothesis/dependency checks; paired Theorem 19.2.10 source sgpt:870F54F8 / tag 2534E787147E in docs/sections/the-theory-of-okounkov-bodies--almost-semigroups/index.html lines 73–84 is a distinct valid reader version.
+- **New statement:** for positive-volume almost semigroups S,T in a fixed pointed cone whose bodies lie in B_R and each contain an r-ball, d_H(ΔS,ΔT) ≤ (4R/r)(d_sg(S,T)/ω_n)^(1/n). Direct convex-geometric proof via metric projection and an rδ/(4R) ball disjoint from the opposite body. Cube vertex clipping gives exact d_H=ε/√n and d_sg=ε^n/n!, proving sharp exponent 1/n with a shared inball and nonvanishing volume.
+- **Prior result, not re-counted:** POME-OKO-SYMDIFF-ISOMETRY-001 provides the positive-volume d_sg=symmetric-difference isometry; the proof here does not present that older isometry as new work.
+- **Conditional dependencies:** earlier 19.7.20/.25 full-group count and interior-filling results, already recorded. Explicit saturated example also verified independently by Jordan lattice counting. No reopening of user-excluded regularization programme.
+- **Proposed change:** optional quantitative corollary to §19.7.32 only (separately reviewable); none applied to source or canonical text.
+- **Downstream:** §19.2.10 and potential §19.4–5 partial-body applications *only if a uniform inradius has independently been established*. No claim of uniformity at zero-volume boundary or complete verification of §19.7.
+- **Coverage:** §19.7 selected proof increment and §19.2 dependency crosscheck; +0 first visited numbered sections; +0 full-section certifications. See ../reports/2026-11-18-okounkov-positive-volume-hausdorff-holder-sharp.md.
+- **Deferred by user:** Demailly approximation/regularization, Bergman, weighted L², OT, multiscale atlas and positivity-loss programmes remain deferred, not certified.
