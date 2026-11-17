@@ -4,18 +4,18 @@
 - **Date:** 2026-11-17
 - **Severity / status:** low / **verified conditional deduction**, not a correction of a false printed theorem.
 - **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272.
-- **Integrated reading edition:** \`docs/sections/holomorphic-sections-and-hermitian-mass/index.html\`; blob \`5f00431e7986d899dc833c89175686b75f09371d\`.
-- **Stable anchors:** subsection 19.8.4, permanent tag \`E5AAFD4B6553\`, physical lines 104–116; Theorem 19.8.5, source \`non-kahler-pluripotential-theory:6E03C7D3\`, permanent tag \`1DFDCCEF325D\`, physical lines 118–148 (especially the positive-current trace at lines 142–148). Related Poincaré–Lelong and Gauduchon trace input: §11.5.1, permanent tag \`828FAD1A35BF\`, cited at §19.8 line 142.
+- **Integrated reading edition:** `docs/sections/holomorphic-sections-and-hermitian-mass/index.html`; blob `5f00431e7986d899dc833c89175686b75f09371d`.
+- **Stable anchors:** subsection 19.8.4, permanent tag `E5AAFD4B6553`, physical lines 104–116; Theorem 19.8.5, source `non-kahler-pluripotential-theory:6E03C7D3`, permanent tag `1DFDCCEF325D`, physical lines 118–148 (especially the positive-current trace at lines 142–148). Related Poincaré–Lelong and Gauduchon trace input: §11.5.1, permanent tag `828FAD1A35BF`, cited at §19.8 line 142.
 - **Actual scope:** direct inspection of the integrated degree formula, proof of Theorem 19.8.5, and the positive-current paragraph; independent proof of the following precise rigidity corollary. Sections 19.8.7 and 20.4 were considered only for comparison, not newly certified. Neither the Bergman proof programme nor regularization was opened.
 
 ## Statement (precise hypothesis)
 
-Let \`X\` be a **connected compact complex manifold**, \`gamma\` a smooth positive Gauduchon Hermitian form, and \`L\` a holomorphic line bundle with smooth Hermitian metric \`h\` and curvature \`beta=c_1(L,h)\` in the normalization
+Let `X` be a **connected compact complex manifold**, `gamma` a smooth positive Gauduchon Hermitian form, and `L` a holomorphic line bundle with smooth Hermitian metric `h` and curvature `beta=c_1(L,h)` in the normalization
 \[
  dd^c=\frac{i}{2\pi}\partial\bar\partial,\qquad
  \deg_\gamma L=\int_X\beta\wedge\gamma^{n-1}.
 \]
-Assume \`L\` is **Bott–Chern pseudoeffective** in the concrete sense that some (possibly singular) quasi-psh potential \`u\` has
+Assume `L` is **Bott–Chern pseudoeffective** in the concrete sense that some (possibly singular) quasi-psh potential `u` has
 \[
  T=\beta+dd^c u\geq0
 \]
@@ -27,7 +27,7 @@ as a closed positive \((1,1)\)-current. Then
 \]
 In this equivalence, the right-hand condition does not need a separate pseudoeffectivity assumption, and implies zero degree for **every** Gauduchon metric. Furthermore, if \(\deg_\gamma L=0\), **every** positive current \(\beta+dd^cu\) in this Bott–Chern class is zero; every such \(u\) is smooth, and a zero-curvature Hermitian metric is unique up to multiplication by a positive constant.
 
-The statement does **not** say that \`L\` is holomorphically trivial or torsion; a non-torsion unitary-flat line bundle need not have any nonzero holomorphic sections, as the integrated elliptic-curve example at lines 213–214 illustrates.
+The statement does **not** say that `L` is holomorphically trivial or torsion; a non-torsion unitary-flat line bundle need not have any nonzero holomorphic sections, as the integrated elliptic-curve example at lines 213–214 illustrates.
 
 ## Proof
 
