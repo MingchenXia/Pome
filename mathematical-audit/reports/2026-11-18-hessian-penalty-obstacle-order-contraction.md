@@ -2,19 +2,19 @@
 
 **Finding ID:** POME-HESS-PENALTY-OBSTACLE-CONTRACTION-001  
 **Classification:** low / **verified conditional deduction**, **not a confirmed error**.  
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
 **Scope:** Chapter 8, §8.6, with the §8.1 standing parameters \((X,\omega,m)\): connected compact complex \(n\)-fold, \(\omega\) a positive Hermitian form, \(2\le m<n\). This audit does **not** touch Demailly approximation/regularization, Bergman, L², Ohsawa–Takegoshi, multiscale-gluing, or positivity-loss proof completion.
 
 ## Exact integrated anchors and dependencies
 
-- \`docs/sections/complex-hessian-equations/index.html\`, §8.1 opening, source section/permanent tag \`CFD38285654D\`: connected compact Hermitian standing hypotheses and intermediate Hessian degree.
-- \`docs/sections/complex-hessian-equations--the-admissible-cone/index.html\`, §8.2 opening, permanent section tag \`F677D35E0BD7\`: upward monotonicity of \(\Gamma_m\) under addition of semipositive Hermitian matrices and the normalized Hessian convention.
-- \`docs/sections/complex-hessian-equations--proper-equations-and-admissible-approximation/index.html\`, **blob \`841dd207876499be9d83045facf862a323e60994\`**:
-  - Lemma **8.6.1**, source \`non-kahler-pluripotential-theory:91CAEA62\`, permanent tag \`8B310CC2C1A1\`, physical lines **11–36**: unique smooth strictly \(\Gamma_m\)-admissible solution for \(H_m(w)=e^{aw+H}\omega^n\), maximum principle and invertible linearization.
-  - Lemma **8.6.2**, source suffix \`761F7FD5\`, permanent tag \`B8367971A40D\`, lines **45–94**: an arbitrary smooth obstacle in the penalization construction, without assuming the obstacle is admissible.
-  - Lemma **8.6.5**, source suffix \`32B364F9\`, permanent tag \`DFE78235C5E9\`, lines **129–169**: the same penalty problem, with its \(O((\log N)/N)\) approximation estimate for a bounded admissible function under an arbitrary smooth majorant.
-  - Theorem **8.6.6**, permanent tag \`68BE4F589DCE\`, lines **174–201**, *context only*: decreasing admissible approximation.
-- \`docs/sections/complex-hessian-equations--continuous-products-envelopes-and-domination/index.html\`, Proposition **8.7.1**, permanent tag \`D2A0F255F625\`, *dependent context only* (continuous mixed products).
+- `docs/sections/complex-hessian-equations/index.html`, §8.1 opening, source section/permanent tag `CFD38285654D`: connected compact Hermitian standing hypotheses and intermediate Hessian degree.
+- `docs/sections/complex-hessian-equations--the-admissible-cone/index.html`, §8.2 opening, permanent section tag `F677D35E0BD7`: upward monotonicity of \(\Gamma_m\) under addition of semipositive Hermitian matrices and the normalized Hessian convention.
+- `docs/sections/complex-hessian-equations--proper-equations-and-admissible-approximation/index.html`, **blob `841dd207876499be9d83045facf862a323e60994`**:
+  - Lemma **8.6.1**, source `non-kahler-pluripotential-theory:91CAEA62`, permanent tag `8B310CC2C1A1`, physical lines **11–36**: unique smooth strictly \(\Gamma_m\)-admissible solution for \(H_m(w)=e^{aw+H}\omega^n\), maximum principle and invertible linearization.
+  - Lemma **8.6.2**, source suffix `761F7FD5`, permanent tag `B8367971A40D`, lines **45–94**: an arbitrary smooth obstacle in the penalization construction, without assuming the obstacle is admissible.
+  - Lemma **8.6.5**, source suffix `32B364F9`, permanent tag `DFE78235C5E9`, lines **129–169**: the same penalty problem, with its \(O((\log N)/N)\) approximation estimate for a bounded admissible function under an arbitrary smooth majorant.
+  - Theorem **8.6.6**, permanent tag `68BE4F589DCE`, lines **174–201**, *context only*: decreasing admissible approximation.
+- `docs/sections/complex-hessian-equations--continuous-products-envelopes-and-domination/index.html`, Proposition **8.7.1**, permanent tag `D2A0F255F625`, *dependent context only* (continuous mixed products).
 
 We inspected the *integrated reading-edition text* at the indicated physical lines. Earlier audit notes sampled 8.6.1–2 and 8.6.6, but did **not** provide the following two-obstacle comparison with an arbitrary varying exponential prefactor. This is a new independent maximum-principle check, not a new certification of the deep smooth-PDE existence theorem.
 
