@@ -2,9 +2,9 @@
 
 **Finding ID:** POME-BT-UNBOUNDED-WEIGHT-LP-UI-001  
 **Classification:** low / **verified conditional deduction**, not a false printed theorem and not a claim that the upstream Bedford–Taylor machinery is globally certified.  
-**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\` (2026-11-18).  
-**Integrated reading edition:** \`docs/sections/bedford-taylor-products-and-local-capacity--quasi-continuity-and-convergence-in-capacity/index.html\`, blob \`464778b7ca6f1a456e36b24ecb4a0c93ab6948d3\`.  
-**Stable anchors:** Definition 7.5.5, original \`foundations-of-pluripotential-theory:F3E0CD1A\`, permanent \`DAD5D0809372\`, physical lines 84–89; Lemma 7.5.7, original \`foundations-of-pluripotential-theory:39398ED2\`, permanent \`880C30054932\`, lines 125–166 (trace/capacity domination at 125–147, fixed and varying bounded weights at 148–166); Theorem 7.5.8, original \`foundations-of-pluripotential-theory:2B1AA42A\`, permanent \`42828E3BDDFA\`, lines 172–185. These are the **integrated main HTML physical lines**, not original manuscript coordinates.
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272` (2026-11-18).  
+**Integrated reading edition:** `docs/sections/bedford-taylor-products-and-local-capacity--quasi-continuity-and-convergence-in-capacity/index.html`, blob `464778b7ca6f1a456e36b24ecb4a0c93ab6948d3`.  
+**Stable anchors:** Definition 7.5.5, original `foundations-of-pluripotential-theory:F3E0CD1A`, permanent `DAD5D0809372`, physical lines 84–89; Lemma 7.5.7, original `foundations-of-pluripotential-theory:39398ED2`, permanent `880C30054932`, lines 125–166 (trace/capacity domination at 125–147, fixed and varying bounded weights at 148–166); Theorem 7.5.8, original `foundations-of-pluripotential-theory:2B1AA42A`, permanent `42828E3BDDFA`, lines 172–185. These are the **integrated main HTML physical lines**, not original manuscript coordinates.
 
 ## Precisely delimited extension
 
