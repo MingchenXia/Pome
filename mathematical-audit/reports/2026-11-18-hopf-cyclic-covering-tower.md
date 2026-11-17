@@ -1,13 +1,13 @@
 # Contracting Hopf quotients: the complete connected covering tower
 
-**Finding:** \`POME-HOPF-ALL-CONNECTED-COVERS-CYCLIC-TOWER-001\`  
+**Finding:** `POME-HOPF-ALL-CONNECTED-COVERS-CYCLIC-TOWER-001`  
 **Review date:** 2026-11-18  
 **Severity/status:** low / **verified conditional deduction**. This is a new corollary, *not* a false printed theorem and *not* a completed audit of all of Chapter 23.  
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
-**Reading edition:** \`docs/sections/contracting-hopf-quotients/index.html\`, blob \`d09d9bac3785b78b557ff5178ad7a52b34b20dac\`.  
-**Primary anchor:** Theorem 23.3.3, original \`demailly-complex-geometry:371996B7\`, permanent \`D81E3145A1B4\`, physical lines 8–21; its actual integrated proof is at lines 24–51.  
-**Iteration anchor:** Eq. 23.3.4, original \`demailly-complex-geometry:F5EE64FF\`, permanent \`436562DE848D\`, lines 29–32.  
-**Internal cohomological dependency:** Theorem 10.79.2, original \`demailly-complex-geometry:CDC8E3DF\`, permanent \`F90F5D542AFB\`, \`docs/sections/compact-curves-periods-and-complex-tori--integral-periods-picard-tori-and-albanese-maps/index.html\`, blob \`81ec78509629e15d648cfd3b686fe4d691437330\`, lines 26–35. Its complete general proof chain is **not** certified by this check.
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
+**Reading edition:** `docs/sections/contracting-hopf-quotients/index.html`, blob `d09d9bac3785b78b557ff5178ad7a52b34b20dac`.  
+**Primary anchor:** Theorem 23.3.3, original `demailly-complex-geometry:371996B7`, permanent `D81E3145A1B4`, physical lines 8–21; its actual integrated proof is at lines 24–51.  
+**Iteration anchor:** Eq. 23.3.4, original `demailly-complex-geometry:F5EE64FF`, permanent `436562DE848D`, lines 29–32.  
+**Internal cohomological dependency:** Theorem 10.79.2, original `demailly-complex-geometry:CDC8E3DF`, permanent `F90F5D542AFB`, `docs/sections/compact-curves-periods-and-complex-tori--integral-periods-picard-tori-and-albanese-maps/index.html`, blob `81ec78509629e15d648cfd3b686fe4d691437330`, lines 26–35. Its complete general proof chain is **not** certified by this check.
 
 ## Exact new conclusion
 
@@ -66,7 +66,7 @@ Finally Eq. 23.3.4 supplies the displayed iterate coefficient. For \(p=1\), \(c_
 ## Audit classification and dependents
 
 - **Confirmed printed error:** none in the targeted Theorem 23.3.3 or Eq. 23.3.4. The printed proof's freeness, quotient, compactness and fundamental-group passages (lines 26–50) match the hypotheses needed here.
-- **New item:** \`POME-HOPF-ALL-CONNECTED-COVERS-CYCLIC-TOWER-001\` — **verified conditional deduction**, with explicit proof above and conditional reliance on the printed covering/fundamental-group construction; no full certification of Theorem 10.79.2 or the rest of §23.3.
+- **New item:** `POME-HOPF-ALL-CONNECTED-COVERS-CYCLIC-TOWER-001` — **verified conditional deduction**, with explicit proof above and conditional reliance on the printed covering/fundamental-group construction; no full certification of Theorem 10.79.2 or the rest of §23.3.
 - **Possible affected dependents:** descriptions of finite unramified Hopf covers, integral first periods, and the behavior of character line bundles under covers. This is an optional mathematical corollary; no existing theorem is identified as requiring a correction.
 - **Proposed edit:** if desired, add a short corollary after Theorem 23.3.3 recording items 1–3 and the iterate normalization. **Proposal only**; do not edit the mathematics/body in this audit branch.
 - **Duplication check:** existing audit material on §23.3 includes polynomial scalar conjugacy, meromorphic fields, automorphism centralizers, and the \(S^3\times S^1\) topology. Those are left untouched and are **not** counted as new. The new object is the exhaustive covering tower and its integral-period pullback.
