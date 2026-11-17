@@ -8,7 +8,7 @@
 
 Main file: docs/sections/almost-semigroups/index.html, Git blob **33898b2963ad0f8b7e30bf414276642f60925b74** (physical line numbers below).
 
-* Pointed cone, grading and slices: §19.7.15–17, lines **211–230**; pseudometric equation **19.7.17** at **228–230**, source label **sgpt:642E2D6850DF**, permanent tag **19.7.17: 642E2D6850DF** (tag is printed in the equation's code badge).
+* Pointed cone, grading and slices: §19.7.15–17, lines **211–230**; pseudometric equation **19.7.17** at **228–230**, source label **sgpt:A996EEF7**, permanent tag **642E2D6850DF** (tag is printed in the equation's code badge).
 * Definition **19.7.26**, source **sgpt:56C14254**, permanent **0270FA2C03BD**, lines **393–400**, defines the body as the degree-one slice of the closed cone.
 * Theorem **19.7.20**, source **sgpt:282DA4DD**, permanent **85641516C8CA**, lines **299–319**, supplies all-degree lattice counts only with the appropriate generated-lattice condition.
 * Lemma **19.7.25**, source **sgpt:4791A323**, permanent **E41D68AC6F7C**, lines **372–389**, identifies the cone of a positive-volume intersection. Its interior-filling assertion cites KK12 and remains an explicitly conditional input outside the saturated models.
