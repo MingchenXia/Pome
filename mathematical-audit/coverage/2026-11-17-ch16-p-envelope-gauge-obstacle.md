@@ -1,0 +1,11 @@
+# 2026-11-17 — Ch. 16 P-envelope obstacle/gauge covariance, precise delta
+
+| Numbered section | Current main locator and stable tags | Direct scope actually reviewed | Status and remaining work |
+|---|---|---|---|
+| 16.2 | docs/sections/the-envelope-operators--p-envelopes/index.html; blob 912f81b3bccf3e1ead96fd18005261a708dfcb4e; source sgpt:189A8E0C; permanent A6FA63C034E6; physical line 7 | Confirmed *standing hypotheses only*: X connected compact Kähler; page contains no numbered theorem | Not a substantive proof visit or section certification |
+| 16.3 | docs/sections/the-envelope-operators--p-envelopes--rooftop-operator-and-the-definition-of-the-p-envelope/index.html; blob 97681f31628eb362950837daaadde67d10507a2f; Def 16.3.4 sgpt:15C6153F / permanent 395DB7860949 lines 79–85; Prop 16.3.8 sgpt:EBC14D0B / permanent EF5AC4B19C4D lines 108–133 | Directly read definition, actual gauge proof and its normalization. Proved exact obstacle covariance, sharp order-Lipschitz bounds and smooth \(\mathbb P^1\) counterexample to a stronger constant-correction identity | Previously partial; added independently checked subclaim only; mass/contact theorems not certified |
+| 16.7 | docs/sections/comparison-of-singularities/index.html; blob 65883f4ebc5ac5e3612212dceda85467eeb84d7b; Def 16.7.1 sgpt:410CBDE6 / permanent 3E4D57445698 | Inspected the ordinary \(\preceq\) definition to ensure translation by g preserves comparison, without reopening \(\mathcal I\)-envelope proofs | Definition-level dependency only; rest unreviewed here |
+
+**Finding:** POME-PENV-GAUGE-OBSTACLE-SHARP-001, **low / verified conditional deduction**, not a defect in printed Proposition 16.3.8. [Full anchored proof](../reports/2026-11-17-p-envelope-gauge-obstacle-lipschitz.md); [classified ledger](../ledger/2026-11-17-p-envelope-gauge-obstacle-lipschitz.md).
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272, freshly checked. **ToC:** 25 chapters / 747 numbered sections. **Net added first proof-level numbered-section visits: 0. Complete-section certifications: 0.** §16.3 remains partially audited. Proposed exposition only; main, sources, permanent tags, website, CI, builds untouched. Demailly approximation and all specifically excluded Bergman/L2/OT/multiscale/positivity-loss work remains **deferred-by-user**, not resolved/certified.
