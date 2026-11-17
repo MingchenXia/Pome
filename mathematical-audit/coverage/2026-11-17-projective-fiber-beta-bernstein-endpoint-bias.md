@@ -1,0 +1,8 @@
+# Coverage delta — 2026-11-17: Chapter 13, §13.8
+
+- Reviewed main **b6933b772f41b45918f7e25ed1afbbb1fd892272**, exact integrated blob **dd89e44c511fd6f6bdd164a09a77c1637c42b410** at **docs/sections/non-pluripolar-products--mass-comparison-and-projective-fibers/index.html**.
+- **New directly checked proof substeps:** Lemma 13.8.2 Step 4 simplex-to-Beta pushforward, physical 135–153 (and its premises at 61–70); Proposition 13.8.5 and Equation 13.8.6, 166–181 and 185–213; Theorem 13.8.7 endpoint Beta kernel at 229–242. Its comparison inequality and Corollary 13.8.8 were **context only**, not recertified.
+- **New model proof:** normalized finite-N coefficients, sharp two-sided first-order bias for non-pluripolar hyperplane currents on P^n, and exact faster boundary degeneration. Finding POME-NPP-PROJECTIVE-BETA-BERNSTEIN-BIAS-001.
+- **Prior section state:** §13.8 already partially sampled in October; the old Stokes/projective-fiber entries are retained, not counted anew. **This delta: +0 newly first-visited numbered sections; +0 complete section certificates**. Current main table of contents has 25 chapters and 747 numbered sections (existing maintained matrix; chapter 13 current index crosschecked). No exhaustive chapter audit claimed.
+- **Excluded:** Demailly approximation/regularization and dedicated Bergman, L2, Ohsawa–Takegoshi, multiscale-atlas and positivity-loss programme remain **deferred-by-user**. In particular the existence reference in Proposition 13.8.5 was not reopened.
+- **Operations:** mathematical-audit Markdown only; no source, reader body, registry, tags, CI, build, or site change.
