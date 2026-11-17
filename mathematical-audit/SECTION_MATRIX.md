@@ -1,3 +1,7 @@
+> **2026-11-17 — §§21.5–21.6 new one-dimensional transport criterion:** `POME-TORIC-1D-W1-DUAL-ENDPOINT-001` (low / verified conditional deduction), exact first-moment identity and `W1` quantile formula; in locally-uniform full-mass sequences with finite conjugates at `a,b`, `W1` convergence is **equivalent** to convergence at **both dual endpoints**. Separate from already-logged 2026-11-05 Wasserstein non-upgrade example. [Proof](reports/2026-11-17-one-dimensional-alexandrov-w1-conjugate-endpoints.md) · [ledger](ledger/2026-11-17-one-dimensional-alexandrov-w1-endpoint.md) · [coverage delta](coverage/2026-11-17-ch21-one-dimensional-w1-endpoint.md). Existing §§21.5–21.6 selected coverage extended, +0 first/+0 whole; no error in printed statements. Defer all excluded work.
+
+---
+
 > **2026-11-17 — §11.1 exact whole smooth mass interval:** `POME-HERM-TORUS-EXACT-SMOOTH-MASS-INTERVAL-001`, low / verified conditional deduction. Full nonclosed torus example has (M(\mathcal H_\omega)=(2B,6B)), with exact supremum (6B), not just the original cosine one-parameter range; no printed error and no complete certification. [Proof](reports/2026-11-17-hermitian-torus-exact-smooth-mass-range.md) · [ledger](ledger/2026-11-17-hermitian-torus-exact-smooth-mass-range.md) · [coverage](coverage/2026-11-17-ch11-hermitian-torus-mass-range.md). Existing §11.1 partial review +0 first/+0 whole; excluded programme deferred-by-user.
 
 ---
