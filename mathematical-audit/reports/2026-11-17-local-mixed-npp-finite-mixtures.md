@@ -1,17 +1,17 @@
 # 2026-11-17 — Local non-pluripolar mixed bounds and finite-current mixtures
 
-**Finding ID:** \`POME-NPP-LOCAL-FINITE-MIXTURE-001\`  
+**Finding ID:** `POME-NPP-LOCAL-FINITE-MIXTURE-001`  
 **Classification:** low / **verified conditional deduction** (the printed results are **not** false).  
-**Main audited:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
-**Reading-edition blob:** \`docs/sections/non-pluripolar-products--global-finiteness-and-bounded-cohomological-mass/index.html\` at \`943517743538820940559eae8469ce98ecf5fcd5\`.
+**Main audited:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
+**Reading-edition blob:** `docs/sections/non-pluripolar-products--global-finiteness-and-bounded-cohomological-mass/index.html` at `943517743538820940559eae8469ce98ecf5fcd5`.
 
 ## Anchors and precise review scope
 
-- Proposition **13.5.8**, source \`foundations-of-pluripotential-theory:13A73596\`, permanent tag \`A93A2F4C95C2\`: statement at physical lines **132–141**, local truncation argument **144–165**, integrability clause **167–175**.
-- Corollary **13.5.10**, source \`foundations-of-pluripotential-theory:63A53022\`, permanent tag \`7FDDF6925B80\`: lines **179–195**.
-- Corollary **13.5.11**, source \`foundations-of-pluripotential-theory:238BF8AA\`, permanent tag \`43C93EF28279\`: lines **199–216**.
-- Local bounded Bedford–Taylor density inequality, Theorem **7.12.1**, source \`foundations-of-pluripotential-theory:046CCCD5\`, permanent tag \`AAD1BC0CC6C4\`, in \`docs/tag/AAD1BC0CC6C4/index.html\` (the actual integrated statement and the opening of its proof were read). This remains an **internal upstream dependency**, not independently certified in full.
-- Plurifine truncation locality, Lemma **13.2.2**, source \`foundations-of-pluripotential-theory:CE1D6DA5\`, permanent tag \`D59675D9F6D8\`; NPP multilinearity and finiteness, Proposition **13.2.6**, source \`foundations-of-pluripotential-theory:E82F0D73\`, permanent tag \`7F7123F92478\`. Their integrated statements and proof openings were inspected. These remain internal dependencies.
+- Proposition **13.5.8**, source `foundations-of-pluripotential-theory:13A73596`, permanent tag `A93A2F4C95C2`: statement at physical lines **132–141**, local truncation argument **144–165**, integrability clause **167–175**.
+- Corollary **13.5.10**, source `foundations-of-pluripotential-theory:63A53022`, permanent tag `7FDDF6925B80`: lines **179–195**.
+- Corollary **13.5.11**, source `foundations-of-pluripotential-theory:238BF8AA`, permanent tag `43C93EF28279`: lines **199–216**.
+- Local bounded Bedford–Taylor density inequality, Theorem **7.12.1**, source `foundations-of-pluripotential-theory:046CCCD5`, permanent tag `AAD1BC0CC6C4`, in `docs/tag/AAD1BC0CC6C4/index.html` (the actual integrated statement and the opening of its proof were read). This remains an **internal upstream dependency**, not independently certified in full.
+- Plurifine truncation locality, Lemma **13.2.2**, source `foundations-of-pluripotential-theory:CE1D6DA5`, permanent tag `D59675D9F6D8`; NPP multilinearity and finiteness, Proposition **13.2.6**, source `foundations-of-pluripotential-theory:E82F0D73`, permanent tag `7F7123F92478`. Their integrated statements and proof openings were inspected. These remain internal dependencies.
 
 The existing Proposition 13.5.8 assumes compact Kähler X, but its **actual lower-bound proof** at lines 147–165 consists entirely of local truncation, the local bounded mixed inequality, plurifine restriction, and removal of a pluripolar set. Its cohomological finiteness is used to guarantee that the products exist as finite measures, not to prove the local inequality itself. We separate the hypotheses required for the latter from those required for global finiteness.
 
