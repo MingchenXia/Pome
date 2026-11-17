@@ -4,17 +4,17 @@
 
 ## Exact integrated source and scope
 
-Reviewed current **main** commit \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`:
-- \`docs/sections/non-archimedean-pluripotential-theory/index.html\`, blob \`8448d710690ebe1cc28040f9611d05c9d008a961\`: setup §§22.1.101–104, physical lines 1517–1540; Lemma **22.1.105** (\`sgpt:E9E2946C\`, permanent \`CB69CB164255\`), lines **1544–1579**; Eq. **22.1.106** (\`sgpt:8757EB56\`, permanent \`99B9B27CF451\`), lines **1553–1557**.
-- \`docs/tag/8C4DFDD0ADE0/index.html\`, Corollary **21.11.26** (permanent \`8C4DFDD0ADE0\`), lines **6–39**: recovery of the convex conjugate and a supremum over positive rational arguments.
-- \`docs/tag/EE590FE41862/index.html\`, Proposition **16.8.9** (permanent \`EE590FE41862\`), especially lines **6–29**, divisorial Lelong-number criterion for the multiplier-ideal preorder.
-- \`docs/tag/2E8F613E7CBE/index.html\`, Proposition **16.8.17** (permanent \`2E8F613E7CBE\`), lines **6–27**, comparison of the ideal-model envelopes.
+Reviewed current **main** commit `b6933b772f41b45918f7e25ed1afbbb1fd892272`:
+- `docs/sections/non-archimedean-pluripotential-theory/index.html`, blob `8448d710690ebe1cc28040f9611d05c9d008a961`: setup §§22.1.101–104, physical lines 1517–1540; Lemma **22.1.105** (`sgpt:E9E2946C`, permanent `CB69CB164255`), lines **1544–1579**; Eq. **22.1.106** (`sgpt:8757EB56`, permanent `99B9B27CF451`), lines **1553–1557**.
+- `docs/tag/8C4DFDD0ADE0/index.html`, Corollary **21.11.26** (permanent `8C4DFDD0ADE0`), lines **6–39**: recovery of the convex conjugate and a supremum over positive rational arguments.
+- `docs/tag/EE590FE41862/index.html`, Proposition **16.8.9** (permanent `EE590FE41862`), especially lines **6–29**, divisorial Lelong-number criterion for the multiplier-ideal preorder.
+- `docs/tag/2E8F613E7CBE/index.html`, Proposition **16.8.17** (permanent `2E8F613E7CBE`), lines **6–27**, comparison of the ideal-model envelopes.
 
 These last three propositions/corollaries are *used as stated*, not independently certified in their full upstream generality. This unit does not invoke Demailly approximation, Bergman, L2, Ohsawa–Takegoshi, atlas or positivity-loss proof completion.
 
 ## Strengthening extracted from the integrated proof
 
-Let \`X\` be a connected projective manifold and \`L\` a pseudoeffective rational line bundle with smooth curvature representative \(\theta\), as in §22.1.101. For \(\Gamma,\Gamma'\in\mathrm{PSH}^{\mathrm{NA}}(X,\theta)\), put
+Let `X` be a connected projective manifold and `L` a pseudoeffective rational line bundle with smooth curvature representative \(\theta\), as in §22.1.101. For \(\Gamma,\Gamma'\in\mathrm{PSH}^{\mathrm{NA}}(X,\theta)\), put
 \[
 \mathscr D_{\mathbb Q}:=\{qv:\ v\in X^{\mathrm{div}},\ q\in\mathbb Q_{>0}\}\subset X^{\mathrm{An}}.
 \]
