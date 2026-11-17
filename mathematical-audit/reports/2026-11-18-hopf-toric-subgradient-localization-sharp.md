@@ -1,15 +1,15 @@
 # 2026-11-18 — Interior simplex slopes: quantitative inverse localization without smoothness
 
-**Finding ID:** \`POME-HOPF-TORIC-SUBGRAD-LOCALIZATION-001\`. **Severity:** low. **Status:** verified conditional deduction. **Original integrated statements:** Proposition 21.14.8 and Equation 21.14.7 remain correct; no false published theorem or repaired global proof is claimed.
+**Finding ID:** `POME-HOPF-TORIC-SUBGRAD-LOCALIZATION-001`. **Severity:** low. **Status:** verified conditional deduction. **Original integrated statements:** Proposition 21.14.8 and Equation 21.14.7 remain correct; no false published theorem or repaired global proof is claimed.
 
 ## Exact reviewed source
 
-- Production \`main\`: \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-- Integrated reading edition: \`docs/sections/hopf-fibrations-and-toric-potentials/index.html\`, blob \`0e83de13efbd70dfddc64a8eed40baed2d4359c5\`.
-- §21.14.6 torus-invariant logarithmic coordinates: physical lines 143–158, source \`non-kahler-pluripotential-theory:EBE38F77\`, permanent section tag \`11FD5CD723A9\`.
-- Equation (21.14.7): lines 158–163, source \`non-kahler-pluripotential-theory:8E23893D\`, permanent tag \`5DB0E5246A09\`.
-- Proposition 21.14.8: statement lines 165–171 and *actual integrated proof* lines 173–201, source \`non-kahler-pluripotential-theory:7515BE71\`, permanent tag \`F23340CADBE0\`. In particular, lines 184–200 establish only qualitative bounded-growth coercivity, and use smooth strict positivity for uniqueness of the inverse gradient.
-- Dependency comparison (not re-certified): \`docs/sections/convex-analysis-and-toric-potentials--slope-bodies-and-bounded-growth/index.html\`, blob \`56a9a1c19e7234e2aa258d5ad1b66a5679ace190\`, Proposition 21.4.2 (permanent \`D6E7C0B06FAD\`, lines 19–58) and Lemma 21.4.6 (permanent \`F7AECD623994\`, lines 108–129); these concern slope bodies/log-sums but do not state the inverse-location bound below.
+- Production `main`: `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+- Integrated reading edition: `docs/sections/hopf-fibrations-and-toric-potentials/index.html`, blob `0e83de13efbd70dfddc64a8eed40baed2d4359c5`.
+- §21.14.6 torus-invariant logarithmic coordinates: physical lines 143–158, source `non-kahler-pluripotential-theory:EBE38F77`, permanent section tag `11FD5CD723A9`.
+- Equation (21.14.7): lines 158–163, source `non-kahler-pluripotential-theory:8E23893D`, permanent tag `5DB0E5246A09`.
+- Proposition 21.14.8: statement lines 165–171 and *actual integrated proof* lines 173–201, source `non-kahler-pluripotential-theory:7515BE71`, permanent tag `F23340CADBE0`. In particular, lines 184–200 establish only qualitative bounded-growth coercivity, and use smooth strict positivity for uniqueness of the inverse gradient.
+- Dependency comparison (not re-certified): `docs/sections/convex-analysis-and-toric-potentials--slope-bodies-and-bounded-growth/index.html`, blob `56a9a1c19e7234e2aa258d5ad1b66a5679ace190`, Proposition 21.4.2 (permanent `D6E7C0B06FAD`, lines 19–58) and Lemma 21.4.6 (permanent `F7AECD623994`, lines 108–129); these concern slope bodies/log-sums but do not state the inverse-location bound below.
 
 ## Statement: quantitative subgradient inverse on the simplex
 

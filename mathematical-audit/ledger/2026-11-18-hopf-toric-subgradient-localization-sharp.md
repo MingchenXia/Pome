@@ -1,8 +1,8 @@
 # 2026-11-18 — Quantitative Hopf toric subgradient inversion
 
-**Finding:** \`POME-HOPF-TORIC-SUBGRAD-LOCALIZATION-001\`; **low / verified conditional deduction**. Current printed Proposition 21.14.8 is correct; no claim of false theorem or completely repaired proof.
+**Finding:** `POME-HOPF-TORIC-SUBGRAD-LOCALIZATION-001`; **low / verified conditional deduction**. Current printed Proposition 21.14.8 is correct; no claim of false theorem or completely repaired proof.
 
-**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Integrated source:** \`docs/sections/hopf-fibrations-and-toric-potentials/index.html\`, blob \`0e83de13efbd70dfddc64a8eed40baed2d4359c5\`. Eq. 21.14.7 source \`non-kahler-pluripotential-theory:8E23893D\` / permanent \`5DB0E5246A09\`, physical lines 158–163; Proposition 21.14.8 source \`non-kahler-pluripotential-theory:7515BE71\` / permanent \`F23340CADBE0\`, lines 165–201.
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Integrated source:** `docs/sections/hopf-fibrations-and-toric-potentials/index.html`, blob `0e83de13efbd70dfddc64a8eed40baed2d4359c5`. Eq. 21.14.7 source `non-kahler-pluripotential-theory:8E23893D` / permanent `5DB0E5246A09`, physical lines 158–163; Proposition 21.14.8 source `non-kahler-pluripotential-theory:7515BE71` / permanent `F23340CADBE0`, lines 165–201.
 
 **Exact verified deduction:** For bounded toric \(v\in\mathrm{PSH}(\mathbb P^{n-1},k\sigma)\), every interior simplex slope \(p\) is a subgradient at some finite \(x\in H=\{\sum x_i=0\}\). Every such inverse satisfies
 \[
