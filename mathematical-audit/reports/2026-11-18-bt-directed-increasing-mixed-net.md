@@ -3,15 +3,15 @@
 **Finding ID:** POME-BT-DIRECTED-INCREASING-MIXED-NET-001  
 **Date:** 2026-11-18  
 **Severity / classification:** low / **verified conditional deduction**. No printed theorem is asserted false, and this is not a verification of the whole Bedford–Taylor theory.  
-**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\` (unchanged since October 23).  
-**Branch:** \`review/mathematical-audit\`.  
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272` (unchanged since October 23).  
+**Branch:** `review/mathematical-audit`.  
 **Scope:** newly audited directed-net extension of the *sequential* Theorems 7.6.1 and 7.5.8; the proof of the former and Choquet extraction in §5.10.2 were checked directly. No Demailly regularization, Bergman, L², Ohsawa–Takegoshi, multiscale, or positivity-loss steps were consulted.
 
 ## Exact integrated anchors and provenance
 
-- \`docs/sections/bedford-taylor-products-and-local-capacity--increasing-limits-and-exceptional-envelopes/index.html\`, blob \`5e763bdc928794938c37dc3c7a51cc406472d076\`: Theorem **7.6.1**, source \`foundations-of-pluripotential-theory:36787F42\`, permanent \`A4C45B704647\`, physical lines **10–60** (statement 11–15; selected proof 20–60). It is explicitly **sequence**-indexed. Corollary **7.6.2**, source \`foundations-of-pluripotential-theory:2ACED3F4\`, permanent \`D865A8538D7D\`, lines **62–80**, uses a countable subfamily and capacity zero.
-- \`docs/sections/plurisubharmonic-functions--limits-envelopes-and-local-integrability/index.html\`, blob \`9bd1ad642d1253391b0a925233014473503fd037\`: Theorem **5.10.2**, source \`foundations-of-pluripotential-theory:1E761457\`, permanent \`D32A2FB94F6B\`, lines **37–49**. It provides countable Choquet extraction on a second-countable complex manifold and equality of the raw envelope with its upper regularization almost everywhere.
-- \`docs/sections/bedford-taylor-products-and-local-capacity--quasi-continuity-and-convergence-in-capacity/index.html\`, blob \`464778b7ca6f1a456e36b24ecb4a0c93ab6948d3\`: Lemma **7.5.7**, source \`foundations-of-pluripotential-theory:39398ED2\`, permanent \`880C30054932\`, physical lines **125–169**; Theorem **7.5.8**, source \`foundations-of-pluripotential-theory:2B1AA42A\`, permanent \`42828E3BDDFA\`, lines **172–190**. The theorem explicitly treats sequences with local capacity convergence and bounded quasi-continuous weights.
+- `docs/sections/bedford-taylor-products-and-local-capacity--increasing-limits-and-exceptional-envelopes/index.html`, blob `5e763bdc928794938c37dc3c7a51cc406472d076`: Theorem **7.6.1**, source `foundations-of-pluripotential-theory:36787F42`, permanent `A4C45B704647`, physical lines **10–60** (statement 11–15; selected proof 20–60). It is explicitly **sequence**-indexed. Corollary **7.6.2**, source `foundations-of-pluripotential-theory:2ACED3F4`, permanent `D865A8538D7D`, lines **62–80**, uses a countable subfamily and capacity zero.
+- `docs/sections/plurisubharmonic-functions--limits-envelopes-and-local-integrability/index.html`, blob `9bd1ad642d1253391b0a925233014473503fd037`: Theorem **5.10.2**, source `foundations-of-pluripotential-theory:1E761457`, permanent `D32A2FB94F6B`, lines **37–49**. It provides countable Choquet extraction on a second-countable complex manifold and equality of the raw envelope with its upper regularization almost everywhere.
+- `docs/sections/bedford-taylor-products-and-local-capacity--quasi-continuity-and-convergence-in-capacity/index.html`, blob `464778b7ca6f1a456e36b24ecb4a0c93ab6948d3`: Lemma **7.5.7**, source `foundations-of-pluripotential-theory:39398ED2`, permanent `880C30054932`, physical lines **125–169**; Theorem **7.5.8**, source `foundations-of-pluripotential-theory:2B1AA42A`, permanent `42828E3BDDFA`, lines **172–190**. The theorem explicitly treats sequences with local capacity convergence and bounded quasi-continuous weights.
 
 The published theorems are not changed. This result deliberately goes beyond the existing §7.6 coverage ledger, which recorded that the printed theorem had **not** been extended to arbitrary nets.
 
