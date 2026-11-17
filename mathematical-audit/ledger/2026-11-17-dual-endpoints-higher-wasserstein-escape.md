@@ -1,0 +1,9 @@
+# POME-REALMA-WP-ENDPOINT-MOMENT-FAIL-001 — classified finding (2026-11-17)
+
+- **Status:** verified conditional deduction; **severity:** low. **Printed error?** No. Neither Pome 21.5.1/21.5.2/21.6.2 nor 2.6.3 is contradicted.
+- **Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+- **Anchor:** \`docs/sections/convex-analysis-and-toric-potentials--the-real-monge-ampere-measure/index.html\` blob \`7089aa41ae2422b1bd6b5094e46668cbc8ed37be\`; source \`foundations-of-pluripotential-theory:4A0FAEB3\` / permanent \`409656CC47D4\`, lines 11–40; \`:6403CF44\` / \`F4072D9ED060\` lines 44–84. Related §21.6.2 source \`:55EDF0D7\`, tag \`F2FABB0A312F\`, lines 33–45, blob \`b3b4e34fff767a717df812a381f905589b257fb3\`.
+- **Result:** exact piecewise-linear convex duals \(G_j\) on \([0,1]\), endpoints \(G_j(0)=G_j(1)=0\), \(\|G_j\|_\infty\to0\) and \(\|G_j^*-G^*\|_\infty\to0\), have full-mass Alexandrov measures \(\mu_j=\epsilon_j(\delta_{-M_j}+\delta_{M_j})+(1-2\epsilon_j)\delta_0\) and \(W_1(\mu_j,\delta_0)\to0\) but \(W_q(\mu_j,\delta_0)\equiv2^{1/q}\) for any chosen \(q>1\). Exact general cost \(W_r^r=2\delta_j^{(q-r)/(q-1)}\).
+- **Correction proposal:** if a dependent proof tries a \(W_q\) upgrade, impose \(q\)-moment uniform integrability; no such invalid printed dependent is identified. Distinct from prior exact \(W_1\) endpoint criterion and older mass-escape examples.
+- **Depends on:** integrated Alexandrov pushforward Theorem 21.5.1, not transitively certified. **Coverage:** existing partly sampled §§21.5–21.6 and contextual §2.6; +0 first visits/+0 full certification. **Deferred:** all user-excluded Demailly/regularization/Bergman/L²/OT/multiscale/positivity-loss work.
+- [Complete source-anchored proof](../reports/2026-11-17-dual-endpoints-higher-wasserstein-escape.md) · [coverage delta](../coverage/2026-11-17-dual-endpoints-higher-wasserstein-escape.md).
