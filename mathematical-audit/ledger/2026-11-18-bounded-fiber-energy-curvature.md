@@ -1,0 +1,9 @@
+# POME-NPP-FIBER-ENERGY-CURVATURE-001
+
+Date 2026-11-18; severity **low**; status **verified conditional deduction**; not a false printed theorem. Main \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+
+**Exact source:** \`docs/sections/non-pluripolar-products--fiber-integration-and-modifications/index.html\`, blob \`9954a43d90d5cae8ef744968636d7a5912348fce\`; Cor. 13.6.1 source \`non-kahler-pluripotential-theory:BAE2819F\` permanent \`BEC54934FC2C\`, Eq.13.6.2 source \`73910199\` permanent \`F6B4982710D8\`, lines 11–31. Cross-dependency: \`docs/sections/relative-energy-and-perron-segments--relative-monge-ampere-energy/index.html\`, blob \`16fdcc4c6a6f0cc75e69ba267bd7da2b2d7922a1\`; Def.17.3.2 source \`foundations-of-pluripotential-theory:582D55DC\`, permanent \`240EF1DE5889\`, Eq.17.3.3 permanent \`F19AAFA93177\`, lines 32–40.
+
+**Claim proved:** for bounded \(\theta\)-psh reference \(\varphi\), bounded product-\(\Theta\)-psh \(W\), and closed semipositive \(\gamma\), the mixed relative-energy fiber function has \(dd^c_Z\mathcal E+M\gamma=(p_Z)_*T^{r+1}/(r+1)\ge0\), \(M=\int_X(\theta+dd^c\varphi)^r\). Fully specified [proof](../reports/2026-11-18-bounded-fiber-energy-curvature-sharpness.md) uses bounded Bedford–Taylor recursion, (13.6.2), vertical binomial expansion, and positivity; smooth \(\mathbf P^r\times\mathbf P^1\) \(W=-|z|^2/(1+|z|^2)\) shows coefficient \(M\) cannot decrease.
+
+**Limit:** no proof for unbounded same-type \(\varphi,W\); pole-free current Leibniz formula missing. Underlying bounded BT and weighted disintegration proofs used conditionally, not completely certified. Proposed addition requires separate review; no production edits. Affected §§13.6,17.3 and prospective geodesic curvature use. Previously sampled §§13.6/17.3: +0 first visits/+0 complete certificates, ToC 25 chapters/747 sections. Excluded programmes **deferred-by-user**.
