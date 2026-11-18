@@ -1,6 +1,8 @@
+> **Overlap correction (2026-11-18):** The conceptual phenomenon here is **NOT a newly discovered independent counterexample**. It was already recorded as `POME-HESS-GAUD-TRACE-SECOND-MASS-001` in `mathematical-audit/reports/2026-11-03-gauduchon-trace-versus-second-hessian-mass.md`, which gave a Gauduchon three-torus with stationary but varying **m=2** mass, and as `POME-HERM-BALANCED-MASS-SADDLE-001` in `mathematical-audit/reports/2026-11-04-balanced-hermitian-mass-saddle-on-three-torus.md`, which used the **same b=exp(cos), c=1/b, f=c cos** geometry for **m=3** mass. The calculation below is an exact **m=2 coefficient cross-check on that already known family**, not a new conceptual failure or new coverage. **Ledger classification corrected to genuine duplication of the conceptual finding**; its separately computed numerical wedge coefficient remains mathematically verified. It must **not** be counted as a newly discovered theorem or new distinct counterexample. Neither earlier ID is replaced or resolved.
+
 # Gauduchon is not enough: a stationary but nonconstant intermediate Hessian mass
 
-**Date:** 2026-11-18. **Finding ID:** `POME-HESS-GAUDUCHON-FIRSTVAR-NOT-MASSCONST-001`. **Severity:** low. **Status:** **verified conditional deduction**, not a confirmed error or a proposed repair to a false printed theorem.
+**Date:** 2026-11-18. **Finding ID:** `POME-HESS-GAUDUCHON-FIRSTVAR-NOT-MASSCONST-001`. **Severity:** low. **Status:** **genuine duplication of an already recorded conceptual boundary**, with a separately verified m=2 numerical cross-check; not an independent new finding, confirmed error, or proposed repair.
 
 **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Audit-only branch:** `review/mathematical-audit`.
 
@@ -10,7 +12,7 @@
 - `docs/sections/complex-hessian-equations--hessian-mass-and-global-comparison/index.html`, main blob `580d3bc2b10ebd01d880b2a31fc6930436570aac`. Lemma **8.13.1**, source `non-kahler-pluripotential-theory:A6052F07`, permanent `69692CE9985B`, lines **19–38**, and its total-mass identity **8.13.2**, source `non-kahler-pluripotential-theory:412E15D4`, permanent `B8626F362B85`, lines **21–25**. Theorem **8.13.4**, source `non-kahler-pluripotential-theory:776C8B26`, permanent `53F870DE5980`, lines **69–123**, especially polynomial/polarization proof **97–120**. Example **8.13.5**, source `non-kahler-pluripotential-theory:870AB319`, permanent `0DB9D80DE230`, lines **128–152**.
 - The comparison implications in Theorem 8.13.4 were checked as *conditional* deductions from earlier locality and mixed-mass inputs; no claim to have certified those upstream products or all of §8.13.
 
-## New exact counterexample to an **unprinted weakening**
+## Exact m=2 cross-check of an **already documented** unprinted weakening
 
 On the compact flat complex three-torus
 \[
