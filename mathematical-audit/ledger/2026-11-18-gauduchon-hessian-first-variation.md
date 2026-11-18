@@ -1,0 +1,9 @@
+# POME-HESS-GAUDUCHON-FIRSTVAR-NOT-MASSCONST-001
+
+- Date: 2026-11-18; reviewed main: `b6933b772f41b45918f7e25ed1afbbb1fd892272`; branch: `review/mathematical-audit`.
+- **Severity:** low. **Status:** verified conditional deduction. Printed Theorem 8.13.4 **correct**; this disproves an *unprinted* first-variation-only weakening, not any actual theorem.
+- **Target:** `docs/sections/complex-hessian-equations--hessian-mass-and-global-comparison/index.html` (blob `580d3bc2b10ebd01d880b2a31fc6930436570aac`), Theorem 8.13.4, source `non-kahler-pluripotential-theory:776C8B26`, permanent `53F870DE5980`, physical lines 69–123, proof 97–120; mass identity 8.13.2 permanent `B8626F362B85` lines 19–38; contrast Example 8.13.5 permanent `0DB9D80DE230` lines 128–152. Chapter assumptions n=3,m=2 in §8.1 line 7.
+- **Proof/model:** on the flat 3-torus take `omega=beta1+e^(eps cos 2pi x1)beta2+e^(-eps cos 2pi x1)beta3`. Then `dd^c omega^2=0` but `dd^c omega !=0`. For `f=e^(-eps cos 2pi x1)cos(2pi x2)`, `M(t)=int(omega+t dd^c f)^2 omega=6B+(pi^2 B t^2/4)int_0^1 c(c')^2>6B` for all sufficiently small nonzero t, although `M'(0)=0` for **every** smooth direction. Full normalization and exact Stokes/wedge proof: [report](../reports/2026-11-18-gauduchon-first-variation-hessian-second-order.md).
+- **Correction proposed:** optional illustrative remark only; do **not** replace the all-powers condition by the Gauduchon/first-order condition. No patch to production source, body, registry, tags or website.
+- **Affected interpretations:** §8.13.4 global comparison/mass equivalence; polynomial coefficients vs first variation. Earlier Hessian and Hermitian mass findings unchanged.
+- **Coverage:** selected smooth mass and polarization proof passages only. +0 first visits/+0 whole sections/+0 full upstream certification. Actual previous ToC inventory 25/747. No build/tests/CI. Excluded regularization/Bergman/L2/OT/multiscale/positivity-loss work **deferred-by-user**.
