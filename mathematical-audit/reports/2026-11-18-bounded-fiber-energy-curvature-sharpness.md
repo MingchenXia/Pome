@@ -1,11 +1,11 @@
 # Bounded fiber-energy curvature and optimal coefficient
 
-2026-11-18. **POME-NPP-FIBER-ENERGY-CURVATURE-001**. Severity **low**; status **verified conditional deduction** (no false printed result). Reviewed main: \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+2026-11-18. **POME-NPP-FIBER-ENERGY-CURVATURE-001**. Severity **low**; status **verified conditional deduction** (no false printed result). Reviewed main: `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 
 ## Exact integrated anchors
 
-* \`docs/sections/non-pluripolar-products--fiber-integration-and-modifications/index.html\`, blob \`9954a43d90d5cae8ef744968636d7a5912348fce\`: Corollary 13.6.1 source \`non-kahler-pluripotential-theory:BAE2819F\` / permanent \`BEC54934FC2C\`, physical lines 11–31; weighted fiber Eq. 13.6.2 source \`non-kahler-pluripotential-theory:73910199\` / permanent \`F6B4982710D8\`, lines 16–22.
-* \`docs/sections/relative-energy-and-perron-segments--relative-monge-ampere-energy/index.html\`, blob \`16fdcc4c6a6f0cc75e69ba267bd7da2b2d7922a1\`: Definition 17.3.2 source \`foundations-of-pluripotential-theory:582D55DC\` / permanent \`240EF1DE5889\`, lines 32–40; Eq. 17.3.3 source \`foundations-of-pluripotential-theory:8C7506A6\` / permanent \`F19AAFA93177\`, lines 33–38.
+* `docs/sections/non-pluripolar-products--fiber-integration-and-modifications/index.html`, blob `9954a43d90d5cae8ef744968636d7a5912348fce`: Corollary 13.6.1 source `non-kahler-pluripotential-theory:BAE2819F` / permanent `BEC54934FC2C`, physical lines 11–31; weighted fiber Eq. 13.6.2 source `non-kahler-pluripotential-theory:73910199` / permanent `F6B4982710D8`, lines 16–22.
+* `docs/sections/relative-energy-and-perron-segments--relative-monge-ampere-energy/index.html`, blob `16fdcc4c6a6f0cc75e69ba267bd7da2b2d7922a1`: Definition 17.3.2 source `foundations-of-pluripotential-theory:582D55DC` / permanent `240EF1DE5889`, lines 32–40; Eq. 17.3.3 source `foundations-of-pluripotential-theory:8C7506A6` / permanent `F19AAFA93177`, lines 33–38.
 * Conditional earlier internal inputs: bounded Bedford–Taylor recursion (Definition 7.2.1), closed bounded Stokes formula (Proposition 13.5.1), and the weighted fiber Fubini result (13.6.2). These input proof chains are **not wholly certified**.
 
 ## Statement
