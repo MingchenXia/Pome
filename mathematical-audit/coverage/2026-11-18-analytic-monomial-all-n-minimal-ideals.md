@@ -1,0 +1,11 @@
+# 2026-11-18 — §9.60 analytic local models (actual audit coverage)
+
+**Main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Section source blob:** 7a3c24deaab8602c3d2b4be2e31d739f02b5a657, docs/sections/finite-type-algebraic-models-and-analytic-structure-sheaves--analytic-local-models-and-infinitesimal-information/index.html.
+
+**Entire §9.60 direct review (completed this session, not a transitive certification):** introductory analytic local model/stalk conventions, Proposition 9.60.1 statement and proof (lines 6–33; permanent 57433F7B0D87, source demailly-complex-geometry:2090FB67), doubled-hyperplane Taylor expansion, analytic embedding-dimension argument; Example 9.60.2 statement and full proof (lines 36–56; permanent 94F2248906E2, source demailly-complex-geometry:74D1BE60), including properness, normalized semigroup germs and the precise special \(N=3\) ideal. Checked \(N=1,2\) boundaries and general \(N\) minimal analytic ideal with independent convergent-series proof.
+
+**New:** POME-AN-MONOMIAL-ALL-N-MINIMAL-IDEAL-001, low / verified conditional deduction; all-\(N\) full binomial ideal, \(\mu=\binom N2\), ideal-theoretic CI iff \(N\le2\). **Not new:** printed \(N=3\) generators, prior normalization/conductor/\(\delta\)/multiplicity/Artinian parameter-fiber findings, prior doubled-hyperplane automorphism classification and prior Remmert-example replacement. Original numbered results are correct as read.
+
+**Partial/crosschecks only:** §§9.58–9.59 (ringed-space and Proj), not newly counted. Analytic Nullstellensatz and Cartan coherence remain genuine upstream external inputs; no whole dependency chain certified. §11.32 introductory standing hypotheses were inspected for scope only and carry **no numbered proof-level coverage** this session. All explicitly excluded regularization/Bergman/\(L^2\)/OT/multiscale/positivity-loss programmes remain **deferred-by-user**, neither reviewed nor marked resolved.
+
+**Matrix delta:** current 25 chapters, 747 numbered sections; **+0 first mathematically visited, +1 complete direct-section audit (§9.60), +0 full upstream-chain certifications**. This is a direct proof-level review of one section, **not** complete mathematical verification of a chapter or the entire collection. No tests, builds, CI, browser checks, website or main/source/registry/tag changes.
