@@ -4,14 +4,14 @@
 - Finding: **POME-NA-KAHLER-COFINAL-RAY-INVLIMIT-001**.
 - **Severity: low; status: verified conditional deduction**. This is an exact cofinality/reconstruction result and independent check of the indexing logic, **not** a false printed theorem and **not** a claim of an entirely certified §22.1.
 - Production main: **b6933b772f41b45918f7e25ed1afbbb1fd892272**.
-- Actual integrated reading text: \`docs/sections/non-archimedean-pluripotential-theory/index.html\`, blob **8448d710690ebe1cc28040f9611d05c9d008a961**.
-- Source: \`sgpt\` (the source-variant attribute). Primary stable source labels and permanent tags:
+- Actual integrated reading text: `docs/sections/non-archimedean-pluripotential-theory/index.html`, blob **8448d710690ebe1cc28040f9611d05c9d008a961**.
+- Source: `sgpt` (the source-variant attribute). Primary stable source labels and permanent tags:
   - §22.1.1 opening reverse order of Kähler forms, physical line **26**.
-  - Definition 22.1.2, source \`sgpt:B01CC65A\`, permanent tag **657951EB240B**, lines **30–43**; transition equation 22.1.3, source \`sgpt:93C71D7B\`, permanent **A99876729E5F**, lines **34–43**.
-  - Definition 22.1.7, source \`sgpt:6F37B588\`, permanent **A92D6DFAC0CF**, lines **118–123** (volume net).
-  - Lemma 22.1.9, source \`sgpt:DA29B884\`, permanent **587EEDE88F4F**, lines **142–171**, and Lemma 22.1.10, source \`sgpt:7CAC00AD\`, permanent **9A2678C2C223**, lines **175–225**.
-  - Definition 22.1.14, source \`sgpt:5A9D4C43\`, permanent **CCAAC9DA4E2F**, lines **256–266**; Proposition 22.1.15, source \`sgpt:176139CE\`, permanent **3943AA7119C5**, lines **270–315**; equation 22.1.16, source \`sgpt:40CA45E4\`, permanent **29D3530031C6**, lines **272–279**.
-- Explicit upstream checked only for statements/typing: \`docs/tag/BF40FB71C62C/index.html\`, Proposition 17.14.6, source \`sgpt:3F2306F9\` (transition maps); \`docs/tag/6CC72AA0EA90/index.html\`, Definition 17.14.1, source \`sgpt:06C25A3F\` (positive-mass I-model test curves). The deeper analytic arguments in §§16–18 are not re-proved.
+  - Definition 22.1.2, source `sgpt:B01CC65A`, permanent tag **657951EB240B**, lines **30–43**; transition equation 22.1.3, source `sgpt:93C71D7B`, permanent **A99876729E5F**, lines **34–43**.
+  - Definition 22.1.7, source `sgpt:6F37B588`, permanent **A92D6DFAC0CF**, lines **118–123** (volume net).
+  - Lemma 22.1.9, source `sgpt:DA29B884`, permanent **587EEDE88F4F**, lines **142–171**, and Lemma 22.1.10, source `sgpt:7CAC00AD`, permanent **9A2678C2C223**, lines **175–225**.
+  - Definition 22.1.14, source `sgpt:5A9D4C43`, permanent **CCAAC9DA4E2F**, lines **256–266**; Proposition 22.1.15, source `sgpt:176139CE`, permanent **3943AA7119C5**, lines **270–315**; equation 22.1.16, source `sgpt:40CA45E4`, permanent **29D3530031C6**, lines **272–279**.
+- Explicit upstream checked only for statements/typing: `docs/tag/BF40FB71C62C/index.html`, Proposition 17.14.6, source `sgpt:3F2306F9` (transition maps); `docs/tag/6CC72AA0EA90/index.html`, Definition 17.14.1, source `sgpt:06C25A3F` (positive-mass I-model test curves). The deeper analytic arguments in §§16–18 are not re-proved.
 
 ## New exact result: a single shrinking Kähler ray suffices
 
