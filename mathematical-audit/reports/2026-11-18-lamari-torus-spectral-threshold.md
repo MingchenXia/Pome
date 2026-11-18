@@ -3,18 +3,18 @@
 **Finding ID:** POME-LAMARI-TORUS-SPECTRAL-THRESHOLD-001  
 **Date:** 2026-11-18  
 **Classification:** low / **verified conditional deduction** (with a self-contained sharp model); not a false theorem, not a gap in the printed statements.  
-**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`  
-**Branch before this increment:** \`review/mathematical-audit\`, beginning at \`b36ca103a9b94d935a1f56b93ec18e03ebe1dfd4\`.  
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`  
+**Branch before this increment:** `review/mathematical-audit`, beginning at `b36ca103a9b94d935a1f56b93ec18e03ebe1dfd4`.  
 **Actual current ToC:** 25 chapters, 747 numbered sections.
 
 ## Exact integrated reading-edition targets
 
-- \`docs/sections/gauduchon-metrics-and-linear-mass--the-gauduchon-criterion-for-positivity/index.html\`, blob \`6dd43b62800206fb0302fd4261372d7882e5170d\`, section \`11.6\`, permanent tag \`6029C37CE10F\`, source \`non-kahler-pluripotential-theory:8909D36D\`.
-- Theorem **11.6.1** / permanent \`88BE3B63D9E5\` / source \`non-kahler-pluripotential-theory:87DC00D0\`, physical lines **11–73** (statement 11–18, positive \((n-1,n-1)\)-root 24–30, separation 34–51, scalar elliptic reconstruction 53–73).
-- Corollary **11.6.2** / permanent \`F83E15A1F529\` / source \`non-kahler-pluripotential-theory:EAE0F4AE\`, lines **82–97**: the exact Gauduchon threshold \(\kappa_\omega(\theta)\).
-- Lemma **11.6.3** / permanent \`91B8C8A3C10E\` / source \`non-kahler-pluripotential-theory:DC67F892\`, lines **105–116**; closing smooth-minimizer criterion **120–126**.
-- Scope: \`docs/sections/gauduchon-metrics-and-linear-mass/index.html\`, §11.3, permanent \`1009E65ECC4C\` explicitly fixes **\(n\ge2\)** and a connected compact Hermitian setting for this chapter. This is important for the \((n-1)\)st root formula and is **not** a missing hypothesis.
-- Selected upstream context: §11.4.2 / permanent \`3978AEB15BD7\`, integrated file \`docs/sections/gauduchon-metrics-and-linear-mass--conformal-gauduchon-metrics/index.html\`, blob \`ecb4bf9e593dfb25f1644f0561d1aa65bf096b10\`; §11.5.1 / permanent \`828FAD1A35BF\`, \`docs/sections/gauduchon-metrics-and-linear-mass--conservation-of-the-trace-mass/index.html\`, blob \`34af83ff391b5e5590cd9cb10ca4cd2b3faff02c\`. These are **dependency checks**, not separately certified whole sections.
+- `docs/sections/gauduchon-metrics-and-linear-mass--the-gauduchon-criterion-for-positivity/index.html`, blob `6dd43b62800206fb0302fd4261372d7882e5170d`, section `11.6`, permanent tag `6029C37CE10F`, source `non-kahler-pluripotential-theory:8909D36D`.
+- Theorem **11.6.1** / permanent `88BE3B63D9E5` / source `non-kahler-pluripotential-theory:87DC00D0`, physical lines **11–73** (statement 11–18, positive \((n-1,n-1)\)-root 24–30, separation 34–51, scalar elliptic reconstruction 53–73).
+- Corollary **11.6.2** / permanent `F83E15A1F529` / source `non-kahler-pluripotential-theory:EAE0F4AE`, lines **82–97**: the exact Gauduchon threshold \(\kappa_\omega(\theta)\).
+- Lemma **11.6.3** / permanent `91B8C8A3C10E` / source `non-kahler-pluripotential-theory:DC67F892`, lines **105–116**; closing smooth-minimizer criterion **120–126**.
+- Scope: `docs/sections/gauduchon-metrics-and-linear-mass/index.html`, §11.3, permanent `1009E65ECC4C` explicitly fixes **\(n\ge2\)** and a connected compact Hermitian setting for this chapter. This is important for the \((n-1)\)st root formula and is **not** a missing hypothesis.
+- Selected upstream context: §11.4.2 / permanent `3978AEB15BD7`, integrated file `docs/sections/gauduchon-metrics-and-linear-mass--conformal-gauduchon-metrics/index.html`, blob `ecb4bf9e593dfb25f1644f0561d1aa65bf096b10`; §11.5.1 / permanent `828FAD1A35BF`, `docs/sections/gauduchon-metrics-and-linear-mass--conservation-of-the-trace-mass/index.html`, blob `34af83ff391b5e5590cd9cb10ca4cd2b3faff02c`. These are **dependency checks**, not separately certified whole sections.
 
 ## New exact spectral example
 
@@ -82,6 +82,6 @@ The example is compatible with the printed final smooth-minimizer criterion: a n
 - **Precise remaining external/internal dependencies:** the general Gauduchon existence theorem §11.4.2; trace identity §11.5.1; Hahn–Banach and elliptic Fredholm/maximum principles in §11.6.1; conversion of positive current to a quasi-psh representative §5.22.2. This run checks their role, but not complete transitive proof chains. The torus computation itself needs only Stokes and elementary wedge algebra.
 - **Coverage:** direct reading of **all** §11.6 statement/proof paragraphs and final criterion (physical lines 7–126), plus limited contextual reads of §§11.3–11.5. The prior ledger and original 747-section matrix are preserved, rather than marking other sections as certified. **+1 entire-section direct proof reading, +0 fully certified upstream chains.**
 - **Deferred-by-user:** all Demailly approximation/regularization and dedicated Bergman, L², Ohsawa–Takegoshi, multiscale-atlas and positivity-loss proof-completion work. This audit did not reopen them.
-- **Operations:** audit Markdown only on \`review/mathematical-audit\`; no source text, main, permanent tags, registry, builds, tests, CI, or publication.
+- **Operations:** audit Markdown only on `review/mathematical-audit`; no source text, main, permanent tags, registry, builds, tests, CI, or publication.
 
 Historical Lamari/Gauduchon attribution in the integrated edition is retained and is not reclassified as a missing proof.
