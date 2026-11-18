@@ -2,15 +2,15 @@
 
 **Finding ID:** POME-PLANAR-MULTIPOLE-BLASCHKE-INTEGRALITY-001  
 **Classification:** low / **verified conditional deduction**, not a false printed theorem or a repaired proof gap.  
-**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
-**Integrated reading-edition source:** \`docs/sections/planar-green-functions-and-conformal-maps/index.html\`, blob \`bfee348bb5f4bbfaa4515e5c9333789a13dae861\`.
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
+**Integrated reading-edition source:** `docs/sections/planar-green-functions-and-conformal-maps/index.html`, blob `bfee348bb5f4bbfaa4515e5c9333789a13dae861`.
 
 ## Exact anchors and scope
 
 - §3.8 introductory normalization, main HTML line 7: positive Green kernel has singularity \(-\log|z-a|\), so \(-\Delta G_D(\cdot,a)=2\pi\delta_a\).
-- Theorem 3.8.1, source \`klimek-pluripotential-theory:B1C110E2\`, permanent tag \`E2B11E803D94\`, HTML lines 11–13, proof lines 19–48. Especially the harmonic conjugate and map construction (26–32), proper-degree argument (34–40) and reduction to bounded domains (42–48).
-- Proposition 3.8.2, source \`klimek-pluripotential-theory:886FBC1A\`, permanent \`3F05222ECC9E\`, lines 54–69, and Example 3.8.3, source \`klimek-pluripotential-theory:02455EF4\`, permanent \`FADCC209A003\`, lines 74–83, were read **only for boundary-value conventions**. The unbounded-component equilibrium and polar-boundary arguments were *not* certified here.
-- Section permanent tag \`7528EC445E3A\`. No inference from source theorem numbering was used.
+- Theorem 3.8.1, source `klimek-pluripotential-theory:B1C110E2`, permanent tag `E2B11E803D94`, HTML lines 11–13, proof lines 19–48. Especially the harmonic conjugate and map construction (26–32), proper-degree argument (34–40) and reduction to bounded domains (42–48).
+- Proposition 3.8.2, source `klimek-pluripotential-theory:886FBC1A`, permanent `3F05222ECC9E`, lines 54–69, and Example 3.8.3, source `klimek-pluripotential-theory:02455EF4`, permanent `FADCC209A003`, lines 74–83, were read **only for boundary-value conventions**. The unbounded-component equilibrium and polar-boundary arguments were *not* certified here.
+- Section permanent tag `7528EC445E3A`. No inference from source theorem numbering was used.
 
 ## Precise new conditional theorem
 
