@@ -4,13 +4,13 @@
 **Finding:** POME-PROJ-VERONESE-POLARIZATION-BOUNDARY-001  
 **Classification:** low / **verified conditional deduction** (not a false printed theorem and not a production canonicalization defect).  
 **Coverage:** **full direct reading/proof-step review of the two numbered results in §9.59**, not certification of all upstream §9.58 inputs or the project. Previously selected §9.59; **+0 first-visited numbered sections, +1 entire-section direct review**.  
-**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`  
-**Reading-edition file:** \`docs/sections/finite-type-algebraic-models-and-analytic-structure-sheaves--products-closed-subspaces-and-projective-charts/index.html\`  
-**Exact main blob:** \`4373897c66d3fae21cab98bec91fff3457d23ade\`  
-**Section tag:** \`232528C54E90\` (line 5); source provenance \`demailly-complex-geometry:D76E1CDA\`.  
-**Proposition 9.59.1:** source \`demailly-complex-geometry:20E582B2\`, permanent \`476B5A661E43\`, statement line 11, proof lines 14–22, topology/diagonal discussion lines 23–25.  
-**Theorem 9.59.2:** source \`demailly-complex-geometry:979A59BB\`, permanent \`4D90B8C4C837\`, statement line 28, proof lines 31–49, affine localization identity lines 34–40, degree-one cover line 42, polynomial quotient/separation line 44, base-locus and Veronese step line 46.  
-**Cross-section dependent:** §21.9 Theorem 21.9.5, source \`foundations-of-pluripotential-theory:BD98CC5B\`, permanent \`69D3D97E7701\`, in \`docs/sections/convex-analysis-and-toric-potentials--fans-divisors-and-character-sections/index.html\`, main blob \`7ad2e6dbdd0ce59e1bf08cd9cb3c046e8c87ff6c\`, lines 138–149 (character section Hilbert count only; theorem not recertified).
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`  
+**Reading-edition file:** `docs/sections/finite-type-algebraic-models-and-analytic-structure-sheaves--products-closed-subspaces-and-projective-charts/index.html`  
+**Exact main blob:** `4373897c66d3fae21cab98bec91fff3457d23ade`  
+**Section tag:** `232528C54E90` (line 5); source provenance `demailly-complex-geometry:D76E1CDA`.  
+**Proposition 9.59.1:** source `demailly-complex-geometry:20E582B2`, permanent `476B5A661E43`, statement line 11, proof lines 14–22, topology/diagonal discussion lines 23–25.  
+**Theorem 9.59.2:** source `demailly-complex-geometry:979A59BB`, permanent `4D90B8C4C837`, statement line 28, proof lines 31–49, affine localization identity lines 34–40, degree-one cover line 42, polynomial quotient/separation line 44, base-locus and Veronese step line 46.  
+**Cross-section dependent:** §21.9 Theorem 21.9.5, source `foundations-of-pluripotential-theory:BD98CC5B`, permanent `69D3D97E7701`, in `docs/sections/convex-analysis-and-toric-potentials--fans-divisors-and-character-sections/index.html`, main blob `7ad2e6dbdd0ce59e1bf08cd9cb3c046e8c87ff6c`, lines 138–149 (character section Hilbert count only; theorem not recertified).
 
 ## 1. Finding: the *ringed space*, not the polarization, is Veronese-invariant
 
@@ -39,7 +39,7 @@ Their degrees are \(d\) and \(1\) and their spaces of global sections have dimen
 **Proposed correction:** no source/body patch required. If citing the Veronese equivalence in an argument about section spaces, numerical divisor classes, or line bundles, append the explicit qualification \(\mathcal O_{B^{(d)}}(1)\leftrightarrow\mathcal O_B(d)\), **not** \(\mathcal O_B(1)\). Preserve both presentation gradings, degree conventions, source tags, and the actual ringed-space isomorphism.  
 **Affected downstream computations:** polarized Hilbert counts, §21.9.5's toric character-section formula, degrees of projective embeddings and intersection numbers; no currently demonstrated incorrect downstream theorem.
 
-This observation differs from the already recorded \`POME-PROJ-IRRELEVANT-TORSION-KERNEL-001\` (which concerns invisible irrelevant torsion and the underlying ringed space) and from the two nonreduced nilradical-gluing tests. Nothing from those findings is counted again here.
+This observation differs from the already recorded `POME-PROJ-IRRELEVANT-TORSION-KERNEL-001` (which concerns invisible irrelevant torsion and the underlying ringed space) and from the two nonreduced nilradical-gluing tests. Nothing from those findings is counted again here.
 
 ## 2. Full direct proof audit of Proposition 9.59.1
 

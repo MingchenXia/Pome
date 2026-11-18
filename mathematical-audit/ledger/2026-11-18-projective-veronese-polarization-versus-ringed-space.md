@@ -2,7 +2,7 @@
 
 Date: 2026-11-18. Severity: low. Status: **verified conditional deduction**.
 
-**Reference:** §9.59 Theorem 9.59.2, \`demailly-complex-geometry:979A59BB\` / permanent \`4D90B8C4C837\`, lines 28 and 34–46, main \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`, blob \`4373897c66d3fae21cab98bec91fff3457d23ade\`. Adjacent Proposition 9.59.1 \`demailly-complex-geometry:20E582B2\` / \`476B5A661E43\`, lines 11–22.
+**Reference:** §9.59 Theorem 9.59.2, `demailly-complex-geometry:979A59BB` / permanent `4D90B8C4C837`, lines 28 and 34–46, main `b6933b772f41b45918f7e25ed1afbbb1fd892272`, blob `4373897c66d3fae21cab98bec91fff3457d23ade`. Adjacent Proposition 9.59.1 `demailly-complex-geometry:20E582B2` / `476B5A661E43`, lines 11–22.
 
 Theorem's assertion that \(B\) and its positive Veronese \(B^{(d)}\) have the **same Proj ringed space** is correct. For \(B=k[x_0,x_1]\), \(d\ge2\), the induced isomorphism \(\operatorname{Proj}B^{(d)}\simeq\mathbb P^1\) pulls \(\mathcal O_{\operatorname{Proj}B^{(d)}}(1)\) back to \(\mathcal O_{\mathbb P^1}(d)\), **not** \(\mathcal O_{\mathbb P^1}(1)\). Chart transition ratios are \((x_1/x_0)^d\) versus \(x_1/x_0\), with dimensions \(d+1\) versus \(2\) for \(H^0\). No false theorem is asserted: this is a boundary on any *future polarized canonicalization*.
 
