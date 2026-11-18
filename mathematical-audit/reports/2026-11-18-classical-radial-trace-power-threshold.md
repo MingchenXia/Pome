@@ -1,11 +1,11 @@
 # 2026-11-18 — exact radial mixed-current traces and the top-degree weight threshold
 
-**Finding:** \`POME-CLASSICAL-RADIAL-TRACE-POWER-THRESHOLD-001\` (low; **verified conditional deduction**). This is a new sharp model and not a false printed theorem, not a proof of the whole upstream dependency chain, and not a repair of any excluded regularization programme.
+**Finding:** `POME-CLASSICAL-RADIAL-TRACE-POWER-THRESHOLD-001` (low; **verified conditional deduction**). This is a new sharp model and not a false printed theorem, not a proof of the whole upstream dependency chain, and not a repair of any excluded regularization programme.
 
-**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-**Integrated reading file:** \`docs/sections/classical-products-with-controlled-unbounded-loci--classical-products-with-compact-unbounded-loci/index.html\`.
-**Main blob:** \`65666651048e9ada933a763b7d381766f8b43965\`.
-**Anchors:** Theorem 7.29.5, original source \`demailly-complex-geometry:B0311B48\`, permanent tag \`8FBB0E4DE397\`, physical lines 46–56 (hypotheses), 61–80 (bounded-collar construction and unweighted induction), 82–102 (weighted induction and weak-limit upper bound), 104–130 (reverse mass inequality); Lemma 7.29.1, original \`demailly-complex-geometry:828A36D4\`, permanent \`438B9224299E\`, lines 10–41. The section itself is \`4BDD61F32BF5\`. Its already recorded isolated-point Poincaré–Lelong example is lines 175–185. These are physical HTML lines at the pinned main, not source-book page numbers.
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+**Integrated reading file:** `docs/sections/classical-products-with-controlled-unbounded-loci--classical-products-with-compact-unbounded-loci/index.html`.
+**Main blob:** `65666651048e9ada933a763b7d381766f8b43965`.
+**Anchors:** Theorem 7.29.5, original source `demailly-complex-geometry:B0311B48`, permanent tag `8FBB0E4DE397`, physical lines 46–56 (hypotheses), 61–80 (bounded-collar construction and unweighted induction), 82–102 (weighted induction and weak-limit upper bound), 104–130 (reverse mass inequality); Lemma 7.29.1, original `demailly-complex-geometry:828A36D4`, permanent `438B9224299E`, lines 10–41. The section itself is `4BDD61F32BF5`. Its already recorded isolated-point Poincaré–Lelong example is lines 175–185. These are physical HTML lines at the pinned main, not source-book page numbers.
 
 ## Sharp mixed trace calculation
 
