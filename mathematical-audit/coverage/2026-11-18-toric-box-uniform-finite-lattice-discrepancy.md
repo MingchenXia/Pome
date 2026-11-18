@@ -1,0 +1,8 @@
+# 2026-11-18 — precise §21.7 / §21.9 finite-scale toric coverage
+
+| Actual section | Content checked this session | Scope and limit |
+| --- | --- | --- |
+| §21.7 Lattice points and volume | Theorem 21.7.3 source foundations-of-pluripotential-theory:364BCD30, permanent 831AEEB7084F, integrated HTML blob 5d209b7f4d2156c19bc3fb300303405df6321230 lines 58–88; Proposition 21.7.2 permanent EDD78BC61BD7 lines 28–53. Independently proved box-uniform finite-k discrepancy and weighted Lipschitz error by convex 1D slicing, cell tiling; exact cube sharpness. | Previously partly audited; one new conditional quantitative deduction; not full §21.7 proof-chain certification. |
+| §21.9 Fans, divisors and character sections | Theorem 21.9.5 source foundations-of-pluripotential-theory:BD98CC5B, permanent 69D3D97E7701; integrated HTML blob 7ad2e6dbdd0ce59e1bf08cd9cb3c046e8c87ff6c lines 138–149 and 166. Checked dependency via equality of section dimension with lattice count; extracted conditional finite-k bound. | Previously partly audited, contextual application only; toric section theorem not recertified. |
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Inventory:** current audit matrix 25 chapters/747 numbered sections; +0 first mathematical section visits, +0 full certifications. **New finding:** POME-TORIC-LATTICE-UNIFORM-BOUNDARY-DISCREPANCY-001, low / verified conditional deduction, *not* false theorem or resolved external input. Prior moving-body qualitative limit remains separately recorded. All Demailly/regularization/Bergman/L²/OT/multiscale/positivity-loss dedicated programmes remain deferred-by-user. No tests/build/CI or production edits.
