@@ -6,6 +6,8 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 
 **2026-11-19 further broad rotation:** §11.5 (Gauduchon conserved trace mass) is directly reviewed end-to-end (three printed statements and proofs); verified a sharp square-root anisotropy remainder strengthening Equation 11.5.6, with precise equality and closed/Kähler rigidity. [Full proof](reports/2026-11-19-gauduchon-trace-quantitative-amgm-deficit.md). **+1 whole direct section, +0 fully verified transitive chains;** the legacy first-visit status remains unreconciled. No deferred-by-user analytic programme is reopened.
 
+**2026-11-19 targeted Chapter 20 rotation:** §20.3.44 and a selected downstream use were checked; the sharp Jacobian-step budget and fixed-level ramified multiplier-ideal carry are new *conditional deductions*, not printed errors or a whole-section audit. [Proof](reports/2026-11-19-divisorial-extraction-jacobian-and-ramified-multiplier-ideals.md). +1 selected partial section; +0 full sections / +0 complete dependency chains; earlier rows, 25/747 inventory and deferred exclusions preserved.
+
 ## Verified current table-of-contents chapter counts
 
 | Chapter (live TOC) | Sections | Exact numbered range |
@@ -745,7 +747,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §19.11 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §20.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §20.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §20.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §20.3 | CURRENT-PARTIAL; LEGACY-UNRECONCILED | **2026-11-19:** selected §20.3.44 full local divisor-extraction proof (lines 841–909), and selected §20.3.48 application (lines 938–945); [Jacobian-step bound and multiplier-ideal ramification carry](reports/2026-11-19-divisorial-extraction-jacobian-and-ramified-multiplier-ideals.md), [exact coverage](coverage/2026-11-19-ch20-divisorial-extraction-ramification.md). +0 full sections and upstream-chain certificates; historical first-visit status remains unreconciled |
 | §20.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §20.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §20.6 | HISTORIC-FULL-REPORTED | See existing dated reports and COVERAGE.md |
