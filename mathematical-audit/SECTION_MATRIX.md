@@ -10,6 +10,8 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 
 **2026-11-19 Chapter 23 direct rotation:** all of §23.3's current mathematical text and printed proof were read; a Lyapunov ellipsoid-flow cross-section proves the stronger smooth product (S^3\times S^1) and no-symplectic conclusion, with no printed error claimed. [Anchored report](reports/2026-11-19-hopf-quotient-lyapunov-smooth-topology.md). **+1 whole direct section; +0 complete upstream chains; old partial visits retained.** The user-excluded regularization programmes remain deferred-by-user.
 
+**2026-11-19 Chapter 19 new proof audit:** §19.2 now directly checked end-to-end; selected §19.7 Theorem 19.7.20 receives an elementary complete audit-only replacement for the general Kaveh–Khovanskii counting/existence input, including the precise generated-lattice index. The earlier 2026-11-05 conductor is reused, **not rediscovered**. [English proof](reports/2026-11-19-full-semigroup-volume-lattice-index-proof.md). **+1 whole direct section (§19.2), +1 partial section (§19.7), +0 fully certified transitive downstream chains**; historical first visits unreconciled; exclusions deferred-by-user.
+
 ## Verified current table-of-contents chapter counts
 
 | Chapter (live TOC) | Sections | Exact numbered range |
@@ -737,12 +739,12 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §18.46 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §18.47 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §19.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §19.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §19.2 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-19, POME-OKO-GENERAL-LATTICE-INDEX-COUNTING-001:** directly read all mathematical lines 7–134; [general graded-lattice volume proof](reports/2026-11-19-full-semigroup-volume-lattice-index-proof.md) and [exact coverage](coverage/2026-11-19-ch19-full-semigroup-counting.md); +0 complete downstream-chain certifications; prior first visit unreconciled |
 | §19.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §19.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §19.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §19.6 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §19.7 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
+| §19.7 | CURRENT-PARTIAL; HISTORIC-PARTIAL-REPORTED | **2026-11-19:** directly reviewed Theorem 19.7.20 and selected adjacent lines 299–341, 369–412; audit-only [general counting proof](reports/2026-11-19-full-semigroup-volume-lattice-index-proof.md) builds on previously verified **2026-11-05** interior-conductor proof (not counted anew); rest of §19.7 not fully audited |
 | §19.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §19.9 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §19.10 | HISTORIC-FULL-REPORTED | See existing dated reports and COVERAGE.md |
