@@ -1,15 +1,15 @@
 # Contracting Hopf quotients: smooth topology from a Lyapunov cross-section
 
-**Finding:** \`POME-HOPF-CONTRACTION-LYAPUNOV-S3S1-001\`  
+**Finding:** `POME-HOPF-CONTRACTION-LYAPUNOV-S3S1-001`  
 **Date:** 2026-11-19  
 **Severity / status:** low / **verified conditional deduction** (a stronger topological conclusion, **not** an error in the printed theorem).  
-**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
-**Integrated HTML:** \`docs/sections/contracting-hopf-quotients/index.html\`, blob \`d09d9bac3785b78b557ff5178ad7a52b34b20dac\`.  
-**Stable source / permanent tag:** Theorem 23.3.3, \`demailly-complex-geometry:371996B7\` / \`D81E3145A1B4\` (lines 8–22); iteration equation 23.3.4, \`demailly-complex-geometry:F5EE64FF\` / \`436562DE848D\` (lines 29–32). Full printed proof at lines 24–53. The section has two headings and this one proof-bearing theorem; mathematical contents at lines 5–53 were directly read.
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
+**Integrated HTML:** `docs/sections/contracting-hopf-quotients/index.html`, blob `d09d9bac3785b78b557ff5178ad7a52b34b20dac`.  
+**Stable source / permanent tag:** Theorem 23.3.3, `demailly-complex-geometry:371996B7` / `D81E3145A1B4` (lines 8–22); iteration equation 23.3.4, `demailly-complex-geometry:F5EE64FF` / `436562DE848D` (lines 29–32). Full printed proof at lines 24–53. The section has two headings and this one proof-bearing theorem; mathematical contents at lines 5–53 were directly read.
 
 ## Statement and distinction from existing reports
 
-In either case of Theorem 23.3.3 — diagonal contractions with \`0<|lambda_1|<=|lambda_2|<1\`, or triangular maps
+In either case of Theorem 23.3.3 — diagonal contractions with `0<|lambda_1|<=|lambda_2|<1`, or triangular maps
 \[
  F(z_1,z_2)=(\lambda z_1,\lambda z_2+z_1^p),\qquad 0<|\lambda|<1,\ p\ge1,
 \]
