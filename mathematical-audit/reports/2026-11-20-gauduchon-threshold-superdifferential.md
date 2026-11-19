@@ -7,7 +7,7 @@
 ## Precise integrated sources read
 
 - docs/sections/gauduchon-metrics-and-linear-mass--compactness-and-duality-of-gauduchon-currents/index.html, main blob **31d17f258f2ff178bf52be3d3f92d5a995878d3a**: complete mathematical lines **5–76**. Proposition 11.7.1, source label **non-kahler-pluripotential-theory:C21ACA47**, permanent tag **155386134D9E**, lines 16–45; its (11.7.2) source/permanent **9C9E2FC6/7F6E8313B3F8** and (11.7.3) **84FCF311/EDF0C9D4A983**. Corollary 11.7.4, source/permanent **4B74203A/A97DA8CE2358**, lines 47–73.
-- Selected upstream: docs/sections/gauduchon-metrics-and-linear-mass--the-gauduchon-criterion-for-positivity/index.html, blob **6dd43b62800206fb0302fd4261372d7882e5170d**, Theorem 11.6.1 lines 11–73, Corollary 11.6.2 (permanent **F83E15A1F529**) lines 82–97, Lemma 11.6.3 lines 105–126. Also docs/sections/gauduchon-metrics-and-linear-mass--conformal-gauduchon-metrics/index.html, blob **ecb4bf9e593dfb25f1644f0561d1aa65bf096b10**, Theorem 11.4.2 lines 20–56; §11.3 introductory connected/dimension context, line 7.
+- Selected upstream: docs/sections/gauduchon-metrics-and-linear-mass--the-gauduchon-criterion-for-positivity/index.html, blob **6dd43b62800206fb0302fd4261372d7882e5170d**, Theorem 11.6.1 lines 11–73, Corollary 11.6.2 (permanent **F83E15A1F529**) lines 82–97, Lemma 11.6.3 lines 105–126. Also docs/sections/gauduchon-metrics-and-linear-mass--conformal-gauduchon-metrics/index.html, blob **ecb4bf9e593dfb25f1644f0561d1aa65bf096b10**, Theorem 11.4.2 lines 20–56; §11.3 dimension convention (n at least two), line 7.
 - No assertion of full upstream verification. The earlier torus minimizing-face/cusp example POME-GAUD-TORUS-SPECTRAL-FACE-CUSP-001 remains historical and is **not** recounted as a new finding.
 
 ## Claim
