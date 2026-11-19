@@ -5,10 +5,10 @@ Date: 2026-11-19. Scope: **selected direct audit** of §20.3.43–45 and the dep
 ## Revision, provenance and exact inspected range
 
 - Reviewed baseline: main commit **b6933b772f41b45918f7e25ed1afbbb1fd892272**.
-- Integrated reading edition: \`docs/sections/restriction-and-intrinsic-trace-data/index.html\`, blob **dbc3b722ceacb8232fe4c7b711e5ad98b0708f06**.
-- Main local source: \`non-kahler-pluripotential-theory:5028932D\`, permanent tag **C53A2B3087AB**, Lemma 20.3.44, lines **843–909**, particularly the base blowup/Jacobian decrease at **858–882** and ramified Lelong comparison at **884–908**.
-- Equation source \`non-kahler-pluripotential-theory:F47EE864\`, permanent tag **09D69C0F18B7**, (20.3.45), lines **847–852**.
-- Dependent theorem: \`non-kahler-pluripotential-theory:E3D6C8A2\`, permanent tag **63EC1D93ABC1**, Theorem 20.3.48 and its selected proof lines **925–966**, notably **938–945**. The separate exact trace, closed-background and envelope steps in this proof are *not* newly certified.
+- Integrated reading edition: `docs/sections/restriction-and-intrinsic-trace-data/index.html`, blob **dbc3b722ceacb8232fe4c7b711e5ad98b0708f06**.
+- Main local source: `non-kahler-pluripotential-theory:5028932D`, permanent tag **C53A2B3087AB**, Lemma 20.3.44, lines **843–909**, particularly the base blowup/Jacobian decrease at **858–882** and ramified Lelong comparison at **884–908**.
+- Equation source `non-kahler-pluripotential-theory:F47EE864`, permanent tag **09D69C0F18B7**, (20.3.45), lines **847–852**.
+- Dependent theorem: `non-kahler-pluripotential-theory:E3D6C8A2`, permanent tag **63EC1D93ABC1**, Theorem 20.3.48 and its selected proof lines **925–966**, notably **938–945**. The separate exact trace, closed-background and envelope steps in this proof are *not* newly certified.
 - The existing audit ledger and coverage matrix were checked for overlapping findings. These two precise refinements were not found there. Do **not** recount previously established §19.7 Hausdorff/semigroup or §11.5 results as this session's progress.
 
 ## Finding POME-TRACE-JACOBIAN-EXTRACTION-STEP-BOUND-001
@@ -88,4 +88,4 @@ For an explicit discrepancy take \(e=2\), \(c=1/2\), \(t=1\): the base ideal is 
 - **Theorem 20.3.48:** directly checked the application of the lemma to \(q\circ\pi\) at lines 938–945 and the roles of ramification, ideals and divisorial coefficients. The separately needed exact base trace model (20.3.47), group-invariance descent, closed-background positivity and envelope dominance are **not certified** by this audit.
 - **Coverage added:** +1 **selected partial** mathematical proof review in §20.3; +0 new fully checked sections; +0 newly certified full upstream chains. Historical first-visit status remains **unreconciled**, rather than being counted as a first visit. The repository's existing 25-chapter/747-section coverage matrix is retained.
 - **Excluded programme:** Demailly approximation/regularization and its specified Bergman, \(L^2\), OT, multiscale-atlas and positivity-loss completion work remain **deferred-by-user**. Merely acknowledging the analytic approximants used elsewhere in §20.3 does not reopen or certify them.
-- **Operational scope:** audit Markdown only, on \`review/mathematical-audit\`; no source, canonicalization, registry, permanent-tag, site, main, CI, test or build mutation.
+- **Operational scope:** audit Markdown only, on `review/mathematical-audit`; no source, canonicalization, registry, permanent-tag, site, main, CI, test or build mutation.
