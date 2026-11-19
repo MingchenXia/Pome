@@ -590,8 +590,8 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §14.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §14.6 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §14.7 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §14.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §14.9 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §14.8 | THIS-RUN-FULL; HISTORIC-PARTIAL-REPORTED | **2026-11-20** full direct lines 5–70, theorem C611B2CA264A, blob 34526fcac6d5f30e71a98cadc88a4c76817546c4; new general-Hermitian trace-free variance identity [proof](reports/2026-11-20-ma-scalar-variance-hopf-fiber-hessian.md). Existing 2026-11-06 Kähler-only result and duplicate retained, not new; upstream not certified |
+| §14.9 | THIS-RUN-FULL; HISTORIC-UNRECONCILED | **2026-11-20** full direct lines 5–105, tags CA9F2EF1D149/BFCF1480CC8B/9CEA8A3A68F0, blob a0c390cff1768118798824a64318c416636b9b91; Hopf scalar/fiber variance balance and independent visible equation duplicate [proof](reports/2026-11-20-ma-scalar-variance-hopf-fiber-hessian.md); historic first visits not established, no upstream certification |
 | §14.10 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §14.11 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §14.12 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |

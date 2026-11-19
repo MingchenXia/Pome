@@ -1,0 +1,12 @@
+# Actual coverage delta — 2026-11-20 — §§14.8 and 14.9
+
+Production main **b6933b772f41b45918f7e25ed1afbbb1fd892272**, current ToC 25 chapters / 747 numbered sections. See [full proof](../reports/2026-11-20-ma-scalar-variance-hopf-fiber-hessian.md) and [classification](../ledger/2026-11-20-ma-scalar-variance-hopf-fiber-hessian.md).
+
+| Section/part | Integrated file/blob and physical lines | Verification level |
+| --- | --- | --- |
+| §14.8 all current mathematical text including duplicate | docs/sections/smooth-monge-ampere-equations--variation-of-the-normalization-scalar/index.html; blob 34526fcac6d5f30e71a98cadc88a4c76817546c4; lines **5–70**; theorem permanent C611B2CA264A, corollary B9C312CB7069 | **Whole direct section reading**, nonclosed Hermitian adjoint variance decomposition; previously selected Kähler-only variance and display-duplicate findings reused, not recounted |
+| §14.9 all current mathematical text including duplicate | docs/sections/smooth-monge-ampere-equations--normalization-on-the-hopf-threefold/index.html; blob a0c390cff1768118798824a64318c416636b9b91; lines **5–105**; proposition CA9F2EF1D149, corollary BFCF1480CC8B, independent equation entry 9CEA8A3A68F0 | **Whole direct section reading**, new exact fiber/variance/Hessian balance and one newly indexed visible duplicate |
+| §14.4 Proposition 14.4.1 | docs/sections/smooth-monge-ampere-equations--the-linearized-equation-and-smooth-dependence/index.html; blob 2f9ebecbd5bd079eb8573b4bb97df0fb5ab1bdfb; lines 7–39 | Selected smooth-dependence/adjoint compatibility read only; full theorem dependencies not certified |
+| §23.1 smooth identity/fiber inequality | docs/sections/unbounded-mass-on-hopf-manifolds/index.html; blob f53618e8d808de21687ff9166971cb9302ea8cfb; lines 46–103 and selected smooth lines 680–715; tags C46F0B405DC2 and E42306969D71 | Selected **smooth-only** equation normalizations; *bounded regularization* and non-smooth extension expressly excluded/not examined |
+
+**This run:** +2 current whole-section direct readings, +0 newly reconciled historical first visits, +0 complete transitive proof-chain certificates. Remaining unverified: global Hermitian nonlinear existence/estimates, full adjoint measure construction, every nonselected §23.1 argument, cross-chapter dependents and other sections of Chapter 14. No software build, test, browser check or CI, no production edits. Deferred-by-user Demailly and dedicated analytic programmes stay deferred, not solved.
