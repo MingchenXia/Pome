@@ -34,6 +34,8 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 | **[24. Problems in pluripotential theory](../../docs/chapters/problems-history/)** | 13 | §24.1–§24.13 |
 | **[25. Historical and bibliographical notes](../../docs/chapters/historical-notes/)** | 11 | §25.1–§25.11 |
 
+**2026-11-19 next rotation:** §2.21 whole integrated section directly checked (Proposition 2.21.2, Theorem 2.21.3, Corollary 2.21.5), +1 direct complete reading, +0 certified upstream chains. [Curvature/orthogonality proof](reports/2026-11-19-metric-connection-curvature-orthogonality.md). Previously deferred-by-user items remain deferred.
+
 **2026-11-19 incremental rotation:** §4.5 selected direct review only (Theorems 4.5.2/4/6 and Example 4.5.5), +0 whole sections, +0 transitive proofs. See [dated proof](reports/2026-11-19-nested-compact-balayage-energy-continuity.md). The matrix is not a certification of the entire collection.
 
 ## Per-section status register (all 747 numbers)
@@ -63,7 +65,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §2.18 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §2.19 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §2.20 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §2.21 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §2.21 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-19, POME-CONN-CURVATURE-ORTHOGONALITY-IFF-FLAT-001**: complete direct reading of lines 7–103, [report](reports/2026-11-19-metric-connection-curvature-orthogonality.md), [coverage](coverage/2026-11-19-ch2-metric-connection-curvature-orthogonality.md); +0 transitive certificates; legacy first-visit unverified |
 | §2.22 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §2.23 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §2.24 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |

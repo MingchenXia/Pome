@@ -1,3 +1,7 @@
+> **2026-11-19 — §2.21 complete direct proof-level reading:** \`POME-CONN-CURVATURE-ORTHOGONALITY-IFF-FLAT-001\`, exact curvature obstruction to orthogonality, original statements intact. Main \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`, integrated HTML blob \`93b74f8a110bb6c45a7e53cdaed0910af7eb5118\`, mathematical lines 7–103. [Evidence](coverage/2026-11-19-ch2-metric-connection-curvature-orthogonality.md) · [complete proof](reports/2026-11-19-metric-connection-curvature-orthogonality.md). **+1 full direct section reading, +0 complete upstream chains**; historical first visit unknown; user-deferred programmes unaffected.
+
+---
+
 > **2026-11-19 — Chapter 4 / §4.5 selected direct review:** Green-energy Theorems 4.5.2, 4.5.4, 4.5.6, and Example 4.5.5 examined at integrated lines 17–88 (main `b6933b772f41b45918f7e25ed1afbbb1fd892272`, blob `976a90f2a5eba299658f73a1eee8b9d3fef8020f`). New exact nested-compact balayage energy and capacitary boundary, **POME-CLASSICAL-NESTED-COMPACT-SWEEP-ENERGY-001**; [full report](reports/2026-11-19-nested-compact-balayage-energy-continuity.md) · [classified ledger](ledger/2026-11-19-nested-compact-balayage-energy-continuity.md) · [precise delta](coverage/2026-11-19-ch4-nested-compact-green-sweeping.md) · [matrix](SECTION_MATRIX.md). **+1 selected partial section; +0 entire section reviews; +0 full upstream chains**. The Martin half-space and strip historical results are not double-counted; deferred exclusions unchanged.
 
 ---
