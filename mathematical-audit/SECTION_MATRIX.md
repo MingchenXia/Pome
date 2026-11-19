@@ -468,7 +468,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §11.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §11.5 | THIS-RUN-FULL | **2026-11-19:** entire mathematical lines 5–82 directly audited; integrated blob `34af83ff391b5e5590cd9cb10ca4cd2b3faff02c`, main `b6933b772f41b45918f7e25ed1afbbb1fd892272`; [sharp trace deficit/equality theorem](reports/2026-11-19-gauduchon-trace-quantitative-amgm-deficit.md), [ledger](ledger/2026-11-19-gauduchon-trace-quantitative-amgm-deficit.md). +1 whole direct section, +0 upstream chains; historical first visit unresolved. |
 | §11.6 | HISTORIC-FULL-REPORTED | See existing dated reports and COVERAGE.md |
-| §11.7 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §11.7 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20:** complete §11.7 mathematical lines 5–76 directly checked, main `b6933b772f41b45918f7e25ed1afbbb1fd892272`, blob `31d17f258f2ff178bf52be3d3f92d5a995878d3a`, permanent tags `155386134D9E`, `A97DA8CE2358`; [exact slopes and weak superdifferential](reports/2026-11-20-gauduchon-threshold-superdifferential.md) · [coverage](coverage/2026-11-20-ch11-gauduchon-threshold-superdifferential.md). +1 whole direct section, +0 transitive certificates; prior historical visit remains unreconciled and excluded topics deferred-by-user |
 | §11.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §11.9 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §11.10 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
