@@ -47,7 +47,7 @@ I_A(x)=\begin{cases}0,&x\in A,\\+\infty,&x\notin A.\end{cases}
 \]
 Every \(\operatorname{dom}G_n=\{1/n\}\subset K\), and the family has the uniform lower bound (0). An admissible *finite* barycentric combination of these singleton domains has a positive barycenter at most (1). Conversely every \(x\in(0,1]\) belongs to the convex hull of two sufficiently chosen \(1/n\)'s (the endpoint \(x=1\) is also one of them). Since all costs are zero, the exact convex envelope is
 \[
-H=I_{\((0,1]\)}.
+H=I_{(0,1]}.
 \]
 This is proper and convex but **not lower semicontinuous at (0)**, despite compact common domain containment and every individual \(G_n\) being closed. Its finite infima happen to be attained, showing that *closure* fails even without an attainment failure.
 
