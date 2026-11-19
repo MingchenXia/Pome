@@ -1,3 +1,7 @@
+> **2026-11-20 — complete direct §21.4 slope-body and bounded-growth audit:** main b6933b772f41b45918f7e25ed1afbbb1fd892272, integrated blob 56a9a1c19e7234e2aa258d5ad1b66a5679ace190, mathematical lines 7–123; selected §21.3.3(4) and §21.2.6 only. **POME-TORIC-SLOPE-ENERGY-BOUNDARY-THRESHOLD-001** shows strict $\mathcal E^\infty\subsetneq\mathcal E^1\subsetneq\mathcal E$ via $H_q=(1-|p|)^{-q}$ and exact energy threshold q<1, together with divergence of monotone smooth bounded-class approximant energies for q≥1. No printed theorem refuted. [Full proof](reports/2026-11-20-toric-slope-energy-boundary-threshold.md) · [exact coverage](coverage/2026-11-20-toric-slope-energy-boundary-threshold.md) · [matrix](SECTION_MATRIX.md). **+1 whole direct section, +0 transitive upstream certifications**; no first-ever-visit assertion. Demailly-related exclusions remain **deferred-by-user**; no builds/tests/CI/main/source/site edits.
+
+---
+
 > **2026-11-20 §7.2 and §7.33 complete direct review, §7.4.4 selected input:** main `b6933b772f41b45918f7e25ed1afbbb1fd892272`, §7.2 lines 5–159, §7.33 lines 5–81. [Exact paths, blobs and tags](coverage/2026-11-20-bt-divisorial-capacity-collapse-and-net-stability.md) · [full mathematical audit](reports/2026-11-20-bt-divisorial-capacity-collapse-and-net-stability.md). Arbitrary-net BT continuity and divisor-base capacity-collapse counterexample are conditional deductions, not source errors. **+2 whole sections, +1 selected input, +0 transitive chains**. Excluded programme deferred-by-user; no software tests or production changes.
 
 ---
