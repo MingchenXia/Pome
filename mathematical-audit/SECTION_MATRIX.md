@@ -22,6 +22,8 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 
 **2026-11-19 Chapter 7 renewed broad direct review:** all of §7.13 read in the current integrated edition, including both Sobolev lemmas and two contact-product propositions. New exact Hall–Rado rank support criterion [proof](reports/2026-11-19-bt-contact-mixed-discriminant-hall-rank.md). **+1 whole section directly reviewed, +0 transitive proof certificates**; earlier partial work retained, no first-ever claim; Demailly and associated exclusions remain deferred-by-user.
 
+**2026-11-19 Chapter 13 broad direct rotation:** all §13.2 mathematical lines 7–165 directly reviewed; mixed exponent non-pluripolar finiteness is equivalent to a+b<1, including finite mixed / infinite self examples. This is distinct from the already logged 2026-10-30 diagonal power threshold. [Proof](reports/2026-11-19-mixed-power-nonpluripolar-threshold.md). **+1 whole direct section, +0 complete upstream-chain certifications; historic first visit unreconciled.** Deferred regularization programmes remain deferred-by-user.
+
 ## Verified current table-of-contents chapter counts
 
 | Chapter (live TOC) | Sections | Exact numbered range |
@@ -542,7 +544,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §12.35 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §12.36 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §13.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §13.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §13.2 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-19** complete direct mathematical lines 7–165; blob \`81be8c5acc360c96bd3c5acba05a3cdb5fafaf4c\`, Example tag \`6F4C920FEDCA\`; new **POME-NPP-MIXED-POWER-CROSS-THRESHOLD-001**, [proof](reports/2026-11-19-mixed-power-nonpluripolar-threshold.md) and [coverage](coverage/2026-11-19-mixed-power-nonpluripolar-threshold.md). Previous 2026-10-30 scalar result not counted again; +0 full upstream chains / no first-visit claim |
 | §13.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §13.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §13.5 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
