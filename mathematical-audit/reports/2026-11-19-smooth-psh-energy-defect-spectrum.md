@@ -3,11 +3,11 @@
 Date: 2026-11-19
 Finding ID: **POME-ENERGY-SMOOTH-L1-DEFECT-SPECTRUM-001**
 Classification: **low / verified conditional deduction** (strengthening of an existing example, **not** a false theorem or an asserted repair)
-Review baseline: production \`main\` **b6933b772f41b45918f7e25ed1afbbb1fd892272**.
-Integrated section: \`docs/sections/relative-energy-and-perron-segments--continuity-and-compactness/index.html\`; blob **6fd38d5ff9d0037e9d0d347814a95ad97331715f**, mathematical text and proofs on physical lines **7–242** (whole section).
-Source: \`foundations-of-pluripotential-theory\`; Example 17.4.11 source label \`68158160\`, permanent tag **\`27DF9596E862\`** (lines 226–242).
-Internal energy identity: \`docs/sections/relative-energy-and-perron-segments--relative-monge-ampere-energy/index.html\`, blob \`16fdcc4c6a6f0cc75e69ba267bd7da2b2d7922a1\`; Example 17.3.16 source label \`0C651973\`, permanent tag **\`6EAA0093766C\`** (lines 220–226, selected identity only).
-Related whole-section result tags: Proposition 17.4.1 **\`049F75F5547D\`** (lines 10–76), Lemma 17.4.3 **\`369EDE8DEEC5\`** (79–92), Proposition 17.4.4 **\`2FF0E77E9188\`** (95–113), Corollary 17.4.5 **\`85CFF04E2CEC\`** (116–135), Proposition 17.4.7 **\`1A67C7F5BE56\`** (150–169).
+Review baseline: production `main` **b6933b772f41b45918f7e25ed1afbbb1fd892272**.
+Integrated section: `docs/sections/relative-energy-and-perron-segments--continuity-and-compactness/index.html`; blob **6fd38d5ff9d0037e9d0d347814a95ad97331715f**, mathematical text and proofs on physical lines **7–242** (whole section).
+Source: `foundations-of-pluripotential-theory`; Example 17.4.11 source label `68158160`, permanent tag **`27DF9596E862`** (lines 226–242).
+Internal energy identity: `docs/sections/relative-energy-and-perron-segments--relative-monge-ampere-energy/index.html`, blob `16fdcc4c6a6f0cc75e69ba267bd7da2b2d7922a1`; Example 17.3.16 source label `0C651973`, permanent tag **`6EAA0093766C`** (lines 220–226, selected identity only).
+Related whole-section result tags: Proposition 17.4.1 **`049F75F5547D`** (lines 10–76), Lemma 17.4.3 **`369EDE8DEEC5`** (79–92), Proposition 17.4.4 **`2FF0E77E9188`** (95–113), Corollary 17.4.5 **`85CFF04E2CEC`** (116–135), Proposition 17.4.7 **`1A67C7F5BE56`** (150–169).
 
 ## New precise deduction
 
