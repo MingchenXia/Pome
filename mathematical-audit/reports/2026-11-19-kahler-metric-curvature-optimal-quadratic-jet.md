@@ -1,8 +1,8 @@
 # Optimal quadratic metric jets in holomorphic Kähler normal coordinates
 
-**Date:** 2026-11-19. **Finding ID:** \`POME-KAHLER-METRIC-QUADRATIC-JET-MINIMAX-001\`. **Severity/status:** low / **verified conditional deduction**. This strengthens the interpretation of a correct printed theorem. **No printed false theorem, independent proof gap or fully certified transitive dependency is claimed.**
+**Date:** 2026-11-19. **Finding ID:** `POME-KAHLER-METRIC-QUADRATIC-JET-MINIMAX-001`. **Severity/status:** low / **verified conditional deduction**. This strengthens the interpretation of a correct printed theorem. **No printed false theorem, independent proof gap or fully certified transitive dependency is claimed.**
 
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Reading-edition path:** \`docs/sections/kahler-normal-coordinate-jets/index.html\`, complete mathematical text and proof at physical HTML **lines 7–77**, blob \`4fd58352bd134c2715fc4cbf1e0074a42a7e0657\`. **Theorem 10.94.2:** source label \`demailly-complex-geometry:07136048\`, permanent **\`64B6971EF741\`**, statement lines 10–29 and proof lines 31–77. **Curvature expansion (10.94.3):** source \`demailly-complex-geometry:159ABCDF\`, permanent **\`F8EFB833957C\`**, lines 15–22. **Curvature symmetries (10.94.4):** source \`demailly-complex-geometry:9390894A\`, permanent **\`89C5EDFA346C\`**, lines 24–27. The cubic coordinate change (10.94.6), permanent **\`9F6B4FD758C3\`**, is at lines 49–62. The earlier Kähler normal-coordinate lemma **\`B12EA9BB1DC1\`** is cited at line 34; its full prior proof chain is **not** newly certified.
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Reading-edition path:** `docs/sections/kahler-normal-coordinate-jets/index.html`, complete mathematical text and proof at physical HTML **lines 7–77**, blob `4fd58352bd134c2715fc4cbf1e0074a42a7e0657`. **Theorem 10.94.2:** source label `demailly-complex-geometry:07136048`, permanent **`64B6971EF741`**, statement lines 10–29 and proof lines 31–77. **Curvature expansion (10.94.3):** source `demailly-complex-geometry:159ABCDF`, permanent **`F8EFB833957C`**, lines 15–22. **Curvature symmetries (10.94.4):** source `demailly-complex-geometry:9390894A`, permanent **`89C5EDFA346C`**, lines 24–27. The cubic coordinate change (10.94.6), permanent **`9F6B4FD758C3`**, is at lines 49–62. The earlier Kähler normal-coordinate lemma **`B12EA9BB1DC1`** is cited at line 34; its full prior proof chain is **not** newly certified.
 
 ## Additional theorem: an exact chart minimax
 
@@ -82,7 +82,7 @@ g_{z\bar z}=(1+|z|^2)^{-2}
 \]
 This is already first-order normalized and has unscaled Chern curvature \(C_{1\bar1 1\bar1}=2\). Hence \(\kappa_0=2\) and \(\mathcal D(z)=2\): **no** holomorphic coordinate germ preserving \(G(0)=1,dG(0)=0\) can improve the second-order operator-norm coefficient below \(2\). A Euclidean flat chart has \(\kappa_p=\mathcal D=0\). These show the obstruction has the stated exact, not merely qualitative, size.
 
-The earlier finding **\`POME-KAHLER-QUARTIC-POTENTIAL-001\`** calculated the quartic coefficient in a *Kähler potential*. It is preserved as independent existing work, **not** re-logged here. The present quantitative **minimax over all holomorphic chart germs** concerns matrix-valued metric coefficients and an invariant optimal norm; the phase-averaging lower bound is the new argument.
+The earlier finding **`POME-KAHLER-QUARTIC-POTENTIAL-001`** calculated the quartic coefficient in a *Kähler potential*. It is preserved as independent existing work, **not** re-logged here. The present quantitative **minimax over all holomorphic chart germs** concerns matrix-valued metric coefficients and an invariant optimal norm; the phase-averaging lower bound is the new argument.
 
 ## Direct printed-proof review and classification
 
