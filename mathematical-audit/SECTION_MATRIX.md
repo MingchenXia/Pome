@@ -28,6 +28,8 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 
 **2026-11-20 direct section rotation:** All mathematical content of §9.4 (normalization; physical lines 7–199) was freshly reviewed. The new **POME-NORM-NORMAL-LOCUS-LIFTING-001** establishes a unique normal-source lifting through finite normalization when the preimage of the nonnormal locus is nowhere dense, with a nodal constant-disc counterexample to unconditional uniqueness. [Detailed proof](reports/2026-11-20-normal-locus-lifting-through-normalization.md). **+1 whole direct section, +0 fully certified transitive chains; previous §9.4 visits not recounted**. Excluded Demailly and dedicated analytic work remains deferred-by-user.
 
+**2026-11-20 complete §3.9 rotation:** directly reviewed all three planar distance–convexity propositions and full printed proofs, adding a complete standalone proof of the unlinked closed-connected-locally-convex lemma in §3.9.2 and proving firm projection nonexpansivity. [Report](reports/2026-11-20-planar-distance-local-convexity-and-firm-projection.md). **+1 directly read whole section, +0 transitive proof-chain certificates, no first-visit assertion**; excluded programmes remain deferred-by-user.
+
 ## Verified current table-of-contents chapter counts
 
 | Chapter (live TOC) | Sections | Exact numbered range |
@@ -101,7 +103,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §3.6 | HISTORIC-FULL-REPORTED | See existing dated reports and COVERAGE.md |
 | §3.7 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §3.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §3.9 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §3.9 | THIS-RUN-FULL; HISTORIC-PARTIAL-REPORTED; LEGACY-UNRECONCILED | **2026-11-20: direct complete mathematical lines 7–107**, blob `25fd0fd57d3e51f9224a25341ace77584b2a1a2a`; self-contained local-convexity geodesic repair `POME-PLANAR-DISTANCE-LOCAL-CONVEX-GEODESIC-001`, [report](reports/2026-11-20-planar-distance-local-convexity-and-firm-projection.md), [coverage](coverage/2026-11-20-planar-distance-local-convexity-and-firm-projection.md); no full upstream certification and no historic first-visit claim |
 | §3.10 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §4.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §4.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
