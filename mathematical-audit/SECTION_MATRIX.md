@@ -30,6 +30,8 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 
 **2026-11-20 complete §3.9 rotation:** directly reviewed all three planar distance–convexity propositions and full printed proofs, adding a complete standalone proof of the unlinked closed-connected-locally-convex lemma in §3.9.2 and proving firm projection nonexpansivity. [Report](reports/2026-11-20-planar-distance-local-convexity-and-firm-projection.md). **+1 directly read whole section, +0 transitive proof-chain certificates, no first-visit assertion**; excluded programmes remain deferred-by-user.
 
+**2026-11-20 Chapter 8 addition:** full direct §8.2 and §8.12 reading, special `m=2` self-contained Lorentz cone proof and sharp negative coefficient interval. [Dated report](reports/2026-11-20-hessian-two-cone-lorentz-locality.md). **+2 full directly read sections, +0 certified upstream chains.** Earlier partial visits remain; deferred-by-user programme unchanged.
+
 ## Verified current table-of-contents chapter counts
 
 | Chapter (live TOC) | Sections | Exact numbered range |
@@ -266,7 +268,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §7.32 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §7.33 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §8.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §8.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §8.2 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20 complete direct** lines 6–269, [Lorentz proof](reports/2026-11-20-hessian-two-cone-lorentz-locality.md); previous selected §8.2.5/7 audits preserved; +0 transitive certificates, no first-visit claim |
 | §8.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §8.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §8.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
@@ -276,7 +278,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §8.9 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §8.10 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §8.11 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §8.12 | CURRENT-PARTIAL; LEGACY-UNRECONCILED | §8.12.4 weighted torsion measure convergence checked in 2026-11-19 [report](reports/2026-11-19-hessian-mixed-mass-uniform-lipschitz.md); other historical coverage unresolved |
+| §8.12 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20 complete direct** lines 6–170, [proof audit](reports/2026-11-20-hessian-two-cone-lorentz-locality.md); previous 2026-11-19 §8.12.4 partial [report](reports/2026-11-19-hessian-mixed-mass-uniform-lipschitz.md) retained; §8.11 dependencies not certified |
 | §8.13 | CURRENT-PARTIAL; LEGACY-UNRECONCILED | §8.13.1 mixed mass and §8.13.4–5 context checked in 2026-11-19 [report](reports/2026-11-19-hessian-mixed-mass-uniform-lipschitz.md); past partial checks retained |
 | §9.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
