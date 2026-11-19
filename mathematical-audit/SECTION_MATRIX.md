@@ -4,6 +4,8 @@
 
 Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the current run without whole-section or upstream certification; it can coexist with **LEGACY-UNRECONCILED**. **THIS-RUN-FULL** means the current run directly read every mathematical paragraph of that section, not all its dependencies. **HISTORIC-FULL-REPORTED** and **HISTORIC-PARTIAL-REPORTED** refer only to past recorded audits (see `README.md`, `COVERAGE.md` and dated reports); they are *not* freshly re-certified. **LEGACY-UNRECONCILED** does **not** mean unreviewed: previous partial or full status has not been reconciled from every historical report. No row certifies an entire upstream proof chain. The user-excluded Demailly regularization/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme stays **deferred-by-user**, *not* resolved or certified; the exclusion is at programme/proof level, not a blanket assertion that every Chapter 6 section is excluded. This matrix retains the older ledgers instead of overwriting their findings.
 
+**2026-11-19 further broad rotation:** §11.5 (Gauduchon conserved trace mass) is directly reviewed end-to-end (three printed statements and proofs); verified a sharp square-root anisotropy remainder strengthening Equation 11.5.6, with precise equality and closed/Kähler rigidity. [Full proof](reports/2026-11-19-gauduchon-trace-quantitative-amgm-deficit.md). **+1 whole direct section, +0 fully verified transitive chains;** the legacy first-visit status remains unreconciled. No deferred-by-user analytic programme is reopened.
+
 ## Verified current table-of-contents chapter counts
 
 | Chapter (live TOC) | Sections | Exact numbered range |
@@ -442,7 +444,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §11.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §11.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §11.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §11.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §11.5 | THIS-RUN-FULL | **2026-11-19:** entire mathematical lines 5–82 directly audited; integrated blob `34af83ff391b5e5590cd9cb10ca4cd2b3faff02c`, main `b6933b772f41b45918f7e25ed1afbbb1fd892272`; [sharp trace deficit/equality theorem](reports/2026-11-19-gauduchon-trace-quantitative-amgm-deficit.md), [ledger](ledger/2026-11-19-gauduchon-trace-quantitative-amgm-deficit.md). +1 whole direct section, +0 upstream chains; historical first visit unresolved. |
 | §11.6 | HISTORIC-FULL-REPORTED | See existing dated reports and COVERAGE.md |
 | §11.7 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §11.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
