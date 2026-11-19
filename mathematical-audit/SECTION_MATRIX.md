@@ -438,7 +438,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §10.91 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.92 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.93 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.94 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §10.94 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-19, POME-KAHLER-METRIC-QUADRATIC-JET-MINIMAX-001**: whole mathematical text lines 7–77, blob `4fd58352bd134c2715fc4cbf1e0074a42a7e0657`; [proof](reports/2026-11-19-kahler-metric-curvature-optimal-quadratic-jet.md), [coverage](coverage/2026-11-19-ch10-kahler-normal-metric-jet.md); no transitive certification or historical first-visit claim |
 | §10.95 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.96 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.97 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
