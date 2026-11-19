@@ -8,6 +8,8 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 
 **2026-11-19 targeted Chapter 20 rotation:** §20.3.44 and a selected downstream use were checked; the sharp Jacobian-step budget and fixed-level ramified multiplier-ideal carry are new *conditional deductions*, not printed errors or a whole-section audit. [Proof](reports/2026-11-19-divisorial-extraction-jacobian-and-ramified-multiplier-ideals.md). +1 selected partial section; +0 full sections / +0 complete dependency chains; earlier rows, 25/747 inventory and deferred exclusions preserved.
 
+**2026-11-19 Chapter 23 direct rotation:** all of §23.3's current mathematical text and printed proof were read; a Lyapunov ellipsoid-flow cross-section proves the stronger smooth product (S^3\times S^1) and no-symplectic conclusion, with no printed error claimed. [Anchored report](reports/2026-11-19-hopf-quotient-lyapunov-smooth-topology.md). **+1 whole direct section; +0 complete upstream chains; old partial visits retained.** The user-excluded regularization programmes remain deferred-by-user.
+
 ## Verified current table-of-contents chapter counts
 
 | Chapter (live TOC) | Sections | Exact numbered range |
@@ -770,7 +772,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §22.1 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
 | §23.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §23.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §23.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §23.3 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-19 POME-HOPF-CONTRACTION-LYAPUNOV-S3S1-001**: direct reading all mathematical lines 5–53, Theorem 23.3.3 and proof; [Lyapunov smooth-topology report](reports/2026-11-19-hopf-quotient-lyapunov-smooth-topology.md), [exact coverage](coverage/2026-11-19-ch23-hopf-lyapunov-topology.md); +1 whole direct section, +0 upstream-chain certificates; previous §23.3 partial audits and first-visit uncertainty preserved |
 | §24.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §24.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §24.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
