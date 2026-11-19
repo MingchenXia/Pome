@@ -34,6 +34,8 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 | **[24. Problems in pluripotential theory](../../docs/chapters/problems-history/)** | 13 | §24.1–§24.13 |
 | **[25. Historical and bibliographical notes](../../docs/chapters/historical-notes/)** | 11 | §25.1–§25.11 |
 
+**2026-11-19 incremental rotation:** §4.5 selected direct review only (Theorems 4.5.2/4/6 and Example 4.5.5), +0 whole sections, +0 transitive proofs. See [dated proof](reports/2026-11-19-nested-compact-balayage-energy-continuity.md). The matrix is not a certification of the entire collection.
+
 ## Per-section status register (all 747 numbers)
 
 These numbers come from the contiguous reader numbering on the individual current chapter index pages. Titles and permanent tags are resolved from the linked chapter/section pages; important new line/tag anchors are recorded in the dated report. Treat a status of LEGACY-UNRECONCILED as **unknown coverage**, not proof that a section has never been visited.
@@ -79,7 +81,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §4.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §4.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §4.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §4.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §4.5 | CURRENT-PARTIAL; LEGACY-UNRECONCILED | **2026-11-19:** directly checked Theorems 4.5.2, 4.5.4, 4.5.6 and Example 4.5.5, printed lines 17–88; [new energy-sweep result](reports/2026-11-19-nested-compact-balayage-energy-continuity.md), [coverage](coverage/2026-11-19-ch4-nested-compact-green-sweeping.md); Martin items 4.5.8–13 and upstream chains not certified; prior history remains unreconciled |
 | §5.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
