@@ -1,6 +1,6 @@
 # Numbered-section mathematical audit coverage matrix
 
-**Inventory baseline:** `main` `b6933b772f41b45918f7e25ed1afbbb1fd892272`. Chapter and section ranges were freshly read from the published `docs/chapters/*/index.html` table of contents on 2026-11-19, totaling **25 chapters and 747 numbered sections**. This is a **coverage accounting register**, not a mathematical certification of all 747 sections. The 2026-11-19 direct §17.18 review uses blob `5d989cf765f5471ce1e2278ef39e2c69979eeb92`.
+**Inventory baseline:** `main` `b6933b772f41b45918f7e25ed1afbbb1fd892272`. Chapter and section ranges were freshly read from the published `docs/chapters/*/index.html` table of contents on 2026-11-19, totaling **25 chapters and 747 numbered sections**. This is a **coverage accounting register**, not a mathematical certification of all 747 sections. The 2026-11-19 complete direct §17.2 review uses blob 5779ef1a17a52e02052c7485a7aa04adf606aace; the earlier direct §17.18 review uses blob `5d989cf765f5471ce1e2278ef39e2c69979eeb92`.
 
 Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the current run without whole-section or upstream certification; it can coexist with **LEGACY-UNRECONCILED**. **THIS-RUN-FULL** means the current run directly read every mathematical paragraph of that section, not all its dependencies. **HISTORIC-FULL-REPORTED** and **HISTORIC-PARTIAL-REPORTED** refer only to past recorded audits (see `README.md`, `COVERAGE.md` and dated reports); they are *not* freshly re-certified. **LEGACY-UNRECONCILED** does **not** mean unreviewed: previous partial or full status has not been reconciled from every historical report. No row certifies an entire upstream proof chain. The user-excluded Demailly regularization/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme stays **deferred-by-user**, *not* resolved or certified; the exclusion is at programme/proof level, not a blanket assertion that every Chapter 6 section is excluded. This matrix retains the older ledgers instead of overwriting their findings.
 
@@ -662,7 +662,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §16.43 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §16.44 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §17.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §17.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §17.2 | THIS-RUN-FULL | **2026-11-19:** entire current integrated section directly read (blob 5779ef1a17a52e02052c7485a7aa04adf606aace); [anchored report](reports/2026-11-19-bounded-qpsh-difference-dirichlet-seminorm.md), [ledger](ledger/2026-11-19-bounded-qpsh-difference-dirichlet-seminorm.md). Full upstream chain not certified; legacy first-visit status unknown |
 | §17.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §17.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §17.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
