@@ -1,0 +1,8 @@
+# Exact direct mathematical coverage — 2026-11-20, Chapter 21
+
+- **Production baseline:** main b6933b772f41b45918f7e25ed1afbbb1fd892272.
+- **Whole section directly read:** §21.4, "Slope bodies and bounded growth", docs/sections/convex-analysis-and-toric-potentials--slope-bodies-and-bounded-growth/index.html, blob 56a9a1c19e7234e2aa258d5ad1b66a5679ace190, **mathematical lines 7–123**, §21.4 root tag 8CD47210DEE8. Statements and proofs checked: Definition 21.4.1 E8746DA689A7 (11–16); Proposition 21.4.2 D6E7C0B06FAD (20–55); Lemma 21.4.3 9AEE54E3B1E1 (63–76); Proposition 21.4.4 374D75E96CF6 (81–96); Example 21.4.5 56EB803309C2 (101); Lemma 21.4.6 F7AECD623994 (109–123).
+- **Selected only, not counted as whole sections:** §21.3 Proposition 21.3.3(4) infimal-convolution proof lines 132–138, blob 347fa1f0fc35c13b1d1c45193ab997ed456966e4; §21.2 Proposition 21.2.6 statement line 159, blob 66bfd5b3f6cdfaced77dc1741a995e22768141f1.
+- **Result:** POME-TORIC-SLOPE-ENERGY-BOUNDARY-THRESHOLD-001, low / verified conditional deduction, [complete proof](../reports/2026-11-20-toric-slope-energy-boundary-threshold.md). No new confirmed original error or proof gap.
+- **Coverage delta:** +1 complete current direct section read; +2 selected dependency observations; +0 complete upstream proof chains. Existing historical §21.4 visits have not been exhaustively reconciled, so no claim of historical first access. The 25-chapter / 747-section matrix is a coverage accounting framework, not a blanket certification.
+- **Scope:** completely skipped Demailly regularization and the dedicated Bergman/L²/OT/multiscale/positivity-loss programme. Existing deferred notes remain deferred-by-user. No build, test, CI, main, source, registry, tag, or published website modifications.
