@@ -24,6 +24,8 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 
 **2026-11-19 Chapter 13 full direct rotation:** mathematical §13.2 lines 7–165 read end-to-end. **New:** exact total-variation rate for *canonical level-k truncations*, \(Ck^{-(1-a-b)/\max(a,b)}\), and sharp critical/supercritical growth, [proof](reports/2026-11-19-mixed-npp-truncation-tv-rate.md). **Correction:** the mixed integrability threshold itself was already established in the 2026-11-11 **POME-NPP-MIXED-POWER-SUM-THRESHOLD-001**; the preliminary 2026-11-19 threshold note was withdrawn as duplicate, [correction](reports/2026-11-19-mixed-power-nonpluripolar-threshold.md). **+1 whole direct section, +0 fully certified upstream chains, no first-ever visit claim;** excluded programmes deferred-by-user.
 
+**2026-11-19 new Chapter 17 rotation:** §17.4 (continuity and compactness) fully read directly; smooth strictly \(\omega_{\rm FS}\)-psh sequences realize every prescribed finite loss of Monge–Ampère energy despite weak convergence of their positive Monge–Ampère measures, with exact atomic Dirichlet-energy concentration. [Proof](reports/2026-11-19-smooth-psh-energy-defect-spectrum.md) · [coverage](coverage/2026-11-19-smooth-psh-energy-defect-spectrum.md). **+1 whole direct section, +0 transitive dependency certifications**; historic first-visit unverified, excluded programme still deferred-by-user.
+
 ## Verified current table-of-contents chapter counts
 
 | Chapter (live TOC) | Sections | Exact numbered range |
@@ -688,7 +690,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §17.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §17.2 | THIS-RUN-FULL | **2026-11-19:** entire current integrated section directly read (blob 5779ef1a17a52e02052c7485a7aa04adf606aace); [anchored report](reports/2026-11-19-bounded-qpsh-difference-dirichlet-seminorm.md), [ledger](ledger/2026-11-19-bounded-qpsh-difference-dirichlet-seminorm.md). Full upstream chain not certified; legacy first-visit status unknown |
 | §17.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §17.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §17.4 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-19, POME-ENERGY-SMOOTH-L1-DEFECT-SPECTRUM-001**: entire integrated §17.4 lines 7–242, [proof](reports/2026-11-19-smooth-psh-energy-defect-spectrum.md), [coverage](coverage/2026-11-19-smooth-psh-energy-defect-spectrum.md); +0 transitive-chain certifications; historic first visit unverified |
 | §17.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §17.6 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §17.7 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
