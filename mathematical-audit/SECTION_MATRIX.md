@@ -14,6 +14,8 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 
 **2026-11-19 Chapter 16 contact-support rotation:** §§16.12–16.13 were each directly reviewed in full, including local Radon-order tests, ordered-potential contact comparison, bounded/l.s.c. obstacle replacements, quasi-continuous capacity limit, and finite rooftop. New verified conditional deduction \`POME-ROOFTOP-CONTACT-MEASURE-MEET-001\` removes overlap double counting by a lattice-meet measure on exact Borel contact strata; the printed corollary remains true. [Proof](reports/2026-11-19-rooftop-contact-measure-meet.md). **+2 full direct sections; +0 complete upstream-chain certificates.** Historical first visits remain unreconciled; excluded regularization work remains deferred-by-user.
 
+**2026-11-19 Chapter 22 selected rotation:** Proposition 22.1.39 lines 614–674 was directly checked and strengthened by a background-form equi-Lipschitz bound and arbitrary-family scalar minimax, with a sharp linear example; [new report](reports/2026-11-19-na-background-mass-uniform-lipschitz-minimax.md). +1 selected partial review, +0 whole sections or fully verified chains; prior §22.1 partial visits and deferred exclusions retained.
+
 ## Verified current table-of-contents chapter counts
 
 | Chapter (live TOC) | Sections | Exact numbered range |
@@ -773,7 +775,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §21.12 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §21.13 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §21.14 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §22.1 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
+| §22.1 | CURRENT-PARTIAL; HISTORIC-PARTIAL-REPORTED | **2026-11-19 POME-NA-BACKGROUND-MASS-LIPSCHITZ-MINIMAX-001**: directly audited Def. 22.1.7 (118–123) and Proposition 22.1.39 proof (614–674), with order/supremum context; [uniform Kähler-background mass and arbitrary-family minimax](reports/2026-11-19-na-background-mass-uniform-lipschitz-minimax.md), [coverage](coverage/2026-11-19-na-background-mass-uniform-lipschitz-minimax.md). Existing older partial notes preserved; +0 whole sections and upstream chains; no new first-visit claim |
 | §23.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §23.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §23.3 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-19 POME-HOPF-CONTRACTION-LYAPUNOV-S3S1-001**: direct reading all mathematical lines 5–53, Theorem 23.3.3 and proof; [Lyapunov smooth-topology report](reports/2026-11-19-hopf-quotient-lyapunov-smooth-topology.md), [exact coverage](coverage/2026-11-19-ch23-hopf-lyapunov-topology.md); +1 whole direct section, +0 upstream-chain certificates; previous §23.3 partial audits and first-visit uncertainty preserved |
