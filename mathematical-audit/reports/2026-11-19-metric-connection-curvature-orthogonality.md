@@ -1,17 +1,17 @@
 # Complete metric connections: exact curvature obstruction to exact–coexact orthogonality
 
-**Finding:** \`POME-CONN-CURVATURE-ORTHOGONALITY-IFF-FLAT-001\`  
+**Finding:** `POME-CONN-CURVATURE-ORTHOGONALITY-IFF-FLAT-001`  
 **Date:** 2026-11-19  
 **Classification:** low / **verified conditional deduction** (the printed statements are correct).  
-**Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`  
-**Integrated HTML:** \`docs/sections/complete-metric-laplacians-and-reduced-cohomology/index.html\` (blob \`93b74f8a110bb6c45a7e53cdaed0910af7eb5118\`).  
+**Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`  
+**Integrated HTML:** `docs/sections/complete-metric-laplacians-and-reduced-cohomology/index.html` (blob `93b74f8a110bb6c45a7e53cdaed0910af7eb5118`).  
 **Actual direct review:** all mathematical lines 7–103 of §2.21. No transitive verification of invoked upstream theorems is claimed.
 
 ## Precisely anchored integrated statements
 
-- Proposition 2.21.2, source \`demailly-complex-geometry:CF433F03\`, permanent tag \`E40060D5FC24\`, lines 10–36: equality of maximal Hilbert adjoints and compactly supported graph cores for a metric connection **without** flatness.
-- Theorem 2.21.3, source \`demailly-complex-geometry:CDC5D23B\`, permanent tag \`CE09CDC33E77\`, lines 40–81: maximal connection-Hodge Laplacian, joint weak-energy domain, essential self-adjointness, smooth kernel. Flatness is **not** assumed.
-- Corollary 2.21.5, source \`demailly-complex-geometry:63A1AB33\`, permanent tag \`A76DD53006C1\`, lines 85–103: orthogonal Hodge decomposition and reduced cohomology **under flatness**. Its proof at lines 95–102 uses \`D^2=0\`.
+- Proposition 2.21.2, source `demailly-complex-geometry:CF433F03`, permanent tag `E40060D5FC24`, lines 10–36: equality of maximal Hilbert adjoints and compactly supported graph cores for a metric connection **without** flatness.
+- Theorem 2.21.3, source `demailly-complex-geometry:CDC5D23B`, permanent tag `CE09CDC33E77`, lines 40–81: maximal connection-Hodge Laplacian, joint weak-energy domain, essential self-adjointness, smooth kernel. Flatness is **not** assumed.
+- Corollary 2.21.5, source `demailly-complex-geometry:63A1AB33`, permanent tag `A76DD53006C1`, lines 85–103: orthogonal Hodge decomposition and reduced cohomology **under flatness**. Its proof at lines 95–102 uses `D^2=0`.
 
 The additional result below proves that the flatness hypothesis in the *orthogonality and complex* part cannot be dropped, even on a flat compact Kähler base. It does not invalidate Proposition 2.21.2 or Theorem 2.21.3.
 
