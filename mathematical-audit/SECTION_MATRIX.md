@@ -547,10 +547,10 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §12.36 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §13.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §13.2 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-19** complete direct lines 7–165, integrated blob `81be8c5acc360c96bd3c5acba05a3cdb5fafaf4c`, Lemma `D59675D9F6D8`, Example `6F4C920FEDCA`. **New:** POME-NPP-MIXED-TRUNCATION-TV-RATE-001 exact level-k cutoff rate, [proof](reports/2026-11-19-mixed-npp-truncation-tv-rate.md), [coverage](coverage/2026-11-19-mixed-npp-truncation-tv-rate.md). Preliminary POME-NPP-MIXED-POWER-CROSS-THRESHOLD-001 withdrawn as duplicate of Nov 11 [original](reports/2026-11-11-mixed-nonpluripolar-power-sum-threshold.md). +0 fully certified transitive chains; no first-ever visit claim |
-| §13.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §13.3 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20** full direct mathematical lines 7–50, Theorem 13.3.1 tag `8A125B338F90`; [audited proof + new analytic-excision deduction](reports/2026-11-20-analytic-set-excision-and-divisorial-npp-mass.md). No transitive proof-chain certification; historical first visit unknown |
 | §13.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §13.5 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
-| §13.6 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
+| §13.6 | THIS-RUN-FULL; HISTORIC-PARTIAL-REPORTED | **2026-11-20** full direct mathematical lines 7–57, tags `BEC54934FC2C` / `0811FFDF15B7`; new divisorial NPP invariance and cohomological discrepancy [proof](reports/2026-11-20-analytic-set-excision-and-divisorial-npp-mass.md). Earlier partial visits retained; no upstream-chain certificate |
 | §13.7 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §13.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §13.9 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
