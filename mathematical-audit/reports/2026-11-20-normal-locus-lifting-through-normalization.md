@@ -3,10 +3,10 @@
 **Finding:** POME-NORM-NORMAL-LOCUS-LIFTING-001  
 **Date:** 2026-11-20 (Asia/Shanghai)  
 **Classification:** **low / verified conditional deduction**. This is an additional result, not a false printed theorem, duplicate, or complete upstream-chain certification.  
-**Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.  
-**Integrated file:** \`docs/sections/complex-spaces-and-modifications--reduced-spaces-and-normalization/index.html\` (blob \`06439f43d1ce8e83d2529682c9a630bffa3d9c22\`).  
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.  
+**Integrated file:** `docs/sections/complex-spaces-and-modifications--reduced-spaces-and-normalization/index.html` (blob `06439f43d1ce8e83d2529682c9a630bffa3d9c22`).  
 **Actual direct reading:** all mathematical paragraphs, statements, and proof steps of §9.4, physical HTML lines **7–199** (ten entries 9.4.1–9.4.10, including the two examples). The initial navigation and final citation/interface markup are not mathematical proofs.
-**Permanent / source anchors:** Lemma 9.4.4 \`D73CC9F08C05\` / \`foundations-of-pluripotential-theory:E60680A7\`, lines 87–108; Lemma 9.4.5 \`58E87F89D557\` / \`:571B5EA0\`, lines 116–137; Theorem 9.4.6 \`12A47DB401E2\` / \`:7042BB57\`, lines 142–159; Corollary 9.4.9 \`EE1633042D3D\` / \`:405861C0\`, lines 185–192; Example 9.4.10 \`60A14C7A1845\` / \`:680F3928\`, lines 197–199.
+**Permanent / source anchors:** Lemma 9.4.4 `D73CC9F08C05` / `foundations-of-pluripotential-theory:E60680A7`, lines 87–108; Lemma 9.4.5 `58E87F89D557` / `:571B5EA0`, lines 116–137; Theorem 9.4.6 `12A47DB401E2` / `:7042BB57`, lines 142–159; Corollary 9.4.9 `EE1633042D3D` / `:405861C0`, lines 185–192; Example 9.4.10 `60A14C7A1845` / `:680F3928`, lines 197–199.
 
 ## New theorem (sufficient hypothesis, uniqueness, and sharp boundary)
 
