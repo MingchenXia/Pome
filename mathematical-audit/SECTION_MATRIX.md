@@ -590,7 +590,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §14.25 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §14.26 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §14.27 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §14.28 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §14.28 | THIS-RUN-FULL | **2026-11-19:** complete current mathematical lines 7–157 directly read (blob 7a70517262563acf523940c261daa8ec11a8cb55); [even-order ODE proof](reports/2026-11-19-even-order-degenerate-density-nonuniqueness.md). +1 direct full section, +0 complete transitive chains; first-visit status unreconciled. Original theorem stands; all user-excluded programmes deferred-by-user |
 | §14.29 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §15.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §15.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |

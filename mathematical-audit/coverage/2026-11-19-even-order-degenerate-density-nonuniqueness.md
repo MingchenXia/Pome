@@ -1,0 +1,9 @@
+# Exact coverage delta — 2026-11-19, Chapter 14, §14.28
+
+- Main baseline: `b6933b772f41b45918f7e25ed1afbbb1fd892272`; review branch was read before writing.
+- Direct complete mathematical reading: `docs/sections/uniqueness-for-degenerate-equations--quadratic-density-zeros/index.html` (blob `7a70517262563acf523940c261daa8ec11a8cb55`), **lines 7–157**, covering theorem, complete model construction, ODE lemma, residual/barrier signs, asymptotic flatness, global extension, and mass/positivity arguments. This is a full *direct section reading*, **not** a complete certification of dependencies.
+- Contextual partial reading: `docs/sections/uniqueness-for-degenerate-equations--smooth-nonuniqueness-for-a-degenerate-density/index.html`, blob `7240d97e9192c70acf09f755ec90a5420bc11ef7`, lines 10–66 (rank-one forms, coefficient cube, projective ends); `docs/sections/non-pluripolar-monge-ampere-measures/index.html`, blob `5d0f652ffaaaef81cf74d1786082e429f71b3b89`, lines 235–250 (statement and proof of bounded-mass metric invariance, **not** transitive chain).
+- New distinct finding: `POME-DEGENMA-ALL-EVEN-VANISHING-ORDERS-001` (low / verified conditional deduction): every even exact finite-order density zero via `p_m=(1-r^2)^m`; asymptotic `exp(-A/d^(m-1))`. [Proof](../reports/2026-11-19-even-order-degenerate-density-nonuniqueness.md) · [classification](../ledger/2026-11-19-even-order-degenerate-density-nonuniqueness.md).
+- New direct whole-section review count: **+1 (§14.28)**. Selected context-only reads: **2**. Complete transitive proof-chain certifications: **+0**. Earlier reports were checked for this precise higher-even-order result; first-ever historical access is not claimed.
+- Existing 25-chapter / 747-section inventory preserved. Old confirmed errors and all user-`deferred-by-user` exclusions preserved as-is.
+- No project tests, builds, CI, source/main/site updates.
