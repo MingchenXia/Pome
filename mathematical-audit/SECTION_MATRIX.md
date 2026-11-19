@@ -22,7 +22,7 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 
 **2026-11-19 Chapter 7 renewed broad direct review:** all of §7.13 read in the current integrated edition, including both Sobolev lemmas and two contact-product propositions. New exact Hall–Rado rank support criterion [proof](reports/2026-11-19-bt-contact-mixed-discriminant-hall-rank.md). **+1 whole section directly reviewed, +0 transitive proof certificates**; earlier partial work retained, no first-ever claim; Demailly and associated exclusions remain deferred-by-user.
 
-**2026-11-19 Chapter 13 broad direct rotation:** all §13.2 mathematical lines 7–165 directly reviewed; mixed exponent non-pluripolar finiteness is equivalent to a+b<1, including finite mixed / infinite self examples. This is distinct from the already logged 2026-10-30 diagonal power threshold. [Proof](reports/2026-11-19-mixed-power-nonpluripolar-threshold.md). **+1 whole direct section, +0 complete upstream-chain certifications; historic first visit unreconciled.** Deferred regularization programmes remain deferred-by-user.
+**2026-11-19 Chapter 13 full direct rotation:** mathematical §13.2 lines 7–165 read end-to-end. **New:** exact total-variation rate for *canonical level-k truncations*, \(Ck^{-(1-a-b)/\max(a,b)}\), and sharp critical/supercritical growth, [proof](reports/2026-11-19-mixed-npp-truncation-tv-rate.md). **Correction:** the mixed integrability threshold itself was already established in the 2026-11-11 **POME-NPP-MIXED-POWER-SUM-THRESHOLD-001**; the preliminary 2026-11-19 threshold note was withdrawn as duplicate, [correction](reports/2026-11-19-mixed-power-nonpluripolar-threshold.md). **+1 whole direct section, +0 fully certified upstream chains, no first-ever visit claim;** excluded programmes deferred-by-user.
 
 ## Verified current table-of-contents chapter counts
 
@@ -544,7 +544,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §12.35 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §12.36 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §13.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §13.2 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-19** complete direct mathematical lines 7–165; blob `81be8c5acc360c96bd3c5acba05a3cdb5fafaf4c`, Example tag `6F4C920FEDCA`; new **POME-NPP-MIXED-POWER-CROSS-THRESHOLD-001**, [proof](reports/2026-11-19-mixed-power-nonpluripolar-threshold.md) and [coverage](coverage/2026-11-19-mixed-power-nonpluripolar-threshold.md). Previous 2026-10-30 scalar result not counted again; +0 full upstream chains / no first-visit claim |
+| §13.2 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-19** complete direct lines 7–165, integrated blob `81be8c5acc360c96bd3c5acba05a3cdb5fafaf4c`, Lemma `D59675D9F6D8`, Example `6F4C920FEDCA`. **New:** POME-NPP-MIXED-TRUNCATION-TV-RATE-001 exact level-k cutoff rate, [proof](reports/2026-11-19-mixed-npp-truncation-tv-rate.md), [coverage](coverage/2026-11-19-mixed-npp-truncation-tv-rate.md). Preliminary POME-NPP-MIXED-POWER-CROSS-THRESHOLD-001 withdrawn as duplicate of Nov 11 [original](reports/2026-11-11-mixed-nonpluripolar-power-sum-threshold.md). +0 fully certified transitive chains; no first-ever visit claim |
 | §13.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §13.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §13.5 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
