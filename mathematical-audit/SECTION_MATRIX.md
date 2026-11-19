@@ -26,6 +26,8 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 
 **2026-11-19 new Chapter 17 rotation:** §17.4 (continuity and compactness) fully read directly; smooth strictly \(\omega_{\rm FS}\)-psh sequences realize every prescribed finite loss of Monge–Ampère energy despite weak convergence of their positive Monge–Ampère measures, with exact atomic Dirichlet-energy concentration. [Proof](reports/2026-11-19-smooth-psh-energy-defect-spectrum.md) · [coverage](coverage/2026-11-19-smooth-psh-energy-defect-spectrum.md). **+1 whole direct section, +0 transitive dependency certifications**; historic first-visit unverified, excluded programme still deferred-by-user.
 
+**2026-11-20 direct section rotation:** All mathematical content of §9.4 (normalization; physical lines 7–199) was freshly reviewed. The new **POME-NORM-NORMAL-LOCUS-LIFTING-001** establishes a unique normal-source lifting through finite normalization when the preimage of the nonnormal locus is nowhere dense, with a nodal constant-disc counterexample to unconditional uniqueness. [Detailed proof](reports/2026-11-20-normal-locus-lifting-through-normalization.md). **+1 whole direct section, +0 fully certified transitive chains; previous §9.4 visits not recounted**. Excluded Demailly and dedicated analytic work remains deferred-by-user.
+
 ## Verified current table-of-contents chapter counts
 
 | Chapter (live TOC) | Sections | Exact numbered range |
@@ -277,7 +279,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §9.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §9.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §9.4 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20**, entire integrated mathematical lines 7–199, [report](reports/2026-11-20-normal-locus-lifting-through-normalization.md); +0 transitive chains, no historic first-visit claim; previous normalization/conductor/gluing findings retained |
 | §9.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.6 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.7 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |

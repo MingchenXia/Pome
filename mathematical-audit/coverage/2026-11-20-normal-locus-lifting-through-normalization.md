@@ -1,0 +1,7 @@
+# 2026-11-20 direct coverage — §9.4 normalization
+
+- Inventory: 25 chapters / 747 numbered sections (current main `b6933b772f41b45918f7e25ed1afbbb1fd892272`; chapter 9 ToC `docs/chapters/complex-spaces/index.html`, blob `81d6dc75c3fab5edc57785cefb0b3537cf57a93d`).
+- **Complete direct mathematical rereading:** §9.4, all physical integrated HTML lines **7–199**, blob `06439f43d1ce8e83d2529682c9a630bffa3d9c22`. Checked Lemmas 9.4.1–2 and 9.4.4–5, Proposition 9.4.3, Theorem 9.4.6, Corollaries 9.4.7/.9, Definition 9.4.8 and Example 9.4.10. This does **not** include navigation/renderer interfaces, or full upstream theorem chains.
+- **New finding:** `POME-NORM-NORMAL-LOCUS-LIFTING-001`, verified conditional deduction, with unique normal-source lifting over dense normal target locus and sharp node uniqueness obstruction. [Report](../reports/2026-11-20-normal-locus-lifting-through-normalization.md).
+- **Historical accounting:** earlier §9.4 selected normalization, conductor, gluing and Tor audits exist. Do **not** label this a first-ever visit or relabel those older findings as new; their unresolved statuses remain unchanged.
+- **Net this run:** +1 complete *directly read* section, +0 entirely certified dependency chains. No new confirmed printed error; no source/body/main/tag/registry/website edits; no build, test, or CI. Demailly regularization and its dedicated Bergman/L²/OT/multiscale/positivity-loss proof programme remain **deferred-by-user**, not resolved/certified.
