@@ -750,7 +750,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §21.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §21.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §21.5 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
-| §21.6 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
+| §21.6 | THIS-RUN-FULL | **2026-11-19:** entire mathematical lines 5–47 freshly checked (blob b3b4e34fff767a717df812a381f905589b257fb3); [full report](reports/2026-11-19-compact-index-convex-envelope-closure.md), [ledger](ledger/2026-11-19-compact-index-convex-envelope-closure.md). Previously partial, +0 first visits; §21.3.3/§21.5.2 and all upstream chains not fully certified |
 | §21.7 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §21.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §21.9 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |

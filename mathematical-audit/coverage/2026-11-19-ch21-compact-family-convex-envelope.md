@@ -1,0 +1,8 @@
+# 2026-11-19 — Chapter 21, §21.6 direct full-section audit delta
+
+- **Main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272` (freshly read).
+- **Direct section:** `docs/sections/convex-analysis-and-toric-potentials--compact-convex-envelopes-and-full-mass-limits/index.html`, blob `b3b4e34fff767a717df812a381f905589b257fb3`; **all mathematical lines 5–47**, both printed Lemmas **21.6.1 and 21.6.2**, proofs and introduction. Tags: `FCDAD9CEC8CE` (source `30FFD831`) and `F2FABB0A312F` (source `55EDF0D7`).
+- **Dependencies inspected selectively, not full direct section checks:** `docs/sections/convex-analysis-and-toric-potentials--legendre-duality-and-convex-envelopes/index.html`, Proposition 21.3.3(2), lines 63–123; `docs/sections/convex-analysis-and-toric-potentials--the-real-monge-ampere-measure/index.html`, Theorem 21.5.2, lines 43–87. Earlier noncompact-envelope / real-MA Wasserstein reports not duplicated.
+- **New stable findings:** `POME-CONVEX-COMPACT-PARAMETER-ENVELOPE-001`, `POME-CONVEX-COUNTABLE-COMPACT-DOMAIN-NONCLOSED-001`. Both **low / verified conditional deduction**; neither changes or refutes a printed lemma. [Proof](../reports/2026-11-19-compact-index-convex-envelope-closure.md) · [classified ledger](../ledger/2026-11-19-compact-index-convex-envelope-closure.md).
+- **Coverage increment:** **+0 first visits** (§21.6 was historically partially inspected); **+1 entire directly reviewed section**; **+0 entire transitive dependency chains certified**.
+- **Inventory:** existing 25-chapter / 747-numbered-section table-of-contents matrix retained. All user-excluded programmes remain **deferred-by-user**. No builds, tests, CI, body/source/main/tag or website edits.

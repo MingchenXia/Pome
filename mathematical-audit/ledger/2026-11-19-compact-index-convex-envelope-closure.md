@@ -1,0 +1,10 @@
+# Classified mathematical-audit ledger — 2026-11-19-compact-index-convex-envelope-closure
+
+**Baseline:** `main` `b6933b772f41b45918f7e25ed1afbbb1fd892272`; integrated §21.6 `b3b4e34fff767a717df812a381f905589b257fb3`; full direct reading lines 5–47. Historical §21.6 partial visits preserved.
+
+| Stable ID | Severity | Status | Location | Evidence / proposed action | Dependents |
+| --- | --- | --- | --- | --- | --- |
+| `POME-CONVEX-COMPACT-PARAMETER-ENVELOPE-001` | low | **verified conditional deduction** | §21.6.1, permanent `FCDAD9CEC8CE`, lines 10–29; §21.3.3(2), `53A9D470F1AC`, lines 63–123 | Common compact spatial domain, **compact metric index and jointly l.s.c. data** imply closed/proper convex envelope, finite-support (at most d+2) attainment, and `H=(sup G_t^*)^*`. Full compactness/Carathéodory proof in [report](../reports/2026-11-19-compact-index-convex-envelope-closure.md). Optional supplement only; original lemma unchanged. | Any prospective parameterized toric envelope; no direct downstream citation asserted |
+| `POME-CONVEX-COUNTABLE-COMPACT-DOMAIN-NONCLOSED-001` | low | **verified conditional deduction** | §21.6.1, `FCDAD9CEC8CE`, lines 10–29 | Closed singleton indicators `G_n=I_{1/n}`, all domains in [0,1], give a nonclosed convex envelope `I_(0,1]` whose biconjugate is `I_[0,1]`. The printed **finite** hypothesis is essential absent extra compact-family compatibility; do not mislabel a false printed theorem. | Prevent unqualified infinite-family use of §21.6.1 |
+
+**No confirmed error, independent proof gap, repair or genuine duplication newly found.** §21.6.2 (tag `F2FABB0A312F`, lines 32–47) directly checked and left intact; its upstream Theorem 21.5.2 remains conditional. Historical noncompact-domain and Wasserstein-boundary findings unchanged. **Coverage:** +0 first visits, +1 entire directly read section, +0 full upstream certifications. User-excluded Demailly regularization/Bergman/L²/OT/multiscale/positivity-loss work remains **deferred-by-user**, not resolved.
