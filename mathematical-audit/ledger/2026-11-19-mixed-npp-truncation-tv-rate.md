@@ -1,0 +1,10 @@
+# POME-NPP-MIXED-TRUNCATION-TV-RATE-001
+
+- **Date:** 2026-11-19. **Status:** verified conditional deduction. **Severity:** low. Not a false printed theorem or proof-gap repair.
+- **Production main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Integrated file:** docs/sections/non-pluripolar-products--truncation-and-plurifine-locality/index.html, blob 81be8c5acc360c96bd3c5acba05a3cdb5fafaf4c; full direct mathematical lines 7–165; anchor Lemma 13.2.2 source/permanent CE1D6DA5/D59675D9F6D8 (35–53), Example 13.2.9 2F8E45A2/6F4C920FEDCA (151–165).
+- **Hypotheses:** 0<a,b<1, R²<min(1-a,1-b), u_c=(|x|²-1)(-log|y|)^c with y=0 pole. Let m=max(a,b), rho<R, T>1.
+- **New:** exact canonical level-k truncation error on K(rho,T), for k>T^m and a+b<1: positive constant times k^{-(1-a-b)/m} in total variation, with complete coefficient. At equality a+b=1 the exact mass is C log k+O(1); above equality it is C k^{(a+b-1)/m}+O(1). Every constant is explicit and positive.
+- **Already known, do NOT re-count:** the a+b<1 integrability threshold, smooth density and finite-mixed/infinite-self example were **fully recorded on 2026-11-11** as POME-NPP-MIXED-POWER-SUM-THRESHOLD-001. Diagonal a=b was recorded on 2026-10-30.
+- **Proposed application, not correction:** quantitative remark for Lemma 13.2.2 and sharp rate limitations for §§13.3/13.5/13.13. Earlier duplicated 2026-11-19 preliminary record POME-NPP-MIXED-POWER-CROSS-THRESHOLD-001 is explicitly withdrawn as a duplicate.
+- **Upstream:** Bedford–Taylor, plurifine, trace bounds and polar-extension fully verified chains remain open. Demailly/Bergman/L²/OT/multiscale/positivity-loss programmes deferred-by-user.
+- **Proof:** [new k-dependent derivation](../reports/2026-11-19-mixed-npp-truncation-tv-rate.md). **Coverage:** [exact whole §13.2](../coverage/2026-11-19-mixed-npp-truncation-tv-rate.md).
