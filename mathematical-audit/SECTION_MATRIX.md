@@ -18,6 +18,8 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 
 **2026-11-19 Chapter 21 new direct rotation:** complete §21.8 directly read; selected §21.9.5 section-basis proof checked. Exact fixed-point jet threshold [report](reports/2026-11-19-toric-fixed-point-jet-edge-threshold.md) and [coverage](coverage/2026-11-19-toric-fixed-point-jet-edge-threshold.md). **+1 whole section, +1 selected partial, +0 completed transitive chains**; deferred-by-user programme unchanged.
 
+**2026-11-19 Chapter 9 broad rotation:** directly read all of §9.18 and found a sharp supporting-half-plane log-boundary inequality, with properness and geodesicity consequences (no false printed claim). [Proof](reports/2026-11-19-convex-kobayashi-boundary-distance-proper-geodesic.md). **+1 whole direct section, +0 certified upstream chains**; previously excluded programme untouched.
+
 ## Verified current table-of-contents chapter counts
 
 | Chapter (live TOC) | Sections | Exact numbered range |
@@ -283,7 +285,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §9.15 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.16 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.17 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §9.18 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §9.18 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-19 `POME-CONVEX-KOBAYASHI-LOG-BOUNDARY-PROPER-GEODESIC-001`:** directly reviewed all §9.18 lines 10–95, new sharp log-boundary-distance/proper-geodesic conditional deduction; [proof](reports/2026-11-19-convex-kobayashi-boundary-distance-proper-geodesic.md), [coverage](coverage/2026-11-19-convex-kobayashi-boundary-distance-proper-geodesic.md); +0 certified upstream chains; historical first visit unreconciled |
 | §9.19 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.20 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.21 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
