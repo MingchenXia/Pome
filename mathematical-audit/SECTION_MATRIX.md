@@ -12,6 +12,8 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 
 **2026-11-19 Chapter 19 new proof audit:** §19.2 now directly checked end-to-end; selected §19.7 Theorem 19.7.20 receives an elementary complete audit-only replacement for the general Kaveh–Khovanskii counting/existence input, including the precise generated-lattice index. The earlier 2026-11-05 conductor is reused, **not rediscovered**. [English proof](reports/2026-11-19-full-semigroup-volume-lattice-index-proof.md). **+1 whole direct section (§19.2), +1 partial section (§19.7), +0 fully certified transitive downstream chains**; historical first visits unreconciled; exclusions deferred-by-user.
 
+**2026-11-19 Chapter 16 contact-support rotation:** §§16.12–16.13 were each directly reviewed in full, including local Radon-order tests, ordered-potential contact comparison, bounded/l.s.c. obstacle replacements, quasi-continuous capacity limit, and finite rooftop. New verified conditional deduction \`POME-ROOFTOP-CONTACT-MEASURE-MEET-001\` removes overlap double counting by a lattice-meet measure on exact Borel contact strata; the printed corollary remains true. [Proof](reports/2026-11-19-rooftop-contact-measure-meet.md). **+2 full direct sections; +0 complete upstream-chain certificates.** Historical first visits remain unreconciled; excluded regularization work remains deferred-by-user.
+
 ## Verified current table-of-contents chapter counts
 
 | Chapter (live TOC) | Sections | Exact numbered range |
@@ -640,8 +642,8 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §16.9 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §16.10 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §16.11 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §16.12 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §16.13 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §16.12 | THIS-RUN-FULL | **2026-11-19:** full current mathematical lines 7–47 (blob c3be9349468d2203c0b67f4bee2be49d1392f8ff); [contact measure report](reports/2026-11-19-rooftop-contact-measure-meet.md). +1 direct full section, no transitive certification; historic first visit unreconciled |
+| §16.13 | THIS-RUN-FULL | **2026-11-19:** full current mathematical lines 7–165 (blob 840ebcb98be09245369315fa0c0288b936040098); prior partial reviews retained. [Measure lattice meet proof](reports/2026-11-19-rooftop-contact-measure-meet.md). +1 direct full section, no transitive certification; historic first visit unreconciled |
 | §16.14 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §16.15 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §16.16 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
