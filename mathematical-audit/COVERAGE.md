@@ -1,3 +1,7 @@
+> **2026-11-20 §7.2 and §7.33 complete direct review, §7.4.4 selected input:** main `b6933b772f41b45918f7e25ed1afbbb1fd892272`, §7.2 lines 5–159, §7.33 lines 5–81. [Exact paths, blobs and tags](coverage/2026-11-20-bt-divisorial-capacity-collapse-and-net-stability.md) · [full mathematical audit](reports/2026-11-20-bt-divisorial-capacity-collapse-and-net-stability.md). Arbitrary-net BT continuity and divisor-base capacity-collapse counterexample are conditional deductions, not source errors. **+2 whole sections, +1 selected input, +0 transitive chains**. Excluded programme deferred-by-user; no software tests or production changes.
+
+---
+
 > **2026-11-20 Chapter 14 direct §§14.8–14.9 rotation:** main b6933b772f41b45918f7e25ed1afbbb1fd892272; current integrated blobs 34526fcac6d5f30e71a98cadc88a4c76817546c4 (§14.8 all mathematical lines 5–70) and a0c390cff1768118798824a64318c416636b9b91 (§14.9 all lines 5–105). [Full source-anchored proof](reports/2026-11-20-ma-scalar-variance-hopf-fiber-hessian.md) · [exact coverage](coverage/2026-11-20-ma-scalar-variance-hopf-fiber-hessian.md) · [matrix](SECTION_MATRIX.md). New non-Kähler trace-free scalar-variance decomposition and Hopf fiber-energy bound; visible repeated 14.9.3 equation tagged separately. Earlier Kähler §14.8 deduction/display duplicate not new. **+2 complete direct section readings, +0 full transitive certifications**, no historical first-visit claim; regularization programme deferred-by-user; no tests/build/CI/main/site changes.
 
 ---

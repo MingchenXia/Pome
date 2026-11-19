@@ -32,6 +32,8 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 
 **2026-11-20 Chapter 8 addition:** full direct §8.2 and §8.12 reading, special `m=2` self-contained Lorentz cone proof and sharp negative coefficient interval. [Dated report](reports/2026-11-20-hessian-two-cone-lorentz-locality.md). **+2 full directly read sections, +0 certified upstream chains.** Earlier partial visits remain; deferred-by-user programme unchanged.
 
+**2026-11-20 broad Bedford–Taylor rotation:** full direct §§7.2 and 7.33, selected §7.4.4 only. Net continuity and a divisorial failure of capacity continuity are [proved here](reports/2026-11-20-bt-divisorial-capacity-collapse-and-net-stability.md). +2 entire sections, +1 selected input, +0 complete upstream chains; no historical first-visit claim. Excluded analytic programmes deferred-by-user.
+
 ## Verified current table-of-contents chapter counts
 
 | Chapter (live TOC) | Sections | Exact numbered range |
@@ -235,7 +237,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §6.55 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §6.56 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §7.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §7.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §7.2 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20 complete direct**, math lines 5–159, blob `18bd2395f3b76941b2c677079c09eb6accc5a9cb`; two new verified conditional deductions ([proof](reports/2026-11-20-bt-divisorial-capacity-collapse-and-net-stability.md)); +0 transitive chains, historical first visit unreconciled |
 | §7.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §7.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §7.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
@@ -266,7 +268,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §7.30 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §7.31 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §7.32 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §7.33 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §7.33 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20 complete direct**, math lines 5–81, blob `a859ac5637379266fa191831656f214c51676ca1`; exact separated product factor confirmed, [coverage](coverage/2026-11-20-bt-divisorial-capacity-collapse-and-net-stability.md); prior findings not recounted, +0 transitive chains |
 | §8.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §8.2 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20 complete direct** lines 6–269, [Lorentz proof](reports/2026-11-20-hessian-two-cone-lorentz-locality.md); previous selected §8.2.5/7 audits preserved; +0 transitive certificates, no first-visit claim |
 | §8.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
