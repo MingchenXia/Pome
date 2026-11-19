@@ -16,6 +16,8 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 
 **2026-11-19 Chapter 22 selected rotation:** Proposition 22.1.39 lines 614–674 was directly checked and strengthened by a background-form equi-Lipschitz bound and arbitrary-family scalar minimax, with a sharp linear example; [new report](reports/2026-11-19-na-background-mass-uniform-lipschitz-minimax.md). +1 selected partial review, +0 whole sections or fully verified chains; prior §22.1 partial visits and deferred exclusions retained.
 
+**2026-11-19 Chapter 21 new direct rotation:** complete §21.8 directly read; selected §21.9.5 section-basis proof checked. Exact fixed-point jet threshold [report](reports/2026-11-19-toric-fixed-point-jet-edge-threshold.md) and [coverage](coverage/2026-11-19-toric-fixed-point-jet-edge-threshold.md). **+1 whole section, +1 selected partial, +0 completed transitive chains**; deferred-by-user programme unchanged.
+
 ## Verified current table-of-contents chapter counts
 
 | Chapter (live TOC) | Sections | Exact numbered range |
@@ -768,8 +770,8 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §21.5 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
 | §21.6 | THIS-RUN-FULL | **2026-11-19:** entire mathematical lines 5–47 freshly checked (blob b3b4e34fff767a717df812a381f905589b257fb3); [full report](reports/2026-11-19-compact-index-convex-envelope-closure.md), [ledger](ledger/2026-11-19-compact-index-convex-envelope-closure.md). Previously partial, +0 first visits; §21.3.3/§21.5.2 and all upstream chains not fully certified |
 | §21.7 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §21.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §21.9 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §21.8 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-19, POME-TORIC-VERTEX-JET-EDGE-THRESHOLD-001**: entire §21.8 lines 5–155; exact torus fixed-point jet threshold, [report](reports/2026-11-19-toric-fixed-point-jet-edge-threshold.md), [coverage](coverage/2026-11-19-toric-fixed-point-jet-edge-threshold.md); +0 certified upstream chains; historical first visit unresolved |
+| §21.9 | CURRENT-PARTIAL; LEGACY-UNRECONCILED | **2026-11-19** selected Theorem 21.9.5 lines 138–167 checked as the lattice-section basis dependency for POME-TORIC-VERTEX-JET-EDGE-THRESHOLD-001; [report](reports/2026-11-19-toric-fixed-point-jet-edge-threshold.md); §21.9 not audited in full |
 | §21.10 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §21.11 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §21.12 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |

@@ -1,0 +1,10 @@
+# 2026-11-19 — smooth toric fixed-point jets ledger
+
+- **ID:** POME-TORIC-VERTEX-JET-EDGE-THRESHOLD-001.
+- **Severity / status:** **low / verified conditional deduction**. No confirmed error, proof gap, duplicate, or completed transitive upstream certification.
+- **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272.
+- **Integrated source anchors:** docs/sections/convex-analysis-and-toric-potentials--smooth-lattice-polytopes-and-projective-charts/index.html, blob f442a7b663689b97a9b89689b8b7ae8b366a53fe, §21.8 entire mathematical lines 5–155. Lemma 21.8.2 source foundations-of-pluripotential-theory:86BADE82 / permanent 41C54729DBFD (24–85); Theorem 21.8.3 source 0F7315B0 / permanent E49F0370E203 (107–155). Selected downstream Theorem 21.9.5 source BD98CC5B / permanent 69D3D97E7701, docs/sections/convex-analysis-and-toric-potentials--fans-divisors-and-character-sections/index.html blob 7ad2e6dbdd0ce59e1bf08cd9cb3c046e8c87ff6c, lines 138–167.
+- **Precise result:** for vertex $v$ with primitive edge lengths $\ell_i$, the $s$-jet map for $L^k$ at its torus fixed point is onto iff $s\le k\min_i\ell_i$; exact rank is the number of lattice monomials of total degree at most $s$ in the vertex coordinates. Full proof in [report](../reports/2026-11-19-toric-fixed-point-jet-edge-threshold.md).
+- **Correction / dependents:** optional new auxiliary corollary near 21.9.5, not a source/body edit. Affects §21.8 vertex charts, very-ampleness, toric fixed-point positivity. The apparent 21.8↔21.9 reference loop has an acyclic substep dependency order; not a confirmed circular proof.
+- **Unresolved:** full transitive verification of §21.2.3, §21.2.9, §10.6 and §21.9.4. No claim about multi-point jets or global normal generation. Dedicated regularization/Bergman/L²/OT/multiscale/positivity-loss programmes remain **deferred-by-user**, not resolved.
+- **Coverage:** +1 fully directly read §21.8, +1 selected §21.9 proof, +0 certified upstream chains, first-visit history unreconciled. [Exact coverage](../coverage/2026-11-19-toric-fixed-point-jet-edge-threshold.md).
