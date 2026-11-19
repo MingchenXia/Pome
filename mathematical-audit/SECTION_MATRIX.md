@@ -20,6 +20,8 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 
 **2026-11-19 Chapter 9 broad rotation:** directly read all of §9.18 and found a sharp supporting-half-plane log-boundary inequality, with properness and geodesicity consequences (no false printed claim). [Proof](reports/2026-11-19-convex-kobayashi-boundary-distance-proper-geodesic.md). **+1 whole direct section, +0 certified upstream chains**; previously excluded programme untouched.
 
+**2026-11-19 Chapter 7 renewed broad direct review:** all of §7.13 read in the current integrated edition, including both Sobolev lemmas and two contact-product propositions. New exact Hall–Rado rank support criterion [proof](reports/2026-11-19-bt-contact-mixed-discriminant-hall-rank.md). **+1 whole section directly reviewed, +0 transitive proof certificates**; earlier partial work retained, no first-ever claim; Demailly and associated exclusions remain deferred-by-user.
+
 ## Verified current table-of-contents chapter counts
 
 | Chapter (live TOC) | Sections | Exact numbered range |
@@ -234,7 +236,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §7.10 | HISTORIC-FULL-REPORTED | See existing dated reports and COVERAGE.md |
 | §7.11 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §7.12 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §7.13 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §7.13 | THIS-RUN-FULL; HISTORIC-PARTIAL-REPORTED | **2026-11-19 / POME-BT-CONTACT-MIXED-DISCRIMINANT-HALL-RANK-001:** complete lines 7–138; [report](reports/2026-11-19-bt-contact-mixed-discriminant-hall-rank.md), [coverage](coverage/2026-11-19-bt-contact-mixed-discriminant-hall-rank.md); prior 2026-11-10 critical-L^n work preserved; +0 certified transitive chains and no first-visit claim |
 | §7.14 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §7.15 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §7.16 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
