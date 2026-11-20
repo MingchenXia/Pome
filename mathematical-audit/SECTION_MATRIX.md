@@ -46,6 +46,8 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 
 **2026-11-20 new Chapter 10 direct rotation:** complete §10.23 (physical mathematical lines 7–49) read and checked; exact flat normal cone for power density and curvature/tube-volume cusp profiles for logarithmic density derived as **POME-CURVE-PRODUCT-NORMAL-CONE-CUSP-PROFILES-001** (low / verified conditional deduction, not a printed error). [Full proof](reports/2026-11-20-curve-product-normal-cone-cusp-profile.md) · [ledger](ledger/2026-11-20-curve-product-normal-cone-cusp-profile.md) · [coverage](coverage/2026-11-20-ch10-curve-product-normal-geometry.md). **+1 direct whole section, +1 selected §10.22 context, +0 transitive certificates; no historic first-visit assertion.** User exclusions remain deferred-by-user.
 
+**2026-11-20 Chapters 15 direct rotation:** complete §15.26 (mathematical lines 7–103) and §15.27 (7–158) checked. **POME-SPHERE-DYADIC-HOLDER-SPECTRUM-001** proves a full spectrum (0<eta<1) of dyadic sphere references with precisely sharp Hölder regularity *for the explicit construction* and controlled Monge–Ampère lower bounds. §15.27's lower-mass/diagonal-density obstruction directly reviewed with no newly confirmed original error. [Proof](reports/2026-11-20-shrinking-sphere-holder-spectrum-and-lower-mass-review.md) · [ledger](ledger/2026-11-20-shrinking-sphere-holder-spectrum-and-lower-mass-review.md) · [coverage](coverage/2026-11-20-shrinking-sphere-holder-spectrum-and-lower-mass-review.md). **+2 whole direct sections, +3 selected prerequisites, +0 full transitive chains**. Earlier findings and deferred-by-user programme preserved.
+
 ## Verified current table-of-contents chapter counts
 
 | Chapter (live TOC) | Sections | Exact numbered range |
@@ -655,8 +657,8 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §15.23 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §15.24 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §15.25 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §15.26 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §15.27 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §15.26 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20**, mathematical lines 7–103, main blob `354dfdf5224fac8896103ec09aa5936351021914`; `POME-SPHERE-DYADIC-HOLDER-SPECTRUM-001` (verified conditional deduction, not printed error), [proof](reports/2026-11-20-shrinking-sphere-holder-spectrum-and-lower-mass-review.md) / [coverage](coverage/2026-11-20-shrinking-sphere-holder-spectrum-and-lower-mass-review.md); no transitive certification or historic first-visit assertion |
+| §15.27 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20**, mathematical lines 7–158, main blob `fc7d4f24f72d9b6ec898eedc961b789e65ef3e25`; lower-mass domination, scalar compactness and diagonal obstruction directly checked, no new printed error; [coverage](coverage/2026-11-20-shrinking-sphere-holder-spectrum-and-lower-mass-review.md), no upstream chain or historic first-visit assertion |
 | §15.28 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §15.29 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §15.30 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
