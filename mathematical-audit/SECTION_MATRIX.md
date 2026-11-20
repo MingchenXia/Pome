@@ -323,11 +323,11 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §9.16 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.17 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.18 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-19 `POME-CONVEX-KOBAYASHI-LOG-BOUNDARY-PROPER-GEODESIC-001`:** directly reviewed all §9.18 lines 10–95, new sharp log-boundary-distance/proper-geodesic conditional deduction; [proof](reports/2026-11-19-convex-kobayashi-boundary-distance-proper-geodesic.md), [coverage](coverage/2026-11-19-convex-kobayashi-boundary-distance-proper-geodesic.md); +0 certified upstream chains; historical first visit unreconciled |
-| §9.19 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §9.19 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20** full mathematical lines 7–37 (blob e078f8041dbae929c9d2076e62a72326622c158d), cylindrical tube and collar proofs; [Ch9 full review](reports/2026-11-20-smooth-fatou-bieberbach-leviflat-boundary.md); historic sharp-radius finding preserved, not repeated |
 | §9.20 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.21 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §9.22 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §9.23 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §9.22 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20** full mathematical lines 7–98 (blob 1279ba00791fa992f753ddd35a63cfc0fa36973f); new verified conditional POME-FB-LEVI-FLAT-JACOBIAN-VOLUME-001 [proof](reports/2026-11-20-smooth-fatou-bieberbach-leviflat-boundary.md); no false printed theorem or transitive certificate |
+| §9.23 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20** full mathematical lines 7–71 (blob 04780d065ee474f3bb3255db297ac435e00485a1), spectral factor Hilbert/Toeplitz proof checked; [coverage](coverage/2026-11-20-ch9-tubes-fatou-bieberbach-spectral-factor.md); earlier order/determinant finding not repeated |
 | §9.24 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.25 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.26 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
