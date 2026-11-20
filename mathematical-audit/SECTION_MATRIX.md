@@ -246,7 +246,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §7.2 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20 complete direct**, math lines 5–159, blob `18bd2395f3b76941b2c677079c09eb6accc5a9cb`; two new verified conditional deductions ([proof](reports/2026-11-20-bt-divisorial-capacity-collapse-and-net-stability.md)); +0 transitive chains, historical first visit unreconciled |
 | §7.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §7.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §7.5 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20 full direct mathematical lines 6–190**, blob `464778b7ca6f1a456e36b24ecb4a0c93ab6948d3`, essential quasi-continuous weight restriction demonstrated by `${fid}` ([report](reports/2026-11-20-bt-discontinuous-weight-hyperplane-concentration.md)); prior §7.5 partial audits preserved, +0 full transitive chains |
+| §7.5 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20 full direct mathematical lines 6–190**, blob `464778b7ca6f1a456e36b24ecb4a0c93ab6948d3`, essential quasi-continuous weight restriction demonstrated by `POME-BT-NONQC-FIXED-WEIGHT-CONCENTRATION-001` ([report](reports/2026-11-20-bt-discontinuous-weight-hyperplane-concentration.md)); prior §7.5 partial audits preserved, +0 full transitive chains |
 | §7.6 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §7.7 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §7.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
