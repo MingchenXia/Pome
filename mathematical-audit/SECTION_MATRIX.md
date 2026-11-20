@@ -4,6 +4,8 @@
 
 Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the current run without whole-section or upstream certification; it can coexist with **LEGACY-UNRECONCILED**. **THIS-RUN-FULL** means the current run directly read every mathematical paragraph of that section, not all its dependencies. **HISTORIC-FULL-REPORTED** and **HISTORIC-PARTIAL-REPORTED** refer only to past recorded audits (see `README.md`, `COVERAGE.md` and dated reports); they are *not* freshly re-certified. **LEGACY-UNRECONCILED** does **not** mean unreviewed: previous partial or full status has not been reconciled from every historical report. No row certifies an entire upstream proof chain. The user-excluded Demailly regularization/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programme stays **deferred-by-user**, *not* resolved or certified; the exclusion is at programme/proof level, not a blanket assertion that every Chapter 6 section is excluded. This matrix retains the older ledgers instead of overwriting their findings.
 
+**2026-11-20 direct Chapters 7 and 20 rotation:** §7.5 and §20.5 newly completed as entire direct readings; §§20.6–20.7 rechecked as already historical-full, not newly counted. `POME-BT-NONQC-FIXED-WEIGHT-CONCENTRATION-001` proves the quasi-continuity hypothesis is essential for fixed-weight Bedford–Taylor convergence; [proof](reports/2026-11-20-bt-discontinuous-weight-hyperplane-concentration.md), [exact scope](coverage/2026-11-20-ch7-capacity-ch20-divisors.md). **+2 newly whole direct sections / 2 repeats / +0 full dependency certifications.** No prior findings repeated; excluded programmes deferred-by-user.
+
 **2026-11-19 further broad rotation:** §11.5 (Gauduchon conserved trace mass) is directly reviewed end-to-end (three printed statements and proofs); verified a sharp square-root anisotropy remainder strengthening Equation 11.5.6, with precise equality and closed/Kähler rigidity. [Full proof](reports/2026-11-19-gauduchon-trace-quantitative-amgm-deficit.md). **+1 whole direct section, +0 fully verified transitive chains;** the legacy first-visit status remains unreconciled. No deferred-by-user analytic programme is reopened.
 
 **2026-11-19 targeted Chapter 20 rotation:** §20.3.44 and a selected downstream use were checked; the sharp Jacobian-step budget and fixed-level ramified multiplier-ideal carry are new *conditional deductions*, not printed errors or a whole-section audit. [Proof](reports/2026-11-19-divisorial-extraction-jacobian-and-ramified-multiplier-ideals.md). +1 selected partial section; +0 full sections / +0 complete dependency chains; earlier rows, 25/747 inventory and deferred exclusions preserved.
@@ -244,7 +246,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §7.2 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20 complete direct**, math lines 5–159, blob `18bd2395f3b76941b2c677079c09eb6accc5a9cb`; two new verified conditional deductions ([proof](reports/2026-11-20-bt-divisorial-capacity-collapse-and-net-stability.md)); +0 transitive chains, historical first visit unreconciled |
 | §7.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §7.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §7.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §7.5 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20 full direct mathematical lines 6–190**, blob `464778b7ca6f1a456e36b24ecb4a0c93ab6948d3`, essential quasi-continuous weight restriction demonstrated by `${fid}` ([report](reports/2026-11-20-bt-discontinuous-weight-hyperplane-concentration.md)); prior §7.5 partial audits preserved, +0 full transitive chains |
 | §7.6 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §7.7 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §7.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
@@ -779,9 +781,9 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §20.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §20.3 | CURRENT-PARTIAL; LEGACY-UNRECONCILED | **2026-11-19:** selected §20.3.44 full local divisor-extraction proof (lines 841–909), and selected §20.3.48 application (lines 938–945); [Jacobian-step bound and multiplier-ideal ramification carry](reports/2026-11-19-divisorial-extraction-jacobian-and-ramified-multiplier-ideals.md), [exact coverage](coverage/2026-11-19-ch20-divisorial-extraction-ramification.md). +0 full sections and upstream-chain certificates; historical first-visit status remains unreconciled |
 | §20.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §20.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §20.6 | HISTORIC-FULL-REPORTED | See existing dated reports and COVERAGE.md |
-| §20.7 | HISTORIC-FULL-REPORTED | See existing dated reports and COVERAGE.md |
+| §20.5 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20 full direct mathematical lines 6–157**, blob `dae567406b2030e550664ca57b1fe77911d956d4`; proper pushforward/logarithm limit/intersection multiplication checked, prior 2026-11-16 partial retained; [coverage](coverage/2026-11-20-ch7-capacity-ch20-divisors.md); +0 complete upstream chains |
+| §20.6 | HISTORIC-FULL-REPORTED; THIS-RUN-FULL-RECHECK | **2026-11-20 repeated full direct lines 7–76**, blob `d4817ac64b1365bd967d42cd474fec169f992e28`; verified cycle sheaves / Cartier obstruction, previously recorded non-Q-Cartier cone not new; [coverage](coverage/2026-11-20-ch7-capacity-ch20-divisors.md); +0 new whole statuses |
+| §20.7 | HISTORIC-FULL-REPORTED; THIS-RUN-FULL-RECHECK | **2026-11-20 repeated full direct lines 7–30**, blob `d0c40d1e3f6f515eb13169ed1cd3fb447ca161c8`; divisor Chern-form sign and frame/cocycle convention checked; [coverage](coverage/2026-11-20-ch7-capacity-ch20-divisors.md); +0 new whole statuses |
 | §20.8 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
 | §21.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §21.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
