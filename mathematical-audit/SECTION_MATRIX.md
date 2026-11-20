@@ -815,7 +815,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §21.11 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §21.12 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §21.13 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §21.14 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §21.14 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20:** full integrated mathematical lines 7–201, blob `0e83de13efbd70dfddc64a8eed40baed2d4359c5`; new `POME-HOPF-DESCENDED-TORIC-MOMENT-PUSHFORWARD-001` (low / verified conditional deduction): smooth toric Hopf descended moment pushforward [proof](reports/2026-11-20-hopf-descended-toric-moment-pushforward.md); selected §19.8.12 normalization, +0 certified upstream chains; earlier §21.14 inverse-subgradient work preserved |
 | §22.1 | CURRENT-PARTIAL; HISTORIC-PARTIAL-REPORTED | **2026-11-19 POME-NA-BACKGROUND-MASS-LIPSCHITZ-MINIMAX-001**: directly audited Def. 22.1.7 (118–123) and Proposition 22.1.39 proof (614–674), with order/supremum context; [uniform Kähler-background mass and arbitrary-family minimax](reports/2026-11-19-na-background-mass-uniform-lipschitz-minimax.md), [coverage](coverage/2026-11-19-na-background-mass-uniform-lipschitz-minimax.md). Existing older partial notes preserved; +0 whole sections and upstream chains; no new first-visit claim |
 | §23.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §23.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
