@@ -702,7 +702,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §17.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §17.6 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §17.7 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
-| §17.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §17.8 | THIS-RUN-FULL; HISTORIC-PARTIAL-REPORTED; LEGACY-UNRECONCILED | **2026-11-20:** §17.8 full direct lines 7–112, blob `8d9b7af925289346c96df751c67049e90c9dfe1d`, POME-GEO-SUBGEODESIC-ENERGY-CURVATURE-001; [proof](reports/2026-11-20-subgeodesic-energy-curvature-measure.md), [exact coverage](coverage/2026-11-20-subgeodesic-energy-curvature-measure.md); earlier selected visits preserved, +0 complete upstream chains |
 | §17.9 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §17.10 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
 | §17.11 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
