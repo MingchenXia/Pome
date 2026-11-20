@@ -1,0 +1,12 @@
+# POME-BT-CONTINUOUS-FUNCTIONAL-WEIGHTS-001
+
+- **Date:** 2026-11-21
+- **Severity / classification:** low / verified conditional deduction; **not** a confirmed printed error, not a repair, not an independently certified upstream theorem.
+- **Baseline:** main `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+- **Target:** `docs/sections/bedford-taylor-products-and-local-capacity--decreasing-continuity-and-symmetry/index.html`, blob `96a9e39e85fab5774ebdac0c6d9d006338a4e42c`, Corollary 7.3.8 lines 234–274, source `foundations-of-pluripotential-theory:45C06B5C`, permanent `8BD7803A393B`; Theorem 7.3.7 lines 134–229, source `8B1F9B78`, permanent `D87C13B3250A`. CLN input Theorem 7.2.5, permanent `2A84C325AB58`, lines 99–117 of `docs/sections/bedford-taylor-products-and-local-capacity--bounded-potentials-and-recursive-products/index.html`.
+- **Result:** for decreasing locally bounded psh approximants to locally bounded limits, replacing polynomial moving weight `P(v_{1,j},...,v_{m,j})` with `F_j(v_{1,j},...,v_{m,j})` preserves weak convergence of weighted mixed Bedford–Taylor products whenever `F` is continuous and `F_j -> F` uniformly on every relevant compact range. No positivity or monotonicity of the weight is required.
+- **Proof:** explicit multivariate Bernstein polynomials uniformly approximate `F` on a bounded box; finite polynomial weighted continuity (Cor 7.3.8) applies; CLN provides a uniform trace-mass bound making the approximation error uniformly `O(sup|F-P|+sup|F_j-F|)`. Full equations, bound, hypotheses, and dependent status: [dated report](../reports/2026-11-21-bt-continuous-functional-weights-and-envelope-net-review.md).
+- **Proposed treatment:** optional reviewable continuous-functional-weight corollary after 7.3.8; preserve old tag and attribution, avoid production edits. It may help later convergence/capacity and contact-set steps. The previously recorded discontinuous-Borel-weight counterexample is retained separately, not counted as a new finding.
+- **Certification limit:** verified **conditional on** printed 7.3.8 and 7.2.5, not a self-contained certificate of those complete proof chains.
+- **Other direct scope:** entire §16.4 lines 7–263, blob `8e6c974a566fdf9d42b6bffbdb67422b7427f655`, no confirmed printed error; [exact coverage](../coverage/2026-11-21-ch7-decreasing-bt-ch16-p-envelopes.md).
+- **Deferred-by-user:** excluded Demailly regularization/approximation, Bergman/L2/OT/multiscale/positivity-loss work remains deferred, not resolved or certified.
