@@ -34,6 +34,8 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 
 **2026-11-20 broad Bedford–Taylor rotation:** full direct §§7.2 and 7.33, selected §7.4.4 only. Net continuity and a divisorial failure of capacity continuity are [proved here](reports/2026-11-20-bt-divisorial-capacity-collapse-and-net-stability.md). +2 entire sections, +1 selected input, +0 complete upstream chains; no historical first-visit claim. Excluded analytic programmes deferred-by-user.
 
+**2026-11-20 Chapter 19 direct rotation:** §19.3 fully reviewed (lines 7–387) with new positive-current blowup valuation \((a,b)\mapsto(a,b-ra)\); §19.10 wholly reread (prior HISTORIC-FULL-REPORTED) without reopening analytic Morse proofs. [Detailed report](reports/2026-11-20-positive-current-flag-blowup-negative-valuations.md). **+1 newly full direct section, 1 repeat whole section, +0 complete upstream chains.** Excluded proof programmes remain deferred-by-user.
+
 ## Verified current table-of-contents chapter counts
 
 | Chapter (live TOC) | Sections | Exact numbered range |
@@ -762,14 +764,14 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §18.47 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §19.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §19.2 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-19, POME-OKO-GENERAL-LATTICE-INDEX-COUNTING-001:** directly read all mathematical lines 7–134; [general graded-lattice volume proof](reports/2026-11-19-full-semigroup-volume-lattice-index-proof.md) and [exact coverage](coverage/2026-11-19-ch19-full-semigroup-counting.md); +0 complete downstream-chain certifications; prior first visit unreconciled |
-| §19.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §19.3 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20 entire mathematical lines 7–387**; [positive-current model valuation](reports/2026-11-20-positive-current-flag-blowup-negative-valuations.md); older partial review retained, +0 full transitive chains |
 | §19.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §19.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §19.6 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §19.7 | CURRENT-PARTIAL; HISTORIC-PARTIAL-REPORTED | **2026-11-19:** directly reviewed Theorem 19.7.20 and selected adjacent lines 299–341, 369–412; audit-only [general counting proof](reports/2026-11-19-full-semigroup-volume-lattice-index-proof.md) builds on previously verified **2026-11-05** interior-conductor proof (not counted anew); rest of §19.7 not fully audited |
 | §19.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §19.9 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §19.10 | HISTORIC-FULL-REPORTED | See existing dated reports and COVERAGE.md |
+| §19.10 | HISTORIC-FULL-REPORTED; THIS-RUN-FULL | **2026-11-20 whole repeat** lines 7–22, conditional Morse proof step; [coverage](coverage/2026-11-20-positive-current-flag-blowup-negative-valuations.md); no newly unique section |
 | §19.11 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §20.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §20.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
