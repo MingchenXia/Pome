@@ -1,17 +1,17 @@
 # Audit: a non-quasi-continuous fixed Borel weight defeats weighted Bedford–Taylor stability
 
-**Date:** 2026-11-20 (Asia/Shanghai). **Baseline main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-**Classification:** \`POME-BT-NONQC-FIXED-WEIGHT-CONCENTRATION-001\` — **low / verified conditional deduction** (a precise counterexample to a *stronger unprinted assertion*, not a false theorem or a proof gap in Pome).
+**Date:** 2026-11-20 (Asia/Shanghai). **Baseline main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+**Classification:** `POME-BT-NONQC-FIXED-WEIGHT-CONCENTRATION-001` — **low / verified conditional deduction** (a precise counterexample to a *stronger unprinted assertion*, not a false theorem or a proof gap in Pome).
 **Scope:** Complete direct mathematical reading of §7.5, and cross-chapter complete direct readings of §§20.5–20.7. The latter two sections already had historical full-review reports; they are not counted as first or newly full reviews. No upstream transitive proof chain is certified.
 
 ## Exact integrated-text anchors
 
-| Section | Current main integrated file under \`docs/sections/\` | Blob SHA | Direct mathematical lines and source/permanent labels |
+| Section | Current main integrated file under `docs/sections/` | Blob SHA | Direct mathematical lines and source/permanent labels |
 | --- | --- | --- | --- |
-| §7.5 | \`bedford-taylor-products-and-local-capacity--quasi-continuity-and-convergence-in-capacity/index.html\` | \`464778b7ca6f1a456e36b24ecb4a0c93ab6948d3\` | 6–190; Theorem 7.5.2 \`foundations-of-pluripotential-theory:CAA09EE2 / C39FEC1AB985\`, Lemma 7.5.7 \`:39398ED2 / 880C30054932\`, Theorem 7.5.8 \`:2B1AA42A / 42828E3BDDFA\` |
-| §20.5 | \`divisors-and-logarithmic-limits-on-analytic-cycles/index.html\` | \`dae567406b2030e550664ca57b1fe77911d956d4\` | 6–157; Lemma 20.5.3 \`demailly-complex-geometry:FF68839A / 323D5DA3E240\`, Theorems 20.5.5 and 20.5.10 \`:D58680EB / F1C928146DBC\`, \`:34D8935D / DDB973C0C1DD\` |
-| §20.6 | \`analytic-cycles-and-cartier-cycles/index.html\` | \`d4817ac64b1365bd967d42cd474fec169f992e28\` | 7–76; Propositions 20.6.3 and 20.6.4 \`demailly-complex-geometry:02B65FA7 / FD8966432506\`, \`:BD1D45B4 / AA96C35C8290\`; Example 20.6.5 \`:E054C396 / 0C462992AB3A\` |
-| §20.7 | \`meromorphic-sections-and-divisor-classes/index.html\` | \`d0c40d1e3f6f515eb13169ed1cd3fb447ca161c8\` | 7–30; Proposition 20.7.3 \`demailly-complex-geometry:00A05C89 / ACC6D09EDDD9\` |
+| §7.5 | `bedford-taylor-products-and-local-capacity--quasi-continuity-and-convergence-in-capacity/index.html` | `464778b7ca6f1a456e36b24ecb4a0c93ab6948d3` | 6–190; Theorem 7.5.2 `foundations-of-pluripotential-theory:CAA09EE2 / C39FEC1AB985`, Lemma 7.5.7 `:39398ED2 / 880C30054932`, Theorem 7.5.8 `:2B1AA42A / 42828E3BDDFA` |
+| §20.5 | `divisors-and-logarithmic-limits-on-analytic-cycles/index.html` | `dae567406b2030e550664ca57b1fe77911d956d4` | 6–157; Lemma 20.5.3 `demailly-complex-geometry:FF68839A / 323D5DA3E240`, Theorems 20.5.5 and 20.5.10 `:D58680EB / F1C928146DBC`, `:34D8935D / DDB973C0C1DD` |
+| §20.6 | `analytic-cycles-and-cartier-cycles/index.html` | `d4817ac64b1365bd967d42cd474fec169f992e28` | 7–76; Propositions 20.6.3 and 20.6.4 `demailly-complex-geometry:02B65FA7 / FD8966432506`, `:BD1D45B4 / AA96C35C8290`; Example 20.6.5 `:E054C396 / 0C462992AB3A` |
+| §20.7 | `meromorphic-sections-and-divisor-classes/index.html` | `d0c40d1e3f6f515eb13169ed1cd3fb447ca161c8` | 7–30; Proposition 20.7.3 `demailly-complex-geometry:00A05C89 / ACC6D09EDDD9` |
 
 The chapter/section paths and their current placement were checked against the actual Chapter 7 and Chapter 20 published tables of contents, not against source-book numbering.
 
@@ -70,7 +70,7 @@ Letting \(\eta\downarrow0\) is impossible. Thus non-quasi-continuity is establis
 
 - **§7.5:** Verified the two-stage local capacity regularization argument and the exhaustion in Theorem 7.5.2; the compact-extension proof; the outer-capacity localization of Lemma 7.5.4; the distinction between local capacity and global \(\operatorname{Cap}_D\); the compact-local \(L^1\) estimate for nets; the multinomial coefficient \(n^{-n}n!(n-q)^{n-q}/(n-q)!\) in the mixed measure domination; and the weighted convergence induction. No false printed theorem was established. The local capacity comparison and Hartogs compactness inputs were inspected as *cited dependencies*, not fully re-proved here.
 - **§20.5:** Checked the proper pushforward sheet-count lemma, the codimension-zero exclusion, \(\log|f_j|^2\) convergence using resolution and compact mass bounds, the zero-cycle case, and the proper-intersection induction yielding positive integer multiplicities. The normalization \(dd^c\log|f|^2=[\mathrm{Div}(f)]\) is consistent. Remmert and resolution remain explicitly documented upstream inputs; Hironaka resolution is permitted. §7.28 and §7.31 are unverified transitive symmetry prerequisites.
-- **§20.6:** Checked the gluing/stalk description of cycle sheaves, generic Weil orders with singular locus of codimension at least two, and the weight contradiction on the rank-one quadric. The *already recorded* 2026-11-18 non-\(\mathbb Q\)-Cartier strengthening \`POME-CARTIER-QUADRIC-NON-Q-CARTIER-001\` was not counted again.
+- **§20.6:** Checked the gluing/stalk description of cycle sheaves, generic Weil orders with singular locus of codimension at least two, and the weight contradiction on the rank-one quadric. The *already recorded* 2026-11-18 non-\(\mathbb Q\)-Cartier strengthening `POME-CARTIER-QUADRIC-NON-Q-CARTIER-001` was not counted again.
 - **§20.7:** Checked the sign in \(dd^c\log|s|_h^2=[\mathrm{div}s]-c_1(L,h)\), the frame convention for \(\mathcal O(D)\), the inverse ratio in coefficient versus frame transitions, and the divisor connecting map. No change to these printed claims is proposed.
 
 No mathematical duplication, incompatibility of permanent tags, or other confirmed error was established in these four direct readings. **Do not confuse this with complete certification of all upstream references.**
