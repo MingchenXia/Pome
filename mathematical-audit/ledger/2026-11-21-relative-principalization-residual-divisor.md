@@ -1,0 +1,13 @@
+# POME-RELPRINC-RESIDUAL-DIVISOR-NONEXCEPTIONAL-001
+
+- **Date / branch:** 2026-11-21; `review/mathematical-audit`.
+- **Baseline main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+- **Severity/status:** **low / confirmed error in an ancillary proof statement**, **not a false theorem**. A narrowly scoped replacement sentence is a **verified local repair**, conditional on the accepted Hironaka principalization input; no broader proof-chain certification.
+- **Target:** `docs/sections/complex-spaces-and-modifications--proper-images-and-relative-principalization/index.html`, blob `b44fe157b8c01363da7799990b8ef6ed82525553`, Theorem 9.7.5 permanent `689628C7AF7F`, source `foundations-of-pluripotential-theory:1524D010`, proof Step 3 **physical line 120**; compare Theorem 9.6.7 (source `B74A86AD`, permanent `24330D25741D`, docs/sections/complex-spaces-and-modifications--blowups-and-resolution/index.html, lines 91–107).
+- **False sentence:** the residual principalization divisor (H') is asserted to be supported on (g)-exceptional divisors. This need not hold for original Cartier divisor components disjoint from (W_t).
+- **Counterexample:** (M=mathbb P^2), (W={p}), (L) a projective line not through (p), (mathfrak a=mathcal I_L=mathcal O(-L)). Then (mathfrak amathcal O_W=mathcal O_W); one Cartier blowup is isomorphic to the identity and has (H'=L), a nonexceptional divisor. All three formulas (9.7.6)–(9.7.8) and the printed theorem's required disjointness hold.
+- **Proposed verified correction:** replace the unsupported exceptional claim with (operatorname{Supp}H'=g^{-1}(V(mathfrak a_t))), disjoint from (W'=g^{-1}(W_t)), since (mathfrak a_t) is the unit ideal around (W_t). Step 4 separately proves (H) exceptional for (f). No change to printed theorem or permanent tags.
+- **Affected dependents:** local Step 3 explanation; any later assertion requiring (H') to be exceptional must be revisited. Such a downstream misuse has **not** yet been shown.
+- **Other actual scope:** whole §7.6, blob `5e763bdc928794938c37dc3c7a51cc406472d076`, lines 7–80, source 7.6.1 `36787F42` / permanent `A4C45B704647`, and 7.6.2 `2ACED3F4` / `D865A8538D7D`; no new confirmed printed error. Selected §9.6.7 only; no complete upstream-chain certification.
+- **Detailed proof, limitation and status separation:** [dated report](../reports/2026-11-21-relative-principalization-residual-divisor-and-increasing-bt.md) · [coverage](../coverage/2026-11-21-ch7-increasing-bt-ch9-relative-principalization.md).
+- **Deferred-by-user (unchanged):** excluded Demailly regularization, Bergman, L2, Ohsawa–Takegoshi, multiscale-atlas, positivity-loss work.
