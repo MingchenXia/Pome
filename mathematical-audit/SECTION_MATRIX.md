@@ -70,6 +70,8 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 
 **2026-11-19 incremental rotation:** §4.5 selected direct review only (Theorems 4.5.2/4/6 and Example 4.5.5), +0 whole sections, +0 transitive proofs. See [dated proof](reports/2026-11-19-nested-compact-balayage-energy-continuity.md). The matrix is not a certification of the entire collection.
 
+**2026-11-20 whole direct Chapter 4 rotation:** §4.3 mathematical lines 7–131 directly read, with an independent dense-polar-set / G_delta pole-locus Baire obstruction (POME-CLASS-DENSE-POLAR-GDELTA-OBSTRUCTION-001). All original printed statements remain unrefuted; [proof](reports/2026-11-20-classical-dense-polar-gdelta-obstruction.md), [exact coverage](coverage/2026-11-20-ch4-dense-polar-gdelta-obstruction.md). **+1 direct whole section, +0 complete upstream chains, no first-ever visit claim.** Earlier §4.3 partial reports remain; user-excluded Demailly-related programmes stay deferred-by-user.
+
 ## Per-section status register (all 747 numbers)
 
 These numbers come from the contiguous reader numbering on the individual current chapter index pages. Titles and permanent tags are resolved from the linked chapter/section pages; important new line/tag anchors are recorded in the dated report. Treat a status of LEGACY-UNRECONCILED as **unknown coverage**, not proof that a section has never been visited.
@@ -113,7 +115,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §3.10 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §4.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §4.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §4.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §4.3 | THIS-RUN-FULL; HISTORIC-PARTIAL-REPORTED; LEGACY-UNRECONCILED | **2026-11-20: complete §4.3 mathematical lines 7–131**, blob aa814f26482e8ed27e51c945e9202c797449158b; new conditional deduction **POME-CLASS-DENSE-POLAR-GDELTA-OBSTRUCTION-001** (arbitrary polar containment does not imply exact poles); [proof](reports/2026-11-20-classical-dense-polar-gdelta-obstruction.md), [scope](coverage/2026-11-20-ch4-dense-polar-gdelta-obstruction.md). No printed theorem refuted, no fully certified upstream chains, no first-ever visit claim; previous §4.3 partial reports retained |
 | §4.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §4.5 | CURRENT-PARTIAL; LEGACY-UNRECONCILED | **2026-11-19, POME-CLASSICAL-NESTED-COMPACT-SWEEP-ENERGY-001:** directly checked Theorems 4.5.2, 4.5.4, 4.5.6 and Example 4.5.5, printed lines 17–88; [new energy-sweep result](reports/2026-11-19-nested-compact-balayage-energy-continuity.md), [coverage](coverage/2026-11-19-ch4-nested-compact-green-sweeping.md); Martin items 4.5.8–13 and upstream chains not certified; prior history remains unreconciled |
 | §5.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
