@@ -42,6 +42,8 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 
 **2026-11-20 Chapter 19 direct rotation:** §19.3 fully reviewed (lines 7–387) with new positive-current blowup valuation \((a,b)\mapsto(a,b-ra)\); §19.10 wholly reread (prior HISTORIC-FULL-REPORTED) without reopening analytic Morse proofs. [Detailed report](reports/2026-11-20-positive-current-flag-blowup-negative-valuations.md). **+1 newly full direct section, 1 repeat whole section, +0 complete upstream chains.** Excluded proof programmes remain deferred-by-user.
 
+**2026-11-20 new Chapter 10 direct rotation:** complete §10.23 (physical mathematical lines 7–49) read and checked; exact flat normal cone for power density and curvature/tube-volume cusp profiles for logarithmic density derived as **POME-CURVE-PRODUCT-NORMAL-CONE-CUSP-PROFILES-001** (low / verified conditional deduction, not a printed error). [Full proof](reports/2026-11-20-curve-product-normal-cone-cusp-profile.md) · [ledger](ledger/2026-11-20-curve-product-normal-cone-cusp-profile.md) · [coverage](coverage/2026-11-20-ch10-curve-product-normal-geometry.md). **+1 direct whole section, +1 selected §10.22 context, +0 transitive certificates; no historic first-visit assertion.** User exclusions remain deferred-by-user.
+
 ## Verified current table-of-contents chapter counts
 
 | Chapter (live TOC) | Sections | Exact numbered range |
@@ -393,7 +395,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §10.20 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.21 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.22 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.23 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §10.23 | THIS-RUN-FULL | 2026-11-20 exact full §10.23 lines 7–49; cone/cusp proof report; previous historical visits not reconciled |
 | §10.24 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.25 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.26 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
