@@ -1,10 +1,10 @@
 # Arbitrary directed-net stability for non-pluripolar products; direct §17.9 review
-**Date:** 2026-11-20. **Reviewed production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+**Date:** 2026-11-20. **Reviewed production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 
 ## Direct scope and anchors
 
-- All mathematical lines **7–209** of §13.7, \`docs/sections/non-pluripolar-products--capacity-convergence-and-loss-of-mass/index.html\`, blob \`d66813856cb813722806ab912afdfd4815d2da97\`. Source \`foundations-of-pluripotential-theory\`. Lemma 13.7.3: source \`4720F1AB\`, permanent \`274B700496A8\`, lines 42–67. Lemma 13.7.4: source \`FE9C8C30\`, permanent \`88D1663D1111\`, lines 75–102. Theorem 13.7.5: source \`AB4EBE3B\`, permanent \`67C4F7EC316E\`, lines 107–134. Proposition 13.7.8: source \`8CF7A9C6\`, permanent \`4B60F7F33590\`, lines 148–171. Corollary 13.7.9: source \`82DB3E57\`, permanent \`D73416504271\`, lines 176–209.
-- All mathematical lines **7–75** of §17.9, \`docs/sections/relative-energy-and-perron-segments--extremal-slopes-and-long-perron-segments/index.html\`, blob \`023e78b3da0fd8f33d39177dba02f410b10f376c\`. Proposition 17.9.1: source \`foundations-of-pluripotential-theory:58E4D688\`, permanent \`0583958ACA6D\`, lines 11–26. Proposition 17.9.2: source \`:2B4D191D\`, permanent \`A6533ED6CC68\`, lines 34–75.
+- All mathematical lines **7–209** of §13.7, `docs/sections/non-pluripolar-products--capacity-convergence-and-loss-of-mass/index.html`, blob `d66813856cb813722806ab912afdfd4815d2da97`. Source `foundations-of-pluripotential-theory`. Lemma 13.7.3: source `4720F1AB`, permanent `274B700496A8`, lines 42–67. Lemma 13.7.4: source `FE9C8C30`, permanent `88D1663D1111`, lines 75–102. Theorem 13.7.5: source `AB4EBE3B`, permanent `67C4F7EC316E`, lines 107–134. Proposition 13.7.8: source `8CF7A9C6`, permanent `4B60F7F33590`, lines 148–171. Corollary 13.7.9: source `82DB3E57`, permanent `D73416504271`, lines 176–209.
+- All mathematical lines **7–75** of §17.9, `docs/sections/relative-energy-and-perron-segments--extremal-slopes-and-long-perron-segments/index.html`, blob `023e78b3da0fd8f33d39177dba02f410b10f376c`. Proposition 17.9.1: source `foundations-of-pluripotential-theory:58E4D688`, permanent `0583958ACA6D`, lines 11–26. Proposition 17.9.2: source `:2B4D191D`, permanent `A6533ED6CC68`, lines 34–75.
 
 ## POME-NPP-CAPACITY-DIRECTED-NET-WEIGHTED-001
 
