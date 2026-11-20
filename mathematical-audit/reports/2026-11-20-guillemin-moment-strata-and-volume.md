@@ -1,18 +1,18 @@
 # Chapter 21.10: Guillemin metric, orbit strata, and its moment-volume measure
 
-Date: 2026-11-20. **Production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
-**Audit classification:** \`POME-TORIC-GUILLEMIN-MOMENT-STRATA-DH-001\` — **low / verified conditional deduction**, **not** a false printed theorem, not a completed independent certification of its upstream toric-geometry chain. No proof/body/canonical-entry changes are proposed on \`main\`.
+Date: 2026-11-20. **Production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+**Audit classification:** `POME-TORIC-GUILLEMIN-MOMENT-STRATA-DH-001` — **low / verified conditional deduction**, **not** a false printed theorem, not a completed independent certification of its upstream toric-geometry chain. No proof/body/canonical-entry changes are proposed on `main`.
 
 ## Exact directly reviewed text
 
-- Integrated reading edition: \`docs/sections/convex-analysis-and-toric-potentials--the-guillemin-reference-metric/index.html\`, blob \`4458eef6df84ef46d601d39506017387ed292e08\`. Read **all mathematical physical lines 7–90** (the surrounding section/title/proof markup lies on lines 5–92).
-- §21.10 section source \`foundations-of-pluripotential-theory:6A8ECAB3\`, permanent \`256A3051D9FC\`; Theorem **21.10.1**, source \`foundations-of-pluripotential-theory:E94A20D6\`, permanent \`B471B994CE64\`, statement lines 10–20, proof Steps 1–5 lines 24–90.
-- Selected, **not entire-section**, upstream cross-checks: Delzant vertex coordinates Lemma 21.8.2(4), source \`86BADE82\`, permanent \`41C54729DBFD\`; orbit/face chart Proposition 21.9.2, source \`86CCC496\`, permanent \`7B4A7CC50CDC\`; real/complex Monge–Ampère comparison Proposition 21.12.24, source \`sgpt:D3D075B2\`, permanent \`725063C1ED05\`, and displayed Equation 21.12.25, source \`sgpt:C605E8F4\`, permanent \`C2BF3D2E88B4\`, in \`docs/sections/toric-pluripotential-theory-on-ample-line-bundles/index.html\` at approximately lines 466–490. These checks were **selected only**. 
+- Integrated reading edition: `docs/sections/convex-analysis-and-toric-potentials--the-guillemin-reference-metric/index.html`, blob `4458eef6df84ef46d601d39506017387ed292e08`. Read **all mathematical physical lines 7–90** (the surrounding section/title/proof markup lies on lines 5–92).
+- §21.10 section source `foundations-of-pluripotential-theory:6A8ECAB3`, permanent `256A3051D9FC`; Theorem **21.10.1**, source `foundations-of-pluripotential-theory:E94A20D6`, permanent `B471B994CE64`, statement lines 10–20, proof Steps 1–5 lines 24–90.
+- Selected, **not entire-section**, upstream cross-checks: Delzant vertex coordinates Lemma 21.8.2(4), source `86BADE82`, permanent `41C54729DBFD`; orbit/face chart Proposition 21.9.2, source `86CCC496`, permanent `7B4A7CC50CDC`; real/complex Monge–Ampère comparison Proposition 21.12.24, source `sgpt:D3D075B2`, permanent `725063C1ED05`, and displayed Equation 21.12.25, source `sgpt:C605E8F4`, permanent `C2BF3D2E88B4`, in `docs/sections/toric-pluripotential-theory-on-ample-line-bundles/index.html` at approximately lines 466–490. These checks were **selected only**. 
 - Inventory scope: one **entire direct** §21.10 reading; three selected upstream/downstream statement checks, **zero** transitive proof-chain certifications. Earlier audit records were not reclassified as first visits.
 
 ## Review of the printed theorem and proof
 
-The printed theorem fixes a full-dimensional smooth lattice polytope \`P\`, its affine facet distances \(\ell_\rho\), the entropy function
+The printed theorem fixes a full-dimensional smooth lattice polytope `P`, its affine facet distances \(\ell_\rho\), the entropy function
 \[
 G_0(m)=\sum_{\rho}\ell_\rho(m)\log\ell_\rho(m),\qquad
 G_0=+\infty\ \hbox{off }P,
