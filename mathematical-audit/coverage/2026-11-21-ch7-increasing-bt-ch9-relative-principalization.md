@@ -1,15 +1,13 @@
-# 2026-11-21: Chapter 7 and Chapter 9 coverage accounting
+# 2026-11-21: complete §7.6 and selected relative principalization
 
-Main snapshot `b6933b772f41b45918f7e25ed1afbbb1fd892272`. This is direct reading coverage, **not** transitive proof certification.
+**Baseline main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Coverage, not full mathematical certification.**
 
-| Current ToC row | Actual work | Physical file/lines | Assessment |
-| --- | --- | --- | --- |
-| §7.6 Increasing limits and exceptional envelopes | **FULL direct mathematical section**, statements and proofs 7.6.1–7.6.2 | `docs/sections/bedford-taylor-products-and-local-capacity--increasing-limits-and-exceptional-envelopes/index.html`, blob `5e763bdc928794938c37dc3c7a51cc406472d076`, **7–80** | Monotone weak products, fixed quasi-continuous weights, collar/trace argument, local capacity, countable exceptional envelope checked. No newly confirmed printed error; cited inputs not transitively verified |
-| §9.7 Proper images and relative principalization | **PARTIAL only**, entire 9.7.5 proof | `docs/sections/complex-spaces-and-modifications--proper-images-and-relative-principalization/index.html`, blob `b44fe157b8c01363da7799990b8ef6ed82525553`, **89–127**; Step 3 line **120** | POME-RELPRINC-RESIDUAL-DIVISOR-NONEXCEPTIONAL-001, a false *proof-only* extra claim; theorem itself valid. §9.7.1–9.7.4 not fully read |
-| §9.6 Blowups and resolution | **SELECTED premise**, Theorem 9.6.7 and its divisor explanation | `docs/sections/complex-spaces-and-modifications--blowups-and-resolution/index.html`, blob `f452f4b1abe5cdfe348ae11fcd934febcfdd570b`, **91–107** | Principalization allowed as an external Hironaka premise; its proof not certified |
+| Actual current ToC section | Direct reading | Exact file and physical lines |
+| --- | --- | --- |
+| §7.6 Increasing limits and exceptional envelopes | **Entire mathematical section**, both printed statements and proofs, no newly confirmed printed error; conditional on cited BT/quasi-continuity and capacity lemmas | docs/sections/bedford-taylor-products-and-local-capacity--increasing-limits-and-exceptional-envelopes/index.html; blob 5e763bdc928794938c37dc3c7a51cc406472d076; lines **7–80**; theorem permanent A4C45B704647; corollary permanent D865A8538D7D |
+| §9.7 Proper images and relative principalization | **Selected Theorem 9.7.5 and full proof only**, confirmed proof-only extra claim false, not a false theorem; Remmert statements not read fully | docs/sections/complex-spaces-and-modifications--proper-images-and-relative-principalization/index.html; blob b44fe157b8c01363da7799990b8ef6ed82525553; lines **89–127**, line **120**; permanent 689628C7AF7F |
+| §9.6 Blowups and resolution | **Selected Theorem 9.6.7 and divisor explanation**, Hironaka principalization is an admitted external premise | docs/sections/complex-spaces-and-modifications--blowups-and-resolution/index.html; blob f452f4b1abe5cdfe348ae11fcd934febcfdd570b; lines **91–107**; permanent 24330D25741D |
 
-**Coverage delta:** +1 complete directly read section, +1 selected theorem/proof section, +1 selected reference section; **+0 independently verified complete upstream proof chains**. All 747 current ToC section rows and prior reports stay in force, with LEGACY-UNRECONCILED history preserved. Do not count previously visited rows as new first visits.
+**Confirmed finding:** [POME-RELPRINC-RESIDUAL-DIVISOR-NONEXCEPTIONAL-001](../reports/2026-11-21-relative-principalization-residual-divisor-and-increasing-bt.md) demonstrates that \(H'\) may be nonexceptional, while \(H'\cap W'=\varnothing\) still holds. Suggested correction affects only the sentence in Step 3, not the truth of Theorem 9.7.5. See [finding ledger](../ledger/2026-11-21-relative-principalization-residual-divisor.md).
 
-**Finding:** [POME-RELPRINC-RESIDUAL-DIVISOR-NONEXCEPTIONAL-001](../reports/2026-11-21-relative-principalization-residual-divisor-and-increasing-bt.md) is a confirmed, concrete error in a proof sentence, repaired by restricting it to disjointness of (H'), not a counterexample to Theorem 9.7.5. Deferred-by-user Demailly/Bergman/L2/OT/multiscale/positivity-loss programme remains deferred and not certified.
-
-No tests, build, CI, website publication or non-audit modifications.
+**Precisely added work:** +1 full directly read section, +1 selected theorem section, +1 selected input section, **+0 transitive full-proof certifications**. Prior LEGACY-UNRECONCILED records and all 747 current ToC rows preserved; no claim of historic first visit. No builds/tests/CI/site publication or edits outside mathematical-audit. Excluded Demailly/Bergman/L2/OT/multiscale/positivity-loss programme remains deferred-by-user.
