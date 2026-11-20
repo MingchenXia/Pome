@@ -1,11 +1,41 @@
-# 2026-11-20 Chapter 15 sphere reference and lower-mass classification
+# 2026-11-20: Chapter 15 dyadic sphere reference ledger
 
-- **ID:** `POME-SPHERE-DYADIC-HOLDER-SPECTRUM-001`.
-- **Status/severity:** **verified conditional deduction / low**. Not a confirmed error, not a full proof-chain certification.
-- **Main SHA:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
-- **Exact anchors:** `docs/sections/equations-with-prescribed-singularities--singular-measures-on-shrinking-spheres/index.html` (blob `354dfdf5224fac8896103ec09aa5936351021914`, lines 27–65; source label `non-kahler-pluripotential-theory-92442012`, permanent `8F3C95237950`); local spherical input `docs/sections/plurisubharmonic-functions-and-singularities--local-products-and-capacity/index.html` lines 516–539, permanent `3242D4BA1F13`.
-- **Hypotheses and verified content:** compact Hermitian `(X,h)`, `n>=2`, dyadic spheres `r_j=r0 2^-j`, `0<beta<1`, the same globally bounded cutoff potentials with `dd^c psi_j >= -K h`. For `d_j=r_j^beta/(2K sum r_i^beta)`, the explicit series has `C^{0,beta}` but no `C^{0,gamma}` for any `gamma>beta` at the center; it dominates `(S_{n,beta}/Z_beta^n) rho_beta`. The exact dyadic jump coefficient is `(2 log 2/Z_beta) [2^-beta/(1-2^-beta)^2]`. Full verification in [the English report](../reports/2026-11-20-shrinking-sphere-holder-spectrum-and-lower-mass-review.md).
-- **Correction/dependents:** optional clarifying remark to Proposition 15.26.2, with conditional applications to its Corollary 15.26.3 and Theorem 15.26.4; do **not** change existing source/body/tags. This is **not** a claim of optimal regularity among all reference potentials for a fixed measure.
-- **Additional actual coverage without new finding:** direct complete §15.27 lines 7–158 (blob `fc7d4f24f72d9b6ec898eedc961b789e65ef3e25`; theorem source `non-kahler-pluripotential-theory-59B533D4`/permanent `C7AA7377C144`); scalar domination, (L^p) stability, zero-lower-mass obstruction and density statements checked without finding new printed errors. Selected Lemma 5.27.25 and statements of 15.25.1/15.10.1 only.
-- **Outstanding dependencies:** full proofs of 15.2.2, 12.15.4, 12.2.3, 14.19.19/.21, 15.37.4, 15.25.1 and 15.10.1 not newly certified. User-deferred approximation programme **deferred-by-user**, never resolved/certified.
-- **Coverage accounting:** +2 whole direct sections on the current main; +3 selected prerequisites; +0 fully certified transitive upstream chains. Historical first-visit status unreconciled. Audit Markdown only, no CI/tests/build/source or publication writes.
+**Finding ID POME-SPHERE-DYADIC-HOLDER-SPECTRUM-001** — **low / verified conditional deduction**, not a printed theorem error.
+
+**Baseline:** main b6933b772f41b45918f7e25ed1afbbb1fd892272.
+**Anchor:** docs/sections/equations-with-prescribed-singularities--singular-measures-on-shrinking-spheres/index.html,
+blob 354dfdf5224fac8896103ec09aa5936351021914,
+Proposition 15.26.2 lines 27–65, source label
+non-kahler-pluripotential-theory-92442012, permanent 8F3C95237950.
+Spherical input Lemma 5.27.25, lines 516–539, permanent 3242D4BA1F13.
+
+**Exact conditional deduction.** On compact Hermitian \((X,h)\), \(n\ge2\),
+with the fixed global cutoff potentials and dyadic radii
+\(r_j=r_0 2^{-j}\), each \(0<\beta<1\) gives
+\[
+Z_\beta=2K\sum_jr_j^\beta,\quad
+u_\beta=\sum_j(r_j^\beta/Z_\beta)\psi_j-\sup_X(\cdots),\quad
+\rho_\beta=(\sum_j r_j^{n\beta})^{-1}\sum_jr_j^{n\beta}\sigma_j
+\]
+and \(u_\beta\in C^{0,\beta}\), \(\mathrm{MA}_h(u_\beta)\ge
+(\sum_jr_j^{n\beta}/Z_\beta^n)\rho_\beta\), while
+\[
+u_\beta(r_ke)-u_\beta(0)
+=\frac{2\log2}{Z_\beta}\frac{2^{-\beta}}
+{(1-2^{-\beta})^2}r_k^\beta.
+\]
+This is optimal **only for this explicit potential**, not
+a universal optimum for the fixed measure.
+
+**Proposed correction:** optional explanatory remark, not direct edit.
+**Dependents:** conditional reference variants in §15.26.3/.4.
+**Other direct coverage:** full mathematical §15.27 lines 7–158,
+blob fc7d4f24f72d9b6ec898eedc961b789e65ef3e25,
+Theorem 15.27.3 source label non-kahler-pluripotential-theory-59B533D4,
+permanent C7AA7377C144; no new confirmed printed error.
+**Dependencies still open:** full proof chains for 15.2.2,
+12.15.4, 12.2.3, 14.19.19/.21, 15.37.4, 15.25.1, 15.10.1.
+**Count:** +2 whole sections, +3 selected premises, +0
+transitive proof-chain certifications, no historic-first claim.
+**Deferred-by-user** analytic programmes preserved as deferred.
+[Full proof](../reports/2026-11-20-shrinking-sphere-holder-spectrum-and-lower-mass-review.md).
