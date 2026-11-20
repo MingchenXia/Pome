@@ -74,6 +74,8 @@ Statuses: **CURRENT-PARTIAL** means a named result/proof was checked in the curr
 
 **2026-11-20 whole direct Chapter 4 rotation:** §4.3 mathematical lines 7–131 directly read, with an independent dense-polar-set / G_delta pole-locus Baire obstruction (POME-CLASS-DENSE-POLAR-GDELTA-OBSTRUCTION-001). All original printed statements remain unrefuted; [proof](reports/2026-11-20-classical-dense-polar-gdelta-obstruction.md), [exact coverage](coverage/2026-11-20-ch4-dense-polar-gdelta-obstruction.md). **+1 direct whole section, +0 complete upstream chains, no first-ever visit claim.** Earlier §4.3 partial reports remain; user-excluded Demailly-related programmes stay deferred-by-user.
 
+**2026-11-20 rotation:** entire §§13.7 and 17.9 read directly, with a non-pluripolar extended-capacity and quasi-continuously weighted **directed-net** stability deduction, [proof](reports/2026-11-20-npp-directed-capacity-nets-and-long-segment-review.md). §17.9 yielded no new finding. **+2 entire directly read sections / +0 transitive proof certificates; historical first visits unreconciled.** User-excluded regularization programmes deferred-by-user.
+
 ## Per-section status register (all 747 numbers)
 
 These numbers come from the contiguous reader numbering on the individual current chapter index pages. Titles and permanent tags are resolved from the linked chapter/section pages; important new line/tag anchors are recorded in the dated report. Treat a status of LEGACY-UNRECONCILED as **unknown coverage**, not proof that a section has never been visited.
@@ -565,7 +567,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §13.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §13.5 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
 | §13.6 | THIS-RUN-FULL; HISTORIC-PARTIAL-REPORTED | **2026-11-20** full direct mathematical lines 7–57, tags `BEC54934FC2C` / `0811FFDF15B7`; new divisorial NPP invariance and cohomological discrepancy [proof](reports/2026-11-20-analytic-set-excision-and-divisorial-npp-mass.md). Earlier partial visits retained; no upstream-chain certificate |
-| §13.7 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §13.7 | THIS-RUN-FULL; HISTORIC-PARTIAL-REPORTED; LEGACY-UNRECONCILED | **2026-11-20** whole direct lines 7–209, main blob `d66813856cb813722806ab912afdfd4815d2da97`, new verified conditional `POME-NPP-CAPACITY-DIRECTED-NET-WEIGHTED-001` ([full proof](reports/2026-11-20-npp-directed-capacity-nets-and-long-segment-review.md); [coverage](coverage/2026-11-20-ch13-directed-capacity-nets-ch17-long-segments.md)); no printed error or full transitive certificate; previous partial reports retained, no first-visit assertion |
 | §13.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §13.9 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §13.10 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
@@ -709,7 +711,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §17.6 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §17.7 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
 | §17.8 | THIS-RUN-FULL; HISTORIC-PARTIAL-REPORTED; LEGACY-UNRECONCILED | **2026-11-20:** §17.8 full direct lines 7–112, blob `8d9b7af925289346c96df751c67049e90c9dfe1d`, POME-GEO-SUBGEODESIC-ENERGY-CURVATURE-001; [proof](reports/2026-11-20-subgeodesic-energy-curvature-measure.md), [exact coverage](coverage/2026-11-20-subgeodesic-energy-curvature-measure.md); earlier selected visits preserved, +0 complete upstream chains |
-| §17.9 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §17.9 | THIS-RUN-FULL; HISTORIC-PARTIAL-REPORTED; LEGACY-UNRECONCILED | **2026-11-20** whole direct lines 7–75, main blob `023e78b3da0fd8f33d39177dba02f410b10f376c`; both printed propositions/proofs checked, no new finding; [coverage](coverage/2026-11-20-ch13-directed-capacity-nets-ch17-long-segments.md); previous slope results preserved, +0 full transitive certificates |
 | §17.10 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
 | §17.11 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §17.12 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
