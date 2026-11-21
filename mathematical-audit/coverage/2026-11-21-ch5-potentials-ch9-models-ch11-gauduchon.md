@@ -1,0 +1,14 @@
+# 2026-11-21: exact added section coverage and dependencies
+
+**Reviewed main** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. Complete direct scrutiny of the following four integrated reading sections:
+
+1. **§5.4:** `docs/sections/complex-differential-forms-and-positive-currents--local-potentials-for-closed-1-1-currents/index.html`, blob `acfdd3d1e174fdb55473771b42e7e33b6f17ea18`, mathematical lines **5–135** (closed coefficient identities; Lemma 5.4.2; Theorem 5.4.3; Proposition 5.4.4; uniqueness and pullback).
+2. **§9.8:** `docs/sections/complex-spaces-and-modifications--connected-fibers-and-resolution-models/index.html`, blob `6ad8bec31c3089b7eab91f199f5a1eb355a12c40`, mathematical lines **5–81** (Theorem 9.8.1; Corollary 9.8.2; Proposition 9.8.3; proper common models and Hironaka-permitted smooth-center refinement).
+3. **§11.4:** `docs/sections/gauduchon-metrics-and-linear-mass--conformal-gauduchon-metrics/index.html`, blob `ecb4bf9e593dfb25f1644f0561d1aa65bf096b10`, mathematical lines **5–61** (Definition 11.4.1, Theorem 11.4.2 and proof).
+4. **§11.8:** `docs/sections/gauduchon-metrics-and-linear-mass--transverse-concentration-of-gauduchon-tests/index.html`, blob `93c2b63848b752f3ef660c1bcd599d0be1bc1e40`, mathematical lines **5–85** (Theorem 11.8.1 and Proposition 11.8.2 with both proofs).
+
+**Selected, not complete direct readings:** §11.6 lines 11–73, 82–96 (Lamari criterion, blob `6dd43b62800206fb0302fd4261372d7882e5170d`); §19.3 lines 17–43 and 379–387 (external valuation-model input, blob `9190d2ae0d3e51ca0ca965000cb9b5b2ec965c85`); §19.4 lines 59–67 (birational flag reduction, blob `c661e264cab0995a2a344453039940028feff8e0`). Existing §19.3 full audit 2026-11-20 is not counted anew. §11.8 was earlier sampled for an entire-graph example on 2026-11-15, not claimed as new historical first visit.
+
+**Findings:** `POME-GAUDUCHON-CONFORMAL-FAMILY-SMOOTHNESS-001` (low / verified conditional deduction), `POME-GAUD-TRANSVERSE-DUAL-THRESHOLD-001` (low / verified conditional deduction), `POME-OKOUNKOV-FLAG-REALIZATION-EXTERNAL-001` (medium / external dependency). [Full proofs and exact tags](../reports/2026-11-21-gauduchon-conformal-transverse-and-local-model-audit.md), [classified ledger](../ledger/2026-11-21-gauduchon-conformal-transverse-and-flag-realization.md).
+
+**Coverage delta:** +4 whole current direct readings, +3 selected-dependency locations (§§11.6/19.3/19.4), +0 fully verified transitive chains. No claim of first-ever visits, no new confirmed false printed theorem, no relabeling of existing findings. Current 25-chapter / 747-section matrix stays intact. All user-excluded Demailly regularization, Bergman, L2, OT, multiscale-atlas and positivity-loss proof-completion work remains **deferred-by-user**, not resolved/certified. No tests/build/CI/publication/source/main/registry/permanent-tag edits.
