@@ -1,3 +1,7 @@
+**2026-11-21 — current §§8.3–8.5 complete direct complex-Hessian reading.** Main \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`: §§8.3 (5–157), 8.4 (5–311), 8.5 (5–148) checked in the integrated edition, yielding [quantitative \(L^1\)-mixed-current stability](reports/2026-11-21-hessian-liouville-trace-elliptic-l1-compactness.md) and a precise [Evans–Krylov–Caffarelli external input](ledger/2026-11-21-hessian-liouville-trace-elliptic-l1-compactness.md). +3 complete current direct sections, +0 fully certified transitive chains, historical first visits not inferred; excluded Demailly-related programmes **deferred-by-user**. No build/tests/CI/production edits.
+
+---
+
 **2026-11-21 — four current whole-section direct audits across positive currents, analytic modifications and Hermitian Gauduchon duality.** Current main `b6933b772f41b45918f7e25ed1afbbb1fd892272`; complete §5.4 (5–135), §9.8 (5–81), §11.4 (5–61), §11.8 (5–85); selected §11.6, §19.3, §19.4 only. New **POME-GAUDUCHON-CONFORMAL-FAMILY-SMOOTHNESS-001** and **POME-GAUD-TRANSVERSE-DUAL-THRESHOLD-001** (low / verified conditional deductions, not false printed results) and **POME-OKOUNKOV-FLAG-REALIZATION-EXTERNAL-001** (medium / genuine external dependency on CFKLRS17, retained attribution). [Proofs](reports/2026-11-21-gauduchon-conformal-transverse-and-local-model-audit.md) · [ledger](ledger/2026-11-21-gauduchon-conformal-transverse-and-flag-realization.md) · [exact scope](coverage/2026-11-21-ch5-potentials-ch9-models-ch11-gauduchon.md). **+4 whole current direct sections, +0 fully certified upstream chains; historical first visits remain unreconciled**. Excluded Demailly regularization and dedicated Bergman/L2/OT/multiscale/positivity-loss programmes are deferred-by-user. No CI/build/publication/source/main/registry/tag changes.
 
 ---
@@ -337,9 +341,9 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §7.33 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20 complete direct**, math lines 5–81, blob `a859ac5637379266fa191831656f214c51676ca1`; exact separated product factor confirmed, [coverage](coverage/2026-11-20-bt-divisorial-capacity-collapse-and-net-stability.md); prior findings not recounted, +0 transitive chains |
 | §8.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §8.2 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20 complete direct** lines 6–269, [Lorentz proof](reports/2026-11-20-hessian-two-cone-lorentz-locality.md); previous selected §8.2.5/7 audits preserved; +0 transitive certificates, no first-visit claim |
-| §8.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §8.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §8.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §8.3 | 2026-11-21-FULL; LEGACY-UNRECONCILED | **2026-11-21:** full mathematical lines 5–157, blob `74cda06ad4bf75ab5fcba6e841c9ad4aa9424981`, Liouville and gradient rescaling [report](reports/2026-11-21-hessian-liouville-trace-elliptic-l1-compactness.md); no new printed error or full upstream proof certificate |
+| §8.4 | 2026-11-21-FULL; LEGACY-UNRECONCILED | **2026-11-21:** full mathematical lines 5–311, blob `3d7fe6d1867a0d8ac268042a59e112329a6c8af3`, logarithmic weight/torsion/eigenvalue branches [report](reports/2026-11-21-hessian-liouville-trace-elliptic-l1-compactness.md); no new printed error or full upstream proof certificate |
+| §8.5 | 2026-11-21-FULL; LEGACY-UNRECONCILED | **2026-11-21:** full mathematical lines 5–148, blob `fdd9225b1d778e1debaf94f75ef65175d4bd4484`, new (L^1)-mixed-product conditional deduction and unresolved named EKC regularity input [report](reports/2026-11-21-hessian-liouville-trace-elliptic-l1-compactness.md); +0 transitive chain certifications |
 | §8.6 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §8.7 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §8.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
