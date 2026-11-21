@@ -1,0 +1,15 @@
+# 2026-11-22 — quantitative current-weighted gradient stability
+
+## POME-BT-CURRENT-WEIGHTED-UNIFORM-C0-GRADIENT-RATE-001
+
+- **Severity / status:** low / **verified conditional deduction**. **No false printed theorem or proof-gap repair claimed.**
+- **Production baseline:** main \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`, integrated \`docs/sections/bedford-taylor-products-and-local-capacity--gradients-against-positive-currents/index.html\`, blob \`520e13d0d2cc8e4a23e43bba61b940d7c5c1f8b2\`, physical lines **12–43** (matrix and energy form), **48–131** (Lemma 7.14.3 and its proof).
+- **Stable identity:** source \`foundations-of-pluripotential-theory:3CDA1967\`, permanent lemma tag \`8B33E7CC2E18\`; Eq. 7.14.1 permanent \`9148FE66924C\`; Eq. 7.14.4 permanent \`F48E1DFF8563\`.
+- **Precise hypotheses:** closed positive current of bidimension (1,1), compact \(K\Subset U\), \(\chi\ge0\) smooth compactly supported with \(\chi=1\) near \(K\), locally bounded PSH \(u,v\), common bound \(M\) and uniform error \(\delta\) on a neighborhood of \(\operatorname{Supp}\chi\).
+- **Conclusion:** \(\|H^{1/2}\partial u-H^{1/2}\partial v\|_{L^2(K,\mu)}^2\le(2M\delta+\delta^2/2)|dd^c\chi\wedge\Theta|(U)\). In particular local uniform convergence of an *arbitrary net* gives strong weighted-gradient convergence, without monotonicity. Exact smooth one-dimensional example gives \(\|H^{1/2}\partial(v_m-u)\|_2^2=\delta_m/(2\pi)\), so the square-root exponent is sharp.
+- **Justification:** common mollifiers, integration by parts \(\int\chi dd^cu_\varepsilon\wedge\Theta=\int u_\varepsilon dd^c\chi\wedge\Theta\), positivity, the printed smooth energy identity and Lemma 7.14.3's strong weighted-gradient limit; see [complete proof](../reports/2026-11-22-current-weighted-gradient-c0-stability-and-bt-capacity-audit.md).
+- **Upstream status:** Lemma 7.14.3, weighted BT §7.3.7 and positive-current measure-density facts are used as *existing printed dependencies*, not transitively independently certified.
+- **Proposed optional patch:** a standalone corollary after Lemma 7.14.3; clarify the *intrinsic current-weighted* norm, not ambient full trace gradients. Neither the main source nor registry/tags may be edited in this audit.
+- **Affected dependents:** §7.14 current-cutoff and chain-rule applications; selected uniform-approximation applications of §13.3.1 closedness. Does not cover arbitrary unbounded truncations. Distinct from \`POME-BT-NORMAL-TRACE-GRADIENT-OSCILLATION-001\` and bounded-Hessian \(C^0\to C^1\) estimates.
+- **Further whole-section coverage:** §7.16 source \`klimek-pluripotential-theory:68BF935A\` permanent \`08DA18E923C1\` (capacity formula); §15.3 source \`non-kahler-pluripotential-theory:09F238FA\` permanent \`D716F01D638B\` (subsolution). Direct checks only, no new confirmed errors.
+- **Excluded:** Demailly approximation/regularization plus dedicated Bergman, L², Ohsawa–Takegoshi, multiscale and positivity-loss proof programmes remain **deferred-by-user**, neither resolved nor certified.
