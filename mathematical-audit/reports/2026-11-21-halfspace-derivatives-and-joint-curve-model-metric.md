@@ -16,7 +16,7 @@ Selected prerequisite *statements/proof passages only*, not whole-section re-aud
 
 ## Finding POME-HALFSPACE-POISSON-SHARP-DERIVATIVE-001
 
-**Status:** verified conditional deduction. **Severity:** low. **Not a false printed theorem or a certified replacement proof. **Anchor:** Theorem 3.2.6 and its converse, §3.2 lines 65–132, especially (3.2.7)–(3.2.8), 3.2.5 and the derivative estimates in lines 125–131.
+**Status:** verified conditional deduction. **Severity:** low. **Not a false printed theorem or a certified replacement proof.** **Anchor:** Theorem 3.2.6 and its converse, §3.2 lines 65–132, especially (3.2.7)–(3.2.8), 3.2.5 and the derivative estimates in lines 125–131.
 
 **Claim.** For any nonnegative harmonic function `h` on the upper half-space `H = R^{d-1} × (0,∞)`, `d ≥ 2`, let `c ≥ 0` be the coefficient of `t` in the integrated positive half-space representation:
 \[
