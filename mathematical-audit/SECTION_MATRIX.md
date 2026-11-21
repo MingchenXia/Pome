@@ -1,3 +1,5 @@
+**2026-11-21 Chapters 12/8 rotation:** full present integrated §12.16 lines 7–110 (blob `cedeb939240bded77843daec0292d1a8bde0d2cb`), §8.9 lines 7–197 (blob `117b866408974cdf706bf305df75e35e1b8affde`), selected internal hypotheses only; main `b6933b772f41b45918f7e25ed1afbbb1fd892272`. POME-GAUD-MASS-COERCIVE-QUADRATIC-GAP-001 proves the conditional quantitative sign/coercivity and rigid mass-gap conclusion (not a false theorem); no new printed-error finding. [Report](reports/2026-11-21-gauduchon-coercivity-and-hessian-recursion.md) · [scope](coverage/2026-11-21-ch12-mass-extrema-ch8-hessian-recursion.md). **+2 whole direct sections, +0 full upstream proof-chain certificates; historic first visits unreconciled.** Demailly-related excluded programmes deferred-by-user.
+
 **2026-11-21 Chapter 14 direct rotation:** full integrated §§14.25, 14.27, 14.29, selected §§14.21/14.26/14.28. POME-P3-ANALYTIC-DENSITY-EXACT-TAIL-001 (low / verified conditional deduction) refines the valid §14.29.16 sqrt-sublevel bound to an exact Beta(2,2) density law with critical residues; no false printed theorem. [Full report](reports/2026-11-21-analytic-density-tails-and-degenerate-ma-review.md) · [exact coverage](coverage/2026-11-21-ch14-degenerate-ma-and-analytic-density.md). **+3 full directly reviewed sections, +3 selective prerequisite checks, +0 complete upstream-chain certifications, no first-visit claim.** Existing §14.28 full review and all deferred-by-user exclusions preserved.
 
 **2026-11-21 scope rotation:** direct whole sections §§3.2, 13.29, 13.30, plus selected §13.28 prerequisite statements; new sharp Poisson derivative/growth inequalities and a no-midpoint demonstration for the complete joint curve-model metric (both **low / verified conditional deduction**, not printed errors). [Full report](reports/2026-11-21-halfspace-derivatives-and-joint-curve-model-metric.md) · [finding ledger](ledger/2026-11-21-halfspace-sharp-gradient-and-curve-joint-nonmidpoint.md) · [exact coverage](coverage/2026-11-21-halfspace-and-curve-model-joint-metric.md). Main `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **+3 whole current direct sections / +1 selected prerequisite / +0 transitive certifications; prior partial visits retained, excluded programme deferred-by-user.** No tests/builds/CI or production changes.
@@ -323,7 +325,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §8.6 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §8.7 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §8.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §8.9 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §8.9 | THIS-RUN-FULL | 2026-11-21 whole direct current §8.9 lines 7–197, Hessian recursion, no certified upstream chain; historical visits unreconciled |
 | §8.10 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §8.11 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §8.12 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20 complete direct** lines 6–170, [proof audit](reports/2026-11-20-hessian-two-cone-lorentz-locality.md); previous 2026-11-19 §8.12.4 partial [report](reports/2026-11-19-hessian-mixed-mass-uniform-lipschitz.md) retained; §8.11 dependencies not certified |
@@ -578,7 +580,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §12.13 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §12.14 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §12.15 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §12.16 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §12.16 | THIS-RUN-FULL | 2026-11-21 whole direct current §12.16 lines 7–110, conditional quantitative coercivity; historical visits unreconciled |
 | §12.17 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §12.18 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §12.19 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
