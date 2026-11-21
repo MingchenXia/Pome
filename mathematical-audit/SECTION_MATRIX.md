@@ -800,13 +800,13 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §17.9 | THIS-RUN-FULL; HISTORIC-PARTIAL-REPORTED; LEGACY-UNRECONCILED | **2026-11-20** whole direct lines 7–75, main blob `023e78b3da0fd8f33d39177dba02f410b10f376c`; both printed propositions/proofs checked, no new finding; [coverage](coverage/2026-11-20-ch13-directed-capacity-nets-ch17-long-segments.md); previous slope results preserved, +0 full transitive certificates |
 | §17.10 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
 | §17.11 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §17.12 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §17.12 | 2026-11-22-FULL; LEGACY-UNRECONCILED | Current whole integrated 17.12.1–.19, main blob 6dfdfc2b5e599eb3a19a9558a9c963e79df71dc7; Stieltjes mass/finite-energy first-moment deduction [proof](reports/2026-11-22-test-curve-stieltjes-moments-and-legendre-recheck.md), [scope](coverage/2026-11-22-test-curve-moment-and-legendre-rotation.md). Prior first-visit history not certified; +0 complete upstream chains |
 | §17.13 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
 | §17.14 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §17.15 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
 | §17.16 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
 | §17.17 | HISTORIC-PARTIAL-REPORTED | See existing dated reports and COVERAGE.md |
-| §17.18 | THIS-RUN-FULL | [2026-11-19 report](reports/2026-11-19-legendre-two-branch-mixed-mass.md), physical lines 7–63 |
+| §17.18 | THIS-RUN-FULL | [2026-11-19 report](reports/2026-11-19-legendre-two-branch-mixed-mass.md), physical lines 7–63; **2026-11-22 repeated full direct check** of n+1 / angular normalization, [scope](coverage/2026-11-22-test-curve-moment-and-legendre-rotation.md); **not counted as new full/first review** |
 | §18.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §18.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §18.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
