@@ -1,0 +1,12 @@
+# 2026-11-21 ledger: two new conditional deductions
+
+Reviewed main: `b6933b772f41b45918f7e25ed1afbbb1fd892272`. [Detailed proofs](../reports/2026-11-21-halfspace-derivatives-and-joint-curve-model-metric.md).
+
+| Finding ID | Severity | Status | Current integrated anchor | Correction / dependents |
+|---|---|---|---|---|
+| `POME-HALFSPACE-POISSON-SHARP-DERIVATIVE-001` | low | **verified conditional deduction** | `docs/sections/kelvin-transforms-and-half-space-potentials/index.html`, blob `f2615a5393af724c3996978212162f94911ff9d9`, §3.2.6, source `classical-potential-theory:1C8A330A`, permanent `6BC86EEF03A9`, lines 65–132 | `|∇'h| ≤ d(h−ct)/(2t)`, `(1−d)h/t+dc ≤ h_t ≤ h/t`, `c=inf h/t=lim_{t→∞}h(0,t)/t`. Proof from positive Poisson representation and weighted dominated convergence; sharp examples: Dirac kernel, `ct`. No printed theorem to correct; usable as a new downstream estimate. Dependence §3.2.6 not transitively certified. |
+| `POME-JOINT-CURVE-MODEL-NONMIDPOINT-001` | low | **verified conditional deduction** | `docs/sections/volumes-under-bounded-mass--a-complete-space-over-varying-curve-backgrounds/index.html`, blob `506708195b4fbeb7c1c0ac6ebea922983a764a6b`, (13.30.1), (13.30.2), Theorem 13.30.3, source `non-kahler-pluripotential-theory:D0548646`, permanent `C5551396F93B`, lines 10–85; background/polar 13.29.1 `non-kahler-pluripotential-theory:405CAA19` / `C9C98321BEFC` | The complete joint metric is **not geodesic**: smooth zero-polar pairs `(0,0)` and `(Mη,0)` at distance one have no midpoint when `||Mη||_{C^k}≥2` for all k. The saturated norm terms force strict triangle inequality for every distinct intermediate pair. No false printed theorem: completeness stands; fixed-background geodesicity §13.28.7 not inherited by joint space. |
+
+**Other reviewed content, no newly confirmed error:** full current integrated §§3.2, 13.29, 13.30; selected prerequisite §13.28 statements only. Earlier §3.2 one-point compactification and §13.28 curve-model classification findings not repeated or reclassified.
+
+**Unresolved inputs remain unresolved:** §3.2 ball Poisson/measure selection and §13.29–30 upstream §§5.27, 5.29, 13.22–28, 16, 18, 20.3 are not wholly transitively certified. **Deferred-by-user:** Demailly approximation/regularization and dedicated Bergman, L², OT, multiscale-atlas and positivity-loss proof programme (not resolved or certified). No source/reader/registry/main or publication edits, tests, builds or CI.
