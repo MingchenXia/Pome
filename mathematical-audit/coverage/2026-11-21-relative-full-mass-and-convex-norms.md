@@ -11,3 +11,6 @@
 | §11.7 Weak Gauduchon currents | blob `31d17f258f2ff178bf52be3d3f92d5a995878d3a` | Selected consistency reread only; **fully reviewed previously** on 2026-11-20 | Existing threshold superdifferential finding not repeated |
 
 **Coverage delta:** 2 complete current whole-section direct audits, 2 previously fully audited consistency checks, 1 verified local proof-step repair and 1 external dependency, 0 transitive proof-chain certifications. Historical first-visit status still unreconciled. No tests/build/CI; no source/main/tag/registry/site edits. Demailly regularization and all separately excluded proof-completion programmes continue as **deferred-by-user**. [Anchored report](../reports/2026-11-21-relative-full-mass-tail-proof-and-convex-norms.md).
+## Coverage-matrix consistency check
+
+The existing matrix contained two rows for **§21.7**: its dated full-review entry (2026-11-20) and an obsolete generic LEGACY-UNRECONCILED row. The stale generic row was removed, retaining the complete dated review and its historical unresolved note. This is **administrative ledger deduplication, not a duplicate mathematical theorem**. The matrix now has exactly **747 rows with 747 distinct section IDs**. No source, canonicalization registry or permanent tags were touched.
