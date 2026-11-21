@@ -1,3 +1,5 @@
+**2026-11-21 direct rotation (capacity, divisor currents, singular complex spaces):** full integrated §§5.5 and 9.9 reviewed for the current main \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; §4.3 rechecked in full, **not** counted as newly reviewed after its 2026-11-20 whole reading. **POME-GREEN-CAPACITY-GENERAL-CROSS-INTERACTION-001** (low / verified conditional deduction, no printed source error) gives quantitative strict Green capacity subadditivity for arbitrary separated positive-capacity compacts. [Proof](reports/2026-11-21-general-green-capacity-interaction-and-cross-chapter-psh-review.md) · [exact scope](coverage/2026-11-21-ch4-capacity-ch5-divisors-ch9-reduced-psh.md). **+2 current whole direct sections; +1 repeated full recheck; +0 complete upstream proof chains**; prior findings/legacy uncertainty/deferred-by-user exclusions preserved.
+
 **2026-11-21 cross-chapter full direct review:** §§2.8 and 4.2, main \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. POME-FINE-NEIGHBORHOOD-LEBESGUE-DENSITY-ONE-001 (low / verified conditional deduction, no printed theorem error): fine-open neighborhoods have **Lebesgue density one at every point**, a quantitative strengthening of §4.2.5. [Detailed proof](reports/2026-11-21-fine-density-one-and-differentiation-review.md) · [coverage](coverage/2026-11-21-ch2-differentiation-ch4-fine-topology.md). **+2 whole direct sections, +0 fully certified upstream chains**, earlier coverage/deferrals preserved.
 
 **2026-11-21 four-chapter direct rotation:** current integrated §§2.7, 11.2, 19.10, 21.10 fully read on main `b6933b772f41b45918f7e25ed1afbbb1fd892272`; new `POME-GUILLEMIN-ENTROPY-FACET-SCALING-RIGIDITY-001` is a verified conditional deduction (no printed error) on facet-entropy coefficient rigidity for toric Guillemin potentials. [Proof](reports/2026-11-21-guillemin-entropy-scaling-and-cross-chapter-audit.md) · [coverage](coverage/2026-11-21-measure-nets-hermitian-energy-sections-toric.md). **+4 current whole direct / +0 complete upstream proof chains**, historical first visits not inferred. User-excluded programmes remain deferred-by-user.
@@ -170,7 +172,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §5.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §5.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §5.5 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-21 full direct** mathematical lines 7–190, blob `4231a246a84f17c3808a6f3164644f931aa0c654`: Weierstrass preparation, diagonal current measures, Poincaré–Lelong sign and multiplicities; [scope](coverage/2026-11-21-ch4-capacity-ch5-divisors-ch9-reduced-psh.md). No new confirmed printed error, no transitive proof certificate, prior visits unreconciled |
 | §5.6 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.7 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
@@ -342,7 +344,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §9.6 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-21** entire direct mathematical lines 7–124, blob `f452f4b1abe5cdfe348ae11fcd934febcfdd570b`; construction and conditional Hironaka/log-resolution bookkeeping, external existence inputs not certified. [Report](reports/2026-11-21-finite-local-fiber-cardinality-and-blowups.md) |
 | §9.7 | 2026-11-21-PARTIAL; LEGACY-UNRECONCILED | Only Theorem 9.7.5 proof lines 89–127 (Step 3 line 120); false surplus claim that residual H-prime is g-exceptional, while theorem remains true. [Proof-only error](ledger/2026-11-21-relative-principalization-residual-divisor.md). Remmert and other §9.7 statements not reviewed end-to-end |
 | §9.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §9.9 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §9.9 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-21 full direct** mathematical lines 7–90, blob `d9d8091b530c9843e5a725b49af2400936aeaa3a`: ambient psh pullback, compact maximum, codimension-two upper bounds; [scope](coverage/2026-11-21-ch4-capacity-ch5-divisors-ch9-reduced-psh.md). No new confirmed printed error, no transitive proof certificate, prior visits unreconciled |
 | §9.10 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.11 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.12 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
