@@ -1,3 +1,7 @@
+> **2026-11-21 — whole current direct §§3.8, 16.24, 16.25, 16.26 (planar Green kernels, divisorial multiplier ideals, relative capacity, rooftop extrapolation).** **POME-MULTIPLIER-IDEALS-SPARSE-COFINAL-SCALES-001**: inclusions of multiplier ideals on any unbounded set of positive scales force inclusion on all scales; **POME-RELATIVE-CAPACITY-OSCILLATION-COMPARISON-001**: relative capacity comparison improves to the gauge-invariant factor \((1+\mathrm{osc}(\phi-\psi))^n\). Both are **low / verified conditional deductions**, not printed errors, with full conditional proofs; no upstream chain fully certified. Main b6933b772f41b45918f7e25ed1afbbb1fd892272. [Report](reports/2026-11-21-sparse-valuative-scales-and-relative-capacity.md) · [ledger](ledger/2026-11-21-sparse-valuative-scales-and-relative-capacity.md) · [exact scope](coverage/2026-11-21-green-valuative-capacity-rooftops.md) · [747-section matrix](SECTION_MATRIX.md). **+4 directly reviewed whole sections, +0 fully certified upstream chains; historical first-visit unknown**. Demailly regularization and dedicated Bergman/L²/OT/multiscale/positivity-loss programmes remain **deferred-by-user**. No build/tests/CI/main/source/registry/tags/site publication.
+
+---
+
 > **2026-11-21 — complete current §17.3 relative energy and §17.1 introductory section; targeted §17.2 and §21.11.** New **POME-RELENERGY-STRICT-CONCAVITY-DIRICHLET-GAP-001** (**low / verified conditional deduction, not a false source theorem**): a common smooth lower curvature bound \(\theta_u,\theta_v\geq\delta\omega\) yields the explicit \(n\delta^{n-1}t(1-t)/2\) Dirichlet chord gap for relative energy, sharp in dimension one. The prior §17.2 seminorm and §21.11 vague-convergence qualification are **not** new findings. Main `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **+2 complete current direct sections (one is introductory), +1 partial §21.11, +1 selected prior-full §17.2, +0 upstream certifications**, historical first visits unresolved. [Proof](reports/2026-11-21-relative-energy-strict-concavity-and-convex-measure-rotation.md) · [finding](ledger/2026-11-21-relative-energy-dirichlet-gap.md) · [coverage](coverage/2026-11-21-ch17-relative-energy-ch21-convex-measure.md) · [747-section matrix](SECTION_MATRIX.md). Demailly regularization/Bergman/L2/OT/multiscale/positivity-loss programmes still **deferred-by-user**. No tests/build/CI/source/main/site changes.
 
 ---
@@ -188,7 +192,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §3.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §3.6 | HISTORIC-FULL-REPORTED | See existing dated reports and COVERAGE.md |
 | §3.7 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §3.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §3.8 | 2026-11-21-FULL; LEGACY-UNRECONCILED | Complete main §3.8 lines 5–86, blob bfee348bb5f4bbfaa4515e5c9333789a13dae861; Green kernel normalization, proper degree-one map, polar boundary minimum; no new printed error. [Report](reports/2026-11-21-sparse-valuative-scales-and-relative-capacity.md); +0 transitive certificates; historic first visit unknown |
 | §3.9 | THIS-RUN-FULL; HISTORIC-PARTIAL-REPORTED; LEGACY-UNRECONCILED | **2026-11-20: direct complete mathematical lines 7–107**, blob `25fd0fd57d3e51f9224a25341ace77584b2a1a2a`; self-contained local-convexity geodesic repair `POME-PLANAR-DISTANCE-LOCAL-CONVEX-GEODESIC-001`, [report](reports/2026-11-20-planar-distance-local-convexity-and-firm-projection.md), [coverage](coverage/2026-11-20-planar-distance-local-convexity-and-firm-projection.md); no full upstream certification and no historic first-visit claim |
 | §3.10 | THIS-RUN-FULL; HISTORIC-PARTIAL-REPORTED; LEGACY-UNRECONCILED | **2026-11-20: complete direct mathematical lines 7–108**, blob `c59a1b3fab9433f1aae95db99adb4821857b5d8d`; metric-only radius uniformity issue `POME-HEAT-MORREY-RADIUS-UNIFORMITY-001` (medium / confirmed error as parameter-uniform statement), valid fixed-`r_0` correction; [report](reports/2026-11-20-heat-morrey-radius-constant.md), [exact scope](coverage/2026-11-20-ch3-heat-kernel-radius-constant.md). +0 transitive proof certifications, previous selected visits preserved. |
 | §4.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
@@ -756,9 +760,9 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §16.21 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §16.22 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §16.23 | HISTORIC-FULL-REPORTED | See existing dated reports and COVERAGE.md |
-| §16.24 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §16.25 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §16.26 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §16.24 | 2026-11-21-FULL; LEGACY-UNRECONCILED | Complete main §16.24 lines 5–60, blob 40f522a64d7e846a4507c27e8ac9b4fa382c514c; sparse cofinal multiplier ideal scales [proof](reports/2026-11-21-sparse-valuative-scales-and-relative-capacity.md); +0 upstream certifications |
+| §16.25 | 2026-11-21-FULL; LEGACY-UNRECONCILED | Complete main §16.25 lines 5–164, blob 4207ba03590b2988456f1df4da4123e1e572c8de; gauge-invariant oscillation relative-capacity comparison [proof](reports/2026-11-21-sparse-valuative-scales-and-relative-capacity.md); +0 upstream certifications |
+| §16.26 | 2026-11-21-FULL; LEGACY-UNRECONCILED | Complete main §16.26 lines 5–50, blob c40b40892fd37beb63802fb6cb253269fb59bd20; uniform upper control and model envelope mass cases checked; no new confirmed error. [Report](reports/2026-11-21-sparse-valuative-scales-and-relative-capacity.md); +0 upstream certifications |
 | §16.27 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §16.28 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §16.29 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
