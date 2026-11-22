@@ -1,99 +1,91 @@
-# Current reading-edition audit: ideal-class geometry and background transport (22 November 2026)
+# Audit: curve ideal projection, background transport, and test-curve introduction
+**Date:** 2026-11-22. **Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272.
+**Branch:** review/mathematical-audit (notes only). No editing of original mathematical bodies or publication.
 
-- Reviewed main commit: `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
-- Review-only branch: `review/mathematical-audit`. This document is an **audit note**, not a production/source correction or a formal-verification certificate.
-- Direct whole-section readings: §18.5 and §18.6. Entire short introductory §17.11 also read. Selected dependency checks only: §18.4.2/.4/.8 and the curve potential/compactness arguments quoted in §18.6.
-- No Demailly regularization, Bergman, L², Ohsawa–Takegoshi, multiscale atlas or positivity-loss proof-completion material was revisited. Any such external dependency remains deferred by user.
+## POME-IDEAL-CURVE-PROJECTION-ONLY-CONTINUOUS-AT-ZERO-001
 
-## New finding: `POME-IDEAL-CURVE-PROJECTION-ONLY-CONTINUOUS-AT-ZERO-001`
+**Severity/status:** low / **verified conditional deduction**, not a confirmed error in a printed statement and not a complete certification of all upstream dependencies.
 
-**Classification:** low / **verified conditional deduction** (not a false printed theorem, not a repair, and not certification of all prerequisites). The deduction uses the current curve and ideal-projection assertions of §§18.4 and 18.6. Its additional smooth-measure approximation is proved below.
+**Precise anchor:** current integrated Theorem 18.6.4 (source label E7B73391; permanent tag A55ADED04CFD), docs/sections/multiplier-ideal-envelopes-and-goodness--geometry-of-ideal-classes/index.html, main blob 64b1c0de9266a28727de07ca3502a13ab974f001, lines 43–86. The observation on noncontinuity at a smooth nonconstant potential appears at lines 91–104. Projection Theorem 18.4.2 (source 3A211D73; permanent 7F20FD198864), docs/sections/multiplier-ideal-envelopes-and-goodness--ideal-projection/index.html, blob f1979b73c857f4874dd4a5cb10b93bcc047ebbdc, lines 22–51.
 
-**Anchor and provenance.** Integrated file `docs/sections/multiplier-ideal-envelopes-and-goodness--geometry-of-ideal-classes/index.html`, main blob `64b1c0de9266a28727de07ca3502a13ab974f001`, lines **7–140**, especially Theorem 18.6.4 at lines **43–86** (source label `E7B73391`, permanent tag `A55ADED04CFD`) and the discontinuity observation at **91–104**. The projection property is Theorem 18.4.2 (source `3A211D73`, permanent `7F20FD198864`) in `docs/sections/multiplier-ideal-envelopes-and-goodness--ideal-projection/index.html`, blob `f1979b73c857f4874dd4a5cb10b93bcc047ebbdc`, lines **22–51**.
+### Exact conditional deduction
 
-### Exact statement
+Let \(Y\) be a **compact connected Riemann surface**, \(\theta\) a smooth strictly positive real \((1,1)\)-form with \(\int_Y\theta=1\), and \(\mathrm dV\) a smooth strictly positive probability volume form. Define
+\[
+\mathcal K_\theta=\{u\in\operatorname{PSH}(Y,\theta):\sup_Yu=0\},
+\qquad
+\Pi(u)=P_\theta[u]_{\mathcal I}.
+\]
+With the \(L^1(Y,\mathrm dV)\) topology on \(\mathcal K_\theta\), **the normalized ideal projection \(\Pi:\mathcal K_\theta\to\mathcal K_\theta\) is continuous exactly at the zero potential**.
 
-Let (Y) be a **compact connected Riemann surface**, let (	heta>0) be a smooth real ((1,1))-form with (int_Y	heta=1), and let (mathrm dV) be a smooth positive probability volume form. Give
-[
-mathcal K_	heta={uinmathrm{PSH}(Y,	heta):sup_Yu=0}
-]
-its (L^1(Y,mathrm dV)) topology. The normalized ideal projection
-[
-Pi:mathcal K_	hetalongrightarrowmathcal K_	heta,qquad
-Pi(u)=P_	heta[u]_{mathcal I}
-]
-is **continuous precisely at (u=0)**.
+More strongly, for every \(u\in\mathcal K_\theta\), there are smooth \(\theta\)-psh \(s_j\) and finite-rational-atomic Green ideal models \(a_j\) such that
+\[
+s_j\to u,\quad a_j\to u \text{ in } L^1,\qquad
+\Pi(s_j)=0,\quad\Pi(a_j)=a_j\to u.
+\]
+The two limiting images disagree at every \(u\ne0\).
 
-In fact, at every (uinmathcal K_	heta) there are two sequences (s_j,a_j	o u) in (L^1), with (s_j) smooth and (a_j) rational finite-atomic Green models, such that
-[
-Pi(s_j)=0,qquad Pi(a_j)=a_jlongrightarrow u.
-]
-Consequently the two limiting images are distinct whenever (u
-e0).
+### Proof
 
-### Complete conditional proof
+**Continuity at zero.** Because \(v\in\mathcal K_\theta\) is nonpositive, \(v\) is itself a competitor for \(P_\theta[v]_{\mathcal I}\); hence \(v\le\Pi(v)\le0\). Since the positive background \(\theta\) makes the zero function \(\theta\)-psh, \(\Pi(0)=0\). Consequently
+\[
+0\le \|\Pi(v)\|_{L^1(\mathrm dV)}
+=-\int_Y\Pi(v)\,\mathrm dV
+\le-\int_Yv\,\mathrm dV
+=\|v\|_{L^1(\mathrm dV)}.
+\]
+Thus \(\Pi\) is continuous at zero. This inequality is one-point control, not global Lipschitz continuity.
 
-1. **At zero.** Each (vinmathcal K_	heta) is nonpositive, is itself an admissible competitor for its ideal projection, and satisfies
-   [
-   vlePi(v)le0.
-   ]
-   Because the smooth positive (	heta) makes (0) (	heta)-psh, the projection of (0) is (0). Thus
-   [
-   0le|Pi(v)|_{L^1(mathrm dV)}
-   =-int_YPi(v),mathrm dV
-   le-int_Yv,mathrm dV=|v|_{L^1(mathrm dV)}.
-   ]
-   This proves continuity at zero without assuming global Lipschitz continuity.
+**Atomic approximation.** Theorem 18.6.4 gives, for each \(u\in\mathcal K_\theta\), a sequence \(a_j\) of normalized Green potentials of finite atomic probability measures with rational weights, converging to \(u\) in \(L^1\). Its proof derives the exact identity \(\Pi(a_j)=a_j\) from multiplier-ideal equality of Lelong numbers, exhaustion of the unit curvature mass by the prescribed atoms, and connected harmonic uniqueness. Neither the rationality restriction nor the pole locations affect the \(L^1\) limit.
 
-2. **Atomic approximants with fixed projections.** Theorem 18.6.4 constructs for every (uinmathcal K_	heta) normalized Green potentials (a_j) associated to finite atomic probability curvature measures with rational coefficients, with
-   [
-   a_j	o uquad	ext{in }L^1,qquad Pi(a_j)=a_j.
-   ]
-   The proof in the reading edition establishes the second identity from exact Lelong masses and total curvature mass one. This argument requires connectedness.
+**Smooth approximation (independent of Demailly regularization).** The curvature measure
+\[
+\nu=\theta+\mathrm{dd}^{\mathrm c}u
+\]
+is a positive probability measure on \(Y\). Choose smooth nonnegative probability forms \(\rho_j\) converging weakly to \(\nu\). They exist by approximating \(\nu\) with finite atomic probabilities supported at points in small Borel cells, then replacing each point mass by a smooth bump of equal mass supported inside a sufficiently small coordinate disk. For each continuous test function, uniform continuity on compact \(Y\) controls the error. The classical linear Green/Poisson equation on a compact connected Riemann surface gives smooth functions \(s_j\) solving
+\[
+\theta+\mathrm{dd}^{\mathrm c}s_j=\rho_j,\qquad\sup_Ys_j=0.
+\]
+Positivity of \(\rho_j\) gives \(s_j\in\mathcal K_\theta\). Normalized \(L^1\)-compactness supplies a convergent subsequence from every subsequence. Every limit \(s\) satisfies \(\theta+\mathrm{dd}^{\mathrm c}s=\nu\), by distributional continuity, and has \(\sup_Ys=0\), by continuity of the normalized psh supremum under \(L^1\) convergence. Then \(\mathrm{dd}^{\mathrm c}(s-u)=0\), so \(s-u\) is a harmonic distribution, hence a constant on connected compact \(Y\). The normalizations force \(s=u\). Uniqueness of all cluster points proves \(s_j\to u\) in \(L^1\).
 
-3. **Smooth approximants with zero projections.** Set (
-u=	heta+mathrm{dd}^{mathrm c}u), a positive probability measure on the compact curve. Approximate (
-u) weakly by smooth nonnegative probability forms (ho_j). For completeness, first approximate (
-u) by finite atomic probabilities using small finite Borel partitions; then replace each point mass with a nonnegative smooth bump of the same mass supported in a sufficiently small coordinate disk. Uniform continuity of test functions guarantees weak convergence of the resulting smooth forms. The ordinary Green-kernel/Poisson construction on the compact connected Riemann surface supplies a smooth real function (s_j), unique up to a constant, satisfying
-   [
-   	heta+mathrm{dd}^{mathrm c}s_j=ho_j,qquadsup_Y s_j=0.
-   ]
-   Hence (s_jinmathcal K_	heta). Normalized (L^1)-compactness gives a convergent subsequence from every subsequence; any limit (s) satisfies (	heta+mathrm{dd}^{mathrm c}s=
-u) by continuity of (mathrm{dd}^{mathrm c}) on distributions, and (sup s=0) by normalized psh (L^1)-compactness. Thus (mathrm{dd}^{mathrm c}(s-u)=0). A harmonic distribution on a compact connected curve is constant, and the normalization makes it zero. Every subsequential limit is (u), so the full sequence (s_j	o u) in (L^1). Because every (s_j) is smooth, all its multiplier ideals are trivial. Since (0inmathrm{PSH}(Y,	heta)), the ideal-envelope definition gives (Pi(s_j)=0). This is standard **linear Poisson theory on a curve**, not the user-deferred Demailly regularization programme.
+Each \(s_j\) is smooth, hence has trivial multiplier ideals at all positive scales. Since \(0\in\operatorname{PSH}(Y,\theta)\), the ideal projection of a smooth \(s_j\) is zero: \(\Pi(s_j)=0\). Only classical **linear Poisson smoothing of curvature measures on a curve** is used, not any excluded Demailly/Bergman/L² approximation programme.
 
-4. **Only-if continuity.** If (Pi) were continuous at (u), the smooth sequence would yield (Pi(u)=0), while the atomic sequence would yield (Pi(u)=u). Hence (u=0). Step 1 proves the converse.
+**Noncontinuity away from zero.** If \(\Pi\) were continuous at \(u\), the smooth sequence would give \(\Pi(u)=0\), while the atomic sequence would give \(\Pi(u)=u\). Hence \(u=0\), completing the proof.
 
-The proof does **not** assert that the quotient metric on ideal classes is pathological, or that (Pi) is noncontinuous in a stronger topology. It is specific to the (L^1) topology on the normalized potential space.
+**Proposed change:** add an optional conditional corollary after Theorem 18.6.4; retain the printed theorem, attribution, and permanent tags. **Possible dependents:** the \(L^1\) class completion and topology in §18.6, and future results that invoke continuity of ideal projection in \(L^1\). This finding neither asserts a false existing theorem nor substitutes for transitive verification of normalized compactness, the curve Green operator, or the ideal projection theorem.
 
-**Suggested patch (proposal only):** add a conditional corollary after Theorem 18.6.4 stating the exact continuity locus of the projection. Retain the printed theorem, its historical attribution, both permanent tags, and the stronger and weaker topologies separately. **Affected dependents:** §18.6's (L^1)-completion and mass-continuity discussion; any later claim that transports ideal models by (L^1)-continuous projection. No existing later theorem was declared false based on this observation.
+## Whole current section reviews
 
-## Other direct mathematical review (no new confirmed errors)
+### §18.5 — background changes and envelope mass
 
-### §18.5, background transport and mass
+Current integrated file: docs/sections/multiplier-ideal-envelopes-and-goodness--changes-of-background-and-envelope-mass/index.html, main blob b1f37213571516320cd74288e4b3cbd1be2166bc, lines 7–89, section tag FD3DFA6C79CF.
 
-Integrated file `docs/sections/multiplier-ideal-envelopes-and-goodness--changes-of-background-and-envelope-mass/index.html`, main blob `b1f37213571516320cd74288e4b3cbd1be2166bc`, lines **7–89**; section tag `FD3DFA6C79CF`.
+- **Proposition 18.5.1**, source 41400384, permanent 07B0D783C3F0, lines 11–29: both transported competitors \(v-f+\min f\) and \(v'+f-\max f\) satisfy the new nonpositive obstacle and preserve ordinary or ideal class; verified the inequality orientations.
+- **Proposition 18.5.2**, source BF2F5187, permanent 6E8985733CBC, lines 36–56: distinguished equality of the underlying current from nonclosed Hermitian background mass; checked the reduction to Example 11.1.12 and Eq. 11.1.13, but did not independently certify the original torus calculation.
+- **Proposition 18.5.5**, source 47D5441C, permanent A2602BC06784, lines 77–89: checked the inference from ordinary envelope zero via Proposition 18.4.4. The infinite-mass witness is imported from Proposition 16.28.72, not independently reconstructed here.
 
-- **Proposition 18.5.1** (source `41400384`, permanent `07B0D783C3F0`, lines 11–29): checked both competitor transports (vmapsto v-f+min f) and (v'mapsto v'+f-max f). Each restores the zero obstacle and preserves the corresponding ideal equivalence or ordinary type; the resulting inequalities have the stated directions.
-- **Proposition 18.5.2** (source `BF2F5187`, permanent `6E8985733CBC`, lines 36–56): checked the distinction between equal positive currents and background-dependent **nonclosed** Hermitian total Monge–Ampère mass. The conclusion rests on the explicit nonclosed torus mass computation in Example 11.1.12 / Eq. 11.1.13, which was identified, **not independently re-certified** here.
-- **Proposition 18.5.5** (source `47D5441C`, permanent `A2602BC06784`, lines 77–89): checked the exact direction of the inference from (P_omega[U]=0) and ideal projection Proposition 18.4.4. The construction of the infinite-mass (U) in Proposition 16.28.72 remains an **unverified upstream dependency**, not a new construction in this session.
+### §18.6 — geometry of ideal classes
 
-### §18.6, ideal classes on a curve
+Current integrated file: docs/sections/multiplier-ideal-envelopes-and-goodness--geometry-of-ideal-classes/index.html, main blob 64b1c0de9266a28727de07ca3502a13ab974f001, lines 7–160, section tag 3D693DBCCBE2.
 
-Integrated file `docs/sections/multiplier-ideal-envelopes-and-goodness--geometry-of-ideal-classes/index.html`, main blob `64b1c0de9266a28727de07ca3502a13ab974f001`, lines **7–160**, section tag `3D693DBCCBE2`.
+- **Proposition 18.6.1**, source C2DA1190, permanent 47A414940A74, lines 20–35: checked nondegeneracy using psh representatives, total boundedness from normalized compactness, and equivalence of smooth positive volumes.
+- **Theorem 18.6.4**, source E7B73391, permanent A55ADED04CFD, lines 43–87: checked the unit curvature mass, exact Lelong atoms, weak finite atomic approximation, rational coefficient rounding, Green potential \(L^1\) convergence via compactness/harmonic uniqueness, and incompleteness witness.
+- **Proposition 18.6.6**, source 5F66399A, permanent 8B21A468DD06, lines 110–140: with \(a=1-\tau\), verified
+  \[
+  \theta+\mathrm{dd}^{\mathrm c}(a q_j)=\tau\theta+a\nu_j,\qquad
+  \mathrm{MA}_\theta(r_j)=\theta+\mathrm{dd}^{\mathrm c}r_j-a\nu_j,
+  \]
+  with non-pluripolar mass \(\tau\), weak measure limit \(\tau\theta\) and ordered \(d_S\) gap \((1-\tau)/2\).
+- **Example 18.6.8**, source 1415C673, permanent 0F685C3DE85F, lines 151–160: checked that \(ta\) belongs to the smaller background \(t\theta\) and the scalar upper bound tends to zero as \(t\downarrow0\). No independent certification of §11.39 normalization scalar prerequisites.
 
-- **Proposition 18.6.1** (source `C2DA1190`, permanent `47A414940A74`, lines 20–35): checked the nondegeneracy of the (L^1) metric by psh representatives, total boundedness via normalized compactness, and equivalence of smooth volume forms on compact (X).
-- **Theorem 18.6.4** (source `E7B73391`, permanent `A55ADED04CFD`, lines 43–87): checked unit total curvature mass, recovery of fixed logarithmic coefficients from ideal equivalence, weak finite-atomic probability approximation, rational weight rounding, convergence of normalized Green potentials by compactness/uniqueness, and the smooth witness proving incompleteness. The permanent label and the curve-specific connectedness and (int	heta=1) hypotheses were retained.
-- **Proposition 18.6.6** (source `5F66399A`, permanent `8B21A468DD06`, lines 110–140): checked the sign and mass in (	heta+mathrm{dd}^{mathrm c}((1-	au)a_j)=	au	heta+(1-	au)
-u_j); the polar subtraction leaves non-pluripolar mass (	au). Its weak limit (	au	heta) is consistent with the (d_S)-gap ((1-	au)/2) despite convergence in (d_{mathcal I}).
-- **Example 18.6.8** (source `1415C673`, permanent `0F685C3DE85F`, lines 151–160): checked the smaller semipositive background (t	heta), monotone (tdownarrow0) scalar bound, and rational analytic types. Section 11.39 normalization-scalar conclusions were **not** fully reopened.
+### §17.11 — short test-curves introduction
 
-### §17.11, test-curves introduction
+Current file docs/sections/test-curves/index.html, main blob 0ece4d0eccf9c5e35e7ae6c4bc55335897e74e80, lines 7–19, permanent section tag BA6AA7598BE3. Read in full. Checked Ross–Witt Nyström historical attribution, concave/convex Legendre sign convention and references to §§17.12–17.15, 21.11 and 22.1. Reading the introduction does **not** certify the correspondence theorem or subsequent non-Archimedean arguments.
 
-Integrated `docs/sections/test-curves/index.html`, main blob `0ece4d0eccf9c5e35e7ae6c4bc55335897e74e80`, lines **7–19**, permanent section tag `BA6AA7598BE3`. The Ross–Witt Nyström attribution, Legendre-sign convention (concave curves handled through negatives of convex functions) and signposting to §§17.12–17.15 and §22.1 were checked. This is **complete introductory reading**, not proof-chain certification of the correspondence itself.
+## Status, actual scope, and deferred work
 
-## Coverage, limitations and classification
+**Current increment:** 2 directly read whole mathematical sections (§§18.5, 18.6), 1 complete short introduction (§17.11), 1 new low conditional deduction, 0 newly confirmed errors, and 0 completely certified upstream proof chains. Historical first-visit status remains unreconciled.
 
-- **This session:** +2 current whole directly read mathematical sections (§§18.5, 18.6), +1 whole short introduction (§17.11), +1 new conditional deduction, **0 newly confirmed printed errors, 0 fully certified transitive proof chains**. Prior historical visits still need reconciliation.
-- **Not covered:** complete proofs of §§11.1, 11.39, 16.28, 17.12–17.15, or all upper/lower analytical dependencies of §§18.4–18.6. Do not promote any of these to fully certified.
-- The user-excluded Demailly/Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss proof-completion programme remains **deferred-by-user**, not resolved.
-- No builds, repository tests, CI, website publication, source/registry/entry changes, canonicalization or permanent-tag edits were performed.
+**Remaining dependencies:** the curve Green operator and normalized compactness, full projection §18.4, §11.1.12–13, §16.28.72, §11.39 and §§17.12–17.15 are not all fully independently certified. They are not silently promoted to resolved. Demailly regularization and the dedicated Bergman, L², Ohsawa–Takegoshi, multiscale-atlas and positivity-loss proof-completion programme remain **deferred-by-user**.
+
+**Operations not performed:** repository builds or tests, CI, automatic publishing, modifications to main, mathematical source/bodies, registries, canonicalization, or permanent tags.
