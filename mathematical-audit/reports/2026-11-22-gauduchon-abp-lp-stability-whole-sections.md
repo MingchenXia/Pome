@@ -19,7 +19,7 @@
 Assumptions in the integrated Theorem 14.10.1: connected compact complex $X$ of dimension $n\ge 2$, Hermitian initial form $\gamma_0$, Gauduchon form $\gamma$, smooth real $F$; there is a unique scalar-ansatz solution normalized by $\sup_Xu=0$. The equation is
 \[
 \Gamma_u=\gamma_0^{n-1}+dd^cu\wedge\gamma^{n-2}
- +\operatorname{Re}\left$\frac{i}{2\pi}\partial u\wedge\bar\partial\gamma^{n-2}\right$,
+ +\operatorname{Re}\left(\frac{i}{2\pi}\partial u\wedge\bar\partial\gamma^{n-2}\right),
 \qquad
 \eta_u^{n-1}=\Gamma_u,\quad\eta_u^n=e^{F+b}\gamma^n .
 \]
@@ -51,7 +51,7 @@ For the contact-set argument, $v(x)=u(x)+\varepsilon|x|^2$, $|p|<\varepsilon/2$,
 
 Theorem 15.4.1 assumes a semipositive big smooth $\theta$, (p>1), uniformly bounded solution $-C_0\le u\le0$, $MA_\theta(u)=f\,dV$ with $f\in L^p$, and comparison $v\in PSH(X,\theta)$, $v\le0$, which need **not** be bounded initially. Replacing $v$ by $\max(u,v)$ legitimately reduces to bounded $v$ without changing the positive part. At lines 36–68 the scale $m_\delta=\|1_{\{u<v-\delta\}}f\|_q$, auxiliary subsolution from Lemma 15.3.1, and $t=(2m_\delta/b)^{1/n}$ give $MA_\theta(w)\ge2m_\delta/b\,MA_\theta(h)\ge2\,1_{E_\delta}MA_\theta(u)$. The order $h-v\le C_0$ implies $w\le v-\delta$; **strict** domination is used only on $\{u<w\}\subset E_\delta$. The $m_\delta=0$ and $m_\delta\ge b/2$ cases are separately covered. The printed estimate
 \[
-m_\delta\le L$I/\delta$^{(p-q)/(pq)},\quad
+m_\delta\le L(I/\delta)^{(p-q)/(pq)},\quad
 \sup_X(v-u)\le\delta+C m_\delta^{1/n}
 \]
 optimizes with (a=(p-q)/(npq)), $\delta=I^{a/(1+a)}$ for $0<I\le1$, giving
