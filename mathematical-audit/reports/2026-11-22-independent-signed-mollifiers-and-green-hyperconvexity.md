@@ -1,0 +1,48 @@
+# 2026-11-22 — Green asymmetry, hyperconvexity, and generalized Bedford–Taylor products
+
+**Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272` (not the audit-branch reading copy).  
+**Scope:** complete direct reading of integrated §§7.21, 7.22, 7.24, 7.25, 7.26. Existing §7.24 parameter-window and §7.25 product-hyperconvexity findings were consulted, not reintroduced as new results. These are five whole present-main sections, **not** five first-ever visits or five certified transitive proof chains. The Demailly approximation/regularization and dedicated Bergman/L²/Ohsawa–Takegoshi/multiscale/positivity-loss programmes are **deferred-by-user**.
+
+## New finding: POME-BT-SIGNED-INDEPENDENT-MOLLIFIER-SCALES-001
+
+**Classification:** low; **verified conditional deduction**, not a false printed theorem or a proof-gap repair.  
+**Source:** Theorem 7.26.3, `docs/sections/generalized-products-and-their-associated-bounded-products/index.html`, main blob `ccdb1ff3375fa102c90f78bd97dd4c6a26ae6ed9`, physical lines 105–137, source label `klimek-pluripotential-theory:77522B43`, permanent tag `5C50A7C32E5B`. Its positive-kernel capacity input is Lemma 7.26.2, same file, lines 73–103, source `8C5E7ECD`, permanent `8DF858D7EC52`. The existing same-kernel signed decomposition is at lines 119–133.
+
+**Statement.** Let `Ω⊂ℂⁿ` be open and `1≤k≤n`. For locally bounded plurisubharmonic `u₁,…,u_k` and **independently chosen** real-valued `φ_j∈C_c^∞(ℝ^{2n})` with `∫φ_j=1` (no positivity or additional vanishing moments), take arbitrary functions `ε_j(t)>0` with `ε_j(t)→0` as `t↓0`, with no comparability assumptions. Then, in the weak topology of currents on every relatively compact subset of `Ω`,
+
+```math
+\bigwedge_{j=1}^{k} dd^c\bigl(u_j*S_{\varepsilon_j(t)}\varphi_j\bigr)
+\longrightarrow \bigwedge_{j=1}^{k}dd^c u_j .
+```
+
+The same conclusion holds for different kernels and independent scales in each factor, not just a single common signed kernel and bandwidth as in the displayed limit in Theorem 7.26.3. There is **no** assertion that the signed regularized products are positive at finite `t`, nor an extension to arbitrary unbounded PSH inputs.
+
+**Complete deduction, conditional only on the established local bounded Bedford–Taylor capacity-continuity input.** For each `j` choose a nonnegative smooth compact bump `h_j` so that `φ_j+h_j≥0`. Put `b_j=∫h_j>0`, `a_j^+=1+b_j`, `a_j^-=b_j`, `ρ_j^+=(φ_j+h_j)/(1+b_j)`, `ρ_j^-=h_j/b_j`. Each `ρ_j^±` is nonnegative of unit mass and
+
+```math
+u_j*S_{\varepsilon_j(t)}\varphi_j
+=a_j^+\,u_j*S_{\varepsilon_j(t)}\rho_j^+
+-a_j^-\,u_j*S_{\varepsilon_j(t)}\rho_j^-.
+```
+
+By Lemma 7.26.2, all `2k` positive regularizations are locally uniformly bounded PSH and converge individually to `u_j` locally in capacity, even with independent scales. Expand the exterior product into its `2^k` mixed products. Along any sequence `t_m↓0`, the established mixed Bedford–Taylor continuity theorem for locally uniformly bounded PSH inputs converging in capacity sends **every** mixed term to `∧_j dd^c u_j`. The sum of its signed coefficients is `∏_j(a_j^+−a_j^-)=1`. Thus the whole product has the claimed limit along every such sequence, hence for the real parameter `t↓0`. This is a finite linearity argument; it does not interchange unrelated infinite limits or presume that the smoothing scales are comparable. It also proves that the associated bounded BT current is independent of individual signed approximate identities.
+
+**Dependencies and status:** Lemma 7.26.2 (positive convolution capacity convergence), the prior mixed Bedford–Taylor bounded-capacity continuity theorem and local boundedness are indispensable; their entire upstream chains are **not certified by this report**. No original statement correction is proposed. A separately reviewable optional addition would state this independent-kernel/scales variant after Theorem 7.26.3, retaining its source tags and attribution.
+
+## Direct whole-section checks, including negative results
+
+1. **§7.21 — boundary peak and symmetric-envelope mass criterion.** `docs/sections/boundary-peaks-and-the-symmetric-envelope-mass-criterion/index.html`, blob `534eed08071beb07c1dec083f5b685c33435fad7`, physical mathematical lines **7–63**. Proposition 7.21.1 (source `94ACE789`, permanent `DBAB6E03ACC7`, lines 7–33): reviewed the strictly PSH boundary collar, Levi polynomial sign, holomorphic correction and exponential peak. Its quoted canonical Hörmander solvability is recorded as an external/deferred dependency; its L² proof programme was **not reopened**. Proposition 7.21.2 (source `8CCD4ED5`, permanent `FAE7CB808668`, lines 35–63): checked the pseudo-hyperbolic kernel, directional Schwarz bounds with `max(d(z),d(w))`, peak-forced boundary zero, and the exact single-pole mass criterion. No new confirmed error; the Green residual and bounded maximality comparison inputs are not fully reverified.
+2. **§7.22 — explicit asymmetric Green domain.** `docs/sections/a-smooth-strictly-pseudoconvex-domain-with-asymmetric-green-function/index.html`, blob `578eae14c12814126a1b4cb2bd3c3e2ce96cef28`, mathematical lines **7–48**. Proposition 7.22.1, source `98AA2433`, permanent `8B924AA3ED4A`. Checked the finite-map connectedness argument, `P(z,w)=w²−z²(z−a)` local logarithmic growth at the origin, maximality off the pole, gluing competitor on `|z−a|=ε` with the essential `−√L` safety gap, and monotone analytic strictly PSH exhaustion. The competitor's `log|w|` branch supplies an admissible *upper* logarithmic pole bound despite an extra polar hypersurface. Asymmetric Green limits yield at least one asymmetric strongly pseudoconvex real-analytic member. No new printed error.
+3. **§7.24 — C² degenerate density/second-derivative obstruction.** `docs/sections/degenerate-densities-and-interior-second-derivatives/index.html`, blob `fafeab3a344243fe04f24265022bd921f3a4d375`, mathematical lines **7–104**. Proposition 7.24.1, source `5F0EDAF7`, permanent `D0960BD969B2`: checked `β−2α=6n−15>0` when `n≥3`, radial axis contact, maximality in the zero-density annular region, anisotropic scaling Jacobian and exact exponent `(2α+2(n−1)+β)/(nα)=2−1/(4n)`. The already registered `POME-MA-DEGENERATE-C2-PARAMETER-WINDOW-001` (2026-11-09) covers the wider parameter family; **not a new finding**. Its existing boundary Dirichlet/BT inputs remain conditional.
+4. **§7.25 — hyperconvexity and boundary-zero Green functions.** `docs/sections/boundary-zero-green-functions-and-hyperconvexity/index.html`, blob `4680003b95a90211015a03b44bd634eb331fb426`, mathematical lines **7–58**. Proposition 7.25.1, source `22DDEF74`, permanent `B63D9FDC459B`: checked normalization of the negative PSH exhaustion, extremal `H=h_{K,D}^*`, construction of the pasted `v_ε=max(q,H_t−ε)`, and the crucial **derived** local inequality `H_t−ε≤v_ε≤H` before deducing lower semicontinuity; this is not a circular assumption of continuity. Theorem 7.25.2, source `10813A3E`, permanent `033C98D473B9`: checked the compact negative sublevel condition and pole-independent direction. Earlier finite-product hyperconvexity deduction stays in its existing 2026-11-12 record, not duplicated.
+5. **§7.26 — Colombeau embedding and bounded BT association.** Same blob as new finding, mathematical lines **7–139**. Proposition 7.26.1, source `2D7D9C7C`, permanent `EFE2F92EE4F9`, verifies basic estimates, moment cancellation, differential-ideal multiplication, distribution injectivity; Lemma 7.26.2 (source/permanent above) checks the sign-safe positive-kernel capacity argument, including translation to the larger `B_2` ball and outer-capacity step; Theorem 7.26.3 (source/permanent above) separates existence of generalized products from **mere association** to the classical BT current for bounded inputs. No new confirmed error, proof gap, genuine duplication, or complete transitive proof certificate.
+
+## Resolution/dependency ledger for this pass
+
+- **New:** `POME-BT-SIGNED-INDEPENDENT-MOLLIFIER-SCALES-001` — verified conditional deduction; no source defect; optional future addition only.
+- **Unresolved external / conditional prerequisites:** §7.21.1 Hörmander solvability (quoted, **deferred-by-user** as to its dedicated L² proof-completion programme); §7.21.2 residual one-pole mass and maximality comparison; §7.22.1 domain-exhaustion Green continuity; §7.24.1 bounded continuous-density Dirichlet theorem and zero-density comparison; §7.25.1 relative extremal construction and quasi-continuity facts; §7.26.3 mixed bounded-capacity BT continuity. These are dependencies, **not** newly established proof gaps.
+- **Prior unchanged:** 2026-11-09 degenerate-density parameter-window; 2026-11-12 finite-product hyperconvexity. Neither recertified beyond the above direct checks.
+- **Excluded:** Demailly approximation/regularization; dedicated Bergman, L², Ohsawa–Takegoshi, multiscale-atlas, positivity-loss proof-completion; deferred-by-user, NOT resolved or certified. Elementary convolution used in printed §§7.25–7.26 is reviewed as part of these distinct local statements, not as an attempt to complete the excluded Demailly programme.
+- **No tests or builds:** no GitHub Actions, rendering, publication or source/registry/permanent-tag edits. The only requested changes are audit Markdown on `review/mathematical-audit`.
+
+**Counting:** five complete *current mathematical sections* directly read (§§7.21, 7.22, 7.24, 7.25, 7.26); zero claimed first-ever visits; one verified conditional deduction; zero new confirmed printed errors; zero whole upstream proof-chain certifications. Maintain the existing 747-number coverage matrix without treating `LEGACY-UNRECONCILED` as unseen.
