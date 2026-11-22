@@ -1,3 +1,7 @@
+> **2026-11-23 — whole direct current §§13.23 and 10.50; only §13.22 definition/Eq. 13.22.2 as selected context.** New **POME-ROOFTOP-VOLUME-COMPARISON-LOCAL-HOLDER-001** (**low / verified conditional deduction, NOT a printed theorem error**): positive lower-volume margin \(\delta\) and small comparison \(s\) yield local \(d_\theta(P_\theta(u,v),u)\le (nM/a)(2s/\delta)^{1/n}\) and a matching lower-volume deficit, with \(2nMa<\delta\). Independent direct Mayer–Vietoris, sphere, projective cohomology and Fubini–Study normalization checks found no new error. Reviewed main \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`; **+2 whole current sections / +1 selected input / +1 conditional deduction / +0 new confirmed errors / +0 transitive certificates**, historic first visits unknown. [Report](reports/2026-11-23-rooftop-local-holder-modulus-and-projective-cohomology.md) · [finding](ledger/2026-11-23-rooftop-local-holder-modulus.md) · [scope](coverage/2026-11-23-rooftop-comparison-and-projective-cohomology.md) · [matrix](SECTION_MATRIX.md). Excluded analytic programmes **deferred-by-user**; no tests, build, CI, source, main, registry, tags or publication.
+
+---
+
 > **2026-11-23 — whole direct current §§7.27, 7.32, 11.28, whole repeat §11.5; POME-GREEN-PRODUCT-CYLINDER-REDUCTION-001 low / verified conditional deduction**, exact Green and symmetric-envelope pullback on ℂ^k×bounded Ω; not a printed theorem error. [Report](reports/2026-11-23-product-cylinder-green-envelopes-and-holomorphic-sectional-curvature.md) · [finding](ledger/2026-11-23-green-product-cylinder-reduction.md) · [scope](coverage/2026-11-23-green-cylinder-cln-trace-hsc.md). +3 direct full / +1 repeat / +0 complete upstream certifications; all 747 matrix rows and user-deferred exclusions preserved.
 
 ---
@@ -562,7 +566,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §10.47 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.48 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.49 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.50 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §10.50 | 2026-11-23-FULL; LEGACY-UNRECONCILED | Entire current direct mathematical lines 7–88, blob `a45ae3fefbf6746eca800f490163ac7ce2456c07`; 2026-11-23 MV sphere/projective cohomology/FS normalization review; [scope](coverage/2026-11-23-rooftop-comparison-and-projective-cohomology.md). Earlier selected work preserved; no complete transitive Hodge proof certification |
 | §10.51 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.52 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.53 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
@@ -729,7 +733,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §13.20 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §13.21 | 2026-11-22-CURRENT-PARTIAL; LEGACY-UNRECONCILED | Read complete Theorem 13.21.1 and proof at physical lines 7–78, plus the background-form assumptions and initial part of Theorem 13.21.2 at 79–129; remaining §13.21 **not** certified. Main blob `2aa812a8962e7108459c80492c893c0c64a70b6d`. [Report](reports/2026-11-22-analytic-branches-coherence-coefficient-count-and-volume-rotation.md) · [scope](coverage/2026-11-22-analytic-branches-and-volume-limits.md) |
 | §13.22 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §13.23 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §13.23 | 2026-11-23-FULL; LEGACY-UNRECONCILED | Entire current direct mathematical lines 7–160, blob `2b0162752e9800061002119630703701c814a2ec`; 2026-11-23 new conditional rooftop local comparison modulus; [proof](reports/2026-11-23-rooftop-local-holder-modulus-and-projective-cohomology.md). Historical first visits not reconciled; excluded dependencies deferred-by-user; no full transitive certificate |
 | §13.24 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §13.25 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §13.26 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
