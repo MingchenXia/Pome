@@ -1,8 +1,8 @@
 # POME-INVLIMIT-COHOMOLOGY-STRICT-TOPOLOGY-001
 
-**Date:** 2026-11-22. **Severity:** low. **Status:** verified conditional deduction; original theorem remains correct. **Main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+**Date:** 2026-11-22. **Severity:** low. **Status:** verified conditional deduction; original theorem remains correct. **Main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 
-**Exact target:** \`docs/sections/open-maps-nuclear-spaces-and-inverse-limits--cohomology-of-countable-inverse-limits/index.html\` blob \`30e6e5800601450ce52d9c01dc5abea06a403d6e\`, Theorem 2.14.4 lines 77–119, source \`demailly-complex-geometry:3D7EF38C\`, permanent \`50E84369B7A2\`; Theorem 2.14.6 lines 122–159 source \`demailly-complex-geometry:7A48110C\`, permanent \`10E2183C49C3\`. Internal open-map result: §2.12.1 source \`demailly-complex-geometry:F97537CF\`, permanent \`71B16A3EF23E\`, lines 13–29.
+**Exact target:** `docs/sections/open-maps-nuclear-spaces-and-inverse-limits--cohomology-of-countable-inverse-limits/index.html` blob `30e6e5800601450ce52d9c01dc5abea06a403d6e`, Theorem 2.14.4 lines 77–119, source `demailly-complex-geometry:3D7EF38C`, permanent `50E84369B7A2`; Theorem 2.14.6 lines 122–159 source `demailly-complex-geometry:7A48110C`, permanent `10E2183C49C3`. Internal open-map result: §2.12.1 source `demailly-complex-geometry:F97537CF`, permanent `71B16A3EF23E`, lines 13–29.
 
 With the existing degreewise-dense Fréchet-complex transition hypotheses, also assume (a) \(B^q(E_\nu)\) is closed for every \(\nu\), and (b) the transition maps on \(H^{q-1}\) have dense range. Then every \(H^q(E_\nu)\) is Fréchet; so is its inverse limit \(K\). Existing Theorem 2.14.4 gives a continuous bijection \(\Theta^q:H^q(E)\to K\). Its composite with the cycle quotient \(Z^q(E)\to H^q(E)\) is continuous with kernel precisely \(B^q(E)\), so this kernel is closed because \(K\) is Hausdorff. Thus \(H^q(E)\) is also Fréchet. The Fréchet open mapping theorem makes \(\Theta^q\) a topological isomorphism. Proof and exact coverage: [dated report](../reports/2026-11-22-strict-inverse-limit-cohomology-and-frechet-audit.md).
 
