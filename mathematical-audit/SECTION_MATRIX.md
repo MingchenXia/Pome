@@ -1,3 +1,7 @@
+> **2026-11-22 — full direct §§7.17, 7.20, 13.17–13.19; selected §13.16.** **POME-GREEN-JENSEN-LEVEL-CONVEXITY-001** (low / verified conditional deduction): the Green Jensen level mean has positive distributional curvature \(F''=g_*\nu\) with exact slope jumps, with a sharp one-dimensional kink. Main `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **+5 whole current direct sections / +1 selected / +0 full upstream certifications; historical status unresolved**. [Proof](reports/2026-11-22-green-jensen-level-convexity-and-volume-domination-review.md) · [coverage](coverage/2026-11-22-green-envelopes-flux-and-volume-domination.md). Regularization exclusions deferred-by-user.
+
+---
+
 > **2026-11-22 — entire present-main §19.7 direct audit; selected nonexcluded §§19.4 and 23.1.** Coverage checkpoint **POME-AUDIT-CH19-SEMIGROUP-FULL-20261122** is **NOT a new mathematical finding**. Directly checked convex slicing and support functions, graded symmetric-difference estimates, interior-conductor dependencies, nested saturated cones, positive-volume almost-semigroup extension, twisted classical Okounkov sandwiching, and Hopf fiber/TV normalization. Existing 2026-11-05/16/17/18/19 results were identified rather than duplicated. Main `b6933b772f41b45918f7e25ed1afbbb1fd892272`; **+1 whole current section / +2 selected-only / +0 new findings / +0 full transitive certificates; historical first visit unknown.** [Anchored report](reports/2026-11-22-full-almost-semigroups-and-hopf-defects.md) · [coverage](coverage/2026-11-22-full-almost-semigroup-and-hopf-partial.md) · [dependency ledger](ledger/2026-11-22-almost-semigroup-dependency-reconciliation.md) · [matrix](SECTION_MATRIX.md). Demailly regularization and specified related programmes remain deferred-by-user. No tests/build/CI/source/main/site changes.
 
 ---
@@ -366,10 +370,10 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §7.14 | 2026-11-22-FULL; LEGACY-UNRECONCILED | Full present-main direct HTML review (gradient density, lemma Steps 1–5; new sharp C0-to-weighted-L2 rate); [proof](reports/2026-11-22-current-weighted-gradient-c0-stability-and-bt-capacity-audit.md) and [scope](coverage/2026-11-22-bt-gradients-relative-extremals-semipositive-equations.md); no whole upstream certification; historical records retained |
 | §7.15 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §7.16 | 2026-11-22-FULL; LEGACY-UNRECONCILED | Full present-main direct HTML review (relative extremals, proper maps, compact and arbitrary-set capacities); [proof](reports/2026-11-22-current-weighted-gradient-c0-stability-and-bt-capacity-audit.md) and [scope](coverage/2026-11-22-bt-gradients-relative-extremals-semipositive-equations.md); no whole upstream certification; historical records retained |
-| §7.17 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §7.17 | 2026-11-22-FULL; LEGACY-UNRECONCILED | FULL current direct 2026-11-22, mathematical lines 7–146, blob `e82b6baaa0061f55aeea2f88ec0567d9653ecd61`. [Report](reports/2026-11-22-green-jensen-level-convexity-and-volume-domination-review.md); earlier visit history unreconciled |
 | §7.18 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §7.19 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §7.20 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §7.20 | 2026-11-22-FULL; LEGACY-UNRECONCILED | FULL current direct 2026-11-22, mathematical lines 7–132, blob `895dbdfaa3c78ce41abe556f573644d857ab7517`. POME-GREEN-JENSEN-LEVEL-CONVEXITY-001 (low / conditional deduction). [Report](reports/2026-11-22-green-jensen-level-convexity-and-volume-domination-review.md) |
 | §7.21 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §7.22 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §7.23 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
@@ -683,9 +687,9 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §13.14 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §13.15 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §13.16 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §13.17 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §13.18 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §13.19 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §13.17 | 2026-11-22-FULL; LEGACY-UNRECONCILED | FULL current direct 2026-11-22, mathematical lines 7–78, blob `7d55ffb2d7cb91897029a9a2101788eb8aa70141`; inherited bigness from §13.16 checked. [Report](reports/2026-11-22-green-jensen-level-convexity-and-volume-domination-review.md) |
+| §13.18 | 2026-11-22-FULL; LEGACY-UNRECONCILED | FULL current direct 2026-11-22, mathematical lines 7–111, blob `28323e5b08b0f7e53567f641bd9e4223472bc331`; deficit/stretch and Lelong bounds checked. [Report](reports/2026-11-22-green-jensen-level-convexity-and-volume-domination-review.md) |
+| §13.19 | 2026-11-22-FULL; LEGACY-UNRECONCILED | FULL current direct 2026-11-22, mathematical lines 7–215, blob `aa11cda5105062bb7d7b5eaaa1396940c679e097`; domination, contact support and isolated-pole residual measure checked, upstream not certified. [Report](reports/2026-11-22-green-jensen-level-convexity-and-volume-domination-review.md) |
 | §13.20 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §13.21 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §13.22 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
