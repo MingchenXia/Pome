@@ -716,8 +716,8 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §14.7 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §14.8 | THIS-RUN-FULL; HISTORIC-PARTIAL-REPORTED | **2026-11-20** full direct lines 5–70, theorem C611B2CA264A, blob 34526fcac6d5f30e71a98cadc88a4c76817546c4; new general-Hermitian trace-free variance identity [proof](reports/2026-11-20-ma-scalar-variance-hopf-fiber-hessian.md). Existing 2026-11-06 Kähler-only result and duplicate retained, not new; upstream not certified |
 | §14.9 | THIS-RUN-FULL; HISTORIC-UNRECONCILED | **2026-11-20** full direct lines 5–105, tags CA9F2EF1D149/BFCF1480CC8B/9CEA8A3A68F0, blob a0c390cff1768118798824a64318c416636b9b91; Hopf scalar/fiber variance balance and independent visible equation duplicate [proof](reports/2026-11-20-ma-scalar-variance-hopf-fiber-hessian.md); historic first visits not established, no upstream certification |
-| §14.10 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §14.11 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §14.10 | 2026-11-22-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Entire present-main mathematical lines 7–25, blob `3a16d6685c70f1a5448c2a9c09b240d6fd44ed83`, Theorem tag `76AF759A4024`; dd^c/Aeppli bookkeeping checked. Earlier surface adjoint-scalar finding preserved, NOT relogged. [Scope](coverage/2026-11-22-gauduchon-abp-lp-stability-whole-sections.md). +0 full upstream-chain certification |
+| §14.11 | 2026-11-22-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Entire present-main mathematical lines 7–106, blob `f3e973821ba8b04a496e4f996917ff491e3956d1`, Proposition tag `60FD5A56EE10`, Eq. 14.11.2 tag `8F909795AE16`; ABP contact-set and scalar/Green signs checked, Green parametrix not independently certified. [Scope](coverage/2026-11-22-gauduchon-abp-lp-stability-whole-sections.md) |
 | §14.12 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §14.13 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §14.14 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
@@ -739,7 +739,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §15.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §15.2 | THIS-RUN-FULL; LEGACY-UNRECONCILED | Full direct read 2026-11-21, lines 5–99, new POME-EXP-MA-MULTIPLICATIVE-DATA-STABILITY-001 (low / verified conditional deduction; no source error); legacy history unreconciled; [proof](reports/2026-11-21-exponential-ma-data-stability-and-hermitian-nef-closure.md), [coverage](coverage/2026-11-21-ch15-comparison-ch10-bc-nef-ch20-selected.md); +0 complete upstream chains |
 | §15.3 | 2026-11-22-FULL; LEGACY-UNRECONCILED | Full present-main direct HTML review (subsolution and exponential/normalized equations; upper/lower-envelope limits); [proof](reports/2026-11-22-current-weighted-gradient-c0-stability-and-bt-capacity-audit.md) and [scope](coverage/2026-11-22-bt-gradients-relative-extremals-semipositive-equations.md); no whole upstream certification; historical records retained |
-| §15.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §15.4 | 2026-11-22-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Entire present-main mathematical lines 7–111, blob `f0c16c8d03d6175fd285bfbc1fc3a6af96cf6d8a`, Theorem tag `72397EB33655`, Corollary `E429FB866D08`; exact stability exponent and domination preconditions checked. Prior exponent-sharpness finding NOT relogged; no full upstream certification. [Scope](coverage/2026-11-22-gauduchon-abp-lp-stability-whole-sections.md) |
 | §15.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §15.6 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §15.7 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
