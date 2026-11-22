@@ -1,3 +1,7 @@
+> **POME-TORIC-OKOUNKOV-LEGACY-1228-EQ-LABEL-001** — **low / confirmed equation-label presentation error; unresolved proposed patch**, not a mathematical counterexample. §21.13 Proposition 21.13.33, main `b6933b772f41b45918f7e25ed1afbbb1fd892272`, source `sgpt-DBC3BA0C`, permanent tag `0ED70BB2A7D0`, lines 433–463, legacy displayed `12.28` at line 440. Keep the proven identity and attribution, propose reader-number correction in separately reviewable PR only. [Finding](ledger/2026-11-22-toric-okounkov-legacy-equation.md) · [full proof/scope](reports/2026-11-22-toric-okounkov-legacy-equation-and-na-net-comparison.md). Non-Archimedean net and all excluded regularization programmes remain conditional/deferred as appropriate.
+
+---
+
 > **2026-11-22 — POME-TESTCURVE-SCALING-LEGACY-EQNUM-001: low / confirmed error, presentation only.** Orphan source equation label `9.92` in §17.15.34, main `b6933b772f41b45918f7e25ed1afbbb1fd892272`, `docs/sections/test-curves--operations-on-test-curves/index.html` lines 768–771, source `4C06B8D5`, permanent `148305D820BC`. Scaling identity valid; separately reviewed reader-number/anchor repair proposed, not executed. [Full evidence](ledger/2026-11-22-test-curve-scaling-legacy-equation-number.md). Full §§17.14–17.15, selected §21.13.1–10; no complete transitive verification. Excluded programmes remain deferred-by-user.
 
 ---
