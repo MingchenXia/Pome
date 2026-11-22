@@ -1,0 +1,11 @@
+# POME-HESSIAN-HIGHER-TRANSVERSE-CAPACITY-OBSTRUCTION-001
+
+- **Date:** 2026-11-22.
+- **Severity / status:** low / **verified conditional deduction**; original printed results not false, no complete transitive proof certification.
+- **Main SHA:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+- **Integrated anchors:** §8.7.1 `docs/sections/complex-hessian-equations--continuous-products-envelopes-and-domination/index.html`, source `non-kahler-pluripotential-theory:81F79DFF`, permanent `D2A0F255F625`, blob `045d10eb63453837e8675d22436afa9b9d6335ad`, lines 11–36; §8.10.6 `non-kahler-pluripotential-theory:350D7B3A`, permanent `2A6BE9847309`, lines 186–205; §8.10.7 `non-kahler-pluripotential-theory:36B886BE`, permanent `AEB4F2397BBF`, lines 210–247, blob `25f25433cb9b17de6715a5b05f8b3c15b95a18cd`.
+- **New conclusion:** for every `2≤k≤m≤n`, local continuous globally bounded `ω`-PSH potentials with independent singular real-normal variables give a **positive mixed `k`-factor Hessian measure** on a compact subset of a smooth real codimension-`k` submanifold, even though that set has first Sobolev capacity zero. This realizes each transverse singular codimension, not merely Example 8.10.7's `k=2` case or its trivial extension using smooth factors.
+- **Justification:** `u_j=aχ|\Re z_j|`, mollified by `aχ\sqrt{(\Re z_j)^2+δ^2}`, are uniformly admissible for small `a`; on the inner chart `dd^c u_j=a\,α_jδ_{x_j=0}` with `α_j=i\,dz_j\wedge d\bar z_j/(4π)`; continuous-product convergence and independent-variable approximate identities yield an exact subset expansion, and only the full-`k` singular term charges `E`. The first-Sobolev-capacity zero estimate follows already from §8.10.6 for `E⊂\{x_1=x_2=0\}`.
+- **Dependencies / affected conclusions:** uses integrated §8.7.1 and §8.10.6; rules out any universal `Q_k(E)≤C\mathrm{Cap}_1(E)^γ` for `γ>0`, `k≥2`. §8.11's stronger capacity remains necessary. Upstream approximation/local mass/elliptic results have not been separately fully certified.
+- **Proposed correction:** none to existing theorems. Optional future cross-reference showing the arbitrary-`k` transverse model. Production files unchanged.
+- **Proof:** [dated report](../reports/2026-11-22-hessian-mixed-higher-codimension-sobolev-capacity.md). Excluded regularization programmes remain deferred-by-user.
