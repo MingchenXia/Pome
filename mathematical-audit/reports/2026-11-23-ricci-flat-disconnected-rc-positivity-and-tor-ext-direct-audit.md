@@ -13,12 +13,12 @@
 **Counterexample:** Let `S` be a K3 surface equipped with any nonflat Ricci-flat Kähler metric (the section already cites Yau's Calabi theorem for existence) and let `T=\mathbb C^2/\Lambda` be a flat complex two-torus. Put `X=S\sqcup T` and use the given Ricci-flat forms on the two components. Then `X` is a compact complex surface with a **globally nonflat** Ricci-flat Kähler metric in the explicit scope of lines 7–10. However `T^{1,0}T\simeq\mathcal O_T^{\oplus2}` cannot carry an RC-positive Hermitian metric, as shown next.
 
 **Obstruction on the torus (self-contained reduction):** Suppose the trivial rank-two bundle `E=\mathcal O_T^{\oplus2}` had an RC-positive metric. Apply the holomorphic quotient `E\twoheadrightarrow Q=\mathcal O_T` (projection onto one coordinate) and give `Q` the induced quotient Hermitian metric. At every point and every nonzero quotient vector `q`, its minimal-norm orthogonal lift `v` satisfies the elementary quotient Chern-curvature identity
-[
+\[
  \langle i\Theta_Q(\xi,\bar\xi)q,q\rangle
  =
  \langle i\Theta_E(\xi,\bar\xi)v,v\rangle+
  \|\mathrm{II}^{*}_{\xi}q\|^2.
-]
+\]
 Here the final term is nonnegative; this follows by differentiating the orthogonal projection of the Chern connection in a local holomorphic splitting. Thus the RC-positive tangent direction for `v` would make `Q` RC-positive. But for any Hermitian metric `\|1\|_Q^2=e^{-\phi}` on the holomorphically trivial line `Q`, the Chern curvature is `i\partial\bar\partial\phi`. Since `T` is compact, `\phi` attains a maximum, where this form is negative semidefinite. There is no positive direction. Contradiction. Restricting any hypothetically RC-positive tangent metric on `X` to `T` gives the forbidden metric on `T^{1,0}T`.
 
 **Proof location / existing dependency:** Line **135** invokes Theorem 11.26.3 from the existence of a nonempty RC-positive open subset obtained in Lemmas 11.27.1–2, but Theorem 11.26.3 needs the connectedness correction already recorded in the earlier audit: its Poisson right-hand side has zero total mean, not zero mean on each component. On the flat torus component the conformal construction cannot create RC positivity. The nonclosed-form calculation (lines **137–143**) and determinant obstruction (line **145**) are local/compact arguments and are **not** separately refuted here.
