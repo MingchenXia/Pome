@@ -1,3 +1,7 @@
+> **POME-WEIERSTRASS-COEFFICIENT-ORDER-ROOT-EXPONENT-001** — low / **verified conditional deduction**, not a false printed theorem. §9.2 Eq. 9.2.1, source `foundations-of-pluripotential-theory:1F95143C`, permanent `667706D7A5E8`, lines 16–29, current main `b6933b772f41b45918f7e25ed1afbbb1fd892272`: monic polynomial coefficients of orders s_j give a sharp universal root bound O(||z'||^(min s_j/j)), including the sharp model w^m-z_1^s. Optional explanatory note proposed, no required repair; §9.2 direct whole mathematical audit, §9.1 entire introduction, §19.5.32 selected, §19.4.7 repeat. [Proof](reports/2026-11-22-weierstrass-root-exponents-and-coherence.md) · [finding](ledger/2026-11-22-weierstrass-root-exponents.md). All excluded programmes deferred-by-user; no full upstream certification.
+
+---
+
 > **POME-TORIC-OKOUNKOV-LEGACY-1228-EQ-LABEL-001** — **low / confirmed equation-label presentation error; unresolved proposed patch**, not a mathematical counterexample. §21.13 Proposition 21.13.33, main `b6933b772f41b45918f7e25ed1afbbb1fd892272`, source `sgpt-DBC3BA0C`, permanent tag `0ED70BB2A7D0`, lines 433–463, legacy displayed `12.28` at line 440. Keep the proven identity and attribution, propose reader-number correction in separately reviewable PR only. [Finding](ledger/2026-11-22-toric-okounkov-legacy-equation.md) · [full proof/scope](reports/2026-11-22-toric-okounkov-legacy-equation-and-na-net-comparison.md). Non-Archimedean net and all excluded regularization programmes remain conditional/deferred as appropriate.
 
 ---
