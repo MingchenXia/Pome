@@ -1,0 +1,10 @@
+# 2026-11-23 precise scope: closed-nef subtraction, warped flat zeros and selected trace steps
+
+**Reviewed main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **New finding:** POME-WARPED-FLAT-ZERO-LOG-VOLUME-001 (low / verified conditional deduction, not a printed theorem error).
+
+- **NEW whole current direct §12.12**, lines 7–166, docs/sections/a-gauduchon-variational-volume--subtraction-with-a-closed-nef-core/index.html, blob 88e74272e61ae22c6f87b2a9fba781178da14d70. Theorem 12.12.2, Proposition 12.12.4, Example 12.12.7 and all intervening formulas/proofs checked. Nef-and-big Kähler current existence is still a named dependency.
+- **NEW whole current direct §12.13**, lines 7–150, docs/sections/a-gauduchon-variational-volume--subtraction-on-warped-products/index.html, blob 5bff92967df7c96355d202871fc3dc033c99010d. Theorem 12.13.1, Propositions 12.13.4 and 12.13.6 and exact cost Eq. 12.13.2 checked, and the infinite-order zero logarithmic asymptotic derived.
+- **SELECTED ONLY §19.8**: Gauduchon degree and trace §§19.8.5/19.8.7, lines 104–213, docs/sections/holomorphic-sections-and-hermitian-mass/index.html, blob 5f00431e7986d899dc833c89175686b75f09371d. Existing older §19.8.10–11 selected record preserved. Dedicated Bergman/L² passages **not** checked.
+- **SELECTED ONLY §15.10**: bounded-measurable-density limit and fixed-reference mixed inequality in Theorem 15.10.1, lines 58–104, docs/sections/equations-with-prescribed-singularities--a-bounded-subsolution-theorem/index.html, blob 6240b6dc071d12eac1476ed548736d012c1a4fa2. Earlier approximation-dependent construction explicitly **deferred-by-user**; no entire-section claim.
+
+**Count:** +2 current whole section reviews, +2 selected nonexcluded passages, +1 low conditional deduction, +0 newly confirmed printed errors, +0 complete transitive proof-chain certificates. No historical first-visit assertion. The matrix retains all 747 existing section rows and the entire deferred-by-user scope. No tests, builds, CI, source, main, registry, permanent tag or website edit.
