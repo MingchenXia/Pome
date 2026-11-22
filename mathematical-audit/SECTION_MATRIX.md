@@ -683,9 +683,9 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §12.6 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §12.7 | 2026-11-21-FULL; LEGACY-UNRECONCILED | Entire integrated mathematical lines 7–105, main blob `1c0f7efb92914b8a55754bd5039d7319392fb03b`, [proof](reports/2026-11-21-gauduchon-dual-varying-density-nets-and-bt-audit.md), [scope](coverage/2026-11-21-gauduchon-dual-varying-density-nets-and-bt-audit.md); no new confirmed printed error, no certified complete upstream chain, previous partial visits preserved |
 | §12.8 | 2026-11-21-FULL; LEGACY-UNRECONCILED | Entire current integrated section (§12.8.1 Lemma, §12.8.2 Theorem and complete proofs), main blob `ed1ad2bf6220cd086a44d7ee92ca7779666288d9`; source/permanent theorem `3606F8FD`/`E9E119AAA269`. [Quantitative support-variance proof](reports/2026-11-21-gauduchon-support-variance-gap-and-weak-adjoints.md) and [scope](coverage/2026-11-21-ch12-dual-support-and-ch24-weak-adjoints.md). +0 fully certified upstream chains; prior §12.7 varying-density net result not repeated; historic first visit unknown |
-| §12.9 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §12.9 | 2026-11-23-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Complete current mathematical lines 7–608, blob `42dae52119ba2bf793f104280abe615d9b25f09d`; [Gauduchon weak-not-TV result and proof](reports/2026-11-23-gauduchon-oscillation-weak-not-tv-and-nef-tail-rotation.md), [scope](coverage/2026-11-23-gauduchon-determinants-nef-limits-and-common-barriers.md). Earlier selected §§12.9.1–2 not recounted, no transitive certification |
 | §12.10 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §12.11 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §12.11 | 2026-11-23-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Complete current mathematical lines 7–53, blob `086d12a65c46cfb68c7d6fe952266515ca04623b`; nef limit and zero-infimum attainment checked conditionally, [anchored report](reports/2026-11-23-gauduchon-oscillation-weak-not-tv-and-nef-tail-rotation.md). Historical first visits unresolved |
 | §12.12 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §12.13 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §12.14 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
