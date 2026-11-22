@@ -1,0 +1,11 @@
+# 2026-11-23 — Sharp contact-set trace domination
+
+**POME-CONTACT-MIXED-MA-SHARP-TRACE-PRODUCT-001** — **low / verified conditional deduction** (not an original theorem error; no complete upstream-chain certificate). Reviewed main b6933b772f41b45918f7e25ed1afbbb1fd892272.
+
+Source: §16.14 Proposition 16.14.6, foundations-of-pluripotential-theory:7A1567B2, permanent CB0B256B92D7, docs/sections/envelopes-and-model-potentials--measures-on-contact-sets--obstacles-with-bounded-metric-laplacian/index.html, blob e9ce0caf7bd8b123062d9cb6fffd49fdfd0d5ffb, lines 122–154; Corollary 16.14.11 permanent E3B684F226D1, lines 264–279.
+
+For continuous theta_j-psh u_j with locally bounded metric Laplacian on a Kähler n-fold, T_j=theta_j+dd^c u_j and tau_j=tr_omega(T_j), the absolutely continuous mixed product satisfies 0 <= wedge_j T_j <= (prod_j tau_j/n!) omega^n. The same estimate holds after restriction to the joint contact set with W^(2,1) obstacles; on that set the Hessian traces may be read from the obstacles. This follows by spectral rank-one decomposition, Hadamard determinant bound, and Proposition 16.14.6's density and contact-Hessian identification. The factor 1/n! is sharp on a flat product of n elliptic curves with orthogonal rank-one theta_j and zero potentials. No new claim about arbitrary non-psh obstacle forms off the contact set.
+
+**Correction:** optional additive bound in a later independently reviewed source patch; **status remains verified conditional deduction**, not a verified global replacement proof. Affected dependents: §16.14.11, potential comparison estimates in §16.15. Outstanding internal dependencies: §7.13.4 and the Sobolev/contact and Laplace machinery; not certified transitively. [Full anchored proof](../reports/2026-11-23-contact-trace-bound-gauduchon-matrix.md). Demailly regularization and dedicated Bergman/L2/Ohsawa–Takegoshi/multiscale/positivity-loss programmes remain **deferred-by-user**.
+
+**Prior classification retained, not a new finding:** POME-GAUD-ALIGN-SPLIT-001 (2026-10-24) already records the malformed §14.13.3 tail chip A6EC7DDEACFB and full multiline equation. This session checked it again without changing its status or relogging it.
