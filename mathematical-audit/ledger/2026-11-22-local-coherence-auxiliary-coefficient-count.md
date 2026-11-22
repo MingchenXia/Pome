@@ -1,0 +1,12 @@
+# POME-LOCAL-COHERENCE-AUXILIARY-COEFFICIENT-COUNT-001 — 22 November 2026
+
+- **Classification**: low / verified conditional deduction. NOT a printed theorem error, NOT a complete transitive-chain certification.
+- **Main baseline**: b6933b772f41b45918f7e25ed1afbbb1fd892272.
+- **Exact anchor**: docs/sections/complex-spaces-and-modifications--analytic-sets-and-their-local-branches/index.html, blob `85516d6b7ac0226ea121a16ee98d673e2cbb43d5`, Theorem §9.3.10 source `foundations-of-pluripotential-theory:6D85A4A5` / permanent `3675C20D7E18`; polynomial-parameter construction at physical lines 257–265 and colon ideal (9.3.11) at lines 265–300. Projection premise §9.3.4 source `62E2CCC8` / permanent `833B11F874F9`, lines 93–183.
+- **Hypotheses**: irreducible analytic germ, finite projection of degree `q≥1`, codimension `r=n−d≥1`, generic parameter `c∈C^r`, nonzero discriminant in the coefficient field.
+- **Claim**: the *auxiliary saturation ideal*, not necessarily the vanishing ideal itself, has a presentation using at most \(\binom{r+q-1}{q}+r\binom{r+q(q-1)-1}{q(q-1)}\) coefficient functions from the displayed construction, with one nonzero `h` satisfying \(\mathcal I_{A,x}=(G_1,\dots,G_N)_x:h_x\).
+- **Proof**: homogeneity degree `q` of `W_c(z',u_c)`; degree `q(q−1)/2` of the Vandermonde determinant; replacing degree-`j` Vandermonde column yields degree loss `j`, compensated by substitution `u_c^j`. Each `δ_c z_k−B_{kc}(z',u_c)` has degree `q(q−1)`. Count homogeneous monomials. §9.3.10 itself provides nonzero coefficient `h` and exact saturation. Full calculations and necessary restrictions in the accompanying report.
+- **Proposed correction**: none necessary; optionally document the quantitative size of this existing construction in a reviewable note. No source/proof/registry mutations.
+- **Dependents**: coherence uses in analytic-set theory; no mathematical incompatibility found. Oka kernels §9.2.7 and local parametrization remain individually uncertified as full dependency chains.
+- **Scope**: §9.3 complete present-main direct read, selected §13.21.1 and §13.21.2 premises; all user-excluded regularization/Bergman/L²/OT/multiscale/positivity-loss work remains **deferred-by-user**.
+- [Anchored mathematical proof](mathematical-audit/reports/2026-11-22-analytic-branches-coherence-coefficient-count-and-volume-rotation.md) · [Exact coverage](mathematical-audit/coverage/2026-11-22-analytic-branches-and-volume-limits.md).
