@@ -1,0 +1,13 @@
+# POME-RICCI-FLAT-KAHLER-RCPOSITIVE-DISCONNECTED-001
+
+- **Date / reviewed main:** 2026-11-23 / `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
+- **Severity / status:** **medium / confirmed error**, mathematically false as **printed without connectedness**; this is **not** a claim against the compact connected theorem and not a mere missing-proof qualification.
+- **Exact reading-edition anchor:** `docs/sections/gauduchon-metrics-and-linear-mass--ricci-flat-kahler-surfaces/index.html`, blob `119ac604fd60b412ecb7d51910cfcecc04b3b7cf`, Theorem **11.27.4**, physical line **129**, proof **134–145**; source `non-kahler-pluripotential-theory:9BA7885F`, permanent tag **8C2D7F0F7808**.
+- **Hypotheses missing:** §11.27 lines 7–10 assume a compact Ricci-flat Kähler surface, not connectedness; the theorem assumes only nonflatness somewhere.
+- **Counterexample:** disjoint union of a nonflat Ricci-flat Kähler K3 surface and a flat complex two-torus. Its tangent bundle on the torus is `O^{\oplus2}`; RC positivity descends to a holomorphic quotient line bundle with its quotient metric, but the trivial quotient line cannot be RC-positive on a compact torus because the logarithmic metric potential has a maximum. Hence no globally RC-positive tangent metric exists.
+- **Exact missing step:** line 135 applies Theorem 11.26.3 after locating an RC-positive **nonempty open set**; the theorem's Poisson construction requires an RC-positive open set in **each connected component**. Earlier finding `POME-RCPOSITIVE-GLOBAL-SPREAD-DISCONNECTED-001` already identifies and proves this omitted hypothesis; the present finding is the distinct false dependent **Theorem 11.27.4**.
+- **Proposed correction:** require compact **connected** `X`, or require nonflatness and run the corrected argument on **every** connected component. Keep the source label, permanent tag, historical attribution, and local calculations. Repair is a proposed reviewable patch, not applied; the connected proof remains conditional on its elliptic inputs.
+- **Affected dependents:** §11.27 paragraph 150–153 and any applications to disconnected bases; Corollary **11.27.5** (source `F869939B`, permanent `9A2FC61929F1`, line 157) **already explicitly assumes connectedness** and is not refuted.
+- **Other work:** complete direct §§10.66–10.68 and §11.27; none of their complete transitive dependency chains was certified.
+- **Detailed proof:** [2026-11-23 report](../reports/2026-11-23-ricci-flat-disconnected-rc-positivity-and-tor-ext-direct-audit.md). **Scope:** [coverage](../coverage/2026-11-23-sphere-tor-ext-ricci-flat.md).
+- **Deferred:** all user-excluded Demailly regularization/Bergman/L²/OT/multiscale/positivity-loss work remains deferred-by-user; no publication, build or CI.

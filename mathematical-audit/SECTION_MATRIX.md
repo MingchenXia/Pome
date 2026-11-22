@@ -1,3 +1,7 @@
+> **2026-11-23 — entire current §§10.66–10.68 and §11.27 directly read; POME-RICCI-FLAT-KAHLER-RCPOSITIVE-DISCONNECTED-001 medium / confirmed unqualified theorem error in §11.27.4 (missing connectedness).** Report [2026-11-23](reports/2026-11-23-ricci-flat-disconnected-rc-positivity-and-tor-ext-direct-audit.md), [finding](ledger/2026-11-23-ricci-flat-tangent-disconnected.md), [scope](coverage/2026-11-23-sphere-tor-ext-ricci-flat.md). +4 whole current direct sections, +1 confirmed theorem error, +0 complete transitive certifications; 747 section rows preserved; exclusions deferred-by-user.
+
+---
+
 > **2026-11-22 — full present-main §9.3, selected §13.21; POME-LOCAL-COHERENCE-AUXILIARY-COEFFICIENT-COUNT-001 low / verified conditional deduction (auxiliary coefficient count, NOT generators of I and NOT an original error).** +1 whole current direct, +1 selected partial, +0 new confirmed errors, +0 transitive certifications. [Proof](reports/2026-11-22-analytic-branches-coherence-coefficient-count-and-volume-rotation.md) · [coverage](coverage/2026-11-22-analytic-branches-and-volume-limits.md). 747 section rows preserved; excluded programmes deferred-by-user.
 
 ---
@@ -570,9 +574,9 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §10.63 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.64 | 2026-11-22-FULL; LEGACY-UNRECONCILED | **2026-11-22:** full mathematical lines 8–53, blob `5dfc94ab65a71cdd8cfe9d648552a9f014056fdf`; natural finite integral cochain and torsion/scalar-extension comparisons checked; no new printed error; [report](reports/2026-11-22-martin-cutoff-canonical-boundary-and-integral-torus.md); no complete upstream certificate or historical first-visit claim | Earlier classification: Prior reports not fully reconciled | |
 | §10.65 | 2026-11-22-FULL; LEGACY-UNRECONCILED | **2026-11-22:** full mathematical lines 8–75, blob `5919e95b6add69bc972ee1fb6d7c587a4dac46eb`; deck cocycle, i/(2pi) curvature sign and averaging checked; no new printed error; [report](reports/2026-11-22-martin-cutoff-canonical-boundary-and-integral-torus.md); no complete upstream certificate or historical first-visit claim | Earlier classification: Prior reports not fully reconciled | |
-| §10.66 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.67 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.68 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §10.66 | 2026-11-23-FULL-DIRECT; LEGACY-UNRECONCILED | Current whole mathematics directly checked, no new confirmed source errors; [report](reports/2026-11-23-ricci-flat-disconnected-rc-positivity-and-tor-ext-direct-audit.md); [scope](coverage/2026-11-23-sphere-tor-ext-ricci-flat.md); prior legacy unverified |
+| §10.67 | 2026-11-23-FULL-DIRECT; LEGACY-UNRECONCILED | Current whole mathematics directly checked, no new confirmed source errors; [report](reports/2026-11-23-ricci-flat-disconnected-rc-positivity-and-tor-ext-direct-audit.md); [scope](coverage/2026-11-23-sphere-tor-ext-ricci-flat.md); prior legacy unverified |
+| §10.68 | 2026-11-23-FULL-DIRECT; LEGACY-UNRECONCILED | Current whole mathematics directly checked, no new confirmed source errors; [report](reports/2026-11-23-ricci-flat-disconnected-rc-positivity-and-tor-ext-direct-audit.md); [scope](coverage/2026-11-23-sphere-tor-ext-ricci-flat.md); prior legacy unverified |
 | §10.69 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.70 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.71 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
@@ -640,7 +644,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §11.24 | THIS-RUN-FULL; HISTORIC-PARTIAL-REPORTED; LEGACY-UNRECONCILED | **2026-11-20:** whole mathematical lines 7–69, blob `8fd933d027ecdba0c2df8efe7524e3984613857a`; full Fredholm/ABP proof checked with no new finding, prior endpoint and adjoint work not repeated; [coverage](coverage/2026-11-20-ch11-pluriharmonic-fredholm-adjoint.md). No full upstream chain or historical first-visit assertion |
 | §11.25 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20:** whole mathematical lines 7–27, blob `48117e4e5901381d5ae692cfd29f2cf5f1325abc`; Gauduchon mass/capacity dependencies checked conditionally, general Hermitian adjoint limit explicitly left open; [coverage](coverage/2026-11-20-ch11-pluriharmonic-fredholm-adjoint.md). No transitive certification or historic first-visit assertion |
 | §11.26 | 2026-11-22-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | **2026-11-22:** direct entire mathematical lines 5–109, main blob d54016b202422bde3bc5e2c6e493e4618918a7d7; two medium confirmed global-hypothesis counterexamples POME-RCPOSITIVE-GLOBAL-SPREAD-DISCONNECTED-001 and POME-RCPOSITIVE-FLAT-DETERMINANT-NONCOMPACT-001; compact connected corrections proposed only. Prior history was not fully reconciled; no first-ever visit or upstream certificate claimed. [Proof/coverage](reports/2026-11-22-compact-connected-hypotheses-gauduchon-rc-positive-and-current-fiber-audit.md), [scope](coverage/2026-11-22-currents-projective-bundles-rcpositive-rotation.md) |
-| §11.27 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §11.27 | 2026-11-23-FULL-DIRECT; LEGACY-UNRECONCILED | Current full lines 7–168; medium confirmed false unqualified Theorem 11.27.4 (POME-RICCI-FLAT-KAHLER-RCPOSITIVE-DISCONNECTED-001); [report](reports/2026-11-23-ricci-flat-disconnected-rc-positivity-and-tor-ext-direct-audit.md), [scope](coverage/2026-11-23-sphere-tor-ext-ricci-flat.md); previous legacy status unchanged |
 | §11.28 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §11.29 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §11.30 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
