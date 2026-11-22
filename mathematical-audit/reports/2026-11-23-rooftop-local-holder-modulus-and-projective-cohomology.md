@@ -1,12 +1,12 @@
 # Direct audit: rooftop comparison and projective cohomology
 
-**Date:** 2026-11-23. **Production main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. **Review branch:** \`review/mathematical-audit\`.
+**Date:** 2026-11-23. **Production main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. **Review branch:** `review/mathematical-audit`.
 
 ## Exact current-integrated coverage
 
-- §13.23, entire mathematical text physical lines **7–160** in \`docs/sections/volumes-under-bounded-mass--rooftops-and-capacity-convergence/index.html\`, main blob \`2b0162752e9800061002119630703701c814a2ec\`. Lemma **13.23.1**, permanent tag \`2B568CD72F9D\`, statement lines 11–15 and proof 20–42; Proposition **13.23.2**, permanent tag \`1542F41C8A51\`, statement lines 50–52 and proof 58–90; Theorem **13.23.3**, permanent tag \`7D5F8FB5CFAB\`, statement lines 98–106 and proof 111–160.
-- §10.50, entire mathematical text physical lines **7–88** in \`docs/sections/hodge-theory-curvature-and-compact-vanishing--the-cohomology-of-spheres-and-projective-space/index.html\`, main blob \`a45ae3fefbf6746eca800f490163ac7ce2456c07\`. Proposition **10.50.1**, tag \`DD72F1B19307\`, lines 11–27; Lemma **10.50.2**, tag \`2E46F3014687\`, lines 33–44; Theorem **10.50.3**, tag \`558E1268EEED\`, lines 49–88.
-- Definition §13.22.1 and Eq. **13.22.2**, selected context only, \`docs/sections/volumes-under-bounded-mass--cauchy-convergence-of-model-potentials/index.html\`, blob \`390f280e62ce8ba01de30f6b1ed52b4aa7fb10e4\`, lines 7–27. Other dependencies listed below are not counted as new whole-section readings.
+- §13.23, entire mathematical text physical lines **7–160** in `docs/sections/volumes-under-bounded-mass--rooftops-and-capacity-convergence/index.html`, main blob `2b0162752e9800061002119630703701c814a2ec`. Lemma **13.23.1**, permanent tag `2B568CD72F9D`, statement lines 11–15 and proof 20–42; Proposition **13.23.2**, permanent tag `1542F41C8A51`, statement lines 50–52 and proof 58–90; Theorem **13.23.3**, permanent tag `7D5F8FB5CFAB`, statement lines 98–106 and proof 111–160.
+- §10.50, entire mathematical text physical lines **7–88** in `docs/sections/hodge-theory-curvature-and-compact-vanishing--the-cohomology-of-spheres-and-projective-space/index.html`, main blob `a45ae3fefbf6746eca800f490163ac7ce2456c07`. Proposition **10.50.1**, tag `DD72F1B19307`, lines 11–27; Lemma **10.50.2**, tag `2E46F3014687`, lines 33–44; Theorem **10.50.3**, tag `558E1268EEED`, lines 49–88.
+- Definition §13.22.1 and Eq. **13.22.2**, selected context only, `docs/sections/volumes-under-bounded-mass--cauchy-convergence-of-model-potentials/index.html`, blob `390f280e62ce8ba01de30f6b1ed52b4aa7fb10e4`, lines 7–27. Other dependencies listed below are not counted as new whole-section readings.
 
 ## POME-ROOFTOP-VOLUME-COMPARISON-LOCAL-HOLDER-001
 
