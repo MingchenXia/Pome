@@ -1,3 +1,5 @@
+> **SUPERSEDED — 2026-11-23 verified audit retraction.** Four missing-compactness/connectedness source-error claims in this record (Gauduchon §11.4.2; RC-positivity §§11.26.3/11.26.7; dependent Ricci-flat §11.27.4 recorded separately) are **WITHDRAWN**. The actual current §1.1 convention, `docs/sections/conventions/index.html` blob `ef778e54d8d7413242387e95c52269b3c7d42cae` line 123, states that `X` is **connected and compact unless otherwise specified**. The noncompact or disconnected examples therefore fall outside these theorem hypotheses; they do **not** establish printed errors. Earlier mathematical computations and unrelated review observations remain historical evidence, not a complete proof certification. See [new anchored retraction](../reports/2026-11-23-blowup-density-weak-endpoint-and-resolved-poles-connectedness.md).
+
 # Compactness and connectedness in Gauduchon and RC-positivity assertions: cross-chapter audit
 
 **Date:** 2026-11-22. **Current main reviewed:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
