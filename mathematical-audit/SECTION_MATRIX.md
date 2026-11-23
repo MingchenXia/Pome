@@ -669,7 +669,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §10.86 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.87 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.88 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.89 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §10.89 | 2026-11-24-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Whole direct lines 7–48, blob dfaec751e0c2e79937b0126d572a87bc300f3261; sharp calibration angle deficit and local graph proof; [coverage](coverage/2026-11-24-calibration-deficit-and-hn-slope-profile.md); no transitive certificate |
 | §10.90 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.91 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.92 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
@@ -686,10 +686,10 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §10.103 | 2026-11-22-FULL; LEGACY-UNRECONCILED | **2026-11-22** complete direct mathematical lines 5–18, blob `99c65b6051fef34b6ec0b8822c973ab5470bb30a`; flat twist coherent-sheaf Euler characteristic, no newly confirmed error; [report](reports/2026-11-22-hopf-radial-period-monodromy-and-hermitian-torsion-glyphs.md); not historical first visit or full upstream certificate |
 | §10.104 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.105 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.106 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §10.106 | 2026-11-24-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Whole direct lines 8–89, blob b824fc476c0cecf64bc52f2178c90344dfb3e7ab; HN exact truncated slope profile; [coverage](coverage/2026-11-24-calibration-deficit-and-hn-slope-profile.md); no transitive certificate |
 | §10.107 | 2026-11-22-FULL; LEGACY-UNRECONCILED | **2026-11-22** complete direct mathematical lines 5–45, blob `b0939c7452c9ef74f49bd7751c8c728c251199d4`; conditional movable semistability input already registered, not newly discovered; filtration, tensor slopes, involutivity checked; [scope](coverage/2026-11-22-hermitian-torsion-flat-twists-involutivity-and-hopf-ode.md); no transitive certificate |
 | §10.108 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.109 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §10.109 | 2026-11-24-SELECTED; LEGACY-UNRECONCILED | Selected lines 36–69, blob 85538a5ba880030f432282e302a446a230ae15ec; analytic approximation lines 26–32 deferred-by-user; [coverage](coverage/2026-11-24-calibration-deficit-and-hn-slope-profile.md); no transitive certificate |
 | §11.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §11.2 | 2026-11-21-FULL; LEGACY-UNRECONCILED | Entire main mathematical lines 5–419, blob `fe1ca06167b8f5bc9868e9a9876397afad4e7ff5`: energy/torsion first variations, Hermitian symplectic 4-fold Hessian, torus examples; no new confirmed printed error. [Review](reports/2026-11-21-guillemin-entropy-scaling-and-cross-chapter-audit.md). Dependencies remain |
 | §11.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
