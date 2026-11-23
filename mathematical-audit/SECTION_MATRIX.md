@@ -798,9 +798,9 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §15.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §15.9 | HISTORIC-FULL-REPORTED | See existing dated reports and COVERAGE.md |
 | §15.10 | 2026-11-23-SELECTED; LEGACY-UNRECONCILED | **2026-11-23 selected ONLY:** Theorem 15.10.1 bounded-measurable-density limit, lines 58–104, blob 6240b6dc071d12eac1476ed548736d012c1a4fa2; previous smoothing/regularization input remains **deferred-by-user**, NOT whole review. [Scope](coverage/2026-11-23-closed-nef-warped-subtraction-and-trace-check.md) |
-| §15.11 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §15.11 | 2026-11-23-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Entire current mathematical lines 6–100, main blob 0bc4468db8261e5203d311a2181bde8acf16c1df; weighted MA subsolution, capacity identification and exact associative log-sum-exp algebra (low verified conditional deduction, NOT an error). [Report](reports/2026-11-23-weighted-ma-logsumexp-and-envelope-support.md). Not a complete transitive certificate; historical visits unreconciled |
 | §15.12 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §15.13 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §15.13 | 2026-11-23-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Entire current mathematical lines 6–120, main blob db560c935a7d651803427b6243957ea1f957b468; local BT/strict barrier comparison and sharp necessity of c<1; c=1 refutes only an UNPRINTED relaxation, NOT the original theorem. [Scope](coverage/2026-11-23-weighted-ma-barrier-and-singularity-envelopes.md). Strict analytic barrier upstream not fully certified |
 | §15.14 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §15.15 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §15.16 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
@@ -845,7 +845,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §16.18 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §16.19 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §16.20 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §16.21 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §16.21 | 2026-11-23-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Entire current mathematical lines 6–81, main blob 8d55c95795ea2a0a3cf5cb81bd4abb4ba867a16a; singularity-envelope competitors, rooftop limit, mixed mass and contact support, conditional on §§13.8.8–9/16.13.5; no new original error or transitive certificate. [Report](reports/2026-11-23-weighted-ma-logsumexp-and-envelope-support.md) |
 | §16.22 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §16.23 | HISTORIC-FULL-REPORTED | See existing dated reports and COVERAGE.md |
 | §16.24 | 2026-11-21-FULL; LEGACY-UNRECONCILED | Complete main §16.24 lines 5–60, blob 40f522a64d7e846a4507c27e8ac9b4fa382c514c; sparse cofinal multiplier ideal scales [proof](reports/2026-11-21-sparse-valuative-scales-and-relative-capacity.md); +0 upstream certifications |
