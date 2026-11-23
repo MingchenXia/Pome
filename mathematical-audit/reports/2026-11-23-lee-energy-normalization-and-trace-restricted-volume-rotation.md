@@ -2,10 +2,10 @@
 
 ## Baseline and exact coverage
 
-- **Reviewed current main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. The source of the mathematics audited here is the integrated Pome reading edition, not private scans.
-- **Full direct mathematical reading:** \`docs/sections/locally-conformally-kahler-geometry/index.html\`, Git blob \`6ebf8e604b45d3eb748037af506145273ca3875d\`, physical **lines 7–1355**: the section introduction and §§23.2.1–72, including LCK/Lee forms, the Kähler covering, twisted operators, Vaisman volume uniqueness, Hopf radial ODE, Chern–Ricci/Gauduchon rigidity, the Lee–Gauduchon duality, modifications, strongly Gauduchon metrics, and positive exact currents. The earlier reading of §§23.2.35–45 is **repeat work**, not a claimed new historical first visit. Full transitive dependencies are not certified.
-- **Selected nonexcluded cross-check:** \`docs/sections/the-trace-operator/index.html\`, Git blob \`1f3a3e4f0317a308b43bd3df53dda84c5f3fa50a\`, **§20.2.29–37** (lines **660–821**), and the statement/formal-algebra portions of **§20.2.38–43** (lines **824–843, 885–940**). This is **not a whole §20.2 review**. §20.2.39 Step 1, physical lines 850–884, invokes quasi-equisingular approximation: it remains outside the authorized scope, not resolved or certified.
-- **New finding:** \`POME-LEE-CURVATURE-ENERGY-EXACT-COEFFICIENT-001\`, **low / verified conditional deduction**, **not** an original-theorem error. No new confirmed false printed theorem and no complete upstream proof-chain certification.
+- **Reviewed current main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. The source of the mathematics audited here is the integrated Pome reading edition, not private scans.
+- **Full direct mathematical reading:** `docs/sections/locally-conformally-kahler-geometry/index.html`, Git blob `6ebf8e604b45d3eb748037af506145273ca3875d`, physical **lines 7–1355**: the section introduction and §§23.2.1–72, including LCK/Lee forms, the Kähler covering, twisted operators, Vaisman volume uniqueness, Hopf radial ODE, Chern–Ricci/Gauduchon rigidity, the Lee–Gauduchon duality, modifications, strongly Gauduchon metrics, and positive exact currents. The earlier reading of §§23.2.35–45 is **repeat work**, not a claimed new historical first visit. Full transitive dependencies are not certified.
+- **Selected nonexcluded cross-check:** `docs/sections/the-trace-operator/index.html`, Git blob `1f3a3e4f0317a308b43bd3df53dda84c5f3fa50a`, **§20.2.29–37** (lines **660–821**), and the statement/formal-algebra portions of **§20.2.38–43** (lines **824–843, 885–940**). This is **not a whole §20.2 review**. §20.2.39 Step 1, physical lines 850–884, invokes quasi-equisingular approximation: it remains outside the authorized scope, not resolved or certified.
+- **New finding:** `POME-LEE-CURVATURE-ENERGY-EXACT-COEFFICIENT-001`, **low / verified conditional deduction**, **not** an original-theorem error. No new confirmed false printed theorem and no complete upstream proof-chain certification.
 - All Demailly approximation/regularization, Bergman, L2, Ohsawa–Takegoshi, multiscale-atlas and positivity-loss proof-completion work remains **deferred-by-user**.
 
 ## POME-LEE-CURVATURE-ENERGY-EXACT-COEFFICIENT-001
@@ -18,7 +18,7 @@ d^c=\frac{i}{4\pi}(\bar\partial-\partial),
 \qquad \lambda^c=d^c f\quad\text{locally if }df=\lambda,
 \qquad \kappa_\lambda=d^c\lambda=-d\lambda^c.
 \]
-The directly checked inputs are **Proposition 23.2.7**, permanent tag \`11EBB7AD1165\`, and its **Eq. 23.2.8**, tag \`35851308DD2B\` (HTML lines **82–124**), together with **Proposition 23.2.14**, permanent tag \`E5F423FF7707\` (lines **187–212**). Source label family: \`non-kahler-pluripotential-theory\`.
+The directly checked inputs are **Proposition 23.2.7**, permanent tag `11EBB7AD1165`, and its **Eq. 23.2.8**, tag `35851308DD2B` (HTML lines **82–124**), together with **Proposition 23.2.14**, permanent tag `E5F423FF7707` (lines **187–212**). Source label family: `non-kahler-pluripotential-theory`.
 
 ### Result and complete additional calculation
 
