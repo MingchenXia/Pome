@@ -1,57 +1,82 @@
 # 2026-11-23 — exact Lee-curvature energy coefficient and cross-chapter trace review
 
-## Identity, baseline, scope, and limitations
+## Baseline and exact coverage
 
-- **Reviewed current main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`. Reading-edition source is **the integrated Pome HTML**, not an unintegrated source number or a private manuscript.
-- **Full direct mathematical read:** `docs/sections/locally-conformally-kahler-geometry/index.html`, Git blob `6ebf8e604b45d3eb748037af506145273ca3875d`, physical lines **7–1355**: §23.2.1–72, including the LCK/Lee definitions, conformal and twisted operators, Vaisman volume uniqueness, the scalar Hopf radial ODE, Chern–Ricci/Gauduchon rigidity, Lee–Gauduchon duality, bimeromorphic invariance, and strongly Gauduchon exact-current criterion. This is an end-to-end current-edition read, not a certificate of the full transitive dependencies. The earlier §23.2.35–45 review is **re-read**, not counted as historically new.
-- **Selected new nonexcluded cross-check:** `docs/sections/the-trace-operator/index.html`, Git blob `1f3a3e4f0317a308b43bd3df53dda84c5f3fa50a`, §20.2.29–37 (lines **660–821**) and the statements and nonexcluded formal algebra of §20.2.38–43 (lines **824–843, 885–940**). No claim of whole §20.2 review. **§20.2.39 Step 1, lines 850–884, relies on quasi-equisingular approximation: excluded by user; neither inspected for proof completion nor certified**.
-- **New result:** `POME-LEE-CURVATURE-ENERGY-EXACT-COEFFICIENT-001`, **low / verified conditional deduction**, not a printed theorem error. No other new confirmed false original theorem and no new full upstream proof-chain certificate.
-- Demailly regularization and its Bergman, L2, Ohsawa–Takegoshi, multiscale-atlas, positivity-loss programme remain **deferred-by-user**, not resolved.
+- **Reviewed current main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`. The source of the mathematics audited here is the integrated Pome reading edition, not private scans.
+- **Full direct mathematical reading:** \`docs/sections/locally-conformally-kahler-geometry/index.html\`, Git blob \`6ebf8e604b45d3eb748037af506145273ca3875d\`, physical **lines 7–1355**: the section introduction and §§23.2.1–72, including LCK/Lee forms, the Kähler covering, twisted operators, Vaisman volume uniqueness, Hopf radial ODE, Chern–Ricci/Gauduchon rigidity, the Lee–Gauduchon duality, modifications, strongly Gauduchon metrics, and positive exact currents. The earlier reading of §§23.2.35–45 is **repeat work**, not a claimed new historical first visit. Full transitive dependencies are not certified.
+- **Selected nonexcluded cross-check:** \`docs/sections/the-trace-operator/index.html\`, Git blob \`1f3a3e4f0317a308b43bd3df53dda84c5f3fa50a\`, **§20.2.29–37** (lines **660–821**), and the statement/formal-algebra portions of **§20.2.38–43** (lines **824–843, 885–940**). This is **not a whole §20.2 review**. §20.2.39 Step 1, physical lines 850–884, invokes quasi-equisingular approximation: it remains outside the authorized scope, not resolved or certified.
+- **New finding:** \`POME-LEE-CURVATURE-ENERGY-EXACT-COEFFICIENT-001\`, **low / verified conditional deduction**, **not** an original-theorem error. No new confirmed false printed theorem and no complete upstream proof-chain certification.
+- All Demailly approximation/regularization, Bergman, L2, Ohsawa–Takegoshi, multiscale-atlas and positivity-loss proof-completion work remains **deferred-by-user**.
 
-## POME-LEE-CURVATURE-ENERGY-EXACT-COEFFICIENT-001: exact Lee energy and volume-ray derivative
+## POME-LEE-CURVATURE-ENERGY-EXACT-COEFFICIENT-001
 
-**Source, tags, and assumptions.** Use the explicit introductory restriction in integrated §23.2: **(X) connected compact complex, (n=dim_{mathbb C} Xgeq2)** (HTML line 8). Let (omega) be any smooth LCK Hermitian form with (domega=lambdawedgeomega), (dlambda=0), and associated Riemannian metric (g). The convention is (d^c=rac{i}{4pi}(arpartial-partial)); (lambda^c=d^cf) locally for (df=lambda). Define (kappa_lambda=d^clambda=-dlambda^c), a closed real ((1,1))-form. The inputs are **Proposition 23.2.7**, permanent tag `11EBB7AD1165`, Eq. **23.2.8**, tag `35851308DD2B`, at `docs/sections/locally-conformally-kahler-geometry/index.html` **lines 82–124**, and **Proposition 23.2.14**, permanent tag `E5F423FF7707`, lines **187–212**; original source family `non-kahler-pluripotential-theory`.
+### Exact sources and hypotheses
 
-**Exact conclusion.** In this normalization,
-[
-oxed{quadint_Xkappa_lambdawedgeomega^{n-1}
-=rac{n-1}{4pi n}int_X|lambda|_g^2,omega^n.quad}
-]
-For the real polynomial (V(t)=int_X(omega+tkappa_lambda)^n), this gives the **exact initial slope**
-[
-oxed{quad V'(0)=rac{n-1}{4pi}int_X|lambda|_g^2,omega^n.quad}
-]
-Both identities use the same unnormalized top power (omega^n); if one instead uses the Riemannian volume (omega^n/n!), multiply the right-hand integrals by (n!). In particular, (V'(0)>0) precisely when the Lee form is not identically zero, in the indicated LCK setting.
+The §23.2 introduction (line **8**) explicitly assumes that \(X\) is a **connected compact complex manifold of dimension \(n\geq2\)**. Let \(\omega\) be any smooth LCK Hermitian metric, \(d\omega=\lambda\wedge\omega\), \(d\lambda=0\), and \(g\) its associated real Riemannian metric. Use the project's convention
+\[
+d^c=\frac{i}{4\pi}(\bar\partial-\partial),
+\qquad \lambda^c=d^c f\quad\text{locally if }df=\lambda,
+\qquad \kappa_\lambda=d^c\lambda=-d\lambda^c.
+\]
+The directly checked inputs are **Proposition 23.2.7**, permanent tag \`11EBB7AD1165\`, and its **Eq. 23.2.8**, tag \`35851308DD2B\` (HTML lines **82–124**), together with **Proposition 23.2.14**, permanent tag \`E5F423FF7707\` (lines **187–212**). Source label family: \`non-kahler-pluripotential-theory\`.
 
-**Self-contained proof of the extra coefficient (conditional only on the printed Stokes identity).** At any point choose a real (g)-orthonormal unitary frame (e_j,Je_j) with real coframe (x_j,y_j), so that (omega=sum_j x_jwedge y_j). Write (lambda=sum_j(a_jx_j+b_jy_j)). The displayed (d^c) normalization means
-[
-lambda^c=rac1{4pi}sum_j(a_jy_j-b_jx_j).
-]
-When wedged with (omega^{n-1}), only the diagonal pairs in (lambdawedgelambda^c) survive. Thus, **pointwise**,
-[
-lambdawedgelambda^cwedgeomega^{n-1}
-=rac{sum_j(a_j^2+b_j^2)}{4pi n},omega^n
-=rac{|lambda|_g^2}{4pi n},omega^n.
-]
-Substitute into the exact Stokes identity (23.2.8),
-(int_Xkappa_lambdawedgeomega^{n-1}=(n-1)int_Xlambdawedgelambda^cwedgeomega^{n-1}).
-Differentiation of a finite wedge polynomial yields (V'(0)=nint_Xkappa_lambdawedgeomega^{n-1}). No approximation, limit interchange, regularity theorem, or elliptic existence theorem is used by this additional argument.
+### Result and complete additional calculation
 
-**Independent normalization sanity check.** In the §23.2.24 scalar Hopf Vaisman normalization (lines 395–419), (omega=alpha+eta), (kappa_lambda=alpha), (lambdawedgelambda^c=eta), and (eta) is the rank-one radial term. The preceding formula gives (|lambda|_g^2=4pi) and (V'(0)=(n-1)int_Xomega^n), agreeing with the direct polynomial (int_X((1+t)alpha+eta)^n=(1+t)^{n-1}int_Xomega^n). This checks the sign, factor (n), and (4pi) in the actual integrated conventions.
+For arbitrary such LCK data, the integrated Stokes formula has the following **exact** real-norm coefficient:
+\[
+\boxed{
+\int_X\kappa_\lambda\wedge\omega^{n-1}
+=\frac{n-1}{4\pi n}\int_X|\lambda|_g^2\,\omega^n.
+}
+\]
+If \(V(t)=\int_X(\omega+t\kappa_\lambda)^n\), then
+\[
+\boxed{
+V'(0)=\frac{n-1}{4\pi}\int_X|\lambda|_g^2\,\omega^n.
+}
+\]
+These expressions are in terms of the **unnormalized** top wedge \(\omega^n\). If one uses \(d\operatorname{vol}_g=\omega^n/n!\) instead, the right-hand integrals acquire a factor \(n!\). Thus \(V'(0)>0\) exactly when the Lee form is not identically zero.
 
-**Status and proposed correction.** **Low / verified conditional deduction**: the printed Propositions 23.2.7 and 23.2.14 are correct as checked here. An optional small supplemental sentence after Eq. 23.2.8 may state the exact coefficient; no source/body/registry patch has been made. **Affected interpretation/dependents:** the positive initial-volume slope used at §23.2.14–15 and the Lee-pairing obstruction at §23.2.10–11; their original conclusions are unaffected. This does **not** certify the upstream Kähler modification criterion or generalized Lamari theorem.
+Here is the complete new coefficient calculation. At a fixed point, choose a \(g\)-orthonormal unitary real coframe \(x_j,y_j\) for which \(\omega=\sum_{j=1}^n x_j\wedge y_j\). Write
+\[
+\lambda=\sum_{j=1}^n(a_jx_j+b_jy_j),
+\qquad
+\lambda^c=\frac{1}{4\pi}\sum_{j=1}^n(a_jy_j-b_jx_j).
+\]
+The second equality follows from the stated \(d^c\) convention, as seen on the real coordinate functions of a unitary chart. When wedging \(\lambda\wedge\lambda^c\) with \(\omega^{n-1}\), all off-diagonal contributions vanish and each diagonal \(x_j\wedge y_j\) contributes \(\omega^n/n\). Hence
+\[
+\lambda\wedge\lambda^c\wedge\omega^{n-1}
+=\frac{\sum_j(a_j^2+b_j^2)}{4\pi n}\,\omega^n
+=\frac{|\lambda|_g^2}{4\pi n}\,\omega^n.
+\]
+Substitute into **Eq. 23.2.8**,
+\[
+\int_X\kappa_\lambda\wedge\omega^{n-1}
+=(n-1)\int_X\lambda\wedge\lambda^c\wedge\omega^{n-1},
+\]
+and differentiate the finite wedge polynomial \(V(t)\) at \(0\). This uses no regularization, approximants, limit interchange, elliptic existence theorem or unproved compactness step in the **additional** calculation. It remains conditional on the printed Stokes identity, which was directly checked.
 
-## Other direct checks and dependencies
+**Independent sign/factor check:** for the §23.2.24 scalar Hopf Vaisman example (lines **395–419**), \(\omega=\alpha+\beta\), \(\kappa_\lambda=\alpha\), \(\lambda\wedge\lambda^c=\beta\), and the radial one-form has \(|\lambda|_g^2=4\pi\). Directly,
+\[
+\int_X(\omega+t\kappa_\lambda)^n
+=\int_X\big((1+t)\alpha+\beta\big)^n
+=(1+t)^{n-1}\int_X\omega^n,
+\]
+because \(\alpha^n=\beta^2=0\). The derivative at zero agrees exactly with the formula above.
 
-1. **§23.2.2–10 (lines 23–167):** the global (nge2) hypothesis is explicitly in the section introduction at line 8. The Lee form is unique in this range; applying statements to dimension one would be illegitimate and is **not** logged as an error. Checked sign (kappa_lambda=d^clambda=-dlambda^c), conformal gauge, Stokes orientation, and the distinction between nonzero de Rham-exact Bott–Chern class and pseudoeffectivity.
-2. **§23.2.14–17 (lines 191–314):** the constant least-relative-eigenvalue argument uses positivity of (V'), continuity to the first degenerate form, and zero top integral of the de Rham-exact (kappa_lambda). The explicit scalar Hopf family permits an indefinite representative without contradicting the separate semipositive-representative assertion. No new incorrect sign or limit identified.
-3. **§23.2.20–45 (lines 325–775):** (D_lambda=exp(f)dd^cexp(-f)), and twisted constants are **not** gauge-free. The transverse mass identity (23.2.31) uses horizontal degree (2(n-1)+1) vanishing; the scalar radial ODE has a positive periodic solution and an ordered Lee-period parameter. Earlier radial checks are rechecks only. Existence/uniqueness of the smooth Hermitian MA equation used by Theorem 23.2.29 remains **an un-certified internal dependency** (14.2.1), not a theorem newly proved here.
-4. **§23.2.47–72 (lines 786–1355):** traced the integrated Bianchi/Bochner cancellation (Eqs. 23.2.48–51), the Kodaira quotient illustration, finite-dimensional separation for Lee–Gauduchon duality (23.2.60), bimeromorphic (H^1)-comparison (23.2.63), strongly Gauduchon separation (23.2.69), and positive exact-current mass criterion (23.2.70). The generalized Lamari criterion (11.6.1), $partialarpartial$-lemma on the Kähler modification, and nontrivial positive-current compactness are upstream inputs **not transitively certified**.
-5. **§20.2.29–37 and §20.2.38–43 selected:** checked that the restricted-volume definitions distinguish the non-Kähler locus from the non-nef locus, and that Eq. 20.2.36 is a *diagonal* choice of (epsilon_j<j^{-1}), followed by two-sided mass inequalities and monotonicity, rather than an unjustified swap of limits. The proof of Theorem 20.2.39 contains expressly excluded quasi-equisingular approximation and was **not** reopened. Internal mass-continuity inputs (20.2.17, 16.9.30), monotonicity (13.13.11), and restricted-volume continuity (the cited Matsumura Cor. 4.11) are **not re-proved/certified in this session**; this is not a claim of a confirmed gap.
+### Classification and impact
 
-## Scope accounting
+**Low / verified conditional deduction.** The original Propositions **23.2.7** and **23.2.14** are not false; the extra expression makes the normalization of their positivity statement quantitatively explicit. **Optional proposed addition** (not a source patch): insert the real-norm formula after Eq. 23.2.8. It also fixes the exact scale of the initial-volume slope in §23.2.14–15 and the positive Lee pairing used in §23.2.10–11. No permanent label or provenance change is needed.
 
-- **1 whole integrated mathematical §23.2** read directly; its earlier partial visit is preserved, *not* counted as historically new without reconciliation.
-- **1 selected nonexcluded §20.2**, not whole and not a new regularization audit.
-- **1 low / verified conditional deduction**, **0 new confirmed original-theorem errors**, **0 resolved external inputs**, **0 fully certified transitive proof chains**.
-- No mathematical-body, source-registry, canonicalization, tag, main, site, CI, test, or build changes. The old deferred items remain **deferred-by-user**.
+## Cross-chapter direct checks
+
+1. **§23.2.1–12, lines 7–181:** the explicit section hypothesis \(n\ge2\) is crucial for uniqueness of the Lee form; no dimension-one counterexample applies to this text. Checked conformal signs, global \(d^c\lambda=-d\lambda^c\), the Stokes pairing and the distinction between a nonzero de Rham-exact Bott–Chern class and a pseudoeffective class. The claimed obstruction to class C depends on the separate Kähler-modification input.
+2. **§23.2.13–17, lines 182–316:** checked the polynomial positive derivative and top-power vanishing, the constant least-eigenvalue degeneration argument, and the Hopf example with an indefinite Lee curvature but a semipositive representative of its class. There is no contradiction between them.
+3. **§23.2.18–45, lines 317–775:** checked the conjugation formula \(D_\lambda=e^fdd^c e^{-f}\), the nontrivial twisted action of constants, the horizontal-degree Stokes argument for transverse mass, and the positive periodic radial ODE and Lee-period ordering. The earlier audit of §23.2.35–45 remains acknowledged as a **re-read**. The smooth Hermitian Monge–Ampère existence/uniqueness input **14.2.1** for the general Vaisman-volume result is **not transitively certified**.
+4. **§23.2.46–72, lines 777–1355:** checked the displayed Bianchi/Bochner algebra and tensor symmetries, the concrete Kodaira quotient, finite-dimensional separation for Lee–Gauduchon duality (23.2.60), the first cohomology comparison across modifications (23.2.63), and the strongly Gauduchon exact-current duality and mass estimate (23.2.69–70). The generalized Lamari criterion **11.6.1**, the Kähler \(\partial\bar\partial\)-lemma on a modification, and the positive-current weak compactness invoked there remain upstream, not independently certified.
+5. **§20.2.29–37, lines 660–821:** differentiated the two distinct definitions of restricted volume (non-Kähler vs non-nef locus); tracked the **diagonal selection** \(\epsilon_j<1/j\) in Eq. 20.2.36, then the two-sided mass inequalities and monotonicity. This is not an interchange of unrelated limits. The arguments use existing internal mass continuity and monotonicity input **20.2.17, 16.9.30, 13.13.11** and a cited restricted-volume continuity theorem, all **not transitively certified** here.
+6. **§20.2.38–43, selected lines 824–843 and 885–940:** only statement and formal algebraic comparison. §20.2.39 **Step 1 quasi-equisingular approximation (850–884) is deferred-by-user**, not silently completed or reexamined.
+
+## Accounting and restrictions
+
+**1 whole present-main §23.2 directly read (historical earlier partial preserved); 1 selected, nonexcluded §20.2; 1 low verified conditional deduction; 0 newly confirmed false original theorems; 0 complete transitive certificates.** No builds, tests, CI, main, source bodies, registry, permanent tags, publication, or private data. The excluded programme remains **deferred-by-user**.
