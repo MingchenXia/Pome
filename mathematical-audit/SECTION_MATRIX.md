@@ -387,10 +387,10 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §5.49 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.50 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.51 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §5.52 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §5.53 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §5.54 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §5.55 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §5.52 | 2026-11-24-HEADING-ONLY; LEGACY-UNRECONCILED | **2026-11-24:** Heading-only parent; main blob `a16972987b525c05330c76f30b60181865986d1c`, total 15 lines, no mathematics to certify. [scope](coverage/2026-11-24-real-currents-and-classical-energy-recheck.md) |
+| §5.53 | 2026-11-24-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | **2026-11-24:** Full integrated lines 7–78; main blob `188386272430128f7ae086f28d5e685ce45dec3c`; source labels `demailly-complex-geometry:710BD6AD`/`:DC0D446B`, permanent tags `CCE8A237C582`/`01AAD02BF915`; direct-image derivative parity, homotopy cylinder and fiber-first pullback signs checked locally. [report](reports/2026-11-24-real-current-signs-and-second-order-smoothing.md) · [scope](coverage/2026-11-24-real-currents-and-classical-energy-recheck.md). No complete ancestor certification |
+| §5.54 | 2026-11-24-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | **2026-11-24:** Full integrated lines 7–100; main blob `597a770e3f087693b98968c6e5fcf8bcd9ca0841`; Theorem 5.54.2 source `demailly-complex-geometry:C92BDA92`, permanent `7D93F6AD9C80`, lines 40–81. New low conditional second-order radial-measure deduction `POME-REAL-CURRENT-RADIAL-SMOOTHING-SECOND-ORDER-001` [proof](reports/2026-11-24-real-current-signs-and-second-order-smoothing.md). No false theorem or complete ancestor certification |
+| §5.55 | 2026-11-24-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | **2026-11-24:** Full integrated lines 8–41; main blob `09cf11ebb628e7a198bbe84befd8d5c68ead5854`; Proposition 5.55.1 source `demailly-complex-geometry:25F759A0`, permanent `E09F702EB680`. C¹ Stokes extension and boundary-current parity checked, no new theorem error. [scope](coverage/2026-11-24-real-currents-and-classical-energy-recheck.md) |
 | §5.56 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.57 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.58 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
