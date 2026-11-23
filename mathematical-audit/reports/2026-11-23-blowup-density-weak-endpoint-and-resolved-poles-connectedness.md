@@ -11,19 +11,21 @@
 2. `docs/sections/equations-with-prescribed-singularities--equations-with-resolved-logarithmic-poles/index.html`, blob `bec2abe4e9b361a37adbf668837da42726b6dcda`, physical lines 5–107. Theorem 15.22.2, permanent `3B5397268E44`, lines 21–50; Example 15.22.7, `0362BBF11A0B`, lines 64–80; Proposition 15.22.10, `D1ADF0EFDD30`, lines 87–106.
 3. `docs/sections/equations-with-prescribed-singularities--minimal-singularities-on-blowups/index.html`, blob `884c20eb0ab2b613129a84232e9b6688f3aba993`, physical lines 5–123. Proposition 15.23.2, permanent `E42F32DA29D8`, lines 21–58; Theorem 15.23.5, `66FFA0C36433`, lines 61–97; displayed exponent 15.23.7, permanent `7E7FF8A6A54E`, lines 68–72; Theorem 15.23.10, permanent `37D35D78F0C6`, lines 103–123.
 
-## POME-RESOLVED-POLES-DISCONNECTED-MASS-SCALAR-001
+## POME-DISCONNECTEDNESS-AUDIT-CONVENTION-RETRACTION-001
 
-**Classification:** medium / **confirmed error of an unqualified printed statement**. This is a **new downstream occurrence** of the already recorded missing-connectedness mechanism in smooth Hermitian Monge–Ampère equations, not a claim of an independent root cause or an error on connected manifolds.
+**Classification:** high audit priority / **verified audit correction (withdrawal of false positive)**, **not a printed theorem error or a repair of a false theorem**.
 
-Theorem 15.22.2 requires only a compact Hermitian `X`; it says every nonzero nonnegative `f in L^p` has a solution with one common positive scalar `kappa`. Neither the section nor the general Pome complex-manifold convention imposes connectedness. In the Kähler case, the theorem itself identifies `kappa` with the quotient of the residual mass and the total data mass.
+The main reading edition's **global convention was overlooked in the initial version of this audit note**. Section 1.1 explicitly states that, unless otherwise stated, `X` denotes a **connected compact complex manifold**: `docs/sections/conventions/index.html`, blob `ef778e54d8d7413242387e95c52269b3c7d42cae`, physical line 123 (current section stable tag `DE921263`). This convention applies to Theorem 15.22.2 (`3B5397268E44`, lines 21–50), which does not override connectedness.
 
-**Explicit counterexample within the theorem's hypotheses.** Take `n=2` and let `X=X_1 ⊔ X_2` be two disjoint copies of `P^2`, each with `h=lambda omega_FS`, `0<c<lambda`. On each component choose the logarithmic pole `psi_c` and its point blowup `pi:Y_i -> X_i` exactly as in Example 15.22.7. The residual Kähler form is `beta_i=(lambda-c)pi^*omega_FS+c q^*omega_FS>0` and has `B=int_{Y_i} beta_i^2=lambda^2-c^2>0`. Let `f=1` on `X_1` and `f=2` on `X_2`; this is smooth, strictly positive and belongs to every finite `L^p`. For any solution with `u=psi_c+O(1)`, its lifted bounded residual on each `Y_i` has Bedford–Taylor top mass `B` by closedness and bounded-potential mass invariance. The asserted one common `kappa` would therefore obey
-\[
-\kappa\lambda^2=B,\qquad 2\kappa\lambda^2=B,
-\]
-a contradiction. The prescribed pole set meets both components and the disjoint-union modification meets every stated resolution hypothesis.
+The originally recorded identifier **`POME-RESOLVED-POLES-DISCONNECTED-MASS-SCALAR-001` is WITHDRAWN as a source-error claim.** The elementary thought experiment using a disjoint union of two resolved-pole `P^2` models with density 1 on one component and 2 on the other is valid **only for an extension to disconnected manifolds**. It is **not** a counterexample to the actual printed theorem because the disjoint union violates §1.1. Thus **no new §15.22.2 error has been confirmed**.
 
-**Correction:** require `X` connected (and the modification `Y` correspondingly connected), or formulate componentwise positive scalars `kappa_i`. For common-scalar solvability in the closed disconnected case, the necessary componentwise ratios `int_{Y_i}beta_i^n/int_{X_i} f h^n` must agree; even when they agree, a single global `sup_X u=0` leaves independent additive constants on the other components, so normalized uniqueness requires componentwise normalization. Review the same qualification in the dependence on Theorems 14.19.2/15.5.1 and downstream Proposition 15.22.10; no source, registry or canonical tag change made here.
+The same convention also invalidates the preceding audit's three alleged connectedness counterexamples, unless a particular theorem explicitly overrides §1.1:
+
+- `POME-SMOOTH-MA-DISCONNECTED-GLOBAL-SCALAR-001`, §14.2.1 (`F33DA8C9DF9F`, `docs/sections/smooth-monge-ampere-equations--scalar-bounds-and-uniqueness/index.html`, blob `3f96829e18befc845df40c6d4bca13c977ae9cea`, physical line 11): **withdrawn as a source-error claim**.
+- `POME-SMOOTH-MA-DISCONNECTED-UNIQUENESS-001`, §14.2.4 (`366AA2E61158`, same blob, line 50): **withdrawn as a source-error claim**.
+- `POME-SMOOTH-MA-DISCONNECTED-C0-ESTIMATE-001`, §14.3.5 (`EEF74F1DEBB8`, `docs/sections/smooth-monge-ampere-equations--the-potential-bound-from-weighted-integration/index.html`, blob `f774b702e65736ce8a23847dbb3409c6b31b0211`, line 108): **withdrawn as a source-error claim**.
+
+This is a correction of **audit classification**, not independent certification of the deep connected-manifold proofs. In particular, neither smooth Hermitian Monge–Ampère existence nor its global estimates have been transitive-certified in this session. Retain historical reports for traceability, but treat their missing-connectedness error statuses as superseded.
 
 ## POME-BLOWUP-PUSHFORWARD-WEAK-LQ-ENDPOINT-001
 
@@ -83,4 +85,4 @@ The same Hölder argument yields `pi_*(f mu_m)/nu_0 in L^{q_R,infinity}` with `q
 - **Not reviewed or certified:** transitive proofs of §§14.19.2, 15.5.1, 13.14.3, 5.24.7, 5.27.1, 11.1.7, and the full sheaf/current support theorems. None is declared defective solely because it is cited.
 - **Deferred by user, not resolved or certified:** all excluded Demailly approximation/regularization and associated dedicated Bergman, L², Ohsawa–Takegoshi, multiscale-atlas and positivity-loss proof-completion programmes. No work performed on them. No tests, builds, Actions CI, website publication, main/registry/source/permanent-tag edits, new PR or merge.
 
-**Session accounting:** 3 entire current integrated mathematical sections directly read; 1 newly confirmed printed-statement error at an additional dependent theorem (same earlier missing-connectedness root cause); 1 new sharp weak-endpoint conditional deduction (single blowup plus a tower corollary); 0 new complete transitive proof-chain certificates. Historical first-visit status remains unreconciled.
+**Session accounting:** 3 entire current integrated mathematical sections directly read; 0 new confirmed printed-statement errors; 1 verified retraction of the erroneous connectedness diagnosis (also correcting three prior §14.2–14.3 diagnoses); 1 new sharp weak-endpoint conditional deduction (single blowup plus a tower corollary); 0 new complete transitive proof-chain certificates. Historical first-visit status remains unreconciled.
