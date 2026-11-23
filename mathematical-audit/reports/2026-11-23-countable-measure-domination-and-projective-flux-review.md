@@ -1,64 +1,112 @@
-# 2026-11-23 — Countable measure domination near a prescribed type, and projective symmetry/flux rotation
+# 2026-11-23 — Countable near-reference measure domination and projective flux review
 
-## Version, scope, and classification
+## Version and exact scope
 
-- Reviewed current `main` commit: `b6933b772f41b45918f7e25ed1afbbb1fd892272`. This report concerns its **integrated reading edition**, not merely original source titles.
-- Entire current §15.24: `docs/sections/equations-with-prescribed-singularities--representing-measures-in-an-ordinary-type/index.html`, blob `124c7650d904ff9617e90fe5e283c98e72261ea5`, physical lines 5–132; section tag `2BB76C1E3909`, Proposition 15.24.1 tag `A46357C92C12`, inequality 15.24.3 tag `3F73A2DB6267`, Lemma 15.24.4 tag `F9088D3DDEBB`.
-- Entire current §15.20: `docs/sections/equations-with-prescribed-singularities--symmetry-and-the-selected-projective-limit/index.html`, blob `5939b066b23315e66c9f8ec26a97677825fa2a16`, physical lines 5–240; section tag `457A6A4C41F4`, Proposition 15.20.1 `1750C7E75315`, Theorem 15.20.4 `72B88B8B1639`, Lemma 15.20.5 `5D3F7173CA27`, Proposition 15.20.8 `517F0BB04B80`.
-- Selected nonexcluded Steps 2–3 of §15.25.1 only: `docs/sections/equations-with-prescribed-singularities--the-homogeneous-equation-with-a-holder-reference/index.html`, blob `0defdec5270db7ff34625b638c9ac2a31264ca4a`, Theorem tag `8CE230CD94D4`. Its upstream smoothing/approximation premise was **not** reviewed.
-- One new **low / verified conditional deduction**; zero new confirmed printed theorem errors; zero complete transitive proof-chain certificates. Historical first-visit status remains unreconciled.
+Reviewed main commit: b6933b772f41b45918f7e25ed1afbbb1fd892272.
 
-## POME-PRESCRIBED-TYPE-COUNTABLE-NEAR-REFERENCE-DOMINATION-001 — low / verified conditional deduction
+- Entire current §15.24: docs/sections/equations-with-prescribed-singularities--representing-measures-in-an-ordinary-type/index.html; blob 124c7650d904ff9617e90fe5e283c98e72261ea5; physical mathematical lines 5–132; section tag 2BB76C1E3909; Proposition 15.24.1 permanent tag A46357C92C12, source label non-kahler-pluripotential-theory-2AFB7920; Equation 15.24.3 tag 3F73A2DB6267; Lemma 15.24.4 tag F9088D3DDEBB.
+- Entire current §15.20: docs/sections/equations-with-prescribed-singularities--symmetry-and-the-selected-projective-limit/index.html; blob 5939b066b23315e66c9f8ec26a97677825fa2a16; physical mathematical lines 5–240; section tag 457A6A4C41F4; Proposition 15.20.1 tag 1750C7E75315; Theorem 15.20.4 tag 72B88B8B1639; Lemma 15.20.5 tag 5D3F7173CA27; Proposition 15.20.8 tag 517F0BB04B80.
+- Selected nonexcluded Steps 2–3 of §15.25.1: docs/sections/equations-with-prescribed-singularities--the-homogeneous-equation-with-a-holder-reference/index.html; blob 0defdec5270db7ff34625b638c9ac2a31264ca4a; Theorem tag 8CE230CD94D4. Its smoothing/approximation premise was **not** audited.
 
-**Claim (countably many measures, arbitrary ordinary-type proximity).** Assume exactly the hypotheses of Proposition 15.24.1: (X) compact, (	heta\ge0) a smooth big real ((1,1))-form, (arphi\in\mathrm{PSH}(X,\theta)), and (P_{\varepsilon\theta}(\varphi)\not\equiv-\infty) for some (0<\varepsilon<1). Let ((\mu_j)_{j\ge1}) be any countable family of finite non-pluripolar positive measures, and let (eta>0). Then there exists (\psi\in\mathrm{PSH}(X,\theta)) such that
-[
+Totals: two complete current sections, one selected; one new low / verified conditional deduction; zero new confirmed printed errors; zero complete transitive proof-chain certificates. Historical first-visit status remains unreconciled.
+
+## POME-PRESCRIBED-TYPE-COUNTABLE-NEAR-REFERENCE-DOMINATION-001
+
+**Severity and status:** low / verified conditional deduction; *not* an original theorem error.
+
+**Statement.** Under exactly the hypotheses of Proposition 15.24.1—\(X\) compact, \(\theta\ge0\) a smooth big real \((1,1)\)-form, \(\varphi\in\operatorname{PSH}(X,\theta)\), and \(P_{\varepsilon\theta}(\varphi)\not\equiv-\infty\) for some \(0<\varepsilon<1\)—let \((\mu_j)_{j\ge1}\) be any countable family of finite non-pluripolar positive measures. For every \(\eta>0\), a *single* \(\psi\in\operatorname{PSH}(X,\theta)\) exists with
+
+\[
 \varphi-\eta\le\psi\le\varphi,\qquad
-\mu_j\ll\mathrm{MA}^{\mathrm{ext}}_\theta(\psi)\quad\text{for every }j.
-]
-In fact, there are individual (f_j\ge0) with (f_j\in L^1(\mathrm{MA}^{\mathrm{ext}}_\theta(\psi))) and (\mu_j=f_j\mathrm{MA}^{\mathrm{ext}}_\theta(\psi)).
+\mu_j\ll\operatorname{MA}^{\mathrm{ext}}_\theta(\psi)
+\quad\text{for every }j.
+\]
 
-**Complete deduction from the stated internal inputs.** Write (m_j=\mu_j(X)<\infty), (\beta_j=2^{-j}/(1+m_j)>0), and (\mu=\sum_{j\ge1}\beta_j\mu_j). Then (\mu(X)\le1), (\mu) is finite and non-pluripolar, and (\mu_j\ll\mu) for each (j). If all measures vanish, choose (\psi=\varphi). Otherwise, run the actual construction in Proposition 15.24.1 for (\mu), retaining its entire sequence (q_k) of (\theta)-psh competitors satisfying (\varphi-C_k\le q_k\le\varphi), (C_k<\infty), and its verified null-set property (\mu\ll\sum_k\mathrm{MA}^{\mathrm{ext}}_\theta(q_k)) in the sense that common null sets are (\mu)-null. **The freedom to select the positive weights is the only additional step.** Put
-[
-t_k=\frac{\min\{1,\eta\}}{4}\,\frac{2^{-k}}{1+C_k}>0.
-]
-Then (T=\sum_k t_k<1) and (B=\sum_k t_k C_k<\eta). The finite sums
-[
-\psi_N=\sum_{k=1}^N t_k q_k+
-\left(1-\sum_{k=1}^N t_k\right)\varphi
-]
-are decreasing (\theta)-psh potentials with (\varphi-B\le\psi_N\le\varphi). Their decreasing limit (\psi) is not identically (-\infty) and obeys (\varphi-\eta\le\psi\le\varphi), so it has the same ordinary singularity type.
+Indeed each \(\mu_j=f_j\operatorname{MA}^{\mathrm{ext}}_\theta(\psi)\), with nonnegative \(f_j\in L^1(\operatorname{MA}^{\mathrm{ext}}_\theta(\psi))\). There is no assertion of bounded densities.
 
-For each fixed (k), the same tail decomposition as lines 97–104 of the source proof writes (\psi=t_kq_k+(1-t_k)w_k), with (w_k\in\mathrm{PSH}(X,\theta)) of the same ordinary type. Positivity of non-pluripolar mixed products on the common finite locus (and exhaustion by bounded truncations) yields
-[
-\mathrm{MA}^{\mathrm{ext}}_\theta(\psi)
-\ge t_k^n\mathrm{MA}^{\mathrm{ext}}_\theta(q_k).
-]
-Consequently (\mu\ll\mathrm{MA}^{\mathrm{ext}}_\theta(\psi)), and therefore every (\mu_j\ll\mathrm{MA}^{\mathrm{ext}}_\theta(\psi)). The \(\sigma\)-finiteness input in §13.14.3, used by the printed proof at line 107, gives the individual Radon–Nikodym densities and
-[
-\int_X f_j\,\mathrm{MA}^{\mathrm{ext}}_\theta(\psi)=\mu_j(X)<\infty.
-]
-This uses no new regularization argument. In particular, it does **not** produce bounded densities, a finite mass of the reference measure, uniform \(L^1\) bounds over the family, or a solution of any Monge–Ampère equation.
+**Proof.** Write \(m_j=\mu_j(X)<\infty\) and aggregate
 
-**Status and dependents.** Verified *conditional* on the exact internal local-representation, mixed-product positivity, and sigma-finiteness premises of the printed Proposition 15.24.1; those upstream chains are not certified here. The proposition is not false, and no source/registry patch is necessary. This sharpened interface may be useful for the general-measure representation input at §15.37 and capacity-dominated existence discussions, but does not satisfy the stronger bounded-density hypothesis of §15.10.1. Theorem 15.25.1 uses a Hölder reference and must not be inferred from this claim.
+\[
+\beta_j=\frac{2^{-j}}{1+m_j}>0,\qquad
+\mu=\sum_{j\ge1}\beta_j\mu_j.
+\]
 
-## Independent cross-checks in the symmetry/flux chapter (§15.20)
+Then \(\mu(X)\le1\), the aggregate is non-pluripolar, and \(\mu_j\ll\mu\) for all \(j\). If all are zero, use \(\psi=\varphi\). Otherwise apply *the explicit construction* of Proposition 15.24.1 to \(\mu\), not just its bare conclusion. Physical lines 27–80 provide countably many \(\theta\)-psh competitors \(q_k\) and finite \(C_k\ge0\) with
 
-1. **Symmetry under positive exponent, lines 11–28.** Pulling back the equation by a biholomorphism preserving both the Hermitian form and (f\,dV) gives the same equation. Given the printed uniqueness premise, (u_\lambda\circ g=u_\lambda). Supremum normalization and any uniform cluster limit retain that symmetry. A compactness/uniqueness selection argument does not interchange uncontrolled limits.
-2. **Radial flux and no-jump mechanism, lines 79–132.** With (A(r,s)=(x+s)(y-s)), (\Phi(r,s)=\int_0^s A(r,t)dt), a positive upward jump of (h=G') inside ([-x,y]) would create the strictly positive atomic flux
-[
+\[
+\varphi-C_k\le q_k\le\varphi;
+\quad
+\left[\operatorname{MA}^{\mathrm{ext}}_\theta(q_k)(E)=0\
+\text{for every }k\right]\Longrightarrow\mu(E)=0.
+\]
+
+The positive weights in that construction are arbitrary subject to summability. Choose
+
+\[
+t_k=\frac{\min\{1,\eta\}}4\,
+\frac{2^{-k}}{1+C_k}.
+\]
+
+Then \(T=\sum_k t_k<1\) and \(B=\sum_k t_k C_k<\eta\). The finite sums from lines 81–98 are
+
+\[
+\psi_N=\sum_{k=1}^N t_kq_k+
+\left(1-\sum_{k=1}^N t_k\right)\varphi.
+\]
+
+They are decreasing \(\theta\)-psh functions, as \(q_k\le\varphi\), and \(\varphi-B\le\psi_N\le\varphi\). Their nontrivial decreasing limit \(\psi\) obeys \(\varphi-\eta\le\psi\le\varphi\) and has precisely the original ordinary singularity type.
+
+For fixed \(k\), splitting off the summand gives \(\psi=t_kq_k+(1-t_k)w_k\) with \(w_k\in\operatorname{PSH}(X,\theta)\) of the same type. Positivity of mixed non-pluripolar products on the common finite locus, with the finite-truncation exhaustion of physical lines 99–105, yields
+
+\[
+\operatorname{MA}^{\mathrm{ext}}_\theta(\psi)
+\ge t_k^n\operatorname{MA}^{\mathrm{ext}}_\theta(q_k).
+\]
+
+Every null set for the left-hand measure is therefore null for every right-hand measure, hence for \(\mu\) and every \(\mu_j\). The \(\sigma\)-finiteness theorem §13.14.3 explicitly invoked by the printed proof at line 107 permits Radon–Nikodym, giving
+
+\[
+\int_X f_j\,\operatorname{MA}^{\mathrm{ext}}_\theta(\psi)
+=\mu_j(X)<\infty.
+\]
+
+This is a complete deduction *conditional on the printed internal prerequisites*, not a new construction of local representations or a certified full upstream proof chain. It gives neither a common \(L^\infty\) bound for \(f_j\), nor finite mass of \(\operatorname{MA}^{\mathrm{ext}}_\theta(\psi)\), nor a solution of an equation.
+
+**Correction and dependents.** No correction to Proposition 15.24.1 is required. An optional strengthening could be proposed in a separately reviewable PR; audit notes alone do not modify source, registry or permanent tags. A potential dependent is the general-measure discussion at §15.37. The stronger bounded-density input of §15.10.1, and the Hölder-reference hypothesis of §15.25.1, **do not follow** from this statement.
+
+## Independent checks of §15.20
+
+**Symmetry and normalized limits (lines 11–28).** If a biholomorphism \(g\) preserves both \(\omega\) and \(f\,dV\), the pullback \(u_\lambda\circ g\) satisfies the same positive-exponent equation. Its uniqueness implies invariance; subtracting the global supremum and passing to a uniform cluster limit retain invariance. The compactness/uniqueness argument for the selected projective solution does not interchange uncontrolled limits. General Chapter 14 normalization/connectedness inputs remain separate already-recorded qualifications; the actual projective model is connected.
+
+**No-jump radial flux (lines 79–132).** Let
+
+\[
+A(r,s)=(x(r)+s)(y(r)-s),\qquad
+\Phi(r,s)=\int_0^s A(r,t)\,dt.
+\]
+
+An admissible upward jump \(h_-<h_+\), with both endpoints in \([-x(r_0),y(r_0)]\) and \(x(r_0)+y(r_0)>0\), would create an atom
+
+\[
 \Phi(r_0,h_+)-\Phi(r_0,h_-)
-=\int_{h_-}^{h_+}(x(r_0)+s)(y(r_0)-s)ds>0.
-]
-This contradicts the absolutely continuous prescribed radial density. It does not by itself eliminate a singular-continuous derivative: the remaining positivity and the flux identity must be used, as in the printed argument. This is a check of the given proof, **not** an independent full Bedford–Taylor continuity proof.
-3. **Outer branch uniqueness, lines 155–183.** On (r\ge2), (a=\sigma+h) satisfies (a(1-a)a'=\sigma(1-\sigma)\sigma'). The primitive (J(t)=t^2/2-t^3/3) has (J'(t)=t(1-t)>0) on ((0,1)). Boundedness rules out a limiting (a_\infty<1); the integration constant is therefore zero, yielding (a=\sigma), hence (h=0) on this end, conditional on the already proved strict positivity and flux identity.
-4. **Band non-(C^2) result, lines 190–234.** The two slopes at (t_*), (-z_0(t_*)<0) and (-p'(t_*)>0), differ. This is a genuine obstruction to (C^2) across (r=t_*), and the submersion (r) transports it to the projective hypersurface. A smooth correction (\rho) cannot remove the jump.
+=\int_{h_-}^{h_+}(x(r_0)+s)(y(r_0)-s)\,ds>0.
+\]
 
-These checks find no new printed mathematical error. The connectedness-sensitive general existence and normalization inputs from Chapter 14 remain a **separate upstream qualification** (already audited); the explicit projective example is connected. The smooth-approximation input of §15.25 Step 1 remains **deferred-by-user** where it concerns the excluded regularization programme; only the subsequent measure inequalities and limiting logic were read.
+The prescribed radial measure has no atom; hence such jumps cannot occur. The lack of jumps alone does not rule out a singular-continuous derivative. That requires the remaining positive-distribution structure and the flux identity. We did not independently re-prove the upstream Bedford–Taylor continuity theorem.
 
-## Coverage, correction policy, remaining work
+**Projective ends (lines 155–183).** With \(a=\sigma+h\), the exterior equation is \(a(1-a)a'=\sigma(1-\sigma)\sigma'\). Define
 
-- Two complete current mathematical sections directly read: §§15.20, 15.24. Selected nonexcluded §15.25 Steps 2–3; no claim of full §15.25 review.
-- One new low conditional deduction, no new confirmed printed errors or local proof gaps, no complete transitive upstream certification.
-- Future high-priority work: certify §15.24's internal local-measure theorem §5.27.10 and sigma-finiteness §13.14.3 **without** reopening excluded regularization; inspect the bounded-reference comparison step in §15.25 only outside the forbidden programme; independently assess §15.20's §14.26 projective model.
-- Demailly approximation/regularization, Bergman, (L^2), Ohsawa–Takegoshi, multiscale atlases, and positivity-loss proof-completion projects remain **deferred-by-user**, neither resolved nor certified.
-- No build, tests, CI, manuscript/source/body/registry/canonicalization/tag/main/website changes, PR merge or publication.
+\[
+J(t)=\frac{t^2}2-\frac{t^3}3,\qquad
+J'(t)=t(1-t)>0\quad(0<t<1).
+\]
+
+Boundedness of the potential forces \(a_\infty=1\), so integration constants match and strict monotonicity yields \(a=\sigma\), \(h=0\) on this end. This is conditional on the strict-interior and flux steps in the printed proof.
+
+**Non-\(C^2\) band (lines 190–234).** At the transition \(r=t_*\in(0,1)\), the one-sided derivatives of the radial slope satisfy \(h_\lambda'(t_*-)=-z_0(t_*)<0\) and \(h_\lambda'(t_*+)=-p'(t_*)>0\). They are unequal, preventing \(C^2\) regularity. The submersion \(r\) transfers this to every point of the hypersurface. A smooth correction \(\rho\) cannot remove the jump. No new printed statement error was found.
+
+## Actual audit limits
+
+The local-to-global representation §5.27.10, \(\sigma\)-finite extended-mass §13.14.3, §14.26 projective model, and the nonexcluded elliptic/capacity inputs require separate certification. This report does **not** claim full proofs of them. The full §15.25 was **not** reviewed.
+
+Demailly approximation/regularization and the dedicated Bergman, \(L^2\), Ohsawa–Takegoshi, multiscale-atlas and positivity-loss programmes remain **deferred-by-user**, not resolved or certified. No tests, builds, CI, main/source/body/registry/permanent-tag/website changes, merges or publication.
