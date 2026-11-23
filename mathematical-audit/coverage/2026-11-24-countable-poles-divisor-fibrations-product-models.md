@@ -1,0 +1,13 @@
+# 2026-11-24 — Current direct coverage: product models and divisor fibrations
+
+Reviewed main: `b6933b772f41b45918f7e25ed1afbbb1fd892272`. Current branch parent before this report: `5d2ac25683aed605b0edf3486c5478c24fa0cf19`.
+
+| Section | Scope actually performed | Integrated file, blob and physical anchors | Status |
+| --- | --- | --- | --- |
+| §18.13 | Entire current mathematical body: summable localized logarithmic-power poles, strict current bounds, Jensen exponential integrability, equality under all continuous obstacles | `docs/sections/multiplier-ideal-envelopes-and-goodness--a-topology-on-ordinary-singularity-types--countable-poles-and-all-obstacles/index.html`, `c43a70e953f433b61a2cda67e02c2c57a0448427`, lines 7–130, Theorem tag `6529F0A74D79`, Proposition tag `AB19DE43A7F6` | CURRENT-DIRECT-FULL; historic first-visit not asserted |
+| §18.14 | Entire present mathematical body: connected-fiber divisorial removal and descent, induced extended obstacle, ideal cancellation, envelope/relative class equivalences, explicit ramification and disconnected-fiber cases, finite-cover repair | `docs/sections/multiplier-ideal-envelopes-and-goodness--a-topology-on-ordinary-singularity-types--relative-divisors-and-fiber-obstacles/index.html`, `1eedc79121fde5c31477c771648040f68769929b`, lines 7–452, Proposition tag `1195E1B9B18D`, Corollary tag `20390B807B79` | CURRENT-DIRECT-FULL; historic first-visit not asserted |
+| §18.15 | Entire present mathematical body: product-model envelopes, zero volumes, exact polar metric, analytic closure, positive nonclosed and semipositive deformations | `docs/sections/multiplier-ideal-envelopes-and-goodness--a-topology-on-ordinary-singularity-types--divisorial-products-and-zero-volume/index.html`, `203607fc492e0027cbfd8f71d64ec6c0b3c57bf3`, lines 7–278, Proposition tag `6DEB26AFE67E`, Corollary tags `DFCE5415EAB5`, `13B4DE048053` | CURRENT-DIRECT-FULL; historic first-visit not asserted |
+
+**New nonduplicate result:** `POME-ZERO-VOLUME-POLAR-TV-SHARP-DIAMETER-001` — low / verified conditional deduction, exact diameter `2A` and uncountably separated analytic zero-volume models. [Detailed proof](../reports/2026-11-24-polar-model-tv-diameter-and-degenerate-volume.md).
+
+**Counts:** 3 current complete mathematical section readings; 1 new mathematical deduction; no new confirmed false original theorem, no new confirmed proof gap, no complete transitive proof certification. Earlier legacy audits remain unreconciled; section count in the master matrix is unchanged at 747. Deferred-by-user excluded programmes untouched. No builds/tests or production changes.
