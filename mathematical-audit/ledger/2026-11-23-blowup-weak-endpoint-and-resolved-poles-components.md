@@ -2,14 +2,13 @@
 
 Main `b6933b772f41b45918f7e25ed1afbbb1fd892272`; audit branch `review/mathematical-audit`.
 
-## POME-RESOLVED-POLES-DISCONNECTED-MASS-SCALAR-001
-- **Severity/status:** medium / confirmed error in unqualified printed theorem.
-- **Anchor:** `docs/sections/equations-with-prescribed-singularities--equations-with-resolved-logarithmic-poles/index.html` blob `bec2abe4e9b361a37adbf668837da42726b6dcda`, Theorem 15.22.2 permanent tag `3B5397268E44`, physical lines 21–50; model Example 15.22.7 `0362BBF11A0B`, lines 64–80.
-- **Hypothesis/false conclusion:** no connectedness of `X` in a theorem promising a single global `kappa` for every nonzero nonnegative `f\in L^p`.
-- **Counterexample:** `P^2 ⊔ P^2`, identical `h=lambda omega_FS` and identical resolved pole model with residual mass `lambda^2-c^2`, but `f=1` on one component and `f=2` on the other. One scalar would have to be two different numbers. Componentwise shifts also defeat single global-sup uniqueness after compatible mass ratios are imposed.
-- **Correction:** add connectedness or require compatible componentwise ratios and normalize separately. This is another affected result from the already tracked missing-connectedness root cause in §14.2, not an independent root mechanism.
-- **Affected dependents:** Theorem 15.22.2, the conditional mass assertion in §15.22.10, and citations to global normalized existence/uniqueness for disconnected manifolds. Connected case not refuted.
-- **Details:** [full proof](../reports/2026-11-23-blowup-density-weak-endpoint-and-resolved-poles-connectedness.md).
+## POME-DISCONNECTEDNESS-AUDIT-CONVENTION-RETRACTION-001
+- **Status:** verified correction / withdrawn audit false-positive. **No source theorem error**.
+- **Precise overriding convention:** §1.1, `docs/sections/conventions/index.html`, blob `ef778e54d8d7413242387e95c52269b3c7d42cae`, line 123: by default `X` is a **connected** compact complex manifold.
+- **Withdrawn §15.22 allegation:** `POME-RESOLVED-POLES-DISCONNECTED-MASS-SCALAR-001`, Theorem 15.22.2 permanent `3B5397268E44`, blob `bec2abe4e9b361a37adbf668837da42726b6dcda`, lines 21–50. The disconnected `P^2 ⊔ P^2` example is **outside** the printed hypotheses.
+- **Also retracted as claimed source errors:** `POME-SMOOTH-MA-DISCONNECTED-GLOBAL-SCALAR-001` (§14.2.1, permanent `F33DA8C9DF9F`), `POME-SMOOTH-MA-DISCONNECTED-UNIQUENESS-001` (§14.2.4, `366AA2E61158`), and `POME-SMOOTH-MA-DISCONNECTED-C0-ESTIMATE-001` (§14.3.5, `EEF74F1DEBB8`). Neither §14.2 nor §14.3 overrides the convention.
+- **Consequence:** no source/body repair is warranted on these grounds; deep connected-case proof chains remain uncertified. Preserve prior audit text with explicit superseding classification.
+- **Proof and verified anchors:** [report](../reports/2026-11-23-blowup-density-weak-endpoint-and-resolved-poles-connectedness.md).
 
 ## POME-BLOWUP-PUSHFORWARD-WEAK-LQ-ENDPOINT-001
 - **Severity/status:** low / verified conditional deduction; not an original theorem error.
