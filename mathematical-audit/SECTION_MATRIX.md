@@ -1,3 +1,7 @@
+> **2026-11-23 — entire current §10.25, selected §10.24, §9.4 and §9.8, complete repeat §9.5.** New low / verified conditional deductions `POME-SCHUR-ARBITRARY-END-WEIGHT-001` (optimal integral end-weight criterion for the normal Schur complement) and `POME-DETERMINANT-ONLY-HERMITIAN-END-FAIL-001` (arbitrarily strong determinant growth does not force completeness). Main `b6933b772f41b45918f7e25ed1afbbb1fd892272`; no false printed theorem or transitive certificate. [Proof](reports/2026-11-23-schur-integral-criterion-and-determinant-only-countermodel.md) · [scope](coverage/2026-11-23-divisor-normal-length-and-complex-space-rotation.md). Demailly/regularization/Bergman/L²/OT/multiscale/positivity-loss **deferred-by-user**.
+
+---
+
 > **2026-11-23 — §§5.40, 5.41, 17.16 entire direct; §20.8 nonexcluded selected.** `POME-PERRON-ASYMMETRIC-TIME-SLOPE-001`: low / verified conditional deduction, sharp oriented nonclosed Perron slopes, not a printed theorem error. [Proof](reports/2026-11-23-asymmetric-perron-slopes-and-kiselman-envelope-review.md) · [coverage](coverage/2026-11-23-envelope-minimum-perron-timeslope.md). Main `b6933b772f41b45918f7e25ed1afbbb1fd892272`; +3 full, +1 selected, +0 confirmed errors or complete transitive chains. Excluded programmes remain deferred-by-user.
 
 ---
@@ -572,8 +576,8 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §10.21 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.22 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.23 | THIS-RUN-FULL | 2026-11-20 exact full §10.23 lines 7–49; cone/cusp proof report; previous historical visits not reconciled |
-| §10.24 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.25 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §10.24 | 2026-11-23-SELECTED; LEGACY-UNRECONCILED | Selected Theorem 10.24.1 blowup/non-nef metric and its singular Monge–Ampère equation, normalizations, finite-distance/incompleteness (main blob `883d0dcdbae1b442feb63047138dfad88c7d9058`, approximate lines 7–152). Remaining §10.24 text through line 628 **not** directly reviewed this run; no whole-section or comparison-chain certification. [Exact scope](coverage/2026-11-23-divisor-normal-length-and-complex-space-rotation.md) |
+| §10.25 | 2026-11-23-DIRECT-FULL; LEGACY-UNRECONCILED | Entire current integrated mathematical lines **7–236**, main blob `326cea8684e76a3b0bdb41bb03c85e893aa47477`. Schur-complement completeness with critical power threshold and full-mass torus examples directly read; new verified conditional deductions POME-SCHUR-ARBITRARY-END-WEIGHT-001 and POME-DETERMINANT-ONLY-HERMITIAN-END-FAIL-001, [proof](reports/2026-11-23-schur-integral-criterion-and-determinant-only-countermodel.md) and [exact scope](coverage/2026-11-23-divisor-normal-length-and-complex-space-rotation.md). No confirmed source error; no transitive certificate; historic first visit unasserted |
 | §10.26 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.27 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.28 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
