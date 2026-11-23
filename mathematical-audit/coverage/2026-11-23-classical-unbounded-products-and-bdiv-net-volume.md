@@ -1,0 +1,17 @@
+# 2026-11-23 — classical unbounded products and b-divisor volume nets
+
+**Current main:** b6933b772f41b45918f7e25ed1afbbb1fd892272. **Initial review head:** 2854fc03cc4ce34149dba35b8f1ba64d81b70b74. Statuses refer to mathematical text actually examined, not to first visits or completed upstream chains.
+
+| Actual ToC section | Main file / blob and physical line anchors | Scope of mathematical audit |
+| --- | --- | --- |
+| §7.28 | docs/sections/classical-products-with-controlled-unbounded-loci/index.html; 21dc39a9b02a4c1820f081a0c3a82e9f8ffca727; 5–67 | **Whole direct.** Theorem 7.28.1, source demailly-complex-geometry:F96C3380, permanent 1BBBF8109419; coefficient recursion, simultaneous decreasing weighted limits, cutoff/current positivity |
+| §7.30 | docs/sections/classical-products-with-controlled-unbounded-loci--classical-products-under-hausdorff-intersection-conditions/index.html; 9cde5bfdeb2e3c0457216278945df46eb230e42b; 10–154 | **Whole direct.** Lemma 7.30.1 source 3D4DAD02, permanent 162A0666C4BB; Proposition 7.30.3 source A5207F44, permanent 1AC7DC75B159; all m-fold Hausdorff nullness, cutoff Hessian decomposition, projection cylinder |
+| §7.29 | docs/sections/classical-products-with-controlled-unbounded-loci--classical-products-with-compact-unbounded-loci/index.html; 65666651048e9ada933a763b7d381766f8b43965; 10–130 and 137–154 | **Selected / prior-covered section**, not a new complete pass; bounded collar mass identities, weighted recursion, beginning of sphere lemma. Preserve earlier independent sharp radial finding |
+| §7.31 | docs/sections/classical-products-with-controlled-unbounded-loci--collars-relative-to-the-support-of-the-base-current/index.html; 86de377d6e6f17fc1a08a6e789a681ddfaabfac5; 27–50 and 69–84 | **Selected only** theorem statement/relative collar and Corollary 7.31.4, source 4876F9E5 permanent EBA900FA96EF. Regularization lemma 7.31.1 was NOT audited |
+| §20.1 | docs/sections/the-theory-of-b-divisors/index.html; 4a793dfd462badcb351f54a36cb030cde14a399b; 66–126, 209–259 | **Selected only** Lemma 20.1.7 source sgpt:54FCB4C1 permanent F5B2C1F1E318; Example 20.1.9 source sgpt:048A0D73 permanent 7AF528B0FB3B; Step 3 of Theorem 20.1.15 source sgpt:A0644B2C permanent 6EB1B4E1D222, without reopening Demailly approximation |
+
+**Delta:** 2 whole current direct mathematical sections, 3 selected section readings, 1 low verified conditional deduction/sharpness model, 1 medium candidate / unverified volume-order dependency, 0 confirmed original false theorems, 0 fully certified transitive chains. Historical first visits of §§7.28/7.30 remain unreconciled. **747** section rows retained.
+
+**Unresolved dependencies:** bounded BT coefficient/continuity input, complex-plane positive current integration, local finite-cover smoothing not re-proved, projection-cylinder Hausdorff lemma only partially reviewed, and crucially the singularity-order property needed for Lemma 20.1.7 to yield volume equality in Theorem 20.1.15. The excluded Demailly regularization and Bergman/L²/OT/multiscale/positivity-loss programmes remain **deferred-by-user**, never resolved by this note.
+
+[Full report](../reports/2026-11-23-classical-products-support-threshold-and-bdiv-net-volume.md) · [finding classification](../ledger/2026-11-23-classical-products-support-and-bdiv-volume-order.md).
