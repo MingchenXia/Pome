@@ -25,6 +25,15 @@ The same convention also invalidates the preceding audit's three alleged connect
 - `POME-SMOOTH-MA-DISCONNECTED-UNIQUENESS-001`, §14.2.4 (`366AA2E61158`, same blob, line 50): **withdrawn as a source-error claim**.
 - `POME-SMOOTH-MA-DISCONNECTED-C0-ESTIMATE-001`, §14.3.5 (`EEF74F1DEBB8`, `docs/sections/smooth-monge-ampere-equations--the-potential-bound-from-weighted-integration/index.html`, blob `f774b702e65736ce8a23847dbb3409c6b31b0211`, line 108): **withdrawn as a source-error claim**.
 
+The same global `X` convention supersedes **four additional alleged errors** from §§11.4, 11.26, and 11.27. No relevant theorem explicitly relaxes §1.1:
+
+- `POME-GAUDUCHON-CONFORMAL-COMPACT-CONNECTED-001`, Theorem 11.4.2 (permanent `3978AEB15BD7`, `docs/sections/gauduchon-metrics-and-linear-mass--conformal-gauduchon-metrics/index.html`, blob `ecb4bf9e593dfb25f1644f0561d1aa65bf096b10`, line 20): withdrawn. Both a disconnected compact union and the noncompact ball fail §1.1.
+- `POME-RCPOSITIVE-GLOBAL-SPREAD-DISCONNECTED-001`, Theorem 11.26.3 (permanent `AFF6DB5A7BE1`, `docs/sections/gauduchon-metrics-and-linear-mass--conformal-changes-and-directional-curvature-positivity/index.html`, blob `d54016b202422bde3bc5e2c6e493e4618918a7d7`, line 35): withdrawn, disconnected union outside hypotheses.
+- `POME-RCPOSITIVE-FLAT-DETERMINANT-NONCOMPACT-001`, Proposition 11.26.7 (permanent `9EFFDFAE03AF`, same main blob, line 96): withdrawn, open unit ball outside compactness hypothesis.
+- `POME-RICCI-FLAT-KAHLER-RCPOSITIVE-DISCONNECTED-001`, Theorem 11.27.4 (permanent `8C2D7F0F7808`, `docs/sections/gauduchon-metrics-and-linear-mass--ricci-flat-kahler-surfaces/index.html`, blob `119ac604fd60b412ecb7d51910cfcecc04b3b7cf`, physical line 129): withdrawn, K3 disjoint union flat torus outside hypotheses.
+
+**Total reclassified in this checkpoint: eight earlier alleged theorem errors involving missing global connectedness/compactness, including the transient §15.22.2 allegation.** They are mathematically useful warnings when considering extensions beyond project hypotheses, but are **not errors in the integrated reading edition**. Findings unrelated to this global-scope mistake are unaffected.
+
 This is a correction of **audit classification**, not independent certification of the deep connected-manifold proofs. In particular, neither smooth Hermitian Monge–Ampère existence nor its global estimates have been transitive-certified in this session. Retain historical reports for traceability, but treat their missing-connectedness error statuses as superseded.
 
 ## POME-BLOWUP-PUSHFORWARD-WEAK-LQ-ENDPOINT-001
