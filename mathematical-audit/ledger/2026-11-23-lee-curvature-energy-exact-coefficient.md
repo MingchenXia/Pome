@@ -1,10 +1,10 @@
 # POME-LEE-CURVATURE-ENERGY-EXACT-COEFFICIENT-001
 
 - **Date:** 2026-11-23.
-- **Reviewed main:** \`b6933b772f41b45918f7e25ed1afbbb1fd892272\`.
+- **Reviewed main:** `b6933b772f41b45918f7e25ed1afbbb1fd892272`.
 - **Severity/status:** **low / verified conditional deduction**, not a false printed theorem, not a complete upstream proof-chain certificate.
-- **Integrated path and blob:** \`docs/sections/locally-conformally-kahler-geometry/index.html\` / \`6ebf8e604b45d3eb748037af506145273ca3875d\`; anchors **8, 82–124, 187–212, 395–419**.
-- **Source family and tags:** \`non-kahler-pluripotential-theory\`; Proposition 23.2.7 \`11EBB7AD1165\`, Eq. 23.2.8 \`35851308DD2B\`, Proposition 23.2.14 \`E5F423FF7707\`.
+- **Integrated path and blob:** `docs/sections/locally-conformally-kahler-geometry/index.html` / `6ebf8e604b45d3eb748037af506145273ca3875d`; anchors **8, 82–124, 187–212, 395–419**.
+- **Source family and tags:** `non-kahler-pluripotential-theory`; Proposition 23.2.7 `11EBB7AD1165`, Eq. 23.2.8 `35851308DD2B`, Proposition 23.2.14 `E5F423FF7707`.
 - **Hypotheses:** compact connected complex \(X\), \(n\ge2\), smooth LCK \(\omega\) with \(d\omega=\lambda\wedge\omega\), \(d\lambda=0\), associated \(g\), and \(d^c=i(\bar\partial-\partial)/(4\pi)\).
 - **Exact result:**
   \[
