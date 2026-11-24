@@ -1,3 +1,7 @@
+> **2026-11-24 — normal-fiber classical product continuity and finite-map rotation.** **POME-NORMAL-FIBER-UNIFORM-VAGUE-JUMP-001** (low / verified conditional deduction, not a printed error): under Lemma 6.48.1, continuous-test fiber integrals of the classical truncations converge uniformly on compact parameter sets; full fiber measures are vaguely continuous everywhere. The residual atoms are upper semicontinuous, at least the generic coefficient, with meagre null jump locus (closed for integer tuples). The explicit tuple (z_1^2,w z_1,z_2,...,z_q) has fiber degree 2 at w=0 and 1 elsewhere. Whole direct §§6.43, 6.46–48; selected §6.34.1 and statement-level §§6.40.2, 7.31.4. Main b6933b772f41b45918f7e25ed1afbbb1fd892272. [Proof, anchors and scope](reports/2026-11-24-normal-fiber-uniform-vague-continuity.md). No newly confirmed source errors, unresolved new proof gaps or transitive certificates. Excluded programmes deferred-by-user; no builds/tests/CI or production edits.
+
+---
+
 > **2026-11-24 — global differential complex on the non-Stein open union.** **POME-STEIN-UNION-GLOBAL-DIFFERENTIAL-COMPLEX-001** (low / verified conditional deduction): Example 9.27.1 has global vector fields freely parametrized by entire pairs (a,b) with projected components (wa,wb); their evaluation rank is one on the exceptional lines. All holomorphic one-forms descend from C²; top forms are AΩ for A=O(C²), and d of global one-forms has image wAΩ. The global holomorphic differential complex has H⁰=C, H¹=0, H²=O(C); its degree-two map to smooth de Rham cohomology is injective by the accumulating-root sphere periods. Not a hypercohomology claim; prior entire-algebra and sphere results not relogged. Whole direct §§9.26–28, 10.3; heading-only §9.25; selected §§9.29, 10.2. Main b6933b772f41b45918f7e25ed1afbbb1fd892272. [Proof, immutable anchors and scope](reports/2026-11-24-stein-union-global-differential-complex.md). Zero newly confirmed source errors, unresolved gaps or transitive certificates. Excluded programmes deferred-by-user; no tests/build/CI or production edits.
 
 ---
@@ -450,7 +454,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §6.31 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §6.32 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §6.33 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §6.34 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §6.34 | 2026-11-24-SELECTED; LEGACY-UNRECONCILED | Selected lines 7–40, collar Lemma 6.34.1; [review](reports/2026-11-24-normal-fiber-uniform-vague-continuity.md). Not whole. |
 | §6.35 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §6.36 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §6.37 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
@@ -459,12 +463,12 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §6.40 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §6.41 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §6.42 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §6.43 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §6.43 | 2026-11-24-FULL-DIRECT; LEGACY-UNRECONCILED | Whole current mathematical lines 7–55, e2a86c5438c7770a8766f6bedf779e1879ead4c0; [review](reports/2026-11-24-normal-fiber-uniform-vague-continuity.md). Historical first visit unasserted; zero complete transitive chains. |
 | §6.44 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §6.45 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §6.46 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §6.47 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §6.48 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §6.46 | 2026-11-24-FULL-DIRECT; LEGACY-UNRECONCILED | Whole current mathematical lines 7–63, 1f44c5feb546ecfe43ec1bc752d3fd0bff501613; [review](reports/2026-11-24-normal-fiber-uniform-vague-continuity.md). Historical first visit unasserted; zero complete transitive chains. |
+| §6.47 | 2026-11-24-FULL-DIRECT; LEGACY-UNRECONCILED | Whole current mathematical lines 7–45, bad5cd9bb63a90871462700f5c1f7080c597ee99; [review](reports/2026-11-24-normal-fiber-uniform-vague-continuity.md). Historical first visit unasserted; zero complete transitive chains. |
+| §6.48 | 2026-11-24-FULL-DIRECT; LEGACY-UNRECONCILED | Whole current mathematical lines 7–97, 5b1dff0cd7287091c55d59bdd990f1869e61c224; [review](reports/2026-11-24-normal-fiber-uniform-vague-continuity.md). Historical first visit unasserted; zero complete transitive chains. |
 | §6.49 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §6.50 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §6.51 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
