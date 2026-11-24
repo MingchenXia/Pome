@@ -643,12 +643,12 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §10.29 | 2026-11-23-SELECTED-ONLY; LEGACY-UNRECONCILED | Selected Theorem 10.29.4 and Propositions 10.29.10 / 10.29.14, approximate lines 70–111, 165–265, 280–303, blob \`8846df97111fa26289cd5e0cb4fd8f8a1fc5a035\`; transverse convexity, Gauduchon mass normalization and sign-obstruction checks. [Scope](coverage/2026-11-23-rigid-torus-kummer-and-four-point-extension.md). NOT a whole-section audit or a transitive certificate; prior reports unreconciled |
 | §10.30 | 2026-11-23-NONEXCLUDED-SELECTED-ONLY; LEGACY-UNRECONCILED | Prior reports not fully reconciled; **2026-11-23 selected only** mathematical lines 7–120, 192–209, blob 3cebca63712deb760cf2399c06ca1b5a37b6d851; lines 122–190 **deferred-by-user** excluded programme; [scope](coverage/2026-11-23-convex-functions-and-affine-residuals.md), NOT full section |
 | §10.31 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.32 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §10.32 | 2026-11-25-CURRENT-HEADING-ONLY; LEGACY-UNRECONCILED | Prior reports not fully reconciled; **2026-11-25:** line 5, blob 097012859caaddb5e00f9abb800be1918e169f8c; navigation only. [Report](reports/2026-11-25-sharp-rank-sensitive-determinant-twists.md). No transitive certification or historical first-visit claim. |
 | §10.33 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.34 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.35 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §10.34 | 2026-11-25-CURRENT-DIRECT-WHOLE; LEGACY-UNRECONCILED | Prior reports not fully reconciled; **2026-11-25:** mathematical lines 7–268, blob 602137fd659e52bbb7d2b1e459e92fb44709ed53; rank-sensitive optimal trace subtraction and determinant twist, phase and Gaussian identities, curvature blocks and conditional vanishing deductions. [Report](reports/2026-11-25-sharp-rank-sensitive-determinant-twists.md). No transitive certification or historical first-visit claim. |
+| §10.35 | 2026-11-25-CURRENT-DIRECT-WHOLE; LEGACY-UNRECONCILED | Prior reports not fully reconciled; **2026-11-25:** mathematical lines 7–125, blob 1e60418dd73f475dfee1b660f059c84a1ef1137b; Grassmannian charts, global sections, Baire, jets and pair evaluations; prior selected findings not recounted. [Report](reports/2026-11-25-sharp-rank-sensitive-determinant-twists.md). No transitive certification or historical first-visit claim. |
 | §10.36 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.37 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §10.37 | 2026-11-25-CURRENT-DIRECT-WHOLE; LEGACY-UNRECONCILED | Prior reports not fully reconciled; **2026-11-25:** mathematical lines 7–109, blob b14f16aa555573bc9df35897918f9241f6015ddd; projective convention, relative direct image and curvature normal forms; prior tautological positivity equivalence not recounted. [Report](reports/2026-11-25-sharp-rank-sensitive-determinant-twists.md). No transitive certification or historical first-visit claim. |
 | §10.38 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.39 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.40 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
