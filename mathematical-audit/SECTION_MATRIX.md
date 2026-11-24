@@ -925,14 +925,14 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §16.27 | 2026-11-24-CURRENT-PARTIAL; LEGACY-UNRECONCILED | Nonexcluded lines 7–13,35–61,64–343, blob 1c209671c3de0740018b2aaad7aa321f5647313d; §16.27.1 and regularization-dependent passage line 62 deferred-by-user; [scope](reports/2026-11-24-extrapolation-sharp-mass-deficit.md); no whole or transitive certificate |
 | §16.28 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §16.29 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §16.30 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §16.31 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §16.32 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §16.30 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-24 SELECTED:** lines 11–49, blob 15d7e0207da1d72653382a1512ca380311b5d5e3; norm-ball profile and decreasing compact obstacles. Other polynomial arguments not certified. [Report](reports/2026-11-24-fixed-test-compact-capacity-regularity.md). No transitive certification; historic first visit not asserted. |
+| §16.31 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-24 WHOLE DIRECT:** mathematical lines 11–104, blob 98d00aa7b2db4f81163a56d6f448946fd0c75499; fixed-test-compact regularity criterion, sharp continuity defect, and directed-net boundary. [Report](reports/2026-11-24-fixed-test-compact-capacity-regularity.md). No transitive certification; historic first visit not asserted. |
+| §16.32 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-24 WHOLE DIRECT:** mathematical lines 7–162, blob b20154011d37d46a4d0cc7751863207e5debf183; polynomial growth equivalence, hull and proper-map localization, regularity transfer and smooth neighborhood construction. [Report](reports/2026-11-24-fixed-test-compact-capacity-regularity.md). No transitive certification; historic first visit not asserted. |
 | §16.33 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §16.34 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §16.35 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §16.36 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §16.37 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §16.37 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-24 SELECTED:** lines 80–111, blob 525f388094d0efb6b9ef9f8701d8ac459fd22814; fixed-ball/Robin comparison only. [Report](reports/2026-11-24-fixed-test-compact-capacity-regularity.md). No transitive certification; historic first visit not asserted. |
 | §16.38 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §16.39 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §16.40 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
