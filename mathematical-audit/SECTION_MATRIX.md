@@ -358,7 +358,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §5.12 | 2026-11-24-CURRENT-DIRECT-WHOLE; LEGACY-UNRECONCILED | Entire mathematical lines 7–127, blob e26179ee7cbb45fe10f7b4aabb9057ca33739a87; Schur complement, convex fibers, barriers and monotone limit; [report](reports/2026-11-24-positive-and-signed-net-convergence-boundaries.md); no upstream certification |
 | §5.13 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.14 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §5.15 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §5.15 | LEGACY-UNRECONCILED | Prior reports not fully reconciled **2026-11-24 CURRENT DIRECT FULL: mathematical lines 7–441, blob 855febeeb3846c2e749c80b5381a5a80ca3c6e7b; thinness and plurifine topology, local proof repair 5.15.18.** [Report](reports/2026-11-24-measurable-ma-density-and-plurifine-continuity.md). No complete upstream certification; historical first visits unasserted. |
 | §5.16 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.17 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.18 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
@@ -370,8 +370,8 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §5.24 | 2026-11-24-CURRENT-DIRECT-WHOLE; LEGACY-UNRECONCILED | Entire mathematical lines 7–161, blob af8c44279c1e18f00174d613473b1d175beaa44a; frozen-background errors, comparison, Liouville, removal, upper-test Hessian; [report](reports/2026-11-24-positive-and-signed-net-convergence-boundaries.md); no upstream certification |
 | §5.25 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-24 CURRENT DIRECT FULL:** Entire mathematical lines 7–64, blob d7ff8eafea43197c77de4bfd335bed0764ab4f69; connected normalized compactness and compact-support partition-of-unity clarification. [Report](reports/2026-11-24-removable-critical-hausdorff-threshold.md). No transitive certification; historical first visit not asserted. |
 | §5.26 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §5.27 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §5.28 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §5.27 | LEGACY-UNRECONCILED | Prior reports not fully reconciled **2026-11-24 SELECTED: lines 11–60, 138–144, blob ddb2ac8d9de27a22152872e07e5e787d138a790e; weighted continuity and mixed density only.** [Report](reports/2026-11-24-measurable-ma-density-and-plurifine-continuity.md). No complete upstream certification; historical first visits unasserted. |
+| §5.28 | LEGACY-UNRECONCILED | Prior reports not fully reconciled **2026-11-24 CURRENT DIRECT FULL: mathematical lines 7–248, blob e2ba89b51376ba0296846221109c664a0c29b2c3; mixed products, contact, pullback and measurable ac density strengthening.** [Report](reports/2026-11-24-measurable-ma-density-and-plurifine-continuity.md). No complete upstream certification; historical first visits unasserted. |
 | §5.29 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-24 SELECTED:** Selected lines 7–104, blob 77a9098e9bb922425d11c5b04d8927a3997ad44e; capacity comparison, local-global gluing, sublevel estimate, Holder density. [Report](reports/2026-11-24-removable-critical-hausdorff-threshold.md). No transitive certification; historical first visit not asserted. |
 | §5.30 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.31 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
@@ -390,7 +390,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §5.44 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.45 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.46 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §5.47 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §5.47 | LEGACY-UNRECONCILED | Prior reports not fully reconciled **2026-11-24 SELECTED: lines 275–286, blob 1bfa1fc213c9d9cf3db6ec015a10aeb21617aa2c; Definition 5.47.14 only.** [Report](reports/2026-11-24-measurable-ma-density-and-plurifine-continuity.md). No complete upstream certification; historical first visits unasserted. |
 | §5.48 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.49 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.50 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
