@@ -310,7 +310,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §2.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §2.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §2.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §2.6 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §2.6 | 2026-11-24-CURRENT-DIRECT-WHOLE; LEGACY-UNRECONCILED | Entire mathematical lines 7–102, blob 45720b2399a645a1a9a8148873fdc01c634fc5d7; positive convergence and exact signed-net scope, POME-MEASURE-NET-SIGNED-TAIL-BOUNDARY-001; [report](reports/2026-11-24-positive-and-signed-net-convergence-boundaries.md); no upstream certification |
 | §2.7 | 2026-11-21-FULL; LEGACY-UNRECONCILED | Entire main mathematical lines 5–91, blob `7e4a226a48f88a97b3db1a8dd7d8582c909aeea1`: Willard subnets, Tychonoff/ultrafilters, vague compactness and Arzelà–Ascoli; no new confirmed printed error. [Review](reports/2026-11-21-guillemin-entropy-scaling-and-cross-chapter-audit.md). No entire dependency-chain certification |
 | §2.8 | 2026-11-21-FULL; LEGACY-UNRECONCILED | Entire integrated mathematical lines 7–225, blob `1b600ca8444edebc8e05e300cb86ae371e9f8535`; dominated density construction, differentiation, real Hessian expansion; no new confirmed original errors. [Report](reports/2026-11-21-fine-density-one-and-differentiation-review.md). No first-visit claim or upstream certification |
 | §2.9 | 2026-11-24-SELECTED; LEGACY-UNRECONCILED | Current blob `b2366d2a9604cc6f39cf45ced697905978dff8ab`; selected Fourier/Plancherel/Riesz §§2.9.2–6 and multiplier definitions around §§2.9.9–12 only, **not whole §2.9** and no Calderón–Zygmund transitive certification. [scope](coverage/2026-11-24-magnetic-and-tensor-broad-rotation.md) |
@@ -355,7 +355,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §5.9 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.10 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.11 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §5.12 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §5.12 | 2026-11-24-CURRENT-DIRECT-WHOLE; LEGACY-UNRECONCILED | Entire mathematical lines 7–127, blob e26179ee7cbb45fe10f7b4aabb9057ca33739a87; Schur complement, convex fibers, barriers and monotone limit; [report](reports/2026-11-24-positive-and-signed-net-convergence-boundaries.md); no upstream certification |
 | §5.13 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.14 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.15 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
@@ -366,8 +366,8 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §5.20 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.21 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.22 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §5.23 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §5.24 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §5.23 | 2026-11-24-CURRENT-DIRECT-WHOLE; LEGACY-UNRECONCILED | Entire mathematical lines 7–57, blob 57c9cc9f1a10adf7925ef159c1095ca270150962; background shift and zero-coefficient conventions; [report](reports/2026-11-24-positive-and-signed-net-convergence-boundaries.md); no upstream certification |
+| §5.24 | 2026-11-24-CURRENT-DIRECT-WHOLE; LEGACY-UNRECONCILED | Entire mathematical lines 7–161, blob af8c44279c1e18f00174d613473b1d175beaa44a; frozen-background errors, comparison, Liouville, removal, upper-test Hessian; [report](reports/2026-11-24-positive-and-signed-net-convergence-boundaries.md); no upstream certification |
 | §5.25 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.26 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.27 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
@@ -386,7 +386,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §5.40 | 2026-11-23-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Entire present-main mathematical lines 7–326, blob 30716faee83d2ac0ec84b3684e319210980bd14f; compact nonpolar obstacle bound, pointwise/q.e. comparison, explicit ball hyperplane envelope. Theorem 5.32.1 in Proposition 5.40.3 is user-deferred regularization, not certified. [2026-11-23 current full direct review](coverage/2026-11-23-envelope-minimum-perron-timeslope.md); historic first visits unknown; +0 transitive certificates |
 | §5.41 | 2026-11-23-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Entire present-main mathematical lines 7–160, blob 3a96ad51514a61efa6802d09305f90a4c9cbef2d; nonclosed Kiselman minimum, Legendre endpoint duality, fiberwise reconstruction and joint psh. Local Kiselman upstream not independently certified. [2026-11-23 current full direct review](coverage/2026-11-23-envelope-minimum-perron-timeslope.md); historic first visits unknown |
 | §5.42 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §5.43 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §5.43 | 2026-11-24-CURRENT-SELECTED; LEGACY-UNRECONCILED | Selected §§5.43.15–20 lines 270–411, blob e5cccf608a51dd1629374fc68a1d3d7e6fd15958; weighted trace, TV, polar curvature, modification descent and capacity collars; [report](reports/2026-11-24-positive-and-signed-net-convergence-boundaries.md); not whole, upstream and excluded approximation not certified |
 | §5.44 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.45 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.46 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
