@@ -431,3 +431,6 @@ The dated [ledger directory](ledger/) and [section coverage matrix](SECTION_MATR
 
 Demailly approximation/regularization and dedicated Bergman, L2, Ohsawa–Takegoshi, multiscale-atlas and positivity-loss proof-completion work have been expressly excluded since 2026-10-17. Retain their earlier notes as **deferred-by-user**; do not infer their results from unrelated audits.
 
+
+- **2026-11-24 / POME-CONTINUOUS-MA-AC-DENSITY-MEASURABLE-001** — low / verified conditional deduction; §5.28.10/.12, permanent C5B4B944142C/00AB47766404, lines 185–216, measurable ac density equality with singular part allowed. No false theorem. [Proof](reports/2026-11-24-measurable-ma-density-and-plurifine-continuity.md).
+- **2026-11-24 / POME-PLURIFINE-QPSH-POLE-CONTINUITY-001** — low / verified local proof repair; §5.15.18 permanent E49CF7960E4C, lines 329–355, continuity at poles and ambient ordinary neighborhood. Corollaries 5.15.19/.21 remain valid. [Proof](reports/2026-11-24-measurable-ma-density-and-plurifine-continuity.md). Main b6933b772f41b45918f7e25ed1afbbb1fd892272; no full upstream certificates. Excluded programmes remain deferred-by-user.
