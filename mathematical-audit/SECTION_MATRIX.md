@@ -1,3 +1,7 @@
+> **2026-11-24 — global differential complex on the non-Stein open union.** **POME-STEIN-UNION-GLOBAL-DIFFERENTIAL-COMPLEX-001** (low / verified conditional deduction): Example 9.27.1 has global vector fields freely parametrized by entire pairs (a,b) with projected components (wa,wb); their evaluation rank is one on the exceptional lines. All holomorphic one-forms descend from C²; top forms are AΩ for A=O(C²), and d of global one-forms has image wAΩ. The global holomorphic differential complex has H⁰=C, H¹=0, H²=O(C); its degree-two map to smooth de Rham cohomology is injective by the accumulating-root sphere periods. Not a hypercohomology claim; prior entire-algebra and sphere results not relogged. Whole direct §§9.26–28, 10.3; heading-only §9.25; selected §§9.29, 10.2. Main b6933b772f41b45918f7e25ed1afbbb1fd892272. [Proof, immutable anchors and scope](reports/2026-11-24-stein-union-global-differential-complex.md). Zero newly confirmed source errors, unresolved gaps or transitive certificates. Excluded programmes deferred-by-user; no tests/build/CI or production edits.
+
+---
+
 > **2026-11-24 — polynomial MA damping and tensor-product curvature.** **POME-WEIGHTED-MA-POLYNOMIAL-CAPACITY-THREE-REGIMES-001** (low / verified conditional deduction, not a printed error): for q>r=max(n−2,0), delta=Cap(E)<=1, integrate the two simultaneous finite-depth bounds of Lemma 13.15.3 before splitting. Theorem 13.15.11 improves to delta^((q−r)/(n−r)) for r<q<n, delta(1+log(1/delta)) for q=n, and linear delta for q>n; no sharpness assertion. Whole §§13.1, 13.9, 11.20; whole historical repeat §11.12; selected §§13.15 and 11.18. Hermitian–Einstein existence remains a genuine external dependency. Main b6933b772f41b45918f7e25ed1afbbb1fd892272. No newly confirmed printed error, new unresolved proof gap, or transitive certification. [Report](reports/2026-11-24-polynomial-damping-capacity-three-regimes.md). Excluded programmes deferred-by-user; no builds/tests/CI or production edits.
 
 ---
@@ -540,11 +544,11 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §9.22 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20** full mathematical lines 7–98 (blob 1279ba00791fa992f753ddd35a63cfc0fa36973f); new verified conditional POME-FB-LEVI-FLAT-JACOBIAN-VOLUME-001 [proof](reports/2026-11-20-smooth-fatou-bieberbach-leviflat-boundary.md); no false printed theorem or transitive certificate |
 | §9.23 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20** full mathematical lines 7–71 (blob 04780d065ee474f3bb3255db297ac435e00485a1), spectral factor Hilbert/Toeplitz proof checked; [coverage](coverage/2026-11-20-ch9-tubes-fatou-bieberbach-spectral-factor.md); earlier order/determinant finding not repeated |
 | §9.24 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §9.25 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §9.26 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §9.27 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §9.28 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §9.29 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §9.25 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-24:** Heading-only direct (blob 89f1c30a6df3c3df624fd05943a5cc64460824b8); [report](reports/2026-11-24-stein-union-global-differential-complex.md); no transitive certificate. |
+| §9.26 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-24:** Whole current mathematical lines 7–67, blob c04701d0358d43a3a3f1aed61e7cdd2a48305417; regularized-max dependency taken as premise; [report](reports/2026-11-24-stein-union-global-differential-complex.md); no transitive certificate. |
+| §9.27 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-24:** Whole current mathematical lines 8–47, blob 26b2e856fc24b04616b0840caec5c688cc045ffa; global differential complex deduction; prior selected work retained; [report](reports/2026-11-24-stein-union-global-differential-complex.md); no transitive certificate. |
+| §9.28 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-24:** Whole current mathematical lines 7–141, blob ef92b5dc5bb4c143345621ea60ca52f3ca7d1872; [report](reports/2026-11-24-stein-union-global-differential-complex.md); no transitive certificate. |
+| §9.29 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-24:** Selected statement and initial context only; L2 proof not reopened; not whole; [report](reports/2026-11-24-stein-union-global-differential-complex.md); no transitive certificate. |
 | §9.30 | LEGACY-UNRECONCILED | Prior reports not fully reconciled **2026-11-24 whole direct:** physical mathematical lines 7–62, blob c4037b237429e2c1269bd7beebded6644dc206c9; gluing, Hartogs filling and hull proof checked. [Report](reports/2026-11-24-na-concave-envelope-left-tail-repair.md); no transitive certificate. |
 | §9.31 | LEGACY-UNRECONCILED | Prior reports not fully reconciled **2026-11-24 selected nonexcluded:** lines 8–41, blob 3faaef942f4822127e09c63a463d654d346696c2; independent complete radial Kähler metric for Example 9.31.2; division L2 input not reopened. [Report](reports/2026-11-24-na-concave-envelope-left-tail-repair.md). |
 | §9.32 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
@@ -594,8 +598,8 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §9.76 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.77 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §10.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-24:** Selected trace/Hodge and dd-c lemma 10.2.11–15; not whole; [report](reports/2026-11-24-stein-union-global-differential-complex.md); no transitive certificate. |
+| §10.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-24:** Whole current mathematical lines 7–158, blob 6f5ff9b768ca4f5c0892dc59398cfda1f7d44df3; [report](reports/2026-11-24-stein-union-global-differential-complex.md); no transitive certificate. |
 | §10.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.6 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
