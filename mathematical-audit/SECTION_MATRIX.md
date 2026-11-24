@@ -391,7 +391,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §5.41 | 2026-11-23-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Entire present-main mathematical lines 7–160, blob 3a96ad51514a61efa6802d09305f90a4c9cbef2d; nonclosed Kiselman minimum, Legendre endpoint duality, fiberwise reconstruction and joint psh. Local Kiselman upstream not independently certified. [2026-11-23 current full direct review](coverage/2026-11-23-envelope-minimum-perron-timeslope.md); historic first visits unknown |
 | §5.42 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.43 | 2026-11-24-CURRENT-SELECTED; LEGACY-UNRECONCILED | Selected §§5.43.15–20 lines 270–411, blob e5cccf608a51dd1629374fc68a1d3d7e6fd15958; weighted trace, TV, polar curvature, modification descent and capacity collars; [report](reports/2026-11-24-positive-and-signed-net-convergence-boundaries.md); not whole, upstream and excluded approximation not certified |
-| §5.44 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §5.44 | LEGACY-UNRECONCILED | Prior reports not fully reconciled **2026-11-24 SELECTED:** Selected nonexcluded lines 7–156, 159–267, blob 15c449ab02d6f8df98edfa07f5286af7ac8e72d1; line 157 approximation premise deferred-by-user, Cegrell input external, older findings retained. [Report](reports/2026-11-24-ruled-tangent-prime-quotient-and-veronese-obstruction.md). No transitive certificate; historical first visit unasserted. |
 | §5.45 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.46 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §5.47 | LEGACY-UNRECONCILED | Prior reports not fully reconciled **2026-11-24 SELECTED: lines 275–286, blob 1bfa1fc213c9d9cf3db6ec015a10aeb21617aa2c; Definition 5.47.14 only.** [Report](reports/2026-11-24-measurable-ma-density-and-plurifine-continuity.md). No complete upstream certification; historical first visits unasserted. |
@@ -780,9 +780,9 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §12.27 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §12.28 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §12.29 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §12.30 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §12.31 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §12.32 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §12.30 | LEGACY-UNRECONCILED | Prior reports not fully reconciled **2026-11-24 SELECTED:** Selected context lines 147–153, 170–180, blob 2a3e0f45924a48f701cf8de0526f0945824c0574, no whole-section assertion. [Report](reports/2026-11-24-ruled-tangent-prime-quotient-and-veronese-obstruction.md). No transitive certificate; historical first visit unasserted. |
+| §12.31 | LEGACY-UNRECONCILED | Prior reports not fully reconciled **2026-11-24 WHOLE DIRECT:** Entire lines 7–193, blob f361ebba006461edd8e2aca3b48a501938510e2e; prime Euler quotient and all Veronese indecomposables, older m=1 review retained. [Report](reports/2026-11-24-ruled-tangent-prime-quotient-and-veronese-obstruction.md). No transitive certificate; historical first visit unasserted. |
+| §12.32 | LEGACY-UNRECONCILED | Prior reports not fully reconciled **2026-11-24 WHOLE DIRECT:** Entire lines 7–133, blob 0bc4a4901530bf0d17055831c08e055f7f0c584f; chart relation and graded polynomial isomorphism checked, all positive powers non-finitely-generated. [Report](reports/2026-11-24-ruled-tangent-prime-quotient-and-veronese-obstruction.md). No transitive certificate; historical first visit unasserted. |
 | §12.33 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §12.34 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §12.35 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
