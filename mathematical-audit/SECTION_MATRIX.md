@@ -616,12 +616,12 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §9.31 | LEGACY-UNRECONCILED | Prior reports not fully reconciled **2026-11-24 selected nonexcluded:** lines 8–41, blob 3faaef942f4822127e09c63a463d654d346696c2; independent complete radial Kähler metric for Example 9.31.2; division L2 input not reopened. [Report](reports/2026-11-24-na-concave-envelope-left-tail-repair.md). |
 | §9.32 | LEGACY-UNRECONCILED | Prior reports not fully reconciled **2026-11-25 whole conditional mathematical lines 7–248, blob 169e9d3bc872e9fd89d5135e69204e33fccd3783; ambient Levi codimensions, strict exhaustions, intrinsic topology, hulls and full jet interpolation. [Report](reports/2026-11-25-restricted-section-simultaneous-trace-saturation.md). No transitive certification.** |
 | §9.33 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §9.34 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §9.34 | 2026-11-25-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Entire mathematical lines 7–128, blob fe5ebfa26a59b083027a10b66fcc13bddad8acbc; Levi sign, signed distance, quadratic normal form and Hartogs filling checked. [Report](reports/2026-11-25-tube-weighted-convex-envelope.md); no complete upstream certificate or historical first-visit claim |
 | §9.35 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.36 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.37 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §9.38 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §9.39 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §9.38 | 2026-11-25-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Entire mathematical lines 7–109, blob fa09a923ef076a99d638d038020ddd3b884afaa7; pole purity, codimension of singular locus and meromorphic continuation checked conditionally. [Report](reports/2026-11-25-tube-weighted-convex-envelope.md); no complete upstream certificate or historical first-visit claim |
+| §9.39 | 2026-11-25-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Entire mathematical lines 7–177, blob a94e3aa490fee004284dab37f4f6e35094bf2bfa; moment vanishing, compressed loops, center gluing, conic and weighted convex obstacle deduction. [Report](reports/2026-11-25-tube-weighted-convex-envelope.md); no complete upstream certificate or historical first-visit claim |
 | §9.40 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.41 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.42 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
