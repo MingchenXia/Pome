@@ -1,3 +1,7 @@
+> **2026-11-26 — weighted arithmetic growth and uniform minimal multiplicities.** **POME-ARITHMETIC-GROWTH-WEIGHTED-EVALUATION-RANK-001** and **POME-MINIMAL-MULTIPLICITY-UNIFORM-BIG-LOCUS-001** (low / verified conditional deductions): an evaluation-rank weighted interpolation bound with a finite greedy rank formula and sharp equal-degree reduced complete-intersection family; simultaneous Lipschitz control of all point and divisor minimal multiplicities on compact subsets of the big cone, including linear radial error. Selected §§9.55–56,10.4–5; heading-only §9.54 and overview §10.1. Main b6933b772f41b45918f7e25ed1afbbb1fd892272. [Proof and exact anchors](reports/2026-11-26-weighted-arithmetic-growth-and-uniform-minimal-multiplicities.md). No new confirmed errors, demonstrated gaps or full upstream certificates; designated excluded programmes deferred-by-user. No tests/build/CI or production edits.
+
+---
+
 > **2026-11-26 — higher-dimensional moving polar traces.** **POME-POLAR-TRACE-HIGHER-DIM-MOVING-POLES-001** (low / verified conditional deduction): Proposition 18.26.13 extends from surfaces to every projective space of dimension n>=2, for any prescribed distinct points and any positive null sequence of target errors. Taking the positive (n−1)-st root of the sum of the pullback Kähler power and a small Gauduchon power produces admissible independent Gauduchon choices on even non-Kähler modifications; the polar comparison tends to zero while the volume deficit remains a^n. Selected direct §§18.26.1–.13 (physical 7–351), §5.46.3–.5 dependency recheck; whole problem introduction §24.1. §18.2 convention introduction read, approximation discussion only recorded as deferred. Main b6933b772f41b45918f7e25ed1afbbb1fd892272. [Proof and exact anchors](reports/2026-11-26-higher-dimensional-moving-polar-traces.md). No new confirmed errors, demonstrated gaps or complete upstream certificates; exclusions deferred-by-user; no tests/build/CI or production edits.
 
 ---
@@ -648,9 +652,9 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §9.51 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.52 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.53 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §9.54 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §9.55 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §9.56 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §9.54 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-26:** Heading-only, physical line 5, no mathematical claim. [Report](reports/2026-11-26-weighted-arithmetic-growth-and-uniform-minimal-multiplicities.md). Historical coverage unreconciled. |
+| §9.55 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-26:** Selected 7–114, blob 465572b3785941e02714482e9d69735fcbcdcc73; excluded weighted extension arguments not reviewed. [Report](reports/2026-11-26-weighted-arithmetic-growth-and-uniform-minimal-multiplicities.md). Historical coverage unreconciled. |
+| §9.56 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-26:** Selected 7–56,159–171,177–192, blob 8ff4e22eede7fe72ba7bbceeb221ef8b2ed20cf7; conditional limit argument, extension proof deferred. [Report](reports/2026-11-26-weighted-arithmetic-growth-and-uniform-minimal-multiplicities.md). Historical coverage unreconciled. |
 | §9.57 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.58 | HISTORIC-FULL-REPORTED | See existing dated reports and COVERAGE.md |
 | §9.59 | HISTORIC-FULL-REPORTED | See existing dated reports and COVERAGE.md |
@@ -672,11 +676,11 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §9.75 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.76 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §9.77 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §10.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-26:** Overview lines 7–16, blob 6f817fc2a3effc4c21e3ec5f7b1bb63f9ba66480; no theorem-chain certificate. [Report](reports/2026-11-26-weighted-arithmetic-growth-and-uniform-minimal-multiplicities.md). Historical coverage unreconciled. |
 | §10.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-24:** Selected trace/Hodge and dd-c lemma 10.2.11–15; not whole; [report](reports/2026-11-24-stein-union-global-differential-complex.md); no transitive certificate. |
 | §10.3 | 2026-11-24-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-24:** Whole current mathematical lines 7–158, blob 6f5ff9b768ca4f5c0892dc59398cfda1f7d44df3; [report](reports/2026-11-24-stein-union-global-differential-complex.md); no transitive certificate. |
-| §10.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §10.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-26:** Selected 7–119, blob bb15c51bfaf241d9b74bb16415c3083c4bc9f42e; later approximation programme not audited. [Report](reports/2026-11-26-weighted-arithmetic-growth-and-uniform-minimal-multiplicities.md). Historical coverage unreconciled. |
+| §10.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-26:** Selected 7–86, blob 40c4d72d5f493cde3dfdb343e7d31f3b6c3f4907; uniform multiplicity deduction, no whole-section claim. [Report](reports/2026-11-26-weighted-arithmetic-growth-and-uniform-minimal-multiplicities.md). Historical coverage unreconciled. |
 | §10.6 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.7 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
