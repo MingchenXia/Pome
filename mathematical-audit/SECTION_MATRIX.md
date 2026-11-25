@@ -622,7 +622,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §9.21 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-25:** Direct conditional review lines 7–160, blob 24d99bc46c2bd2bd0a785e28d545193f0749e708, weighted existence dependency not reopened. [Report](reports/2026-11-25-partial-reinhardt-and-meromorphic-composition.md); no transitive certification. |
 | §9.22 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20** full mathematical lines 7–98 (blob 1279ba00791fa992f753ddd35a63cfc0fa36973f); new verified conditional POME-FB-LEVI-FLAT-JACOBIAN-VOLUME-001 [proof](reports/2026-11-20-smooth-fatou-bieberbach-leviflat-boundary.md); no false printed theorem or transitive certificate |
 | §9.23 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20** full mathematical lines 7–71 (blob 04780d065ee474f3bb3255db297ac435e00485a1), spectral factor Hilbert/Toeplitz proof checked; [coverage](coverage/2026-11-20-ch9-tubes-fatou-bieberbach-spectral-factor.md); earlier order/determinant finding not repeated |
-| §9.24 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §9.24 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-26:** Whole mathematical lines 7–202, blob e19df8fd1692c138eddd5f2fff8822de588e03ec; strong exposure/support Hessian deduction; historical 14 November partial retained. [Report](reports/2026-11-26-stationary-disc-strong-exposure.md). No transitive certification. |
 | §9.25 | 2026-11-24-HEADING-ONLY; LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-24:** Heading-only direct (blob 89f1c30a6df3c3df624fd05943a5cc64460824b8); [report](reports/2026-11-24-stein-union-global-differential-complex.md); no transitive certificate. |
 | §9.26 | 2026-11-24-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-24:** Whole current mathematical lines 7–67, blob c04701d0358d43a3a3f1aed61e7cdd2a48305417; regularized-max dependency taken as premise; [report](reports/2026-11-24-stein-union-global-differential-complex.md); no transitive certificate. |
 | §9.27 | 2026-11-24-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-24:** Whole current mathematical lines 8–47, blob 26b2e856fc24b04616b0840caec5c688cc045ffa; global differential complex deduction; prior selected work retained; [report](reports/2026-11-24-stein-union-global-differential-complex.md); no transitive certificate. |
@@ -685,7 +685,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §10.7 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.9 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.10 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §10.10 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-26:** Whole introduction lines 8–20, blob d7e500c4b129e9e54b4d9d606cbda70beba65c69; no dependency certificate. [Report](reports/2026-11-26-stationary-disc-strong-exposure.md). No transitive certification. |
 | §10.11 | THIS-RUN-FULL; LEGACY-UNRECONCILED | Full direct read 2026-11-21, lines 5–57, new POME-HERMITIAN-BC-NEF-CONE-CLOSED-001 (low / verified conditional deduction; no source error); legacy history unreconciled; [proof](reports/2026-11-21-exponential-ma-data-stability-and-hermitian-nef-closure.md), [coverage](coverage/2026-11-21-ch15-comparison-ch10-bc-nef-ch20-selected.md); +0 complete upstream chains |
 | §10.12 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.13 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
@@ -694,7 +694,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §10.16 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.17 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.18 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.19 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §10.19 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-26:** Selected nonexcluded lines 7–137, 178–289, blob 412042bdf10c98ab00bb1cb589bb0d4b0373f6c1; descent, BC cones, cubic volume and minimizing square degeneration. Not whole. [Report](reports/2026-11-26-stationary-disc-strong-exposure.md). No transitive certification. |
 | §10.20 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.21 | 2026-11-25-CURRENT-DIRECT-WHOLE; LEGACY-UNRECONCILED | Entire integrated mathematical lines 7–120, blob `77de3087c6e9fb85dd397a633ee45140051abf1c`; ramification, Hopf pullback, Schur complement normal distance, exceptional residual, Pogorelov and power examples; [report](reports/2026-11-25-radial-unbounded-finite-distance.md); historical first visit unasserted, no transitive certification |
 | §10.22 | 2026-11-25-CURRENT-DIRECT-WHOLE; LEGACY-UNRECONCILED | Entire integrated mathematical lines 7–113, blob `239bbc1a79923b3728c535de109261f852efe059`; radial slope, mass normalization, three asymptotic regimes and sparse mass counterexample to the implication from finite distance to boundedness; [report](reports/2026-11-25-radial-unbounded-finite-distance.md); historical first visit unasserted, no transitive certification |
