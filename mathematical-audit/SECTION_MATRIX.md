@@ -1,3 +1,7 @@
+> **2026-11-26 — complete filtrations and sharp primitive loss.** **POME-SPECTRAL-COMPLETE-FILTRATION-BOUNDED-LOSS-001** (low / verified conditional deduction): for degreewise complete separated exhaustive filtered complexes with global finite-page collapse at R>=1, every stable graded cycle lifts to an actual cycle, every boundary in F^p has a primitive in F^(p-R+1) (optimal loss R-1), and induced cohomology is complete separated with associated graded E_R. Graded comparison gives a filtered isomorphism. The printed finite-filtration theorem and incomplete-tail counterexample remain correct. Whole direct conditional §§10.54–56; no historical first-visit claim. Main b6933b772f41b45918f7e25ed1afbbb1fd892272. [Proof and exact anchors](reports/2026-11-26-complete-filtration-bounded-boundary-loss.md). Zero newly confirmed errors, demonstrated gaps or complete upstream certificates; designated exclusions deferred-by-user; no tests/build/CI or production edits.
+
+---
+
 > **2026-11-26 — minimum-norm dd^c potentials and smooth bundle rotation.** **POME-HODGE-DDC-MINIMUM-NORM-POTENTIAL-001** (low / verified conditional deduction): for an exact closed pure form alpha, the unique minimum-L2 solution is 4pi^2(dd^c)^*G^2 alpha and its squared norm is 4pi^2||G alpha||^2; the printed -2pi Lambda G alpha need not minimize norm in higher bidegree, as an explicit product of flat elliptic curves shows. Whole direct conditional §§10.36,10.47; selected §10.33.2/.6 and repeat nonexcluded §19.8. Main b6933b772f41b45918f7e25ed1afbbb1fd892272. [Proof and exact anchors](reports/2026-11-26-ddc-minimum-norm-and-flat-bundle-rotation.md). Zero newly confirmed errors, demonstrated gaps or full upstream certificates. Exclusions deferred-by-user; no builds/tests/CI or production edits.
 
 ---
@@ -749,9 +753,9 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §10.51 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.52 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.53 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.54 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.55 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.56 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §10.54 | LEGACY-UNRECONCILED | Prior reports not fully reconciled **2026-11-26 WHOLE DIRECT CONDITIONAL:** physical lines 7–168, blob 2d26dcf0ea764f1d8823bae057dc951063053a50; page quotient, convergence, edges, sharp complete-filtration deduction. [Report](reports/2026-11-26-complete-filtration-bounded-boundary-loss.md); no upstream certification. |
+| §10.55 | LEGACY-UNRECONCILED | Prior reports not fully reconciled **2026-11-26 WHOLE DIRECT CONDITIONAL:** physical lines 7–170, blob 83ea6c60c0691a7e3559214e363361863f3ea2a2; shift signs, hypercohomology, Leray edge and stalks. [Report](reports/2026-11-26-complete-filtration-bounded-boundary-loss.md); no upstream certification. |
+| §10.56 | LEGACY-UNRECONCILED | Prior reports not fully reconciled **2026-11-26 WHOLE DIRECT CONDITIONAL:** physical lines 7–198, blob 69cfb501098d00134ef6fe08d485e946af87fc76; support-preserving lifts, compact-support comparison, finite Čech cochains. [Report](reports/2026-11-26-complete-filtration-bounded-boundary-loss.md); no upstream certification. |
 | §10.57 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.58 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.59 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
