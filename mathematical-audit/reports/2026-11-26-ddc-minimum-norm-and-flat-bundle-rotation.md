@@ -1,0 +1,41 @@
+# 2026-11-26 — minimum-norm dd^c potentials and smooth-bundle rotation
+
+Reviewed main: b6933b772f41b45918f7e25ed1afbbb1fd892272. Audit base: acf3971eb56202e75e575936252ebb2373664a2f. AGENTS.md and documentation/proof-expansions.md and the audit branch's LATEST.md and README.md were freshly read. The 17 October exclusion remains controlling: Demailly approximation/regularization and its dedicated Bergman, L2, OT, multiscale and positivity-loss programme are deferred-by-user, not verified. The compact scalar Hodge calculation below is independent of that programme.
+
+## POME-HODGE-DDC-MINIMUM-NORM-POTENTIAL-001
+
+Severity low; verified conditional deduction (not a false theorem or a demonstrated proof gap). Exact anchor: docs/sections/hodge-theory-curvature-and-compact-vanishing--hodge-structure-and-lefschetz-decomposition/index.html, blob 2d268e8c6e34c11d84aba09163e6334ba037b46f, physical lines 68–139, especially Theorem 10.47.9, permanent tag 2D8E3EA88B37, source tag F1956C8A, and equation 10.47.10, tag ADCFFFB0C70B/source 3737EAE7. The theorem is correct: its potential is not asserted to minimize norm. The following gives the canonical minimum-norm choice in every bidegree, which differs from the displayed potential in general.
+
+Assume the printed compact Kähler hypotheses and the smooth Hodge/Green and scalar Kähler identities of 10.47.7, 10.46.6/10.46.10 and 10.33.2. Let alpha be a smooth d-closed (p,q)-form, with harmonic projection zero. Put D = dd^c = i AB/(2pi), A = partial, B = barpartial; let H = square and G its Green operator. All operators have the appropriate source and target bidegrees. The scalar identities give AA*+A*A = BB*+B*B = H, BA*+A*B = 0, and commutation of G with all these differential operators. In particular A G^2 alpha = B G^2 alpha = 0. The adjoint is D* = -i B*A*/(2pi).
+
+Set
+
+    beta_min = 4 pi^2 D* G^2 alpha = -2 pi i B*A* G^2 alpha.
+
+To check D beta_min = alpha, put w=G^2 alpha. Because Bw=0 and BA*=-A*B, we have BA*w=0. Consequently BB*A*w=H A*w and
+
+    AB B*A*w = A H A*w = H A A*w = H^2 w = alpha.
+
+The last equality uses Pi alpha=0. Multiplication by the scalar prefactors gives the asserted solution, without assuming invertibility on the harmonic part. In the out-of-range bidegrees alpha is zero by the original theorem, and the formula is zero.
+
+For any other smooth solution beta, beta-beta_min lies in ker D. Integration by parts gives
+
+    <beta_min, beta-beta_min> = 4 pi^2 <G^2 alpha, D(beta-beta_min)> = 0.
+
+The same orthogonality holds for L2 forms solving the equation in distributions by testing the distributional equation against the smooth form G^2 alpha. Thus the displayed smooth form is the unique minimum global L2 norm solution, even among such distributional L2 solutions, and the squared norm has the exact formula
+
+    ||beta_min||^2 = 4 pi^2 <G^2 alpha, alpha> = 4 pi^2 ||G alpha||^2.
+
+Every solution has squared norm equal to this plus ||beta-beta_min||^2. This is an equality in the given metric, not a claim of metric independence. In real (p,p) type the solution is real by uniqueness, since conjugation is isometric and D is real. For (1,1) the printed potential is harmonic-orthogonal (Lambda commutes with G and Pi) and the kernel of dd^c on smooth functions consists of componentwise constants, so the two choices coincide there. The same conclusion follows by the scalar Laplacian or the maximum principle.
+
+A strict distinction in higher degree: take the product of two flat elliptic curves with product Kähler form omega=omega_1+omega_2, and a nonzero real mean-zero smooth function f of the first factor alone. Let alpha=dd^c(f omega_2). The printed potential is f(omega_1+omega_2). Indeed dd^c f is a multiple of omega_1, and applying the first-factor Green identity to dd^c f gives G dd^c f= - f omega_1/(2pi); this follows also from (10.47.10) on the first factor, since its harmonic-orthogonal function solution is f and Lambda_1 omega_1=1. The product Laplacian on forms pulled back from the first factor and wedged with the parallel omega_2 acts by the first-factor Laplacian, and the resulting Green solution is orthogonal to the harmonic forms (equivalently use a nonconstant Fourier eigenfunction f on the flat torus). Hence G alpha=-f omega_1 wedge omega_2/(2pi) and Lambda(omega_1 wedge omega_2)=omega_1+omega_2. But f omega_2 is another solution, with strictly smaller norm: omega_1 and omega_2 are pointwise orthogonal and have equal unit norms. Thus the norm squared of the printed choice is twice that of this competitor; this is not an error in the printed existence statement. Alternatively choose f to be any nonconstant real Fourier eigenfunction from the first factor throughout this example.
+
+Proposed optional addition: append the adjoint-Green formula and orthogonality statement after 10.47.10. No production edit. It gives an explicit canonical Hilbert-space right inverse on the exact closed forms; no previously stated dependent result is invalidated. 10.47.11 uses its own Aeppli decomposition, so does not need to be changed. No general non-Kähler Bott–Chern Laplacian estimate is asserted. The smooth Hodge theorem and Green regularity are still internal inputs, not independently certified here.
+
+## Coverage
+
+- Whole direct conditional 10.47: mathematical physical lines 7–253 of the above blob. Checked sl2 lowering coefficients and termination, distinct L Lambda eigenvalues and spectral projectors, factorial ratios for inverse hard Lefschetz, scalar mixed anticommutators, sign and 2pi normalization of the dd^c formula, the Aeppli decomposition including boundary bidegrees, canonical metric-independent type decomposition and cohomological primitivity. The reference at line 63 describes a special (n,1) calculation, but the required general commutator follows directly from 10.33.6, equation 10.33.7 with R_jk=delta_jk: sum of unbarred/barred occupation operators minus n gives k-n on k-forms. No substantive gap found there.
+- Selected dependency 10.33.2 and 10.33.6, docs/sections/vector-bundles-connections-and-extensions--vector-bundle-curvature-and-compact-dolbeault-estimates/index.html, blob 99198f7b7c618ddefbf4cb21e0c5a0ef8a9c083c, lines 30–117, tags 836B94BFF74C and DAA549FD5760. Checked mixed anticommutator, curvature normalization and all-degree exterior-contraction identity. Not whole section or independent analytic Hodge proof; no positivity-loss estimate or extension programme opened.
+- Whole direct conditional 10.36, docs/sections/vector-bundles-connections-and-extensions--smooth-bundles-connections-and-holomorphic-extensions/index.html, blob a279d0fdc49429317a4772c932547934cc5c7f97, mathematical lines 7–298. Checked gauge law, Bianchi and Hom sign, ODE series and its parameter differentiation, flat-frame construction and continuous-homotopy transport including right action (p,v) gamma=(p composed with gamma,rho(gamma)^(-1)v), metric connection uniqueness, transverse-zero orientation and d(dz/z) sign, block curvature and extension diagram classification, including explicit O(-2) injections into O^2 on P^1 with distinct spans. Anchors 10.36.6/08655B144691, 10.36.10/B7A8F8D8A536, 10.36.12/84111D436822, 10.36.13/304DF496E0BF, 10.36.14/732A25F31FC3. The used local Dolbeault exactness, current de Rham comparison and integral curvature comparison remain internal dependencies; no full transitive certification. No new confirmed errors or demonstrated gaps.
+- Selected repeat 19.8, docs/sections/holomorphic-sections-and-hermitian-mass/index.html, blob 5f00431e7986d899dc833c89175686b75f09371d, lines 104–248 and 255–288: degree and restricted section inequalities, weighted bounded section algebra and curve rounding, existing findings POME-RESTRICTED-SECTION-SIMULTANEOUS-TRACE-SATURATION-001 and prior rounding check not counted again. Lines 291–387 were read for scope, not a new Bergman proof audit; excluded approximation work remains deferred. No whole-section claim.
+- Two prior LEGACY-UNRECONCILED rows have whole current direct conditional coverage now; historic first visits cannot be inferred. No full proof-chain certification. No software tests, builds, CI, source, registry, main, or publication changes. No new false theorem or demonstrated proof gap.
