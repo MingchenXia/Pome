@@ -559,16 +559,16 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §6.32 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §6.33 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §6.34 | 2026-11-24-SELECTED; LEGACY-UNRECONCILED | Selected lines 7–40, collar Lemma 6.34.1; [review](reports/2026-11-24-normal-fiber-uniform-vague-continuity.md). Not whole. |
-| §6.35 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §6.35 | 2026-11-26-FULL-DIRECT-CONDITIONAL; LEGACY-UNRECONCILED | Whole current math lines 7–40, blob d815e0a11cf3aab85abcebd9d5a943ba72c1dedb; proper-support weight projection and finite-sheet number. [Report](reports/2026-11-26-generic-multiplicity-effective-jet-stability.md) Historical first visit unasserted; zero complete transitive chains. |
 | §6.36 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §6.37 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §6.38 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §6.38 | 2026-11-26-FULL-DIRECT-CONDITIONAL; LEGACY-UNRECONCILED | Whole current math lines 7–96, blob a74bd5c4cecc4d310f4b7b08af1b96bc8ff667e0; cone estimate, actual covering, density and multiplicity one. [Report](reports/2026-11-26-generic-multiplicity-effective-jet-stability.md) Historical first visit unasserted; zero complete transitive chains. |
 | §6.39 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §6.40 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §6.41 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §6.42 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §6.42 | 2026-11-26-FULL-INTRO; LEGACY-UNRECONCILED | Entire introduction, line 7, blob 6277ee1be4d5cc08777aca6c82e9663518be6961; classical product and normalization conventions. [Report](reports/2026-11-26-generic-multiplicity-effective-jet-stability.md) Historical first visit unasserted; zero complete transitive chains. |
 | §6.43 | 2026-11-24-FULL-DIRECT; LEGACY-UNRECONCILED | Whole current mathematical lines 7–55, e2a86c5438c7770a8766f6bedf779e1879ead4c0; [review](reports/2026-11-24-normal-fiber-uniform-vague-continuity.md). Historical first visit unasserted; zero complete transitive chains. |
-| §6.44 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §6.44 | 2026-11-26-FULL-DIRECT-CONDITIONAL; LEGACY-UNRECONCILED | Whole current math lines 7–100, blob 3dfb298e0076d50d56be26c8ebc06e5c1d341196; plane average and generic integer; POME-GENERIC-MULTIPLICITY-EFFECTIVE-JET-STABILITY-001. [Report](reports/2026-11-26-generic-multiplicity-effective-jet-stability.md) Historical first visit unasserted; zero complete transitive chains. |
 | §6.45 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §6.46 | 2026-11-24-FULL-DIRECT; LEGACY-UNRECONCILED | Whole current mathematical lines 7–63, 1f44c5feb546ecfe43ec1bc752d3fd0bff501613; [review](reports/2026-11-24-normal-fiber-uniform-vague-continuity.md). Historical first visit unasserted; zero complete transitive chains. |
 | §6.47 | 2026-11-24-FULL-DIRECT; LEGACY-UNRECONCILED | Whole current mathematical lines 7–45, bad5cd9bb63a90871462700f5c1f7080c597ee99; [review](reports/2026-11-24-normal-fiber-uniform-vague-continuity.md). Historical first visit unasserted; zero complete transitive chains. |
