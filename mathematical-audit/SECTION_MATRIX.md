@@ -964,13 +964,13 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §15.27 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-20**, mathematical lines 7–158, main blob `fc7d4f24f72d9b6ec898eedc961b789e65ef3e25`; lower-mass domination, scalar compactness and diagonal obstruction directly checked, no new printed error; [coverage](coverage/2026-11-20-shrinking-sphere-holder-spectrum-and-lower-mass-review.md), no upstream chain or historic first-visit assertion |
 | §15.28 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §15.29 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §15.30 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §15.31 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §15.30 | LEGACY-UNRECONCILED | Prior reports not fully reconciled **2026-11-26:** Whole direct conditional lines 7–243, blob 650b84dd3d354e2da7c27f66f8670c0c882748f2; [report](reports/2026-11-26-curve-exponential-linear-response.md). No complete upstream certificate. |
+| §15.31 | LEGACY-UNRECONCILED | Prior reports not fully reconciled **2026-11-26:** Whole direct conditional lines 7–343, blob faaa787720a2f791dc9526724427e9b669516051; [report](reports/2026-11-26-curve-exponential-linear-response.md). No complete upstream certificate. |
 | §15.32 | 2026-11-26-FULL-CONDITIONAL | Physical lines 7–294, blob 903ae0ce7173604063a833295dd94e971b18fd72; whole direct conditional, no new error; prior history legacy-unreconciled. [Report](reports/2026-11-26-warped-hessian-exact-trace-concentration.md) |
 | §15.33 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §15.34 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §15.35 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §15.36 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §15.36 | LEGACY-UNRECONCILED | Prior reports not fully reconciled **2026-11-26:** Whole direct conditional lines 7–199, blob e007da9bd1c2136d289b278ba69a9cf8d4694d9e; [report](reports/2026-11-26-curve-exponential-linear-response.md). No complete upstream certificate. |
 | §15.37 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §16.1 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-25 whole introductory direct lines 7–19; blob 1751b26b427c36506d7ed35ca6f52aefc56f8b04.** [Report](reports/2026-11-25-logarithmic-domination-and-envelope-trace-refinement.md). No transitive certification; historical first visit not asserted. |
 | §16.2 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-25 whole introductory direct line 7; blob 912f81b3bccf3e1ead96fd18005261a708dfcb4e.** [Report](reports/2026-11-25-logarithmic-domination-and-envelope-trace-refinement.md). No transitive certification; historical first visit not asserted. |
