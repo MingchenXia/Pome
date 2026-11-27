@@ -818,7 +818,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §10.48 | 2026-11-27-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Whole mathematical lines 8–99, blob 2e93425bed7c9a6092407b10e1a276b1f42552f9; rank and duality checks. [Report](reports/2026-11-27-distributional-hodge-contraction.md). No full upstream certificate or historic first-visit claim. |
 | §10.49 | 2026-11-27-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Whole mathematical lines 7–209, blob 4b0f765b63e998da517003174a27ca7c1fce14b8; spectral calculus, fixed metric estimates, duplicate proof. [Report](reports/2026-11-27-distributional-hodge-contraction.md). No full upstream certificate or historic first-visit claim. |
 | §10.50 | 2026-11-23-FULL; LEGACY-UNRECONCILED | Entire current direct mathematical lines 7–88, blob `a45ae3fefbf6746eca800f490163ac7ce2456c07`; 2026-11-23 MV sphere/projective cohomology/FS normalization review; [scope](coverage/2026-11-23-rooftop-comparison-and-projective-cohomology.md). Earlier selected work preserved; no complete transitive Hodge proof certification |
-| §10.51 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §10.51 | 2026-11-27-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Whole current lines 7–149, blob 1099020d78b8b36519f68ba31ce180c0d843f518; prior 2026-11-13 selected character review preserved; explicit hyperplane restriction and branching. [Report](reports/2026-11-27-projective-horizontal-form-restriction.md); no historic first-visit claim or upstream certificate. |
 | §10.52 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.53 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.54 | LEGACY-UNRECONCILED | Prior reports not fully reconciled **2026-11-26 WHOLE DIRECT CONDITIONAL:** physical lines 7–168, blob 2d26dcf0ea764f1d8823bae057dc951063053a50; page quotient, convergence, edges, sharp complete-filtration deduction. [Report](reports/2026-11-26-complete-filtration-bounded-boundary-loss.md); no upstream certification. |
@@ -840,8 +840,8 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §10.70 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.71 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.72 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.73 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.74 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §10.73 | 2026-11-27-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Whole current lines 7–44, blob 1e9f8a101aedc20796ea0c47caa03f452e2c6b9a; finite-support trace signs and full algebraic duality. [Report](reports/2026-11-27-projective-horizontal-form-restriction.md); no historic first-visit claim or upstream certificate. |
+| §10.74 | 2026-11-27-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Whole current lines 8–80, blob 385bebe2af8332cfa8d7974b990798670e60ce36; integral cap, framed tube and real current signs. [Report](reports/2026-11-27-projective-horizontal-form-restriction.md); no historic first-visit claim or upstream certificate. |
 | §10.75 | HISTORIC-FULL-REPORTED | See existing dated reports and COVERAGE.md |
 | §10.76 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.77 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
