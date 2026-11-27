@@ -1,3 +1,7 @@
+> **2026-11-27 — exact denominator of the Albanese polarization.** **POME-ALBANESE-DUAL-POLARIZATION-EXPONENT-001** (low / verified conditional deduction, not a printed error): in Theorem 10.80.4 the map B identifies the Albanese period lattice exactly with the E-dual of the Picard lattice, where E=Im h. The finite kernel Lambda^#/Lambda has a perfect alternating pairing modulo Z. The least positive integer making the transported form integral is its exponent e, not the unnecessarily sufficient square m² in the printed proof. Whole direct conditional §§10.79–81, historical first visits unreconciled. Main b6933b772f41b45918f7e25ed1afbbb1fd892272. [Proof and anchors](reports/2026-11-27-albanese-dual-polarization-exponent.md). Zero new confirmed errors, demonstrated gaps or complete upstream certificates; exclusions deferred-by-user; no tests/build/CI or production edits.
+
+---
+
 > **2026-11-27 — non-Hausdorff completed Tor and reduced tensor cohomology.** **POME-TOR-HAUSDORFF-INDEPENDENCE-001** (low / verified conditional deduction): a diagonal action of O(C) on O(C) yields vanishing positive Tor but a nonzero indiscrete degree-zero quotient, so Hausdorffness in transversality is independent; dual numbers acting by a square-zero block give nonzero indiscrete Tor in every positive degree. **POME-NUCLEAR-REDUCED-TENSOR-001** (low / verified conditional deduction): tensoring with a fixed nuclear Fréchet space commutes with reduced cohomology without closed-boundary assumptions, by identifying the closure of the actual tensor boundary image. Whole direct conditional §§9.41,9.43–45; contextual §§2.12.5,2.13.4–5. Prior periodic finite-dimensional Tor result not repeated. Main b6933b772f41b45918f7e25ed1afbbb1fd892272. [Proof and anchors](reports/2026-11-27-completed-tor-nonhausdorff-and-reduced-tensors.md). No new confirmed errors, demonstrated gaps or complete upstream certificates; exclusions deferred-by-user; no tests/build/CI or production edits.
 
 ---
@@ -822,9 +826,9 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §10.76 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.77 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.78 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.79 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.80 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.81 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §10.79 | 2026-11-27-FULL; LEGACY-UNRECONCILED | Prior reports not fully reconciled; whole direct conditional mathematical lines 7–252, blob 81ec78509629e15d648cfd3b686fe4d691437330. [Report](reports/2026-11-27-albanese-dual-polarization-exponent.md). No transitive certification or historical first-visit claim. |
+| §10.80 | 2026-11-27-FULL; LEGACY-UNRECONCILED | Prior reports not fully reconciled; whole direct conditional mathematical lines 7–150, blob f9b42d19c3b216883c147bc8b47f7af4b22bf026. [Report](reports/2026-11-27-albanese-dual-polarization-exponent.md). No transitive certification or historical first-visit claim. |
+| §10.81 | 2026-11-27-FULL; LEGACY-UNRECONCILED | Prior reports not fully reconciled; whole direct conditional mathematical lines 8–15, blob bf4f45ec25bac897ca8248be581a52ef82f4e62f. [Report](reports/2026-11-27-albanese-dual-polarization-exponent.md). No transitive certification or historical first-visit claim. |
 | §10.82 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.83 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.84 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-25 WHOLE DIRECT:** mathematical lines 7–44, blob ca98ecdb53f2ec77b439fdeb826dfa1dc6c60bdc; Frölicher rank loss and first Betti bound. [Report](reports/2026-11-25-double-complex-splitting-and-weighted-hodge-descent.md). No complete upstream certification; historical first visit unasserted. |
