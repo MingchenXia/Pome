@@ -885,9 +885,9 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §11.10 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §11.11 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §11.12 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-24:** Whole historical repeat lines 7–169, blob 9d8c639c4460719360048213e58aa08138dd1a71; prior 2026-11-08 nonsmooth-polar finding not new. [Report](reports/2026-11-24-polynomial-damping-capacity-three-regimes.md); no transitive certification. |
-| §11.13 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §11.14 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §11.15 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §11.13 | 2026-11-27-DIRECT-FULL-CONDITIONAL; LEGACY-UNRECONCILED | Prior reports not fully reconciled. **2026-11-27:** whole current mathematical lines 7–195, blob 6d836a2ed19f76c26311025602fb44a56713e390; [proof and scope](reports/2026-11-27-hirzebruch-universal-extension-stability-chamber.md). No complete upstream certificate. |
+| §11.14 | 2026-11-27-DIRECT-FULL-CONDITIONAL; LEGACY-UNRECONCILED | Prior reports not fully reconciled. **2026-11-27:** whole current mathematical lines 7–143, blob 03559e82ef17c97d04258775312d994ec217e376; [proof and scope](reports/2026-11-27-hirzebruch-universal-extension-stability-chamber.md). No complete upstream certificate. |
+| §11.15 | 2026-11-27-DIRECT-FULL-CONDITIONAL; LEGACY-UNRECONCILED | Prior reports not fully reconciled. **2026-11-27:** whole current mathematical lines 7–142, blob 08ac54c401030e52cf3001d6ddc146fc35956d54; [proof and scope](reports/2026-11-27-hirzebruch-universal-extension-stability-chamber.md). No complete upstream certificate. |
 | §11.16 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §11.17 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §11.18 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-24:** Selected lines 51–123, blob fab309d460a8411fefcd1ef32a094927d6feea10; external HE existence at line 99. [Report](reports/2026-11-24-polynomial-damping-capacity-three-regimes.md); no transitive certification. |
