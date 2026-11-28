@@ -1,3 +1,7 @@
+> **2026-11-28 — Gauduchon elliptic extension and density support.** **POME-GAUD-EK-HISTORY-XREF-001** (low / confirmed reference error): §14.17.1 line 45 links to historical §25.6, which states no Evans–Krylov estimate; propose §8.5's explicit formulation, retaining history and existing external-input status. **POME-GAUD-ANSATZ-DENSITY-SUPPORT-001** (low / verified conditional deduction): with a=(n-1)/n, b_G-b_F≤−a⁻¹ log∫exp(a(G−F))dμ_F; the transformed positive-density scalar S(r)=exp(−a b((log r)/a)) is a supremum of linear supports and convex, with variance lower bound −b''≥a Var. Whole direct conditional §14.17, whole historical exposition §25.6, repeat §§14.10,14.12,14.13,14.18 and selected §8.5. Main b6933b772f41b45918f7e25ed1afbbb1fd892272. [Report](reports/2026-11-28-gauduchon-elliptic-extension-and-density-support.md). No new false theorem or full upstream certificate; exclusions deferred-by-user; no tests/build/CI or production edits.
+
+---
+
 > **2026-11-28 — continuous homogeneous psh functions and projective-complement convexity.** **POME-COMPLEMENT-CONTINUOUS-HOMOGENEOUS-PSH-001** (low / verified conditional deduction): Proposition 11.21.1 needs no smoothness of the positive homogeneous psh function; the radial maximum and implicit smooth upper test give the same maximal convexity index n+r. **POME-TAUTOLOGICAL-CONTINUOUS-PSH-METRIC-IFF-001** (low / verified conditional deduction): positive continuous homogeneous G is psh exactly when the corresponding dual tautological metric has psh local weights, by harmonic comparison and a holomorphic rescaling on disks. Whole direct conditional §§11.10,11.11,11.21; selected §§11.9,11.17,11.18; mixed Hopf interval unchanged. Main b6933b772f41b45918f7e25ed1afbbb1fd892272. [Proof and anchors](reports/2026-11-28-continuous-homogeneous-psh-complement-obstruction.md). Two optional deductions, no new confirmed errors or demonstrated gaps, no full upstream certificates. Chapter 11 TOC and matrix agree at 49; matrix has 747 unique rows. Exclusions deferred-by-user; no tests/build/CI or production edits.
 
 ---
@@ -1022,7 +1026,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §14.14 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §14.15 | HISTORIC-FULL-REPORTED | See existing dated reports and COVERAGE.md |
 | §14.16 | HISTORIC-FULL-REPORTED | See existing dated reports and COVERAGE.md |
-| §14.17 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §14.17 | 2026-11-28-DIRECT-FULL-CONDITIONAL; LEGACY-UNRECONCILED | Whole mathematics lines 7–73, blob cc78a3bf05b3a384737ab0bfac89c68e594400e8; stale EK history link and conditional extension check. [Report](reports/2026-11-28-gauduchon-elliptic-extension-and-density-support.md). No upstream certificate |
 | §14.18 | 2026-11-23-DIRECT-FULL; LEGACY-UNRECONCILED | Full direct current mathematical lines 8–78, blob 07303e817cd642d6f34b8ff2c1b876a4b299c4ac; 2026-11-23 [report](reports/2026-11-23-gauduchon-surface-kl-and-trace-cross-metric.md). Earlier general Bregman finding preserved; PDE prerequisites conditional. |
 | §14.19 | 2026-11-28-SELECTED; LEGACY-UNRECONCILED | Conditional selected lines 61–124 (line 97 approximation input deferred-by-user), 133–324; blob e4a9ece552056fdc387f170362cc1cc5c5fd4091. Optimal abstract capacity iteration, not geometric sharpness. [Report](reports/2026-11-28-optimal-capacity-iteration-and-asymptotic-carrier.md). Not whole section. |
 | §14.20 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-24 CURRENT-DIRECT-FULL-INTRO:** Full current introductory mathematics lines 7–32, blob 0c1c033d7a1a76b9ccf9fbd5b4bfc8321a33f208; inherited connectedness and polarization setup. [Report](reports/2026-11-24-degenerate-ma-complete-radial-classification.md). Prior status preserved. |
@@ -1236,7 +1240,7 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §25.3 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §25.4 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §25.5 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §25.6 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §25.6 | 2026-11-28-DIRECT-FULL-EXPOSITION; LEGACY-UNRECONCILED | Whole historical exposition lines 6–10, blob 540eccc1cc56edc6f1ab69f99214d7a4736f3529; no EK statement, not a mathematical proof certificate. [Report](reports/2026-11-28-gauduchon-elliptic-extension-and-density-support.md) |
 | §25.7 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §25.8 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §25.9 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
