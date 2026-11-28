@@ -876,8 +876,8 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §10.94 | THIS-RUN-FULL; LEGACY-UNRECONCILED | **2026-11-19, POME-KAHLER-METRIC-QUADRATIC-JET-MINIMAX-001**: whole mathematical text lines 7–77, blob `4fd58352bd134c2715fc4cbf1e0074a42a7e0657`; [proof](reports/2026-11-19-kahler-metric-curvature-optimal-quadratic-jet.md), [coverage](coverage/2026-11-19-ch10-kahler-normal-metric-jet.md); no transitive certification or historical first-visit claim |
 | §10.95 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.96 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.97 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §10.98 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §10.97 | 2026-11-28-CURRENT-DIRECT-WHOLE; LEGACY-UNRECONCILED | Whole mathematical lines 7–117, blob 21ee4c9d517250bec607fa5ebd5630b41a7bd658; exact measurable determinant feasibility, compactness and equality rigidity; [report](reports/2026-11-28-measurable-determinant-gauduchon-feasibility.md); no upstream certificate or historical first-visit claim |
+| §10.98 | 2026-11-28-SELECTED; LEGACY-UNRECONCILED | Selected lines 39–135, blob 8c3b365abcfd969b94e36611e28d6b87dfddc45b; trace concentration, separation and fixed-difference nef limit; regularization input at line 37 deferred-by-user insofar as excluded; [report](reports/2026-11-28-measurable-determinant-gauduchon-feasibility.md); not full |
 | §10.99 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.100 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §10.101 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
