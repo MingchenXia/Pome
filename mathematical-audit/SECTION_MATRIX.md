@@ -1154,13 +1154,13 @@ These numbers come from the contiguous reader numbering on the individual curren
 | §18.26 | LEGACY-UNRECONCILED | Prior reports not fully reconciled  **2026-11-26:** Selected direct lines 7–351, blob a2ee9cc8be2a6dbb4eed9103ac0c5cb1ad2e07ef; higher-dimensional moving-pole trace obstruction, later diffuse constructions not read. [Report](reports/2026-11-26-higher-dimensional-moving-polar-traces.md). No transitive certification. |
 | §18.27 | LEGACY-UNRECONCILED | Prior reports not fully reconciled   **2026-11-26 selected nonexcluded:** physical 7–45, 66–95 (blob a6e3cc7cb9c6931688e089bb67b2ed12766f6a0b); §18.27.3 lines 49–62 deferred-by-user. Prior 2026-11-12 partial review retained. New all-obstacle envelope invariance [report](reports/2026-11-26-small-curvature-residual-all-obstacles.md). No whole-section or transitive certificate. |
 | §18.28 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §18.29 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §18.30 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §18.29 | 2026-11-28-SELECTED; LEGACY-UNRECONCILED | Selected conventions lines 8,29, blob 2e76f1e5ddab36aa10c2c517390b8aed6ab81e84; not full introductory review. [Report](reports/2026-11-28-fixed-section-kernel-sector-and-spectrum.md). No transitive certification or historical first-visit claim; prior reports not fully reconciled. |
+| §18.30 | 2026-11-28-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Whole mathematical lines 7–37, blob 81983c5cf4bb50d5de9006906d9fdab07137e6f4; fixed selected-space definitions and gauge. [Report](reports/2026-11-28-fixed-section-kernel-sector-and-spectrum.md). No transitive certification or historical first-visit claim; prior reports not fully reconciled. |
 | §18.31 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §18.32 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §18.33 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §18.34 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
-| §18.35 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
+| §18.34 | 2026-11-28-CURRENT-DIRECT-FULL; LEGACY-UNRECONCILED | Whole mathematical lines 7–450, blob 626a4c74bb7f5e6659320052c54ec29902646b61; exact complex sector and Berezin rank/gap. [Report](reports/2026-11-28-fixed-section-kernel-sector-and-spectrum.md). No transitive certification or historical first-visit claim; prior reports not fully reconciled. |
+| §18.35 | 2026-11-28-SELECTED; LEGACY-UNRECONCILED | Selected lines 14–67,113–137, blob fd1ca7e3112c41d229b3d37faff948a8012e5985; descent/isometry and conditional determinant limit; external Kähler quantization input 18.35.5 not certified or reopened. [Report](reports/2026-11-28-fixed-section-kernel-sector-and-spectrum.md). No transitive certification or historical first-visit claim; prior reports not fully reconciled. |
 | §18.36 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §18.37 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
 | §18.38 | LEGACY-UNRECONCILED | Prior reports not fully reconciled |
